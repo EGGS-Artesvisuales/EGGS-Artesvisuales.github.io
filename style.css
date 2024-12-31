@@ -8,17 +8,6 @@ body {
     color: #333;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Header */
-header {
-    background-color: #333;
-    color: white;
-}
-
 .navbar {
     display: flex;
     justify-content: center;
@@ -38,7 +27,6 @@ header {
 
 .nav-menu li {
     position: relative;
-    text-align: center;
 }
 
 .nav-menu a {
@@ -46,7 +34,6 @@ header {
     text-decoration: none;
     padding: 8px 15px;
     display: block;
-    font-size: 1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -71,41 +58,14 @@ header {
     z-index: 100;
 }
 
-.dropdown-menu li {
-    margin: 0;
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 .dropdown-menu a {
     padding: 10px 15px;
-    white-space: nowrap;
     color: white;
     text-decoration: none;
-    display: block;
-    font-size: 0.9rem;
-    border-radius: 5px;
-}
-
-.dropdown-menu a:hover {
-    background-color: #555;
-    color: #58a6ff;
-}
-
-/* Mostrar submenú al pasar el mouse */
-.dropdown:hover .dropdown-menu {
-    display: block;
-    animation: fadeIn 0.3s ease-in-out;
-}
-
-/* Animación del submenú */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* Botón Hamburguesa */
@@ -124,32 +84,7 @@ header {
     border-radius: 5px;
 }
 
-/* Ocultar menú en móviles inicialmente */
-#nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-#nav-menu.active {
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 10;
-    padding: 10px 0;
-}
-
-.nav-menu li {
-    text-align: center;
-    width: 100%;
-}
-
-/* Mostrar el botón hamburguesa en móviles */
+/* Mostrar menú hamburguesa en móviles */
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
@@ -158,9 +93,18 @@ header {
 
     #nav-menu {
         display: none;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
     }
 
     #nav-menu.active {
         display: flex;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        width: 100%;
     }
 }
