@@ -8,13 +8,12 @@ body {
     color: #333;
 }
 
-/* Imágenes Responsivas */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Encabezado */
+/* Header */
 header {
     background-color: #333;
     color: white;
@@ -57,7 +56,7 @@ header {
     color: #58a6ff;
 }
 
-/* Submenús (Dropdown) */
+/* Submenús */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -91,7 +90,7 @@ header {
     color: #58a6ff;
 }
 
-/* Mostrar submenús al pasar el mouse */
+/* Mostrar submenú al pasar el mouse */
 .dropdown:hover .dropdown-menu {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
@@ -127,12 +126,27 @@ header {
 
 /* Ocultar menú en móviles inicialmente */
 #nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    padding: 10px 0;
 }
 
+#nav-menu.active {
+    display: flex;
+}
+
+.nav-menu li {
+    text-align: center;
+    width: 100%;
+}
+
+/* Mostrar el botón hamburguesa en móviles */
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
@@ -141,27 +155,10 @@ header {
 
     #nav-menu {
         display: none;
-        flex-direction: column;
-        background-color: #333;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 10;
-        padding: 10px 0;
     }
 
     #nav-menu.active {
         display: flex;
-    }
-
-    .nav-menu li {
-        text-align: center;
-        width: 100%;
-    }
-
-    .dropdown-menu {
-        position: static;
     }
 }
 
