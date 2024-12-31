@@ -7,17 +7,15 @@ const navLinks = document.querySelectorAll('.nav-menu a');
 if (navToggle && navMenu) {
     // Alternar el estado del menú hamburguesa
     navToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active'); // Activa/desactiva la clase "active" en el menú
-        navToggle.classList.toggle('active'); // Cambia el estilo del botón hamburguesa
-        console.log("Menú hamburguesa activado/desactivado");
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
     });
 
-    // Cerrar el menú al hacer clic en un enlace (opcional, ideal para móviles)
+    // Cerrar el menú al hacer clic en un enlace (opcional)
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            navMenu.classList.remove('active'); // Cierra el menú
-            navToggle.classList.remove('active'); // Restaura el botón hamburguesa
-            console.log(`Navegación a ${link.getAttribute('href')}`);
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
         });
     });
 } else {
