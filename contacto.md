@@ -11,7 +11,7 @@ breadcrumbs: >
 
 Ponte en contacto para consultas, colaboraciones o cualquier pregunta. Completa el formulario a continuación:
 
-<form class="contact-form" action="https://formsubmit.co/e.garnicasanchhez@gmail.com" method="POST">
+<form class="contact-form" action="https://formsubmit.co/e.garnicasanchez@gmail.com" method="POST">
     <!-- Campos del formulario -->
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="name" required placeholder="Tu nombre">
