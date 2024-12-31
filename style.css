@@ -56,7 +56,7 @@ header {
 
 /* Submenús */
 .dropdown-menu {
-    display: none;
+    display: none; /* Oculto por defecto */
     position: absolute;
     top: 100%;
     left: 0;
@@ -118,14 +118,14 @@ header {
     border-radius: 5px;
 }
 
-/* Responsividad para Móviles */
+/* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
-        display: flex;
+        display: flex; /* Mostrar el botón hamburguesa */
     }
 
     .nav-menu {
-        display: none;
+        display: none; /* Ocultar el menú por defecto */
         flex-direction: column;
         gap: 10px;
         background-color: #333;
@@ -138,15 +138,16 @@ header {
     }
 
     .nav-menu.active {
-        display: flex;
+        display: flex; /* Mostrar el menú cuando se active */
     }
 
     .dropdown-menu {
-        display: none;
+        display: none; /* Ocultar submenús por defecto */
     }
 
     .dropdown.active .dropdown-menu {
-        display: block;
+        display: block; /* Mostrar submenús activos */
+        position: static; /* Asegurar que no se superpongan */
     }
 }
 
@@ -268,3 +269,4 @@ footer {
 .btn:hover {
     background-color: #0056b3;
 }
+
