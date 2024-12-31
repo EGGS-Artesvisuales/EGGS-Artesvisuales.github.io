@@ -1,4 +1,4 @@
-// Selección de elementos
+// Asegurar que el DOM esté listo
 document.addEventListener('DOMContentLoaded', () => {
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 navToggle.classList.remove('active'); // Restablece el estado del botón hamburguesa
             });
         });
+
+        console.log("Script de navegación cargado correctamente");
     } else {
         console.warn("No se encontraron los elementos del menú: nav-toggle o nav-menu.");
     }
-
-    // Depuración en consola
-    console.log("Script de navegación cargado correctamente");
 });
+
