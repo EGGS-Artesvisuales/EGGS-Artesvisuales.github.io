@@ -26,22 +26,24 @@ header {
 }
 
 .nav-menu li {
-    margin: 0 10px;
-    position: relative; /* Necesario para posicionar el submenú */
+    margin: 0 15px; /* Espaciado entre elementos principales */
+    position: relative; /* Necesario para el submenú */
 }
 
 /* Enlaces del Menú Principal */
 .nav-menu a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 8px 15px;
     display: block;
-    transition: background-color 0.3s;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px; /* Bordes redondeados para enlaces */
 }
 
 .nav-menu a:hover {
     background-color: #555;
-    border-radius: 5px;
+    color: #58a6ff; /* Color al pasar el mouse */
 }
 
 /* Submenús (dropdown-menu) */
@@ -50,12 +52,13 @@ header {
     position: absolute;
     top: 100%; /* Justo debajo del menú principal */
     left: 0;
-    background-color: #333;
+    background-color: #444d56; /* Color de fondo del submenú */
     list-style: none;
     margin: 0;
     padding: 0;
-    min-width: 150px;
-    z-index: 10; /* Asegura que esté sobre otros elementos */
+    min-width: 180px; /* Anchura mínima */
+    border-radius: 5px; /* Bordes redondeados */
+    z-index: 100; /* Aparece sobre otros elementos */
 }
 
 .dropdown-menu li {
@@ -63,20 +66,36 @@ header {
 }
 
 .dropdown-menu a {
-    padding: 10px;
+    padding: 10px 15px;
     white-space: nowrap;
     color: white;
     text-decoration: none;
     display: block;
+    font-size: 0.9rem;
+    border-radius: 5px; /* Bordes redondeados para enlaces del submenú */
 }
 
 .dropdown-menu a:hover {
     background-color: #555;
+    color: #58a6ff; /* Color al pasar el mouse en el submenú */
 }
 
 /* Mostrar el Submenú al pasar el mouse */
 .dropdown:hover .dropdown-menu {
     display: block; /* Se muestra el submenú */
+    animation: fadeIn 0.3s ease-in-out; /* Efecto de entrada suave */
+}
+
+/* Animación para mostrar el submenú */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 main {
