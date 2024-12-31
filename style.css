@@ -126,7 +126,14 @@ header {
 
 /* Ocultar menú en móviles inicialmente */
 #nav-menu {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav-menu.active {
+    display: flex;
     flex-direction: column;
     background-color: #333;
     width: 100%;
@@ -135,10 +142,6 @@ header {
     left: 0;
     z-index: 10;
     padding: 10px 0;
-}
-
-#nav-menu.active {
-    display: flex;
 }
 
 .nav-menu li {
@@ -160,123 +163,4 @@ header {
     #nav-menu.active {
         display: flex;
     }
-}
-
-/* Main */
-main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    display: flex;
-    gap: 15px;
-}
-
-.footer-links a {
-    color: #58a6ff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-    color: white;
-}
-
-.footer-social {
-    display: flex;
-    gap: 15px;
-}
-
-.footer-social a img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease;
-}
-
-.footer-social a img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
-}
-
-/* Formularios */
-.contact-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #333;
-}
-
-.contact-form button {
-    display: inline-block;
-    background-color: #58a6ff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #0056b3;
-}
-
-/* Botones genéricos */
-.btn {
-    display: inline-block;
-    background-color: #58a6ff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #0056b3;
 }
