@@ -83,9 +83,11 @@ header {
 }
 
 /* Mostrar Submenú al pasar el mouse (solo en escritorio) */
-.dropdown:hover .dropdown-menu {
-    display: block;
-    animation: fadeIn 0.3s ease-in-out;
+@media (min-width: 769px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        animation: fadeIn 0.3s ease-in-out;
+    }
 }
 
 /* Animación del Submenú */
@@ -140,16 +142,11 @@ header {
     }
 
     .dropdown-menu {
-        position: static;
         display: none;
     }
 
-    .dropdown:hover .dropdown-menu {
-        display: none; /* Evita conflictos en móviles */
-    }
-
-    .dropdown-menu.active {
-        display: flex;
+    .dropdown.active .dropdown-menu {
+        display: block;
     }
 }
 
