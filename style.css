@@ -17,6 +17,7 @@ header {
     padding: 10px 0;
 }
 
+/* Menú Principal */
 .nav-menu {
     list-style: none;
     margin: 0;
@@ -26,8 +27,10 @@ header {
 
 .nav-menu li {
     margin: 0 10px;
+    position: relative; /* Necesario para posicionar el submenú */
 }
 
+/* Enlaces del Menú Principal */
 .nav-menu a {
     color: white;
     text-decoration: none;
@@ -41,19 +44,36 @@ header {
     border-radius: 5px;
 }
 
-main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-section {
-    margin: 20px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
+/* Submenús (dropdown-menu) */
+.dropdown-menu {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 100%; /* Justo debajo del menú principal */
+    left: 0;
     background-color: #333;
-    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+    z-index: 10; /* Asegura que esté sobre otros elementos */
 }
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #555;
+}
+
+/* Mostrar el Submenú al pasar el mouse */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Se mu
