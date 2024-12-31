@@ -1,26 +1,16 @@
 /* General */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
 .navbar {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    background-color: #333;
 }
 
-/* Menú Principal */
 .nav-menu {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
@@ -58,17 +48,37 @@ body {
     z-index: 100;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 .dropdown-menu a {
     padding: 10px 15px;
+    white-space: nowrap;
     color: white;
     text-decoration: none;
 }
 
-/* Botón Hamburguesa */
+.dropdown-menu a:hover {
+    background-color: #555;
+    color: #58a6ff;
+}
+
+/* Mostrar submenú al pasar el mouse (escritorio) */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animación del submenú */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Menú Hamburguesa (móviles) */
 .nav-toggle {
     display: none;
     cursor: pointer;
@@ -84,27 +94,29 @@ body {
     border-radius: 5px;
 }
 
-/* Mostrar menú hamburguesa en móviles */
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex;
         margin-left: auto;
     }
 
-    #nav-menu {
+    .nav-menu {
         display: none;
         flex-direction: column;
         background-color: #333;
         width: 100%;
-        padding: 10px 0;
     }
 
-    #nav-menu.active {
+    .nav-menu.active {
         display: flex;
     }
 
-    .nav-menu li {
-        text-align: center;
-        width: 100%;
+    .dropdown-menu {
+        position: static;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: none; /* Evita conflictos en móviles */
     }
 }
