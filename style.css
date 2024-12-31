@@ -8,7 +8,7 @@ body {
     color: #333;
 }
 
-/* Ajustar imágenes automáticamente al tamaño de la pantalla */
+/* Imágenes Responsivas */
 img {
     max-width: 100%;
     height: auto;
@@ -32,7 +32,7 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
@@ -48,8 +48,8 @@ header {
     padding: 8px 15px;
     display: block;
     font-size: 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-menu a:hover {
@@ -57,7 +57,7 @@ header {
     color: #58a6ff;
 }
 
-/* Submenús (dropdown-menu) */
+/* Submenús (Dropdown) */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -106,6 +106,62 @@ header {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Botón Hamburguesa */
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Ocultar menú en móviles inicialmente */
+#nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-toggle {
+        display: flex;
+        margin-left: auto;
+    }
+
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 10;
+        padding: 10px 0;
+    }
+
+    #nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .dropdown-menu {
+        position: static;
     }
 }
 
@@ -226,85 +282,4 @@ footer {
 
 .btn:hover {
     background-color: #0056b3;
-}
-
-/* Media Queries: Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
-    .nav-menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .nav-menu li {
-        width: 100%;
-    }
-
-    .dropdown-menu {
-        position: static;
-        display: none;
-    }
-
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-/* Botón hamburguesa */
-.nav-toggle {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.nav-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    border-radius: 5px;
-}
-
-/* Ocultar menú en móviles inicialmente */
-#nav-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-@media (max-width: 768px) {
-    .nav-toggle {
-        display: flex;
-        margin-left: auto;
-    }
-
-    #nav-menu {
-        display: none;
-        flex-direction: column;
-        background-color: #333;
-        width: 100%;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 10;
-        padding: 10px 0;
-    }
-
-    #nav-menu.active {
-        display: flex;
-    }
-
-    .nav-menu li {
-        text-align: center;
-        width: 100%;
-    }
-
-    .dropdown-menu {
-        position: static;
-    }
 }
