@@ -76,4 +76,22 @@ header {
 
 /* Mostrar el Submenú al pasar el mouse */
 .dropdown:hover .dropdown-menu {
-    display: block; /* Se mu
+    display: block; /* Se muestra el submenú */
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
