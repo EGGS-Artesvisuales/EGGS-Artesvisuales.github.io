@@ -18,6 +18,9 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    position: fixed; /* Fija el header en la parte superior */
+    width: 100%;
+    z-index: 1000; /* Trae el header al frente */
 }
 
 .navbar {
@@ -131,11 +134,11 @@ header {
         gap: 10px;
         background-color: #333;
         width: 100%;
-        padding: 10px;
-        position: absolute;
-        top: 100%;
+        position: fixed; /* Fija el menú en la parte superior */
+        top: 60px; /* Debajo del header */
         left: 0;
-        z-index: 10;
+        z-index: 999; /* Asegura que esté encima de otros elementos */
+        padding: 10px;
     }
 
     .nav-menu.active {
@@ -156,7 +159,7 @@ header {
 main {
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 100px 20px; /* Ajusta el margen superior para evitar que el contenido se superponga al header fijo */
 }
 
 /* Footer */
@@ -209,64 +212,4 @@ footer {
 .footer-social a img:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
-}
-
-/* Formularios */
-.contact-form {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #333;
-}
-
-.contact-form button {
-    display: inline-block;
-    background-color: #58a6ff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #0056b3;
-}
-
-/* Botones genéricos */
-.btn {
-    display: inline-block;
-    background-color: #58a6ff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #0056b3;
 }
