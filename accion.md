@@ -9,4 +9,4 @@ breadcrumbs: >
 
 # Acción en el Mundo
 
-Transformamos realidades mediante proyectos subrepticios, comunitarios, educativos y técnicos.
+Transformar realidades mediante acciones en el mundo. explora las siguientes categorias: lo subrepticios, lo comunitarios, docencia y talleres, servicios.
