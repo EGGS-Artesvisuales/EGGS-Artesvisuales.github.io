@@ -1,11 +1,20 @@
 ---
 layout: default
 title: Inicio
-permalink: /index.html
-breadcrumbs: >
-    <span>Inicio</span>
+description: "Bienvenido a EGGS-Studio, explorando el arte y la conexión visual."
 ---
 
-# Bienvenido a EGGS-Studio
+# Bienvenid@ a EGGS - Art Studio
 
-Explora nuestras obras, ideas y proyectos, y adéntrate en nuestro viaje artístico de transformación e inspiración.
+Explora obras, ideas y proyectos artísticos.
+
+En este sitio puedes conocer todas mis actividades artísticas, desde las más pequeñas hasta las más grandes. Mi visión del arte es universal: un territorio donde convergen todos mis intereses y saberes.
+
+A lo largo de mi trayectoria, mi práctica ha sido variada y multifacética, lo que me ha llevado a clasificarla dentro de un esquema rizomático que parte desde tres grandes categorías:
+
+
+## Nuestras Obras Destacadas
+- Obra 1: Una descripción breve.
+- Obra 2: Otra descripción breve.
+
+[Ver más obras](exhibiciones.html)
