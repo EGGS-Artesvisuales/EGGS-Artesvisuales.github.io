@@ -1,42 +1,46 @@
+---
+layout: none
+---
+
 ```mermaid
 graph TD
-    A[<a href='/mundo-exterior.html'>Representación del Mundo</a>]
-    A1[<a href='/tangible.html'>Lo Tangible</a>]
-    A2[<a href='/intangible.html'>Lo Intangible</a>]
-    A1a[<a href='/saturacion.html'>La Saturación</a>]
-    A1a1[<a href='/peste.html'>La Peste</a>]
-    A1a2[<a href='/invisible.html'>Lo Invisible</a>]
-    A1b[<a href='/tecnologia.html'>La Tecnología</a>]
-    A1b1[<a href='/ia.html'>La IA</a>]
-    A1b2[<a href='/espacial.html'>Lo Espacial</a>]
-    A1b3[<a href='/telecomunicaciones.html'>Telecomunicaciones</a>]
-    A2a[<a href='/capitalismo.html'>El Capitalismo</a>]
-    A2b[<a href='/popular.html'>Lo Popular</a>]
-    A2c[<a href='/ancestral.html'>Lo Ancestral</a>]
-    B[<a href='/accion.html'>Acción en el Mundo</a>]
-    B1[<a href='/subrepticio.html'>Lo Subrepticio</a>]
-    B2[<a href='/comunitario.html'>Lo Comunitario</a>]
-    B3[<a href='/docencia.html'>Docencia y Talleres</a>]
-    B4[<a href='/servicios.html'>Servicios</a>]
-    C[<a href='/interior.html'>Exploración del Mundo Interior</a>]
-    C1[<a href='/psicologia.html'>Arte y Psicología</a>]
-    C2[<a href='/espiritualidad.html'>Arte y Espiritualidad</a>]
+    A[Representación del Mundo] --> A1[Lo Tangible]
+    A --> A2[Lo Intangible]
+    A1 --> A1a[La Saturación]
+    A1a --> A1a1[La Peste]
+    A1a --> A1a2[Lo Invisible]
+    A1 --> A1b[La Tecnología]
+    A1b --> A1b1[La IA]
+    A1b --> A1b2[Lo Espacial]
+    A1b --> A1b3[Telecomunicaciones]
+    A2 --> A2a[El Capitalismo]
+    A2 --> A2b[Lo Popular]
+    A2 --> A2c[Lo Ancestral]
+    B[Acción en el Mundo] --> B1[Lo Subrepticio]
+    B --> B2[Lo Comunitario]
+    B --> B3[Docencia y Talleres]
+    B --> B4[Servicios]
+    C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
+    C --> C2[Arte y Espiritualidad]
 
-    A --> A1
-    A --> A2
-    A1 --> A1a
-    A1 --> A1b
-    A1a --> A1a1
-    A1a --> A1a2
-    A1b --> A1b1
-    A1b --> A1b2
-    A1b --> A1b3
-    A2 --> A2a
-    A2 --> A2b
-    A2 --> A2c
-    B --> B1
-    B --> B2
-    B --> B3
-    B --> B4
-    C --> C1
-    C --> C2
+    click A "https://tu-sitio.com/representacion-del-mundo" "Ir a Representación del Mundo"
+    click A1 "https://tu-sitio.com/lo-tangible" "Ir a Lo Tangible"
+    click A1a "https://tu-sitio.com/la-saturacion" "Ir a La Saturación"
+    click A1a1 "https://tu-sitio.com/la-peste" "Ir a La Peste"
+    click A1a2 "https://tu-sitio.com/lo-invisible" "Ir a Lo Invisible"
+    click A1b "https://tu-sitio.com/la-tecnologia" "Ir a La Tecnología"
+    click A1b1 "https://tu-sitio.com/la-ia" "Ir a La IA"
+    click A1b2 "https://tu-sitio.com/lo-espacial" "Ir a Lo Espacial"
+    click A1b3 "https://tu-sitio.com/telecomunicaciones" "Ir a Telecomunicaciones"
+    click A2 "https://tu-sitio.com/lo-intangible" "Ir a Lo Intangible"
+    click A2a "https://tu-sitio.com/el-capitalismo" "Ir a El Capitalismo"
+    click A2b "https://tu-sitio.com/lo-popular" "Ir a Lo Popular"
+    click A2c "https://tu-sitio.com/lo-ancestral" "Ir a Lo Ancestral"
+    click B "https://tu-sitio.com/accion-en-el-mundo" "Ir a Acción en el Mundo"
+    click B1 "https://tu-sitio.com/lo-subrepticio" "Ir a Lo Subrepticio"
+    click B2 "https://tu-sitio.com/lo-comunitario" "Ir a Lo Comunitario"
+    click B3 "https://tu-sitio.com/docencia-y-talleres" "Ir a Docencia y Talleres"
+    click B4 "https://tu-sitio.com/servicios" "Ir a Servicios"
+    click C "https://tu-sitio.com/exploracion-del-mundo-interior" "Ir a Exploración del Mundo Interior"
+    click C1 "https://tu-sitio.com/arte-y-psicologia" "Ir a Arte y Psicología"
+    click C2 "https://tu-sitio.com/arte-y-espiritualidad" "Ir a Arte y Espiritualidad"
