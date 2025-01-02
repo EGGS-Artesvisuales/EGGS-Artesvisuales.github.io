@@ -306,18 +306,36 @@ footer {
 .diagram-container {
     text-align: center;
     margin: 50px auto;
+    padding: 20px;
     max-width: 1000px;
-    height: auto;
-    overflow: visible; /* Asegura que el contenido no se recorte */
-    position: relative;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 /* Título del diagrama */
 .diagram-title h2 {
     font-size: 1.8rem;
     color: #333;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    text-align: center;
 }
+
+/* SVG del diagrama */
+.diagram-container svg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+/* Separación adicional entre diagramas */
+.diagram-container + .diagram-container {
+    margin-top: 60px;
+}
+
 
 /* Estilo general para nodos Mermaid */
 rect {
@@ -403,6 +421,8 @@ a:hover {
 .diagram-container svg {
     display: block;
     margin: 0 auto;
+    width: 100%; /* Asegura que el SVG no se desborde horizontalmente */
+    height: auto; /* Mantiene la proporción del diagrama */
 }
 
 /* Contenedor del formulario */
