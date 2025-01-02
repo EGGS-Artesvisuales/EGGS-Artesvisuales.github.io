@@ -6,11 +6,15 @@ description: "Bienvenido a EGGS-Studio, explorando el arte y la conexión visual
 
 # Bienvenid@ a EGGS - Art Studio
 
-Explora obras, ideas y proyectos artísticos.
+# Descubre ideas, obras y proyectos artísticos
 
-En este sitio puedes conocer todas mis actividades artísticas, desde las más pequeñas hasta las más grandes. Mi visión del arte es universal: un territorio donde convergen todos mis intereses y saberes.
+En este sitio podrás explorar todas mis actividades artísticas, desde los proyectos más pequeños hasta las obras de mayor envergadura. Mi visión del arte es universal: un terreno fértil donde convergen mis intereses, conocimientos y experiencias.
 
-A lo largo de mi trayectoria, mi práctica ha sido variada y multifacética, lo que me ha llevado a clasificarla dentro de un esquema rizomático que parte desde tres grandes categorías:
+A lo largo de mi trayectoria, mi práctica ha sido diversa y multifacética. Este recorrido me llevó a construir un esquema rizomático que clasifica la totalidad de mi trabajo artístico. intentando no excluir nada de las actividades culturales que he realizado.
+
+Este esquema no solo es un ejercicio para comprender mi propia naturaleza creativa y los procesos detrás de la producción, sino también una herramienta para exponer mi trabajo de manera ordenada y clara.
+
+Este esquema se organiza en tres grandes categorías:
 
 
 ## 1. obras de representacion del mundo
