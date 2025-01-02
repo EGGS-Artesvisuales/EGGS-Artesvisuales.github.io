@@ -4,9 +4,14 @@ title: "EGGS-Studio"
 description: "Arte y vida"
 theme: minima
 
-# Configuración de Mermaid.js
-mermaid:
-  version: "9.3.0" # Especifica la versión de Mermaid.js que estás utilizando
+# Configuración de Kramdown para procesar Markdown
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
+  syntax_highlighter_opts:
+    disable: true
+
+# Configuración de Mermaid.js
+mermaid:
+  version: "9.3.0" # Especifica la versión de Mermaid.js que estás utilizando
