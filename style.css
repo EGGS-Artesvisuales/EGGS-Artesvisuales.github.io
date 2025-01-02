@@ -405,4 +405,75 @@ a:hover {
     margin: 0 auto;
 }
 
+/* Contenedor del formulario */
+form {
+    display: block;
+    max-width: 600px; /* Limita el ancho del formulario */
+    margin: 50px auto; /* Centra el formulario y añade espacio superior */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Evita cualquier desbordamiento visual */
+}
+
+/* Estilo de los campos del formulario */
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho */
+    margin-bottom: 15px; /* Espaciado entre campos */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que el padding afecte al ancho */
+}
+
+/* Botón con estilo */
+form button {
+    background-color: #58a6ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Etiquetas */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Campo de texto más largo */
+form textarea {
+    resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
+    min-height: 100px;
+}
+
+/* Compatibilidad Responsiva */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        font-size: 0.9rem;
+    }
+}
 
