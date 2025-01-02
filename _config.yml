@@ -7,3 +7,6 @@ theme: minima
 # Configuración de Mermaid.js
 mermaid:
   version: "9.3.0" # Especifica la versión de Mermaid.js que estás utilizando
+markdown: kramdown
+kramdown:
+  input: GFM
