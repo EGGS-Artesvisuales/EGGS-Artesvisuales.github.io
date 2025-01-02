@@ -73,5 +73,16 @@
 <!-- Carga de scripts personalizados -->
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
+  <!-- Carga de Mermaid.js desde CDN -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    // Inicialización de Mermaid para diagramas
+    document.addEventListener("DOMContentLoaded", function() {
+        mermaid.initialize({
+            startOnLoad: true // Activa Mermaid automáticamente al cargar la página
+        });
+    });
+</script>
+
 </body>
 </html>
