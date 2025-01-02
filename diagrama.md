@@ -98,7 +98,7 @@ breadcrumbs: >
         click B3a "/mineduc.html" "Ir a Mineduc"
         click B3b "/corporaciones.html" "Ir a Corporaciones"
         click B3c "/independientes.html" "Ir a Independientes"
-        click B4 "/servicios.html" "Ir a Servicios"
+        click B4 "servicios.html" "Ir a Servicios"
         click B4a "/restauracion.html" "Ir a Restauración"
         click B4b "/decoraciones-encargo.html" "Ir a Decoraciones & Encargo"
         click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
