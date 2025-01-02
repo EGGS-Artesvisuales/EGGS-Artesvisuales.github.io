@@ -10,51 +10,66 @@ breadcrumbs: >
 
 <div class="content">
     <h1>Diagrama de Obra</h1>
-    <p>Un mapa visual de las ideas, conceptos y obras artísticas que estructuran nuestro enfoque.</p>
+    <p>Un mapa visual de las ideas, conceptos y obras artísticas que estructuran nuestro enfoque, dividido en tres secciones para mayor claridad.</p>
+
+    <h2>Representación del Mundo</h2>
     <div class="mermaid">
- graph TD
-  A[Representación del Mundo] --> A1[Lo Tangible]
-  A --> A2[Lo Intangible]
-  A1 --> A1a[La Saturación]
-  A1a --> A1a1[La Peste]
-      A1a1 --> A1a1a[Pinturas]
-      A1a1a --> A1a1a1[Pinturas Infectadas, 2008/2010]
-      A1a1a --> A1a1a2[Soportes Blandos, 2008/2020]
-      A1a1 --> A1a1b[Desplazamiento de la Pintura]
-      A1a1b --> A1a1b1[Intervenciones/Instalaciones]
-      A1a1b --> A1a1b2[Multimedia/Video]
-  A1a --> A1a2[Lo Invisible]
-      A1a2 --> A1a2a[Pinturas Wi-Fi, 2020 - 2030]
-  A1 --> A1b[La Tecnología]
-  A1b --> A1b1[La IA]
-  A1b --> A1b2[Lo Espacial]
-  A1b --> A1b3[Telecomunicaciones]
-  A2 --> A2a[El Capitalismo]
-      A2a --> A2a1[El Colgado, 2012-2020]
-      A2a --> A2a2[Mr. Burns, 2012-2019]
-      A2a --> A2a3[El Empaquetador / Contaminador / Contador]
-  A2 --> A2b[Lo Popular]
-      A2b --> A2b1[Esculturas]
-      A2b1 --> A2b1a[Papelucho, 2022]
-  A2 --> A2c[Lo Ancestral]
-      A2c --> A2c1[Museo a Cielo Abierto, 2018-2021]
-      A2c --> A2c2[Mapuche Urbano, La Tala de la Memoria, 2018]
-  B[Acción en el Mundo] --> B1[Lo Subrepticio]
-      B1 --> B1a[Remiendas Urbanas]
-      B1 --> B1b[La Anti-Publicidad]
-      B1 --> B1c[Graffiti & Tags]
-  B --> B2[Lo Comunitario]
-      B2 --> B2a[Muralismo]
-  B --> B3[Docencia y Talleres]
-      B3 --> B3a[Mineduc]
-      B3 --> B3b[Corporaciones]
-      B3 --> B3c[Independientes]
-  B --> B4[Servicios]
-      B4 --> B4a[Restauración]
-      B4 --> B4b[Decoraciones & Encargo]
-      B4 --> B4c[Asesorías Técnicas]
-  C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
-  C --> C2[Arte y Espiritualidad]
+        graph TD
+        A[Representación del Mundo] --> A1[Lo Tangible]
+        A --> A2[Lo Intangible]
+        A1 --> A1a[La Saturación]
+        A1a --> A1a1[La Peste]
+        A1a1 --> A1a1a[Pinturas]
+        A1a1a --> A1a1a1[Pinturas Infectadas, 2008/2010]
+        A1a1a --> A1a1a2[Soportes Blandos, 2008/2020]
+        A1a1 --> A1a1b[Desplazamiento de la Pintura]
+        A1a1b --> A1a1b1[Intervenciones/Instalaciones]
+        A1a1b --> A1a1b2[Multimedia/Video]
+        A1a --> A1a2[Lo Invisible]
+        A1a2 --> A1a2a[Pinturas Wi-Fi, 2020 - 2030]
+        A1 --> A1b[La Tecnología]
+        A1b --> A1b1[La IA]
+        A1b --> A1b2[Lo Espacial]
+        A1b --> A1b3[Telecomunicaciones]
+        A2 --> A2a[El Capitalismo]
+        A2a --> A2a1[El Colgado, 2012-2020]
+        A2a --> A2a2[Mr. Burns, 2012-2019]
+        A2a --> A2a3[El Empaquetador / Contaminador / Contador]
+        A2 --> A2b[Lo Popular]
+        A2b --> A2b1[Esculturas]
+        A2b1 --> A2b1a[Papelucho, 2022]
+        A2 --> A2c[Lo Ancestral]
+        A2c --> A2c1[Museo a Cielo Abierto, 2018-2021]
+        A2c --> A2c2[Mapuche Urbano, La Tala de la Memoria, 2018]
+    </div>
+
+    <h2>Acción en el Mundo</h2>
+    <div class="mermaid">
+        graph TD
+        B[Acción en el Mundo] --> B1[Lo Subrepticio]
+        B1 --> B1a[Remiendas Urbanas]
+        B1 --> B1b[La Anti-Publicidad]
+        B1 --> B1c[Graffiti & Tags]
+        B --> B2[Lo Comunitario]
+        B2 --> B2a[Muralismo]
+        B --> B3[Docencia y Talleres]
+        B3 --> B3a[Mineduc]
+        B3 --> B3b[Corporaciones]
+        B3 --> B3c[Independientes]
+        B --> B4[Servicios]
+        B4 --> B4a[Restauración]
+        B4 --> B4b[Decoraciones & Encargo]
+        B4 --> B4c[Asesorías Técnicas]
+    </div>
+
+    <h2>Exploración del Mundo Interior</h2>
+    <div class="mermaid">
+        graph TD
+        C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
+        C --> C2[Arte y Espiritualidad]
+    </div>
+
+</div>
 
   click A "/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/lo-tangible.html" "Ir a Lo Tangible"
