@@ -21,21 +21,21 @@ Este esquema no solo es un ejercicio para comprender mi propia naturaleza creati
         <div class="button-content">
             <img src="ruta-a-tu-imagen1.jpg" alt="Obras de Representación del Mundo">
             <p>Representación del Mundo</p>
-            Explora obras que retratan y reinterpretan tanto el mundo fisico como aspectos socioculturales o abstractos.
+            Obras que retratan y reinterpretan el mundo. 
         </div>
     </a>
     <a href="accion.html" class="fancy-button">
         <div class="button-content">
             <img src="ruta-a-tu-imagen2.jpg" alt="Obras de Acción en el Mundo">
             <p>Acción en el Mundo</p>
-            Incluye proyectos de intervención activa como actividades comunitarias, talleres y servicios técnicos.
+            Proyectos de intervención activa. actividades comunitarias, talleres y servicios.
         </div>
     </a>
     <a href="interior.html" class="fancy-button">
         <div class="button-content">
             <img src="ruta-a-tu-imagen3.jpg" alt="Exploración del Mundo Interior">
             <p>Lo introspectivo</p>
-            Utiliza el arte como herramienta para la introspección, exploración personal y espiritual.
+            Arte de uso medico, espiritual e introspectivo.
         </div>
     </a>
 </div>
