@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
-        mermaid.initialize({ startOnLoad: true });
+        // Inicialización de Mermaid para diagramas
+        document.addEventListener("DOMContentLoaded", function() {
+            mermaid.initialize({ startOnLoad: true });
+        });
     </script>
-
-
 </head>
 <body>
 <header>
@@ -70,7 +71,5 @@
 </footer>
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
-
 </body>
 </html>
-
