@@ -56,12 +56,13 @@ header {
     overflow: hidden;
 }
 
+/* Hover Effect */
 .nav-menu a:hover {
     background-color: #555;
     color: #58a6ff;
 }
 
-/* Animación de subrayado dinámico */
+/* Subrayado animado */
 .nav-menu a::after {
     content: "";
     position: absolute;
@@ -82,7 +83,7 @@ header {
 
 /* Submenús */
 .dropdown-menu {
-    display: none; /* Oculto por defecto */
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -184,8 +185,7 @@ main {
     padding: 100px 20px; /* Ajusta el margen superior para evitar que el contenido se superponga al header fijo */
 }
 
-/*estilos botones clickeables*/
-/* Contenedor de los botones */
+/* Botones clickeables */
 .button-container {
     display: flex;
     justify-content: center;
@@ -193,7 +193,6 @@ main {
     margin-top: 20px;
 }
 
-/* Estilo de los botones */
 .fancy-button {
     display: block;
     text-decoration: none;
@@ -207,13 +206,11 @@ main {
     height: 300px;
 }
 
-/* Hover: efecto de sombra */
 .fancy-button:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Contenido del botón */
 .button-content {
     position: relative;
     height: 100%;
@@ -227,7 +224,6 @@ main {
     text-align: center;
 }
 
-/* Imagen en el botón */
 .button-content img {
     position: absolute;
     top: 0;
@@ -241,10 +237,9 @@ main {
 }
 
 .fancy-button:hover .button-content img {
-    opacity: 1; /* Más visible al pasar el mouse */
+    opacity: 1;
 }
 
-/* Texto dentro del botón */
 .button-content p {
     background: rgba(255, 255, 255, 0.8);
     padding: 10px 15px;
@@ -253,10 +248,6 @@ main {
     font-weight: bold;
     margin: 0;
 }
-
-
-
-
 
 /* Footer */
 footer {
