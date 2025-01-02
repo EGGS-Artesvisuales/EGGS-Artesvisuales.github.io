@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/style.css"> <!-- Estilos generales -->
-    <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/style.css"> <!-- Estilos generales -->
+  <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
+  {% if page.mermaid %}
+    {% include mermaid.html %}
+  {% endif %}
 </head>
 
 <body>
@@ -64,17 +66,21 @@
         </div>
     </div>
 </footer>
+<!-- Carga de scripts personalizados -->
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
+
+<!-- Carga de Mermaid.js desde CDN -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
     // Inicialización de Mermaid para diagramas
     document.addEventListener("DOMContentLoaded", function() {
         mermaid.initialize({
-            startOnLoad: true // Activa Mermaid automáticamente
+            startOnLoad: true // Activa Mermaid automáticamente al cargar la página
         });
     });
 </script>
+
 
 
 </body>
