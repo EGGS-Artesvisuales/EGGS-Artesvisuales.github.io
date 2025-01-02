@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/style.css"> <!-- Estilos generales -->
   <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
   {% if page.mermaid %}
+    <!-- Carga de Mermaid.js desde CDN -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -73,16 +74,6 @@
 <!-- Carga de scripts personalizados -->
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
-  <!-- Carga de Mermaid.js desde CDN -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-    // Inicialización de Mermaid para diagramas
-    document.addEventListener("DOMContentLoaded", function() {
-        mermaid.initialize({
-            startOnLoad: true // Activa Mermaid automáticamente al cargar la página
-        });
-    });
-</script>
-
 </body>
 </html>
+
