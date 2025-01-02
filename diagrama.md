@@ -32,7 +32,7 @@ breadcrumbs: >
     C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
     C --> C2[Arte y Espiritualidad]
 
-    click A "/representacion-del-mundo.html" "Ir a Representación del Mundo"
+    click A "/mundo-exterior.html" "Ir a Representación del Mundo"
     click A1 "/lo-tangible.html" "Ir a Lo Tangible"
     click A1a "/la-saturacion.html" "Ir a La Saturación"
     click A1a1 "/la-peste.html" "Ir a La Peste"
