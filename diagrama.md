@@ -41,8 +41,8 @@ breadcrumbs: >
         A2 --> A2c[Lo Ancestral]
         A2c --> A2c1[Museo a Cielo Abierto, 2018-2021]
         A2c --> A2c2[Mapuche Urbano, La Tala de la Memoria, 2018]
-        click A "/mundo-exterior.html" "Ir a Representación del Mundo"
-        click A1 "/lo-tangible.html" "Ir a Lo Tangible"
+        click A "mundo-exterior.html" "Ir a Representación del Mundo"
+        click A1 "tangible.html" "Ir a Lo Tangible"
         click A1a "/la-saturacion.html" "Ir a La Saturación"
         click A1a1 "/la-peste.html" "Ir a La Peste"
         click A1a1a "/pinturas.html" "Ir a Pinturas"
