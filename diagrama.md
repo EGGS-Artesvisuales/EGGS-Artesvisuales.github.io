@@ -9,23 +9,19 @@ breadcrumbs: >
 
 # Diagrama de Obra
 
-Un mapa visual de nuestras ideas, conceptos y obras artísticas.
+Un mapa visual de las ideas, conceptos y obras artísticas.
 
-<div class="diagram-container">
-    <div class="diagram-title">
-        <h2>Diagrama de mi Obra</h2>
-    </div>
-    <div class="diagram">
-        <!-- Nodo central -->
-        <div class="node central">
-            <a href="/mundo-exterior.html" title="Representación del Mundo">Representación del Mundo</a>
-        </div>
-        <!-- Nodos secundarios -->
-        <div class="node secondary top">
-            <a href="/accion.html" title="Acción en el Mundo">Acción en el Mundo</a>
-        </div>
-        <div class="node secondary bottom">
-            <a href="/interior.html" title="Exploración del Mundo Interior">Exploración del Mundo Interior</a>
-        </div>
-    </div>
-</div>
+```mermaid
+graph TD
+    A[Representación del Mundo] -->|[Ver más](mundo-exterior.html)| B[La Saturación]
+    A -->|[Ver más](tecnologia.html)| C[La Tecnología]
+    A -->|[Ver más](capitalismo.html)| D[Imágenes del Capitalismo]
+    A -->|[Ver más](popular.html)| E[Imágenes de lo Popular]
+    A -->|[Ver más](ancestros.html)| F[Imágenes de los Ancestros]
+    G[Acción en el Mundo] -->|[Ver más](subrepticio.html)| H[Lo Subrepticio]
+    G -->|[Ver más](comunitario.html)| I[Lo Comunitario]
+    G -->|[Ver más](docencia.html)| J[Docencia y Talleres]
+    G -->|[Ver más](servicios.html)| K[Servicios]
+    L[Exploración del Mundo Interior] -->|[Ver más](psicologia.html)| M[Arte y Psicología]
+    L -->|[Ver más](espiritualidad.html)| N[Arte y Espiritualidad]
+
