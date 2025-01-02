@@ -14,4 +14,4 @@ kramdown:
 
 # Configuración de Mermaid.js
 mermaid:
-  version: "10.9.3" # Especifica la nueva versión de Mermaid.js
+  version: "9.3.0" # Especifica la versión de Mermaid.js que estás utilizando
