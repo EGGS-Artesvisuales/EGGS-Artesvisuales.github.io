@@ -54,4 +54,3 @@ graph TD
     click C "/exploracion-del-mundo-interior.html" "Ir a Exploración del Mundo Interior"
     click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
     click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
-
