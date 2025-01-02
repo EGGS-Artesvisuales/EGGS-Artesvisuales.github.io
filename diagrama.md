@@ -41,6 +41,33 @@ breadcrumbs: >
         A2 --> A2c[Lo Ancestral]
         A2c --> A2c1[Museo a Cielo Abierto, 2018-2021]
         A2c --> A2c2[Mapuche Urbano, La Tala de la Memoria, 2018]
+        click A "/mundo-exterior.html" "Ir a Representación del Mundo"
+        click A1 "/lo-tangible.html" "Ir a Lo Tangible"
+        click A1a "/la-saturacion.html" "Ir a La Saturación"
+        click A1a1 "/la-peste.html" "Ir a La Peste"
+        click A1a1a "/pinturas.html" "Ir a Pinturas"
+        click A1a1a1 "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+        click A1a1a2 "/soportes-blandos.html" "Ir a Soportes Blandos"
+        click A1a1b "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+        click A1a1b1 "/intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
+        click A1a1b2 "/multimedia-video.html" "Ir a Multimedia/Video"
+        click A1a2 "/lo-invisible.html" "Ir a Lo Invisible"
+        click A1a2a "/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
+        click A1b "/la-tecnologia.html" "Ir a La Tecnología"
+        click A1b1 "/la-ia.html" "Ir a La IA"
+        click A1b2 "/lo-espacial.html" "Ir a Lo Espacial"
+        click A1b3 "/telecomunicaciones.html" "Ir a Telecomunicaciones"
+        click A2 "/lo-intangible.html" "Ir a Lo Intangible"
+        click A2a "/el-capitalismo.html" "Ir a El Capitalismo"
+        click A2a1 "/el-colgado.html" "Ir a El Colgado"
+        click A2a2 "/mr-burns.html" "Ir a Mr. Burns"
+        click A2a3 "/el-empaquetador.html" "Ir a El Empaquetador"
+        click A2b "/lo-popular.html" "Ir a Lo Popular"
+        click A2b1 "/esculturas.html" "Ir a Esculturas"
+        click A2b1a "/papelucho.html" "Ir a Papelucho"
+        click A2c "/lo-ancestral.html" "Ir a Lo Ancestral"
+        click A2c1 "/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
+        click A2c2 "/mapuche-urbano.html" "Ir a Mapuche Urbano"
     </div>
 
     <h2>Acción en el Mundo</h2>
@@ -60,6 +87,21 @@ breadcrumbs: >
         B4 --> B4a[Restauración]
         B4 --> B4b[Decoraciones & Encargo]
         B4 --> B4c[Asesorías Técnicas]
+        click B "/accion.html" "Ir a Acción en el Mundo"
+        click B1 "/lo-subrepticio.html" "Ir a Lo Subrepticio"
+        click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
+        click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
+        click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
+        click B2 "/lo-comunitario.html" "Ir a Lo Comunitario"
+        click B2a "/muralismo.html" "Ir a Muralismo"
+        click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
+        click B3a "/mineduc.html" "Ir a Mineduc"
+        click B3b "/corporaciones.html" "Ir a Corporaciones"
+        click B3c "/independientes.html" "Ir a Independientes"
+        click B4 "/servicios.html" "Ir a Servicios"
+        click B4a "/restauracion.html" "Ir a Restauración"
+        click B4b "/decoraciones-encargo.html" "Ir a Decoraciones & Encargo"
+        click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
     </div>
 
     <h2>Exploración del Mundo Interior</h2>
@@ -67,55 +109,17 @@ breadcrumbs: >
         graph TD
         C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
         C --> C2[Arte y Espiritualidad]
+        click C "/interior.html" "Ir a Exploración del Mundo Interior"
+        click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
+        click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
     </div>
 
-</div>
-
-  click A "/mundo-exterior.html" "Ir a Representación del Mundo"
-  click A1 "/lo-tangible.html" "Ir a Lo Tangible"
-  click A1a "/la-saturacion.html" "Ir a La Saturación"
-  click A1a1 "/la-peste.html" "Ir a La Peste"
-  click A1a1a "/pinturas.html" "Ir a Pinturas"
-  click A1a1a1 "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-  click A1a1a2 "/soportes-blandos.html" "Ir a Soportes Blandos"
-  click A1a1b "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "/intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
-  click A1a1b2 "/multimedia-video.html" "Ir a Multimedia/Video"
-  click A1a2 "/lo-invisible.html" "Ir a Lo Invisible"
-  click A1a2a "/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
-  click A1b "/la-tecnologia.html" "Ir a La Tecnología"
-  click A1b1 "/la-ia.html" "Ir a La IA"
-  click A1b2 "/lo-espacial.html" "Ir a Lo Espacial"
-  click A1b3 "/telecomunicaciones.html" "Ir a Telecomunicaciones"
-  click A2 "/lo-intangible.html" "Ir a Lo Intangible"
-  click A2a "/el-capitalismo.html" "Ir a El Capitalismo"
-  click A2a1 "/el-colgado.html" "Ir a El Colgado"
-  click A2a2 "/mr-burns.html" "Ir a Mr. Burns"
-  click A2a3 "/el-empaquetador.html" "Ir a El Empaquetador"
-  click A2b "/lo-popular.html" "Ir a Lo Popular"
-  click A2b1 "/esculturas.html" "Ir a Esculturas"
-  click A2b1a "/papelucho.html" "Ir a Papelucho"
-  click A2c "/lo-ancestral.html" "Ir a Lo Ancestral"
-  click A2c1 "/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
-  click A2c2 "/mapuche-urbano.html" "Ir a Mapuche Urbano"
-  click B "/accion.html" "Ir a Acción en el Mundo"
-  click B1 "/lo-subrepticio.html" "Ir a Lo Subrepticio"
-  click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
-  click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
-  click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
-  click B2 "/lo-comunitario.html" "Ir a Lo Comunitario"
-  click B2a "/muralismo.html" "Ir a Muralismo"
-  click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
-  click B3a "/mineduc.html" "Ir a Mineduc"
-  click B3b "/corporaciones.html" "Ir a Corporaciones"
-  click B3c "/independientes.html" "Ir a Independientes"
-  click B4 "/servicios.html" "Ir a Servicios"
-  click B4a "/restauracion.html" "Ir a Restauración"
-  click B4b "/decoraciones-encargo.html" "Ir a Decoraciones & Encargo"
-  click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
-  click C "/interior.html" "Ir a Exploración del Mundo Interior"
-  click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
-  click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
-
-    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const diagrams = document.querySelectorAll(".mermaid");
+            diagrams.forEach(diagram => {
+                mermaid.init(undefined, diagram);
+            });
+        });
+    </script>
 </div>
