@@ -92,7 +92,7 @@ breadcrumbs: >
         click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
         click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
         click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
-        click B2 "/lo-comunitario.html" "Ir a Lo Comunitario"
+        click B2 "comunitario.html" "Ir a Lo Comunitario"
         click B2a "/muralismo.html" "Ir a Muralismo"
         click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
         click B3a "/mineduc.html" "Ir a Mineduc"
