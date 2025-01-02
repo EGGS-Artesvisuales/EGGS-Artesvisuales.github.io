@@ -16,32 +16,26 @@ Este esquema no solo es un ejercicio para comprender mi propia naturaleza creati
 
 ### Este esquema se organiza en tres grandes categorías:
 
-#### [1. Obras de Representación del Mundo](mundo-exterior.html)
-Explora obras que retratan y reinterpretan tanto el mundo tangible como el intangible.
-
-#### [2. Obras de Acción en el Mundo](accion.html)
-Incluye proyectos de intervención activa como actividades comunitarias, talleres y servicios técnicos.
-
-#### [3. Exploración del Mundo Interior](interior.html)
-Utiliza el arte como herramienta para la introspección, exploración personal y espiritual.
-
 <div class="button-container">
     <a href="mundo-exterior.html" class="fancy-button">
         <div class="button-content">
             <img src="ruta-a-tu-imagen1.jpg" alt="Obras de Representación del Mundo">
-            <p>Obras de Representación del Mundo</p>
+            <p>Representación del Mundo</p>
+            Explora obras que retratan y reinterpretan tanto el mundo fisico como aspectos socioculturales o abstractos.
         </div>
     </a>
     <a href="accion.html" class="fancy-button">
         <div class="button-content">
             <img src="ruta-a-tu-imagen2.jpg" alt="Obras de Acción en el Mundo">
-            <p>Obras de Acción en el Mundo</p>
+            <p>Acción en el Mundo</p>
+            Incluye proyectos de intervención activa como actividades comunitarias, talleres y servicios técnicos.
         </div>
     </a>
     <a href="interior.html" class="fancy-button">
         <div class="button-content">
             <img src="ruta-a-tu-imagen3.jpg" alt="Exploración del Mundo Interior">
-            <p>Exploración del Mundo Interior</p>
+            <p>Lo introspectivo</p>
+            Utiliza el arte como herramienta para la introspección, exploración personal y espiritual.
         </div>
     </a>
 </div>
