@@ -300,3 +300,113 @@ footer {
     transform: scale(1.2);
     filter: brightness(1.2);
 }
+/* Contenedor del diagrama */
+.diagram-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    position: relative;
+}
+
+/* Título del diagrama */
+.diagram-title h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo general para los nodos */
+.diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+/* Nodo central */
+.node.central {
+    background-color: #58a6ff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    line-height: 120px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.node.central:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Nodos secundarios */
+.node.secondary {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 100px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.node.secondary:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Posición de los nodos secundarios */
+.node.secondary.top {
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.node.secondary.bottom {
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Enlaces dentro de los nodos */
+.node a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Línea de conexión entre nodos */
+.diagram::before,
+.diagram::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: #58a6ff;
+    z-index: -1;
+}
+
+.diagram::before {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.diagram::after {
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
