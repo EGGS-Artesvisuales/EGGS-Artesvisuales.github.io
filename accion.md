@@ -9,7 +9,10 @@ breadcrumbs: >
 
 # Acción en el Mundo
 
-Obras que actúan en el mundo de manera directa, transformando realidades mediante acciones concretas y asociaciones.
+En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar y transformar el entorno de manera activa. Estas acciones van más allá de la creación artística tradicional, buscando un impacto directo en las realidades sociales, culturales y físicas.
+
+La "Acción en el Mundo" implica un compromiso, utilizando el arte como herramienta para el cambio, la reflexión colectiva y la mejora de las condiciones de vida. Estas obras se caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar transformaciones tangibles en el espacio y las personas.
+En este apartado se clasifican cuatro modalidades:
 
 <div class="button-container">
     <a href="subrepticio.html" class="fancy-button">
