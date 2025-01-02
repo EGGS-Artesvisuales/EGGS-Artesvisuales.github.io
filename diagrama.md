@@ -94,7 +94,7 @@ breadcrumbs: >
         click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
         click B2 "comunitario.html" "Ir a Lo Comunitario"
         click B2a "/muralismo.html" "Ir a Muralismo"
-        click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
+        click B3 "docencia.html" "Ir a Docencia y Talleres"
         click B3a "/mineduc.html" "Ir a Mineduc"
         click B3b "/corporaciones.html" "Ir a Corporaciones"
         click B3c "/independientes.html" "Ir a Independientes"
