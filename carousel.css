@@ -1,0 +1,48 @@
+/* Estilo general del carrusel */
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%; /* Adapta el ancho al contenedor */
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scroll 10s linear infinite;
+    align-items: center;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.1);
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Animación del carrusel */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
