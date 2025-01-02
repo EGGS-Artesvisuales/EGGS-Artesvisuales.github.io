@@ -88,7 +88,7 @@ breadcrumbs: >
         B4 --> B4b[Decoraciones & Encargo]
         B4 --> B4c[Asesorías Técnicas]
         click B "/accion.html" "Ir a Acción en el Mundo"
-        click B1 "/lo-subrepticio.html" "Ir a Lo Subrepticio"
+        click B1 "subrepticio.html" "Ir a Lo Subrepticio"
         click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
         click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
         click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
