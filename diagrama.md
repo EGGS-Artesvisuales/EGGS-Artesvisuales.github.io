@@ -17,6 +17,7 @@ breadcrumbs: >
     A --> A2[Lo Intangible]
     A1 --> A1a[La Saturación]
     A1a --> A1a1[La Peste]
+    A1a11 --> [Pinturas]
     A1a --> A1a2[Lo Invisible]
     A1 --> A1b[La Tecnología]
     A1b --> A1b1[La IA]
