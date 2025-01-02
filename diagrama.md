@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Diagrama de Obra
-permalink: /diagrama.html
+title: "Diagrama de Obra"
+permalink: /diagrama/
 mermaid: true
-breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <span>Diagrama de Obra</span>
+breadcrumbs:
+  - text: "Inicio"
+    url: "/"
+  - text: "Diagrama de Obra"
+    url: "/diagrama/"
 ---
 
 <div class="content">
