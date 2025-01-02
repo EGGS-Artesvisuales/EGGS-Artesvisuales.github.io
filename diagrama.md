@@ -45,7 +45,7 @@ breadcrumbs: >
   click A2a "/el-capitalismo.html" "Ir a El Capitalismo"
   click A2b "/lo-popular.html" "Ir a Lo Popular"
   click A2c "/lo-ancestral.html" "Ir a Lo Ancestral"
-  click B "/accion-en-el-mundo.html" "Ir a Acción en el Mundo"
+  click B "accion.html" "Ir a Acción en el Mundo"
   click B1 "/lo-subrepticio.html" "Ir a Lo Subrepticio"
   click B2 "/lo-comunitario.html" "Ir a Lo Comunitario"
   click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
