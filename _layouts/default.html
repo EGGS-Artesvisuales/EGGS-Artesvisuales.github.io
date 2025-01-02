@@ -7,87 +7,71 @@
   <link rel="stylesheet" href="/style.css"> <!-- Estilos generales -->
   <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
   {% if page.mermaid %}
-    {% include mermaid.html %}
-  {% endif %}
- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            mermaid.initialize({ startOnLoad: true });
-        });
+      document.addEventListener("DOMContentLoaded", function() {
+        mermaid.initialize({ startOnLoad: true });
+      });
     </script>
+  {% endif %}
 </head>
-
 <body>
 <header>
-    <nav class="navbar">
-        <!-- Botón Hamburguesa -->
-        <div class="nav-toggle" id="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <!-- Menú Principal -->
-        <ul class="nav-menu" id="nav-menu">
-            <li><a href="/index.html">Inicio</a></li>
-            <li class="dropdown">
-                <a href="/mundo-exterior.html">Representación del Mundo</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/tangible.html">Lo Tangible</a></li>
-                    <li><a href="/intangible.html">Lo Intangible</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="/accion.html">Acción en el Mundo</a>
-                <ul class="dropdown-menu">
-                    <li><a href="/subrepticio.html">Lo Subrepticio</a></li>
-                    <li><a href="/comunitario.html">Lo Comunitario</a></li>
-                    <li><a href="/docencia.html">Docencia</a></li>
-                    <li><a href="/servicios.html">Servicios</a></li>
-                </ul>
-            </li>
-            <li><a href="/interior.html">Mundo Interior</a></li>
-            <li><a href="/diagrama.html">Diagrama de Obra</a></li>
-            <li><a href="/exhibiciones.html">Exhibiciones</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
+  <nav class="navbar">
+    <!-- Botón Hamburguesa -->
+    <div class="nav-toggle" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!-- Menú Principal -->
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="/index.html">Inicio</a></li>
+      <li class="dropdown">
+        <a href="/mundo-exterior.html">Representación del Mundo</a>
+        <ul class="dropdown-menu">
+          <li><a href="/tangible.html">Lo Tangible</a></li>
+          <li><a href="/intangible.html">Lo Intangible</a></li>
         </ul>
-    </nav>
+      </li>
+      <li class="dropdown">
+        <a href="/accion.html">Acción en el Mundo</a>
+        <ul class="dropdown-menu">
+          <li><a href="/subrepticio.html">Lo Subrepticio</a></li>
+          <li><a href="/comunitario.html">Lo Comunitario</a></li>
+          <li><a href="/docencia.html">Docencia</a></li>
+          <li><a href="/servicios.html">Servicios</a></li>
+        </ul>
+      </li>
+      <li><a href="/interior.html">Mundo Interior</a></li>
+      <li><a href="/diagrama.html">Diagrama de Obra</a></li>
+      <li><a href="/exhibiciones.html">Exhibiciones</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
-    {{ content }}
+  {{ content }}
 </main>
 <footer>
-    <div class="footer-container">
-        <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
-        <ul class="footer-links">
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/contacto.html">Contacto</a></li>
-        </ul>
-        <div class="footer-social">
-            <a href="https://www.facebook.com/ART.EGarnica" target="_blank">
-                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook">
-            </a>
-            <a href="https://www.instagram.com/egarnicasanchez" target="_blank">
-                <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram">
-            </a>
-        </div>
+  <div class="footer-container">
+    <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
+    <ul class="footer-links">
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/ART.EGarnica" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/egarnicasanchez" target="_blank">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram">
+      </a>
     </div>
+  </div>
 </footer>
 <!-- Carga de scripts personalizados -->
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
-
-<!-- Carga de Mermaid.js desde CDN -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-    // Inicialización de Mermaid para diagramas
-    document.addEventListener("DOMContentLoaded", function() {
-        mermaid.initialize({
-            startOnLoad: true // Activa Mermaid automáticamente al cargar la página
-        });
-    });
-</script>
-
-
-
 </body>
 </html>
