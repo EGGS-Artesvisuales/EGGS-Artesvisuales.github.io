@@ -14,22 +14,12 @@ A lo largo de mi trayectoria, mi práctica ha sido variada y multifacética, lo 
 
 
 ## 1. obras de representacion del mundo
-- Lo tangible / lo fisico:
-  - La Saturacion
-    - La peste: Una descripción breve.
-    - lo invisible
-- Lo intangible / lo sociocultural:
-  - Imagenes del capitalismo:
-  - Imagenes populares:
-  - Imagenes de los ancestros:
 
-  ## 2. obras de accion en el mundo
-- Lo subrepticio
-- Lo comunitario
-- Docencias y talleres
-- Servicios
 
-  ## 3. exploracion del mundo interior / instrospecciones
-- compilado de dinamicas para el bienestar
+## 2. obras de accion en el mundo
+
+
+## 3. exploracion del mundo interior / instrospecciones
+
   
 [Ver más obras](exhibiciones.html)
