@@ -25,29 +25,5 @@ Incluye proyectos de intervención activa como actividades comunitarias, tallere
 #### [3. Exploración del Mundo Interior](interior.html)
 Utiliza el arte como herramienta para la introspección, exploración personal y espiritual.
 
-## Carrusel de Categorías
-
-<div class="carousel">
-  <div class="carousel-track">
-    <div class="carousel-item">
-      <a href="mundo-exterior.html">
-        <img src="ruta-a-tu-imagen1.jpg" alt="Obras de Representación del Mundo">
-        <p>Obras de Representación del Mundo</p>
-      </a>
-    </div>
-    <div class="carousel-item">
-      <a href="accion.html">
-        <img src="ruta-a-tu-imagen2.jpg" alt="Obras de Acción en el Mundo">
-        <p>Obras de Acción en el Mundo</p>
-      </a>
-    </div>
-    <div class="carousel-item">
-      <a href="interior.html">
-        <img src="ruta-a-tu-imagen3.jpg" alt="Exploración del Mundo Interior">
-        <p>Exploración del Mundo Interior</p>
-      </a>
-    </div>
-  </div>
-</div>
 
 [Ver más obras](exhibiciones.html)
