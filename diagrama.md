@@ -57,7 +57,7 @@ breadcrumbs: >
         click A1b1 "/la-ia.html" "Ir a La IA"
         click A1b2 "/lo-espacial.html" "Ir a Lo Espacial"
         click A1b3 "/telecomunicaciones.html" "Ir a Telecomunicaciones"
-        click A2 "/lo-intangible.html" "Ir a Lo Intangible"
+        click A2 "intangible.html" "Ir a Lo Intangible"
         click A2a "/el-capitalismo.html" "Ir a El Capitalismo"
         click A2a1 "/el-colgado.html" "Ir a El Colgado"
         click A2a2 "/mr-burns.html" "Ir a Mr. Burns"
