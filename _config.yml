@@ -1,10 +1,9 @@
+# _config.yml
+
 title: "EGGS-Studio"
 description: "Arte y vida"
 theme: minima
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+# Configuración de Mermaid.js
+mermaid:
+  version: "9.3.0" # Especifica la versión de Mermaid.js que estás utilizando
