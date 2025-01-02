@@ -50,7 +50,7 @@ breadcrumbs: >
   click B2 "/lo-comunitario.html" "Ir a Lo Comunitario"
   click B3 "/docencia-y-talleres.html" "Ir a Docencia y Talleres"
   click B4 "/servicios.html" "Ir a Servicios"
-  click C "/exploracion-del-mundo-interior.html" "Ir a Exploración del Mundo Interior"
+  click C "interior.html" "Ir a Exploración del Mundo Interior"
   click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
   click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
 
