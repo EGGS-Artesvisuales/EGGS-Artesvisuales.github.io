@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------------
+-----------------------------------------------------------------
    REGLAS GENERALES
 ------------------------------------------------------------------ */
 * {
@@ -45,13 +45,7 @@ header {
     padding: 0;
     display: flex;
     gap: 20px;
-    max-height: 0; /* Optimización con max-height */
-    overflow: hidden;
     transition: max-height 0.3s ease-in-out;
-}
-
-.nav-menu.active {
-    max-height: 500px;
 }
 
 .nav-menu li {
@@ -194,11 +188,17 @@ header {
    MAIN (para evitar superposición con header fijo)
 ------------------------------------------------------------------ */
 main {
-    padding-top: 80px;
+    /* Ajusta este padding-top según la altura real de tu header.
+       Si el header es 60px, deja por lo menos 70-80px de margen. */
+    padding-top: 80px; 
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    /* Ya tenemos un padding-top, puedes agrupar:
+       padding: 80px 20px 0 20px;
+       si así lo prefieres.
+    */
 }
 
 /* ------------------------------------------------------------------
@@ -335,9 +335,11 @@ footer {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Usar overflow: auto o visible para no recortar nodos */
     overflow: auto;
 }
 
+/* Separación adicional entre contenedores de diagrama */
 .diagram-container + .diagram-container {
     margin-top: 60px;
 }
@@ -345,6 +347,7 @@ footer {
 /* ------------------------------------------------------------------
    MERMAID
 ------------------------------------------------------------------ */
+/* Ajusta el <div> que contiene el diagrama Mermaid */
 .mermaid {
     display: block;
     width: 100%;         /* Ajusta al ancho del contenedor */
@@ -354,13 +357,16 @@ footer {
     clear: both;         /* Evita floats */
 }
 
+/* Ajustes de SVG dentro de Mermaid */
 .mermaid svg {
     display: block;
     margin: 0 auto;
+    /* Forzamos ancho 100% y altura auto, con !important por si Mermaid genera inline styles */
     width: 100% !important;
     height: auto !important;
 }
 
+/* Título del diagrama (si usas .diagram-title h2) */
 .diagram-title h2 {
     font-size: 1.8rem;
     color: #333;
@@ -368,6 +374,7 @@ footer {
     text-align: center;
 }
 
+/* Personalización de nodos y textos generados por Mermaid */
 .mermaid svg rect {
     fill: #58a6ff;     /* Color de fondo para los nodos */
     stroke: #333;      /* Borde */
@@ -386,6 +393,7 @@ footer {
     fill: none;
 }
 
+/* Enlaces interactivos dentro del diagrama */
 .mermaid a {
     color: #58a6ff;
     text-decoration: none;
@@ -399,12 +407,15 @@ footer {
 /* ------------------------------------------------------------------
    DIAGRAMAS CUSTOM (CLASE .diagram, .node, ETC.)
 ------------------------------------------------------------------ */
+/* Si .diagram o .node es tuyo (NO de Mermaid), podrías renombrarlos
+   a .my-diagram / .my-node para evitar conflictos. */
 .diagram {
     display: block;
     margin: 0 auto;
     position: relative;
 }
 
+/* Ejemplo de nodo “central” */
 .node.central {
     background-color: #58a6ff;
     color: #fff;
@@ -420,12 +431,12 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .node.central:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Ejemplo de nodo “secundario” */
 .node.secondary {
     background-color: #333;
     color: #fff;
@@ -441,7 +452,6 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .node.secondary:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -459,7 +469,7 @@ form {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    overflow: hidden; /* Evita desbordamientos */
 }
 
 form label {
@@ -504,15 +514,11 @@ form button:hover {
     transform: translateY(-3px);
 }
 
-form button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
 /* ------------------------------------------------------------------
    RESPONSIVE GENERAL
 ------------------------------------------------------------------ */
 @media (max-width: 768px) {
+    /* Ajustes para formularios en pantallas pequeñas */
     form {
         padding: 15px;
     }
