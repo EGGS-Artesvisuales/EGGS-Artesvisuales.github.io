@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mundo Interior
-permalink: /interior.html
+permalink: /ES/interior.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
+    <a href="/ES/index.html">Inicio</a> >
     <span>Mundo Interior</span>
 ---
 
