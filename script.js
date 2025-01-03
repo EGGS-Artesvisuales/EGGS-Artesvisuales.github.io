@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
         console.warn("No se encontraron los elementos del menú: nav-toggle o nav-menu.");
     }
 });
-
