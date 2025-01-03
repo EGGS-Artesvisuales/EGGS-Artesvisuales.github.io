@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Lo Intangible
-permalink: /intangible.html
+permalink: /ES/intangible.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <a href="/mundo-exterior.html">Representación del Mundo</a> >
+    <a href="/ES/index.html">Inicio</a> >
+    <a href="/ES/mundo-exterior.html">Representación del Mundo</a> >
     <span>Lo Intangible</span>
 ---
 
