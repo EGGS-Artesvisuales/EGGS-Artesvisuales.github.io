@@ -74,20 +74,20 @@ breadcrumbs: >
     <div class="mermaid">
     
         graph TD
-        B[Acción en el Mundo] --> B1[Lo Subrepticio]
-        B1 --> B1a[Remiendas Urbanas]
+        B[Acción en\n el Mundo] --> B1[Lo Subrepticio]
+        B1 --> B1a[Remiendas\n Urbanas]
         B1 --> B1b[La Anti-Publicidad]
-        B1 --> B1c[Graffiti & Tags]
+        B1 --> B1c[Graffiti \n& Tags]
         B --> B2[Lo Comunitario]
         B2 --> B2a[Muralismo]
-        B --> B3[Docencia y Talleres]
+        B --> B3[Docencia \ny Talleres]
         B3 --> B3a[Mineduc]
         B3 --> B3b[Corporaciones]
         B3 --> B3c[Independientes]
         B --> B4[Servicios]
         B4 --> B4a[Restauración]
-        B4 --> B4b[Decoraciones & Encargo]
-        B4 --> B4c[Asesorías Técnicas]
+        B4 --> B4b[Decoraciones \n& Encargo]
+        B4 --> B4c[Asesorías \nTécnicas]
         click B "/accion.html" "Ir a Acción en el Mundo"
         click B1 "subrepticio.html" "Ir a Lo Subrepticio"
         click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
