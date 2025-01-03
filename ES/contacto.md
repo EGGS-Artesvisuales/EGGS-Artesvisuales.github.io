@@ -27,6 +27,6 @@ Ponte en contacto para consultas, colaboraciones o cualquier pregunta. Completa 
     <button type="submit">Enviar</button>
 
     <!-- Campos ocultos opcionales para configurar el formulario -->
-    <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/gracias.html">
+    <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/ES/gracias.html">
     <input type="hidden" name="_captcha" value="false">
 </form>
