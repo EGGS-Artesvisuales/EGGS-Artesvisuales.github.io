@@ -72,36 +72,33 @@ graph TB
 
     <h2>Acción en el Mundo</h2>
     <div class="mermaid">
-        graph TD
-        B[Acción en el Mundo] --> B1[Lo Subrepticio]
-        B1 --> B1a[Remiendas Urbanas]
-        B1 --> B1b[La Anti-Publicidad]
-        B1 --> B1c[Graffiti & Tags]
-        B --> B2[Lo Comunitario]
-        B2 --> B2a[Muralismo]
-        B --> B3[Docencia y Talleres]
-        B3 --> B3a[Mineduc]
-        B3 --> B3b[Corporaciones]
-        B3 --> B3c[Independientes]
-        B --> B4[Servicios]
-        B4 --> B4a[Restauración]
-        B4 --> B4b[Decoraciones & Encargo]
-        B4 --> B4c[Asesorías Técnicas]
-        click B "/accion.html" "Ir a Acción en el Mundo"
-        click B1 "subrepticio.html" "Ir a Lo Subrepticio"
-        click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
-        click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
-        click B1c "/graffiti-tags.html" "Ir a Graffiti & Tags"
-        click B2 "comunitario.html" "Ir a Lo Comunitario"
-        click B2a "/muralismo.html" "Ir a Muralismo"
-        click B3 "docencia.html" "Ir a Docencia y Talleres"
-        click B3a "/mineduc.html" "Ir a Mineduc"
-        click B3b "/corporaciones.html" "Ir a Corporaciones"
-        click B3c "/independientes.html" "Ir a Independientes"
-        click B4 "servicios.html" "Ir a Servicios"
-        click B4a "/restauracion.html" "Ir a Restauración"
-        click B4b "/decoraciones-encargo.html" "Ir a Decoraciones & Encargo"
-        click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
+        %%{init: {'flowchart': {'nodeSpacing': 45, 'rankSpacing': 60}} }%%
+graph TB
+    B[Acción en el Mundo]
+    B --> B1[Lo Subrepticio]
+    B --> B2[Lo Comunitario]
+    B --> B3[Docencia y Talleres]
+    B --> B4[Servicios]
+    
+    %% Subrepticio
+    B1 --> B1a[Remiendas Urbanas]
+    B1 --> B1b[La Anti-Publicidad]
+    B1 --> B1c[Graffiti & Tags]
+    
+    %% Comunitario
+    B2 --> B2a[Muralismo]
+    
+    %% Docencia
+    B3 --> B3a[Mineduc]
+    B3 --> B3b[Corporaciones]
+    B3 --> B3c[Independientes]
+    
+    %% Servicios
+    B4 --> B4a[Restauración]
+    B4 --> B4b[Decoraciones & Encargo]
+    B4 --> B4c[Asesorías Técnicas]
+    
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px
     </div>
 
     <h2>Exploración del Mundo Interior</h2>
