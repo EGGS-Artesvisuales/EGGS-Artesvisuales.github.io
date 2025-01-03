@@ -6,22 +6,22 @@
   <title>{{ page.title }}</title>
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/carousel.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/carousel.css">
 
   {% if page.mermaid %}
     <!-- Carga de Mermaid.js SOLO si la página lo requiere -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        mermaid.initialize({
-          startOnLoad: true,
-          flowchart: {
-            wrap: true
-          }
-        });
-      });
-    </script>
+  document.addEventListener("DOMContentLoaded", function() {
+    mermaid.initialize({
+      startOnLoad: true,
+      flowchart: {
+        wrap: true
+      }
+    });
+  });
+</script>
   {% endif %}
 </head>
 <body>
@@ -35,27 +35,27 @@
     </div>
     <!-- Menú Principal -->
     <ul class="nav-menu" id="nav-menu">
-      <li><a href="{{ site.baseurl }}/ES/index.html">Inicio</a></li>
+      <li><a href="/index.html">Inicio</a></li>
       <li class="dropdown">
-        <a href="{{ site.baseurl }}/ES/mundo-exterior.html">Representación del Mundo</a>
+        <a href="/mundo-exterior.html">Representación del Mundo</a>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/ES/tangible.html">Lo Tangible</a></li>
-          <li><a href="{{ site.baseurl }}/ES/intangible.html">Lo Intangible</a></li>
+          <li><a href="/tangible.html">Lo Tangible</a></li>
+          <li><a href="/intangible.html">Lo Intangible</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="{{ site.baseurl }}/ES/accion.html">Acción en el Mundo</a>
+        <a href="/accion.html">Acción en el Mundo</a>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/ES/subrepticio.html">Lo Subrepticio</a></li>
-          <li><a href="{{ site.baseurl }}/ES/comunitario.html">Lo Comunitario</a></li>
-          <li><a href="{{ site.baseurl }}/ES/docencia.html">Docencia</a></li>
-          <li><a href="{{ site.baseurl }}/ES/servicios.html">Servicios</a></li>
+          <li><a href="/subrepticio.html">Lo Subrepticio</a></li>
+          <li><a href="/comunitario.html">Lo Comunitario</a></li>
+          <li><a href="/docencia.html">Docencia</a></li>
+          <li><a href="/servicios.html">Servicios</a></li>
         </ul>
       </li>
-      <li><a href="{{ site.baseurl }}/ES/interior.html">Mundo Interior</a></li>
-      <li><a href="{{ site.baseurl }}/ES/diagrama.html">Diagrama de Obra</a></li>
-      <li><a href="{{ site.baseurl }}/ES/exhibiciones.html">Exhibiciones</a></li>
-      <li><a href="{{ site.baseurl }}/ES/contacto.html">Contacto</a></li>
+      <li><a href="/interior.html">Mundo Interior</a></li>
+      <li><a href="/diagrama.html">Diagrama de Obra</a></li>
+      <li><a href="/exhibiciones.html">Exhibiciones</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
     </ul>
   </nav>
 </header>
@@ -68,8 +68,8 @@
   <div class="footer-container">
     <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
     <ul class="footer-links">
-      <li><a href="{{ site.baseurl }}/ES/index.html">Inicio</a></li>
-      <li><a href="{{ site.baseurl }}/ES/contacto.html">Contacto</a></li>
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
     </ul>
     <div class="footer-social">
       <a href="https://www.facebook.com/ART.EGarnica" target="_blank">
@@ -82,8 +82,17 @@
   </div>
 </footer>
 
-<!-- Scripts personalizados -->
-<script src="{{ site.baseurl }}/assets/js/script.js"></script>
-<script src="{{ site.baseurl }}/assets/js/diagram.js"></script>
+<!-- Tus scripts personalizados -->
+<script src="/script.js"></script>
+<script src="/assets/js/diagram.js"></script>
+
+<!-- REMUEVE la segunda carga de Mermaid -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    mermaid.initialize({ startOnLoad: true });
+  });
+</script> -->
+
 </body>
 </html>
