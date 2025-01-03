@@ -5,20 +5,6 @@ description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
 ---
 
-# Bienvenido a EGGS-Studio
-
-Explora proyectos artísticos, muralismo y creatividad en acción. EGGS-Studio combina arte, tecnología y comunidad para ofrecer experiencias únicas.
-
-## Descubre nuestras áreas principales:
-
-- **[Acción en el Mundo](/ES/accion.html):** Proyectos colaborativos y comunitarios.
-- **[Representación del Mundo](/ES/mundo-exterior.html):** Obras que exploran lo tangible e intangible.
-- **[Exhibiciones](/ES/exhibiciones.html):** Muestras y eventos destacados.
-
-## Contáctanos
-Visita nuestra página de [contacto](/ES/contacto.html) para más información.
-
----
 
 # Bienvenid@ a EGGS - Art Studio
 
@@ -59,4 +45,6 @@ Este esquema no solo es un ejercicio para comprender mi propia naturaleza creati
     </a>
 </div>
 
+## Descubre nuestras áreas principales
+- 
 [Ver más obras](exhibiciones.html)
