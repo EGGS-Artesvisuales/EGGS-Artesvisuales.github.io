@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/style.css"> <!-- Estilos generales -->
-  <link rel="stylesheet" href="/carousel.css"> <!-- Estilos del carrusel -->
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/carousel.css">
+
   {% if page.mermaid %}
-    <!-- Carga de Mermaid.js desde CDN -->
+    <!-- Carga de Mermaid.js SOLO si la página lo requiere -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -51,9 +54,11 @@
     </ul>
   </nav>
 </header>
+
 <main>
   {{ content }}
 </main>
+
 <footer>
   <div class="footer-container">
     <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
@@ -71,14 +76,18 @@
     </div>
   </div>
 </footer>
-<!-- Carga de scripts personalizados -->
+
+<!-- Tus scripts personalizados -->
 <script src="/script.js"></script>
 <script src="/assets/js/diagram.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      mermaid.initialize({ startOnLoad: true });
-    });
-  </script>
+
+<!-- REMUEVE la segunda carga de Mermaid -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    mermaid.initialize({ startOnLoad: true });
+  });
+</script> -->
+
 </body>
 </html>
