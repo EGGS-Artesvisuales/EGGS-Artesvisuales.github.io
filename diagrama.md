@@ -15,7 +15,7 @@ breadcrumbs: >
     <h2>Representación del Mundo</h2>
     <div class="mermaid">
            graph TD
-        A[Representación \n del Mundo] --> A1[Lo Tangible]
+        A[Representación del Mundo] --> A1[Lo Tangible]
         A --> A2[Lo Intangible]
         A1 --> A1a[La Saturación]
         A1a --> A1a1[La Peste]
