@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Inicio
-description: "Bienvenido a EGGS-Studio, explorando el arte y la conexión visual."
+description: "Bienvenido a EGGS-Studio, explorando el arte."
 ---
 
 # Bienvenid@ a EGGS - Art Studio
