@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Representación del Mundo
-permalink: /mundo-exterior.html
+permalink: /ES/mundo-exterior.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
+    <a href="/ES/index.html">Inicio</a> >
     <span>Representación del Mundo</span>
 ---
 
