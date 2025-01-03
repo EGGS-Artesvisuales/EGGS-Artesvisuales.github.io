@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acción en el Mundo
-permalink: /accion.html
+permalink: ES/accion.html
 breadcrumbs: >
     <a href="/index.html">Inicio</a> >
     <span>Acción en el Mundo</span>
