@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Servicios
-permalink: /servicios.html
+permalink: /ES/servicios.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <a href="/accion.html">Acción en el Mundo</a> >
+    <a href="/ES/index.html">Inicio</a> >
+    <a href="/ES/accion.html">Acción en el Mundo</a> >
     <span>Servicios</span>
 ---
 
