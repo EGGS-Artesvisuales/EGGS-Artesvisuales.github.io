@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 navToggle.classList.remove('active'); // Restablece el estado del botón hamburguesa
             });
         });
+    } else {
+        console.warn("No se encontraron los elementos del menú: nav-toggle o nav-menu.");
+    }
+});
 
         console.log("Script de navegación cargado correctamente");
     } else {
