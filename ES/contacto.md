@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Contacto
-permalink: /contacto.html
+permalink: /ES/contacto.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <span>Contacto</span>
+  <a href="/ES/index.html">Inicio</a> >
+  <span>Contacto</span>
 ---
+
 
 # Contacto
 
