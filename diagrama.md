@@ -14,6 +14,7 @@ breadcrumbs: >
 
     <h2>Representación del Mundo</h2>
     <div class="mermaid">
+    %%{init: {'flowchart': { 'wrap': true }}}%%
         graph TD
         A[Representación del Mundo] --> A1[Lo Tangible]
         A --> A2[Lo Intangible]
@@ -72,6 +73,7 @@ breadcrumbs: >
 
     <h2>Acción en el Mundo</h2>
     <div class="mermaid">
+    %%{init: {'flowchart': { 'wrap': true }}}%%
         graph TD
         B[Acción en el Mundo] --> B1[Lo Subrepticio]
         B1 --> B1a[Remiendas Urbanas]
