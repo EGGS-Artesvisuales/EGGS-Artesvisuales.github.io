@@ -116,12 +116,5 @@ breadcrumbs: >
         click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const diagrams = document.querySelectorAll(".mermaid");
-            diagrams.forEach(diagram => {
-                mermaid.init(undefined, diagram);
-            });
-        });
-    </script>
+ 
 </div>
