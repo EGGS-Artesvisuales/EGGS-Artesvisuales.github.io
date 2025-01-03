@@ -103,12 +103,13 @@ graph TB
 
     <h2>Exploración del Mundo Interior</h2>
     <div class="mermaid">
-        graph TD
-        C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
-        C --> C2[Arte y Espiritualidad]
-        click C "/interior.html" "Ir a Exploración del Mundo Interior"
-        click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
-        click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
+        %%{init: {'flowchart': {'nodeSpacing': 40, 'rankSpacing': 50}} }%%
+graph TB
+    C[Exploración del Mundo Interior]
+    C --> C1[Arte y Psicología]
+    C --> C2[Arte y Espiritualidad]
+    
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px
     </div>
 
     <script>
