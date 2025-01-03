@@ -301,8 +301,9 @@ footer {
     filter: brightness(1.2);
 }
 
-
-/* Contenedor del diagrama */
+/* ------------------------------------------------------------------
+   CONTENEDOR GENERAL DEL DIAGRAMA
+   ------------------------------------------------------------------ */
 .diagram-container {
     text-align: center;
     margin: 50px auto;
@@ -312,10 +313,49 @@ footer {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* overflow: hidden; 
+       - OJO: a veces Mermaid genera nodos que se extienden. 
+         Si los recorta, podrías cambiarlo por "overflow: auto" 
+         para permitir scroll si se sobrepasa. */
+    overflow: auto;
 }
 
-/* Título del diagrama */
+/* Separación adicional entre contenedores de diagrama */
+.diagram-container + .diagram-container {
+    margin-top: 60px;
+}
+
+/* ------------------------------------------------------------------
+   MERMAID
+   ------------------------------------------------------------------ */
+/* Ajusta el <div> que contiene el diagrama Mermaid */
+.mermaid {
+    display: block;       /* Cada diagrama en su propio bloque */
+    width: 100%;          /* Ajusta al ancho del contenedor */
+    max-width: 100%;      /* Evita desbordes en pantallas pequeñas */
+    overflow-x: auto;     /* Scroll horizontal si fuera necesario */
+    margin: 2em 0;        /* Espacio vertical entre diagramas */
+    clear: both;          /* Evita que floten o se superpongan */
+}
+
+/* Ajustes de SVG dentro de Mermaid */
+.mermaid svg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;  /* Se expande al 100% del contenedor */
+    height: auto; /* Mantiene proporción en responsive */
+}
+
+/* Si Mermaid utiliza un <g> base, podríamos forzar su posición:
+   .mermaid svg g {
+       transform: translate(0, 0);
+   }
+   Úsalo solo si realmente es necesario “corregir” la posición.
+*/
+
+/* ------------------------------------------------------------------
+   TITULO DEL DIAGRAMA
+   ------------------------------------------------------------------ */
 .diagram-title h2 {
     font-size: 1.8rem;
     color: #333;
@@ -323,60 +363,67 @@ footer {
     text-align: center;
 }
 
-/* SVG del diagrama */
-.diagram-container svg {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-}
-
-/* Separación adicional entre diagramas */
-.diagram-container + .diagram-container {
-    margin-top: 60px;
-}
-
-
-/* Estilo general para nodos Mermaid */
-rect {
-    fill: #58a6ff; /* Color de fondo */
-    stroke: #333; /* Borde */
+/* ------------------------------------------------------------------
+   NODOS Y LÍNEAS EN MERMAID (Opcional, con cautela)
+   ------------------------------------------------------------------ */
+/*
+   Si deseas personalizar los nodos Mermaid,
+   conviene anidarlos bajo .mermaid svg rect, .mermaid svg text, etc.,
+   para no afectar otros <rect> o <text> del sitio.
+*/
+.mermaid svg rect {
+    fill: #58a6ff;       /* Color de fondo de los nodos */
+    stroke: #333;        /* Color del borde */
     stroke-width: 2px;
 }
 
-text {
+.mermaid svg text {
     font-size: 14px;
     font-family: Arial, sans-serif;
-    fill: #333; /* Color del texto */
+    fill: #333;          /* Color de texto en los nodos */
 }
 
-.line {
-    stroke: #58a6ff; /* Color de las líneas */
+.mermaid svg .edgePath .path {
+    stroke: #58a6ff;     /* Color de las líneas de conexión */
     stroke-width: 2px;
+    fill: none;
 }
 
-/* Enlaces interactivos */
-a {
+/* ------------------------------------------------------------------
+   ENLACES INTERACTIVOS (LINKS) DENTRO DEL DIAGRAMA
+   ------------------------------------------------------------------ */
+.mermaid a {
     color: #58a6ff;
     text-decoration: none;
     font-weight: bold;
 }
-
-a:hover {
+.mermaid a:hover {
     text-decoration: underline;
 }
 
-/* Estilo general del diagrama */
+/* ------------------------------------------------------------------
+   ESTILO PARA DIAGRAMAS (CUSTOM)
+   ------------------------------------------------------------------ */
+/*
+   Si tienes diagramas Mermaid “custom” (ej. nodos posicionados manualmente)
+   y usas clases como .diagram, .node, etc., asegúrate de que no entren en
+   conflicto con los elementos autogenerados por Mermaid. 
+   Te sugiero renombrarlos o anidarlos dentro de un ID específico, 
+   ej. #custom-diagram .node, para no solaparlos con la nomenclatura
+   interna de Mermaid.
+*/
+
+/* Ejemplo con .diagram: si NO es parte de Mermaid, mantenlo aparte */
 .diagram {
-    display: block; /* Evita interferencias con Mermaid */
+    display: block;
     margin: 0 auto;
     position: relative;
 }
 
-/* Nodo central personalizado */
+/* Nodos “centrales” y “secundarios” personalizadas (fuera de Mermaid) */
 .node.central {
     background-color: #58a6ff;
-    color: white;
+    color: #fff;
     padding: 15px 20px;
     border-radius: 50%;
     text-align: center;
@@ -389,16 +436,15 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .node.central:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Nodos secundarios personalizados */
+/* Nodos “secundarios” */
 .node.secondary {
     background-color: #333;
-    color: white;
+    color: #fff;
     padding: 10px 15px;
     border-radius: 50%;
     text-align: center;
@@ -407,55 +453,58 @@ a:hover {
     line-height: 100px;
     font-size: 0.9rem;
     font-weight: bold;
-    position: absolute;
+    position: absolute; /* OJO: si absolute no es necesario, cámbialo */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .node.secondary:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Asegura disposición vertical */
-.diagram-container svg {
-    display: block;
-    margin: 0 auto;
-    width: 100%; /* Asegura que el SVG no se desborde horizontalmente */
-    height: auto; /* Mantiene la proporción del diagrama */
-}
-
-/* Contenedor del formulario */
+/* ------------------------------------------------------------------
+   FORMULARIOS
+   ------------------------------------------------------------------ */
 form {
     display: block;
-    max-width: 600px; /* Limita el ancho del formulario */
-    margin: 50px auto; /* Centra el formulario y añade espacio superior */
+    max-width: 600px; 
+    margin: 50px auto;
     padding: 20px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Evita cualquier desbordamiento visual */
+    overflow: hidden; /* Evita desbordamientos */
 }
 
-/* Estilo de los campos del formulario */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 form input,
 form textarea,
 form button {
     display: block;
-    width: 100%; /* Asegura que los elementos ocupen todo el ancho */
-    margin-bottom: 15px; /* Espaciado entre campos */
+    width: 100%;
+    margin-bottom: 15px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Evita que el padding afecte al ancho */
+    box-sizing: border-box;
 }
 
-/* Botón con estilo */
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
 form button {
     background-color: #58a6ff;
-    color: white;
+    color: #fff;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -470,26 +519,13 @@ form button:hover {
     transform: translateY(-3px);
 }
 
-/* Etiquetas */
-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-/* Campo de texto más largo */
-form textarea {
-    resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
-    min-height: 100px;
-}
-
-/* Compatibilidad Responsiva */
+/* ------------------------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------------------------ */
 @media (max-width: 768px) {
     form {
         padding: 15px;
     }
-
     form input,
     form textarea,
     form button {
