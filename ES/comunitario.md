@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Lo Comunitario
-permalink: ES/comunitario.html
+permalink: /ES/comunitario.html
 breadcrumbs: >
-    <a href="ES/index.html">Inicio</a> >
-    <a href="ES/accion.html">Acción en el Mundo</a> >
-    <span>Lo Comunitario</span>
+  <a href="/ES/index.html">Inicio</a> >
+  <a href="/ES/accion.html">Acción en el Mundo</a> >
+  <span>Lo Comunitario</span>
 ---
 
 # Lo Comunitario
