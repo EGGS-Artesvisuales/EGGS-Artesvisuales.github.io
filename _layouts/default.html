@@ -6,22 +6,22 @@
   <title>{{ page.title }}</title>
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/carousel.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/carousel.css">
 
   {% if page.mermaid %}
     <!-- Carga de Mermaid.js SOLO si la página lo requiere -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    mermaid.initialize({
-      startOnLoad: true,
-      flowchart: {
-        wrap: true
-      }
-    });
-  });
-</script>
+      document.addEventListener("DOMContentLoaded", function() {
+        mermaid.initialize({
+          startOnLoad: true,
+          flowchart: {
+            wrap: true
+          }
+        });
+      });
+    </script>
   {% endif %}
 </head>
 <body>
@@ -35,27 +35,27 @@
     </div>
     <!-- Menú Principal -->
     <ul class="nav-menu" id="nav-menu">
-      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="{{ site.baseurl }}/ES/index.html">Inicio</a></li>
       <li class="dropdown">
-        <a href="ES/mundo-exterior.html">Representación del Mundo</a>
+        <a href="{{ site.baseurl }}/ES/mundo-exterior.html">Representación del Mundo</a>
         <ul class="dropdown-menu">
-          <li><a href="ES/tangible.html">Lo Tangible</a></li>
-          <li><a href="ES/intangible.html">Lo Intangible</a></li>
+          <li><a href="{{ site.baseurl }}/ES/tangible.html">Lo Tangible</a></li>
+          <li><a href="{{ site.baseurl }}/ES/intangible.html">Lo Intangible</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a href="/accion.html">Acción en el Mundo</a>
+        <a href="{{ site.baseurl }}/ES/accion.html">Acción en el Mundo</a>
         <ul class="dropdown-menu">
-          <li><a href="ES/subrepticio.html">Lo Subrepticio</a></li>
-          <li><a href="ES/comunitario.html">Lo Comunitario</a></li>
-          <li><a href="ES/docencia.html">Docencia</a></li>
-          <li><a href="ES/servicios.html">Servicios</a></li>
+          <li><a href="{{ site.baseurl }}/ES/subrepticio.html">Lo Subrepticio</a></li>
+          <li><a href="{{ site.baseurl }}/ES/comunitario.html">Lo Comunitario</a></li>
+          <li><a href="{{ site.baseurl }}/ES/docencia.html">Docencia</a></li>
+          <li><a href="{{ site.baseurl }}/ES/servicios.html">Servicios</a></li>
         </ul>
       </li>
-      <li><a href="ES/interior.html">Mundo Interior</a></li>
-      <li><a href="ES/diagrama.html">Diagrama de Obra</a></li>
-      <li><a href="ES/exhibiciones.html">Exhibiciones</a></li>
-      <li><a href="ES/contacto.html">Contacto</a></li>
+      <li><a href="{{ site.baseurl }}/ES/interior.html">Mundo Interior</a></li>
+      <li><a href="{{ site.baseurl }}/ES/diagrama.html">Diagrama de Obra</a></li>
+      <li><a href="{{ site.baseurl }}/ES/exhibiciones.html">Exhibiciones</a></li>
+      <li><a href="{{ site.baseurl }}/ES/contacto.html">Contacto</a></li>
     </ul>
   </nav>
 </header>
@@ -68,8 +68,8 @@
   <div class="footer-container">
     <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
     <ul class="footer-links">
-      <li><a href="ES/index.html">Inicio</a></li>
-      <li><a href="ES/contacto.html">Contacto</a></li>
+      <li><a href="{{ site.baseurl }}/ES/index.html">Inicio</a></li>
+      <li><a href="{{ site.baseurl }}/ES/contacto.html">Contacto</a></li>
     </ul>
     <div class="footer-social">
       <a href="https://www.facebook.com/ART.EGarnica" target="_blank">
@@ -82,17 +82,8 @@
   </div>
 </footer>
 
-<!-- Tus scripts personalizados -->
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/diagram.js"></script>
-
-<!-- REMUEVE la segunda carga de Mermaid -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    mermaid.initialize({ startOnLoad: true });
-  });
-</script> -->
-
+<!-- Scripts personalizados -->
+<script src="{{ site.baseurl }}/assets/js/script.js"></script>
+<script src="{{ site.baseurl }}/assets/js/diagram.js"></script>
 </body>
 </html>
