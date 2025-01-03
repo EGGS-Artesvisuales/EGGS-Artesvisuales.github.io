@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Exhibiciones
-permalink: /exhibiciones.html
+permalink: /ES/exhibiciones.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <span>Exhibiciones</span>
+  <a href="/ES/index.html">Inicio</a> >
+  <span>Exhibiciones</span>
 ---
 
 # Exhibiciones
