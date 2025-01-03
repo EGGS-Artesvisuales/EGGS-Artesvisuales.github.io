@@ -1,16 +1,18 @@
+<!-- Carga de Mermaid -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"></script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // Configuración global
     mermaid.initialize({
-      startOnLoad: false,
+      startOnLoad: false,       // Para evitar la auto-inicialización
       flowchart: {
-        wrap: true
+        wrap: true              // Forzar el word-wrap en nodos de flowchart
       }
     });
 
-    // Inicialización manual de todos los diagramas
-    const diagrams = document.querySelectorAll('.mermaid');
-    diagrams.forEach((diagram) => {
+    // Inicialización manual de todos los diagramas con clase .mermaid
+    const diagrams = document.querySelectorAll(".mermaid");
+    diagrams.forEach(diagram => {
       mermaid.init(undefined, diagram);
     });
   });
