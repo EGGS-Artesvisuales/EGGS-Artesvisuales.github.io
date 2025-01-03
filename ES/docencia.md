@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Docencia
-permalink: /docencia.html
+permalink: /ES/docencia.html
 breadcrumbs: >
-    <a href="/index.html">Inicio</a> >
-    <a href="/accion.html">Acción en el Mundo</a> >
-    <span>Docencia</span>
+  <a href="/ES/index.html">Inicio</a> >
+  <a href="/ES/accion.html">Acción en el Mundo</a> >
+  <span>Docencia</span>
 ---
 
 # Docencia
