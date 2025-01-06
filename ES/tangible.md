@@ -8,6 +8,4 @@ breadcrumbs: >
     <span>Lo Tangible</span>
 ---
 
-# Lo Tangible
-
-Exploramos el mundo físico a través del arte, enfocándonos en materiales y representaciones concretas.
+<h1>Representacion del mundo / Lo Tangible</h1>
