@@ -5,15 +5,28 @@ description: "Welcome to EGGS-Studio, exploring the art world."
 permalink: /EN/index.html
 ---
 
+<header>
+  <div class="navbar">
+    <!-- Logo -->
+    <a href="/EN/index.html" class="logo-container">
+      <img src="assets/img/EGGSLOGOindex.png" alt="EGGS Logo">
+    </a>
+    <!-- Menú de Navegación -->
+    <ul class="nav-menu">
+      <li><a href="/EN/index.html">Home</a></li>
+      <li><a href="/EN/world-representation.html">World Representation</a></li>
+      <li><a href="/EN/action.html">Action in the World</a></li>
+      <li><a href="/EN/inner-world.html">Inner World</a></li>
+      <li><a href="/EN/contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
 # Welcome to EGGS - Art Studio
 
 ## Discover ideas, works, and artistic projects
+...
 
-I invite you to explore the breadth of my artistic activities, from intimate projects to large-scale works. My approach to art is universal, a fertile space where interests, knowledge, and experiences converge.
-
-Throughout my career, I have explored multiple disciplines and areas. This journey led me to create a rhizomatic scheme that categorizes the entirety of my work, without excluding the cultural activities I have undertaken.
-
-This scheme not only helps me understand my own creative nature and the processes behind each production, but it also serves as a tool to present my work in a clear and organized manner.
 
 ### Main categories of my artistic practice
 
