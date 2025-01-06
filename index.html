@@ -15,17 +15,21 @@
             color: #f4f4f4; /* Texto claro */
         }
 
+        /* TÍTULO PRINCIPAL */
         h1 {
-            font-size: 2.5rem; /* Tamaño grande para el título principal */
+            font-size: 2.5rem; /* Tamaño grande */
             margin-bottom: 10px;
             color: #58a6ff; /* Azul claro */
             text-transform: uppercase; /* Texto en mayúsculas */
+            animation: fadeInOut 3s infinite; /* Animación infinita */
         }
 
+        /* SUBTÍTULO */
         h2 {
-            font-size: 1.5rem; /* Tamaño más pequeño para el subtítulo */
+            font-size: 1.5rem; /* Tamaño más pequeño */
             margin-bottom: 20px;
             color: #f4f4f4; /* Texto claro */
+            animation: slideIn 3s infinite; /* Animación infinita */
         }
 
         p {
@@ -77,6 +81,31 @@
         .language-selection a:hover::after {
             transform: scaleX(1);
             transform-origin: bottom left;
+        }
+
+        /* ANIMACIONES */
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-10px);
+                opacity: 0.5;
+            }
+            50% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(10px);
+                opacity: 0.5;
+            }
         }
     </style>
 </head>
