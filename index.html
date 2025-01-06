@@ -36,6 +36,27 @@
             color: #f4f4f4;
         }
 
+        /* CONTENEDOR ANIMADO */
+        .animation-container {
+            margin: 20px auto;
+            width: 150px; /* Ajusta el tamaño del círculo */
+            height: 150px;
+            border: 5px solid #58a6ff;
+            border-top: 5px solid transparent;
+            border-radius: 50%;
+            animation: spin 2s linear infinite;
+            position: relative;
+        }
+
+        .animation-container img {
+            width: 80%; /* Tamaño del logo dentro del círculo */
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
         /* BOTONES DE SELECCIÓN DE IDIOMA */
         .language-selection {
             display: flex;
@@ -82,16 +103,6 @@
         }
 
         /* ANIMACIONES */
-        .animation-container {
-            margin: 20px auto;
-            width: 100px;
-            height: 100px;
-            border: 5px solid #58a6ff;
-            border-top: 5px solid transparent;
-            border-radius: 50%;
-            animation: spin 2s linear infinite;
-        }
-
         @keyframes spin {
             0% {
                 transform: rotate(0deg);
@@ -103,10 +114,17 @@
     </style>
 </head>
 <body>
-    <div class="animation-container"></div>
+    <!-- Contenedor Animado con el Logo -->
+    <div class="animation-container">
+        <img src="assets/img/logo.png" alt="EGGS Logo">
+    </div>
+    
+    <!-- Título y Subtítulo -->
     <h1>EGGS - Art Studio</h1>
     <h2>Welcome / Bienvenido</h2>
     <p>Select your language / Seleccione su idioma:</p>
+    
+    <!-- Botones de Selección de Idioma -->
     <div class="language-selection">
         <a href="ES/index.html">Español</a>
         <a href="EN/index.html">English</a>
