@@ -36,86 +36,31 @@
             color: #f4f4f4;
         }
 
-        /* CONTENEDOR ANIMADO */
-        .animation-container {
-            margin: 20px auto;
-            width: 150px; /* Ajusta el tamaño del círculo */
-            height: 150px;
-            border: 5px solid #58a6ff;
-            border-top: 5px solid transparent;
-            border-radius: 50%;
-            animation: spin 2s linear infinite;
-            position: relative;
+        /* LOGO CON EFECTO "LATIR" */
+        .logo-container img {
+            width: 101px; /* Tamaño fijo del logo */
+            height: 101px;
+            animation: pulse 2s infinite; /* Animación en bucle */
+            display: block;
+            margin: 0 auto;
         }
 
-        .animation-container img {
-            width: 80%; /* Tamaño del logo dentro del círculo */
-            height: auto;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        /* BOTONES DE SELECCIÓN DE IDIOMA */
-        .language-selection {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .language-selection a {
-            text-decoration: none;
-            color: white; /* Texto claro */
-            background-color: transparent; /* Fondo transparente por defecto */
-            border: 2px solid #58a6ff; /* Borde azul claro */
-            padding: 12px 25px;
-            border-radius: 5px;
-            font-size: 18px;
-            font-weight: bold;
-            position: relative;
-            overflow: hidden;
-            transition: color 0.3s ease, background-color 0.3s ease;
-        }
-
-        .language-selection a:hover {
-            background-color: #58a6ff; /* Fondo azul al hover */
-            color: #f4f4f4; /* Texto claro al hover */
-        }
-
-        .language-selection a::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background: #58a6ff; /* Línea azul inferior */
-            bottom: 0;
-            left: 0;
-            transform: scaleX(0);
-            transform-origin: bottom right;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .language-selection a:hover::after {
-            transform: scaleX(1);
-            transform-origin: bottom left;
-        }
-
-        /* ANIMACIONES */
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
+        /* ANIMACIÓN PULSE (LATIDO) */
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
             }
-            100% {
-                transform: rotate(360deg);
+            50% {
+                opacity: 0.7;
+                transform: scale(1.1); /* Aumenta ligeramente el tamaño */
             }
         }
     </style>
 </head>
 <body>
-    <!-- Contenedor Animado con el Logo -->
-    <div class="animation-container">
+    <!-- Contenedor del Logo -->
+    <div class="logo-container">
         <img src="assets/img/EGGSLOGOindex.png" alt="EGGS Logo">
     </div>
     
@@ -131,3 +76,4 @@
     </div>
 </body>
 </html>
+
