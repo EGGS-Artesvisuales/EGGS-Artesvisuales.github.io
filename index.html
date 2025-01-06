@@ -45,7 +45,53 @@
             margin: 0 auto;
         }
 
-        /* ANIMACIÓN PULSE (LATIDO) */
+        /* BOTONES DE SELECCIÓN DE IDIOMA */
+        .language-selection {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .language-selection a {
+            text-decoration: none;
+            color: white; /* Texto claro */
+            background-color: transparent; /* Fondo transparente */
+            border: 2px solid #58a6ff; /* Borde azul claro */
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+            overflow: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        .language-selection a:hover {
+            background-color: #58a6ff; /* Fondo azul al hover */
+            color: #f4f4f4; /* Texto blanco al hover */
+            transform: scale(1.1); /* Ampliación suave */
+        }
+
+        .language-selection a::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #58a6ff; /* Línea azul inferior */
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .language-selection a:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        /* ANIMACIONES */
         @keyframes pulse {
             0%, 100% {
                 opacity: 1;
@@ -76,4 +122,5 @@
     </div>
 </body>
 </html>
+
 
