@@ -40,15 +40,7 @@
   <link rel="stylesheet" href="/carousel.css">
 </head>
 <body>
-  <!-- Selector de idioma -->
   <header>
-    <div class="language-selector">
-      <select id="language-switcher">
-        <option value="es">Español</option>
-        <option value="en">English</option>
-      </select>
-    </div>
-    
     <nav class="navbar">
       <!-- Botón Hamburguesa -->
       <div class="nav-toggle" id="nav-toggle">
@@ -168,16 +160,10 @@
       });
     };
 
-    document.getElementById("language-switcher").addEventListener("change", (event) => {
-      const lang = event.target.value;
-      localStorage.setItem("language", lang);
-      switchLanguage(lang);
-    });
-
     // Detect saved language or set default
     const savedLanguage = localStorage.getItem("language") || "es";
-    document.getElementById("language-switcher").value = savedLanguage;
     switchLanguage(savedLanguage);
   </script>
 </body>
 </html>
+
