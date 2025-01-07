@@ -117,10 +117,16 @@
     
     <!-- Botones de Selección de Idioma -->
     <div class="language-selection">
-        <a href="ES/index.html">Español</a>
-        <a href="EN/index.html">English</a>
+        <button onclick="setLanguage('es')">Español</button>
+        <button onclick="setLanguage('en')">English</button>
     </div>
+
+    <script>
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+            window.location.href = '/index.html'; // Cambia esta URL según tu configuración
+        }
+    </script>
 </body>
 </html>
-
 
