@@ -34,30 +34,21 @@
     "description": "Arte visual, murales y restauración, pintura, muralismo, servicios artisticos y obras de autor, Esteban garnica."
   }
   </script>
-</head>
-
 
   <!-- Estilos -->
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/carousel.css">
-
-  {% if page.mermaid %}
-  <!-- Carga de Mermaid.js SOLO si la página lo requiere -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      mermaid.initialize({
-        startOnLoad: true,
-        flowchart: {
-          wrap: true
-        }
-      });
-    });
-  </script>
-  {% endif %}
 </head>
 <body>
+  <!-- Selector de idioma -->
   <header>
+    <div class="language-selector">
+      <select id="language-switcher">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+    
     <nav class="navbar">
       <!-- Botón Hamburguesa -->
       <div class="nav-toggle" id="nav-toggle">
@@ -67,51 +58,37 @@
       </div>
       <!-- Menú Principal -->
       <ul class="nav-menu" id="nav-menu">
-        <li><a href="/ES/index.html">Inicio</a></li>
+        <li><a data-key="inicio" href="/ES/index.html">Inicio</a></li>
         <li class="dropdown">
-          <a href="/ES/mundo-exterior.html">Representación del Mundo</a>
+          <a data-key="mundo" href="/ES/mundo-exterior.html">Representación del Mundo</a>
           <ul class="dropdown-menu">
-            <li><a href="/ES/tangible.html">Lo Tangible</a></li>
-            <li><a href="/ES/intangible.html">Lo Intangible</a></li>
+            <li><a data-key="tangible" href="/ES/tangible.html">Lo Tangible</a></li>
+            <li><a data-key="intangible" href="/ES/intangible.html">Lo Intangible</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="/ES/accion.html">Acción en el Mundo</a>
+          <a data-key="accion" href="/ES/accion.html">Acción en el Mundo</a>
           <ul class="dropdown-menu">
-            <li><a href="/ES/subrepticio.html">Lo Subrepticio</a></li>
-            <li><a href="/ES/comunitario.html">Lo Comunitario</a></li>
-            <li><a href="/ES/docencia.html">Docencia</a></li>
-            <li><a href="/ES/servicios.html">Servicios</a></li>
+            <li><a data-key="subrepticio" href="/ES/subrepticio.html">Lo Subrepticio</a></li>
+            <li><a data-key="comunitario" href="/ES/comunitario.html">Lo Comunitario</a></li>
+            <li><a data-key="docencia" href="/ES/docencia.html">Docencia</a></li>
+            <li><a data-key="servicios" href="/ES/servicios.html">Servicios</a></li>
           </ul>
         </li>
-        <li><a href="/ES/interior.html">Mundo Interior</a></li>
-        <li><a href="/ES/diagrama.html">Diagrama de Obra</a></li>
-        <li><a href="/ES/exhibiciones.html">Exhibiciones y Residencias</a></li>
+        <li><a data-key="interior" href="/ES/interior.html">Mundo Interior</a></li>
+        <li><a data-key="diagrama" href="/ES/diagrama.html">Diagrama de Obra</a></li>
+        <li><a data-key="exhibiciones" href="/ES/exhibiciones.html">Exhibiciones y Residencias</a></li>
         <li class="dropdown">
-          <a href="/ES/mundo-exterior.html">Acerca de</a>
+          <a data-key="acerca" href="/ES/mundo-exterior.html">Acerca de</a>
           <ul class="dropdown-menu">
-            <li><a href="/ES/tangible.html">Esteban Garnica</a></li>
-            <li><a href="/ES/intangible.html">EGGS - Prods y Arts</a></li>
+            <li><a data-key="garnica" href="/ES/tangible.html">Esteban Garnica</a></li>
+            <li><a data-key="eggs" href="/ES/intangible.html">EGGS - Prods y Arts</a></li>
           </ul>
         </li>
-  <li><a href="/ES/contacto.html">Contacto</a></li>
-</ul>
+        <li><a data-key="contacto" href="/ES/contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
-{% if page.breadcrumb %}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li><a href="/ES/index.html">Inicio</a></li>
-    {% for crumb in page.breadcrumb %}
-      {% if forloop.last %}
-        <li class="active" aria-current="page">{{ crumb.name }}</li>
-      {% else %}
-        <li><a href="{{ crumb.url }}">{{ crumb.name }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ol>
-</nav>
-{% endif %}
 
   <main>
     {{ content }}
@@ -119,10 +96,10 @@
 
   <footer>
     <div class="footer-container">
-      <p>&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
+      <p data-key="footer-copyright">&copy; 2025 EGGS-Studio. Todos los derechos reservados.</p>
       <ul class="footer-links">
-        <li><a href="/ES/index.html">Inicio</a></li>
-        <li><a href="/ES/contacto.html">Contacto</a></li>
+        <li><a data-key="footer-inicio" href="/ES/index.html">Inicio</a></li>
+        <li><a data-key="footer-contacto" href="/ES/contacto.html">Contacto</a></li>
       </ul>
       <div class="footer-social">
         <a href="https://www.facebook.com/ART.EGarnica" target="_blank">
@@ -135,19 +112,68 @@
     </div>
   </footer>
 
-  <!-- Tus scripts personalizados -->
-  <script src="/script.js"></script>
-  <script src="/assets/js/diagram.js"></script>
-
-  <!-- REMUEVE la segunda carga de Mermaid -->
-  <!--
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <!-- Scripts -->
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      mermaid.initialize({ startOnLoad: true });
+    const translations = {
+      es: {
+        inicio: "Inicio",
+        mundo: "Representación del Mundo",
+        tangible: "Lo Tangible",
+        intangible: "Lo Intangible",
+        accion: "Acción en el Mundo",
+        subrepticio: "Lo Subrepticio",
+        comunitario: "Lo Comunitario",
+        docencia: "Docencia",
+        servicios: "Servicios",
+        interior: "Mundo Interior",
+        diagrama: "Diagrama de Obra",
+        exhibiciones: "Exhibiciones y Residencias",
+        acerca: "Acerca de",
+        garnica: "Esteban Garnica",
+        eggs: "EGGS - Prods y Arts",
+        contacto: "Contacto",
+        "footer-copyright": "&copy; 2025 EGGS-Studio. Todos los derechos reservados.",
+        "footer-inicio": "Inicio",
+        "footer-contacto": "Contacto"
+      },
+      en: {
+        inicio: "Home",
+        mundo: "World Representation",
+        tangible: "The Tangible",
+        intangible: "The Intangible",
+        accion: "Action in the World",
+        subrepticio: "The Subtle",
+        comunitario: "Community",
+        docencia: "Teaching",
+        servicios: "Services",
+        interior: "Inner World",
+        diagrama: "Work Diagram",
+        exhibiciones: "Exhibitions and Residencies",
+        acerca: "About",
+        garnica: "Esteban Garnica",
+        eggs: "EGGS - Prods and Arts",
+        contacto: "Contact",
+        "footer-copyright": "&copy; 2025 EGGS-Studio. All rights reserved.",
+        "footer-inicio": "Home",
+        "footer-contacto": "Contact"
+      }
+    };
+
+    const switchLanguage = (lang) => {
+      document.querySelectorAll("[data-key]").forEach((el) => {
+        const key = el.getAttribute("data-key");
+        if (translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+    };
+
+    document.getElementById("language-switcher").addEventListener("change", (event) => {
+      switchLanguage(event.target.value);
     });
+
+    // Default language
+    switchLanguage("es");
   </script>
-  -->
 </body>
 </html>
-
