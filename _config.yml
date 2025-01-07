@@ -1,8 +1,8 @@
 title: "EGGS-Studio"
 description: "Arte y vida: murales, restauración y diseño artístico."
 theme: minima
-url: "https://eggs-artesvisuales.github.io"
-baseurl: ""
+url: "https://eggs-studio.cl"
+baseurl: "" # No agregar prefijo a las URLs
 
 # Palabras clave y autor
 keywords: "arte visual, murales, restauración de arte, diseño artístico, talleres artísticos, EGGS-Studio, Esteban Garnica"
@@ -11,6 +11,8 @@ author: "Esteban Garnica"
 # Sitemap y plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Configuración de Markdown
 markdown: kramdown
@@ -37,5 +39,27 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Idioma
-lang: "es-ES"
+# Idiomas
+languages:
+  es:
+    label: "Español"
+    locale: "es-ES"
+    dir: "ltr"
+  en:
+    label: "English"
+    locale: "en-US"
+    dir: "ltr"
+
+# Configuración predeterminada para los idiomas
+defaults:
+  - scope:
+      path: "es"
+    values:
+      lang: "es"
+      locale: "es-ES"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      locale: "en-US"
+
