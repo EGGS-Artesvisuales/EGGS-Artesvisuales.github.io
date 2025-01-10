@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Mundo Interior
 permalink: /ES/interior.html
 breadcrumbs: >
