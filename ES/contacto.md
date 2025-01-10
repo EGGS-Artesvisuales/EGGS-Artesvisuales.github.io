@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Contacto
 permalink: /ES/contacto.html
 breadcrumbs: >
