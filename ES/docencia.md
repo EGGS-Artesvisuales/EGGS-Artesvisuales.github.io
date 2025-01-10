@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Docencia
 permalink: /ES/docencia.html
 breadcrumbs: >
