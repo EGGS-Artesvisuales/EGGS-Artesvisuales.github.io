@@ -55,21 +55,18 @@
 </head>
 
 <body>
+  <!-- HEADER en español -->
   {% include header-es.html %}
 
+  <!-- CONTENIDO dinámico de cada página -->
   <main>
     {{ content }}
   </main>
 
+  <!-- FOOTER en español -->
   {% include footer-es.html %}
 
- <!-- The same JS for the hamburger menu (or any other script) -->
+  <!-- Script para el menú hamburguesa u otros -->
   <script src="/assets/js/menu.js"></script>
-
-  <!-- Si deseas conservar la traducción dinámica para algo específico, puedes agregarlo aquí -->
-  <!--<script>
-    const translations = { /* si lo necesitas *-/ };
-    // ...
-  </script>-->
 </body>
 </html>
