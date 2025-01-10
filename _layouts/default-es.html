@@ -2,71 +2,21 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>{{ page.title }}</title>
-  
-  <!-- Metadatos SEO en español -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: artes visuales integradas, pintura, murales, Esteban Garnica, Egarnicasanchez, EGGS, Arte, Chile, restauración, talleres y diseño artístico.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales, restauración de arte, diseño escenográfico, talleres artísticos, Esteban Garnica, EGGS-ART, Pintura' }}">
-  <meta name="author" content="EGGS-Studio">
-  <meta name="robots" content="index, follow">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Expertos en arte visual, murales y restauración de obras.' }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
-  <meta property="og:image" content="https://eggs-studio.cl/assets/images/logo.jpg">
-  <meta property="og:locale" content="es_ES">
-
-  <!-- JSON-LD Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "EGGS-Studio",
-    "url": "https://eggs-studio.cl",
-    "logo": "/assets/images/logo.jpg",
-    "sameAs": [
-      "https://www.facebook.com/ART.EGarnica",
-      "https://www.instagram.com/egarnicasanchez"
-    ],
-    "description": "Arte visual, murales, pintura, muralismo, servicios artísticos y obras de autor, Esteban Garnica."
-  }
-  </script>
-
-  <!-- Estilos -->
+  <!-- Estilos CSS globales -->
   <link rel="stylesheet" href="/assets/css/style.css">
-
-  <!-- Mermaid (SOLO si la página lo requiere, según el front matter) -->
-  {% if page.mermaid %}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      mermaid.initialize({
-        startOnLoad: true,
-        flowchart: {
-          wrap: true
-        }
-      });
-    });
-  </script>
-  {% endif %}
 </head>
-
 <body>
-  <!-- HEADER en español -->
+
   {% include header-es.html %}
 
-  <!-- CONTENIDO dinámico de cada página -->
   <main>
     {{ content }}
   </main>
 
-  <!-- FOOTER en español -->
   {% include footer-es.html %}
-
-  <!-- Script para el menú hamburguesa u otros -->
-  <script src="/assets/js/menu.js"></script>
+  
 </body>
 </html>
+
