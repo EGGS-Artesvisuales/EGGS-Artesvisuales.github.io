@@ -1,141 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EGGS - Art Studio</title>
-    <style>
-        /* REGLAS GENERALES */
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            background-color: #333; /* Fondo gris oscuro similar al navbar */
-            color: #f4f4f4; /* Texto claro */
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EGGS - Art Studio</title>
+  <style>
+    /* REGLAS GENERALES */
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        background-color: #333; /* Fondo gris oscuro similar al navbar */
+        color: #f4f4f4; /* Texto claro */
+    }
 
-        /* TÍTULO PRINCIPAL */
-        h1 {
-            font-size: 2.5rem; /* Tamaño grande */
-            margin-bottom: 10px;
-            color: #58a6ff; /* Azul claro */
-            text-transform: uppercase; /* Texto en mayúsculas */
-        }
+    /* TÍTULO PRINCIPAL */
+    h1 {
+        font-size: 2.5rem; /* Tamaño grande */
+        margin-bottom: 10px;
+        color: #58a6ff; /* Azul claro */
+        text-transform: uppercase; /* Texto en mayúsculas */
+    }
 
-        /* SUBTÍTULO */
-        h2 {
-            font-size: 1.5rem; /* Tamaño más pequeño */
-            margin-bottom: 20px;
-            color: #f4f4f4; /* Texto claro */
-        }
+    /* SUBTÍTULO */
+    h2 {
+        font-size: 1.5rem; /* Tamaño más pequeño */
+        margin-bottom: 20px;
+        color: #f4f4f4; /* Texto claro */
+    }
 
-        p {
-            font-size: 18px;
-            margin-bottom: 30px;
-            color: #f4f4f4;
-        }
+    p {
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: #f4f4f4;
+    }
 
-        /* LOGO CON EFECTO "LATIR" */
-        .logo-container img {
-            width: 101px; /* Tamaño fijo del logo */
-            height: 101px;
-            animation: pulse 2s infinite; /* Animación en bucle */
-            display: block;
-            margin: 0 auto;
-        }
+    /* LOGO CON EFECTO "LATIR" */
+    .logo-container img {
+        width: 101px; /* Tamaño fijo del logo */
+        height: 101px;
+        animation: pulse 2s infinite; /* Animación en bucle */
+        display: block;
+        margin: 0 auto;
+    }
 
-        /* BOTONES DE SELECCIÓN DE IDIOMA */
-        .language-selection {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 30px;
-        }
+    /* BOTONES DE SELECCIÓN DE IDIOMA */
+    .language-selection {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
 
-        .language-selection button {
-            text-decoration: none;
-            color: white; /* Texto claro */
-            background-color: transparent; /* Fondo transparente */
-            border: 2px solid #58a6ff; /* Borde azul claro */
-            padding: 12px 25px;
-            border-radius: 5px;
-            font-size: 18px;
-            font-weight: bold;
-            position: relative;
-            overflow: hidden;
-            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-            cursor: pointer;
-        }
+    .language-selection button {
+        text-decoration: none;
+        color: white; /* Texto claro */
+        background-color: transparent; /* Fondo transparente */
+        border: 2px solid #58a6ff; /* Borde azul claro */
+        padding: 12px 25px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        cursor: pointer;
+    }
 
-        .language-selection button:hover {
-            background-color: #58a6ff; /* Fondo azul al hover */
-            color: #f4f4f4; /* Texto blanco al hover */
-            transform: scale(1.1); /* Ampliación suave */
-        }
+    .language-selection button:hover {
+        background-color: #58a6ff; /* Fondo azul al hover */
+        color: #f4f4f4; /* Texto blanco al hover */
+        transform: scale(1.1); /* Ampliación suave */
+    }
 
-        .language-selection button::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background: #58a6ff; /* Línea azul inferior */
-            bottom: 0;
-            left: 0;
-            transform: scaleX(0);
-            transform-origin: bottom right;
-            transition: transform 0.3s ease-in-out;
-        }
+    .language-selection button::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #58a6ff; /* Línea azul inferior */
+        bottom: 0;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-in-out;
+    }
 
-        .language-selection button:hover::after {
-            transform: scaleX(1);
-            transform-origin: bottom left;
-        }
+    .language-selection button:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
 
-        /* ANIMACIONES */
-        @keyframes pulse {
-            0%, 100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-            50% {
-                opacity: 0.7;
-                transform: scale(1.1); /* Aumenta ligeramente el tamaño */
-            }
+    /* ANIMACIONES */
+    @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
         }
-    </style>
+        50% {
+            opacity: 0.7;
+            transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+        }
+    }
+  </style>
 </head>
 <body>
-    <!-- Contenedor del Logo -->
-    <div class="logo-container">
-        <img src="assets/img/EGGSLOGOindex1.png" alt="EGGS Logo">
-    </div>
-    
-    <!-- Título y Subtítulo -->
-    <h1>EGGS - Art Studio</h1>
-    <h2>Welcome / Bienvenido</h2>
-    <p>Select your language / Seleccione su idioma:</p>
-    
-    <!-- Botones de Selección de Idioma -->
-    <div class="language-selection">
-        <button onclick="setLanguage('es')">Español</button>
-        <button onclick="setLanguage('en')">English</button>
-    </div>
+  <!-- Contenedor del Logo -->
+  <div class="logo-container">
+    <!-- Ajusta la ruta de tu logo según la carpeta donde lo guardes -->
+    <img src="assets/img/EGGSLOGOindex1.png" alt="EGGS Logo">
+  </div>
+  
+  <!-- Título y Subtítulo -->
+  <h1>EGGS - Art Studio</h1>
+  <h2>Welcome / Bienvenido</h2>
+  <p>Select your language / Seleccione su idioma:</p>
+  
+  <!-- Botones de Selección de Idioma -->
+  <div class="language-selection">
+    <button onclick="setLanguage('es')">Español</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
 
-    <script>
-        function setLanguage(lang) {
-            // Guardamos la elección en localStorage
-            localStorage.setItem('language', lang);
-
-            // Redirigimos según idioma elegido.
-            // Ajusta estas rutas a tu estructura real:
-            if (lang === 'es') {
-              window.location.href = '/ES/index.html';
-            } else {
-              window.location.href = '/EN/index.html';
-            }
-        }
-    </script>
+  <!-- Script para guardar idioma en localStorage y redirigir -->
+  <script>
+    function setLanguage(lang) {
+      // Guardar idioma en localStorage
+      localStorage.setItem('language', lang);
+      
+      // Redirigir según la carpeta de idioma
+      if (lang === 'es') {
+        window.location.href = '/ES/index.html';
+      } else {
+        window.location.href = '/EN/index.html';
+      }
+    }
+  </script>
 </body>
 </html>
-
