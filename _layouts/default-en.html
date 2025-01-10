@@ -1,76 +1,46 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  
-  <!-- Metadatos SEO en inglés -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: artes visuales integradas, pintura, arte, mmuralismo, Esteban Garnica, arte chileno, Egarnicasanchez, EGGS, arte en chile, restauracion, talleres artisticos, diseño.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'artes visuales, muralismo, restauraciones de arte en chile, diseño, calidad, trabajos artisticos, Esteban Garnica, EGGS-ART, pintura' }}">
-  <meta name="author" content="EGGS-Studio">
-  <meta name="robots" content="index, follow">
+---
+layout: default-en
+title: "Home"
+description: "Welcome to EGGS-Studio, exploring the art world."
+permalink: /EN/index.html
+---
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte & Murales' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Artista visual chileno, experto en visuales, pintor, murales , restauracion y diseño, talleres.' }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
-  <meta property="og:image" content="https://eggs-studio.cl/assets/images/logo.jpg">
-  <meta property="og:locale" content="en_US">
+# Welcome to EGGS - Art Studio
 
-  <!-- JSON-LD Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "EGGS-Studio",
-    "url": "https://eggs-studio.cl",
-    "logo": "/assets/images/logo.jpg",
-    "sameAs": [
-      "https://www.facebook.com/ART.EGarnica",
-      "https://www.instagram.com/egarnicasanchez"
-    ],
-    "description": "Artista visual chileno, experto en visuales, pintor, murales , restauracion y diseño, talleres, obra de EGGS, Esteban Garnica."
-  }
-  </script>
+## Discover ideas, works, and artistic projects
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+Here you will find diverse creations that reflect an artistic journey, from murals and community interventions to introspective explorations and design solutions.
 
-  <!-- Mermaid (only if the page requires it, per front matter) -->
-  {% if page.mermaid %}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      mermaid.initialize({
-        startOnLoad: true,
-        flowchart: {
-          wrap: true
-        }
-      });
-    });
-  </script>
-  {% endif %}
-</head>
+### Main categories of my artistic practice
 
-<body>
-  {% include header-es.html %}
+<div class="button-container">
 
-  <main>
-    {{ content }}
-  </main>
+  <a href="mundo-exterior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="path-to-your-image1.jpg" alt="World Representation Works">
+      <p>World Representation</p>
+      <p>Works that portray and reinterpret the environment.</p>
+    </div>
+  </a>
 
-  {% include footer-es.html %}
+  <a href="accion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="path-to-your-image2.jpg" alt="Action in the World Works">
+      <p>Action in the World</p>
+      <p>Projects involving active intervention, community activities, workshops, and services.</p>
+    </div>
+  </a>
 
-  <!-- The same JS for the hamburger menu (or any other script) -->
-  <script src="/assets/js/menu.js"></script>
+  <a href="interior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="path-to-your-image3.jpg" alt="Exploration of the Inner World">
+      <p>The Introspective</p>
+      <p>Art focused on medical, spiritual, and internal reflection aspects.</p>
+    </div>
+  </a>
 
-  <!-- Optional dynamic translation script, if needed 
-  <script>
-    // ...
-  </script>
-  -->
-</body>
-</html>
+</div>
 
+## Explore more works and projects
+
+[See more works](exhibiciones.html)
