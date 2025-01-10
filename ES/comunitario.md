@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Lo Comunitario
 permalink: /ES/comunitario.html
 breadcrumbs: >
