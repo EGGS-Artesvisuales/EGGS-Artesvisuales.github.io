@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Acción en el Mundo
 permalink: /ES/accion.html
 breadcrumbs: >
