@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Lo Intangible
 permalink: /ES/intangible.html
 breadcrumbs: >
