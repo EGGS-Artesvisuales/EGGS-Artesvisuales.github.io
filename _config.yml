@@ -72,7 +72,7 @@ defaults:
       locale: "en-US"
 
 # Configurar enlaces permanentes más legibles
-permalink: /:categories/:title/
+#permalink: /:categories/:title/
 
 # Si quieres un output por carpeta, algo así:
-permalink: pretty
+#permalink: pretty
