@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   
-  <!-- SEO metadata in English -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: integrated visual arts, painting, murals, Esteban Garnica, Egarnicasanchez, EGGS, art in Chile, restoration, workshops, and artistic design solutions.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, scenic design, artistic workshops, Esteban Garnica, EGGS-ART, painting' }}">
+  <!-- Metadatos SEO en inglés -->
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: integrated visual arts, painting, murals, Esteban Garnica, Egarnicasanchez, EGGS, art in Chile, restoration, workshops, and artistic design.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, scenic design, artistic workshops, Esteban Garnica, EGGS-ART, Painting' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Art and Murals' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Experts in visual art, murals, and restoration.' }}">
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Art & Murals' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Experts in visual art, murals, and artwork restoration.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="https://eggs-studio.cl/assets/images/logo.jpg">
@@ -31,14 +31,14 @@
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Visual arts, murals, painting, muralism, artistic services and original works by Esteban Garnica."
+    "description": "Visual arts, murals, painting, muralism, artistic services, and original works by Esteban Garnica."
   }
   </script>
 
   <!-- Styles -->
   <link rel="stylesheet" href="/style.css">
 
-  <!-- Mermaid (only if the page requires it) -->
+  <!-- Mermaid (only if the page requires it, per front matter) -->
   {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
@@ -63,10 +63,14 @@
 
   {% include footer-en.html %}
 
-  <!-- Optional scripts -->
-  <!--<script>
-    const translations = { /* if needed *-/ };
+  <!-- The same JS for the hamburger menu (or any other script) -->
+  <script src="/assets/js/menu.js"></script>
+
+  <!-- Optional dynamic translation script, if needed 
+  <script>
     // ...
-  </script>-->
+  </script>
+  -->
 </body>
 </html>
+
