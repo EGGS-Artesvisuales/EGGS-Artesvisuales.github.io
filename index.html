@@ -53,7 +53,7 @@
             margin-top: 30px;
         }
 
-        .language-selection a {
+        .language-selection button {
             text-decoration: none;
             color: white; /* Texto claro */
             background-color: transparent; /* Fondo transparente */
@@ -65,15 +65,16 @@
             position: relative;
             overflow: hidden;
             transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+            cursor: pointer;
         }
 
-        .language-selection a:hover {
+        .language-selection button:hover {
             background-color: #58a6ff; /* Fondo azul al hover */
             color: #f4f4f4; /* Texto blanco al hover */
             transform: scale(1.1); /* Ampliación suave */
         }
 
-        .language-selection a::after {
+        .language-selection button::after {
             content: "";
             position: absolute;
             width: 100%;
@@ -86,7 +87,7 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        .language-selection a:hover::after {
+        .language-selection button:hover::after {
             transform: scaleX(1);
             transform-origin: bottom left;
         }
@@ -123,8 +124,16 @@
 
     <script>
         function setLanguage(lang) {
+            // Guardamos la elección en localStorage
             localStorage.setItem('language', lang);
-            window.location.href = '/ES/index.html'; // Cambia esta URL según tu configuración
+
+            // Redirigimos según idioma elegido.
+            // Ajusta estas rutas a tu estructura real:
+            if (lang === 'es') {
+              window.location.href = '/ES/index.html';
+            } else {
+              window.location.href = '/EN/index.html';
+            }
         }
     </script>
 </body>
