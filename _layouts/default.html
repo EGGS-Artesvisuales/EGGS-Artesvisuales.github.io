@@ -37,8 +37,26 @@
 
   <!-- Estilos -->
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/carousel.css">
+  
+  <!-- Mermaid para graficos -->
+  
+ {% if page.mermaid %}
+  <!-- Carga de Mermaid.js SOLO si la página lo requiere -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        flowchart: {
+          wrap: true
+        }
+      });
+    });
+  </script>
+  {% endif %}
+
 </head>
+  
 <body>
   <header>
     <nav class="navbar">
