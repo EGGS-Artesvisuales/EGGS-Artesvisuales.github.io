@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Diagrama de Obra
 permalink: /ES/diagrama.html
 mermaid: true
