@@ -137,7 +137,7 @@ header {
 
 /* Menú Hamburguesa */
 .nav-toggle {
-    display: none;
+    display: none; /* Oculto por defecto, solo visible en pantallas pequeñas */
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
@@ -149,6 +149,7 @@ header {
     height: 3px;
     background-color: white;
     border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
 }
 
 /* Menú Responsivo */
@@ -166,12 +167,13 @@ header {
         position: fixed; /* Fija el menú en la parte superior */
         top: 60px;       /* Justo debajo del header */
         left: 0;
-        z-index: 999;
+        z-index: 999;    /* Asegura que el menú esté por encima de otros elementos */
         padding: 10px;
+        transition: max-height 0.3s ease-in-out; /* Animación para un efecto más suave */
     }
 
     .nav-menu.active {
-        display: flex;  /* Mostrar el menú cuando se active */
+        display: flex;  /* Mostrar el menú cuando esté activo */
     }
 
     .dropdown-menu {
@@ -183,6 +185,29 @@ header {
         position: static;
     }
 }
+
+/* Ajustes de hover para accesibilidad (opcional) */
+.nav-toggle:hover span {
+    background-color: #58a6ff; /* Cambia el color al pasar el cursor */
+}
+
+/* ------------------------------------------------------------------
+   MAIN (para evitar superposición con header fijo)
+------------------------------------------------------------------ */
+main {
+    /* Ajusta este padding-top según la altura real de tu header.
+       Si el header es 60px, deja por lo menos 70-80px de margen. */
+    padding-top: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Ya tenemos un padding-top, puedes agrupar:
+       padding: 80px 20px 0 20px;
+       si así lo prefieres.
+    */
+}
+
 
 /* ------------------------------------------------------------------
    MAIN (para evitar superposición con header fijo)
