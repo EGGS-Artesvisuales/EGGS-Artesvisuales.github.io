@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Inicio
 description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
