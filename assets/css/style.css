@@ -65,7 +65,7 @@ header {
 
 /* Efecto Hover en menú */
 .nav-menu a:hover {
-    background-color: #34495e; /* Leve contraste */
+    background-color: #acbfd1; /* Leve contraste */
     color: #58a6ff;
 }
 
