@@ -2,21 +2,68 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <!-- Estilos CSS globales -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
 
+  <!-- Metadatos SEO (puedes replicar los que tenías) -->
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: artes visuales, murales, restauración, etc.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales, restauración de arte...' }}">
+  <meta name="author" content="EGGS-Studio">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (si aplica) -->
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Expertos en arte visual, murales...' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url | default: 'https://tu-dominio.com' }}{{ page.url }}">
+  <meta property="og:image" content="https://tu-dominio.com/assets/img/logo.jpg">
+  <meta property="og:locale" content="es_ES">
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "EGGS-Studio",
+    "url": "https://tu-dominio.com",
+    "logo": "/assets/img/logo.jpg",
+    "sameAs": [
+      "https://www.facebook.com/ART.EGarnica",
+      "https://www.instagram.com/egarnicasanchez"
+    ],
+    "description": "Arte visual, murales y restauración..."
+  }
+  </script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Mermaid (SOLO si la página lo requiere, por ejemplo, si page.mermaid está en true) -->
+  {% if page.mermaid %}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        flowchart: {
+          wrap: true
+        }
+      });
+    });
+  </script>
+  {% endif %}
+</head>
+
+<body>
+  <!-- INCLUYE EL NAV ESPAÑOL -->
   {% include header-es.html %}
 
+  <!-- CONTENIDO DE LA PÁGINA -->
   <main>
     {{ content }}
   </main>
 
+  <!-- INCLUYE EL FOOTER ESPAÑOL -->
   {% include footer-es.html %}
-  
 </body>
 </html>
-
