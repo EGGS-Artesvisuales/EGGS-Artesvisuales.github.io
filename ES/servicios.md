@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Servicios
 permalink: /ES/servicios.html
 breadcrumbs: >
