@@ -1,18 +1,21 @@
 title: "EGGS-Studio"
 description: "Arte y vida: murales, restauración y diseño artístico."
 theme: minima
+
+# URL de tu sitio. Ajusta si tu dominio es otro.
 url: "https://eggs-studio.cl"
-baseurl: "" # No agregar prefijo a las URLs
+baseurl: ""  # Dejar vacío si no usas subcarpeta
 
 # Palabras clave y autor
 keywords: "arte visual, murales, restauración de arte, diseño artístico, talleres artísticos, EGGS-Studio, Esteban Garnica"
 author: "Esteban Garnica"
 
-# Sitemap y plugins
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  # Si en algún momento quieres usar un plugin de i18n, podrías incluirlo aquí.
 
 # Configuración de Markdown
 markdown: kramdown
@@ -25,9 +28,11 @@ kramdown:
     line_numbers: true
     wrap: true
 
-# Configuración de Mermaid.js
+# Configuración para Mermaid.js
+# Nota: Tienes un bloque condicional en tus layouts que carga la versión 10.x de Mermaid
+# Si prefieres, ajusta la 'version' para que coincida con la que usas en el layout.
 mermaid:
-  version: "9.3.0"
+  version: "10.0.0"
   options:
     theme: "forest"
     flowchart:
@@ -50,16 +55,24 @@ languages:
     locale: "en-US"
     dir: "ltr"
 
-# Configuración predeterminada para los idiomas
+# Configuración por defecto para cada idioma.
+# Esto le indica a Jekyll que:
+#  - Todos los archivos dentro de la carpeta "es" tendrán lang: "es" y locale: "es-ES".
+#  - Todos los archivos dentro de la carpeta "en" tendrán lang: "en" y locale: "en-US".
 defaults:
   - scope:
-      path: "es"
+      path: "ES"
     values:
       lang: "es"
       locale: "es-ES"
   - scope:
-      path: "en"
+      path: "EN"
     values:
       lang: "en"
       locale: "en-US"
 
+# Configurar enlaces permanentes más legibles
+permalink: /:categories/:title/
+
+# Si quieres un output por carpeta, algo así:
+permalink: pretty
