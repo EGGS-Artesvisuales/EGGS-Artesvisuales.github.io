@@ -61,6 +61,10 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
     overflow: hidden;
+ a: visited {
+  color: #f4f4f4; /* o cualquier color que prefieras */
+}
+
 }
 
 /* Efecto Hover en menú */
