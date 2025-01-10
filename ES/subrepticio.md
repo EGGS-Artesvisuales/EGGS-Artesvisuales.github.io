@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Lo Subrepticio
 permalink: /ES/subrepticio.html
 breadcrumbs: >
