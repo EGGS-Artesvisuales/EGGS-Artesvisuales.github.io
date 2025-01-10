@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------------
+ /* ------------------------------------------------------------------
    REGLAS GENERALES
 ------------------------------------------------------------------ */
 * {
@@ -9,8 +9,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3eef0; /* Color de fondo más claro */
-    color: #2c3e50;           /* Texto en tono gris-azulado */
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 img {
@@ -22,13 +22,13 @@ img {
    HEADER FIJO
 ------------------------------------------------------------------ */
 header {
-    background-color: #aabed1; /* Fondo más elegante */
-    color: #ecf0f1;           /* Texto claro */
+    background-color: #333;
+    color: white;
     padding: 10px 0;
     position: fixed; /* Fija el header en la parte superior */
     width: 100%;
     z-index: 1000; /* Asegura que el header quede por delante de otros elementos */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Sombra ligeramente más suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -53,7 +53,7 @@ header {
 }
 
 .nav-menu a {
-    color: #ecf0f1; /* Texto claro sobre fondo oscuro */
+    color: black;
     text-decoration: none;
     padding: 8px 15px;
     display: block;
@@ -65,7 +65,7 @@ header {
 
 /* Efecto Hover en menú */
 .nav-menu a:hover {
-    background-color: #acbfd1; /* Leve contraste */
+    background-color: #555;
     color: #58a6ff;
 }
 
@@ -94,7 +94,7 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #3c4a5a; /* Más oscuro para el submenú */
+    background-color: #444d56;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -112,7 +112,7 @@ header {
 }
 
 .dropdown-menu a:hover {
-    background-color: #34495e;
+    background-color: #555;
     color: #58a6ff;
 }
 
@@ -147,7 +147,7 @@ header {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #ecf0f1; /* Líneas hamburguesa en tono claro */
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -161,7 +161,7 @@ header {
         display: none;  /* Ocultar el menú por defecto */
         flex-direction: column;
         gap: 10px;
-        background-color: #2c3e50; /* Fondo del menú responsivo */
+        background-color: #333;
         width: 100%;
         position: fixed; /* Fija el menú en la parte superior */
         top: 60px;       /* Justo debajo del header */
@@ -214,7 +214,7 @@ main {
 .fancy-button {
     display: block;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
                 inset 0 -2px 6px rgba(0, 0, 0, 0.2);
@@ -239,7 +239,7 @@ main {
     justify-content: flex-end;
     align-items: center;
     padding: 15px;
-    color: #2c3e50;
+    color: #333;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -261,7 +261,7 @@ main {
 }
 
 .button-content p {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.8);
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 1rem;
@@ -273,8 +273,8 @@ main {
    FOOTER
 ------------------------------------------------------------------ */
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #333;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -304,7 +304,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #ecf0f1;
+    color: white;
 }
 
 .footer-social {
@@ -369,7 +369,7 @@ footer {
 /* Título del diagrama (si usas .diagram-title h2) */
 .diagram-title h2 {
     font-size: 1.8rem;
-    color: #2c3e50;
+    color: #333;
     margin: 20px 0;
     text-align: center;
 }
@@ -377,14 +377,14 @@ footer {
 /* Personalización de nodos y textos generados por Mermaid */
 .mermaid svg rect {
     fill: #58a6ff;     /* Color de fondo para los nodos */
-    stroke: #2c3e50;   /* Borde */
+    stroke: #333;      /* Borde */
     stroke-width: 2px;
 }
 
 .mermaid svg text {
     font-size: 14px;
     font-family: Arial, sans-serif;
-    fill: #2c3e50;     /* Color de texto en los nodos */
+    fill: #333;        /* Color de texto en los nodos */
 }
 
 .mermaid svg .edgePath .path {
@@ -438,7 +438,7 @@ footer {
 
 /* Ejemplo de nodo “secundario” */
 .node.secondary {
-    background-color: #2c3e50;
+    background-color: #333;
     color: #fff;
     padding: 10px 15px;
     border-radius: 50%;
@@ -513,4 +513,3 @@ form button:hover {
     background-color: #0056b3;
     transform: translateY(-3px);
 }
-
