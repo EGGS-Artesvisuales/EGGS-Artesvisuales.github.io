@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Representación del Mundo
 permalink: /ES/mundo-exterior.html
 breadcrumbs: >
