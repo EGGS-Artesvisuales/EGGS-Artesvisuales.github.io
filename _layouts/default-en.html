@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   
   <!-- Metadatos SEO en inglés -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: integrated visual arts, painting, murals, Esteban Garnica, Egarnicasanchez, EGGS, art in Chile, restoration, workshops, and artistic design.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, scenic design, artistic workshops, Esteban Garnica, EGGS-ART, Painting' }}">
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: artes visuales integradas, pintura, arte, mmuralismo, Esteban Garnica, arte chileno, Egarnicasanchez, EGGS, arte en chile, restauracion, talleres artisticos, diseño.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'artes visuales, muralismo, restauraciones de arte en chile, diseño, calidad, trabajos artisticos, Esteban Garnica, EGGS-ART, pintura' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Art & Murals' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Experts in visual art, murals, and artwork restoration.' }}">
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte & Murales' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Artista visual chileno, experto en visuales, pintor, murales , restauracion y diseño, talleres.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="https://eggs-studio.cl/assets/images/logo.jpg">
@@ -31,7 +31,7 @@
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Visual arts, murals, painting, muralism, artistic services, and original works by Esteban Garnica."
+    "description": "Artista visual chileno, experto en visuales, pintor, murales , restauracion y diseño, talleres, obra de EGGS, Esteban Garnica."
   }
   </script>
 
@@ -55,13 +55,13 @@
 </head>
 
 <body>
-  {% include header-en.html %}
+  {% include header-es.html %}
 
   <main>
     {{ content }}
   </main>
 
-  {% include footer-en.html %}
+  {% include footer-es.html %}
 
   <!-- The same JS for the hamburger menu (or any other script) -->
   <script src="/assets/js/menu.js"></script>
