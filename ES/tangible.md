@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-es
 title: Lo Tangible
 permalink: /ES/tangible.html
 breadcrumbs: >
