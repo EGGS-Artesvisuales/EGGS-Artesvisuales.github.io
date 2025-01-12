@@ -3,19 +3,23 @@ layout: default-es
 title: Inicio
 description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
+breadcrumb
 ---
 
 # Bienvenid@ a EGGS - Art Studio
 
 ## Descubre ideas, obras y proyectos artísticos
 
-Te invito a explorar la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es universal, un espacio fértil donde convergen intereses, saberes y experiencias.
+Te invito a explorar la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es universal, 
+un espacio fértil donde convergen intereses, saberes y experiencias.
 
-A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la totalidad de mi trabajo, sin dejar fuera las actividades culturales que he realizado.
+A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la totalidad de mi trabajo, 
+sin dejar fuera ninguna de las actividades culturales que he realizado.
 
-Dicho esquema no solo me ayuda a comprender mi propia naturaleza creativa y los procesos detrás de cada producción, sino que también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
+Dicho esquema no solo me ayuda a comprender mi propia naturaleza creativa y los procesos detrás de cada producción, sino que también sirve como una herramienta 
+para presentar mi trabajo de manera clara y organizada.
 
-### Grandes categorías de mi práctica artística
+### Categorías generales de mi práctica artística
 
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
