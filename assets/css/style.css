@@ -1,4 +1,4 @@
- /* ------------------------------------------------------------------
+/* ------------------------------------------------------------------
    REGLAS GENERALES
 ------------------------------------------------------------------ */
 * {
@@ -11,6 +11,9 @@ body {
     padding: 0;
     background-color: #333; 
     color: #f4f4f4; 
+    /* NUEVO: Suele ser buena práctica definir un estilo "smooth" para el renderizado de texto */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 img {
@@ -29,6 +32,8 @@ header {
     width: 100%;
     z-index: 1000; /* Asegura que el header quede por delante de otros elementos */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* NUEVO: Transición suave para propiedades de header (opcional) */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar {
@@ -61,16 +66,29 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
     overflow: hidden;
- a: visited {
-  color: #f4f4f4; /* o cualquier color que prefieras */
+    /* NUEVO: Añadimos una pequeña transición de transform, por si queremos hacer hover más vistoso */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    
+    /* NUEVO: Estado :focus para accesibilidad */
+    outline: none;
 }
 
+.nav-menu a:focus {
+    background-color: #555;
+    color: #58a6ff;
+    transform: scale(1.02);
+}
+
+/* NUEVO: se corrige la sintaxis de a:visited. Debe ir fuera de .nav-menu a { ... } */
+.nav-menu a:visited {
+    color: #f4f4f4; /* o cualquier color que prefieras para enlaces visitados */
 }
 
 /* Efecto Hover en menú */
 .nav-menu a:hover {
     background-color: #555;
     color: #58a6ff;
+    transform: scale(1.02); /* NUEVO: ligero "zoom" al pasar el ratón */
 }
 
 /* Subrayado animado en menú */
@@ -114,6 +132,8 @@ header {
     padding: 10px;
     white-space: nowrap;
     color: #f4f4f4; /* Texto en claro */
+    /* NUEVO: Añadimos también un hover suave aquí */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-menu a:hover {
@@ -146,15 +166,22 @@ header {
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
+    /* NUEVO: Añadimos una suave transición (opcional) */
+    transition: transform 0.3s ease;
 }
 
 .nav-toggle span {
     display: block;
     width: 25px;
     height: 3px;
-     /* Líneas blancas para contrastar con fondo oscuro */
+    /* Líneas blancas para contrastar con fondo oscuro */
     background-color: #f4f4f4; 
     border-radius: 5px;
+}
+
+/* NUEVO: Efecto hover en el icono hamburguesa */
+.nav-toggle:hover {
+    transform: scale(1.1);
 }
 
 /* Menú Responsivo */
@@ -174,6 +201,8 @@ header {
         left: 0;
         z-index: 999;
         padding: 10px;
+        /* NUEVO: Añadimos una pequeña transición al desplegar */
+        transition: all 0.3s ease-in-out;
     }
 
     .nav-menu.active {
@@ -229,6 +258,15 @@ main {
     text-align: center;
     width: 250px;
     height: 300px;
+    /* NUEVO: Efecto para cuando está en foco mediante tab */
+    outline: none;
+}
+
+.fancy-button:focus {
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), 
+                0 4px 6px rgba(0, 0, 0, 0.1),
+                inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
 
 .fancy-button:hover {
@@ -283,6 +321,8 @@ footer {
     color: #cecece;
     padding: 20px;
     text-align: center;
+    /* NUEVO: Pequeña sombra sutil para el footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .footer-container {
@@ -383,7 +423,7 @@ footer {
 /* Personalización de nodos y textos generados por Mermaid */
 .mermaid svg rect {
     fill: #58a6ff;     /* Color de fondo para los nodos */
-    stroke: #f4f4f4;      /* Borde */
+    stroke: #f4f4f4;   /* Borde */
     stroke-width: 2px;
 }
 
@@ -496,6 +536,15 @@ form button {
     border: 1px solid #666;
     border-radius: 4px;
     box-sizing: border-box;
+    /* NUEVO: Efecto :focus en inputs y textarea para accesibilidad */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #58a6ff;
+    box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
+    outline: none;
 }
 
 form textarea {
