@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-<!-- Mermaid (SOLO si la página lo requiere, por ejemplo, si page.mermaid está en true) -->
+<!-- Mermaid (solo si la página lo requiere, es decir, si page.mermaid está en true) -->
 {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
@@ -47,6 +47,13 @@
       mermaid.initialize({
         startOnLoad: true,
         theme: 'forest',
+        themeVariables: {
+          background: '#ffffff',
+          primaryColor: '#e4f7d2',
+          primaryBorderColor: '#34495e',
+          lineColor: '#34495e',
+          arrowheadColor: '#34495e'
+        },
         flowchart: {
           wrap: true,
           curve: 'basis'
@@ -55,6 +62,7 @@
     });
   </script>
 {% endif %}
+
 
 </head>
 
