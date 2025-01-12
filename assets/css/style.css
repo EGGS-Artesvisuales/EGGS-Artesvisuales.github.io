@@ -436,6 +436,10 @@ footer {
   stroke-width: 2px;
   fill: none;
 }
+.mermaid .edgePath marker path {
+  stroke: #58a6ff;
+  fill: #58a6ff;
+}
 
 
 /* Enlaces interactivos dentro del diagrama */
@@ -449,58 +453,6 @@ footer {
     text-decoration: underline;
 }
 
-/* ------------------------------------------------------------------
-   DIAGRAMAS CUSTOM (CLASE .diagram, .node, ETC.)
------------------------------------------------------------------- */
-/* Si .diagram o .node es tuyo (NO de Mermaid), podrías renombrarlos
-   a .my-diagram / .my-node para evitar conflictos. */
-.diagram {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-}
-
-/* Ejemplo de nodo “central” */
-.node.central {
-    background-color: #58a6ff;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 50%;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    line-height: 120px;
-    font-size: 1rem;
-    font-weight: bold;
-    position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.node.central:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Ejemplo de nodo “secundario” */
-.node.secondary {
-    background-color: #555;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 50%;
-    text-align: center;
-    width: 120px;
-    height: 120px;
-    line-height: 100px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    position: absolute; /* Cambia a relative si no quieres que floten */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.node.secondary:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
 
 /* ------------------------------------------------------------------
    FORMULARIOS
