@@ -46,13 +46,15 @@
     document.addEventListener("DOMContentLoaded", function() {
       mermaid.initialize({
         startOnLoad: true,
-        theme: 'forest',
+        theme: 'dark',  // Cambiamos a "dark"
         themeVariables: {
-          background: '#ffffff',
-          primaryColor: '#444',
-          primaryBorderColor: '#34495e',
-          lineColor: '#34495e',
-          arrowheadColor: '#34495e'
+          /* Ajusta el fondo del diagrama (SVG) y el color de nodos, flechas, etc. */
+          background: '#1e1e1e',
+          primaryColor: '#444444',       // Color base para nodos
+          primaryTextColor: '#ffffff',   // Texto blanco en nodos
+          primaryBorderColor: '#aaaaaa', // Borde de nodos
+          lineColor: '#ffffff',          // Flechas blancas
+          arrowheadColor: '#ffffff'      // Puntas de flecha
         },
         flowchart: {
           wrap: true,
@@ -62,6 +64,7 @@
     });
   </script>
 {% endif %}
+
 
 
 </head>
