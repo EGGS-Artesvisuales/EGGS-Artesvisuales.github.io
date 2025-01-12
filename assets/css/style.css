@@ -431,11 +431,12 @@ footer {
     fill: #333;        /* Color de texto en los nodos */
 }
 
-.mermaid svg .edgePath .path {
-    stroke: #58a6ff !important;   /* Color de las líneas de conexión */
-    stroke-width: 2px !important;
-
+.mermaid .edgePath path {
+  stroke: #58a6ff;
+  stroke-width: 2px;
+  fill: none;
 }
+
 
 /* Enlaces interactivos dentro del diagrama */
 .mermaid a {
