@@ -22,7 +22,7 @@ img {
    HEADER FIJO
 ------------------------------------------------------------------ */
 header {
-    background-color: #444; 
+    background-color: #111; 
     color: #f4f4f4;
     padding: 10px 0;
     position: fixed; /* Fija el header en la parte superior */
