@@ -389,46 +389,49 @@ footer {
 }
 
 /* ------------------------------------------------------------------
-   MERMAID
+   MERMAID - Estilos básicos y responsivos
 ------------------------------------------------------------------ */
-/* Ajusta el <div> que contiene el diagrama Mermaid */
+
+/* Contenedor de Mermaid responsivo */
 .mermaid {
-    display: block;
-    width: 100%;         /* Ajusta al ancho del contenedor */
-    max-width: 100%;     /* Evita desbordes en pantallas pequeñas */
-    overflow-x: auto;    /* Scroll horizontal si es necesario */
-    margin: 2em 0;       /* Espacio vertical entre diagramas */
-    clear: both;         /* Evita floats */
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;  /* Permite scroll horizontal en pantallas estrechas */
+  margin: 2em 0;
+  clear: both;       /* Evita floats */
 }
 
-/* Ajustes de SVG dentro de Mermaid */
+/* Ajustes de SVG para que escale al 100% del contenedor */
 .mermaid svg {
-    display: block;
-    margin: 0 auto;
-    /* Forzamos ancho 100% y altura auto, con !important por si Mermaid genera inline styles */
-    width: 100% !important;
-    height: auto !important;
+  display: block;
+  margin: 0 auto;
+  width: 100% !important; /* !important anula estilos inline de Mermaid */
+  height: auto !important;
 }
 
-/* Título del diagrama (si usas .diagram-title h2) */
+/* Si usas un contenedor adicional para un título de diagrama */
 .diagram-title h2 {
-    font-size: 1.8rem;
-    color: #f4f4f4;
-    margin: 20px 0;
-    text-align: center;
+  font-size: 1.8rem;
+  margin: 20px 0;
+  text-align: center;
+  /* color: #f4f4f4; (solo si tu fondo es oscuro) */
 }
 
-/* Personalización de nodos y textos generados por Mermaid */
+/* EJEMPLO: Forzando colores en nodos y texto
+   (Descomenta si quieres anular la config de themeVariables)
+*/
+/*
 .mermaid svg rect {
-    fill: #58a6ff;     /* Color de fondo para los nodos */
-    stroke: #f4f4f4;   /* Borde */
-    stroke-width: 2px;
+  fill: #58a6ff;
+  stroke: #f4f4f4;
+  stroke-width: 2px;
 }
 
 .mermaid svg text {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    fill: #333;        /* Color de texto en los nodos */
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  fill: #333;
 }
 
 .mermaid .edgePath path {
@@ -436,21 +439,21 @@ footer {
   stroke-width: 2px;
   fill: none;
 }
+
 .mermaid .edgePath marker path {
   stroke: #58a6ff;
   fill: #58a6ff;
 }
+*/
 
-
-/* Enlaces interactivos dentro del diagrama */
+/* Enlaces interactivos dentro del diagrama (nodos clicables) */
 .mermaid a {
-    color: #58a6ff;
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .mermaid a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
