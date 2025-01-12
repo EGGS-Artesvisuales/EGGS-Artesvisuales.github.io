@@ -53,6 +53,7 @@ header {
 }
 
 .nav-menu a {
+    background-color: #000;    /* Color de fondo para cada enlace */
     color: #f4f4f4; 
     text-decoration: none;
     padding: 8px 15px;
