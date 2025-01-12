@@ -66,9 +66,7 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
     overflow: hidden;
-    /* NUEVO: Añadimos una pequeña transición de transform, por si queremos hacer hover más vistoso */
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    
+     
     /* NUEVO: Estado :focus para accesibilidad */
     outline: none;
 }
@@ -434,8 +432,8 @@ footer {
 }
 
 .mermaid svg .edgePath .path {
-    stroke: #58a6ff;   /* Color de las líneas de conexión */
-    stroke-width: 2px;
+    stroke: #58a6ff !important;   /* Color de las líneas de conexión */
+    stroke-width: 2px !important;
 
 }
 
