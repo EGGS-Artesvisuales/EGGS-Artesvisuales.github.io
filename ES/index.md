@@ -15,8 +15,8 @@ un espacio fértil donde convergen intereses, saberes y experiencias.
 A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la <br> 
 totalidad de mi trabajo, sin dejar fuera ninguna de las actividades culturales que he realizado.
 
-Dicho esquema no solo me ayuda a comprender mi propia naturaleza creativa y los procesos detrás de cada producción, sino que también sirve como una herramienta <br> 
-para presentar mi trabajo de manera clara y organizada.
+Dicho esquema no solo me ayuda a comprender mi propia naturaleza creativa y los procesos detrás de cada producción, sino que <br> 
+también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
 
 ### Categorías generales de mi práctica artística
 
