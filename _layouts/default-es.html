@@ -39,20 +39,23 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-  <!-- Mermaid (SOLO si la página lo requiere, por ejemplo, si page.mermaid está en true) -->
-  {% if page.mermaid %}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        mermaid.initialize({
-          startOnLoad: true,
-          flowchart: {
-            wrap: true
-          }
-        });
+<!-- Mermaid (SOLO si la página lo requiere, por ejemplo, si page.mermaid está en true) -->
+{% if page.mermaid %}
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      mermaid.initialize({
+        startOnLoad: true,
+        theme: 'forest',
+        flowchart: {
+          wrap: true,
+          curve: 'basis'
+        }
       });
-    </script>
-  {% endif %}
+    });
+  </script>
+{% endif %}
+
 </head>
 
 <body>
