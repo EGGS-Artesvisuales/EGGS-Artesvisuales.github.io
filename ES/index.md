@@ -3,7 +3,6 @@ layout: default-es
 title: Inicio
 description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
-breadcrumb:true
 ---
 
 # Bienvenid@ a EGGS - Art Studio
