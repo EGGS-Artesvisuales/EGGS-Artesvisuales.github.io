@@ -436,7 +436,7 @@ footer {
 .mermaid svg .edgePath .path {
     stroke: #58a6ff;   /* Color de las líneas de conexión */
     stroke-width: 2px;
-    fill: none;
+
 }
 
 /* Enlaces interactivos dentro del diagrama */
