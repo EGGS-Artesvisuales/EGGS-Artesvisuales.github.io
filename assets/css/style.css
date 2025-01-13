@@ -420,34 +420,6 @@ footer {
   /* color: #f4f4f4; (solo si tu fondo es oscuro) */
 }
 
-/* EJEMPLO: Forzando colores en nodos y texto
-   (Descomenta si quieres anular la config de themeVariables)
-*/
-/*
-.mermaid svg rect {
-  fill: #58a6ff;
-  stroke: #f4f4f4;
-  stroke-width: 2px;
-}
-
-.mermaid svg text {
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-  fill: #333;
-}
-
-.mermaid .edgePath path {
-  stroke: #58a6ff;
-  stroke-width: 2px;
-  fill: none;
-}
-
-.mermaid .edgePath marker path {
-  stroke: #58a6ff;
-  fill: #58a6ff;
-}
-*/
-
 /* Enlaces interactivos dentro del diagrama (nodos clicables) */
 .mermaid a {
   text-decoration: none;
