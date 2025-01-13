@@ -27,7 +27,7 @@ img {
 header {
     background-color: #111; 
     color: #f4f4f4;
-    padding: 03px 0;
+    padding: 10px 0;
     position: fixed; /* Fija el header en la parte superior */
     width: 100%;
     z-index: 1000; /* Asegura que el header quede por delante de otros elementos */
@@ -36,57 +36,12 @@ header {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-/* Navbar general */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111; /* Fondo negro */
-    padding: 10px 20px; /* Espaciado interno */
-    position: relative; /* Mantiene su posición en pantallas grandes */
-    width: 100%; /* Asegura que ocupe todo el ancho */
+    padding: 0 10px;
 }
-
-/* Menú principal visible en pantallas grandes */
-.nav-menu {
-    display: flex; /* Asegura que sea visible */
-    gap: 20px; /* Espacio entre elementos */
-}
-
-/* Oculta el menú hamburguesa en escritorio */
-.nav-toggle {
-    display: none; /* El ícono hamburguesa no es visible en pantallas grandes */
-}
-
-/* Menú responsivo para pantallas pequeñas */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /* Ajusta la dirección del contenido */
-        align-items: flex-start; /* Alinea los elementos al inicio */
-        padding: 10px;
-    }
-
-    .nav-menu {
-        display: none; /* Oculta el menú por defecto */
-        flex-direction: column; /* Apila los elementos verticalmente */
-        gap: 10px;
-        background-color: #222; /* Fondo oscuro para el menú desplegable */
-        width: 100%; /* Asegura que ocupe todo el ancho */
-        position: absolute;
-        top: 60px; /* Ajusta según la altura del navbar */
-        left: 0;
-    }
-
-    .nav-menu.active {
-        display: flex; /* Muestra el menú cuando está activo */
-    }
-
-    .nav-toggle {
-        display: flex; /* Muestra el ícono hamburguesa en pantallas pequeñas */
-    }
-}
-
 
 /* Menú Principal */
 .nav-menu {
@@ -206,8 +161,6 @@ header {
 }
 
 /* Menú Hamburguesa */
-/* Menú Hamburguesa */
-
 .nav-toggle {
     display: none;
     cursor: pointer;
@@ -216,7 +169,6 @@ header {
     /* NUEVO: Añadimos una suave transición (opcional) */
     transition: transform 0.3s ease;
 }
-
 
 .nav-toggle span {
     display: block;
@@ -232,36 +184,11 @@ header {
     transform: scale(1.1);
 }
 
-
 /* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
-        position: fixed; /* Fija el botón en la pantalla */
-        top: 15px; /* Distancia desde la parte superior */
-        left: 15px; /* Distancia desde el borde derecho */
-        z-index: 1000; /* Asegura que esté encima de otros elementos */
-        flex-direction: column; /* Apila las líneas verticalmente */
-        gap: 5px; /* Espacio entre las líneas */
-        cursor: pointer;
-        width: 40px; /* Ancho fijo del menú hamburguesa */
-        height: 30px; /* Altura fija (para 3 líneas de 10px) */
     }
-
-    .nav-toggle span {
-        display: block;
-        width: 100%; /* Ocupa todo el ancho del contenedor */
-        height: 5px; /* Grosor de las líneas */
-        background-color: #f4f4f4; /* Color de las líneas */
-        border-radius: 2px; /* Bordes redondeados opcionales */
-        transition: background-color 0.3s ease, transform 0.3s ease; /* Efectos de transición */
-    }
-
-    .nav-toggle:hover span {
-        background-color: #58a6ff; /* Cambia el color de las líneas al hover */
-        transform: scale(1.1); /* Amplía ligeramente las líneas */
-    }
-}
 
     .nav-menu {
         display: none;  /* Ocultar el menú por defecto */
@@ -438,13 +365,6 @@ p {
 /* ------------------------------------------------------------------
    MEDIA QUERIES PARA RESPONSIVIDAD
 ------------------------------------------------------------------ */
-
-@media (max-width: 768px) {
-    footer {
-        margin-top: 20px; /* Espacio más pequeño en móviles */
-    }
-}
-
 @media (min-width: 768px) {
     .fancy-button {
         width: 45%; /* Botones ocupan 45% del ancho en pantallas medianas */
@@ -499,7 +419,6 @@ footer {
     color: #cecece;
     padding: 20px;
     text-align: center;
-   margin-top: 30px; /* Espacio por encima del footer */
     /* NUEVO: Pequeña sombra sutil para el footer */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -675,3 +594,4 @@ form button:hover {
     background-color: #0056b3;
     transform: translateY(-3px);
 }
+
