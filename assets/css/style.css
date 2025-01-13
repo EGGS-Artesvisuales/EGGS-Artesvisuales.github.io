@@ -36,6 +36,30 @@ header {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+/* Navbar general */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111; /* Fondo negro */
+    padding: 10px 20px; /* Espaciado interno */
+    position: relative; /* Mantiene su posición en pantallas grandes */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+/* Menú principal visible en pantallas grandes */
+.nav-menu {
+    display: flex; /* Asegura que sea visible */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+/* Oculta el menú hamburguesa en escritorio */
+.nav-toggle {
+    display: none; /* El ícono hamburguesa no es visible en pantallas grandes */
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
