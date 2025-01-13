@@ -239,7 +239,7 @@ main {
    CONTENEDORES DE TEXTO
 ------------------------------------------------------------------ */
 .text-container {
-    width: 250px; /* Mismo ancho que los botones */
+    width: 800px; /* Mismo ancho que los botones */
     margin: 0 auto; /* Centra el contenedor de texto */
     text-align: justify; /* Justifica el texto */
     padding: 10px; /* Espacio interno adicional para mejorar legibilidad */
