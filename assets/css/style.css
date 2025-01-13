@@ -168,6 +168,8 @@ header {
     gap: 5px;
     /* NUEVO: Añadimos una suave transición (opcional) */
     transition: transform 0.3s ease;
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
 }
 
 .nav-toggle span {
