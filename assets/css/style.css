@@ -46,6 +46,7 @@ header {
 /* Menú Principal */
 .nav-menu {
  background-color: #111; /* Fondo negro para el menú */
+   width: 100%; /* Asegura que ocupe todo el ancho de la página */
    list-style: none;
     margin: 0;
     padding: 0;
