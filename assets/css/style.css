@@ -59,13 +59,34 @@ header {
     display: none; /* El ícono hamburguesa no es visible en pantallas grandes */
 }
 
+/* Menú responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Ajusta la dirección del contenido */
+        align-items: flex-start; /* Alinea los elementos al inicio */
+        padding: 10px;
+    }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
+    .nav-menu {
+        display: none; /* Oculta el menú por defecto */
+        flex-direction: column; /* Apila los elementos verticalmente */
+        gap: 10px;
+        background-color: #222; /* Fondo oscuro para el menú desplegable */
+        width: 100%; /* Asegura que ocupe todo el ancho */
+        position: absolute;
+        top: 60px; /* Ajusta según la altura del navbar */
+        left: 0;
+    }
+
+    .nav-menu.active {
+        display: flex; /* Muestra el menú cuando está activo */
+    }
+
+    .nav-toggle {
+        display: flex; /* Muestra el ícono hamburguesa en pantallas pequeñas */
+    }
 }
+
 
 /* Menú Principal */
 .nav-menu {
