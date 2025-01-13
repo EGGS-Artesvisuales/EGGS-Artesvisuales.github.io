@@ -239,11 +239,14 @@ main {
    CONTENEDORES DE TEXTO
 ------------------------------------------------------------------ */
 .text-container {
-    width: 800px; /* Mismo ancho que los botones */
-    margin: 0 auto; /* Centra el contenedor de texto */
-    text-align: justify; /* Justifica el texto */
-    padding: 10px; /* Espacio interno adicional para mejorar legibilidad */
+    max-width: 800px; /* Mantiene un ancho máximo para pantallas grandes */
+    width: 90%; /* Asegura que sea fluido en pantallas pequeñas */
+    margin: 0 auto; /* Centra el contenedor */
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.6;
 }
+
 
 /* ------------------------------------------------------------------
    ESTILO GENERAL PARA PÁRRAFOS
