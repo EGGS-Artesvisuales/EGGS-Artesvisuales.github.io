@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 5;
     background-color: #333; 
     color: #f4f4f4; 
     /* NUEVO: Suele ser buena práctica definir un estilo "smooth" para el renderizado de texto */
@@ -41,6 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+   width: 100%;
 }
 
 /* Menú Principal */
