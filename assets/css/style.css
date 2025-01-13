@@ -163,6 +163,7 @@ header {
 /* Menú Hamburguesa */
 .nav-toggle {
     display: none;
+   margin-top: 20px; /* Ajusta el valor según lo que necesites */
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
