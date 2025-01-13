@@ -187,14 +187,36 @@ header {
     transform: scale(1.1);
 }
 
+
 /* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
-       position: fixed;
-       margin-top: 15px;
-        margin-bottom: 20px;
+        position: fixed; /* Fija el botón en la pantalla */
+        top: 15px; /* Distancia desde la parte superior */
+        right: 15px; /* Distancia desde el borde derecho */
+        z-index: 1000; /* Asegura que esté encima de otros elementos */
+        flex-direction: column; /* Apila las líneas verticalmente */
+        gap: 5px; /* Espacio entre las líneas */
+        cursor: pointer;
+        width: 40px; /* Ancho fijo del menú hamburguesa */
+        height: 30px; /* Altura fija (para 3 líneas de 10px) */
     }
+
+    .nav-toggle span {
+        display: block;
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+        height: 5px; /* Grosor de las líneas */
+        background-color: #f4f4f4; /* Color de las líneas */
+        border-radius: 2px; /* Bordes redondeados opcionales */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Efectos de transición */
+    }
+
+    .nav-toggle:hover span {
+        background-color: #58a6ff; /* Cambia el color de las líneas al hover */
+        transform: scale(1.1); /* Amplía ligeramente las líneas */
+    }
+}
 
     .nav-menu {
         display: none;  /* Ocultar el menú por defecto */
