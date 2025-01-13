@@ -283,6 +283,9 @@ p {
     height: 300px;
     /* NUEVO: Efecto para cuando está en foco mediante tab */
     outline: none;
+   width: 100%; /* Botones ocupan todo el ancho en pantallas pequeñas */
+    max-width: 300px; /* Ancho máximo para pantallas grandes */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
 }
 
 .fancy-button:focus {
@@ -359,7 +362,9 @@ p {
     }
 
     .button-container {
-        gap: 10px; /* Reduce el espacio entre botones en pantallas pequeñas */
+        flex-direction: column; /* Apila los botones verticalmente */
+        gap: 15px; /* Espaciado uniforme entre botones */
+        align-items: center; /* Centra los botones en la página */
     }
 }
 
