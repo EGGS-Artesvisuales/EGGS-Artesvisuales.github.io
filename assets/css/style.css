@@ -190,6 +190,7 @@ header {
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
+       margin-top: 10px 
     }
 
     .nav-menu {
