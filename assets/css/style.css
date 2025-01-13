@@ -11,9 +11,8 @@ body {
     padding: 5;
     background-color: #333; 
     color: #f4f4f4; 
-    /* NUEVO: Suele ser buena práctica definir un estilo "smooth" para el renderizado de texto */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;  /* estilo "smooth" para el renderizado de texto */
+    -moz-osx-font-smoothing: grayscale; /* estilo "smooth" para el renderizado de texto */
 }
 
 img {
@@ -32,8 +31,7 @@ header {
     width: 100%;
     z-index: 1000; /* Asegura que el header quede por delante de otros elementos */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* NUEVO: Transición suave para propiedades de header (opcional) */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;  /* NUEVO: Transición suave para propiedades de header (opcional) */
 }
 
 .navbar {
