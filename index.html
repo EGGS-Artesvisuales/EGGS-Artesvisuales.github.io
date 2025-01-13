@@ -10,9 +10,28 @@
         font-family: Arial, sans-serif;
         text-align: center;
         margin: 0;
-        padding: 20px;
-        background-color: #333; /* Fondo gris oscuro similar al navbar */
+        padding: 0;
+        background-color: #222; /* Fondo gris oscuro similar al navbar */
         color: #f4f4f4; /* Texto claro */
+    }
+
+    /* GIF RESPONSIVO */
+    .gif-fullscreen {
+        width: 100%;
+        height: 0;
+        padding-top: 56.25%; /* Relación de aspecto 16:9 */
+        position: relative;
+        overflow: hidden;
+        background-color: black; /* Fondo de respaldo */
+    }
+
+    .gif-fullscreen img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Asegura que el GIF mantenga la proporción */
     }
 
     /* TÍTULO PRINCIPAL */
@@ -74,24 +93,6 @@
         transform: scale(1.1); /* Ampliación suave */
     }
 
-    .language-selection button::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background: #58a6ff; /* Línea azul inferior */
-        bottom: 0;
-        left: 0;
-        transform: scaleX(0);
-        transform-origin: bottom right;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .language-selection button:hover::after {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-
     /* ANIMACIONES */
     @keyframes pulse {
         0%, 100% {
@@ -106,6 +107,11 @@
   </style>
 </head>
 <body>
+  <!-- GIF RESPONSIVO -->
+  <div class="gif-fullscreen">
+    <img src="/assets/img/intro-a-web-eggstudio.gif" alt="Animación Representativa">
+  </div>
+
   <!-- Contenedor del Logo -->
   <div class="logo-container">
     <!-- Ajusta la ruta de tu logo según la carpeta donde lo guardes -->
