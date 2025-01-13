@@ -30,7 +30,7 @@ permalink: /ES/index.html
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
     <div class="button-content">
-      <img src="ruta-a-tu-imagen1.jpg" alt="Obras de Representación del Mundo">
+      <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
       <p>Representación del Mundo</p>
       <p>Obras que retratan y reinterpretan el entorno.</p>
     </div>
