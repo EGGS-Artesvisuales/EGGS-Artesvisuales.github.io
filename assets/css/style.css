@@ -333,6 +333,34 @@ p {
     margin: 0;
 }
 
+
+
+/* ------------------------------------------------------------------
+   MEDIA QUERIES PARA RESPONSIVIDAD
+------------------------------------------------------------------ */
+@media (min-width: 768px) {
+    .fancy-button {
+        width: 45%; /* Botones ocupan 45% del ancho en pantallas medianas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .fancy-button {
+        width: 30%; /* Botones ocupan 30% del ancho en pantallas grandes */
+    }
+}
+
+@media (max-width: 767px) {
+    .text-container {
+        padding: 10px; /* Reduce el padding en pantallas pequeñas */
+    }
+
+    .button-container {
+        gap: 10px; /* Reduce el espacio entre botones en pantallas pequeñas */
+    }
+}
+
+
 /* ------------------------------------------------------------------
    FOOTER
 ------------------------------------------------------------------ */
