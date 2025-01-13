@@ -194,7 +194,7 @@ header {
         display: flex; /* Mostrar el botón hamburguesa */
         position: fixed; /* Fija el botón en la pantalla */
         top: 15px; /* Distancia desde la parte superior */
-        right: 15px; /* Distancia desde el borde derecho */
+        left: 15px; /* Distancia desde el borde derecho */
         z-index: 1000; /* Asegura que esté encima de otros elementos */
         flex-direction: column; /* Apila las líneas verticalmente */
         gap: 5px; /* Espacio entre las líneas */
