@@ -423,7 +423,7 @@ footer {
     color: #cecece;
     padding: 20px;
     text-align: center;
-   margin-top: 30px; /* Espacio por encima del footer */
+   margin-top: 50px; /* Espacio por encima del footer */
     /* NUEVO: Pequeña sombra sutil para el footer */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
