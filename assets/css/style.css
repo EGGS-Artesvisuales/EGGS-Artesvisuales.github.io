@@ -162,7 +162,6 @@ header {
 
 /* Menú Hamburguesa */
 .nav-toggle {
-  .nav-toggle {
     position: fixed; /* Fija el ícono en la pantalla */
     top: 10px; /* Ajusta la distancia desde la parte superior */
     right: 10px; /* Ajusta la distancia desde el borde derecho */
@@ -170,12 +169,11 @@ header {
     flex-direction: column;
     gap: 5px;
     z-index: 1000; /* Asegura que el ícono quede por encima de otros elementos */
- /* NUEVO: Añadimos una suave transición (opcional) */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Suave transición */
     margin-top: 20px; /* Espacio superior */
-    margin-bottom: 01px; /* Espacio inferior */
-  }
+    margin-bottom: 1px; /* Espacio inferior */
 }
+
 
 .nav-toggle span {
     display: block;
@@ -195,6 +193,7 @@ header {
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
+       position: fixed;
        margin-top: 15px;
         margin-bottom: 20px;
     }
