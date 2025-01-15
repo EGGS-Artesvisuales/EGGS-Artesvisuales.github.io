@@ -39,48 +39,67 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-<!-- Mermaid (solo si la página lo requiere, es decir, si page.mermaid está en true) -->
+<!-- Mermaid (se carga solo si la página lo requiere) -->
 {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       mermaid.initialize({
         startOnLoad: true,
-        theme: 'dark',  // Cambiamos a "dark"
+        theme: 'dark',
         themeVariables: {
-          /* Ajusta el fondo del diagrama (SVG) y el color de nodos, flechas, etc. */
-          background: '#1e1e1e',
-          primaryColor: '#444444',       // Color base para nodos
+          background: '#1e1e1e',          // Fondo oscuro
+          primaryColor: '#444444',       // Color de fondo de nodos
           primaryTextColor: '#ffffff',   // Texto blanco en nodos
-          primaryBorderColor: '#aaaaaa', // Borde de nodos
-          lineColor: '#ffffff',          // Flechas blancas
-          arrowheadColor: '#ffffff'      // Puntas de flecha
+          primaryBorderColor: '#aaaaaa', // Bordes de nodos
+          secondaryColor: '#2d2d2d',     // Color secundario para nodos alternativos
+          lineColor: '#ffffff',          // Color de líneas y flechas
+          arrowheadColor: '#ffffff',     // Puntas de flechas
+          tertiaryColor: '#666666'       // Opcional, tercer color para otros elementos
         },
         flowchart: {
-          wrap: true,
-          curve: 'basis'
+          wrap: true,    // Habilita el ajuste de texto dentro de nodos
+          curve: 'basis' // Suaviza las líneas de las flechas
+        },
+        sequence: {
+          actorMargin: 50,       // Ajusta el margen entre actores
+          boxMargin: 10,         // Espaciado interno de cajas
+          boxTextMargin: 5,      // Espaciado entre texto y borde de cajas
+          noteMargin: 10         // Espaciado para notas
+        },
+        gantt: {
+          barHeight: 20,        // Altura de las barras
+          barGap: 4,            // Espaciado entre barras
+          topPadding: 50,       // Margen superior
+          leftPadding: 75,      // Margen izquierdo
+          gridLineStartPadding: 35, // Margen de la línea de cuadrícula inicial
+          fontSize: 12          // Tamaño de fuente en el gráfico
         }
       });
     });
   </script>
 {% endif %}
 
-
-
 </head>
 
 <body>
   <!-- INCLUYE EL NAV ESPAÑOL -->
   {% include header-es.html %}
-
-  <!-- CONTENIDO DE LA PÁGINA -->
-  <main>
-    {{ content }}
+  
+  <!-- CONTENIDO DE LA PÁGINA PRINCIPAL -->
+  <main id="main-content" role="main">
+    {% if content %}
+      {{ content }}
+    {% else %}
+      <p>El contenido no está disponible en este momento. Por favor, intente nuevamente más tarde.</p>
+    {% endif %}
   </main>
 
   <!-- INCLUYE EL FOOTER ESPAÑOL -->
   {% include footer-es.html %}
-  <script src="/assets/js/menu.js"></script>
 
+  <!-- Scripts -->
+  <script src="/assets/js/menu.js" defer></script>
 </body>
+
 </html>
