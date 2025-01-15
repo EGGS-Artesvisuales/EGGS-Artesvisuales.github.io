@@ -162,38 +162,44 @@ header {
 /* Menú Hamburguesa */
 .nav-toggle {
     display: none;
-   margin-top: 30px; /* Ajusta el valor según lo que necesites */
+    margin-top: 30px;
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
-    /* NUEVO: Añadimos una suave transición (opcional) */
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Transición suave */
+    z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
 }
 
 .nav-toggle span {
     display: block;
     width: 25px;
     height: 3px;
-    /* Líneas blancas para contrastar con fondo oscuro */
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
     border-radius: 5px;
 }
 
-/* NUEVO: Efecto hover en el icono hamburguesa */
+/* Efecto hover en el botón hamburguesa */
 .nav-toggle:hover {
     transform: scale(1.1);
+}
+
+/* Estado accesible y activo del botón hamburguesa */
+.nav-toggle:focus,
+.nav-toggle.active {
+    outline: 3px solid rgba(88, 166, 255, 0.6);
+    border-radius: 5px;
+    transform: scale(1.05);
 }
 
 /* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
-    display: flex; /* Mostrar el botón hamburguesa */
-    margin-top: 20px; /* Aquí faltaba un punto y coma */
-}
-
+        display: flex; /* Mostrar el botón hamburguesa */
+        margin-top: 20px;
+    }
 
     .nav-menu {
-        display: flex;  
+        display: none; /* Ocultar inicialmente */
         flex-direction: column;
         gap: 10px;
         background-color: #444;
@@ -202,17 +208,20 @@ header {
         top: 60px;       /* Justo debajo del header */
         left: 0;
         z-index: 999;
-        padding: 0px;
-        /* NUEVO: Añadimos una pequeña transición al desplegar */
-        transition: all 0.3s ease-in-out;
+        padding: 10px;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease; /* Mejora visual */
+        transform: translateY(-100%); /* Fuera de la vista inicialmente */
+        opacity: 0; /* Invisible inicialmente */
     }
 
     .nav-menu.active {
-        display: flex;  /* Mostrar el menú cuando se active */
+        display: flex; /* Mostrar el menú */
+        transform: translateY(0); /* Desplazar dentro de la vista */
+        opacity: 1; /* Hacer visible */
     }
 
     .dropdown-menu {
-        display: none;  /* Ocultar submenús por defecto */
+        display: none; /* Ocultar submenús por defecto */
     }
 
     .dropdown.active .dropdown-menu {
@@ -221,36 +230,30 @@ header {
     }
 }
 
+/* General para el menú desplegable */
 .nav-menu.active {
-    display: flex; /* Muestra el menú desplegable */
-    flex-direction: column; /* Asegura una disposición vertical */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px;
 }
 
-
-/* ------------------------------------------------------------------
-   ACCESIBILIDAD DEL MENÚ HAMBURGUESA
------------------------------------------------------------------- */
-.nav-toggle:focus {
-    outline: 3px solid rgba(88, 166, 255, 0.6); /* Indica que está enfocado */
-    border-radius: 5px;
+/* Evitar scroll cuando el menú está activo */
+body.no-scroll {
+    overflow: hidden;
 }
 
 /* ------------------------------------------------------------------
    MAIN (para evitar superposición con header fijo)
 ------------------------------------------------------------------ */
 main {
-    /* Ajusta este padding-top según la altura real de tu header.
-       Si el header es 60px, deja por lo menos 70-80px de margen. */
-    padding-top: 80px; 
+    padding-top: 80px; /* Ajuste según la altura del header */
     max-width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-   text-align: justify; /* NUEVO: Justifica el texto en el contenedor principal */
-  
+    text-align: justify;
 }
+
 
 
 /* ------------------------------------------------------------------
