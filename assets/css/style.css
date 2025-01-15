@@ -192,7 +192,7 @@ header {
     }
 
     .nav-menu {
-        display: none;  /* Ocultar el menú por defecto */
+        display: flex;  
         flex-direction: column;
         gap: 10px;
         background-color: #444;
