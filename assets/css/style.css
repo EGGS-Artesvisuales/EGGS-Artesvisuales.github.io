@@ -187,9 +187,10 @@ header {
 /* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
-        display: flex; /* Mostrar el botón hamburguesa */
-       margin-top: 20px 
-    }
+    display: flex; /* Mostrar el botón hamburguesa */
+    margin-top: 20px; /* Aquí faltaba un punto y coma */
+}
+
 
     .nav-menu {
         display: flex;  
