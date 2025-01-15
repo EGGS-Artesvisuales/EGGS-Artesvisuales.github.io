@@ -294,18 +294,14 @@ p {
 .fancy-button {
     display: block;
     text-decoration: none;
-    background-color: #3a3a3a; /* Fondo gris medio */
+    background-color: #3a3a3a;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
                 inset 0 -2px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.3s ease;
     overflow: hidden;
     text-align: center;
-    width: 250px;
-    height: 300px;
-    /* NUEVO: Efecto para cuando está en foco mediante tab */
-    outline: none;
-   width: 100%; /* Botones ocupan todo el ancho en pantallas pequeñas */
+    width: 100%;
     max-width: 300px; /* Ancho máximo para pantallas grandes */
     height: auto; /* Permite que la altura se ajuste automáticamente */
 }
@@ -325,40 +321,45 @@ p {
 
 .button-content {
     position: relative;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Alinea el texto al final del botón */
     align-items: center;
-    padding: 15px;
-    color: #f4f4f4; /* Texto claro */
+    color: #f4f4f4;
     font-family: Arial, sans-serif;
     text-align: center;
+    overflow: hidden;
 }
 
 .button-content img {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: auto;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity 0.3s ease-in-out;
-    z-index: -1;
 }
 
 .fancy-button:hover .button-content img {
     opacity: 1;
 }
 
+/* Pie de botón */
 .button-content p {
-    background: rgba(105, 105, 105, 0.6);
+    background: rgba(105, 105, 105, 0.9); /* Fondo semitransparente */
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 0 0 15px 15px; /* Solo esquinas inferiores redondeadas */
     font-size: 1rem;
     font-weight: bold;
     margin: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho del botón */
+    position: relative;
+    z-index: 1; /* Asegura que el texto quede sobre la imagen */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.fancy-button:hover .button-content p {
+    background: rgba(88, 166, 255, 0.8); /* Cambia el fondo en hover */
+    color: #fff; /* Texto blanco para mayor contraste */
 }
 
 
