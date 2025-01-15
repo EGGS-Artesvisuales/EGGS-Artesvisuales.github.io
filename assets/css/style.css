@@ -2,23 +2,28 @@
    REGLAS GENERALES
 ------------------------------------------------------------------ */
 * {
-    box-sizing: border-box; /* Asegura que padding y border se sumen al ancho/alto de cada elemento */
+    box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho/alto de cada elemento */
+    margin: 0; /* Resetea márgenes predeterminados */
+    padding: 0; /* Resetea paddings predeterminados */
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 5;
-    background-color: #333; 
-    color: #f4f4f4; 
-    -webkit-font-smoothing: antialiased;  /* estilo "smooth" para el renderizado de texto */
-    -moz-osx-font-smoothing: grayscale; /* estilo "smooth" para el renderizado de texto */
+    margin: 0; /* Elimina cualquier margen predeterminado del body */
+    padding: 0; /* Establece padding explícitamente en 0 */
+    background-color: #333; /* Fondo oscuro */
+    color: #f4f4f4; /* Texto claro para buen contraste */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    -webkit-font-smoothing: antialiased; /* Renderizado de texto más suave en Webkit */
+    -moz-osx-font-smoothing: grayscale; /* Renderizado de texto más suave en macOS */
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    display: block; /* Elimina el espacio inferior de las imágenes en línea */
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
+    height: auto; /* Mantiene las proporciones de las imágenes */
 }
+
 
 /* ------------------------------------------------------------------
    HEADER FIJO
