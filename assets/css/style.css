@@ -261,23 +261,23 @@ main {
    CONTENEDORES DE TEXTO
 ------------------------------------------------------------------ */
 .text-container {
-    max-width: 900px; /* Mantiene un ancho máximo para pantallas grandes */
-    width: 90%; /* Asegura que sea fluido en pantallas pequeñas */
-    margin: 0 auto; /* Centra el contenedor */
-    text-align: justify;
-    padding: 10px;
-    line-height: 1.6;
+    max-width: 900px; /* Ancho máximo para pantallas grandes */
+    width: 90%; /* Fluido en pantallas pequeñas */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: justify; /* Justifica el texto */
+    padding: 20px; /* Mayor espacio interno para comodidad visual */
+    line-height: 1.8; /* Mejora la legibilidad */
 }
-
 
 /* ------------------------------------------------------------------
    ESTILO GENERAL PARA PÁRRAFOS
 ------------------------------------------------------------------ */
 p {
-    text-align: justify; /* NUEVO: Justifica todos los párrafos */
-    margin: 0; /* Elimina márgenes superiores e inferiores no deseados */
-    padding: 10px 15px; /* Ajusta el padding para alinearlo con botones */
-    line-height: 1.6; /* Mejora la legibilidad del texto */
+    text-align: justify; /* Justifica todos los párrafos */
+    margin: 10px 0; /* Añade espacio entre párrafos */
+    padding: 0; /* Elimina padding extra */
+    line-height: 1.8; /* Consistencia con el contenedor */
+    font-size: 1rem; /* Asegura un tamaño de fuente legible */
 }
 
 
