@@ -363,55 +363,6 @@ p {
 
 
 /* ------------------------------------------------------------------
-   MEDIA QUERIES PARA RESPONSIVIDAD
------------------------------------------------------------------- */
-@media (min-width: 768px) {
-    .fancy-button {
-        width: 45%; /* Botones ocupan 45% del ancho en pantallas medianas */
-    }
-}
-
-@media (min-width: 1024px) {
-    .fancy-button {
-        width: 30%; /* Botones ocupan 30% del ancho en pantallas grandes */
-    }
-}
-
-@media (max-width: 767px) {
-    .text-container {
-        padding: 10px; /* Reduce el padding en pantallas pequeñas */
-    }
-
-    .button-container {
-        flex-direction: column; /* Apila los botones verticalmente */
-        gap: 15px; /* Espaciado uniforme entre botones */
-        align-items: center; /* Centra los botones en la página */
-    }
-}
-@media (max-width: 480px) {
-    body {
-        font-size: 14px; /* Reduce el tamaño de fuente para mayor espacio */
-    }
-
-    .text-container {
-        padding: 10px 5px; /* Reduce el padding horizontal */
-    }
-
-    .button-container {
-        gap: 10px; /* Menor espacio entre botones */
-    }
-
-    .fancy-button {
-        width: 100%; /* Botones ocupan todo el ancho disponible */
-    }
-
-    header {
-        padding: 5px 10px; /* Reduce el padding del header */
-    }
-}
-
-
-/* ------------------------------------------------------------------
    FOOTER
 ------------------------------------------------------------------ */
 footer {
@@ -594,5 +545,84 @@ form button:hover {
     background-color: #0056b3;
     transform: translateY(-3px);
 }
+
+/* ------------------------------------------------------------------
+   MEDIA QUERIES PARA RESPONSIVIDAD
+------------------------------------------------------------------ */
+@media (min-width: 768px) {
+    .fancy-button {
+        width: 45%; /* Botones ocupan 45% del ancho en pantallas medianas */
+        max-width: 400px; /* Limita el ancho para evitar botones desproporcionados */
+        transition: width 0.3s ease;
+    }
+
+    .text-container {
+        padding: 20px; /* Aumenta ligeramente el padding en pantallas medianas */
+    }
+
+    .button-container {
+        gap: 20px; /* Mayor espacio entre botones */
+    }
+}
+
+@media (min-width: 1024px) {
+    .fancy-button {
+        width: 30%; /* Botones ocupan 30% del ancho en pantallas grandes */
+        max-width: 350px; /* Límite proporcional */
+        transition: width 0.3s ease, transform 0.2s ease-in-out;
+    }
+
+    .text-container {
+        padding: 30px; /* Más espacio en pantallas grandes */
+    }
+}
+
+@media (max-width: 767px) {
+    .text-container {
+        padding: 10px; /* Reduce el padding en pantallas pequeñas */
+        font-size: 0.9rem; /* Ajusta el tamaño de fuente */
+        line-height: 1.6; /* Mantiene buena legibilidad */
+    }
+
+    .button-container {
+        flex-direction: column; /* Apila los botones verticalmente */
+        gap: 15px; /* Espaciado uniforme entre botones */
+        align-items: center; /* Centra los botones en la página */
+        padding: 10px; /* Ajusta el padding del contenedor */
+    }
+
+    .fancy-button {
+        width: 80%; /* Botones ocupan el 80% del ancho */
+        max-width: 300px; /* Límite máximo */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Reduce el tamaño de fuente para mayor espacio */
+    }
+
+    .text-container {
+        padding: 10px 5px; /* Reduce el padding horizontal */
+        font-size: 0.8rem; /* Fuente aún más pequeña */
+    }
+
+    .button-container {
+        gap: 10px; /* Menor espacio entre botones */
+        align-items: center; /* Asegura centralización */
+    }
+
+    .fancy-button {
+        width: 100%; /* Botones ocupan todo el ancho disponible */
+        max-width: 250px; /* Límite para evitar botones demasiado grandes */
+        padding: 10px 15px; /* Ajuste interno */
+    }
+
+    header {
+        padding: 5px 10px; /* Reduce el padding del header */
+        font-size: 1rem; /* Reduce el tamaño del texto */
+    }
+}
+
 
 
