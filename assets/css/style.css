@@ -289,6 +289,7 @@ p {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    margin-bottom: 40px; /* Ajusta según el espacio que quieras */
 }
 
 .fancy-button {
