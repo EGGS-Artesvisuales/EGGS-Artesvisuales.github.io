@@ -31,8 +31,8 @@ permalink: /ES/index.html
   <a href="mundo-exterior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
-      <p>Representación del Mundo</p>
-      <p>Obras que retratan y reinterpretan el entorno.</p>
+       <p class="title">Representación del Mundo</p>
+       <p class="subtitle">Obras que retratan el mundo en su grado tangible e inmaterial.</p>
     </div>
   </a>
 
