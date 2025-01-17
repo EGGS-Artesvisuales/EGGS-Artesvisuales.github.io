@@ -32,7 +32,7 @@ permalink: /ES/index.html
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
        <p class="title">Representación del Mundo</p>
-       <p class="subtitle">Obras que retratan el mundo en su grado tangible e inmaterial.</p>
+       <p class="subtitle">Obras que retratan el mundo.</p>
     </div>
   </a>
 
@@ -47,8 +47,8 @@ permalink: /ES/index.html
   <a href="interior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior">
-      <p class="title">Lo Introspectivo</p>
-      <p class="subtitle">Arte enfocado en lo médico, lo espiritual y la reflexión interna.</p>
+      <p class="title">Mundo Interior</p>
+      <p class="subtitle">Arte enfocado en el bienestar fisico-espiritual y la introspección.</p>
     </div>
   </a>
 </div>
