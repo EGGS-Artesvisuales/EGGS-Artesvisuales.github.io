@@ -366,7 +366,7 @@ p {
 footer {
     background-color: #444;
     color: #cecece;
-    margin-top: 20px; /* Cambia el valor según la separación deseada */
+    margin-top: 40px; /* Cambia el valor según la separación deseada */
     padding: 20px;
     text-align: center; 
     /* NUEVO: Pequeña sombra sutil para el footer */
