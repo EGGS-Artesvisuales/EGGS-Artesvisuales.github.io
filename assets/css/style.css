@@ -346,10 +346,10 @@ p {
 /* Pie de botón */
 .button-content p {
     background: rgba(105, 105, 105, 0.9); /* Fondo semitransparente */
-    padding: 10px 15px;
-    border-radius: 0 0 15px 15px; /* Solo esquinas inferiores redondeadas */
-    font-size: 1rem;
-    font-weight: bold;
+    padding: 8px 10px; /* Reducido para menos espacio alrededor del texto */
+    border-radius: 0 0 15px 15px; /* Esquinas inferiores redondeadas */
+    font-size: 0.85rem; /* Tamaño de texto más pequeño */
+    font-weight: normal; /* Cambiar a normal para un estilo más discreto */
     margin: 0;
     width: 100%; /* Asegura que ocupe todo el ancho del botón */
     position: relative;
@@ -357,10 +357,6 @@ p {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.fancy-button:hover .button-content p {
-    background: rgba(88, 166, 255, 0.8); /* Cambia el fondo en hover */
-    color: #fff; /* Texto blanco para mayor contraste */
-}
 
 
 
