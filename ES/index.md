@@ -39,16 +39,16 @@ permalink: /ES/index.html
   <a href="accion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Obras de Acción en el Mundo">
-      <p>Acción en el Mundo</p>
-      <p>Proyectos de intervención activa, actividades comunitarias, talleres y servicios.</p>
+      <p class="title">Acción en el Mundo</p>
+      <p class="subtitle">Proyectos de intervención activa, actividades comunitarias, talleres y servicios.</p>
     </div>
   </a>
 
   <a href="interior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior">
-      <p>Lo Introspectivo</p>
-      <p>Arte enfocado en lo médico, lo espiritual y la reflexión interna.</p>
+      <p class="title">Lo Introspectivo</p>
+      <p class="subtitle">Arte enfocado en lo médico, lo espiritual y la reflexión interna.</p>
     </div>
   </a>
 </div>
