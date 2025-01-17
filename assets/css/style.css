@@ -344,18 +344,29 @@ p {
 }
 
 /* Pie de botón */
-.button-content p {
+
+/* Título del botón */
+.button-content .title {
+    font-size: 1.2rem; /* Tamaño más grande */
+    font-weight: bold; /* Negrita */
+    color: #f4f4f4; /* Mismo color del texto */
+    margin-bottom: 5px; /* Espaciado entre título y subtítulo */
+}
+
+/* Subtítulo del botón */
+.button-content .subtitle {
     background: rgba(105, 105, 105, 0.9); /* Fondo semitransparente */
-    padding: 8px 10px; /* Reducido para menos espacio alrededor del texto */
+    padding: 8px 10px; /* Menor espacio alrededor */
     border-radius: 0 0 15px 15px; /* Esquinas inferiores redondeadas */
-    font-size: 0.85rem; /* Tamaño de texto más pequeño */
-    font-weight: normal; /* Cambiar a normal para un estilo más discreto */
+    font-size: 0.85rem; /* Tamaño más pequeño */
+    font-weight: normal; /* Estilo más discreto */
     margin: 0;
     width: 100%; /* Asegura que ocupe todo el ancho del botón */
     position: relative;
     z-index: 1; /* Asegura que el texto quede sobre la imagen */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 
 
