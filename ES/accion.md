@@ -1,18 +1,35 @@
 ---
 layout: default-es
-title: Acción en el Mundo
+title: "Acción en el Mundo"
 permalink: /ES/accion.html
 breadcrumbs: >
   <a href="/ES/index.html">Inicio</a> >
   <span>Acción en el Mundo</span>
 ---
 
-# Acción en el Mundo
 
-En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar y transformar el entorno de manera activa. Estas acciones van más allá de la creación artística tradicional, buscando un impacto directo en las realidades sociales, culturales y físicas.
+<div class="text-container">
+  <!-- Título principal -->
+  <div class="titulo">Acción en el Mundo</div>
 
-La "Acción en el Mundo" implica un compromiso, utilizando el arte como herramienta para el cambio, la reflexión colectiva y la mejora de las condiciones de vida. Estas obras se caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar transformaciones tangibles en el espacio y las personas.
-En este apartado se clasifican cuatro modalidades:
+  <!-- Párrafo 1 -->
+  <p class="parrafo">
+    En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar 
+    y transformar el entorno de manera activa. Estas acciones van más allá de la creación 
+    artística tradicional, buscando un impacto directo en las realidades sociales, culturales y físicas.
+  </p>
+
+  <!-- Párrafo 2 -->
+  <p class="parrafo">
+    La "Acción en el Mundo" implica un compromiso, utilizando el arte como herramienta para 
+    el cambio, la reflexión colectiva y la mejora de las condiciones de vida. Estas obras se 
+    caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar 
+    transformaciones tangibles en el espacio y las personas.
+  </p>
+</div>
+
+<!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
+<div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
 
 <div class="button-container">
     <a href="/ES/subrepticio.html" class="fancy-button">
