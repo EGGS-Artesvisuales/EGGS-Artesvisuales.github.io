@@ -55,7 +55,4 @@ permalink: /ES/index.html
 </div>
 
 <div class="subtitulo">Explora más obras y proyectos</div>
-   <a href="exhibiciones.html" class="enlace">¡Haz clic aquí para ver más obras!</a>
-  </p>
-</div>
-
+   <a href="exhibiciones.html" class="enlace">ver más obras</a>
