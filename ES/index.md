@@ -54,6 +54,12 @@ permalink: /ES/index.html
   </a>
 </div>
 
-## Explora más obras y proyectos
+<div class="subtitulo">Explora más obras y proyectos</div>
 
-[Ver más obras](exhibiciones.html)
+<div class="text-container">
+  <p class="parrafo">
+    Descubre una amplia variedad de obras y proyectos que representan mi trayectoria artística. 
+    <a href="exhibiciones.html" class="enlace">¡Haz clic aquí para ver más obras!</a>
+  </p>
+</div>
+
