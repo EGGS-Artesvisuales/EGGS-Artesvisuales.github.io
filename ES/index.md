@@ -26,7 +26,7 @@ permalink: /ES/index.html
   </div>
 </div>
 
-<div class="titulo">Categorías generales de mi práctica artística</div>
+<div class="subtitulo">Categorías generales de mi práctica artística</div>
 
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
