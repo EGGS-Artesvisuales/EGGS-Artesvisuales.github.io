@@ -4,12 +4,6 @@ title: Inicio
 description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
 ---
----
-layout: default-es
-title: Inicio
-description: "Bienvenido a EGGS-Studio, explorando el arte."
-permalink: /ES/index.html
----
 
 <div class="text-container">
   <div class="titulo">Bienvenid@ a EGGS - Studio</div>
