@@ -2,28 +2,42 @@
    REGLAS GENERALES
 ------------------------------------------------------------------ */
 * {
-    box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho/alto de cada elemento */
-    margin: 0; /* Resetea márgenes predeterminados */
-    padding: 0; /* Resetea paddings predeterminados */
+    box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Elimina cualquier margen predeterminado del body */
-    padding: 0; /* Establece padding explícitamente en 0 */
-    background-color: #333; /* Fondo oscuro */
-    color: #f4f4f4; /* Texto claro para buen contraste */
-    line-height: 1.6; /* Mejora la legibilidad del texto */
-    -webkit-font-smoothing: antialiased; /* Renderizado de texto más suave en Webkit */
-    -moz-osx-font-smoothing: grayscale; /* Renderizado de texto más suave en macOS */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #f4f4f4;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Ajustes de tamaño de fuente y scroll lateral */
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
 }
 
 img {
-    display: block; /* Elimina el espacio inferior de las imágenes en línea */
-    max-width: 100%; /* Asegura que las imágenes no se desborden */
-    height: auto; /* Mantiene las proporciones de las imágenes */
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-
 
 /* ------------------------------------------------------------------
    HEADER FIJO
@@ -31,11 +45,11 @@ img {
 header {
     background-color: #111;
     color: #f4f4f4;
-    padding: 0; /* Ajuste de padding */
-    position: fixed; /* Fija el header en la parte superior */
+    padding: 0;
+    position: fixed;
     width: 100%;
-    z-index: 1000; /* Prioridad en el orden de capas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -44,7 +58,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1px 0px; /* Espaciado general del navbar */
+    padding: 1px 0px; 
 }
 
 /* Menú Principal */
@@ -72,7 +86,7 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
     position: relative;
     overflow: hidden;
-    outline: none; /* Accesibilidad */
+    outline: none;
 }
 
 .nav-menu a:focus {
@@ -82,7 +96,7 @@ header {
 }
 
 .nav-menu a:visited {
-    color: #f4f4f4; /* Enlaces visitados */
+    color: #f4f4f4;
 }
 
 .nav-menu a:hover {
@@ -121,7 +135,7 @@ header {
     padding: 5px 0;
     border-radius: 5px;
     z-index: 100;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el submenú */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu li {
@@ -159,7 +173,6 @@ header {
     }
 }
 
-
 /* Menú Hamburguesa */
 .nav-toggle {
     display: none;
@@ -167,8 +180,8 @@ header {
     cursor: pointer;
     flex-direction: column;
     gap: 5px;
-    transition: transform 0.3s ease; /* Transición suave */
-    z-index: 1000; /* Asegura que el botón esté sobre otros elementos */
+    transition: transform 0.3s ease;
+    z-index: 1000;
 }
 
 .nav-toggle span {
@@ -179,12 +192,10 @@ header {
     border-radius: 5px;
 }
 
-/* Efecto hover en el botón hamburguesa */
 .nav-toggle:hover {
     transform: scale(1.1);
 }
 
-/* Estado accesible y activo del botón hamburguesa */
 .nav-toggle:focus,
 .nav-toggle.active {
     outline: 3px solid rgba(88, 166, 255, 0.6);
@@ -195,43 +206,42 @@ header {
 /* Menú Responsivo */
 @media (max-width: 768px) {
     .nav-toggle {
-        display: flex; /* Mostrar el botón hamburguesa */
+        display: flex; /* Mostrar botón hamburguesa */
         margin-top: 10px;
     }
 
     .nav-menu {
-        display: none; /* Ocultar inicialmente */
+        display: none; 
         flex-direction: column;
         gap: 10px;
         background-color: #444;
         width: 100%;
-        position: fixed; /* Fija el menú en la parte superior */
-        top: 90px;       /* Justo debajo del header */
+        position: fixed;
+        top: 90px; /* Justo debajo del header */
         left: 0;
         z-index: 999;
         padding: 10px;
-        transition: transform 0.3s ease-in-out, opacity 0.3s ease; /* Mejora visual */
-        transform: translateY(-100%); /* Fuera de la vista inicialmente */
-        opacity: 0; /* Invisible inicialmente */
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+        transform: translateY(-100%);
+        opacity: 0;
     }
 
     .nav-menu.active {
-        display: flex; /* Mostrar el menú */
-        transform: translateY(0); /* Desplazar dentro de la vista */
-        opacity: 1; /* Hacer visible */
+        display: flex;
+        transform: translateY(0);
+        opacity: 1;
     }
 
     .dropdown-menu {
-        display: none; /* Ocultar submenús por defecto */
+        display: none;
     }
 
     .dropdown.active .dropdown-menu {
-        display: block; /* Mostrar submenús activos */
+        display: block; 
         position: static;
     }
 }
 
-/* General para el menú desplegable */
 .nav-menu.active {
     flex-direction: column;
     align-items: flex-start;
@@ -255,41 +265,34 @@ main {
     text-align: justify;
 }
 
-
-
 /* ------------------------------------------------------------------
    CONTENEDORES DE TEXTO
 ------------------------------------------------------------------ */
-/* Estilo para títulos */
 .titulo {
-  font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
-  font-size: 2.5rem; /* Tamaño un poco más grande para mayor impacto */
-  font-weight: bold; /* Resalta el peso del texto */
-  color: #58a6ff; /* Un color vibrante para los títulos */
-  margin-bottom: 1.5rem; /* Mayor espacio inferior para separar del siguiente elemento */
-  text-transform: uppercase; /* Convierte el texto a mayúsculas */
-  letter-spacing: 0.05em; /* Añade un pequeño espaciado entre letras para claridad */
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #58a6ff;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
-
-/* Estilo para subtítulos */
 .subtitulo {
-  font-family: 'Arial', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #f4f4f4;
-  margin-bottom: 0.8rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f4f4f4;
+    margin-bottom: 0.8rem;
 }
 
-/* Estilo para párrafos */
 .parrafo {
-  font-family: 'Georgia', serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #f4f4f4;
-  margin-bottom: 1rem;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f4f4f4;
+    margin-bottom: 1rem;
 }
-
 
 /* ------------------------------------------------------------------
    BOTONES CLICKEABLES (FANCY BUTTONS)
@@ -299,7 +302,7 @@ main {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-    margin-bottom: 40px; /* Ajusta según el espacio que quieras */
+    margin-bottom: 40px;
 }
 
 .fancy-button {
@@ -307,34 +310,37 @@ main {
     text-decoration: none;
     background-color: #3a3a3a;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-                inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.3s ease;
     overflow: hidden;
     text-align: center;
     width: 100%;
-    max-width: 300px; /* Ancho máximo para pantallas grandes */
-    height: auto; /* Permite que la altura se ajuste automáticamente */
+    max-width: 300px; 
+    height: auto;
 }
 
 .fancy-button:focus {
-    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), 
-                0 4px 6px rgba(0, 0, 0, 0.1),
-                inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 
+        0 0 0 3px rgba(88, 166, 255, 0.6), 
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        inset 0 -2px 6px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
 }
 
 .fancy-button:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
-                inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 
+        0 8px 12px rgba(0, 0, 0, 0.2),
+        inset 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-content {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Alinea el texto al final del botón */
+    justify-content: flex-end;
     align-items: center;
     color: #f4f4f4;
     font-family: Arial, sans-serif;
@@ -354,33 +360,24 @@ main {
     opacity: 1;
 }
 
-/* Pie de botón */
-
-/* Título del botón */
 .button-content .title {
-    font-size: 1.2rem; /* Tamaño más grande */
-    font-weight: bold; /* Negrita */
-    color: #f4f4f4; /* Mismo color del texto */
-    margin-bottom: 5px; /* Espaciado entre título y subtítulo */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f4f4f4;
+    margin-bottom: 5px;
 }
 
-/* Subtítulo del botón */
 .button-content .subtitle {
-    background: rgba(105, 105, 105, 0.9); /* Fondo semitransparente */
-    padding: 8px 10px; /* Menor espacio alrededor */
-    border-radius: 0 0 15px 15px; /* Esquinas inferiores redondeadas */
-    font-size: 0.85rem; /* Tamaño más pequeño */
-    font-weight: normal; /* Estilo más discreto */
+    background: rgba(105, 105, 105, 0.9);
+    padding: 8px 10px;
+    border-radius: 0 0 15px 15px;
+    font-size: 0.85rem;
     margin: 0;
-    width: 100%; /* Asegura que ocupe todo el ancho del botón */
+    width: 100%;
     position: relative;
-    z-index: 1; /* Asegura que el texto quede sobre la imagen */
+    z-index: 1;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-
-
-
 
 /* ------------------------------------------------------------------
    FOOTER
@@ -388,10 +385,9 @@ main {
 footer {
     background-color: #444;
     color: #cecece;
-    margin-top: 40px; /* Cambia el valor según la separación deseada */
+    margin-top: 40px;
     padding: 20px;
     text-align: center; 
-    /* NUEVO: Pequeña sombra sutil para el footer */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -451,11 +447,9 @@ footer {
     border: 1px solid #f4f4f4;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    /* Usar overflow: auto o visible para no recortar nodos */
-    overflow: auto;
+    overflow: auto; /* Permite desplazamiento en caso de nodos grandes */
 }
 
-/* Separación adicional entre contenedores de diagrama */
 .diagram-container + .diagram-container {
     margin-top: 30px;
 }
@@ -463,43 +457,36 @@ footer {
 /* ------------------------------------------------------------------
    MERMAID - Estilos básicos y responsivos
 ------------------------------------------------------------------ */
-
-/* Contenedor de Mermaid responsivo */
 .mermaid {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;  /* Permite scroll horizontal en pantallas estrechas */
-  margin: 2em 0;
-  clear: both;       /* Evita floats */
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 2em 0;
+    clear: both;
 }
 
-/* Ajustes de SVG para que escale al 100% del contenedor */
 .mermaid svg {
-  display: block;
-  margin: 0 auto;
-  width: 100% !important; /* !important anula estilos inline de Mermaid */
-  height: auto !important;
+    display: block;
+    margin: 0 auto;
+    width: 100% !important;
+    height: auto !important;
 }
 
-/* Si usas un contenedor adicional para un título de diagrama */
 .diagram-title h2 {
-  font-size: 1.8rem;
-  margin: 20px 0;
-  text-align: center;
-  /* color: #f4f4f4; (solo si tu fondo es oscuro) */
+    font-size: 1.8rem;
+    margin: 20px 0;
+    text-align: center;
 }
 
-/* Enlaces interactivos dentro del diagrama (nodos clicables) */
 .mermaid a {
-  text-decoration: none;
-  font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .mermaid a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-
 
 /* ------------------------------------------------------------------
    FORMULARIOS
@@ -513,7 +500,7 @@ form {
     border: 1px solid #444;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Evita desbordamientos */
+    overflow: hidden;
 }
 
 form label {
@@ -534,7 +521,6 @@ form button {
     border: 1px solid #666;
     border-radius: 4px;
     box-sizing: border-box;
-    /* NUEVO: Efecto :focus en inputs y textarea para accesibilidad */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -568,8 +554,9 @@ form button:hover {
 }
 
 /* ------------------------------------------------------------------
-   MEDIA QUERIES PARA RESPONSIVIDAD
+   MEDIA QUERIES PARA DISPOSICIÓN Y CONTENEDORES
 ------------------------------------------------------------------ */
+/* Ajustes para .text-container si existe en tu HTML */
 @media (max-width: 1200px) {
     .text-container {
         font-size: 1.2rem;
@@ -577,147 +564,121 @@ form button:hover {
     }
 }
 
+/* Pantallas medianas */
 @media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .fancy-button {
         width: 40%;
     }
 }
 
+/* Ajustes para .text-container en móviles más reducidos */
 @media (max-width: 600px) {
     .nav-menu {
         flex-direction: column;
         gap: 10px;
     }
-
     .text-container {
         padding: 10px;
     }
 }
-@media (min-width: 768px) {
+
+/* Pantallas entre 768px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
     .fancy-button {
-        width: 45%; /* Botones ocupan 45% del ancho en pantallas medianas */
-        max-width: 400px; /* Limita el ancho para evitar botones desproporcionados */
+        width: 45%;
+        max-width: 400px;
         transition: width 0.3s ease;
     }
-
     .text-container {
-        padding: 20px; /* Aumenta ligeramente el padding en pantallas medianas */
+        padding: 20px;
     }
-
     .button-container {
-        gap: 20px; /* Mayor espacio entre botones */
+        gap: 20px;
     }
 }
 
+/* Pantallas grandes a partir de 1024px */
 @media (min-width: 1024px) {
     .fancy-button {
-        width: 30%; /* Botones ocupan 30% del ancho en pantallas grandes */
-        max-width: 350px; /* Límite proporcional */
+        width: 30%;
+        max-width: 350px;
         transition: width 0.3s ease, transform 0.2s ease-in-out;
     }
-
     .text-container {
-        padding: 30px; /* Más espacio en pantallas grandes */
+        padding: 30px;
     }
 }
 
+/* Pantallas menores a 767px (tablets/ móviles) */
 @media (max-width: 767px) {
     .text-container {
-        padding: 10px; /* Reduce el padding en pantallas pequeñas */
-        font-size: 0.9rem; /* Ajusta el tamaño de fuente */
-        line-height: 1.6; /* Mantiene buena legibilidad */
+        padding: 10px;
+        font-size: 0.9rem;
+        line-height: 1.6;
     }
-
     .button-container {
-        flex-direction: column; /* Apila los botones verticalmente */
-        gap: 15px; /* Espaciado uniforme entre botones */
-        align-items: center; /* Centra los botones en la página */
-        padding: 10px; /* Ajusta el padding del contenedor */
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        padding: 10px;
     }
-
     .fancy-button {
-        width: 80%; /* Botones ocupan el 80% del ancho */
-        max-width: 300px; /* Límite máximo */
+        width: 80%;
+        max-width: 300px;
     }
 }
 
+/* Pantallas extra pequeñas (moviles) */
 @media (max-width: 480px) {
-    body {
-        font-size: 14px; /* Reduce el tamaño de fuente para mayor espacio */
-    }
-
     .text-container {
-        padding: 10px 5px; /* Reduce el padding horizontal */
-        font-size: 0.8rem; /* Fuente aún más pequeña */
+        padding: 10px 5px;
+        font-size: 0.8rem;
     }
-
     .button-container {
-        gap: 10px; /* Menor espacio entre botones */
-        align-items: center; /* Asegura centralización */
+        gap: 10px;
     }
-
     .fancy-button {
-        width: 100%; /* Botones ocupan todo el ancho disponible */
-        max-width: 250px; /* Límite para evitar botones demasiado grandes */
-        padding: 10px 15px; /* Ajuste interno */
+        width: 100%;
+        max-width: 250px;
+        padding: 10px 15px;
     }
-
     header {
-        padding: 5px 10px; /* Reduce el padding del header */
-        font-size: 1rem; /* Reduce el tamaño del texto */
+        padding: 5px 10px;
+        font-size: 1rem;
     }
 }
 
+/* ------------------------------------------------------------------
+   CONTENEDOR FLEXIBLE PARA ITEMS
+------------------------------------------------------------------ */
 .container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    max-width: 100%;
+    overflow: hidden; /* Combina ambas definiciones de .container */
 }
 
 .item {
-    flex: 1 1 calc(33.33% - 20px); /* 3 columnas con espacios */
+    flex: 1 1 calc(33.33% - 20px);
     box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
     .item {
-        flex: 1 1 calc(50% - 20px); /* 2 columnas */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media (max-width: 480px) {
     .item {
-        flex: 1 1 100%; /* 1 columna */
+        flex: 1 1 100%;
     }
-}
-body {
-    font-size: 16px; /* Tamaño base */
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-}
-body {
-    overflow-x: hidden; /* Evita desplazamientos laterales inesperados */
-}
-
-.container {
-    max-width: 100%; /* Limita el ancho al tamaño de la pantalla */
-    overflow: hidden; /* Evita contenido que se salga del área visible */
 }
 
 
