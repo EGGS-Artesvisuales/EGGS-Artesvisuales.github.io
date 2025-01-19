@@ -3,146 +3,159 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título -->
   <title>EGGS - Studio</title>
 
-   <!-- Favicon -->
+  <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
-  
+
+  <!-- Meta básicos de SEO (opcional ampliar) -->
+  <meta name="description" content="EGGS-Studio - Welcome to our art and design platform.">
+  <meta name="keywords" content="EGGS Studio, art, murals, design, restoration">
+  <meta name="robots" content="index, follow">
+
+  <!-- Estilos en línea (idealmente mover a un .css externo) -->
   <style>
     /* REGLAS GENERALES */
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
     body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        background-color: #222; /* Fondo gris oscuro similar al navbar */
-        color: #777; /* Texto claro */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #222; /* Fondo gris oscuro */
+      color: #777;           /* Texto gris claro */
     }
 
-    /* GIF RESPONSIVO */
+    /* CONTENEDOR DEL GIF (RESPONSIVO) */
     .gif-fullscreen {
-    width: 100%;
-    height: 0;
-    padding-top: 56.25%; /* Relación de aspecto 16:9 */
-    position: relative;
-    overflow: hidden;
-    background-color: black; /* Fondo de respaldo */
-    margin-bottom: 130px; /* Espacio entre el GIF y el título */
-}
-
-
+      width: 100%;
+      height: 0;
+      padding-top: 56.25%;  /* Relación de aspecto 16:9 */
+      position: relative;
+      overflow: hidden;
+      background-color: #000; /* Fondo de respaldo */
+      margin-bottom: 130px;   /* Espacio entre el GIF y el título */
+    }
     .gif-fullscreen img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Asegura que el GIF mantenga la proporción */
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;    /* Mantiene proporciones del GIF */
+    }
+
+    /* LOGO */
+    .logo-container img {
+      width: 101px;
+      height: 101px;
+      animation: pulse 2s infinite; /* Animación en bucle */
+      display: block;
+      margin: 0 auto;
     }
 
     /* TÍTULO PRINCIPAL */
     h1 {
-        font-size: 2.5rem; /* Tamaño grande */
-        margin-bottom: 10px;
-        color: #58a6ff; /* Azul claro */
-        text-transform: uppercase; /* Texto en mayúsculas */
+      font-size: 2.5rem;   /* Tamaño grande */
+      margin-bottom: 10px;
+      color: #58a6ff;      /* Azul claro */
+      text-transform: uppercase;
     }
 
     /* SUBTÍTULO */
     h2 {
-        font-size: 1.5rem; /* Tamaño más pequeño */
-        margin-bottom: 20px;
-        color: #f4f4f4; /* Texto claro */
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #f4f4f4;
     }
 
+    /* PÁRRAFOS */
     p {
-        font-size: 18px;
-        margin-bottom: 30px;
-        color: #f4f4f4;
-    }
-
-    /* LOGO CON EFECTO "LATIR" */
-    .logo-container img {
-        width: 101px; /* Tamaño fijo del logo */
-        height: 101px;
-        animation: pulse 2s infinite; /* Animación en bucle */
-        display: block;
-        margin: 0 auto;
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #f4f4f4;
     }
 
     /* BOTONES DE SELECCIÓN DE IDIOMA */
     .language-selection {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px;
-        margin-bottom: 100px; /* Espacio debajo de los botones */
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+      margin-bottom: 100px;
     }
-
     .language-selection button {
-        text-decoration: none;
-        color: white; /* Texto claro */
-        background-color: transparent; /* Fondo transparente */
-        border: 2px solid #58a6ff; /* Borde azul claro */
-        padding: 12px 25px;
-        border-radius: 5px;
-        font-size: 18px;
-        font-weight: bold;
-        position: relative;
-        overflow: hidden;
-        transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
-        cursor: pointer;
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #58a6ff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.2s ease;
     }
-
     .language-selection button:hover {
-        background-color: #58a6ff; /* Fondo azul al hover */
-        color: #f4f4f4; /* Texto blanco al hover */
-        transform: scale(1.1); /* Ampliación suave */
+      background-color: #58a6ff;
+      color: #f4f4f4;
+      transform: scale(1.1);
     }
 
-    /* ANIMACIONES */
+    /* ANIMACIÓN PULSO (LOGO) */
     @keyframes pulse {
-        0%, 100% {
-            opacity: 1;
-            transform: scale(1);
-        }
-        50% {
-            opacity: 0.7;
-            transform: scale(1.1); /* Aumenta ligeramente el tamaño */
-        }
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+      }
     }
   </style>
 </head>
 <body>
+
   <!-- GIF RESPONSIVO -->
   <div class="gif-fullscreen">
-    <img src="/assets/img/intro-a-web-eggstudio.gif" alt="Animación Representativa">
+    <img src="/assets/img/intro-a-web-eggstudio.gif" alt="Introductory Animation">
   </div>
 
-  <!-- Contenedor del Logo -->
+  <!-- LOGO -->
   <div class="logo-container">
-    <!-- Ajusta la ruta de tu logo según la carpeta donde lo guardes -->
-    <img src="assets/img/EGGSLOGOindex1.png" alt="EGGS Logo">
+    <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS Logo">
   </div>
-  
-  <!-- Título y Subtítulo -->
+
+  <!-- TÍTULO Y SUBTÍTULO -->
   <h1>EGGS - Studio</h1>
   <h2>Bienvenid@ / Welcome</h2>
-  <p>Selecciones su idioma / Select your language:</p>
-  
-  <!-- Botones de Selección de Idioma -->
-  <div class="language-selection">
+  <p>Select your language / Seleccione su idioma:</p>
+
+  <!-- BOTONES DE IDIOMA -->
+  <nav class="language-selection" aria-label="Language selection">
     <button onclick="setLanguage('es')">Español</button>
     <button onclick="setLanguage('en')">English</button>
-  </div>
+  </nav>
 
-  <!-- Script para guardar idioma en localStorage y redirigir -->
+  <!-- SCRIPT PARA GUARDAR IDIOMA Y REDIRIGIR -->
   <script>
     function setLanguage(lang) {
-      // Guardar idioma en localStorage
-      localStorage.setItem('language', lang);
-      
-      // Redirigir según la carpeta de idioma
+      // Guardar idioma en localStorage (verificar compatibilidad si es crucial)
+      if (typeof(Storage) !== 'undefined') {
+        localStorage.setItem('language', lang);
+      }
+      // Redirigir a la carpeta de idioma correspondiente
       if (lang === 'es') {
         window.location.href = '/ES/index.html';
       } else {
@@ -150,5 +163,13 @@
       }
     }
   </script>
+
+  <!-- MENSAJE PARA USUARIOS SIN JAVASCRIPT (OPCIONAL) -->
+  <noscript>
+    <p style="color:#fff;">
+      JavaScript is required to select language. Please enable JavaScript or use the ES/EN version directly.
+    </p>
+  </noscript>
 </body>
 </html>
+
