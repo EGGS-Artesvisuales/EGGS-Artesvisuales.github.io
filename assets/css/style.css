@@ -196,7 +196,7 @@ header {
 @media (max-width: 768px) {
     .nav-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .nav-menu {
@@ -206,7 +206,7 @@ header {
         background-color: #444;
         width: 100%;
         position: fixed; /* Fija el menú en la parte superior */
-        top: 60px;       /* Justo debajo del header */
+        top: 90px;       /* Justo debajo del header */
         left: 0;
         z-index: 999;
         padding: 10px;
