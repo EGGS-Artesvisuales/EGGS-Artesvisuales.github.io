@@ -5,8 +5,6 @@ description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
 ---
 
-# Bienvenid@ a EGGS - Studio
-
 <div class="titulo">Bienvenid@ a EGGS - Studio</div>
 
 <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
