@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Thank you for your message!</h1>
+    </header>
+    <main>
+        <p>I will get in touch with you soon.</p>
+        <a href="/EN/index.html">Back to Home</a>
+    </main>
+</body>
+</html>
