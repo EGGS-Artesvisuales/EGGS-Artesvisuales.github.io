@@ -35,6 +35,6 @@ breadcrumbs: >
   <button type="submit">Send</button>
 
   <!-- Campos ocultos que NO cambian -->
-  <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/EN/Thank you.html">
+  <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/EN/Thankyou.html">
   <input type="hidden" name="_captcha" value="false">
 </form>
