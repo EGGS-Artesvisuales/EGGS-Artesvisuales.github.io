@@ -3,23 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}</title>
 
-  <!-- Metadatos SEO -->
+  <!-- Título dinámico con fallback -->
+  <title>{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}</title>
+  
+  <!-- Meta Etiquetas Principales para SEO -->
   <meta name="description" content="{{ page.description | default: 'EGGS-Studio: expertos en arte visual, murales y restauración de arte.' }}">
   <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales, restauración de arte, diseño artístico' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="32x32">
 
-  <!-- Open Graph -->
+  <!-- Color de la barra de navegación en móviles (opcional) -->
+  <meta name="theme-color" content="#000000">
+
+  <!-- URL canónica -->
+  <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
+
+  <!-- Open Graph (para mejor visibilidad en redes sociales) -->
   <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}">
   <meta property="og:description" content="{{ page.description | default: 'Descubre nuestra experiencia en murales, restauración y arte visual.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
   <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Schema para Organización/Estudio de Arte -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -31,16 +43,16 @@
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Arte Chileno, Arte visual de Esteban Garnica, Especialista en pintura, murales, arte visual y restauración de obras artísticas."
+    "description": "Arte Chileno, Arte visual de Esteban Garnica, especialista en pintura, murales, arte visual y restauración de obras artísticas."
   }
   </script>
 
-  <!-- Estilos -->
+  <!-- Hojas de Estilo -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-<!-- Mermaid (se carga solo si la página lo requiere) -->
-{% if page.mermaid %}
+  <!-- Mermaid (Solo se carga si la página lo requiere) -->
+  {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -48,45 +60,44 @@
         startOnLoad: true,
         theme: 'dark',
         themeVariables: {
-          background: '#1e1e1e',          // Fondo oscuro
-          primaryColor: '#444444',       // Color de fondo de nodos
-          primaryTextColor: '#ffffff',   // Texto blanco en nodos
-          primaryBorderColor: '#aaaaaa', // Bordes de nodos
-          secondaryColor: '#2d2d2d',     // Color secundario para nodos alternativos
-          lineColor: '#ffffff',          // Color de líneas y flechas
-          arrowheadColor: '#ffffff',     // Puntas de flechas
-          tertiaryColor: '#666666'       // Opcional, tercer color para otros elementos
+          background: '#1e1e1e',
+          primaryColor: '#444444',
+          primaryTextColor: '#ffffff',
+          primaryBorderColor: '#aaaaaa',
+          secondaryColor: '#2d2d2d',
+          lineColor: '#ffffff',
+          arrowheadColor: '#ffffff',
+          tertiaryColor: '#666666'
         },
         flowchart: {
-          wrap: true,    // Habilita el ajuste de texto dentro de nodos
-          curve: 'basis' // Suaviza las líneas de las flechas
+          wrap: true,
+          curve: 'basis'
         },
         sequence: {
-          actorMargin: 50,       // Ajusta el margen entre actores
-          boxMargin: 10,         // Espaciado interno de cajas
-          boxTextMargin: 5,      // Espaciado entre texto y borde de cajas
-          noteMargin: 10         // Espaciado para notas
+          actorMargin: 50,
+          boxMargin: 10,
+          boxTextMargin: 5,
+          noteMargin: 10
         },
         gantt: {
-          barHeight: 20,        // Altura de las barras
-          barGap: 4,            // Espaciado entre barras
-          topPadding: 50,       // Margen superior
-          leftPadding: 75,      // Margen izquierdo
-          gridLineStartPadding: 35, // Margen de la línea de cuadrícula inicial
-          fontSize: 12          // Tamaño de fuente en el gráfico
+          barHeight: 20,
+          barGap: 4,
+          topPadding: 50,
+          leftPadding: 75,
+          gridLineStartPadding: 35,
+          fontSize: 12
         }
       });
     });
   </script>
-{% endif %}
-
+  {% endif %}
 </head>
 
 <body>
-  <!-- INCLUYE EL NAV ESPAÑOL -->
+  <!-- Encabezado / Navegación -->
   {% include header-es.html %}
-  
-  <!-- CONTENIDO DE LA PÁGINA PRINCIPAL -->
+
+  <!-- Contenido principal de la página -->
   <main id="main-content" role="main">
     {% if content %}
       {{ content }}
@@ -95,11 +106,10 @@
     {% endif %}
   </main>
 
-  <!-- INCLUYE EL FOOTER ESPAÑOL -->
+  <!-- Pie de página -->
   {% include footer-es.html %}
 
-  <!-- Scripts -->
+  <!-- Scripts de la página -->
   <script src="/assets/js/menu.js" defer></script>
 </body>
-
 </html>
