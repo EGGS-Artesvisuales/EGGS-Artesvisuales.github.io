@@ -10,11 +10,12 @@ breadcrumbs: >
 # Representación del Mundo
 
 ## Representación del Mundo
-
-Este grupo reúne obras que reflejan mi interpretación visual y conceptual del entorno que me rodea. Desde representaciones literales hasta aproximaciones más subjetivas, cada pieza es un testimonio de mi época y una reflexión artística y personal sobre nuestra sociedad y su experiencia. Estas obras buscan documentar y retratar la esencia de los tiempos en los que vivo, abordando la representación del mundo con una estrategia enfocada en capturar los rasgos distintivos de lo contemporáneo. Mi objetivo es lograr un retrato fiel de mi época, llegando a la esencia de lo contingente, similar al enfoque de los pintores modernos descritos por Baudelaire.
+<div class="text-container">
+<P Este grupo reúne obras que reflejan mi interpretación visual y conceptual del entorno que me rodea. Desde representaciones literales hasta aproximaciones más subjetivas, cada pieza es un testimonio de mi época y una reflexión artística y personal sobre nuestra sociedad y su experiencia. Estas obras buscan documentar y retratar la esencia de los tiempos en los que vivo, abordando la representación del mundo con una estrategia enfocada en capturar los rasgos distintivos de lo contemporáneo. Mi objetivo es lograr un retrato fiel de mi época, llegando a la esencia de lo contingente, similar al enfoque de los pintores modernos descritos por Baudelaire.p>
 
 ### Representación del mundo tangible
-Obras que exploran aspectos físicos y materiales del entorno, aspectos característicos del paisaje local, objetos y escenas cotidianas.
+<div class="text-container">
+    <P Obras que exploran aspectos físicos y materiales del entorno, aspectos característicos del paisaje local, objetos y escenas cotidianas.p>
 
 <div class="button-container">
     <a href="/saturacion.html" class="fancy-button">
