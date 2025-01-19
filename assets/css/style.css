@@ -262,13 +262,15 @@ main {
 ------------------------------------------------------------------ */
 /* Estilo para títulos */
 .titulo {
-  font-family: 'Arial', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #58a6ff;
-  margin-bottom: 1rem;
-   upercase: 
+  font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
+  font-size: 2.5rem; /* Tamaño un poco más grande para mayor impacto */
+  font-weight: bold; /* Resalta el peso del texto */
+  color: #58a6ff; /* Un color vibrante para los títulos */
+  margin-bottom: 1.5rem; /* Mayor espacio inferior para separar del siguiente elemento */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 0.05em; /* Añade un pequeño espaciado entre letras para claridad */
 }
+
 
 /* Estilo para subtítulos */
 .subtitulo {
