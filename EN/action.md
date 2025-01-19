@@ -1,5 +1,5 @@
 ---
-layout: default-es
+layout: default-en
 title: "Action in the World"
 permalink: /EN/action.html
 breadcrumbs: >
