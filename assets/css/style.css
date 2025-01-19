@@ -415,7 +415,7 @@ footer {
 .footer-links a {
     color: #58a6ff;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: color 0.3s ease;
 }
 
