@@ -35,7 +35,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* Tamaño de fuente base y scroll lateral */
-  font-size: 16px;
+  font-size: 1rem;
   overflow-x: hidden;
 }
 
