@@ -361,7 +361,7 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    color: #888;
+    color: #222;
     font-family: Arial, sans-serif;
     text-align: center;
     overflow: hidden;
@@ -382,12 +382,12 @@ main {
 .button-content .title {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #58a6ff;      /* Azul claro */
+    color: #f0f0f0;      /* gris claro */
     margin-bottom: 5px;
 }
 
 .button-content .subtitle {
-    background: rgba(105, 105, 105, 0.9);
+    background: #222;
     padding: 8px 10px;
     border-radius: 0 0 15px 15px;
     font-size: 0.85rem;
