@@ -6,7 +6,16 @@
     margin: 0;
     padding: 0;
 }
-
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222; /* Fondo gris oscuro */
+  color: #777;           /* Texto gris claro */
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,14 +26,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* Ajustes de tamaño de fuente y scroll lateral */
-    font-size: 16px;
+    
+    font-size: 1rem; /* Esto resultará en ~16px */
     overflow-x: hidden;
 }
 
 /* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 1,3rem;
     }
 }
 @media (max-width: 480px) {
