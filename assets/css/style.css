@@ -472,7 +472,7 @@ footer {
 }
 
 .footer-logo img {
-  max-width: 20%; /* El ancho será el 20% del contenedor padre */
+  max-width: 11%; /* El ancho será el 20% del contenedor padre */
   height: auto;   /* Mantiene la proporción del logo */
   display: block; /* Asegura que se comporte como un bloque */
   margin: 0 auto; /* Centra el logo horizontalmente */
