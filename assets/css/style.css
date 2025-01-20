@@ -1,35 +1,44 @@
 /* ------------------------------------------------------------------
    REGLAS GENERALES
 ------------------------------------------------------------------ */
-* {
-    box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
-    margin: 0;
-    padding: 0;
-}
-html, body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
   margin: 0;
   padding: 0;
 }
+
+/* ------------------------------------------------------------------
+   ESTILO DEL BODY
+------------------------------------------------------------------ */
+/*
+   Si prefieres el fondo #222 y el texto #777,
+   descomenta las líneas indicadas y comenta o elimina las actuales.
+*/
 body {
+  /* Versión previa:
+  background-color: #222;
+  color: #777;
+  */
+
+  /* Versión actual: */
+  background-color: #333; 
+  color: #f4f4f4;         
+
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #222; /* Fondo gris oscuro */
-  color: #777;           /* Texto gris claro */
+  line-height: 1.6;
+
+  /* Suavizado de fuentes */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Tamaño de fuente base y scroll lateral */
+  font-size: 16px;
+  overflow-x: hidden;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    color: #f4f4f4;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    /* Ajustes de tamaño de fuente y scroll lateral */
-    
-    font-size: 1rem; /* Esto resultará en ~16px */
-    overflow-x: hidden;
-}
+
 
 /* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
 @media (max-width: 768px) {
