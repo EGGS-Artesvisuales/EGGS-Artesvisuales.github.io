@@ -61,6 +61,48 @@
                 transform: scale(1.1);
             }
         }
+
+        /* ESTILO DEL FOOTER */
+        footer {
+            background-color: #111; /* Fondo negro */
+            color: #ccc;           /* Texto gris claro */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-copyright {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .footer-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .footer-nav a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer-nav a:hover {
+            color: #fff;
+        }
+        .footer-social a img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            transition: transform 0.3s ease;
+        }
+        .footer-social a:hover img {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body>
@@ -81,5 +123,53 @@
         <p>Pronto me pondré en contacto contigo.</p>
         <a href="/ES/index.html">Volver al inicio</a>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <!-- Copyright -->
+            <p class="footer-copyright">
+                &copy; 2025 EGGS-Studio. Todos los derechos reservados.
+            </p>
+            
+            <!-- Navegación del Footer -->
+            <nav class="footer-nav" aria-label="Enlaces rápidos del pie de página">
+                <ul class="footer-links">
+                    <li>
+                        <a data-key="footer-inicio" href="/ES/index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a data-key="footer-contacto" href="/ES/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <!-- Redes Sociales -->
+            <div class="footer-social">
+                <a 
+                    href="https://www.facebook.com/ART.EGarnica" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    aria-label="Facebook de EGGS-Studio"
+                >
+                    <img 
+                        src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" 
+                        alt="Facebook"
+                    >
+                </a>
+                <a 
+                    href="https://www.instagram.com/egarnicasanchez" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    aria-label="Instagram de EGGS-Studio"
+                >
+                    <img 
+                        src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" 
+                        alt="Instagram"
+                    >
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
