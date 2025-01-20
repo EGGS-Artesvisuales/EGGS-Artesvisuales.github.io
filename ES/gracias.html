@@ -24,7 +24,7 @@
 
         /* LOGO */
         .logo-container {
-            margin-top: 50px; /* Espacio superior del logo */
+            margin-top: 70px; /* Espacio superior del logo */
         }
         .logo-container img {
             width: 101px;
@@ -45,6 +45,30 @@
                 transform: scale(1.1);
             }
         }
+
+        /* BOTÓN VOLVER */
+        .btn-volver {
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #58a6ff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition:
+                background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.2s ease;
+            margin-top: 30px;
+        }
+        .btn-volver:hover {
+            background-color: #58a6ff;
+            color: #f4f4f4;
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
@@ -58,7 +82,8 @@
     </header>
     <main>
         <p>Pronto me pondré en contacto contigo.</p>
-        <a href="/ES/index.html">Volver al inicio</a>
+        <!-- Botón Volver -->
+        <a href="/ES/index.html" class="btn-volver">Volver</a>
     </main>
 </body>
 </html>
