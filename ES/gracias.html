@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gracias - EGGS Studio</title>
-    <!-- Favicon -->
-  <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
-
-     <!-- Meta básicos de SEO (opcional ampliar) -->
-
+    <!-- Incluir favicon -->
+    <link rel="icon" href="/ruta/a/tu/favicon.ico" type="image/x-icon">
     <style>
         /* REGLAS GENERALES */
         * {
@@ -21,7 +18,7 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #333; /* Fondo gris oscuro */
+            background-color: #222; /* Fondo gris oscuro */
             color: #777;           /* Texto gris claro */
         }
 
@@ -49,6 +46,20 @@
             }
         }
 
+        /* TITULO Y SUBTITULO */
+        .title {
+            font-size: 2em;
+            margin-top: 20px;
+            color:  #58a6ff;      /* Azul claro */
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            color: #ccc; /* Texto gris claro */
+        }
+
         /* BOTÓN VOLVER */
         .btn-volver {
             background-color: transparent;
@@ -65,11 +76,11 @@
                 background-color 0.3s ease,
                 color 0.3s ease,
                 transform 0.2s ease;
-            margin-top: 30px;
+            margin-top: 50px; /* Mayor espacio entre texto y botón */
         }
         .btn-volver:hover {
             background-color: #58a6ff;
-            color: #777;
+            color: #f4f4f4;
             transform: scale(1.1);
         }
     </style>
@@ -81,10 +92,10 @@
     </div>
 
     <header>
-        <h1>¡Gracias por tu mensaje!</h1>
+        <h1 class="title">¡Gracias por tu mensaje!</h1>
+        <p class="subtitle">Pronto me pondré en contacto contigo.</p>
     </header>
     <main>
-        <p>Pronto me pondré en contacto contigo.</p>
         <!-- Botón Volver -->
         <a href="/ES/index.html" class="btn-volver">Volver</a>
     </main>
