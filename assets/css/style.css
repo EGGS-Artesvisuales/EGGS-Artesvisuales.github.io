@@ -361,7 +361,7 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    color: #222;
+    color: #555;
     font-family: Arial, sans-serif;
     text-align: center;
     overflow: hidden;
@@ -387,7 +387,7 @@ main {
 }
 
 .button-content .subtitle {
-    background: #222;
+    background: #333;
     padding: 8px 10px;
     border-radius: 0 0 15px 15px;
     font-size: 0.85rem;
