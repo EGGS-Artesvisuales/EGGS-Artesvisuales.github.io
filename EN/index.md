@@ -53,7 +53,6 @@ permalink: /EN/index.html
   </a>
 </div>
 
-## Explore more works and projects
 
 [See more works](exhibiciones.html)
 
