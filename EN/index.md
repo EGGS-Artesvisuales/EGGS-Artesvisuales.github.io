@@ -32,7 +32,7 @@ permalink: /EN/index.html
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="World Representation Works">
        <p class="title">World Representation</p>
-       <p class="subtitle">Works that portray the world.</p>
+       <p class="subtitle">works that portray or comment on the world.</p>
     </div>
   </a>
 
