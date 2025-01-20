@@ -43,7 +43,7 @@ body {
 /* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
 @media (max-width: 768px) {
     body {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 @media (max-width: 480px) {
@@ -62,7 +62,7 @@ img {
    HEADER FIJO
 ------------------------------------------------------------------ */
 header {
-    background-color: #111;
+    background-color: #333;
     color: #f4f4f4;
     padding: 0;
     position: fixed;
@@ -293,7 +293,6 @@ main {
     font-weight: bold;
     color: #58a6ff;
     margin-bottom: 1.5rem;
-    text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
@@ -301,13 +300,14 @@ main {
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #f4f4f4;
+    color: #aaaa;
     margin-bottom: 0.8rem;
 }
 
 .parrafo {
     font-family: 'Georgia', serif;
-    font-size: 1rem;
+   max-width: 66%;
+    font-size: 0.9rem;
     line-height: 1.6;
     color: #f4f4f4;
     margin-bottom: 1rem;
