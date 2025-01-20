@@ -471,6 +471,14 @@ footer {
     gap: 15px;
 }
 
+.footer-logo img {
+  max-width: 150px; /* Ajusta el ancho máximo */
+  height: auto;     /* Mantiene la proporción del logo */
+  display: block;   /* Asegura que se comporte como un bloque */
+  margin: 0 auto;   /* Centra el logo horizontalmente */
+}
+
+
 .footer-links {
     list-style: none;
     padding: 0;
