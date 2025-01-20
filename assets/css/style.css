@@ -286,33 +286,59 @@ main {
 }
 
 /* ------------------------------------------------------------------
+   VARIABLES
+------------------------------------------------------------------ */
+:root {
+    --titulo-font: 'Arial', sans-serif;
+    --subtitulo-font: 'Arial', sans-serif;
+    --parrafo-font: 'Georgia', serif;
+
+    --titulo-color: #58a6ff;
+    --subtitulo-color: #aaaaaa;
+    --parrafo-color: #f4f4f4;
+
+    --titulo-size: 2rem;
+    --subtitulo-size: 1.5rem;
+    --parrafo-size: 0.9rem;
+
+    --spacing-tight: 0.05em;
+    --line-height: 1.6;
+
+    --content-max-width: 66%;
+    --margin-bottom-large: 1.5rem;
+    --margin-bottom-medium: 0.8rem;
+    --margin-bottom-small: 1rem;
+}
+
+/* ------------------------------------------------------------------
    CONTENEDORES DE TEXTO
 ------------------------------------------------------------------ */
 .titulo {
-    font-family: 'Arial', sans-serif;
-    font-size: 2rem;
+    font-family: var(--titulo-font);
+    font-size: var(--titulo-size);
     font-weight: bold;
-    color: #58a6ff;
-    margin-bottom: 1.5rem;
-    letter-spacing: 0.05em;
+    color: var(--titulo-color);
+    margin-bottom: var(--margin-bottom-large);
+    letter-spacing: var(--spacing-tight);
 }
 
 .subtitulo {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
+    font-family: var(--subtitulo-font);
+    font-size: var(--subtitulo-size);
     font-weight: 600;
-    color: #aaaa;
-    margin-bottom: 0.8rem;
+    color: var(--subtitulo-color);
+    margin-bottom: var(--margin-bottom-medium);
 }
 
 .parrafo {
-    font-family: 'Georgia', serif;
-   max-width: 66%;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #f4f4f4;
-    margin-bottom: 1rem;
+    font-family: var(--parrafo-font);
+    max-width: var(--content-max-width);
+    font-size: var(--parrafo-size);
+    line-height: var(--line-height);
+    color: var(--parrafo-color);
+    margin-bottom: var(--margin-bottom-small);
 }
+
 
 /* ------------------------------------------------------------------
    BOTONES CLICKEABLES (FANCY BUTTONS)
