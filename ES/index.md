@@ -6,7 +6,7 @@ permalink: /ES/index.html
 ---
 
 <div class="text-container">
-  <div class="titulo">Bienvenid@ a EGGS - Studio</div>
+  <div class="titulo">Bienvenid@ a EGGS-Studio</div>
 
   <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 
@@ -17,10 +17,10 @@ permalink: /ES/index.html
     </p>
     <p class="parrafo">
       A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
-      totalidad de mi trabajo, sin dejar fuera ninguna de las actividades culturales que he realizado.
+      totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
     </p>
     <p class="parrafo">
-      Dicho esquema no solo me ayuda a comprender mi propia naturaleza creativa y los procesos detrás de cada producción, sino que 
+      Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
       también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
     </p>
   </div>
@@ -33,7 +33,7 @@ permalink: /ES/index.html
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
        <p class="title">Representación del Mundo</p>
-       <p class="subtitle">Obras que retratan el mundo.</p>
+       <p class="subtitle">Obras que retratan o comentan el mundo.</p>
     </div>
   </a>
 
@@ -41,7 +41,7 @@ permalink: /ES/index.html
     <div class="button-content">
       <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Obras de Acción en el Mundo">
       <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Proyectos de intervención activa, actividades comunitarias, talleres y servicios.</p>
+      <p class="subtitle">Actividades comunitarias, talleres y servicios.</p>
     </div>
   </a>
 
@@ -49,7 +49,7 @@ permalink: /ES/index.html
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior">
       <p class="title">Mundo Interior</p>
-      <p class="subtitle">Arte enfocado en el bienestar fisico-espiritual y la introspección.</p>
+      <p class="subtitle">Arte para el bienestar fisico-espiritual y la introspección.</p>
     </div>
   </a>
 </div>
