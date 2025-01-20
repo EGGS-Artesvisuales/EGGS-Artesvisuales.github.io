@@ -90,6 +90,7 @@ header {
     display: flex;
     gap: 20px;
     transition: max-height 0.3s ease-in-out;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav-menu li {
@@ -428,7 +429,7 @@ footer {
 }
 
 .footer-links a {
-    color: #58a6ff;
+    color: #f49214; /*naranjo*/
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
@@ -656,6 +657,7 @@ form button:hover {
     .text-container {
         padding: 10px 5px;
         font-size: 0.8rem;
+       width: 100%;
     }
     .button-container {
         gap: 10px;
