@@ -40,7 +40,7 @@ permalink: /EN/index.html
     <div class="button-content">
       <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Action in the World Works">
       <p class="title">Action in the World</p>
-      <p class="subtitle">Projects of active intervention, community activities, workshops, and services.</p>
+      <p class="subtitle">Community activities, workshops, and services.</p>
     </div>
   </a>
 
@@ -48,7 +48,7 @@ permalink: /EN/index.html
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploration of the Inner World">
       <p class="title">Inner World</p>
-      <p class="subtitle">Art focused on physical-spiritual well-being and introspection.</p>
+      <p class="subtitle">Art for physical-spiritual well-being and introspection.</p>
     </div>
   </a>
 </div>
