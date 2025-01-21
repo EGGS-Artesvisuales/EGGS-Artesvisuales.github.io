@@ -8,7 +8,6 @@ breadcrumbs: >
 ---
 
 
-<div class="text-container">
   <!-- Título principal -->
   <div class="titulo">Acción en el Mundo</div>
 
@@ -26,7 +25,7 @@ breadcrumbs: >
     caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar 
     transformaciones tangibles en el espacio y las personas.
   </p>
-</div>
+
 
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
 <div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
