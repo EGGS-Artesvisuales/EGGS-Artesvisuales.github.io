@@ -298,7 +298,7 @@ main {
   --button-transition: transform 0.2s, box-shadow 0.3s ease;
 
   /* Contenido de botones */
-  --content-title-color: #f0f0f0; 
+  --content-title-color: #f89900; 
   --content-subtitle-bg: #333;
   --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
