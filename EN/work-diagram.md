@@ -8,11 +8,10 @@ breadcrumbs: >
   <span>Diagram of Work</span>
 ---
 <div class="content">
-  <!-- Si deseas que el título principal y el párrafo de introducción 
-       tengan los estilos de 'titulo' y 'parrafo', 
-       puedes envolverlos en .diagram-content, o aplicar clases directas. -->
   <div class="diagram-content">
+    <div class="diagram-title">
     <h1>Diagram of Work</h1>
+      </div>
     <p>
       A visual map of the ideas, concepts, and artistic works that structure our approach,
       divided into three sections for clarity.
