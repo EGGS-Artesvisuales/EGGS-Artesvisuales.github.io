@@ -23,7 +23,7 @@ breadcrumbs: >
 
 
   <!-- 1) Representación del Mundo -->
-  <h2>Representación del Mundo</h2>
+  <div class="subtitulo">Representación del Mundo</div>
   <div class="mermaid">
     graph TD
       A[Representación del Mundo] --> A1[Lo Tangible]
@@ -88,7 +88,7 @@ breadcrumbs: >
   </div>
 
   <!-- 2) Acción en el Mundo -->
-  <h2>Acción en el Mundo</h2>
+  <div class="subtitulo">Acción en el Mundo</div>
   <div class="mermaid">
     graph TD
       B[Acción en\n el Mundo] --> B1[Lo Subrepticio]
@@ -127,7 +127,7 @@ breadcrumbs: >
   </div>
 
   <!-- 3) Exploración del Mundo Interior -->
-  <h2>Exploración del Mundo Interior</h2>
+  <div class="subtitulo">Exploración del Mundo Interior</div>
   <div class="mermaid">
     graph TD
       C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
