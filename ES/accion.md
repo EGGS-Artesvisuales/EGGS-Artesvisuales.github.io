@@ -34,29 +34,29 @@ breadcrumbs: >
     <a href="/ES/subrepticio.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/images/subrepticio.jpg" alt="Lo Subrepticio">
-            <p>Lo Subrepticio</p>
-            Acciones discretas pero con impacto significativo.
+            <p class="title">Lo Subrepticio</p>
+            <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
         </div>
     </a>
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/images/comunitario.jpg" alt="Lo Comunitario">
-            <p>Lo Comunitario</p>
-            Proyectos que unen comunidades a través del arte.
+            <p class="title">Lo Comunitario</p>
+            <p class="subtitle">Proyectos que unen comunidades a través del arte.</p>
         </div>
     </a>
     <a href="/ES/docencia.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/images/docencia.jpg" alt="Docencia y Talleres">
-            <p>Docencia y Talleres</p>
-            Compartiendo conocimientos artísticos y creativos.
+            <p class="title">Docencia y Talleres</p>
+            <p class="subtitle">Compartiendo conocimientos artísticos y creativos.</p>
         </div>
     </a>
     <a href="/ES/servicios.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/images/servicios.jpg" alt="Servicios">
-            <p>Servicios</p>
-            Restauración, encargos y ambientaciones artísticas.
+            <p class="title">Servicios</p>
+            <p class="subtitle">Restauración, encargos y ambientaciones artísticas.</p>
         </div>
     </a>
 </div>
