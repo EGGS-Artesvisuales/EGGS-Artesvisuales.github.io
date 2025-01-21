@@ -6,44 +6,44 @@
 
   <!-- Dynamic Title with fallback -->
   <title>{{ page.title | default: 'EGGS-Studio | Visual Arts & Murals' }}</title>
-
-  <!-- Main Meta Tags for SEO (English) -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: visual arts, murals, art restoration...' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, artistic design' }}">
+  
+  <!-- Main Meta Tags for SEO -->
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: expert in visual arts, murals, art restoration, and teaching of the arts.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'visual arts, murals, art restoration, artistic design' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
 
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
-  
+
   <!-- Theme color (optional, for mobile browsers) -->
   <meta name="theme-color" content="#000000">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="{{ site.url | default: 'https://tu-dominio.com' }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Visual Arts & Murals' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Experts in visual arts, murals, and artistic restoration.' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Discover our expertise in murals, art restoration, and visual arts.' }}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url | default: 'https://tu-dominio.com' }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url | default: 'https://tu-dominio.com' }}/assets/img/logo.jpg">
+  <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema (Organization, in English) -->
+  <!-- JSON-LD Schema (Organization) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "EGGS-Studio",
-    "url": "{{ site.url | default: 'https://tu-dominio.com' }}",
-    "logo": "{{ site.url | default: 'https://tu-dominio.com' }}/assets/img/logo.jpg",
+    "url": "{{ site.url | default: 'https://eggs-studio.cl' }}",
+    "logo": "{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.jpg",
     "sameAs": [
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Visual arts, murals, art restoration..."
+    "description": "Chilean art by Esteban Garnica: painting, murals, visual arts, and restoration of artworks."
   }
   </script>
 
@@ -55,7 +55,7 @@
   {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       mermaid.initialize({
         startOnLoad: true,
         theme: 'dark',
@@ -94,7 +94,7 @@
 </head>
 
 <body>
-  <!-- NAVIGATION IN ENGLISH -->
+  <!-- HEADER / NAVIGATION IN ENGLISH -->
   {% include header-en.html %}
 
   <!-- Main Content -->
@@ -102,7 +102,7 @@
     {% if content %}
       {{ content }}
     {% else %}
-      <p>The content is not available at this time. Please try again later.</p>
+      <p>The content is not available at the moment. Please try again later.</p>
     {% endif %}
   </main>
 
