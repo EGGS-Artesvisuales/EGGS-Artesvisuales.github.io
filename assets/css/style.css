@@ -482,6 +482,7 @@ footer {
 .diagram-container {
   text-align: center;
   margin: 50px auto;
+   margin-bottom: 60px auto;  
   padding: 20px;
   max-width: 1000px;
   background-color: var(--diagram-bg, #333);
