@@ -99,7 +99,7 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* En lugar de space-between */
   align-items: center;
   width: 100%;
   padding: 1px 0px;
