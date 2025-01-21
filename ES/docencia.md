@@ -32,9 +32,12 @@ breadcrumbs: >
     <div class="year" data-year="2024">
       <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller 2024</div>
       <div class="text-container">
-        <div class="title">Innovación Creativa</div>
-        <div class="subtitle">Hacia el Futuro</div>
-        <div class="paragraph">Uso de tecnologías avanzadas en el arte mural.</div>
+        <div class="title">Taller de Máscaras</div>
+        <div class="subtitle">Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.</div>
+        <div class="paragraph">Taller para niñ@s  y jovenes en Espacio Los Quillayes / mediante Corporacion Cultural de La Florida.</div>
+         <div class="title">Taller de Muralismo intensivo</div>
+        <div class="subtitle">Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante Fibra en Liceo politecnico Maria Pinto, Comuna de Maria Pinto, Region Metropolitana.</div>
+        <div class="paragraph">Taller para niñ@s  y jovenes en Espacio Los Quillayes / mediante Corporacion Cultural de La Florida.</div>
       </div>
     </div>
     <div class="year" data-year="2023">
@@ -137,8 +140,8 @@ breadcrumbs: >
       <div class="fun-button left" onclick="window.location.href='/ES/taller-2011.html';">Taller 2011</div>
       <div class="text-container">
         <div class="title">Inicio de Docencia</div>
-        <div class="subtitle">Primer Taller</div>
-        <div class="paragraph">Introducción a las técnicas básicas de arte mural.</div>
+        <div class="subtitle">Primer Taller: Taller de pintura al óleo</div>
+        <div class="paragraph">Introducción a las técnicas básicas de la pintura al oleo, enmarcado en el programa ..., en Comuna de Padre Hurtado, Region Metropolitana, Chile.</div>
       </div>
     </div>
   </div>
