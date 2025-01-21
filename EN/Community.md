@@ -10,7 +10,7 @@ breadcrumbs: >
 
 <div class="text-container">
   <!-- Main Title -->
-  <div class="titulo">Community Projects</div>
+  <div class="titulo">Community</div>
 
   <!-- Descriptive Text -->
   <p class="parrafo">
