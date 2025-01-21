@@ -8,11 +8,11 @@ breadcrumbs: >
   <span>Diagram of Work</span>
 ---
 <div class="content">
-  <div class="diagram-content">
-    <div class="diagram-title">
-    <h1>Diagram of Work</h1>
-      </div>
-    <p>
+  <div class="text-container">
+      <div class="titulo">Diagram of Work</div>
+     <div class="subtitulo">a visual net concepts</div>
+     <div class="text-container">
+    <p class="parrafo">
       A visual map of the ideas, concepts, and artistic works that structure our approach,
       divided into three sections for clarity.
     </p>
