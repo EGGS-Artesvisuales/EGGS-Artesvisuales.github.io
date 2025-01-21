@@ -436,7 +436,7 @@ color: var(--content-subtitle-color);
 }
 
 .timeline {
-  border-left: 3px solid #00c1cc;
+  border-left: 3px solid #fa0000;
   position: relative;
   width: 100%;
   padding-left: 20px;
