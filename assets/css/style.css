@@ -1,10 +1,10 @@
 /* ------------------------------------------------------------------
-   REGLAS GENERALES
+   RESET BÁSICO
 ------------------------------------------------------------------ */
 *,
 *::before,
 *::after {
-  box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -12,810 +12,704 @@
 /* ------------------------------------------------------------------
    ESTILO DEL BODY
 ------------------------------------------------------------------ */
-/*
-   Si prefieres el fondo #222 y el texto #777,
-   descomenta las líneas indicadas y comenta o elimina las actuales.
-*/
 body {
-  /* Versión previa:
-  background-color: #222;
-  color: #777;
-  */
-
-  /* Versión actual: */
   background-color: #333; 
   color: #f4f4f4;         
-
   font-family: Arial, sans-serif;
   text-align: center;
   line-height: 1.6;
-
-  /* Suavizado de fuentes */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Tamaño de fuente base y scroll lateral */
   font-size: 1rem;
   overflow-x: hidden;
 }
 
-
 /* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
 @media (max-width: 768px) {
-    body {
-        font-size: 1.2rem;
-    }
+  body {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 480px) {
-    body {
-        font-size: 0.8rem;
-    }
+  body {
+    font-size: 0.8rem;
+  }
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ------------------------------------------------------------------
    HEADER FIJO
 ------------------------------------------------------------------ */
 header {
-    background-color: #333;
-    color: #f4f4f4;
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 1px 0px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1px 0px; 
 }
 
 /* Menú Principal */
 .nav-menu {
-    background-color: #222;
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-    transition: max-height 0.3s ease-in-out;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  transition: max-height 0.3s ease-in-out;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav-menu li {
-    position: relative;
+  position: relative;
 }
 
 .nav-menu a {
-    color: #f4f4f4;
-    text-decoration: none;
-    padding: 8px 15px;
-    display: block;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    outline: none;
+  color: #f4f4f4;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  outline: none;
 }
 
 .nav-menu a:focus {
-    background-color: #555;
-    color: #58a6ff;
-    transform: scale(1.02);
+  background-color: #555;
+  color: #58a6ff;
+  transform: scale(1.02);
 }
 
 .nav-menu a:visited {
-    color: #f4f4f4;
+  color: #f4f4f4;
 }
 
 .nav-menu a:hover {
-    background-color: #555;
-    color: #58a6ff;
-    transform: scale(1.02);
+  background-color: #555;
+  color: #58a6ff;
+  transform: scale(1.02);
 }
 
 .nav-menu a::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background: #58a6ff;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #58a6ff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav-menu a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /* Submenús */
 .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #3a3a3a;
-    list-style: none;
-    margin: 0;
-    padding: 5px 0;
-    border-radius: 5px;
-    z-index: 100;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #3a3a3a;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 5px;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-menu li {
-    width: 180px;
+  width: 180px;
 }
 
 .dropdown-menu a {
-    padding: 10px 15px;
-    white-space: nowrap;
-    color: #f4f4f4;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px 15px;
+  white-space: nowrap;
+  color: #f4f4f4;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-menu a:hover {
-    background-color: #555;
-    color: #58a6ff;
+  background-color: #555;
+  color: #58a6ff;
 }
 
-/* Mostrar submenú al pasar el mouse (solo en escritorio) */
+/* Mostrar submenú en escritorio */
 @media (min-width: 769px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-        animation: fadeIn 0.3s ease-in-out;
-    }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
 }
-
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Menú Hamburguesa */
 .nav-toggle {
-    display: none;
-    margin-top: 20px;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-    transition: transform 0.3s ease;
-    z-index: 1000;
+  display: none;
+  margin-top: 20px;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+  transition: transform 0.3s ease;
+  z-index: 1000;
 }
-
 .nav-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #f4f4f4;
-    border-radius: 5px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
 }
-
 .nav-toggle:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 .nav-toggle:focus,
 .nav-toggle.active {
-    outline: 3px solid rgba(88, 166, 255, 0.6);
-    border-radius: 5px;
-    transform: scale(1.05);
+  outline: 3px solid rgba(88, 166, 255, 0.6);
+  border-radius: 5px;
+  transform: scale(1.05);
 }
 
 /* Menú Responsivo */
 @media (max-width: 768px) {
-    .nav-toggle {
-        display: flex; /* Mostrar botón hamburguesa */
-        margin-top: 10px;
-    }
-
-    .nav-menu {
-        display: none; 
-        flex-direction: column;
-        gap: 10px;
-        background-color: #444;
-        width: 100%;
-        position: fixed;
-        top: 106px; /* Justo debajo del header */
-        left: 0;
-        z-index: 999;
-        padding: 10px;
-        transition: transform 0.3s ease-in-out, opacity 0.3s ease;
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-
-    .nav-menu.active {
-        display: flex;
-        transform: translateY(0);
-        opacity: 1;
-    }
-
-    .dropdown-menu {
-        display: none;
-    }
-
-    .dropdown.active .dropdown-menu {
-        display: block; 
-        position: static;
-    }
+  .nav-toggle {
+    display: flex;
+    margin-top: 10px;
+  }
+  .nav-menu {
+    display: none; 
+    flex-direction: column;
+    gap: 10px;
+    background-color: #444;
+    width: 100%;
+    position: fixed;
+    top: 106px;
+    left: 0;
+    z-index: 999;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .dropdown.active .dropdown-menu {
+    display: block; 
+    position: static;
+  }
 }
 
 .nav-menu.active {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 13px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px;
 }
 
 /* Evitar scroll cuando el menú está activo */
 body.no-scroll {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* ------------------------------------------------------------------
    MAIN (para evitar superposición con header fijo)
 ------------------------------------------------------------------ */
 main {
-    padding-top: 80px; /* Ajuste según la altura del header */
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
 }
 
 /* ------------------------------------------------------------------
    VARIABLES
 ------------------------------------------------------------------ */
 :root {
-    --titulo-font: 'Arial', sans-serif;
-    --subtitulo-font: 'Arial', sans-serif;
-    --parrafo-font: 'Georgia', serif;
+  /* Tipografías base */
+  --titulo-font: 'Arial', sans-serif;
+  --subtitulo-font: 'Arial', sans-serif;
+  --parrafo-font: 'Georgia', serif;
 
-    --titulo-color: #58a6ff;
-    --subtitulo-color: #aaaaaa;
-    --parrafo-color: #f4f4f4;
+  /* Colores base */
+  --titulo-color: #58a6ff;
+  --subtitulo-color: #aaaaaa;
+  --parrafo-color: #f4f4f4;
 
-    --titulo-size: 2.1rem;
-    --subtitulo-size: 1.8rem;
-    --parrafo-size: 0.9rem;
+  /* Tamaños tipográficos */
+  --titulo-size: 2.1rem;
+  --subtitulo-size: 1.8rem;
+  --parrafo-size: 0.9rem;
 
-    --spacing-tight: 0.05em;
-    --line-height: 1.6;
+  /* Espaciados y line-height */
+  --spacing-tight: 0.05em;
+  --line-height: 1.6;
+  --content-max-width: 66.6%;
+  --margin-bottom-large: 1.5rem;
+  --margin-bottom-medium: 0.8rem;
+  --margin-bottom-small: 1rem;
 
-    --content-max-width: 66.6%;
-    --margin-bottom-large: 1.5rem;
-    --margin-bottom-medium: 0.8rem;
-    --margin-bottom-small: 1rem;
+  /* Botones fancy */
+  --button-bg-color: #3a3a3a;
+  --button-hover-bg-color: #444444;
+  --button-border-radius: 15px;
+  --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+  --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+  --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
+  --button-transition: transform 0.2s, box-shadow 0.3s ease;
+
+  /* Contenido de botones */
+  --content-title-color: #f0f0f0; 
+  --content-subtitle-bg: #333;
+  --content-subtitle-hover-bg: #555;
+  --content-subtitle-padding: 8px 10px;
+  --content-font-family: Arial, sans-serif;
+  --gap-between-buttons: 20px;
+  --button-container-margin: 30px 0 40px;
+  --button-max-width: 300px;
+  --img-opacity: 0.9;
+  --img-hover-opacity: 1;
+  --title-font-size: 1.2rem;
+  --subtitle-font-size: 0.85rem;
 }
 
 /* ------------------------------------------------------------------
-   CONTENEDORES DE TEXTO
+   TITULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
 .titulo {
-    font-family: var(--titulo-font);
-    font-size: var(--titulo-size);
-    font-weight: bold;
-    color: var(--titulo-color);
-    margin-bottom: var(--margin-bottom-large);
-    letter-spacing: var(--spacing-tight);
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--titulo-color);
+  margin-bottom: var(--margin-bottom-large);
+  letter-spacing: var(--spacing-tight);
 }
 
 .subtitulo {
-    font-family: var(--subtitulo-font);
-    font-size: var(--subtitulo-size);
-    font-weight: 600;
-    color: var(--subtitulo-color);
-    margin-bottom: var(--margin-bottom-medium);
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 600;
+  color: var(--subtitulo-color);
+  margin-bottom: var(--margin-bottom-medium);
 }
 
 .parrafo {
-    font-family: var(--parrafo-font);
-    max-width: var(--content-max-width);
-    font-size: var(--parrafo-size);
-    line-height: var(--line-height);
-    color: var(--parrafo-color);
-    margin-bottom: var(--margin-bottom-small);
+  font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--parrafo-color);
+  margin-bottom: var(--margin-bottom-small);
 }
 
 /* ------------------------------------------------------------------
-   VARIABLES
------------------------------------------------------------------- */
-:root {
-    --button-bg-color: #3a3a3a;
-    --button-hover-bg-color: #444444;
-    --button-border-radius: 15px;
-    --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
-    --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
-    --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
-    --button-transition: transform 0.2s, box-shadow 0.3s ease;
-
-    --content-title-color: #f0f0f0; /* gris claro */
-    --content-subtitle-bg: #333;
-    --content-subtitle-hover-bg: #555;
-    --content-subtitle-padding: 8px 10px;
-    --content-font-family: Arial, sans-serif;
-
-    --gap-between-buttons: 20px;
-    --button-container-margin: 30px 0 40px;
-    --button-max-width: 300px;
-
-    --img-opacity: 0.9;
-    --img-hover-opacity: 1;
-
-    --title-font-size: 1.2rem;
-    --subtitle-font-size: 0.85rem;
-}
-
-/* ------------------------------------------------------------------
-   BOTONES CLICKEABLES (FANCY BUTTONS)
+   BOTONES "FANCY BUTTONS"
 ------------------------------------------------------------------ */
 .button-container {
-    display: flex;
-    justify-content: center;
-    gap: var(--gap-between-buttons);
-    margin: var(--button-container-margin);
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-between-buttons);
+  margin: var(--button-container-margin);
 }
 
 .fancy-button {
-    display: block;
-    text-decoration: none;
-    background-color: var(--button-bg-color);
-    border-radius: var(--button-border-radius);
-    box-shadow: var(--button-shadow);
-    transition: var(--button-transition);
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    max-width: var(--button-max-width);
-    height: auto;
+  display: block;
+  text-decoration: none;
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-shadow);
+  transition: var(--button-transition);
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  max-width: var(--button-max-width);
+  height: auto;
 }
 
 .fancy-button:focus {
-    box-shadow: var(--button-focus-shadow);
-    transform: translateY(-5px);
+  box-shadow: var(--button-focus-shadow);
+  transform: translateY(-5px);
 }
 
 .fancy-button:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--button-hover-shadow);
-    background-color: var(--button-hover-bg-color);
+  transform: translateY(-5px);
+  box-shadow: var(--button-hover-shadow);
+  background-color: var(--button-hover-bg-color);
 }
 
 .button-content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    color: var(--content-title-color);
-    font-family: var(--content-font-family);
-    text-align: center;
-    overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--content-title-color);
+  font-family: var(--content-font-family);
+  text-align: center;
+  overflow: hidden;
 }
-
 .button-content img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    opacity: var(--img-opacity);
-    transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: var(--img-opacity);
+  transition: opacity 0.3s ease-in-out;
 }
-
 .fancy-button:hover .button-content img {
-    opacity: var(--img-hover-opacity);
+  opacity: var(--img-hover-opacity);
 }
 
 .button-content .title {
-    font-size: var(--title-font-size);
-    font-weight: bold;
-    color: var(--content-title-color);
-    margin-bottom: 5px;
+  font-size: var(--title-font-size);
+  font-weight: bold;
+  color: var(--content-title-color);
+  margin-bottom: 5px;
 }
 
 .button-content .subtitle {
-    background: var(--content-subtitle-bg);
-    padding: var(--content-subtitle-padding);
-    border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
-    font-size: var(--subtitle-font-size);
-    margin: 0;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    transition: background-color 0.3s ease, color 0.3s ease;
+  background: var(--content-subtitle-bg);
+  padding: var(--content-subtitle-padding);
+  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
+  font-size: var(--subtitle-font-size);
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .fancy-button:hover .button-content .subtitle {
-    background: var(--content-subtitle-hover-bg);
+  background: var(--content-subtitle-hover-bg);
 }
 
 /* ------------------------------------------------------------------
    FOOTER
 ------------------------------------------------------------------ */
 footer {
-    background-color: #444;
-    color: #cecece;
-    margin-top: 40px;
-    padding: 20px;
-    text-align: center; 
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #444;
+  color: #cecece;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
-
 .footer-logo img {
-  max-width: 11%; /* El ancho será el 20% del contenedor padre */
-  height: auto;   /* Mantiene la proporción del logo */
-  display: block; /* Asegura que se comporte como un bloque */
-  margin: 0 auto; /* Centra el logo horizontalmente */
+  max-width: 11%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
-
-
-
 .footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    display: flex;
-    gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  gap: 15px;
 }
-
 .footer-links a {
-    color: #58a6ff; celeste
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
-
 .footer-links a:hover {
-    color: white;
+  color: #fff;
 }
-
 .footer-social {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
-
 .footer-social a img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
 }
-
 .footer-social a img:hover {
-    transform: scale(1.2);
-    filter: brightness(1.2);
-}
-
-/* ------------------------------------------------------------------
-   BASE DE ESTILOS TIPOGRÁFICOS (MATRIZ)
------------------------------------------------------------------- */
-.titulo {
-    font-family: var(--titulo-font);
-    font-size: var(--titulo-size);
-    font-weight: bold;
-    color: var(--titulo-color);
-    margin-bottom: var(--margin-bottom-large);
-    letter-spacing: var(--spacing-tight);
-}
-
-.subtitulo {
-    font-family: var(--subtitulo-font);
-    font-size: var(--subtitulo-size);
-    font-weight: 600;
-    color: var(--subtitulo-color);
-    margin-bottom: var(--margin-bottom-medium);
-}
-
-.parrafo {
-    font-family: var(--parrafo-font);
-    max-width: var(--content-max-width);
-    font-size: var(--parrafo-size);
-    line-height: var(--line-height);
-    color: var(--parrafo-color);
-    margin-bottom: var(--margin-bottom-small);
+  transform: scale(1.2);
+  filter: brightness(1.2);
 }
 
 /* ------------------------------------------------------------------
    CONTENEDOR GENERAL DEL DIAGRAMA (MERMAID)
 ------------------------------------------------------------------ */
 .diagram-container {
-    text-align: center;
-    margin: 50px auto;
-    padding: 20px;
-    max-width: 1000px;
-    
-    /* Puedes vincular colores con variables si lo deseas: */
-    background-color: var(--diagram-bg, #333); /* fallback: #333 */
-    border: 1px solid var(--diagram-border-color, #f4f4f4);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    overflow: auto; /* Permite desplazamiento en caso de nodos grandes */
-
-    /* Integramos la tipografía y color base */
-    font-family: var(--parrafo-font);
-    color: var(--parrafo-color);
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: var(--diagram-bg, #333);
+  border: 1px solid var(--diagram-border-color, #f4f4f4);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  font-family: var(--parrafo-font);
+  color: var(--parrafo-color);
 }
-
 .diagram-container + .diagram-container {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-/* ------------------------------------------------------------------
-   MERMAID - Estilos básicos y responsivos
------------------------------------------------------------------- */
+/* MERMAID - Estilos básicos y responsivos */
 .mermaid {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-    margin: 2em 0;
-    clear: both;
-
-    /* Se sugiere mantener la tipografía de párrafo,
-       pero puedes ajustarla según tu estilo */
-    font-family: var(--parrafo-font);
-    color: var(--parrafo-color);
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 2em 0;
+  clear: both;
+  font-family: var(--parrafo-font);
+  color: var(--parrafo-color);
 }
-
 .mermaid svg {
-    display: block;
-    margin: 0 auto;
-    width: 100% !important;
-    height: auto !important;
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+  height: auto !important;
 }
 
-/* ------------------------------------------------------------------
-   TÍTULO DENTRO DEL DIAGRAMA
------------------------------------------------------------------- */
+/* TÍTULO DENTRO DEL DIAGRAMA */
 .diagram-title h2 {
-    /* Ajustar según tus variables para títulos */
-    font-family: var(--titulo-font);
-    font-size: var(--titulo-size);
-    font-weight: bold;
-    color: var(--titulo-color);
-    
-    text-align: center;
-    margin-bottom: var(--margin-bottom-large);
-    letter-spacing: var(--spacing-tight);
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--titulo-color);
+  text-align: center;
+  margin-bottom: var(--margin-bottom-large);
+  letter-spacing: var(--spacing-tight);
 }
 
-/* ------------------------------------------------------------------
-   ENLACES DENTRO DE MERMAID
------------------------------------------------------------------- */
+/* ENLACES DENTRO DE MERMAID */
 .mermaid a {
-    text-decoration: none;
-    /* Puedes usar la fuente de subtítulo o la que prefieras */
-    font-family: var(--subtitulo-font);
-    font-weight: 600;
-    color: var(--subtitulo-color);
+  text-decoration: none;
+  font-family: var(--subtitulo-font);
+  font-weight: 600;
+  color: var(--subtitulo-color);
 }
-
 .mermaid a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /* ------------------------------------------------------------------
    FORMULARIOS
 ------------------------------------------------------------------ */
 form {
-    display: block;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #3a3a3a;
-    border: 1px solid #444;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+  display: block;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #3a3a3a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
-
 form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 1rem;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
 }
-
 form input,
 form textarea,
 form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #666;
-    border-radius: 4px;
-    box-sizing: border-box;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 form input:focus,
 form textarea:focus {
-    border-color: #58a6ff;
-    box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
-    outline: none;
+  border-color: #58a6ff;
+  box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
+  outline: none;
 }
-
 form textarea {
-    resize: vertical;
-    min-height: 100px;
+  resize: vertical;
+  min-height: 100px;
 }
-
 form button {
-    background-color: #58a6ff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 12px 20px;
-    border-radius: 4px;
+  background-color: #58a6ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 4px;
 }
-
 form button:hover {
-    background-color: #0056b3;
-    transform: translateY(-3px);
+  background-color: #0056b3;
+  transform: translateY(-3px);
 }
 
 /* ------------------------------------------------------------------
-   MEDIA QUERIES PARA DISPOSICIÓN Y CONTENEDORES
+   MEDIA QUERIES
 ------------------------------------------------------------------ */
-/* Ajustes para .text-container si existe en tu HTML */
 @media (max-width: 1200px) {
-    .text-container {
-        font-size: 1.2rem;
-        padding: 15px;
-    }
+  .text-container {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
 }
 
-/* Pantallas medianas */
 @media (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .fancy-button {
-        width: 40%;
-    }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fancy-button {
+    width: 40%;
+  }
 }
 
-/* Ajustes para .text-container en móviles más reducidos */
 @media (max-width: 600px) {
-    .nav-menu {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .text-container {
-        padding: 10px;
-    }
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .text-container {
+    padding: 10px;
+  }
 }
 
-/* Pantallas entre 768px y 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .fancy-button {
-        width: 45%;
-        max-width: 400px;
-        transition: width 0.3s ease;
-    }
-    .text-container {
-        padding: 20px;
-    }
-    .button-container {
-        gap: 20px;
-    }
+  .fancy-button {
+    width: 45%;
+    max-width: 400px;
+    transition: width 0.3s ease;
+  }
+  .text-container {
+    padding: 20px;
+  }
+  .button-container {
+    gap: 20px;
+  }
 }
 
-/* Pantallas grandes a partir de 1024px */
 @media (min-width: 1024px) {
-    .fancy-button {
-        width: 30%;
-        max-width: 350px;
-        transition: width 0.3s ease, transform 0.2s ease-in-out;
-    }
-    .text-container {
-        padding: 30px;
-    }
+  .fancy-button {
+    width: 30%;
+    max-width: 350px;
+    transition: width 0.3s ease, transform 0.2s ease-in-out;
+  }
+  .text-container {
+    padding: 30px;
+  }
 }
 
-/* Pantallas menores a 767px (tablets/ móviles) */
 @media (max-width: 767px) {
-    .text-container {
-        padding: 10px;
-        font-size: 0.9rem;
-        line-height: 1.6;
-    }
-    .button-container {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-        padding: 10px;
-    }
-    .fancy-button {
-        width: 80%;
-        max-width: 300px;
-    }
+  .text-container {
+    padding: 10px;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .button-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  .fancy-button {
+    width: 80%;
+    max-width: 300px;
+  }
 }
 
-/* Pantallas extra pequeñas (moviles) */
 @media (max-width: 480px) {
-    .text-container {
-        padding: 10px 5px;
-        font-size: 0.8rem;
-       width: 100%;
-    }
-    .button-container {
-        gap: 10px;
-    }
-    .fancy-button {
-        width: 100%;
-        max-width: 250px;
-        padding: 10px 15px;
-    }
-    header {
-        padding: 5px 10px;
-        font-size: 1rem;
-    }
+  .text-container {
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .button-container {
+    gap: 10px;
+  }
+  .fancy-button {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+  }
+  header {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
 }
 
 /* ------------------------------------------------------------------
-   CONTENEDOR FLEXIBLE PARA ITEMS
+   CONTENEDOR FLEXIBLE
 ------------------------------------------------------------------ */
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    max-width: 100%;
-    overflow: hidden; /* Combina ambas definiciones de .container */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
 }
-
 .item {
-    flex: 1 1 calc(33.33% - 20px);
-    box-sizing: border-box;
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
 }
-
 @media (max-width: 768px) {
-    .item {
-        flex: 1 1 calc(50% - 20px);
-    }
+  .item {
+    flex: 1 1 calc(50% - 20px);
+  }
 }
-
 @media (max-width: 480px) {
-    .item {
-        flex: 1 1 100%;
-    }
+  .item {
+    flex: 1 1 100%;
+  }
 }
-
-
