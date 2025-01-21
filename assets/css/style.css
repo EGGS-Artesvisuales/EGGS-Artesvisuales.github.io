@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------
-   RESET BÁSICO
+   RESET Y CONFIGURACIÓN GLOBAL
 ------------------------------------------------------------------ */
 *,
 *::before,
@@ -9,31 +9,72 @@
   padding: 0;
 }
 
+:root {
+  /* Tipografías */
+  --titulo-font: 'Arial', sans-serif;
+  --subtitulo-font: 'Arial', sans-serif;
+  --parrafo-font: 'Georgia', serif;
+  
+  /* Colores base */
+  --color-fondo: #333;
+  --color-fondo-secundario: #222;
+  --color-hover: #555;
+  --color-destacado: #58a6ff;
+  --color-claro: #f4f4f4;
+  --color-medio: #3a3a3a;
+  --color-medio-oscuro: #444;
+  
+  /* Tamaños tipográficos */
+  --titulo-size: 2.1rem;
+  --subtitulo-size: 1.6rem;
+  --parrafo-size: 0.9rem;
+
+  /* Espaciado y line-height */
+  --spacing-tight: 0.05em;
+  --line-height: 1.6;
+  --content-max-width: 66.6%;
+  --margin-bottom-large: 1.5rem;
+  --margin-bottom-medium: 0.8rem;
+  --margin-bottom-small: 1rem;
+
+  /* Botones fancy */
+  --button-bg-color: #3a3a3a;
+  --button-hover-bg-color: #444;
+  --button-border-radius: 15px;
+  --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+  --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+  --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
+  --button-transition: transform 0.2s, box-shadow 0.3s ease;
+
+  /* Contenido en botones */
+  --content-title-color: #f89900;
+  --content-subtitle-color: #aaaaaa;
+  --content-subtitle-bg: #333;
+  --content-subtitle-hover-bg: #555;
+  --content-subtitle-padding: 8px 10px;
+  --content-font-family: Arial, sans-serif;
+  --gap-between-buttons: 20px;
+  --button-container-margin: 30px 0 40px;
+  --button-max-width: 300px;
+  --img-opacity: 0.9;
+  --img-hover-opacity: 1;
+  --title-font-size: 1.2rem;
+  --subtitle-font-size: 0.85rem;
+}
+
 /* ------------------------------------------------------------------
-   ESTILO DEL BODY
+   ESTILO GLOBAL DEL BODY
 ------------------------------------------------------------------ */
 body {
-  background-color: #333; 
-  color: #f0f0f0;         
+  background-color: var(--color-fondo);
+  color: var(--color-claro);
   font-family: Arial, sans-serif;
   text-align: center;
-  line-height: 1.6;
+  line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   overflow-x: hidden;
-}
-
-/* Ajustes responsivos para el tamaño de fuente en pantallas pequeñas */
-@media (max-width: 768px) {
-  body {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 480px) {
-  body {
-    font-size: 0.8rem;
-  }
 }
 
 img {
@@ -46,7 +87,7 @@ img {
    HEADER FIJO
 ------------------------------------------------------------------ */
 header {
-  background-color: #333;
+  background-color: var(--color-fondo);
   color: #f4f4f4;
   padding: 0;
   position: fixed;
@@ -61,12 +102,12 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1px 0px; 
+  padding: 1px 0px;
 }
 
-/* Menú Principal */
+/* Menú principal */
 .nav-menu {
-  background-color: #222;
+  background-color: var(--color-fondo-secundario);
   width: 100%;
   list-style: none;
   margin: 0;
@@ -82,30 +123,30 @@ header {
 }
 
 .nav-menu a {
-  color: #f4f4f4;
+  color: var(--color-claro);
   text-decoration: none;
   padding: 8px 15px;
   display: block;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
   position: relative;
   overflow: hidden;
   outline: none;
 }
 
 .nav-menu a:focus {
-  background-color: #555;
-  color: #58a6ff;
+  background-color: var(--color-hover);
+  color: var(--color-destacado);
   transform: scale(1.02);
 }
 
 .nav-menu a:visited {
-  color: #f4f4f4;
+  color: var(--color-claro);
 }
 
 .nav-menu a:hover {
-  background-color: #555;
-  color: #58a6ff;
+  background-color: var(--color-hover);
+  color: var(--color-destacado);
   transform: scale(1.02);
 }
 
@@ -114,7 +155,7 @@ header {
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #58a6ff;
+  background: var(--color-destacado);
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -133,7 +174,7 @@ header {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #3a3a3a;
+  background-color: var(--color-medio);
   list-style: none;
   margin: 0;
   padding: 5px 0;
@@ -149,13 +190,13 @@ header {
 .dropdown-menu a {
   padding: 10px 15px;
   white-space: nowrap;
-  color: #f4f4f4;
+  color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-menu a:hover {
-  background-color: #555;
-  color: #58a6ff;
+  background-color: var(--color-hover);
+  color: var(--color-destacado);
 }
 
 /* Mostrar submenú en escritorio */
@@ -190,7 +231,7 @@ header {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #f4f4f4;
+  background-color: var(--color-claro);
   border-radius: 5px;
 }
 .nav-toggle:hover {
@@ -204,47 +245,14 @@ header {
 }
 
 /* Menú Responsivo */
-@media (max-width: 768px) {
-  .nav-toggle {
-    display: flex;
-    margin-top: 10px;
-  }
-  .nav-menu {
-    display: none; 
-    flex-direction: column;
-    gap: 10px;
-    background-color: #444;
-    width: 100%;
-    position: fixed;
-    top: 106px;
-    left: 0;
-    z-index: 999;
-    padding: 10px;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
-    opacity: 1;
-  }
-  .dropdown-menu {
-    display: none;
-  }
-  .dropdown.active .dropdown-menu {
-    display: block; 
-    position: static;
-  }
-}
-
 .nav-menu.active {
   flex-direction: column;
   align-items: flex-start;
   padding: 13px;
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
 }
-
-/* Evitar scroll cuando el menú está activo */
 body.no-scroll {
   overflow: hidden;
 }
@@ -262,65 +270,13 @@ main {
 }
 
 /* ------------------------------------------------------------------
-   VARIABLES
------------------------------------------------------------------- */
-:root {
-  /* Tipografías base */
-  --titulo-font: 'Arial', sans-serif;
-  --subtitulo-font: 'Arial', sans-serif;
-  --parrafo-font: 'Georgia', serif;
-
-  /* Colores base */
-  --titulo-color: #58a6ff;
-  --subtitulo-color: #aaaaaa;
-  --parrafo-color: #f4f4f4;
-
-  /* Tamaños tipográficos */
-  --titulo-size: 2.1rem;
-  --subtitulo-size: 1.6rem;
-  --parrafo-size: 0.9rem;
-
-  /* Espaciados y line-height */
-  --spacing-tight: 0.05em;
-  --line-height: 1.6;
-  --content-max-width: 66.6%;
-  --margin-bottom-large: 1.5rem;
-  --margin-bottom-medium: 0.8rem;
-  --margin-bottom-small: 1rem;
-
-  /* Botones fancy */
-  --button-bg-color: #3a3a3a;
-  --button-hover-bg-color: #444444;
-  --button-border-radius: 15px;
-  --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
-  --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
-  --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
-  --button-transition: transform 0.2s, box-shadow 0.3s ease;
-
-  /* Contenido de botones */
-  --content-title-color: #f89900; 
-  --content-subtitle-color: #aaaaaa;
-  --content-subtitle-bg: #333;
-  --content-subtitle-hover-bg: #555;
-  --content-subtitle-padding: 8px 10px;
-  --content-font-family: Arial, sans-serif;
-  --gap-between-buttons: 20px;
-  --button-container-margin: 30px 0 40px;
-  --button-max-width: 300px;
-  --img-opacity: 0.9;
-  --img-hover-opacity: 1;
-  --title-font-size: 1.2rem;
-  --subtitle-font-size: 0.85rem;
-}
-
-/* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
 .titulo {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
   font-weight: bold;
-  color: var(--titulo-color);
+  color: var(--color-destacado);
   margin-bottom: var(--margin-bottom-large);
   letter-spacing: var(--spacing-tight);
 }
@@ -329,7 +285,7 @@ main {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
   font-weight: 600;
-  color: var(--subtitulo-color);
+  color: #aaaaaa;
   margin-bottom: var(--margin-bottom-medium);
 }
 
@@ -338,7 +294,7 @@ main {
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
-  color: var(--parrafo-color);
+  color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
 }
 
@@ -365,12 +321,10 @@ main {
   max-width: var(--button-max-width);
   height: auto;
 }
-
 .fancy-button:focus {
   box-shadow: var(--button-focus-shadow);
   transform: translateY(-5px);
 }
-
 .fancy-button:hover {
   transform: translateY(-5px);
   box-shadow: var(--button-hover-shadow);
@@ -398,32 +352,30 @@ main {
 .fancy-button:hover .button-content img {
   opacity: var(--img-hover-opacity);
 }
-
 .button-content .title {
   font-size: var(--title-font-size);
   font-weight: bold;
   color: var(--content-title-color);
   margin-bottom: 5px;
 }
-
 .button-content .subtitle {
   background: var(--content-subtitle-bg);
   padding: var(--content-subtitle-padding);
   border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
   font-size: var(--subtitle-font-size);
-color: var(--content-subtitle-color);
+  color: var(--content-subtitle-color);
   margin: 0;
   width: 100%;
   position: relative;
   z-index: 1;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
+
 /* ------------------------------------------------------------------
-   ESTILO PARA LA LÍNEA DE TIEMPO
+   LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
 .timeline-container {
   display: flex;
@@ -436,7 +388,7 @@ color: var(--content-subtitle-color);
 }
 
 .timeline {
-  border-left: 3px solid #f89900;
+  border-left: 3px solid var(--content-title-color);
   position: relative;
   width: 100%;
   padding-left: 20px;
@@ -455,8 +407,8 @@ color: var(--content-subtitle-color);
   position: absolute;
   left: -60px;
   top: 0;
-  background-color: #333;
-  color: #f0f0f0;
+  background-color: var(--color-fondo);
+  color: var(--color-claro);
   font-family: var(--titulo-font);
   font-size: 1.2rem;
   font-weight: bold;
@@ -485,62 +437,44 @@ color: var(--content-subtitle-color);
 }
 
 .text-container {
-  background-color: #444;
-  color: #f0f0f0;
+  background-color: var(--color-medio-oscuro);
+  color: var(--color-claro);
   border-radius: 8px;
   padding: 15px;
   margin-top: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
 .text-container .title {
   font-size: 1.5rem;
   font-family: var(--titulo-font);
-  color: var(--titulo-color);
+  color: var(--color-destacado);
   margin-bottom: 10px;
 }
-
 .text-container .subtitle {
   font-size: 1.2rem;
   font-family: var(--subtitulo-font);
-  color: var(--subtitulo-color);
+  color: #aaaaaa;
   margin-bottom: 8px;
 }
-
 .text-container .paragraph {
   font-size: 1rem;
   font-family: var(--parrafo-font);
   line-height: var(--line-height);
-  color: var(--parrafo-color);
-}
-
-@media (max-width: 768px) {
-  .year::before {
-    left: -50px;
-    font-size: 1rem;
-  }
-
-  .fun-button {
-    font-size: 0.9rem;
-    padding: 8px 15px;
-  }
-
-  .text-container {
-    padding: 10px;
-  }
+  color: var(--color-claro);
 }
 
 /* ------------------------------------------------------------------
    FOOTER
 ------------------------------------------------------------------ */
 footer {
-  background-color: #444;
+  background-color: var(--color-medio-oscuro);
   color: #cecece;
   margin-top: 40px;
   padding: 20px;
-  text-align: center; 
+  text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
+
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -563,7 +497,7 @@ footer {
   gap: 15px;
 }
 .footer-links a {
-  color: #58a6ff;
+  color: var(--color-destacado);
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s ease;
@@ -586,27 +520,27 @@ footer {
 }
 
 /* ------------------------------------------------------------------
-   CONTENEDOR GENERAL DEL DIAGRAMA (MERMAID)
+   CONTENEDOR DEL DIAGRAMA (MERMAID)
 ------------------------------------------------------------------ */
 .diagram-container {
   text-align: center;
   margin: 50px auto;
-   margin-bottom: 60px auto;  
+  margin-bottom: 60px;
   padding: 20px;
   max-width: 1000px;
-  background-color: var(--diagram-bg, #333);
-  border: 1px solid var(--diagram-border-color, #f4f4f4);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-claro);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   overflow: auto;
   font-family: var(--parrafo-font);
-  color: var(--parrafo-color);
+  color: var(--color-claro);
 }
+
 .diagram-container + .diagram-container {
   margin-top: 30px;
 }
 
-/* MERMAID - Estilos básicos y responsivos */
 .mermaid {
   display: block;
   width: 100%;
@@ -615,7 +549,7 @@ footer {
   margin: 2em 0;
   clear: both;
   font-family: var(--parrafo-font);
-  color: var(--parrafo-color);
+  color: var(--color-claro);
 }
 .mermaid svg {
   display: block;
@@ -624,44 +558,38 @@ footer {
   height: auto !important;
 }
 
-/* TÍTULO DENTRO DEL DIAGRAMA */
 .diagram-title h2 {
-  /* Estilos de .titulo */
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
   font-weight: bold;
-  color: var(--titulo-color);
+  color: var(--color-destacado);
   letter-spacing: var(--spacing-tight);
   margin-bottom: var(--margin-bottom-large);
-  text-align: center; /* si quieres centrar, por ejemplo */
+  text-align: center;
 }
 
 .diagram-subtitle h3 {
-  /* Estilos de .subtitulo */
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
   font-weight: 600;
-  color: var(--subtitulo-color);
+  color: #aaaaaa;
   margin-bottom: var(--margin-bottom-medium);
 }
 
 .diagram-content p {
-  /* Estilos de .parrafo */
   font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
-  color: var(--parrafo-color);
+  color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
 }
 
-
-/* ENLACES DENTRO DE MERMAID */
 .mermaid a {
   text-decoration: none;
   font-family: var(--subtitulo-font);
   font-weight: 600;
-  color: var(--subtitulo-color);
+  color: #aaaaaa;
 }
 .mermaid a:hover {
   text-decoration: underline;
@@ -675,8 +603,8 @@ form {
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #3a3a3a;
-  border: 1px solid #444;
+  background-color: var(--color-medio);
+  border: 1px solid var(--color-medio-oscuro);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -702,7 +630,7 @@ form button {
 }
 form input:focus,
 form textarea:focus {
-  border-color: #58a6ff;
+  border-color: var(--color-destacado);
   box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
   outline: none;
 }
@@ -711,7 +639,7 @@ form textarea {
   min-height: 100px;
 }
 form button {
-  background-color: #58a6ff;
+  background-color: var(--color-destacado);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -727,25 +655,72 @@ form button:hover {
 }
 
 /* ------------------------------------------------------------------
-   MEDIA QUERIES
+   CONTENEDOR FLEXIBLE
 ------------------------------------------------------------------ */
-@media (max-width: 1200px) {
-  .text-container {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+.item {
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------
+   MEDIA QUERIES UNIFICADAS
+------------------------------------------------------------------ */
+
+/* <= 768px */
+@media (max-width: 768px) {
+  body {
     font-size: 1.2rem;
-    padding: 15px;
   }
-}
-
-@media (max-width: 1024px) {
-  .navbar {
+  .nav-toggle {
+    display: flex;
+    margin-top: 10px;
+  }
+  .nav-menu {
+    display: none;
     flex-direction: column;
-    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--color-medio-oscuro);
+    width: 100%;
+    position: fixed;
+    top: 106px;
+    left: 0;
+    z-index: 999;
+    padding: 10px;
+    transform: translateY(-100%);
+    opacity: 0;
   }
-  .fancy-button {
-    width: 40%;
+  .dropdown-menu {
+    display: none;
+  }
+  .dropdown.active .dropdown-menu {
+    display: block;
+    position: static;
+  }
+  .year::before {
+    left: -50px;
+    font-size: 1rem;
+  }
+  .fun-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  .text-container {
+    padding: 10px;
+  }
+  .item {
+    flex: 1 1 calc(50% - 20px);
   }
 }
 
+/* <= 600px */
 @media (max-width: 600px) {
   .nav-menu {
     flex-direction: column;
@@ -756,31 +731,31 @@ form button:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .fancy-button {
-    width: 45%;
-    max-width: 400px;
-    transition: width 0.3s ease;
+/* <= 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.8rem;
+  }
+  header {
+    padding: 5px 10px;
+    font-size: 1rem;
   }
   .text-container {
-    padding: 20px;
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    width: 100%;
   }
   .button-container {
-    gap: 20px;
+    gap: 10px;
   }
-}
-
-@media (min-width: 1024px) {
   .fancy-button {
-    width: 30%;
-    max-width: 350px;
-    transition: width 0.3s ease, transform 0.2s ease-in-out;
-  }
-  .text-container {
-    padding: 30px;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
   }
 }
 
+/* <= 767px (en algunos casos se usaba 767, unificamos lógica con 768 si aplica) */
 @media (max-width: 767px) {
   .text-container {
     padding: 10px;
@@ -799,48 +774,48 @@ form button:hover {
   }
 }
 
-@media (max-width: 480px) {
-  .text-container {
-    padding: 10px 5px;
-    font-size: 0.8rem;
-    width: 100%;
-  }
-  .button-container {
-    gap: 10px;
+/* <= 1024px */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .fancy-button {
-    width: 100%;
-    max-width: 250px;
-    padding: 10px 15px;
-  }
-  header {
-    padding: 5px 10px;
-    font-size: 1rem;
+    width: 40%;
   }
 }
 
-/* ------------------------------------------------------------------
-   CONTENEDOR FLEXIBLE
------------------------------------------------------------------- */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  max-width: 100%;
-  overflow: hidden;
-}
-.item {
-  flex: 1 1 calc(33.33% - 20px);
-  box-sizing: border-box;
-}
-@media (max-width: 768px) {
-  .item {
-    flex: 1 1 calc(50% - 20px);
+/* <= 1200px */
+@media (max-width: 1200px) {
+  .text-container {
+    font-size: 1.2rem;
+    padding: 15px;
   }
 }
-@media (max-width: 480px) {
-  .item {
-    flex: 1 1 100%;
+
+/* Entre 768px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fancy-button {
+    width: 45%;
+    max-width: 400px;
+    transition: width 0.3s ease;
+  }
+  .text-container {
+    padding: 20px;
+  }
+  .button-container {
+    gap: 20px;
+  }
+}
+
+/* >= 1024px */
+@media (min-width: 1024px) {
+  .fancy-button {
+    width: 30%;
+    max-width: 350px;
+    transition: width 0.3s ease, transform 0.2s ease-in-out;
+  }
+  .text-container {
+    padding: 30px;
   }
 }
