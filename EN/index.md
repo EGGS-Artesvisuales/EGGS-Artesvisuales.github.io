@@ -5,12 +5,10 @@ description: "Welcome to EGGS-Studio, exploring the art world."
 permalink: /EN/index.html
 ---
 
-<div class="text-container">
   <div class="titulo">Welcome to EGGS-Studio</div>
 
   <div class="subtitulo">Integrated Visual Arts: Discover ideas, works, and projects.</div>
 
-  <div class="text-container">
     <p class="parrafo">
       I invite you to explore this site, where I share the breadth of my artistic activities, from intimate projects to large-scale works. My approach to art is universal, 
       a fertile space where interests, knowledge, and experiences converge.
@@ -24,7 +22,7 @@ permalink: /EN/index.html
       serves as a tool to present my work in a clear and organized manner.
     </p>
   </div>
-</div>
+
 
 <div class="subtitulo">General Categories of My Artistic Practice</div>
 
