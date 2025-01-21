@@ -277,7 +277,7 @@ main {
 
   /* Tamaños tipográficos */
   --titulo-size: 2.1rem;
-  --subtitulo-size: 1.8rem;
+  --subtitulo-size: 1.6rem;
   --parrafo-size: 0.9rem;
 
   /* Espaciados y line-height */
@@ -299,6 +299,7 @@ main {
 
   /* Contenido de botones */
   --content-title-color: #f89900; 
+  --content-subtitle-color: #555;
   --content-subtitle-bg: #333;
   --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
@@ -410,6 +411,7 @@ main {
   padding: var(--content-subtitle-padding);
   border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
   font-size: var(--subtitle-font-size);
+color: var(--content-subtitle-color);
   margin: 0;
   width: 100%;
   position: relative;
