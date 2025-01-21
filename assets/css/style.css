@@ -422,6 +422,113 @@ color: var(--content-subtitle-color);
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
+/* ------------------------------------------------------------------
+   ESTILO PARA LA LÍNEA DE TIEMPO
+------------------------------------------------------------------ */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.timeline {
+  border-left: 3px solid #58a6ff;
+  position: relative;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.year {
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.year::before {
+  content: attr(data-year);
+  position: absolute;
+  left: -60px;
+  top: 0;
+  background-color: #333;
+  color: #f0f0f0;
+  font-family: var(--titulo-font);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fun-button {
+  background-color: var(--button-bg-color);
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: var(--content-font-family);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.fun-button:hover {
+  background-color: var(--button-hover-bg-color);
+  transform: scale(1.05);
+}
+
+.text-container {
+  background-color: #444;
+  color: #f0f0f0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.text-container .title {
+  font-size: 1.5rem;
+  font-family: var(--titulo-font);
+  color: var(--titulo-color);
+  margin-bottom: 10px;
+}
+
+.text-container .subtitle {
+  font-size: 1.2rem;
+  font-family: var(--subtitulo-font);
+  color: var(--subtitulo-color);
+  margin-bottom: 8px;
+}
+
+.text-container .paragraph {
+  font-size: 1rem;
+  font-family: var(--parrafo-font);
+  line-height: var(--line-height);
+  color: var(--parrafo-color);
+}
+
+@media (max-width: 768px) {
+  .year::before {
+    left: -50px;
+    font-size: 1rem;
+  }
+
+  .fun-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .text-container {
+    padding: 10px;
+  }
+}
 
 /* ------------------------------------------------------------------
    FOOTER
