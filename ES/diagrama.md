@@ -9,11 +9,18 @@ breadcrumbs: >
 ---
 
 <div class="content">
-  <h1>Diagrama de Obra</h1>
-  <p>
-    Un mapa visual de las ideas, conceptos y obras artísticas que estructuran nuestro enfoque,
-    dividido en tres secciones para mayor claridad.
-  </p>
+  <div class="text-container">
+    <div class="titulo">Diagrama de trabajo</div>
+    <div class="subtitulo">una red visual de conceptos</div>
+    <div class="text-container">
+      <p class="parrafo">
+        Un mapa visual de las ideas, conceptos y obras artísticas que estructuran nuestro enfoque,
+        dividido en tres secciones para mayor claridad.
+      </p>
+    </div>
+  </div>
+</div>
+
 
   <!-- 1) Representación del Mundo -->
   <h2>Representación del Mundo</h2>
