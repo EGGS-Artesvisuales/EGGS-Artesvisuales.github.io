@@ -5,12 +5,11 @@ description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
 ---
 
-<div class="text-container">
   <div class="titulo">Bienvenid@ a EGGS-Studio</div>
 
   <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 
-  <div class="text-container">
+  
     <p class="parrafo">
       Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
       un territorio donde convergen intereses, saberes y experiencias.
@@ -23,8 +22,7 @@ permalink: /ES/index.html
       Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
       también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
     </p>
-  </div>
-</div>
+ 
 
 <div class="subtitulo">Categorías generales de mi práctica artística</div>
 
