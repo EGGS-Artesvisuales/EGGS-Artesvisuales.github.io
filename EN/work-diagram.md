@@ -1,7 +1,7 @@
 ---
 layout: default-en
 title: Diagram of Work
-permalink: /EN/diagram.html
+permalink: /EN/work-diagram.html
 mermaid: true
 breadcrumbs: >
   <a href="/EN/index.html">Home</a> >
