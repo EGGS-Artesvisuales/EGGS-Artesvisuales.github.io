@@ -516,6 +516,35 @@ footer {
 }
 
 /* ------------------------------------------------------------------
+   BASE DE ESTILOS TIPOGRÁFICOS (MATRIZ)
+------------------------------------------------------------------ */
+.titulo {
+    font-family: var(--titulo-font);
+    font-size: var(--titulo-size);
+    font-weight: bold;
+    color: var(--titulo-color);
+    margin-bottom: var(--margin-bottom-large);
+    letter-spacing: var(--spacing-tight);
+}
+
+.subtitulo {
+    font-family: var(--subtitulo-font);
+    font-size: var(--subtitulo-size);
+    font-weight: 600;
+    color: var(--subtitulo-color);
+    margin-bottom: var(--margin-bottom-medium);
+}
+
+.parrafo {
+    font-family: var(--parrafo-font);
+    max-width: var(--content-max-width);
+    font-size: var(--parrafo-size);
+    line-height: var(--line-height);
+    color: var(--parrafo-color);
+    margin-bottom: var(--margin-bottom-small);
+}
+
+/* ------------------------------------------------------------------
    CONTENEDOR GENERAL DEL DIAGRAMA (MERMAID)
 ------------------------------------------------------------------ */
 .diagram-container {
@@ -523,11 +552,17 @@ footer {
     margin: 50px auto;
     padding: 20px;
     max-width: 1000px;
-    background-color: #333;
-    border: 1px solid #f4f4f4;
+    
+    /* Puedes vincular colores con variables si lo deseas: */
+    background-color: var(--diagram-bg, #333); /* fallback: #333 */
+    border: 1px solid var(--diagram-border-color, #f4f4f4);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     overflow: auto; /* Permite desplazamiento en caso de nodos grandes */
+
+    /* Integramos la tipografía y color base */
+    font-family: var(--parrafo-font);
+    color: var(--parrafo-color);
 }
 
 .diagram-container + .diagram-container {
@@ -544,6 +579,11 @@ footer {
     overflow-x: auto;
     margin: 2em 0;
     clear: both;
+
+    /* Se sugiere mantener la tipografía de párrafo,
+       pero puedes ajustarla según tu estilo */
+    font-family: var(--parrafo-font);
+    color: var(--parrafo-color);
 }
 
 .mermaid svg {
@@ -553,20 +593,36 @@ footer {
     height: auto !important;
 }
 
+/* ------------------------------------------------------------------
+   TÍTULO DENTRO DEL DIAGRAMA
+------------------------------------------------------------------ */
 .diagram-title h2 {
-    font-size: 1.8rem;
-    margin: 20px 0;
+    /* Ajustar según tus variables para títulos */
+    font-family: var(--titulo-font);
+    font-size: var(--titulo-size);
+    font-weight: bold;
+    color: var(--titulo-color);
+    
     text-align: center;
+    margin-bottom: var(--margin-bottom-large);
+    letter-spacing: var(--spacing-tight);
 }
 
+/* ------------------------------------------------------------------
+   ENLACES DENTRO DE MERMAID
+------------------------------------------------------------------ */
 .mermaid a {
     text-decoration: none;
-    font-weight: bold;
+    /* Puedes usar la fuente de subtítulo o la que prefieras */
+    font-family: var(--subtitulo-font);
+    font-weight: 600;
+    color: var(--subtitulo-color);
 }
 
 .mermaid a:hover {
     text-decoration: underline;
 }
+
 
 /* ------------------------------------------------------------------
    FORMULARIOS
