@@ -137,4 +137,3 @@ breadcrumbs: >
       click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
       click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
   </div>
-</div>
