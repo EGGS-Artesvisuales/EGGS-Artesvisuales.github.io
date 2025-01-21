@@ -14,7 +14,7 @@ breadcrumbs: >
 
   <!-- Párrafo 1 -->
   <p class="parrafo">
-    He tenido la oportunidad de enseñar desde apenas obtener mi titulcion en la universidad de chile. aunque comence muy joven siempre por mi pasion que en si misma mas mi rigor me fui enfrebtado a la enseñanza de mis artes, que a su vez soy eterno aprendiz. cada taller me ha dejado profundas enseñanzas y exerpeincias que se van umando a mi arte y mi forma de ver el arte y el mundo 
+   Desde que obtuve mi titulación en la Universidad de Chile, he tenido la oportunidad de enseñar, iniciando esta labor desde muy joven. Mi pasión por el arte, junto con el rigor que aplico en mi trabajo, me llevó a enfrentar los desafíos de compartir mis conocimientos. Considero que la enseñanza es un proceso continuo en el que, como instructor, también soy un aprendiz eterno. Cada taller ha sido una experiencia invaluable, dejándome profundas enseñanzas que enriquecen tanto mi arte como mi manera de entender el mundo y la visión que tengo sobre el arte.
   </p>
 
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
