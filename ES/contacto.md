@@ -6,7 +6,7 @@ breadcrumbs: >
   <a href="/ES/index.html">Inicio</a> >
   <span>Contacto</span>
 ---
-<div class="text-container">
+
   <!-- Título principal, usando la clase 'titulo' -->
   <div class="titulo">Contacto</div>
 
@@ -15,7 +15,7 @@ breadcrumbs: >
     Ponte en contacto para consultas, colaboraciones o cualquier pregunta. 
     Completa el formulario a continuación:
   </p>
-</div>
+
 
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
