@@ -4,25 +4,27 @@ title: Home
 description: "Welcome to EGGS-Studio, exploring the art world."
 permalink: /EN/index.html
 ---
+<div class="titulo">Welcome to EGGS-Studio</div>
 
-  <div class="titulo">Welcome to EGGS-Studio</div>
+<div class="subtitulo">Integrated Visual Arts: Discover ideas, works, and projects.</div>
 
-  <div class="subtitulo">Integrated Visual Arts: Discover ideas, works, and projects.</div>
+<!-- Paragraph 1 -->
+<p class="parrafo">
+  I invite you to explore this site, where I share the breadth of my artistic activities, from intimate projects to large-scale works. My approach to art is universal, 
+  a fertile space where interests, knowledge, and experiences converge.
+</p>
 
-    <p class="parrafo">
-      I invite you to explore this site, where I share the breadth of my artistic activities, from intimate projects to large-scale works. My approach to art is universal, 
-      a fertile space where interests, knowledge, and experiences converge.
-    </p>
-    <p class="parrafo">
-      Throughout my career, I have tackled multiple disciplines and areas. This journey led me to create a rhizomatic scheme that classifies the 
-      entirety of my work, leaving no cultural activities I have undertaken unrepresented.
-    </p>
-    <p class="parrafo">
-      This scheme not only helps me understand and project my own creative nature but also 
-      serves as a tool to present my work in a clear and organized manner.
-    </p>
-  </div>
+<!-- Paragraph 2 -->
+<p class="parrafo">
+  Throughout my career, I have tackled multiple disciplines and areas. This journey led me to create a rhizomatic scheme that classifies the 
+  entirety of my work, leaving no cultural activities I have undertaken unrepresented.
+</p>
 
+<!-- Paragraph 3 -->
+<p class="parrafo">
+  This scheme not only helps me understand and project my own creative nature but also 
+  serves as a tool to present my work in a clear and organized manner.
+</p>
 
 <div class="subtitulo">General Categories of My Artistic Practice</div>
 
