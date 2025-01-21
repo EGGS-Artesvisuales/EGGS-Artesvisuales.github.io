@@ -9,21 +9,18 @@ breadcrumbs: >
 
 <div class="titulo">Representación del Mundo</div>
 
-<div class="text-container">
-    <p>
-        Este grupo reúne obras que reflejan mi interpretación visual y conceptual del entorno que me rodea. 
-        Desde representaciones literales hasta aproximaciones más subjetivas, cada pieza es un testimonio de mi época y una reflexión artística y personal sobre nuestra sociedad y su experiencia. 
-        Estas obras buscan documentar y retratar la esencia de los tiempos en los que vivo, abordando la representación del mundo con una estrategia enfocada en capturar los rasgos distintivos de lo contemporáneo. 
-        Mi objetivo es lograr un retrato fiel de mi época, llegando a la esencia de lo contingente, similar al enfoque de los pintores modernos descritos por Baudelaire.
-    </p>
-</div>
+<p class="parrafo">
+    Este grupo reúne obras que reflejan mi interpretación visual y conceptual del entorno que me rodea. 
+    Desde representaciones literales hasta aproximaciones más subjetivas, cada pieza es un testimonio de mi época y una reflexión artística y personal sobre nuestra sociedad y su experiencia. 
+    Estas obras buscan documentar y retratar la esencia de los tiempos en los que vivo, abordando la representación del mundo con una estrategia enfocada en capturar los rasgos distintivos de lo contemporáneo. 
+    Mi objetivo es lograr un retrato fiel de mi época, llegando a la esencia de lo contingente, similar al enfoque de los pintores modernos descritos por Baudelaire.
+</p>
 
 <div class="subtitulo">Representación del mundo tangible</div>
-<div class="text-container">
-    <p>
-        Obras que exploran aspectos físicos y materiales del entorno, aspectos característicos del paisaje local, objetos y escenas cotidianas.
-    </p>
-</div>
+
+<p class="parrafo">
+    Obras que exploran aspectos físicos y materiales del entorno, aspectos característicos del paisaje local, objetos y escenas cotidianas.
+</p>
 
 <div class="button-container">
     <a href="/saturacion.html" class="fancy-button">
@@ -41,11 +38,10 @@ breadcrumbs: >
 </div>
 
 <div class="subtitulo">Representación de lo intangible</div>
-<div class="text-container">
-    <p>
-        Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
-    </p>
-</div>
+
+<p class="parrafo">
+    Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
+</p>
 
 <div class="button-container">
     <a href="/capitalismo.html" class="fancy-button">
@@ -67,3 +63,4 @@ breadcrumbs: >
         </div>
     </a>
 </div>
+
