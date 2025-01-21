@@ -8,14 +8,12 @@ breadcrumbs: >
   <span>Diagrama de Obra</span>
 ---
 
+<div class="titulo">Diagrama de Obra</div>
+<p class="parrafo">
+  Un mapa visual de las ideas, conceptos y obras artísticas que estructuran mi enfoque,
+  dividido en tres secciones.
+</p>
 
-    <div class="titulo">Diagrama de trabajo</div>
-      <div class="text-container">
-      <p class="parrafo">
-        Un mapa visual de las ideas, conceptos y obras artísticas que estructuran nuestro enfoque,
-        dividido en tres secciones para mayor claridad.
-      </p>
-  
 
 
   <!-- 1) Representación del Mundo -->
