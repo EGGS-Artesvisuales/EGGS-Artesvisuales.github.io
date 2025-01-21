@@ -8,7 +8,7 @@ breadcrumbs: >
   <span>Docencia</span>
 ---
 
-<div class="text-container">
+
   <!-- Título principal -->
   <div class="titulo">Docencia</div>
 
@@ -16,9 +16,6 @@ breadcrumbs: >
   <p class="parrafo">
     He tenido la oportunidad de enseñar desde apenas obtener mi titulcion en la universidad de chile. aunque comence muy joven siempre por mi pasion que en si misma mas mi rigor me fui enfrebtado a la enseñanza de mis artes, que a su vez soy eterno aprendiz. cada taller me ha dejado profundas enseñanzas y exerpeincias que se van umando a mi arte y mi forma de ver el arte y el mundo 
   </p>
-
-  
-</div>
 
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
 <div class="subtitulo">Linea de tiempo:</div>
