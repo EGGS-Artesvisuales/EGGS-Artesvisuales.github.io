@@ -8,7 +8,7 @@ breadcrumbs: >
   <span>Lo Comunitario</span>
 ---
 
-<div class="text-container">
+
   <!-- Título principal -->
   <div class="titulo">Lo Comunitario</div>
 
@@ -17,7 +17,7 @@ breadcrumbs: >
     Proyectos colaborativos que unen comunidades a través del arte. En esta sección
     destacamos el trabajo conjunto, promoviendo la inclusión y el fortalecimiento social.
   </p>
-</div>
+
 
 <!-- Subtítulo para las categorías/actividades -->
 <div class="subtitulo">Actividades:</div>
