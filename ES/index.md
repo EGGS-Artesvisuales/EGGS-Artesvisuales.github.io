@@ -4,24 +4,25 @@ title: Inicio
 description: "Bienvenido a EGGS-Studio, explorando el arte."
 permalink: /ES/index.html
 ---
+<div class="titulo">Bienvenid@ a EGGS-Studio</div>
 
-  <div class="titulo">Bienvenid@ a EGGS-Studio</div>
+<div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 
-  <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
+<div class="text-container">
+  <p class="parrafo">
+    Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
+    un territorio donde convergen intereses, saberes y experiencias.
+  </p>
+  <p class="parrafo">
+    A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
+    totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
+  </p>
+  <p class="parrafo">
+    Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
+    también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
+  </p>
+</div>
 
-  
-    <div class="parrafo">
-      Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
-      un territorio donde convergen intereses, saberes y experiencias.
-    </div>
-    <div class="parrafo">
-      A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
-      totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
-    </div>
-    <div class="parrafo">
-      Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
-      también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
-    </div>
  
 
 <div class="subtitulo">Categorías generales de mi práctica artística</div>
