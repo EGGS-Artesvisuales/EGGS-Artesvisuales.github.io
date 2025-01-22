@@ -7,7 +7,9 @@ permalink: /ES/index.html
 <div class="titulo">Bienvenid@ a EGGS-Studio</div>
 
 <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
-
+<br>
+<br>
+<br>
  <!-- Párrafo 1 -->
   <p class="parrafo">
    
@@ -24,6 +26,7 @@ permalink: /ES/index.html
    <!-- Párrafo 3-->
   <p class="parrafo">Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
     también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.</p> 
+    <br>
 
 <div class="subtitulo">Categorías generales de mi práctica artística</div>
 
