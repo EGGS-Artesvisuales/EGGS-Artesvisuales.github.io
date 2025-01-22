@@ -10,7 +10,9 @@ breadcrumbs: >
 
   <!-- Título principal -->
   <div class="titulo">Acción en el Mundo</div>
-
+<br>
+<br>
+<br>
   <!-- Párrafo 1 -->
   <p class="parrafo">
     En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar 
@@ -25,10 +27,13 @@ breadcrumbs: >
     caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar 
     transformaciones tangibles en el espacio y las personas.
   </p>
-
+<br>
+<br>
 
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
 <div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
+
+<br>
 
 <div class="button-container">
     <a href="/ES/subrepticio.html" class="fancy-button">
@@ -54,6 +59,8 @@ breadcrumbs: >
     </a>
     <a href="/ES/servicios.html" class="fancy-button">
         <div class="button-content">
+
+          <br><br>
             <img src="/assets/images/servicios.jpg" alt="Servicios">
             <p class="title">Servicios</p>
             <p class="subtitle">Restauración, encargos y ambientaciones artísticas.</p>
