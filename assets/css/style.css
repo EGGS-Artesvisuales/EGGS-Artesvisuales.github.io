@@ -70,7 +70,7 @@ body {
   background-color: var(--color-fondo);
   color: var(--color-claro);
   font-family: Arial, sans-serif;
-  text-align: center;
+  text-align: left;
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -100,8 +100,8 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: flex-start; /* En lugar de space-between */
-  align-items: left;
+  justify-content: space-between; /* En lugar de space-between */
+  align-items: center;
   width: 100%;
   padding: 1px 0px;
 }
