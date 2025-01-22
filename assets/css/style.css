@@ -8,14 +8,12 @@
   margin: 0;
   padding: 0;
 }
-
 :root {
-  /* Tipografías */
+  /* Variables definidas previamente */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
   --parrafo-font: 'Georgia', serif;
   
-  /* Colores base */
   --color-fondo: #333;
   --color-fondo-secundario: #222;
   --color-hover: #555;
@@ -23,13 +21,11 @@
   --color-claro: #f4f4f4;
   --color-medio: #3a3a3a;
   --color-medio-oscuro: #444;
-  
-  /* Tamaños tipográficos */
+
   --titulo-size: 2.1rem;
   --subtitulo-size: 1.6rem;
   --parrafo-size: 0.9rem;
 
-  /* Espaciado y line-height */
   --spacing-tight: 0.05em;
   --line-height: 1.6;
   --content-max-width: 66.6%;
@@ -37,7 +33,6 @@
   --margin-bottom-medium: 0.8rem;
   --margin-bottom-small: 1rem;
 
-  /* Botones fancy */
   --button-bg-color: #3a3a3a;
   --button-hover-bg-color: #444;
   --button-border-radius: 15px;
@@ -46,7 +41,6 @@
   --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
   --button-transition: transform 0.2s, box-shadow 0.3s ease;
 
-  /* Contenido en botones */
   --content-title-color: #f89900;
   --content-subtitle-color: #aaaaaa;
   --content-subtitle-bg: #333;
@@ -61,6 +55,76 @@
   --title-font-size: 1.2rem;
   --subtitle-font-size: 0.85rem;
 }
+
+.button-container {
+  display: inline-block;
+  margin: var(--button-container-margin);
+  max-width: var(--button-max-width);
+}
+
+.fancy-button {
+  display: block;
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-shadow);
+  text-decoration: none;
+  overflow: hidden;
+  transition: var(--button-transition);
+}
+
+.fancy-button:hover {
+  background-color: var(--button-hover-bg-color);
+  box-shadow: var(--button-hover-shadow);
+  transform: scale(1.02);
+}
+
+.fancy-button:focus {
+  box-shadow: var(--button-focus-shadow);
+}
+
+.button-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-content img {
+  max-width: 100%;
+  height: auto;
+  opacity: var(--img-opacity);
+  transition: opacity 0.2s ease;
+}
+
+.fancy-button:hover img {
+  opacity: var(--img-hover-opacity);
+}
+
+.button-content .title {
+  font-family: var(--titulo-font);
+  font-size: var(--title-font-size);
+  color: var(--content-title-color);
+  line-height: var(--line-height);
+  white-space: nowrap; /* Evita el desbordamiento de texto */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Muestra '...' si el texto se recorta */
+  margin-bottom: var(--margin-bottom-medium);
+}
+
+.button-content .subtitle {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitle-font-size);
+  color: var(--content-subtitle-color);
+  background-color: var(--content-subtitle-bg);
+  padding: var(--content-subtitle-padding);
+  border-radius: var(--button-border-radius);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fancy-button:hover .subtitle {
+  background-color: var(--content-subtitle-hover-bg);
+}
+
 
 /* ------------------------------------------------------------------
    ESTILO GLOBAL DEL BODY
