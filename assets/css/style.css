@@ -19,7 +19,7 @@
   --color-fondo-secundario: #222;
   --color-hover: #555;
   --color-destacado: #58a6ff;
-  --color-claro: #f4f4f4;
+  --color-claro: #f0f0f0;
   --color-medio: #3a3a3a;
   --color-medio-oscuro: #444;
   
@@ -238,7 +238,7 @@ header {
   display: block;
   width: 33px;
   height: 6px;
-  background-color: var(--color-claro);
+  background-color: var(--color-medio);
   border-radius: 5px;
 }
 .nav-toggle:hover {
