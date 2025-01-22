@@ -27,8 +27,10 @@ permalink: /ES/index.html
   <p class="parrafo">Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
     también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.</p> 
     <br>
+<br>
 
 <div class="subtitulo">Categorías generales de mi práctica artística</div>
+<br>
 
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
