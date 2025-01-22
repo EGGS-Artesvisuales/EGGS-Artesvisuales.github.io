@@ -7,28 +7,34 @@ permalink: /ES/index.html
 <div class="titulo">Bienvenid@ a EGGS-Studio</div>
 
 <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
+<br><br><br>
+<!-- Párrafo 1 -->
+<p class="parrafo">
+  Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
+  un territorio donde convergen intereses, saberes y experiencias.
+</p>
 <br>
+<!-- Párrafo 2 -->
+<p class="parrafo">
+  A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
+  totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
+</p>
 <br>
-<br>
- <!-- Párrafo 1 -->
-  <p class="parrafo">Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
-    un territorio donde convergen intereses, saberes y experiencias.</p>
-  <!-- Párrafo 2 -->
-  <p class="parrafo">A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
-    totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.</p>
-   <!-- Párrafo 3-->
-  <p class="parrafo">Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
-    también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.</p><br>
-    
-    <div class="subtitulo">Categorías generales de mi práctica artística</div>
-<br>
+<!-- Párrafo 3 -->
+<p class="parrafo">
+  Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
+  también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
+</p>
+<br><br>
+<div class="subtitulo">Categorías generales de mi práctica artística</div>
+<br><br>
 
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
-       <p class="title">Representación del Mundo</p>
-       <p class="subtitle">Obras que retratan, reflejan y/o comentan el mundo.</p>
+      <p class="title">Representación del Mundo</p>
+      <p class="subtitle">Obras que retratan, reflejan y/o comentan el mundo.</p>
     </div>
   </a>
 
@@ -49,5 +55,4 @@ permalink: /ES/index.html
   </a>
 </div>
 
-
-   <a href="exhibiciones.html" class="enlace">ver más obras</a>
+<a href="exhibiciones.html" class="enlace">ver más obras</a>
