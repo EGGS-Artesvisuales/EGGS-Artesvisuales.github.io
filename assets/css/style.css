@@ -22,13 +22,13 @@
   --color-medio: #3a3a3a;
   --color-medio-oscuro: #444;
 
-  --titulo-size: 2.1rem;
+  --titulo-size: 2.3rem;
   --subtitulo-size: 1.6rem;
-  --parrafo-size: 0.9rem;
+  --parrafo-size: 1rem;
 
   --spacing-tight: 0.05em;
   --line-height: 1.6;
-  --content-max-width: 66.6%;
+  --content-max-width: 70%;
   --margin-bottom-large: 1.5rem;
   --margin-bottom-medium: 0.8rem;
   --margin-bottom-small: 1rem;
