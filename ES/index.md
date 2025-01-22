@@ -9,7 +9,14 @@ permalink: /ES/index.html
 <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 
  <!-- Párrafo 1 -->
-  <p class="parrafo">Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
+  <p class="parrafo">
+   
+   
+   
+   
+   
+   
+   Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
     un territorio donde convergen intereses, saberes y experiencias.</p>
   <!-- Párrafo 2 -->
   <p class="parrafo">A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
