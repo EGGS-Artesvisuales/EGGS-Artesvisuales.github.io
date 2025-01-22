@@ -9,6 +9,7 @@ breadcrumbs: >
 
   <!-- Título principal, usando la clase 'titulo' -->
   <div class="titulo">Contacto</div>
+  <br><br><br>
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
   <p class="parrafo">
@@ -16,7 +17,7 @@ breadcrumbs: >
     Completa el formulario a continuación:
   </p>
 
-
+<br><br>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
@@ -40,3 +41,4 @@ breadcrumbs: >
   <!-- _captcha: Desactiva la verificación -->
   <input type="hidden" name="_captcha" value="false">
 </form>
+<br><br><br>
