@@ -239,7 +239,7 @@ header {
   display: block;
   width: 33px;
   height: 6px;
-  background-color: var(--color-medio);
+  background-color: var(--color-medio-claro);
   border-radius: 5px;
 }
 .nav-toggle:hover {
