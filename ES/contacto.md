@@ -9,7 +9,7 @@ breadcrumbs: >
 
   <!-- Título principal, usando la clase 'titulo' -->
   <div class="titulo">Contacto</div>
-  <br><br><br>
+
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
   <div class="subtitulo">
