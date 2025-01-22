@@ -12,10 +12,10 @@ breadcrumbs: >
   <br><br><br>
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
-  <p class="parrafo">
+  <div class="subtitulo">
     Ponte en contacto para consultas, colaboraciones o cualquier pregunta. 
     Completa el formulario a continuación:
-  </p>
+  </div>
 
 <br><br>
 <form class="contact-form" 
