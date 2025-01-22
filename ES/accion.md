@@ -59,11 +59,10 @@ breadcrumbs: >
     </a>
     <a href="/ES/servicios.html" class="fancy-button">
         <div class="button-content">
-
-          <br><br>
             <img src="/assets/images/servicios.jpg" alt="Servicios">
             <p class="title">Servicios</p>
             <p class="subtitle">Restauración, encargos y ambientaciones artísticas.</p>
         </div>
     </a>
 </div>
+<br><br>
