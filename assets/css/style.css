@@ -227,6 +227,7 @@ header {
 .nav-toggle {
   display: none;
   margin-top: 20px;
+  margin-left: 20px;
   cursor: pointer;
   flex-direction: column;
   gap: 5px;
