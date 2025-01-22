@@ -100,8 +100,8 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between; /* En lugar de space-between */
-  align-items: center;
+  justify-content: flex-start; /* En lugar de space-between */
+  align-items: left;
   width: 100%;
   padding: 1px 0px;
 }
@@ -188,11 +188,14 @@ header {
 
 .dropdown-menu li {
   width: 180px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .dropdown-menu a {
   padding: 10px 15px;
-  white-space: nowrap;
+  white-space: normal;
   color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -272,6 +275,7 @@ main {
   padding-right: 20px;
   text-align: justify;
 }
+
 
 /* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
