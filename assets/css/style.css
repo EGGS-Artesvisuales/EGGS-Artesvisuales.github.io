@@ -28,7 +28,7 @@
 
   --spacing-tight: 0.05em;
   --line-height: 1.6;
-  --content-max-width: 70%;
+  --content-max-width: 100%;
   --margin-bottom-large: 1.5rem;
   --margin-bottom-medium: 0.8rem;
   --margin-bottom-small: 1rem;
@@ -49,6 +49,7 @@
   --content-font-family: Arial, sans-serif;
   --gap-between-buttons: 20px;
   --button-container-margin: 30px 0 40px;
+    --button-container-max-width: 100% auto;
   --button-max-width: 300px;
   --img-opacity: 0.9;
   --img-hover-opacity: 1;
