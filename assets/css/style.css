@@ -55,6 +55,7 @@
   --gap-between-buttons: 20px;
   --button-container-margin: 30px 0 40px;
   --button-max-width: 300px;
+  --button-min-width: 200px;
   --img-opacity: 0.9;
   --img-hover-opacity: 1;
   --title-font-size: 1.2rem;
@@ -279,6 +280,7 @@ main {
   color: var(--color-destacado);
   margin-bottom: var(--margin-bottom-large);
   letter-spacing: var(--spacing-tight);
+  word-wrap: break-word;
 }
 
 .subtitulo {
@@ -287,6 +289,7 @@ main {
   font-weight: 600;
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-medium);
+  word-wrap: break-word;
 }
 
 .parrafo {
@@ -319,6 +322,7 @@ main {
   text-align: center;
   width: 100%;
   max-width: var(--button-max-width);
+  min-width: var(--button-min-width);
   height: auto;
 }
 .fancy-button:focus {
@@ -341,6 +345,7 @@ main {
   font-family: var(--content-font-family);
   text-align: center;
   overflow: hidden;
+  word-wrap: break-word;
 }
 .button-content img {
   width: 100%;
@@ -357,6 +362,7 @@ main {
   font-weight: bold;
   color: var(--content-title-color);
   margin-bottom: 5px;
+  word-wrap: break-word;
 }
 .button-content .subtitle {
   background: var(--content-subtitle-bg);
@@ -369,11 +375,11 @@ main {
   position: relative;
   z-index: 1;
   transition: background-color 0.3s ease, color 0.3s ease;
+  word-wrap: break-word;
 }
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
-
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
