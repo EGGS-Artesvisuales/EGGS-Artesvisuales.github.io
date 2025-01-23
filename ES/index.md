@@ -10,8 +10,7 @@ permalink: /ES/index.html
 <br><br><br>
 <!-- Párrafo 1 -->
 <p class="parrafo">
-  &nbsp;&nbsp;Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, 
-  un territorio donde convergen intereses, saberes y experiencias.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, un territorio donde convergen intereses, saberes y experiencias.
 </p>
 <br>
 <!-- Párrafo 2 -->
