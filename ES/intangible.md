@@ -62,11 +62,4 @@ breadcrumbs: >
 <br>
 <br>
 
-<!-- Párrafo final -->
-<p class="parrafo">
-    De esta manera, estas categorías buscan articular lo intangible de mi realidad desde distintas 
-    perspectivas, permitiendo que el arte actúe como un puente entre lo personal y lo universal, 
-    lo efímero y lo atemporal.
-</p>
-<br>
-<br>
+
