@@ -16,36 +16,57 @@ breadcrumbs: >
 
 <!-- Párrafo introductorio -->
 <p class="parrafo">
-    En el tema de la representación del mundo, distinguimos claramente entre dos dimensiones: la tangible, 
-    manifestada físicamente y presente sensorialmente, y la intangible. En esta página exploramos los 
-    aspectos intangibles que inspiran nuestras obras. Emociones, conceptos abstractos y lo inmaterial cobran 
-    vida a través del arte, conectando ideas con la experiencia humana.
+    En el vasto campo de la representación del mundo, emergen dos dimensiones claramente definidas: 
+    la representación de lo tangible, aquello que se manifiesta de manera física y se percibe a través 
+    de los sentidos, y la representación de lo intangible, compuesta por ideas y sentimientos que 
+    trascienden lo material. Este apartado de mi clasificación de obra está dedicado a explorar esa esfera 
+    intangible de mi realidad.
+</p>
+<br>
+
+<p class="parrafo">
+    Siguiendo mi estrategia moderna, que busca capturar lo característico de mi contingencia temporal, he 
+    desarrollado este tipo de obras organizándolas en tres categorías principales:
 </p>
 <br>
 <br>
 
-<!-- Subtítulo: Temas Clave -->
-<div class="subtitulo">Temas Clave</div>
+<!-- Subtítulo: Categorías -->
+<div class="subtitulo">Categorías Principales</div>
 <br>
 
-<!-- Lista de temas -->
-<ul class="parrafo">
-    <li>Ideas abstractas</li>
-    <li>Emociones en el arte</li>
-    <li>Representaciones conceptuales</li>
-</ul>
-<br>
-<br>
-
-<!-- Botón que lleva a más detalles -->
+<!-- Botones de categorías -->
 <div class="button-container">
-    <a href="/ES/representaciones.html" class="fancy-button">
+    <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/images/intangible.jpg" alt="Lo Intangible">
-            <p class="title">Explorar Más</p>
-            <p class="subtitle">Descubre cómo lo intangible cobra vida en el arte.</p>
+            <img src="/assets/images/capitalismo.jpg" alt="Imágenes del Capitalismo">
+            <p class="title">Imágenes del Capitalismo</p>
+            <p class="subtitle">Reflexión visual sobre estructuras económicas y su impacto cotidiano.</p>
+        </div>
+    </a>
+    <a href="/ES/imagenes-popular.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/images/popular.jpg" alt="Imágenes de lo Popular">
+            <p class="title">Imágenes de lo Popular</p>
+            <p class="subtitle">Celebración y cuestionamiento del imaginario colectivo.</p>
+        </div>
+    </a>
+    <a href="/ES/imagenes-ancestros.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/images/ancestros.jpg" alt="Imágenes de los Ancestros">
+            <p class="title">Imágenes de los Ancestros</p>
+            <p class="subtitle">Homenaje a la memoria, tradición y conexión con las raíces.</p>
         </div>
     </a>
 </div>
+<br>
+<br>
+
+<!-- Párrafo final -->
+<p class="parrafo">
+    De esta manera, estas categorías buscan articular lo intangible de mi realidad desde distintas 
+    perspectivas, permitiendo que el arte actúe como un puente entre lo personal y lo universal, 
+    lo efímero y lo atemporal.
+</p>
 <br>
 <br>
