@@ -299,9 +299,6 @@ main {
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-large);
   word-wrap: break-word;
-  text-indent: 1.5em;
-}
-
 }
 
 .parrafo {
