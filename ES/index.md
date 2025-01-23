@@ -12,13 +12,11 @@ permalink: /ES/index.html
 <p class="parrafo">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, un territorio donde convergen intereses, saberes y experiencias.
 </p>
-<br>
 <!-- Párrafo 2 -->
 <p class="parrafo">
   A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
   totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
 </p>
-<br>
 <!-- Párrafo 3 -->
 <p class="parrafo">
   Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
@@ -26,8 +24,7 @@ permalink: /ES/index.html
 </p>
 <br><br>
 <div class="subtitulo">Categorías generales de mi práctica artística</div>
-<br><br>
-
+<br>
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
     <div class="button-content">
