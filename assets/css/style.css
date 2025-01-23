@@ -309,7 +309,6 @@ main {
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
-  text-indent: 2em;
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
 }
