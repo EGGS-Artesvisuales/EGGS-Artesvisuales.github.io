@@ -1,5 +1,5 @@
-Bienvenido a EGGS - Art & Studio
+Bienvenid@s a EGGS - Studio
 
-un espacio donde comparto mis obras e ideas originales, celebrando el arte como inspiración, transformación y conexión con el mundo.
+Archivo global de Obra / por Esteban Garnica Sanchez, Chile.
 
-¡Gracias por visitar EGGS-Studio! Tu interés impulsa la pasión por explorar, aprender y compartir nuevas experiencias artísticas.
+oficial web
