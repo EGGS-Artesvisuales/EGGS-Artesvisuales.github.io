@@ -2,9 +2,6 @@
 layout: default-es
 title: Representación del Mundo
 permalink: /ES/mundo-exterior.html
-breadcrumbs: >
-    <a href="/ES/index.html">Inicio</a> >
-    <span>Representación del Mundo</span>
 ---
 
 <div class="titulo">Representación del Mundo</div>
