@@ -46,7 +46,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
     Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
 </p>
 
-<div class="button-container" style = margin-bottom: 30px;>
+<div class="button-container">
     <a href="/capitalismo.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-capitalismo.jpg" alt="Imágenes del Capitalismo">
