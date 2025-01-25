@@ -11,15 +11,16 @@ breadcrumbs: >
 <br><br><br>
 
 <p class="parrafo">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta categoría agrupa obras concebidas con el propósito de integrarse en el "relato del mundo" mediante la creación de testimonios artísticos. Basada en una de las tradiciones esenciales del arte, esta serie explora la problemática de representar el mundo a través de la pintura, evolucionando hacia instalaciones, fotografías, videos y otras expresiones del arte contemporáneo.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta categoría reúne obras artísticas que documentan y analizan la realidad contemporánea a través de diversas expresiones visuales. Partiendo de una tradición artística fundamental, esta serie evoluciona desde la pintura tradicional hacia instalaciones, fotografías, videos y otras manifestaciones del arte contemporáneo.
 </p>
 
 <p class="parrafo">
-    Con la intención de reflejar aspectos de la realidad, estas obras parten de identificar y analizar los elementos que definen y caracterizan nuestra época. Este enfoque permite desarrollar una estrategia creativa clara: capturar y representar los aspectos más relevantes y distintivos del presente.
+    El objetivo principal es capturar la esencia de nuestra época mediante un análisis de sus elementos definitorios. La estrategia creativa se centra en representar los aspectos más significativos y distintivos del presente, explorando tanto lo tangible como lo intangible.
+Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crítica del mundo, transformando la observación en una experiencia artística que trasciende la mera reproducción y se convierte en un medio de interpretación y comprensión de la realidad contemporánea.
 </p>
 
 <p class="parrafo">
-    A partir de esta exploración surgen las series de obras organizadas en esta categoría, que abordan dos enfoques principales: lo tangible y lo intangible. Estas perspectivas ofrecen una mirada integral sobre el mundo y su representación artística.
+    A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible. Estas perspectivas ofrecen una mirada integral sobre el mundo y su representación artística.
 </p>
 <br><br>
 
