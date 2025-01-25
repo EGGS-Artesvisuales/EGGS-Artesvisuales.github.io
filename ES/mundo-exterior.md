@@ -13,7 +13,7 @@ breadcrumbs: >
    Esta categoría reúne obras artísticas que documentan y analizan la realidad contemporánea a través de diversas expresiones visuales. Partiendo de una tradición artística fundamental, esta serie evoluciona desde la pintura tradicional hacia instalaciones, fotografías, videos y otras manifestaciones del arte contemporáneo.</p>
 <p class="parrafo">
 El objetivo principal es capturar la esencia de nuestra época mediante un análisis de sus elementos definitorios. La estrategia creativa se centra en representar los aspectos más significativos y distintivos del presente, explorando tanto lo tangible como lo intangible. Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crítica del mundo, transformando la observación en una experiencia artística que trasciende la mera reproducción y se convierte en un medio de interpretación y comprensión de la realidad contemporánea.</p>
-<p class="parrafo" style="margin-botom: 6%;">
+<p class="parrafo" style="margin-bottom: 6%;">
     A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible.</p>
 
 <div class="subtitulo">Representación del mundo tangible</div>
