@@ -10,7 +10,7 @@ breadcrumbs: >
 <div class="titulo">Representación del Mundo</div>
 
 <p class="parrafo" style="margin-top: 6%;">
-   Esta categoría reúne obras artísticas que documentan y analizan la realidad contemporánea a través de diversas expresiones visuales. Partiendo de una tradición artística fundamental, esta serie evoluciona desde la pintura tradicional hacia instalaciones, fotografías, videos y otras manifestaciones del arte contemporáneo.</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Esta categoría reúne obras artísticas que documentan y analizan la realidad contemporánea a través de diversas expresiones visuales. Partiendo de una tradición artística fundamental, esta serie evoluciona desde la pintura tradicional hacia instalaciones, fotografías, videos y otras manifestaciones del arte contemporáneo.</p>
 <p class="parrafo">
 El objetivo principal es capturar la esencia de nuestra época mediante un análisis de sus elementos definitorios. La estrategia creativa se centra en representar los aspectos más significativos y distintivos del presente, explorando tanto lo tangible como lo intangible. Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crítica del mundo, transformando la observación en una experiencia artística que trasciende la mera reproducción y se convierte en un medio de interpretación y comprensión de la realidad contemporánea.</p>
 <p class="parrafo" style="margin-bottom: 6%;">
@@ -19,7 +19,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
 <div class="subtitulo">Representación del mundo tangible</div>
 
 <p class="parrafo">
-   Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
 </p>
 
 <div class="button-container">
@@ -46,7 +46,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
     Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
 </p>
 
-<div class="button-container">
+<div class="button-container" style = margin-bottom: 30px;>
     <a href="/capitalismo.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-capitalismo.jpg" alt="Imágenes del Capitalismo">
