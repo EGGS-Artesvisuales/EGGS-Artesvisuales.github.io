@@ -9,7 +9,7 @@ breadcrumbs: >
 
 <div class="titulo">Representación del Mundo</div>
 
-<p class="parrafo"> style="margin-top: 30px;">
+<p class="parrafo" style="margin-top: 30px;">
    Esta categoría reúne obras artísticas que documentan y analizan la realidad contemporánea a través de diversas expresiones visuales. Partiendo de una tradición artística fundamental, esta serie evoluciona desde la pintura tradicional hacia instalaciones, fotografías, videos y otras manifestaciones del arte contemporáneo.</p>
 <p class="parrafo">
 El objetivo principal es capturar la esencia de nuestra época mediante un análisis de sus elementos definitorios. La estrategia creativa se centra en representar los aspectos más significativos y distintivos del presente, explorando tanto lo tangible como lo intangible. Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crítica del mundo, transformando la observación en una experiencia artística que trasciende la mera reproducción y se convierte en un medio de interpretación y comprensión de la realidad contemporánea.</p>
