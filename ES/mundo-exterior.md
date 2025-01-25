@@ -47,9 +47,9 @@ breadcrumbs: >
 <div class="subtitulo">Representación de lo intangible</div>
 
 <p class="parrafo">
-    Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
+   Estas obras abordan fenómenos sociales, culturales y abstractos, explorando ideas, emociones y conceptos que trascienden lo físico. La intención es dar forma y presencia a lo inmaterial, conectando lo personal con lo universal. en este grupo existen las series de obra:
 </p>
-
+<br>
 <div class="button-container">
     <a href="/capitalismo.html" class="fancy-button">
         <div class="button-content">
