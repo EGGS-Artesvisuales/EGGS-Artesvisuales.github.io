@@ -11,7 +11,7 @@ breadcrumbs: >
 <br><br><br>
 
 <p class="parrafo">
-    Esta categoría agrupa obras concebidas con el propósito de integrarse en el "relato del mundo" mediante la creación de testimonios artísticos. Basada en una de las tradiciones esenciales del arte, esta serie explora la problemática de representar el mundo a través de la pintura, evolucionando hacia instalaciones, fotografías, videos y otras expresiones del arte contemporáneo.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta categoría agrupa obras concebidas con el propósito de integrarse en el "relato del mundo" mediante la creación de testimonios artísticos. Basada en una de las tradiciones esenciales del arte, esta serie explora la problemática de representar el mundo a través de la pintura, evolucionando hacia instalaciones, fotografías, videos y otras expresiones del arte contemporáneo.
 </p>
 
 <p class="parrafo">
@@ -26,7 +26,7 @@ breadcrumbs: >
 <div class="subtitulo">Representación del mundo tangible</div>
 
 <p class="parrafo">
-    Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
 </p>
 <br>
 <div class="button-container">
@@ -47,7 +47,7 @@ breadcrumbs: >
 <div class="subtitulo">Representación de lo intangible</div>
 
 <p class="parrafo">
-   Estas obras abordan fenómenos sociales, culturales y abstractos, explorando ideas, emociones y conceptos que trascienden lo físico. La intención es dar forma y presencia a lo inmaterial, conectando lo personal con lo universal. en este grupo existen las series de obra:
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estas obras abordan fenómenos sociales, culturales y abstractos, explorando ideas, emociones y conceptos que trascienden lo físico. La intención es dar forma y presencia a lo inmaterial, conectando lo personal con lo universal. en este grupo existen las series de obra:
 </p>
 <br>
 <div class="button-container">
@@ -70,4 +70,4 @@ breadcrumbs: >
         </div>
     </a>
 </div>
-
+<br><br><br>
