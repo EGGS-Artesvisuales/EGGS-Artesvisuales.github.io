@@ -30,7 +30,7 @@ Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crí
 </p>
 <br>
 <div class="button-container">
-    <a href="...." class="fancy-button">
+    <a href="/assets/img/boton-la-saturacion.jpg" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-la-saturacion.jpg" alt="Obras de Representación del Mundo">
             <p class="title">La Saturación</p>
@@ -45,7 +45,6 @@ Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crí
             <p class="subtitle">Influencias en el entorno contemporáneo</p>
         </div>
     </a>
-<br><br>
 
 <div class="subtitulo">Representación de lo intangible</div>
 
