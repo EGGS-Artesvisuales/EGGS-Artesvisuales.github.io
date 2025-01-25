@@ -49,20 +49,24 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
 <div class="button-container">
     <a href="/capitalismo.html" class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-capitalismo.jpg" alt="Imágenes del Capitalismo">
             <p class="title">Imágenes del Capitalismo</p>
             <p class="subtitle">Reflexiones sobre estructuras económicas</p>
         </div>
     </a>
     <a href="/popular.html" class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-popular.jpg" alt="Imágenes de lo Popular">
             <p class="title">Imágenes de lo Popular</p>
             <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
         </div>
     </a>
     <a href="/ancestros.html" class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-ancestros.jpg" alt="Imágenes de los Ancestros">
             <p class="title">Imágenes de los Ancestros</p>
             <p class="subtitle">Conexiones con memoria y legado</p>
         </div>
     </a>
 </div>
+
