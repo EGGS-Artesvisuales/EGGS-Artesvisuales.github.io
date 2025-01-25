@@ -8,6 +8,7 @@ breadcrumbs: >
 ---
 
 <div class="titulo">Representación del Mundo</div>
+<br><br><br>
 
 <p class="parrafo">
     Esta categoría agrupa obras concebidas con el propósito de integrarse en el "relato del mundo" mediante la creación de testimonios artísticos. Basada en una de las tradiciones esenciales del arte, esta serie explora la problemática de representar el mundo a través de la pintura, evolucionando hacia instalaciones, fotografías, videos y otras expresiones del arte contemporáneo.
@@ -20,7 +21,7 @@ breadcrumbs: >
 <p class="parrafo">
     A partir de esta exploración surgen las series de obras organizadas en esta categoría, que abordan dos enfoques principales: lo tangible y lo intangible. Estas perspectivas ofrecen una mirada integral sobre el mundo y su representación artística.
 </p>
-
+<br><br>
 
 <div class="subtitulo">Representación del mundo tangible</div>
 
