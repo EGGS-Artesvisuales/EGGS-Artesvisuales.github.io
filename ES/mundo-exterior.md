@@ -26,9 +26,9 @@ breadcrumbs: >
 <div class="subtitulo">Representación del mundo tangible</div>
 
 <p class="parrafo">
-    Obras que exploran aspectos físicos y materiales del entorno, aspectos característicos del paisaje local, objetos y escenas cotidianas.
+    Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
 </p>
-
+<br>
 <div class="button-container">
     <a href="/saturacion.html" class="fancy-button">
         <div class="button-content">
