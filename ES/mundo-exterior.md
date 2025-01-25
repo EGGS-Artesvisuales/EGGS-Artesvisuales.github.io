@@ -30,7 +30,7 @@ Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crí
 </p>
 <br>
 <div class="button-container">
-    <a href="/saturacion.html" class="fancy-button">
+    <a href="/assets/img/boton-la-saturacion.jpg" class="fancy-button">
         <div class="button-content">
             <p class="title">La Saturación</p>
             <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
