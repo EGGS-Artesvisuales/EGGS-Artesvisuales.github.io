@@ -32,7 +32,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
     </a>
     <a href="/tecnologia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-tecnologia.jpg" alt="La Tecnología">
+            <img src="/assets/img/boton-la-tecnologia.jpg" alt="La Tecnología">
             <p class="title">La Tecnología</p>
             <p class="subtitle">Influencias en el entorno contemporáneo</p>
         </div>
