@@ -30,12 +30,19 @@ Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crí
 </p>
 <br>
 <div class="button-container">
-    <a href="/assets/img/boton-la-saturacion.jpg" class="fancy-button">
+    <a href="...." class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-la-saturacion.jpg" alt="Obras de Representación del Mundo">
             <p class="title">La Saturación</p>
             <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
         </div>
     </a>
+      
+      <p class="title">Representación del Mundo</p>
+      <p class="subtitle">Obras que retratan, reflejan y/o comentan el mundo.</p>
+    </div>
+  </a>
+    
     <a href="/tecnologia.html" class="fancy-button">
         <div class="button-content">
             <p class="title">La Tecnología</p>
