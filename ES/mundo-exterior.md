@@ -20,8 +20,7 @@ Mediante esta aproximación, las obras buscan ofrecer una mirada integral y crí
 </p>
 
 <p class="parrafo">
-    A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible. Estas perspectivas ofrecen una mirada integral sobre el mundo y su representación artística.
-</p>
+    A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible. </p>
 <br><br>
 
 <div class="subtitulo">Representación del mundo tangible</div>
