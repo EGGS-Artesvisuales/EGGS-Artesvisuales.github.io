@@ -10,11 +10,17 @@ breadcrumbs: >
 <div class="titulo">Representación del Mundo</div>
 
 <p class="parrafo">
-    Este grupo reúne obras que reflejan mi interpretación visual y conceptual del entorno que me rodea. 
-    Desde representaciones literales hasta aproximaciones más subjetivas, cada pieza es un testimonio de mi época y una reflexión artística y personal sobre nuestra sociedad y su experiencia. 
-    Estas obras buscan documentar y retratar la esencia de los tiempos en los que vivo, abordando la representación del mundo con una estrategia enfocada en capturar los rasgos distintivos de lo contemporáneo. 
-    Mi objetivo es lograr un retrato fiel de mi época, llegando a la esencia de lo contingente, similar al enfoque de los pintores modernos descritos por Baudelaire.
+    Esta categoría agrupa obras concebidas con el propósito de integrarse en el "relato del mundo" mediante la creación de testimonios artísticos. Basada en una de las tradiciones esenciales del arte, esta serie explora la problemática de representar el mundo a través de la pintura, evolucionando hacia instalaciones, fotografías, videos y otras expresiones del arte contemporáneo.
 </p>
+
+<p class="parrafo">
+    Con la intención de reflejar aspectos de la realidad, estas obras parten de identificar y analizar los elementos que definen y caracterizan nuestra época. Este enfoque permite desarrollar una estrategia creativa clara: capturar y representar los aspectos más relevantes y distintivos del presente.
+</p>
+
+<p class="parrafo">
+    A partir de esta exploración surgen las series de obras organizadas en esta categoría, que abordan dos enfoques principales: lo tangible y lo intangible. Estas perspectivas ofrecen una mirada integral sobre el mundo y su representación artística.
+</p>
+
 
 <div class="subtitulo">Representación del mundo tangible</div>
 
