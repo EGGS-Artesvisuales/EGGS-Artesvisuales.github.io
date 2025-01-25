@@ -25,17 +25,20 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
 <div class="button-container">
     <a href="/saturacion.html" class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-la-saturacion.jpg" alt="La Saturación">
             <p class="title">La Saturación</p>
             <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
         </div>
     </a>
     <a href="/tecnologia.html" class="fancy-button">
         <div class="button-content">
+            <img src="/assets/img/boton-tecnologia.jpg" alt="La Tecnología">
             <p class="title">La Tecnología</p>
             <p class="subtitle">Influencias en el entorno contemporáneo</p>
         </div>
     </a>
 </div>
+
 
 <div class="subtitulo">Representación de lo intangible</div>
 
