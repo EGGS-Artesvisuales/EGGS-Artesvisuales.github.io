@@ -9,10 +9,10 @@ breadcrumbs: >
 ---
 
 <div class="titulo">Diagrama de Obra</div>
-<p class="parrafo">
+<div class="subtitulo">
   Un mapa visual de las ideas, conceptos y obras artísticas que estructuran mi enfoque,
   dividido en tres secciones.
-</p>
+</div>
 
 
 
