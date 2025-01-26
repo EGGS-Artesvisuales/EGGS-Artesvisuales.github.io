@@ -26,7 +26,7 @@ Los criterios para identificar estos elementos como emblemáticos incluyen:
     <li>Capacidad de simbolizar cambios sociales, culturales o tecnológicos.</li>
     <li>Redefinición de las interacciones con el entorno.</li>
 </p>
-
+<br>
 <p class="parrafo">
 La serie busca capturar fielmente la esencia de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua.
 </p>
