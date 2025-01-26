@@ -325,15 +325,12 @@ main {
 .parrafo:first-of-type ul {
   margin-top: 0 !important; /* Elimina el margen superior */
 }
-
-/* Listas dentro de párrafos */
 .parrafo ul {
-  padding-left: 2em; /* Ajusta el espacio antes de las viñetas */
+  padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
   list-style: disc; /* Estilo de viñetas */
-  margin-bottom: var(--margin-bottom-small); /* Espaciado inferior */
+  margin-bottom: var(--margin-bottom-small);
 }
 
-/* Elementos de lista */
 .parrafo ul li {
   margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
 }
