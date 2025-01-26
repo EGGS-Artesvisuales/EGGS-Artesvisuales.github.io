@@ -10,11 +10,14 @@ breadcrumbs: >
 
 <div class="titulo">Diagrama de Obra</div>
 <div class="subtitulo">
-  Un mapa visual de las ideas, conceptos y obras artísticas que estructuran mi enfoque,
-  dividido en tres secciones.
+  Un mapa visual de las ideas, conceptos y obras artísticas.
 </div>
-
-
+<p class="parrafo">
+  Las tres categorías de mi práctica artística se presentan en este diagrama, que ilustra la conexión y ramificación de las obras de arte con las distintas actividades que realizo en torno al arte visual. Este esquema no solo organiza mi proceso creativo, sino que también revela cómo las ideas y conceptos centrales se transforman en diversas expresiones artísticas. 
+</p>
+<p class="parrafo">
+  En el diagrama, cada categoría actúa como un eje principal que conecta con sus respectivas series de obras y proyectos. Estas conexiones destacan los vínculos entre mis exploraciones conceptuales, técnicas y temáticas, mostrando la amplitud y la profundidad de mi quehacer artístico. Desde la representación tangible del mundo hasta la abstracción de lo intangible, este mapa sirve como una guía visual para comprender la relación entre mis ideas y su materialización en el arte.
+</p>
 
   <!-- 1) Representación del Mundo -->
   <div class="subtitulo">Representación del Mundo</div>
