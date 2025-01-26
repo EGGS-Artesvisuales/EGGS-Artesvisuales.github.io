@@ -281,6 +281,8 @@ main {
 /* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
+
+/* Títulos */
 .titulo {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
@@ -291,6 +293,7 @@ main {
   word-wrap: break-word;
 }
 
+/* Subtítulos */
 .subtitulo {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
@@ -301,6 +304,7 @@ main {
   text-indent: 1.5em; /* Sangría de la primera línea */
 }
 
+/* Párrafos */
 .parrafo {
   font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
@@ -311,30 +315,26 @@ main {
   text-indent: 1.5em; /* Sangría de la primera línea */
 }
 
-/* Estilo adicional para el primer párrafo */
+/* Estilo para el primer párrafo */
 .parrafo:first-of-type {
   margin-top: 9%;
   text-indent: 2.5em; /* Sangría específica para el primer párrafo */
 }
 
-/* Anular margen del primer párrafo si contiene una lista */
+/* Anular margen y sangría si el primer párrafo contiene una lista */
 .parrafo:first-of-type ul {
-  margin-top: 0; /* Anula el margen del primer párrafo */
-  text-indent: 0; /* Elimina sangría si no es necesaria */
+  margin-top: 0; /* Elimina el margen superior */
+  text-indent: 0; /* Elimina la sangría */
 }
 
-/* Estilo para listas dentro de .parrafo */
+/* Listas dentro de párrafos */
 .parrafo ul {
-  font-family: var(--parrafo-font);
-  max-width: var(--content-max-width);
-  font-size: var(--parrafo-size);
-  line-height: var(--line-height);
-  color: var(--color-claro);
-  margin-bottom: var(--margin-bottom-small);
-  padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
+  padding-left: 2em; /* Ajusta el espacio antes de las viñetas */
   list-style: disc; /* Estilo de viñetas */
+  margin-bottom: var(--margin-bottom-small); /* Espaciado inferior */
 }
 
+/* Elementos de lista */
 .parrafo ul li {
   margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
 }
