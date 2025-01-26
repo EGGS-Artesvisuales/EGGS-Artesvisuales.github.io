@@ -63,7 +63,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
     </a>
     <a href="/ancestros.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-ancestros.jpg" alt="Imágenes de los Ancestros">
+            <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros">
             <p class="title">Imágenes de los Ancestros</p>
             <p class="subtitle">Conexiones con memoria y legado</p>
         </div>
