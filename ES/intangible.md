@@ -20,7 +20,6 @@ breadcrumbs: >
     trascienden lo material. Este apartado de mi clasificación de obra está dedicado a explorar esa esfera 
     intangible de mi realidad.
 </p>
-<br>
 
 <p class="parrafo">
     Siguiendo mi estrategia moderna, que busca capturar lo característico de mi contingencia temporal, he 
