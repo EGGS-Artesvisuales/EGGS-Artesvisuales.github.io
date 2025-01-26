@@ -7,11 +7,35 @@ breadcrumbs: >
     <a href="/ES/mundo-exterior.html">Representación del Mundo</a> >
     <span>Lo Tangible</span>
 ---
-<div class="subtitulo">Representación del mundo tangible</div>
+
+<div class="subtitulo">Representación del Mundo Tangible</div>
 
 <p class="parrafo">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
+Este conjunto de obras refleja aspectos físicos y materiales de mi entorno. El tema, lo representado, se selecciona estratégicamente para destacar elementos emblemáticos de la contemporaneidad, elegidos por su significado y su capacidad de representar la realidad actual.
 </p>
+
+<p class="parrafo">
+Los criterios para identificar estos elementos como emblemáticos incluyen:
+</p>
+
+<ul class="parrafo">
+    <li>Presencia constante en los paisajes.</li>
+    <li>Frecuencia de uso.</li>
+    <li>Carácter novedoso, inexistente en épocas anteriores.</li>
+    <li>Impacto ambiental significativo.</li>
+    <li>Capacidad de simbolizar cambios sociales, culturales o tecnológicos.</li>
+    <li>Redefinición de las interacciones con el entorno.</li>
+</ul>
+
+<p class="parrafo">
+La serie busca capturar fielmente la esencia de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua.
+</p>
+
+<p class="parrafo">
+Esta línea de trabajo incluye, hasta ahora, las siguientes series:
+</p>
+
+<!-- Aquí se pueden añadir las series específicas cuando estén disponibles -->
 
 <div class="button-container">
     <a href="/saturacion.html" class="fancy-button">
