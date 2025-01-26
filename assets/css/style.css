@@ -317,6 +317,18 @@ main {
   text-indent: 2.5em; /* Sangría específica para el primer párrafo */
 }
 
+/* Estilo para listas dentro de .parrafo */
+.parrafo ul {
+  margin: 0; /* Elimina márgenes adicionales */
+  padding-left: 1.5em; /* Ajusta el espacio para las viñetas */
+  list-style: disc; /* Asegura viñetas estándar */
+  text-indent: 2.5em; /* Sangría específica para el primer párrafo */
+}
+
+.parrafo ul li {
+  margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
+}
+
 
 
 /* ------------------------------------------------------------------
