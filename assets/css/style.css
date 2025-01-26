@@ -325,7 +325,7 @@ main {
   line-height: var(--line-height);
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
-  padding-left: 2em; /* Ajuste de espacio antes de las viñetas */
+  padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
   list-style: disc; /* Estilo de viñetas */
 }
 
