@@ -324,7 +324,6 @@ main {
 /* Anular margen y sangría si el primer párrafo contiene una lista */
 .parrafo:first-of-type ul {
   margin-top: 0; /* Elimina el margen superior */
-  text-indent: 0; /* Elimina la sangría */
 }
 
 /* Listas dentro de párrafos */
