@@ -319,26 +319,19 @@ main {
 
 /* Estilo para listas dentro de .parrafo */
 .parrafo ul {
- font-family: var(--parrafo-font);
+  font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
-  text-indent: 3em; /* Sangría de la primera línea */
+  padding-left: 2em; /* Ajuste de espacio antes de las viñetas */
+  list-style: disc; /* Estilo de viñetas */
 }
 
 .parrafo ul li {
-    font-family: var(--parrafo-font);
-  max-width: var(--content-max-width);
-  font-size: var(--parrafo-size);
-  line-height: var(--line-height);
-  color: var(--color-claro);
-  margin-bottom: var(--margin-bottom-small);
-  text-indent: 3em; /* Sangría de la primera línea */
   margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
 }
-
 
 
 /* ------------------------------------------------------------------
