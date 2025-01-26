@@ -323,7 +323,7 @@ main {
 
 /* Anular margen y sangría si el primer párrafo contiene una lista */
 .parrafo:first-of-type ul {
-  margin-top: 0; /* Elimina el margen superior */
+  margin-top: 0 !important; /* Elimina el margen superior */
 }
 
 /* Listas dentro de párrafos */
