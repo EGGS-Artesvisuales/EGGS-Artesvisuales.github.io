@@ -311,6 +311,16 @@ main {
   margin-bottom: var(--margin-bottom-small);
 }
 
+.parrafo 1 {
+  font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--color-claro);
+  margin-bottom: var(--margin-bottom-small);
+   margin-top: 11%;
+}
+
 /* ------------------------------------------------------------------
    BOTONES "FANCY BUTTONS"
 ------------------------------------------------------------------ */
