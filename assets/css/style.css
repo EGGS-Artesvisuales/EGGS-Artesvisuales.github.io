@@ -278,7 +278,6 @@ main {
   text-align: justify;
 }
 
-
 /* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
@@ -309,12 +308,15 @@ main {
   line-height: var(--line-height);
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
+  text-indent: 1.5em; /* Sangría de la primera línea */
 }
 
 /* Estilo adicional para el primer párrafo */
 .parrafo:first-of-type {
   margin-top: 11%;
+  text-indent: 2.5em; /* Sangría específica para el primer párrafo */
 }
+
 
 
 /* ------------------------------------------------------------------
