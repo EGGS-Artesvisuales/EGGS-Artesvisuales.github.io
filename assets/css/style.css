@@ -319,9 +319,7 @@ main {
 
 /* Estilo para listas dentro de .parrafo */
 .parrafo ul {
-  margin: 0; /* Elimina márgenes adicionales */
-  padding-left: 1.5em; /* Ajusta el espacio para las viñetas */
-  list-style: disc; /* Asegura viñetas estándar */
+  padding-left: 2em; /* Ajusta el espacio para las viñetas */
   text-indent: 2.5em; /* Sangría específica para el primer párrafo */
 }
 
