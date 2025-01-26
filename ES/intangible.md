@@ -10,12 +10,10 @@ breadcrumbs: >
 
 <!-- Título principal -->
 <div class="titulo">Lo Intangible</div>
-<br>
-<br>
-<br>
+
 
 <!-- Párrafo introductorio -->
-<p class="parrafo">
+<p class="parrafo" style="margin-top: 6%;">
     En el vasto campo de la representación del mundo, emergen dos dimensiones claramente definidas: 
     la representación de lo tangible, aquello que se manifiesta de manera física y se percibe a través 
     de los sentidos, y la representación de lo intangible, compuesta por ideas y sentimientos que 
