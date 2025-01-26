@@ -319,6 +319,10 @@ main {
 
 /* Estilo para listas dentro de .parrafo */
 .parrafo ul {
+  font-family: var(--parrafo-font);
+    font-size: var(--parrafo-size);
+   line-height: var(--line-height);
+  color: var(--color-claro);
   padding-left: 2em; /* Ajusta el espacio para las viñetas */
   text-indent: 2.5em; /* Sangría específica para el primer párrafo */
 }
