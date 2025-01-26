@@ -56,7 +56,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
     </a>
     <a href="/popular.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-popular.jpg" alt="Imágenes de lo Popular">
+            <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular">
             <p class="title">Imágenes de lo Popular</p>
             <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
         </div>
