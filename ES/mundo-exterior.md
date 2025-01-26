@@ -49,7 +49,7 @@ El objetivo principal es capturar la esencia de nuestra época mediante un anál
 <div class="button-container">
     <a href="/capitalismo.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-capitalismo.jpg" alt="Imágenes del Capitalismo">
+            <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo">
             <p class="title">Imágenes del Capitalismo</p>
             <p class="subtitle">Reflexiones sobre estructuras económicas</p>
         </div>
