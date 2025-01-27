@@ -31,7 +31,7 @@ Los criterios para identificar estos elementos como emblemáticos incluyen:
 </ul>
 <br>
 <p class="parrafo">
-La serie busca capturar fielmente la esencia de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua.
+La serie busca capturar rasgos característicos de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua.
 </p>
 
 <p class="parrafo">
@@ -45,7 +45,7 @@ Esta línea de trabajo incluye, hasta ahora, las siguientes series:
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
             <p class="title">La Saturación</p>
-            <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
+            <p class="subtitle">La contaminación y producción capitalista</p>
         </div>
     </a>
     <a href="/tecnologia.html" class="fancy-button">
