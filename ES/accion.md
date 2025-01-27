@@ -20,9 +20,9 @@ breadcrumbs: >
   <!-- Párrafo 2 -->
   <p class="parrafo">
     En este sentido, la creación artística se expande más allá de la contemplación y persigue un impacto tangible. Ya no basta con la representación simbólica de las problemáticas sociales; se exige la intervención en el espacio, la participación de la comunidad y la colaboración con otros actores. El arte se concibe como una fuerza viva, capaz de modificar realidades y aportar soluciones prácticas. Bajo esta premisa, se han trazado estas cuatro modalidades de Arte como accion en el mundo: 
-<br>
-<br>
 
+
+    
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario">
