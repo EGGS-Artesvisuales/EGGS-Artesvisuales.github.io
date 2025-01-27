@@ -8,6 +8,9 @@ breadcrumbs: >
     <span>Lo Tangible</span>
 ---
 
+
+<div class="titulo">Lo tangible</div>
+
 <div class="subtitulo">Representación del Mundo Tangible</div>
 
 <p class="parrafo">
