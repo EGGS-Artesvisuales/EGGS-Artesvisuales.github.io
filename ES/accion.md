@@ -10,9 +10,7 @@ breadcrumbs: >
 
   <!-- Título principal -->
   <div class="titulo">Acción en el Mundo</div>
-<br>
-<br>
-<br>
+
   <!-- Párrafo 1 -->
   <p class="parrafo">
     En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar 
