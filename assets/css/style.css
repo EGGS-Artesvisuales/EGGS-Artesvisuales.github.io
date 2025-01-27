@@ -325,21 +325,20 @@ main {
 .parrafo:first-of-type ul {
   margin-top: 0 !important; /* Elimina el margen superior */
 }
+
+/* Listas dentro de .parrafo */
 .parrafo ul {
-   font-family: var(--parrafo-font);
+  font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
-  margin-bottom: var(--margin-bottom-small);
   padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
-  margin-bottom: var(--margin-bottom-small);
+  margin-bottom: var(--margin-bottom-small); /* Se deja solo una vez */
 }
-
 .parrafo ul li {
   margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
 }
-
 
 /* ------------------------------------------------------------------
    BOTONES "FANCY BUTTONS"
