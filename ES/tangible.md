@@ -21,7 +21,7 @@ Este conjunto de obras refleja aspectos físicos y materiales de mi entorno. El 
 Los criterios para identificar estos elementos como emblemáticos incluyen:
 </p>
 
-<p class="parrafo ul">
+<p class="parrafo.ul">
     <li>Presencia constante en los paisajes.</li>
     <li>Frecuencia de uso.</li>
     <li>Carácter novedoso, inexistente en épocas anteriores.</li>
