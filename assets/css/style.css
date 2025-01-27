@@ -326,6 +326,12 @@ main {
   margin-top: 0 !important; /* Elimina el margen superior */
 }
 .parrafo ul {
+   font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--color-claro);
+  margin-bottom: var(--margin-bottom-small);
   padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
   margin-bottom: var(--margin-bottom-small);
 }
