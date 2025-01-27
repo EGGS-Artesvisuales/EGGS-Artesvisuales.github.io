@@ -21,14 +21,14 @@ Este conjunto de obras refleja aspectos físicos y materiales de mi entorno. El 
 Los criterios para identificar estos elementos como emblemáticos incluyen:
 </p>
 
-<p class="parrafo ul">
+<ul class="parrafo"> <!-- ahora sí es un UL real -->
     <li>Presencia constante en los paisajes.</li>
     <li>Frecuencia de uso.</li>
     <li>Carácter novedoso, inexistente en épocas anteriores.</li>
     <li>Impacto ambiental significativo.</li>
     <li>Capacidad de simbolizar cambios sociales, culturales o tecnológicos.</li>
     <li>Redefinición de las interacciones con el entorno.</li>
-</p>
+</ul>
 <br>
 <p class="parrafo">
 La serie busca capturar fielmente la esencia de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua.
