@@ -9,10 +9,10 @@ breadcrumbs: >
 ---
 
 <!-- Título principal -->
-<div class="titulo">Lo Intangible</div>
+<div class="titulo">Lo intangible</div>
 
 <!-- subtitulo -->
-<div class="subtitulo">Representación del Mundo intangible</div>
+<div class="subtitulo">Representación del mundo inmanterial</div>
 
 <!-- Párrafo introductorio -->
 <p class="parrafo">
