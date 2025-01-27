@@ -11,7 +11,7 @@ breadcrumbs: >
 
 <div class="titulo">Lo tangible</div>
 
-<div class="subtitulo">Representación del Mundo Tangible</div>
+<div class="subtitulo">Representación del mundo material</div>
 
 <p class="parrafo">
 Este conjunto de obras refleja aspectos físicos y materiales de mi entorno. El tema, lo representado, se selecciona estratégicamente para destacar elementos emblemáticos de la contemporaneidad, elegidos por su significado y su capacidad de representar la realidad actual.
