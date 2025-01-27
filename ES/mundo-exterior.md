@@ -26,7 +26,7 @@ En este marco, la reflexión sobre el entorno contemporáneo y sus fenómenos ha
 El objetivo principal de esta categoría es capturar la esencia de nuestra época mediante el análisis de sus elementos definitorios. La estrategia creativa se centra en representar tanto lo tangible como lo intangible, explorando fenómenos sociales, culturales y emocionales que trascienden el plano físico. De esta manera, la observación artística se convierte en una experiencia interpretativa que permite comprender con mayor profundidad la realidad contemporánea.
 </p>
 
-<p class="parrafo";>
+<p class="parrafo">
 A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible.
 </p>
 
