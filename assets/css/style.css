@@ -300,32 +300,6 @@ main {
   font-weight: 600;
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-large);
-  word-wrap: break-word;
-  text-indent: 1.5em; /* Sangría de la primera línea */
-}
-
-/* ------------------------------------------------------------------
-   TITULOS, SUBTÍTULOS Y PÁRRAFOS
------------------------------------------------------------------- */
-
-/* Títulos */
-.titulo {
-  font-family: var(--titulo-font);
-  font-size: var(--titulo-size);
-  font-weight: bold;
-  color: var(--color-destacado);
-  margin-bottom: var(--margin-bottom-medium);
-  letter-spacing: var(--spacing-tight);
-  word-wrap: break-word;
-}
-
-/* Subtítulos */
-.subtitulo {
-  font-family: var(--subtitulo-font);
-  font-size: var(--subtitulo-size);
-  font-weight: 600;
-  color: #aaaaaa;
-  margin-bottom: var(--margin-bottom-large);
   text-indent: 1.5em; /* Sangría de la primera línea */
   word-wrap: break-word;
 }
