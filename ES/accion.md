@@ -14,31 +14,15 @@ breadcrumbs: >
 
   <!-- Párrafo 1 -->
  <p class="parrafo" style="margin-top:6%;">
-    En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar 
-    y transformar el entorno de manera activa. Estas acciones van más allá de la creación 
-    artística tradicional, buscando un impacto directo en las realidades sociales, culturales y físicas.
+    El arte ha sido tradicionalmente entendido como un vehículo de expresión personal, un espacio íntimo donde el creador proyecta su visión y sensibilidad. Sin embargo, en la actualidad, cada vez con mayor frecuencia observamos propuestas artísticas que no se conforman con habitar galerías o museos: buscan incidir de manera directa en el tejido social y generar transformaciones reales. Esta vocación de “Acción en el Mundo” convierte al artista en un agente de cambio, comprometido no solo con su búsqueda estética, sino también con los entornos a los que pertenece.
   </p>
 
   <!-- Párrafo 2 -->
   <p class="parrafo">
-    La "Acción en el Mundo" implica un compromiso, utilizando el arte como herramienta para 
-    el cambio, la reflexión colectiva y la mejora de las condiciones de vida. Estas obras se 
-    caracterizan por su capacidad de generar conexiones, colaborar con otros y provocar 
-    transformaciones tangibles en el espacio y las personas.
-  </p>
+    En este sentido, la creación artística se expande más allá de la contemplación y persigue un impacto tangible. Ya no basta con la representación simbólica de las problemáticas sociales; se exige la intervención en el espacio, la participación de la comunidad y la colaboración con otros actores. El arte se concibe como una fuerza viva, capaz de modificar realidades y aportar soluciones prácticas. Bajo esta premisa, se han trazado estas cuatro modalidades de Arte como accion en el mundo: 
 <br>
 <br>
 
-<!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
-<div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
-<div class="button-container">
-    <a href="/ES/subrepticio.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
-            <p class="title">Lo Subrepticio</p>
-            <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
-        </div>
-    </a>
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario">
@@ -46,6 +30,16 @@ breadcrumbs: >
             <p class="subtitle">Proyectos que unen comunidades a través del arte.</p>
         </div>
     </a>
+
+    <div class="button-container">
+    <a href="/ES/subrepticio.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
+            <p class="title">Lo Subrepticio</p>
+            <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
+        </div>
+    </a>
+    
     <a href="/ES/docencia.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-docencia.gif" alt="Docencia y Talleres">
