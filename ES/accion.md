@@ -10,6 +10,7 @@ breadcrumbs: >
 
   <!-- Título principal -->
   <div class="titulo">Acción en el Mundo</div>
+  <div class="subtitulo">Actividades de impacto en la sociedad</div>
 
   <!-- Párrafo 1 -->
   <p class="parrafo">
@@ -36,31 +37,31 @@ breadcrumbs: >
 <div class="button-container">
     <a href="/ES/subrepticio.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/images/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
+            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
             <p class="title">Lo Subrepticio</p>
             <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
         </div>
     </a>
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/images/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario">
+            <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario">
             <p class="title">Lo Comunitario</p>
             <p class="subtitle">Proyectos que unen comunidades a través del arte.</p>
         </div>
     </a>
     <a href="/ES/docencia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/images/boton-docencia.gif" alt="Docencia y Talleres">
+            <img src="/assets/img/boton-docencia.gif" alt="Docencia y Talleres">
             <p class="title">Docencia y Talleres</p>
             <p class="subtitle">Compartiendo conocimientos artísticos y creativos.</p>
         </div>
     </a>
     <a href="/ES/servicios.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/images/boton-servicios.gif" alt="Servicios">
+            <img src="/assets/img/boton-servicios.gif" alt="Servicios">
             <p class="title">Servicios</p>
             <p class="subtitle">Restauración, encargos y ambientaciones artísticas.</p>
         </div>
     </a>
 </div>
-<br><br>
+<br>
