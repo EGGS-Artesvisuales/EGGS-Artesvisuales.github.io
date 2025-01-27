@@ -38,3 +38,122 @@ breadcrumbs: >
 <br>
 
 <div class="subtitulo">Dinamicas artisticas para la introspección y bienestar:</div>
+
+
+
+<!-- AUTORRETRATO -->
+<a href="/ES/autorretrato.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-autorretrato.gif" alt="autorretrato">
+    <p class="title">Autorretrato</p>
+    <p class="subtitle">Explora tu propia identidad a través del arte.</p>
+  </div>
+</a>
+
+<!-- DIARIO DE IMÁGENES DE RECUERDOS -->
+<a href="/ES/diario-de-imagenes-de-recuerdos.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-diario-de-imagenes-de-recuerdos.gif" alt="Diario de Imágenes de Recuerdos">
+    <p class="title">Diario de Imágenes de Recuerdos</p>
+    <p class="subtitle">Reflexiona sobre el pasado mediante la creación de imágenes.</p>
+  </div>
+</a>
+
+<!-- DIARIO DE IMÁGENES ONÍRICAS -->
+<a href="/ES/diario-de-imagenes-oniricas.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-diario-de-imagenes-oniricas.gif" alt="Diario de Imágenes Oníricas">
+    <p class="title">Diario de Imágenes Oníricas</p>
+    <p class="subtitle">Representa visualmente tus sueños y su simbolismo.</p>
+  </div>
+</a>
+
+<!-- DIARIO DE SUEÑO -->
+<a href="/ES/diario-de-sueno.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-diario-de-sueno.gif" alt="Diario de Sueño">
+    <p class="title">Diario de Sueño</p>
+    <p class="subtitle">Registra y analiza tus sueños cada mañana.</p>
+  </div>
+</a>
+
+<!-- DIARIOS DE ANHELOS -->
+<a href="/ES/diarios-de-anhelos.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-diarios-de-anhelos.gif" alt="Diarios de Anhelos">
+    <p class="title">Diarios de Anhelos</p>
+    <p class="subtitle">Da forma a tus deseos y metas a través de la creatividad.</p>
+  </div>
+</a>
+
+<!-- DINÁMICAS SENSORIALES -->
+<a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-dinamicas-sensoriales.gif" alt="Dinámicas Sensoriales">
+    <p class="title">Dinámicas Sensoriales</p>
+    <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
+  </div>
+</a>
+
+<!-- LA MÁSCARA Y EL ALTER EGO -->
+<a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-la-mascara-y-el-alter-ego.gif" alt="La Máscara y el Alter Ego">
+    <p class="title">La Máscara y el Alter Ego</p>
+    <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
+  </div>
+</a>
+
+<!-- MANDALA Y ZENTANGLE -->
+<a href="/ES/mandala-y-zentangle.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-mandala-y-zentangle.gif" alt="Mandala y Zentangle">
+    <p class="title">Mandala y Zentangle</p>
+    <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
+  </div>
+</a>
+
+<!-- QUEMA DEL MONO -->
+<a href="/ES/quema-del-mono.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-quema-del-mono.gif" alt="Quema del Mono">
+    <p class="title">Quema del Mono</p>
+    <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
+  </div>
+</a>
+
+<!-- SILUETA DEL EXTERIOR INTERIOR -->
+<a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-silueta-del-exterior-interior.gif" alt="Silueta del Exterior Interior">
+    <p class="title">Silueta del Exterior Interior</p>
+    <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
+  </div>
+</a>
+
+<!-- SIMULACROS Y PSICOMAGIA -->
+<a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-simulacros-y-psicomagia.gif" alt="Simulacros y Psicomagia">
+    <p class="title">Simulacros y Psicomagia</p>
+    <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
+  </div>
+</a>
+
+<!-- SINCRONIZACIÓN GRAFO CINÉTICA -->
+<a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
+    <p class="title">Sincronización Grafo Cinética</p>
+    <p class="subtitle">Conecta movimiento, trazo y ritmo en tus creaciones.</p>
+  </div>
+</a>
+
+<!-- SUPERFICIES PAREIDÓLICAS Y OTROS ELEMENTOS DE PROYECCIÓN -->
+<a href="/ES/superficies-pareidolicas.html" class="fancy-button">
+  <div class="button-content">
+    <img src="/assets/img/boton-superficies-pareidolicas.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
+    <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
+    <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
+  </div>
+</a>
