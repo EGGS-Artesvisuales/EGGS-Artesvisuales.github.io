@@ -13,7 +13,7 @@ breadcrumbs: >
   <div class="subtitulo">Actividades de impacto en la sociedad</div>
 
   <!-- Párrafo 1 -->
-  <p class="parrafo">
+  <p class="parrafo style="margin-top:6%;">
     En esta categoría se agrupan las obras y proyectos que tienen como objetivo interactuar 
     y transformar el entorno de manera activa. Estas acciones van más allá de la creación 
     artística tradicional, buscando un impacto directo en las realidades sociales, culturales y físicas.
