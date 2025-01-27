@@ -304,41 +304,71 @@ main {
   text-indent: 1.5em; /* Sangría de la primera línea */
 }
 
-/* Párrafos */
-.parrafo {
-  font-family: var(--parrafo-font);
-  max-width: var(--content-max-width);
-  font-size: var(--parrafo-size);
-  line-height: var(--line-height);
-  color: var(--color-claro);
-  margin-bottom: var(--margin-bottom-small);
+/* ------------------------------------------------------------------
+   TITULOS, SUBTÍTULOS Y PÁRRAFOS
+------------------------------------------------------------------ */
+
+/* Títulos */
+.titulo {
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--color-destacado);
+  margin-bottom: var(--margin-bottom-medium);
+  letter-spacing: var(--spacing-tight);
+  word-wrap: break-word;
+}
+
+/* Subtítulos */
+.subtitulo {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 600;
+  color: #aaaaaa;
+  margin-bottom: var(--margin-bottom-large);
   text-indent: 1.5em; /* Sangría de la primera línea */
+  word-wrap: break-word;
 }
 
-/* Estilo para el primer párrafo */
-p.parrafo:first-of-type {
-  margin-top: 9%;
-  text-indent: 2.5em; /* Sangría específica para el primer párrafo */
-}
-
-/* Anular margen y sangría si el primer párrafo contiene una lista */
-.parrafo:first-of-type ul {
-  margin-top: 0 !important; /* Elimina el margen superior */
-}
-
-/* Listas dentro de .parrafo */
+/* Estilos base para .parrafo y ul dentro de .parrafo */
+.parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
-  padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
-  margin-bottom: var(--margin-bottom-small); /* Se deja solo una vez */
+  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
 }
+
+/* Ajustes específicos de párrafos */
+.parrafo {
+  margin-bottom: var(--margin-bottom-small);
+  text-indent: 1.5em; /* Sangría de la primera línea */
+}
+
+/* Ajuste para el primer párrafo */
+p.parrafo:first-of-type {
+  margin-top: 9%;
+  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
+}
+
+/* Anular margen y sangría en el primer párrafo si contiene una lista */
+p.parrafo:first-of-type ul {
+  margin-top: 0 !important;
+  text-indent: 0 !important;
+}
+
+/* Listas dentro de .parrafo */
+.parrafo ul {
+  padding-left: 3em;
+  margin-bottom: var(--margin-bottom-small);
+}
+
 .parrafo ul li {
-  margin-bottom: 0.5em; /* Espaciado entre elementos de la lista */
+  margin-bottom: 0.5em;
 }
+
 
 /* ------------------------------------------------------------------
    BOTONES "FANCY BUTTONS"
