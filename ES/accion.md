@@ -31,9 +31,6 @@ breadcrumbs: >
 
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
 <div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
-
-<br>
-
 <div class="button-container">
     <a href="/ES/subrepticio.html" class="fancy-button">
         <div class="button-content">
