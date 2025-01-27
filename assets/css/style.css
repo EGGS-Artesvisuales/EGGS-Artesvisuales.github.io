@@ -10,8 +10,8 @@
 }
 :root {
   /* Tipografías */
-  --titulo-font: 'Arial', sans-serif;
-  --subtitulo-font: 'Arial', sans-serif;
+  --titulo-font: 'Georgia', serif;
+  --subtitulo-font: 'Georgia', serif;
   --parrafo-font: 'Georgia', serif;
     
   /* Colores base */
