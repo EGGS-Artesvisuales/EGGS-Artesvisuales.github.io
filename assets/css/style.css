@@ -327,7 +327,6 @@ main {
 }
 .parrafo ul {
   padding-left: 3em; /* Ajuste de espacio antes de las viñetas */
-  list-style: disc; /* Estilo de viñetas */
   margin-bottom: var(--margin-bottom-small);
 }
 
