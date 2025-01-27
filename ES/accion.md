@@ -28,18 +28,19 @@ breadcrumbs: >
 <!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
 <div class="subtitulo">En este apartado se clasifican cuatro modalidades:</div>
 <div class="button-container">
-    <a href="/ES/subrepticio.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
-            <p class="title">Lo Subrepticio</p>
-            <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
-        </div>
-    </a>
+   
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario">
             <p class="title">Lo Comunitario</p>
             <p class="subtitle">Proyectos que unen comunidades a través del arte.</p>
+        </div>
+    </a>
+     <a href="/ES/subrepticio.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio">
+            <p class="title">Lo Subrepticio</p>
+            <p class="subtitle">Acciones discretas pero con impacto significativo.</p>
         </div>
     </a>
     <a href="/ES/docencia.html" class="fancy-button">
