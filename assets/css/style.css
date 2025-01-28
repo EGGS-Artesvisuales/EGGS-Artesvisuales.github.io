@@ -577,7 +577,9 @@ footer {
 /* Estilo del botón de donación */
 
 .footer-donation {
-  margin-top: 20px;
+  margin-top: 10px; /* Margen superior más delgado */
+  text-align: center; /* Centra el botón en el contenedor */
+  display: inline-block; /* Adapta el tamaño del contenedor al botón */
 }
 
 .pp-donation-button {
@@ -590,7 +592,7 @@ footer {
   font-weight: bold;
   cursor: pointer;
   max-width: 250px; /* Ancho máximo del botón */
-  width: 100%; /* Se ajusta al contenedor si es menor que el máximo */
+  width: 100%; /* Ajusta el botón al contenedor */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
