@@ -589,6 +589,8 @@ footer {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+  max-width: 250px; /* Ancho máximo del botón */
+  width: 100%; /* Se ajusta al contenedor si es menor que el máximo */
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
