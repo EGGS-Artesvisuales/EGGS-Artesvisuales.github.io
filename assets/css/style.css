@@ -524,7 +524,7 @@ p.parrafo:first-of-type ul {
 footer {
   background-color: var(--color-medio-oscuro);
   color: #cecece;
-  margin-top: 8%;
+  margin-top: 3%;
   padding: 20px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
@@ -581,7 +581,7 @@ footer {
     text-align: center;
     border: none;
     border-radius: 0.25rem; /* Más redondeado */
-    width: 11%; /* Tamaño proporcional al contenedor */
+    width: 100%; /* Tamaño proporcional al contenedor */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
     font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
@@ -591,7 +591,7 @@ footer {
     line-height: 1.2rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
-    padding: 8px; /* Relleno interno */
+    padding: 2px; /* Relleno interno */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -606,7 +606,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.5rem; /* Mayor espacio superior */
+    margin-top: 1rem; /* Mayor espacio superior */
 }
 
 /* ------------------------------------------------------------------
