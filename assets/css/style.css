@@ -609,7 +609,7 @@ ________________________________________________________________________________
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 162px; /* Tamaño del contenedor */
+    width: 173px; /* Tamaño del contenedor */
     margin: 0.3rem auto 0 auto; /* Espaciado superior y centrado */
 }
 
