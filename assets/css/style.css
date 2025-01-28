@@ -600,6 +600,7 @@ ________________________________________________________________________________
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+   justify-content: center; /* 
   width: auto; /* Ajusta el ancho al contenido */
   max-width: none; /* Elimina cualquier restricción de ancho */
   transition: background-color 0.3s ease, transform 0.3s ease;
