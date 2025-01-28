@@ -574,44 +574,6 @@ footer {
   filter: brightness(1.2);
 }
 
-/* _____________________________________________________________________________
-
-Estilo del botón de donación 
-________________________________________________________________________________________ */
-
-/* Botón PayPal */
-.pp-donation-button {
-    text-align: center;
-    border: none;
-    border-radius: 0.25rem; /* Más redondeado */
-    width: 100%; /* Ajusta al ancho del contenedor */
-    height: auto; /* Ajusta la altura automáticamente */
-    font-weight: bold;
-    background-color: #FFD140; /* Amarillo PayPal */
-    color: #333; /* Texto oscuro */
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.8rem; /* Texto estándar */
-    line-height: 1rem;
-    cursor: pointer;
-    padding: 10px; 
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-/* Hover para el botón */
-.pp-donation-button:hover {
-    transform: scale(1.05); /* Efecto de agrandamiento */
-    background-color: #f7c948; /* Amarillo más claro */
-}
-
-/* Contenedor del botón */
-.footer-donation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 173px; /* Tamaño del contenedor */
-    }
-
-
 
 /* ------------------------------------------------------------------
    CONTENEDOR DEL DIAGRAMA (MERMAID)
