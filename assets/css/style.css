@@ -577,14 +577,14 @@ footer {
 /* Estilo del botón de donación */
 
 .footer-donation {
-  margin-top: 10px; /* Margen superior más delgado */
+  margin-top: 5px; /* Margen superior más delgado */
   text-align: center; /* Centra el botón en el contenedor */
   display: inline-block; /* Adapta el tamaño del contenedor al botón */
 }
 
 .pp-donation-button {
   background-color: #ffcc00; /* Amarillo para destacar */
-  color: #222;
+  color: #333;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
