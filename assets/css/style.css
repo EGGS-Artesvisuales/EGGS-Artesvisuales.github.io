@@ -586,7 +586,7 @@ ________________________________________________________________________________
     border-radius: 0.25rem; /* Más redondeado */
     width: 100%; /* Ajusta al ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
-    font-weight: normal;
+    font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
     color: #333; /* Texto oscuro */
     font-family: "Helvetica Neue", Arial, sans-serif;
