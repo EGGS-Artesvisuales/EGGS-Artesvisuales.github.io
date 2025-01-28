@@ -588,7 +588,7 @@ ________________________________________________________________________________
     height: auto; /* Ajusta la altura automáticamente */
     font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
-    color: #000000; /* Texto oscuro */
+    color: #444; /* Texto oscuro */
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1rem; /* Texto estándar */
     line-height: 1.25rem;
@@ -609,7 +609,7 @@ ________________________________________________________________________________
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px; /* Tamaño del contenedor */
+    width: 200px; /* Tamaño del contenedor */
     margin: 1rem auto 0 auto; /* Espaciado superior y centrado */
 }
 
