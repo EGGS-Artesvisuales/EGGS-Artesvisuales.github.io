@@ -50,38 +50,11 @@ breadcrumbs: >
   </a>
 
   <!-- DIARIO DE IMÁGENES DE RECUERDOS -->
-  <a href="/ES/diario-de-imagenes-de-recuerdos.html" class="fancy-button">
+  <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-diario-de-imagenes-de-recuerdos.gif" alt="Diario de Imágenes de Recuerdos">
-      <p class="title">Diario de Imágenes de Recuerdos</p>
-      <p class="subtitle">Reflexiona sobre el pasado mediante la creación de imágenes.</p>
-    </div>
-  </a>
-
-  <!-- DIARIO DE IMÁGENES ONÍRICAS -->
-  <a href="/ES/diario-de-imagenes-oniricas.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-diario-de-imagenes-oniricas.gif" alt="Diario de Imágenes Oníricas">
-      <p class="title">Diario de Imágenes Oníricas</p>
-      <p class="subtitle">Representa visualmente tus sueños y su simbolismo.</p>
-    </div>
-  </a>
-
-  <!-- DIARIO DE SUEÑO -->
-  <a href="/ES/diario-de-sueno.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-diario-de-sueno.gif" alt="Diario de Sueño">
-      <p class="title">Diario de Sueño</p>
-      <p class="subtitle">Registra y analiza tus sueños cada mañana.</p>
-    </div>
-  </a>
-
-  <!-- DIARIOS DE ANHELOS -->
-  <a href="/ES/diarios-de-anhelos.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-diarios-de-anhelos.gif" alt="Diarios de Anhelos">
-      <p class="title">Diarios de Anhelos</p>
-      <p class="subtitle">Da forma a tus deseos y metas a través de la creatividad.</p>
+      <img src="/assets/img/boton-diario-y-bitacoras.gif" alt="Bitácoras y diarios">
+      <p class="title">Bitácoras y diarios</p>
+      <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
     </div>
   </a>
 
@@ -144,7 +117,7 @@ breadcrumbs: >
     <div class="button-content">
       <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
       <p class="title">Sincronización Grafo Cinética</p>
-      <p class="subtitle">Conecta movimiento, trazo y ritmo en tus creaciones.</p>
+      <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación</p>
     </div>
   </a>
 
