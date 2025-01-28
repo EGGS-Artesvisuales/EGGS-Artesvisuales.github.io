@@ -584,7 +584,7 @@ ________________________________________________________________________________
     text-align: center;
     border: none;
     border-radius: 0.25rem; /* Más redondeado */
-    width: 100%; /* Ajusta al ancho del contenedor */
+    width: 106%; /* Ajusta al ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
     font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
@@ -609,7 +609,7 @@ ________________________________________________________________________________
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px; /* Tamaño del contenedor */
+    width: 180px; /* Tamaño del contenedor */
     margin: 1rem auto 0 auto; /* Espaciado superior y centrado */
 }
 
