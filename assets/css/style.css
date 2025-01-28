@@ -593,8 +593,7 @@ ________________________________________________________________________________
     font-size: 0.8rem; /* Texto estándar */
     line-height: 1rem;
     cursor: pointer;
-    margin: 0; /* Sin margen adicional */
-    padding: 10px; /* Sin relleno */
+    padding: 10px; 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -610,8 +609,7 @@ ________________________________________________________________________________
     justify-content: center;
     align-items: center;
     width: 173px; /* Tamaño del contenedor */
-    margin: 0rem auto 0 auto; /* Espaciado superior y centrado */
-}
+    }
 
 
 
