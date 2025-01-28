@@ -594,7 +594,7 @@ ________________________________________________________________________________
     line-height: 1.25rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
-    padding: 0; /* Sin relleno */
+    padding: 10px; /* Sin relleno */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
