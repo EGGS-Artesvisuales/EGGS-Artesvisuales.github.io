@@ -579,37 +579,40 @@ footer {
 Estilo del botón de donación 
 ________________________________________________________________________________________ */
 
-/* Contenedor del botón de donación */
-.footer-donation {
-  margin-top: 0; /* Elimina el margen superior */
-  margin-bottom: 0; /* Elimina el margen inferior */
-  padding: 0; /* Elimina cualquier relleno adicional */
-    max-width: 200px; /* Elimina cualquier restricción de ancho */
-  text-align: center; /* Centra el botón */
-  display: flex; /* Para un ajuste dinámico */
-  justify-content: center; /* Centra el botón horizontalmente */
-}
-
-/* Estilo del botón de donación */
+/* Botón PayPal */
 .pp-donation-button {
-  background-color: #ffcc00; /* Amarillo para destacar */
-  color: #333;
-  border: none; /* Elimina el borde */
-  border-radius: 5px; /* Esquinas redondeadas */
-  padding: 8px 15px; /* Reduce el espacio interno */
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-   justify-content: center; /* 
-  width: auto; /* Ajusta el ancho al contenido */
-  max-width: none; /* Elimina cualquier restricción de ancho */
-  transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem; /* Más redondeado */
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    font-weight: bold;
+    background-color: #FFD140; /* Amarillo PayPal */
+    color: #000000; /* Texto oscuro */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem; /* Texto estándar */
+    line-height: 1.25rem;
+    cursor: pointer;
+    margin: 0; /* Sin margen adicional */
+    padding: 0; /* Sin relleno */
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* Hover para el botón */
 .pp-donation-button:hover {
-  background-color: #ffc107; /* Tono más oscuro al pasar el mouse */
-  transform: scale(1.05); /* Efecto hover */
+    transform: scale(1.05); /* Efecto de agrandamiento */
+    background-color: #f7c948; /* Amarillo más claro */
 }
+
+/* Contenedor del botón */
+.footer-donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Tamaño del contenedor */
+    margin: 1rem auto 0 auto; /* Espaciado superior y centrado */
+}
+
 
 /* ------------------------------------------------------------------
    CONTENEDOR DEL DIAGRAMA (MERMAID)
