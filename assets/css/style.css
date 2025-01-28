@@ -573,24 +573,32 @@ footer {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
+
 /* ------------------------------------------------------------------
-  estilos del boton paypal footer
+  Estilos del botón PayPal
 ------------------------------------------------------------------ */
 .pp-donation-button {
     text-align: center;
     border: none;
-    border-radius: 0.1rem;
-    width: 100%; /* Tamaño pequeño proporcional */
+    border-radius: 0.25rem; /* Más redondeado */
+    width: 11%; /* Tamaño proporcional al contenedor */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
     font-weight: bold;
-    background-color: #222;
-    color: #6699ff;
+    background-color: #FFD140; /* Amarillo PayPal */
+    color: #000000; /* Texto oscuro */
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem; /* Texto pequeño */
     line-height: 1.2rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
-    padding: 2px; /* Relleno interno */
+    padding: 8px; /* Relleno interno */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover para el botón */
+.pp-donation-button:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento */
+    background-color: #f7c948; /* Amarillo más claro */
 }
 
 /* Contenedor del botón */
@@ -598,7 +606,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem; /* Espacio superior */
+    margin-top: 1.5rem; /* Mayor espacio superior */
 }
 
 /* ------------------------------------------------------------------
