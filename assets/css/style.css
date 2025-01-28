@@ -594,7 +594,7 @@ ________________________________________________________________________________
     line-height: 1.25rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
-    padding: 12px; /* Sin relleno */
+    padding: 10px; /* Sin relleno */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -609,7 +609,7 @@ ________________________________________________________________________________
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px; /* Tamaño del contenedor */
+    width: 180px; /* Tamaño del contenedor */
     margin: 0.3rem auto 0 auto; /* Espaciado superior y centrado */
 }
 
