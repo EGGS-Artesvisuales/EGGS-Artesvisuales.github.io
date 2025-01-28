@@ -573,6 +573,33 @@ footer {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
+/* ------------------------------------------------------------------
+  estilos del boton paypal footer
+------------------------------------------------------------------ */
+.pp-donation-button {
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem;
+    width: 11%; /* Tamaño pequeño proporcional */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+    font-weight: bold;
+    background-color: #FFD140;
+    color: #000000;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.8rem; /* Texto pequeño */
+    line-height: 1.2rem;
+    cursor: pointer;
+    margin: 0; /* Sin margen adicional */
+    padding: 8px; /* Relleno interno */
+}
+
+/* Contenedor del botón */
+.footer-donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espacio superior */
+}
 
 /* ------------------------------------------------------------------
    CONTENEDOR DEL DIAGRAMA (MERMAID)
