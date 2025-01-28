@@ -285,7 +285,7 @@ ___________________________ */
 
 .nav-logo img.logo-menu {
     height: 100%; /* Ajusta la altura al contenedor padre */
-    max-height: 50px; /* Limita el tamaño máximo (opcional) */
+    max-height: 33px; /* Limita el tamaño máximo (opcional) */
     width: auto; /* Mantiene la proporción del logo */
     display: block; /* Asegura que la imagen se comporte correctamente */
     object-fit: contain; /* Asegura que se vea bien dentro del contenedor */
