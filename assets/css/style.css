@@ -286,13 +286,13 @@ ___________________________ */
 .nav-logo {
     display: flex;
     align-items: center;
-    padding: 10px; /* Espaciado opcional */
+    padding: 3px; /* Espaciado opcional */
 }
 
 .nav-logo img.logo-menu {
-    height: 100%; /* Ajusta según necesidad */
+    height: 20px; /* Ajusta según necesidad */
     width: auto;
-    max-height: 50px; /* Evita que sea demasiado grande */
+    max-height: 30px; /* Evita que sea demasiado grande */
 }
 
 
