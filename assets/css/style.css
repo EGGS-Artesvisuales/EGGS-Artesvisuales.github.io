@@ -565,8 +565,8 @@ footer {
   gap: 15px;
 }
 .footer-social a img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   transition: transform 0.3s ease;
 }
 .footer-social a img:hover {
@@ -584,14 +584,14 @@ ________________________________________________________________________________
     text-align: center;
     border: none;
     border-radius: 0.25rem; /* Más redondeado */
-    width: 102%; /* Ajusta al ancho del contenedor */
+    width: 100%; /* Ajusta al ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
-    font-weight: bold;
+    font-weight: normal;
     background-color: #FFD140; /* Amarillo PayPal */
     color: #333; /* Texto oscuro */
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem; /* Texto estándar */
-    line-height: 1.25rem;
+    line-height: 1rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
     padding: 10px; /* Sin relleno */
@@ -609,7 +609,7 @@ ________________________________________________________________________________
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px; /* Tamaño del contenedor */
+    width: 162px; /* Tamaño del contenedor */
     margin: 0.3rem auto 0 auto; /* Espaciado superior y centrado */
 }
 
