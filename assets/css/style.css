@@ -579,18 +579,18 @@ footer {
 .pp-donation-button {
     text-align: center;
     border: none;
-    border-radius: 0.25rem;
-    width: 99%; /* Tamaño pequeño proporcional */
+    border-radius: 0.1rem;
+    width: 100%; /* Tamaño pequeño proporcional */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
     font-weight: bold;
-    background-color: #91cc00;
+    background-color: #222;
     color: #6699ff;
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem; /* Texto pequeño */
     line-height: 1.2rem;
     cursor: pointer;
     margin: 0; /* Sin margen adicional */
-    padding: 8px; /* Relleno interno */
+    padding: 2px; /* Relleno interno */
 }
 
 /* Contenedor del botón */
@@ -598,7 +598,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem; /* Espacio superior */
+    margin-top: 1rem; /* Espacio superior */
 }
 
 /* ------------------------------------------------------------------
