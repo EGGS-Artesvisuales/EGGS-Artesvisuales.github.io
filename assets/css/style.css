@@ -277,6 +277,24 @@ main {
   padding-right: 20px;
   text-align: justify;
 }
+/* __________________________________________________________
+
+logo nav menu
+___________________________ */
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Espaciado opcional */
+}
+
+.nav-logo img.logo-menu {
+    height: 40px; /* Ajusta según necesidad */
+    width: auto;
+    max-height: 50px; /* Evita que sea demasiado grande */
+}
+
 
 /* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
