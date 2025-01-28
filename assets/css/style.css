@@ -581,8 +581,8 @@ footer {
     text-align: center;
     border: none;
     border-radius: 0.25rem; /* Más redondeado */
-    width: 100%; /* Tamaño proporcional al contenedor */
-    height: auto; /* Ajusta la altura automáticamente según el ancho */
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
     font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
     color: #333; /* Texto oscuro */
@@ -590,8 +590,8 @@ footer {
     font-size: 0.8rem; /* Texto pequeño */
     line-height: 1.2rem;
     cursor: pointer;
-    margin: 0; /* Sin margen adicional */
-    padding: 2px; /* Relleno interno */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Elimina relleno interno */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -606,8 +606,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem; /* Mayor espacio superior */
+    width: 100px; /* Ancho fijo del contenedor */
+    margin: 0; /* Sin márgenes */
 }
+
 
 /* ------------------------------------------------------------------
    CONTENEDOR DEL DIAGRAMA (MERMAID)
