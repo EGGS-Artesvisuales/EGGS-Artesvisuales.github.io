@@ -585,7 +585,7 @@ footer {
     height: auto; /* Ajusta la altura automáticamente según el ancho */
     font-weight: bold;
     background-color: #FFD140; /* Amarillo PayPal */
-    color: #000000; /* Texto oscuro */
+    color: #333; /* Texto oscuro */
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 0.8rem; /* Texto pequeño */
     line-height: 1.2rem;
