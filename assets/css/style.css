@@ -584,6 +584,7 @@ ________________________________________________________________________________
   margin-top: 0; /* Elimina el margen superior */
   margin-bottom: 0; /* Elimina el margen inferior */
   padding: 0; /* Elimina cualquier relleno adicional */
+    max-width: 200px; /* Elimina cualquier restricción de ancho */
   text-align: center; /* Centra el botón */
   display: flex; /* Para un ajuste dinámico */
   justify-content: center; /* Centra el botón horizontalmente */
