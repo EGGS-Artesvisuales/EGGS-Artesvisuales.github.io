@@ -289,7 +289,7 @@ ___________________________ */
    }
 
 .nav-logo img.logo-menu {
-    height: 30px; /* Ajusta según necesidad */
+    height: 40px; /* Ajusta según necesidad */
     width: auto;
     max-height: 15px; /* Evita que sea demasiado grande */
 }
