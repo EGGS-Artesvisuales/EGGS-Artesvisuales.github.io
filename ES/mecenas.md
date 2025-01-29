@@ -5,7 +5,7 @@ description: "Explora proyectos en desarrollo y apoya su financiamiento."
 permalink: /ES/mecenas.html
 ---
 
-<div class="titulo">Mecenas de EGGS-Studio</div>
+<div class="titulo">Conviértete en mecenas del Arte actual</div>
 
 <div class="subtitulo">Contribuye al desarrollo de proyectos artísticos y culturales.</div>
 
