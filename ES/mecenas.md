@@ -24,13 +24,7 @@ permalink: /ES/mecenas.html
 <br>
 
 <!-- Proyecto Destacado -->
-<div class="proyecto">
-  <div class="titulo">Título del Proyecto</div>
-  <div class="subtitulo">Subtítulo del Proyecto</div>
-  <p class="parrafo">
-    Aquí puedes escribir una breve descripción del proyecto, explicando su propósito, impacto y cómo la comunidad puede contribuir.
-  </p>
-  
+<div class="subtitulo2">Propuestas;</div>
   <!-- Video del Proyecto -->
   <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
