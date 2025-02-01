@@ -39,9 +39,11 @@ permalink: /ES/mecenas.html
     <p class="parrafo fecha">Fecha límite: 31 de diciembre de 2025</p>
    </div>
 </div>
-   <!-- Botón de donación unificado -->
-<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
-  <input type="submit" value="Impulsar proyecto" class="paypal-donation-button">
+
+<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+  <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
+  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
+  <section> Con la tecnología de <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
 </form>
 
 <a href="proyectos-completados.html" class="enlace">Ver proyectos completados</a>
