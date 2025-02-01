@@ -10,23 +10,24 @@ permalink: /ES/mecenas.html
 <div class="subtitulo">Contribuye al desarrollo de proyectos artísticos y culturales.</div>
 
 <!-- Párrafo 1 -->
-<p class="parrafo" style="margin-top: 6%; text-align: center; max-width: 80%; margin-left: auto; margin-right: auto;">
+<p class="parrafo" style="margin-top: 6%;>
   Explora estas ideas en progreso; tu apoyo permite la creación de nuevas obras y experiencias artísticas.
 </p>
 
 <!-- Párrafo 2 -->
-<p class="parrafo" style="text-align: center; max-width: 80%; margin-left: auto; margin-right: auto;">
+<p class="parrafo";>
  Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. ¡Juntos podemos hacer realidad estas propuestas!
 </p>
 
-<div class="subtitulo" style="margin-top: 4%; text-align: center; max-width: 80%; margin-left: auto; margin-right: auto;">Propuestas;</div>
+<div class="subtitulo";">Propuestas;</div>
 <br>
 
-<!-- Proyecto Destacado -->
-<div class="subtitulo2" style="text-align: center; max-width: 80%; margin-left: auto; margin-right: auto;">Museo a Cielo Abierto</div>
+
   
 <!-- Video del Proyecto -->
   <div class="video-container" style="display: flex; justify-content: center; max-width: 80%; margin-left: auto; margin-right: auto;">
+    <!-- titulo proyecto -->
+    <div class="subtitulo2" style="text-align: left";>Museo a Cielo Abierto</div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
   </div>
   
