@@ -24,7 +24,7 @@ permalink: /ES/mecenas.html
 
 <!-- Buttons -->
 <div class="button-container">
-  <a href="/ES/comunitario.html" class="fancy-button">
+  <a href="/ES/musoe-cielo-abierto" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/" alt="museo a cielo abierto">
       <p class="title">museo a cielo abierto</p>
