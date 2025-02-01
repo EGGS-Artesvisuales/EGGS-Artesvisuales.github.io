@@ -12,6 +12,7 @@
     /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
+--subtitulo2-font: 'Arial', sans-serif;
   --parrafo-font: 'Georgia', serif;
     
   /* Colores base */
@@ -27,6 +28,7 @@
   /* Tamaños tipográficos */
   --titulo-size: 3rem;
   --subtitulo-size: 2rem;
+    --subtitulo2-size: 1.6rem;
   --parrafo-size: 1rem;
 
   /* Espaciado y line-height */
@@ -317,6 +319,17 @@ ___________________________ */
   font-size: var(--subtitulo-size);
   font-weight: 600;
   color: #aaaaaa;
+  margin-bottom: var(--margin-bottom-large);
+  text-indent: 1.5em; /* Sangría de la primera línea */
+  word-wrap: break-word;
+}
+
+/* Subtítulos secundarios */
+.subtitulo2 {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 450;
+  color: #fff;
   margin-bottom: var(--margin-bottom-large);
   text-indent: 1.5em; /* Sangría de la primera línea */
   word-wrap: break-word;
