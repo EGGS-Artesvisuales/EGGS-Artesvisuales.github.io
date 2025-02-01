@@ -25,10 +25,8 @@ permalink: /ES/mecenas.html
 
 
 
-<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" >
   <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
-  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-  <section> Con la tecnología de <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
 </form>
 
 <a href="proyectos-completados.html" class="enlace">Ver proyectos completados</a>
