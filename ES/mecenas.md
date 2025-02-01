@@ -24,7 +24,7 @@ permalink: /ES/mecenas.html
 <br>
 
 <div class="proyecto-container">
-  <div class="proyecto" data-meta="10000000" data-recaudado="4000000">
+  <div class="proyecto" data-meta="10000000" data-recaudado="9000000">
     <h3>Murales Comunitarios 2025</h3>
     <p class="parrafo">Un proyecto de intervención artística en espacios públicos, en colaboración con comunidades locales.</p>
     <img src="/assets/img/murales-comunitarios.jpg" alt="Murales Comunitarios">
