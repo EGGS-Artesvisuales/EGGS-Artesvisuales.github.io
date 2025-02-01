@@ -26,6 +26,7 @@ permalink: /ES/mecenas.html
 <div class="subtitulo2" style="text-align: left;">
   Museo a Cielo Abierto
 </div>
+<br>
   
 <!-- Video del Proyecto -->
 <div class="video-container" style="display: flex; justify-content: center; max-width: 80%; margin: 0 auto;">
