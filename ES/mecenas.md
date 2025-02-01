@@ -11,15 +11,16 @@ permalink: /ES/mecenas.html
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top: 6%;">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aquí puedes explorar proyectos en desarrollo que necesitan financiamiento para su realización. Tu apoyo permite la creación de nuevas obras, exposiciones y experiencias artísticas que enriquecen nuestra comunidad.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explora estas ideas en progreso; tu apoyo permite la creación de nuevas obras y experiencias artísticas.
+  
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Cada proyecto tiene una meta de financiamiento. Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. Juntos podemos hacer realidad estas propuestas.
+ Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. !Juntos podemos hacer realidad estas propuestas¡.
 </p>
 
-<div class="subtitulo" style="margin-top: 4%;">Proyectos en Financiación</div>
+<div class="subtitulo" style="margin-top: 4%;">Propuestas;</div>
 <br>
 
 <div class="proyecto-container">
@@ -46,31 +47,15 @@ permalink: /ES/mecenas.html
     </form>
   </div>
 </div>
+<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="display: inline-grid; justify-items: center; align-content: start; gap: 0.5rem;">
+  <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
+  <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="cards" />
+  <section>
+    Con la tecnología de 
+    <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height: 0.875rem; vertical-align: middle;" />
+  </section>
+</form>
 
-<div class="proyecto-container">
-  <div class="proyecto" data-meta="5000000" data-recaudado="1250000">
-    <h3>Exposición "Memoria y Futuro"</h3>
-    <p class="parrafo">Una exhibición de arte contemporáneo con realidad aumentada y experiencias interactivas.</p>
-    <img src="/assets/img/memoria-futuro.jpg" alt="Exposición Memoria y Futuro">
-    <video controls>
-      <source src="/assets/videos/memoria-futuro.mp4" type="video/mp4">
-      Tu navegador no soporta videos.
-    </video>
-    <div class="barra-progreso">
-      <div class="progreso"></div>
-    </div>
-    <p class="parrafo meta">$<span class="recaudado">1,250,000</span> CLP de $5,000,000 CLP recaudados</p>
-    <p class="parrafo fecha">Fecha límite: 30 de junio de 2025</p>
-    <a href="#" class="fancy-button">Apoyar este proyecto</a>
-    <br>
-    <form action="https://www.paypal.com/donate" method="post" target="_blank">
-      <input type="hidden" name="business" value="TU-CUENTA-PAYPAL">
-      <input type="hidden" name="item_name" value="Exposición Memoria y Futuro">
-      <input type="hidden" name="currency_code" value="CLP">
-      <input type="submit" value="Donar con PayPal" class="paypal-button">
-    </form>
-  </div>
-</div>
 
 <a href="proyectos-completados.html" class="enlace">Ver proyectos completados</a>
 <br><br>
