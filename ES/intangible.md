@@ -12,7 +12,7 @@ breadcrumbs: >
 <div class="titulo">Lo intangible</div>
 
 <!-- subtitulo -->
-<div class="subtitulo">Representación del mundo inmanterial</div>
+<div class="subtitulo">Representación del mundo inmaterial</div>
 
 <!-- Párrafo introductorio -->
 <p class="parrafo">
