@@ -37,18 +37,22 @@ permalink: /ES/mecenas.html
     </div>
     <p class="parrafo meta">$<span class="recaudado">4,000,000</span> CLP de $10,000,000 CLP recaudados</p>
     <p class="parrafo fecha">Fecha límite: 31 de diciembre de 2025</p>
-    <a href="#" class="fancy-button">Apoyar este proyecto</a>
-    <br>
+   <!-- Botón de donación unificado -->
+<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" class="donation-button" style="display: inline-grid; justify-items: center; align-content: start; gap: 0.5rem;">
+  <!-- Botón estilizado que luce como el 'fancy-button' -->
+  <input type="submit" value="Apoyar este proyecto" class="fancy-button" />
+  <!-- Información complementaria de PayPal -->
+  <div class="paypal-info" style="text-align: center;">
+    <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="Tarjetas" />
+    <div>
+      Con la tecnología de 
+      <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height: 0.875rem; vertical-align: middle;" />
+    </div>
+  </div>
+</form>
    </div>
 </div>
-<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="display: inline-grid; justify-items: center; align-content: start; gap: 0.5rem;">
-  <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
-  <img src="https://www.paypalobjects.com/images/Debit_Credit.svg" alt="cards" />
-  <section>
-    Con la tecnología de 
-    <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height: 0.875rem; vertical-align: middle;" />
-  </section>
-</form>
+
 
 
 <a href="proyectos-completados.html" class="enlace">Ver proyectos completados</a>
