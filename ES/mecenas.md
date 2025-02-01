@@ -17,7 +17,7 @@ permalink: /ES/mecenas.html
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
- Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. !Juntos podemos hacer realidad estas propuestas¡.
+ Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. ¡Juntos podemos hacer realidad estas propuestas!
 </p>
 
 <div class="subtitulo" style="margin-top: 4%;">Propuestas;</div>
@@ -39,13 +39,7 @@ permalink: /ES/mecenas.html
     <p class="parrafo fecha">Fecha límite: 31 de diciembre de 2025</p>
     <a href="#" class="fancy-button">Apoyar este proyecto</a>
     <br>
-    <form action="https://www.paypal.com/donate" method="post" target="_blank">
-      <input type="hidden" name="business" value="TU-CUENTA-PAYPAL">
-      <input type="hidden" name="item_name" value="Murales Comunitarios 2025">
-      <input type="hidden" name="currency_code" value="CLP">
-      <input type="submit" value="Donar con PayPal" class="paypal-button">
-    </form>
-  </div>
+   </div>
 </div>
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="display: inline-grid; justify-items: center; align-content: start; gap: 0.5rem;">
   <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
