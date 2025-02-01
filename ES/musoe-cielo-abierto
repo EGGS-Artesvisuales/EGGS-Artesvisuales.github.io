@@ -5,29 +5,22 @@ description: "Apoya el financiamiento del proyecto muralista."
 permalink: /ES/musoe-cielo-abierto.html
 ---
 
-<div class="titulo">Conviértete en mecenas del Arte actual</div>
+<div class="titulo">Musoe a Cielo abierto</div>
 
-<div class="subtitulo">Contribuye al desarrollo de proyectos artísticos y culturales.</div>
+<div class="subtitulo">Contribuye al desarrollo Mural en la Villa A. Larraguibel.</div>
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top: 6%;">
-  Explora estas ideas en progreso; tu apoyo permite la creación de nuevas obras y experiencias artísticas.
+  Explora esta: Pintar y renovar pictoricamente las fachadas de edifios de la villa alberto larraguibel; tu apoyo permite la creación de nuevas obras el mejoramiento en la calidad de vida de la comunidad.
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. ¡Juntos podemos hacer realidad estas propuestas!
+  Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. 
+¡Juntos podemos hacer realidad estas propuestas!
 </p>
 
-<div class="subtitulo">Propuestas</div>
-<br>
 
-<!-- Título del proyecto -->
-<div class="subtitulo2" style="text-align: left;">
-  Museo a Cielo Abierto
-</div>
-<br>
-  
 <!-- Video del Proyecto -->
 <div class="video-container" style="display: flex; justify-content: center; max-width: 80%; margin: 0 auto;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
@@ -39,9 +32,10 @@ permalink: /ES/musoe-cielo-abierto.html
   <div class="barra-progreso" style="display: flex; justify-content: center; max-width: 80%; margin: 0 auto;">
     <progress id="progreso" value="33" max="100" style="width: 50%;"></progress>
   </div>
-  <p>$ 330.000 CLP recaudado</p>
-  <p>$ 3.300.000 CLP meta</p>
-  <p>33% recaudado</p>
+  <p>$ 0.000.000 CLP recaudado</p>
+  <p>$ 2.300.000 CLP meta unitaria</p>
+  <p>$ 20.300.000 CLP meta global</p>
+  <p>1% recaudado</p>
 </div>
 
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="text-align: center; max-width: 80%; margin: 0 auto;">
