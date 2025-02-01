@@ -10,7 +10,8 @@ permalink: /ES/mecenas.html
 <div class="subtitulo">Contribuye al desarrollo de proyectos artísticos y culturales.</div>
 
 <!-- Párrafo 1 -->
-<p class="parrafo" style="margin-top: 6%;>
+<p class="parrafo" style="margin-top: 6%;">
+
   Explora estas ideas en progreso; tu apoyo permite la creación de nuevas obras y experiencias artísticas.
 </p>
 
