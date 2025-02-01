@@ -26,14 +26,14 @@ permalink: /ES/mecenas.html
 <div class="button-container">
   <a href="/ES/comunitario.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-lo-comunitario-animacion.gif" alt="museo a cielo abierto">
+      <img src="/assets/img/" alt="museo a cielo abierto">
       <p class="title">museo a cielo abierto</p>
       <p class="subtitle">Muralismo de impacto en la ciudad en colaboración con comunidades.</p>
     </div>
   </a>
   <a href="/ES/subrepticio.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-lo-subrepticio.gif" alt="Remienda urbana n°7">
+      <img src="/assets/img/" alt="Remienda urbana n°7">
       <p class="title">Remienda urbana n°7</p>
       <p class="subtitle">Acciones con impacto en el mobiliario urbano.</p>
     </div>
