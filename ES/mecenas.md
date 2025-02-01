@@ -24,7 +24,7 @@ permalink: /ES/mecenas.html
 <br>
 
 <!-- Proyecto Destacado -->
-<div class="subtitulo2">Propuestas;</div>
+<div class="subtitulo2">Musoe a Cielo abierto;</div>
   <!-- Video del Proyecto -->
   <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
@@ -33,7 +33,8 @@ permalink: /ES/mecenas.html
   <!-- Barra de Progreso -->
   <div class="barra-progreso-container">
     <label for="progreso">Progreso del financiamiento:</label>
-    <progress id="progreso" value="50" max="100"></progress>
+    <progress id="progreso" value="33" max="100"></progress>
+        <p>330.000% recaudado</p>    <p>3.300.000% recaudado</p>
     <p>33% recaudado</p>
   </div>
 
