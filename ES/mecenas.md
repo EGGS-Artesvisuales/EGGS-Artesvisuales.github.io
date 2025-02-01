@@ -35,7 +35,7 @@ permalink: /ES/mecenas.html
     <div class="barra-progreso">
       <div class="progreso"></div>
     </div>
-    <p class="parrafo meta">$<span class="recaudado">4,000,000</span> CLP de $10,000,000 CLP recaudados</p>
+    <p class="parrafo meta">$<span class="recaudado">9,000,000</span> CLP de $10,000,000 CLP recaudados</p>
     <p class="parrafo fecha">Fecha límite: 31 de diciembre de 2025</p>
    <!-- Botón de donación unificado -->
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
