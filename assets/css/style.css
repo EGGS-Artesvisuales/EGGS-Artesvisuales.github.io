@@ -453,39 +453,21 @@ p.parrafo:first-of-type ul {
 /* ------------------------------
      BOTÓN DE PAGO PAYPAL PERSONALIZADO
 ------------------------------ */
-.paypal-donation-button {
-  display: block;
-  text-decoration: none;
-  background-color: #FFD140; /* Color amarillo */
-  border: none;
-  border-radius: 15px; /* Inspirado en fancy-button */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, box-shadow 0.3s ease;
-  overflow: hidden;
-  text-align: center;
-  padding: 0 2rem;
-  height: 2.625rem;
-  font-weight: bold;
-  color: #000000;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  cursor: pointer;
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-  width: auto;       /* Se ajusta al contenido */
-  max-width: 100%;
-}
 
-.paypal-donation-button:focus {
-  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), 0 4px 6px rgba(0, 0, 0, 0.1);
-  transform: translateY(-5px);
-}
-
-.paypal-donation-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
-}
-
+.pp-GX4V3R9TEHJ5G {
+    text-align:center;border:none;
+    border-radius:0.25rem;
+    min-width:11.625rem;
+    padding:0 2rem;
+    height:2.625rem;
+    font-weight:bold;
+    background-color:#FFD140;
+    color:#000000;
+    font-family:"Helvetica Neue",
+       Arial,sans-serif;
+    font-size:1rem;
+    line-height:1.25rem;
+    cursor:pointer;}
 
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
