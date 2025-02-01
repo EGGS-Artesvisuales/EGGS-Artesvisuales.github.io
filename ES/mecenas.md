@@ -34,7 +34,7 @@ permalink: /ES/mecenas.html
   <div class="barra-progreso-container">
     <label for="progreso">Progreso del financiamiento:</label>
     <progress id="progreso" value="33" max="100"></progress>
-        <p>330.000% recaudado</p>    <p>3.300.000% recaudado</p>
+        <p>$ 330.000 CLP recaudado</p>    <p>$ 3.300.000 CLP recaudado</p>
     <p>33% recaudado</p>
   </div>
 
