@@ -22,12 +22,12 @@ permalink: /ES/mecenas.html
 <div class="subtitulo";">Propuestas;</div>
 <br>
 
-
+ <!-- titulo proyecto -->
+    <div class="subtitulo2" style="text-align: left";>Museo a Cielo Abierto</div>
   
 <!-- Video del Proyecto -->
   <div class="video-container" style="display: flex; justify-content: center; max-width: 80%; margin-left: auto; margin-right: auto;">
-    <!-- titulo proyecto -->
-    <div class="subtitulo2" style="text-align: left";>Museo a Cielo Abierto</div>
+   
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
   </div>
   
