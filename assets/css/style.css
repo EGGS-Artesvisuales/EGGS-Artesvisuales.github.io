@@ -481,6 +481,31 @@ p.parrafo:first-of-type ul {
     line-height:1.25rem;
     cursor:pointer;}
 
+
+/* - - - - - - - - - - - - -- 
+
+barra de progreso
+
+ - - - - -- - - - -*/
+
+.barra-progreso {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 20px;
+  position: relative;
+}
+
+.barra-progreso-fill {
+  height: 100%;
+  background-color: #58a6ff;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+}
+
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
