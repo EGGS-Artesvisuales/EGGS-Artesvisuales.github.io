@@ -27,18 +27,18 @@ permalink: /ES/musoe-cielo-abierto.html
 </div>
   
 <!-- Barra de Progreso -->
-<div class="barra-progreso-container" style="text-align: center; max-width: 80%; margin: 0 auto;">
+<div class="barra-progreso-container" style="text-align: center; max-width: 63%; margin: 0 auto;">
   <label for="progreso">Progreso del financiamiento:</label>
-  <div class="barra-progreso" style="display: flex; justify-content: center; max-width: 80%; margin: 0 auto;">
-    <progress id="progreso" value="33" max="100" style="width: 50%;"></progress>
+  <div class="barra-progreso" style="display: flex; justify-content: center; max-width: 63%; margin: 0 auto;">
+    <progress id="progreso" value="0" max="100" style="width: 50%;"></progress>
   </div>
   <p>$ 0.000.000 CLP recaudado</p>
   <p>$ 2.300.000 CLP meta unitaria</p>
   <p>$ 20.300.000 CLP meta global</p>
-  <p>1% recaudado</p>
+  <p>000% recaudado</p>
 </div>
 
-<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="text-align: center; max-width: 80%; margin: 0 auto;">
+<form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank" style="text-align: center; max-width: 63%; margin: 0 auto;">
   <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
 </form>
 
