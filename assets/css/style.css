@@ -447,6 +447,30 @@ p.parrafo:first-of-type ul {
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
+
+
+
+/* ------------------------------
+     BOTON DE PAGO PAYPAL
+----------------------------*/
+
+/* Ejemplo en tu archivo global de estilos */
+.pp-GX4V3R9TEHJ5G {
+  text-align: center;
+  border: none;
+  border-radius: 0.25rem;
+  min-width: 11.625rem;
+  padding: 0 2rem;
+  height: 2.625rem;
+  font-weight: bold;
+  background-color: #FFD140;
+  color: #000000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
