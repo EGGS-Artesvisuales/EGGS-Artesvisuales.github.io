@@ -12,12 +12,12 @@ breadcrumbs: >
 
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
-  <div class="subtitulo" style="margin-left: 60px;">
+  <div class="subtitulo">
     Consultas, colaboraciones, preguntas. 
       </div>
 
 <br>
-<p class="subtitulo2">Completa el formulario a continuación:</p>
+<p class="subtitulo2" style="margin-left: 60px;">Completa el formulario a continuación:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
