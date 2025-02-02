@@ -17,7 +17,7 @@ breadcrumbs: >
       </div>
 
 <br>
-<p class="subtitulo2" style="margin-left: 60px;">Completa el formulario a continuación:</p>
+<p class="subtitulo2" style="margin-left: 120px;">Completa el formulario a continuación:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
