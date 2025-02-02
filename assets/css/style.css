@@ -506,6 +506,63 @@ barra de progreso
   color: white;
   font-weight: bold;
 }
+/*---------------
+productos
+--------*/
+
+
+<style>
+  .productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4%;
+  }
+  .producto {
+    width: 30%;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .subtitle {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+  .precio {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+  }
+  .boton-compra {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  .boton-compra:hover {
+    background: #b71c1c;
+  }
+
 
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
