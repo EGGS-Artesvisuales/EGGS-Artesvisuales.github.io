@@ -1,0 +1,49 @@
+---
+layout: default-es
+title: Tienda
+description: "Compra arte en EGGS-Studio."
+permalink: /ES/tienda.html
+---
+
+<div class="titulo">Tienda EGGS-Studio</div>
+
+<div class="subtitulo">Adquiere impresiones, cuadros y más.</div>
+
+<p class="parrafo" style="margin-top: 6%;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aquí puedes encontrar una selección de obras disponibles para compra. Cada pieza ha sido creada con dedicación y representa una parte de mi universo artístico.
+</p>
+
+<div class="productos-container">
+  <div class="producto">
+    <img src="/assets/img/producto1.jpg" alt="Impresión artística 1">
+    <p class="title">Impresión Artística 1</p>
+    <p class="subtitle">Impresión en papel de alta calidad. Tamaño: 30x40 cm.</p>
+    <p class="precio">$25.000 CLP</p>
+    <button class="boton-compra" onclick="comprar('producto1')">Comprar</button>
+  </div>
+
+  <div class="producto">
+    <img src="/assets/img/producto2.jpg" alt="Cuadro enmarcado">
+    <p class="title">Cuadro Enmarcado</p>
+    <p class="subtitle">Óleo sobre tela con marco de madera. Tamaño: 50x70 cm.</p>
+    <p class="precio">$120.000 CLP</p>
+    <button class="boton-compra" onclick="comprar('producto2')">Comprar</button>
+  </div>
+
+  <div class="producto">
+    <img src="/assets/img/producto3.jpg" alt="Colección de postales">
+    <p class="title">Colección de Postales</p>
+    <p class="subtitle">Set de 5 postales con diferentes obras.</p>
+    <p class="precio">$10.000 CLP</p>
+    <button class="boton-compra" onclick="comprar('producto3')">Comprar</button>
+  </div>
+</div>
+
+<a href="/ES/contacto.html" class="enlace">Consulta por más obras</a>
+
+<script>
+  function comprar(producto) {
+    alert('Redirigiendo a la pasarela de pago para ' + producto);
+    // Aquí puedes integrar con WebPay, MercadoPago o PayPal
+  }
+</script>
