@@ -33,7 +33,7 @@ permalink: /ES/mecenas.html
   </a>
   <a href="/ES/subrepticio.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/" alt="Remienda urbana n°7">
+      <img src="/assets/img/boton-remienda-urbana.gif" alt="Remienda urbana n°7">
       <p class="title">Remienda urbana n°7</p>
       <p class="subtitle">Acciones con impacto en el mobiliario urbano.</p>
     </div>
