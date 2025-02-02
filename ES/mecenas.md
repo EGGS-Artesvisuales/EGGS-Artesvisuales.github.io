@@ -26,7 +26,7 @@ permalink: /ES/mecenas.html
 <div class="button-container">
   <a href="/ES/musoe-cielo-abierto" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/" alt="museo a cielo abierto">
+      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="museo a cielo abierto">
       <p class="title">museo a cielo abierto</p>
       <p class="subtitle">Muralismo de impacto en la ciudad en colaboración con comunidades.</p>
     </div>
