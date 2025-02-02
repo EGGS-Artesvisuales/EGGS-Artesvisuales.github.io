@@ -12,7 +12,7 @@ breadcrumbs: >
 
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
-  <div class="subtitulo">
+  <div class="subtitulo" style="margin-left: 60px;">
     Consultas, colaboraciones, preguntas. 
       </div>
 
