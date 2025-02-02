@@ -1,7 +1,7 @@
 ---
 layout: es-producto
 title: "Tienda de Impresiones"
-permalink: /ES/productos/
+permalink: /ES/productos.html
 ---
 
 # Tienda de Impresiones
