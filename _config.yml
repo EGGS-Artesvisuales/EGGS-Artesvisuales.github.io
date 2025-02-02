@@ -76,3 +76,14 @@ defaults:
 
 # Si quieres un output por carpeta, algo así:
 #permalink: pretty
+
+
+# Colección de Productos (Impresiones)
+collections:
+  productos_es:
+    output: true
+    permalink: /es/productos/:path/
+  productos_en:
+    output: true
+    permalink: /en/products/:path/
+
