@@ -13,16 +13,18 @@ breadcrumbs: >
 
   <!-- Texto descriptivo, usando la clase 'parrafo' -->
   <div class="subtitulo">
-    Ponte en contacto para consultas, colaboraciones o cualquier pregunta. 
-    Completa el formulario a continuación:
-  </div>
+    Consultas, colaboraciones, preguntas. 
+      </div>
 
-<br><br>
+<br>
+<p class="subtitulo2">Completa el formulario a continuación:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
   
   <!-- Campos del formulario -->
+
+
   <label for="name">Nombre:</label>
   <input type="text" id="name" name="name" required placeholder="Tu nombre">
 
