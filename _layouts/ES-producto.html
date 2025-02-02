@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: 'EGGS-Studio | Arte visual y Murales' }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  {% include header-es.html %}
+
+  <main id="main-content">
+    <div class="product-detail">
+      <div class="product-container">
+        
+        <div class="product-images">
+          <img src="{{ page.image }}" alt="{{ page.title }}">
+        </div>
+        
+        <div class="product-info">
+          <h2 class="titulo">{{ page.title }}</h2>
+          <p class="parrafo">{{ page.description }}</p>
+          <p><strong>Precio:</strong> ${{ page.price }}</p>
+
+          <form action="#" method="POST">
+            <label for="size">Tamaño:</label>
+            <select name="size" id="size">
+              {% for size in page.sizes %}
+                <option value="{{ size }}">{{ size }}</option>
+              {% endfor %}
+            </select>
+
+            <div class="button-container">
+              <button type="submit" class="fancy-button">Comprar Ahora</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  {% include footer-es.html %}
+</body>
+</html>
