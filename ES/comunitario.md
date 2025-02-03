@@ -17,7 +17,7 @@ breadcrumbs: >
   <!-- Texto descriptivo -->
   <p class="parrafo">
     Proyectos colaborativos que unen comunidades a través del arte. En esta sección
-    destacamos el trabajo conjunto, promoviendo la inclusión y el fortalecimiento social.
+    destaca el trabajo conjunto, promoviendo la inclusión y el fortalecimiento social.
   </p>
 
 <br>
@@ -32,32 +32,21 @@ breadcrumbs: >
   <!-- Botón 1: Talleres participativos -->
   <a href="/ES/talleres-participativos.html" class="fancy-button">
     <div class="button-content">
-      <!-- Ajusta la imagen, ruta y alt según tu contenido -->
-      <img src="/assets/images/talleres-participativos.gif" alt="Talleres participativos">
-      <p class="title">Talleres participativos</p>
-      <p class="subtitle">Espacios de aprendizaje colaborativo.</p>
+      <img src="/assets/img/talleres-participativos.gif" alt="Muralismo participativo">
+      <p class="title">Muralismo participativos</p>
+      <p class="subtitle">Espacios de aprendizaje colaborativo en torno a la creación de murales para la comunidad.</p>
     </div>
   </a>
 
-  <!-- Botón 2: Murales comunitarios -->
+  <!-- Botón 2: Murales en festivales al aire libre -->
   <a href="/ES/murales-comunitarios.html" class="fancy-button">
     <div class="button-content">
-      <!-- Ajusta la imagen, ruta y alt según tu contenido -->
-      <img src="/assets/images/murales-comunitarios.gif" alt="Murales comunitarios">
-      <p class="title">Murales comunitarios</p>
-      <p class="subtitle">Creación colectiva de gran formato.</p>
+      <img src="/assets/img/murales-comunitarios.gif" alt="Murales comunitarios">
+      <p class="title">Murales para la comunidad</p>
+      <p class="subtitle">Creación de gran formato para la ciudad.</p>
     </div>
   </a>
 
-  <!-- Botón 3: Eventos y encuentros artísticos -->
-  <a href="/ES/eventos-artisticos.html" class="fancy-button">
-    <div class="button-content">
-      <!-- Ajusta la imagen, ruta y alt según tu contenido -->
-      <img src="/assets/images/eventos-artisticos.gif" alt="Eventos y encuentros artísticos">
-      <p class="title">Eventos y encuentros artísticos</p>
-      <p class="subtitle">Celebrando el arte de forma conjunta.</p>
-    </div>
-  </a>
 </div>
 <br>
 <br>
