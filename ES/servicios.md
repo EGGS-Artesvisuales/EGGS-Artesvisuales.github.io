@@ -11,7 +11,6 @@ breadcrumbs: >
 <div class="titulo">Servicios</div>
 <br>
 
-<!-- Texto descriptivo
 <p class="parrafo">
   Soluciones artísticas y técnicas para una amplia gama de necesidades. Desde restauración de obras hasta diseño visual, adaptando nuestras habilidades a proyectos específicos.
 </p>
