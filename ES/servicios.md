@@ -7,12 +7,43 @@ breadcrumbs: >
     <a href="/ES/accion.html">Acción en el Mundo</a> >
     <span>Servicios</span>
 ---
+<!-- Título principal -->
+<div class="titulo">Servicios</div>
+<br>
 
-# Servicios
+<!-- Texto descriptivo
+<p class="parrafo">
+  Soluciones artísticas y técnicas para una amplia gama de necesidades. Desde restauración de obras hasta diseño visual, adaptando nuestras habilidades a proyectos específicos.
+</p>
+<br>
+<!-- Sección de Categorías con fancy buttons -->
+<div class="subtitulo" style="margin-top: 4%;">Categorías:</div>
+<br>
+<div class="button-container">
+  <!-- Botón: Restauración -->
+  <a href="/ES/restauracion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/restauracion.gif" alt="Restauración">
+      <p class="title">Restauración</p>
+      <p class="subtitle">Conservación y recuperación de obras.</p>
+    </div>
+  </a>
 
-Ofrecemos soluciones artísticas y técnicas para una amplia gama de necesidades. Desde restauración de obras hasta diseño visual, adaptamos nuestras habilidades a proyectos específicos.
+  <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
+  <a href="/ES/encargos.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/encargos.gif" alt="Encargos y Encomiendas">
+      <p class="title">Encargos y Encomiendas</p>
+      <p class="subtitle">Pinturas y murales a medida.</p>
+    </div>
+  </a>
 
-## Tipos de Servicios:
-- Restauración de patrimonio artístico
-- Diseño de murales personalizados
-- Consultoría en gestión cultural
+  <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
+  <a href="/ES/ambientacion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/ambientacion.gif" alt="Ambientación e Instalación">
+      <p class="title">Ambientación &amp; Montajes</p>
+      <p class="subtitle">Instalaciones artísticas y decorativas.</p>
+    </div>
+  </a>
+</div>
