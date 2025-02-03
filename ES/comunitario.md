@@ -21,11 +21,6 @@ breadcrumbs: >
   </p>
 
 <br>
-<br>
-<!-- Subtítulo para las categorías/actividades -->
-<div class="subtitulo">Actividades:</div>
-
-<br>
 
 <!-- Contenedor de botones estilo 'fancy-button' -->
 <div class="button-container">
@@ -42,7 +37,7 @@ breadcrumbs: >
   <a href="/ES/murales-comunitarios.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/murales-comunitarios.gif" alt="Murales comunitarios">
-      <p class="title">Murales para la comunidad</p>
+      <p class="title">Museos a cielo abierto</p>
       <p class="subtitle">Creación de gran formato para la ciudad.</p>
     </div>
   </a>
