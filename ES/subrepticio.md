@@ -7,12 +7,44 @@ breadcrumbs: >
     <a href="/ES/accion.html">Acción en el Mundo</a> >
     <span>Lo Subrepticio</span>
 ---
+<!-- Título principal -->
+<div class="titulo">Lo Subrepticio</div>
+<br>
 
-# Lo Subrepticio
+<!-- Texto descriptivo -->
+<p class="parrafo">
+  Acciones discretas y estratégicas que generan un impacto profundo en comunidades y espacios. en este apartado hay tres grupos que comparto a continuación:
+</p>
+<br>
 
-Acciones discretas y estratégicas que generan un impacto profundo en comunidades y espacios. En esta sección exploramos cómo lo sutil puede ser transformador.
+<!-- Sección de Actividades con fancy buttons -->
+<div class="subtitulo" style="margin-top: 4%;">Actividades:</div>
+<br>
+<div class="button-container">
+  <!-- Botón: Graffiti -->
+  <a href="/ES/graffiti.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/graffiti.gif" alt="Graffiti">
+      <p class="title">Graffiti</p>
+      <p class="subtitle">Expresión urbana que desafía normas.</p>
+    </div>
+  </a>
 
-## Ejemplos:
-- Intervenciones artísticas urbanas
-- Proyectos con bajo perfil de visibilidad, pero alto impacto
-- Cambios significativos a través de lo inesperado
+  <!-- Botón: La Antipublicidad -->
+  <a href="/ES/antipublicidad.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/antipublicidad.gif" alt="La Antipublicidad">
+      <p class="title">La Antipublicidad</p>
+      <p class="subtitle">Contracorriente visual en espacios públicos.</p>
+    </div>
+  </a>
+
+  <!-- Botón: Remiendas Urbanas -->
+  <a href="/ES/remiendas-urbanas.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/images/remiendas-urbanas.gif" alt="Remiendas Urbanas">
+      <p class="title">Remiendas Urbanas</p>
+      <p class="subtitle">Intervenciones para renovar y transformar.</p>
+    </div>
+  </a>
+</div>
