@@ -40,9 +40,9 @@ breadcrumbs: >
   </a>
 
   <!-- Botón: Remiendas Urbanas -->
-  <a href="/ES/remiendas-urbanas2.html" class="fancy-button">
+  <a href="/ES/remiendas-urbanas.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-remienda-urbana.gif" alt="Remiendas Urbanas">
+      <img src="/assets/img/boton-remienda-urbana2.gif" alt="Remiendas Urbanas">
       <p class="title">Remiendas Urbanas</p>
       <p class="subtitle">Intervenciones para renovar y transformar.</p>
     </div>
