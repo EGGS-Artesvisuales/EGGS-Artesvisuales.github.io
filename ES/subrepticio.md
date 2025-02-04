@@ -24,7 +24,7 @@ breadcrumbs: >
   <!-- Botón: Graffiti -->
   <a href="/ES/graffiti.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/graffiti.gif" alt="Graffiti">
+      <img src="/assets/img/boton-graffiti.gif" alt="Graffiti">
       <p class="title">Graffiti</p>
       <p class="subtitle">Expresión urbana que desafía normas.</p>
     </div>
@@ -33,7 +33,7 @@ breadcrumbs: >
   <!-- Botón: La Antipublicidad -->
   <a href="/ES/antipublicidad.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/antipublicidad.gif" alt="La Antipublicidad">
+      <img src="/assets/img/boton-antipub.gif" alt="La Antipublicidad">
       <p class="title">La Antipublicidad</p>
       <p class="subtitle">Contracorriente visual en espacios públicos.</p>
     </div>
@@ -42,7 +42,7 @@ breadcrumbs: >
   <!-- Botón: Remiendas Urbanas -->
   <a href="/ES/remiendas-urbanas.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/remiendas-urbanas.gif" alt="Remiendas Urbanas">
+      <img src="/assets/img/boton-remienda-urbana.gif" alt="Remiendas Urbanas">
       <p class="title">Remiendas Urbanas</p>
       <p class="subtitle">Intervenciones para renovar y transformar.</p>
     </div>
