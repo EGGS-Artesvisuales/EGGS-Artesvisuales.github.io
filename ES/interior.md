@@ -65,7 +65,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-dinamicas-sensoriales.gif" alt="Dinámicas Sensoriales">
+        <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Dinámicas Sensoriales">
         <p class="title">Dinámicas Sensoriales</p>
         <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
       </div>
