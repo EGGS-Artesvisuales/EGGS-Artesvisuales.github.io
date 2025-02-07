@@ -28,6 +28,9 @@ breadcrumbs: >
       <div class="entry">
         <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">En Construcción</div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p><strong>Próximamente:</strong> Nuevos Retos – Contenido en desarrollo.</p>
         </div>
       </div>
@@ -38,6 +41,9 @@ breadcrumbs: >
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Máscaras</div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.<br>
             Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
@@ -47,6 +53,9 @@ breadcrumbs: >
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Muralismo Intensivo</div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante Fibra en Liceo Politécnico María Pinto, Comuna de María Pinto, Región Metropolitana.<br>
             Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
@@ -62,12 +71,18 @@ breadcrumbs: >
           Narrativas Visuales: Murales y Sociedad
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Exploración de narrativas sociales a través del arte mural.</p>
         </div>
       </div>
       <div class="entry">
         <div class="fun-button left">Taller RECICLARTE</div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>En territorios de La Florida – mediante Corporación Cultural de la Florida, Santiago.</p>
         </div>
       </div>
@@ -78,6 +93,9 @@ breadcrumbs: >
       <div class="entry">
         <div class="fun-button right">Talleres de verano en La Florida – Muralismo</div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Corporación Cultural de la Florida, Santiago.</p>
         </div>
       </div>
@@ -90,6 +108,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
           </p>
@@ -104,6 +125,9 @@ breadcrumbs: >
           Taller de Pintura Evolutiva La Florida
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Talleres identitarios "Stgo. es de todos". Taller online vía Google Meet. Corporación Cultural de la Florida.
           </p>
@@ -114,6 +138,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
           </p>
@@ -124,6 +151,9 @@ breadcrumbs: >
           Taller de Muralismo Intensivo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Productora Mobcreative para Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
           </p>
@@ -138,6 +168,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Taller de Ilustración y Pintura
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago; Escuela Los Andes, Pte. Alto, Santiago; Colegio Altas Cumbres, Pte. Alto, Santiago.
           </p>
@@ -152,6 +185,9 @@ breadcrumbs: >
           Taller de Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             I. Municipalidad de Santiago; Palacio Álamos – Escuela Irene Frei de Cid.
           </p>
@@ -162,6 +198,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Taller de Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Liceo Olof Palme, La Cisterna, Santiago.
           </p>
@@ -172,6 +211,9 @@ breadcrumbs: >
           Taller de Muralismo (Programa Senda Previene)
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Actuar a tiempo. Lo Prado, Santiago de Chile.
           </p>
@@ -186,6 +228,9 @@ breadcrumbs: >
           Taller de Muralismo: Programa Senda Previene – Colegio Mirador
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>San Ramón, Santiago.</p>
         </div>
       </div>
@@ -194,6 +239,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Taller de Artes Visuales
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Complejo educacional C.E.I.A, La Pintana, Santiago.</p>
         </div>
       </div>
@@ -206,6 +254,9 @@ breadcrumbs: >
           Talleres Artísticos Fibra Mineduc: Taller de Pintura y Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio C.E.I.A, La Pintana, Santiago; Liceo Puente Alto, Santiago.
           </p>
@@ -216,6 +267,9 @@ breadcrumbs: >
           Taller de Muralismo y Grafiti
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Cardenal Samoré, Programa E.D.E.X ley SEP; Corporación de educación de la I. Municipalidad de La Florida.
           </p>
@@ -226,6 +280,9 @@ breadcrumbs: >
           Taller de Muralismo Experimental
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Santiago Bueras, Maipú, Santiago. Programa PACE – MINEDUC. USACH.
           </p>
@@ -240,6 +297,9 @@ breadcrumbs: >
           Taller de Grafiti
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
           </p>
@@ -250,6 +310,9 @@ breadcrumbs: >
           Taller de Muralismo: Programa Senda Previene
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Actuar a tiempo. Colegio Alberto Magno, Lo Cañas; Colegio Cardenal Antonio Samoré; Colegio Los Navíos; Colegio Nuevo Amanecer; Colegio London College (todos en La Florida, Santiago).
           </p>
@@ -260,6 +323,9 @@ breadcrumbs: >
           Talleres Artísticos MINEDUC BALMACEDA 1215: Programa Vivo el Arte
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Taller de muralismo en Colegio CEIA, la Pintana, Santiago; Taller de visualidad en Liceo Puente Alto, Pte. Alto, Santiago.
           </p>
@@ -274,6 +340,9 @@ breadcrumbs: >
           Talleres Artísticos Programa Mi Barrio en Paz: Taller de Mosaico
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Colegio Marcela Paz, La Florida, Santiago.</p>
         </div>
       </div>
@@ -286,6 +355,9 @@ breadcrumbs: >
           Talleres Artísticos Programa: Chile Previene – SENDA: Mosaico
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Colegio Dr. Sotero del Río; Colegio Maestra Elsa Santibáñez; Colegio María Elena (todos en La Florida, Santiago).
           </p>
@@ -296,6 +368,9 @@ breadcrumbs: >
           Talleres Artísticos Programa: Mi Barrio en Paz – Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
       </div>
@@ -308,6 +383,9 @@ breadcrumbs: >
           Taller de Artes Visuales (FORINT)
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Colegio San Leonardo, Maipú, Santiago de Chile.</p>
         </div>
       </div>
@@ -316,6 +394,9 @@ breadcrumbs: >
           Taller de Artes Visuales (EDEX)
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Corporación de I. Municipalidad de La Florida; Colegio Maestra Elsa Santibáñez, La Florida, Santiago de Chile.
           </p>
@@ -326,6 +407,9 @@ breadcrumbs: >
           Talleres Artísticos Programa: Mi Barrio en Paz – Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
       </div>
@@ -338,6 +422,9 @@ breadcrumbs: >
           Taller de Pintura al Óleo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>
             Servicio País / Consejo Nacional de las Artes. Villa San Ignacio – El Roble, Padre Hurtado, Región Metropolitana, Chile.
           </p>
@@ -348,6 +435,9 @@ breadcrumbs: >
           Talleres Artísticos Programa: Mi Barrio en Paz – Muralismo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
       </div>
@@ -360,6 +450,9 @@ breadcrumbs: >
           Taller de Arte Contemporáneo
         </div>
         <div class="text-container">
+          <div class="imagen">
+            <!-- Espacio para imagen del taller -->
+          </div>
           <p>Liceo Joaquín Edwards Bello, Macul, Santiago.</p>
         </div>
       </div>
