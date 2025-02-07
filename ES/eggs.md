@@ -15,12 +15,6 @@ breadcrumbs: >
 <p class="parrafo" style="margin-top:6%;">
   Ubicación: La Florida, Región Metropolitana, Chile<br>
   Fundación: 3 de julio de 2024<br>
-  Sitio web: <a href="https://eggs-studio.cl" target="_blank">eggs-studio.cl</a><br>
-  Contacto: +56 9 799 65 285<br>
-  Email: <a href="mailto:e.garnicasanchez@gmail.com">e.garnicasanchez@gmail.com</a><br>
-  Redes Sociales:<br>
-  &nbsp;&nbsp;&bull; Instagram: <a href="https://instagram.com/egarnicasanchez" target="_blank">@egarnicasanchez</a><br>
-  &nbsp;&nbsp;&bull; Facebook: <a href="https://facebook.com/ART.EGarnica" target="_blank">ART.EGarnica</a>
 </p>
 
 <!-- Sección: ¿Quiénes somos? -->
@@ -47,16 +41,6 @@ breadcrumbs: >
   <li>Producción de contenido multimedia y arte digital (NFTs, realidad virtual)</li>
   <li>Comercialización de productos artísticos y diseño especializado</li>
   <li>Intervenciones comunitarias y proyectos de inclusión social a través del arte</li>
-</ul>
-
-<!-- Sección: Proyectos Destacados -->
-<div class="titulo">Proyectos Destacados</div>
-<ul class="parrafo">
-  <li>Festival de Colores: Murales Vivos – Proyecto de muralismo comunitario en la Villa Alberto Larraguibel, integrando arte urbano y realidad virtual.</li>
-  <li>Museo Digital Interactivo – Espacio de exploración artística con realidad virtual, en colaboración con la comunidad.</li>
-  <li>Documental "Festival de Colores" – Registro audiovisual del impacto del muralismo en la identidad local.</li>
-  <li>Talleres de Muralismo en Establecimientos Educativos – Creación colectiva con niños y jóvenes para fomentar la creatividad y el sentido de pertenencia.</li>
-  <li>Restauración del Patrimonio Artístico – Conservación de esculturas y obras en colaboración con instituciones culturales.</li>
 </ul>
 
 <!-- Sección: Compromiso con la Comunidad y el Medio Ambiente -->
