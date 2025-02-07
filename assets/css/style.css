@@ -682,6 +682,7 @@ footer {
 .footer-links {
   list-style: none;
   padding: 0;
+   text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
   
   display: flex;
   gap: 15px;
