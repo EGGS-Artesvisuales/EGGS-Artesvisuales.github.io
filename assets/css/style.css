@@ -682,7 +682,7 @@ footer {
 .footer-links {
   list-style: none;
   padding: 0;
-  margin: 10px 0;
+  
   display: flex;
   gap: 15px;
 }
@@ -712,9 +712,10 @@ footer {
   font-size: 0.9rem;           /* Tamaño de la fuente */
   color: #aaa;                 /* Color del texto (gris claro) */
   text-align: center;          /* Centrar el texto */
-  padding: 10px 0;             /* Espaciado superior e inferior */
+  
   font-family: 'Arial', sans-serif; /* Familia tipográfica */
   opacity: 0.8;                /* Ligera transparencia para un efecto sutil */
+    text-decoration: none;       /* Elimina el subrayado */
 }
 
 
