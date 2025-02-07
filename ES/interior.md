@@ -38,8 +38,9 @@ breadcrumbs: >
 
 <br>
 <div class="subtitulo">Dinámicas artísticas para la introspección y bienestar:</div>
-<div class="button-container">
 
+
+<div class="owl-carousel">
   <!-- AUTORRETRATO -->
   <a href="/ES/autorretrato.html" class="fancy-button">
     <div class="button-content">
@@ -49,7 +50,7 @@ breadcrumbs: >
     </div>
   </a>
 
-  <!-- DIARIO DE IMÁGENES DE RECUERDOS -->
+  <!-- BITÁCORAS Y DIARIOS -->
   <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-diario-y-bitacoras.gif" alt="Bitácoras y diarios">
@@ -67,7 +68,7 @@ breadcrumbs: >
     </div>
   </a>
 
-  <!-- LA MÁSCARA Y EL ALTER EGO -->
+  <!-- La Máscara y el Alter Ego -->
   <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-mascara-y-el-alter-ego.gif" alt="La Máscara y el Alter Ego">
@@ -117,7 +118,7 @@ breadcrumbs: >
     <div class="button-content">
       <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
       <p class="title">Sincronización Grafo Cinética</p>
-      <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación</p>
+      <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
     </div>
   </a>
 
@@ -129,6 +130,6 @@ breadcrumbs: >
       <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
     </div>
   </a>
-
 </div>
-<br>
+
+
