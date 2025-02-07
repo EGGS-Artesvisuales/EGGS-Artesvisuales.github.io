@@ -1,7 +1,8 @@
 /* carousel.css */
 
-/* Contenedor del carrusel: asegura que los elementos no se salgan */
+/* Contenedor del carrusel: se establece posición relativa para posicionar elementos internos */
 .owl-carousel {
+  position: relative;
   overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
@@ -13,9 +14,11 @@
   box-sizing: border-box;
 }
 
-
-/* Personalización de flechas y puntos de navegación de Owl Carousel */
+/* Flechas de navegación (botones) */
 .owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #fff;
   border: none;
   border-radius: 50%;
@@ -25,30 +28,51 @@
   color: #333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
+  z-index: 100;
 }
 
 .owl-nav button:hover {
   background-color: #f0f0f0;
 }
 
-.owl-dots {
-  text-align: center;
-  margin-top: 15px;
+/* Posicionamiento específico de cada flecha */
+.owl-nav .owl-prev {
+  left: 10px;
 }
 
+.owl-nav .owl-next {
+  right: 10px;
+}
+
+/* Dots: contenedor posicionado de forma absoluta, centrado abajo */
+.owl-dots {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia del fondo si es necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cada dot con margen para separarlos */
 .owl-dots .owl-dot {
-  display: inline-block;
   margin: 0 5px;
 }
 
+/* Estilo de cada punto (ícono típico circular) */
 .owl-dots .owl-dot span {
+  display: block;
   width: 10px;
   height: 10px;
   background: #ccc;
-  display: block;
   border-radius: 50%;
+  transition: background 0.3s ease;
 }
 
+/* Punto activo */
 .owl-dots .owl-dot.active span {
   background: #333;
 }
+
