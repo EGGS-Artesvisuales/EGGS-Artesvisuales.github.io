@@ -10,60 +10,7 @@ breadcrumbs: >
 <!-- Título principal -->
 <div class="titulo">Exhibiciones</div>
 
-<!-- Sección: Proyectos y Publicaciones -->
-<div class="subtitulo">Proyectos y Publicaciones</div>
-<div class="timeline-container">
-  <div class="timeline">
-    <!-- 2018-2021 -->
-    <div class="year" data-year="2018–2021">
-      <div class="entry">
-        <div class="fun-button left">Fondo de talentos artísticos La Florida<br>Proyecto Museo a Cielo Abierto</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Museo a Cielo Abierto">
-          </div>
-          <p>Exhibición y fondo de talentos artísticos realizados entre 2018 y 2021 en La Florida.</p>
-        </div>
-      </div>
-    </div>
-    <!-- 2015 -->
-    <div class="year" data-year="2015">
-      <div class="entry">
-        <div class="fun-button right">Libro de obra: El Colgado</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="El Colgado">
-          </div>
-          <p>Editorial VANO (<a href="http://vanoeditorial.com" target="_blank">vanoeditorial.com</a>).</p>
-        </div>
-      </div>
-    </div>
-    <!-- 2012 -->
-    <div class="year" data-year="2012">
-      <div class="entry">
-        <div class="fun-button left">1er Premio – V Encuentro de Pintura In-Situ</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="V Encuentro de Pintura In-Situ">
-          </div>
-          <p>Realizado en El Totoral, organizado por APECH.</p>
-        </div>
-      </div>
-    </div>
-    <!-- 2006 -->
-    <div class="year" data-year="2006">
-      <div class="entry">
-        <div class="fun-button right">Concurso de Pintura Artel / Librería Nacional</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Concurso de Pintura Artel">
-          </div>
-          <p>Santiago de Chile.</p>
-        </div>
-      </div>
-    </div>
-  </div><!-- .timeline -->
-</div><!-- .timeline-container -->
+
 
 <!-- Sección: Residencias, Workshops y Festivales -->
 <div class="subtitulo">Residencias, Workshops y Festivales</div>
@@ -105,34 +52,10 @@ breadcrumbs: >
   </div><!-- .timeline -->
 </div><!-- .timeline-container -->
 
-<!-- Sección: Curriculum y Contacto -->
-<div class="subtitulo">Curriculum 2024</div>
-<div class="timeline-container">
-  <div class="timeline">
-    <div class="year" data-year="2024">
-      <div class="entry">
-        <div class="fun-button left">Esteban Gárnica</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Esteban Gárnica">
-          </div>
-          <p>
-            SANTIAGO, CHILE<br>
-            <strong>Contacto:</strong><br>
-            Tel: +56 9 799 65 285<br>
-            <a href="mailto:E.Garnicasanchez@gmail.com">E.Garnicasanchez@gmail.com</a><br>
-            <a href="https://www.facebook.com/ART.EGarnica" target="_blank">Facebook</a> |
-            <a href="https://eggs-artesvisuales.blogspot.com/" target="_blank">Blog</a> |
-            <a href="https://www.instagram.com/egarnicasanchez/" target="_blank">Instagram</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div><!-- .timeline -->
-</div><!-- .timeline-container -->
+
 
 <!-- Sección: Experiencia Profesional -->
-<div class="subtitulo">Experiencia Profesional</div>
+<div class="subtitulo">Exhibiciones</div>
 
 <!-- Exhibiciones Individuales -->
 <div class="subtitulo2">Exhibiciones Individuales</div>
