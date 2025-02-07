@@ -47,6 +47,10 @@
   }
   </script>
 
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
   <!-- Hojas de Estilo -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
@@ -109,7 +113,25 @@
   <!-- Pie de página -->
   {% include footer-es.html %}
 
-  <!-- Scripts de la página -->
+  <!-- Scripts: jQuery, Owl Carousel, inicialización del carrusel y otros scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        navText: ["&#9664;", "&#9654;"],
+        responsive: {
+          0: { items: 1 },
+          600: { items: 3 },
+          1000: { items: 5 }
+        }
+      });
+    });
+  </script>
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
