@@ -38,98 +38,114 @@ breadcrumbs: >
 
 <br>
 <div class="subtitulo">Dinámicas artísticas para la introspección y bienestar:</div>
-
-
 <div class="owl-carousel">
   <!-- AUTORRETRATO -->
-  <a href="/ES/autorretrato.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-autorretrato.gif" alt="Autorretrato">
-      <p class="title">Autorretrato</p>
-      <p class="subtitle">Explora tu propia identidad a través del arte.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/autorretrato.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-autorretrato.gif" alt="Autorretrato">
+        <p class="title">Autorretrato</p>
+        <p class="subtitle">Explora tu propia identidad a través del arte.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- BITÁCORAS Y DIARIOS -->
-  <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-diario-y-bitacoras.gif" alt="Bitácoras y diarios">
-      <p class="title">Bitácoras y diarios</p>
-      <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-diario-y-bitacoras.gif" alt="Bitácoras y diarios">
+        <p class="title">Bitácoras y diarios</p>
+        <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- DINÁMICAS SENSORIALES -->
-  <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-dinamicas-sensoriales.gif" alt="Dinámicas Sensoriales">
-      <p class="title">Dinámicas Sensoriales</p>
-      <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-dinamicas-sensoriales.gif" alt="Dinámicas Sensoriales">
+        <p class="title">Dinámicas Sensoriales</p>
+        <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- La Máscara y el Alter Ego -->
-  <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-la-mascara-y-el-alter-ego.gif" alt="La Máscara y el Alter Ego">
-      <p class="title">La Máscara y el Alter Ego</p>
-      <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-la-mascara-y-el-alter-ego.gif" alt="La Máscara y el Alter Ego">
+        <p class="title">La Máscara y el Alter Ego</p>
+        <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- MANDALA Y ZENTANGLE -->
-  <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-mandala-y-zentangle.gif" alt="Mandala y Zentangle">
-      <p class="title">Mandala y Zentangle</p>
-      <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-mandala-y-zentangle.gif" alt="Mandala y Zentangle">
+        <p class="title">Mandala y Zentangle</p>
+        <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- QUEMA DEL MONO -->
-  <a href="/ES/quema-del-mono.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-quema-del-mono.gif" alt="Quema del Mono">
-      <p class="title">Quema del Mono</p>
-      <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/quema-del-mono.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-quema-del-mono.gif" alt="Quema del Mono">
+        <p class="title">Quema del Mono</p>
+        <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- SILUETA DEL EXTERIOR INTERIOR -->
-  <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-silueta-del-exterior-interior.gif" alt="Silueta del Exterior Interior">
-      <p class="title">Silueta del Exterior Interior</p>
-      <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-silueta-del-exterior-interior.gif" alt="Silueta del Exterior Interior">
+        <p class="title">Silueta del Exterior Interior</p>
+        <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- SIMULACROS Y PSICOMAGIA -->
-  <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-simulacros-y-psicomagia.gif" alt="Simulacros y Psicomagia">
-      <p class="title">Simulacros y Psicomagia</p>
-      <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-simulacros-y-psicomagia.gif" alt="Simulacros y Psicomagia">
+        <p class="title">Simulacros y Psicomagia</p>
+        <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- SINCRONIZACIÓN GRAFO CINÉTICA -->
-  <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
-      <p class="title">Sincronización Grafo Cinética</p>
-      <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
+        <p class="title">Sincronización Grafo Cinética</p>
+        <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
+      </div>
+    </a>
+  </div>
 
   <!-- SUPERFICIES PAREIDÓLICAS Y OTROS ELEMENTOS DE PROYECCIÓN -->
-  <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-superficies-pareidolicas.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
-      <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
-      <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
-    </div>
-  </a>
+  <div class="item">
+    <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/boton-superficies-pareidolicas.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
+        <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
+        <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
+      </div>
+    </a>
+  </div>
 </div>
-
-
