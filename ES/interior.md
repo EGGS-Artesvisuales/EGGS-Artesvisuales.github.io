@@ -43,7 +43,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/autorretrato.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-autorretrato.gif" alt="Autorretrato">
+        <img src="/assets/img/interior/boton-autorretrato.gif" alt="Autorretrato">
         <p class="title">Autorretrato</p>
         <p class="subtitle">Explora tu propia identidad a través del arte.</p>
       </div>
@@ -76,7 +76,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-la-mascara-y-el-alter-ego.gif" alt="La Máscara y el Alter Ego">
+        <img src="/assets/img/interior/boton-mascaras.gif" alt="La Máscara y el Alter Ego">
         <p class="title">La Máscara y el Alter Ego</p>
         <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
       </div>
@@ -87,7 +87,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-mandala-y-zentangle.gif" alt="Mandala y Zentangle">
+        <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala y Zentangle">
         <p class="title">Mandala y Zentangle</p>
         <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
       </div>
@@ -98,7 +98,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/quema-del-mono.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-quema-del-mono.gif" alt="Quema del Mono">
+        <img src="/assets/img/interior/boton-quema.gif" alt="Quema del Mono">
         <p class="title">Quema del Mono</p>
         <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
       </div>
@@ -109,7 +109,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-silueta-del-exterior-interior.gif" alt="Silueta del Exterior Interior">
+        <img src="/assets/img/interior/boton-afden.gif" alt="Silueta del Exterior Interior">
         <p class="title">Silueta del Exterior Interior</p>
         <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
       </div>
@@ -120,7 +120,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-simulacros-y-psicomagia.gif" alt="Simulacros y Psicomagia">
+        <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacros y Psicomagia">
         <p class="title">Simulacros y Psicomagia</p>
         <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
       </div>
@@ -131,7 +131,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-sincronizacion-grafo-cinetica.gif" alt="Sincronización Grafo Cinética">
+        <img src="/assets/img/interior/boton-grafocine.gif" alt="Sincronización Grafo Cinética">
         <p class="title">Sincronización Grafo Cinética</p>
         <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
       </div>
@@ -142,7 +142,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-superficies-pareidolicas.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
+        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
         <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
         <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
       </div>
