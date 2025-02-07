@@ -13,10 +13,7 @@
   box-sizing: border-box;
 }
 
-/* Estilos para los botones fancy */
-.fancy-button {
-  display: block;
-  background-color: #fff
+
 /* Personalización de flechas y puntos de navegación de Owl Carousel */
 .owl-nav button {
   background-color: #fff;
