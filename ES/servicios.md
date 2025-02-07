@@ -22,7 +22,7 @@ breadcrumbs: >
   <!-- Botón: Restauración -->
   <a href="/ES/restauracion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/restauracion.gif" alt="Restauración">
+      <img src="/assets/img/restauracion-boton.gif" alt="Restauración">
       <p class="title">Restauración</p>
       <p class="subtitle">Conservación y recuperación de obras.</p>
     </div>
@@ -31,7 +31,7 @@ breadcrumbs: >
   <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
   <a href="/ES/encargos.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/encargos.gif" alt="Encargos y Encomiendas">
+      <img src="/assets/img/encargos-boton.gif" alt="Encargos y Encomiendas">
       <p class="title">Encargos y Encomiendas</p>
       <p class="subtitle">Pinturas y murales a medida.</p>
     </div>
@@ -40,7 +40,7 @@ breadcrumbs: >
   <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
   <a href="/ES/ambientacion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/images/ambientacion.gif" alt="Ambientación e Instalación">
+      <img src="/assets/img/instalacion-boton.gif" alt="Ambientación e Instalación">
       <p class="title">Ambientación &amp; Montajes</p>
       <p class="subtitle">Instalaciones artísticas y decorativas.</p>
     </div>
