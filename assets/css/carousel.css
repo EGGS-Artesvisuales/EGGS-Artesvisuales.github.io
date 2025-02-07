@@ -1,27 +1,36 @@
 /* carousel.css */
 
-/* Estilos para el contenedor del carrusel */
+/* Contenedor del carrusel: asegura que los elementos no se salgan */
 .owl-carousel {
-  display: flex;
-  align-items: center;
+  overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-/* Estilos para cada elemento del carrusel (fancy button) */
+/* Cada item del carrusel */
+.owl-carousel .item {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Estilos para los botones fancy */
 .fancy-button {
   display: block;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   text-decoration: none;
-  margin: 0 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.fancy-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
 .fancy-button .button-content {
-  padding: 15px;
   text-align: center;
+  padding: 15px;
 }
 
 .fancy-button img {
@@ -34,7 +43,6 @@
   font-size: 1.2em;
   font-weight: bold;
   color: #333;
-  margin-bottom: 5px;
 }
 
 .fancy-button .subtitle {
@@ -42,43 +50,23 @@
   color: #666;
 }
 
-/* Efecto hover para fancy button */
-.fancy-button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-/* Estilos para los botones de navegación del carrusel */
+/* Personalización de flechas y puntos de navegación de Owl Carousel */
 .owl-nav button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
   font-size: 1.2em;
   color: #333;
-  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
 }
 
 .owl-nav button:hover {
   background-color: #f0f0f0;
 }
 
-.owl-nav .owl-prev {
-  left: 10px;
-}
-
-.owl-nav .owl-next {
-  right: 10px;
-}
-
-/* Ajuste de los puntos de navegación, si se utilizan */
 .owl-dots {
   text-align: center;
   margin-top: 15px;
@@ -90,12 +78,11 @@
 }
 
 .owl-dots .owl-dot span {
-  display: block;
   width: 10px;
   height: 10px;
   background: #ccc;
+  display: block;
   border-radius: 50%;
-  transition: background-color 0.3s ease;
 }
 
 .owl-dots .owl-dot.active span {
