@@ -611,11 +611,11 @@ productos
 
 .fun-button {
   background-color: var(--button-bg-color);
-  color: #fff;
+  color: #6699ff;
   border-radius: 10px;
   padding: 10px 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: var(--content-font-family);
   margin-bottom: 10px;
   cursor: pointer;
