@@ -68,13 +68,13 @@ breadcrumbs: >
     <div class="year" data-year="2023">
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
-          Narrativas Visuales: Murales y Sociedad
+          Mural a 50 años del golpe de estado en Chile
         </div>
         <div class="text-container">
           <div class="imagen">
             <!-- Espacio para imagen del taller -->
           </div>
-          <p>Exploración de narrativas sociales a través del arte mural.</p>
+          <p>Taller intensivo de muralismo en BAJ #Balmaceda1215.</p>
         </div>
       </div>
       <div class="entry">
