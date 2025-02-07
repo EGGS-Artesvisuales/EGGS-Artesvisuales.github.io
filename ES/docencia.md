@@ -74,7 +74,7 @@ breadcrumbs: >
           <div class="imagen">
             <!-- Espacio para imagen del taller -->
           </div>
-          <p>Taller intensivo de muralismo en BAJ #Balmaceda1215.</p>
+          <p>Taller Artes y Oficios Balmaceda Arte Joven; a 50 años del golpe de estado en Chile, muralismo intensivo en la sede del BAJ en Quinta Normal, Santiago.</p>
         </div>
       </div>
       <div class="entry">
