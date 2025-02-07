@@ -54,7 +54,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/boton-diario-y-bitacoras.gif" alt="Bitácoras y diarios">
+        <img src="/assets/img/interior/boton-bitacoras.gif" alt="Bitácoras y diarios">
         <p class="title">Bitácoras y diarios</p>
         <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
       </div>
