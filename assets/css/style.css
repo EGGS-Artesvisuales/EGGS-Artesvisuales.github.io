@@ -713,7 +713,6 @@ footer {
   color: #aaa;                 /* Color del texto (gris claro) */
   text-align: center;          /* Centrar el texto */
   padding: 10px 0;             /* Espaciado superior e inferior */
-  border-top: 1px solid #333;  /* Línea superior para separar visualmente */
   font-family: 'Arial', sans-serif; /* Familia tipográfica */
   opacity: 0.8;                /* Ligera transparencia para un efecto sutil */
 }
