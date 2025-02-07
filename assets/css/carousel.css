@@ -1,48 +1,103 @@
-/* Estilo general del carrusel */
-.carousel {
-    overflow: hidden;
-    position: relative;
-    width: 100%; /* Adapta el ancho al contenedor */
-    background-color: #f4f4f4;
-    padding: 20px 0;
+/* carousel.css */
+
+/* Estilos para el contenedor del carrusel */
+.owl-carousel {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.carousel-track {
-    display: flex;
-    gap: 20px;
-    animation: scroll 10s linear infinite;
-    align-items: center;
+/* Estilos para cada elemento del carrusel (fancy button) */
+.fancy-button {
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.carousel-item {
-    flex: 0 0 auto;
-    text-align: center;
+.fancy-button .button-content {
+  padding: 15px;
+  text-align: center;
 }
 
-.carousel-item img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+.fancy-button img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.carousel-item img:hover {
-    transform: scale(1.1);
+.fancy-button .title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
 }
 
-.carousel-item p {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #333;
+.fancy-button .subtitle {
+  font-size: 0.9em;
+  color: #666;
 }
 
-/* Animación del carrusel */
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+/* Efecto hover para fancy button */
+.fancy-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para los botones de navegación del carrusel */
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+  color: #333;
+  outline: none;
+}
+
+.owl-nav button:hover {
+  background-color: #f0f0f0;
+}
+
+.owl-nav .owl-prev {
+  left: 10px;
+}
+
+.owl-nav .owl-next {
+  right: 10px;
+}
+
+/* Ajuste de los puntos de navegación, si se utilizan */
+.owl-dots {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.owl-dots .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.owl-dots .owl-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.owl-dots .owl-dot.active span {
+  background: #333;
 }
