@@ -564,6 +564,7 @@ productos
   }
 
 
+
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
@@ -634,24 +635,47 @@ productos
   margin-top: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+
+/* Espacio para imagen del taller */
+.text-container .imagen {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+  background-color: #333; /* Color de fondo de reserva */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.text-container .imagen img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .text-container .title {
   font-size: 1.5rem;
   font-family: var(--titulo-font);
   color: var(--color-destacado);
   margin-bottom: 10px;
 }
+
 .text-container .subtitle {
   font-size: 1.2rem;
   font-family: var(--subtitulo-font);
   color: #aaaaaa;
   margin-bottom: 8px;
 }
+
 .text-container .paragraph {
   font-size: 1rem;
   font-family: var(--parrafo-font);
   line-height: var(--line-height);
   color: var(--color-claro);
 }
+
 
 /* ------------------------------------------------------------------
    FOOTER
