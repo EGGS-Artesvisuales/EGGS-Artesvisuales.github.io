@@ -708,14 +708,23 @@ footer {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
+
 .footer-copyright {
-  font-size: 0.9rem;           /* Tamaño de la fuente */
-  color: #aaa;                 /* Color del texto (gris claro) */
-  text-align: center;          /* Centrar el texto */
-  
-  font-family: 'Arial', sans-serif; /* Familia tipográfica */
-  opacity: 0.8;                /* Ligera transparencia para un efecto sutil */
-    text-decoration: none;       /* Elimina el subrayado */
+  /* Tipografía */
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;      /* Espaciado entre letras para mayor legibilidad */
+
+  /* Color y opacidad */
+  color: #aaa;
+  opacity: 0.8;
+
+  /* Alineación y espaciado */
+  text-align: center;
+  margin: 0;                  /* Elimina márgenes por defecto si es necesario */
+
+  /* Otros */
+  text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
 }
 
 
