@@ -16,16 +16,43 @@ breadcrumbs: >
   Desde que obtuve mi titulación en la Universidad de Chile, en el año 2011, he tenido la oportunidad de enseñar, iniciando esta labor desde muy joven. Mi pasión por el arte, junto con el rigor que aplico en mi trabajo, me llevó a enfrentar los desafíos de compartir mis conocimientos. Considero que la enseñanza es un proceso continuo en el que, como instructor, también soy un aprendiz eterno. Cada taller ha sido una experiencia invaluable, dejándome profundas enseñanzas que enriquecen tanto mi arte como mi manera de entender el mundo y la visión que tengo sobre el arte.
 </p>
 
-<!-- Texto introductorio adicional (opcional) -->
-<p class="parrafo">
-  Artes y Oficios Balmaceda Arte Joven; a 50 años del golpe de estado en Chile, muralismo intensivo en la sede del BAJ en Quinta Normal, Santiago.
-</p>
+
 
 <!-- Subtítulo de la línea de tiempo -->
 <div class="subtitulo">Línea de tiempo:</div>
 <div class="timeline-container">
   <div class="timeline">
-
+<!-- Subtítulo (o texto destacado) que introduce las cuatro modalidades -->
+<div class="subtitulo">Linea de tiempo:</div>
+<div class="timeline-container">
+  <div class="timeline">
+    <div class="year" data-year="2025">
+      <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">En Construcción</div>
+      <div class="text-container">
+        <div class="title">Próximamente</div>
+        <div class="subtitle">Nuevos Retos</div>
+        <div class="paragraph">Contenido en desarrollo.</div>
+      </div>
+    </div>
+    <div class="year" data-year="2024">
+      <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller 2024</div>
+      <div class="text-container">
+        <div class="title">Taller de Máscaras</div>
+        <div class="subtitle">Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.</div>
+        <div class="paragraph">Taller para niñ@s  y jovenes en Espacio Los Quillayes / mediante Corporacion Cultural de La Florida.</div>
+         <div class="title">Taller de Muralismo intensivo</div>
+        <div class="subtitle">Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante Fibra en Liceo politecnico Maria Pinto, Comuna de Maria Pinto, Region Metropolitana.</div>
+        <div class="paragraph">Taller para niñ@s  y jovenes en Espacio Los Quillayes / mediante Corporacion Cultural de La Florida.</div>
+      </div>
+    </div>
+    <div class="year" data-year="2023">
+      <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">Taller 2023</div>
+      <div class="text-container">
+        <div class="title">Narrativas Visuales</div>
+        <div class="subtitle">Murales y Sociedad</div>
+        <div class="paragraph">Exploración de narrativas sociales a través del arte mural.</div>
+      </div>
+    </div>
     <!-- 2023 -->
     <div class="year" data-year="2023">
       <div class="fun-button left">Taller RECICLARTE</div>
