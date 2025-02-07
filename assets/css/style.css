@@ -617,10 +617,12 @@ productos
   text-align: center;
   font-size: 1.3rem;
   font-family: var(--content-font-family);
+  font-weight: bold; /* Esta línea aplica el estilo bold */
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 
 .fun-button:hover {
   background-color: var(--button-hover-bg-color);
