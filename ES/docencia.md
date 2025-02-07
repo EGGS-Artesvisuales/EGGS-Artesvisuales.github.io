@@ -28,9 +28,6 @@ breadcrumbs: >
       <div class="entry">
         <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">En Construcción</div>
         <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
-          </div>
           <p><strong>Próximamente:</strong> Nuevos Retos – Contenido en desarrollo.</p>
         </div>
       </div>
