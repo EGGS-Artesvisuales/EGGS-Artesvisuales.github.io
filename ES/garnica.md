@@ -1,10 +1,8 @@
 ---
 layout: default-es
 title: "Esteban Garnica Sánchez | Acción en el Arte"
-permalink: /ES/acerca.html
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <span>Acción en el Arte</span>
+permalink: /ES/garnica.html
+
 ---
 
 <!-- Título principal -->
