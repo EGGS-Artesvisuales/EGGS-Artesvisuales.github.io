@@ -31,19 +31,13 @@ permalink: /ES/archivo.html
 
   <a href="catalogos.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-catalogos.gif" alt="Catálogos de Exhibiciones">
-      <p class="title">Catálogos de Exhibiciones</p>
+      <img src="/assets/img/archivo-catalogos.gif" alt="Exhibiciones">
+      <p class="title">Exhibiciones</p>
       <p class="subtitle">Publicaciones, afiches y registros de exposiciones.</p>
     </div>
   </a>
 
-  <a href="escritos.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/archivo-escritos.gif" alt="Escritos y Reflexiones">
-      <p class="title">Escritos y Reflexiones</p>
-      <p class="subtitle">Ensayos, textos críticos y pensamientos sobre arte.</p>
-    </div>
-  </a>
+ 
 </div>
 
 <div class="button-container">
@@ -55,13 +49,7 @@ permalink: /ES/archivo.html
     </div>
   </a>
 
-  <a href="documentacion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/archivo-documentacion.gif" alt="Documentación de Proyectos">
-      <p class="title">Documentación de Proyectos</p>
-      <p class="subtitle">Registros fotográficos y audiovisuales.</p>
-    </div>
-  </a>
+
 
   <a href="referencias.html" class="fancy-button">
     <div class="button-content">
