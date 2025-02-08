@@ -60,7 +60,8 @@ permalink: /ES/archivo.html
       </a>
     </div>
 
-    <p><a href="descargas.html" class="enlace">Ver más archivos</a></p>
+    <p><a href="descargas.html" class="enlace">ver más archivos</a></p>
   </section>
 
 </article>
+
