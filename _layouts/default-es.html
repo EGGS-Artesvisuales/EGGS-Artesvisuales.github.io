@@ -133,6 +133,13 @@
       });
     });
   </script>
+
+  <!-- Script de la barra de progreso (solo si la página lo requiere) -->
+  {% if page.progreso %}
+  <script src="/assets/js/progreso.js" defer></script>
+  {% endif %}
+
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
+
