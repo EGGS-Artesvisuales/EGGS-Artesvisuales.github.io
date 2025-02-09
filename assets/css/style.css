@@ -104,7 +104,7 @@ header {
 .navbar {
   display: flex;
   justify-content: flex-start; /* En lugar de space-between */
-  align-items: left;
+  align-items: flex-start;
   width: 100%;
   padding: 1px 0px;
 }
