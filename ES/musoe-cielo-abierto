@@ -25,7 +25,7 @@ carousel: true
 </p>
 
 <!-- Carrusel de imágenes (Imagen secundaria) - Slide Grande -->
-<div class="owl-carousel owl-carousel-large carousel-grandes">
+<div class="owl-carousel owl-carousel-large carousel-imagen">
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
@@ -40,7 +40,6 @@ carousel: true
   </div>
   <!-- Agrega más ítems según necesites -->
 </div>
-
 
 
 
