@@ -511,7 +511,7 @@ p.parrafo:first-of-type ul {
 
 
 /* - - - - - - - - - - - - -
-   Barra de progreso mejorada
+   Barra de progreso animada
    - - - - - - - - - - - - - */
 
 .barra-progreso {
@@ -526,16 +526,17 @@ p.parrafo:first-of-type ul {
 
 .barra-progreso-fill {
   height: 100%;
-  background: linear-gradient(90deg, #4a90e2, #007bff);
+  background: linear-gradient(90deg, #ffad33, #f89900);
   text-align: center;
   line-height: 25px;
   color: white;
   font-weight: bold;
   font-size: 14px;
   border-radius: 12px;
-  width: 0; /* Inicialmente vacía para animación */
-  transition: width 1.5s ease-in-out;
+  width: 0; /* Inicialmente vacía */
+  transition: width 2s ease-in-out;
 }
+
 
 /*---------------
 productos
