@@ -76,3 +76,13 @@
   background: #333;
 }
 
+  .item--imagen {
+  /* Ejemplo: centrar la imagen y ajustar el tamaño */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+
