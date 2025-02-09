@@ -853,6 +853,7 @@ form button:hover {
 /* ------------------------------------------------------------------
    MEDIA QUERIES
 ------------------------------------------------------------------ */
+
 /* Dispositivos grandes y medianos */
 @media (max-width: 1200px) {
   .text-container { 
@@ -912,6 +913,12 @@ form button:hover {
     max-height: calc(100vh - 60px);
     overflow-y: auto;
   }
+  /* Cuando se activa el menú (se añade la clase "active") */
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
   .dropdown.active .dropdown-menu { 
     display: block; 
     position: static; 
@@ -926,16 +933,11 @@ form button:hover {
   }
   .text-container { 
     padding: 10px; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
   }
   .item { 
     flex: 1 1 calc(50% - 20px); 
-  }
-  
-  /* Ajustes adicionales para pantallas muy pequeñas */
-  .text-container { 
-    padding: 10px; 
-    font-size: 0.9rem; 
-    line-height: 1.6; 
   }
   .button-container {
     flex-direction: column;
