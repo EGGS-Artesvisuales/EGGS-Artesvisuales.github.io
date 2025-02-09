@@ -54,7 +54,7 @@
   --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
   --content-font-family: Arial, sans-serif;
-  --gap-between-buttons: 20px;
+  --gap-between-buttons: 10px; /* Se redujo de 20px a 10px */
   --button-container-margin: 30px 0 40px;
   --button-max-width: 250px;
   --button-min-width: 150px;
