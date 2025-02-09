@@ -23,8 +23,8 @@ permalink: /ES/musoe-cielo-abierto.html
 <p class="parrafo">
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
-
-<!-- Imagen principal -->
+<br>
+<!-- Imagen segunda -->
 <div class="imagen">
   <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Musoe a Cielo Abierto">
 </div>
@@ -37,8 +37,7 @@ permalink: /ES/musoe-cielo-abierto.html
   </div>
   <p>$ 0.000.000 CLP recaudado</p>
   <p>$ 2.300.000 CLP meta unitaria</p>
-  <p>$ 20.300.000 CLP meta global</p>
-  <p>0% recaudado</p>
+  <p>1% recaudado</p>
 </div>
 
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
