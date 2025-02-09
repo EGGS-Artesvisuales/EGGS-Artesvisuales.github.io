@@ -1,6 +1,8 @@
-/* carousel.css */
+/* ========================================================================
+   Carousel Base Styles
+   ======================================================================== */
 
-/* Contenedor del carrusel: se establece posición relativa para posicionar elementos internos */
+/* Contenedor del carrusel: posicionamiento y espaciado */
 .owl-carousel {
   position: relative;
   overflow: hidden;
@@ -14,7 +16,11 @@
   box-sizing: border-box;
 }
 
-/* Flechas de navegación (botones) */
+/* ========================================================================
+   Carousel Navigation (Flechas)
+   ======================================================================== */
+
+/* Botones de navegación */
 .owl-nav button {
   position: absolute;
   top: 50%;
@@ -35,7 +41,7 @@
   background-color: #f0f0f0;
 }
 
-/* Posicionamiento específico de cada flecha */
+/* Posicionamiento específico para cada flecha */
 .owl-nav .owl-prev {
   left: 10px;
 }
@@ -44,10 +50,14 @@
   right: 10px;
 }
 
-/* Dots: contenedor posicionado de forma absoluta, centrado abajo */
+/* ========================================================================
+   Carousel Dots
+   ======================================================================== */
+
+/* Contenedor de dots: centrado en la parte inferior */
 .owl-dots {
   position: absolute;
-  bottom: 10px; /* Ajusta la distancia del fondo si es necesario */
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -61,7 +71,7 @@
   margin: 0 5px;
 }
 
-/* Estilo de cada punto (ícono típico circular) */
+/* Estilo de cada dot (círculo) */
 .owl-dots .owl-dot span {
   display: block;
   width: 10px;
@@ -71,17 +81,16 @@
   transition: background 0.3s ease;
 }
 
-/* Punto activo */
+/* Dot activo */
 .owl-dots .owl-dot.active span {
   background: #333;
 }
 
+/* ========================================================================
+   Specialized Carousel Styles
+   ======================================================================== */
 
-/* ============================= */
-/* Estilos específicos para cada carrusel */
-/* ============================= */
-
-/* --- Carrusel de imágenes --- */
+/* --- Carrusel de Imágenes --- */
 .carousel-imagen .item--imagen {
   max-width: 660px;
   width: 100%;
@@ -95,31 +104,33 @@
   display: block;
 }
 
-
-/* --- Carrusel fancy (botones) --- */
+/* --- Carrusel Fancy (Botones) --- */
 .carousel-fancy .fancy-button {
   display: block;
   text-decoration: none;
   background-color: #3a3a3a;
   border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+              inset 0 -2px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  /* Ajuste de tamaño: se recomienda usar un sistema de columnas en el contenedor Owl Carousel */
+  /* Se recomienda usar un sistema de columnas en el contenedor Owl Carousel */
   flex: 1 1 calc(25% - 20px);
   max-width: 250px;
   min-width: 150px;
 }
 
 .carousel-fancy .fancy-button:focus {
-  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6),
+              0 4px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
 
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
+              inset 0 -2px 8px rgba(0, 0, 0, 0.2);
   background-color: #444;
 }
 
