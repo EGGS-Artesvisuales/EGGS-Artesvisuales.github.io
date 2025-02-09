@@ -200,18 +200,17 @@
 /* ========================================================================
    Carousel Grandes (Imágenes desbordadas)
    ======================================================================== */
-/* Permitir que los items se desborden del contenedor */
+/* Permitir que los ítems se desborden del contenedor */
 .carousel-grandes .owl-stage-outer {
   overflow: visible;
 }
-
-   /* Ancho fijo para cada slide en carousel grandes (aprox. 800px) con un gap */
+/* Ancho fijo para cada slide en carousel grandes (aprox. 800px) con un gap */
 .carousel-grandes .item {
   width: 800px;
   margin-right: 10px;  /* Gap pequeño entre slides */
 }
-}
-/* Estilos para las imágenes del slider grandes */
+
+/* --- Estilos para las imágenes del slider grandes --- */
 .carousel-grandes .carousel-img {
   width: 100%;
   height: auto;
@@ -240,3 +239,4 @@
     margin-left: -5%;
   }
 }
+
