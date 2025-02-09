@@ -124,7 +124,9 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea */
   gap: 20px;
+  width: 100%;
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   overflow-wrap: break-word;
