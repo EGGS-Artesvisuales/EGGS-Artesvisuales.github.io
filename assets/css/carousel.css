@@ -76,10 +76,12 @@
   background: #333;
 }
 
- .item--imagen {
-  width: 660px;
+
+.item--imagen {
+  max-width: 660px;
+  width: 100%;
   height: auto;
-  margin: 0 auto; /* Para centrar el item, si lo deseas */
+  margin: 0 auto;
 }
 
 .item--imagen .imagen img {
