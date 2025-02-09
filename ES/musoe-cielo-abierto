@@ -32,15 +32,13 @@ carousel: true
       <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
-  <div class="owl-carousel owl-carousel-large carousel-imagen">
-    <!-- Ítem 1 -->
-    <div class="item item--imagen">
-      <div class="imagen">
-        <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-      </div>
+  <!-- Ítem 2 -->
+  <div class="item item--imagen">
+    <div class="imagen">
+      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
-    <!-- Agrega más ítems según necesites -->
   </div>
+  <!-- Agrega más ítems según necesites -->
 </div>
 
 
