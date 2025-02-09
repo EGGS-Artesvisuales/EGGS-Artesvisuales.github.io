@@ -173,12 +173,11 @@
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background-color: #555;
 }
-
 /* --- Estilos para las imágenes dentro del carrusel --- */
 .carousel-imagen .imagen img.carousel-img {
-  border-radius: 15px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%;
   height: auto;
 }
@@ -195,9 +194,9 @@
   height: 600px;
 }
 
-/* Tamaño específico en carrusel grande */
+/* Tamaño específico en carrusel large (incrementado para mayor visibilidad) */
 .owl-carousel-large .carousel-imagen .owl-item img {
-  height: 800px; /* Ajusta este valor según necesites */
+  height: 1000px; /* Puedes ajustar este valor según lo necesites */
 }
 
 /* Efecto hover para ambas presentaciones */
@@ -206,11 +205,11 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Ajuste responsivo para carrusel normal en pantallas grandes */
+/* Ajuste responsivo para carrusel normal y large en pantallas grandes */
 @media (min-width: 1024px) {
-  .owl-carousel .carousel-imagen .imagen img.carousel-img {
+  .owl-carousel .carousel-imagen .imagen img.carousel-img,
+  .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
     width: 110%;
     margin-left: -5%;
   }
 }
-
