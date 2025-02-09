@@ -27,7 +27,7 @@ permalink: /ES/index.html
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo">
+      <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo" loading="lazy">
       <p class="title">Representación del Mundo</p>
       <p class="subtitle">Obras que retratan, reflejan y/o comentan el mundo.</p>
     </div>
@@ -35,7 +35,7 @@ permalink: /ES/index.html
 
   <a href="accion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Obras de Acción en el Mundo">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Obras de Acción en el Mundo" loading="lazy">
       <p class="title">Acción en el Mundo</p>
       <p class="subtitle">Actividades comunitarias, talleres y servicios.</p>
     </div>
@@ -43,7 +43,7 @@ permalink: /ES/index.html
 
   <a href="interior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior">
+      <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior" loading="lazy">
       <p class="title">Mundo Interior</p>
       <p class="subtitle">Arte para el bienestar fisico-espiritual y la introspección.</p>
     </div>
