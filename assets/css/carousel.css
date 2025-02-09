@@ -182,13 +182,23 @@
 
 /* -----------------------------------------------------------------------
    Estilos específicos para las imágenes dentro del carrusel
-   (No se afectarán las imágenes fuera del carrusel, ya que se requiere la clase "carousel-img")
+   (Se aplicarán únicamente a las imágenes que tengan la clase "carousel-img"
+    dentro de un contenedor .imagen en el carrusel)
 ----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
-  /* Se anulan las reglas globales de .imagen img */
-  border-radius: 8;    /* Sin bordes redondeados */
+  /* Anulamos las reglas globales de .imagen img */
+  border-radius: 0;    /* Sin bordes redondeados */
   box-shadow: none;    /* Sin sombra */
-  transition: none;    /* Sin transición o con una propia */
-  width: 100%;         /* 100% del contenedor */
+  transition: none;    /* Sin transición (o puedes definir una propia) */
+  width: 100%;         /* Ocupa el 100% del contenedor */
   height: auto;
 }
+
+/* En pantallas grandes, escalamos un poco la imagen */
+@media (min-width: 1024px) {
+  .carousel-imagen .imagen img.carousel-img {
+    width: 110%;
+    margin-left: -5%;  /* Desplaza la imagen para centrarla visualmente */
+  }
+}
+
