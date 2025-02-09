@@ -43,7 +43,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/autorretrato.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-autorretrato.gif" alt="Autorretrato">
+        <img src="/assets/img/interior/boton-autorretrato.gif" alt="Autorretrato" loading="lazy">
         <p class="title">Autorretrato</p>
         <p class="subtitle">Explora tu propia identidad a través del arte.</p>
       </div>
@@ -54,7 +54,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-bitacoras.gif" alt="Bitácoras y diarios">
+        <img src="/assets/img/interior/boton-bitacoras.gif" alt="Bitácoras y diarios" loading="lazy">
         <p class="title">Bitácoras y diarios</p>
         <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
       </div>
@@ -65,7 +65,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Dinámicas Sensoriales">
+        <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Dinámicas Sensoriales" loading="lazy">
         <p class="title">Dinámicas Sensoriales</p>
         <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
       </div>
@@ -76,7 +76,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mascaras.gif" alt="La Máscara y el Alter Ego">
+        <img src="/assets/img/interior/boton-mascaras.gif" alt="La Máscara y el Alter Ego" loading="lazy">
         <p class="title">La Máscara y el Alter Ego</p>
         <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
       </div>
@@ -87,7 +87,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala y Zentangle">
+        <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala y Zentangle" loading="lazy">
         <p class="title">Mandala y Zentangle</p>
         <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
       </div>
@@ -98,7 +98,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/quema-del-mono.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-quema.gif" alt="Quema del Mono">
+        <img src="/assets/img/interior/boton-quema.gif" alt="Quema del Mono" loading="lazy">
         <p class="title">Quema del Mono</p>
         <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
       </div>
@@ -109,7 +109,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-afden.gif" alt="Silueta del Exterior Interior">
+        <img src="/assets/img/interior/boton-afden.gif" alt="Silueta del Exterior Interior" loading="lazy">
         <p class="title">Silueta del Exterior Interior</p>
         <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
       </div>
@@ -120,7 +120,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacros y Psicomagia">
+        <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacros y Psicomagia" loading="lazy">
         <p class="title">Simulacros y Psicomagia</p>
         <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
       </div>
@@ -131,7 +131,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-grafocine.gif" alt="Sincronización Grafo Cinética">
+        <img src="/assets/img/interior/boton-grafocine.gif" alt="Sincronización Grafo Cinética" loading="lazy">
         <p class="title">Sincronización Grafo Cinética</p>
         <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
       </div>
@@ -142,7 +142,7 @@ breadcrumbs: >
   <div class="item">
     <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección">
+        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección" loading="lazy">
         <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
         <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
       </div>
