@@ -1,6 +1,6 @@
-/* ==================================================================
-   RESET Y CONFIGURACIÓN GLOBAL
-================================================================== */
+/* ------------------------------------------------------------------
+   RESET Y CONFIGURACIÃ“N GLOBAL
+------------------------------------------------------------------ */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -8,86 +8,39 @@
 }
 
 :root {
-  /* ------------------------------------------------------------------
-     VARIABLES DEL PRIMER BLOQUE (Nuevas configuraciones)
-  ------------------------------------------------------------------ */
-  /* Tipografías unificadas */
-  --base-font: 'Arial', sans-serif;
-  --title-font: var(--base-font);
-  --subtitle-font: var(--base-font);
-  --paragraph-font: 'Georgia', serif;
-
-  /* Escala de colores simplificada */
-  --color-dark: #111;
-  --color-medium-dark: #222;
-  --color-medium: #3a3a3a;
-  --color-medium-light: #444;
-  --color-light: #f0f0f0;
-  --color-accent: #58a6ff;
-  --color-secondary: #aaaaaa;
-  --color-highlight: #f89900;
-
-  /* Escala tipográfica modular */
-  --text-base: 1rem;
-  --text-scale: 1.333;
-  --text-xs: calc(var(--text-base) / var(--text-scale));
-  --text-sm: calc(var(--text-base) * 0.875);
-  --text-md: var(--text-base);
-  --text-lg: calc(var(--text-base) * var(--text-scale));
-  --text-xl: calc(var(--text-lg) * var(--text-scale));
-  --text-xxl: calc(var(--text-xl) * var(--text-scale));
-
-  /* Espaciado consistente */
-  --space-unit: 1rem;
-  --space-xs: calc(var(--space-unit) / 4);
-  --space-sm: calc(var(--space-unit) / 2);
-  --space-md: var(--space-unit);
-  --space-lg: calc(var(--space-unit) * 1.5);
-  --space-xl: calc(var(--space-unit) * 2);
-
-  /* Componentes específicos */
-  --header-height: 80px;
-  --max-content-width: 1200px;
-  --border-radius: 8px;
-  --transition-base: 0.3s ease;
-
-  /* ------------------------------------------------------------------
-     VARIABLES DEL SEGUNDO BLOQUE (Código original)
-     Se hace un mapeo a las nuevas variables cuando es posible
-  ------------------------------------------------------------------ */
-  /* Tipografías */
-  --titulo-font: var(--title-font);
-  --subtitulo-font: var(--subtitle-font);
-  --subtitulo2-font: 'Arial', sans-serif; /* Variable adicional */
-  --parrafo-font: var(--paragraph-font);
+  /* TipografÃ­as */
+  --titulo-font: 'Arial', sans-serif;
+  --subtitulo-font: 'Arial', sans-serif;
+  --subtitulo2-font: 'Arial', sans-serif; /* ðŸ› ï¸ Corregido: lÃ­nea unificada */
+  --parrafo-font: 'Georgia', serif;
 
   /* Colores base */
-  --color-fondo: var(--color-medium-dark); /* #222 */
-  --color-fondo-secundario: var(--color-dark); /* #111 */
+  --color-fondo: #222;
+  --color-fondo-secundario: #111;
   --color-hover: #555;
-  --color-destacado: var(--color-accent); /* #58a6ff */
-  --color-claro: var(--color-light); /* #f0f0f0 */
-  --color-medio-claro: var(--color-secondary); /* #aaaaaa */
-  --color-medio: var(--color-medium); /* #3a3a3a */
-  --color-medio-oscuro: var(--color-medium-light); /* #444 */
+  --color-destacado: #58a6ff;
+  --color-claro: #f0f0f0;
+  --color-medio-claro: #aaaaaa;
+  --color-medio: #3a3a3a;
+  --color-medio-oscuro: #444;
 
-  /* Tamaños tipográficos */
-  --titulo-size: var(--text-xxl); /* Aproximadamente 2.3rem */
+  /* TamaÃ±os tipogrÃ¡ficos */
+  --titulo-size: 2.3rem;
   --subtitulo-size: 1.5rem;
-  --subtitulo2-size: 1.3rem;
-  --parrafo-size: var(--text-md); /* 1rem */
+  --subtitulo2-size: 1.3rem; /* ðŸ› ï¸ Corregido: sangrÃ­a */
+  --parrafo-size: 1rem;
 
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
   --line-height: 1.6;
-  --content-max-width: 65ch; /* Para párrafos (en el primer bloque se usaba 65ch) */
-  --margin-bottom-large: var(--space-xl);
-  --margin-bottom-medium: var(--space-lg);
-  --margin-bottom-small: var(--space-md);
+  --content-max-width: 63%;
+  --margin-bottom-large: 1.5rem;
+  --margin-bottom-medium: 0.8rem;
+  --margin-bottom-small: 1rem;
 
   /* Botones fancy */
-  --button-bg-color: var(--color-medium);
-  --button-hover-bg-color: var(--color-medium-light);
+  --button-bg-color: #3a3a3a;
+  --button-hover-bg-color: #444;
   --button-border-radius: 15px;
   --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
   --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
@@ -96,12 +49,12 @@
 
   /* Contenido en botones */
   --content-title-color: #f89900;
-  --content-subtitle-color: var(--color-medio-claro);
+  --content-subtitle-color: #aaaaaa;
   --content-subtitle-bg: #333;
-  --content-subtitle-hover-bg: var(--color-hover);
+  --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
-  --content-font-family: var(--base-font);
-  --gap-between-buttons: 10px;
+  --content-font-family: Arial, sans-serif;
+  --gap-between-buttons: 20px;
   --button-container-margin: 30px 0 40px;
   --button-max-width: 250px;
   --button-min-width: 150px;
@@ -111,164 +64,119 @@
   --subtitle-font-size: 0.85rem;
 }
 
-/* ==================================================================
-   RESET Y BASE / ESTILO GLOBAL
-================================================================== */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: var(--header-height);
-}
-
+/* ------------------------------------------------------------------
+   ESTILO GLOBAL DEL BODY E IMÃGENES
+------------------------------------------------------------------ */
 body {
-  background: var(--color-medium-dark);
-  color: var(--color-light);
-  font-family: var(--base-font);
+  background-color: var(--color-fondo);
+  color: var(--color-claro);
+  font-family: Arial, sans-serif;
+  text-align: left;
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
   overflow-x: hidden;
 }
 
-/* ==================================================================
-   TIPOGRAFÍA (del primer bloque)
-================================================================== */
-h1, .titulo {
-  font-size: var(--text-xxl);
-  line-height: 1.2;
-  color: var(--color-accent);
-  margin: var(--space-xl) 0 var(--space-md);
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-h2, .subtitulo {
-  font-size: var(--text-xl);
-  color: var(--color-secondary);
-  margin-bottom: var(--space-lg);
-}
-
-h3, .subtitulo2 {
-  font-size: var(--text-lg);
-  color: var(--color-light);
-  margin-bottom: var(--space-md);
-}
-
-p, .parrafo {
-  font-family: var(--paragraph-font);
-  max-width: 65ch;
-  margin-bottom: var(--space-md);
-}
-
-/* ==================================================================
-   COMPONENTES REUTILIZABLES (del primer bloque)
-================================================================== */
-.card {
-  background: var(--color-medium);
-  padding: var(--space-md);
-  border-radius: var(--border-radius);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform var(--transition-base);
-}
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-sm) var(--space-md);
-  border-radius: var(--border-radius);
-  font-weight: 600;
-  text-decoration: none;
-  transition: 
-    background-color var(--transition-base),
-    transform 0.2s ease;
-}
-
-/* ==================================================================
-   HEADER Y NAVEGACIÓN
-================================================================== */
-
-/* Header fijo (del primer bloque) */
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: var(--color-medium-dark);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
-
-/* Contenedor de navegación */
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: var(--header-height);
-  max-width: var(--max-content-width);
-  margin: 0 auto;
-  padding: 0 var(--space-md);
-}
-
-/* Menú de navegación (se integran reglas de ambos bloques) */
-.nav-menu {
-  display: flex;
-  gap: var(--space-md);
-  list-style: none;
-  background-color: var(--color-fondo-secundario);
-  flex-wrap: wrap;
+/* ------------------------------------------------------------------
+   HEADER, NAVEGACIÃ“N Y MENÃš RESPONSIVO
+------------------------------------------------------------------ */
+header {
+  background-color: var(--color-fondo);
+  color: #f4f4f4;
   padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1px 0;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img.logo-menu {
+  height: 22px;
+  width: auto;
+  max-height: 30px;
+}
+
+.nav-menu {
+  background-color: var(--color-fondo-secundario);
+  width: 100%;
+  list-style: none;
   margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   overflow-wrap: break-word;
 }
-
-.nav-link,
+.nav-menu li {
+  position: relative;
+}
 .nav-menu a {
-  color: var(--color-light);
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: var(--border-radius);
-  transition: background-color var(--transition-base);
+  color: var(--color-claro);
   text-decoration: none;
+  padding: 8px 15px;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
   position: relative;
   overflow: hidden;
   outline: none;
   word-wrap: break-word;
-  white-space: normal;
 }
-
 .nav-menu a:focus,
 .nav-menu a:hover {
   background-color: var(--color-hover);
-  color: var(--color-accent);
+  color: var(--color-destacado);
   transform: scale(1.02);
 }
-
 .nav-menu a:visited {
-  color: var(--color-light);
+  color: var(--color-claro);
 }
-
 .nav-menu a::after {
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
-  background: var(--color-accent);
+  background: var(--color-destacado);
   bottom: 0;
   left: 0;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.3s ease-in-out;
 }
-
 .nav-menu a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/* Submenús (según segundo bloque) */
+/* SubmenÃºs */
 .dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: var(--color-medium);
+  background-color: var(--color-medio);
   list-style: none;
   margin: 0;
   padding: 5px 0;
@@ -276,54 +184,37 @@ p, .parrafo {
   z-index: 100;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .dropdown-menu li {
   width: 180px;
   overflow-wrap: break-word;
   white-space: normal;
 }
-
 .dropdown-menu a {
   padding: 10px 15px;
   white-space: normal;
-  color: var(--color-light);
+  color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .dropdown-menu a:hover {
   background-color: var(--color-hover);
-  color: var(--color-accent);
+  color: var(--color-destacado);
 }
 
-.nav-logo {
-  display: flex;
-  align-items: center;
-}
-
-.nav-logo img.logo-menu {
-  height: 22px;
-  width: auto;
-  max-height: 22px;
-}
-
-
-
-/* Mostrar submenú en escritorio */
+/* Mostrar submenÃº en escritorio */
 @media (min-width: 769px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
   }
 }
-
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Menú Hamburguesa (según segundo bloque) */
+/* MenÃº Hamburguesa */
 .nav-toggle {
-  display: flex;
+  display: none;
   margin-top: 20px;
   margin-left: 20px;
   cursor: pointer;
@@ -332,7 +223,6 @@ p, .parrafo {
   transition: transform 0.3s ease;
   z-index: 1000;
 }
-
 .nav-toggle span {
   display: block;
   width: 33px;
@@ -340,11 +230,9 @@ p, .parrafo {
   background-color: var(--color-medio-claro);
   border-radius: 5px;
 }
-
 .nav-toggle:hover {
   transform: scale(1.1);
 }
-
 .nav-toggle:focus,
 .nav-toggle.active {
   outline: 3px solid rgba(88, 166, 255, 0.6);
@@ -352,74 +240,115 @@ p, .parrafo {
   transform: scale(1.05);
 }
 
-/* Menú responsivo (según segundo bloque) */
-@media (max-width: 64em) {
-  .nav-menu {
-    position: fixed;
-    top: var(--header-height);
-    right: 0;
-    flex-direction: column;
-    background: var(--color-fondo-secundario);
-    padding: var(--space-md);
-    transform: translateX(100%);
-    transition: transform var(--transition-base);
-  }
-  .nav-menu.active {
-    transform: translateX(0);
-  }
+/* MenÃº Responsivo */
+.nav-menu.active {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px;
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
+  overflow-wrap: break-word;
+  top: 100%; /* ðŸ› ï¸ PosiciÃ³n corregida */
+  max-height: calc(100vh - 60px); /* ðŸ› ï¸ Scroll para menÃºs largos */
+  overflow-y: auto;
 }
+body.no-scroll { overflow: hidden; }
 
-/* ==================================================================
-   SECCIÓN PRINCIPAL / MAIN CONTENT
-================================================================== */
-.main-content,
+/* ------------------------------------------------------------------
+   MAIN
+------------------------------------------------------------------ */
 main {
-  margin-top: var(--header-height);
-  padding: var(--space-xl) var(--space-md);
-  max-width: var(--max-content-width);
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   text-align: justify;
 }
 
-main {
-  padding-top: 80px;
-  padding: 0 20px;
+/* ------------------------------------------------------------------
+   TIPOGRAFÃA: TÃTULOS, SUBTÃTULOS Y PÃRRAFOS
+------------------------------------------------------------------ */
+.titulo {
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--color-destacado);
+  margin-bottom: var(--margin-bottom-medium);
+  letter-spacing: var(--spacing-tight);
+  word-wrap: break-word;
+}
+.subtitulo {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 600;
+  color: #aaaaaa;
+  margin-bottom: var(--margin-bottom-large);
+  text-indent: 1.5em;
+  word-wrap: break-word;
+}
+.subtitulo2 {
+  font-family: var(--subtitulo2-font);
+  font-size: var(--subtitulo2-size);
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: var(--margin-bottom-large);
+  text-indent: 1.5em;
+  word-wrap: break-word;
+}
+.parrafo,
+.parrafo ul {
+  font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--color-claro);
+  word-wrap: break-word;
+}
+.parrafo {
+  margin-bottom: var(--margin-bottom-small);
+  text-indent: 1.5em;
+}
+p.parrafo:first-of-type {
+  margin-top: 2rem; /* ðŸ› ï¸ Unidad corregida (original: 9%) */
+  text-indent: 2.5em;
+}
+p.parrafo:first-of-type ul {
+  margin-top: 0 !important;
+  text-indent: 0 !important;
+}
+.parrafo ul {
+  padding-left: 3em;
+  margin-bottom: var(--margin-bottom-small);
+}
+.parrafo ul li {
+  margin-bottom: 0.5em;
 }
 
-/* ==================================================================
-   IMÁGENES
-================================================================== */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
+/* ------------------------------------------------------------------
+   IMÃGENES
+------------------------------------------------------------------ */
 .imagen {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
-
 .imagen img {
   max-width: 100%;
-  width: 100%;
   height: auto;
-  border-radius: var(--border-radius);
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .imagen img:hover {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
-================================================================== */
+------------------------------------------------------------------ */
 .button-container {
   display: flex;
   flex-wrap: wrap;
@@ -427,7 +356,6 @@ img {
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
 }
-
 .fancy-button {
   display: block;
   text-decoration: none;
@@ -442,18 +370,15 @@ img {
   min-width: var(--button-min-width);
   height: auto;
 }
-
 .fancy-button:focus {
   box-shadow: var(--button-focus-shadow);
   transform: translateY(-5px);
 }
-
 .fancy-button:hover {
   transform: translateY(-5px);
   box-shadow: var(--button-hover-shadow);
   background-color: var(--button-hover-bg-color);
 }
-
 .button-content {
   position: relative;
   display: flex;
@@ -466,7 +391,6 @@ img {
   overflow: hidden;
   word-wrap: break-word;
 }
-
 .button-content img {
   width: 100%;
   height: auto;
@@ -474,11 +398,9 @@ img {
   opacity: var(--img-opacity);
   transition: opacity 0.3s ease-in-out;
 }
-
 .fancy-button:hover .button-content img {
   opacity: var(--img-hover-opacity);
 }
-
 .button-content .title {
   font-size: var(--title-font-size);
   font-weight: bold;
@@ -486,7 +408,6 @@ img {
   margin-bottom: 5px;
   word-wrap: break-word;
 }
-
 .button-content .subtitle {
   background: var(--content-subtitle-bg);
   padding: var(--content-subtitle-padding);
@@ -500,12 +421,11 @@ img {
   transition: background-color 0.3s ease, color 0.3s ease;
   word-wrap: break-word;
 }
-
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* Botón PayPal */
+/* BotÃ³n PayPal */
 .pp-GX4V3R9TEHJ5G {
   text-align: center;
   border: none;
@@ -522,15 +442,14 @@ img {
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
 .pp-GX4V3R9TEHJ5G:hover {
   background-color: #FFC300;
   transform: scale(1.05);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    BARRA DE PROGRESO
-================================================================== */
+------------------------------------------------------------------ */
 .barra-progreso {
   width: 100%;
   background-color: #e0e0e0;
@@ -540,7 +459,6 @@ img {
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
-
 .barra-progreso-fill {
   height: 100%;
   background: linear-gradient(90deg, #ffad33, #f89900);
@@ -554,16 +472,15 @@ img {
   transition: width 2s ease-in-out;
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    PRODUCTOS
-================================================================== */
+------------------------------------------------------------------ */
 .productos-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 4%;
 }
-
 .producto {
   width: 30%;
   background: #f9f9f9;
@@ -573,32 +490,27 @@ img {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-
 .producto img {
   width: 100%;
   height: auto;
   border-radius: 5px;
 }
-
 .title {
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 10px;
 }
-
 .subtitle {
   font-size: 0.9em;
   color: #666;
   margin-top: 5px;
 }
-
 .precio {
   font-size: 1.1em;
   font-weight: bold;
   color: #000;
   margin-top: 10px;
 }
-
 .boton-compra {
   background: #d32f2f;
   color: white;
@@ -610,14 +522,13 @@ img {
   margin-top: 10px;
   transition: background 0.3s;
 }
-
 .boton-compra:hover {
   background: #b71c1c;
 }
 
-/* ==================================================================
-   LÍNEA DE TIEMPO
-================================================================== */
+/* ------------------------------------------------------------------
+   LÃNEA DE TIEMPO
+------------------------------------------------------------------ */
 .timeline-container {
   display: flex;
   flex-direction: column;
@@ -627,21 +538,18 @@ img {
   max-width: 800px;
   padding: 20px;
 }
-
 .timeline {
   border-left: 3px solid var(--content-title-color);
   position: relative;
   width: 100%;
   padding-left: 20px;
 }
-
 .year {
   margin: 20px 0;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-
 .year::before {
   content: attr(data-year);
   position: absolute;
@@ -658,9 +566,9 @@ img {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    FUN BUTTON
-================================================================== */
+------------------------------------------------------------------ */
 .fun-button {
   background-color: var(--button-bg-color);
   color: #00c1cc;
@@ -674,15 +582,14 @@ img {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .fun-button:hover {
   background-color: var(--button-hover-bg-color);
   transform: scale(1.05);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    TEXT CONTAINER
-================================================================== */
+------------------------------------------------------------------ */
 .text-container {
   background-color: var(--color-medio-oscuro);
   color: var(--color-claro);
@@ -691,7 +598,6 @@ img {
   margin-top: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
 .text-container .imagen {
   width: 100%;
   max-height: 200px;
@@ -703,27 +609,23 @@ img {
   overflow: hidden;
   border-radius: 5px;
 }
-
 .text-container .imagen img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-
 .text-container .title {
   font-size: 1.5rem;
   font-family: var(--titulo-font);
-  color: var(--color-accent);
+  color: var(--color-destacado);
   margin-bottom: 10px;
 }
-
 .text-container .subtitle {
   font-size: 1.2rem;
   font-family: var(--subtitulo-font);
   color: #aaaaaa;
   margin-bottom: 8px;
 }
-
 .text-container .paragraph {
   font-size: 1rem;
   font-family: var(--parrafo-font);
@@ -731,9 +633,9 @@ img {
   color: var(--color-claro);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    FOOTER
-================================================================== */
+------------------------------------------------------------------ */
 footer {
   background-color: var(--color-medio-oscuro);
   color: #cecece;
@@ -742,7 +644,6 @@ footer {
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -751,50 +652,42 @@ footer {
   align-items: center;
   gap: 15px;
 }
-
 .footer-logo img {
   max-width: 14%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-
 .footer-links {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 15px;
 }
-
 .footer-links a {
-  color: var(--color-accent);
+  color: var(--color-destacado);
   text-decoration: none;
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
-
 .footer-links a:hover {
   color: #fff;
 }
-
 .footer-social {
   display: flex;
   gap: 15px;
 }
-
 .footer-social a img {
   width: 33px;
   height: 33px;
   transition: transform 0.3s ease;
 }
-
 .footer-social a img:hover {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
-
 .footer-copyright {
-  font-family: var(--base-font);
+  font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
   color: #aaa;
@@ -804,9 +697,9 @@ footer {
   text-decoration: none;
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    DIAGRAMAS MERMAID
-================================================================== */
+------------------------------------------------------------------ */
 .diagram-container {
   text-align: center;
   margin: 50px auto 60px;
@@ -820,11 +713,9 @@ footer {
   font-family: var(--parrafo-font);
   color: var(--color-claro);
 }
-
 .diagram-container + .diagram-container {
   margin-top: 30px;
 }
-
 .mermaid {
   display: block;
   width: 100%;
@@ -835,24 +726,21 @@ footer {
   font-family: var(--parrafo-font);
   color: var(--color-claro);
 }
-
 .mermaid svg {
   display: block;
   margin: 0 auto;
   width: 100% !important;
   height: auto !important;
 }
-
 .diagram-title h2 {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
   font-weight: bold;
-  color: var(--color-accent);
+  color: var(--color-destacado);
   letter-spacing: var(--spacing-tight);
   margin-bottom: var(--margin-bottom-large);
   text-align: center;
 }
-
 .diagram-subtitle h3 {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
@@ -860,7 +748,6 @@ footer {
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-medium);
 }
-
 .diagram-content p {
   font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
@@ -869,21 +756,19 @@ footer {
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
 }
-
 .mermaid a {
   text-decoration: none;
   font-family: var(--subtitulo-font);
   font-weight: 600;
   color: #aaaaaa;
 }
-
 .mermaid a:hover {
   text-decoration: underline;
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    FORMULARIOS
-================================================================== */
+------------------------------------------------------------------ */
 form {
   display: block;
   max-width: 600px;
@@ -895,14 +780,12 @@ form {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-
 form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 1rem;
 }
-
 form input,
 form textarea,
 form button {
@@ -916,21 +799,18 @@ form button {
   box-sizing: border-box;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 form input:focus,
 form textarea:focus {
-  border-color: var(--color-accent);
+  border-color: var(--color-destacado);
   box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
   outline: none;
 }
-
 form textarea {
   resize: vertical;
   min-height: 100px;
 }
-
 form button {
-  background-color: var(--color-accent);
+  background-color: var(--color-destacado);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -940,15 +820,14 @@ form button {
   padding: 12px 20px;
   border-radius: 4px;
 }
-
 form button:hover {
   background-color: #0056b3;
   transform: translateY(-3px);
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    CONTENEDOR FLEXIBLE
-================================================================== */
+------------------------------------------------------------------ */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -957,59 +836,36 @@ form button:hover {
   max-width: 100%;
   overflow: hidden;
 }
-
 .item {
   flex: 1 1 calc(33.33% - 20px);
   box-sizing: border-box;
 }
 
-/* ==================================================================
+/* ------------------------------------------------------------------
    MEDIA QUERIES
-================================================================== */
-
+------------------------------------------------------------------ */
 /* Dispositivos grandes y medianos */
 @media (max-width: 1200px) {
-  .text-container { 
-    font-size: 1.2rem; 
-    padding: 15px; 
-  }
+  .text-container { font-size: 1.2rem; padding: 15px; }
 }
-
-/* Para pantallas hasta 1024px se reestructura el nav y otros elementos */
 @media (max-width: 1024px) {
-  .navbar { 
-    flex-direction: column; 
-    align-items: flex-start; 
-  }
-  .fancy-button { 
-    width: 40%; 
-  }
+  .navbar { flex-direction: column; align-items: flex-start; }
+  .fancy-button { width: 40%; }
 }
-
-/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
-@media (min-width: 902px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
     max-width: 400px;
     transition: width 0.3s ease;
   }
-  .text-container { 
-    padding: 20px; 
-  }
-  .button-container { 
-    gap: 20px; 
-  }
+  .text-container { padding: 20px; }
+  .button-container { gap: 20px; }
 }
 
-/* Dispositivos pequeños: hasta 901px, se activa el menú hamburguesa */
-@media (max-width: 901px) {
-  body { 
-    font-size: 1.2rem; 
-  }
-  .nav-toggle { 
-    display: flex; 
-    margin-top: 10px; 
-  }
+/* Dispositivos pequeÃ±os */
+@media (max-width: 768px) {
+  body { font-size: 1.2rem; }
+  .nav-toggle { display: flex; margin-top: 10px; }
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -1026,86 +882,40 @@ form button:hover {
     max-height: calc(100vh - 60px);
     overflow-y: auto;
   }
-  /* Cuando se activa el menú (se añade la clase "active") */
-  .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
-    opacity: 1;
-  }
-  .dropdown.active .dropdown-menu { 
-    display: block; 
-    position: static; 
-  }
-  .year::before { 
-    left: -50px; 
-    font-size: 1rem; 
-  }
-  .fun-button { 
-    font-size: 0.9rem; 
-    padding: 8px 15px; 
-  }
-  .text-container { 
-    padding: 10px; 
-    font-size: 0.9rem; 
-    line-height: 1.6; 
-  }
-  .item { 
-    flex: 1 1 calc(50% - 20px); 
-  }
+  .dropdown.active .dropdown-menu { display: block; position: static; }
+  .year::before { left: -50px; font-size: 1rem; }
+  .fun-button { font-size: 0.9rem; padding: 8px 15px; }
+  .text-container { padding: 10px; }
+  .item { flex: 1 1 calc(50% - 20px); }
+  
+  /* Ajustes adicionales para pantallas muy pequeÃ±as */
+  .text-container { padding: 10px; font-size: 0.9rem; line-height: 1.6; }
   .button-container {
     flex-direction: column;
     gap: 15px;
     align-items: center;
     padding: 10px;
   }
-  .fancy-button { 
-    width: 80%; 
-    max-width: 300px; 
-  }
+  .fancy-button { width: 80%; max-width: 300px; }
 }
-
-/* Ajustes para pantallas aún más pequeñas */
 @media (max-width: 600px) {
-  .nav-menu { 
-    flex-direction: column; 
-    gap: 10px; 
-  }
-  .text-container { 
-    padding: 10px; 
-  }
+  .nav-menu { flex-direction: column; gap: 10px; }
+  .text-container { padding: 10px; }
 }
-
 @media (max-width: 480px) {
-  body { 
-    font-size: 0.8rem; 
-  }
-  header { 
-    padding: 5px 10px; 
-    font-size: 1rem; 
-  }
-  .text-container { 
-    padding: 10px 5px; 
-    font-size: 0.8rem; 
-    width: 100%; 
-  }
-  .button-container { 
-    gap: 10px; 
-  }
-  .fancy-button { 
-    width: 100%; 
-    max-width: 250px; 
-    padding: 10px 15px; 
-  }
+  body { font-size: 0.8rem; }
+  header { padding: 5px 10px; font-size: 1rem; }
+  .text-container { padding: 10px 5px; font-size: 0.8rem; width: 100%; }
+  .button-container { gap: 10px; }
+  .fancy-button { width: 100%; max-width: 250px; padding: 10px 15px; }
 }
 
-/* Dispositivos grandes (mínimo 1024px) */
+/* Dispositivos grandes (mÃ­nimo 1024px) */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
     max-width: 350px;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-  .text-container { 
-    padding: 30px; 
-  }
+  .text-container { padding: 30px; }
 }
