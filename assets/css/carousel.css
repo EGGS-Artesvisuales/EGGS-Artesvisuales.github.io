@@ -4,12 +4,21 @@
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
-  overflow: hidden;
+  /* Nota: se quita el overflow general para evitar recortes en el 3D */
+  /* overflow: hidden; */
   margin: 0 auto;
   padding: 20px 0;
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Para el carrusel grandes, se fuerza overflow visible
+   (esto sobrescribe el posible overflow:hidden de Owl Carousel)
+   -------------------------------------------------------------------------- */
+.owl-carousel-large.carousel-grandes {
+  overflow: visible;
 }
 
 /* ==========================================================================
@@ -228,7 +237,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Agregamos posición relativa para trabajar con z-index */
+  /* Posición relativa para que el z-index funcione en el hover */
   position: relative;
   z-index: 1;
 }
