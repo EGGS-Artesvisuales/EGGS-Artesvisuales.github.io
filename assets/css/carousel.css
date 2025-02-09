@@ -4,11 +4,10 @@
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
-  /* Se ha removido el overflow general para evitar recortes en el 3D */
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
-  border-radius: 8px; /* Bordes redondeados */
+  border-radius: 8px;               /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -29,9 +28,11 @@
   overflow: visible !important;
   position: relative;
 }
+
 .owl-carousel-large.carousel-grandes .owl-item:hover {
   z-index: 100;
 }
+
 
 /* ==========================================================================
    Carousel Navigation (Flechas)
@@ -64,6 +65,7 @@
   right: 10px;
 }
 
+
 /* ==========================================================================
    Carousel Dots
    ========================================================================== */
@@ -95,6 +97,7 @@
   background-color: #333;
 }
 
+
 /* ==========================================================================
    Specialized Carousel Styles
    ========================================================================== */
@@ -107,7 +110,7 @@
 }
 
 /* Contenedor interno en carrusel normal (limitado a 800px) */
-.owl-carousel .carousel-imagen .item--imagen .imagen { 
+.owl-carousel .carousel-imagen .item--imagen .imagen {
   display: block;
   text-decoration: none;
   background-color: #3a3a3a;
@@ -126,6 +129,7 @@
   max-width: none;
   margin: 0 auto;
 }
+
 
 /* --- Carrusel Fancy (Botones) --- */
 .carousel-fancy .fancy-button {
@@ -204,6 +208,7 @@
   background-color: #555;
 }
 
+
 /* --- Estilos para las imágenes dentro del carrusel --- */
 .carousel-imagen .imagen img.carousel-img {
   border-radius: 15px;
@@ -229,6 +234,7 @@
 .owl-carousel-large .carousel-imagen .owl-item img {
   height: 1000px; /* Ajusta este valor según necesites */
 }
+
 
 /* ==========================================================================
    Carousel Grandes (Imágenes desbordadas) - Slide Grande
@@ -272,6 +278,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
+
 
 /* ==========================================================================
    Hover Efects y Ajustes Responsivos
