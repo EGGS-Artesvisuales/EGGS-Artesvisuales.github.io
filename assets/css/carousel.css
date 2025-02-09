@@ -204,9 +204,12 @@
 .carousel-grandes .owl-stage-outer {
   overflow: visible;
 }
-/* Ancho fijo para cada slide en carousel grandes (aprox. 800px) */
+
+   /* Ancho fijo para cada slide en carousel grandes (aprox. 800px) con un gap */
 .carousel-grandes .item {
   width: 800px;
+  margin-right: 10px;  /* Gap pequeño entre slides */
+}
 }
 /* Estilos para las imágenes del slider grandes */
 .carousel-grandes .carousel-img {
