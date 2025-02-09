@@ -6,14 +6,14 @@ permalink: /ES/acerca.html
 
 <!-- Título principal -->
 <div class="titulo">Acerca de este proyecto</div>
-<div class="subtitulo">Conoce al artista y la productora detrás de la visión</div>
+<div class="subtitulo">detrás de la visión</div>
 
 <p class="parrafo" style="margin-top:6%;">
   Bienvenido a la sección “Acerca de”. Aquí encontrarás información sobre 
-  <strong>Esteban Garnica Sánchez</strong>, el artista visual que impulsa 
+  <strong>Esteban Garnica Sánchez</strong>, artista visual que impulsa 
   la transformación social a través del arte, y <strong>E.GG.S - Producciones &amp; Art SpA</strong>,
   la productora que fusiona arte y tecnología para revolucionar espacios 
-  culturales y comunitarios.
+  culturales y comunitarios. En EGGS-Studio puedes encontrar todo lo relacionado con nuestro Arte.
 </p>
 
 <!-- Sección Esteban Garnica -->
@@ -39,6 +39,6 @@ permalink: /ES/acerca.html
   a través de intervenciones visuales e interactivas.
 </p>
 <p class="parrafo">
-  <strong><a href="/ES/eggs.html">Ver más sobre E.GG.S</a></strong>
+  <strong><a href="/ES/eggs.html">Ver más sobre E.GG.S - produccines y Art Spa</a></strong>
 </p>
 
