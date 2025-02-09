@@ -126,7 +126,7 @@
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  /* Sistema de columnas en el contenedor Owl Carousel */
+  /* IMPORTANTE: Estas propiedades flex funcionan solo si el contenedor padre es flex */
   flex: 1 1 calc(25% - 20px);
   max-width: 250px;
   min-width: 150px;
@@ -194,14 +194,13 @@
 
 /* -----------------------------------------------------------------------
    Estilos específicos para las imágenes dentro del carrusel
-   (se aplican a las imágenes que tengan la clase "carousel-img"
+   (Se aplican a las imágenes con la clase "carousel-img"
     dentro de un contenedor .imagen en el carrusel)
 ----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
-  /* Estilos personalizados para las imágenes (igual que la imagen estática) */
   border-radius: 15px;                     /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave en hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%;
   height: auto;
 }
@@ -220,11 +219,10 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* En pantallas grandes, se escala un poco la imagen para centrarla visualmente */
+/* En pantallas grandes, se escala la imagen para centrarla visualmente */
 @media (min-width: 1024px) {
   .carousel-imagen .imagen img.carousel-img {
     width: 110%;
     margin-left: -5%;
   }
 }
-
