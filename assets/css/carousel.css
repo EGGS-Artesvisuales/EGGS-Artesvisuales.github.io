@@ -199,6 +199,32 @@
   height: 1000px; /* Puedes ajustar este valor según lo necesites */
 }
 
+/* Permitir que los items se desborden del contenedor */
+.carousel-grandes .owl-stage-outer {
+  overflow: visible;
+}
+
+/* Define el ancho fijo para cada slide (imagen grande: 800px aprox) */
+.carousel-grandes .item {
+  width: 800px;
+}
+
+/* Estilos para las imágenes del slider */
+.carousel-grandes .carousel-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en las imágenes */
+.carousel-grandes .carousel-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
 /* Efecto hover para ambas presentaciones */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
