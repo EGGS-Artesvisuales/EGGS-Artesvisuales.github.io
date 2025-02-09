@@ -483,26 +483,31 @@ p.parrafo:first-of-type ul {
   background: var(--content-subtitle-hover-bg);
 }
 
-
-
 /* ------------------------------
      BOTÓN DE PAGO PAYPAL PERSONALIZADO
 ------------------------------ */
 
 .pp-GX4V3R9TEHJ5G {
-    text-align:center;border:none;
-    border-radius:0.25rem;
-    min-width:11.625rem;
-    padding:0 2rem;
-    height:2.625rem;
-    font-weight:bold;
-    background-color:#FFD140;
-    color:#000000;
-    font-family:"Helvetica Neue",
-       Arial,sans-serif;
-    font-size:1rem;
-    line-height:1.25rem;
-    cursor:pointer;}
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem;
+    min-width: 11.625rem;
+    padding: 0 2rem;
+    height: 2.625rem;
+    font-weight: 600; /* Igual a .subtitulo2 */
+    background-color: #FFD140;
+    color: #fff; /* Color adaptado a la regla de .subtitulo2 */
+    font-family: var(--subtitulo2-font, "Helvetica Neue", Arial, sans-serif);
+    font-size: var(--subtitulo2-size, 1rem);
+    line-height: 1.25rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.pp-GX4V3R9TEHJ5G:hover {
+    background-color: #FFC300; /* Tono ligeramente diferente */
+    transform: scale(1.05);    /* Efecto de zoom sutil */
+}
 
 
 /* - - - - - - - - - - - - -- 
