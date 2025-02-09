@@ -222,7 +222,7 @@ header {
 
 /* Menú Hamburguesa */
 .nav-toggle {
-  display: none;
+  display: flex;
   margin-top: 20px;
   margin-left: 20px;
   cursor: pointer;
