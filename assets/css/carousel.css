@@ -7,7 +7,6 @@
   overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
-   flex: 1 1 calc(25% - 20px);
 }
 
 .owl-carousel .item,
