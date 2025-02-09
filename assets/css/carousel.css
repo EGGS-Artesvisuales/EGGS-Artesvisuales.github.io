@@ -193,6 +193,13 @@
   height: auto;
 }
 
+/* Asegura que las imágenes del carousel tengan una altura fija de 600px y se ajusten responsivamente */
+.carousel-imagen .owl-item img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover; /* Mantiene el aspecto de la imagen recortando en exceso si es necesario */
+}
+
 /* Efecto hover para las imágenes del carrusel */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
