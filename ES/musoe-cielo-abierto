@@ -33,14 +33,19 @@ progreso: true
         <div class="imagen">
         <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
       </div>
- <div class="imagen">
-        <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-      </div>
- <div class="imagen">
+  </div>
+  <!-- Puedes agregar más ítems de la misma forma -->
+ <div class="item">
+        <div class="imagen">
         <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
       </div>
   </div>
   <!-- Puedes agregar más ítems de la misma forma -->
+ <div class="item">
+        <div class="imagen">
+        <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+      </div>
+  </div>
 </div>
 
 <br>
