@@ -7,14 +7,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
------------------------------------------------------------------- */
+}
 :root {
-  /* Tipografías */
+    /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
-  --subtitulo2-font: 'Georgia', serif;
+--subtitulo2-font: 'Georgia', serif;
   --parrafo-font: 'Georgia', serif;
-  
+    
   /* Colores base */
   --color-fondo: #222;
   --color-fondo-secundario: #111;
@@ -26,11 +26,11 @@
   --color-medio-oscuro: #444;
   
   /* Tamaños tipográficos */
-  --titulo-size: 2rem;
-  --subtitulo-size: 1.5rem;
-  --subtitulo2-size: 1.2rem;
+  --titulo-size: 3rem;
+  --subtitulo-size: 2rem;
+    --subtitulo2-size: 1.4rem;
   --parrafo-size: 1rem;
-  
+
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
   --line-height: 1.6;
@@ -38,12 +38,7 @@
   --margin-bottom-large: 1.5rem;
   --margin-bottom-medium: 0.8rem;
   --margin-bottom-small: 1rem;
-  
-  /* Sangrías */
-  --sangria-grande: 3rem;
-  --sangria-mediana: 2rem;
-  --sangria-baja: 1rem;
-  
+
   /* Botones fancy */
   --button-bg-color: #3a3a3a;
   --button-hover-bg-color: #444;
@@ -52,7 +47,7 @@
   --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
   --button-focus-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), var(--button-shadow);
   --button-transition: transform 0.2s, box-shadow 0.3s ease;
-  
+
   /* Contenido en botones */
   --content-title-color: #f89900;
   --content-subtitle-color: #aaaaaa;
@@ -69,6 +64,7 @@
   --title-font-size: 1.2rem;
   --subtitle-font-size: 0.85rem;
 }
+
 
 /* ------------------------------------------------------------------
    ESTILO GLOBAL DEL BODY
@@ -92,11 +88,11 @@ img {
 }
 
 /* ------------------------------------------------------------------
-   HEADER Y NAVEGACIÓN
+   HEADER FIJO
 ------------------------------------------------------------------ */
 header {
   background-color: var(--color-fondo);
-  color: var(--color-claro);
+  color: #f4f4f4;
   padding: 0;
   position: fixed;
   width: 100%;
@@ -107,21 +103,10 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: flex-start; /* En lugar de space-between */
+  align-items: left;
   width: 100%;
-  padding: 1px 0;
-}
-
-.nav-logo {
-  display: flex;
-  align-items: center;
-}
-
-.nav-logo img.logo-menu {
-  height: 22px;
-  width: auto;
-  max-height: 30px;
+  padding: 1px 0px;
 }
 
 /* Menú principal */
@@ -155,8 +140,7 @@ header {
   word-wrap: break-word;
 }
 
-.nav-menu a:focus,
-.nav-menu a:hover {
+.nav-menu a:focus {
   background-color: var(--color-hover);
   color: var(--color-destacado);
   transform: scale(1.02);
@@ -164,6 +148,12 @@ header {
 
 .nav-menu a:visited {
   color: var(--color-claro);
+}
+
+.nav-menu a:hover {
+  background-color: var(--color-hover);
+  color: var(--color-destacado);
+  transform: scale(1.02);
 }
 
 .nav-menu a::after {
@@ -201,11 +191,14 @@ header {
 
 .dropdown-menu li {
   width: 180px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
   white-space: normal;
 }
 
 .dropdown-menu a {
   padding: 10px 15px;
+  white-space: normal;
   color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -222,7 +215,6 @@ header {
     animation: fadeIn 0.3s ease-in-out;
   }
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -283,13 +275,33 @@ main {
   padding-top: 80px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: justify;
 }
+/* __________________________________________________________
+
+logo nav menu
+___________________________ */
+
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+   }
+
+.nav-logo img.logo-menu {
+    height: 22px; /* Ajusta según necesidad */
+    width: auto;
+    max-height: 30px; /* Evita que sea demasiado grande */
+}
+
+
 
 /* ------------------------------------------------------------------
    TITULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
+
 /* Títulos */
 .titulo {
   font-family: var(--titulo-font);
@@ -306,9 +318,9 @@ main {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
   font-weight: 600;
-  color: var(--color-medio-claro);
+  color: #aaaaaa;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em;
+  text-indent: 1.5em; /* Sangría de la primera línea */
   word-wrap: break-word;
 }
 
@@ -316,13 +328,13 @@ main {
 .subtitulo2 {
   font-family: var(--subtitulo2-font);
   font-size: var(--subtitulo2-size);
-  color: var(--color-claro);
+  color: #fff;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em;
+  text-indent: 1.5em; /* Sangría de la primera línea */
   word-wrap: break-word;
 }
 
-/* Párrafos y listas */
+/* Estilos base para .parrafo y ul dentro de .parrafo */
 .parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
@@ -330,24 +342,28 @@ main {
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
-  word-wrap: break-word;
+  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
 }
 
+/* Ajustes específicos de párrafos */
 .parrafo {
   margin-bottom: var(--margin-bottom-small);
-  text-indent: 1.5em;
+  text-indent: 1.5em; /* Sangría de la primera línea */
 }
 
+/* Ajuste para el primer párrafo */
 p.parrafo:first-of-type {
   margin-top: 9%;
-  text-indent: 2.5em;
+  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
 }
 
+/* Anular margen y sangría en el primer párrafo si contiene una lista */
 p.parrafo:first-of-type ul {
   margin-top: 0 !important;
   text-indent: 0 !important;
 }
 
+/* Listas dentro de .parrafo */
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
@@ -357,21 +373,17 @@ p.parrafo:first-of-type ul {
   margin-bottom: 0.5em;
 }
 
-/* Clases de sangría alternativas */
-.sangria-grande { text-indent: var(--sangria-grande); }
-.sangria-mediana { text-indent: var(--sangria-mediana); }
-.sangria-baja   { text-indent: var(--sangria-baja); }
 
 /* ------------------------------------------------------------------
    BOTONES "FANCY BUTTONS"
 ------------------------------------------------------------------ */
 .button-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+    flex-wrap: wrap;
+  justify-content: left;
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
-}
+ }
 
 .fancy-button {
   display: block;
@@ -382,7 +394,11 @@ p.parrafo:first-of-type ul {
   transition: var(--button-transition);
   overflow: hidden;
   text-align: center;
+
+  /* Ajusta el tamaño con flex: 4 columnas aproximadas */
   flex: 1 1 calc(25% - var(--gap-between-buttons));
+  
+  /* Opcionalmente define límites para evitar que crezcan o encojan demasiado */
   max-width: var(--button-max-width);
   min-width: var(--button-min-width);
   height: auto;
@@ -410,7 +426,6 @@ p.parrafo:first-of-type ul {
   overflow: hidden;
   word-wrap: break-word;
 }
-
 .button-content img {
   width: 100%;
   height: auto;
@@ -418,11 +433,9 @@ p.parrafo:first-of-type ul {
   opacity: var(--img-opacity);
   transition: opacity 0.3s ease-in-out;
 }
-
 .fancy-button:hover .button-content img {
   opacity: var(--img-hover-opacity);
 }
-
 .button-content .title {
   font-size: var(--title-font-size);
   font-weight: bold;
@@ -430,7 +443,6 @@ p.parrafo:first-of-type ul {
   margin-bottom: 5px;
   word-wrap: break-word;
 }
-
 .button-content .subtitle {
   background: var(--content-subtitle-bg);
   padding: var(--content-subtitle-padding);
@@ -444,33 +456,39 @@ p.parrafo:first-of-type ul {
   transition: background-color 0.3s ease, color 0.3s ease;
   word-wrap: break-word;
 }
-
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* ------------------------------------------------------------------
-   BOTÓN DE PAGO PAYPAL PERSONALIZADO
------------------------------------------------------------------- */
-.pp-GX4V3R9TEHJ5G {
-  text-align: center;
-  border: none;
-  border-radius: 0.25rem;
-  min-width: 11.625rem;
-  padding: 0 2rem;
-  height: 2.625rem;
-  font-weight: bold;
-  background-color: #FFD140;
-  color: #000;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  cursor: pointer;
-}
 
-/* ------------------------------------------------------------------
-   BARRA DE PROGRESO
------------------------------------------------------------------- */
+
+/* ------------------------------
+     BOTÓN DE PAGO PAYPAL PERSONALIZADO
+------------------------------ */
+
+.pp-GX4V3R9TEHJ5G {
+    text-align:center;border:none;
+    border-radius:0.25rem;
+    min-width:11.625rem;
+    padding:0 2rem;
+    height:2.625rem;
+    font-weight:bold;
+    background-color:#FFD140;
+    color:#000000;
+    font-family:"Helvetica Neue",
+       Arial,sans-serif;
+    font-size:1rem;
+    line-height:1.25rem;
+    cursor:pointer;}
+
+
+/* - - - - - - - - - - - - -- 
+
+barra de progreso
+
+ - - - - -- - - - -*/
+
+
 .barra-progreso {
   width: 100%;
   background-color: #ddd;
@@ -482,75 +500,70 @@ p.parrafo:first-of-type ul {
 
 .barra-progreso-fill {
   height: 100%;
-  background-color: var(--color-destacado);
+  background-color: #58a6ff;
   text-align: center;
   line-height: 20px;
   color: white;
   font-weight: bold;
 }
+/*---------------
+productos
+--------*/
 
-/* ------------------------------------------------------------------
-   SECCIÓN DE PRODUCTOS
------------------------------------------------------------------- */
-.productos-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 4%;
-}
 
-.producto {
-  width: 30%;
-  background-color: var(--color-medio); /* En lugar de un fondo claro */
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  color: var(--color-claro);
-}
+<style>
+  .productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4%;
+  }
+  .producto {
+    width: 30%;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .subtitle {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+  .precio {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+  }
+  .boton-compra {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+  .boton-compra:hover {
+    background: #b71c1c;
+  }
 
-.producto img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
 
-.producto .title {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 10px;
-  color: var(--color-destacado);
-}
-
-.producto .subtitle {
-  font-size: 0.9em;
-  color: var(--color-medio-claro);
-  margin-top: 5px;
-}
-
-.producto .precio {
-  font-size: 1.1em;
-  font-weight: bold;
-  color: var(--color-destacado);
-  margin-top: 10px;
-}
-
-.producto .boton-compra {
-  background-color: #d32f2f;
-  color: var(--color-claro);
-  border: none;
-  padding: 10px 15px;
-  font-size: 1em;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 10px;
-  transition: background 0.3s;
-}
-
-.producto .boton-compra:hover {
-  background-color: #b71c1c;
-}
 
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
@@ -576,8 +589,8 @@ p.parrafo:first-of-type ul {
   margin: 20px 0;
   position: relative;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .year::before {
@@ -596,7 +609,6 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Botón divertido en línea de tiempo */
 .fun-button {
   background-color: var(--button-bg-color);
   color: #00c1cc;
@@ -605,11 +617,12 @@ p.parrafo:first-of-type ul {
   text-align: center;
   font-size: 1.3rem;
   font-family: var(--content-font-family);
-  font-weight: bold;
+  font-weight: bold; /* Esta línea aplica el estilo bold */
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 
 .fun-button:hover {
   background-color: var(--button-hover-bg-color);
@@ -625,11 +638,12 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Espacio para imagen del taller */
 .text-container .imagen {
   width: 100%;
   max-height: 200px;
   margin-bottom: 10px;
-  background-color: #333;
+  background-color: #333; /* Color de fondo de reserva */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -653,7 +667,7 @@ p.parrafo:first-of-type ul {
 .text-container .subtitle {
   font-size: 1.2rem;
   font-family: var(--subtitulo-font);
-  color: var(--color-medio-claro);
+  color: #aaaaaa;
   margin-bottom: 8px;
 }
 
@@ -664,91 +678,8 @@ p.parrafo:first-of-type ul {
   color: var(--color-claro);
 }
 
-/* ------------------------------------------------------------------
-   FORMULARIOS
------------------------------------------------------------------- */
-form {
-  display: block;
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: var(--color-medio);
-  border: 1px solid var(--color-medio-oscuro);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-form label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-form input,
-form textarea,
-form button {
-  display: block;
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #666;
-  border-radius: 4px;
-  box-sizing: border-box;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: var(--color-destacado);
-  box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
-  outline: none;
-}
-
-form textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-form button {
-  background-color: var(--color-destacado);
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 12px 20px;
-  border-radius: 4px;
-}
-
-form button:hover {
-  background-color: #0056b3;
-  transform: translateY(-3px);
-}
 
 /* ------------------------------------------------------------------
-   CONTENEDOR FLEXIBLE
------------------------------------------------------------------- */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.item {
-  flex: 1 1 calc(33.33% - 20px);
-  box-sizing: border-box;
-}
-
-
-
-   /* ------------------------------------------------------------------
    FOOTER
 ------------------------------------------------------------------ */
 footer {
@@ -824,13 +755,162 @@ footer {
 }
 
 
-
-   
 /* ------------------------------------------------------------------
-   MEDIA QUERIES
+   CONTENEDOR DEL DIAGRAMA (MERMAID)
+------------------------------------------------------------------ */
+.diagram-container {
+  text-align: center;
+  margin: 50px auto;
+  margin-bottom: 60px;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-claro);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  font-family: var(--parrafo-font);
+  color: var(--color-claro);
+}
+
+.diagram-container + .diagram-container {
+  margin-top: 30px;
+}
+
+.mermaid {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 2em 0;
+  clear: both;
+  font-family: var(--parrafo-font);
+  color: var(--color-claro);
+}
+.mermaid svg {
+  display: block;
+  margin: 0 auto;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.diagram-title h2 {
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--color-destacado);
+  letter-spacing: var(--spacing-tight);
+  margin-bottom: var(--margin-bottom-large);
+  text-align: center;
+}
+
+.diagram-subtitle h3 {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 600;
+  color: #aaaaaa;
+  margin-bottom: var(--margin-bottom-medium);
+}
+
+.diagram-content p {
+  font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--color-claro);
+  margin-bottom: var(--margin-bottom-small);
+}
+
+.mermaid a {
+  text-decoration: none;
+  font-family: var(--subtitulo-font);
+  font-weight: 600;
+  color: #aaaaaa;
+}
+.mermaid a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------
+   FORMULARIOS
+------------------------------------------------------------------ */
+form {
+  display: block;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--color-medio);
+  border: 1px solid var(--color-medio-oscuro);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+form input:focus,
+form textarea:focus {
+  border-color: var(--color-destacado);
+  box-shadow: 0 0 3px rgba(88, 166, 255, 0.6);
+  outline: none;
+}
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+form button {
+  background-color: var(--color-destacado);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+form button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+
+/* ------------------------------------------------------------------
+   CONTENEDOR FLEXIBLE
+------------------------------------------------------------------ */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+.item {
+  flex: 1 1 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------
+   MEDIA QUERIES UNIFICADAS
 ------------------------------------------------------------------ */
 
-/* Hasta 768px */
+/* <= 768px */
 @media (max-width: 768px) {
   body {
     font-size: 1.2rem;
@@ -876,7 +956,7 @@ footer {
   }
 }
 
-/* Hasta 600px */
+/* <= 600px */
 @media (max-width: 600px) {
   .nav-menu {
     flex-direction: column;
@@ -887,7 +967,7 @@ footer {
   }
 }
 
-/* Hasta 480px */
+/* <= 480px */
 @media (max-width: 480px) {
   body {
     font-size: 0.8rem;
@@ -911,7 +991,7 @@ footer {
   }
 }
 
-/* Hasta 767px */
+/* <= 767px (en algunos casos se usaba 767, unificamos lógica con 768 si aplica) */
 @media (max-width: 767px) {
   .text-container {
     padding: 10px;
@@ -930,7 +1010,7 @@ footer {
   }
 }
 
-/* Hasta 1024px */
+/* <= 1024px */
 @media (max-width: 1024px) {
   .navbar {
     flex-direction: column;
@@ -941,7 +1021,7 @@ footer {
   }
 }
 
-/* Hasta 1200px */
+/* <= 1200px */
 @media (max-width: 1200px) {
   .text-container {
     font-size: 1.2rem;
@@ -964,7 +1044,7 @@ footer {
   }
 }
 
-/* A partir de 1024px */
+/* >= 1024px */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
@@ -975,3 +1055,4 @@ footer {
     padding: 30px;
   }
 }
+
