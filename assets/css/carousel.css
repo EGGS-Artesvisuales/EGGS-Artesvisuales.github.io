@@ -76,14 +76,14 @@
   display: block;
   width: 10px;
   height: 10px;
-  background: #ccc;
+  background-color: #ccc;
   border-radius: 50%;
-  transition: background 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 /* Dot activo */
 .owl-dots .owl-dot.active span {
-  background: #333;
+  background-color: #333;
 }
 
 /* ========================================================================
@@ -98,10 +98,8 @@
   margin: 0;
 }
 
-.carousel-imagen .item--imagen .imagen {
-  /* Aquí se conserva la estructura, pero las imágenes internas tendrán una clase extra */
-  /* No se toca aquí el selector .imagen img para no interferir con el estilo global */
-}
+/* Nota: Este selector se deja intencionalmente vacío para conservar la estructura sin interferir con el estilo global */
+.carousel-imagen .item--imagen .imagen { }
 
 /* --- Carrusel Fancy (Botones) --- */
 .carousel-fancy .fancy-button {
@@ -164,7 +162,7 @@
 }
 
 .carousel-fancy .button-content .subtitle {
-  background: #333;
+  background-color: #333;
   padding: 8px 10px;
   border-radius: 0 0 15px 15px;
   font-size: 0.85rem;
@@ -177,8 +175,9 @@
 }
 
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background: #555;
+  background-color: #555;
 }
+
 /* -----------------------------------------------------------------------
    Estilos específicos para las imágenes dentro del carrusel
    (Se aplicarán únicamente a las imágenes que tengan la clase "carousel-img"
@@ -186,10 +185,10 @@
 ----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
   /* Estilos personalizados para las imágenes del carrusel */
-  border-radius: 8px;                  /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  border-radius: 8px;                      /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
-  width: 100%;                         /* Ocupa el 100% del contenedor */
+  width: 100%;                             /* Ocupa el 100% del contenedor */
   height: auto;
 }
 
