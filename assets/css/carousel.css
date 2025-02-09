@@ -188,7 +188,7 @@
 }
 /* Tamaño de imagen en carrusel grande */
 .owl-carousel-large .carousel-imagen .owl-item img {
-  height: 800px;
+  height: 800px; /* Ajusta este valor según lo que necesites */
   width: 100%;
   object-fit: cover;
 }
