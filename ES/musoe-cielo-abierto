@@ -1,23 +1,23 @@
 ---
 layout: default-es
-title: Musoe a Cielo Abierto
+title: Museo a Cielo Abierto
 description: "Apoya el financiamiento del proyecto muralista."
-permalink: /ES/musoe-cielo-abierto.html
+permalink: /ES/museo-cielo-abierto.html
 ---
 
-<div class="titulo">Musoe a Cielo Abierto</div>
+<div class="titulo">Museo a Cielo Abierto</div>
 
 <div class="subtitulo">Contribuye al desarrollo mural en la Villa Alberto Larraguibel</div>
 <br>
 <br>
 <!-- Imagen principal -->
 <div class="imagen">
-  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Musoe a Cielo Abierto" loading="lazy">
+  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
 </div>
 <br>
 <br>
 <p class="parrafo">
-  Descubre el poder transformador del muralismo en la Villa Alberto Larraguibel. Este proyecto tiene como objetivo revitalizar las fachadas de los edificios, convirtiéndolos en auténticos lienzos que reflejan la identidad y el alma de la comunidad. Con tu apoyo, no solo embellecemos el entorno, sino que fortalecemos el sentido de pertenencia y el bienestar local.
+  Descubre el poder transformador del muralismo en la Villa Alberto Larraguibel. Este proyecto busca revitalizar las fachadas de los edificios, convirtiéndolos en auténticos lienzos que reflejan la identidad y el alma de la comunidad. Con tu apoyo, no solo embellecemos el entorno, sino que fortalecemos el sentido de pertenencia y el bienestar local.
 </p>
 
 <p class="parrafo">
@@ -27,7 +27,7 @@ permalink: /ES/musoe-cielo-abierto.html
 <br>
 <!-- Imagen secundaria -->
 <div class="imagen">
-  <img src="/assets/img/mapuchenocturno.jpg" alt="Musoe a Cielo Abierto" loading="lazy">
+  <img src="/assets/img/mapuchenocturno.jpg" alt="Museo a Cielo Abierto" loading="lazy">
 </div>
 <br>
 <br>
@@ -53,32 +53,6 @@ permalink: /ES/musoe-cielo-abierto.html
   <a href="/ES/en-construccion.html" class="enlace">Ver proyectos completados</a>
 </div>
 
-<!-- Script para animar la barra de progreso -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-      let recaudado = 20500000;  // Ajusta según la cantidad recaudada actual
-      let metaGlobal = 23000000; // Meta total del proyecto
-      let porcentaje = Math.min((recaudado / metaGlobal) * 100, 100); // Calcula el porcentaje
-
-      let barra = document.getElementById("progreso-barra");
-      let textoRecaudado = document.getElementById("recaudado");
-      let textoPorcentaje = document.getElementById("porcentaje");
-
-      let incremento = 0;
-      let animacion = setInterval(() => {
-          if (incremento >= porcentaje) {
-              clearInterval(animacion);
-          } else {
-              incremento++;
-              barra.style.width = incremento + "%";
-              barra.textContent = incremento + "%";
-          }
-      }, 20); // Velocidad de animación
-
-      // Actualiza el texto con formato de moneda
-      textoRecaudado.textContent = `$ ${recaudado.toLocaleString()} CLP recaudado`;
-      textoPorcentaje.textContent = `${Math.round(porcentaje)}% recaudado`;
-  });
-</script>
-
+<!-- Script de la barra de progreso -->
+<script src="/assets/js/progreso.js" defer></script>
 
