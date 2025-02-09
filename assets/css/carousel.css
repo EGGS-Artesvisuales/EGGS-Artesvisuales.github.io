@@ -4,7 +4,7 @@
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
-  /* Nota: se quita el overflow general para evitar recortes en el 3D */
+  /* Se ha removido el overflow general para evitar recortes en el 3D */
   /* overflow: hidden; */
   margin: 0 auto;
   padding: 20px 0;
@@ -13,12 +13,24 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* --------------------------------------------------------------------------
-   Para el carrusel grandes, se fuerza overflow visible
-   (esto sobrescribe el posible overflow:hidden de Owl Carousel)
-   -------------------------------------------------------------------------- */
+/* Para el carrusel grandes, forzamos overflow visible */
 .owl-carousel-large.carousel-grandes {
   overflow: visible;
+}
+
+/* Aseguramos que los contenedores internos de Owl Carousel permitan el overflow */
+.owl-carousel-large.carousel-grandes .owl-stage-outer,
+.owl-carousel-large.carousel-grandes .owl-stage {
+  overflow: visible;
+}
+
+/* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
+.owl-carousel-large.carousel-grandes .owl-item {
+  overflow: visible !important;
+  position: relative;
+}
+.owl-carousel-large.carousel-grandes .owl-item:hover {
+  z-index: 100;
 }
 
 /* ==========================================================================
@@ -230,6 +242,11 @@
   margin-right: 10px;
 }
 
+/* Evitamos que el contenedor de la imagen recorte el efecto */
+.carousel-grandes .item .imagen {
+  overflow: visible;
+}
+
 /* --- Estilos para las imágenes del slider grandes --- */
 .carousel-grandes .carousel-img {
   width: 100%;
@@ -247,7 +264,7 @@
    asegurar que se vea completa (efecto 3D)
    -------------------------------------------------------------------------- */
 .carousel-grandes {
-  perspective: 1000px; /* Habilita el efecto 3D */
+  perspective: 1000px; /* Habilita el efecto 3D en sus descendientes */
 }
 
 .carousel-grandes .carousel-img:hover {
