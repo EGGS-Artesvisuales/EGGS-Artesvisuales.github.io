@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function() {
   var navText = ["&#9664;", "&#9654;"];
 
   // Inicialización para el carrusel de imágenes (versión normal)
@@ -30,10 +30,10 @@ $(document).ready(function(){
   });
 
   // Inicialización para el carrusel de imágenes grandes (slide grande)
+  // Se elimina "items" ya que autoWidth: true se encarga de respetar el ancho definido en CSS.
   $('.carousel-grandes').owlCarousel({
-    items: 3,
     loop: true,
-    margin: 0,           // Eliminamos el margin en JS para que se use el gap definido en CSS
+    margin: 0,           // Se elimina el margin en JS para usar el gap definido en CSS
     nav: true,
     dots: false,
     navText: navText,
