@@ -180,3 +180,13 @@
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background: #555;
 }
+/* Estilos específicos para las imágenes dentro del carrusel */
+.carousel-imagen .imagen img {
+  /* Puedes redefinir las propiedades que necesites modificar */
+  border-radius: 0;    /* Elimina los bordes redondeados */
+  box-shadow: none;    /* Quita la sombra */
+  transition: none;    /* O modifica la transición si lo deseas */
+  /* Otros ajustes específicos: */
+  width: 100%;         /* Asegura que ocupe el 100% del contenedor */
+  height: auto;
+}
