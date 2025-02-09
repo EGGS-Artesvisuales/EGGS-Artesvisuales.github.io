@@ -24,6 +24,12 @@ permalink: /ES/musoe-cielo-abierto.html
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
 
+<!-- Imagen principal -->
+<div class="imagen">
+  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Musoe a Cielo Abierto">
+</div>
+<br>
+
 <div class="barra-progreso-container">
   <label for="progreso">Progreso del financiamiento:</label>
   <div class="barra-progreso">
