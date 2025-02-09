@@ -76,13 +76,14 @@
   background: #333;
 }
 
-  .item--imagen {
-  /* Ejemplo: centrar la imagen y ajustar el tamaño */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ .item--imagen {
+  width: 660px;
+  height: auto;
+  margin: 0 auto; /* Para centrar el item, si lo deseas */
 }
 
+.item--imagen .imagen img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
-
