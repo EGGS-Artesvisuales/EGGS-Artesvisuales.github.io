@@ -295,6 +295,19 @@ p, .parrafo {
   color: var(--color-accent);
 }
 
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img.logo-menu {
+  height: 22px;
+  width: auto;
+  max-height: 22px;
+}
+
+
+
 /* Mostrar submenú en escritorio */
 @media (min-width: 769px) {
   .dropdown:hover .dropdown-menu {
