@@ -1,5 +1,5 @@
 /* ========================================================================
-   Carousel Base Styles (aplican a ambos tipos)
+   Carousel Base Styles (para ambos tipos)
    ======================================================================== */
 .owl-carousel,
 .owl-carousel-large {
@@ -76,14 +76,13 @@
    ======================================================================== */
 
 /* --- Carrusel de Imágenes --- */
-/* Configuración de ítems de imagen (común) */
 .carousel-imagen .item--imagen {
   width: 100%;
   height: auto;
   margin: 0;
 }
 
-/* Contenedor interno para imágenes en carrusel normal: limitado a 800px */
+/* Contenedor interno en carrusel normal: limitado a 800px */
 .owl-carousel .carousel-imagen .item--imagen .imagen { 
   display: block;
   text-decoration: none;
@@ -97,7 +96,7 @@
   max-width: 800px;
   margin: 0 auto;
 }
-/* Para el carrusel grande, se elimina el límite de ancho */
+/* En carrusel grande, se quita el límite de ancho */
 .owl-carousel-large .carousel-imagen .item--imagen .imagen {
   max-width: none;
   margin: 0 auto;
@@ -194,16 +193,17 @@
   object-fit: cover;
 }
 
-/* Efecto hover para ambas variantes */
+/* Efecto hover (para ambos) */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* Media query para carrusel normal: ajustar imagen para centrar visualmente en pantallas grandes */
+/* Ajuste para carrusel normal en pantallas grandes */
 @media (min-width: 1024px) {
   .owl-carousel .carousel-imagen .imagen img.carousel-img {
     width: 110%;
     margin-left: -5%;
   }
 }
+
