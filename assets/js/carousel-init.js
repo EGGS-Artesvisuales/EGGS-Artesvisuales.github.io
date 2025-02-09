@@ -5,9 +5,9 @@ $(document).ready(function() {
     '<span class="owl-nav-next">&#10095;</span>'
   ];
 
-  // Inicialización para el carrusel de imágenes (aplica tanto para carrusel normal como para el grande)
+  // Inicialización para el carrusel de imágenes (normal y grande)
   $('.carousel-imagen').owlCarousel({
-    items: 3,                // Muestra 3 imagen por slide
+    items: 3,                // Muestra 3 imágenes por slide
     loop: true,
     margin: 10,
     nav: true,               // Activa las flechas
@@ -31,6 +31,18 @@ $(document).ready(function() {
       600: { items: 2 },
       1000: { items: 3 }
     }
+  });
+
+  // Inicialización para el carrusel de imágenes grandes
+  $('.carousel-grandes').owlCarousel({
+    items: 3,             // Muestra 3 items a la vez
+    loop: true,
+    margin: 20,
+    nav: true,            // Activa las flechas de navegación
+    dots: false,
+    navText: navText,
+    autoWidth: true,      // Permite que cada item tenga un ancho definido por CSS
+    center: true          // Opcional: centra el item activo
   });
 });
 
