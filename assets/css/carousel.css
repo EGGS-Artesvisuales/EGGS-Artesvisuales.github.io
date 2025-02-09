@@ -77,15 +77,96 @@
 }
 
 
-.item--imagen {
+/* ============================= */
+/* Estilos específicos para cada carrusel */
+/* ============================= */
+
+/* --- Carrusel de imágenes --- */
+.carousel-imagen .item--imagen {
   max-width: 660px;
   width: 100%;
   height: auto;
   margin: 0 auto;
 }
 
-.item--imagen .imagen img {
+.carousel-imagen .item--imagen .imagen img {
   width: 100%;
   height: auto;
   display: block;
 }
+
+
+/* --- Carrusel fancy (botones) --- */
+.carousel-fancy .fancy-button {
+  display: block;
+  text-decoration: none;
+  background-color: #3a3a3a;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+  /* Ajuste de tamaño: se recomienda usar un sistema de columnas en el contenedor Owl Carousel */
+  flex: 1 1 calc(25% - 20px);
+  max-width: 250px;
+  min-width: 150px;
+}
+
+.carousel-fancy .fancy-button:focus {
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6), 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.carousel-fancy .fancy-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #444;
+}
+
+.carousel-fancy .button-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #f89900;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel-fancy .button-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-fancy .fancy-button:hover .button-content img {
+  opacity: 1;
+}
+
+.carousel-fancy .button-content .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f89900;
+  margin-bottom: 5px;
+}
+
+.carousel-fancy .button-content .subtitle {
+  background: #333;
+  padding: 8px 10px;
+  border-radius: 0 0 15px 15px;
+  font-size: 0.85rem;
+  color: #aaaaaa;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.carousel-fancy .fancy-button:hover .button-content .subtitle {
+  background: #555;
+}
+
