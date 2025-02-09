@@ -841,32 +841,52 @@ form button:hover {
   flex: 1 1 calc(33.33% - 20px);
   box-sizing: border-box;
 }
-
 /* ------------------------------------------------------------------
    MEDIA QUERIES
 ------------------------------------------------------------------ */
 /* Dispositivos grandes y medianos */
 @media (max-width: 1200px) {
-  .text-container { font-size: 1.2rem; padding: 15px; }
+  .text-container { 
+    font-size: 1.2rem; 
+    padding: 15px; 
+  }
 }
+
+/* Para pantallas hasta 1024px se reestructura el nav y otros elementos */
 @media (max-width: 1024px) {
-  .navbar { flex-direction: column; align-items: flex-start; }
-  .fancy-button { width: 40%; }
+  .navbar { 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  .fancy-button { 
+    width: 40%; 
+  }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+
+/* Para pantallas entre 751px y 1024px (sin menú hamburguesa) */
+@media (min-width: 751px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
     max-width: 400px;
     transition: width 0.3s ease;
   }
-  .text-container { padding: 20px; }
-  .button-container { gap: 20px; }
+  .text-container { 
+    padding: 20px; 
+  }
+  .button-container { 
+    gap: 20px; 
+  }
 }
 
-/* Dispositivos pequeños */
-@media (max-width: 768px) {
-  body { font-size: 1.2rem; }
-  .nav-toggle { display: flex; margin-top: 10px; }
+/* Dispositivos pequeños: hasta 750px, se activa el menú hamburguesa */
+@media (max-width: 750px) {
+  body { 
+    font-size: 1.2rem; 
+  }
+  .nav-toggle { 
+    display: flex; 
+    margin-top: 10px; 
+  }
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -883,32 +903,74 @@ form button:hover {
     max-height: calc(100vh - 60px);
     overflow-y: auto;
   }
-  .dropdown.active .dropdown-menu { display: block; position: static; }
-  .year::before { left: -50px; font-size: 1rem; }
-  .fun-button { font-size: 0.9rem; padding: 8px 15px; }
-  .text-container { padding: 10px; }
-  .item { flex: 1 1 calc(50% - 20px); }
+  .dropdown.active .dropdown-menu { 
+    display: block; 
+    position: static; 
+  }
+  .year::before { 
+    left: -50px; 
+    font-size: 1rem; 
+  }
+  .fun-button { 
+    font-size: 0.9rem; 
+    padding: 8px 15px; 
+  }
+  .text-container { 
+    padding: 10px; 
+  }
+  .item { 
+    flex: 1 1 calc(50% - 20px); 
+  }
   
   /* Ajustes adicionales para pantallas muy pequeñas */
-  .text-container { padding: 10px; font-size: 0.9rem; line-height: 1.6; }
+  .text-container { 
+    padding: 10px; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
+  }
   .button-container {
     flex-direction: column;
     gap: 15px;
     align-items: center;
     padding: 10px;
   }
-  .fancy-button { width: 80%; max-width: 300px; }
+  .fancy-button { 
+    width: 80%; 
+    max-width: 300px; 
+  }
 }
+
+/* Ajustes para pantallas aún más pequeñas */
 @media (max-width: 600px) {
-  .nav-menu { flex-direction: column; gap: 10px; }
-  .text-container { padding: 10px; }
+  .nav-menu { 
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  .text-container { 
+    padding: 10px; 
+  }
 }
 @media (max-width: 480px) {
-  body { font-size: 0.8rem; }
-  header { padding: 5px 10px; font-size: 1rem; }
-  .text-container { padding: 10px 5px; font-size: 0.8rem; width: 100%; }
-  .button-container { gap: 10px; }
-  .fancy-button { width: 100%; max-width: 250px; padding: 10px 15px; }
+  body { 
+    font-size: 0.8rem; 
+  }
+  header { 
+    padding: 5px 10px; 
+    font-size: 1rem; 
+  }
+  .text-container { 
+    padding: 10px 5px; 
+    font-size: 0.8rem; 
+    width: 100%; 
+  }
+  .button-container { 
+    gap: 10px; 
+  }
+  .fancy-button { 
+    width: 100%; 
+    max-width: 250px; 
+    padding: 10px 15px; 
+  }
 }
 
 /* Dispositivos grandes (mínimo 1024px) */
@@ -918,5 +980,7 @@ form button:hover {
     max-width: 350px;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-  .text-container { padding: 30px; }
+  .text-container { 
+    padding: 30px; 
+  }
 }
