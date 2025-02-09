@@ -328,7 +328,8 @@ ___________________________ */
 .subtitulo2 {
   font-family: var(--subtitulo2-font);
   font-size: var(--subtitulo2-size);
-  color: #fff;
+   font-weight: 600;
+  color: #999999;
   margin-bottom: var(--margin-bottom-large);
   text-indent: 1.5em; /* Sangría de la primera línea */
   word-wrap: break-word;
