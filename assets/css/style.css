@@ -379,11 +379,12 @@ p.parrafo:first-of-type ul {
 ------------------------------------------------------------------ */
 .button-container {
   display: flex;
-    flex-wrap: wrap;
-  justify-content: left;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
- }
+}
+
 
 .fancy-button {
   display: block;
