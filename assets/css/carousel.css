@@ -11,10 +11,20 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .owl-carousel .item,
 .owl-carousel-large .item {
   padding: 10px;
   box-sizing: border-box;
+}
+
+/* ========================================================================
+   Override para Carousel Grandes (Slide Grande)
+   ======================================================================== */
+.owl-carousel.owl-carousel-large.carousel-grandes .item {
+  flex: none !important;
+  width: 800px !important;
+  margin-right: 10px !important;
 }
 
 /* ========================================================================
@@ -35,12 +45,15 @@
   transition: background-color 0.3s ease;
   z-index: 100;
 }
+
 .owl-nav button:hover {
   background-color: #f0f0f0;
 }
+
 .owl-nav .owl-prev {
   left: 10px;
 }
+
 .owl-nav .owl-next {
   right: 10px;
 }
@@ -58,9 +71,11 @@
   margin: 0;
   padding: 0;
 }
+
 .owl-dots .owl-dot {
   margin: 0 5px;
 }
+
 .owl-dots .owl-dot span {
   display: block;
   width: 10px;
@@ -69,6 +84,7 @@
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
+
 .owl-dots .owl-dot.active span {
   background-color: #333;
 }
@@ -98,6 +114,7 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
 /* En carrusel grande, se elimina el límite de ancho */
 .owl-carousel-large .carousel-imagen .item--imagen .imagen {
   max-width: none;
@@ -120,17 +137,20 @@
   max-width: 250px;
   min-width: 150px;
 }
+
 .carousel-fancy .fancy-button:focus {
   box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6),
               0 4px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
+
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
               inset 0 -2px 8px rgba(0, 0, 0, 0.2);
   background-color: #444;
 }
+
 .carousel-fancy .button-content {
   position: relative;
   display: flex;
@@ -141,6 +161,7 @@
   text-align: center;
   overflow: hidden;
 }
+
 .carousel-fancy .button-content img {
   width: 100%;
   height: auto;
@@ -148,15 +169,18 @@
   opacity: 0.9;
   transition: opacity 0.3s ease-in-out;
 }
+
 .carousel-fancy .fancy-button:hover .button-content img {
   opacity: 1;
 }
+
 .carousel-fancy .button-content .title {
   font-size: 1.2rem;
   font-weight: bold;
   color: #f89900;
   margin-bottom: 5px;
 }
+
 .carousel-fancy .button-content .subtitle {
   background-color: #333;
   padding: 8px 10px;
@@ -169,6 +193,7 @@
   z-index: 1;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background-color: #555;
 }
@@ -188,10 +213,12 @@
   width: 100%;
   object-fit: cover;
 }
+
 /* Tamaño específico en carrusel normal */
 .owl-carousel .carousel-imagen .owl-item img {
   height: 600px;
 }
+
 /* Tamaño específico en carrusel large (incrementado para mayor visibilidad) */
 .owl-carousel-large .carousel-imagen .owl-item img {
   height: 1000px; /* Ajusta este valor según necesites */
@@ -200,24 +227,24 @@
 /* ========================================================================
    Carousel Grandes (Imágenes desbordadas) - Slide Grande
    ======================================================================== */
-/* Permitir que los ítems se desborden del contenedor */
 .carousel-grandes .owl-stage-outer {
   overflow: visible;
 }
-/* Ancho fijo para cada slide en carousel grandes (aprox. 800px) con un gap */
+
 .carousel-grandes .item {
   width: 800px;
-  margin-right: 10px;  /* Gap pequeño entre slides */
+  margin-right: 10px;
 }
 
 /* --- Estilos para las imágenes del slider grandes --- */
 .carousel-grandes .carousel-img {
   width: 100%;
   height: auto;
-  border-radius: 12px; /* Bordes redondeados */
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .carousel-grandes .carousel-img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -226,12 +253,11 @@
 /* ========================================================================
    Hover Efects y Ajustes Responsivos
    ======================================================================== */
-/* Hover para imágenes en carrusel de imágenes */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-/* Ajuste responsivo para carrusel normal y large en pantallas grandes */
+
 @media (min-width: 1024px) {
   .owl-carousel .carousel-imagen .imagen img.carousel-img,
   .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
@@ -239,4 +265,3 @@
     margin-left: -5%;
   }
 }
-
