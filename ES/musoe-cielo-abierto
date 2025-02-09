@@ -10,7 +10,7 @@ progreso: true
 
 <div class="subtitulo">Contribuye al desarrollo mural en la Villa Alberto Larraguibel</div>
 
-<!-- Imagen principal -->
+<!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
   <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
 </div>
@@ -28,13 +28,14 @@ progreso: true
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+      <!-- Se agrega la clase "carousel-img" para aplicar estilos específicos -->
+      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
   <!-- Ítem 2 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
   <!-- Agrega más ítems según necesites -->
@@ -63,3 +64,4 @@ progreso: true
 
 <!-- Script de la barra de progreso -->
 <script src="/assets/js/progreso.js" defer></script>
+
