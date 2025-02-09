@@ -33,7 +33,6 @@
   z-index: 100;
 }
 
-
 /* ==========================================================================
    Carousel Navigation (Flechas)
    ========================================================================== */
@@ -65,7 +64,6 @@
   right: 10px;
 }
 
-
 /* ==========================================================================
    Carousel Dots
    ========================================================================== */
@@ -96,7 +94,6 @@
 .owl-dots .owl-dot.active span {
   background-color: #333;
 }
-
 
 /* ==========================================================================
    Specialized Carousel Styles
@@ -130,35 +127,32 @@
   margin: 0 auto;
 }
 
-
 /* --- Carrusel Fancy (Botones) --- */
+/* Se reemplaza el estilo específico por los estilos globales de fancy-button */
 .carousel-fancy .fancy-button {
   display: block;
   text-decoration: none;
-  background-color: #3a3a3a;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-              inset 0 -2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, box-shadow 0.3s ease;
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-shadow);
+  transition: var(--button-transition);
   overflow: hidden;
   text-align: center;
-  /* Propiedades flex para adaptarse al contenedor */
-  flex: 1 1 calc(25% - 20px);
-  max-width: 250px;
-  min-width: 150px;
+  flex: 1 1 calc(25% - var(--gap-between-buttons));
+  max-width: var(--button-max-width);
+  min-width: var(--button-min-width);
+  height: auto;
 }
 
 .carousel-fancy .fancy-button:focus {
-  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6),
-              0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--button-focus-shadow);
   transform: translateY(-5px);
 }
 
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
-              inset 0 -2px 8px rgba(0, 0, 0, 0.2);
-  background-color: #444;
+  box-shadow: var(--button-hover-shadow);
+  background-color: var(--button-hover-bg-color);
 }
 
 .carousel-fancy .button-content {
@@ -167,7 +161,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color: #f89900;
+  color: var(--content-title-color);
   text-align: center;
   overflow: hidden;
 }
@@ -176,27 +170,27 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: 0.9;
+  opacity: var(--img-opacity);
   transition: opacity 0.3s ease-in-out;
 }
 
 .carousel-fancy .fancy-button:hover .button-content img {
-  opacity: 1;
+  opacity: var(--img-hover-opacity);
 }
 
 .carousel-fancy .button-content .title {
-  font-size: 1.2rem;
+  font-size: var(--title-font-size);
   font-weight: bold;
-  color: #f89900;
+  color: var(--content-title-color);
   margin-bottom: 5px;
 }
 
 .carousel-fancy .button-content .subtitle {
-  background-color: #333;
-  padding: 8px 10px;
-  border-radius: 0 0 15px 15px;
-  font-size: 0.85rem;
-  color: #aaaaaa;
+  background-color: var(--content-subtitle-bg);
+  padding: var(--content-subtitle-padding);
+  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
+  font-size: var(--subtitle-font-size);
+  color: var(--content-subtitle-color);
   margin: 0;
   width: 100%;
   position: relative;
@@ -205,9 +199,8 @@
 }
 
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background-color: #555;
+  background-color: var(--content-subtitle-hover-bg);
 }
-
 
 /* --- Estilos para las imágenes dentro del carrusel --- */
 .carousel-imagen .imagen img.carousel-img {
@@ -234,7 +227,6 @@
 .owl-carousel-large .carousel-imagen .owl-item img {
   height: 1000px; /* Ajusta este valor según necesites */
 }
-
 
 /* ==========================================================================
    Carousel Grandes (Imágenes desbordadas) - Slide Grande
@@ -278,7 +270,6 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
-
 
 /* ==========================================================================
    Hover Efects y Ajustes Responsivos
