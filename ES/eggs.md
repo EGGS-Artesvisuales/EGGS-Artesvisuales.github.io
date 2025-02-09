@@ -2,75 +2,8 @@
 layout: default-es
 title: E.GG.S - Producciones & Art SpA
 permalink: /ES/eggs.html
-breadcrumbs: >
-    <a href="/ES/index.html">Inicio</a> >
-    <span>E.GG.S - Producciones & Art SpA</span>
+
 ---
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="E.GG.S - Producciones & Art SpA: Arte, Cultura e Innovación para la transformación de espacios y comunidades. Conoce nuestros servicios de muralismo, restauración, escenografías, docencia, arte digital y más.">
-  <meta name="keywords" content="arte, cultura, innovación, muralismo, restauración, escenografías, Chile">
-  <meta name="author" content="E.GG.S - Producciones & Art SpA">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E.GG.S - Producciones & Art SpA</title>
-  <!-- Tu CSS o enlaces a hojas de estilo podrían ir aquí -->
-  <style>
-    /* Ejemplo de estilos básicos */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .titulo {
-      font-weight: bold;
-      font-size: 1.5em;
-      margin-top: 1.5em;
-    }
-    .subtitulo {
-      font-style: italic;
-      margin-bottom: 1em;
-      font-size: 1.2em;
-    }
-    .parrafo {
-      margin: 1em 0;
-      line-height: 1.5;
-    }
-    .breadcrumbs {
-      font-size: 0.9em;
-      margin: 1em 0;
-      color: #555;
-    }
-    .breadcrumbs a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    .breadcrumbs a:hover {
-      text-decoration: underline;
-    }
-    ul.parrafo {
-      list-style-type: disc;
-      margin-left: 2em;
-    }
-    @media (max-width: 768px) {
-      /* Ajustes para pantallas pequeñas */
-      .titulo {
-        font-size: 1.3em;
-      }
-      .subtitulo {
-        font-size: 1em;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<!-- Migas de pan (breadcrumbs) -->
-<div class="breadcrumbs">
-  <a href="/ES/index.html">Inicio</a> > <span>E.GG.S - Producciones & Art SpA</span>
-</div>
 
 <!-- Título principal -->
 <div class="titulo">E.GG.S - Producciones & Art SpA</div>
