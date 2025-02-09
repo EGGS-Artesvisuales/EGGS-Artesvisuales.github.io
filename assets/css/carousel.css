@@ -14,18 +14,18 @@
 }
 
 /* Aseguramos que los contenedores internos de Owl Carousel permitan el overflow */
-.owl-carousel-large. .owl-stage-outer,
-.owl-carousel-large. .owl-stage {
+.owl-carousel-large .owl-stage-outer,
+.owl-carousel-large .owl-stage {
   overflow: visible;
 }
 
 /* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
-.owl-carousel-large. .owl-item {
+.owl-carousel-large .owl-item {
   overflow: visible !important;
   position: relative;
 }
 
-.owl-carousel-large. .owl-item:hover {
+.owl-carousel-large .owl-item:hover {
   z-index: 100;
 }
 
@@ -228,8 +228,6 @@
   height: 1000px; /* Ajusta este valor según necesites */
 }
 
-
-
 /* ==========================================================================
    Hover Effects y Ajustes Responsivos
    ========================================================================== */
@@ -245,4 +243,3 @@
     margin-left: -5%;
   }
 }
-
