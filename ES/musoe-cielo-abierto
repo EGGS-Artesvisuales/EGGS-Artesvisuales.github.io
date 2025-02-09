@@ -29,14 +29,14 @@ carousel: true
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <!-- Se agrega la clase "carousel-img" para aplicar estilos específicos -->
-      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+          <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
-  <!-- Ítem 2 -->
+  <div class="owl-carousel owl-carousel-large carousel-imagen">
+  <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+          <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
   <!-- Agrega más ítems según necesites -->
