@@ -99,7 +99,20 @@
 }
 
 /* Nota: Este selector se deja intencionalmente vacío para conservar la estructura sin interferir con el estilo global */
-.carousel-imagen .item--imagen .imagen { }
+.carousel-imagen .item--imagen .imagen { 
+    display: block;
+  text-decoration: none;
+  background-color: #3a3a3a;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+              inset 0 -2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
+  max-width: 800px;
+  min-width: 150px;
+}
 
 /* --- Carrusel Fancy (Botones) --- */
 .carousel-fancy .fancy-button {
