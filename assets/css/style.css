@@ -9,12 +9,12 @@
   padding: 0;
 }
 :root {
-    /* Tipografías */
+ /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
---subtitulo2-font: 'Georgia', serif;
+  --subtitulo2-font: 'Georgia', serif;
   --parrafo-font: 'Georgia', serif;
-    
+  
   /* Colores base */
   --color-fondo: #222;
   --color-fondo-secundario: #111;
@@ -26,11 +26,11 @@
   --color-medio-oscuro: #444;
   
   /* Tamaños tipográficos */
-  --titulo-size: 3rem;
-  --subtitulo-size: 2rem;
-    --subtitulo2-size: 1.4rem;
+  --titulo-size: 2rem;
+  --subtitulo-size: 1.5rem;
+  --subtitulo2-size: 1.3rem;
   --parrafo-size: 1rem;
-
+  
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
   --line-height: 1.6;
@@ -38,8 +38,14 @@
   --margin-bottom-large: 1.5rem;
   --margin-bottom-medium: 0.8rem;
   --margin-bottom-small: 1rem;
+  
+  /* Variables para sangría */
+  --sangria-grande: 3rem;
+  --sangria-mediana: 2rem;
+  --sangria-baja: 1rem;
+}
 
-  /* Botones fancy */
+   /* Botones fancy */
   --button-bg-color: #3a3a3a;
   --button-hover-bg-color: #444;
   --button-border-radius: 15px;
@@ -86,6 +92,87 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+
+/* ------------------------------------------------------------------
+   TITULOS, SUBTÍTULOS Y PÁRRAFOS
+------------------------------------------------------------------ */
+
+/* Títulos */
+.titulo {
+  font-family: var(--titulo-font);
+  font-size: var(--titulo-size);
+  font-weight: bold;
+  color: var(--color-destacado);
+  margin-bottom: var(--margin-bottom-medium);
+  letter-spacing: var(--spacing-tight);
+  word-wrap: break-word;
+}
+
+/* Subtítulos y Subtítulos secundarios (propiedades compartidas) */
+.subtitulo,
+.subtitulo2 {
+  margin-bottom: var(--margin-bottom-large);
+  text-indent: 1.5em; /* Sangría de la primera línea */
+  word-wrap: break-word;
+}
+
+/* Diferencias individuales */
+.subtitulo {
+  font-family: var(--subtitulo-font);
+  font-size: var(--subtitulo-size);
+  font-weight: 600;
+  color: #aaaaaa;
+}
+
+.subtitulo2 {
+  font-family: var(--subtitulo2-font);
+  font-size: var(--subtitulo2-size);
+  color: #fff;
+}
+
+/* Estilos base para párrafos y listas dentro de ellos */
+.parrafo,
+.parrafo ul {
+  font-family: var(--parrafo-font);
+  max-width: var(--content-max-width);
+  font-size: var(--parrafo-size);
+  line-height: var(--line-height);
+  color: var(--color-claro);
+  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
+}
+
+/* Párrafos */
+.parrafo {
+  margin-bottom: var(--margin-bottom-small);
+  text-indent: 1.5em;
+}
+
+/* Primer párrafo */
+p.parrafo:first-of-type {
+  margin-top: 9%;
+  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
+}
+
+/* Si el primer párrafo contiene una lista, se anulan margen y sangría */
+p.parrafo:first-of-type ul {
+  margin-top: 0 !important;
+  text-indent: 0 !important;
+}
+
+/* Listas dentro de párrafos */
+.parrafo ul {
+  padding-left: 3em;
+  margin-bottom: var(--margin-bottom-small);
+}
+
+.parrafo ul li {
+  margin-bottom: 0.5em;
+}
+
+
+
 
 /* ------------------------------------------------------------------
    HEADER FIJO
@@ -297,81 +384,6 @@ ___________________________ */
 }
 
 
-
-/* ------------------------------------------------------------------
-   TITULOS, SUBTÍTULOS Y PÁRRAFOS
------------------------------------------------------------------- */
-
-/* Títulos */
-.titulo {
-  font-family: var(--titulo-font);
-  font-size: var(--titulo-size);
-  font-weight: bold;
-  color: var(--color-destacado);
-  margin-bottom: var(--margin-bottom-medium);
-  letter-spacing: var(--spacing-tight);
-  word-wrap: break-word;
-}
-
-/* Subtítulos */
-.subtitulo {
-  font-family: var(--subtitulo-font);
-  font-size: var(--subtitulo-size);
-  font-weight: 600;
-  color: #aaaaaa;
-  margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
-  word-wrap: break-word;
-}
-
-/* Subtítulos secundarios */
-.subtitulo2 {
-  font-family: var(--subtitulo2-font);
-  font-size: var(--subtitulo2-size);
-  color: #fff;
-  margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
-  word-wrap: break-word;
-}
-
-/* Estilos base para .parrafo y ul dentro de .parrafo */
-.parrafo,
-.parrafo ul {
-  font-family: var(--parrafo-font);
-  max-width: var(--content-max-width);
-  font-size: var(--parrafo-size);
-  line-height: var(--line-height);
-  color: var(--color-claro);
-  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
-}
-
-/* Ajustes específicos de párrafos */
-.parrafo {
-  margin-bottom: var(--margin-bottom-small);
-  text-indent: 1.5em; /* Sangría de la primera línea */
-}
-
-/* Ajuste para el primer párrafo */
-p.parrafo:first-of-type {
-  margin-top: 9%;
-  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
-}
-
-/* Anular margen y sangría en el primer párrafo si contiene una lista */
-p.parrafo:first-of-type ul {
-  margin-top: 0 !important;
-  text-indent: 0 !important;
-}
-
-/* Listas dentro de .parrafo */
-.parrafo ul {
-  padding-left: 3em;
-  margin-bottom: var(--margin-bottom-small);
-}
-
-.parrafo ul li {
-  margin-bottom: 0.5em;
-}
 
 
 /* ------------------------------------------------------------------
