@@ -24,6 +24,10 @@ permalink: /ES/eggs.html
   Con un enfoque en la innovación y la sostenibilidad, llevamos el arte más allá de los límites convencionales, incorporando tecnologías emergentes. Nuestra misión es revitalizar espacios urbanos y culturales, democratizar el acceso al arte y fortalecer la identidad de los territorios mediante intervenciones visuales y participativas.
 </p>
 
+<p class="parrafo">
+  En E.GG.S creemos que el arte es una herramienta transformadora para la educación, la inclusión y el desarrollo sostenible. Implementamos prácticas responsables en cada uno de nuestros proyectos, promoviendo la economía circular, el uso de materiales ecológicos y la integración de tecnologías accesibles.
+</p>
+<br>
 <!-- Sección: Nuestros servicios -->
 <div class="owl-carousel">
   <!-- Servicio 1: Producción y organización de eventos culturales -->
@@ -150,9 +154,7 @@ permalink: /ES/eggs.html
 
 <br><br><br>
 <br><br><br>
-<p class="parrafo">
-  En E.GG.S creemos que el arte es una herramienta transformadora para la educación, la inclusión y el desarrollo sostenible. Implementamos prácticas responsables en cada uno de nuestros proyectos, promoviendo la economía circular, el uso de materiales ecológicos y la integración de tecnologías accesibles.
-</p>
+
 
 <!-- Llamado a la acción -->
 <p class="parrafo">
