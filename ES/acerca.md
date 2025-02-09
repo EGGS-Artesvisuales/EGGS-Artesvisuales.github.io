@@ -17,7 +17,7 @@ permalink: /ES/acerca.html
 </p>
 
 <!-- Sección Esteban Garnica -->
-<div class="subtitulo">Esteban Garnica Sánchez</div>
+<div class="subtitulo2">Esteban Garnica Sánchez</div>
 <p class="parrafo">
   Artista visual chileno (Santiago, 1985) egresado de la Universidad de Chile. 
   Su obra, reconocida por su carga simbólica y enfoque conceptual, aborda 
@@ -30,7 +30,7 @@ permalink: /ES/acerca.html
 </p>
 
 <!-- Sección EGGS -->
-<div class="subtitulo">E.GG.S - Producciones &amp; Art SpA</div>
+<div class="subtitulo2">E.GG.S - Producciones &amp; Art SpA</div>
 <p class="parrafo">
   Una empresa chilena (SpA) que integra arte, tecnología y producción cultural 
   para transformar espacios. Con servicios de muralismo, restauración, diseño 
