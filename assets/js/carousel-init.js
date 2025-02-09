@@ -33,12 +33,11 @@ $(document).ready(function(){
   $('.carousel-grandes').owlCarousel({
     items: 3,
     loop: true,
-    margin: 0,           // Elimina el margin en JS para que el gap en CSS sea el que prevalezca
+    margin: 0,           // Eliminamos el margin en JS para que se use el gap definido en CSS
     nav: true,
     dots: false,
     navText: navText,
-    autoWidth: true,     // Se respeta el ancho definido en CSS (800px)
+    autoWidth: true,     // Se respeta el ancho definido en CSS (ej. 800px)
     center: true
   });
 });
-
