@@ -1,5 +1,7 @@
+ss\style.css
+@@ -1,988 +1,990 @@
 /* ------------------------------------------------------------------
-   RESET Y CONFIGURACIÃ“N GLOBAL
+   RESET Y CONFIGURACIÓN GLOBAL
 ------------------------------------------------------------------ */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -8,10 +10,10 @@
 }
 
 :root {
-  /* TipografÃ­as */
+  /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
-  --subtitulo2-font: 'Arial', sans-serif; /* ðŸ› ï¸ Corregido: lÃ­nea unificada */
+  --subtitulo2-font: 'Arial', sans-serif; 
   --parrafo-font: 'Georgia', serif;
 
   /* Colores base */
@@ -24,10 +26,10 @@
   --color-medio: #3a3a3a;
   --color-medio-oscuro: #444;
 
-  /* TamaÃ±os tipogrÃ¡ficos */
+  /* Tamaños tipográficos */
   --titulo-size: 2.3rem;
   --subtitulo-size: 1.5rem;
-  --subtitulo2-size: 1.3rem; /* ðŸ› ï¸ Corregido: sangrÃ­a */
+  --subtitulo2-size: 1.3rem; /* 🛠️ Corregido: sangría */
   --parrafo-size: 1rem;
 
   /* Espaciado y line-height */
@@ -54,7 +56,7 @@
   --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
   --content-font-family: Arial, sans-serif;
-  --gap-between-buttons: 20px;
+  --gap-between-buttons: 10px; /* Se redujo de 20px a 10px */
   --button-container-margin: 30px 0 40px;
   --button-max-width: 250px;
   --button-min-width: 150px;
@@ -65,7 +67,7 @@
 }
 
 /* ------------------------------------------------------------------
-   ESTILO GLOBAL DEL BODY E IMÃGENES
+   ESTILO GLOBAL DEL BODY E IMÁGENES
 ------------------------------------------------------------------ */
 body {
   background-color: var(--color-fondo);
@@ -86,7 +88,7 @@ img {
 }
 
 /* ------------------------------------------------------------------
-   HEADER, NAVEGACIÃ“N Y MENÃš RESPONSIVO
+   HEADER, NAVEGACIÓN Y MENÚ RESPONSIVO
 ------------------------------------------------------------------ */
 header {
   background-color: var(--color-fondo);
@@ -124,7 +126,9 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea */
   gap: 20px;
+  width: 100%;
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   overflow-wrap: break-word;
@@ -170,7 +174,7 @@ header {
   transform-origin: bottom left;
 }
 
-/* SubmenÃºs */
+/* Submenús */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -200,7 +204,7 @@ header {
   color: var(--color-destacado);
 }
 
-/* Mostrar submenÃº en escritorio */
+/* Mostrar submenú en escritorio */
 @media (min-width: 769px) {
   .dropdown:hover .dropdown-menu {
     display: block;
@@ -212,7 +216,7 @@ header {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* MenÃº Hamburguesa */
+/* Menú Hamburguesa */
 .nav-toggle {
   display: none;
   margin-top: 20px;
@@ -240,7 +244,7 @@ header {
   transform: scale(1.05);
 }
 
-/* MenÃº Responsivo */
+/* Menú Responsivo */
 .nav-menu.active {
   flex-direction: column;
   align-items: flex-start;
@@ -249,8 +253,8 @@ header {
   transform: translateY(0);
   opacity: 1;
   overflow-wrap: break-word;
-  top: 100%; /* ðŸ› ï¸ PosiciÃ³n corregida */
-  max-height: calc(100vh - 60px); /* ðŸ› ï¸ Scroll para menÃºs largos */
+  top: 100%; /* 🛠️ Posición corregida */
+  max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
 }
 body.no-scroll { overflow: hidden; }
@@ -267,13 +271,14 @@ main {
 }
 
 /* ------------------------------------------------------------------
-   TIPOGRAFÃA: TÃTULOS, SUBTÃTULOS Y PÃRRAFOS
+   TIPOGRAFÍA: TÍTULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
 .titulo {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
   font-weight: bold;
   color: var(--color-destacado);
+   margin-top: 20px; /* Espacio agregado en la parte superior */
   margin-bottom: var(--margin-bottom-medium);
   letter-spacing: var(--spacing-tight);
   word-wrap: break-word;
@@ -310,7 +315,7 @@ main {
   text-indent: 1.5em;
 }
 p.parrafo:first-of-type {
-  margin-top: 2rem; /* ðŸ› ï¸ Unidad corregida (original: 9%) */
+  margin-top: 2rem; /* 🛠️ Unidad corregida (original: 9%) */
   text-indent: 2.5em;
 }
 p.parrafo:first-of-type ul {
@@ -326,7 +331,7 @@ p.parrafo:first-of-type ul {
 }
 
 /* ------------------------------------------------------------------
-   IMÃGENES
+   IMÁGENES
 ------------------------------------------------------------------ */
 .imagen {
   display: flex;
@@ -425,7 +430,7 @@ p.parrafo:first-of-type ul {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* BotÃ³n PayPal */
+/* Botón PayPal */
 .pp-GX4V3R9TEHJ5G {
   text-align: center;
   border: none;
@@ -527,7 +532,7 @@ p.parrafo:first-of-type ul {
 }
 
 /* ------------------------------------------------------------------
-   LÃNEA DE TIEMPO
+   LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
 .timeline-container {
   display: flex;
@@ -840,32 +845,52 @@ form button:hover {
   flex: 1 1 calc(33.33% - 20px);
   box-sizing: border-box;
 }
-
 /* ------------------------------------------------------------------
    MEDIA QUERIES
 ------------------------------------------------------------------ */
 /* Dispositivos grandes y medianos */
 @media (max-width: 1200px) {
-  .text-container { font-size: 1.2rem; padding: 15px; }
+  .text-container { 
+    font-size: 1.2rem; 
+    padding: 15px; 
+  }
 }
+
+/* Para pantallas hasta 1024px se reestructura el nav y otros elementos */
 @media (max-width: 1024px) {
-  .navbar { flex-direction: column; align-items: flex-start; }
-  .fancy-button { width: 40%; }
+  .navbar { 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  .fancy-button { 
+    width: 40%; 
+  }
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+
+/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+@media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
     max-width: 400px;
     transition: width 0.3s ease;
   }
-  .text-container { padding: 20px; }
-  .button-container { gap: 20px; }
+  .text-container { 
+    padding: 20px; 
+  }
+  .button-container { 
+    gap: 20px; 
+  }
 }
 
-/* Dispositivos pequeÃ±os */
-@media (max-width: 768px) {
-  body { font-size: 1.2rem; }
-  .nav-toggle { display: flex; margin-top: 10px; }
+/* Dispositivos pequeños: hasta 901px, se activa el menú hamburguesa */
+@media (max-width: 901px) {
+  body { 
+    font-size: 1.2rem; 
+  }
+  .nav-toggle { 
+    display: flex; 
+    margin-top: 10px; 
+  }
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -882,40 +907,84 @@ form button:hover {
     max-height: calc(100vh - 60px);
     overflow-y: auto;
   }
-  .dropdown.active .dropdown-menu { display: block; position: static; }
-  .year::before { left: -50px; font-size: 1rem; }
-  .fun-button { font-size: 0.9rem; padding: 8px 15px; }
-  .text-container { padding: 10px; }
-  .item { flex: 1 1 calc(50% - 20px); }
+  .dropdown.active .dropdown-menu { 
+    display: block; 
+    position: static; 
+  }
+  .year::before { 
+    left: -50px; 
+    font-size: 1rem; 
+  }
+  .fun-button { 
+    font-size: 0.9rem; 
+    padding: 8px 15px; 
+  }
+  .text-container { 
+    padding: 10px; 
+  }
+  .item { 
+    flex: 1 1 calc(50% - 20px); 
+  }
   
-  /* Ajustes adicionales para pantallas muy pequeÃ±as */
-  .text-container { padding: 10px; font-size: 0.9rem; line-height: 1.6; }
+  /* Ajustes adicionales para pantallas muy pequeñas */
+  .text-container { 
+    padding: 10px; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
+  }
   .button-container {
     flex-direction: column;
     gap: 15px;
     align-items: center;
     padding: 10px;
   }
-  .fancy-button { width: 80%; max-width: 300px; }
-}
-@media (max-width: 600px) {
-  .nav-menu { flex-direction: column; gap: 10px; }
-  .text-container { padding: 10px; }
-}
-@media (max-width: 480px) {
-  body { font-size: 0.8rem; }
-  header { padding: 5px 10px; font-size: 1rem; }
-  .text-container { padding: 10px 5px; font-size: 0.8rem; width: 100%; }
-  .button-container { gap: 10px; }
-  .fancy-button { width: 100%; max-width: 250px; padding: 10px 15px; }
+  .fancy-button { 
+    width: 80%; 
+    max-width: 300px; 
+  }
 }
 
-/* Dispositivos grandes (mÃ­nimo 1024px) */
+/* Ajustes para pantallas aún más pequeñas */
+@media (max-width: 600px) {
+  .nav-menu { 
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  .text-container { 
+    padding: 10px; 
+  }
+}
+@media (max-width: 480px) {
+  body { 
+    font-size: 0.8rem; 
+  }
+  header { 
+    padding: 5px 10px; 
+    font-size: 1rem; 
+  }
+  .text-container { 
+    padding: 10px 5px; 
+    font-size: 0.8rem; 
+    width: 100%; 
+  }
+  .button-container { 
+    gap: 10px; 
+  }
+  .fancy-button { 
+    width: 100%; 
+    max-width: 250px; 
+    padding: 10px 15px; 
+  }
+}
+
+/* Dispositivos grandes (mínimo 1024px) */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
     max-width: 350px;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-  .text-container { padding: 30px; }
+  .text-container { 
+    padding: 30px; 
+  }
 }
