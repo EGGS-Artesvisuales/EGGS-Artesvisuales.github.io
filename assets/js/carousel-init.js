@@ -5,9 +5,9 @@ $(document).ready(function() {
     '<span class="owl-nav-next">&#10095;</span>'
   ];
 
-  // Carousel de imágenes: muestra 1 imagen por slide, con flechas y arrastre con el mouse
+  // Inicialización para el carrusel de imágenes (aplica tanto para carrusel normal como para el grande)
   $('.carousel-imagen').owlCarousel({
-    items: 1,                // Una imagen por slide
+    items: 3,                // Muestra 3 imagen por slide
     loop: true,
     margin: 10,
     nav: true,               // Activa las flechas
@@ -17,7 +17,7 @@ $(document).ready(function() {
     autoHeight: false        // Se utiliza la altura definida por CSS
   });
 
-  // Carousel fancy: muestra varios elementos con configuración responsive y arrastre con el mouse
+  // Inicialización para el carrusel fancy (pequeño)
   $('.carousel-fancy').owlCarousel({
     items: 3,                // Valor por defecto: 3 elementos por slide
     loop: true,
