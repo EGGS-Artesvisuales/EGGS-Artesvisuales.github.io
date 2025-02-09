@@ -8,7 +8,7 @@
   <title>{{ page.title | default: 'EGGS-Studio | Arte visual y Murales' }}</title>
   
   <!-- Meta Etiquetas Principales para SEO -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: experto en arte visual, murales y restauración de arte y docencia de artes.' }}">
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: experto en arte visual, murales, restauración de arte, diseño artístico.' }}">
   <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales, restauración de arte, diseño artístico' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
@@ -22,7 +22,7 @@
   <!-- URL canónica -->
   <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
 
-  <!-- Open Graph (para mejor visibilidad en redes sociales) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}">
   <meta property="og:description" content="{{ page.description | default: 'Descubre nuestra experiencia en murales, restauración y arte visual.' }}">
   <meta property="og:type" content="website">
@@ -31,7 +31,7 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema para Organización/Estudio de Arte -->
+  <!-- JSON-LD Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -55,7 +55,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-  <!-- Mermaid (Solo se carga si la página lo requiere) -->
+  <!-- Mermaid (solo si la página lo requiere) -->
   {% if page.mermaid %}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
@@ -113,33 +113,20 @@
   <!-- Pie de página -->
   {% include footer-es.html %}
 
-  <!-- Scripts: jQuery, Owl Carousel, inicialización del carrusel y otros scripts -->
+  <!-- Scripts -->
+  <!-- jQuery y Owl Carousel -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: true,
-        dotsEach: 1, // Un punto por cada slide
-        navText: ["&#9664;", "&#9654;"],
-        responsive: {
-          0: { items: 1 },
-          600: { items: 3 },
-          1000: { items: 5 }
-        }
-      });
-    });
-  </script>
+  
+  <!-- Inicialización del carrusel (archivo externo) -->
+  <script src="/assets/js/carousel-init.js" defer></script>
 
-  <!-- Script de la barra de progreso (solo si la página lo requiere) -->
+  <!-- Script de la barra de progreso (si la página lo requiere) -->
   {% if page.progreso %}
   <script src="/assets/js/progreso.js" defer></script>
   {% endif %}
 
+  <!-- Otros scripts -->
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
-
