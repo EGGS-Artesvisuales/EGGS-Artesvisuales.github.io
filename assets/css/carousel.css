@@ -2,7 +2,8 @@
    Carousel Base Styles
    ======================================================================== */
 
-/* Contenedor del carrusel: posicionamiento y espaciado */
+/* Aplicable a ambos: carrusel grande y normal */
+.owl-carousel-large,
 .owl-carousel {
   position: relative;
   overflow: hidden;
@@ -10,7 +11,8 @@
   padding: 20px 0;
 }
 
-/* Cada item del carrusel */
+/* Cada item del carrusel (para ambos tipos) */
+.owl-carousel-large .item,
 .owl-carousel .item {
   padding: 10px;
   box-sizing: border-box;
@@ -66,12 +68,10 @@
   padding: 0;
 }
 
-/* Cada dot con margen para separarlos */
 .owl-dots .owl-dot {
   margin: 0 5px;
 }
 
-/* Estilo de cada dot (círculo) */
 .owl-dots .owl-dot span {
   display: block;
   width: 10px;
@@ -81,7 +81,6 @@
   transition: background-color 0.3s ease;
 }
 
-/* Dot activo */
 .owl-dots .owl-dot.active span {
   background-color: #333;
 }
@@ -98,10 +97,9 @@
   margin: 0;
 }
 
-/* Contenedor interno de la imagen del carrusel.
-   Se aplica un estilo similar al de la imagen estática (ancho máximo 800px,
-   fondo, borde redondeado y sombra) */
-.carousel-imagen .item--imagen .imagen { 
+/* Contenedor interno de la imagen del carrusel para carruseles normales.
+   Se limita a 800px para que sean más pequeños, con fondo, borde redondeado y sombra */
+.owl-carousel .carousel-imagen .item--imagen .imagen { 
   display: block;
   text-decoration: none;
   background-color: #3a3a3a;
@@ -112,6 +110,12 @@
   overflow: hidden;
   text-align: center;
   max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Para el carrusel grande, se quita el límite de ancho y se amplía la imagen */
+.owl-carousel-large .carousel-imagen .item--imagen .imagen {
+  max-width: none; /* o bien, puedes establecer un valor mayor, por ejemplo, 100% o 1200px */
   margin: 0 auto;
 }
 
@@ -205,24 +209,34 @@
   height: auto;
 }
 
-/* Para asegurar un tamaño uniforme, se establece una altura fija de 600px;
+/* Para asegurar un tamaño uniforme en carruseles normales, se establece una altura fija de 600px;
    la imagen se ajusta responsivamente con object-fit: cover */
-.carousel-imagen .owl-item img {
+.owl-carousel .carousel-imagen .owl-item img {
   height: 600px;
   width: 100%;
   object-fit: cover;
 }
 
-/* Efecto hover para las imágenes del carrusel */
+/* Efecto hover para las imágenes del carrusel (aplica a ambos) */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* En pantallas grandes, se escala la imagen para centrarla visualmente */
+/* En pantallas grandes, se escala la imagen para centrarla visualmente (para carruseles normales) */
 @media (min-width: 1024px) {
-  .carousel-imagen .imagen img.carousel-img {
+  .owl-carousel .carousel-imagen .imagen img.carousel-img {
     width: 110%;
     margin-left: -5%;
   }
+}
+
+/* ========================================================================
+   Estilos específicos para el carrusel grande
+   ======================================================================== */
+/* Aumentamos la altura de las imágenes para el carrusel "large" */
+.owl-carousel-large .carousel-imagen .owl-item img {
+  height: 800px;  /* O el valor que consideres para que se vean grandes */
+  width: 100%;
+  object-fit: cover;
 }
