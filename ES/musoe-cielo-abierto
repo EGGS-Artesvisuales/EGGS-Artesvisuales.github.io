@@ -25,7 +25,7 @@ carousel: true
 </p>
 
 <!-- Carrusel de imágenes (imagen secundaria) - versión LARGE -->
-<div class="owl-carousel-large carousel-imagen">
+<div class="owl-carousel owl-carousel-large carousel-imagen">
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
@@ -41,6 +41,7 @@ carousel: true
   </div>
   <!-- Agrega más ítems según necesites -->
 </div>
+
 
 <!-- Contenedor de la barra de progreso -->
 <div class="barra-progreso-container">
