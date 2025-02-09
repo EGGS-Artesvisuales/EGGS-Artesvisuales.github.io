@@ -126,14 +126,17 @@ header {
   display: flex;
   flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea */
   gap: 20px;
-  width: 100%;
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   overflow-wrap: break-word;
 }
+
 .nav-menu li {
   position: relative;
+  flex-shrink: 1; /* Permite que el elemento reduzca su tamaño si es necesario */
+  min-width: 0;   /* Evita que un ancho mínimo impida el ajuste */
 }
+
 .nav-menu a {
   color: var(--color-claro);
   text-decoration: none;
@@ -145,7 +148,10 @@ header {
   overflow: hidden;
   outline: none;
   word-wrap: break-word;
+  white-space: normal;  /* Permite que el texto se divida en varias líneas */
+  word-break: break-word; /* Asegura que las palabras largas puedan romperse */
 }
+
 .nav-menu a:focus,
 .nav-menu a:hover {
   background-color: var(--color-hover);
