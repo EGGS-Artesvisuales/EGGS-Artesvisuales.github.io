@@ -7,9 +7,10 @@
   overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
-  border-radius: 8px;               /* Bordes redondeados */
+  border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform, box-shadow;
 }
 
 /* Para el carrusel grandes, forzamos overflow visible */
@@ -42,14 +43,16 @@
   transform: translateY(-50%);
   background-color: #fff;
   border: none;
+  outline: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   font-size: 1.2em;
   color: #333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   z-index: 100;
+  cursor: pointer;
 }
 
 .owl-nav button:hover {
@@ -80,6 +83,7 @@
 
 .owl-dots .owl-dot {
   margin: 0 5px;
+  cursor: pointer;
 }
 
 .owl-dots .owl-dot span {
@@ -145,6 +149,7 @@
 }
 
 .carousel-fancy .fancy-button:focus {
+  outline: none;
   box-shadow: var(--button-focus-shadow);
   transform: translateY(-5px);
 }
@@ -252,7 +257,6 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  /* Posición relativa para que el z-index funcione en el hover */
   position: relative;
   z-index: 1;
 }
@@ -272,7 +276,7 @@
 }
 
 /* ==========================================================================
-   Hover Efects y Ajustes Responsivos
+   Hover Effects y Ajustes Responsivos
    ========================================================================== */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
@@ -286,3 +290,4 @@
     margin-left: -5%;
   }
 }
+
