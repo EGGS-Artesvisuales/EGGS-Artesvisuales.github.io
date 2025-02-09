@@ -33,21 +33,21 @@ breadcrumbs: >
 <div class="button-container">
     <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo">
+            <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo" loading="lazy">
             <p class="title">Imágenes del Capitalismo</p>
             <p class="subtitle">Reflexión visual sobre estructuras económicas y su impacto cotidiano.</p>
         </div>
     </a>
     <a href="/ES/imagenes-popular.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular">
+        <div class="button-content"> 
+            <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular" loading="lazy">
             <p class="title">Imágenes de lo Popular</p>
             <p class="subtitle">Celebración y cuestionamiento del imaginario colectivo.</p>
         </div>
     </a>
     <a href="/ES/imagenes-ancestros.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros">
+            <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros" loading="lazy">
             <p class="title">Imágenes de los Ancestros</p>
             <p class="subtitle">Homenaje a la memoria, tradición y conexión con las raíces.</p>
         </div>
