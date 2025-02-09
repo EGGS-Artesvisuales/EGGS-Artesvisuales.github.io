@@ -1,25 +1,18 @@
 // carousel-init.js
-$(document).ready(function(){
-  // Inicialización para el carrusel de imágenes
-  $(".carousel-imagen").owlCarousel({
-    items: 3, // ajusta según tus necesidades
+$(document).ready(function() {
+  // Inicialización para el carrusel de imágenes (una imagen por slide)
+  $('.carousel-imagen').owlCarousel({
+    items: 1,         // Muestra 1 imagen por slide
     loop: true,
-    margin: 20,
+    margin: 10,
     nav: true,
-    navText: [
-      '<span class="owl-nav-prev">&#10094;</span>',
-      '<span class="owl-nav-next">&#10095;</span>'
-    ],
-    responsive: {
-      0: { items: 1 },
-      600: { items: 2 },
-      1000: { items: 3 }
-    }
+    dots: false,
+    autoHeight: true  // Ajusta la altura automáticamente
   });
 
-  // Si tienes otro carrusel fancy, puedes inicializarlo por separado:
-  $(".carousel-fancy").owlCarousel({
-    items: 3, // ajusta según tus necesidades
+  // Inicialización para el carrusel fancy (si es que lo utilizas)
+  $('.carousel-fancy').owlCarousel({
+    items: 3, // Ajusta según tus necesidades
     loop: true,
     margin: 20,
     nav: true,
