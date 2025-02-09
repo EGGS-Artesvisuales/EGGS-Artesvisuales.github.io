@@ -2,9 +2,7 @@
 layout: default-es
 title: Mundo Interior
 permalink: /ES/interior.html
-breadcrumbs: >
-    <a href="/ES/index.html">Inicio</a> >
-    <span>Mundo Interior</span>
+carousel: true
 ---
 
 <!-- Título principal -->
