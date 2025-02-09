@@ -1,6 +1,6 @@
-/* ========================================================================
+/* ==========================================================================
    Carousel Base Styles (para ambos tipos)
-   ======================================================================== */
+   ========================================================================== */
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
@@ -12,24 +12,9 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.owl-carousel .item,
-.owl-carousel-large .item {
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* ========================================================================
-   Override para Carousel Grandes (Slide Grande)
-   ======================================================================== */
-.owl-carousel.owl-carousel-large.carousel-grandes .item {
-  flex: none !important;
-  width: 800px !important;
-  margin-right: 10px !important;
-}
-
-/* ========================================================================
+/* ==========================================================================
    Carousel Navigation (Flechas)
-   ======================================================================== */
+   ========================================================================== */
 .owl-nav button {
   position: absolute;
   top: 50%;
@@ -58,9 +43,9 @@
   right: 10px;
 }
 
-/* ========================================================================
+/* ==========================================================================
    Carousel Dots
-   ======================================================================== */
+   ========================================================================== */
 .owl-dots {
   position: absolute;
   bottom: 10px;
@@ -89,9 +74,9 @@
   background-color: #333;
 }
 
-/* ========================================================================
+/* ==========================================================================
    Specialized Carousel Styles
-   ======================================================================== */
+   ========================================================================== */
 
 /* --- Carrusel de Imágenes (versión normal) --- */
 .carousel-imagen .item--imagen {
@@ -224,9 +209,9 @@
   height: 1000px; /* Ajusta este valor según necesites */
 }
 
-/* ========================================================================
+/* ==========================================================================
    Carousel Grandes (Imágenes desbordadas) - Slide Grande
-   ======================================================================== */
+   ========================================================================== */
 .carousel-grandes .owl-stage-outer {
   overflow: visible;
 }
@@ -243,16 +228,28 @@
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Agregamos posición relativa para trabajar con z-index */
+  position: relative;
+  z-index: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Hover effect para Carousel Grandes: enviar imagen hacia adelante y
+   asegurar que se vea completa (efecto 3D)
+   -------------------------------------------------------------------------- */
+.carousel-grandes {
+  perspective: 1000px; /* Habilita el efecto 3D */
 }
 
 .carousel-grandes .carousel-img:hover {
-  transform: scale(1.05);
+  transform: translateZ(30px) scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 10;
 }
 
-/* ========================================================================
+/* ==========================================================================
    Hover Efects y Ajustes Responsivos
-   ======================================================================== */
+   ========================================================================== */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
