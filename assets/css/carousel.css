@@ -92,10 +92,10 @@
 
 /* --- Carrusel de Imágenes --- */
 .carousel-imagen .item--imagen {
-  max-width: 660px;
+  /* Eliminamos la restricción de ancho para que ocupe el 100% */
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .carousel-imagen .item--imagen .imagen img {
@@ -180,4 +180,3 @@
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background: #555;
 }
-
