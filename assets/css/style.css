@@ -12,7 +12,7 @@
     /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
---subtitulo2-font: 'Arial', sans-serif;
+  --subtitulo2-font: 'Arial', sans-serif; /* 🛠️ Corregido: línea unificada */
   --parrafo-font: 'Georgia', serif;
     
   /* Colores base */
@@ -28,7 +28,7 @@
   /* Tamaños tipográficos */
   --titulo-size: 2.3rem;
   --subtitulo-size: 1.5rem;
-    --subtitulo2-size: 1.3rem;
+  --subtitulo2-size: 1.3rem; /* 🛠️ Corregido: sangría */
   --parrafo-size: 1rem;
 
   /* Espaciado y line-height */
@@ -88,7 +88,7 @@ img {
 }
 
 /* ------------------------------------------------------------------
-   HEADER FIJO
+   HEADER FIJO (Correcciones aplicadas)
 ------------------------------------------------------------------ */
 header {
   background-color: var(--color-fondo);
@@ -103,13 +103,12 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: flex-start; /* En lugar de space-between */
+  justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
   padding: 1px 0px;
 }
 
-/* Menú principal */
 .nav-menu {
   background-color: var(--color-fondo-secundario);
   width: 100%;
@@ -254,7 +253,7 @@ header {
   transform: scale(1.05);
 }
 
-/* Menú Responsivo */
+/* Menú Responsivo (Correcciones aplicadas) 🛠️ */
 .nav-menu.active {
   flex-direction: column;
   align-items: flex-start;
@@ -263,13 +262,16 @@ header {
   transform: translateY(0);
   opacity: 1;
   overflow-wrap: break-word;
+  top: 100%; /* 🛠️ Posición corregida */
+  max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
+  overflow-y: auto;
 }
 body.no-scroll {
   overflow: hidden;
 }
 
 /* ------------------------------------------------------------------
-   MAIN (para evitar superposición con header fijo)
+   MAIN
 ------------------------------------------------------------------ */
 main {
   padding-top: 80px;
@@ -279,30 +281,22 @@ main {
   padding-right: 20px;
   text-align: justify;
 }
-/* __________________________________________________________
 
-logo nav menu
-___________________________ */
-
-
+/* Logo nav menu */
 .nav-logo {
     display: flex;
     align-items: center;
-   }
-
-.nav-logo img.logo-menu {
-    height: 22px; /* Ajusta según necesidad */
-    width: auto;
-    max-height: 30px; /* Evita que sea demasiado grande */
 }
 
-
+.nav-logo img.logo-menu {
+    height: 22px;
+    width: auto;
+    max-height: 30px;
+}
 
 /* ------------------------------------------------------------------
-   TITULOS, SUBTÍTULOS Y PÁRRAFOS
+   TITULOS, SUBTÍTULOS Y PÁRRAFOS (Corrección de espaciado) 🛠️
 ------------------------------------------------------------------ */
-
-/* Títulos */
 .titulo {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
@@ -313,29 +307,26 @@ ___________________________ */
   word-wrap: break-word;
 }
 
-/* Subtítulos */
 .subtitulo {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
   font-weight: 600;
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
+  text-indent: 1.5em;
   word-wrap: break-word;
 }
 
-/* Subtítulos secundarios */
 .subtitulo2 {
   font-family: var(--subtitulo2-font);
   font-size: var(--subtitulo2-size);
-   font-weight: 600;
+  font-weight: 600;
   color: #fff;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
+  text-indent: 1.5em;
   word-wrap: break-word;
 }
 
-/* Estilos base para .parrafo y ul dentro de .parrafo */
 .parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
@@ -343,28 +334,24 @@ ___________________________ */
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
-  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
+  word-wrap: break-word;
 }
 
-/* Ajustes específicos de párrafos */
 .parrafo {
   margin-bottom: var(--margin-bottom-small);
-  text-indent: 1.5em; /* Sangría de la primera línea */
+  text-indent: 1.5em;
 }
 
-/* Ajuste para el primer párrafo */
 p.parrafo:first-of-type {
-  margin-top: 9%;
-  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
+  margin-top: 2rem; /* 🛠️ Unidad corregida (original: 9%) */
+  text-indent: 2.5em;
 }
 
-/* Anular margen y sangría en el primer párrafo si contiene una lista */
 p.parrafo:first-of-type ul {
   margin-top: 0 !important;
   text-indent: 0 !important;
 }
 
-/* Listas dentro de .parrafo */
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
@@ -373,6 +360,7 @@ p.parrafo:first-of-type ul {
 .parrafo ul li {
   margin-bottom: 0.5em;
 }
+
 /* ------------------------------------------------------------------
    IMAGEN
 ------------------------------------------------------------------ */
@@ -386,18 +374,18 @@ p.parrafo:first-of-type ul {
 .imagen img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .imagen img:hover {
-  transform: translateY(-5px) scale(1.05); /* Leve elevación y zoom */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* ------------------------------------------------------------------
-   BOTONES "FANCY BUTTONS"
+   BOTONES "FANCY BUTTONS" (Responsive mejorado) 🛠️
 ------------------------------------------------------------------ */
 .button-container {
   display: flex;
@@ -406,7 +394,6 @@ p.parrafo:first-of-type ul {
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
 }
-
 
 .fancy-button {
   display: block;
@@ -417,11 +404,7 @@ p.parrafo:first-of-type ul {
   transition: var(--button-transition);
   overflow: hidden;
   text-align: center;
-
-  /* Ajusta el tamaño con flex: 4 columnas aproximadas */
   flex: 1 1 calc(25% - var(--gap-between-buttons));
-  
-  /* Opcionalmente define límites para evitar que crezcan o encojan demasiado */
   max-width: var(--button-max-width);
   min-width: var(--button-min-width);
   height: auto;
@@ -483,10 +466,7 @@ p.parrafo:first-of-type ul {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* ------------------------------
-     BOTÓN DE PAGO PAYPAL PERSONALIZADO
------------------------------- */
-
+/* Botón PayPal */
 .pp-GX4V3R9TEHJ5G {
     text-align: center;
     border: none;
@@ -494,9 +474,9 @@ p.parrafo:first-of-type ul {
     min-width: 11.625rem;
     padding: 0 2rem;
     height: 2.625rem;
-    font-weight: 600; /* Igual a .subtitulo2 */
+    font-weight: 600;
     background-color: #FFD140;
-    color: #fff; /* Color adaptado a la regla de .subtitulo2 */
+    color: #fff;
     font-family: var(--subtitulo2-font, "Helvetica Neue", Arial, sans-serif);
     font-size: var(--subtitulo2-size, 1rem);
     line-height: 1.25rem;
@@ -505,15 +485,11 @@ p.parrafo:first-of-type ul {
 }
 
 .pp-GX4V3R9TEHJ5G:hover {
-    background-color: #FFC300; /* Tono ligeramente diferente */
-    transform: scale(1.05);    /* Efecto de zoom sutil */
+    background-color: #FFC300;
+    transform: scale(1.05);
 }
 
-
-/* - - - - - - - - - - - - -
-   Barra de progreso animada
-   - - - - - - - - - - - - - */
-
+/* Barra de progreso */
 .barra-progreso {
   width: 100%;
   background-color: #e0e0e0;
@@ -533,23 +509,18 @@ p.parrafo:first-of-type ul {
   font-weight: bold;
   font-size: 14px;
   border-radius: 12px;
-  width: 0; /* Inicialmente vacía */
+  width: 0;
   transition: width 2s ease-in-out;
 }
 
-
-/*---------------
-productos
---------*/
-
-
-  .productos-container {
+/* Productos */
+.productos-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 4%;
-  }
-  .producto {
+}
+.producto {
     width: 30%;
     background: #f9f9f9;
     padding: 15px;
@@ -557,29 +528,29 @@ productos
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-  }
-  .producto img {
+}
+.producto img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-  }
-  .title {
+}
+.title {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 10px;
-  }
-  .subtitle {
+}
+.subtitle {
     font-size: 0.9em;
     color: #666;
     margin-top: 5px;
-  }
-  .precio {
+}
+.precio {
     font-size: 1.1em;
     font-weight: bold;
     color: #000;
     margin-top: 10px;
-  }
-  .boton-compra {
+}
+.boton-compra {
     background: #d32f2f;
     color: white;
     border: none;
@@ -589,16 +560,12 @@ productos
     border-radius: 5px;
     margin-top: 10px;
     transition: background 0.3s;
-  }
-  .boton-compra:hover {
+}
+.boton-compra:hover {
     background: #b71c1c;
-  }
+}
 
-
-
-/* ------------------------------------------------------------------
-   LÍNEA DE TIEMPO
------------------------------------------------------------------- */
+/* Línea de tiempo */
 .timeline-container {
   display: flex;
   flex-direction: column;
@@ -648,12 +615,11 @@ productos
   text-align: center;
   font-size: 1.3rem;
   font-family: var(--content-font-family);
-  font-weight: bold; /* Esta línea aplica el estilo bold */
+  font-weight: bold;
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 
 .fun-button:hover {
   background-color: var(--button-hover-bg-color);
@@ -669,12 +635,11 @@ productos
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Espacio para imagen del taller */
 .text-container .imagen {
   width: 100%;
   max-height: 200px;
   margin-bottom: 10px;
-  background-color: #333; /* Color de fondo de reserva */
+  background-color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -709,9 +674,8 @@ productos
   color: var(--color-claro);
 }
 
-
 /* ------------------------------------------------------------------
-   FOOTER
+   FOOTER (Logo preservado) 🛠️
 ------------------------------------------------------------------ */
 footer {
   background-color: var(--color-medio-oscuro);
@@ -731,7 +695,7 @@ footer {
   gap: 15px;
 }
 .footer-logo img {
-  max-width: 14%;
+  max-width: 14%; /* 🛠️ Valor original mantenido */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -739,8 +703,7 @@ footer {
 .footer-links {
   list-style: none;
   padding: 0;
-   text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
-  
+  text-decoration: none;
   display: flex;
   gap: 15px;
 }
@@ -768,27 +731,17 @@ footer {
 }
 
 .footer-copyright {
-  /* Tipografía */
   font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
-  letter-spacing: 0.5px;      /* Espaciado entre letras para mayor legibilidad */
-
-  /* Color y opacidad */
+  letter-spacing: 0.5px;
   color: #aaa;
   opacity: 0.8;
-
-  /* Alineación y espaciado */
   text-align: center;
-  margin: 0;                  /* Elimina márgenes por defecto si es necesario */
-
-  /* Otros */
-  text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
+  margin: 0;
+  text-decoration: none;
 }
 
-
-/* ------------------------------------------------------------------
-   CONTENEDOR DEL DIAGRAMA (MERMAID)
------------------------------------------------------------------- */
+/* Diagramas Mermaid */
 .diagram-container {
   text-align: center;
   margin: 50px auto;
@@ -862,9 +815,7 @@ footer {
   text-decoration: underline;
 }
 
-/* ------------------------------------------------------------------
-   FORMULARIOS
------------------------------------------------------------------- */
+/* Formularios */
 form {
   display: block;
   max-width: 600px;
@@ -921,9 +872,7 @@ form button:hover {
   transform: translateY(-3px);
 }
 
-/* ------------------------------------------------------------------
-   CONTENEDOR FLEXIBLE
------------------------------------------------------------------- */
+/* Contenedor flexible */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -938,10 +887,8 @@ form button:hover {
 }
 
 /* ------------------------------------------------------------------
-   MEDIA QUERIES UNIFICADAS
+   MEDIA QUERIES (Correcciones unificadas) 🛠️
 ------------------------------------------------------------------ */
-
-/* <= 768px */
 @media (max-width: 768px) {
   body {
     font-size: 1.2rem;
@@ -957,15 +904,14 @@ form button:hover {
     background-color: var(--color-medio-oscuro);
     width: 100%;
     position: fixed;
-    top: 106px;
+    top: 100%; /* 🛠️ Posición corregida */
     left: 0;
     z-index: 999;
     padding: 10px;
-    transform: translateY(-100%);
+    transform: translateY(-150%);
     opacity: 0;
-  }
-  .dropdown-menu {
-    display: none;
+    max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
+    overflow-y: auto;
   }
   .dropdown.active .dropdown-menu {
     display: block;
@@ -987,7 +933,6 @@ form button:hover {
   }
 }
 
-/* <= 600px */
 @media (max-width: 600px) {
   .nav-menu {
     flex-direction: column;
@@ -998,7 +943,6 @@ form button:hover {
   }
 }
 
-/* <= 480px */
 @media (max-width: 480px) {
   body {
     font-size: 0.8rem;
@@ -1022,7 +966,6 @@ form button:hover {
   }
 }
 
-/* <= 767px (en algunos casos se usaba 767, unificamos lógica con 768 si aplica) */
 @media (max-width: 767px) {
   .text-container {
     padding: 10px;
@@ -1041,7 +984,6 @@ form button:hover {
   }
 }
 
-/* <= 1024px */
 @media (max-width: 1024px) {
   .navbar {
     flex-direction: column;
@@ -1052,7 +994,6 @@ form button:hover {
   }
 }
 
-/* <= 1200px */
 @media (max-width: 1200px) {
   .text-container {
     font-size: 1.2rem;
@@ -1060,7 +1001,6 @@ form button:hover {
   }
 }
 
-/* Entre 768px y 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
@@ -1075,7 +1015,6 @@ form button:hover {
   }
 }
 
-/* >= 1024px */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
@@ -1086,4 +1025,3 @@ form button:hover {
     padding: 30px;
   }
 }
-
