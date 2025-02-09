@@ -1,42 +1,54 @@
 ---
 layout: default-es
 title: Mecenas
-description: "Explora proyectos en desarrollo y apoya su financiamiento."
+description: "Explora proyectos en desarrollo y conviértete en un impulsor del arte y la cultura."
 permalink: /ES/mecenas.html
 ---
 
-<div class="titulo">Conviértete en mecenas del Arte actual</div>
+<div class="titulo">Sé parte del arte: Conviértete en mecenas</div>
 
-<div class="subtitulo">Contribuye al desarrollo de proyectos artísticos y culturales.</div>
+<div class="subtitulo">Apoya la creación artística y deja huella en la cultura.</div>
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top: 6%;">
-  Explora estas ideas en progreso; tu apoyo permite la creación de nuevas obras y experiencias artísticas.
+  El arte y la cultura transforman comunidades, conectan historias y generan nuevas experiencias. Cada uno de nuestros proyectos es una oportunidad para dar vida a espacios, fortalecer identidades y enriquecer la sociedad a través de la creatividad.
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Puedes contribuir con el monto que desees y seguir el progreso de cada iniciativa. ¡Juntos podemos hacer realidad estas propuestas!
+  Como mecenas, puedes contribuir con el monto que elijas y formar parte activa del desarrollo de cada iniciativa. Tendrás acceso exclusivo a avances, procesos creativos y eventos especiales, porque tu apoyo es fundamental para hacer realidad estas obras. 
 </p>
 
-<div class="subtitulo">Propuestas</div>
+<div class="subtitulo">Proyectos en marcha</div>
+<p class="parrafo">
+  Estas son algunas de las propuestas que están buscando financiamiento. Explora cada una y decide cómo quieres ser parte del cambio.
+</p>
 <br>
 
 <!-- Buttons -->
 <div class="button-container">
   <a href="/ES/musoe-cielo-abierto" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="museo a cielo abierto">
-      <p class="title">museo a cielo abierto</p>
-      <p class="subtitle">Muralismo de impacto en la ciudad en colaboración con comunidades.</p>
+      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Museo a cielo abierto">
+      <p class="title">Museo a cielo abierto</p>
+      <p class="subtitle">Un circuito de murales que resignifica el espacio urbano con historias y colores en colaboración con la comunidad.</p>
     </div>
   </a>
   <a href="/ES/subrepticio.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-remienda-urbana.gif" alt="Remienda urbana n°7">
       <p class="title">Remienda urbana n°7</p>
-      <p class="subtitle">Acciones con impacto en el mobiliario urbano.</p>
+      <p class="subtitle">Acciones de intervención artística que recuperan y resignifican el mobiliario urbano, reimaginando la ciudad a través del arte.</p>
     </div>
   </a>
 </div>
 <br>
+
+<!-- Párrafo final -->
+<p class="parrafo">
+  Tu aporte es más que una donación; es una inversión en la cultura y la creatividad. Ayúdanos a seguir transformando espacios y generando impacto a través del arte. 
+</p>
+
+<p class="parrafo" style="font-weight: bold;">
+  ¿Listo para ser parte del cambio? Contáctanos y conviértete en mecenas hoy mismo.
+</p>
