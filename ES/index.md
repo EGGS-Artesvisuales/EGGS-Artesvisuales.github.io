@@ -9,20 +9,10 @@ permalink: /ES/index.html
 <div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top: 6%;">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Te invito a explorar este sitio, en donde comparto la amplitud de mis actividades artísticas, desde proyectos íntimos hasta obras de gran escala. Mi enfoque del arte es transversal, un territorio donde convergen intereses, saberes y experiencias.
-</p>
-<!-- Párrafo 2 -->
-<p class="parrafo">
-  A lo largo de mi trayectoria, he abordado múltiples disciplinas y áreas. Este recorrido me llevó a crear un esquema rizomático que clasifica la 
-  totalidad de mi trabajo, sin dejar fuera a ninguna de las actividades que he realizado.
-</p>
-<!-- Párrafo 3 -->
-<p class="parrafo">
-  Este esquema no solo me ayuda a comprender y proyectar mi propia naturaleza creativa, sino que 
-  también sirve como una herramienta para presentar mi trabajo de manera clara y organizada.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explora un espacio donde confluyen creatividad y diversidad. Aquí comparto desde proyectos íntimos hasta obras de gran escala, organizados mediante un esquema rizomático que clarifica mi práctica artística.
 </p>
 
-<div class="subtitulo" style="margin-top: 4%;">Categorías generales de mi práctica artística</div>
+<div class="subtitulo" style="margin-top: 4%;">Categorías:</div>
 <br>
 <div class="button-container">
   <a href="mundo-exterior.html" class="fancy-button">
