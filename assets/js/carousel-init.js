@@ -1,4 +1,3 @@
-// carousel-init.js
 $(document).ready(function() {
   // Inicialización para el carrusel de imágenes (una imagen por slide)
   $('.carousel-imagen').owlCarousel({
