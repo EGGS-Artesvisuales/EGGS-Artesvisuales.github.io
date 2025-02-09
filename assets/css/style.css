@@ -282,7 +282,7 @@ main {
   font-size: var(--titulo-size);
   font-weight: bold;
   color: var(--color-destacado);
-   margin-top: 20px; /* Espacio agregado en la parte superior */
+   margin-top: 6rem; /* Espacio agregado en la parte superior */
   margin-bottom: var(--margin-bottom-medium);
   letter-spacing: var(--spacing-tight);
   word-wrap: break-word;
