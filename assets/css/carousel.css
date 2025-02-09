@@ -179,19 +179,24 @@
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background: #555;
 }
-
 /* -----------------------------------------------------------------------
    Estilos específicos para las imágenes dentro del carrusel
    (Se aplicarán únicamente a las imágenes que tengan la clase "carousel-img"
     dentro de un contenedor .imagen en el carrusel)
 ----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
-  /* Anulamos las reglas globales de .imagen img */
-  border-radius: 0;    /* Sin bordes redondeados */
-  box-shadow: none;    /* Sin sombra */
-  transition: none;    /* Sin transición (o puedes definir una propia) */
-  width: 100%;         /* Ocupa el 100% del contenedor */
+  /* Estilos personalizados para las imágenes del carrusel */
+  border-radius: 8px;                  /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
+  width: 100%;                         /* Ocupa el 100% del contenedor */
   height: auto;
+}
+
+/* Efecto hover para las imágenes del carrusel */
+.carousel-imagen .imagen img.carousel-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el cursor */
 }
 
 /* En pantallas grandes, escalamos un poco la imagen */
@@ -201,4 +206,3 @@
     margin-left: -5%;  /* Desplaza la imagen para centrarla visualmente */
   }
 }
-
