@@ -21,40 +21,4 @@ Más que un creador de objetos estéticos, Garnica se posiciona como cronista de
 
 <br><br>
 
-<!-- Subtítulo modalidades -->
-<div class="subtitulo">Líneas de acción en su práctica artística:</div>
-<div class="button-container">
-   
-    <a href="/ES/comunitario.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-murales-comunitarios.gif" alt="Proyectos Comunitarios">
-            <p class="title">Arte Público</p>
-            <p class="subtitle">Muralismo colaborativo y regeneración urbana</p>
-        </div>
-    </a>
-     
-    <a href="/ES/subrepticio.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-intervenciones.gif" alt="Intervenciones Urbanas">
-            <p class="title">Activismo Visual</p>
-            <p class="subtitle">Subversión de mensajes publicitarios y apropiación del espacio</p>
-        </div>
-    </a>
-    
-    <a href="/ES/docencia.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-docencia.gif" alt="Docencia">
-            <p class="title">Pedagogía Artística</p>
-            <p class="subtitle">Talleres de arte y gestión cultural desde 2011</p>
-        </div>
-    </a>
-    
-    <a href="/ES/servicios.html" class="fancy-button">
-        <div class="button-content">
-            <img src="/assets/img/boton-servicios.gif" alt="Servicios Especializados">
-            <p class="title">Arte Aplicado</p>
-            <p class="subtitle">Restauración, encargos site-specific y ambientaciones</p>
-        </div>
-    </a>
-</div>
-<br>
+
