@@ -24,8 +24,8 @@ carousel: true
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
 
-<!-- Carrusel de imágenes (imagen secundaria) -->
-<div class="owl-carousel carousel-imagen">
+<!-- Carrusel de imágenes (imagen secundaria) - versión LARGE -->
+<div class="owl-carousel-large carousel-imagen">
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
