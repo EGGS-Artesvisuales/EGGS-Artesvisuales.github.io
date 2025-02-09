@@ -863,8 +863,8 @@ form button:hover {
   }
 }
 
-/* Para pantallas entre 751px y 1024px (sin menú hamburguesa) */
-@media (min-width: 751px) and (max-width: 1024px) {
+/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+@media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
     max-width: 400px;
@@ -878,8 +878,8 @@ form button:hover {
   }
 }
 
-/* Dispositivos pequeños: hasta 750px, se activa el menú hamburguesa */
-@media (max-width: 750px) {
+/* Dispositivos pequeños: hasta 901px, se activa el menú hamburguesa */
+@media (max-width: 901px) {
   body { 
     font-size: 1.2rem; 
   }
@@ -984,3 +984,4 @@ form button:hover {
     padding: 30px; 
   }
 }
+
