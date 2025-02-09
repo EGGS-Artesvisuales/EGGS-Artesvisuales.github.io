@@ -1,15 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let recaudado = 20500000;  // Ajusta según la cantidad recaudada actual
-    let metaGlobal = 23000000; // Meta total del proyecto
-    let porcentaje = Math.min((recaudado / metaGlobal) * 100, 100); // Calcula el porcentaje
+    let recaudado = 1;  // Ajusta según la cantidad recaudada actual
+    let metaUnitaria = 2900000;  // Meta para una unidad del proyecto
+    let metaGlobal = 29000000;  // Meta total del proyecto
 
+    // Calcula los porcentajes, asegurando que no excedan el 100%
+    let porcentajeGlobal = Math.min((recaudado / metaGlobal) * 100, 100);
+    let porcentajeUnitario = Math.min((recaudado / metaUnitaria) * 100, 100);
+
+    // Elementos del DOM
     let barra = document.getElementById("progreso-barra");
     let textoRecaudado = document.getElementById("recaudado");
-    let textoPorcentaje = document.getElementById("porcentaje");
+    let textoPorcentajeGlobal = document.getElementById("porcentaje-global");
+    let textoPorcentajeUnitario = document.getElementById("porcentaje-unitario");
 
     let incremento = 0;
     let animacion = setInterval(() => {
-        if (incremento >= porcentaje) {
+        if (incremento >= porcentajeGlobal) {
             clearInterval(animacion);
         } else {
             incremento++;
@@ -18,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }, 20); // Velocidad de animación
 
-    // Actualiza el texto con formato de moneda
+    // Actualiza los textos con formato de moneda y porcentaje
     textoRecaudado.textContent = `$ ${recaudado.toLocaleString()} CLP recaudado`;
-    textoPorcentaje.textContent = `${Math.round(porcentaje)}% recaudado`;
+    textoPorcentajeGlobal.textContent = `Progreso global: ${Math.round(porcentajeGlobal)}%`;
+    textoPorcentajeUnitario.textContent = `Progreso unitario: ${Math.round(porcentajeUnitario)}%`;
 });
