@@ -16,7 +16,7 @@
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
 
-  <!-- Color de la barra de navegación en móviles (opcional) -->
+  <!-- Color de la barra de navegación en móviles -->
   <meta name="theme-color" content="#000000">
 
   <!-- URL canónica -->
@@ -31,7 +31,7 @@
   <meta property="og:locale" content="es_ES">
   <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Schema para Organización -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,17 +49,15 @@
 
   <!-- Incluir Owl Carousel CSS solo si la página lo requiere -->
   {% if page.carousel %}
-  <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-{% endif %}
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  {% endif %}
 
   <!-- Hojas de Estilo Personalizadas -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
-
-  <!-- Mermaid (solo si se requiere) -->
+  
+  <!-- Si se requiere Mermaid -->
   {% if page.mermaid %}
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
@@ -92,11 +90,7 @@
 
   <!-- Contenido principal -->
   <main id="main-content" role="main">
-    {% if content %}
-      {{ content }}
-    {% else %}
-      <p>El contenido no está disponible en este momento. Por favor, intente nuevamente más tarde.</p>
-    {% endif %}
+    {{ content }}
   </main>
 
   <!-- Pie de página -->
@@ -107,26 +101,25 @@
 
   <!-- Incluir Owl Carousel JS solo si la página lo requiere -->
   {% if page.carousel %}
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: true,
-        dotsEach: 1,
-        navText: ["&#9664;", "&#9654;"],
-        responsive: {
-          0: { items: 1 },
-          600: { items: 3 },
-          1000: { items: 5 }
-        }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots: true,
+          dotsEach: 1,
+          navText: ["&#9664;", "&#9654;"],
+          responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 5 }
+          }
+        });
       });
-    });
-  </script>
-{% endif %}
-
+    </script>
+  {% endif %}
 </body>
 </html>
