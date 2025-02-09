@@ -373,7 +373,28 @@ p.parrafo:first-of-type ul {
 .parrafo ul li {
   margin-bottom: 0.5em;
 }
+/* ------------------------------------------------------------------
+   IMAGEN
+------------------------------------------------------------------ */
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
 
+.imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
+}
+
+.imagen img:hover {
+  transform: translateY(-5px) scale(1.05); /* Leve elevación y zoom */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
+}
 
 /* ------------------------------------------------------------------
    BOTONES "FANCY BUTTONS"
