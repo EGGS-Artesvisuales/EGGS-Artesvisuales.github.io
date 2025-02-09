@@ -25,9 +25,6 @@ permalink: /ES/acerca.html
   ambiental. Destaca su trabajo en pintura mural e intervenciones subversivas 
   en espacios públicos.
 </p>
-<p class="parrafo">
-  <strong><a href="/ES/garnica.html">Ver más sobre Esteban Garnica</a></strong>
-</p>
 
 <!-- Sección EGGS -->
 <div class="subtitulo2">E.GG.S - Producciones &amp; Art SpA</div>
@@ -38,7 +35,26 @@ permalink: /ES/acerca.html
   urbanos y culturales, promoviendo el acceso al arte y la identidad territorial 
   a través de intervenciones visuales e interactivas.
 </p>
-<p class="parrafo">
-  <strong><a href="/ES/eggs.html">Ver más sobre E.GG.S - produccines y Art Spa</a></strong>
-</p>
 
+<!-- Botones Fancy para conocer más -->
+<div class="button-container">
+  <!-- Botón para Esteban Garnica -->
+  <a href="/ES/garnica.html" class="fancy-button">
+    <div class="button-content">
+      <!-- Imagen representativa para Esteban Garnica -->
+      <img src="/assets/img/boton-esteban.jpg" alt="Esteban Garnica" loading="lazy">
+      <p class="title">Esteban Garnica S.</p>
+      <p class="subtitle">Ver más sobre Esteban Garnica Sánchez</p>
+    </div>
+  </a>
+
+  <!-- Botón para EGGS -->
+  <a href="/ES/eggs.html" class="fancy-button">
+    <div class="button-content">
+      <!-- Imagen representativa para EGGS -->
+      <img src="/assets/img/boton-eggs.jpg" alt="EGGS - Producciones y Art SpA" loading="lazy">
+      <p class="title">EGGS - prods. y art spa</p>
+      <p class="subtitle">Ver más sobre E.GG.S - Producciones &amp; Art SpA</p>
+    </div>
+  </a>
+</div>
