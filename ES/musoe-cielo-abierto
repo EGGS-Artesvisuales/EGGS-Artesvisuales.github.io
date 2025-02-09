@@ -28,24 +28,20 @@ progreso: true
 <br>
 <!-- Imagen secundaria (Carrusel de imágenes) -->
 <div class="owl-carousel carousel-imagen">
-  <!-- Ítem 1 -->
+   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
       <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
-  <!-- Ítem 2 -->
+  <!--  item2... -->
   <div class="item item--imagen">
     <div class="imagen">
       <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
-  <!-- Ítem 3 -->
-  <div class="item item--imagen">
-    <div class="imagen">
-      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-    </div>
-  </div>
+  <!-- Más items... -->
+ 
 </div>
 <br>
 <br>
