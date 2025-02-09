@@ -92,15 +92,17 @@
 
 /* --- Carrusel de Imágenes --- */
 .carousel-imagen .item--imagen {
-  /* Para que ocupe el 100% del contenedor */
+  /* El item ocupa el 100% del contenedor */
   width: 100%;
   height: auto;
   margin: 0;
 }
 
-/* Nota: Este selector se deja intencionalmente vacío para conservar la estructura sin interferir con el estilo global */
+/* Contenedor interno de la imagen del carrusel.
+   Se aplica un estilo similar al de la imagen estática (ancho máximo 800px,
+   fondo, borde redondeado y sombra) */
 .carousel-imagen .item--imagen .imagen { 
-    display: block;
+  display: block;
   text-decoration: none;
   background-color: #3a3a3a;
   border-radius: 15px;
@@ -109,9 +111,8 @@
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  flex: 1 1 calc(25% - 20px);
   max-width: 800px;
-  min-width: 150px;
+  margin: 0 auto;
 }
 
 /* --- Carrusel Fancy (Botones) --- */
@@ -125,7 +126,7 @@
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  /* Se recomienda usar un sistema de columnas en el contenedor Owl Carousel */
+  /* Sistema de columnas en el contenedor Owl Carousel */
   flex: 1 1 calc(25% - 20px);
   max-width: 250px;
   min-width: 150px;
@@ -193,35 +194,37 @@
 
 /* -----------------------------------------------------------------------
    Estilos específicos para las imágenes dentro del carrusel
-   (Se aplicarán únicamente a las imágenes que tengan la clase "carousel-img"
+   (se aplican a las imágenes que tengan la clase "carousel-img"
     dentro de un contenedor .imagen en el carrusel)
 ----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
-  /* Estilos personalizados para las imágenes del carrusel */
-  border-radius: 8px;                      /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
-  width: 100%;                             /* Ocupa el 100% del contenedor */
+  /* Estilos personalizados para las imágenes (igual que la imagen estática) */
+  border-radius: 15px;                     /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave en hover */
+  width: 100%;
   height: auto;
 }
 
-/* Asegura que las imágenes del carousel tengan una altura fija de 600px y se ajusten responsivamente */
+/* Para asegurar un tamaño uniforme, se establece una altura fija de 600px;
+   la imagen se ajusta responsivamente con object-fit: cover */
 .carousel-imagen .owl-item img {
   height: 600px;
   width: 100%;
-  object-fit: cover; /* Mantiene el aspecto de la imagen recortando en exceso si es necesario */
+  object-fit: cover;
 }
 
 /* Efecto hover para las imágenes del carrusel */
 .carousel-imagen .imagen img.carousel-img:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el cursor */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-/* En pantallas grandes, escalamos un poco la imagen */
+/* En pantallas grandes, se escala un poco la imagen para centrarla visualmente */
 @media (min-width: 1024px) {
   .carousel-imagen .imagen img.carousel-img {
     width: 110%;
-    margin-left: -5%;  /* Desplaza la imagen para centrarla visualmente */
+    margin-left: -5%;
   }
 }
+
