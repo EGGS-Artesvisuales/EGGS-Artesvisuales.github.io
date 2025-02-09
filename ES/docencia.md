@@ -39,7 +39,7 @@ breadcrumbs: >
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Máscaras</div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.<br>
@@ -51,7 +51,7 @@ breadcrumbs: >
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Muralismo Intensivo</div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante Fibra en Liceo Politécnico María Pinto, Comuna de María Pinto, Región Metropolitana.<br>
@@ -69,7 +69,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/boton-mural50años.gif" alt="Imagen del taller">
+            <img src="/assets/img/boton-mural50años.gif" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Taller Artes y Oficios Balmaceda Arte Joven; a 50 años del golpe de estado en Chile, muralismo intensivo en la sede del BAJ en Quinta Normal, Santiago.
@@ -80,7 +80,7 @@ breadcrumbs: >
         <div class="fun-button left">Taller RECICLARTE</div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             En territorios de La Florida – mediante Corporación Cultural de la Florida, Santiago.
@@ -95,7 +95,7 @@ breadcrumbs: >
         <div class="fun-button right">Talleres de verano en La Florida – Muralismo</div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Corporación Cultural de la Florida, Santiago.</p>
         </div>
@@ -110,7 +110,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
@@ -127,7 +127,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Talleres identitarios "Stgo. es de todos". Taller online vía Google Meet. Corporación Cultural de la Florida.
@@ -140,7 +140,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
@@ -153,7 +153,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Productora Mobcreative para Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
@@ -170,7 +170,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago; Escuela Los Andes, Pte. Alto, Santiago; Colegio Altas Cumbres, Pte. Alto, Santiago.
@@ -187,7 +187,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             I. Municipalidad de Santiago; Palacio Álamos – Escuela Irene Frei de Cid.
@@ -200,7 +200,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Liceo Olof Palme, La Cisterna, Santiago.
@@ -213,7 +213,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Actuar a tiempo. Lo Prado, Santiago de Chile.
@@ -230,7 +230,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>San Ramón, Santiago.</p>
         </div>
@@ -241,7 +241,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Complejo educacional C.E.I.A, La Pintana, Santiago.</p>
         </div>
@@ -256,7 +256,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio C.E.I.A, La Pintana, Santiago; Liceo Puente Alto, Santiago.
@@ -269,7 +269,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Cardenal Samoré, Programa E.D.E.X ley SEP; Corporación de educación de la I. Municipalidad de La Florida.
@@ -282,7 +282,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Santiago Bueras, Maipú, Santiago. Programa PACE – MINEDUC. USACH.
@@ -299,7 +299,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
@@ -312,7 +312,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Actuar a tiempo. Colegio Alberto Magno, Lo Cañas; Colegio Cardenal Antonio Samoré; Colegio Los Navíos; Colegio Nuevo Amanecer; Colegio London College (todos en La Florida, Santiago).
@@ -325,7 +325,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Taller de muralismo en Colegio CEIA, la Pintana, Santiago; Taller de visualidad en Liceo Puente Alto, Pte. Alto, Santiago.
@@ -342,7 +342,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Colegio Marcela Paz, La Florida, Santiago.</p>
         </div>
@@ -357,7 +357,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Colegio Dr. Sotero del Río; Colegio Maestra Elsa Santibáñez; Colegio María Elena (todos en La Florida, Santiago).
@@ -370,7 +370,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
@@ -385,7 +385,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Colegio San Leonardo, Maipú, Santiago de Chile.</p>
         </div>
@@ -396,7 +396,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Corporación de I. Municipalidad de La Florida; Colegio Maestra Elsa Santibáñez, La Florida, Santiago de Chile.
@@ -409,7 +409,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
@@ -424,7 +424,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Servicio País / Consejo Nacional de las Artes. Villa San Ignacio – El Roble, Padre Hurtado, Región Metropolitana, Chile.
@@ -437,7 +437,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
@@ -452,7 +452,7 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller">
+            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Liceo Joaquín Edwards Bello, Macul, Santiago.</p>
         </div>
