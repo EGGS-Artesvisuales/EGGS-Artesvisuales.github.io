@@ -26,31 +26,29 @@ progreso: true
 </p>
 <br>
 <br>
-<!-- Imagen secundaria -->
-<div class="owl-carousel">
+<!-- Imagen secundaria (Carrusel de imágenes) -->
+<div class="owl-carousel carousel-imagen">
   <!-- Ítem 1 -->
-  <div class="item">
-        <div class="imagen">
-        <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-      </div>
+  <div class="item item--imagen">
+    <div class="imagen">
+      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+    </div>
   </div>
-  <!-- Puedes agregar más ítems de la misma forma -->
- <div class="item">
-        <div class="imagen">
-        <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-      </div>
+  <!-- Ítem 2 -->
+  <div class="item item--imagen">
+    <div class="imagen">
+      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+    </div>
   </div>
-  <!-- Puedes agregar más ítems de la misma forma -->
- <div class="item">
-        <div class="imagen">
-        <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-      </div>
+  <!-- Ítem 3 -->
+  <div class="item item--imagen">
+    <div class="imagen">
+      <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+    </div>
   </div>
 </div>
-
 <br>
 <br>
-
 <!-- Contenedor de la barra de progreso -->
 <div class="barra-progreso-container">
   <label for="progreso">Progreso del financiamiento:</label>
@@ -74,4 +72,3 @@ progreso: true
 
 <!-- Script de la barra de progreso -->
 <script src="/assets/js/progreso.js" defer></script>
-
