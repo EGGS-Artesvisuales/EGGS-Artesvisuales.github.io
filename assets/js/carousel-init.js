@@ -4,9 +4,9 @@ $(function() {
   // Inicialización para el carrusel de imágenes (versión normal)
   // Se excluyen los contenedores que sean del tipo large.
   $('.carousel-imagen:not(.owl-carousel-large)').owlCarousel({
-    items: 4,
+    items: 3,
     loop: true,
-    margin: 6,
+    margin: 2,
     nav: true,
     dots: true,
     mouseDrag: true,
@@ -16,17 +16,17 @@ $(function() {
 
   // Inicialización para el carrusel fancy (pequeño)
   $('.carousel-fancy').owlCarousel({
-    items: 4,
+    items: 5,
     loop: true,
-    margin: 3,
+    margin: 1,
     nav: true,
     dots: true,
     mouseDrag: true,
     navText: navText,
     responsive: {
-      0: { items: 1 },
-      600: { items: 3 },
-      1000: { items: 5 }
+      0: { items: 2 },
+      600: { items: 5 },
+      1000: { items: 6 }
     }
   });
 
