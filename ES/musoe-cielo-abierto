@@ -25,23 +25,26 @@ permalink: /ES/musoe-cielo-abierto.html
 </p>
 <br>
 <br>
-<!-- Imagen segunda -->
+<!-- Imagen secundaria -->
 <div class="imagen">
   <img src="/assets/img/mapuchenocturno.jpg" alt="Musoe a Cielo Abierto" loading="lazy">
 </div>
 <br>
 <br>
+
+<!-- Contenedor de la barra de progreso -->
 <div class="barra-progreso-container">
   <label for="progreso">Progreso del financiamiento:</label>
   <div class="barra-progreso">
-    <progress id="progreso" value="0" max="100"></progress>
+    <div class="barra-progreso-fill" id="progreso-barra">0%</div>
   </div>
-  <p>$ 0.000.000 CLP recaudado</p>
+  <p id="recaudado">$ 0 CLP recaudado</p>
   <p>$ 2.300.000 CLP meta unitaria</p>
   <p>$ 23.000.000 CLP meta global</p>
-  <p>99% recaudado</p>
+  <p id="porcentaje">0% recaudado</p>
 </div>
 
+<!-- Botón de donación -->
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
   <input class="pp-GX4V3R9TEHJ5G" type="submit" value="Impulsar proyecto" />
 </form>
@@ -49,4 +52,33 @@ permalink: /ES/musoe-cielo-abierto.html
 <div class="enlace-container">
   <a href="/ES/en-construccion.html" class="enlace">Ver proyectos completados</a>
 </div>
+
+<!-- Script para animar la barra de progreso -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let recaudado = 20500000;  // Ajusta según la cantidad recaudada actual
+      let metaGlobal = 23000000; // Meta total del proyecto
+      let porcentaje = Math.min((recaudado / metaGlobal) * 100, 100); // Calcula el porcentaje
+
+      let barra = document.getElementById("progreso-barra");
+      let textoRecaudado = document.getElementById("recaudado");
+      let textoPorcentaje = document.getElementById("porcentaje");
+
+      let incremento = 0;
+      let animacion = setInterval(() => {
+          if (incremento >= porcentaje) {
+              clearInterval(animacion);
+          } else {
+              incremento++;
+              barra.style.width = incremento + "%";
+              barra.textContent = incremento + "%";
+          }
+      }, 20); // Velocidad de animación
+
+      // Actualiza el texto con formato de moneda
+      textoRecaudado.textContent = `$ ${recaudado.toLocaleString()} CLP recaudado`;
+      textoPorcentaje.textContent = `${Math.round(porcentaje)}% recaudado`;
+  });
+</script>
+
 
