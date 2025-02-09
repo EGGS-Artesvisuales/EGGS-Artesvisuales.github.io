@@ -1,10 +1,7 @@
-$(document).ready(function() {
-  var navText = [
-    '<span class="owl-nav-prev">&#10094;</span>',
-    '<span class="owl-nav-next">&#10095;</span>'
-  ];
+$(document).ready(function(){
+  var navText = ["&#9664;", "&#9654;"];
 
-  // Inicialización para el carrusel de imágenes (normal y grande)
+  // Inicialización para el carrusel de imágenes (versión normal)
   $('.carousel-imagen').owlCarousel({
     items: 3,
     loop: true,
@@ -32,15 +29,15 @@ $(document).ready(function() {
     }
   });
 
-  // Inicialización para el carrusel de imágenes grandes (slide grandes)
+  // Inicialización para el carrusel de imágenes grandes (slide grande)
   $('.carousel-grandes').owlCarousel({
     items: 3,
     loop: true,
-    margin: 0,           // Eliminamos el margin aquí para evitar conflictos
+    margin: 0,           // Elimina el margin en JS para que el gap en CSS sea el que prevalezca
     nav: true,
     dots: false,
     navText: navText,
-    autoWidth: true,     // Permite que cada ítem tenga el ancho definido en CSS
+    autoWidth: true,     // Se respeta el ancho definido en CSS (800px)
     center: true
   });
 });
