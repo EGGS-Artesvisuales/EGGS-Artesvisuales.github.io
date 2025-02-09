@@ -15,7 +15,7 @@ permalink: /ES/tienda.html
 
 <div class="productos-container">
   <div class="producto">
-    <img src="/assets/img/producto1.jpg" alt="Impresión artística 1">
+    <img src="/assets/img/producto1.jpg" alt="Impresión artística 1" loading="lazy">
     <p class="title">Impresión Artística 1</p>
     <p class="subtitle">Impresión en papel de alta calidad. Tamaño: 30x40 cm.</p>
     <p class="precio">$25.000 CLP</p>
