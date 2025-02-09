@@ -150,7 +150,6 @@ permalink: /ES/eggs.html
 
 <br><br><br>
 <br><br><br>
-<br><br><br>
 <p class="parrafo">
   En E.GG.S creemos que el arte es una herramienta transformadora para la educación, la inclusión y el desarrollo sostenible. Implementamos prácticas responsables en cada uno de nuestros proyectos, promoviendo la economía circular, el uso de materiales ecológicos y la integración de tecnologías accesibles.
 </p>
