@@ -21,7 +21,7 @@ permalink: /ES/eggs.html
   E.GG.S - Producciones & Art SpA es una figura jurídica que se implementó para llevar a cabo actividades con mayor respaldo. Como empresa chilena (SpA), E.GG.S fusiona arte y tecnología para la transformación creativa de espacios. Ofrecemos técnicas de muralismo, restauración de patrimonio, escenografías, diseño de interiores, producción cultural y arte digital, promoviendo la conexión entre las comunidades y su entorno a través de proyectos artísticos.
 </p>
 <p class="parrafo">
-  Con un enfoque en la innovación y la sostenibilidad, llevamos el arte más allá de los límites convencionales, incorporando tecnologías emergentes como realidad virtual, NFTs y experiencias interactivas. Nuestra misión es revitalizar espacios urbanos y culturales, democratizar el acceso al arte y fortalecer la identidad de los territorios mediante intervenciones visuales y participativas.
+  Con un enfoque en la innovación y la sostenibilidad, llevamos el arte más allá de los límites convencionales, incorporando tecnologías emergentes. Nuestra misión es revitalizar espacios urbanos y culturales, democratizar el acceso al arte y fortalecer la identidad de los territorios mediante intervenciones visuales y participativas.
 </p>
 
 <!-- Sección: Nuestros servicios -->
