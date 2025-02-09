@@ -13,24 +13,19 @@
   will-change: transform, box-shadow;
 }
 
-/* Para el carrusel grandes, forzamos overflow visible */
-.owl-carousel-large.carousel-grandes {
-  overflow: visible;
-}
-
 /* Aseguramos que los contenedores internos de Owl Carousel permitan el overflow */
-.owl-carousel-large.carousel-grandes .owl-stage-outer,
-.owl-carousel-large.carousel-grandes .owl-stage {
+.owl-carousel-large. .owl-stage-outer,
+.owl-carousel-large. .owl-stage {
   overflow: visible;
 }
 
 /* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
-.owl-carousel-large.carousel-grandes .owl-item {
+.owl-carousel-large. .owl-item {
   overflow: visible !important;
   position: relative;
 }
 
-.owl-carousel-large.carousel-grandes .owl-item:hover {
+.owl-carousel-large. .owl-item:hover {
   z-index: 100;
 }
 
@@ -233,47 +228,7 @@
   height: 1000px; /* Ajusta este valor según necesites */
 }
 
-/* ==========================================================================
-   Carousel Grandes (Imágenes desbordadas) - Slide Grande
-   ========================================================================== */
-.carousel-grandes .owl-stage-outer {
-  overflow: visible;
-}
 
-.carousel-grandes .item {
-  width: 800px;
-  margin-right: 10px;
-}
-
-/* Evitamos que el contenedor de la imagen recorte el efecto */
-.carousel-grandes .item .imagen {
-  overflow: visible;
-}
-
-/* --- Estilos para las imágenes del slider grandes --- */
-.carousel-grandes .carousel-img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  z-index: 1;
-}
-
-/* --------------------------------------------------------------------------
-   Hover effect para Carousel Grandes: enviar imagen hacia adelante y
-   asegurar que se vea completa (efecto 3D)
-   -------------------------------------------------------------------------- */
-.carousel-grandes {
-  perspective: 1000px; /* Habilita el efecto 3D en sus descendientes */
-}
-
-.carousel-grandes .carousel-img:hover {
-  transform: translateZ(30px) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
 
 /* ==========================================================================
    Hover Effects y Ajustes Responsivos
