@@ -17,7 +17,7 @@ $(function() {
   $('.carousel-fancy').owlCarousel({
     items: 3,
     loop: true,
-    margin: 20,
+    margin: 5,
     nav: true,
     dots: false,
     mouseDrag: true,
