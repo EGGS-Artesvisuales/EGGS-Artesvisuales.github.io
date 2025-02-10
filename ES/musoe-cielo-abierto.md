@@ -35,7 +35,7 @@ carousel: true
   <!-- Ítem 2 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+      <img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
   <!-- Agrega más ítems según necesites -->
