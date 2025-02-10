@@ -91,10 +91,9 @@ img {
 header {
   background-color: var(--color-fondo);
   color: #f4f4f4;
+  padding: 0;
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -102,72 +101,84 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 100%;
-  padding: 10px 20px;
+  padding: 1px 0;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
 }
-
 .nav-logo img.logo-menu {
-  height: 30px;
+  height: 22px;
   width: auto;
+  max-height: 30px;
 }
 
-/* 🔥 Corrección: Ajustar posición y visibilidad del menú */
 .nav-menu {
-  position: fixed;
-  top: -100vh; /* 🔥 Inicialmente oculto */
-  left: 0;
-  width: 100%;
   background-color: var(--color-fondo-secundario);
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-  overflow-y: auto;
-  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  width: 100%;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea */
+  gap: 20px;
+  transition: max-height 0.3s ease-in-out;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  overflow-wrap: break-word;
 }
 
-.nav-menu.active {
-  top: 60px; /* 🔥 Se despliega justo debajo del header */
-  opacity: 1;
-  visibility: visible;
-  max-height: calc(100vh - 60px);
-}
-
-/* 🔥 Ajuste en la estructura de los elementos */
 .nav-menu li {
   position: relative;
-  width: 100%;
+  flex-shrink: 1; /* Permite que el elemento reduzca su tamaño si es necesario */
+  min-width: 0;   /* Evita que un ancho mínimo impida el ajuste */
 }
 
 .nav-menu a {
   color: var(--color-claro);
   text-decoration: none;
-  padding: 12px 15px;
+  padding: 8px 15px;
   display: block;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  text-align: center;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  word-wrap: break-word;
+  white-space: normal;  /* Permite que el texto se divida en varias líneas */
+  word-break: break-word; /* Asegura que las palabras largas puedan romperse */
 }
 
+.nav-menu a:focus,
 .nav-menu a:hover {
   background-color: var(--color-hover);
   color: var(--color-destacado);
   transform: scale(1.02);
 }
+.nav-menu a:visited {
+  color: var(--color-claro);
+}
+.nav-menu a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: var(--color-destacado);
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+.nav-menu a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 
-/* 🔥 Submenús */
+/* Submenús */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -175,22 +186,23 @@ header {
   left: 0;
   background-color: var(--color-medio);
   list-style: none;
+  margin: 0;
   padding: 5px 0;
   border-radius: 5px;
   z-index: 100;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .dropdown-menu li {
   width: 180px;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
-
 .dropdown-menu a {
   padding: 10px 15px;
+  white-space: normal;
   color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .dropdown-menu a:hover {
   background-color: var(--color-hover);
   color: var(--color-destacado);
@@ -203,70 +215,56 @@ header {
     animation: fadeIn 0.3s ease-in-out;
   }
 }
-
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* 🔥 Menú Hamburguesa */
+/* Menú Hamburguesa */
 .nav-toggle {
   display: none;
+  margin-top: 20px;
+  margin-left: 20px;
   cursor: pointer;
   flex-direction: column;
   gap: 5px;
-  z-index: 1001;
+  transition: transform 0.3s ease;
+  z-index: 1000;
 }
-
 .nav-toggle span {
+  display: flex;
   width: 33px;
   height: 6px;
   background-color: var(--color-medio-claro);
   border-radius: 5px;
 }
-
 .nav-toggle:hover {
   transform: scale(1.1);
 }
-
-/* 🔥 Bloquear scroll cuando el menú está abierto */
-.no-scroll {
-  overflow: hidden;
-  height: 100vh;
+.nav-toggle:focus,
+.nav-toggle.active {
+  outline: 3px solid rgba(88, 166, 255, 0.6);
+  border-radius: 5px;
+  transform: scale(1.05);
 }
 
-/* 🔥 Ajustes en el menú para dispositivos móviles */
-@media (max-width: 901px) {
-  .nav-toggle {
-    display: flex;
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: -100vh; /* 🔥 Lo ocultamos inicialmente */
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 10px;
-    max-height: calc(100vh - 60px);
-    overflow-y: auto;
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
-  .nav-menu.active {
-    transform: translateY(0);
-    opacity: 1;
-    top: 60px; /* 🔥 Aparece debajo del header */
-  }
-
-  .dropdown.active .dropdown-menu {
-    display: block;
-    position: static;
-  }
+/* Menú Responsivo */
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  overflow-wrap: break-word;
+  top: 100%; /* 🛠️ Posición corregida */
+  max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
+  overflow-y: auto;
+  z-index: 9999; /* Mayor z-index para traer el menú al frente */
 }
+
+
 
 
 /* ------------------------------------------------------------------
@@ -1024,6 +1022,5 @@ form button:hover {
     padding: 30px; 
   }
 }
-
 
 
