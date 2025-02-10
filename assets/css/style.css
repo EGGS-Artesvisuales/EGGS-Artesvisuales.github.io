@@ -865,6 +865,7 @@ form button:hover {
   box-sizing: border-box;
 }
 
+
 /* ------------------------------------------------------------------
    MEDIA QUERIES (Optimizado sin perder info relevante)
 ------------------------------------------------------------------ */
@@ -922,19 +923,19 @@ form button:hover {
     flex-direction: column;
     background-color: var(--color-fondo-secundario);
     position: fixed; /* Mantiene el menú en su lugar */
-    top: 60px; /* Inicia justo debajo del header */
+    top: 60px; /* 🔥 Asegura que se abra justo debajo del header */
     left: 0;
     width: 100%;
     z-index: 9999;
     padding: 10px;
-    max-height: calc(100vh - 60px); /* Para evitar que sobresalga */
+    max-height: calc(100vh - 60px); /* 🔥 Evita que sobresalga */
     overflow-y: auto;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(-10px); /* 🔥 Evita que se despliegue fuera de pantalla */
   }
 
-  /* Activamos el menú cuando se hace clic en el botón hamburguesa */
+  /* Cuando el menú está activo */
   .nav-menu.active {
     display: flex;
     transform: translateY(0);
@@ -946,8 +947,8 @@ form button:hover {
     display: block;
     position: static;
   }
-}
 
+  /* Ajustes adicionales en móviles */
   .year::before { 
     left: -50px; 
     font-size: 1rem; 
@@ -988,31 +989,6 @@ form button:hover {
 }
 
 /* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
-
-
-
-/* Ocultar el menú en móviles */
-@media (max-width: 901px) {
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: var(--color-fondo-secundario);
-    position: absolute;
-    top: 14px; /* Ajustar según la altura del header */
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 10px;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
-  }
-
-  .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 @media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
@@ -1046,5 +1022,7 @@ form button:hover {
     padding: 30px; 
   }
 }
+
+
 
 
