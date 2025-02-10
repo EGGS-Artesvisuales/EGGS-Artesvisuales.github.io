@@ -633,13 +633,17 @@ p.parrafo:first-of-type ul {
    FOOTER
 ------------------------------------------------------------------ */
 footer {
-  background-color: var(--color-medio-oscuro);
+ background-image: url("/assets/img/footer-fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #cecece;
   margin-top: 3%;
   padding: 20px;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
+
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
