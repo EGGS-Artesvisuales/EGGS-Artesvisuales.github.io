@@ -913,21 +913,24 @@ form button:hover {
     display: flex; 
     margin-top: 10px; 
   }
+  /* Estilos exclusivos para el menú en móviles */
   .nav-menu {
-    display: flex;
+    display: none; /* Oculto por defecto */
     flex-direction: column;
-    gap: 10px;
-    background-color: var(--color-medio-oscuro);
-    width: 100%;
-    position: fixed;
-    top: 100%;
+    background-color: var(--color-fondo-secundario);
+    position: absolute; /* o fixed, según lo requiera el diseño */
+    top: 60px; /* Ajustar según la altura del header */
     left: 0;
-    z-index: 9999; /* Mayor z-index para traer el menú al frente */
+    width: 100%;
+    z-index: 9999;
     padding: 10px;
-    transform: translateY(-150%);
-    opacity: 0;
-    max-height: calc(100vh - 60px);
-    overflow-y: auto;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
   }
   .dropdown.active .dropdown-menu { 
     display: block; 
@@ -973,47 +976,9 @@ form button:hover {
 }
 
 /* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
-
 @media (min-width: 902px) {
   .nav-toggle {
     display: none;
-  }
-}
-
-
-/* Ocultar el menú en móviles */
-@media (max-width: 901px) {
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    background-color: var(--color-fondo-secundario);
-    position: absolute;
-    top: 14px; /* Ajustar según la altura del header */
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 10px;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
-  }
-
-  .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@media (min-width: 902px) and (max-width: 1024px) {
-  .fancy-button {
-    width: 45%;
-    max-width: 400px;
-    transition: width 0.3s ease;
-  }
-  .text-container { 
-    padding: 5px; 
-  }
-  .button-container { 
-    gap: 20px; 
   }
 }
 
@@ -1036,5 +1001,6 @@ form button:hover {
     padding: 30px; 
   }
 }
+
 
 
