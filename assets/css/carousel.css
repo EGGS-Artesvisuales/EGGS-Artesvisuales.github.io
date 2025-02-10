@@ -1,59 +1,48 @@
-/* ==========================================================================
-   Carousel Base Styles (para ambos tipos)
-   ========================================================================== */
-.owl-carousel,
-.owl-carousel-large {
+@ -1,194 +1,204 @@
+/* ========================================================================
+   Carousel Base Styles
+   ======================================================================== */
+
+/* Contenedor del carrusel: posicionamiento y espaciado */
+.owl-carousel {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform, box-shadow;
 }
 
-/* Aseguramos que los contenedores internos de Owl Carousel permitan el overflow */
-.owl-carousel-large .owl-stage-outer,
-.owl-carousel-large .owl-stage {
-  overflow: visible;
+/* Cada item del carrusel */
+.owl-carousel .item {
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-/* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
-.owl-carousel-large .owl-item {
-  overflow: visible !important;
-  position: relative;
-}
-
-.owl-carousel-large .owl-item:hover {
-  z-index: 100;
-}
-
-/* ==========================================================================
+/* ========================================================================
    Carousel Navigation (Flechas)
-   ========================================================================== */
+   ======================================================================== */
+
+/* Botones de navegación */
 .owl-nav button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background-color: #fff;
   border: none;
-  outline: none;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   font-size: 1.2em;
   color: #333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease;
   z-index: 100;
-  cursor: pointer;
 }
 
 .owl-nav button:hover {
   background-color: #f0f0f0;
 }
 
+/* Posicionamiento específico para cada flecha */
 .owl-nav .owl-prev {
   left: 10px;
 }
@@ -62,9 +51,11 @@
   right: 10px;
 }
 
-/* ==========================================================================
+/* ========================================================================
    Carousel Dots
-   ========================================================================== */
+   ======================================================================== */
+
+/* Contenedor de dots: centrado en la parte inferior */
 .owl-dots {
   position: absolute;
   bottom: 10px;
@@ -76,37 +67,45 @@
   padding: 0;
 }
 
+/* Cada dot con margen para separarlos */
 .owl-dots .owl-dot {
   margin: 0 5px;
-  cursor: pointer;
 }
 
+/* Estilo de cada dot (círculo) */
 .owl-dots .owl-dot span {
   display: block;
   width: 10px;
   height: 10px;
-  background-color: #ccc;
+  background: #ccc;
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
+/* Dot activo */
 .owl-dots .owl-dot.active span {
-  background-color: #333;
+  background: #333;
 }
 
-/* ==========================================================================
+/* ========================================================================
    Specialized Carousel Styles
-   ========================================================================== */
+   ======================================================================== */
 
-/* --- Carrusel de Imágenes (versión normal) --- */
+/* --- Carrusel de Imágenes --- */
 .carousel-imagen .item--imagen {
+  /* Para que ocupe el 100% del contenedor */
   width: 100%;
   height: auto;
   margin: 0;
 }
 
-/* Contenedor interno en carrusel normal (limitado a 800px) */
-.owl-carousel .carousel-imagen .item--imagen .imagen {
+.carousel-imagen .item--imagen .imagen {
+  /* Aquí se conserva la estructura, pero las imágenes internas tendrán una clase extra */
+  /* No se toca aquí el selector .imagen img para no interferir con el estilo global */
+}
+
+/* --- Carrusel Fancy (Botones) --- */
+.carousel-fancy .fancy-button {
   display: block;
   text-decoration: none;
   background-color: #3a3a3a;
@@ -116,43 +115,23 @@
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* En carrusel grande, se elimina el límite de ancho */
-.owl-carousel-large .carousel-imagen .item--imagen .imagen {
-  max-width: none;
-  margin: 0 auto;
-}
-
-/* --- Carrusel Fancy (Botones) --- */
-/* Se reemplaza el estilo específico por los estilos globales de fancy-button */
-.carousel-fancy .fancy-button {
-  display: block;
-  text-decoration: none;
-  background-color: var(--button-bg-color);
-  border-radius: var(--button-border-radius);
-  box-shadow: var(--button-shadow);
-  transition: var(--button-transition);
-  overflow: hidden;
-  text-align: center;
-  flex: 1 1 calc(25% - var(--gap-between-buttons));
-  max-width: var(--button-max-width);
-  min-width: var(--button-min-width);
-  height: auto;
+  /* Se recomienda usar un sistema de columnas en el contenedor Owl Carousel */
+  flex: 1 1 calc(25% - 20px);
+  max-width: 250px;
+  min-width: 150px;
 }
 
 .carousel-fancy .fancy-button:focus {
-  outline: none;
-  box-shadow: var(--button-focus-shadow);
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.6),
+              0 4px 6px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
 
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-5px);
-  box-shadow: var(--button-hover-shadow);
-  background-color: var(--button-hover-bg-color);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2),
+              inset 0 -2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #444;
 }
 
 .carousel-fancy .button-content {
@@ -161,7 +140,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color: var(--content-title-color);
+  color: #f89900;
   text-align: center;
   overflow: hidden;
 }
@@ -170,27 +149,27 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: var(--img-opacity);
+  opacity: 0.9;
   transition: opacity 0.3s ease-in-out;
 }
 
 .carousel-fancy .fancy-button:hover .button-content img {
-  opacity: var(--img-hover-opacity);
+  opacity: 1;
 }
 
 .carousel-fancy .button-content .title {
-  font-size: var(--title-font-size);
+  font-size: 1.2rem;
   font-weight: bold;
-  color: var(--content-title-color);
+  color: #f89900;
   margin-bottom: 5px;
 }
 
 .carousel-fancy .button-content .subtitle {
-  background-color: var(--content-subtitle-bg);
-  padding: var(--content-subtitle-padding);
-  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
-  font-size: var(--subtitle-font-size);
-  color: var(--content-subtitle-color);
+  background: #333;
+  padding: 8px 10px;
+  border-radius: 0 0 15px 15px;
+  font-size: 0.85rem;
+  color: #aaaaaa;
   margin: 0;
   width: 100%;
   position: relative;
@@ -199,47 +178,32 @@
 }
 
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background-color: var(--content-subtitle-hover-bg);
+  background: #555;
 }
 
-/* --- Estilos para las imágenes dentro del carrusel --- */
+/* -----------------------------------------------------------------------
+   Estilos específicos para las imágenes dentro del carrusel
+   (No se afectarán las imágenes fuera del carrusel, ya que se requiere la clase "carousel-img")
+   (Se aplicarán únicamente a las imágenes que tengan la clase "carousel-img"
+    dentro de un contenedor .imagen en el carrusel)
+----------------------------------------------------------------------- */
 .carousel-imagen .imagen img.carousel-img {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
+  /* Se anulan las reglas globales de .imagen img */
+  border-radius: 8;    /* Sin bordes redondeados */
+  /* Anulamos las reglas globales de .imagen img */
+  border-radius: 0;    /* Sin bordes redondeados */
+  box-shadow: none;    /* Sin sombra */
+  transition: none;    /* Sin transición o con una propia */
+  width: 100%;         /* 100% del contenedor */
+  transition: none;    /* Sin transición (o puedes definir una propia) */
+  width: 100%;         /* Ocupa el 100% del contenedor */
   height: auto;
 }
 
-/* Tamaño de imagen para ambos carruseles */
-.owl-carousel .carousel-imagen .owl-item img,
-.owl-carousel-large .carousel-imagen .owl-item img {
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Tamaño específico en carrusel normal */
-.owl-carousel .carousel-imagen .owl-item img {
-  height: 600px;
-}
-
-/* Tamaño específico en carrusel large (incrementado para mayor visibilidad) */
-.owl-carousel-large .carousel-imagen .owl-item img {
-  height: 1000px; /* Ajusta este valor según necesites */
-}
-
-/* ==========================================================================
-   Hover Effects y Ajustes Responsivos
-   ========================================================================== */
-.carousel-imagen .imagen img.carousel-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
+/* En pantallas grandes, escalamos un poco la imagen */
 @media (min-width: 1024px) {
-  .owl-carousel .carousel-imagen .imagen img.carousel-img,
-  .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
+  .carousel-imagen .imagen img.carousel-img {
     width: 110%;
-    margin-left: -5%;
+    margin-left: -5%;  /* Desplaza la imagen para centrarla visualmente */
   }
 }
