@@ -261,8 +261,8 @@ header {
   top: 100%; /* 🛠️ Posición corregida */
   max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
+  z-index: 9999; /* Mayor z-index para traer el menú al frente */
 }
-
 
 
 /* ------------------------------------------------------------------
