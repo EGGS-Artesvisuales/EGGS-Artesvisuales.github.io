@@ -900,7 +900,7 @@ form button:hover {
     margin-top: 10px; 
   }
   .nav-menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 10px;
     background-color: var(--color-medio-oscuro);
@@ -928,7 +928,7 @@ form button:hover {
     padding: 8px 15px; 
   }
   .text-container { 
-    padding: 10px; 
+    padding: 3px; 
     font-size: 0.9rem; 
     line-height: 1.6; 
   }
@@ -966,7 +966,7 @@ form button:hover {
     transition: width 0.3s ease;
   }
   .text-container { 
-    padding: 20px; 
+    padding: 5px; 
   }
   .button-container { 
     gap: 20px; 
