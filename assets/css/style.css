@@ -893,7 +893,7 @@ form button:hover {
     background-color: var(--color-medio-oscuro);
     width: 100%;
     position: fixed;  /* Fixed para que se superponga al contenido */
-    top: 80px;        /* Valor ajustado para que el menú inicie debajo del icono */
+    top: 120px;        /* Valor ajustado para que el menú inicie debajo del icono */
     left: 0;
     z-index: 9999;
     padding: 10px;
