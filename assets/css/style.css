@@ -897,33 +897,48 @@ form button:hover {
 
 /* Dispositivos móviles: Hasta 901px (se activa el menú hamburguesa) */
 @media (max-width: 901px) {
-  body { 
-    font-size: 1.2rem; 
+  body {
+    font-size: 1.2rem;
   }
-  .nav-toggle { 
-    display: flex; 
-    margin-top: 10px; 
-  }
-  .nav-menu {
+
+  /* Mostrar el botón de menú hamburguesa */
+  .nav-toggle {
     display: flex;
+    margin-top: 10px;
+  }
+
+  /* Estilos del menú responsivo */
+  .nav-menu {
+    display: none; /* Ocultamos el menú por defecto */
     flex-direction: column;
-    gap: 10px;
-    background-color: var(--color-medio-oscuro);
-    width: 100%;
-    position: fixed;
-    top: 100%;
+    background-color: var(--color-fondo-secundario);
+    position: fixed; /* Mantiene el menú en su lugar */
+    top: 60px; /* Inicia justo debajo del header */
     left: 0;
-    z-index: 9999; /* Mayor z-index para traer el menú al frente */
+    width: 100%;
+    z-index: 9999;
     padding: 10px;
-    transform: translateY(-150%);
-    opacity: 0;
-    max-height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px); /* Para evitar que sobresalga */
     overflow-y: auto;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+    opacity: 0;
+    transform: translateY(-100%);
   }
-  .dropdown.active .dropdown-menu { 
-    display: block; 
-    position: static; 
+
+  /* Activamos el menú cuando se hace clic en el botón hamburguesa */
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
   }
+
+  /* Asegura que los submenús se muestren correctamente */
+  .dropdown.active .dropdown-menu {
+    display: block;
+    position: static;
+  }
+}
+
   .year::before { 
     left: -50px; 
     font-size: 1rem; 
