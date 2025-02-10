@@ -974,7 +974,7 @@ form button:hover {
     flex-direction: column;
     background-color: var(--color-fondo-secundario);
     position: absolute;
-    top: 60px; /* Ajustar según la altura del header */
+    top: 14px; /* Ajustar según la altura del header */
     left: 0;
     width: 100%;
     z-index: 9999;
