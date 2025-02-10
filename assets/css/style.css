@@ -1,22 +1,19 @@
-
 /* ------------------------------------------------------------------
    RESET Y CONFIGURACIÓN GLOBAL
 ------------------------------------------------------------------ */
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 :root {
-    /* Tipografías */
+  /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
---subtitulo2-font: 'Arial', sans-serif;
-  --subtitulo2-font: 'Arial', sans-serif; /* 🛠️ Corregido: línea unificada */
+  --subtitulo2-font: 'Arial', sans-serif; 
   --parrafo-font: 'Georgia', serif;
-    
+
   /* Colores base */
   --color-fondo: #222;
   --color-fondo-secundario: #111;
@@ -26,11 +23,10 @@
   --color-medio-claro: #aaaaaa;
   --color-medio: #3a3a3a;
   --color-medio-oscuro: #444;
-  
+
   /* Tamaños tipográficos */
   --titulo-size: 2.3rem;
   --subtitulo-size: 1.5rem;
-    --subtitulo2-size: 1.3rem;
   --subtitulo2-size: 1.3rem; /* 🛠️ Corregido: sangría */
   --parrafo-size: 1rem;
 
@@ -58,7 +54,7 @@
   --content-subtitle-hover-bg: #555;
   --content-subtitle-padding: 8px 10px;
   --content-font-family: Arial, sans-serif;
-  --gap-between-buttons: 20px;
+  --gap-between-buttons: 10px; /* Se redujo de 20px a 10px */
   --button-container-margin: 30px 0 40px;
   --button-max-width: 250px;
   --button-min-width: 150px;
@@ -68,9 +64,8 @@
   --subtitle-font-size: 0.85rem;
 }
 
-
 /* ------------------------------------------------------------------
-   ESTILO GLOBAL DEL BODY
+   ESTILO GLOBAL DEL BODY E IMÁGENES
 ------------------------------------------------------------------ */
 body {
   background-color: var(--color-fondo);
@@ -91,8 +86,7 @@ img {
 }
 
 /* ------------------------------------------------------------------
-   HEADER FIJO
-   HEADER FIJO (Correcciones aplicadas)
+   HEADER, NAVEGACIÓN Y MENÚ RESPONSIVO
 ------------------------------------------------------------------ */
 header {
   background-color: var(--color-fondo);
@@ -107,14 +101,22 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: flex-start; /* En lugar de space-between */
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding: 1px 0px;
+  padding: 1px 0;
 }
 
-/* Menú principal */
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-logo img.logo-menu {
+  height: 22px;
+  width: auto;
+  max-height: 30px;
+}
+
 .nav-menu {
   background-color: var(--color-fondo-secundario);
   width: 100%;
@@ -122,6 +124,7 @@ header {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap; /* Permite que los elementos bajen a la siguiente línea */
   gap: 20px;
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
@@ -130,6 +133,8 @@ header {
 
 .nav-menu li {
   position: relative;
+  flex-shrink: 1; /* Permite que el elemento reduzca su tamaño si es necesario */
+  min-width: 0;   /* Evita que un ancho mínimo impida el ajuste */
 }
 
 .nav-menu a {
@@ -143,24 +148,19 @@ header {
   overflow: hidden;
   outline: none;
   word-wrap: break-word;
+  white-space: normal;  /* Permite que el texto se divida en varias líneas */
+  word-break: break-word; /* Asegura que las palabras largas puedan romperse */
 }
 
-.nav-menu a:focus {
-  background-color: var(--color-hover);
-  color: var(--color-destacado);
-  transform: scale(1.02);
-}
-
-.nav-menu a:visited {
-  color: var(--color-claro);
-}
-
+.nav-menu a:focus,
 .nav-menu a:hover {
   background-color: var(--color-hover);
   color: var(--color-destacado);
   transform: scale(1.02);
 }
-
+.nav-menu a:visited {
+  color: var(--color-claro);
+}
 .nav-menu a::after {
   content: "";
   position: absolute;
@@ -173,7 +173,6 @@ header {
   transform-origin: bottom right;
   transition: transform 0.3s ease-in-out;
 }
-
 .nav-menu a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -193,21 +192,17 @@ header {
   z-index: 100;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 .dropdown-menu li {
   width: 180px;
   overflow-wrap: break-word;
-  word-wrap: break-word;
   white-space: normal;
 }
-
 .dropdown-menu a {
   padding: 10px 15px;
   white-space: normal;
   color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .dropdown-menu a:hover {
   background-color: var(--color-hover);
   color: var(--color-destacado);
@@ -221,14 +216,8 @@ header {
   }
 }
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* Menú Hamburguesa */
@@ -260,7 +249,6 @@ header {
 }
 
 /* Menú Responsivo */
-/* Menú Responsivo (Correcciones aplicadas) 🛠️ */
 .nav-menu.active {
   flex-direction: column;
   align-items: flex-start;
@@ -273,87 +261,50 @@ header {
   max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
 }
-body.no-scroll {
-  overflow: hidden;
-}
+body.no-scroll { overflow: hidden; }
 
 /* ------------------------------------------------------------------
-   MAIN (para evitar superposición con header fijo)
    MAIN
 ------------------------------------------------------------------ */
 main {
   padding-top: 80px;
   max-width: 1200px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   text-align: justify;
 }
-/* __________________________________________________________
-
-logo nav menu
-___________________________ */
-
-
-/* Logo nav menu */
-.nav-logo {
-    display: flex;
-    align-items: center;
-   }
-}
-
-.nav-logo img.logo-menu {
-    height: 22px; /* Ajusta según necesidad */
-    height: 22px;
-    width: auto;
-    max-height: 30px; /* Evita que sea demasiado grande */
-    max-height: 30px;
-}
-
-
 
 /* ------------------------------------------------------------------
-   TITULOS, SUBTÍTULOS Y PÁRRAFOS
-   TITULOS, SUBTÍTULOS Y PÁRRAFOS (Corrección de espaciado) 🛠️
+   TIPOGRAFÍA: TÍTULOS, SUBTÍTULOS Y PÁRRAFOS
 ------------------------------------------------------------------ */
-
-/* Títulos */
 .titulo {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
   font-weight: bold;
   color: var(--color-destacado);
+   margin-top: 6rem; /* Espacio agregado en la parte superior */
   margin-bottom: var(--margin-bottom-medium);
   letter-spacing: var(--spacing-tight);
   word-wrap: break-word;
 }
-
-/* Subtítulos */
 .subtitulo {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
   font-weight: 600;
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
   text-indent: 1.5em;
   word-wrap: break-word;
 }
-
-/* Subtítulos secundarios */
 .subtitulo2 {
   font-family: var(--subtitulo2-font);
   font-size: var(--subtitulo2-size);
-   font-weight: 600;
   font-weight: 600;
   color: #fff;
   margin-bottom: var(--margin-bottom-large);
-  text-indent: 1.5em; /* Sangría de la primera línea */
   text-indent: 1.5em;
   word-wrap: break-word;
 }
-
-/* Estilos base para .parrafo y ul dentro de .parrafo */
 .parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
@@ -361,43 +312,30 @@ ___________________________ */
   font-size: var(--parrafo-size);
   line-height: var(--line-height);
   color: var(--color-claro);
-  word-wrap: break-word; /* Evita desbordes en palabras muy largas */
   word-wrap: break-word;
 }
-
-/* Ajustes específicos de párrafos */
 .parrafo {
   margin-bottom: var(--margin-bottom-small);
-  text-indent: 1.5em; /* Sangría de la primera línea */
   text-indent: 1.5em;
 }
-
-/* Ajuste para el primer párrafo */
 p.parrafo:first-of-type {
-  margin-top: 9%;
-  text-indent: 2.5em; /* Sangría más pronunciada en el primer párrafo */
   margin-top: 2rem; /* 🛠️ Unidad corregida (original: 9%) */
   text-indent: 2.5em;
 }
-
-/* Anular margen y sangría en el primer párrafo si contiene una lista */
 p.parrafo:first-of-type ul {
   margin-top: 0 !important;
   text-indent: 0 !important;
 }
-
-/* Listas dentro de .parrafo */
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
 }
-
 .parrafo ul li {
   margin-bottom: 0.5em;
 }
 
 /* ------------------------------------------------------------------
-   IMAGEN
+   IMÁGENES
 ------------------------------------------------------------------ */
 .imagen {
   display: flex;
@@ -405,28 +343,21 @@ p.parrafo:first-of-type ul {
   align-items: center;
   margin: 20px 0;
 }
-
 .imagen img {
   max-width: 100%;
+   width: 100%;
   height: auto;
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para hover */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .imagen img:hover {
-  transform: translateY(-5px) scale(1.05); /* Leve elevación y zoom */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en hover */
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 /* ------------------------------------------------------------------
-   BOTONES "FANCY BUTTONS"
-   BOTONES "FANCY BUTTONS" (Responsive mejorado) 🛠️
+   BOTONES: FANCY BUTTONS Y OTROS
 ------------------------------------------------------------------ */
 .button-container {
   display: flex;
@@ -435,8 +366,6 @@ p.parrafo:first-of-type ul {
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
 }
-
-
 .fancy-button {
   display: block;
   text-decoration: none;
@@ -446,16 +375,11 @@ p.parrafo:first-of-type ul {
   transition: var(--button-transition);
   overflow: hidden;
   text-align: center;
-
-  /* Ajusta el tamaño con flex: 4 columnas aproximadas */
   flex: 1 1 calc(25% - var(--gap-between-buttons));
-  
-  /* Opcionalmente define límites para evitar que crezcan o encojan demasiado */
   max-width: var(--button-max-width);
   min-width: var(--button-min-width);
   height: auto;
 }
-
 .fancy-button:focus {
   box-shadow: var(--button-focus-shadow);
   transform: translateY(-5px);
@@ -465,7 +389,6 @@ p.parrafo:first-of-type ul {
   box-shadow: var(--button-hover-shadow);
   background-color: var(--button-hover-bg-color);
 }
-
 .button-content {
   position: relative;
   display: flex;
@@ -512,43 +435,31 @@ p.parrafo:first-of-type ul {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* ------------------------------
-     BOTÓN DE PAGO PAYPAL PERSONALIZADO
------------------------------- */
-
 /* Botón PayPal */
 .pp-GX4V3R9TEHJ5G {
-    text-align: center;
-    border: none;
-    border-radius: 0.25rem;
-    min-width: 11.625rem;
-    padding: 0 2rem;
-    height: 2.625rem;
-    font-weight: 600; /* Igual a .subtitulo2 */
-    font-weight: 600;
-    background-color: #FFD140;
-    color: #fff; /* Color adaptado a la regla de .subtitulo2 */
-    color: #fff;
-    font-family: var(--subtitulo2-font, "Helvetica Neue", Arial, sans-serif);
-    font-size: var(--subtitulo2-size, 1rem);
-    line-height: 1.25rem;
-    cursor: pointer;
-    transition: transform 0.3s ease, background-color 0.3s ease;
+  text-align: center;
+  border: none;
+  border-radius: 0.25rem;
+  min-width: 11.625rem;
+  padding: 0 2rem;
+  height: 2.625rem;
+  font-weight: 600;
+  background-color: #FFD140;
+  color: #fff;
+  font-family: var(--subtitulo2-font, "Helvetica Neue", Arial, sans-serif);
+  font-size: var(--subtitulo2-size, 1rem);
+  line-height: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
-
 .pp-GX4V3R9TEHJ5G:hover {
-    background-color: #FFC300; /* Tono ligeramente diferente */
-    transform: scale(1.05);    /* Efecto de zoom sutil */
-    background-color: #FFC300;
-    transform: scale(1.05);
+  background-color: #FFC300;
+  transform: scale(1.05);
 }
 
-
-/* - - - - - - - - - - - - -
-   Barra de progreso animada
-   - - - - - - - - - - - - - */
-
-/* Barra de progreso */
+/* ------------------------------------------------------------------
+   BARRA DE PROGRESO
+------------------------------------------------------------------ */
 .barra-progreso {
   width: 100%;
   background-color: #e0e0e0;
@@ -558,7 +469,6 @@ p.parrafo:first-of-type ul {
   position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
-
 .barra-progreso-fill {
   height: 100%;
   background: linear-gradient(90deg, #ffad33, #f89900);
@@ -568,91 +478,67 @@ p.parrafo:first-of-type ul {
   font-weight: bold;
   font-size: 14px;
   border-radius: 12px;
-  width: 0; /* Inicialmente vacía */
   width: 0;
   transition: width 2s ease-in-out;
 }
 
-
-/*---------------
-productos
---------*/
-
-
-  .productos-container {
-/* Productos */
+/* ------------------------------------------------------------------
+   PRODUCTOS
+------------------------------------------------------------------ */
 .productos-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 4%;
-  }
-  .producto {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 4%;
 }
 .producto {
-    width: 30%;
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  .producto img {
+  width: 30%;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 .producto img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  .title {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 .title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  .subtitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .subtitle {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
-  }
-  .precio {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
 }
 .precio {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #000;
-    margin-top: 10px;
-  }
-  .boton-compra {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
 }
 .boton-compra {
-    background: #d32f2f;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background 0.3s;
-  }
-  .boton-compra:hover {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s;
 }
 .boton-compra:hover {
-    background: #b71c1c;
-  }
-
-
+  background: #b71c1c;
 }
 
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
 ------------------------------------------------------------------ */
-/* Línea de tiempo */
 .timeline-container {
   display: flex;
   flex-direction: column;
@@ -662,22 +548,18 @@ productos
   max-width: 800px;
   padding: 20px;
 }
-
 .timeline {
   border-left: 3px solid var(--content-title-color);
   position: relative;
   width: 100%;
   padding-left: 20px;
 }
-
 .year {
   margin: 20px 0;
-  position: relative;
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
-
 .year::before {
   content: attr(data-year);
   position: absolute;
@@ -694,6 +576,9 @@ productos
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* ------------------------------------------------------------------
+   FUN BUTTON
+------------------------------------------------------------------ */
 .fun-button {
   background-color: var(--button-bg-color);
   color: #00c1cc;
@@ -702,19 +587,19 @@ productos
   text-align: center;
   font-size: 1.3rem;
   font-family: var(--content-font-family);
-  font-weight: bold; /* Esta línea aplica el estilo bold */
   font-weight: bold;
   margin-bottom: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
-
 .fun-button:hover {
   background-color: var(--button-hover-bg-color);
   transform: scale(1.05);
 }
 
+/* ------------------------------------------------------------------
+   TEXT CONTAINER
+------------------------------------------------------------------ */
 .text-container {
   background-color: var(--color-medio-oscuro);
   color: var(--color-claro);
@@ -723,13 +608,10 @@ productos
   margin-top: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-/* Espacio para imagen del taller */
 .text-container .imagen {
   width: 100%;
   max-height: 200px;
   margin-bottom: 10px;
-  background-color: #333; /* Color de fondo de reserva */
   background-color: #333;
   display: flex;
   align-items: center;
@@ -737,27 +619,23 @@ productos
   overflow: hidden;
   border-radius: 5px;
 }
-
 .text-container .imagen img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-
 .text-container .title {
   font-size: 1.5rem;
   font-family: var(--titulo-font);
   color: var(--color-destacado);
   margin-bottom: 10px;
 }
-
 .text-container .subtitle {
   font-size: 1.2rem;
   font-family: var(--subtitulo-font);
   color: #aaaaaa;
   margin-bottom: 8px;
 }
-
 .text-container .paragraph {
   font-size: 1rem;
   font-family: var(--parrafo-font);
@@ -765,10 +643,8 @@ productos
   color: var(--color-claro);
 }
 
-
 /* ------------------------------------------------------------------
    FOOTER
-   FOOTER (Logo preservado) 🛠️
 ------------------------------------------------------------------ */
 footer {
   background-color: var(--color-medio-oscuro);
@@ -778,7 +654,6 @@ footer {
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
-
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -789,7 +664,6 @@ footer {
 }
 .footer-logo img {
   max-width: 14%;
-  max-width: 14%; /* 🛠️ Valor original mantenido */
   height: auto;
   display: block;
   margin: 0 auto;
@@ -797,9 +671,6 @@ footer {
 .footer-links {
   list-style: none;
   padding: 0;
-   text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
-  
-  text-decoration: none;
   display: flex;
   gap: 15px;
 }
@@ -825,37 +696,23 @@ footer {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
-
 .footer-copyright {
-  /* Tipografía */
   font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
-  letter-spacing: 0.5px;      /* Espaciado entre letras para mayor legibilidad */
-
-  /* Color y opacidad */
   letter-spacing: 0.5px;
   color: #aaa;
   opacity: 0.8;
-
-  /* Alineación y espaciado */
   text-align: center;
-  margin: 0;                  /* Elimina márgenes por defecto si es necesario */
-
-  /* Otros */
-  text-decoration: none;      /* Asegura que no haya subrayado (útil en enlaces) */
   margin: 0;
   text-decoration: none;
 }
 
-
 /* ------------------------------------------------------------------
-   CONTENEDOR DEL DIAGRAMA (MERMAID)
+   DIAGRAMAS MERMAID
 ------------------------------------------------------------------ */
-/* Diagramas Mermaid */
 .diagram-container {
   text-align: center;
-  margin: 50px auto;
-  margin-bottom: 60px;
+  margin: 50px auto 60px;
   padding: 20px;
   max-width: 1000px;
   background-color: var(--color-fondo);
@@ -866,11 +723,9 @@ footer {
   font-family: var(--parrafo-font);
   color: var(--color-claro);
 }
-
 .diagram-container + .diagram-container {
   margin-top: 30px;
 }
-
 .mermaid {
   display: block;
   width: 100%;
@@ -887,7 +742,6 @@ footer {
   width: 100% !important;
   height: auto !important;
 }
-
 .diagram-title h2 {
   font-family: var(--titulo-font);
   font-size: var(--titulo-size);
@@ -897,7 +751,6 @@ footer {
   margin-bottom: var(--margin-bottom-large);
   text-align: center;
 }
-
 .diagram-subtitle h3 {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
@@ -905,7 +758,6 @@ footer {
   color: #aaaaaa;
   margin-bottom: var(--margin-bottom-medium);
 }
-
 .diagram-content p {
   font-family: var(--parrafo-font);
   max-width: var(--content-max-width);
@@ -914,7 +766,6 @@ footer {
   color: var(--color-claro);
   margin-bottom: var(--margin-bottom-small);
 }
-
 .mermaid a {
   text-decoration: none;
   font-family: var(--subtitulo-font);
@@ -928,7 +779,6 @@ footer {
 /* ------------------------------------------------------------------
    FORMULARIOS
 ------------------------------------------------------------------ */
-/* Formularios */
 form {
   display: block;
   max-width: 600px;
@@ -988,7 +838,6 @@ form button:hover {
 /* ------------------------------------------------------------------
    CONTENEDOR FLEXIBLE
 ------------------------------------------------------------------ */
-/* Contenedor flexible */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -1001,20 +850,51 @@ form button:hover {
   flex: 1 1 calc(33.33% - 20px);
   box-sizing: border-box;
 }
-
 /* ------------------------------------------------------------------
-   MEDIA QUERIES UNIFICADAS
-   MEDIA QUERIES (Correcciones unificadas) 🛠️
+   MEDIA QUERIES
 ------------------------------------------------------------------ */
-
-/* <= 768px */
-@media (max-width: 768px) {
-  body {
-    font-size: 1.2rem;
+/* Dispositivos grandes y medianos */
+@media (max-width: 1200px) {
+  .text-container { 
+    font-size: 1.2rem; 
+    padding: 15px; 
   }
-  .nav-toggle {
-    display: flex;
-    margin-top: 10px;
+}
+
+/* Para pantallas hasta 1024px se reestructura el nav y otros elementos */
+@media (max-width: 1024px) {
+  .navbar { 
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  .fancy-button { 
+    width: 40%; 
+  }
+}
+
+/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+@media (min-width: 902px) and (max-width: 1024px) {
+  .fancy-button {
+    width: 45%;
+    max-width: 400px;
+    transition: width 0.3s ease;
+  }
+  .text-container { 
+    padding: 20px; 
+  }
+  .button-container { 
+    gap: 20px; 
+  }
+}
+
+/* Dispositivos pequeños: hasta 901px, se activa el menú hamburguesa */
+@media (max-width: 901px) {
+  body { 
+    font-size: 1.2rem; 
+  }
+  .nav-toggle { 
+    display: flex; 
+    margin-top: 10px; 
   }
   .nav-menu {
     display: none;
@@ -1023,81 +903,39 @@ form button:hover {
     background-color: var(--color-medio-oscuro);
     width: 100%;
     position: fixed;
-    top: 106px;
-    top: 100%; /* 🛠️ Posición corregida */
+    top: 100%;
     left: 0;
     z-index: 999;
     padding: 10px;
-    transform: translateY(-100%);
     transform: translateY(-150%);
     opacity: 0;
-  }
-  .dropdown-menu {
-    display: none;
-    max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
+    max-height: calc(100vh - 60px);
     overflow-y: auto;
   }
-  .dropdown.active .dropdown-menu {
-    display: block;
-    position: static;
+  .dropdown.active .dropdown-menu { 
+    display: block; 
+    position: static; 
   }
-  .year::before {
-    left: -50px;
-    font-size: 1rem;
+  .year::before { 
+    left: -50px; 
+    font-size: 1rem; 
   }
-  .fun-button {
-    font-size: 0.9rem;
-    padding: 8px 15px;
+  .fun-button { 
+    font-size: 0.9rem; 
+    padding: 8px 15px; 
   }
-  .text-container {
-    padding: 10px;
+  .text-container { 
+    padding: 10px; 
   }
-  .item {
-    flex: 1 1 calc(50% - 20px);
+  .item { 
+    flex: 1 1 calc(50% - 20px); 
   }
-}
-
-/* <= 600px */
-@media (max-width: 600px) {
-  .nav-menu {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .text-container {
-    padding: 10px;
-  }
-}
-
-/* <= 480px */
-@media (max-width: 480px) {
-  body {
-    font-size: 0.8rem;
-  }
-  header {
-    padding: 5px 10px;
-    font-size: 1rem;
-  }
-  .text-container {
-    padding: 10px 5px;
-    font-size: 0.8rem;
-    width: 100%;
-  }
-  .button-container {
-    gap: 10px;
-  }
-  .fancy-button {
-    width: 100%;
-    max-width: 250px;
-    padding: 10px 15px;
-  }
-}
-
-/* <= 767px (en algunos casos se usaba 767, unificamos lógica con 768 si aplica) */
-@media (max-width: 767px) {
-  .text-container {
-    padding: 10px;
-    font-size: 0.9rem;
-    line-height: 1.6;
+  
+  /* Ajustes adicionales para pantallas muy pequeñas */
+  .text-container { 
+    padding: 10px; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
   }
   .button-container {
     flex-direction: column;
@@ -1105,55 +943,54 @@ form button:hover {
     align-items: center;
     padding: 10px;
   }
-  .fancy-button {
-    width: 80%;
-    max-width: 300px;
+  .fancy-button { 
+    width: 80%; 
+    max-width: 300px; 
   }
 }
 
-/* <= 1024px */
-@media (max-width: 1024px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+/* Ajustes para pantallas aún más pequeñas */
+@media (max-width: 600px) {
+  .nav-menu { 
+    flex-direction: column; 
+    gap: 10px; 
   }
-  .fancy-button {
-    width: 40%;
+  .text-container { 
+    padding: 10px; 
+  }
+}
+@media (max-width: 480px) {
+  body { 
+    font-size: 0.8rem; 
+  }
+  header { 
+    padding: 5px 10px; 
+    font-size: 1rem; 
+  }
+  .text-container { 
+    padding: 10px 5px; 
+    font-size: 0.8rem; 
+    width: 100%; 
+  }
+  .button-container { 
+    gap: 10px; 
+  }
+  .fancy-button { 
+    width: 100%; 
+    max-width: 250px; 
+    padding: 10px 15px; 
   }
 }
 
-/* <= 1200px */
-@media (max-width: 1200px) {
-  .text-container {
-    font-size: 1.2rem;
-    padding: 15px;
-  }
-}
-
-/* Entre 768px y 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .fancy-button {
-    width: 45%;
-    max-width: 400px;
-    transition: width 0.3s ease;
-  }
-  .text-container {
-    padding: 20px;
-  }
-  .button-container {
-    gap: 20px;
-  }
-}
-
-/* >= 1024px */
+/* Dispositivos grandes (mínimo 1024px) */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
     max-width: 350px;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-  .text-container {
-    padding: 30px;
+  .text-container { 
+    padding: 30px; 
   }
 }
 
