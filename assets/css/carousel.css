@@ -13,24 +13,24 @@
   will-change: transform, box-shadow;
 }
 
-/* Para el carrusel grandes, forzamos overflow visible */
-.owl-carousel-large.carousel-grandes {
+/* Para el carrusel large, forzamos overflow visible */
+.owl-carousel-large {
   overflow: visible;
 }
 
-/* Aseguramos que los contenedores internos de Owl Carousel permitan el overflow */
-.owl-carousel-large.carousel-grandes .owl-stage-outer,
-.owl-carousel-large.carousel-grandes .owl-stage {
+/* Aseguramos que los contenedores internos permitan el overflow */
+.owl-carousel-large .owl-stage-outer,
+.owl-carousel-large .owl-stage {
   overflow: visible;
 }
 
 /* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
-.owl-carousel-large.carousel-grandes .owl-item {
+.owl-carousel-large .owl-item {
   overflow: visible !important;
   position: relative;
 }
 
-.owl-carousel-large.carousel-grandes .owl-item:hover {
+.owl-carousel-large .owl-item:hover {
   z-index: 100;
 }
 
@@ -125,7 +125,7 @@
   margin: 0 auto;
 }
 
-/* En carrusel grande, se elimina el límite de ancho */
+/* En carrusel large, se elimina el límite de ancho */
 .owl-carousel-large .carousel-imagen .item--imagen .imagen {
   max-width: none;
   margin: 0 auto;
@@ -234,24 +234,24 @@
 }
 
 /* ==========================================================================
-   Carousel Grandes (Imágenes desbordadas) - Slide Grande
+   Carousel Large (Imágenes desbordadas) - Slide Large
    ========================================================================== */
-.carousel-grandes .owl-stage-outer {
+.owl-carousel-large .owl-stage-outer {
   overflow: visible;
 }
 
-.carousel-grandes .item {
+.owl-carousel-large .item {
   width: 800px;
   margin-right: 10px;
 }
 
 /* Evitamos que el contenedor de la imagen recorte el efecto */
-.carousel-grandes .item .imagen {
+.owl-carousel-large .item .imagen {
   overflow: visible;
 }
 
-/* --- Estilos para las imágenes del slider grandes --- */
-.carousel-grandes .carousel-img {
+/* --- Estilos para las imágenes del slider large --- */
+.owl-carousel-large .carousel-img {
   width: 100%;
   height: auto;
   border-radius: 12px;
@@ -262,14 +262,14 @@
 }
 
 /* --------------------------------------------------------------------------
-   Hover effect para Carousel Grandes: enviar imagen hacia adelante y
+   Hover effect para Carousel Large: enviar imagen hacia adelante y
    asegurar que se vea completa (efecto 3D)
    -------------------------------------------------------------------------- */
-.carousel-grandes {
+.owl-carousel-large {
   perspective: 1000px; /* Habilita el efecto 3D en sus descendientes */
 }
 
-.carousel-grandes .carousel-img:hover {
+.owl-carousel-large .carousel-img:hover {
   transform: translateZ(30px) scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   z-index: 10;
