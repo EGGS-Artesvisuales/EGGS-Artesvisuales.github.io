@@ -1,3 +1,4 @@
+
 ---
 layout: default-es
 title: Musoe a Cielo Abierto
@@ -24,11 +25,12 @@ carousel: true
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
 
-<!-- Carrusel de imágenes (Imagen secundaria) - Slide Grande -->
-<div class="owl-carousel owl-carousel-large carousel-imagen">
+<!-- Carrusel de imágenes (imagen secundaria) -->
+<div class="owl-carousel carousel-imagen">
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
+      <!-- Se agrega la clase "carousel-img" para aplicar estilos específicos -->
       <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
@@ -40,8 +42,6 @@ carousel: true
   </div>
   <!-- Agrega más ítems según necesites -->
 </div>
-
-
 
 <!-- Contenedor de la barra de progreso -->
 <div class="barra-progreso-container">
@@ -63,3 +63,11 @@ carousel: true
 <div class="enlace-container">
   <a href="/ES/en-construccion.html" class="enlace">Ver proyectos completados</a>
 </div>
+
+<!-- Script de la barra de progreso -->
+<script src="/assets/js/progreso.js" defer></script>
+
+<!-- Referencias necesarias para el carrusel -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+<script src="/assets/js/owl.carousel.min.js" defer></script>
+<script src="/assets/js/carousel-init.js" defer></script>
