@@ -62,10 +62,4 @@ carousel: true
   <a href="/ES/en-construccion.html" class="enlace">Ver proyectos completados</a>
 </div>
 
-<!-- Script de la barra de progreso -->
-<script src="/assets/js/progreso.js" defer></script>
 
-<!-- Referencias necesarias para el carrusel -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-<script src="/assets/js/owl.carousel.min.js" defer></script>
-<script src="/assets/js/carousel-init.js" defer></script>
