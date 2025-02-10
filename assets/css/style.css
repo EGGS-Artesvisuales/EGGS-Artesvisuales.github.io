@@ -117,6 +117,7 @@ header {
   max-height: 30px;
 }
 
+/* Menú principal para escritorio (estilo global) */
 .nav-menu {
   background-color: var(--color-fondo-secundario);
   width: 100%;
@@ -248,34 +249,6 @@ header {
   transform: scale(1.05);
 }
 
-/* Menú Responsivo */
-/* Menú Responsivo */
-.nav-menu {
-  position: absolute;
-  left: 0;
-  top: 60px; /* 🔥 Ajuste para evitar que se oculte */
-  width: 100%;
-  background-color: var(--color-fondo-secundario);
-  opacity: 0;
-  visibility: hidden;
-  overflow-y: auto;
-  max-height: 0;
-  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
-}
-
-.nav-menu.active {
-  opacity: 1;
-  visibility: visible;
-  max-height: calc(100vh - 60px);
-}
-
-.nav-toggle {
-  display: flex;
-  margin-top: 10px; /* 🔥 Reducido */
-}
-
-
-
 /* ------------------------------------------------------------------
    MAIN
 ------------------------------------------------------------------ */
@@ -295,7 +268,7 @@ main {
   font-size: var(--titulo-size);
   font-weight: bold;
   color: var(--color-destacado);
-   margin-top: 6rem; /* Espacio agregado en la parte superior */
+  margin-top: 6rem; /* Espacio agregado en la parte superior */
   margin-bottom: var(--margin-bottom-medium);
   letter-spacing: var(--spacing-tight);
   word-wrap: break-word;
@@ -355,11 +328,10 @@ p.parrafo:first-of-type ul {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-
 }
 .imagen img {
-  max-width: 90%;
-   width: 70%;
+  max-width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -451,7 +423,7 @@ p.parrafo:first-of-type ul {
 
 /* Botón PayPal */
 .pp-GX4V3R9TEHJ5G {
-  text-align: right;
+  text-align: center;
   border: none;
   border-radius: 0.25rem;
   min-width: 11.625rem;
@@ -915,13 +887,14 @@ form button:hover {
   }
   /* Estilos exclusivos para el menú en móviles */
   .nav-menu {
-    display: none; /* Oculto por defecto */
+    display: none;  /* Oculto por defecto en móviles */
     flex-direction: column;
-    background-color: var(--color-fondo-secundario);
-    position: absolute; /* o fixed, según lo requiera el diseño */
-    top: 60px; /* Ajustar según la altura del header */
-    left: 0;
+    gap: 10px;
+    background-color: var(--color-medio-oscuro);
     width: 100%;
+    position: fixed;  /* Fixed para que se superponga al contenido */
+    top: 60px;        /* Ajusta este valor según la altura del header */
+    left: 0;
     z-index: 9999;
     padding: 10px;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
@@ -1001,6 +974,5 @@ form button:hover {
     padding: 30px; 
   }
 }
-
 
 
