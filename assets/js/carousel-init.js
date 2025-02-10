@@ -1,7 +1,6 @@
-
 $(document).ready(function() {
   // Inicialización para el carrusel de imágenes (una imagen por slide)
-  $('.carousel-imagen').owlCarousel({
+  $('.owl-carousel-large').owlCarousel({
     items: 1,         // Muestra 1 imagen por slide
     loop: true,
     margin: 10,
