@@ -248,6 +248,15 @@ header {
   transform: scale(1.05);
 }
 
+
+
+/* Evitar desplazamiento cuando el menú está abierto */
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* Bloquea el scroll */
+}
+
+
 /* Menú Responsivo */
 .nav-menu.active {
   display: flex;
