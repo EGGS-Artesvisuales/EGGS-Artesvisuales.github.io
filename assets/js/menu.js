@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const isExpanded = navToggle.getAttribute("aria-expanded") === "true";
       navToggle.setAttribute("aria-expanded", String(!isExpanded));
 
-      navMenu.classList.toggle("active"); // Mostrar/Ocultar el menú
-      document.body.classList.toggle("no-scroll"); // Bloquear el desplazamiento
+      navMenu.classList.toggle("active"); // 🔥 Ahora usa top en CSS para posicionarse
+      document.body.classList.toggle("no-scroll");
     };
 
     navToggle.addEventListener("click", toggleMenu);
