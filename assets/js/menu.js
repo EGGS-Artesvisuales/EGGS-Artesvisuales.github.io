@@ -1,6 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const navToggle = document.querySelector('.nav-toggle'); // Botón hamburguesa
-  const navMenu   = document.querySelector('.nav-menu');     // Contenedor del menú
+document.addEventListener("DOMContentLoaded", function() {
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+
+  navToggle.addEventListener("click", function() {
+    navMenu.classList.toggle("active");
+  });
+});
 
   if (navToggle && navMenu) {
     // Función para alternar el estado del menú
