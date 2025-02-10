@@ -851,43 +851,45 @@ form button:hover {
   box-sizing: border-box;
 }
 /* ------------------------------------------------------------------
-   MEDIA QUERIES
+   MEDIA QUERIES (Optimizado sin perder info relevante)
 ------------------------------------------------------------------ */
-/* Dispositivos grandes y medianos */
-@media (max-width: 1200px) {
-  .text-container { 
-    font-size: 1.2rem; 
-    padding: 15px; 
-  }
-}
 
-/* Para pantallas hasta 1024px se reestructura el nav y otros elementos */
-@media (max-width: 1024px) {
-  .navbar { 
-    flex-direction: column; 
-    align-items: flex-start; 
+/* Muy pequeños: Dispositivos con ancho máximo de 480px */
+@media (max-width: 480px) {
+  body { 
+    font-size: 0.8rem; 
   }
-  .fancy-button { 
-    width: 40%; 
-  }
-}
-
-/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
-@media (min-width: 902px) and (max-width: 1024px) {
-  .fancy-button {
-    width: 45%;
-    max-width: 400px;
-    transition: width 0.3s ease;
+  header { 
+    padding: 5px 10px; 
+    font-size: 1rem; 
   }
   .text-container { 
-    padding: 20px; 
+    padding: 10px 5px; 
+    font-size: 0.8rem; 
+    width: 100%; 
   }
   .button-container { 
-    gap: 20px; 
+    gap: 10px; 
+  }
+  .fancy-button { 
+    width: 100%; 
+    max-width: 250px; 
+    padding: 10px 15px; 
   }
 }
 
-/* Dispositivos pequeños: hasta 901px, se activa el menú hamburguesa */
+/* Pequeños: Hasta 600px */
+@media (max-width: 600px) {
+  .nav-menu { 
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  .text-container { 
+    padding: 10px; 
+  }
+}
+
+/* Dispositivos móviles: Hasta 901px (se activa el menú hamburguesa) */
 @media (max-width: 901px) {
   body { 
     font-size: 1.2rem; 
@@ -926,16 +928,11 @@ form button:hover {
   }
   .text-container { 
     padding: 10px; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
   }
   .item { 
     flex: 1 1 calc(50% - 20px); 
-  }
-  
-  /* Ajustes adicionales para pantallas muy pequeñas */
-  .text-container { 
-    padding: 10px; 
-    font-size: 0.9rem; 
-    line-height: 1.6; 
   }
   .button-container {
     flex-direction: column;
@@ -949,40 +946,41 @@ form button:hover {
   }
 }
 
-/* Ajustes para pantallas aún más pequeñas */
-@media (max-width: 600px) {
-  .nav-menu { 
+/* Tabletas y dispositivos intermedios: Hasta 1024px */
+@media (max-width: 1024px) {
+  .navbar { 
     flex-direction: column; 
-    gap: 10px; 
-  }
-  .text-container { 
-    padding: 10px; 
-  }
-}
-@media (max-width: 480px) {
-  body { 
-    font-size: 0.8rem; 
-  }
-  header { 
-    padding: 5px 10px; 
-    font-size: 1rem; 
-  }
-  .text-container { 
-    padding: 10px 5px; 
-    font-size: 0.8rem; 
-    width: 100%; 
-  }
-  .button-container { 
-    gap: 10px; 
+    align-items: flex-start; 
   }
   .fancy-button { 
-    width: 100%; 
-    max-width: 250px; 
-    padding: 10px 15px; 
+    width: 40%; 
   }
 }
 
-/* Dispositivos grandes (mínimo 1024px) */
+/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+@media (min-width: 902px) and (max-width: 1024px) {
+  .fancy-button {
+    width: 45%;
+    max-width: 400px;
+    transition: width 0.3s ease;
+  }
+  .text-container { 
+    padding: 20px; 
+  }
+  .button-container { 
+    gap: 20px; 
+  }
+}
+
+/* Dispositivos medianos: Hasta 1200px */
+@media (max-width: 1200px) {
+  .text-container { 
+    font-size: 1.2rem; 
+    padding: 15px; 
+  }
+}
+
+/* Escritorio: Dispositivos grandes (mínimo 1024px) */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
