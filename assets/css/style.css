@@ -267,7 +267,7 @@ header {
   opacity: 1;
   transition: transform 0.3s ease, opacity 0.3s ease;
   overflow-wrap: break-word;
-  top: 100%; /* 🛠️ Posición corregida */
+  top: 60px; /* altura según el header */
   max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
   z-index: 9999; /* Mayor z-index para traer el menú al frente */
