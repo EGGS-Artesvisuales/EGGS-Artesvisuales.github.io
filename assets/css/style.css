@@ -265,6 +265,8 @@ header {
 }
 
 
+
+
 /* ------------------------------------------------------------------
    MAIN
 ------------------------------------------------------------------ */
@@ -961,6 +963,31 @@ form button:hover {
 }
 
 /* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+
+
+
+/* Ocultar el menú en móviles */
+@media (max-width: 901px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-fondo-secundario);
+    position: absolute;
+    top: 60px; /* Ajustar según la altura del header */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
