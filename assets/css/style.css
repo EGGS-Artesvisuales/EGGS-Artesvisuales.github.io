@@ -1028,7 +1028,7 @@ form button:hover {
   }
 }
 
-/* 🔥 Corrección final: Asegurar que el menú sea visible en pantallas grandes */
+/* 🔥 Corrección final: Asegurar que el menú se despliegue naturalmente en pantallas grandes */
 @media (min-width: 902px) {
   .nav-menu {
     display: flex !important; /* 🔥 Asegura que el menú esté visible */
@@ -1036,13 +1036,14 @@ form button:hover {
     top: auto; /* 🔥 No afecta el flujo */
     left: auto;
     width: auto;
-    max-height: none; /* 🔥 No necesita límites de altura */
-    opacity: 1;
-    visibility: visible; /* 🔥 Siempre visible */
+    height: auto; /* 🔥 Permite que se ajuste de forma natural */
+    overflow: visible; /* 🔥 Evita el scroll en PC */
     flex-direction: row; /* 🔥 Menú en línea horizontal */
     gap: 20px; /* 🔥 Espaciado entre elementos */
     background-color: transparent; /* 🔥 No necesita fondo en escritorio */
     box-shadow: none; /* 🔥 Evita sombras innecesarias */
+    justify-content: flex-start; /* 🔥 Asegura alineación correcta */
+    align-items: center; /* 🔥 Mantiene los elementos alineados */
   }
 
   /* 🔥 Ocultamos el botón hamburguesa en PC */
@@ -1050,5 +1051,6 @@ form button:hover {
     display: none; 
   }
 }
+
 
 
