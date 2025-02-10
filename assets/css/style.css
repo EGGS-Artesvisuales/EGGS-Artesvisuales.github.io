@@ -249,21 +249,30 @@ header {
 }
 
 /* Menú Responsivo */
-.nav-menu.active {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  transform: translateY(0);
-  opacity: 1;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  overflow-wrap: break-word;
-  top: 100%; /* 🛠️ Posición corregida */
-  max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
+/* Menú Responsivo */
+.nav-menu {
+  position: absolute;
+  left: 0;
+  top: 60px; /* 🔥 Ajuste para evitar que se oculte */
+  width: 100%;
+  background-color: var(--color-fondo-secundario);
+  opacity: 0;
+  visibility: hidden;
   overflow-y: auto;
-  z-index: 9999; /* Mayor z-index para traer el menú al frente */
+  max-height: 0;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
+.nav-menu.active {
+  opacity: 1;
+  visibility: visible;
+  max-height: calc(100vh - 60px);
+}
+
+.nav-toggle {
+  display: flex;
+  margin-top: 10px; /* 🔥 Reducido */
+}
 
 
 
@@ -349,8 +358,8 @@ p.parrafo:first-of-type ul {
 
 }
 .imagen img {
-  max-width: 100%;
-   width: 80%;
+  max-width: 90%;
+   width: 70%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -442,7 +451,7 @@ p.parrafo:first-of-type ul {
 
 /* Botón PayPal */
 .pp-GX4V3R9TEHJ5G {
-  text-align: center;
+  text-align: right;
   border: none;
   border-radius: 0.25rem;
   min-width: 11.625rem;
