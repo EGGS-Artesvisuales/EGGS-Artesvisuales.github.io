@@ -129,12 +129,6 @@ header {
   transition: max-height 0.3s ease-in-out;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
   overflow-wrap: break-word;
-   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-     overflow-y: auto;
-  max-height: 0;
-  transition: max-height 0.3s ease-in-out;
 }
 
 .nav-menu li {
@@ -254,34 +248,23 @@ header {
   transform: scale(1.05);
 }
 
-
-
-/* Evitar desplazamiento cuando el menú está abierto */
-.no-scroll {
-  overflow: hidden;
-  height: 100vh; /* Bloquea el scroll */
-}
-
-
 /* Menú Responsivo */
-.nav-menu {
-  position: absolute;
-  left: 0;
-  top: 60px; /* 🔥 Ajuste para evitar que se oculte */
-  width: 100%;
-  background-color: var(--color-fondo-secundario);
-  opacity: 0;
-  visibility: hidden;
+.nav-menu.active {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  overflow-wrap: break-word;
+  top: 100%; /* 🛠️ Posición corregida */
+  max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
-  max-height: 0;
-  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  z-index: 9999; /* Mayor z-index para traer el menú al frente */
 }
 
-.nav-menu.active {
-  opacity: 1;
-  visibility: visible;
-  max-height: calc(100vh - 60px);
-}
+
 
 
 /* ------------------------------------------------------------------
@@ -873,7 +856,6 @@ form button:hover {
   box-sizing: border-box;
 }
 
-
 /* ------------------------------------------------------------------
    MEDIA QUERIES (Optimizado sin perder info relevante)
 ------------------------------------------------------------------ */
@@ -915,48 +897,33 @@ form button:hover {
 
 /* Dispositivos móviles: Hasta 901px (se activa el menú hamburguesa) */
 @media (max-width: 901px) {
-  body {
-    font-size: 1.2rem;
+  body { 
+    font-size: 1.2rem; 
   }
-
-  /* Mostrar el botón de menú hamburguesa */
-  .nav-toggle {
-    display: flex;
-    margin-top: 10px;
+  .nav-toggle { 
+    display: flex; 
+    margin-top: 10px; 
   }
-
-  /* Estilos del menú responsivo */
   .nav-menu {
-    display: none; /* Ocultamos el menú por defecto */
-    flex-direction: column;
-    background-color: var(--color-fondo-secundario);
-    position: fixed; /* Mantiene el menú en su lugar */
-    top: 60px; /* 🔥 Asegura que se abra justo debajo del header */
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-    padding: 10px;
-    max-height: calc(100vh - 60px); /* 🔥 Evita que sobresalga */
-    overflow-y: auto;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    opacity: 0;
-    transform: translateY(-10px); /* 🔥 Evita que se despliegue fuera de pantalla */
-  }
-
-  /* Cuando el menú está activo */
-  .nav-menu.active {
     display: flex;
-    transform: translateY(0);
-    opacity: 1;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-medio-oscuro);
+    width: 100%;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    z-index: 9999; /* Mayor z-index para traer el menú al frente */
+    padding: 10px;
+    transform: translateY(-150%);
+    opacity: 0;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
   }
-
-  /* Asegura que los submenús se muestren correctamente */
-  .dropdown.active .dropdown-menu {
-    display: block;
-    position: static;
+  .dropdown.active .dropdown-menu { 
+    display: block; 
+    position: static; 
   }
-
-  /* Ajustes adicionales en móviles */
   .year::before { 
     left: -50px; 
     font-size: 1rem; 
@@ -997,6 +964,31 @@ form button:hover {
 }
 
 /* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+
+
+
+/* Ocultar el menú en móviles */
+@media (max-width: 901px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-fondo-secundario);
+    position: absolute;
+    top: 14px; /* Ajustar según la altura del header */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
@@ -1030,7 +1022,6 @@ form button:hover {
     padding: 30px; 
   }
 }
-
 
 
 
