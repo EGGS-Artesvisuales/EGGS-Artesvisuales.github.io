@@ -1,19 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const navToggle = document.querySelector('.nav-toggle');
-  const navMenu   = document.querySelector('.nav-menu');
+  const navToggle = document.querySelector('.nav-toggle'); // Botón hamburguesa
+  const navMenu   = document.querySelector('.nav-menu');     // Contenedor del menú
 
   if (navToggle && navMenu) {
-    // Al hacer clic en el ícono hamburguesa
-    navToggle.addEventListener('click', () => {
+    // Función para alternar el estado del menú
+    const toggleMenu = () => {
       const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', !isExpanded);
+      navToggle.setAttribute('aria-expanded', String(!isExpanded));
       
-      navMenu.classList.toggle('active');    // Alternar visibilidad del menú
-      navToggle.classList.toggle('active');    // Cambiar estado del botón
+      navToggle.classList.toggle('active');    // Alternar estado del botón
+      navMenu.classList.toggle('active');        // Alternar visibilidad del menú
       document.body.classList.toggle('no-scroll'); // Evitar scroll en el body
-    });
+    };
 
-    // Cerrar el menú al hacer clic en cualquier enlace
+    // Al hacer clic en el botón hamburguesa se alterna el menú
+    navToggle.addEventListener('click', toggleMenu);
+
+    // Cerrar el menú al hacer clic en cualquier enlace dentro del menú
     const navLinks = navMenu.querySelectorAll('a');
     navLinks.forEach(link => {
       link.addEventListener('click', () => {
