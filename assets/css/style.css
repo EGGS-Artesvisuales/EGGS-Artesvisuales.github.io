@@ -862,27 +862,23 @@ form button:hover {
    MEDIA QUERIES (Optimizado sin perder info relevante)
 ------------------------------------------------------------------ */
 
-/* 🔹 Muy pequeños: Dispositivos con ancho máximo de 480px */
+/* Muy pequeños: Dispositivos con ancho máximo de 480px */
 @media (max-width: 480px) {
   body { 
     font-size: 0.8rem; 
   }
-
   header { 
     padding: 5px 10px; 
     font-size: 1rem; 
   }
-
   .text-container { 
     padding: 10px 5px; 
     font-size: 0.8rem; 
     width: 100%; 
   }
-
   .button-container { 
     gap: 10px; 
   }
-
   .fancy-button { 
     width: 100%; 
     max-width: 250px; 
@@ -890,31 +886,26 @@ form button:hover {
   }
 }
 
-/* 🔹 Pequeños: Hasta 600px */
+/* Pequeños: Hasta 600px */
 @media (max-width: 600px) {
   .nav-menu { 
     flex-direction: column; 
     gap: 10px; 
   }
-
   .text-container { 
     padding: 10px; 
   }
 }
 
-/* 🔹 Dispositivos móviles: Hasta 901px (se activa el menú hamburguesa) */
+/* Dispositivos móviles: Hasta 901px (se activa el menú hamburguesa) */
 @media (max-width: 901px) {
   body { 
     font-size: 1.2rem; 
   }
-
-  /* 🔥 Mostrar botón de menú hamburguesa en móviles */
   .nav-toggle { 
     display: flex; 
     margin-top: 10px; 
   }
-
-  /* 🔥 Corrección: Menú oculto por defecto pero preparado para aparecer */
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -922,92 +913,99 @@ form button:hover {
     background-color: var(--color-medio-oscuro);
     width: 100%;
     position: fixed;
-    top: -100vh; /* 🔥 Lo ocultamos fuera de pantalla */
+    top: 100%;
     left: 0;
-    z-index: 9999; /* 🔥 Traer el menú al frente */
+    z-index: 9999; /* Mayor z-index para traer el menú al frente */
     padding: 10px;
     transform: translateY(-150%);
     opacity: 0;
     max-height: calc(100vh - 60px);
     overflow-y: auto;
-    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
-
-  /* 🔥 Cuando el menú está activo, se muestra correctamente */
-  .nav-menu.active {
-    top: 60px; /* 🔥 Aparece justo debajo del header */
-    opacity: 1;
-    transform: translateY(0);
-  }
-
   .dropdown.active .dropdown-menu { 
     display: block; 
     position: static; 
   }
-
   .year::before { 
     left: -50px; 
     font-size: 1rem; 
   }
-
   .fun-button { 
     font-size: 0.9rem; 
     padding: 8px 15px; 
   }
-
   .text-container { 
     padding: 3px; 
     font-size: 0.9rem; 
     line-height: 1.6; 
   }
-
   .item { 
     flex: 1 1 calc(50% - 20px); 
   }
-
   .button-container {
     flex-direction: column;
     gap: 15px;
     align-items: center;
     padding: 10px;
   }
-
   .fancy-button { 
     width: 80%; 
     max-width: 300px; 
   }
 }
 
-/* 🔹 Tabletas y dispositivos intermedios: Hasta 1024px */
+/* Tabletas y dispositivos intermedios: Hasta 1024px */
 @media (max-width: 1024px) {
   .navbar { 
     flex-direction: column; 
     align-items: flex-start; 
   }
-
   .fancy-button { 
     width: 40%; 
   }
 }
 
-/* 🔹 Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
+
+
+
+/* Ocultar el menú en móviles */
+@media (max-width: 901px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-fondo-secundario);
+    position: absolute;
+    top: 14px; /* Ajustar según la altura del header */
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @media (min-width: 902px) and (max-width: 1024px) {
   .fancy-button {
     width: 45%;
     max-width: 400px;
     transition: width 0.3s ease;
   }
-
   .text-container { 
     padding: 5px; 
   }
-
   .button-container { 
     gap: 20px; 
   }
 }
 
-/* 🔹 Dispositivos medianos: Hasta 1200px */
+/* Dispositivos medianos: Hasta 1200px */
 @media (max-width: 1200px) {
   .text-container { 
     font-size: 1.2rem; 
@@ -1015,40 +1013,15 @@ form button:hover {
   }
 }
 
-/* 🔹 Escritorio: Dispositivos grandes (mínimo 1024px) */
+/* Escritorio: Dispositivos grandes (mínimo 1024px) */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
     max-width: 350px;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-
   .text-container { 
     padding: 30px; 
-  }
-}
-
-/* 🔥 Corrección final: Asegurar que el menú se despliegue naturalmente en pantallas grandes */
-@media (min-width: 902px) {
-  .nav-menu {
-    display: flex !important; /* 🔥 Asegura que el menú esté visible */
-    position: static; /* 🔥 No debe ser fixed en PC */
-    top: auto; /* 🔥 No afecta el flujo */
-    left: auto;
-    width: auto;
-    height: auto; /* 🔥 Permite que se ajuste de forma natural */
-    overflow: visible; /* 🔥 Evita el scroll en PC */
-    flex-direction: row; /* 🔥 Menú en línea horizontal */
-    gap: 20px; /* 🔥 Espaciado entre elementos */
-    background-color: transparent; /* 🔥 No necesita fondo en escritorio */
-    box-shadow: none; /* 🔥 Evita sombras innecesarias */
-    justify-content: flex-start; /* 🔥 Asegura alineación correcta */
-    align-items: center; /* 🔥 Mantiene los elementos alineados */
-  }
-
-  /* 🔥 Ocultamos el botón hamburguesa en PC */
-  .nav-toggle {
-    display: none; 
   }
 }
 
