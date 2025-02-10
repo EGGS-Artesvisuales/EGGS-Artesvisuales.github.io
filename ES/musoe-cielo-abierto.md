@@ -1,4 +1,3 @@
-
 ---
 layout: default-es
 title: Musoe a Cielo Abierto
@@ -26,11 +25,10 @@ carousel: true
 </p>
 
 <!-- Carrusel de imágenes (imagen secundaria) -->
-<div class="owl-carousel carousel-imagen">
+<div class="owl-carousel owl-carousel-large">
   <!-- Ítem 1 -->
   <div class="item item--imagen">
     <div class="imagen">
-      <!-- Se agrega la clase "carousel-img" para aplicar estilos específicos -->
       <img class="carousel-img" src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
     </div>
   </div>
