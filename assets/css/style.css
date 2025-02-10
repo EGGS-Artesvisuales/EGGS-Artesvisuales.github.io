@@ -891,7 +891,7 @@ form button:hover {
     flex-direction: column;
     gap: 10px;
     background-color: var(--color-medio-oscuro);
-    width: 100%;
+    width: 122%;
     position: fixed;  /* Fixed para que se superponga al contenido */
     top: 120px;        /* Valor ajustado para que el menú inicie debajo del icono */
     left: 0;
