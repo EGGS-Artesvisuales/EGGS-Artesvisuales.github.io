@@ -974,6 +974,11 @@ form button:hover {
 
 /* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
 
+@media (min-width: 902px) {
+  .nav-toggle {
+    display: none;
+  }
+}
 
 
 /* Ocultar el menú en móviles */
