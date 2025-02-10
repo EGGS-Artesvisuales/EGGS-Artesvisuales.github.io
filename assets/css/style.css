@@ -898,6 +898,7 @@ form button:hover {
     display: flex; 
     margin-top: 10px; 
   }
+ @media (max-width: 901px) {
   .nav-menu {
     display: none;
     flex-direction: column;
@@ -907,7 +908,7 @@ form button:hover {
     position: fixed;
     top: 100%;
     left: 0;
-    z-index: 999;
+    z-index: 9999; /* Aumenta este valor para traer el menú al frente */
     padding: 10px;
     transform: translateY(-150%);
     opacity: 0;
