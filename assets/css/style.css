@@ -261,7 +261,7 @@ header {
   max-height: calc(100vh - 60px); /* 🛠️ Scroll para menús largos */
   overflow-y: auto;
 }
-body.no-scroll { overflow: hidden; }
+
 
 /* ------------------------------------------------------------------
    MAIN
