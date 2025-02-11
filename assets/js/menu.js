@@ -1,28 +1,21 @@
-navMenu.addEventListener("keydown", event => {
-  // Selecciona todos los enlaces dentro del menú...
-  const allLinks = Array.from(navMenu.querySelectorAll("a"));
-  // ... y filtra solo aquellos que están visibles.
-  const links = allLinks.filter(link => getComputedStyle(link).display !== "none");
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.getElementById("nav-toggle");
+  const navMenu = document.getElementById("nav-menu");
+  // Selecciona los elementos de fondo que se deben inactivar cuando el menú esté abierto.
+  const backgroundElements = document.querySelectorAll("header, main, footer");
 
-  let currentIndex = links.indexOf(document.activeElement);
-
-  // Si ningún enlace tiene foco, asigna el foco al primero
-  if (currentIndex === -1 && links.length > 0) {
-    links[0].focus();
+  if (!navToggle || !navMenu) {
+    console.warn("⚠️ Elementos del menú no encontrados.");
     return;
   }
 
-  if (["ArrowDown", "ArrowRight"].includes(event.key)) {
-    event.preventDefault();
-    const nextIndex = (currentIndex + 1) % links.length;
-    links[nextIndex].focus();
-  } else if (["ArrowUp", "ArrowLeft"].includes(event.key)) {
-    event.preventDefault();
-    const prevIndex = (currentIndex - 1 + links.length) % links.length;
-    links[prevIndex].focus();
-  }
-});
-
+  // Función para desactivar la interactividad del fondo
+  const disableBackground = () => {
+    backgroundElements.forEach(el => {
+      el.setAttribute("inert", ""); // Hace que el elemento y sus hijos no reciban foco
+      el.setAttribute("aria-hidden", "true");
+    });
+  };
 
   // Función para reactivar el fondo
   const enableBackground = () => {
