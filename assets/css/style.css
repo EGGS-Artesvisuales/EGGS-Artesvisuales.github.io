@@ -656,12 +656,23 @@ footer {
   align-items: center;
   gap: 0.9375rem; /* 15px */
 }
+
+/* logofooter */
+
 .footer-logo img {
-  max-width: 14%;
+  max-width: 12%;
   height: auto;
   display: block;
-  margin: 0 auto;
+   margin: 0 auto;
+   transition: transform 0.3s ease-in-out;
 }
+
+.footer-logo a:hover img {
+  transform: scale(1.1);
+}
+
+/* logofooter fin */
+
 .footer-links {
   list-style: none;
   padding: 0;
