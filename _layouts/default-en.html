@@ -4,34 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Dynamic Title with fallback -->
-  <title>{{ page.title | default: 'EGGS-Studio | Visual Arts & Murals' }}</title>
+  <!-- Dynamic Title with Fallback -->
+  <title>{{ page.title | default: 'EGGS-Studio | Visual Art and Murals' }}</title>
   
   <!-- Main Meta Tags for SEO -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: expert in visual arts, murals, art restoration, and teaching of the arts.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'visual arts, murals, art restoration, artistic design' }}">
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: expert in visual art, murals, art restoration, and art education.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, artistic design' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
-
+  
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
 
-  <!-- Theme color (optional, for mobile browsers) -->
+  <!-- Mobile Navigation Bar Color -->
   <meta name="theme-color" content="#000000">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Visual Arts & Murals' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Discover our expertise in murals, art restoration, and visual arts.' }}">
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Art and Murals' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Discover our expertise in murals, restoration, and visual art.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.jpg">
+  <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema (Organization) -->
+  <!-- JSON-LD Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -43,58 +43,48 @@
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Chilean art by Esteban Garnica: painting, murals, visual arts, and restoration of artworks."
+    "description": "Chilean Art, Visual Art by Esteban Garnica, specialist in painting, murals, visual art, and restoration of artistic works."
   }
   </script>
 
-  <!-- Stylesheets -->
+  <!-- Owl Carousel CSS (only if the page requires it) -->
+  {% if page.carousel %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  {% endif %}
+
+  <!-- Custom Style Sheets -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-  <!-- Mermaid (only loaded if page requires it) -->
+  <!-- Mermaid (only if required) -->
   {% if page.mermaid %}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      mermaid.initialize({
-        startOnLoad: true,
-        theme: 'dark',
-        themeVariables: {
-          background: '#1e1e1e',
-          primaryColor: '#444444',
-          primaryTextColor: '#ffffff',
-          primaryBorderColor: '#aaaaaa',
-          secondaryColor: '#2d2d2d',
-          lineColor: '#ffffff',
-          arrowheadColor: '#ffffff',
-          tertiaryColor: '#666666'
-        },
-        flowchart: {
-          wrap: true,
-          curve: 'basis'
-        },
-        sequence: {
-          actorMargin: 50,
-          boxMargin: 10,
-          boxTextMargin: 5,
-          noteMargin: 10
-        },
-        gantt: {
-          barHeight: 20,
-          barGap: 4,
-          topPadding: 50,
-          leftPadding: 75,
-          gridLineStartPadding: 35,
-          fontSize: 12
-        }
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'dark',
+          themeVariables: {
+            background: '#1e1e1e',
+            primaryColor: '#444444',
+            primaryTextColor: '#ffffff',
+            primaryBorderColor: '#aaaaaa',
+            secondaryColor: '#2d2d2d',
+            lineColor: '#ffffff',
+            arrowheadColor: '#ffffff',
+            tertiaryColor: '#666666'
+          },
+          flowchart: { wrap: true, curve: 'basis' },
+          sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
+          gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 12 }
+        });
       });
-    });
-  </script>
+    </script>
   {% endif %}
 </head>
-
 <body>
-  <!-- HEADER / NAVIGATION IN ENGLISH -->
+  <!-- Header / Navigation -->
   {% include header-en.html %}
 
   <!-- Main Content -->
@@ -102,14 +92,42 @@
     {% if content %}
       {{ content }}
     {% else %}
-      <p>The content is not available at the moment. Please try again later.</p>
+      <p>The content is not available at this moment. Please try again later.</p>
     {% endif %}
   </main>
 
-  <!-- FOOTER IN ENGLISH -->
+  <!-- Footer -->
   {% include footer-en.html %}
 
-  <!-- Page Scripts -->
+  <!-- General Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Owl Carousel JS and Initialization (only if the page requires it) -->
+  {% if page.carousel %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots: true,
+          dotsEach: 1,
+          navText: ["&#9664;", "&#9654;"],
+          responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 5 }
+          }
+        });
+      });
+    </script>
+  {% endif %}
+
+  <!-- Progress Bar Script -->
+  <script src="/assets/js/progress.js" defer></script>
+
+  <!-- Menu Script -->
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
