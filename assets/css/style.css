@@ -3,7 +3,7 @@
 ------------------------------------------------------------------ */
 *, *::before, *::after {
   box-sizing: border-box;
-  margin: 1;
+  margin: 0;
   padding: 0;
 }
 
@@ -77,8 +77,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   overflow-x: hidden;
-   margin-left: 0.3rem;
-margin-right: 0.3rem;
 }
 
 img {
@@ -256,7 +254,7 @@ header {
 ------------------------------------------------------------------ */
 main {
   padding-top: 80px;
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   text-align: justify;
@@ -980,5 +978,3 @@ form button:hover {
     padding: 30px; 
   }
 }
-
-
