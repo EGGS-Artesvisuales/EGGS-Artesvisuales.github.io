@@ -4,21 +4,22 @@ title: "Contact"
 permalink: /EN/contact.html
 ---
 
-<!-- Main Title, using the 'title' class -->
-<div class="title">Contact</div>
+<!-- Main Title, using the 'titulo' class -->
+<div class="titulo">Contact</div>
 
-<!-- Descriptive text, using the 'subtitle' class -->
-<div class="subtitle">
-  Inquiries, collaborations, questions.
+<!-- Descriptive text, using the 'subtitulo' class -->
+<div class="subtitulo">
+    Inquiries, collaborations, questions.
 </div>
 
 <br>
-<p class="subtitle2" style="margin-left: 3rem;">Please fill out the form below:</p>
+<p class="subtitulo2" style="margin-left: 3rem;">Fill out the form below:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
   
   <!-- Form fields -->
+
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required placeholder="Your name">
 
@@ -38,3 +39,4 @@ permalink: /EN/contact.html
   <input type="hidden" name="_captcha" value="false">
 </form>
 <br><br><br>
+
