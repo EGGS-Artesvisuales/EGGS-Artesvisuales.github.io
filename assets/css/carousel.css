@@ -15,11 +15,11 @@
 
 /* Para el carrusel large se permite que el contenido desborde */
 .owl-carousel-large {
-  overflow: visible;
+  overflow: hidden;
 }
 .owl-carousel-large .owl-stage-outer,
 .owl-carousel-large .owl-stage {
-  overflow: visible;
+  overflow: hidden;
 }
 
 /* Permitir que cada ítem de carousel-large expanda su contenido y se eleve en hover */
