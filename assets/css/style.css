@@ -899,13 +899,16 @@ form button:hover {
     flex-direction: column;
     gap: 0.625rem;
     background-color: var(--color-medio-oscuro);
-    width: 122%;
+    width: 100%;
     position: fixed;  /* Fixed para que se superponga al contenido */
-    top: 7.5rem;        /* 120px -> 7.5rem */
+    top: 8rem;        /* 120px -> 7.5rem */
     left: 0;
     z-index: 9999;
     padding: 0.625rem; /* 10px */
     transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
+       /* Permitir scroll interno en caso de contenido extenso */
+     max-height: calc(100vh - 7.5rem);
+    overflow-y: auto;
   }
   .nav-menu.active {
     display: flex;
