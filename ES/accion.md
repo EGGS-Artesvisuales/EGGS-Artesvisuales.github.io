@@ -2,9 +2,6 @@
 layout: default-es
 title: "Acción en el Mundo"
 permalink: /ES/accion.html
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <span>Acción en el Mundo</span>
 ---
 
 
