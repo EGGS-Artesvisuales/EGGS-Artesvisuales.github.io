@@ -997,3 +997,12 @@ form button:hover {
   }
 }
 
+/* --------------------------------------------------------------
+   UTILIDADES: Bloqueo de scroll para menú hamburguesa
+-------------------------------------------------------------- */
+body.no-scroll {
+  overflow: hidden;
+  /* Opcional: para evitar desplazamiento en dispositivos móviles */
+  position: fixed;
+  width: 100%;
+}
