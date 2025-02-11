@@ -2,9 +2,7 @@
 layout: default-es
 title: "Contacto"
 permalink: /ES/contacto.html
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <span>Contacto</span>
+
 ---
 
   <!-- Título principal, usando la clase 'titulo' -->
