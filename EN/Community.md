@@ -1,56 +1,43 @@
 ---
 layout: default-en
-title: Community Projects
+title: The Community
 permalink: /EN/community.html
-breadcrumbs: >
-  <a href="/EN/index.html">Home</a> >
-  <a href="/EN/action.html">Action in the World</a> >
-  <span>Community</span>
 ---
 
-<div class="text-container">
-  <!-- Main Title -->
-  <div class="titulo">Community</div>
+<!-- Main Title -->
+<div class="title">The Community</div>
+<br>
+<br>
+<br>
+<!-- Descriptive Text -->
+<p class="paragraph">
+  Collaborative projects that unite communities through art. This section
+  highlights joint work, promoting inclusion and social strengthening.
+</p>
 
-  <!-- Descriptive Text -->
-  <p class="parrafo">
-    Collaborative projects that bring communities together through art. This section
-    highlights joint efforts, promoting inclusion and social empowerment.
-  </p>
-</div>
+<br>
 
-<!-- Subtitle for categories/activities -->
-<div class="subtitulo">Activities:</div>
-
-<!-- 'fancy-button' style button container -->
+<!-- 'Fancy-button' style button container -->
 <div class="button-container">
-  <!-- Button 1: Participatory Workshops -->
+  <!-- Button 1: Participatory Muralism -->
   <a href="/EN/participatory-workshops.html" class="fancy-button">
     <div class="button-content">
-      <!-- Adjust the image, path, and alt as per your content -->
-      <img src="/assets/images/talleres-participativos.gif" alt="Participatory Workshops">
-      <p class="title">Participatory Workshops</p>
-      <p class="subtitle">Collaborative learning spaces.</p>
+      <img src="/assets/img/button-participatory-muralism.gif" alt="Participatory Muralism" loading="lazy">
+      <p class="title">Participatory Muralism</p>
+      <p class="subtitle">Collaborative learning spaces focused on creating murals for the community.</p>
     </div>
   </a>
 
-  <!-- Button 2: Community Murals -->
+  <!-- Button 2: Open-Air Museums -->
   <a href="/EN/community-murals.html" class="fancy-button">
     <div class="button-content">
-      <!-- Adjust the image, path, and alt as per your content -->
-      <img src="/assets/images/murales-comunitarios.gif" alt="Community Murals">
-      <p class="title">Community Murals</p>
-      <p class="subtitle">Collective creation of large-scale artworks.</p>
+      <img src="/assets/img/button-open-air-museums.gif" alt="Community Murals" loading="lazy">
+      <p class="title">Open-Air Museums</p>
+      <p class="subtitle">Large-format creations for the city.</p>
     </div>
   </a>
 
-  <!-- Button 3: Artistic Events and Gatherings -->
-  <a href="/EN/artistic-events.html" class="fancy-button">
-    <div class="button-content">
-      <!-- Adjust the image, path, and alt as per your content -->
-      <img src="/assets/images/eventos-artisticos.gif" alt="Artistic Events and Gatherings">
-      <p class="title">Artistic Events and Gatherings</p>
-      <p class="subtitle">Celebrating art together.</p>
-    </div>
-  </a>
 </div>
+<br>
+<br>
+
