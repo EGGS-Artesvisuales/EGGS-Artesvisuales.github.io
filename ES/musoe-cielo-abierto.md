@@ -10,20 +10,26 @@ carousel: true
 <div class="titulo">Musoe a Cielo Abierto</div>
 
 <div class="subtitulo">Contribuye al desarrollo mural en la Villa Alberto Larraguibel</div>
+<br><br>
 
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
   <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
 </div>
-
+<br>
 <p class="parrafo">
   Descubre el poder transformador del muralismo en la Villa Alberto Larraguibel. Este proyecto busca revitalizar las fachadas de los edificios, convirtiéndolos en auténticos lienzos que reflejan la identidad y el alma de la comunidad. Con tu apoyo, no solo embellecemos el entorno, sino que fortalecemos el sentido de pertenencia y el bienestar local.
 </p>
-
+<br>
+<!-- Imagen principal (usa el estilo global de .imagen) -->
+<div class="imagen">
+  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Museo a Cielo Abierto" loading="lazy">
+</div>
+<br>
 <p class="parrafo">
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
-
+<br><br>
 <!-- Carrusel de imágenes (imagen secundaria) -->
 <div class="owl-carousel owl-carousel-large">
   <!-- Ítem 1 -->
