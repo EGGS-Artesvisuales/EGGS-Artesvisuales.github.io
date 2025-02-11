@@ -13,7 +13,7 @@
   will-change: transform, box-shadow;
 }
 
-/* Para el carrusel large se permite que el contenido desborde */
+/* Para el carrusel large sin desborde */
 .owl-carousel-large {
   overflow: hidden;
 }
@@ -29,6 +29,13 @@
 }
 .owl-carousel-large .owl-item:hover {
   z-index: 100;
+}
+.owl-carousel-large .owl-nav button {
+  z-index: 999 !important;
+}
+
+.owl-carousel-large .owl-dots {
+  z-index: 999 !important;
 }
 
 /* =============================================================================
