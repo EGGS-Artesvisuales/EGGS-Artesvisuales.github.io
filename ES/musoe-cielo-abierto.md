@@ -23,11 +23,7 @@ carousel: true
 <p class="parrafo">
   Cada aporte, por pequeño que sea, es fundamental para alcanzar nuestras metas. Únete a esta iniciativa y sé parte del cambio: con tu donación, transformamos espacios en mensajes de esperanza y conexión, impulsando el arte como motor de transformación social.
 </p>
-<br>
-<!-- Imagen principal (usa el estilo global de .imagen) -->
-<div class="imagen">
-  <img src="/assets/img/mapuchenocturno.jpg" alt="Museo a Cielo Abierto" loading="lazy">
-</div>
+
 <br>
 
 <!-- Contenedor de la barra de progreso -->
