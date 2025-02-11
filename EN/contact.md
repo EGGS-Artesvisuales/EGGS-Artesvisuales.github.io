@@ -2,39 +2,39 @@
 layout: default-en
 title: "Contact"
 permalink: /EN/contact.html
-breadcrumbs: >
-  <a href="/EN/index.html">Home</a> >
-  <span>Contact</span>
 ---
-<div class="text-container">
-  <!-- Título principal -->
-  <div class="titulo">Contact</div>
 
-  <!-- Párrafo descriptivo -->
-  <p class="parrafo">
-    Get in touch for inquiries, collaborations, or any questions. 
-    Please fill out the form below:
-  </p>
+<!-- Main Title, using the 'title' class -->
+<div class="title">Contact</div>
+
+<!-- Descriptive text, using the 'subtitle' class -->
+<div class="subtitle">
+  Inquiries, collaborations, questions.
 </div>
 
+<br>
+<p class="subtitle2" style="margin-left: 3rem;">Please fill out the form below:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
       method="POST">
   
-  <!-- Campos del formulario -->
+  <!-- Form fields -->
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" required placeholder="Your name">
 
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required placeholder="Your email address">
+  <input type="email" id="email" name="email" required placeholder="Your email">
 
   <label for="message">Message:</label>
   <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
 
-  <!-- Botón de envío -->
+  <!-- Submit button -->
   <button type="submit">Send</button>
 
-  <!-- Campos ocultos que NO cambian -->
+  <!-- Optional hidden fields to configure the form -->
+  <!-- _next: Absolute URL of your thank you page -->
   <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/EN/thankyou.html">
+  <!-- _captcha: Disable verification -->
   <input type="hidden" name="_captcha" value="false">
 </form>
+<br><br><br>
