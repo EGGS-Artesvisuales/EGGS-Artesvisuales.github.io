@@ -5,7 +5,7 @@ $('.owl-carousel-large').owlCarousel({
   loop: true,
   margin: 10,         // Separación entre items (aplica también al efecto visual)
   nav: true,
-  dots: false,
+  dots: true,
   center: true,       // Activa el modo centrado
   stagePadding: 30,   // Espacio en píxeles para mostrar parte de los items adyacentes; ajusta este valor según necesites
   autoHeight: true
