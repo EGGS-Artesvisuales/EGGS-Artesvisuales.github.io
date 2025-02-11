@@ -1,43 +1,39 @@
-/* ========================================================================== 
-   Carousel Base Styles (para ambos tipos)
-   ========================================================================== */
+/* =============================================================================
+   Base Styles para Owl Carousel (aplica a ambos tipos)
+   ============================================================================= */
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
   padding: 20px 0;
-  border-radius: 8px; /* Bordes redondeados */
+  border-radius: 8px; /* Bordes redondeados generales */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   will-change: transform, box-shadow;
 }
 
-/* Para el carrusel large, forzamos overflow visible */
+/* Para el carrusel large se permite que el contenido desborde */
 .owl-carousel-large {
   overflow: visible;
 }
-
-/* Aseguramos que los contenedores internos permitan el overflow */
 .owl-carousel-large .owl-stage-outer,
 .owl-carousel-large .owl-stage {
   overflow: visible;
 }
 
-/* Forzamos que cada item permita que su contenido se expanda y, al hacer hover, se eleve */
+/* Permitir que cada ítem de carousel-large expanda su contenido y se eleve en hover */
 .owl-carousel-large .owl-item {
   overflow: visible !important;
   position: relative;
 }
-
 .owl-carousel-large .owl-item:hover {
   z-index: 100;
 }
 
-
-/* ==========================================================================
-   Carousel Navigation (Flechas)
-   ========================================================================== */
+/* =============================================================================
+   Navegación: Flechas (owl-nav)
+   ============================================================================= */
 .owl-nav button {
   position: absolute;
   top: 50%;
@@ -68,9 +64,9 @@
   right: 10px;
 }
 
-/* ==========================================================================
-   Carousel Dots
-   ========================================================================== */
+/* =============================================================================
+   Navegación: Dots (paginación)
+   ============================================================================= */
 .owl-dots {
   position: absolute;
   bottom: 10px;
@@ -100,18 +96,18 @@
   background-color: #333;
 }
 
-/* ==========================================================================
-   Specialized Carousel Styles
-   ========================================================================== */
+/* =============================================================================
+   Estilos Especializados para el Carrusel de Imágenes (Carousel-Imágen)
+   ============================================================================= */
 
-/* --- Carrusel de Imágenes (versión normal) --- */
+/* Configuración básica para los ítems de imagen */
 .carousel-imagen .item--imagen {
   width: 100%;
   height: auto;
   margin: 0;
 }
 
-/* Contenedor interno en carrusel normal (limitado a 800px) */
+/* Contenedor interno para la versión normal (limitado a 800px de ancho) */
 .owl-carousel .carousel-imagen .item--imagen .imagen {
   display: block;
   text-decoration: none;
@@ -126,39 +122,97 @@
   margin: 0 auto;
 }
 
-/* En carrusel large, se elimina el límite de ancho */
+/* En el carrusel large se elimina la restricción de ancho */
 .owl-carousel-large .carousel-imagen .item--imagen .imagen {
   max-width: none;
   margin: 0 auto;
 }
 
-/* --- Carrusel Fancy (Botones) --- */
-/* Se reemplaza el estilo específico por los estilos globales de fancy-button */
+/* Estilos para las imágenes internas */
+.carousel-imagen .imagen img.carousel-img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Tamaños específicos para imágenes según el tipo de carrusel */
+.owl-carousel .carousel-imagen .owl-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 600px; /* Ajusta según tus necesidades */
+}
+.owl-carousel-large .carousel-imagen .owl-item img {
+  width: 100%;
+  object-fit: cover;
+  height: 1000px; /* Ajusta para mayor visibilidad */
+}
+
+/* Ajustes para cada ítem en carrusel large */
+.owl-carousel-large .item {
+  width: 800px;
+  margin-right: 10px;
+}
+
+/* Permitir que el contenedor de imagen no recorte efectos hover */
+.owl-carousel-large .item .imagen {
+  overflow: visible;
+}
+
+/* Hover para la imagen en la versión normal */
+.carousel-imagen .imagen img.carousel-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover 3D para imagen en carrusel large */
+.owl-carousel-large {
+  perspective: 1000px; /* Habilita efecto 3D en descendientes */
+}
+.owl-carousel-large .carousel-img:hover {
+  transform: translateZ(30px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+/* Ajustes responsivos para imágenes */
+@media (min-width: 1024px) {
+  .owl-carousel .carousel-imagen .imagen img.carousel-img,
+  .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
+    width: 110%;
+    margin-left: -5%;
+  }
+}
+
+/* =============================================================================
+   Estilos Especializados para el Carrusel Fancy (Botones Interactivos)
+   ============================================================================= */
+/* Nota: Se asumen variables CSS globales definidas para colores, sombras, etc. */
 .carousel-fancy .fancy-button {
   display: block;
   text-decoration: none;
-  background-color: var(--button-bg-color);
-  border-radius: var(--button-border-radius);
-  box-shadow: var(--button-shadow);
-  transition: var(--button-transition);
+  background-color: var(--button-bg-color, #007bff);
+  border-radius: var(--button-border-radius, 8px);
+  box-shadow: var(--button-shadow, 0 2px 4px rgba(0,0,0,0.2));
+  transition: var(--button-transition, transform 0.3s ease, box-shadow 0.3s ease);
   overflow: hidden;
   text-align: center;
-  flex: 1 1 calc(25% - var(--gap-between-buttons));
-  max-width: var(--button-max-width);
-  min-width: var(--button-min-width);
+  flex: 1 1 calc(25% - var(--gap-between-buttons, 10px));
+  max-width: var(--button-max-width, 200px);
+  min-width: var(--button-min-width, 150px);
   height: auto;
 }
-
 .carousel-fancy .fancy-button:focus {
   outline: none;
-  box-shadow: var(--button-focus-shadow);
+  box-shadow: var(--button-focus-shadow, 0 0 0 3px rgba(0,123,255,0.5));
   transform: translateY(-5px);
 }
-
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-5px);
-  box-shadow: var(--button-hover-shadow);
-  background-color: var(--button-hover-bg-color);
+  box-shadow: var(--button-hover-shadow, 0 8px 16px rgba(0,0,0,0.3));
+  background-color: var(--button-hover-bg-color, #0056b3);
 }
 
 .carousel-fancy .button-content {
@@ -167,7 +221,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  color: var(--content-title-color);
+  color: var(--content-title-color, #fff);
   text-align: center;
   overflow: hidden;
 }
@@ -176,27 +230,27 @@
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: var(--img-opacity);
+  opacity: var(--img-opacity, 0.9);
   transition: opacity 0.3s ease-in-out;
 }
 
 .carousel-fancy .fancy-button:hover .button-content img {
-  opacity: var(--img-hover-opacity);
+  opacity: var(--img-hover-opacity, 1);
 }
 
 .carousel-fancy .button-content .title {
-  font-size: var(--title-font-size);
+  font-size: var(--title-font-size, 1.2rem);
   font-weight: bold;
-  color: var(--content-title-color);
+  color: var(--content-title-color, #fff);
   margin-bottom: 5px;
 }
 
 .carousel-fancy .button-content .subtitle {
-  background-color: var(--content-subtitle-bg);
-  padding: var(--content-subtitle-padding);
-  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
-  font-size: var(--subtitle-font-size);
-  color: var(--content-subtitle-color);
+  background-color: var(--content-subtitle-bg, rgba(0, 0, 0, 0.5));
+  padding: var(--content-subtitle-padding, 5px 10px);
+  border-radius: 0 0 var(--button-border-radius, 8px) var(--button-border-radius, 8px);
+  font-size: var(--subtitle-font-size, 0.9rem);
+  color: var(--content-subtitle-color, #fff);
   margin: 0;
   width: 100%;
   position: relative;
@@ -205,90 +259,6 @@
 }
 
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background-color: var(--content-subtitle-hover-bg);
-}
-
-/* --- Estilos para las imágenes dentro del carrusel --- */
-.carousel-imagen .imagen img.carousel-img {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  height: auto;
-}
-
-/* Tamaño de imagen para ambos carruseles */
-.owl-carousel .carousel-imagen .owl-item img,
-.owl-carousel-large .carousel-imagen .owl-item img {
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Tamaño específico en carrusel normal */
-.owl-carousel .carousel-imagen .owl-item img {
-  height: 600px;
-}
-
-/* Tamaño específico en carrusel large (incrementado para mayor visibilidad) */
-.owl-carousel-large .carousel-imagen .owl-item img {
-  height: 1000px; /* Ajusta este valor según necesites */
-}
-
-/* ==========================================================================
-   Carousel Large (Imágenes desbordadas) - Slide Large
-   ========================================================================== */
-.owl-carousel-large .owl-stage-outer {
-  overflow: visible;
-}
-
-.owl-carousel-large .item {
-  width: 800px;
-  margin-right: 10px;
-}
-
-/* Evitamos que el contenedor de la imagen recorte el efecto */
-.owl-carousel-large .item .imagen {
-  overflow: visible;
-}
-
-/* --- Estilos para las imágenes del slider large --- */
-.owl-carousel-large .carousel-img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  z-index: 1;
-}
-
-/* --------------------------------------------------------------------------
-   Hover effect para Carousel Large: enviar imagen hacia adelante y
-   asegurar que se vea completa (efecto 3D)
-   -------------------------------------------------------------------------- */
-.owl-carousel-large {
-  perspective: 1000px; /* Habilita el efecto 3D en sus descendientes */
-}
-
-.owl-carousel-large .carousel-img:hover {
-  transform: translateZ(30px) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
-
-/* ==========================================================================
-   Hover Effects y Ajustes Responsivos
-   ========================================================================== */
-.carousel-imagen .imagen img.carousel-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 1024px) {
-  .owl-carousel .carousel-imagen .imagen img.carousel-img,
-  .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
-    width: 110%;
-    margin-left: -5%;
-  }
+  background-color: var(--content-subtitle-hover-bg, rgba(0,0,0,0.7));
 }
 
