@@ -77,8 +77,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   overflow-x: hidden;
-   margin-left: 3rem;
-margin-right: 3rem;
+   margin-left: 0.3rem;
+margin-right: 0.3rem;
 }
 
 img {
