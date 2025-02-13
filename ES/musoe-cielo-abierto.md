@@ -3,7 +3,7 @@ layout: default-es
 lang: es
 title: Museo a Cielo Abierto
 description: "Apoya el financiamiento del proyecto muralista."
-permalink: /ES/museo-cielo-abierto.html
+permalink: /ES/musoe-cielo-abierto.html
 progreso: true
 ---
 
