@@ -333,28 +333,31 @@ p.parrafo:first-of-type ul {
   align-items: center;
   margin: 1.25rem 0; /* 20px 0 */
 }
-.imagen img {
-  max-width: 100%;
+
+/* Estilos base para imágenes */
+.imagen img,
+.imagen__foto {
+  display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
-  border-radius: 1.25rem; /* 20px */
+  border-radius: 1.25rem; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.imagen img:hover {
+
+/* Especificación para imágenes con clase BEM (ancho del 33%) */
+.imagen__foto {
+  width: 33%;
+}
+
+/* Efecto hover unificado para ambas variantes */
+.imagen img:hover,
+.imagen__foto:hover {
   transform: translateY(-0.3125rem) scale(1.05); 
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-.imagen__foto {
-  display: block;
-  width: 33%;
-  height: auto;
-  }
-   .imagen__foto:hover {
-    transform: translateY(-0.3125rem) scale(1.05); 
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-}
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
 ------------------------------------------------------------------ */
