@@ -1,10 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Montos en CLP
-    let recaudado = 69000;       // Monto recaudado actual
-    let metaUnitaria = 2300000;    // Meta para una unidad del proyecto
-    let metaGlobal = 23000000;     // Meta total del proyecto
+    // Tasa de cambio aproximada de USD a CLP (actualízala dinámicamente si lo deseas)
+    const tasaCambio = 970; // 1 USD ≈ 970 CLP (ajusta según corresponda)
 
-    // Calcula los porcentajes, limitados a un máximo de 100%
+    // Montos en USD
+    let recaudadoUSD = 0; // Valor inicial de lo recaudado
+    let metaUnitariaUSD = 2300; // Meta para una unidad en USD
+    let metaGlobalUSD = 23000; // Meta total en USD
+
+    // Convertir a CLP
+    let recaudado = recaudadoUSD * tasaCambio;
+    let metaUnitaria = metaUnitariaUSD * tasaCambio;
+    let metaGlobal = metaGlobalUSD * tasaCambio;
+
+    // Calcula los porcentajes, limitando a un máximo de 100%
     let porcentajeGlobal = Math.min((recaudado / metaGlobal) * 100, 100);
     let porcentajeUnitario = Math.min((recaudado / metaUnitaria) * 100, 100);
 
@@ -16,15 +24,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Animación de la barra basada en el porcentaje global
     let incremento = 0;
+    let velocidad = 10; // Ajusta la velocidad de animación en milisegundos
+
     let animacion = setInterval(() => {
         if (incremento >= porcentajeGlobal) {
             clearInterval(animacion);
         } else {
-            incremento++;
+            incremento += 1;
             barra.style.width = incremento + "%";
             barra.textContent = incremento + "%";
         }
-    }, 20); // Puedes ajustar la velocidad modificando el valor en milisegundos
+    }, velocidad);
 
     // Actualiza los textos informativos
     textoRecaudado.textContent = `$ ${recaudado.toLocaleString('es-CL')} CLP recaudado`;
