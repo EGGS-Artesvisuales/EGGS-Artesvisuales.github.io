@@ -146,4 +146,15 @@ carousel: true
       </div>
     </a>
   </div>
+
+   <!-- POSITIVIDA -->
+  <div class="item">
+    <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/interior/boton-grafocine.gif" alt="Positivida" loading="lazy">
+        <p class="title">autopoiesis positiva</p>
+        <p class="subtitle">creacion y retralimentacion de positivades textual.</p>
+      </div>
+    </a>
+  </div>
 </div>
