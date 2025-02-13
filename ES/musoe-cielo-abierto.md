@@ -4,7 +4,6 @@ title: Musoe a Cielo Abierto
 description: "Apoya el financiamiento del proyecto muralista."
 permalink: /ES/musoe-cielo-abierto.html
 progreso: true
-carousel: true
 ---
 
 <div class="titulo">Musoe a Cielo Abierto</div>
@@ -32,9 +31,7 @@ carousel: true
   <div class="barra-progreso">
     <div class="barra-progreso-fill" id="progreso-barra">1%</div>
   </div>
-  <p id="recaudado">$ 1 CLP recaudado</p>
-  <p>$ 23.000.000 CLP meta global</p>
-  <p id="porcentaje">1% recaudado</p>
+
 </div>
 
 <!-- Botón de donación -->
