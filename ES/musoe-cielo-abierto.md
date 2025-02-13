@@ -30,12 +30,11 @@ carousel: true
 <div class="barra-progreso-container">
   <label for="progreso">Progreso del financiamiento:</label>
   <div class="barra-progreso">
-    <div class="barra-progreso-fill" id="progreso-barra">3%</div>
+    <div class="barra-progreso-fill" id="progreso-barra">1%</div>
   </div>
-  <p id="recaudado">$ 69.000 CLP recaudado</p>
-  <p>$ 2.300.000 CLP meta unitaria</p>
+  <p id="recaudado">$ 1 CLP recaudado</p>
   <p>$ 23.000.000 CLP meta global</p>
-  <p id="porcentaje">3% recaudado</p>
+  <p id="porcentaje">1% recaudado</p>
 </div>
 
 <!-- Botón de donación -->
