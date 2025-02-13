@@ -31,7 +31,13 @@ progreso: true
   <div class="barra-progreso">
     <div class="barra-progreso-fill" id="progreso-barra">1%</div>
   </div>
+</div>
 
+<!-- Información adicional de progreso -->
+<div class="progress-info">
+  <p id="recaudado"></p>
+  <p id="porcentaje-global"></p>
+  <p id="porcentaje-unitario"></p>
 </div>
 
 <!-- Botón de donación -->
