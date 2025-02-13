@@ -124,11 +124,14 @@
     </script>
   {% endif %}
 
-  <!-- Progress Bar Script -->
-  <script src="/assets/js/progress.js" defer></script>
+  <!-- Progress Bar Script (only if enabled in front matter) -->
+  {% if page.progress %}
+    <script src="/assets/js/progreso.js" defer></script>
+  {% endif %}
 
   <!-- Menu Script -->
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
+
 
