@@ -1,43 +1,49 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Tasa de cambio aproximada de USD a CLP (actualízala dinámicamente si lo deseas)
-    const tasaCambio = 970; // 1 USD ≈ 970 CLP (ajusta según corresponda)
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Meta de financiamiento en USD
+  const metaUSD = 23000;
+  // Tasa de conversión: 1 USD = 800 CLP (modifica según la tasa actual)
+  const usdToClp = 800;
+  
+  // Elementos del DOM
+  const progressBar = document.getElementById("progreso-barra");
+  const recaudadoEl = document.getElementById("recaudado");
+  const porcentajeGlobalEl = document.getElementById("porcentaje-global");
+  const porcentajeUnitarioEl = document.getElementById("porcentaje-unitario");
 
-    // Montos en USD
-    let recaudadoUSD = 0; // Valor inicial de lo recaudado
-    let metaUnitariaUSD = 2300; // Meta para una unidad en USD
-    let metaGlobalUSD = 23000; // Meta total en USD
+  // Endpoint de la función get-recaudado
+  const endpoint = "https://eggs-studio.cl/.netlify/functions/get-recaudado";
 
-    // Convertir a CLP
-    let recaudado = recaudadoUSD * tasaCambio;
-    let metaUnitaria = metaUnitariaUSD * tasaCambio;
-    let metaGlobal = metaGlobalUSD * tasaCambio;
+  // Función para actualizar la barra de progreso e información
+  function actualizarProgreso() {
+    fetch(endpoint)
+      .then(response => response.json())
+      .then(data => {
+        const recaudadoUSD = data.recaudado;
+        // Calcula el porcentaje de meta alcanzado, limitado al 100%
+        const porcentaje = Math.min((recaudadoUSD / metaUSD) * 100, 100);
+        
+        // Actualiza la barra de progreso
+        progressBar.style.width = porcentaje + "%";
+        progressBar.textContent = Math.floor(porcentaje) + "%";
+        
+        // Conversión a CLP
+        const recaudadoCLP = recaudadoUSD * usdToClp;
+        const metaCLP = metaUSD * usdToClp;
+        
+        // Actualiza la información adicional
+        recaudadoEl.textContent = `Recaudado: $${recaudadoUSD.toLocaleString()} USD (${recaudadoCLP.toLocaleString()} CLP)`;
+        porcentajeGlobalEl.textContent = `Porcentaje global: ${Math.floor(porcentaje)}%`;
+        // Proporción recaudada (valor unitario)
+        porcentajeUnitarioEl.textContent = `Progreso unitario: ${(recaudadoUSD / metaUSD).toFixed(2)}`;
+      })
+      .catch(error => console.error("Error al obtener datos:", error));
+  }
 
-    // Calcula los porcentajes, limitando a un máximo de 100%
-    let porcentajeGlobal = Math.min((recaudado / metaGlobal) * 100, 100);
-    let porcentajeUnitario = Math.min((recaudado / metaUnitaria) * 100, 100);
+  // Llamada inicial al cargar la página
+  actualizarProgreso();
 
-    // Referencias a los elementos del DOM
-    let barra = document.getElementById("progreso-barra");
-    let textoRecaudado = document.getElementById("recaudado");
-    let textoPorcentajeGlobal = document.getElementById("porcentaje-global");
-    let textoPorcentajeUnitario = document.getElementById("porcentaje-unitario");
-
-    // Animación de la barra basada en el porcentaje global
-    let incremento = 0;
-    let velocidad = 10; // Ajusta la velocidad de animación en milisegundos
-
-    let animacion = setInterval(() => {
-        if (incremento >= porcentajeGlobal) {
-            clearInterval(animacion);
-        } else {
-            incremento += 1;
-            barra.style.width = incremento + "%";
-            barra.textContent = incremento + "%";
-        }
-    }, velocidad);
-
-    // Actualiza los textos informativos
-    textoRecaudado.textContent = `$ ${recaudado.toLocaleString('es-CL')} CLP recaudado`;
-    textoPorcentajeGlobal.textContent = `Progreso global: ${Math.round(porcentajeGlobal)}%`;
-    textoPorcentajeUnitario.textContent = `Progreso unitario: ${Math.round(porcentajeUnitario)}%`;
+  // Actualización cada 30 segundos para mantener la información al día
+  setInterval(actualizarProgreso, 30000);
 });
+</script>
