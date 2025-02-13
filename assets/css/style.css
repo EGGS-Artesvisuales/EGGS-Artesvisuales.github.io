@@ -466,8 +466,19 @@ p.parrafo:first-of-type ul {
 }
 
 /* ------------------------------------------------------------------
-   BARRA DE PROGRESO
+   BARRA DE PROGRESO Y CONTENEDOR
 ------------------------------------------------------------------ */
+.barra-progreso-container {
+  margin: 1.5rem 0;
+}
+
+.barra-progreso-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #444;
+}
+
 .barra-progreso {
   width: 100%;
   background-color: #e0e0e0;
@@ -475,20 +486,39 @@ p.parrafo:first-of-type ul {
   overflow: hidden;
   height: 1.5625rem; /* 25px */
   position: relative;
-  box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.15); /* 0 3px 6px */
+  box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.15);
 }
+
+/* ------------------------------------------------------------------
+   LLENADO DE LA BARRA
+------------------------------------------------------------------ */
 .barra-progreso-fill {
   height: 100%;
   background: linear-gradient(90deg, #ffad33, #f89900);
   text-align: center;
   line-height: 1.5625rem; /* 25px */
-  color: white;
+  color: #fff;
   font-weight: bold;
   font-size: 0.875rem; /* 14px */
   border-radius: 0.75rem; /* 12px */
   width: 0;
   transition: width 2s ease-in-out;
 }
+
+/* ------------------------------------------------------------------
+   INFORMACIÓN ADICIONAL DE PROGRESO
+------------------------------------------------------------------ */
+.progress-info {
+  margin-top: 1rem;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.progress-info p {
+  margin: 0.5rem 0;
+}
+
 
 /* ------------------------------------------------------------------
    PRODUCTOS
