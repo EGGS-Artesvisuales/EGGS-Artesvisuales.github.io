@@ -1,8 +1,8 @@
 ---
 layout: default-es
-title: E.GG.S - Producciones & Art SpA
+title: "E.GG.S - Producciones & Art SpA"
+description: "Arte, Cultura e Innovación para Transformar Espacios y Comunidades"
 permalink: /ES/eggs.html
-
 ---
 
 <!-- Título principal -->
@@ -11,22 +11,25 @@ permalink: /ES/eggs.html
 
 <!-- Información de contacto -->
 <p class="parrafo" style="margin-top:6%;">
-  <strong>Ubicación:</strong> La Florida, Región Metropolitana, Chile<br>
-  <strong>Fundación:</strong> 3 de julio de 2024
+  <strong>Ubicación:</strong> Santiago, Región Metropolitana, Chile<br>
+  <strong>Fundación:</strong> 3 de julio de 2024<br>
+  <strong>Escríbenos a:</strong> hola@eggs-studio.cl
 </p>
 
 <!-- Sección: ¿Quiénes somos? -->
 <div class="titulo">¿Quiénes somos?</div>
 <p class="parrafo">
-  E.GG.S - Producciones & Art SpA es una figura jurídica que se implementó para llevar a cabo actividades con mayor respaldo. Como empresa chilena (SpA), E.GG.S fusiona arte y tecnología para la transformación creativa de espacios. Ofrecemos técnicas de muralismo, restauración de patrimonio, escenografías, diseño de interiores, producción cultural y arte digital, promoviendo la conexión entre las comunidades y su entorno a través de proyectos artísticos.
-</p>
-<p class="parrafo">
-  Con un enfoque en la innovación y la sostenibilidad, llevamos el arte más allá de los límites convencionales, incorporando tecnologías emergentes. Nuestra misión es revitalizar espacios urbanos y culturales, democratizar el acceso al arte y fortalecer la identidad de los territorios mediante intervenciones visuales y participativas.
+  E.GG.S - Producciones & Art SpA surge como una respuesta innovadora a la necesidad de integrar el arte en la transformación social. Como entidad jurídica, proporcionamos un marco profesional que permite desarrollar proyectos artísticos con el respaldo institucional necesario. Nuestra aproximación única fusiona técnicas artísticas tradicionales con tecnologías emergentes, creando soluciones que responden a las necesidades contemporáneas de espacios y comunidades.
 </p>
 
 <p class="parrafo">
-  En E.GG.S creemos que el arte es una herramienta transformadora para la educación, la inclusión y el desarrollo sostenible. Implementamos prácticas responsables en cada uno de nuestros proyectos, promoviendo la economía circular, el uso de materiales ecológicos y la integración de tecnologías accesibles.
+  Nuestro enfoque se distingue por combinar innovación tecnológica con sostenibilidad ambiental. Incorporamos tecnologías emergentes mientras mantenemos un compromiso firme con prácticas responsables, promoviendo la economía circular y el uso de materiales ecológicos en cada proyecto. Esta fusión nos permite crear soluciones artísticas que no solo son visualmente impactantes, sino también sostenibles y accesibles.
 </p>
+
+<p class="parrafo">
+  En E.GG.S entendemos el arte como una herramienta transformadora que va más allá de la estética. Nuestros proyectos buscan catalizar cambios positivos en educación, inclusión social y desarrollo sostenible. Cada intervención se diseña pensando en su impacto duradero, creando espacios que fomentan la interacción comunitaria y el crecimiento cultural colectivo.
+</p>
+<br>
 <br>
 <!-- Sección: Nuestros servicios -->
 <div class="owl-carousel">
