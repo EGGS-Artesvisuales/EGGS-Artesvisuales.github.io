@@ -1,7 +1,7 @@
-exports.handler = async function(event, context) {
+exports.handler = async function () {
     return {
         statusCode: 200,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ total: 69000, porcentaje: (69000 / 23000000) * 100 })
+        body: JSON.stringify({ recaudado: 1000 }) // Simulación de datos
     };
 };
