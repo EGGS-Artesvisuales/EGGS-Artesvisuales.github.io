@@ -1,5 +1,7 @@
 [build]
-  environment = { RUBY_VERSION = "3.2.2" }
+  command = "bundle install && bundle exec jekyll build"
+  functions = "netlify/functions"
+  environment = { RUBY_VERSION = "3.2.2", BUNDLE_FORCE_RUBY_PLATFORM = "1" }
 
 [functions]
   directory = "netlify/functions"
