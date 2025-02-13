@@ -1,6 +1,6 @@
 [build]
   functions = "netlify/functions"
-  environment = { RUBY_VERSION = "3.1.0" }
+  environment = { RUBY_VERSION = "3.1.82" }
 
 [functions]
   directory = "netlify/functions"
