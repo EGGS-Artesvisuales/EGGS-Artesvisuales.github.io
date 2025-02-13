@@ -1,5 +1,6 @@
 ---
 layout: default-es
+lang: es
 title: Musoe a Cielo Abierto
 description: "Apoya el financiamiento del proyecto muralista."
 permalink: /ES/musoe-cielo-abierto.html
@@ -49,5 +50,4 @@ progreso: true
   <a href="/ES/en-construccion.html" class="enlace">Ver proyectos completados</a>
 </div>
 <br><br>
-
 
