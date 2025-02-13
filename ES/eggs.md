@@ -158,10 +158,11 @@ permalink: /ES/eggs.html
 <br><br><br>
 <br><br><br>
 
-
 <!-- Llamado a la acción -->
-<p class="parrafo">
+<p class="parrafo" style="margin-top:4%;">
   <strong>¡Transformemos juntos los espacios a través del arte!</strong><br>
-  Contáctanos para colaborar en proyectos creativos y culturales.
-hola@eggs-studio.cl
+  En E.GG.S creemos en el poder del arte para crear cambios significativos. Ya sea que necesites 
+  revitalizar un espacio, desarrollar un proyecto cultural o implementar soluciones artísticas 
+  innovadoras, estamos aquí para colaborar contigo.<br><br>
+  <strong>Contáctanos:</strong> hola@eggs-studio.cl
 </p>
