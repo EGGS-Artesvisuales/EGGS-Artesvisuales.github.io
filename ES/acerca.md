@@ -8,7 +8,7 @@ permalink: /ES/acerca.html
 <div class="subtitulo">Ampliación e integración del Arte visual y la vida</div>
 
 <p class="parrafo" style="margin-top:6%;">
-  EGGS-Studio nace de la visión de <strong>Esteban Garnica Sánchez</strong>, artista visual 
+  <strong>EGGS-Studio</strong> nace de la visión de Esteban Garnica Sánchez, artista visual 
   comprometido con la transformación social e individual a través del arte. Esta visión se 
   materializa en <strong>E.GG.S - Producciones y Art SpA</strong> (RUT: 77.973.201-0), entidad 
   donde aplico mi experiencia artística a distintas áreas de la sociedad. A través de la 
