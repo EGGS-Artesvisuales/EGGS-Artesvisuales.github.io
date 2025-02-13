@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function() {
   // Meta de financiamiento en USD
   const metaUSD = 23000;
@@ -46,4 +45,3 @@ document.addEventListener("DOMContentLoaded", function() {
   // Actualización cada 30 segundos para mantener la información al día
   setInterval(actualizarProgreso, 30000);
 });
-</script>
