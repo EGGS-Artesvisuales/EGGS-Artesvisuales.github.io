@@ -443,27 +443,37 @@ p.parrafo:first-of-type ul {
   background: var(--content-subtitle-hover-bg);
 }
 
-/* Botón PayPal */
-.pp-GX4V3R9TEHJ5G {
+/* ______________________________
+__________
+Botón PayPal____________
+______________________
+__________________________ */
+.boton-donacion {
+  display: inline-block;
+  background: linear-gradient(135deg, #FFD700, #FFA500); /* Degradado dorado */
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
   text-align: center;
+  padding: 12px 24px;
+  border-radius: 8px;
   border: none;
-  border-radius: 0.25rem; /* 4px */
-  min-width: 7rem;
-  padding: 0 1rem;
-  height: 2.625rem;
-  font-weight: 600;
-  background-color: #FFD140;
-  color: #fff;
-  font-family: var(--subtitulo2-font, "Helvetica Neue", Arial, sans-serif);
-  font-size: var(--subtitulo2-size, 1rem);
-  line-height: 1.25rem;
   cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
-.pp-GX4V3R9TEHJ5G:hover {
-  background-color: #FFC300;
+
+.boton-donacion:hover {
+  background: linear-gradient(135deg, #FFA500, #FF8C00);
   transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+.boton-donacion:active {
+  transform: scale(0.98);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
 
 /* ------------------------------------------------------------------
    BARRA DE PROGRESO Y CONTENEDOR
