@@ -342,10 +342,19 @@ p.parrafo:first-of-type ul {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .imagen img:hover {
-  transform: translateY(-0.3125rem) scale(1.05); /* -5px */
+  transform: translateY(-0.3125rem) scale(1.05); 
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+.imagen__foto {
+  display: block;
+  width: 33%;
+  height: auto;
+  }
+   .imagen__foto:hover {
+    transform: translateY(-0.3125rem) scale(1.05); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
 ------------------------------------------------------------------ */
