@@ -348,12 +348,13 @@ p.parrafo:first-of-type ul {
 /* Estilos específicos para imágenes con clase BEM (.imagen__foto) */
 .imagen__foto {
   display: block;
-  width: 33%;
+  width: 44%;
   max-width: 100%;
   height: auto;
   border-radius: 1.25rem; /* 20px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   margin-right: auto; /* Alinea la imagen a la izquierda en el contenedor flex */
 }
 
 /* Efecto hover unificado para ambas variantes */
