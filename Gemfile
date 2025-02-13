@@ -7,6 +7,7 @@ gem "jekyll-mermaid", git: "https://github.com/jasonbellamy/jekyll-mermaid"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "minima", "~> 2.5"
-gem "sass-embedded", "1.82.0"
+gem "sass-embedded", "~> 1.82.0"
+
 
 
