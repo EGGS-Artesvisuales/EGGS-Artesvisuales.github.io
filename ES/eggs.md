@@ -1,37 +1,15 @@
 ---
 layout: default-es
-title: "E.GG.S - Producciones & Art SpA"
-description: "Arte, Cultura e Innovación para Transformar Espacios y Comunidades"
-permalink: /ES/eggs.html
+title: Nuestros Servicios
+permalink: /ES/nuestros-servicios.html
+carousel: true
 ---
 
 <!-- Título principal -->
-<div class="titulo">E.GG.S - Producciones & Art SpA</div>
-<div class="subtitulo">Arte, Cultura e Innovación para Transformar Espacios y Comunidades</div>
+<div class="titulo">Nuestros Servicios</div>
+<div class="subtitulo">Descubre todo lo que ofrecemos</div>
 
-<!-- Información de contacto -->
-<p class="parrafo" style="margin-top:6%;">
-  <strong>Ubicación:</strong> Santiago, Región Metropolitana, Chile<br>
-  <strong>Fundación:</strong> 3 de julio de 2024<br>
-  <strong>Escríbenos a:</strong> hola@eggs-studio.cl
-</p>
-
-<!-- Sección: ¿Quiénes somos? -->
-<div class="titulo">¿Quiénes somos?</div>
-<p class="parrafo">
-  E.GG.S - Producciones & Art SpA surge como una respuesta innovadora a la necesidad de integrar el arte en la transformación social. Como entidad jurídica, proporcionamos un marco profesional que permite desarrollar proyectos artísticos con el respaldo institucional necesario. Nuestra aproximación única fusiona técnicas artísticas tradicionales con tecnologías emergentes, creando soluciones que responden a las necesidades contemporáneas de espacios y comunidades.
-</p>
-
-<p class="parrafo">
-  Nuestro enfoque se distingue por combinar innovación tecnológica con sostenibilidad ambiental. Incorporamos tecnologías emergentes mientras mantenemos un compromiso firme con prácticas responsables, promoviendo la economía circular y el uso de materiales ecológicos en cada proyecto. Esta fusión nos permite crear soluciones artísticas que no solo son visualmente impactantes, sino también sostenibles y accesibles.
-</p>
-
-<p class="parrafo">
-  En E.GG.S entendemos el arte como una herramienta transformadora que va más allá de la estética. Nuestros proyectos buscan catalizar cambios positivos en educación, inclusión social y desarrollo sostenible. Cada intervención se diseña pensando en su impacto duradero, creando espacios que fomentan la interacción comunitaria y el crecimiento cultural colectivo.
-</p>
-<br>
-<br>
-<!-- Sección: Nuestros servicios -->
+<!-- Carousel de Servicios -->
 <div class="owl-carousel">
   <!-- Servicio 1: Producción y organización de eventos culturales -->
   <div class="item">
@@ -155,7 +133,7 @@ permalink: /ES/eggs.html
   </div>
 </div>
 
-<br><br><br>
+<!-- Espaciado final (opcional) -->
 <br><br><br>
 
 <!-- Llamado a la acción -->
