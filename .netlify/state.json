@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Santiago",
+			"country": {
+				"code": "CL",
+				"name": "Chile"
+			},
+			"subdivision": {
+				"code": "RM",
+				"name": "Santiago Metropolitan"
+			},
+			"timezone": "America/Santiago",
+			"latitude": -33.4521,
+			"longitude": -70.6536
+		},
+		"timestamp": 1739434527444
+	}
+}
