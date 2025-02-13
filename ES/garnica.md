@@ -21,9 +21,12 @@ permalink: /ES/garnica.html
 <p class="parrafo">
   Además, su labor educativa, desarrollada a través de talleres y proyectos colaborativos, contribuye a formar nuevas generaciones de artistas comprometidos con el cambio social. 
 </p>
+
 <br>
-<!-- Imagen principal (usa el estilo global de .imagen) -->
-<div class="imagen">
-  <img src="/assets/img/esteban-garnica.jpg" alt="Perfil Esteban Garnica Sanchez" loading="lazy">
+
+<!-- Imagen principal (BEM) -->
+<div class="imagen imagen--garnica">
+  <img class="imagen__foto" src="/assets/img/esteban-garnica.jpg" alt="Perfil Esteban Garnica Sánchez" loading="lazy">
 </div>
+
 <br>
