@@ -6,7 +6,7 @@ carousel: true
 ---
 
 <!-- Título principal -->
-<div class="titulo">Nuestros Servicios</div>
+<div class="titulo">EGGS-Producciones & Art Spa</div>
 <div class="subtitulo">Descubre todo lo que ofrecemos</div>
 
 <!-- Texto descriptivo -->
