@@ -9,7 +9,7 @@ permalink: /ES/garnica.html
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  Esteban Garnica Sánchez (Santiago, 1985) es un artista visual chileno formado en la Universidad de Chile. Su carrera integra la creación artística, la docencia y la intervención en el espacio urbano. Su obra se centra en problemáticas actuales como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando técnicas que van desde la pintura mural hasta intervenciones en espacios públicos :cite[5]:cite[6].
+  Esteban Garnica Sánchez (Santiago, 1985) es un artista visual chileno formado en la Universidad de Chile. Su carrera integra la creación artística, la docencia y la intervención en el espacio urbano. Su obra se centra en problemáticas actuales como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando técnicas que van desde la pintura mural hasta intervenciones en espacios públicos.
 </p>
 
 <!-- Párrafo 2 -->
@@ -24,6 +24,6 @@ permalink: /ES/garnica.html
 <br>
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
-  <img src="/assets/img/##" alt="Perfil Esteban Garnica Sanchez" loading="lazy">
+  <img src="/assets/img/esteban-garnica.jpg" alt="Perfil Esteban Garnica Sanchez" loading="lazy">
 </div>
 <br>
