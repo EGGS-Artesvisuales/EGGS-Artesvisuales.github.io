@@ -334,21 +334,26 @@ p.parrafo:first-of-type ul {
   margin: 1.25rem 0; /* 20px 0 */
 }
 
-/* Estilos base para imágenes */
-.imagen img,
-.imagen__foto {
+/* Estilos base para imágenes dentro de .imagen que NO tengan la clase .imagen__foto */
+.imagen img:not(.imagen__foto) {
   display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
-  border-radius: 1.25rem; 
+  border-radius: 1.25rem; /* 20px */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Especificación para imágenes con clase BEM (ancho del 33%) */
+/* Estilos específicos para imágenes con clase BEM (.imagen__foto) */
 .imagen__foto {
+  display: block;
   width: 33%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1.25rem; /* 20px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Efecto hover unificado para ambas variantes */
