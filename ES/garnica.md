@@ -14,11 +14,16 @@ permalink: /ES/garnica.html
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Garnica se define como un cronista de su tiempo. Sus proyectos, que incluyen murales de gran escala y acciones callejeras, buscan transformar la percepción del espacio público y fomentar el debate ciudadano. En sus propias palabras: 
-  "Intervengo la publicidad comercial para bloquear su mensaje consumista, contrastando el brillo del marketing con los desechos que el sistema genera" :cite[2]:cite[9].
+  Garnica se define como un cronista de su tiempo. Sus proyectos, que incluyen murales de gran escala y acciones callejeras, buscan transformar la percepción del espacio público y fomentar el debate ciudadano. 
 </p>
 
 <!-- Párrafo 3 -->
 <p class="parrafo">
-  Además, su labor educativa, desarrollada a través de talleres y proyectos colaborativos, contribuye a formar nuevas generaciones de artistas comprometidos con el cambio social. Su trabajo se destaca como un aporte relevante en el ámbito del arte contemporáneo, tanto en Chile como en el extranjero.
+  Además, su labor educativa, desarrollada a través de talleres y proyectos colaborativos, contribuye a formar nuevas generaciones de artistas comprometidos con el cambio social. 
 </p>
+<br>
+<!-- Imagen principal (usa el estilo global de .imagen) -->
+<div class="imagen">
+  <img src="/assets/img/##" alt="Perfil Esteban Garnica Sanchez" loading="lazy">
+</div>
+<br>
