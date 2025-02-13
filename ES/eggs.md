@@ -11,7 +11,7 @@ carousel: true
 
 <!-- Texto descriptivo -->
 <p class="parrafo" style="margin-top:6%;">
-  <strong><E.GG.S - Producciones & Art SpA></strong> es una empresa chilena innovadora (RUT: 77.973.201-0) que integra arte, tecnología y gestión cultural para transformar espacios. Fundada por el artista visual Esteban Garnica Sánchez, nos comprometemos a crear experiencias artísticas con impacto real.
+  <strong>E.GG.S - Producciones & Art SpA</strong> es una empresa chilena innovadora (RUT: 77.973.201-0) que integra arte, tecnología y gestión cultural para transformar espacios. Fundada por el artista visual Esteban Garnica Sánchez, nos comprometemos a crear experiencias artísticas con impacto real.
 </p>
 
 <p class="parrafo">
