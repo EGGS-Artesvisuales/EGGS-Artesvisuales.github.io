@@ -1,7 +1,7 @@
 ---
 layout: default-es
 title: Nuestros Servicios
-permalink: /ES/nuestros-servicios.html
+permalink: /ES/eggs.html
 carousel: true
 ---
 
