@@ -7,7 +7,7 @@ permalink: /ES/musoe-cielo-abierto.html
 progreso: true
 ---
 
-<div class="titulo">Museo a Cielo Abierto</div>
+<div class="titulo">"Musoe" a Cielo Abierto</div>
 
 <div class="subtitulo">Contribuye al desarrollo mural en la Villa Alberto Larraguibel</div>
 <br><br>
