@@ -2,7 +2,7 @@ title: "EGGS-Studio"
 description: "Arte y vida: murales, restauración y diseño artístico."
 theme: minima
 
-# URL de tu sitio. Ajusta si tu dominio es otro.
+# URL de tu sitio
 url: "https://eggs-studio.cl"
 baseurl: ""  # Dejar vacío si no usas subcarpeta
 
@@ -10,12 +10,12 @@ baseurl: ""  # Dejar vacío si no usas subcarpeta
 keywords: "arte visual, murales, restauración de arte, diseño artístico, talleres artísticos, EGGS-Studio, Esteban Garnica"
 author: "Esteban Garnica"
 
-# Plugins
+# Plugins de Jekyll
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  # Si en algún momento quieres usar un plugin de i18n, podrías incluirlo aquí.
+  # - jekyll-multiple-languages (Si decides usar internacionalización avanzada)
 
 # Configuración de Markdown
 markdown: kramdown
@@ -29,8 +29,6 @@ kramdown:
     wrap: true
 
 # Configuración para Mermaid.js
-# Nota: Tienes un bloque condicional en tus layouts que carga la versión 10.x de Mermaid
-# Si prefieres, ajusta la 'version' para que coincida con la que usas en el layout.
 mermaid:
   version: "10.0.0"
   options:
@@ -44,7 +42,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Idiomas
+# Idiomas disponibles
 languages:
   es:
     label: "Español"
@@ -55,10 +53,7 @@ languages:
     locale: "en-US"
     dir: "ltr"
 
-# Configuración por defecto para cada idioma.
-# Esto le indica a Jekyll que:
-#  - Todos los archivos dentro de la carpeta "es" tendrán lang: "es" y locale: "es-ES".
-#  - Todos los archivos dentro de la carpeta "en" tendrán lang: "en" y locale: "en-US".
+# Configuración por defecto para cada idioma
 defaults:
   - scope:
       path: "ES"
@@ -72,13 +67,9 @@ defaults:
       locale: "en-US"
 
 # Configurar enlaces permanentes más legibles
-#permalink: /:categories/:title/
+permalink: pretty
 
-# Si quieres un output por carpeta, algo así:
-#permalink: pretty
-
-
-# Colección de Productos (Impresiones)
+# Colecciones de productos (Impresiones, etc.)
 collections:
   productos_es:
     output: true
@@ -86,4 +77,3 @@ collections:
   productos_en:
     output: true
     permalink: /en/products/:path/
-
