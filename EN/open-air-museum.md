@@ -47,6 +47,6 @@ progreso: true
 </form>
 
 <div class="enlace-container">
-  <a href="/EN/en-construccion.html" class="enlace">View Completed Projects</a>
+  <a href="/EN/en-construction.html" class="enlace">View Completed Projects</a>
 </div>
 <br><br>
