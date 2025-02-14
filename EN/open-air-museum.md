@@ -6,7 +6,7 @@ description: "Support the funding of the mural project."
 permalink: /EN/open-air-museum.html
 progreso: true
 ---
-<div class="titulo">Open Air Museum</div>
+<div class="titulo">Open Air "Musoem"</div>
 
 <div class="subtitulo">Contribute to the mural development in Villa Alberto Larraguibel</div>
 <br><br>
