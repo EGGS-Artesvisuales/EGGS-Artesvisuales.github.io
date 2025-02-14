@@ -501,28 +501,7 @@ __________________________ */
 
 
 
-/* Estilo para el contenedor de información adicional de progreso */
-.progress-info {
-  margin-top: 20px;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
-  color: #444;
-  line-height: 1.5;
-}
 
-/* Estilo para cada párrafo dentro de progress-info */
-.progress-info p {
-  margin: 5px 0;
-  font-size: 1rem;
-}
-
-/* Opcional: agregar un poco de sombra y un borde sutil para resaltar la información */
-.progress-info {
-  padding: 10px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 
 /* ------------------------------------------------------------------
