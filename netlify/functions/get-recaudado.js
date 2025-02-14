@@ -17,8 +17,8 @@ exports.handler = async () => {
       };
     }
 
-    // Llamada simulada a la API de PayPal (sustituir con una real)
-    const recaudadoUSD = 5000; // Simulación del monto recaudado
+    // Llamada a la API de PayPal (sustituir con una real)
+    const recaudadoUSD = 0; // monto recaudado
 
     return {
       statusCode: 200,
