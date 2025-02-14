@@ -27,7 +27,7 @@ permalink: /EN/patrons.html
 
 <!-- Buttons -->
 <div class="button-container">
-  <a href="/EN/musoe-cielo-abierto" class="fancy-button">
+  <a href="/EN/open-air-museum.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Open-Air Museum">
       <p class="title">Open-Air Museum</p>
