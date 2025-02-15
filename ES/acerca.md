@@ -68,7 +68,7 @@ permalink: /ES/acerca.html
   <a href="/ES/eggs.html" class="fancy-button">
     <div class="button-content">
       <!-- Imagen representativa para EGGS -->
-      <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS - Producciones y Art SpA" loading="lazy">
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="EGGS - Producciones y Art SpA" loading="lazy">
       <p class="title">EGGS - prods. y art spa</p>
       <p class="subtitle">Ver más sobre E.GG.S - Producciones &amp; Art SpA</p>
     </div>
