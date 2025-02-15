@@ -710,7 +710,7 @@ footer {
   padding: 1.25rem; /* 20px */
   text-align: center;
   box-shadow: 0 -0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
-  border-bottom: 2rem solid #222; /* Borde inferior en color #222 */
+ /* border-bottom: 2rem solid #222; /* Borde inferior en color #222 */ */
 }
 
 .footer-container {
