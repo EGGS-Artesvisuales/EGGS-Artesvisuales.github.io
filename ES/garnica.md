@@ -26,7 +26,7 @@ permalink: /ES/garnica.html
 
 <!-- Imagen principal (BEM) -->
 <div class="imagen imagen--garnica">
-  <img class="imagen__foto" src="/assets/img/esteban-garnica.jpg" alt="Perfil Esteban Garnica Sánchez" loading="lazy">
+  <img class="imagen__foto" src="/assets/img/esteban-garnica2.jpg" alt="Perfil Esteban Garnica Sánchez" loading="lazy">
 </div>
 
 <br>
