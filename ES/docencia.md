@@ -159,22 +159,39 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2019 -->
-    <div class="year" data-year="2019">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2019.html';">
-          Talleres Artísticos Fibra Mineduc: Taller de Ilustración y Pintura
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago; Escuela Los Andes, Pte. Alto, Santiago; Colegio Altas Cumbres, Pte. Alto, Santiago.
-          </p>
-        </div>
-      </div>
+  <!-- 2019 -->
+<div class="year" data-year="2019">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2019.html';">
+      Talleres Artísticos Fibra Mineduc
     </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2019-altascumbre-fibra.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de Muralismo, colegio Altas Cumbres, Puente Alto, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2019-losandes.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de Artes Plasticas, Escuela Los Andes, Pte. Alto, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2019-snesteb.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de pintura, Liceo San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
     
 <!-- 2018 -->
 <div class="year" data-year="2018">
