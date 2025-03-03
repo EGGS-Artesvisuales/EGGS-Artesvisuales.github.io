@@ -245,49 +245,59 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2016 -->
-    <div class="year" data-year="2016">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
-          Talleres Artísticos Fibra Mineduc: Taller de Pintura y Muralismo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio C.E.I.A, La Pintana, Santiago; Liceo Puente Alto, Santiago.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2016.html';">
-          Taller de Muralismo y Grafiti
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Cardenal Samoré, Programa E.D.E.X ley SEP; Corporación de educación de la I. Municipalidad de La Florida.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
-          Taller de Muralismo Experimental
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Santiago Bueras, Maipú, Santiago. Programa PACE – MINEDUC. USACH.
-          </p>
-        </div>
-      </div>
+<!-- 2016 -->
+<div class="year" data-year="2016">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
+      Talleres Artísticos Fibra Mineduc: Taller de Pintura y Muralismo
     </div>
-    
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2016-ceia-graff.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio C.E.I.A, La Pintana, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2016-graff-licptealto.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Liceo Puente Alto, Santiago.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2016.html';">
+      Taller de Muralismo y Grafiti EDEX, COMUDEF
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2016-edex-graff-cas1.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio Cardenal Samoré, Programa E.D.E.X ley SEP; Corporación de educación de la I. Municipalidad de La Florida.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
+      Taller de Muralismo - programa PACE - MINEDUC / USACH
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2016-pace-usach.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio Santiago Bueras, Maipú, Santiago. Programa PACE – MINEDUC. USACH.
+      </p>
+    </div>
+  </div>
+</div>
+
   <!-- 2015 -->
 <div class="year" data-year="2015">
   <div class="entry">
