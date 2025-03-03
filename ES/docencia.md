@@ -424,24 +424,14 @@ breadcrumbs: >
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2011-1.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Servicio País / Consejo Nacional de las Artes. Villa San Ignacio – El Roble, Padre Hurtado, Región Metropolitana, Chile.
           </p>
         </div>
       </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2011.html';">
-          Talleres Artísticos Programa: Mi Barrio en Paz – Muralismo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Villa O´Higgins, La Florida, Santiago.</p>
-        </div>
-      </div>
+
     </div>
     
     <!-- 2010 -->
