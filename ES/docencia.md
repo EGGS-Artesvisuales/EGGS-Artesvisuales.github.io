@@ -288,48 +288,78 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2015 -->
-    <div class="year" data-year="2015">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
-          Taller de Grafiti
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2015.html';">
-          Taller de Muralismo: Programa Senda Previene
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Actuar a tiempo. Colegio Alberto Magno, Lo Cañas; Colegio Cardenal Antonio Samoré; Colegio Los Navíos; Colegio Nuevo Amanecer; Colegio London College (todos en La Florida, Santiago).
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
-          Talleres Artísticos MINEDUC BALMACEDA 1215: Programa Vivo el Arte
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Taller de muralismo en Colegio CEIA, la Pintana, Santiago; Taller de visualidad en Liceo Puente Alto, Pte. Alto, Santiago.
-          </p>
-        </div>
-      </div>
+  <!-- 2015 -->
+<div class="year" data-year="2015">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
+      Taller de Grafiti
     </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2015.html';">
+      Taller de Muralismo: Programa Senda Previene
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2015-lo-cañas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Programa Senda Previene: Actuar a tiempo. Colegio Lo Cañas, La Florida, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2015-london-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Programa Senda Previene: Actuar a tiempo. Colegio London, La Florida, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2015-navios-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Programa Senda Previene: Actuar a tiempo. Colegio Los Navíos, La Florida, Santiago.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
+      Talleres Artísticos MINEDUC BALMACEDA 1215: Programa Vivo el Arte
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2015-ceia-muralismo.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de muralismo en Colegio CEIA, la Pintana, Santiago; Taller de visualidad en Liceo Puente Alto, Pte. Alto, Santiago.
+      </p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2015-ptealto-cortometraje.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de Cortometraje y edicion digital de imagenes, Liceo Puente alto, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
     
 <!-- 2014 -->
 <div class="year" data-year="2014">
