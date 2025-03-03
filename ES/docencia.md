@@ -218,33 +218,40 @@ permalink: /ES/docencia.html
         </div>
       </div>
     </div>
-    
-    <!-- 2017 -->
-    <div class="year" data-year="2017">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2017.html';">
-          Taller de Muralismo: Programa Senda Previene – Colegio Mirador
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>San Ramón, Santiago.</p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2017.html';">
-          Talleres Artísticos Fibra Mineduc: Taller de Artes Visuales
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Complejo educacional C.E.I.A, La Pintana, Santiago.</p>
-        </div>
-      </div>
+ 
+ <!-- 2017 -->
+<div class="year" data-year="2017">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2017.html';">
+      Taller de Muralismo: Programa Senda Previene – San Ramon
     </div>
-    
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2017-senda-colegio.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Taller de pintura en colegio Mirador, San Ramón, Santiago.</p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2017-senda-lautaro.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Taller de Muralismo comunitario en la villa Lautaro, Comuna de Lo Prado, Santiago.</p>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2017.html';">
+      Talleres Artísticos Fibra Mineduc: Taller de Artes Visuales
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2017-ceia.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Complejo educacional C.E.I.A, La Pintana, Santiago.</p>
+    </div>
+  </div>
+</div>
+
 <!-- 2016 -->
 <div class="year" data-year="2016">
   <div class="entry">
