@@ -382,7 +382,7 @@ permalink: /ES/docencia.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---forint01.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Colegio San Leonardo, Maipú, Santiago de Chile.</p>
         </div>
@@ -406,7 +406,7 @@ permalink: /ES/docencia.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---01.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>Villa O´Higgins, La Florida, Santiago.</p>
         </div>
