@@ -180,7 +180,7 @@ permalink: /ES/docencia.html
 <div class="year" data-year="2018">
   <div class="entry">
     <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
-      Taller de Muralismo
+      Taller de Muralismo: Santiago Cultura
     </div>
     <div class="text-container">
       <div class="imagen">
