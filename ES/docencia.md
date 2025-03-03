@@ -339,7 +339,7 @@ permalink: /ES/docencia.html
     </div>
     <div class="text-container">
       <div class="imagen">
-        <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+        <img src="/assets/img/docencia-2014-barrioenpaz.jpg" alt="Imagen del taller" loading="lazy">
       </div>
       <p>Colegio Marcela Paz, La Florida, Santiago.</p>
     </div>
