@@ -2,10 +2,7 @@
 layout: default-es
 title: Docencia
 permalink: /ES/docencia.html
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <a href="/ES/accion.html">Acción en el Mundo</a> >
-  <span>Docencia</span>
+
 ---
 
 <!-- Título principal -->
