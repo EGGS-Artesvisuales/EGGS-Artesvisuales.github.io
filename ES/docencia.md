@@ -393,7 +393,7 @@ permalink: /ES/docencia.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---edex-01.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Corporación de I. Municipalidad de La Florida; Colegio Maestra Elsa Santibáñez, La Florida, Santiago de Chile.
