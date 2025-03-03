@@ -176,49 +176,51 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2018 -->
-    <div class="year" data-year="2018">
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
-          Taller de Muralismo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            I. Municipalidad de Santiago; Palacio Álamos – Escuela Irene Frei de Cid.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2018.html';">
-          Talleres Artísticos Fibra Mineduc: Taller de Muralismo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Liceo Olof Palme, La Cisterna, Santiago.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
-          Taller de Muralismo (Programa Senda Previene)
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Actuar a tiempo. Lo Prado, Santiago de Chile.
-          </p>
-        </div>
-      </div>
+<!-- 2018 -->
+<div class="year" data-year="2018">
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
+      Taller de Muralismo
     </div>
- 
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2018-muralismo-culturastgo-irenefrei.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Cultura Santiago - I. Municipalidad de Santiago; Palacio Álamos / Escuela Irene Frei de Cid.
+      </p>
+    </div>
+  </div>
+  
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2018.html';">
+      Talleres Artísticos Fibra Mineduc: Taller de Muralismo
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2018-muralismo-fibra.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Liceo Olof Palme, La Cisterna, Santiago.
+      </p>
+    </div>
+  </div>
+  
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
+      Taller de Muralismo (Programa Senda Previene)
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2018-muralismo-sendaloprado.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Programa SENDA - PREVIENE: Actuar a tiempo. Lo Prado, Santiago de Chile.
+      </p>
+    </div>
+  </div>
+</div>
+
  <!-- 2017 -->
 <div class="year" data-year="2017">
   <div class="entry">
