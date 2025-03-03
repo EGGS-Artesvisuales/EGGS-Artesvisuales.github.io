@@ -223,7 +223,7 @@ permalink: /ES/docencia.html
 <div class="year" data-year="2017">
   <div class="entry">
     <div class="fun-button left" onclick="window.location.href='/ES/taller-2017.html';">
-      Taller de Muralismo: Programa Senda Previene – San Ramon
+      Taller de Muralismo: Programa Senda Previene – Región Metropolitana
     </div>
     <div class="text-container">
       <div class="imagen">
