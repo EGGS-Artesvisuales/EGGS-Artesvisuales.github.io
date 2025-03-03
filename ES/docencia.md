@@ -331,49 +331,48 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2014 -->
-    <div class="year" data-year="2014">
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2014.html';">
-          Talleres Artísticos Programa Mi Barrio en Paz: Taller de Mosaico
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Colegio Marcela Paz, La Florida, Santiago.</p>
-        </div>
-      </div>
+<!-- 2014 -->
+<div class="year" data-year="2014">
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2014.html';">
+      Talleres Artísticos Programa Mi Barrio en Paz: Taller de Mosaico
     </div>
-    
-    <!-- 2013 -->
-    <div class="year" data-year="2013">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2013.html';">
-          Talleres Artísticos Programa: Chile Previene – SENDA: Mosaico
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Dr. Sotero del Río; Colegio Maestra Elsa Santibáñez; Colegio María Elena (todos en La Florida, Santiago).
-          </p>
-        </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
       </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2013.html';">
-          Talleres Artísticos Programa: Mi Barrio en Paz – Muralismo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Villa O´Higgins, La Florida, Santiago.</p>
-        </div>
-      </div>
+      <p>Colegio Marcela Paz, La Florida, Santiago.</p>
     </div>
-    
+  </div>
+</div>
+
+<!-- 2013 -->
+<div class="year" data-year="2013">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2013.html';">
+      Talleres Artísticos Programa: Chile Previene – SENDA: Mosaico
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2013-elsa1.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Colegio Maestra Elsa Santibáñez, La Florida, Santiago.</p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2013-mel2.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Colegio Maria Elena, La Florida, Santiago.</p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2013-sotero1.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>Colegio Sotero del Rio, La Florida, Santiago.</p>
+    </div>
+  </div>
+</div>
+
     <!-- 2012 -->
     <div class="year" data-year="2012">
       <div class="entry">
@@ -431,20 +430,7 @@ permalink: /ES/docencia.html
 
     </div>
     
-    <!-- 2010 -->
-    <div class="year" data-year="2010">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2010.html';">
-          Taller de Arte Contemporáneo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Liceo Joaquín Edwards Bello, Macul, Santiago.</p>
-        </div>
-      </div>
-    </div>
+    
     
   </div><!-- .timeline -->
 </div><!-- .timeline-container -->
