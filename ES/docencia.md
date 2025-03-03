@@ -292,7 +292,7 @@ permalink: /ES/docencia.html
 <div class="year" data-year="2015">
   <div class="entry">
     <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
-      Taller de Grafiti
+      Taller de Grafiti, Programa EDEX - Comudef
     </div>
     <div class="text-container">
       <div class="imagen">
