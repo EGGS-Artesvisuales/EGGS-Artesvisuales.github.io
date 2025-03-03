@@ -296,7 +296,7 @@ permalink: /ES/docencia.html
     </div>
     <div class="text-container">
       <div class="imagen">
-        <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+        <img src="/assets/img/docencia-2015_.jpg" alt="Imagen del taller" loading="lazy">
       </div>
       <p>
         Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
@@ -343,7 +343,7 @@ permalink: /ES/docencia.html
         <img src="/assets/img/docencia-2015-ceia-muralismo.jpg" alt="Imagen del taller" loading="lazy">
       </div>
       <p>
-        Taller de muralismo en Colegio CEIA, la Pintana, Santiago; Taller de visualidad en Liceo Puente Alto, Pte. Alto, Santiago.
+        Taller de muralismo en Colegio CEIA, la Pintana, Santiago.
       </p>
     </div>
   </div>
