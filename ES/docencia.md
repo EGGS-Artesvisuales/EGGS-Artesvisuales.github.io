@@ -341,7 +341,7 @@ permalink: /ES/docencia.html
       <div class="imagen">
         <img src="/assets/img/docencia-2014-barrioenpaz.jpg" alt="Imagen del taller" loading="lazy">
       </div>
-      <p>Colegio Marcela Paz, La Florida, Santiago.</p>
+      <p>Colegio Marcela Paz, Villa OHiggins, La Florida, Santiago.</p>
     </div>
   </div>
 </div>
