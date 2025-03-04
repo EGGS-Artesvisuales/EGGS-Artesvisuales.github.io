@@ -18,8 +18,8 @@
   --parrafo-font: 'Arial', sans-serif; 
 
   /* Colores base */
-  --color-fondo: #222;
-  --color-fondo-secundario: #111;
+  --color-fondo: #333;
+  --color-fondo-secundario: #222;
   --color-hover: #555;
   --color-destacado: #58a6ff;
   --color-claro: #f0f0f0;
@@ -28,7 +28,7 @@
   --color-medio-oscuro: #444;
 
   /* Tamaños tipográficos */
-  --titulo-size: 2.1rem;
+  --titulo-size: 2.3rem;
   --subtitulo-size: 1.7rem;
   --subtitulo2-size: 1.4rem; 
   --parrafo-size: 1.2rem;
@@ -44,7 +44,7 @@
   /* Botones fancy */
   --button-bg-color: #3a3a3a;
   --button-hover-bg-color: #444;
-  --button-border-radius: 0.75rem; /* 12px */
+  --button-border-radius: 0.75rem; 
   --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
   --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
   --button-focus-shadow: 0 0 0 0.1875rem rgba(88, 166, 255, 0.6), var(--button-shadow); /* 3px */
