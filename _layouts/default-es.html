@@ -57,11 +57,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-  <!-- Mermaid (solo si se requiere) -->
-  {% if page.mermaid %}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
+<!-- Mermaid (solo si se requiere) -->
+{% if page.mermaid %}
+  <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script defer>
+    window.addEventListener("DOMContentLoaded", () => {
+      try {
         mermaid.initialize({
           startOnLoad: true,
           theme: 'dark',
@@ -77,12 +78,16 @@
           },
           flowchart: { wrap: true, curve: 'basis' },
           sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
-          gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 12 }
+          gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
         });
-      });
-    </script>
-  {% endif %}
+      } catch (error) {
+        console.error("Error al inicializar Mermaid:", error);
+      }
+    });
+  </script>
+{% endif %}
 </head>
+
 <body>
   <!-- Encabezado / Navegación -->
   {% include header-es.html %}
