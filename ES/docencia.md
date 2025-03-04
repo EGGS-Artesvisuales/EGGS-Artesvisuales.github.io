@@ -116,49 +116,57 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2020 -->
-    <div class="year" data-year="2020">
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
-          Taller de Pintura Evolutiva La Florida
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Talleres identitarios "Stgo. es de todos". Taller online vía Google Meet. Corporación Cultural de la Florida.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href('/ES/taller-2020.html');">
-          Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
-          Taller de Muralismo Intensivo
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Productora Mobcreative para Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
-          </p>
-        </div>
-      </div>
+<!-- 2020 -->
+<div class="year" data-year="2020">
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
+      Taller de Pintura Evolutiva La Florida
     </div>
-    
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2020-pintevo.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Talleres identitarios "Stgo. es de todos". Taller online vía Google Meet. Corporación Cultural de la Florida.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2020.html';">
+      Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2020-fibra-hue.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio Hueñicito, La Pintana, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2020-fibra-snes.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
+      Taller de Muralismo Intensivo en Hogar de menores Jose M. C
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2020-muralismomovb.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Productora Mobcreative para Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
   <!-- 2019 -->
 <div class="year" data-year="2019">
   <div class="entry">
