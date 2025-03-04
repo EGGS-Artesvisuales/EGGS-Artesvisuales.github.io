@@ -58,33 +58,57 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2023 -->
-    <div class="year" data-year="2023">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
-          Mural a 50 años del golpe de estado en Chile
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="/assets/img/boton-mural50años.gif" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Taller Artes y Oficios Balmaceda Arte Joven; a 50 años del golpe de estado en Chile, muralismo intensivo en la sede del BAJ en Quinta Normal, Santiago.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button left">Taller RECICLARTE</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            En territorios de La Florida – mediante Corporación Cultural de la Florida, Santiago.
-          </p>
-        </div>
-      </div>
+  <!-- 2023 -->
+<div class="year" data-year="2023">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
+      Mural a 50 años del golpe de estado en Chile - Balmaceda Arte Joven
     </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2023-50anobaj.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller Artes y Oficios Balmaceda Arte Joven; a 50 años del golpe de estado en Chile, muralismo intensivo en la sede del BAJ en Quinta Normal, Santiago.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button left">
+      Taller RECICLARTE
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2023-corlf-reciclaje1.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de Reciclarte en casa de la cultura de La Florida, Corporación Cultural de la Florida, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2023-corlf-reciclaje2.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de Reciclarte en Territorio comunal, Villa Los Copihues, La Florida, Santiago.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
+      Taller de Mascaras primer ciclo, Espacio cultural Los Quillayes, La Florida
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2023-corlf-masc1.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Taller de mascaras para la comundad de poblacion Villa Los Quillayes, en la comuna de La Florida, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
     
 <!-- 2022 -->
 <div class="year" data-year="2022">
