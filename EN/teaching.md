@@ -1,6 +1,6 @@
 ---
 layout: default-en
-title: Teaching
+title: "Teaching"
 permalink: /EN/teaching.html
 ---
 
@@ -9,7 +9,7 @@ permalink: /EN/teaching.html
 
 <!-- Introductory Paragraph -->
 <p class="parrafo">
-  Since I earned my degree from the Universidad de Chile in 2011, I have had the opportunity to teach—beginning this work at a young age. My passion for art, together with the rigor I apply in my work, has led me to embrace the challenges of sharing my knowledge. I consider teaching to be a continuous process in which, as an instructor, I am also an eternal learner. Each workshop has been an invaluable experience, imparting profound lessons that enrich both my art and my way of understanding the world and art.
+  Since I earned my degree from the Universidad de Chile in 2011, I have had the opportunity to teach—beginning this work at a very young age. My passion for art, along with the rigor I apply in my work, led me to face the challenges of sharing my knowledge. I consider teaching a continuous process in which, as an instructor, I am also an eternal learner. Each workshop has been an invaluable experience, imparting profound lessons that enrich both my art and my understanding of the world and my vision of art.
 </p>
 
 <!-- Timeline Subtitle -->
@@ -32,26 +32,29 @@ permalink: /EN/teaching.html
     <!-- 2024 -->
     <div class="year" data-year="2024">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/EN/taller-2024.html';">Mask Workshop</div>
+        <div class="fun-button right" onclick="window.location.href='/EN/taller-2024.html';">
+          Mask Workshop, Los Quillayes Cultural Space, La Florida
+        </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2024-masc-lf.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Framed within the social strengthening program in Villa Los Quillayes, Comuna de La Florida.<br>
-            Workshop for children and youth at Espacio Los Quillayes, organized by Corporación Cultural de La Florida.
+            Framed within the social empowerment program in Villa Los Quillayes, La Florida commune.<br>
+            Workshop for children and youth at Los Quillayes Cultural Space, organized by Corporación Cultural de La Florida.
           </p>
         </div>
       </div>
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/EN/taller-2024.html';">Intensive Muralism Workshop</div>
+        <div class="fun-button right" onclick="window.location.href='/EN/taller-2024.html';">
+          Intensive Muralism Workshop at María Pinto School
+        </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2024-mapinto.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Framed within the Mineduc arts strengthening program, through Fibra at Liceo Politécnico María Pinto, Comuna de María Pinto, Región Metropolitana.<br>
-            Workshop for children and youth at Espacio Los Quillayes, organized by Corporación Cultural de La Florida.
+            Framed within the Mineduc arts strengthening program, through Fibra consultancy at María Pinto Polytechnic High School, María Pinto commune, Metropolitan Region.
           </p>
         </div>
       </div>
@@ -61,25 +64,48 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2023">
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2023.html';">
-          Mural on the 50th Anniversary of Chile's Coup d'État
+          Mural for the 50th Anniversary of Chile's Coup d'État - Balmaceda Arte Joven
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/boton-mural50años.gif" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-50anobaj.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Workshop Artes y Oficios Balmaceda Arte Joven; commemorating 50 years since the coup d'état in Chile, featuring intensive muralism at the BAJ headquarters in Quinta Normal, Santiago.
+            Balmaceda Arte Joven Arts and Crafts Workshop; commemorating 50 years since Chile's coup d'état, featuring intensive muralism at the BAJ headquarters in Quinta Normal, Santiago.
           </p>
         </div>
       </div>
       <div class="entry">
-        <div class="fun-button left">RECICLARTE Workshop</div>
+        <div class="fun-button left">
+          RECICLARTE Workshop, Cultura La Florida
+        </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-corlf-reciclaje1.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            In La Florida – through Corporación Cultural de la Florida, Santiago.
+            Reciclarte Workshop at La Florida Cultural Center, organized by Corporación Cultural de la Florida, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2023-corlf-reciclaje2.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Reciclarte Workshop in the communal territory of Villa Los Copihues, La Florida, Santiago.
+          </p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="fun-button left" onclick="window.location.href='/EN/taller-2023.html';">
+          First Cycle Mask Workshop, Los Quillayes Cultural Space, La Florida
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2023-corlf-masc1.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Mask workshop for the community of Villa Los Quillayes, in the La Florida commune, Santiago.
           </p>
         </div>
       </div>
@@ -88,12 +114,29 @@ permalink: /EN/teaching.html
     <!-- 2022 -->
     <div class="year" data-year="2022">
       <div class="entry">
-        <div class="fun-button right">Summer Workshops in La Florida – Muralism</div>
+        <div class="fun-button right">
+          Summer Workshops in La Florida – Muralism
+        </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2022-muralismocorlf.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Corporación Cultural de la Florida, Santiago.</p>
+          <p>
+            Corporación Cultural de la Florida, El Hualle, La Florida, Santiago.
+          </p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="fun-button right">
+          Plastic Arts at San Esteban de las Vizcachas School
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2022-bsnes.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Plastic Arts subject at San Esteban de Las Vizcachas School, Puente Alto, Santiago.
+          </p>
         </div>
       </div>
     </div>
@@ -106,10 +149,31 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2021-hue.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+            Colegio Hueñicito, La Pintana, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2021-snest.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+          </p>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="fun-button left" onclick="window.location.href='/EN/taller-2021.html';">
+          Summer Workshops, Cultura La Florida
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2021-muralismocorlf.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Corporación Cultural de La Florida, headquarters at El Hualle, La Florida, Santiago.
           </p>
         </div>
       </div>
@@ -123,10 +187,10 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-pintevo.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Identity Workshops “Stgo. is for everyone”. Online workshop via Google Meet. Corporación Cultural de la Florida.
+            Identity Workshops "Stgo. is for everyone". Online workshop via Google Meet. Corporación Cultural de la Florida.
           </p>
         </div>
       </div>
@@ -136,23 +200,31 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-fibra-hue.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+            Colegio Hueñicito, La Pintana, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2020-fibra-snes.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
           </p>
         </div>
       </div>
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2020.html';">
-          Intensive Muralism Workshop
+          Intensive Muralism Workshop at Jose M. C Youth Home
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-muralismomovb.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Productora Mobcreative for Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
+            Mobcreative Production for Hogar de Menores Cardenal José María Caro, La Pintana, Santiago.
           </p>
         </div>
       </div>
@@ -162,14 +234,30 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2019">
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2019.html';">
-          Fibra Mineduc Artistic Workshops: Illustration and Painting Workshop
+          Fibra Mineduc Artistic Workshops
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2019-altascumbre-fibra.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago; Escuela Los Andes, Pte. Alto, Santiago; Colegio Altas Cumbres, Pte. Alto, Santiago.
+            Muralism workshop at Altas Cumbres School, Puente Alto, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2019-losandes.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Plastic Arts workshop at Los Andes School, Puente Alto, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2019-snesteb.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Painting workshop at San Esteban de Las Vizcachas School, Puente Alto, Santiago.
           </p>
         </div>
       </div>
@@ -179,40 +267,42 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2018">
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2018.html';">
-          Muralism Workshop
+          Muralism Workshop: Santiago Cultura
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-culturastgo-irenefrei.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            I. Municipalidad de Santiago; Palacio Álamos – Escuela Irene Frei de Cid.
+            Cultura Santiago – Santiago Municipality; Palacio Álamos / Escuela Irene Frei de Cid.
           </p>
         </div>
       </div>
+      
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2018.html';">
           Fibra Mineduc Artistic Workshops: Muralism Workshop
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-fibra.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Liceo Olof Palme, La Cisterna, Santiago.
+            Olof Palme School, La Cisterna, Santiago.
           </p>
         </div>
       </div>
+      
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2018.html';">
           Muralism Workshop (Programa Senda Previene)
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-sendaloprado.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Act in Time. Lo Prado, Santiago, Chile.
+            SENDA - PREVIENE Program: Act in Time. Lo Prado, Santiago, Chile.
           </p>
         </div>
       </div>
@@ -222,24 +312,37 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2017">
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2017.html';">
-          Muralism Workshop: Programa Senda Previene – Colegio Mirador
+          Muralism Workshop: Programa Senda Previene – Metropolitan Region
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2017-senda-colegio.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>San Ramón, Santiago.</p>
+          <p>
+            Painting workshop at Colegio Mirador, San Ramón, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2017-senda-lautaro.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Community Muralism Workshop in Villa Lautaro, Lo Prado commune, Santiago.
+          </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2017.html';">
           Fibra Mineduc Artistic Workshops: Visual Arts Workshop
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2017-ceia.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Complejo educacional C.E.I.A, La Pintana, Santiago.</p>
+          <p>
+            C.E.I.A Educational Complex, La Pintana, Santiago.
+          </p>
         </div>
       </div>
     </div>
@@ -252,36 +355,46 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-ceia-graff.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio C.E.I.A, La Pintana, Santiago; Liceo Puente Alto, Santiago.
+            C.E.I.A School, La Pintana, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2016-graff-licptealto.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Puente Alto School, Santiago.
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2016.html';">
-          Muralism and Graffiti Workshop
+          Muralism and Graffiti Workshop EDEX, COMUDEF
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-edex-graff-cas1.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Cardenal Samoré, Programa E.D.E.X ley SEP; Corporación de educación de la I. Municipalidad de La Florida.
+            Colegio Cardenal Samoré, EDEX Program, SEP law; Education Corporation of the La Florida Municipality.
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2016.html';">
-          Experimental Muralism Workshop
+          Muralism Workshop - PACE Program - MINEDUC / USACH
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-pace-usach.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Santiago Bueras, Maipú, Santiago. Programa PACE – MINEDUC. USACH.
+            Colegio Santiago Bueras, Maipú, Santiago. PACE – MINEDUC Program. USACH.
           </p>
         </div>
       </div>
@@ -291,40 +404,69 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2015">
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2015.html';">
-          Graffiti Workshop
+          Graffiti Workshop, EDEX Program - Comudef
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015_.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Cardenal Samoré, Programa EDEX; Corporación de I. Municipalidad de la Florida, Santiago.
+            Colegio Cardenal Samoré, EDEX Program; Education Corporation of the La Florida Municipality, Santiago.
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2015.html';">
-          Muralism Workshop: Programa Senda Previene
+          Muralism Workshop: SENDA Previene Program
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-lo-cañas-muralismo-senda.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Act in Time. Colegio Alberto Magno, Lo Cañas; Colegio Cardenal Antonio Samoré; Colegio Los Navíos; Colegio Nuevo Amanecer; Colegio London College (all in La Florida, Santiago).
+            SENDA Previene Program: Act in Time. Colegio Lo Cañas, La Florida, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2015-london-muralismo-senda.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            SENDA Previene Program: Act in Time. Colegio London, La Florida, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2015-navios-muralismo-senda.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            SENDA Previene Program: Act in Time. Colegio Los Navíos, La Florida, Santiago.
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/EN/taller-2015.html';">
           MINEDUC BALMACEDA 1215 Artistic Workshops: Programa Vivo el Arte
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-ceia-muralismo.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Muralism workshop at Colegio CEIA, La Pintana, Santiago; Visual workshop at Liceo Puente Alto, Pte. Alto, Santiago.
+            Muralism workshop at Colegio CEIA, La Pintana, Santiago.
+          </p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2015-ptealto-cortometraje.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Short film and digital image editing workshop at Puente Alto School, Santiago.
           </p>
         </div>
       </div>
@@ -334,13 +476,15 @@ permalink: /EN/teaching.html
     <div class="year" data-year="2014">
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/EN/taller-2014.html';">
-          Artistic Workshops Mi Barrio en Paz Program: Mosaic Workshop
+          Mi Barrio en Paz Program Artistic Workshops: Mosaic Workshop
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2014-barrioenpaz.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Colegio Marcela Paz, La Florida, Santiago.</p>
+          <p>
+            Marcela Paz School, Villa O'Higgins, La Florida, Santiago.
+          </p>
         </div>
       </div>
     </div>
@@ -353,22 +497,27 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2013-elsa1.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Colegio Dr. Sotero del Río; Colegio Maestra Elsa Santibáñez; Colegio María Elena (all in La Florida, Santiago).
+            Maestra Elsa Santibáñez School, La Florida, Santiago.
           </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/EN/taller-2013.html';">
-          Artistic Workshops Program: Mi Barrio en Paz – Muralism
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2013-mel2.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Villa O´Higgins, La Florida, Santiago.</p>
+          <p>
+            Maria Elena School, La Florida, Santiago.
+          </p>
+        </div>
+        <div class="text-container">
+          <div class="imagen">
+            <img src="/assets/img/docencia-2013-sotero1.jpg" alt="Workshop image" loading="lazy">
+          </div>
+          <p>
+            Sotero del Rio School, La Florida, Santiago.
+          </p>
         </div>
       </div>
     </div>
@@ -381,9 +530,11 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---forint01.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Colegio San Leonardo, Maipú, Santiago de Chile.</p>
+          <p>
+            San Leonardo School, Maipú, Santiago, Chile.
+          </p>
         </div>
       </div>
       <div class="entry">
@@ -392,10 +543,10 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---edex-01.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Corporación de I. Municipalidad de La Florida; Colegio Maestra Elsa Santibáñez, La Florida, Santiago de Chile.
+            I. Municipalidad de La Florida Corporation; Maestra Elsa Santibáñez School, La Florida, Santiago, Chile.
           </p>
         </div>
       </div>
@@ -405,9 +556,11 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---01.jpg" alt="Workshop image" loading="lazy">
           </div>
-          <p>Villa O´Higgins, La Florida, Santiago.</p>
+          <p>
+            Villa O'Higgins, La Florida, Santiago.
+          </p>
         </div>
       </div>
     </div>
@@ -420,37 +573,11 @@ permalink: /EN/teaching.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2011-1.jpg" alt="Workshop image" loading="lazy">
           </div>
           <p>
-            Servicio País / Consejo Nacional de las Artes. Villa San Ignacio – El Roble, Padre Hurtado, Región Metropolitana, Chile.
+            Servicio País / National Arts Council. Villa San Ignacio – El Roble, Padre Hurtado, Metropolitan Region, Chile.
           </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/EN/taller-2011.html';">
-          Artistic Workshops Program: Mi Barrio en Paz – Muralism
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Villa O´Higgins, La Florida, Santiago.</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- 2010 -->
-    <div class="year" data-year="2010">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/EN/taller-2010.html';">
-          Contemporary Art Workshop
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Liceo Joaquín Edwards Bello, Macul, Santiago.</p>
         </div>
       </div>
     </div>
