@@ -34,7 +34,7 @@ permalink: /ES/docencia.html
 <div class="year" data-year="2024">
   <div class="entry">
     <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
-      Taller de Máscaras
+      Taller de Máscaras, Espacio cultural Los Quillayes, La Florida
     </div>
     <div class="text-container">
       <div class="imagen">
@@ -78,7 +78,7 @@ permalink: /ES/docencia.html
   </div>
   <div class="entry">
     <div class="fun-button left">
-      Taller RECICLARTE
+      Taller RECICLARTE Cultura La Florida
     </div>
     <div class="text-container">
       <div class="imagen">
