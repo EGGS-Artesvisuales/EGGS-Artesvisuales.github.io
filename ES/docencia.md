@@ -99,22 +99,44 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2021 -->
-    <div class="year" data-year="2021">
-      <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
-          Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
-        </div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Colegio Hueñicito, La Pintana, Santiago; Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
-          </p>
-        </div>
-      </div>
+ <!-- 2021 -->
+<div class="year" data-year="2021">
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
+      Talleres Artísticos Fibra Mineduc: Arte en tiempos de pandemia
     </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2021-hue.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio Hueñicito, La Pintana, Santiago.
+      </p>
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2021-snest.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Colegio San Esteban de Las Vizcachas, Pte. Alto, Santiago.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
+      Talleres de verano, Cultura La Florida
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2021-muralismocorlf.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Corporacion cultural de La Florida, sede el El Hualle, La Florida, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
     
 <!-- 2020 -->
 <div class="year" data-year="2020">
