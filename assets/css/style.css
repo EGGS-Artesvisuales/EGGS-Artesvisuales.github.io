@@ -15,7 +15,7 @@
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
   --subtitulo2-font: 'Arial', sans-serif; 
-  --parrafo-font: 'Georgia', serif;
+  --parrafo-font: 'Arial', sans-serif; 
 
   /* Colores base */
   --color-fondo: #222;
@@ -31,7 +31,7 @@
   --titulo-size: 2.1rem;
   --subtitulo-size: 1.7rem;
   --subtitulo2-size: 1.4rem; 
-  --parrafo-size: 1rem;
+  --parrafo-size: 1.2rem;
 
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
