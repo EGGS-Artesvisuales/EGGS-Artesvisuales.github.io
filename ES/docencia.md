@@ -30,34 +30,37 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2024 -->
-    <div class="year" data-year="2024">
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Máscaras</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.<br>
-            Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
-          </p>
-        </div>
-      </div>
-      <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">Taller de Muralismo Intensivo</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>
-            Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante Fibra en Liceo Politécnico María Pinto, Comuna de María Pinto, Región Metropolitana.<br>
-            Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
-          </p>
-        </div>
-      </div>
+<!-- 2024 -->
+<div class="year" data-year="2024">
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
+      Taller de Máscaras
     </div>
-    
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2024-masc-lf.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, Comuna de La Florida.<br>
+        Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
+      Taller de Muralismo Intensivo en colegio Maria Pinto
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2024-mapinto.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Enmarcado en el programa de fortalecimiento de las artes Mineduc, mediante consultora Fibra en Liceo Politécnico María Pinto, Comuna de María Pinto, Región Metropolitana.
+      </p>
+    </div>
+  </div>
+</div>
+
   <!-- 2023 -->
 <div class="year" data-year="2023">
   <div class="entry">
