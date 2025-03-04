@@ -86,18 +86,36 @@ permalink: /ES/docencia.html
       </div>
     </div>
     
-    <!-- 2022 -->
-    <div class="year" data-year="2022">
-      <div class="entry">
-        <div class="fun-button right">Talleres de verano en La Florida – Muralismo</div>
-        <div class="text-container">
-          <div class="imagen">
-            <img src="ruta-de-la-imagen.jpg" alt="Imagen del taller" loading="lazy">
-          </div>
-          <p>Corporación Cultural de la Florida, Santiago.</p>
-        </div>
-      </div>
+<!-- 2022 -->
+<div class="year" data-year="2022">
+  <div class="entry">
+    <div class="fun-button right">
+      Talleres de verano en La Florida – Muralismo
     </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2022-muralismocorlf.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Corporación Cultural de la Florida, El Hualle, La Florida, Santiago.
+      </p>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="fun-button right">
+      Artes Plasticas colegio San Esteban de las Vizcachas
+    </div>
+    <div class="text-container">
+      <div class="imagen">
+        <img src="/assets/img/docencia-2022-bsnes.jpg" alt="Imagen del taller" loading="lazy">
+      </div>
+      <p>
+        Asignatura de Artes Plasticas en colegio San Esteban de Las Vizcachas, puente Alto, Santiago.
+      </p>
+    </div>
+  </div>
+</div>
+
     
  <!-- 2021 -->
 <div class="year" data-year="2021">
