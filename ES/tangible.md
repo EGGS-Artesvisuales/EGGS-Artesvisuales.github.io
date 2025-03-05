@@ -37,14 +37,14 @@ Esta línea de trabajo incluye, hasta ahora, las siguientes series:
 <!-- Aquí se pueden añadir las series específicas cuando estén disponibles -->
 
 <div class="button-container">
-    <a href="/saturacion.html" class="fancy-button">
+    <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
             <p class="title">La Saturación</p>
             <p class="subtitle">La contaminación y producción capitalista</p>
         </div>
     </a>
-    <a href="/tecnologia.html" class="fancy-button">
+    <a href="/ES/tecnologia.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
             <p class="title">La Tecnología</p>
