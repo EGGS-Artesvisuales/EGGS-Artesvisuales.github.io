@@ -36,20 +36,26 @@ graph TD
     A[Representación del Mundo]
     A1[Lo Tangible]
     LS[La Saturación]
-    LI[Lo Invisible]
     LP[La Peste]
+    LI[Lo Invisible]
+    P[Pintura]
+    DP[Desplazamiento de la Pintura]
+    DPI[Intervenciones e instalaciones]
+    DPV[Video multimedia]
 
     A --> A1
     A1 --> LS
-    A1 --> LI
     LS --> LP
+    LS --> LI
+    LP --> P
+    LP --> DP
+    DP --> DPI
+    DP --> DPV
 
     click LS "/la-saturacion.html" "Ir a La Saturación"
     click LP "/la-peste.html" "Ir a La Peste"
 </div>
 
-
-<br>
 
 <div class="button-container">
   <a href="la-peste.html" class="fancy-button">
