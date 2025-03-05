@@ -32,6 +32,27 @@ mermaid: true
   Por su parte, Naomi Klein, en <em>No Logo</em>, aborda la saturación de las imágenes de marca y la invasión del espacio urbano por logotipos y mensajes corporativos, configurando una polución visual que revela las contradicciones de un sistema que mercantiliza cada aspecto de la vida.
 </p>
 
+<div class="button-container">
+  <a href="la-peste.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/la-peste.gif" alt="La Peste" loading="lazy">
+      <p class="title">La Peste</p>
+      <p class="subtitle">Explora el fenómeno</p>
+    </div>
+  </a>
+
+  <a href="tecnicas-expresivas.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/tecnicas-expresivas.gif" alt="Técnicas Expresivas" loading="lazy">
+      <p class="title">Lo Invisible</p>
+      <p class="subtitle">Saturación invisible</p>
+    </div>
+  </a>
+</div>
+
+<br>
+
+
 <div class="mermaid">
 graph TD
     A[Representación del Mundo]
@@ -55,24 +76,6 @@ graph TD
 
     click LS "/la-saturacion.html" "Ir a La Saturación"
     click LP "/la-peste.html" "Ir a La Peste"
-</div>
-
-<div class="button-container">
-  <a href="la-peste.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/la-peste.gif" alt="La Peste" loading="lazy">
-      <p class="title">La Peste</p>
-      <p class="subtitle">Explora el fenómeno</p>
-    </div>
-  </a>
-
-  <a href="tecnicas-expresivas.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/tecnicas-expresivas.gif" alt="Técnicas Expresivas" loading="lazy">
-      <p class="title">Lo Invisible</p>
-      <p class="subtitle">Saturación invisible</p>
-    </div>
-  </a>
 </div>
 
 <br>
