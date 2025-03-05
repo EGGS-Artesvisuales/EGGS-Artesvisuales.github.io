@@ -147,4 +147,3 @@ graph TD
 <br>
 <a href="obras.html" class="enlace">Ver más obras</a>
 <br><br>
-
