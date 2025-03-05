@@ -34,14 +34,14 @@ A partir de esta exploración surgen las series de obras organizadas en dos enfo
 </p>
 
 <div class="button-container">
-    <a href="/saturacion.html" class="fancy-button">
+    <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
             <p class="title">La Saturación</p>
             <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
         </div>
     </a>
-    <a href="/tecnologia.html" class="fancy-button">
+    <a href="/ES/tecnologia.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
             <p class="title">La Tecnología</p>
@@ -58,21 +58,21 @@ A partir de esta exploración surgen las series de obras organizadas en dos enfo
 </p>
 
 <div class="button-container">
-    <a href="/capitalismo.html" class="fancy-button">
+    <a href="/ES/capitalismo.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo">
             <p class="title">Imágenes del Capitalismo</p>
             <p class="subtitle">Reflexiones sobre estructuras económicas</p>
         </div>
     </a>
-    <a href="/popular.html" class="fancy-button">
+    <a href="/ES/popular.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular">
             <p class="title">Imágenes de lo Popular</p>
             <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
         </div>
     </a>
-    <a href="/ancestros.html" class="fancy-button">
+    <a href="/ES/ancestros.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros">
             <p class="title">Imágenes de los Ancestros</p>
