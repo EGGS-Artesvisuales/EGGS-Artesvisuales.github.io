@@ -33,23 +33,19 @@ mermaid: true
 
 <div class="mermaid">
 graph TD
-    RW[Representación del Mundo]
-    LT[Lo Tangible]
+    A[Representación del Mundo]
+    A1[Lo Tangible]
     LS[La Saturación]
-    LP[La Peste]
     LI[Lo Invisible]
-    AP[A. Pinturas]
-    DP[Desplazamiento de la Pintura]
+    LP[La Peste]
 
-    RW --> LT
-    LT --> LS
+    A --> A1
+    A1 --> LS
+    A1 --> LI
     LS --> LP
-    LP --> LI
-    LI --> AP
-    LI --> DP
 
-    click LS "saturacion.html" "Descubre más sobre Saturación"
-    click LP "la-peste.html" "Explorar La Peste"
+    click LS "/la-saturacion.html" "Ir a La Saturación"
+    click LP "/la-peste.html" "Ir a La Peste"
 </div>
 
 
