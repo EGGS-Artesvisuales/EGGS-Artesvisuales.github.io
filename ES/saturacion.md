@@ -13,14 +13,15 @@ mermaid: true
 <p class="parrafo" style="margin-top: 6%;">
   La Saturación es un concepto que alude tanto a la contaminación del entorno como a la sobrecarga de estímulos inherente al modelo de producción actual.
 </p>
+
 <p class="parrafo">
-  Este fenómeno se erige como un paradigma esencial para comprender la complejidad de nuestra época. En un mundo inundado de información, imágenes y estímulos, la saturación no solo refleja un síntoma de nuestro tiempo, sino que se transforma en un recurso estético y conceptual. Desde una perspectiva en humanidades, estética y filosofía del arte, se analiza la saturación como hipótesis artística que articula la experiencia contemporánea.
+  Este fenómeno se erige como un paradigma esencial para comprender la complejidad de nuestra época. En un mundo inundado de información, imágenes y estímulos, la saturación no solo refleja un síntoma de nuestro tiempo, sino que se transforma en un recurso estético y conceptual. Desde una perspectiva en humanidades, estética y filosofía del arte, se analiza como una hipótesis artística que articula la experiencia contemporánea.
 </p>
 
 <h3>La Saturación como Reflexión del Exceso Contemporáneo</h3>
 
 <p class="parrafo">
-  Más allá de la acumulación cuantitativa de estímulos, la saturación transforma la percepción y el significado en el arte y en la vida diaria. La sobreabundancia de imágenes, mensajes publicitarios y datos genera un campo de batalla en el que lo trivial compite con lo trascendental, invitando al artista a explorar la polisemia y la ambigüedad.
+  Más allá de la mera acumulación cuantitativa de estímulos, la saturación transforma la percepción y el significado en el arte y en la vida diaria. La sobreabundancia de imágenes, mensajes publicitarios y datos genera un campo de batalla en el que lo trivial compite con lo trascendental, invitando al artista a explorar la polisemia y la ambigüedad.
 </p>
 
 <p class="parrafo">
@@ -56,7 +57,6 @@ graph TD
     click LP "/la-peste.html" "Ir a La Peste"
 </div>
 
-
 <div class="button-container">
   <a href="la-peste.html" class="fancy-button">
     <div class="button-content">
@@ -69,16 +69,8 @@ graph TD
   <a href="tecnicas-expresivas.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/tecnicas-expresivas.gif" alt="Técnicas Expresivas" loading="lazy">
-      <p class="title">Técnicas Expresivas</p>
-      <p class="subtitle">Descubre nuevos lenguajes</p>
-    </div>
-  </a>
-
-  <a href="interpretacion-visual.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/interpretacion-visual.gif" alt="Interpretación Visual" loading="lazy">
-      <p class="title">Interpretación Visual</p>
-      <p class="subtitle">Descifra el mensaje de la saturación</p>
+      <p class="title">Lo Invisible</p>
+      <p class="subtitle">Saturación invisible</p>
     </div>
   </a>
 </div>
@@ -86,4 +78,3 @@ graph TD
 <br>
 <a href="obras.html" class="enlace">Ver más obras</a>
 <br><br>
-
