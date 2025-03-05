@@ -499,11 +499,6 @@ __________________________ */
   box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.15);
 }
 
-
-
-
-
-
 /* ------------------------------------------------------------------
    LLENADO DE LA BARRA
 ------------------------------------------------------------------ */
@@ -602,7 +597,7 @@ __________________________ */
   padding: 1.25rem; /* 20px */
 }
 .timeline {
-  border-left: 0.1875rem solid var(--content-title-color); /* 3px */
+  border-left: 0.3rem solid var(--content-title-color); /* 3px */
   position: relative;
   width: 100%;
   padding-left: 1.25rem; /* 20px */
@@ -621,7 +616,7 @@ __________________________ */
   background-color: var(--color-fondo);
   color: var(--color-claro);
   font-family: var(--titulo-font);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   padding: 0.3125rem 0.625rem; /* 5px 10px */
@@ -784,74 +779,7 @@ footer {
   border-bottom: none; /* Se elimina cualquier subrayado o borde inferior */
 }
 
-/* ------------------------------------------------------------------
-   DIAGRAMAS MERMAID
------------------------------------------------------------------- */
-.diagram-container {
-  text-align: center;
-  margin: 1rem auto 1rem; /* 50px auto 60px */
-  padding: 0.2rem; /* 20px */
-  width: 100%;
-  background-color: var(--color-fondo);
-  border: 0.0625rem solid var(--color-claro); /* 1px */
-  border-radius: 0.5rem; /* 8px */
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.4); /* 0 4px 8px */
-  overflow: auto;
-  font-family: var(--parrafo-font);
-  color: var(--color-claro);
-}
-.diagram-container + .diagram-container {
-  margin-top: 1.875rem; /* 30px */
-}
-.mermaid {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: auto;
-  margin: 2em 0;
-  clear: both;
-  font-family: var(--parrafo-font);
-  color: var(--color-claro);
-}
-.mermaid svg {
-  display: block;
-  margin: 0 auto;
-  width: 100% !important;
-  height: auto !important;
-}
-.diagram-title h2 {
-  font-family: var(--titulo-font);
-  font-size: var(--titulo-size);
-  font-weight: bold;
-  color: var(--color-destacado);
-  letter-spacing: var(--spacing-tight);
-  margin-bottom: var(--margin-bottom-large);
-  text-align: center;
-}
-.diagram-subtitle h3 {
-  font-family: var(--subtitulo-font);
-  font-size: var(--subtitulo-size);
-  font-weight: 600;
-  color: #aaaaaa;
-  margin-bottom: var(--margin-bottom-medium);
-}
-.diagram-content p {
-  font-family: var(--parrafo-font);
-  max-width: var(--content-max-width);
-  font-size: var(--parrafo-size);
-  line-height: var(--line-height);
-  color: var(--color-claro);
-  margin-bottom: var(--margin-bottom-small);
-}
-.mermaid a {
-  text-decoration: none;
-  font-family: var(--subtitulo-font);
-  font-weight: 600;
-  color: #aaaaaa;
-}
-.mermaid a:hover {
-  text-decoration: underline;
-}
+
 
 /* ------------------------------------------------------------------
    FORMULARIOS
