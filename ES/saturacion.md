@@ -8,45 +8,50 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 
-<div class="subtitulo">Manifestación del Exceso y la Transformación Estética en la Era Contemporánea</div>
+<div class="subtitulo">Manifestación del Exceso</div>
 
 <p class="parrafo" style="margin-top: 6%;">
   La Saturación es un concepto que alude tanto a la contaminación del entorno como a la sobrecarga de estímulos inherente al modelo de producción actual.
 </p>
 <p class="parrafo">
-  La saturación se erige como un paradigma esencial para comprender la complejidad de nuestra época. En un mundo inundado de información, imágenes y estímulos, este fenómeno no solo refleja un síntoma de nuestro tiempo, sino que se transforma en un recurso estético y conceptual. Desde una perspectiva doctoral en humanidades, estética y filosofía del arte, se analiza la saturación como hipótesis artística que articula la experiencia contemporánea, desplegándose en dos sub-series de mi obra.
+  Este fenómeno se erige como un paradigma esencial para comprender la complejidad de nuestra época. En un mundo inundado de información, imágenes y estímulos, la saturación no solo refleja un síntoma de nuestro tiempo, sino que se transforma en un recurso estético y conceptual. Desde una perspectiva en humanidades, estética y filosofía del arte, se analiza la saturación como hipótesis artística que articula la experiencia contemporánea.
 </p>
 
-<h3>1. La Saturación como Reflexión del Exceso Contemporáneo</h3>
+<h3>La Saturación como Reflexión del Exceso Contemporáneo</h3>
 
 <p class="parrafo">
-  Más allá de la simple acumulación cuantitativa de estímulos, la saturación transforma la percepción y el significado en el arte y la vida diaria. La sobreabundancia de imágenes, mensajes publicitarios y datos genera un campo de batalla donde lo trivial compite con lo trascendental. Este entorno saturado invita al artista a explorar la polisemia y la ambigüedad, convirtiendo el exceso en objeto de reflexión y crítica.
+  Más allá de la acumulación cuantitativa de estímulos, la saturación transforma la percepción y el significado en el arte y en la vida diaria. La sobreabundancia de imágenes, mensajes publicitarios y datos genera un campo de batalla en el que lo trivial compite con lo trascendental, invitando al artista a explorar la polisemia y la ambigüedad.
 </p>
 
 <p class="parrafo">
-  En su ensayo <em>El intervalo perdido</em>, Guido Dorfles examina la saturación en el ámbito publicitario, donde la sobreexposición a imágenes y mensajes diluye el sentido original de la comunicación. Este análisis es fundamental para comprender cómo la saturación se convierte en un medio para criticar la cultura del consumo y la omnipresencia del mensaje publicitario.
+  En su ensayo <em>El intervalo perdido</em>, Guido Dorfles examina la saturación en el ámbito publicitario, donde la sobreexposición diluye el sentido original de la comunicación, convirtiéndose en un medio para criticar la cultura del consumo.
 </p>
-
 
 <p class="parrafo">
-  Por su parte, Naomi Klein, en <em>No Logo</em>, aborda la saturación de las imágenes de marca y la invasión del espacio urbano por logotipos y mensajes corporativos. Según Klein, este fenómeno configura una polución visual y simbólica que, lejos de embellecer, actúa como mecanismo de control y manipulación, revelando las contradicciones de un sistema que mercantiliza cada aspecto de la vida.
+  Por su parte, Naomi Klein, en <em>No Logo</em>, aborda la saturación de las imágenes de marca y la invasión del espacio urbano por logotipos y mensajes corporativos, configurando una polución visual que revela las contradicciones de un sistema que mercantiliza cada aspecto de la vida.
 </p>
-
-
 
 <div class="mermaid">
 graph TD
-    S[Saturación]
-    S --> P[La Peste]
-    S --> T[Técnicas Expresivas]
-    S --> I[Interpretación Visual]
-    P --> U[Lo Invisible]
-    
-    click S "saturacion.html" "Descubre más sobre Saturación"
-    click P "la-peste.html" "Explorar La Peste"
-    click T "tecnicas-expresivas.html" "Ver Técnicas Expresivas"
-    click I "interpretacion-visual.html" "Interpretación Visual"
+    RW[Representación del Mundo]
+    LT[Lo Tangible]
+    LS[La Saturación]
+    LP[La Peste]
+    LI[Lo Invisible]
+    AP[A. Pinturas]
+    DP[Desplazamiento de la Pintura]
+
+    RW --> LT
+    LT --> LS
+    LS --> LP
+    LP --> LI
+    LI --> AP
+    LI --> DP
+
+    click LS "saturacion.html" "Descubre más sobre Saturación"
+    click LP "la-peste.html" "Explorar La Peste"
 </div>
+
 
 <br>
 
@@ -79,3 +84,4 @@ graph TD
 <br>
 <a href="obras.html" class="enlace">Ver más obras</a>
 <br><br>
+
