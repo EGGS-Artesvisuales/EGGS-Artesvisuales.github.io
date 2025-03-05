@@ -8,19 +8,18 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 
-<div class="subtitulo">Una manifestación de intensidad visual en el arte contemporáneo</div>
+<div class="subtitulo">caracteristica fundamental de nuestra época</div>
 
 <p class="parrafo" style="margin-top: 6%;">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Saturación explora la fusión de colores, texturas y emociones, creando una experiencia visual única. Cada obra se convierte en una declaración de intensidad, donde lo sensorial se entrelaza con lo conceptual.
-</p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Saturación es un concepto que tiene que ver con la contaminacion del mundo, pero tambien la saturacion de estumilos qeu tienen que ver con el modelo produccion atual.</p>
 <br>
 
 <div class="mermaid">
 graph TD
     S[Saturación]
     S --> P[La Peste]
-    S --> T[Técnicas Expresivas]
-    S --> I[Interpretación Visual]
+    S --> T[Pinturas]
+    S --> I[Desplazamiento de la pintura]
 
     click S "saturacion.html" "Descubre más sobre Saturación"
     click P "la-peste.html" "Explorar La Peste"
