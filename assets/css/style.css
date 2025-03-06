@@ -79,7 +79,7 @@ body {
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.1rem;
+  font-size: 1.01rem;
   overflow-x: hidden;
 }
 
