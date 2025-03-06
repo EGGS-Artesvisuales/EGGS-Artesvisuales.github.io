@@ -72,14 +72,14 @@
    ESTILO GLOBAL DEL BODY E IMÁGENES
 ------------------------------------------------------------------ */
 body {
-  background: linear-gradient(135deg, var(--color-fondo), var(--color-medio-oscuro), var(--color-hover));
+  background: linear-gradient(173deg, var(--color-fondo), var(--color-medio-oscuro), var(--color-hover));
   color: var(--color-claro);
   font-family: Arial, sans-serif;
   text-align: left;
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   overflow-x: hidden;
 }
 
