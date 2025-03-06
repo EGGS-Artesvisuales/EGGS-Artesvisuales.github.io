@@ -19,8 +19,8 @@
 
   /* Colores base */
    
-  --color-fondo: #333;
-  --color-fondo-secundario: #222;
+  --color-fondo: #222;
+  --color-fondo-secundario: #333;
   --color-hover: #555;
   --color-destacado: #58a6ff;
   --color-claro: #f0f0f0;
@@ -79,7 +79,7 @@ body {
   line-height: var(--line-height);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1rem;
+  font-size: 1.2rem;
   overflow-x: hidden;
 }
 
