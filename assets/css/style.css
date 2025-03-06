@@ -18,6 +18,7 @@
   --parrafo-font: 'Arial', sans-serif; 
 
   /* Colores base */
+   
   --color-fondo: #333;
   --color-fondo-secundario: #222;
   --color-hover: #555;
@@ -71,7 +72,7 @@
    ESTILO GLOBAL DEL BODY E IMÁGENES
 ------------------------------------------------------------------ */
 body {
-  background-color: var(--color-fondo);
+  background: linear-gradient(135deg, var(--color-fondo), var(--color-medio-oscuro), var(--color-hover));
   color: var(--color-claro);
   font-family: Arial, sans-serif;
   text-align: left;
