@@ -77,7 +77,7 @@
    ESTILO GLOBAL DEL BODY E IMÁGENES
 ------------------------------------------------------------------ */
 body {
-  background: linear-gradient(173deg, var(--color-fondo), var(--color-medio-oscuro), var(--color-hover));
+  background: linear-gradient(73deg, var(--color-fondo), var(--color-medio-oscuro), var(--color-hover));
   color: var(--color-claro);
   font-family: Arial, sans-serif;
   font-size: 1.01rem;
