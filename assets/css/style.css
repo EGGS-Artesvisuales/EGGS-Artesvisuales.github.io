@@ -18,7 +18,7 @@
   --parrafo-font: 'Arial', sans-serif; 
 
   /* Colores base */
-  --color-fondo: #111;
+  --color-fondo: #222;
   --color-fondo-secundario: #333;
   --color-hover: #555;
   --color-destacado: #58a6ff;
@@ -28,10 +28,10 @@
   --color-medio-oscuro: #444;
 
   /* Tamaños tipográficos */
-  --titulo-size: 2.3rem;
-  --subtitulo-size: 1.7rem;
+  --titulo-size: 3rem;
+  --subtitulo-size: 2rem;
   --subtitulo2-size: 1.4rem; 
-  --parrafo-size: 1.2rem;
+  --parrafo-size: 1.1rem;
 
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
