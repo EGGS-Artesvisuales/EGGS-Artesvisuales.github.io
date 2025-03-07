@@ -535,6 +535,10 @@ __________________________ */
    mermaid 
 __________________________*/
 
+/* ________________________-
+   mermaid 
+__________________________*/
+
 .mermaid {
   text-align: center; /* Centra el contenido en línea */
 }
@@ -543,17 +547,11 @@ __________________________*/
   display: inline-block; /* Permite centrar el SVG */
 }
 
-.mermaid svg g.node text {
-  font-size: 1.1rem !important;
+.mermaid svg g.node:hover {
+  filter: invert(66%);
+  transition: filter 0.3s ease-in-out;
 }
 
-.mermaid svg g.node:hover {
-  filter: invert(100%);
-  transform: scale(1.05);
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transform-origin: center;
-  transform-box: fill-box;
-}
 
 /* ------------------------------------------------------------------
    PRODUCTOS
