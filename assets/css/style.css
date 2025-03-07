@@ -532,10 +532,8 @@ __________________________ */
 
 
 /* ________________________-
-____________
-mermaid _____________________
+   mermaid 
 __________________________*/
-
 
 .mermaid {
   text-align: center; /* Centra el contenido en línea */
@@ -545,9 +543,10 @@ __________________________*/
   display: inline-block; /* Permite centrar el SVG */
 }
 
-.mermaid svg:hover {
+.mermaid svg g.node:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
 }
 
 
