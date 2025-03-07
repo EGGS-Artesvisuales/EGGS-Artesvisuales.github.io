@@ -543,6 +543,10 @@ __________________________*/
   display: inline-block; /* Permite centrar el SVG */
 }
 
+.mermaid svg g.node text {
+  font-size: 1.1rem !important;
+}
+
 .mermaid svg g.node:hover {
   filter: invert(100%);
   transform: scale(1.05);
