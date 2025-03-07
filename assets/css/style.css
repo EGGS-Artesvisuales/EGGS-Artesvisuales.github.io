@@ -545,6 +545,12 @@ __________________________*/
   display: inline-block; /* Permite centrar el SVG */
 }
 
+.mermaid svg:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+
 
 /* ------------------------------------------------------------------
    PRODUCTOS
