@@ -545,9 +545,10 @@ __________________________*/
 
 .mermaid svg g.node:hover {
   filter: invert(100%);
-  transition: filter 0.3s ease-in-out;
+  transform: scale(1.05);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform-origin: center center;
 }
-
 
 
 /* ------------------------------------------------------------------
