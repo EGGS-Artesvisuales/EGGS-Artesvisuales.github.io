@@ -551,9 +551,9 @@ __________________________*/
   filter: invert(100%);
   transform: scale(1.05);
   transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-  transform-origin: center center;
+  transform-origin: center;
+  transform-box: fill-box;
 }
-
 
 /* ------------------------------------------------------------------
    PRODUCTOS
