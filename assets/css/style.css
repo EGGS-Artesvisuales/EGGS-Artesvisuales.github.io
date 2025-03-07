@@ -544,7 +544,7 @@ __________________________*/
 }
 
 .mermaid svg g.node:hover {
-  transform: scale(0.05);
+  transform: scale(0.3);
   transition: transform 0.3s ease-in-out;
   transform-origin: center center;
 }
