@@ -1,20 +1,20 @@
 ---
 layout: default-es
 title: Inicio
-description: "Bienvenido a EGGS-Studio, explorando el arte."
+description: \"Bienvenido a EGGS-Studio, explorando el arte.\"
 permalink: /ES/index.html
 mermaid: true
 ---
 
-<div class="titulo">BIENVENID@ a EGGS-Studio</div>
+<div class=\"titulo\">Bienvenid@ a EGGS-Studio</div>
 
-<div class="subtitulo">ARTES VISUALES INTEGRADAS: Descubre ideas, obras y proyectos.</div>
+<div class=\"subtitulo\">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
 
-<p class="parrafo" style="margin-top: 6%;">
+<p class=\"parrafo\" style=\"margin-top: 6%;\">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explora un espacio donde comparto desde proyectos íntimos hasta obras de gran escala, organizados mediante un esquema que clarifica mi práctica artística.
 </p>
 
-<div class="mermaid">
+<div class=\"mermaid\">
 graph TD
   AA[Actividad Artística]
   AA --> A[Representación del Mundo]
@@ -27,6 +27,7 @@ graph TD
 
   A1 --> A1a[La Saturación]
   A1a --> A1a1[La Peste]
+  A1a --> A1a2[Lo Invisible]
 
   A1 --> A1b[La Tecnología]
 
@@ -45,11 +46,15 @@ graph TD
   C --> C1[Arte y Psicología]
   C --> C2[Arte y Espiritualidad]
 
+  %% Click commands Nodo Principal
+  click AA "/ES/index.html" "Ir al Inicio"
+
   %% Click commands Representación del Mundo
   click A "/Es/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/Es/tangible.html" "Ir a Lo Tangible"
   click A1a "/Es/la-saturacion.html" "Ir a La Saturación"
   click A1a1 "/Es/la-peste.html" "Ir a La Peste"
+  click A1a2 "/Es/lo-invisible.html" "Ir a Lo Invisible"
   click A1b "/Es/la-tecnologia.html" "Ir a La Tecnología"
   click A2 "/Es/intangible.html" "Ir a Lo Intangible"
   click A2a "/Es/el-capitalismo.html" "Ir a El Capitalismo"
@@ -70,33 +75,33 @@ graph TD
   click C2 "/Es/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
 </div>
 
-<div class="subtitulo" style="margin-top: 4%;">Categorías:</div>
+<div class=\"subtitulo\" style=\"margin-top: 4%;\">Categorías:</div>
 
-<div class="button-container">
-  <a href="/Es/mundo-exterior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="Obras de Representación del Mundo" loading="lazy">
-      <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Obras que retratan, reflejan y/o comentan el mundo.</p>
+<div class=\"button-container\">
+  <a href=\"/Es/mundo-exterior.html\" class=\"fancy-button\">
+    <div class=\"button-content\">
+      <img src=\"/assets/img/ES-inicio - representacion del mundo.gif\" alt=\"Obras de Representación del Mundo\" loading=\"lazy\">
+      <p class=\"title\">Representación del Mundo</p>
+      <p class=\"subtitle\">Obras que retratan, reflejan y/o comentan el mundo.</p>
     </div>
   </a>
 
-  <a href="/Es/accion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Obras de Acción en el Mundo" loading="lazy">
-      <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Actividades comunitarias, talleres y servicios.</p>
+  <a href=\"/Es/accion.html\" class=\"fancy-button\">
+    <div class=\"button-content\">
+      <img src=\"/assets/img/index---gif--accion-en-el-mundo.gif\" alt=\"Obras de Acción en el Mundo\" loading=\"lazy\">
+      <p class=\"title\">Acción en el Mundo</p>
+      <p class=\"subtitle\">Actividades comunitarias, talleres y servicios.</p>
     </div>
   </a>
 
-  <a href="/Es/interior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior" loading="lazy">
-      <p class="title">Mundo Interior</p>
-      <p class="subtitle">Arte para el bienestar físico-espiritual y la introspección.</p>
+  <a href=\"/Es/interior.html\" class=\"fancy-button\">
+    <div class=\"button-content\">
+      <img src=\"/assets/img/ES-inicio---mundo-interior.gif\" alt=\"Exploración del Mundo Interior\" loading=\"lazy\">
+      <p class=\"title\">Mundo Interior</p>
+      <p class=\"subtitle\">Arte para el bienestar físico-espiritual y la introspección.</p>
     </div>
   </a>
 </div>
 
-<a href="/Es/exhibiciones.html" class="enlace">ver más obras</a>
+<a href=\"/Es/exhibiciones.html\" class=\"enlace\">ver más obras</a>
 <br><br>
