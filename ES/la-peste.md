@@ -7,19 +7,23 @@ permalink: /ES/la-peste.html
 ---
 <div class="titulo">La Peste</div>
 
-<div class="subtitulo">Una reflexión visual sobre la contaminación de nuestro entorno</div>
+<div class="subtitulo">La contaminación como manifestación extrema de la saturación</div>
 
 <p class="parrafo" style="margin-top: 6%;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  Esta serie explora los efectos nocivos que diversas formas de contaminación generan en nuestro entorno inmediato. "La Peste" establece un diálogo entre la naturaleza, lo vivo, lo sagrado, el cuerpo y lo noble, enfrentándolos a la contaminación, la publicidad, la producción industrial y sus consecuencias. La obra destaca fenómenos normalizados, ignorados o invisibles que, sin embargo, afectan de manera constante nuestra calidad de vida contemporánea. Gaia, entendida como un organismo vivo, sufre las consecuencias de esta contaminación, vista como la peste del mundo. Así, la publicidad se presenta como la peste de la pintura, los desechos como la peste del paisaje y la contaminación como la peste del cuerpo.
+  Esta serie aborda la saturación, fenómeno sin precedentes en la historia humana, como rasgo definitorio de la modernidad, fruto inevitable de nuestros modos de producción y consumo. En "La Peste", la saturación se entiende específicamente como la contaminación: plásticos, calentamiento global y desechos tóxicos que transforman ciudades en vertederos y devoran los paisajes naturales con la huella humana. Inspirado por la hipótesis Gaia de James Lovelock, el proyecto concibe la Tierra como un organismo vivo, donde cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
 </p>
 
 <p class="parrafo">
-  El proyecto aborda esta problemática desde dos categorías principales:
+  "La Peste" establece un diálogo entre la naturaleza, lo vivo, lo sagrado y lo noble, enfrentándolos a la contaminación, la publicidad, la producción industrial y sus consecuencias. La publicidad se convierte en la peste de la pintura, los desechos en la peste del paisaje y la contaminación en la peste del cuerpo. Esta serie representa la corrupción del mundo físico y reconfigura el género del paisaje —tradicionalmente símbolo de pureza y nobleza en la pintura al óleo— impregnándolo con elementos contemporáneos.
+</p>
+
+<p class="parrafo">
+  El proyecto explora dos dimensiones clave:
   <br>
   1. Pintura<br>
   2. Desplazamiento de la pintura<br><br>
-  Aunque inicialmente centrado en la pintura, el proyecto amplió su perspectiva hacia espacios y objetos, incorporando instalaciones, fotografía, intervenciones y artes efímeras, para explorar profundamente las múltiples dimensiones y complejidades del tema.
+  Aunque inicialmente centrado en la pintura, este proyecto amplió su perspectiva hacia espacios y objetos, incorporando instalaciones, fotografía, intervenciones y artes efímeras, para explorar profundamente las múltiples dimensiones y complejidades del tema.
 </p>
 
 <p class="parrafo">
@@ -42,4 +46,6 @@ permalink: /ES/la-peste.html
             <p class="subtitle">Intervenciones, instalaciones y medios múltiples</p>
         </div>
     </a>
+</div>
+
 </div>
