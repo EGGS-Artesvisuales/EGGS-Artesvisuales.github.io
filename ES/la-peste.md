@@ -7,7 +7,12 @@ permalink: /ES/la-peste.html
 ---
 <div class="titulo">La Peste</div>
 
-<div class="subtitulo">La contaminación como manifestación extrema de la saturación</div>
+<div class="subtitulo">La contaminación como enfermedad de Gaia</div>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
+  <figcaption>La Peste: Reflexión visual sobre el impacto de la contaminación.</figcaption>
+</figure>
 
 <p class="parrafo" style="margin-top: 6%;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -48,4 +53,3 @@ permalink: /ES/la-peste.html
     </a>
 </div>
 
-</div>
