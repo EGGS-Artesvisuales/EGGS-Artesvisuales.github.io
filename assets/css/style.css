@@ -369,6 +369,31 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+
+/* ------------------------------------------------------------------
+   pie de fotos
+------------------------------------------------------------------ */
+.imagen-con-caption {
+  margin: 1.25rem 0;
+  text-align: center;
+}
+
+.imagen-con-caption img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-extra);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-con-caption figcaption {
+  font-family: var(--parrafo-font);
+  font-size: 0.9rem;
+  color: var(--color-medio-claro);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
 ------------------------------------------------------------------ */
