@@ -2,6 +2,7 @@
 layout: default-es
 title: Representación del Mundo
 permalink: /ES/mundo-exterior.html
+mermaid: true
 ---
 
 <div class="titulo">Representación del mundo</div>
