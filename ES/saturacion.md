@@ -33,7 +33,34 @@ mermaid: true
     En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva se alinea con la crítica ambiental pionera de Rachel Carson, subrayando la urgencia de asumir nuestra responsabilidad colectiva frente a la crisis. En la serie <em>La Peste</em>, exploro la representación del fenómeno de saturación como una contaminación que corrompe un organismo originalmente noble, puro y limpio.
   </p>
 </div>
+<br>
+<div class="mermaid">
+graph TD
+  RM[Representación del Mundo]
+  LT[Lo Tangible]
+  LS[La Saturación]
+  LP[La Peste]
+  LI[Lo Invisible]
+  P[Pintura]
+  DP[Desplazamiento de la Pintura]
+  DPI[Intervenciones e Instalaciones]
+  DPV[Video Multimedia]
 
+  RM --> LT
+  LT --> LS
+  LS --> LP
+  LS --> LI
+  LP --> P
+  LP --> DP
+  DP --> DPI
+  DP --> DPV
+
+  click LS "/Es/saturacion.html" "Ir a La Saturación"
+  click LP "/Es/la-peste.html" "Ir a La Peste"
+  click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
+</div>
+
+<br><br>
 <div class="subtitulo">La Peste</div>
 
 <p class="parrafo">
@@ -80,33 +107,7 @@ mermaid: true
 </div>
 
 
-<div class="mermaid">
-graph TD
-  RM[Representación del Mundo]
-  LT[Lo Tangible]
-  LS[La Saturación]
-  LP[La Peste]
-  LI[Lo Invisible]
-  P[Pintura]
-  DP[Desplazamiento de la Pintura]
-  DPI[Intervenciones e Instalaciones]
-  DPV[Video Multimedia]
 
-  RM --> LT
-  LT --> LS
-  LS --> LP
-  LS --> LI
-  LP --> P
-  LP --> DP
-  DP --> DPI
-  DP --> DPV
-
-  click LS "/Es/saturacion.html" "Ir a La Saturación"
-  click LP "/Es/la-peste.html" "Ir a La Peste"
-  click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
-</div>
-
-<br><br>
 <br>
 <a href="/Es/obras.html" class="enlace">Ver más obras</a>
 <br><br>
