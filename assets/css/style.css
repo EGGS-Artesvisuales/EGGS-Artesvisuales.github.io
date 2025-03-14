@@ -376,7 +376,7 @@ p.parrafo:first-of-type ul {
 .imagen-con-caption {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   margin: 1.25rem 0;
   text-align: center;
 }
