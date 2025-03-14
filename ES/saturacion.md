@@ -11,10 +11,11 @@ mermaid: true
 <div class="subtitulo">Síntoma de nuestra época</div>
 <br>
 
-<!-- Imagen principal (usa el estilo global de .imagen) -->
-<div class="imagen">
+<figure class="imagen">
   <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
-</div>
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Domesticos. s/t n°4, EGGS 2009</figcaption>
+</figure>
+
 <br><br>
 <div class="parrafo">
   <p>
