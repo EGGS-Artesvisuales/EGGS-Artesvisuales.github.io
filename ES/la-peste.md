@@ -9,7 +9,7 @@ permalink: /ES/la-peste.html
 
 <div class="subtitulo">La contaminación como enfermedad de Gaia</div>
 
-<figure class="imagen-con-caption">
+<figure class="imagen-con-caption" style="width: 66%;">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
   <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura / Espacios domesticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
