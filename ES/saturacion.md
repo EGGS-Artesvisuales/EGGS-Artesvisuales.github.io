@@ -1,10 +1,17 @@
 ---
 layout: default-es
 title: Saturación
-description: "Obras sobre saturación en el arte contemporáneo."
-permalink: /Es/saturacion.html
+description: "Obras de la saturacion arte contemporáneo."
+permalink: /es/saturacion.html
 mermaid: true
 ---
+
+<div class="titulo">La Saturación</div>
+
+<div class="subtitulo">Manifestación del Exceso</div>
+
+<h1 class="parrafo">La saturación: síntoma de nuestra época</h1>
+
 
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
