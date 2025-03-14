@@ -10,6 +10,12 @@ mermaid: true
 
 <div class="subtitulo">Manifestación del Exceso</div>
 
+<!-- Imagen principal (usa el estilo global de .imagen) -->
+<div class="imagen">
+  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+</div>
+<br>
+
 <h1 class="parrafo">La saturación: síntoma de nuestra época</h1>
 
 <p class="parrafo">
