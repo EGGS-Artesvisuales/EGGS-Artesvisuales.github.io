@@ -1,7 +1,7 @@
 ---
 layout: default-es
 title: Saturación
-description: "Obras de la saturacion arte contemporáneo."
+description: "Obras de la saturación en arte contemporáneo."
 permalink: /es/saturacion.html
 mermaid: true
 ---
@@ -18,47 +18,48 @@ mermaid: true
 <br><br>
 <div class="parrafo">
   <p>
-    En <strong>"La Saturación"</strong>, exploro visualmente cómo el exceso se ha vuelto una condición central de nuestra época. Este fenómeno conecta con reflexiones críticas sobre la sobresaturación sensorial descrita por Gillo Dorfles, quien advierte la desaparición de los espacios de contemplación en nuestra cultura contemporánea. No solo se trata de saturación material, sino también perceptiva: afecta nuestra atención y memoria colectiva, fenómeno ampliamente analizado por autores como Vilém Flusser y Kate Palmer Albers.
+    En <strong>"La Saturación"</strong> exploro visualmente cómo el exceso se ha convertido en una condición central de nuestra era. Este fenómeno no solo se vincula con la contaminación, sino que también dialoga con diversas reflexiones críticas. Por ejemplo, se conecta con la sobresaturación sensorial descrita por Gillo Dorfles en <em>El intervalo perdido</em>, quien advierte sobre la desaparición de los espacios de contemplación en la cultura contemporánea. La saturación se manifiesta tanto en lo material como en lo perceptivo, afectando nuestra atención y memoria colectiva, aspectos abordados por pensadores como Vilém Flusser y Kate Palmer Albers.
   </p>
 
   <p>
-    Inspirado por las observaciones de Jean Baudrillard sobre la cultura del derroche y el consumo desenfrenado, mi trabajo refleja el paisaje contaminado como expresión de una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon. Esta visión se complementa con las ideas de Timothy Morton y su propuesta sobre la "ecología oscura", cuestionando la representación romántica de una naturaleza idealizada.
+    Inspirado por las prácticas de artistas modernos como Baudelaire y otros que exploran la cultura del derroche y el consumo desenfrenado, mi trabajo refleja un paisaje contaminado que encarna una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon. Esta temática se desarrolla en mi serie <em>Invisible</em> a través de una pintura representacional tradicional.
   </p>
 
   <p>
-    Mi obra también busca revelar la saturación intangible que denuncian Guy Debord y Byung-Chul Han, al abordar cómo la hiperestimulación visual y la autoexplotación predominan en las sociedades neoliberales. En diálogo con prácticas artísticas contemporáneas como las de Vik Muniz y Chris Jordan, así como con la crítica visual y digital de Hito Steyerl y Constant Dullaart, investigo cómo esta saturación condiciona nuestra experiencia cotidiana.
+    Asimismo, mi obra busca revelar la saturación intangible, explorando cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales.
   </p>
 
   <p>
-    Finalmente, integro reflexiones ecológicas basadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva conecta con la pionera crítica ambiental de Rachel Carson, subrayando la urgencia de enfrentar nuestra responsabilidad colectiva en esta crisis.
+    En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva se alinea con la crítica ambiental pionera de Rachel Carson, subrayando la urgencia de asumir nuestra responsabilidad colectiva frente a la crisis. En la serie <em>La Peste</em>, exploro la representación del fenómeno de saturación como una contaminación que corrompe un organismo originalmente noble, puro y limpio.
   </p>
 </div>
 
 <div class="subtitulo">La Peste</div>
 
 <p class="parrafo">
-  En esta serie, la saturación se entiende como la polución —plásticos, calentamiento global, desechos tóxicos— que transforma ciudades en vertederos y devora paisajes con la huella humana. Partiendo de la pintura y sus desafíos inherentes, exploro la hipótesis de la contaminación como enfermedad cósmica. Hablar de “daño al ecosistema” resulta insuficiente; siguiendo la hipótesis Gaia de James Lovelock, concibo la Tierra como un organismo vivo, donde cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
+  En esta serie, la saturación se concibe como la polución —plásticos, calentamiento global, desechos tóxicos— que transforma las ciudades en vertederos y devora paisajes, dejando una huella imborrable de la intervención humana. Desde el desafío inherente a la pintura, exploro la hipótesis de la contaminación como una enfermedad cósmica. Hablar únicamente de "daño al ecosistema" resulta insuficiente; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo, en el que cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
 </p>
 
 <p class="parrafo">
-  <strong>Concepto:</strong> Representa la corrupción del mundo físico, reconfigurando el género del paisaje —símbolo de pureza y nobleza en la pintura al óleo— al impregnarse de elementos de nuestro tiempo.
+  <strong>Concepto:</strong> Representa la corrupción del mundo físico, transformando el paisaje —símbolo tradicional de pureza y nobleza en la pintura al óleo— al impregnarse de elementos propios de nuestra era.
 </p>
 
 <div class="subtitulo">Lo Invisible</div>
 
 <p class="parrafo">
-  Esta serie aborda lo intangible: el incesante bombardeo de estímulos tecnológicos —publicidad, redes sociales, información fragmentaria— que colonizan nuestra atención y nublan la percepción. Como señala Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo corroe el entorno físico, sino que erosiona los espacios internos de reflexión. Vivimos en un mundo donde la basura desborda los contenedores y los algoritmos saturan la mente.
+  Esta serie se adentra en lo intangible: el incesante bombardeo de estímulos tecnológicos —publicidad, redes sociales, información fragmentaria— que invade nuestra atención y distorsiona la percepción. Como señala Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo deteriora el entorno físico, sino que erosiona nuestros espacios internos de reflexión. Vivimos en un mundo donde la basura rebasa los contenedores y los algoritmos saturan la mente.
 </p>
 
 <p class="parrafo">
-  <strong>Concepto:</strong> Materializa lo intangible, la intoxicación de lo imperceptible, a través de metáforas sensoriales.
+  <strong>Concepto:</strong> Materializa lo intangible, capturando la intoxicación de lo imperceptible mediante metáforas sensoriales.
 </p>
 
 <h2 class="parrafo">Dos líneas artísticas, un mismo diagnóstico</h2>
 
 <p class="parrafo">
-  En mi obra, la saturación se despliega en dos series que dialogan con la tradición pictórica mientras la subvierten, ofreciendo una lectura crítica y profunda de nuestra condición contemporánea.
+  En mi obra, la saturación se expresa a través de dos series que, dialogando con la tradición pictórica, la subvierten y ofrecen una lectura crítica y profunda de nuestra realidad contemporánea.
 </p>
+<br>
 
 <div class="button-container">
   <a href="/Es/la-peste.html" class="fancy-button">
