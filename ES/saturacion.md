@@ -35,6 +35,7 @@ graph TD
   RM[Representación del Mundo]
   LT[Lo Tangible]
   LS[La Saturación]
+  LTec[La Tecnología]
   LP[La Peste]
   LI[Lo Invisible]
   P[Pintura]
@@ -44,6 +45,7 @@ graph TD
 
   RM --> LT
   LT --> LS
+  LT --> LTec
   LS --> LP
   LS --> LI
   LP --> P
@@ -55,6 +57,7 @@ graph TD
   click LP "/Es/la-peste.html" "Ir a La Peste"
   click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
 </div>
+
 <br><br>
 <div class="subtitulo">La Peste</div>
 
