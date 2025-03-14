@@ -27,7 +27,7 @@ El objetivo principal de esta categoría es capturar la esencia de nuestra époc
 A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible.
 </p>
 
-
+<br><br>
 <div class="mermaid">
 graph TD
 
@@ -58,7 +58,7 @@ click RIA "/ES/ancestros.html" "Ir a Imágenes de los Ancestros"
 
 </div>
 
-
+<br><br>
 <div class="subtitulo">Representación del mundo tangible</div>
 
 <p class="parrafo">
