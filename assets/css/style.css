@@ -339,26 +339,26 @@ p.parrafo:first-of-type ul {
   margin: 1.25rem 0;
 }
 
-/* Estilos base para imágenes dentro de .imagen que NO tengan la clase .imagen__foto */
-.imagen img:not(.imagen__foto) {
+/* Propiedades comunes para imágenes dentro de .imagen y para .imagen__foto */
+.imagen img,
+.imagen__foto {
   display: block;
-  width: 100%;
-  max-width: 100%;
   height: auto;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Estilos específicos para imágenes con clase BEM (.imagen__foto) */
+/* Estilo para imágenes que NO tienen la clase .imagen__foto */
+.imagen img:not(.imagen__foto) {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Estilo específico para imágenes con la clase BEM .imagen__foto */
 .imagen__foto {
-  display: block;
   width: 44%;
   max-width: 100%;
-  height: auto;
-  border-radius: var(--radius-extra);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-right: auto;
 }
 
@@ -371,12 +371,12 @@ p.parrafo:first-of-type ul {
 
 
 /* ------------------------------------------------------------------
-   Pie de fotos optimizado
+   PIE DE FOTOS OPTIMIZADO
 ------------------------------------------------------------------ */
 .imagen-con-caption {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center; /* 'right' no es un valor válido; se usa 'center' para centrar */
   margin: 1.25rem 0;
   text-align: center;
 }
@@ -395,6 +395,7 @@ p.parrafo:first-of-type ul {
   color: var(--color-medio-claro);
   margin-top: 0.5rem;
 }
+
 
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
