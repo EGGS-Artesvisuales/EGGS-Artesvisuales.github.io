@@ -8,16 +8,14 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 
-<div class="subtitulo">Manifestación del Exceso</div>
-
-<h1 class="parrafo">La saturación: síntoma de nuestra época</h1>
-
+<div class="subtitulo">Síntoma de nuestra época</div>
+<br>
 
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
   <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
 </div>
-
+<br><br>
 <div class="parrafo">
   <p>
     En <strong>"La Saturación"</strong>, exploro visualmente cómo el exceso se ha vuelto una condición central de nuestra época. Este fenómeno conecta con reflexiones críticas sobre la sobresaturación sensorial descrita por Gillo Dorfles, quien advierte la desaparición de los espacios de contemplación en nuestra cultura contemporánea. No solo se trata de saturación material, sino también perceptiva: afecta nuestra atención y memoria colectiva, fenómeno ampliamente analizado por autores como Vilém Flusser y Kate Palmer Albers.
