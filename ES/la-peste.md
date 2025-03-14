@@ -11,12 +11,12 @@ permalink: /ES/la-peste.html
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
-  <figcaption>La Peste: Reflexión visual sobre el impacto de la contaminación.</figcaption>
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura / Espacios domesticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  Esta serie aborda la saturación, fenómeno sin precedentes en la historia humana, como rasgo definitorio de la modernidad, fruto inevitable de nuestros modos de producción y consumo. En "La Peste", la saturación se entiende específicamente como la contaminación: plásticos, calentamiento global y desechos tóxicos que transforman ciudades en vertederos y devoran los paisajes naturales con la huella humana. Inspirado por la hipótesis Gaia de James Lovelock, el proyecto concibe la Tierra como un organismo vivo, donde cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
+  En "La Peste", la saturación se entiende específicamente como la contaminación sólida: plásticos, desechos provenientes del envasado, de la industria publicitaria, desechos de todo tipo. tóxicos que transforman ciudades en vertederos y devoran los paisajes naturales con la huella humana, con anuncios y carteles o desechos y huellas humanas.. la antipatia , contraste, entre estos elementos de la cultura y la nobleza de la naturaleza que es mermada, me hace solidarizar, simpatizar con las ideas de james lovelock y la hipótesis Gaia de James Lovelock, el proyecto concibe la Tierra como un organismo vivo, donde cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
 </p>
 
 <p class="parrafo">
@@ -24,16 +24,16 @@ permalink: /ES/la-peste.html
 </p>
 
 <p class="parrafo">
-  El proyecto explora dos dimensiones clave:
+  Este apartado de obra parte de la idea de la representacion del mundo. y como estrategia se quiere retratra un rasgo esencial. la satuaracioon aparece, y la peste es manifestacion que aca señalo porque hace una relacion con lo vivo de la tierra, el menoscabo doliente. 
+
+las herramientas primarias eran la pintura, y de luego fue ampliandoze a otros diciplininas , arte contemporaneo me permite explorar la cretaividad ampliamente mas alla d el os medios. 
+asi esta serie la peste se presenta en dos grupos de obra:
   <br>
   1. Pintura<br>
   2. Desplazamiento de la pintura<br><br>
   Aunque inicialmente centrado en la pintura, este proyecto amplió su perspectiva hacia espacios y objetos, incorporando instalaciones, fotografía, intervenciones y artes efímeras, para explorar profundamente las múltiples dimensiones y complejidades del tema.
 </p>
 
-<p class="parrafo">
-  Actualmente, esta línea de trabajo incluye las siguientes series:
-</p>
 
 <!-- Contenedor de botones para las series -->
 <div class="button-container">
