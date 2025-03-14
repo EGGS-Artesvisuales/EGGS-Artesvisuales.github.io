@@ -13,9 +13,7 @@ mermaid: true
 
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
-  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy" style="width:63%;">
-</div>
-
+  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy" style="width:88%;">
 </div>
 <br>
 
