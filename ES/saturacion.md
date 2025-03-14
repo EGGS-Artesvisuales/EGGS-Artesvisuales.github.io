@@ -6,28 +6,28 @@ permalink: /Es/saturacion.html
 mermaid: true
 ---
 
-<div class="titulo">La Saturación</div>
-
-<div class="subtitulo">Manifestación del Exceso</div>
-<br><br>
-
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
-  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy" style="width:88%;">
+  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
 </div>
-<br>
 
-<h1 class="parrafo">La saturación: síntoma de nuestra época</h1>
+<div class="parrafo">
+  <p>
+    En <strong>"La Saturación"</strong>, exploro visualmente cómo el exceso se ha vuelto una condición central de nuestra época. Este fenómeno conecta con reflexiones críticas sobre la sobresaturación sensorial descrita por Gillo Dorfles, quien advierte la desaparición de los espacios de contemplación en nuestra cultura contemporánea. No solo se trata de saturación material, sino también perceptiva: afecta nuestra atención y memoria colectiva, fenómeno ampliamente analizado por autores como Vilém Flusser y Kate Palmer Albers.
+  </p>
 
-<p class="parrafo">
-  La saturación, fenómeno sin precedentes en la historia humana, se erige como rasgo definitorio de la modernidad. No es fruto del azar, sino el resultado inevitable de nuestros modos de producción y consumo. En mi práctica artística, dedicada a retratar el espíritu de nuestro tiempo, la saturación se convierte en un eje conceptual que abre un mundo de material: un prisma para descifrar la crisis ecológica, tecnológica y perceptiva que nos envuelve.
-</p>
+  <p>
+    Inspirado por las observaciones de Jean Baudrillard sobre la cultura del derroche y el consumo desenfrenado, mi trabajo refleja el paisaje contaminado como expresión de una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon. Esta visión se complementa con las ideas de Timothy Morton y su propuesta sobre la "ecología oscura", cuestionando la representación romántica de una naturaleza idealizada.
+  </p>
 
-<h2 class="parrafo">¿Qué es la saturación?</h2>
+  <p>
+    Mi obra también busca revelar la saturación intangible que denuncian Guy Debord y Byung-Chul Han, al abordar cómo la hiperestimulación visual y la autoexplotación predominan en las sociedades neoliberales. En diálogo con prácticas artísticas contemporáneas como las de Vik Muniz y Chris Jordan, así como con la crítica visual y digital de Hito Steyerl y Constant Dullaart, investigo cómo esta saturación condiciona nuestra experiencia cotidiana.
+  </p>
 
-<p class="parrafo">
-  La saturación se manifiesta en dos dimensiones entrelazadas, a partir de las cuales se despliega mi obra en dos series:
-</p>
+  <p>
+    Finalmente, integro reflexiones ecológicas basadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva conecta con la pionera crítica ambiental de Rachel Carson, subrayando la urgencia de enfrentar nuestra responsabilidad colectiva en esta crisis.
+  </p>
+</div>
 
 <div class="subtitulo">La Peste</div>
 
