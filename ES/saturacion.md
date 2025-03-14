@@ -17,15 +17,13 @@ mermaid: true
 <br>
 <div class="parrafo">
   <p>
-    En <strong>"La Saturación"</strong> exploro visualmente cómo el exceso se ha convertido en una condición central de nuestra era. Este fenómeno no solo se vincula con la contaminación, sino que también dialoga con diversas reflexiones críticas. Por ejemplo, se conecta con la sobresaturación sensorial descrita por Gillo Dorfles en <em>El intervalo perdido</em>, quien advierte sobre la desaparición de los espacios de contemplación en la cultura contemporánea. La saturación se manifiesta tanto en lo material como en lo perceptivo, afectando nuestra atención y memoria colectiva, aspectos abordados por pensadores como Vilém Flusser y Kate Palmer Albers.
+    <strong>"La Saturación"</strong> se ha convertido en una condición central de nuestra era. Este fenómeno se vincula no solo con la contaminación material, sino también con diversas reflexiones críticas. Por ejemplo, se relaciona con la sobresaturación sensorial descrita por Gillo Dorfles en <em>El intervalo perdido</em>, quien advierte sobre la desaparición de los espacios de contemplación en la cultura contemporánea. Asimismo, influenciado por quienes exploran la cultura del derroche y el consumo desenfrenado, mi trabajo refleja un paisaje contaminado que encarna una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon.
   </p>
   <p>
-    Inspirado por las prácticas de artistas modernos como Baudelaire y otros que exploran la cultura del derroche y el consumo desenfrenado, mi trabajo refleja un paisaje contaminado que encarna una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon. Esta temática se desarrolla en mi serie <em>Invisible</em> a través de una pintura representacional tradicional.
+    La saturación se manifiesta tanto en lo material como en lo perceptivo, afectando nuestra atención y memoria colectiva, aspectos abordados por pensadores como Vilém Flusser y Kate Palmer Albers. Además, investigo la saturación intangible, explorando cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales.
   </p>
-  <p>
-    Asimismo, mi obra busca revelar la saturación intangible, explorando cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales.
-  </p>
-  <p>
+</div>
+
     En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva se alinea con la crítica ambiental pionera de Rachel Carson, subrayando la urgencia de asumir nuestra responsabilidad colectiva frente a la crisis. En la serie <em>La Peste</em>, exploro la representación del fenómeno de saturación como una contaminación que corrompe un organismo originalmente noble, puro y limpio.
   </p>
 </div>
