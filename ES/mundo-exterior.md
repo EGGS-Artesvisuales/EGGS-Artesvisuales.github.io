@@ -18,7 +18,6 @@ La pintura y, por extensión, el arte visual han sido, a lo largo de la historia
 En este marco, la reflexión sobre el entorno contemporáneo y sus fenómenos ha conducido al desarrollo de nuevas formas de expresión visual. Así, las prácticas artísticas actuales se nutren tanto de las tradiciones de la pintura como de los lenguajes de instalaciones, fotografías, videos y diversas manifestaciones del arte contemporáneo. Esta diversidad amplía las posibilidades de documentar y analizar la realidad mediante una mirada crítica y renovada.
 </p>
 
-<!-- Continúa con la sección original del texto ya existente -->
 <p class="parrafo">
 El objetivo principal de esta categoría es capturar la esencia de nuestra época mediante el análisis de sus elementos definitorios. La estrategia creativa se centra en representar tanto lo tangible como lo intangible, explorando fenómenos sociales, culturales y emocionales que trascienden el plano físico. De esta manera, la observación artística se convierte en una experiencia interpretativa que permite comprender con mayor profundidad la realidad contemporánea.
 </p>
@@ -26,6 +25,38 @@ El objetivo principal de esta categoría es capturar la esencia de nuestra époc
 <p class="parrafo">
 A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible.
 </p>
+
+
+<div class="mermaid">
+graph TD
+
+%% Nodo principal
+RM[Representación del Mundo]
+
+%% Subdivisiones principales
+RM --> RT[Tangible]
+RM --> RI[Intangible]
+
+%% Tangible
+RT --> RTS[La Saturación]
+RTS --> RTSP[La Peste]
+RTS --> RTSI[Lo Invisible]
+RT --> RTT[La Tecnología]
+
+%% Intangible
+RI --> RIC[Imágenes del Capitalismo]
+RI --> RIP[Imágenes de lo Popular]
+RI --> RIA[Imágenes de los Ancestros]
+
+%% Click commands para enlaces
+click RTS "/ES/saturacion.html" "Ir a La Saturación"
+click RTT "/ES/tecnologia.html" "Ir a La Tecnología"
+click RIC "/ES/capitalismo.html" "Ir a Imágenes del Capitalismo"
+click RIP "/ES/popular.html" "Ir a Imágenes de lo Popular"
+click RIA "/ES/ancestros.html" "Ir a Imágenes de los Ancestros"
+
+</div>
+
 
 <div class="subtitulo">Representación del mundo tangible</div>
 
