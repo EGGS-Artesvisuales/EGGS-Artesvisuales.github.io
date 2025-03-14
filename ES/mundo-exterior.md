@@ -59,7 +59,7 @@ click RIA "/ES/ancestros.html" "Ir a Imágenes de los Ancestros"
 </div>
 
 <br><br>
-<div class="subtitulo">Representación del mundo tangible</div>
+<div class="subtitulo">Lo Tangible</div>
 
 <p class="parrafo">
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Estas obras exploran los aspectos físicos y materiales del entorno, destacando características del paisaje local, objetos cotidianos y escenas que estructuran nuestra realidad inmediata. Los temas seleccionados dan título a cada serie dentro de esta categoría, identificándose por ser representativos de la época presente. Este grupo incluye las siguientes series:
@@ -83,7 +83,7 @@ click RIA "/ES/ancestros.html" "Ir a Imágenes de los Ancestros"
 </div>
 
 <br>
-<div class="subtitulo">Representación de lo intangible</div>
+<div class="subtitulo">Lo Intangible</div>
 
 <p class="parrafo">
     Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
