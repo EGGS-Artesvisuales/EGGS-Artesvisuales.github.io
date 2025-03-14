@@ -10,39 +10,10 @@ mermaid: true
 
 <div class="subtitulo">Manifestación del Exceso</div>
 
-
-<div class="mermaid">
-graph TD
-  RM[Representación del Mundo]
-  LT[Lo Tangible]
-  LS[La Saturación]
-  LP[La Peste]
-  LI[Lo Invisible]
-  P[Pintura]
-  DP[Desplazamiento de la Pintura]
-  DPI[Intervenciones e Instalaciones]
-  DPV[Video Multimedia]
-
-  RM --> LT
-  LT --> LS
-  LS --> LP
-  LS --> LI
-  LP --> P
-  LP --> DP
-  DP --> DPI
-  DP --> DPV
-
-  click LS "/Es/saturacion.html" "Ir a La Saturación"
-  click LP "/Es/la-peste.html" "Ir a La Peste"
-  click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
-</div>
-
-<br><br>
-
 <h1 class="parrafo">La saturación: síntoma de nuestra época</h1>
 
 <p class="parrafo">
-  La saturación, fenómeno sin precedentes en la historia humana, se erige como rasgo definitorio de la modernidad. No es fruto del azar, sino el resultado inevitable de nuestros modos de producción y consumo. En mi práctica artística, dedicada a retratar el espíritu de nuestro tiempo, la saturación se convierte en un eje conceptual: un prisma para descifrar la crisis ecológica, tecnológica y perceptiva que nos envuelve.
+  La saturación, fenómeno sin precedentes en la historia humana, se erige como rasgo definitorio de la modernidad. No es fruto del azar, sino el resultado inevitable de nuestros modos de producción y consumo. En mi práctica artística, dedicada a retratar el espíritu de nuestro tiempo, la saturación se convierte en un eje conceptual que abre un mundo de material: un prisma para descifrar la crisis ecológica, tecnológica y perceptiva que nos envuelve.
 </p>
 
 <h2 class="parrafo">¿Qué es la saturación?</h2>
@@ -96,6 +67,33 @@ graph TD
 </div>
 
 
+<div class="mermaid">
+graph TD
+  RM[Representación del Mundo]
+  LT[Lo Tangible]
+  LS[La Saturación]
+  LP[La Peste]
+  LI[Lo Invisible]
+  P[Pintura]
+  DP[Desplazamiento de la Pintura]
+  DPI[Intervenciones e Instalaciones]
+  DPV[Video Multimedia]
+
+  RM --> LT
+  LT --> LS
+  LS --> LP
+  LS --> LI
+  LP --> P
+  LP --> DP
+  DP --> DPI
+  DP --> DPV
+
+  click LS "/Es/saturacion.html" "Ir a La Saturación"
+  click LP "/Es/la-peste.html" "Ir a La Peste"
+  click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
+</div>
+
+<br><br>
 <br>
 <a href="/Es/obras.html" class="enlace">Ver más obras</a>
 <br><br>
