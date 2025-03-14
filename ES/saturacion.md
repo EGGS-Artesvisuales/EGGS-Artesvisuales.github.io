@@ -9,6 +9,7 @@ mermaid: true
 <div class="titulo">La Saturación</div>
 
 <div class="subtitulo">Manifestación del Exceso</div>
+<br><br>
 
 <!-- Imagen principal (usa el estilo global de .imagen) -->
 <div class="imagen">
