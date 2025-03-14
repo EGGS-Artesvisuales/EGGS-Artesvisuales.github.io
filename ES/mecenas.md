@@ -5,7 +5,7 @@ description: "Explora proyectos en desarrollo y conviértete en un impulsor del 
 permalink: /ES/mecenas.html
 ---
 
-<div class="titulo">Sé parte del arte: Conviértete en mecenas</div>
+<div class="titulo">Conviértete en Mecenas</div>
 
 <div class="subtitulo">Apoya la creación artística y deja huella en la cultura.</div>
 
@@ -49,6 +49,3 @@ permalink: /ES/mecenas.html
   Tu aporte es más que una donación; es una inversión en la cultura y la creatividad. Ayúdanos a seguir transformando espacios y generando impacto a través del arte. 
 </p>
 
-<p class="parrafo" style="font-weight: bold;">
-  ¿Listo para ser parte del cambio? Contáctanos y conviértete en mecenas hoy mismo.
-</p>
