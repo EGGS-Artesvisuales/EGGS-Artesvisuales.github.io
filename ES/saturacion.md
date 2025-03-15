@@ -8,24 +8,25 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 <div class="subtitulo">Síntoma de nuestra época</div>
+<br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
   <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Domesticos. s/t n°4, EGGS 2009</figcaption>
 </figure>
-
+<br><br>
 <div class="parrafo">
   <p>
-    <strong>"La Saturación"</strong> se ha convertido en una condición central de nuestra era. Este fenómeno se vincula no solo con la contaminación material, sino también con diversas reflexiones críticas. Por ejemplo, se relaciona con la sobresaturación sensorial descrita por Gillo Dorfles en <em>El intervalo perdido</em>, quien advierte sobre la desaparición de los espacios de contemplación en la cultura contemporánea. Asimismo, influenciado por quienes exploran la cultura del derroche y el consumo desenfrenado, mi trabajo refleja un paisaje contaminado que encarna una "violencia lenta" e invisible, concepto desarrollado por Rob Nixon.
+    <strong>"La Saturación"</strong> es una condición emblemática de nuestro tiempo, que excede lo meramente material y alcanza dimensiones culturales y perceptivas. Inspirado en la crítica social y filosófica de autores como Gillo Dorfles, Guy Debord, Naomi Klein, Byung-Chul Han y Rob Nixon, este fenómeno refleja tanto la sobresaturación sensorial como las consecuencias del consumo desenfrenado. Dorfles en <em>El intervalo perdido</em> advierte sobre la desaparición de espacios contemplativos en la cultura actual, mientras que otros pensadores analizan cómo esta saturación promueve la desigualdad, la alienación y la crisis ecológica. En mi obra, exploro este paisaje contaminado, enfatizando una "violencia lenta e invisible" que afecta silenciosamente nuestro entorno y vida cotidiana.
   </p>
   <p>
-    La saturación se manifiesta tanto en lo material como en lo perceptivo, afectando nuestra atención y memoria colectiva, aspectos abordados por pensadores como Vilém Flusser y Kate Palmer Albers. Además, investigo la saturación intangible, explorando cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales.
+    La saturación, asociada al horror vacui, se manifiesta en diversos niveles: desde lo tangible hasta lo perceptivo, impactando nuestra atención y memoria colectiva. Este concepto es central en mi trabajo artístico y lo abordo en dos líneas principales: <em>La Peste</em>, enfocada en los residuos visibles y su impacto en los paisajes, y una segunda serie más reciente, que explora fenómenos invisibles pero físicamente presentes, como la contaminación electromagnética. En ambas series, indago en cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales, extendiendo la pintura tradicional hacia nuevas manifestaciones contemporáneas.
   </p>
   <p>
-    En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, reconociendo a nuestro planeta como un organismo enfermo, saturado por la actividad humana. Esta perspectiva se alinea con la crítica ambiental pionera de Rachel Carson, subrayando la urgencia de asumir nuestra responsabilidad colectiva frente a la crisis. En la serie <em>La Peste</em>, exploro la representación del fenómeno de saturación como una contaminación que corrompe un organismo originalmente noble, puro y limpio.
+    En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, entendiendo a nuestro planeta como un organismo enfermo, saturado por la intervención humana. Esta perspectiva dialoga también con la crítica pionera de Rachel Carson sobre el deterioro ambiental, destacando la urgencia de asumir responsabilidad colectiva frente a la crisis ecológica. A través de mi obra busco retratar cómo la saturación, entendida como contaminación, corrompe lentamente aquello que originalmente era noble, puro y limpio.
   </p>
 </div>
-
+<br><br>
 <div class="mermaid">
 graph TD
   RM[Representación del Mundo]
@@ -53,7 +54,7 @@ graph TD
   click LP "/Es/la-peste.html" "Ir a La Peste"
   click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
 </div>
-
+<br>
 <div class="subtitulo">La Peste</div>
 
 <div class="parrafo">
@@ -83,7 +84,7 @@ graph TD
     En mi obra, la saturación se expresa a través de dos series que, dialogando con la tradición pictórica, la subvierten y ofrecen una lectura crítica y profunda de nuestra realidad contemporánea.
   </p>
 </div>
-
+<br><br>
 <div class="button-container">
   <a href="/Es/la-peste.html" class="fancy-button">
     <div class="button-content">
@@ -100,5 +101,6 @@ graph TD
     </div>
   </a>
 </div>
+<br><br>
 
 <a href="/Es/obras.html" class="enlace">Ver más obras</a>
