@@ -54,28 +54,40 @@ graph TD
 </div>
 <br>
 <div class="subtitulo">La Peste</div>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Domesticos. s/t n°4, EGGS 2009</figcaption>
+</figure>
+<br><br>
 
 <div class="parrafo">
   <p>
-    En esta serie, la saturación se concibe como la polución —plásticos, calentamiento global, desechos tóxicos— que transforma las ciudades en vertederos y devora paisajes, dejando una huella imborrable de la intervención humana. Desde el desafío inherente a la pintura, exploro la hipótesis de la contaminación como una enfermedad cósmica. Hablar únicamente de "daño al ecosistema" resulta insuficiente; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo, en el que cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
-  </p>  <p>
-    En <strong>La Peste</strong>, que forma parte de la serie <em>La Saturacion</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, entendiendo a nuestro planeta como un organismo enfermo, saturado por la intervención humana. Esta perspectiva dialoga también con la crítica pionera de Rachel Carson sobre el deterioro ambiental, destacando la urgencia de asumir responsabilidad colectiva frente a la crisis ecológica. A través de mi obra busco retratar cómo la saturación, entendida como contaminación, corrompe lentamente aquello que originalmente era noble, puro y limpio.
+    En esta serie, abordo la saturación como una alegoría de la contaminación—plásticos, calentamiento global, residuos tóxicos—que convierte a las ciudades en inmensos vertederos, consumiendo paisajes enteros y dejando una marca irreversible de la intervención humana. Desde la pintura, exploro la hipótesis de la contaminación como una enfermedad planetaria. Hablar solo de "daño ecológico" no basta; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo en crisis, donde cada tonelada de CO₂ y cada partícula de microplástico son síntomas de una fiebre causada por nuestra civilización.
   </p>
   <p>
-    <strong>Concepto:</strong> Representa la corrupción del mundo físico, transformando el paisaje —símbolo tradicional de pureza y nobleza en la pintura al óleo— al impregnarse de elementos propios de nuestra era.
+    <strong>La Peste</strong>, como parte de la serie <em>La Saturación</em>, profundiza en una reflexión ecológica basada en la teoría Gaia, visualizando al planeta como un organismo saturado y enfermo debido a la presión antropogénica. Esta propuesta dialoga también con la advertencia pionera de Rachel Carson sobre el deterioro ambiental, subrayando la urgencia de asumir colectivamente nuestra responsabilidad frente a la crisis ecológica actual. A través de esta obra busco mostrar cómo la contaminación, entendida como saturación, corrompe gradualmente aquello que alguna vez fue noble, puro y limpio.
+  </p>
+  <p>
+    <strong>Concepto:</strong> Representa la degradación del mundo físico, mostrando cómo el paisaje—símbolo tradicional de pureza en la pintura al óleo—queda impregnado por elementos corrosivos característicos de nuestra época.
   </p>
 </div>
 
 <div class="subtitulo">Lo Invisible</div>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Domesticos. s/t n°4, EGGS 2009</figcaption>
+</figure>
+<br><br>
 
 <div class="parrafo">
   <p>
-    Esta serie se adentra en lo intangible: el incesante bombardeo de estímulos tecnológicos —publicidad, redes sociales, información fragmentaria— que invade nuestra atención y distorsiona la percepción. Como señala Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo deteriora el entorno físico, sino que erosiona nuestros espacios internos de reflexión. Vivimos en un mundo donde la basura rebasa los contenedores y los algoritmos saturan la mente.
+    Esta serie investiga aquello que escapa a la vista, pero que domina nuestras vidas: la saturación intangible generada por el bombardeo constante de estímulos tecnológicos—publicidad omnipresente, redes sociales absorbentes e información fragmentada—que invade nuestra percepción y distorsiona nuestra atención. Como advierte Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo daña nuestro entorno, sino que erosiona también nuestros espacios internos de reflexión y conciencia. Vivimos en una realidad donde los residuos sobrepasan lo físico y se acumulan en nuestras mentes a través de algoritmos invasivos.
   </p>
   <p>
-    <strong>Concepto:</strong> Materializa lo intangible, capturando la intoxicación de lo imperceptible mediante metáforas sensoriales.
+    <strong>Concepto:</strong> Materializa lo imperceptible, capturando visualmente la intoxicación sensorial y cognitiva causada por esta contaminación invisible.
   </p>
 </div>
+
 
 <h2 class="parrafo">Dos líneas artísticas, un mismo diagnóstico</h2>
 
