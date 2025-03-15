@@ -22,9 +22,7 @@ mermaid: true
   <p>
     La saturación, asociada al horror vacui, se manifiesta en diversos niveles: desde lo tangible hasta lo perceptivo, impactando nuestra atención y memoria colectiva. Este concepto es central en mi trabajo artístico y lo abordo en dos líneas principales: <em>La Peste</em>, enfocada en los residuos visibles y su impacto en los paisajes, y una segunda serie más reciente, que explora fenómenos invisibles pero físicamente presentes, como la contaminación electromagnética. En ambas series, indago en cómo la hiperestimulación visual y la autoexplotación caracterizan a las sociedades neoliberales, extendiendo la pintura tradicional hacia nuevas manifestaciones contemporáneas.
   </p>
-  <p>
-    En <strong>La Saturación</strong>, que forma parte de la serie <em>La Peste</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, entendiendo a nuestro planeta como un organismo enfermo, saturado por la intervención humana. Esta perspectiva dialoga también con la crítica pionera de Rachel Carson sobre el deterioro ambiental, destacando la urgencia de asumir responsabilidad colectiva frente a la crisis ecológica. A través de mi obra busco retratar cómo la saturación, entendida como contaminación, corrompe lentamente aquello que originalmente era noble, puro y limpio.
-  </p>
+
 </div>
 <br><br>
 <div class="mermaid">
@@ -60,6 +58,8 @@ graph TD
 <div class="parrafo">
   <p>
     En esta serie, la saturación se concibe como la polución —plásticos, calentamiento global, desechos tóxicos— que transforma las ciudades en vertederos y devora paisajes, dejando una huella imborrable de la intervención humana. Desde el desafío inherente a la pintura, exploro la hipótesis de la contaminación como una enfermedad cósmica. Hablar únicamente de "daño al ecosistema" resulta insuficiente; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo, en el que cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
+  </p>  <p>
+    En <strong>La Peste</strong>, que forma parte de la serie <em>La Saturacion</em>, integro reflexiones ecológicas fundamentadas en la teoría Gaia de James Lovelock, entendiendo a nuestro planeta como un organismo enfermo, saturado por la intervención humana. Esta perspectiva dialoga también con la crítica pionera de Rachel Carson sobre el deterioro ambiental, destacando la urgencia de asumir responsabilidad colectiva frente a la crisis ecológica. A través de mi obra busco retratar cómo la saturación, entendida como contaminación, corrompe lentamente aquello que originalmente era noble, puro y limpio.
   </p>
   <p>
     <strong>Concepto:</strong> Representa la corrupción del mundo físico, transformando el paisaje —símbolo tradicional de pureza y nobleza en la pintura al óleo— al impregnarse de elementos propios de nuestra era.
