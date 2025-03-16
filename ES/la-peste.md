@@ -9,37 +9,40 @@ permalink: /ES/la-peste.html
 
 <div class="subtitulo">La contaminación como enfermedad de Gaia</div>
 
-<figure class="imagen-con-caption" style="width: 66%;">
+<figure class="imagen-con-caption" style="width: 73%;">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
-  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura / Espacios domesticos: S/T n°1 FW Studio, 2009</figcaption>
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios domésticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  En "La Peste", la saturación se entiende específicamente como la contaminación sólida: plásticos, desechos provenientes del envasado, de la industria publicitaria, desechos de todo tipo. tóxicos que transforman ciudades en vertederos y devoran los paisajes naturales con la huella humana, con anuncios y carteles o desechos y huellas humanas.. la antipatia , contraste, entre estos elementos de la cultura y la nobleza de la naturaleza que es mermada, me hace solidarizar, simpatizar con las ideas de james lovelock y la hipótesis Gaia de James Lovelock, el proyecto concibe la Tierra como un organismo vivo, donde cada tonelada de CO₂ y cada microplástico son síntomas de una fiebre antropogénica.
+  En <strong>"La Peste"</strong>, la saturación se presenta como metáfora de la contaminación física: residuos sólidos, líquidos y gaseosos derivados del envasado, la publicidad y la industria en general. Son elementos tóxicos que transforman las ciudades en vertederos y consumen los paisajes naturales con la impronta humana de anuncios, carteles y desechos. Esta tensión entre elementos culturales invasivos y la nobleza disminuida de la naturaleza evoca la hipótesis Gaia de James Lovelock, según la cual nuestro planeta es un organismo vivo afectado por una enfermedad antropogénica. Cada tonelada de CO₂ y cada microplástico son síntomas claros de esta "fiebre" humana.
+  <br><br>
+  Así, "La Peste" establece un diálogo crítico entre naturaleza, vida, arte y lo sagrado, enfrentándolos a la contaminación, la publicidad invasiva y las consecuencias de la producción industrial. La publicidad se transforma en la peste de la pintura, los desechos son la peste del paisaje y la contaminación es la peste del cuerpo humano. Esta serie representa la corrupción del mundo físico y reinterpreta el género del paisaje—tradicionalmente símbolo de pureza en la pintura al óleo—incorporando elementos contemporáneos que lo contaminan visual y conceptualmente.
 </p>
 
 <p class="parrafo">
-  "La Peste" establece un diálogo entre la naturaleza, lo vivo, lo sagrado y lo noble, enfrentándolos a la contaminación, la publicidad, la producción industrial y sus consecuencias. La publicidad se convierte en la peste de la pintura, los desechos en la peste del paisaje y la contaminación en la peste del cuerpo. Esta serie representa la corrupción del mundo físico y reconfigura el género del paisaje —tradicionalmente símbolo de pureza y nobleza en la pintura al óleo— impregnándolo con elementos contemporáneos.
+  Las obras que componen este apartado nacen del deseo de representar el mundo como ejercicio artístico, enfocándome en destacar sus características más esenciales. La saturación emergió como elemento clave, simbolizando claramente la crisis ambiental y el daño profundo causado a la Tierra.
+  <br><br>
+  Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:
 </p>
 
-<p class="parrafo">
-  Este apartado de obra parte de la idea de la representacion del mundo. y como estrategia se quiere retratra un rasgo esencial. la satuaracioon aparece, y la peste es manifestacion que aca señalo porque hace una relacion con lo vivo de la tierra, el menoscabo doliente. 
-
-las herramientas primarias eran la pintura, y de luego fue ampliandoze a otros diciplininas , arte contemporaneo me permite explorar la cretaividad ampliamente mas alla d el os medios. 
-asi esta serie la peste se presenta en dos grupos de obra:
-  <br>
 <div class="subtitulo">Pintura</div>
-  <figure class="imagen-con-caption">
+
+<figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
-  <figcaption>La Saturacion / La Peste / Pintura / Pinturas infectadas : s/t n° 1, 2008</figcaption>
+  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: s/t n° 1, 2008</figcaption>
 </figure>
+
 <div class="subtitulo">Desplazamiento de la Pintura</div>
+
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
-  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Naturales. Ruralia s/t n°1, EGGS 2012</figcaption>
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Naturales. Ruralia s/t n°1, EGGS 2012</figcaption>
 </figure>
-  Aunque inicialmente centrado en la pintura, este proyecto amplió su perspectiva hacia espacios y objetos, incorporando instalaciones, fotografía, intervenciones y artes efímeras, para explorar profundamente las múltiples dimensiones y complejidades del tema.
+
+<p class="parrafo">
+  Este segundo grupo amplía el concepto hacia espacios físicos y objetos específicos, incorporando instalaciones, fotografía, intervenciones y artes efímeras para profundizar en las múltiples dimensiones y complejidades que rodean al fenómeno de la contaminación y su impacto en nuestro entorno.
 </p>
 
 
