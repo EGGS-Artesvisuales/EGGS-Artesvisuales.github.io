@@ -25,7 +25,7 @@ mermaid: true
 <p class="parrafo">
   Las obras que componen este apartado nacen del deseo de representar el mundo como ejercicio artístico, enfocándome en destacar sus características más esenciales. La saturación emergió como elemento clave, simbolizando claramente la crisis ambiental y el daño profundo causado a la Tierra.
   <br><br>
-  Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:
+  Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:<br>Pintura, y desplazamiento de la Pintura.
 </p>
 <br><br>
 
