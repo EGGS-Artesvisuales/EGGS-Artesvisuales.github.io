@@ -27,24 +27,27 @@ permalink: /ES/la-peste.html
   Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:
 </p>
 
-<div class="subtitulo">Pintura</div>
+<div class=\"subtitulo\">Pintura</div>
 
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="La Peste - imagen de la contaminación en pintura" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: modulo - s/t n° 3, 2011</figcaption>
+<figure class=\"imagen-con-caption\">
+  <img src=\"/assets/img/la-peste---pintura01.jpg\" alt=\"La Peste - imagen de contaminación\" loading=\"lazy\">
+  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: s/t n° 1, 2008</figcaption>
 </figure>
+<p class=\"parrafo\">
+  Las obras reunidas en este proyecto surgen de la intención artística de representar el mundo, enfocándome en destacar sus características más críticas. La saturación emerge como un elemento central, simbolizando claramente la crisis ambiental y el profundo daño infligido al planeta.
+  Si bien la pintura fue inicialmente el medio principal, el proyecto se expandió hacia otras disciplinas del arte contemporáneo, explorando diversos formatos y soportes creativos. Así, la serie "La Peste" se organiza en dos grandes categorías:
+</p>
+<br><br>
+<div class=\"subtitulo\">Desplazamiento de la Pintura</div>
 
-<div class="subtitulo">Desplazamiento de la Pintura</div>
-
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+<figure class=\"imagen-con-caption\">
+  <img src=\"/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg\" alt=\"La Saturación - Manifestación del Exceso\" loading=\"lazy\">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Naturales. Ruralia s/t n°1, EGGS 2012</figcaption>
 </figure>
 
-<p class="parrafo">
-  Este segundo grupo amplía el concepto hacia espacios físicos y objetos específicos, incorporando instalaciones, fotografía, intervenciones y artes efímeras para profundizar en las múltiples dimensiones y complejidades que rodean al fenómeno de la contaminación y su impacto en nuestro entorno.
+<p class=\"parrafo\">
+  Esta segunda categoría amplía el concepto hacia espacios físicos concretos y objetos específicos, integrando instalaciones, fotografía, intervenciones artísticas y obras efímeras. A través de estas manifestaciones, se profundiza en las múltiples dimensiones y complejidades del fenómeno de la contaminación y su impacto sobre nuestro entorno vital.
 </p>
-
 
 <!-- Contenedor de botones para las series -->
 <div class="button-container">
