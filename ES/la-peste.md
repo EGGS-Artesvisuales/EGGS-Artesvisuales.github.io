@@ -35,24 +35,32 @@ mermaid: true
 <div class="mermaid">
 
 
-
-  graph TD
+graph TD
   A[La Saturación] --> B[La Peste]
   B --> C[Pinturas]
   C --> D[Pinturas Infectadas]
   C --> E[Pinturas de Soportes Blandos]
+  E --> E1[Membrana]
+  E --> E2[Módulo]
+  E --> E3[Unidad]
   B --> F[Desplazamiento de la Pintura]
-  F --> G[Intervenciones/Instalaciones]
-  F --> H[Multimedia/Video]
+  F --> G[Espacios Domésticos]
+  F --> H[Espacio Público]
+  F --> I[Espacios Naturales y Rurales]
 
   click A "/la-saturacion.html" "Ir a La Saturación"
   click B "/la-peste.html" "Ir a La Peste"
   click C "/pinturas.html" "Ir a Pinturas"
   click D "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click E "/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
+  click E1 "/membrana.html" "Ir a Membrana"
+  click E2 "/modulo.html" "Ir a Módulo"
+  click E3 "/unidad.html" "Ir a Unidad"
   click F "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click G "/intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
-  click H "/multimedia-video.html" "Ir a Multimedia/Video"
+  click G "/espacios-domesticos.html" "Ir a Espacios Domésticos"
+  click H "/espacio-publico.html" "Ir a Espacio Público"
+  click I "/espacios-naturales-rurales.html" "Ir a Espacios Naturales y Rurales"
+
 </div>
 <br>
 <br>
