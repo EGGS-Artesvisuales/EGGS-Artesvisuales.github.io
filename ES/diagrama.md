@@ -18,7 +18,7 @@ breadcrumbs: >
 <p class="parrafo">
   Este esquema no solo organiza mi proceso creativo, sino que también ilustra cómo las ideas y conceptos centrales se transforman en diversas expresiones artísticas, proporcionando una visión integral y coherente de mi práctica visual.
 </p>
-  
+  <br><br>
 
   <!-- 1) Representación del Mundo -->
   <div class="subtitulo">Representación del Mundo</div>
@@ -84,7 +84,7 @@ breadcrumbs: >
       click A2c1 "/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
       click A2c2 "/mapuche-urbano.html" "Ir a Mapuche Urbano"
   </div>
-
+<br><br>
   <!-- 2) Acción en el Mundo -->
   <div class="subtitulo">Acción en el Mundo</div>
   <div class="mermaid">
@@ -123,7 +123,7 @@ breadcrumbs: >
       click B4b "/decoraciones-encargo.html" "Ir a Decoraciones &amp; Encargo"
       click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
   </div>
-
+<br><br>
   <!-- 3) Exploración del Mundo Interior -->
   <div class="subtitulo">Exploración del Mundo Interior</div>
   <div class="mermaid">
@@ -135,3 +135,4 @@ breadcrumbs: >
       click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
       click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
   </div>
+<br><br>
