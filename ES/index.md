@@ -11,75 +11,36 @@ mermaid: true
 <p class="parrafo" style="margin-top: 6%;">
   Explora un espacio donde comparto desde proyectos íntimos hasta obras de gran escala, organizados mediante un esquema que clarifica mi práctica artística.
 </p>
-
+<br>
 <div class="mermaid">
-  graph TD
-    %% Nodos principales con IDs más descriptivos
+
+ graph TD
     principal[Actividad Artística]
     representacion[Representación del Mundo]
     accion[Acción en el Mundo]
     interior[Exploración del Mundo Interior]
-    
-    %% Conexiones principales
+
     principal --> representacion
     principal --> accion
     principal --> interior
-    
-    %% Nodos de Representación del Mundo
+
     representacion --> tangible[Lo Tangible]
     representacion --> intangible[Lo Intangible]
-    
-    %% Subnodos Tangible
-    tangible --> saturacion[La Saturación]
-    saturacion --> peste[La Peste]
-    saturacion --> invisible[Lo Invisible]
-    tangible --> tecnologia[La Tecnología]
-    
-    %% Subnodos Intangible
-    intangible --> capitalismo[El Capitalismo]
-    intangible --> popular[Lo Popular]
-    intangible --> ancestral[Lo Ancestral]
-    
-    %% Nodos de Acción en el Mundo
+
     accion --> subrepticio[Lo Subrepticio]
     accion --> comunitario[Lo Comunitario]
-    comunitario --> muralismo[Muralismo]
     accion --> docencia[Docencia y Talleres]
     accion --> servicios[Servicios]
-    
-    %% Nodos de Exploración del Mundo Interior
+
     interior --> psicologia[Arte y Psicología]
     interior --> espiritualidad[Arte y Espiritualidad]
-    
-    %% Click commands optimizados
+
     click principal "/ES/index.html" "Ir al Inicio"
-    
-    %% Enlaces de Representación del Mundo
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click tangible "/ES/tangible.html" "Ir a Lo Tangible"
-    click saturacion "/ES/la-saturacion.html" "Ir a La Saturación"
-    click peste "/ES/la-peste.html" "Ir a La Peste"
-    click invisible "/ES/lo-invisible.html" "Ir a Lo Invisible"
-    click tecnologia "/ES/la-tecnologia.html" "Ir a La Tecnología"
-    click intangible "/ES/intangible.html" "Ir a Lo Intangible"
-    click capitalismo "/ES/el-capitalismo.html" "Ir a El Capitalismo"
-    click popular "/ES/lo-popular.html" "Ir a Lo Popular"
-    click ancestral "/ES/lo-ancestral.html" "Ir a Lo Ancestral"
-    
-    %% Enlaces de Acción en el Mundo
-    click accion "/ES/accion.html" "Ir a Acción en el Mundo"
-    click subrepticio "/ES/subrepticio.html" "Ir a Lo Subrepticio"
-    click comunitario "/ES/comunitario.html" "Ir a Lo Comunitario"
-    click muralismo "/ES/muralismo.html" "Ir a Muralismo"
-    click docencia "/ES/docencia.html" "Ir a Docencia y Talleres"
-    click servicios "/ES/servicios.html" "Ir a Servicios"
-    
-    %% Enlaces de Mundo Interior
-    click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
-    click psicologia "/ES/arte-y-psicologia.html" "Ir a Arte y Psicología"
-    click espiritualidad "/ES/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
-</div>
 
+</div>
+<br>
 <div class="subtitulo" style="margin-top: 4%;">Categorías:</div>
 <div class="button-container">
   <a href="/ES/mundo-exterior.html" class="fancy-button">
