@@ -53,14 +53,14 @@ permalink: /ES/la-peste.html
 <div class="button-container">
     <a href="/ES/peste-pintura.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-contaminacion-electromagnetica.gif" alt="La Peste en Pintura">
+            <img src="/assets/img/boton-la-peste-pintura.gif" alt="La Peste en Pintura">
             <p class="title">Pintura</p>
             <p class="subtitle">La peste representada en pintura</p>
         </div>
     </a>
     <a href="/contaminacion-sonora.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-contaminacion-sonora.gif" alt="Desplazamiento de la Pintura">
+            <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Desplazamiento de la Pintura">
             <p class="title">Desplazamiento de la Pintura</p>
             <p class="subtitle">Intervenciones, instalaciones y medios múltiples</p>
         </div>
