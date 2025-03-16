@@ -4,6 +4,7 @@ lang: es
 title: "La Peste"
 description: "Reflexión visual sobre la contaminación del entorno."
 permalink: /ES/la-peste.html
+mermaid: true
 ---
 <div class="titulo">La Peste</div>
 
