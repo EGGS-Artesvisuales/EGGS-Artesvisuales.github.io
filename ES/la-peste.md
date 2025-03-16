@@ -33,12 +33,12 @@ mermaid: true
 
 <br><br>
 <div class="mermaid">
-
-
 graph TD
   A[La Saturación] --> B[La Peste]
   B --> C[Pinturas]
   C --> D[Pinturas Infectadas]
+  D --> D1[Intervenciones]
+  D --> D2[Producción]
   C --> E[Pinturas de Soportes Blandos]
   E --> E1[Membrana]
   E --> E2[Módulo]
@@ -52,6 +52,8 @@ graph TD
   click B "/la-peste.html" "Ir a La Peste"
   click C "/pinturas.html" "Ir a Pinturas"
   click D "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click D1 "/intervenciones.html" "Ir a Intervenciones"
+  click D2 "/produccion.html" "Ir a Producción"
   click E "/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
   click E1 "/membrana.html" "Ir a Membrana"
   click E2 "/modulo.html" "Ir a Módulo"
