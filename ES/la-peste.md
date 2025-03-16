@@ -30,8 +30,8 @@ permalink: /ES/la-peste.html
 <div class="subtitulo">Pintura</div>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---pintura01.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: s/t n° 1, 2008</figcaption>
+  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="La Peste - imagen de la contaminación en pintura" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: modulo - s/t n° 3, 2011</figcaption>
 </figure>
 
 <div class="subtitulo">Desplazamiento de la Pintura</div>
