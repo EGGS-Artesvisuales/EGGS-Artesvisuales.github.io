@@ -30,7 +30,15 @@ las herramientas primarias eran la pintura, y de luego fue ampliandoze a otros d
 asi esta serie la peste se presenta en dos grupos de obra:
   <br>
   1. Pintura<br>
+  <figure class="imagen-con-caption" style="width: 66%;">
+  <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura / Espacios domesticos: S/T n°1 FW Studio, 2009</figcaption>
+</figure>
   2. Desplazamiento de la pintura<br><br>
+  <figure class="imagen-con-caption" style="width: 66%;">
+  <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="La Peste - imagen de contaminación">
+  <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura / Espacios domesticos: S/T n°1 FW Studio, 2009</figcaption>
+</figure>
   Aunque inicialmente centrado en la pintura, este proyecto amplió su perspectiva hacia espacios y objetos, incorporando instalaciones, fotografía, intervenciones y artes efímeras, para explorar profundamente las múltiples dimensiones y complejidades del tema.
 </p>
 
