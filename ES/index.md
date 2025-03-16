@@ -38,6 +38,18 @@ mermaid: true
     click principal "/ES/index.html" "Ir al Inicio"
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click tangible "/ES/tangible.html" "Ir a Lo Tangible"
+    click intangible "/ES/intangible.html" "Ir a Lo Intangible"
+
+    click accion "/ES/accion.html" "Ir a Acción en el Mundo"
+    click subrepticio "/ES/subrepticio.html" "Ir a Lo Subrepticio"
+    click comunitario "/ES/comunitario.html" "Ir a Lo Comunitario"
+    click docencia "/ES/docencia.html" "Ir a Docencia y Talleres"
+    click servicios "/ES/servicios.html" "Ir a Servicios"
+
+    click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
+    click psicologia "/ES/arte-y-psicologia.html" "Ir a Arte y Psicología"
+    click espiritualidad "/ES/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
+
 
 </div>
 <br>
