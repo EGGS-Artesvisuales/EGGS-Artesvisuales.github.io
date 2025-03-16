@@ -26,7 +26,7 @@ permalink: /ES/la-peste.html
   <br><br>
   Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:
 </p>
-
+<br><br>
 <div class="subtitulo">Pintura</div>
 
 <figure class="imagen-con-caption">
@@ -38,17 +38,18 @@ permalink: /ES/la-peste.html
   Las obras reunidas en este proyecto surgen de la intención artística de representar el mundo, destacando sus características más críticas. La saturación emerge como elemento central, simbolizando claramente la crisis ambiental y el profundo daño infligido al planeta.
   Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió hacia otras disciplinas del arte contemporáneo, explorando diversos formatos y soportes creativos. La serie se organiza en dos grandes categorías:
 </p>
-<br><br>
+<br><br><br>
 <div class="subtitulo">Desplazamiento de la Pintura</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Naturales. Ruralia s/t n°1, EGGS 2012</figcaption>
 </figure>
+<br>
 <p class="parrafo">
   Esta segunda categoría amplía el concepto hacia espacios físicos concretos y objetos específicos, integrando instalaciones, fotografía, intervenciones artísticas y obras efímeras. A través de estas manifestaciones, se profundiza en las múltiples dimensiones y complejidades del fenómeno de la contaminación y su impacto sobre nuestro entorno vital.
 </p>
-<br>
+<br><br>
 <!-- Contenedor de botones para las series -->
 <div class="button-container">
     <a href="/ES/peste-pintura.html" class="fancy-button">
@@ -66,4 +67,5 @@ permalink: /ES/la-peste.html
         </div>
     </a>
 </div>
+<br>
 
