@@ -84,7 +84,7 @@ breadcrumbs: >
       click A2c1 "/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
       click A2c2 "/mapuche-urbano.html" "Ir a Mapuche Urbano"
   </div>
-<br><br>
+<br><br><br><br>
   <!-- 2) Acción en el Mundo -->
   <div class="subtitulo">Acción en el Mundo</div>
   <div class="mermaid">
@@ -123,7 +123,7 @@ breadcrumbs: >
       click B4b "/decoraciones-encargo.html" "Ir a Decoraciones &amp; Encargo"
       click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
   </div>
-<br><br>
+<br><br><br><br>
   <!-- 3) Exploración del Mundo Interior -->
   <div class="subtitulo">Exploración del Mundo Interior</div>
   <div class="mermaid">
