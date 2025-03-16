@@ -31,7 +31,7 @@ permalink: /ES/la-peste.html
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Soprtes blandos: modular - s/t n° 4, 2011</figcaption>
+  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Soportes blandos: módulos - s/t n° 4 (paisaje urbano), 2011</figcaption>
 </figure>
 <br>
 <p class="parrafo">
