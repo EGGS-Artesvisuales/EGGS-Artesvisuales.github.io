@@ -27,6 +27,34 @@ permalink: /ES/la-peste.html
   Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:
 </p>
 <br><br>
+
+
+
+<br><br>
+<div class="mermaid">
+
+
+
+  graph TD
+  A[La Saturación] --> B[La Peste]
+  B --> C[Pinturas]
+  C --> D[Pinturas Infectadas]
+  C --> E[Pinturas de Soportes Blandos]
+  B --> F[Desplazamiento de la Pintura]
+  F --> G[Intervenciones/Instalaciones]
+  F --> H[Multimedia/Video]
+
+  click A "/la-saturacion.html" "Ir a La Saturación"
+  click B "/la-peste.html" "Ir a La Peste"
+  click C "/pinturas.html" "Ir a Pinturas"
+  click D "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click E "/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
+  click F "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click G "/intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
+  click H "/multimedia-video.html" "Ir a Multimedia/Video"
+</div>
+<br>
+<br>
 <div class="subtitulo">Pintura</div>
 
 <figure class="imagen-con-caption">
