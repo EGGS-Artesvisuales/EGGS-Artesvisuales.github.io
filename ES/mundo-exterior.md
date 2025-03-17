@@ -30,31 +30,41 @@ A partir de esta exploración surgen las series de obras organizadas en dos enfo
 <br><br>
 <div class="mermaid">
 graph TD
+    principal[Actividad Artística]
+    representacion[Representación del Mundo]
+    accion[Acción en el Mundo]
+    interior[Exploración del Mundo Interior]
 
-%% Nodo principal
-RM[Representación del Mundo]
+    principal --> representacion
+    principal --> accion
+    principal --> interior
 
-%% Subdivisiones principales
-RM --> RT[Tangible]
-RM --> RI[Intangible]
+    representacion --> tangible[Lo Tangible]
+    representacion --> intangible[Lo Intangible]
 
-%% Tangible
-RT --> RTS[La Saturación]
-RTS --> RTSP[La Peste]
-RTS --> RTSI[Lo Invisible]
-RT --> RTT[La Tecnología]
+    accion --> subrepticio[Lo Subrepticio]
+    accion --> comunitario[Lo Comunitario]
+    accion --> docencia[Docencia y Talleres]
+    accion --> servicios[Servicios]
 
-%% Intangible
-RI --> RIC[Imágenes del Capitalismo]
-RI --> RIP[Imágenes de lo Popular]
-RI --> RIA[Imágenes de los Ancestros]
+    interior --> psicologia[Arte y Psicología]
+    interior --> espiritualidad[Arte y Espiritualidad]
 
-%% Click commands para enlaces
-click RTS "/ES/saturacion.html" "Ir a La Saturación"
-click RTT "/ES/tecnologia.html" "Ir a La Tecnología"
-click RIC "/ES/capitalismo.html" "Ir a Imágenes del Capitalismo"
-click RIP "/ES/popular.html" "Ir a Imágenes de lo Popular"
-click RIA "/ES/ancestros.html" "Ir a Imágenes de los Ancestros"
+    click principal "/ES/index.html" "Ir al Inicio"
+    click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+    click tangible "/ES/tangible.html" "Ir a Lo Tangible"
+    click intangible "/ES/intangible.html" "Ir a Lo Intangible"
+
+    click accion "/ES/accion.html" "Ir a Acción en el Mundo"
+    click subrepticio "/ES/subrepticio.html" "Ir a Lo Subrepticio"
+    click comunitario "/ES/comunitario.html" "Ir a Lo Comunitario"
+    click docencia "/ES/docencia.html" "Ir a Docencia y Talleres"
+    click servicios "/ES/servicios.html" "Ir a Servicios"
+
+    click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
+    click psicologia "/ES/arte-y-psicologia.html" "Ir a Arte y Psicología"
+    click espiritualidad "/ES/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
+
 
 </div>
 
