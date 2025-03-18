@@ -4,27 +4,23 @@ title: Representación del Mundo
 permalink: /ES/mundo-exterior.html
 mermaid: true
 ---
-
 <div class="titulo">Representación del mundo</div>
 <div class="subtitulo">Retrato de lo contemporáneo</div>
 
-
-<!-- Sección de introducción general -->
 <p class="parrafo" style="margin-top: 6%;">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
-La pintura y, por extensión, el arte visual han sido, a lo largo de la historia, ventanas a través de las cuales la humanidad ha contemplado, comprendido y reimaginado su realidad. Desde las pinturas rupestres hasta las obras contemporáneas, los artistas han buscado capturar no solo la apariencia física del entorno, sino también sus significados simbólicos y emocionales. Este afán por representar el mundo —y al propio ser humano dentro de él— ha propiciado una constante evolución de estilos, técnicas y discursos estéticos.
+La pintura y el arte visual han funcionado históricamente como ventanas para interpretar la realidad. Desde las cuevas prehistóricas hasta las galerías actuales, los creadores hemos buscado plasmar no solo las apariencias, sino también los significados profundos de nuestra existencia. Esta necesidad de representación ha impulsado la evolución constante de técnicas, estilos y discursos artísticos.
 </p>
 
 <p class="parrafo">
-En este marco, la reflexión sobre el entorno contemporáneo y sus fenómenos ha conducido al desarrollo de nuevas formas de expresión visual. Así, las prácticas artísticas actuales se nutren tanto de las tradiciones de la pintura como de los lenguajes de instalaciones, fotografías, videos y diversas manifestaciones del arte contemporáneo. Esta diversidad amplía las posibilidades de documentar y analizar la realidad mediante una mirada crítica y renovada.
+En el contexto actual, este diálogo con la realidad se expande más allá de los formatos tradicionales. Las prácticas contemporáneas combinan la herencia pictórica con nuevos lenguajes como instalaciones, fotografía y medios digitales. Esta diversidad de recursos permite analizar la realidad con una mirada crítica e innovadora, adecuada a los desafíos de nuestro tiempo.
 </p>
 
 <p class="parrafo">
-El objetivo principal de esta categoría es capturar la esencia de nuestra época mediante el análisis de sus elementos definitorios. La estrategia creativa se centra en representar tanto lo tangible como lo intangible, explorando fenómenos sociales, culturales y emocionales que trascienden el plano físico. De esta manera, la observación artística se convierte en una experiencia interpretativa que permite comprender con mayor profundidad la realidad contemporánea.
+Esta categoría busca capturar la esencia de nuestro tiempo a través de dos enfoques complementarios: lo tangible (elementos físicos y materiales) y lo intangible (conceptos y fenómenos abstractos). El proceso creativo funciona como lente amplificador que revela conexiones ocultas entre aspectos aparentemente dispares de la experiencia contemporánea.
 </p>
 
 <p class="parrafo">
-A partir de esta exploración surgen las series de obras organizadas en dos enfoques: lo tangible y lo intangible.
+El recorrido propuesto se organiza en las siguientes series interconectadas:
 </p>
 
 <br><br>
