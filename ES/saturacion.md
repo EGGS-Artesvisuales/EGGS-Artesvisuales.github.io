@@ -60,31 +60,8 @@ graph TD
 <br> <p> <strong>La Peste</strong>, como parte de <em>La Saturación</em>, profundiza en una reflexión ecológica fundamentada en la hipótesis Gaia, presentando al planeta como un organismo vivo, saturado y enfermo a causa de la presión antropogénica. Esta propuesta dialoga con la advertencia pionera de Rachel Carson sobre el deterioro ambiental, subrayando la urgencia de asumir, de manera colectiva, nuestra responsabilidad frente a la crisis actual. A través de esta obra, busco evidenciar cómo la contaminación corroe gradualmente aquello que alguna vez fue noble, puro y limpio, estableciendo un paralelismo con otras formas de contaminación que afectan tanto nuestras mentes como nuestros cuerpos, como es el caso de la publicidad. </p> <p> <strong>Concepto:</strong> Representa la degradación del mundo físico, mostrando cómo el paisaje —símbolo tradicional de pureza en la pintura al óleo— queda impregnado por elementos corrosivos característicos de nuestra época. </p>
 
 <br><br><br>
-<div class="subtitulo">Lo Invisible</div><br>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
-  <figcaption>La Saturacion / Lo Invisible / Pintura / Serie wi fi / paisaje. s/t n4, EGGS 2014</figcaption>
-</figure>
-<br><br>
 
-<div class="parrafo">
-  <p>
-    Esta serie investiga aquello que escapa a la vista, pero domina nuestras vidas: la saturación intangible generada por el bombardeo constante de estímulos tecnológicos—publicidad omnipresente, redes sociales absorbentes e información fragmentada—que invade nuestra percepción y distorsiona nuestra atención. Como advierte Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo daña nuestro entorno, sino erosiona también nuestros espacios internos de reflexión y conciencia. Vivimos en una realidad donde los residuos sobrepasan lo físico y se acumulan en nuestras mentes a través de algoritmos invasivos.
-  </p>
-  <p>
-    <strong>Concepto:</strong> Materializa lo imperceptible, capturando visualmente la intoxicación sensorial y cognitiva causada por esta contaminación invisible.
-  </p>
-</div>
-
-
-<h2 class="parrafo">Dos líneas artísticas, un mismo diagnóstico</h2>
-
-<div class="parrafo">
-  <p>
-    En mi obra, la saturación se expresa a través de dos series que, dialogando con la tradición pictórica, la subvierten y ofrecen un reflejo de nuestra realidad contemporánea.
-  </p>
-</div>
-<br><br>
+<div class="subtitulo">Lo Invisible</div><br> <figure class="imagen-con-caption"> <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy"> <figcaption>La Saturación / Lo Invisible / Pintura / Serie Wi‑Fi / paisaje. s/t n4, EGGS 2014</figcaption> </figure> <br><br> <div class="parrafo"> <p> Esta serie investiga lo que escapa a la vista pero domina nuestras vidas: la saturación intangible generada por el bombardeo constante de estímulos tecnológicos —publicidad omnipresente, redes sociales absorbentes e información fragmentada— que invade nuestra percepción y distorsiona nuestra atención. Como advierte Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo daña nuestro entorno, sino que también erosiona nuestros espacios internos de reflexión y conciencia. Vivimos en una realidad en la que los residuos sobrepasan lo físico y se acumulan en nuestras mentes a través de algoritmos invasivos. </p> <p> <strong>Concepto:</strong> Materializa lo imperceptible, capturando visualmente la intoxicación sensorial y cognitiva causada por esta contaminación invisible. </p> </div> <div class="parrafo"> <p> La saturación se expresa a través de dos series que, dialogando con la tradición pictórica, subvierten sus preceptos y reflejan nuestra realidad contemporánea. Tanto estas series como este mismo nodo de la saturación son susceptibles de ampliación. </p> </div> <br><br>
 <div class="button-container">
   <a href="/Es/la-peste.html" class="fancy-button">
     <div class="button-content">
