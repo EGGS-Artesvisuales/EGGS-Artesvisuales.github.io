@@ -31,19 +31,15 @@ mermaid: true
 <br><br>
 
 <p class="parrafo">  
-  <p>
     La serie <strong>«La Peste»</strong> se estructura en dos grandes ejes conceptuales:
   </p>
   <br><br>
   <p class="parrafo">
-    <p>
       1. <strong>Pintura:</strong> Obras concebidas mediante técnicas y formatos convencionales, donde el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas. La pintura, como lenguaje matriz en las artes visuales, ofrece sus propias problemáticas relacionadas con la percepción y conceptualización de nuestra realidad. En este sentido, la pintura representa un desafío en sí misma, explorando diferentes técnicas y materiales que, en la búsqueda de representar la saturación, incorporan elementos del mundo publicitario y comercial, estableciendo así una reflexión profunda en torno a los soportes tradicionales.
-    </p>  
   <br><br>
     2. <strong>Desplazamientos de la Pintura:</strong> Obras que trascienden los límites tradicionales del medio pictórico, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos objetos y contextos:
   <br><br>
   </p>
-</p>
 
 <ul class="parrafo">
   <ul class="parrafo">
@@ -56,10 +52,6 @@ mermaid: true
 <p class="parrafo"> 
   De esta manera, <strong>«La Peste»</strong> se presenta como un viaje artístico multidimensional que interpela, transforma y expande la percepción tradicional del acto pictórico, confrontándonos con las consecuencias de nuestra relación disfuncional con el entorno.
 </p>
-
-<br><br>
-
-
 
 
 <br><br>
