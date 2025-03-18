@@ -66,21 +66,7 @@ graph TD
   <figcaption>La Saturacion / Lo Invisible / Pintura / Serie wi fi / paisaje. s/t n4, EGGS 2014</figcaption>
 </figure>
 <br><br>
-<div class="parrafo">
-  <p>
-    Esta serie investiga aquello que escapa a la vista, pero domina nuestras vidas: la saturación intangible generada por el bombardeo constante de estímulos tecnológicos—publicidad omnipresente, redes sociales absorbentes e información fragmentada—que invade nuestra percepción y distorsiona nuestra atención. Como advierte Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo daña nuestro entorno, sino erosiona también nuestros espacios internos de reflexión y conciencia. Vivimos en una realidad donde los residuos sobrepasan lo físico y se acumulan en nuestras mentes a través de algoritmos invasivos.
-  </p>
-
-  <p>
-    <strong>Concepto:</strong> Materializa lo imperceptible, capturando visualmente la intoxicación sensorial y cognitiva causada por esta contaminación invisible.
-  </p>
-</div>
-
-<div class="parrafo">
-  <p>
-    La saturación se expresa a través de dos series que, dialogando con la tradición pictórica, la subvierten y ofrecen una ampliacion de sus preceptos y un reflejo de nuestra realidad contemporánea. tanto ambas series como este mismo nodo de de la saturacion son suceptibles de ser ampliado.
-  </p>
-</div>
+<div class="parrafo"> <p> Esta serie investiga aquello que escapa a la vista, pero domina nuestras vidas: la saturación intangible generada por el bombardeo constante de estímulos tecnológicos —publicidad omnipresente, redes sociales absorbentes e información fragmentada— que invade nuestra percepción y distorsiona nuestra atención. Como advierte Guido Dorfles en <em>El intervalo perdido</em>, esta sobreexposición no solo daña nuestro entorno, sino que erosiona nuestros espacios internos de reflexión y conciencia. Vivimos en una realidad en la que los residuos trascienden lo físico y se acumulan en nuestras mentes a través de algoritmos invasivos. </p> <p> <strong>Concepto:</strong> Materializa lo imperceptible, capturando visualmente la intoxicación sensorial y cognitiva provocada por esta contaminación invisible. </p> </div> <div class="parrafo"> <p> La saturación se expresa a través de dos series que, dialogando con la tradición pictórica, subvierten sus preceptos y reflejan nuestra realidad contemporánea. Tanto estas series como este mismo nodo de la saturación son susceptibles de ampliación. </p> </div>
 <br><br>
 <div class="button-container">
   <a href="/Es/la-peste.html" class="fancy-button">
