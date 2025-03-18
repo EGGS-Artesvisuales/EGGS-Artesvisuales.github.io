@@ -38,6 +38,9 @@ mermaid: true
     <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con distintos entornos, surgiendo de la traslación de las nociones pictóricas hacia objetos y espacios. Este grupo se divide en tres subcategorías: espacios domésticos, espacios públicos y espacios naturales.
   </p>
 </div>
+<br>
+<br><br>
+<br>
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
@@ -72,6 +75,7 @@ graph TD
 
 </div>
 <br>
+<br><br>
 <br>
 <div class="subtitulo">Pintura</div>
 
