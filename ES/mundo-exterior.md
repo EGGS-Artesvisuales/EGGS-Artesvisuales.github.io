@@ -52,8 +52,9 @@ graph TD
 
 <br><br><br><br>
 <div class="subtitulo">Lo Tangible</div> 
+<br>
 <p class="parrafo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Categoría de obras que exploran los aspectos físicos y materiales del entorno, resaltando las características del paisaje local, los objetos cotidianos y las escenas que configuran nuestra realidad inmediata. Cada serie se nombra en función de un tema distintivo, representativo del presente, lo que implica que esta colección no es definitiva y puede ampliarse con nuevas series surgidas de características emergentes de la realidad actual. Este grupo abarca las siguientes series: </p>
-
+<br><br>
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
@@ -73,10 +74,8 @@ graph TD
 
 <br>
 <div class="subtitulo">Lo Intangible</div>
-
-<p class="parrafo">
-    Categoría de obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
-</p>
+<p class="parrafo"> Categoría de obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico. Al igual que la categoría de obras de lo tangible, esta serie también es susceptible de ampliación, lo cual demuestra que la diagramatización del hacer artístico no solo organiza el trabajo, sino que también permite proyectarlo en su producción. </p>
+<br><br>
 
 <div class="button-container">
     <a href="/ES/capitalismo.html" class="fancy-button">
