@@ -21,7 +21,7 @@ mermaid: true
   <br><br>
 <figure class="imagen-con-caption" style="width: 73%;">
   <img src="/assets/img/la-peste---intro01.jpg" alt="Obra artística sobre contaminación ambiental">
-  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios públicos / Peste en el museo: Richard Prince Infested, 2009</figcaption>
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios públicos / Peste en el museo: Richard Prince Infested. MAC, 2009</figcaption>
 </figure>
 <br><br> 
   
