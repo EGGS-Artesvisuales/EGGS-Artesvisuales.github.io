@@ -78,7 +78,7 @@ graph TD
 <br>
 <br><br>
 <br>
-<div class="subtitulo">Pintura</div>
+<div class="subtitulo">La Peste: Pintura</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
@@ -90,7 +90,7 @@ graph TD
   Aunque la pintura constituyó inicialmente el medio expresivo fundamental, el proyecto ha evolucionado expandiéndose hacia diversas disciplinas del arte contemporáneo, explorando múltiples formatos y soportes creativos que enriquecen el discurso visual. La serie se organiza en dos categorías conceptuales fundamentales:
 </p>
 <br><br><br>
-<div class="subtitulo">Desplazamiento de la Pintura</div>
+<div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
