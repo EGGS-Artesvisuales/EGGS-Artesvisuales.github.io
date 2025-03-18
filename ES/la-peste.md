@@ -9,6 +9,7 @@ mermaid: true
 <div class="titulo">La Peste</div>
 
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
+<br>
 
 <figure class="imagen-con-caption" style="width: 73%;">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Obra artística sobre contaminación ambiental">
