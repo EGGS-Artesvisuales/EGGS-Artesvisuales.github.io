@@ -35,8 +35,6 @@ graph TD
   LI[Lo Invisible]
   P[Pintura]
   DP[Desplazamiento de la Pintura]
-  DPI[Intervenciones e Instalaciones]
-  DPV[Video Multimedia]
 
   RM --> LT
   LT --> LS
@@ -45,12 +43,16 @@ graph TD
   LS --> LI
   LP --> P
   LP --> DP
-  DP --> DPI
-  DP --> DPV
 
+  click RM "/Es/mundo-exterior.html" "Ir a Representación del Mundo"
+  click LT "/Es/tangible.html" "Ir a Lo Tangible"
   click LS "/Es/saturacion.html" "Ir a La Saturación"
+  click LTec "/Es/tecnologia.html" "Ir a La Tecnología"
   click LP "/Es/la-peste.html" "Ir a La Peste"
   click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
+  click P "/Es/pinturas.html" "Ir a Pintura"
+  click DP "/Es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+
 </div>
 <br>
 <br>
