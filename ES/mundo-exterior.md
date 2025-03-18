@@ -52,7 +52,7 @@ graph TD
 
 <br><br>
 <div class="subtitulo">Lo Tangible</div> 
-<p class="parrafo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Colección de obras que exploran los aspectos físicos y materiales del entorno, resaltando las características del paisaje local, los objetos cotidianos y las escenas que configuran nuestra realidad inmediata. Cada serie se nombra en función de un tema distintivo, representativo del presente. Este grupo abarca las siguientes series: </p>
+<p class="parrafo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Categoría de obras que exploran los aspectos físicos y materiales del entorno, resaltando las características del paisaje local, los objetos cotidianos y las escenas que configuran nuestra realidad inmediata. Cada serie se nombra en función de un tema distintivo, representativo del presente. Este grupo abarca las siguientes series: </p>
 
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
@@ -75,7 +75,7 @@ graph TD
 <div class="subtitulo">Lo Intangible</div>
 
 <p class="parrafo">
-    Obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
+    Categoría de obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico.
 </p>
 
 <div class="button-container">
