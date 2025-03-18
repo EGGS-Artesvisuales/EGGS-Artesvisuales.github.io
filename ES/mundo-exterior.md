@@ -10,9 +10,7 @@ mermaid: true
     Desde los orígenes del arte, la pintura y las artes visuales han sido ventanas para descifrar la complejidad de la realidad. Desde las enigmáticas cuevas prehistóricas hasta las galerías modernas, se ha buscado plasmar no solo la apariencia, sino también los significados profundos que subyacen en la existencia. Esta pasión por la representación ha impulsado una constante evolución en técnicas, estilos y discursos artísticos. </p> <p class="parrafo"> En la actualidad, el diálogo con la realidad trasciende los formatos tradicionales. Las prácticas contemporáneas fusionan la herencia pictórica con nuevos lenguajes —como instalaciones, fotografía y medios digitales—, ofreciendo una visión crítica e innovadora ante los desafíos de representar el presente. </p> <p class="parrafo"> Esta sección de la práctica artística busca capturar la esencia del ahora, resaltando los rasgos más distintivos de lo contemporáneo desde dos enfoques complementarios: el tangible, manifestado en el mundo físico, y el intangible, donde ideas y fenómenos abstractos se transforman en temas para la creación. El proceso creativo se origina en la pintura y se expande hacia formas de arte contemporáneas y mixtas. </p> <p class="parrafo"> Así, el recorrido se organiza de la siguiente manera: </p>
 <br><br>
 
-<br><br>
-
-<br><br>
+<br>
 <div class="mermaid">
 graph TD
     principal[Actividad Artística]
