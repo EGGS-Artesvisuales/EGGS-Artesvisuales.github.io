@@ -8,20 +8,22 @@ mermaid: true
 <div class="subtitulo">Retrato de lo contemporáneo</div>
 
 <p class="parrafo" style="margin-top: 6%;">
-La pintura y el arte visual han funcionado históricamente como ventanas para interpretar la realidad. Desde las cuevas prehistóricas hasta las galerías actuales, los creadores hemos buscado plasmar no solo las apariencias, sino también los significados profundos de nuestra existencia. Esta necesidad de representación ha impulsado la evolución constante de técnicas, estilos y discursos artísticos.
+Desde los albores del arte, la pintura y las artes visuales han servido como ventanas para interpretar la realidad en sus múltiples dimensiones. Desde las enigmáticas cuevas prehistóricas hasta las galerías contemporáneas, se ha buscado plasmar no solo las apariencias, sino también los significados profundos que subyacen en la existencia. Esta vocación por la representación ha impulsado una evolución constante en técnicas, estilos y discursos artísticos.
 </p>
 
 <p class="parrafo">
-En el contexto actual, este diálogo con la realidad se expande más allá de los formatos tradicionales. Las prácticas contemporáneas combinan la herencia pictórica con nuevos lenguajes como instalaciones, fotografía y medios digitales. Esta diversidad de recursos permite analizar la realidad con una mirada crítica e innovadora, adecuada a los desafíos de nuestro tiempo.
+En el contexto actual, el diálogo con la realidad trasciende los formatos tradicionales. Las prácticas contemporáneas permiten fusionar la herencia pictórica con nuevos lenguajes —como instalaciones, fotografía y medios digitales—, ofreciendo una mirada crítica e innovadora ante los desafíos del presente.
 </p>
 
 <p class="parrafo">
-Esta categoría busca capturar la esencia de nuestro tiempo a través de dos enfoques complementarios: lo tangible (elementos físicos y materiales) y lo intangible (conceptos y fenómenos abstractos). El proceso creativo funciona como lente amplificador que revela conexiones ocultas entre aspectos aparentemente dispares de la experiencia contemporánea.
+Esta sección captura la esencia del ahora a través de dos enfoques complementarios: lo tangible, expresado en el mundo físico, y lo intangible, donde las ideas y los fenómenos abstractos cobran forma. El proceso creativo se erige como una lente amplificadora que revela conexiones ocultas entre elementos aparentemente dispares.
 </p>
 
 <p class="parrafo">
-El recorrido propuesto se organiza en las siguientes series interconectadas:
+El recorrido se organiza en las siguientes series interconectadas:
 </p>
+
+<br><br>
 
 <br><br>
 <div class="mermaid">
