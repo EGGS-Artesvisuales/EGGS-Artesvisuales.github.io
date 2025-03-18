@@ -25,13 +25,13 @@ mermaid: true
 <p class="parrafo">
   Las obras incluidas en este apartado surgen del impulso de representar el mundo como un ejercicio artístico, enfatizando sus aspectos esenciales. La saturación emergió como elemento central, simbolizando con claridad la crisis ambiental y el profundo daño infligido a la Tierra.
   <br><br>
-  Si bien la pintura constituyó inicialmente el medio principal, este proyecto gradualmente se expandió hacia múltiples disciplinas, reflejando un profundo proceso de exploración conceptual y formal. Desde el cuestionamiento constante y la redefinición de soportes, técnicas y lenguajes pictóricos, la propuesta evolucionó hacia un recorrido creativo que abarca diversos formatos y plataformas expresivas.
+  Si bien la pintura constituyó inicialmente el medio principal, este proyecto gradualmente se expandió hacia múltiples disciplinas, reflejo del proceso de exploración conceptual y formal. Desde el cuestionamiento constante y la redefinición del lenguaje pictorico, el uso de soportes, técnicas y lenguajes pictóricos, la propuesta evolucionó hacia un recorrido que abarca diversos formatos y plataformas expresivas.
   <br><br>
   La serie <strong>«La Peste»</strong> se estructura en dos grandes grupos:
   <br><br>
-  1. <strong>Pintura Tradicional:</strong> Obras concebidas mediante técnicas y formatos convencionales, en las cuales el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas.
+  1. <strong>Pintura:</strong> Obras concebidas mediante técnicas y formatos convencionales, en las cuales el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas. La pintura, como lenguaje matriz en las artes vosuales, ofrece sus propias problematicas, que tienen que ver con la percepcion y conceptualizacion de nuestra realidad. en ese sentido la pitnrura es un proble en si misa asi llegue a el uso de diferentes texcnocas y materiales, que en la busqueda de la representacion de la saturacion, recojo tambien del mundo pubklicitario materiales etc. luego la relfexion en tronoa los soportes. 
   <br><br>
-  2. <strong>Desplazamientos de la Pintura:</strong> Obras que exploran más allá de los límites tradicionales, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos contextos:
+  2. <strong>Desplazamientos de la Pintura:</strong> Obras que exploran más allá de los límites tradicionales de la pintura, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos objetos y contextos:
   <br><br>
   <ul>
     <li><strong>Espacios domésticos:</strong> Integración de obras en ambientes íntimos y cotidianos, estableciendo diálogos con la vida personal y diaria.</li>
