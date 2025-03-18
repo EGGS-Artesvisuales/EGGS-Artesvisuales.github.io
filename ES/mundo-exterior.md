@@ -42,13 +42,12 @@ graph TD
     representacion --> tangible[Lo Tangible]
     representacion --> intangible[Lo Intangible]
 
-    accion --> subrepticio[Lo Subrepticio]
-    accion --> comunitario[Lo Comunitario]
-    accion --> docencia[Docencia y Talleres]
-    accion --> servicios[Servicios]
+    tangible --> saturacion[La Saturación]
+    tangible --> tecnologia[La Tecnología]
 
-    interior --> psicologia[Arte y Psicología]
-    interior --> espiritualidad[Arte y Espiritualidad]
+    intangible --> capitalismo[i. del capitalismo]
+    intangible --> popular[i. de lo popular]
+    intangible --> ancestrales[i. de l@s ancestr@s]
 
     click principal "/ES/index.html" "Ir al Inicio"
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
@@ -56,14 +55,8 @@ graph TD
     click intangible "/ES/intangible.html" "Ir a Lo Intangible"
 
     click accion "/ES/accion.html" "Ir a Acción en el Mundo"
-    click subrepticio "/ES/subrepticio.html" "Ir a Lo Subrepticio"
-    click comunitario "/ES/comunitario.html" "Ir a Lo Comunitario"
-    click docencia "/ES/docencia.html" "Ir a Docencia y Talleres"
-    click servicios "/ES/servicios.html" "Ir a Servicios"
-
     click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
-    click psicologia "/ES/arte-y-psicologia.html" "Ir a Arte y Psicología"
-    click espiritualidad "/ES/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
+
 
 
 </div>
