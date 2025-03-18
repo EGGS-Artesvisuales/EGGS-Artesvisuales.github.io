@@ -22,7 +22,7 @@ mermaid: true
   De este modo, "La Peste" establece un diálogo crítico entre naturaleza, vida, arte y lo sagrado, confrontándolos con la contaminación, la publicidad invasiva y las consecuencias de la producción industrial desmedida. La publicidad se revela como la peste de la pintura, los desechos se convierten en la peste del paisaje, y la contaminación representa la peste del cuerpo humano. Esta serie explora la corrupción del mundo físico y reinterpreta el género del paisaje—tradicionalmente símbolo de pureza en la pintura al óleo—incorporando elementos contemporáneos que lo contaminan tanto visual como conceptualmente.
 </p>
 
-<p class="parrafo">
+<p class=\"parrafo\">
   Las obras integradas en este apartado surgen del impulso de representar el mundo como ejercicio artístico vital, enfatizando sus aspectos más esenciales y críticos. La saturación emergió como elemento vertebrador, simbolizando con contundencia la crisis ambiental contemporánea y el profundo daño infligido a la Tierra.
   <br><br>
   Si bien la pintura constituyó inicialmente el medio expresivo principal, este proyecto se expandió gradualmente hacia múltiples disciplinas, reflejo natural del proceso de exploración conceptual y formal. Desde el cuestionamiento constante y la redefinición del lenguaje pictórico, pasando por la experimentación con diversos soportes, técnicas y expresiones visuales, la propuesta evolucionó hacia un recorrido que abarca múltiples formatos y plataformas expresivas.
