@@ -34,22 +34,13 @@ mermaid: true
 </p>
 
 <p class="parrafo">
-  <strong>1. Pinturas tradicionales:</strong> Obras en lienzo que usan técnicas clásicas combinadas con elementos modernos como anuncios reciclados. Muestran cómo lo comercial invade incluso el arte más puro.
+  <strong>1. PINTURA:</strong> Obras que usan técnicas clásicas combinadas con elementos modernos como anuncios reciclados. Muestran cómo lo comercial invade incluso el arte más puro.
 </p>
 
 <p class="parrafo">
-  <strong>2. Intervenciones en espacios:</strong> Obras que salen del lienzo para interactuar con diferentes entornos:
+  <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que salen del lienzo para interactuar con diferentes entornos:
 </p>
 
-<ul class="parrafo">
-  <li><strong>Lo Domestico:</strong> Piezas integradas en espacios cotidianos</li>
-  <li><strong>Lo publico:</strong> Instalaciones urbanas que invitan a la reflexión colectiva</li>
-  <li><strong>Naturaleza:</strong> Trabajos en entornos rurales que dialogan con el paisaje</li>
-</ul>
-
-<p class="parrafo"> 
-  Esta propuesta artística busca hacer visible el daño ambiental a través de diferentes formatos, usando el arte como herramienta para concienciar sobre nuestra relación con el planeta.
-</p>
 <br><br>
 <div class="mermaid">
 graph TD
