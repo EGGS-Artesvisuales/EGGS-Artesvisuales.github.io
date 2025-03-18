@@ -7,11 +7,8 @@ mermaid: true
 ---
 
 <div class="titulo">Bienvenid@ a <br>EGGS-STUDIO</div>
-<div class="subtitulo">Artes visuales integradas:<br> ideas, obras y proyectos.</div>
-<p class="parrafo" style="margin-top: 7%;">
-  Espacio donde confluyen las multiples aristas de mi trabajo artistico, donde comparto desde proyectos íntimos hasta obras de mayor escala, organizados mediante un esquema que clarifica mi práctica artística.
-</p>
-<br>
+<div class="subtitulo">Artes-visuales integradas: ideas, obras y proyectos.</div> 
+<p class="parrafo" style="margin-top: 7%;"> Espacio donde convergen las múltiples facetas de mi practica artística. Aquí comparto tanto proyectos íntimos como obras más grandes, organizados en un esquema que esclarece mi práctica artística. Esta se estructura en tres nodos principales, cada uno representando una modalidad fundamental en mi acercamiento a la practica artística. </p> <br> 
 <div class="mermaid">
 
  graph TD
