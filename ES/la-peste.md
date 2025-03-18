@@ -26,23 +26,39 @@ mermaid: true
   Las obras integradas en este apartado surgen del impulso de representar el mundo como ejercicio artístico vital, enfatizando sus aspectos más esenciales y críticos. La saturación emergió como elemento vertebrador, simbolizando con contundencia la crisis ambiental contemporánea y el profundo daño infligido a la Tierra.
   <br><br>
   Si bien la pintura constituyó inicialmente el medio expresivo principal, este proyecto se expandió gradualmente hacia múltiples disciplinas, reflejo natural del proceso de exploración conceptual y formal. Desde el cuestionamiento constante y la redefinición del lenguaje pictórico, pasando por la experimentación con diversos soportes, técnicas y expresiones visuales, la propuesta evolucionó hacia un recorrido que abarca múltiples formatos y plataformas expresivas.
+</p>
+
+<br><br>
+
+<p class="parrafo">  
+  <p>
+    La serie <strong>«La Peste»</strong> se estructura en dos grandes ejes conceptuales:
+  </p>
   <br><br>
-  La serie <strong>«La Peste»</strong> se estructura en dos grandes ejes conceptuales:
+  <p class="parrafo">
+    <p>
+      1. <strong>Pintura:</strong> Obras concebidas mediante técnicas y formatos convencionales, donde el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas. La pintura, como lenguaje matriz en las artes visuales, ofrece sus propias problemáticas relacionadas con la percepción y conceptualización de nuestra realidad. En este sentido, la pintura representa un desafío en sí misma, explorando diferentes técnicas y materiales que, en la búsqueda de representar la saturación, incorporan elementos del mundo publicitario y comercial, estableciendo así una reflexión profunda en torno a los soportes tradicionales.
+    </p>  
   <br><br>
-  1. <strong>Pintura:</strong> Obras concebidas mediante técnicas y formatos convencionales, donde el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas. La pintura, como lenguaje matriz en las artes visuales, ofrece sus propias problemáticas relacionadas con la percepción y conceptualización de nuestra realidad. En este sentido, la pintura representa un desafío en sí misma, explorando diferentes técnicas y materiales que, en la búsqueda de representar la saturación, incorporan elementos del mundo publicitario y comercial, estableciendo así una reflexión profunda en torno a los soportes tradicionales.
+    2. <strong>Desplazamientos de la Pintura:</strong> Obras que trascienden los límites tradicionales del medio pictórico, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos objetos y contextos:
   <br><br>
-  2. <strong>Desplazamientos de la Pintura:</strong> Obras que trascienden los límites tradicionales del medio pictórico, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos objetos y contextos:
-  <br><br>
-  <ul>
+  </p>
+</p>
+
+<ul class="parrafo">
+  <ul class="parrafo">
     <li><strong>Espacios domésticos:</strong> Integración de obras en ambientes íntimos y cotidianos, estableciendo diálogos significativos con la vida personal y diaria.</li>
     <li><strong>Espacios públicos:</strong> Propuestas diseñadas para interactuar en contextos urbanos y colectivos, promoviendo un amplio y crítico diálogo social sobre la contaminación y sus efectos.</li>
     <li><strong>Espacios naturales/rurales:</strong> Intervenciones que exploran la interacción del arte con el entorno natural, reflexionando sobre la compleja relación entre cultura, paisaje y memoria colectiva.</li>
   </ul>
-  <br>
+</ul>
+
+<p class="parrafo"> 
   De esta manera, <strong>«La Peste»</strong> se presenta como un viaje artístico multidimensional que interpela, transforma y expande la percepción tradicional del acto pictórico, confrontándonos con las consecuencias de nuestra relación disfuncional con el entorno.
 </p>
 
 <br><br>
+
 
 
 
