@@ -57,6 +57,12 @@ graph TD
     click accion "/ES/accion.html" "Ir a Acción en el Mundo"
     click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
 
+    click saturacion "/ES/saturacion.html" "Ir a La Saturación"
+    click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
+    click capitalismo "/ES/capitalismo.html" "Ir a i. del capitalismo"
+    click popular "/ES/popular.html" "Ir a i. de lo popular"
+    click ancestrales "/ES/ancestros.html" "Ir a i. de l@s ancestr@s"
+
 
 
 </div>
