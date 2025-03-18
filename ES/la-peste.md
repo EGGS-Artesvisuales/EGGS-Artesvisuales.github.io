@@ -10,33 +10,23 @@ mermaid: true
 
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
 <br>
-
+<br>
 <figure class="imagen-con-caption" style="width: 73%;">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Obra artística sobre contaminación ambiental">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios domésticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
-
-<p class="parrafo" style="margin-top: 6%;"> Las obras de <strong>«La Peste»</strong> representan la contaminación actual. Basándome en la hipótesis Gaia de Lovelock, concibo al planeta como un organismo vivo y enfermo, contaminado por la acción de la industria humana a través de residuos de envases y emisiones industriales. La propuesta de la serie es mostrar a una Gaia deteriorada, en la que se plantean pares de opuestos como: naturaleza vs. contaminación, Gaia vs. contaminación, pintura/arte vs. publicidad y desechos, lo puro vs. lo impuro, cuerpo vs. virus, entre otros. Esta visión se fundamenta en la hipótesis de James Lovelock, que compara la Tierra con un organismo vivo afectado por nuestras acciones. <br><br> Cada desecho plástico y cada emisión tóxica actúan como síntoma de esta "enfermedad". La serie confronta lo natural con lo industrial, y lo artístico con lo comercial. La publicidad se presenta como una fuerza invasora en el arte, los residuos como una plaga en el paisaje y la contaminación como una amenaza para la salud. Esto reinventa el concepto tradicional del paisaje pictórico, incorporando elementos modernos que reflejan nuestro impacto ambiental. <br><br> Asimismo, se distinguen elementos de la cultura pop actual —como la publicidad y la prensa masiva— que actúan como una forma de contaminación, afectando la psique y otros aspectos sutiles al invadir nuestros espacios. En lo que respecta a la serie de La Peste, me enfoco en los aspectos más físicos y sólidos de la saturación, aquellos que transforman ciudades en vertederos y dañan los paisajes naturales, demostrando cómo la actividad humana enferma al planeta. <br><br> La estética de La Peste es también un tamiz que impide apreciar en su pureza los paisajes, y esta idea de representación se trabaja ampliamente en mis pinturas de la serie. </p>
-
-<p class="parrafo">
-  El proyecto nace de la necesidad de mostrar artísticamente la crisis ecológica. Comenzó con pinturas tradicionales pero fue creciendo para incluir diferentes técnicas y formatos, reflejando la complejidad del tema.
-  <br><br>
-  La pintura sigue siendo importante como lenguaje artístico histórico, pero aquí se mezcla con materiales inusuales como restos publicitarios. Este contraste simboliza la lucha entre la naturaleza y la contaminación humana. El proceso creativo se convirtió en un espacio de experimentación con diversos materiales y soportes.
-</p>
+<br><br>
 
 <br>
 
-<p class="parrafo">  
-  <strong>«La Peste»</strong> se organiza en dos partes principales:
-</p>
-
-<p class="parrafo">
-  <strong>1. PINTURA:</strong> Obras que usan técnicas clásicas combinadas con elementos modernos como anuncios reciclados. Muestran cómo lo comercial invade incluso el arte más puro.
-</p>
-
-<p class="parrafo">
-  <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que salen del lienzo para interactuar con diferentes entornos:
-</p>
+<p class="parrafo" style="margin-top: 6%;"> Las obras de <strong>«La Peste»</strong> representan la contaminación actual. Basándome en la hipótesis Gaia de Lovelock, concibo al planeta como un organismo vivo y enfermo, deteriorado por la acción de la industria humana a través de residuos de envases y emisiones industriales. La propuesta de la serie es retratar a una Gaia en decadencia, en la que se plantean pares de opuestos tales como: naturaleza vs. contaminación, Gaia vs. degradación, pintura/arte vs. publicidad y desechos, lo puro vs. lo impuro, y cuerpo vs. virus. Esta visión se fundamenta en la hipótesis de James Lovelock, que compara la Tierra con un organismo vivo afectado por nuestras acciones. 
+  <br><br> Cada desecho plástico y cada emisión tóxica actúan como síntoma de esta "enfermedad". La serie confronta lo natural con lo industrial, y lo artístico con lo comercial. La publicidad se erige como una fuerza invasora en el arte, los residuos como una plaga en el paisaje y la contaminación como una amenaza para la salud. Esto reinventa el concepto tradicional del paisaje pictórico, incorporando elementos modernos que reflejan nuestro impacto ambiental. 
+  <br><br> Asimismo, se distinguen elementos de la cultura pop actual —como la publicidad y la prensa masiva— que actúan como una forma de contaminación, afectando la psique y otros aspectos sutiles al invadir nuestros espacios. En lo que respecta a la serie de La Peste, me concentro en los aspectos más físicos y palpables de la saturación, aquellos que transforman ciudades en vertederos y dañan los paisajes naturales, demostrando cómo la actividad humana enferma al planeta. <br><br> La estética de La Peste funciona también como un tamiz que impide apreciar en su pureza los paisajes, y esta idea de representación se desarrolla ampliamente en mis pinturas de la serie. </p> 
+<p class="parrafo"> El proyecto nace de la intención de representación, sin que ello implique una exposición directa de la crisis ecológica. La elección de este tema es consecuencia de nuestra época; no es por gusto personal, sino por la importancia de reflexionar sobre los desórdenes que nos rodean. Comenzó con pinturas tradicionales, pero fue evolucionando para incorporar diferentes técnicas y formatos, reflejando la complejidad del asunto. <br><br> La pintura sigue siendo fundamental como lenguaje artístico histórico, pero en este proyecto se combina con materiales inusuales, como restos publicitarios. Este contraste simboliza la lucha entre la naturaleza y la contaminación humana, y el proceso creativo se convierte en un espacio de experimentación con diversos materiales y soportes. </p>
+<br> 
+<p class="parrafo"> Así, la serie de obras de <strong>«La Peste»</strong> se organiza en dos partes principales: </p> 
+<p class="parrafo"> <strong>1. PINTURA:</strong> Obras que combinan técnicas clásicas con elementos modernos, como anuncios reciclados, mostrando cómo lo comercial invade incluso el arte más puro. </p> 
+<p class="parrafo"> <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con distintos entornos, surgiendo de la traslación de las nociones pictóricas hacia objetos y espacios. Este grupo se divide en tres subcategorías: espacios domésticos, espacios públicos y espacios naturales. </p>
 
 <br><br>
 <div class="mermaid">
