@@ -58,7 +58,7 @@ graph TD
 
 <br><br><br><br>
 
-<div class="subtitulo">La Peste</div><br>
+<div class="subtitulo">La Peste</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación - La peste" loading="lazy">
   <figcaption>La Saturacion / La Peste / Pintura: pintura infectada n°1. EGGS 2008</figcaption>
@@ -79,7 +79,7 @@ graph TD
 
 <br><br><br>
 
-<div class="subtitulo">Lo Invisible</div><br>
+<div class="subtitulo">Lo Invisible</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
   <figcaption>La Saturacion / Lo Invisible / Pintura / Serie wi fi / paisaje. s/t n4, EGGS 2014</figcaption>
