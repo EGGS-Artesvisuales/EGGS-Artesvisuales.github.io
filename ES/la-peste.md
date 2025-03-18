@@ -27,7 +27,7 @@ mermaid: true
   La pintura sigue siendo importante como lenguaje artístico histórico, pero aquí se mezcla con materiales inusuales como restos publicitarios. Este contraste simboliza la lucha entre la naturaleza y la contaminación humana. El proceso creativo se convirtió en un espacio de experimentación con diversos materiales y soportes.
 </p>
 
-<br><br>
+<br>
 
 <p class="parrafo">  
   <strong>«La Peste»</strong> se organiza en dos partes principales:
