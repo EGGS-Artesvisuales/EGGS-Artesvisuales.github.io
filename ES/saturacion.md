@@ -62,7 +62,8 @@ graph TD
 <br><br><br>
 
 <div class="subtitulo">Lo Invisible</div><br> 
-<figure class="imagen-con-caption"> <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy"> 
+<figure class="imagen-con-caption"> 
+  <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy"> 
   <figcaption>La Saturación / Lo Invisible / Pintura / Serie Wi‑Fi / paisaje. s/t n4, EGGS 2014</figcaption> 
 </figure>
 <br><br> 
