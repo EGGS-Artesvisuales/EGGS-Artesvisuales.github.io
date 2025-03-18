@@ -8,14 +8,14 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 <div class="subtitulo">Síntoma de nuestra época</div>
-<br>
+<br><br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
   <figcaption>La Saturacion / La Peste / Desplazamiento de la pintura: Espacios Domesticos. s/t n°4, EGGS 2009</figcaption>
 </figure>
-<br><br>
-<div class="parrafo"> <p> <strong>«La Saturación»</strong> se presenta como una condición especialmente distintiva y emblemática de la época actual, trascendiendo lo material para abarcar dimensiones culturales y perceptivas. Esta noción engloba tanto la sobresaturación sensorial como las consecuencias del consumo excesivo, evidenciando la pérdida de espacios de contemplación y el aumento de la desigualdad, la alienación y la crisis ecológica. La obra investiga este paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe el entorno y la vida cotidiana. En consecuencia, la saturación se erige como un rasgo ineludible en el retrato de la época contemporánea. </p> <p> Vinculada al concepto de <em>horror vacui</em>, la saturación se despliega en múltiples estratos, desde lo tangible hasta lo cultural, fragmentando la atención y la memoria colectiva. Esta condición da origen a dos series de obras: <em>La Peste</em> y <em>Lo Invisible</em>. <em>La Peste</em> se centra en la acumulación de residuos visibles y su impacto en los paisajes, mientras que <em>Lo Invisible</em> examina fenómenos imperceptibles pero físicamente invasivos, como la contaminación radioelectromagnética, los olores y otras manifestaciones químicas y físicas que afectan nuestro ser. Ambas líneas buscan capturar los rasgos de la época desde una perspectiva única, no con la intención de romper deliberadamente con las convenciones, sino de ampliar lógicamente sus preceptos hacia tecnologías actuales y filosofías que reconfiguran las tradiciones pictóricas hacia formas expresivas híbridas. </p> </div>
+<br><br><br>
+<div class="parrafo"> <p> <strong>«La Saturación»</strong> se presenta como una condición especialmente distintiva y emblemática de la época actual, trascendiendo lo material para abarcar dimensiones culturales y perceptivas. Esta noción engloba tanto la sobresaturación sensorial como las consecuencias del consumo excesivo, evidenciando la pérdida de espacios de contemplación y el aumento de la desigualdad, la alienación y la crisis ecológica. La obra investiga este paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe el entorno y la vida cotidiana. En consecuencia, la saturación se erige como un rasgo ineludible en el retrato de la época contemporánea. </p> <br><p> Vinculada al concepto de <em>horror vacui</em>, la saturación se despliega en múltiples estratos, desde lo tangible hasta lo cultural, fragmentando la atención y la memoria colectiva. Esta condición da origen a dos series de obras: <em>La Peste</em> y <em>Lo Invisible</em>. <em>La Peste</em> se centra en la acumulación de residuos visibles y su impacto en los paisajes, mientras que <em>Lo Invisible</em> examina fenómenos imperceptibles pero físicamente invasivos, como la contaminación radioelectromagnética, los olores y otras manifestaciones químicas y físicas que afectan nuestro ser. Ambas líneas buscan capturar los rasgos de la época desde una perspectiva única, no con la intención de romper deliberadamente con las convenciones, sino de ampliar lógicamente sus preceptos hacia tecnologías actuales y filosofías que reconfiguran las tradiciones pictóricas hacia formas expresivas híbridas. </p> </div>
 <br><br><br><br>
 <div class="mermaid">
 graph TD
@@ -47,8 +47,8 @@ graph TD
 
 </div>
 <br>
-<br><br>
-<div class="subtitulo">La Peste</div>
+<br><br><br>
+<div class="subtitulo">La Peste</div><br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación - La peste" loading="lazy">
   <figcaption>La Saturacion / La Peste / Pintura: pintura infectada n°1. EGGS 2008</figcaption>
@@ -62,12 +62,12 @@ graph TD
 </div>
 
 <br><br><br>
-<div class="subtitulo">Lo Invisible</div>
+<div class="subtitulo">Lo Invisible</div><br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
   <figcaption>La Saturacion / Lo Invisible / Pintura / Serie wi fi / paisaje. s/t n4, EGGS 2014</figcaption>
 </figure>
-<br>
+<br><br>
 
 <div class="parrafo">
   <p>
