@@ -16,7 +16,7 @@ mermaid: true
 </figure>
 <br><br>
 <div class="parrafo"> <p> <strong>«La Saturación»</strong> se presenta como una condición especialmente distintiva y emblemática de la época actual, trascendiendo lo material para abarcar dimensiones culturales y perceptivas. Esta noción engloba tanto la sobresaturación sensorial como las consecuencias del consumo excesivo, evidenciando la pérdida de espacios de contemplación y el aumento de la desigualdad, la alienación y la crisis ecológica. La obra investiga este paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe el entorno y la vida cotidiana. En consecuencia, la saturación se erige como un rasgo ineludible en el retrato de la época contemporánea. </p> <p> Vinculada al concepto de <em>horror vacui</em>, la saturación se despliega en múltiples estratos, desde lo tangible hasta lo cultural, fragmentando la atención y la memoria colectiva. Esta condición da origen a dos series de obras: <em>La Peste</em> y <em>Lo Invisible</em>. <em>La Peste</em> se centra en la acumulación de residuos visibles y su impacto en los paisajes, mientras que <em>Lo Invisible</em> examina fenómenos imperceptibles pero físicamente invasivos, como la contaminación radioelectromagnética, los olores y otras manifestaciones químicas y físicas que afectan nuestro ser. Ambas líneas buscan capturar los rasgos de la época desde una perspectiva única, no con la intención de romper deliberadamente con las convenciones, sino de ampliar lógicamente sus preceptos hacia tecnologías actuales y filosofías que reconfiguran las tradiciones pictóricas hacia formas expresivas híbridas. </p> </div>
-<br><br>
+<br><br><br><br>
 <div class="mermaid">
 graph TD
   RM[Representación del Mundo]
@@ -47,7 +47,7 @@ graph TD
 
 </div>
 <br>
-<br>
+<br><br>
 <div class="subtitulo">La Peste</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación - La peste" loading="lazy">
@@ -56,17 +56,12 @@ graph TD
 <br><br>
 
 <div class="parrafo">
-  <p>
-    En esta serie, abordo la saturación como alegoría de la contaminación—plásticos, calentamiento global, residuos tóxicos—que transforma ciudades en vertederos, consumiendo paisajes enteros y dejando una marca irreversible de la intervención humana. Desde la pintura, exploro la hipótesis de la contaminación como enfermedad planetaria. Hablar solo de "daño ecológico" resulta insuficiente; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo en crisis, donde cada tonelada de CO₂ y cada partícula de microplástico son síntomas de una fiebre causada por nuestra civilización.
-  </p>
-  <p>
-    <strong>La Peste</strong>, como parte de <em>La Saturación</em>, profundiza en una reflexión ecológica basada en la teoría Gaia, visualizando al planeta como un organismo saturado y enfermo debido a la presión antropogénica. Esta propuesta dialoga también con la advertencia pionera de Rachel Carson sobre el deterioro ambiental, subrayando la urgencia de asumir colectivamente nuestra responsabilidad frente a la crisis actual. A través de esta obra busco mostrar cómo la contaminación corrompe gradualmente aquello que alguna vez fue noble, puro y limpio.
-  </p>
-  <p>
-    <strong>Concepto:</strong> Representa la degradación del mundo físico, mostrando cómo el paisaje—símbolo tradicional de pureza en la pintura al óleo—queda impregnado por elementos corrosivos característicos de nuestra época.
-  </p>
+  <p> En esta serie, abordo la saturación en su faceta de polución y contaminación de la naturaleza —plásticos, calentamiento global, residuos tóxicos, etc.— que, de forma acumulativa, transforma ciudades en vertederos, consumiendo paisajes enteros y dejando una huella irreversible de la intervención humana. Desde la pintura, exploro la hipótesis de la contaminación como una enfermedad planetaria, estableciendo una analogía entre la erosión del planeta y la degradación de la piel en enfermedades cutáneas —virales, bacterianas, fúngicas— y otras formas de corrosión corporal. Hablar únicamente de "daño ecológico" resulta insuficiente; siguiendo la teoría Gaia de James Lovelock, concibo la Tierra como un organismo vivo en crisis, en el que cada tonelada de CO₂ y cada partícula de microplástico son síntomas de una fiebre provocada por nuestra civilización. </p>
+  <br><p> <strong>La Peste</strong>, como parte de <em>La Saturación</em>, profundiza en una reflexión ecológica basada en la teoría Gaia, visualizando al planeta como un organismo vivo, saturado y enfermo debido a la presión antropogénica. Esta propuesta dialoga con la advertencia pionera de Rachel Carson sobre el deterioro ambiental, subrayando la urgencia de asumir colectivamente nuestra responsabilidad frente a la crisis actual. A través de esta obra, busco mostrar cómo la contaminación corrompe gradualmente aquello que alguna vez fue noble, puro y limpio. </p> <p> <strong>Concepto:</strong> Representa la degradación del mundo físico, evidenciando cómo el paisaje —símbolo tradicional de pureza en la pintura al óleo— queda impregnado por elementos corrosivos característicos de nuestra época. 
+  </p> 
 </div>
-<br><br>
+
+<br><br><br>
 <div class="subtitulo">Lo Invisible</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/lo-invisible-pintura-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
