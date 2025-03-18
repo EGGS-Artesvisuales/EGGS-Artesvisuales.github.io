@@ -23,24 +23,25 @@ mermaid: true
 </p>
 
 <p class="parrafo">
-  Las obras que componen este apartado nacen del deseo de representar el mundo como ejercicio artístico, enfocándome en destacar sus características más esenciales. La saturación emergió como elemento clave, simbolizando claramente la crisis ambiental y el daño profundo causado a la Tierra.
+  Las obras incluidas en este apartado surgen del impulso de representar el mundo como un ejercicio artístico, enfatizando sus aspectos esenciales. La saturación emergió como elemento central, simbolizando con claridad la crisis ambiental y el profundo daño infligido a la Tierra.
   <br><br>
- Aunque la pintura constituyó inicialmente el medio principal, este proyecto se expandió gradualmente hacia múltiples disciplinas, reflejando un proceso profundo de exploración conceptual y formal. A partir del cuestionamiento y la redefinición constante de soportes, medios y lenguajes pictóricos, la propuesta evolucionó hacia un recorrido creativo que abarca una variedad amplia de formatos y plataformas expresivas.
-
-La serie "La Peste" se estructura en dos grandes grupos:
-
-1. **Pintura Tradicional:** Obras concebidas bajo las técnicas y formatos convencionales, donde el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies tradicionales.
-
-2. **Desplazamientos de la Pintura:** Obras que exploran más allá de los límites convencionales, ampliando el campo visual y conceptual mediante la ocupación e intervención de diversos contextos:
-
-   - **Espacios domésticos:** Integración de obras en ambientes íntimos y cotidianos, generando diálogos directos con la vida diaria y personal.
-   - **Espacios públicos:** Propuestas concebidas para interactuar con contextos urbanos y colectivos, promoviendo un diálogo social amplio y crítico.
-   - **Espacios naturales/rurales:** Inserciones que exploran la interacción del arte con entornos naturales, reflexionando sobre la relación entre cultura, paisaje y memoria.
-
-De esta forma, "La Peste" se presenta como un viaje artístico que interpela, transforma y amplía la percepción tradicional del acto pictórico.
-
-
+  Si bien la pintura constituyó inicialmente el medio principal, este proyecto gradualmente se expandió hacia múltiples disciplinas, reflejando un profundo proceso de exploración conceptual y formal. Desde el cuestionamiento constante y la redefinición de soportes, técnicas y lenguajes pictóricos, la propuesta evolucionó hacia un recorrido creativo que abarca diversos formatos y plataformas expresivas.
+  <br><br>
+  La serie <strong>«La Peste»</strong> se estructura en dos grandes grupos:
+  <br><br>
+  1. <strong>Pintura Tradicional:</strong> Obras concebidas mediante técnicas y formatos convencionales, en las cuales el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies clásicas.
+  <br><br>
+  2. <strong>Desplazamientos de la Pintura:</strong> Obras que exploran más allá de los límites tradicionales, ampliando el campo visual y conceptual mediante la intervención y ocupación de diversos contextos:
+  <br><br>
+  <ul>
+    <li><strong>Espacios domésticos:</strong> Integración de obras en ambientes íntimos y cotidianos, estableciendo diálogos con la vida personal y diaria.</li>
+    <li><strong>Espacios públicos:</strong> Propuestas concebidas para interactuar en contextos urbanos y colectivos, promoviendo un amplio y crítico diálogo social.</li>
+    <li><strong>Espacios naturales/rurales:</strong> Inserciones que exploran la interacción del arte con el entorno natural, reflexionando sobre la relación entre cultura, paisaje y memoria.</li>
+  </ul>
+  <br>
+  De esta manera, <strong>«La Peste»</strong> se presenta como un viaje artístico que interpela, transforma y amplía la percepción tradicional del acto pictórico.
 </p>
+
 <br><br>
 
 
