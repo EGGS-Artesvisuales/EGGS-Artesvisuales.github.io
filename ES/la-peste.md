@@ -46,7 +46,6 @@ mermaid: true
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
-  A --> J[Lo Invisible]
   B --> C[Pinturas]
   C --> D[Pinturas Infectadas]
   D --> D1[Intervenciones]
@@ -62,7 +61,6 @@ graph TD
 
   click A "/es/la-saturacion.html" "Ir a La Saturación"
   click B "/es/la-peste.html" "Ir a La Peste"
-  click J "/es/lo-invisible.html" "Ir a Lo Invisible"
   click C "/es/pinturas.html" "Ir a Pinturas"
   click D "/es/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click D1 "/es/intervenciones.html" "Ir a Intervenciones"
