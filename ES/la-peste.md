@@ -25,7 +25,21 @@ mermaid: true
 <p class="parrafo">
   Las obras que componen este apartado nacen del deseo de representar el mundo como ejercicio artístico, enfocándome en destacar sus características más esenciales. La saturación emergió como elemento clave, simbolizando claramente la crisis ambiental y el daño profundo causado a la Tierra.
   <br><br>
-  Aunque la pintura fue inicialmente el medio principal, el proyecto se expandió gradualmente hacia otras disciplinas del arte contemporáneo, lo que me permitió explorar creativamente diversos formatos y soportes. Así, la serie "La Peste" se presenta en dos grandes grupos:<br>Pintura, y desplazamiento de la Pintura.
+ Aunque la pintura constituyó inicialmente el medio principal, este proyecto se expandió gradualmente hacia múltiples disciplinas, reflejando un proceso profundo de exploración conceptual y formal. A partir del cuestionamiento y la redefinición constante de soportes, medios y lenguajes pictóricos, la propuesta evolucionó hacia un recorrido creativo que abarca una variedad amplia de formatos y plataformas expresivas.
+
+La serie "La Peste" se estructura en dos grandes grupos:
+
+1. **Pintura Tradicional:** Obras concebidas bajo las técnicas y formatos convencionales, donde el lenguaje pictórico se manifiesta directamente sobre lienzos o superficies tradicionales.
+
+2. **Desplazamientos de la Pintura:** Obras que exploran más allá de los límites convencionales, ampliando el campo visual y conceptual mediante la ocupación e intervención de diversos contextos:
+
+   - **Espacios domésticos:** Integración de obras en ambientes íntimos y cotidianos, generando diálogos directos con la vida diaria y personal.
+   - **Espacios públicos:** Propuestas concebidas para interactuar con contextos urbanos y colectivos, promoviendo un diálogo social amplio y crítico.
+   - **Espacios naturales/rurales:** Inserciones que exploran la interacción del arte con entornos naturales, reflexionando sobre la relación entre cultura, paisaje y memoria.
+
+De esta forma, "La Peste" se presenta como un viaje artístico que interpela, transforma y amplía la percepción tradicional del acto pictórico.
+
+
 </p>
 <br><br>
 
@@ -48,20 +62,20 @@ graph TD
   F --> H[Espacio Público]
   F --> I[Espacios Naturales y Rurales]
 
-  click A "/la-saturacion.html" "Ir a La Saturación"
-  click B "/la-peste.html" "Ir a La Peste"
-  click C "/pinturas.html" "Ir a Pinturas"
-  click D "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-  click D1 "/intervenciones.html" "Ir a Intervenciones"
-  click D2 "/produccion.html" "Ir a Producción"
-  click E "/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
-  click E1 "/membrana.html" "Ir a Membrana"
-  click E2 "/modulo.html" "Ir a Módulo"
-  click E3 "/unidad.html" "Ir a Unidad"
-  click F "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click G "/espacios-domesticos.html" "Ir a Espacios Domésticos"
-  click H "/espacio-publico.html" "Ir a Espacio Público"
-  click I "/espacios-naturales-rurales.html" "Ir a Espacios Naturales y Rurales"
+  click A "/es/la-saturacion.html" "Ir a La Saturación"
+  click B "/es/la-peste.html" "Ir a La Peste"
+  click C "/es/pinturas.html" "Ir a Pinturas"
+  click D "/es/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click D1 "/es/intervenciones.html" "Ir a Intervenciones"
+  click D2 "/es/produccion.html" "Ir a Producción"
+  click E "/es/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
+  click E1 "/es/membrana.html" "Ir a Membrana"
+  click E2 "/es/modulo.html" "Ir a Módulo"
+  click E3 "/es/unidad.html" "Ir a Unidad"
+  click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click G "/es/espacios-domesticos.html" "Ir a Espacios Domésticos"
+  click H "/es/espacio-publico.html" "Ir a Espacio Público"
+  click I "/es/espacios-naturales.html" "Ir a Espacios Naturales y Rurales"
 
 </div>
 <br>
