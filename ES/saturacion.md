@@ -17,12 +17,13 @@ mermaid: true
 <br><br>
 <div class="parrafo"> 
   <p> 
-    <strong>«La Saturación»</strong> se erige como condición emblemática de nuestro tiempo, trascendiendo lo material para impregnar dimensiones culturales y perceptivas. Inspirada en la crítica social de pensadores como Gillo Dorfles, Guy Debord, Naomi Klein, Byung-Chul Han, Rob Nixon y Zygmunt Bauman, esta noción encapsula tanto la sobresaturación sensorial como las consecuencias del consumo desbordado. Dorfles, en <em>El intervalo perdido</em>, alerta sobre la erosión de espacios contemplativos en la cultura contemporánea, mientras otros autores analizan cómo este fenómeno agudiza la desigualdad, la alienación y la crisis ecológica. Mi obra explora este paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe silenciosamente nuestro entorno y vida cotidiana.
+    <strong>«La Saturación»</strong> se configura como una condición emblemática de la época actual, trascendiendo lo material para abarcar dimensiones culturales y perceptivas. Esta noción engloba tanto la sobresaturación sensorial como las consecuencias del consumo excesivo, evidenciando la pérdida de espacios de contemplación y el incremento de la desigualdad, la alienación y la crisis ecológica. La obra investiga este paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe el entorno y la vida cotidiana.
   </p>
   <p>
-    Vinculada al <em>horror vacui</em>, la saturación se despliega en múltiples estratos: desde lo tangible hasta lo perceptual, fracturando nuestra atención y memoria colectiva. Este concepto vertebra mi producción artística homónima, desarrollada en dos ejes principales: <em>La Peste</em>, centrada en la acumulación de residuos visibles y su impacto en los paisajes; y una serie que explora fenómenos invisibles pero físicamente invasivos, como la contaminación radio-eléctrica-magnética. Ambas líneas reflexionan sobre cómo la hiperestimulación visual y la colonización publicitaria de espacios públicos y de ocio definen las sociedades neoliberales contemporáneas, expandiendo los límites tradicionales de la pintura hacia formas expresivas híbridas.
+    Vinculada al concepto de <em>horror vacui</em>, la saturación se despliega en múltiples estratos, desde lo tangible hasta lo perceptual, fragmentando la atención y la memoria colectiva. Este concepto sustenta una producción artística articulada en dos ejes principales: <em>La Peste</em>, centrada en la acumulación de residuos visibles y su impacto en los paisajes; y una serie que examina fenómenos invisibles pero físicamente invasivos, como la contaminación electromagnética. Ambas líneas analizan cómo la hiperestimulación visual y la colonización publicitaria de los espacios públicos redefinen las sociedades contemporáneas, ampliando los límites tradicionales de la pintura hacia formas expresivas híbridas.
   </p> 
 </div>
+
 <br><br>
 <div class="mermaid">
 graph TD
