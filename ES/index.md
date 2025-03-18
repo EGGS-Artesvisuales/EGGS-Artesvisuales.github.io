@@ -6,10 +6,10 @@ permalink: /ES/index.html
 mermaid: true
 ---
 
-<div class="titulo">Bienvenid@ a EGGS-Studio</div>
-<div class="subtitulo">Artes visuales integradas: Descubre ideas, obras y proyectos.</div>
-<p class="parrafo" style="margin-top: 6%;">
-  Explora un espacio donde comparto desde proyectos íntimos hasta obras de gran escala, organizados mediante un esquema que clarifica mi práctica artística.
+<div class="titulo">Bienvenid@ a <br>EGGS-STUDIO</div>
+<div class="subtitulo">Artes visuales integradas: ideas, obras y proyectos.</div>
+<p class="parrafo" style="margin-top: 7%;">
+  Espacio donde confluyen las multiples aristas de mi trabajo artistico, donde comparto desde proyectos íntimos hasta obras de mayor escala, organizados mediante un esquema que clarifica mi práctica artística.
 </p>
 <br>
 <div class="mermaid">
