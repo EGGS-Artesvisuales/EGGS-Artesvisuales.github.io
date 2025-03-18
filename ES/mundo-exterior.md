@@ -73,7 +73,7 @@ graph TD
 </div>
 
 <br>
-<div class="subtitulo">Lo Intangible</div>
+<div class="subtitulo">Lo Intangible</div><br>
 <p class="parrafo"> Categoría de obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico. Al igual que la categoría de obras de lo tangible, esta serie también es susceptible de ampliación, lo cual demuestra que la diagramatización del hacer artístico no solo organiza el trabajo, sino que también permite proyectarlo en su producción. </p>
 <br><br>
 
