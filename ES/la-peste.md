@@ -10,7 +10,7 @@ mermaid: true
 
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
 <br><br>
-<figure class="imagen-con-caption" style="width: 73%;">
+<figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Obra artística sobre contaminación ambiental">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios domésticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
