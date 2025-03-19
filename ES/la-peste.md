@@ -43,28 +43,9 @@ mermaid: true
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios públicos / Peste en el museo: Richard Prince Infested. MAC, 2009</figcaption>
 </figure>
 <br><br>
-<div class="parrafo">
-  <p>
-    El proyecto nace de una intención de representación, más que de una exposición directa de la crisis ecológica. La elección de este tema se debe a la relevancia que tiene en las sociedades contemporáneas; no se trata de una preferencia personal, sino de la necesidad de reflejar, como sello del tiempo, la realidad que nos rodea hoy. El recorrido comenzó con pinturas tradicionales y evolucionó para incorporar diversas técnicas y formatos, evidenciando una profunda investigación material y conceptual. Aunque la pintura sigue siendo fundamental como lenguaje artístico, en este proyecto se asocia a lo puro y se combina con materiales inusuales —como restos publicitarios— para simbolizar la lucha entre la naturaleza y la contaminación humana. Así, el proceso creativo se transforma en un espacio de experimentación con variados materiales y soportes, haciendo especial uso de insumos de la industria gráfica.
-  </p>
-</div>
-<br>
-<div class="parrafo">
-  <p>
-    Así, la serie de obras de <strong>«La Peste»</strong> se organiza en dos partes principales:
-  </p>
-  <br>
-  <p>
-    <strong>1. PINTURA:</strong> Obras que combinan técnicas clásicas con elementos modernos, como anuncios reciclados, mostrando cómo lo comercial invade incluso el arte más puro.
-  </p>
-  <br>
-  <p>
-    <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con distintos entornos, surgiendo de la traslación de las nociones pictóricas hacia objetos y espacios. Este grupo se divide en tres subcategorías: espacios domésticos, espacios públicos y espacios naturales.
-  </p>
-</div>
-<br>
-<br><br>
-<br>
+
+<div class="parrafo"> <p> El proyecto surge de una intención representativa que trasciende la mera exposición de la crisis ecológica. La elección del tema responde a su impacto en las sociedades contemporáneas, reflejando no solo una inclinación personal, sino la imperiosa necesidad de plasmar la realidad actual como sello indeleble de nuestro tiempo. Iniciado con técnicas de pintura tradicional, el recorrido ha evolucionado para incorporar diversos métodos y formatos, resultado de una profunda investigación material y conceptual. Aunque la pintura sigue siendo un lenguaje artístico esencial, en este proyecto se asocia con lo puro y se complementa con materiales inusuales —como restos publicitarios— para simbolizar el enfrentamiento entre la naturaleza y la contaminación humana. De esta forma, el proceso creativo se convierte en un espacio de experimentación con variados insumos, haciendo especial uso de recursos de la industria gráfica. </p> <p> Si bien la pintura fue el medio expresivo inicial, el proyecto se ha expandido hacia otras disciplinas del arte contemporáneo, explorando formatos y soportes diversos que enriquecen el discurso visual. La serie se organiza en dos categorías conceptuales fundamentales: </p> </div> <br> <div class="parrafo"> <p> Así, la serie de obras de <strong>«La Peste»</strong> se estructura en dos partes principales: </p> <br> <p> <strong>1. PINTURA:</strong> Obras que fusionan técnicas clásicas con elementos modernos, como anuncios reciclados, evidenciando cómo lo comercial penetra incluso en el arte más puro. </p> <br> <p> <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con distintos entornos, trasladando las nociones pictóricas a objetos y espacios. Este grupo se subdivide en tres subcategorías: espacios domésticos, públicos y naturales. </p> </div>
+<br> <br><br> <br>
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
@@ -108,9 +89,7 @@ graph TD
     La pintura se erige como el lenguaje primordial para abordar este desafío de representación. Establecí una conexión entre la nobleza inherente a la naturaleza y la tradición pictórica, combinando técnicas tradicionales con elementos de saturación, publicidad y desechos. Así emergen obras que reflejan la tensión entre lo natural y lo artificial en el mundo contemporáneo, destacando sus aspectos más distintivos. La saturación se convierte en el elemento central, simbolizando con claridad la crisis ambiental actual y el profundo daño infligido a nuestro planeta. La superficie de la pintura se erosiona para plasmar esta temática, explorándose a fondo en su forma y transformándose en diversos formatos y soportes en la búsqueda de una representación efectiva. Esto da lugar a obras únicas, conformando una prolífica serie que me interesa trabajar: la categoría de pinturas de <strong>«La Peste»</strong>, de soportes blandos. Esta categoría, sencilla pero sofisticada, se profundizará en la sección de pinturas de La Peste.
   </p>
   <br><br>
-  <p>
-    Aunque la pintura constituyó inicialmente el medio expresivo fundamental, el proyecto ha evolucionado hacia diversas disciplinas del arte contemporáneo, explorando múltiples formatos y soportes creativos que enriquecen el discurso visual. La serie se organiza en dos categorías conceptuales fundamentales:
-  </p>
+ 
 </div>
 <br><br><br>
 <div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
