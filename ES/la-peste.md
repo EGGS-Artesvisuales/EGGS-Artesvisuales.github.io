@@ -25,10 +25,8 @@ mermaid: true
     Como reflejo de esta erosión, la superficie de la pintura se ve afectada. Mediante la combinación y acumulación de elementos modernos sobre la base de la tradición pictórica, se busca plasmar este deterioro —incorporando rasguños, erosiones, cortes y rasgaduras— de manera que el paisaje se presente visiblemente dañado. Esto no pretende reinventar el concepto tradicional del paisaje pictórico, sino evidenciar de forma integral nuestro impacto ambiental a través del mensaje, el material y su contexto.
   </p></div>
   <br>
-  <figure class="imagen-con-caption">
-    <img src="/assets/img/la-peste---intro02.jpg" alt="La Peste - imagen de contaminación02" style="width:73%; loading="lazy">
-    <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Produccion : S/T n° 1 - Autorretrato, 2008</figcaption>
-  </figure>
+<figure class="imagen-con-caption"> <img src="/assets/img/la-peste---intro02.jpg" alt="La Peste - imagen de contaminación02" style="width:73%;" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Producción: S/T n° 1 - Autorretrato, 2008</figcaption> </figure>
   <br>
   <div class="parrafo"> 
   <p>
