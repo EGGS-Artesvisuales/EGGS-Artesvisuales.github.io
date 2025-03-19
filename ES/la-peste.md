@@ -27,7 +27,7 @@ mermaid: true
   <br>
   <figure class="imagen-con-caption">
     <img src="/assets/img/la-peste---intro02.jpg" alt="La Peste - imagen de contaminación02" loading="lazy">
-    <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Autorretrato: s/t n° 1, 2008</figcaption>
+    <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas / Produccion : S/T n° 1 - Autorretrato, 2008</figcaption>
   </figure>
   <br>
   <div class="parrafo"> 
