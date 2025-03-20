@@ -18,11 +18,11 @@ mermaid: true
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    Las obras de <strong>«La Peste»</strong> representan la contaminación actual. Basándome en la hipótesis Gaia de Lovelock, concibo al planeta como un organismo vivo afectado por una "enfermedad", deteriorado por la acción de la industria humana a través de residuos de envases y emisiones industriales. La propuesta de la serie es retratar a una Gaia infectada por la polución general, estableciendo contrastes entre: naturaleza vs. contaminación, Gaia vs. degradación, pintura y arte vs. marketing y desechos, lo puro vs. lo impuro, y cuerpo vs. virus. Siguiendo la línea de pensamiento de James Lovelock —y trascendiendo sus conceptos de forma imaginativa—, cada desecho plástico y cada emisión tóxica se convierten en síntomas de esta "enfermedad" antropogénica. La serie confronta lo natural con lo industrial y lo artístico con lo comercial, mostrando la publicidad como una fuerza invasora en el arte, los residuos como una plaga en el paisaje y la contaminación como una amenaza para la salud.
+    Las obras de <strong>«La Peste»</strong> representan la contaminación contemporánea. Basada en la hipótesis Gaia de Lovelock, esta serie concibe al planeta como un organismo vivo afectado por una "enfermedad", deteriorado por la acción industrial humana a través de residuos de envases y emisiones industriales. La propuesta establece contrastes fundamentales: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a marketing y desechos, lo puro frente a lo impuro, y cuerpo frente a virus. Siguiendo el pensamiento de James Lovelock —trascendiendo sus conceptos de forma creativa—, cada desecho plástico y emisión tóxica se convierte en síntoma de esta "enfermedad" antropogénica. La serie confronta lo natural con lo industrial y lo artístico con lo comercial, revelando la publicidad como fuerza invasora en el arte, los residuos como plaga en el paisaje y la contaminación como amenaza para la salud planetaria.
   </p>
   <br>
   <p>
-    Como reflejo de esta erosión, la superficie de la pintura se ve afectada. Mediante la combinación y acumulación de elementos modernos sobre la base de la tradición pictórica, se busca plasmar este deterioro —incorporando rasguños, erosiones, cortes y rasgaduras— de manera que el paisaje se presente visiblemente dañado. Esto no pretende reinventar el concepto tradicional del paisaje pictórico, sino evidenciar de forma integral nuestro impacto ambiental a través del mensaje, el material y su contexto.
+    Como reflejo de esta erosión, la superficie pictórica se presenta deliberadamente afectada. Mediante la combinación y acumulación de elementos modernos sobre la base de la tradición pictórica, se plasma este deterioro —incorporando rasguños, erosiones, cortes y rasgaduras— de manera que el paisaje aparece visiblemente dañado. Esta aproximación no pretende reinventar el concepto tradicional del paisaje, sino evidenciar integralmente nuestro impacto ambiental a través del mensaje, el material y su contexto.
   </p></div>
   <br>
 <figure class="imagen-con-caption"> <img src="/assets/img/la-peste---intro02.jpg" alt="La Peste - imagen de contaminación02" loading="lazy">
@@ -30,11 +30,11 @@ mermaid: true
   <br>
   <div class="parrafo"> 
   <p>
-    Si se observa más allá, se distinguen elementos de la cultura pop actual —como la publicidad y la prensa masiva— que actúan como una forma de contaminación, afectando la psique y otros aspectos sutiles al invadir nuestros espacios. En lo que respecta a la serie de <strong>«La Peste»</strong>, me concentro en los aspectos más físicos y palpables de la saturación, aquellos que transforman ciudades en vertederos y deterioran los paisajes naturales, demostrando cómo la actividad humana enferma al planeta; mientras que los elementos intangibles se abordan en la serie <strong>«Lo Invisible»</strong>.
+    Observando más allá, se distinguen elementos de la cultura pop actual —como la publicidad y la prensa masiva— que actúan como una forma de contaminación, afectando la psique y otros aspectos sutiles al invadir nuestros espacios. En la serie <strong>«La Peste»</strong>, me concentro en los aspectos físicos y tangibles de la saturación, aquellos que transforman ciudades en vertederos y deterioran los paisajes naturales, demostrando cómo la actividad humana enferma al planeta; mientras que los elementos intangibles se abordan en la serie <strong>«Lo Invisible»</strong>.
   </p>
   <br>
   <p>
-    La estética de <strong>«La Peste»</strong> actúa como un tamiz que impide apreciar en su pureza los paisajes y retratos, desarrollando la idea de un entorno interrumpido y un medio impreciso que distorsiona la percepción original.
+    La estética de <strong>«La Peste»</strong> funciona como un filtro que impide apreciar en su pureza los paisajes y retratos, desarrollando la idea de un entorno interrumpido y un medio impreciso que distorsiona la percepción original.
   </p>
 </div>
 <br><br>
@@ -45,10 +45,21 @@ mermaid: true
 <br><br>
 
 <div class="parrafo"> 
-  <p> El proyecto surge de una intención representativa que trasciende la mera exposición de la crisis ecológica. La elección del tema responde a su impacto en las sociedades contemporáneas, reflejando no solo una inclinación personal, sino la imperiosa necesidad de plasmar la realidad actual como sello indeleble de nuestro tiempo. Iniciado con técnicas de pintura tradicional, el recorrido ha evolucionado para incorporar diversos métodos y formatos, resultado de una profunda investigación material y conceptual. Aunque la pintura sigue siendo un lenguaje artístico esencial, en este proyecto se asocia con lo puro y se complementa con materiales inusuales —como restos publicitarios— para simbolizar el enfrentamiento entre la naturaleza y la contaminación humana. De esta forma, el proceso creativo se convierte en un espacio de experimentación con variados insumos, haciendo especial uso de recursos de la industria gráfica. </p> <p> Si bien la pintura fue el medio expresivo inicial, el proyecto se ha expandido hacia otras disciplinas del arte contemporáneo, explorando formatos y soportes diversos que enriquecen el discurso visual. La serie se organiza en dos categorías conceptuales fundamentales: </p> </div> <br> 
+  <p>El proyecto surge de una intención representativa que trasciende la mera exposición de la crisis ecológica. La elección temática responde a su impacto en las sociedades contemporáneas, reflejando no solo una inclinación personal, sino la necesidad imperativa de documentar la realidad actual como testimonio de nuestro tiempo. Iniciado con técnicas pictóricas tradicionales, el proyecto ha evolucionado para incorporar diversos métodos y formatos, fruto de una profunda investigación material y conceptual. Aunque la pintura permanece como lenguaje artístico esencial —asociada con lo puro— se complementa con materiales no convencionales, como residuos publicitarios, para simbolizar el conflicto entre naturaleza y contaminación humana. Así, el proceso creativo se convierte en un espacio de experimentación con variados recursos, haciendo especial uso de elementos de la industria gráfica.</p>
 
-<div class="parrafo"> <p> Así, la serie de obras de <strong>«La Peste»</strong> se estructura en dos partes principales: </p> <br> <p> <strong>1. PINTURA:</strong> Obras que fusionan técnicas clásicas con elementos modernos, como anuncios reciclados, evidenciando cómo lo comercial penetra incluso en el arte más puro. </p> <br> <p> <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con distintos entornos, trasladando las nociones pictóricas a objetos y espacios. Este grupo se subdivide en tres subcategorías: espacios domésticos, públicos y naturales. </p> </div>
-<br> <br><br> <br>
+  <p>Si bien la pintura constituyó el medio expresivo inicial, el proyecto se ha expandido hacia otras disciplinas del arte contemporáneo, explorando diversos formatos y soportes que enriquecen el discurso visual.</p>
+</div>
+<br>
+
+<div class="parrafo">
+  <p>La serie de obras de <strong>«La Peste»</strong> se estructura en dos categorías fundamentales:</p>
+  <br>
+  <p><strong>1. PINTURA:</strong> Obras que fusionan técnicas clásicas con elementos contemporáneos, como anuncios reciclados, evidenciando cómo lo comercial penetra incluso en las expresiones artísticas más puras.</p>
+  <br>
+  <p><strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con diversos entornos, trasladando conceptos pictóricos a objetos y espacios. Este grupo se subdivide en tres categorías: espacios domésticos, públicos y naturales.</p>
+</div>
+<br><br><br><br>
+
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
@@ -81,6 +92,7 @@ graph TD
   click I "/es/espacios-naturales.html" "Ir a Espacios Naturales y Rurales"
 </div>
 <br><br><br><br>
+
 <div class="subtitulo">La Peste: Pintura</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
@@ -89,12 +101,11 @@ graph TD
 <br>
 <div class="parrafo">
   <p>
-    La pintura se erige como el lenguaje primordial para abordar este desafío de representación. Establecí una conexión entre la nobleza inherente a la naturaleza y la tradición pictórica, combinando técnicas tradicionales con elementos de saturación, publicidad y desechos. Así emergen obras que reflejan la tensión entre lo natural y lo artificial en el mundo contemporáneo, destacando sus aspectos más distintivos. La saturación se convierte en el elemento central, simbolizando con claridad la crisis ambiental actual y el profundo daño infligido a nuestro planeta. La superficie de la pintura se erosiona para plasmar esta temática, explorándose a fondo en su forma y transformándose en diversos formatos y soportes en la búsqueda de una representación efectiva. Esto da lugar a obras únicas, conformando una prolífica serie que me interesa trabajar: la categoría de pinturas de <strong>«La Peste»</strong>, de soportes blandos. Esta categoría, sencilla pero sofisticada, se profundizará en la sección de pinturas de La Peste.
+    La pintura se establece como el lenguaje fundamental para abordar este desafío representacional. He establecido una conexión entre la nobleza inherente a la naturaleza y la tradición pictórica, combinando técnicas clásicas con elementos de saturación, publicidad y desechos. Así surgen obras que reflejan la tensión entre lo natural y lo artificial en el mundo contemporáneo, destacando sus aspectos más significativos. La saturación se convierte en elemento central, simbolizando con claridad la crisis ambiental actual y el profundo daño infligido a nuestro planeta. La superficie pictórica se erosiona deliberadamente para expresar esta problemática, explorándose en profundidad a través de diversos formatos y soportes en búsqueda de una representación efectiva. Esto genera obras singulares que conforman una serie significativa dentro de mi trabajo: la categoría de pinturas de <strong>«La Peste»</strong> de soportes blandos. Esta categoría, simple pero sofisticada, se desarrollará con mayor detalle en la sección específica de pinturas de La Peste.
   </p>
-  <br><br>
- 
 </div>
 <br><br><br>
+
 <div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
@@ -103,10 +114,11 @@ graph TD
 <br>
 <div class="parrafo">
   <p>
-    Esta segunda categoría amplía radicalmente el concepto pictórico hacia espacios físicos concretos y objetos específicos, integrando instalaciones, fotografía, intervenciones artísticas y obras efímeras que dialogan con su entorno. A través de estas manifestaciones se busca materializar un aspecto que, por su presencia constante, pasa desapercibido. Para mí, referirme a la saturación es parte esencial de mi trabajo representacional, ya que seguiré explorando tópicos que reflejen el espíritu de nuestra era en mi labor artística moderna. La intención es analizar las múltiples dimensiones y complejidades del fenómeno de la contaminación, así como su impacto determinante en nuestro entorno vital, invitando al espectador a una reflexión activa y crítica sobre nuestra relación con el planeta.
+    Esta segunda categoría expande radicalmente el concepto pictórico hacia espacios físicos concretos y objetos específicos, integrando instalaciones, fotografía, intervenciones artísticas y obras efímeras que establecen un diálogo con su entorno. A través de estas manifestaciones se busca materializar un fenómeno que, por su omnipresencia, suele pasar inadvertido. Para mí, abordar la saturación constituye una parte esencial de mi trabajo representacional, y continuaré explorando temas que reflejen el espíritu de nuestra época en mi práctica artística contemporánea. La intención es analizar las múltiples dimensiones y complejidades del fenómeno de la contaminación, así como su impacto determinante en nuestro entorno vital, invitando al espectador a una reflexión crítica y activa sobre nuestra relación con el planeta.
   </p>
 </div>
 <br><br>
+
 <div class="button-container">
   <a href="/ES/peste-pintura.html" class="fancy-button">
     <div class="button-content">
