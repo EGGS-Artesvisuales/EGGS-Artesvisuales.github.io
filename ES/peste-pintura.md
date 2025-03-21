@@ -7,13 +7,13 @@ permalink: /ES/peste-pintura.html
 mermaid: true  
 ---
 
-<div class="titulo">La Peste: Pintura</div>
+<div class="titulo">La Peste: <br>Pintura</div>
 
 <div class="subtitulo">Manifestación pictórica de la contaminación ambiental</div>
 <br><br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-infectada-01.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: S/T n°3, Óleo sobre tela, 120 x 90 cm, 2010</figcaption>
+  <img src="/assets/img/la-peste---pintura02.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: bandera S/T n°1, Óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
 </figure>
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
