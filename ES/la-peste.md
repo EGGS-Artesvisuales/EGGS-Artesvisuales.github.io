@@ -78,7 +78,7 @@ graph TD
 
   click A "/es/saturacion.html" "Ir a La Saturación"
   click B "/es/la-peste.html" "Ir a La Peste"
-  click C "/es/la-peste-pinturas.html" "Ir a Pinturas"
+  click C "/es/la-peste-pintura.html" "Ir a Pinturas"
   click D "/es/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click D1 "/es/intervenciones.html" "Ir a Intervenciones"
   click D2 "/es/produccion.html" "Ir a Producción"
