@@ -7,9 +7,9 @@ permalink: /ES/peste-pintura.html
 mermaid: true  
 ---
 
-<div class="titulo">La Peste: <br>Pintura</div>
+<div class="titulo">La peste: Pinturas</div>
 
-<div class="subtitulo">Manifestación pictórica de la contaminación ambiental</div>
+<div class="subtitulo">Representacion del mundo / La Saturacion / La Peste: Pinturas</div>
 <br><br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
@@ -24,10 +24,15 @@ mermaid: true
   <p>
     La pintura, como medio expresivo ancestral, se convierte aquí en metáfora de lo natural y lo puro, mientras que los elementos gráficos publicitarios, residuos sintéticos y otros materiales industriales se incorporan como agentes contaminantes que invaden y deterioran la superficie pictórica. 
   </p>
+  <p> como habia dicho antes, la publicidad se identifica como elemento saturador, contaminante, y comence a tratarlo e incorporarlo en las pinturas. el progreso fue gradual, en un proceso investigativo creativo, que comenzo cuando estudiaba en la escuela de artes del DAV u de chile, . 
+    </p>
+  <p>
+    meinteresaba yuxtaponer estos elemtos frente a lo noble del lenguaje pictorico traducional. y asi llegue a combinarlo en los elementos compositivos de la pintura, y llegue a la idea de utiliazarlo negativamente, es decir borrando. y si fuera asi la saturacion tendria que ser un elemento de la saturacion. asi llegue a la idesa qde que el mismo soporte dela pntura ( que tradicionalmente seria la tela, o la tabla, podria utilizar alguna s uérficie similiar. el papel y el pvc se prestan para ocuparlos de material para los soportes de las pinturas de la saturacion que desde el mismo soporte ya tratan la tematica de la satyracion. esto fue gradual.
+  </p>
 </div>
 <div class="parrafo"> 
   <p>
-    La categoría pictórica de <strong>«La Peste»</strong> se divide en dos subcategorías fundamentales, cada una con características técnicas y conceptuales distintivas que exploran la noción de contaminación desde diferentes ángulos:
+   asi  La categoría pictórica de <strong>«La Peste»</strong> se divide en dos subcategorías fundamentales, cada una con características técnicas y conceptuales distintas y que utilizan dierente soporte pictorico: 
   </p>
 </div>
 <br>
