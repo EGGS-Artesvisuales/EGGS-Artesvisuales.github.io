@@ -18,19 +18,13 @@ mermaid: true
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    En la serie <strong>«La Peste: Pintura»</strong>, abordo la contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. Partiendo de la hipótesis Gaia de Lovelock, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
+    En la serie <strong>«La Peste: Pinturas»</strong>, abordo la contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
   </p>
   <br>
   <p>
-    La pintura, como medio expresivo ancestral, se convierte aquí en metáfora de lo natural y lo puro, mientras que los elementos gráficos publicitarios, residuos sintéticos y otros materiales industriales se incorporan como agentes contaminantes que invaden y deterioran la superficie pictórica. Esta yuxtaposición no es meramente estética, sino que constituye una reflexión crítica sobre la relación entre ser humano y naturaleza en la era contemporánea.
+    La pintura, como medio expresivo ancestral, se convierte aquí en metáfora de lo natural y lo puro, mientras que los elementos gráficos publicitarios, residuos sintéticos y otros materiales industriales se incorporan como agentes contaminantes que invaden y deterioran la superficie pictórica. 
   </p>
 </div>
-<br>
-<figure class="imagen-con-caption"> 
-  <img src="/assets/img/la-peste-pintura-soporte-blando-01.jpg" alt="Pintura de soporte blando - La Peste" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: membrana - s/t n° 2, 150 x 120 cm, 2010</figcaption> 
-</figure>
-<br>
 <div class="parrafo"> 
   <p>
     La categoría pictórica de <strong>«La Peste»</strong> se divide en dos subcategorías fundamentales, cada una con características técnicas y conceptuales distintivas que exploran la noción de contaminación desde diferentes ángulos:
