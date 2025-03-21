@@ -7,18 +7,20 @@ permalink: /ES/peste-pintura.html
 mermaid: true  
 ---
 
-<div class="titulo">La peste: Pinturas</div>
+<div class="titulo">LA PESTE: <br>PINTURAS</div>
 
-<div class="subtitulo">Representacion del mundo / La Saturacion / La Peste: Pinturas</div>
+<div class="subtitulo">Representacion del mundo / La Saturacion / La Peste: Pinturas infectadas</div>
 <br><br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
   <figcaption>La Saturación / La Peste / Pintura / Pinturas infectadas: bandera S/T n°1, Óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
 </figure>
 <br>
+<div class="subtitulo">Pinturas Infectadas</div>
+<br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    En la serie <strong>«La Peste: Pinturas»</strong>, abordo la contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
+    En la serie <strong>«PINTURAS INFECTADAS»</strong>, abordo la representacion de este aspeto de la saturacion que contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
   </p>
   <br>
   <p>
@@ -37,7 +39,7 @@ mermaid: true
 </div>
 <br>
 
-<div class="subtitulo">Pinturas Infectadas</div>
+
 <br>
 <div class="parrafo">
   <p>
