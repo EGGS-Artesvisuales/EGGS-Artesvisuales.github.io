@@ -18,8 +18,7 @@ mermaid: true
 
 <br>
 <div class="parrafo">
-<p> 
-  La serie <strong>«La Peste»</strong> representa la contaminación contemporánea a través de la metáfora de una enfermedad que aqueja a la Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe a nuestro planeta como un organismo vivo y autorregulado, la obra sugiere que la intervención industrial y comercial humana —evidenciada en la acumulación de residuos plásticos, emisiones tóxicas y prácticas de marketing desmedidas— ha comprometido el equilibrio de Gaia y, por extensión, el de nuestro entorno. </p> 
+<p> La serie <strong>«La Peste»</strong> representa la contaminación contemporánea mediante la metáfora de una enfermedad que aqueja a la Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe a nuestro planeta como un organismo vivo y autorregulado, la obra sugiere que la intervención industrial y comercial humana —evidenciada en la proliferación de residuos plásticos y emisiones tóxicas, proliferacion de marketing y desechos— ha comprometido el equilibrio de Gaia y con ello el de nuestro propio entorno.</p>
   <p>
     Esta iniciativa surge de la necesidad de plasmar las características esenciales de nuestra era, resaltando sus elementos más distintivos y evidenciando la urgencia de abordar la crisis ecológica. Lejos de representar una perspectiva meramente personal, el proyecto responde a la imperiosa demanda de documentar y reflexionar críticamente sobre los rasgos definitorios del mundo contemporáneo. </p>
   <p>
