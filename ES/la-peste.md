@@ -11,10 +11,12 @@ mermaid: true
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---intro02.jpg" alt="La Peste - imagen de contaminación" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Autorretrato, 2008</figcaption>
+  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Espacios públicos: Richard Prince Infested. MAC, 2009</figcaption>
 </figure>
 
+
+<br>
 <div class="parrafo">
   <p>
     La serie <strong>«La Peste»</strong> representa visualmente la contaminación contemporánea, interpretándola como una enfermedad del planeta, siguiendo la hipótesis Gaia propuesta por James Lovelock. Según esta hipótesis, el planeta Tierra es concebido como un organismo vivo y autorregulado que actualmente padece una grave "enfermedad", resultado de la intervención industrial humana con residuos plásticos y emisiones tóxicas.
@@ -69,10 +71,7 @@ mermaid: true
   </p>
 </div>
 
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Espacios públicos: Richard Prince Infested. MAC, 2009</figcaption>
-</figure>
+
 
 <div class="mermaid">
 graph TD
