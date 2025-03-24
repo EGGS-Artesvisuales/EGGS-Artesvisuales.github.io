@@ -121,9 +121,7 @@ graph TD
 </figure>
 <br>
 <div class="parrafo">
-  <p>
-    La pintura se establece como el lenguaje fundamental para abordar este desafío representacional. He forjado una conexión entre la nobleza inherente a la naturaleza y la tradición pictórica, combinando técnicas clásicas con elementos de saturación, publicidad y desechos. Así surgen obras que reflejan la tensión entre lo natural y lo artificial en el mundo contemporáneo, destacando sus rasgos más significativos. La saturación se erige como elemento central, simbolizando de forma clara la crisis ambiental actual y el profundo daño infligido a nuestro planeta. La superficie pictórica se erosiona deliberadamente para expresar esta problemática, explorándose a través de diversos formatos y soportes en la búsqueda de una representación efectiva. Estas obras singulares constituyen una serie significativa dentro de mi trabajo: la categoría de pinturas de <strong>«La Peste»</strong> en soportes blandos, cuya propuesta simple y sofisticada se desarrollará con mayor detalle en la sección específica.
-  </p>
+ <p> La pintura es el lenguaje fundamental para abordar este desafío representacional. Conecto la nobleza de la naturaleza con la tradición pictórica, fusionando técnicas clásicas con elementos de saturación, publicidad y desechos. Así surgen obras que reflejan la tensión entre lo natural y lo artificial en el mundo contemporáneo. La saturación, característica de nuestra era, se erige como el núcleo de estas pinturas, simbolizando la crisis ambiental y el daño profundo a nuestro planeta. La superficie pictórica se erosiona deliberadamente para expresar esta problemática, explorándose en diversos formatos y soportes en busca de una representación eficaz. Pinturas Infectadas, se organizan dos grupos dentro de estas obras. soportes tradicionales y soportes blandos.</p>
 </div>
 <br><br><br>
 
