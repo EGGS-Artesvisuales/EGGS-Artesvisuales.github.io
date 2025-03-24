@@ -12,7 +12,7 @@ mermaid: true
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Espacios públicos: Richard Prince Infested. MAC, 2009</figcaption>
+  <figcaption>La Saturación / La Peste / Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
 </figure>
 
 
