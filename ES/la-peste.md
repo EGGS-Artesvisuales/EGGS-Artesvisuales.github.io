@@ -22,56 +22,21 @@ mermaid: true
     La serie <strong>«La Peste»</strong> representa visualmente la contaminación contemporánea, interpretándola como una enfermedad del planeta, siguiendo la hipótesis Gaia propuesta por James Lovelock. Según esta hipótesis, el planeta Tierra es concebido como un organismo vivo y autorregulado que actualmente padece una grave "enfermedad", resultado de la intervención industrial humana con residuos plásticos y emisiones tóxicas.
   </p>
 
-  <p>
-    Esta iniciativa surge como una respuesta urgente a la crisis ecológica, no sólo desde una perspectiva personal, sino como una necesidad imperativa de documentar y reflexionar sobre los efectos del ser humano en su entorno. 
-  </p>
+<p> Esta iniciativa nace de la necesidad de plasmar las características fundamentales de nuestra era, resaltando sus elementos más distintivos y, lamentablemente, evidenciando la urgencia de abordar la crisis ecológica. Lejos de ser una mera perspectiva personal, el proyecto responde a la imperiosa necesidad de documentar y reflexionar críticamente sobre los rasgos definitorios del mundo contemporáneo. </p>
 
   <p>
-    Aunque la pintura fue el medio inicial, el proyecto evolucionó hacia una investigación interdisciplinar que incluye instalación, performance e intervenciones artísticas, buscando nuevas maneras de comunicar con eficacia el mensaje ecológico.
+    Aunque la pintura fue el medio inicial, el proyecto evolucionó hacia una investigación interdisciplinar que incluye instalación, performance e intervenciones artísticas, buscando nuevas maneras de comunicar con eficacia el mensaje de esta serie de obra representacion del mundo, la saturacion, la peste.
   </p>
 </div>
 
 <div class="parrafo">
   <p>La serie se estructura en dos grandes áreas:</p>
 
-  <p><strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos, especialmente reciclados, para exponer la invasión del consumismo en el arte.</p>
+  <p><strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos, especialmente reciclados, para exponer la erosion de la naturaleza y la invasión del consumismo en todos los aspectos vitales.</p>
 
   <p><strong>2. Desplazamiento de la Pintura:</strong> Obras que trasladan conceptos pictóricos más allá del lienzo, involucrando objetos y espacios concretos, subdivididas en espacios domésticos, públicos y naturales.</p>
 </div>
-
-<div class="button-container">
-  <a href="/ES/peste-pintura.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-la-peste-pintura.gif" alt="La Peste en Pintura">
-      <p class="title">Pintura</p>
-      <p class="subtitle">La contaminación representada en pintura</p>
-    </div>
-  </a>
-
-  <a href="/contaminacion-sonora.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Desplazamiento de la Pintura">
-      <p class="title">Desplazamiento de la Pintura</p>
-      <p class="subtitle">Intervenciones, instalaciones y multimedia</p>
-    </div>
-  </a>
-</div>
-
-<div class="parrafo">
-  <p>
-    La propuesta establece fuertes contrastes: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. Utilizando materiales no convencionales como desechos gráficos, las obras evidencian cómo la publicidad y el consumo funcionan como agentes contaminantes, afectando la integridad ambiental y cultural.
-  </p>
-
-  <p>
-    A nivel visual, la saturación aparece como elemento dominante, ilustrando explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
-  </p>
-
-  <p>
-    Paralelamente, la contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación perceptual y psíquica provocada por los medios masivos y la publicidad.
-  </p>
-</div>
-
-
+<br><br><br>
 
 <div class="mermaid">
 graph TD
@@ -104,6 +69,20 @@ graph TD
   click H "/es/espacio-publico.html"
   click I "/es/espacios-naturales.html"
 </div>
+<br><br><br>
+
+<div class="parrafo">
+  <p>
+    La propuesta establece fuertes contrastes: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. Utilizando materiales no convencionales como desechos gráficos, las obras evidencian cómo la publicidad y el consumo funcionan como agentes contaminantes, afectando la integridad ambiental y cultural.
+  </p>
+
+  <p>
+    A nivel visual, la saturación aparece como elemento dominante, ilustrando explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
+  </p>
+  <p>
+    Paralelamente, la contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación perceptual y psíquica provocada por los medios masivos y la publicidad.
+  </p>
+</div>
 
 <div class="subtitulo">La Peste: Pintura</div>
 
@@ -124,9 +103,27 @@ graph TD
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacios naturales" loading="lazy">
   <figcaption>La Saturación / Espacios Naturales: Ruralia s/t n°1, EGGS 2012</figcaption>
 </figure>
-
 <div class="parrafo">
   <p>
     Esta categoría extiende el concepto pictórico hacia instalaciones efímeras, intervenciones y fotografía, estableciendo diálogos directos con su entorno, haciendo visible una contaminación omnipresente pero frecuentemente ignorada, invitando a una reflexión crítica y consciente sobre nuestra relación con el planeta.
   </p>
 </div>
+<br><br>
+
+<div class="button-container">
+  <a href="/ES/peste-pintura.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-la-peste-pintura.gif" alt="La Peste en Pintura">
+      <p class="title">Pintura</p>
+      <p class="subtitle">La contaminación representada en pintura</p>
+    </div>
+  </a>
+
+  <a href="/contaminacion-sonora.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Desplazamiento de la Pintura">
+      <p class="title">Desplazamiento de la Pintura</p>
+      <p class="subtitle">Intervenciones, instalaciones y multimedia</p>
+    </div>
+
+
