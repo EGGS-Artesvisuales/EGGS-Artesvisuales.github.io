@@ -7,91 +7,44 @@ permalink: /ES/la-peste.html
 mermaid: true  
 ---
 <div class="titulo">La Peste</div>
-
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
-<br><br>
+<br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Obra artística sobre contaminación ambiental" loading="lazy">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura / Espacios domésticos: S/T n°1 FW Studio, 2009</figcaption>
 </figure>
-
-<div class="parrafo" style="margin-top: 6%;">
-  <p>
-    Las obras de <strong>«La Peste»</strong> representan la contaminación del paisaje a través de técnicas que fusionan lo pictórico con lo escatológico, ofreciendo una imagen simbólica de la naturaleza como víctima de la erosión humana. Inspirado en la hipótesis Gaia de James Lovelock, el proyecto concibe al planeta como un organismo vivo, deteriorado por la acción industrial. Esta degradación se manifiesta no solo en residuos y emisiones tóxicas, sino también en la saturación publicitaria y los ruidos que inundan las ciudades contemporáneas, producto del sistema productivo industrializado vigente.
-  </p>
-<p>
-    Ampliando creativamente los conceptos de Lovelock, cada desecho plástico y emisión tóxica se transforma en síntoma de esta "enfermedad" antropogénica. En las obras de la serie <strong>La Peste</strong>, se contraponen lo natural con lo industrial y lo artístico (esencial) con lo comercial (accesorio). Se entrelazan lo pictórico y lo escatológico para evidenciar el daño y la invasión de lo industrial sobre lo virgen y puro del paisaje, que también puede ser representado por la tradición del arte universal. En este contexto, la publicidad se revela como una fuerza invasora que, junto a los residuos, se impone como una plaga tanto en el paisaje como en la superficie pictórica, presentando la contaminación como una amenaza fundamental para la salud planetaria (Gaia).
-  </p>
-  <p>
-    Como reflejo de esta erosión, la superficie pictórica se presenta intencionadamente afectada. Mediante la integración y acumulación de elementos modernos sobre la superficie pictórica, se plasma este deterioro —incorporando rasguños, erosiones, cortes y rasgaduras—, de modo que el paisaje aparece visiblemente dañado. Esta aproximación no pretende reinventar el concepto tradicional del paisaje, sino evidenciar de forma integral nuestro impacto ambiental a través del mensaje, el material y su contexto.
-  </p>
-</div>
-<div class="parrafo">
-  <p>
-    La propuesta establece contrastes fundamentales: la naturaleza frente a la contaminación, Gaia frente a la degradación, el arte frente al marketing y a los desechos, la pureza frente a la impureza, y el cuerpo frente al virus.
-  </p>
-   <p>
-    El proyecto surge de una intención representativa que expone la crisis ecológica como rasgo distintivo de nuestra era. Es decir, la elección temática no busca inicialmente denunciar la crisis ecológica —aunque dicha denuncia se manifieste posteriormente—, sino reflejar fielmente lo actual. Al retratar este tópico a partir de mi paisaje local, respondo al impacto de la crisis en la sociedad contemporánea, testimoniando la realidad de nuestro tiempo.
-  </p>
-    <p>
-    En todas las series de la peste se aborda la invasión como un fenómeno de exceso y saturación constantes. En la serie <strong>«La Peste»</strong>, concentro mi atención en la representación del paisaje, integrando elementos físicos —carteles, publicidades y desechos industriales— que transforman las ciudades en vertederos y deterioran los entornos naturales, evidenciando cómo la actividad humana enferma al planeta.
-  </p>
-   <p>
-    Iniciado con técnicas pictóricas tradicionales, el proyecto ha evolucionado para incorporar diversos métodos y formatos, fruto de una investigación material y conceptual que dio origen a la serie de obras <strong>PINTURAS INFECTADAS</strong>. Aunque la pintura sigue siendo el lenguaje artístico esencial —asociado a lo puro—, en esta serie se integran materiales no convencionales, como residuos publicitarios y desechos, para simbolizar el conflicto entre la naturaleza y la contaminación humana.
-  </p>
-  <p>
-    La publicidad y la prensa masiva actúan como agentes contaminantes en nuestros paisajes cotidianos, deteriorando la calidad de vida, la psique y las relaciones interpersonales. Se erigen como la cara oculta de la producción masiva y el motor de un sistema imparable. y por esto mismo comienzo a utilizar material proveniente de este unerso. 
-  </p>
-  <p>
-    Especialmnet importante encotre el material de papel de graifica prensa, catalogos, revistas couche, etc, propiedades conceptuales y fisicas que me interesaban expllitar. El concepto de invasión es el eje central de la serie La Peste. En estas obras, investigo la oposición entre elementos siguiendo dos líneas: una en la que el papel de prensa actúa como agente saturador (junto a otros elementos) y otra en la que se utiliza como soporte para la pintura, dando origen a la subserie de "soportes blandos".
-  </p>
-  
- 
- 
-
-</div>
-  <br>
-  <p>
-    La estética de <strong>«La Peste»</strong> opera como un filtro que impide apreciar en su pureza los paisajes y retratos, desarrollando la idea de un entorno interrumpido y un medio impreciso que distorsiona la percepción original. Este cúmulo de elementos saturantes actúa como un ruido visual.
-  </p>
-</div>
-
-
-<div class="parrafo">
-  <p>
-  
-  </p>
-  <br>
-<p>
-    En mi experimentación formal, he explorado el papel de prensa gráfica mediante diversas intervenciones: arrugado, adherido, liso, fragmentado. Este material se erige como emblema de la saturación contemporánea. Al reflexionar, resulta evidente cómo el papel proveniente de catálogos y revistas se convierte instantáneamente en desecho, frecuentemente sin ser siquiera leído. Se invierten cuantiosos recursos en tintas sofisticadas, papeles de alta calidad y materiales especiales, cuyo único propósito es seducir al consumidor, para terminar convertidos en residuo inmediato. Este fenómeno se manifiesta de manera paradigmática en catálogos, folletos, publicidades y, especialmente, en el packaging, ese envasado a menudo superfluo que acompaña a múltiples productos.
-  </p>
-  <p>
-    He seleccionado deliberadamente este material —el papel, noble por tradición, pero en su versión de prensa contaminado con información de marketing— para visibilizar la sobrecarga de mensajes consumistas que saturan el mercado actual y generan contaminación visual y física. Lo he manipulado para exponerlo en su esencia más cruda, incorporando incluso papeles de catálogo directamente como soporte para mis intervenciones pictóricas, transformando así el medio contaminante en superficie de expresión artística.
-  </p>
-  <p>
-    El papel de prensa se revela, por tanto, como un material especial, abundante, económico y característico de la época, reflejando el fenómeno de la saturación. Se utiliza ampliamente tanto en la pintura como en otros contextos artísticos dentro de la serie de representacion del mundo, la saturacion, la peste.
-  </p>
-  <p>
-    Así, aunque la pintura constituyó el medio expresivo inicial, el proyecto se ha expandido hacia otras disciplinas del arte contemporáneo, explorando diversos formatos y soportes que enriquecen el discurso visual y son fruto de las cavilaciones artisticas.
-  </p>
-</div>
 <br>
+<div class="parrafo" style="margin-top: 6%;">
+  <p><strong>La Peste</strong> simboliza la naturaleza como víctima de la erosión humana mediante técnicas que fusionan pintura y desechos. Basado en la hipótesis Gaia de Lovelock, el proyecto presenta al planeta como organismo enfermo por la industria: toxinas, plásticos y ruido publicitario como síntomas de su degradación.</p>
+  <p>La serie contrasta lo natural con lo industrial, lo artístico con lo comercial. Superficies pictóricas erosionadas -con rasgaduras, cortes y acumulaciones de residuos- evidencian el conflicto entre pureza ambiental y contaminación. La publicidad emerge como plaga visual que corroe tanto paisajes como lienzos.</p>
+</div>
+<div class="parrafo">
+  <p>La obra opera mediante dualidades: naturaleza/contaminación, arte/marketing, cuerpo/virus. No busca reinventar el paisajismo tradicional, sino documentar nuestro impacto ambiental a través de materiales y contextos específicos.</p>
+  <p>El proyecto retrata la crisis ecológica como sello distintivo de nuestro tiempo. Centrado inicialmente en paisajes locales, revela cómo ciudades y entornos naturales y cptidianos se saturan bajo la presión industrial-comercial.</p>
+</div>
 
 <div class="parrafo">
-  <p>
-    La serie de obras de <strong>«La Peste»</strong> se estructura en dos categorías fundamentales:
-  </p>
-  <br>
-  <p>
-    <strong>1. PINTURA:</strong> Obras que fusionan técnicas clásicas con elementos contemporáneos, rechazando la disonancia de la saturación. Se combinan elementos tradicionales con nuevos recursos, como anuncios reciclados, evidenciando cómo lo comercial penetra incluso en las expresiones artísticas más puras.
-  </p>
-  <br>
-  <p>
-    <strong>2. DESPLAZAMIENTO DE LA PINTURA:</strong> Obras que trascienden el lienzo para interactuar con diversos entornos, trasladando conceptos pictóricos a objetos y espacios. Este grupo se subdivide en tres categorías: espacios domésticos, públicos y naturales.
-  </p>
+  <p>La evolución técnica a partir de la pintura generó las <strong>PINTURAS INFECTADAS</strong>, donde se combinan las tradicionales obras pictoricas con elementos del desecho publicitario y del envasado de productos, papeles publicitarios reciclados, revistas, catalogos. Este conflicto material simboliza la tensión entre lo natural del paisaje y la peste del consumismo desbordado.</p>
+  <p>La prensa gráfica y el marketing se revelan como agentes contaminantes clave. Papeles couché de catálogos -desechados sin ser leídos- se transforman en desechos casi automaticamentes, estos son utilizados como soportes pictóricos, y en elementos de intervenciones artísticas en espacios e instalaciones.</p>
 </div>
-<br><br><br><br>
 
+<div class="parrafo">
+  <p>La experimentación con papel incluye:</p>
+  <p>- Soporte pictórico intervenido<br>
+     - Elemento saturante en composiciones<br>
+     - Materia prima para instalaciones</p>
+
+  <p>Este material efímero, cargado de información comercial, encarna la paradoja de nuestra era: producción masiva de objetos destinados al descarte inmediato.</p>
+</div>
+
+<div class="parrafo">
+  <p><strong>Estructura de la serie:</strong></p>
+  <p>1. <strong>PINTURA</strong>: Fusión de técnicas clásicas con residuos contemporáneos. Óleos que incorporan fragmentos publicitarios, mostrando la infiltración comercial en el arte.</p>
+
+  <p>2. <strong>DESPLAZAMIENTO DE LA PINTURA</strong>: Intervenciones en espacios domésticos, públicos y naturales. Traduce conceptos pictóricos a escalas arquitectónicas y ambientales.</p>
+</div>
+
+<br><br><br>
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
