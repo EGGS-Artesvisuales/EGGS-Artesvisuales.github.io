@@ -27,9 +27,8 @@ mermaid: true
 </div>
 
 <div class="parrafo">
-  <p>La serie se estructura en dos grandes áreas:</p>
-  <br><br>
-
+  <p><strong></strong>La serie se estructura en dos grandes áreas:</strong></p>
+  <br>
   <p><strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos, especialmente reciclados, para exponer la erosion de la naturaleza y la invasión del consumismo en todos los aspectos vitales.</p><br>
 
   <p><strong>2. Desplazamiento de la Pintura:</strong> Obras que trasladan conceptos pictóricos más allá del lienzo, involucrando objetos y espacios concretos, subdivididas en espacios domésticos, públicos y naturales.</p>
