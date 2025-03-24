@@ -26,21 +26,13 @@ mermaid: true
 <div class="parrafo">
   <p>La evolución técnica a partir de la pintura generó las <strong>PINTURAS INFECTADAS</strong>, donde se combinan las tradicionales obras pictoricas con elementos del desecho publicitario y del envasado de productos, papeles publicitarios reciclados, revistas, catalogos. Este conflicto material simboliza la tensión entre lo natural del paisaje y la peste del consumismo desbordado.</p>
   <p>La prensa gráfica y el marketing se revelan como agentes contaminantes clave. Papeles couché de catálogos -desechados sin ser leídos- se transforman en desechos casi automaticamentes, estos son utilizados como soportes pictóricos, y en elementos de intervenciones artísticas en espacios e instalaciones.</p>
+    <p>Este material efímero, cargado de información comercial, encarna la paradoja de nuestra era: producción masiva de objetos destinados al descarte inmediato.</p>
 </div>
-
-<div class="parrafo">
-  <p>La experimentación con papel incluye:</p>
-  <p>- Soporte pictórico intervenido<br>
-     - Elemento saturante en composiciones<br>
-     - Materia prima para instalaciones</p>
-
-  <p>Este material efímero, cargado de información comercial, encarna la paradoja de nuestra era: producción masiva de objetos destinados al descarte inmediato.</p>
 </div>
 
 <div class="parrafo">
   <p><strong>Estructura de la serie:</strong></p>
-  <p>1. <strong>PINTURA</strong>: Fusión de técnicas clásicas con residuos contemporáneos. Óleos que incorporan fragmentos publicitarios, mostrando la infiltración comercial en el arte.</p>
-
+  <p>1. <strong>PINTURAS INFECTADAS</strong>: Fusión de técnicas clásicas con residuos contemporáneos. Óleos que incorporan fragmentos publicitarios, mostrando la infiltración comercial en el arte.</p>
   <p>2. <strong>DESPLAZAMIENTO DE LA PINTURA</strong>: Intervenciones en espacios domésticos, públicos y naturales. Traduce conceptos pictóricos a escalas arquitectónicas y ambientales.</p>
 </div>
 
