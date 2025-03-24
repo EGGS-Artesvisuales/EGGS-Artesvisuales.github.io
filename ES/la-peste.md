@@ -27,7 +27,7 @@ mermaid: true
 </div>
 
 <div class="parrafo">
-  <p><strong></strong>La serie se estructura en dos grandes áreas:</strong></p>
+  <p><strong>La serie se estructura en dos grandes áreas:</strong></p>
   <br>
   <p><strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos, especialmente reciclados, para exponer la erosion de la naturaleza y la invasión del consumismo en todos los aspectos vitales.</p><br>
 
@@ -74,10 +74,10 @@ graph TD
   </p>
 
   <p>
-    A nivel visual, la saturación aparece como elemento dominante, ilustrando explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
+    A nivel visual, la saturación aparece como elemento dominante, y se interpone al normal apreciacin de lo representado o lo visualizado. la estetica de la peste ilustra explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas clásicas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
   </p>
   <p>
-    Paralelamente, la contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación perceptual y psíquica provocada por los medios masivos y la publicidad.
+    Paralelamente, El concepto de saturacion como contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación  de ondas magneticas o radiactivas, olores y químicos nocivos.
   </p>
 </div>
 <br><br>
