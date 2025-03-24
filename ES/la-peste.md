@@ -18,12 +18,10 @@ mermaid: true
 
 <br>
 <div class="parrafo">
+<p> 
+  La serie <strong>«La Peste»</strong> representa la contaminación contemporánea a través de la metáfora de una enfermedad que aqueja a la Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe a nuestro planeta como un organismo vivo y autorregulado, la obra sugiere que la intervención industrial y comercial humana —evidenciada en la acumulación de residuos plásticos, emisiones tóxicas y prácticas de marketing desmedidas— ha comprometido el equilibrio de Gaia y, por extensión, el de nuestro entorno. </p> 
   <p>
-    La serie <strong>«La Peste»</strong> representa visualmente la contaminación contemporánea, interpretándola como una enfermedad del planeta, siguiendo la hipótesis Gaia propuesta por James Lovelock. Según esta hipótesis, el planeta Tierra es concebido como un organismo vivo y autorregulado que actualmente padece una grave "enfermedad", resultado de la intervención industrial humana con residuos plásticos y emisiones tóxicas.
-  </p>
-
-<p> Esta iniciativa nace de la necesidad de plasmar las características fundamentales de nuestra era, resaltando sus elementos más distintivos y, lamentablemente, evidenciando la urgencia de abordar la crisis ecológica. Lejos de ser una mera perspectiva personal, el proyecto responde a la imperiosa necesidad de documentar y reflexionar críticamente sobre los rasgos definitorios del mundo contemporáneo. </p>
-
+    Esta iniciativa surge de la necesidad de plasmar las características esenciales de nuestra era, resaltando sus elementos más distintivos y evidenciando la urgencia de abordar la crisis ecológica. Lejos de representar una perspectiva meramente personal, el proyecto responde a la imperiosa demanda de documentar y reflexionar críticamente sobre los rasgos definitorios del mundo contemporáneo. </p>
   <p>
     Aunque la pintura fue el medio inicial, el proyecto evolucionó hacia una investigación interdisciplinar que incluye instalación, performance e intervenciones artísticas, buscando nuevas maneras de comunicar con eficacia el mensaje de esta serie de obra representacion del mundo, la saturacion, la peste.
   </p>
@@ -41,11 +39,11 @@ mermaid: true
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
-  B --> C[Pinturas]
-  C --> D[Pinturas Infectadas]
-  D --> D1[Intervenciones]
+  B --> C[Pinturas Infectadas]
+  C --> D[Soportes tradicionales]
+  D --> D1[Intervención]
   D --> D2[Producción]
-  C --> E[Pinturas de Soportes Blandos]
+  C --> E[Soportes Blandos]
   E --> E1[Membrana]
   E --> E2[Módulo]
   E --> E3[Unidad]
