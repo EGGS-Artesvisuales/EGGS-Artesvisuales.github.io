@@ -81,7 +81,7 @@ graph TD
     Paralelamente, la contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación perceptual y psíquica provocada por los medios masivos y la publicidad.
   </p>
 </div>
-
+<br><br>
 <div class="subtitulo">La Peste: Pintura</div>
 
 <figure class="imagen-con-caption">
@@ -94,7 +94,7 @@ graph TD
     La pintura explora el conflicto entre lo natural y lo artificial, erosionando sus superficies para representar el daño ambiental con técnicas que integran materiales publicitarios reciclados, creando una categoría específica llamada <strong>"Soportes Blandos"</strong>.
   </p>
 </div>
-
+<br><br>
 <div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
 
 <figure class="imagen-con-caption">
