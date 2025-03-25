@@ -18,7 +18,7 @@ mermaid: true
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    En la serie <strong>«PINTURAS INFECTADAS»</strong>, abordo el fenómeno contemporáneo de la saturación visual como metáfora de la contaminación ambiental, utilizando el lenguaje pictórico tradicional. A través del contraste entre la pureza técnica de la pintura académica y la incorporación de elementos invasivos que simbolizan polución, estas obras reflejan la tensión entre la integridad del entorno natural y el daño causado por la actividad industrial humana. </p>
+    En la serie <strong>«PINTURAS INFECTADAS»</strong>, abordo el fenómeno contemporáneo de la saturación y la contaminacion del paisaje como metáfora de la contaminación corporal e infecciones y pestes, utilizando el lenguaje pictórico tradicional en combinacion con elementos disruptivos que vienen de residuos del marketing. A través del contraste entre la pureza técnica de la pintura académica y la incorporación de elementos invasivos que simbolizan polución, estas obras reflejan la tensión entre la integridad del entorno natural y el daño causado por la actividad industrial humana. </p>
   <p> 
     La pintura tradicional, símbolo de pureza y naturaleza, se contrapone a elementos invasivos contemporáneos como residuos publicitarios y desechos industriales. Este contraste da origen a las «Pinturas Infectadas», en las que la erosión intencional de la superficie actúa como metáfora del daño ambiental. Utilizo papel reciclado proveniente de catálogos, revistas y publicidad gráfica, materiales simbólicos del exceso actual, que son integrados directamente en las composiciones como elementos artísticos y testimonios críticos de saturación. </p>
   <p> 
