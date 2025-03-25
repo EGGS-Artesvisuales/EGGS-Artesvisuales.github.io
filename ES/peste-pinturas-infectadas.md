@@ -166,42 +166,28 @@ La técnica integra estos papeles reciclados directamente en la composición, tr
 
 <div class="mermaid">
 graph TD
-  A[La Peste: Pintura] --> B[Pinturas Infectadas]
-  A --> C[Pinturas de Soportes Blandos]
-  
-  B --> D[Intervenciones]
-  B --> E[Producción]
-  
-  C --> F[Membrana]
-  C --> G[Módulo]
-  C --> H[Unidad]
-  
-  D --> I[Técnicas de raspado]
-  D --> J[Perforación]
-  D --> K[Superposición]
-  D --> L[Collage]
-  
-  E --> M[Incorporación sistemática]
-  E --> N[Fusión de materiales]
-  
-  F --> O[Gran formato]
-  F --> P[Estructura flexible]
-  
-  G --> Q[Unidades interconectadas]
-  G --> R[Sistemas visuales complejos]
-  
-  H --> S[Formato reducido]
-  H --> T[Composiciones sintéticas]
+  A[La Saturación] --> B[La Peste]
+  B --> C[Pinturas Infectadas]
+  C --> D[Soportes tradicionales]
+  D --> D1[Intervención]
+  D --> D2[Producción]
+  C --> E[Soportes Blandos]
+  E --> E1[Membrana]
+  E --> E2[Módulo]
+  E --> E3[Unidad]
 
-  click A "/es/peste-pintura.html" "Ir a La Peste: Pintura"
-  click B "/es/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-  click C "/es/soportes-blandos.html" "Ir a Pinturas de Soportes Blandos"
-  click D "/es/intervenciones.html" "Ir a Intervenciones"
-  click E "/es/produccion.html" "Ir a Producción"
-  click F "/es/membrana.html" "Ir a Membrana"
-  click G "/es/modulo.html" "Ir a Módulo"
-  click H "/es/unidad.html" "Ir a Unidad"
+  click A "/es/saturacion.html"
+  click B "/es/la-peste.html"
+  click C "/es/peste-pinturas-infectadas.html"
+  click D "/es/pinturas-infectadas.html"
+  click D1 "/es/intervenciones.html"
+  click D2 "/es/produccion.html"
+  click E "/es/soportes-blandos.html"
+  click E1 "/es/membrana.html"
+  click E2 "/es/modulo.html"
+  click E3 "/es/unidad.html"
 </div>
+
 <br><br>
 
 <div class="button-container">
