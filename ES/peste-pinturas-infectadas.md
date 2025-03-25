@@ -3,7 +3,7 @@ layout: default-es
 lang: es  
 title: "La Peste: Pintura"  
 description: "La contaminación representada a través de la pintura."  
-permalink: /ES/peste-pintura.html  
+permalink: /ES/peste-pinturas-infectadas.html  
 mermaid: true  
 ---
 
