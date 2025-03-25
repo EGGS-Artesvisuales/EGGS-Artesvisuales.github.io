@@ -82,7 +82,7 @@ graph TD
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
-  <figcaption><em>La Saturación / Pinturas infectadas: módulos - s/t n°4 (paisaje urbano), 2011</em></figcaption>
+  <figcaption><em>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulo - Paisaje urbano n°1 (paisaje urbano), 2011</em></figcaption>
 </figure>
 
 <div class="parrafo">
