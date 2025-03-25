@@ -82,7 +82,7 @@ graph TD
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
-  <figcaption><em>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulo - Paisaje urbano n°1 (paisaje urbano), 2011</em></figcaption>
+  <figcaption><em>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulo - Paisaje urbano n°1, 2011</em></figcaption>
 </figure>
 
 <div class="parrafo">
@@ -104,7 +104,7 @@ graph TD
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacios naturales" loading="lazy">
-  <figcaption><em>La Saturación / Espacios Naturales: Ruralia s/t n°1, EGGS 2012</em></figcaption>
+  <figcaption><em>La Saturación / La Peste / Desplazamiento.../ Espacios Naturales: Ruralia s/t n°1, EGGS 2012</em></figcaption>
 </figure>
 
 <div class="parrafo">
