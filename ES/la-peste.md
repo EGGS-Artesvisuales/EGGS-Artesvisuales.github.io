@@ -70,9 +70,9 @@ graph TD
     La propuesta establece fuertes contrastes: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. Utilizando materiales no convencionales como desechos gráficos, las obras evidencian cómo la publicidad y el consumo funcionan como agentes contaminantes, afectando la integridad ambiental y cultural.
   </p>
 
- <br> <p>
-    A nivel visual, la saturación aparece como elemento dominante, y se interpone al normal apreciacin de lo representado o lo visualizado. la estetica de la peste ilustra explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas clásicas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
-  </p>
+<p>
+  A nivel visual, la saturación se presenta como elemento dominante, interfiriendo con la apreciación normal de lo representado. La estética de <strong>«La Peste»</strong> explicita la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas tradicionales. En las obras trasladadas al entorno físico, la acumulación y saturación material simbolizan esta contaminación tangible, revelando cómo el exceso distorsiona e interrumpe tanto la percepción original del paisaje como la funcionalidad misma del espacio.
+</p>
 <br>  <p>
     Paralelamente, El concepto de saturacion como contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación  de ondas magneticas o radiactivas, olores y químicos nocivos.
   </p>
@@ -82,31 +82,37 @@ graph TD
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
-  <figcaption>La Saturación / Pinturas infectadas: módulos - s/t n° 4 (paisaje urbano), 2011</figcaption>
+  <figcaption><em>La Saturación / Pinturas infectadas: módulos - s/t n°4 (paisaje urbano), 2011</em></figcaption>
 </figure>
 
-<div class="parrafo"> 
+<div class="parrafo">
   <p>
-    La pintura se consolida como lenguaje esencial para representar lo contemporáneo. Establezco un vínculo entre la nobleza de la naturaleza y la de la tradición pictórica, confrontándolas con elementos contaminantes: saturación visual, residuos publicitarios y desechos industriales.</p> 
+    La pintura es el lenguaje esencial para representar lo contemporáneo. En esta propuesta vinculo la nobleza de la naturaleza y la tradición pictórica con elementos invasivos propios de la época actual: saturación visual, residuos publicitarios y desechos industriales.
+  </p>
   <p>
-    Este conflicto entre lo puro (naturaleza, pintura, paisaje) y lo invasivo (desechos, corrosión industrial) se materializa en las <strong>Pinturas Infectadas</strong>. La superficie pictórica se erosiona deliberadamente como metáfora del daño ambiental, explorando formatos innovadores que incluyen soportes creados con papel de prensa gráfica o publicidades.</p> 
-
+    Este contraste entre lo puro (naturaleza, paisaje, tradición artística) y lo contaminante (desechos, corrosión industrial) da origen a las <strong>Pinturas Infectadas</strong>. La erosión deliberada de la superficie pictórica actúa como metáfora del daño ambiental, explorando formatos que incorporan papel reciclado proveniente de prensa gráfica y publicidad.
+  </p>
   <p>
-    Catálogos, revistas y materiales publicitarios —símbolos de la saturación contemporánea— se transforman en materia prima. Sus propiedades físicas y simbólicas los convierten en protagonistas de esta investigación visual sobre la saturación. </p> 
-    <p>
-      La técnica integra estos papeles de prensa gráfica reciclados como elementos esenciales de la composición, actuando simultáneamente como recurso material y testimonio crítico. Su aplicación pictórica y posterior expansión hacia espacios físicos permiten trascender lo bidimensional, comenzando por erosionar superficies pictóricas para luego infiltrarse en entornos objetuales y espaciales. Así se expone visualmente la saturación, revelando la tensión antipática entre lo limpio y lo sucio, lo natural y lo tóxico, mediante la manipulación de residuos publicitarios transformados en componentes estéticos. </p> 
-
-</div>
+    Catálogos, revistas y materiales publicitarios—símbolos del exceso contemporáneo—se convierten en materia prima central. Sus cualidades físicas y simbólicas protagonizan esta investigación visual sobre la saturación.
+  </p>
+  <p>
+    La técnica integra estos papeles reciclados directamente en la composición, transformándolos simultáneamente en material artístico y testimonio crítico. Su aplicación pictórica, y posterior expansión hacia objetos y espacios físicos, permite trascender lo bidimensional, revelando visualmente la tensión entre lo limpio y lo sucio, lo natural y lo tóxico, mediante residuos publicitarios convertidos en componentes estéticos.
+  </p>
+ </div>
   <br><br>
 <div class="subtitulo">DESPLAZAMIENTO DE LA PINTURA</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacios naturales" loading="lazy">
-  <figcaption>La Saturación / Espacios Naturales: Ruralia s/t n°1, EGGS 2012</figcaption>
+  <figcaption><em>La Saturación / Espacios Naturales: Ruralia s/t n°1, EGGS 2012</em></figcaption>
 </figure>
+
 <div class="parrafo">
   <p>
-    Esta categoría extiende el concepto pictórico hacia instalaciones efímeras, intervenciones y fotografía, estableciendo diálogos directos con su entorno, haciendo visible una contaminación omnipresente pero frecuentemente ignorada, invitando a una reflexión crítica y consciente sobre nuestra relación con el planeta.
+    Esta categoría amplía el concepto pictórico hacia instalaciones efímeras, intervenciones espaciales y fotografía, continuando la experimentación con materiales reciclados provenientes de la representación inicial en pintura. Catálogos, revistas, volantes publicitarios y residuos gráficos se transforman en elementos invasivos que saturan visualmente espacios simbólicos como monumentos históricos, instituciones gubernamentales, lugares de culto y espacios comerciales, así como entornos naturales o rurales. 
+  </p><br>
+  <p>
+    Las obras se construyen mediante acumulaciones deliberadas de estos materiales reciclados, confrontándolos directamente con diferentes contextos: domesticos, naturales, jerárquicos, ordenados o institucionales, creando así tensiones visuales y conceptuales explícitas. Esta saturación deliberada revela cómo el consumo excesivo y la contaminación han permeado todos los niveles de la vida cotidiana, interrumpiendo la percepción habitual del espacio e invitando a una reflexión crítica sobre las dinámicas ecológicas, culturales y políticas que definen nuestra relación actual con el planeta.
   </p>
 </div>
 <br><br>
