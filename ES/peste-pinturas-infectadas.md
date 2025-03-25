@@ -9,7 +9,7 @@ mermaid: true
 
 <div class="titulo">Pinturas Infectadas</div>
 
-<div class="subtitulo">Representacion del mundo/ La Saturacion/ La Peste: Pinturas infectadas</div>
+<div class="subtitulo">La Saturacion / La Peste: Pinturas infectadas</div>
 <br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
@@ -18,8 +18,16 @@ mermaid: true
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    En la serie <strong>«PINTURAS INFECTADAS»</strong>, abordo la representacion de este aspeto de la saturacion que contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
+    En la serie <strong>«PINTURAS INFECTADAS»</strong>, la representacion del mundo . parti desde la pintura, y como se dice en las paginas anteriores abordo la representacion de este aspeto de la saturacion que contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
   </p>
+<p>
+  La pintura es el lenguaje esencial para representar lo contemporáneo. En esta propuesta vinculo la nobleza de la naturaleza y la tradición pictórica con elementos invasivos propios de la época actual: saturación visual, residuos publicitarios y desechos industriales.
+
+Este contraste entre lo puro (naturaleza, paisaje, tradición artística) y lo contaminante (desechos, corrosión industrial) da origen a las Pinturas Infectadas. La erosión deliberada de la superficie pictórica actúa como metáfora del daño ambiental, explorando formatos que incorporan papel reciclado proveniente de prensa gráfica y publicidad.
+
+Catálogos, revistas y materiales publicitarios—símbolos del exceso contemporáneo—se convierten en materia prima central. Sus cualidades físicas y simbólicas protagonizan esta investigación visual sobre la saturación.
+
+La técnica integra estos papeles reciclados directamente en la composición, transformándolos simultáneamente en material artístico y testimonio crítico. Su aplicación pictórica, y posterior expansión hacia objetos y espacios físicos, permite trascender lo bidimensional, revelando visualmente la tensión entre lo limpio y lo sucio, lo natural y lo tóxico, mediante residuos publicitarios convertidos en componentes estéticos. </p>
   <br>
   <p>
     La pintura, como medio expresivo ancestral, se convierte aquí en metáfora de lo natural y lo puro, mientras que los elementos gráficos publicitarios, residuos sintéticos y otros materiales industriales se incorporan como agentes contaminantes que invaden y deterioran la superficie pictórica. 
@@ -32,7 +40,7 @@ mermaid: true
 </div>
 <div class="parrafo"> 
   <p>
-   asi  La categoría pictórica de <strong>«La Peste»</strong> se divide en dos subcategorías fundamentales, cada una con características técnicas y conceptuales distintas y que utilizan dierente soporte pictorico: 
+   asi  La categoría pictórica de <strong>«La Peste»</strong> se divide en dos subcategorías fundamentales, cada una con características técnicas y conceptuales distintas y que utilizan dierente soporte pictorico: pinturas de soportes tradicionales y pinturas infectadas de soportes blandos.
   </p>
 </div>
 <br>
