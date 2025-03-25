@@ -6,73 +6,29 @@ description: "La contaminación representada a través de la pintura."
 permalink: /ES/peste-pinturas-infectadas.html  
 mermaid: true  
 ---
-
-<div class="titulo">Pinturas Infectadas</div>
-
-<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div>
-<br>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes tradicionales: producción / Bandera n°1, Óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
-</figure>
-<br>
+<div class="titulo">Pinturas Infectadas</div> 
+<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div> 
+<br> <figure class="imagen-con-caption"> <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy"> <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales: Producción / Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> </figure> 
 <div class="parrafo" style="margin-top: 6%;"> 
-  <p>
-    En la serie <strong>«Pinturas Infectadas»</strong>, abordo el fenómeno contemporáneo de la saturación y contaminación del paisaje actual mediante una técnica que hibrida lo pictórico con elementos escatológicos de la polución. La superficie se presenta erosionada mediante disposiciones aleatorias de materiales que simulan infecciones cutáneas, funcionando como metáfora de la contaminación corporal y ambiental.
-  </p>
-  <p> 
-    Utilizo el lenguaje pictórico tradicional en tensión con residuos del marketing y desechos industriales. Este contraste entre la pureza académica y elementos invasivos genera obras donde conviven tradición y degradación, reflejando el impacto de la actividad humana en los ecosistemas naturales. El proceso incluye una fase de pintura académica seguida por intervenciones con materiales publicitarios que "infectan" deliberadamente el soporte.
-  </p>
-  <p>
-    La técnica de superposición y erosión crea estratos visuales que replican la acumulación de contaminantes ambientales. Papeles reciclados de catálogos y revistas -símbolos del exceso consumista- se integran como elementos constitutivos, transformándose simultáneamente en materia artística y testimonio crítico.
-  </p>
-  <p> 
-    Este proceso creativo, desarrollado inicialmente en la Escuela de Artes (DAV) de la Universidad de Chile, evolucionó desde la incorporación directa de publicidad hasta el uso de soportes pre-contaminados. La experimentación con materiales alternativos como PVC y papeles reciclados reforzó la dimensión conceptual de saturación desde la base material.
-  </p> 
-</div>
-<br>
-<div class="parrafo">
-  <p>
-    Las Pinturas Infectadas se organizan en dos líneas de investigación principales:
-  </p>
-  <br>
-  <p>
-    <strong>Intervenciones:</strong> Acciones gestuales sobre superficies pictóricas mediante raspados, perforaciones y collages. Estas obras, que podrían realizarse sobre pinturas ajenas, evidencian la violencia contaminante a través de marcas y cicatrices visuales. La gestualidad agresiva refleja el impacto ambiental humano, resonando con movimientos como <em>Just Stop Oil</em> donde la alteración de obras clásicas busca visibilizar la crisis ecológica. Ambas prácticas utilizan la disrupción artística como catalizador de conciencia ambiental.
-  </p>
-  <br>
-  <p>
-    <strong>Producción:</strong> Integración sistémica de elementos industriales desde la concepción inicial. Desechos plásticos y materiales publicitarios se fusionan con técnicas pictóricas tradicionales, explorando la normalización de la contaminación en nuestros códigos estéticos. Todas estas piezas son producciones originales que problematizan los límites entre arte y residuo.
-  </p>
-</div>
-<br>
+  <p> En la serie <strong>«Pinturas Infectadas»</strong>, exploro la saturación y contaminación contemporánea del paisaje mediante una técnica híbrida que integra pintura tradicional con elementos visuales del marketing y residuos industriales. Superficies erosionadas y alteradas simulan infecciones cutáneas, actuando como metáforas de la contaminación corporal y ambiental. </p> 
+  <br><p> Lo pictórico tradicional entra en tensión directa con materiales provenientes del desecho industrial y publicidad, manifestando el conflicto entre tradición académica y contaminación visual contemporánea. Las obras son intervenidas con estratos que obstaculizan y distorsionan la apreciación del paisaje, transformándolo en reflejo crítico del impacto humano sobre los ecosistemas. </p> 
+  <br><p> Este proceso, iniciado durante mis estudios en la Escuela de Artes (DAV), evolucionó desde intervenciones con materiales publicitarios hacia la incorporación integral de soportes precontaminados, utilizando PVC, lonas y papel reciclado de revistas, periódicos y catálogos. Estos materiales, símbolos del exceso consumista, aportan contenido visual y flexibilidad física, creando dos categorías dentro de la serie: <em>soportes tradicionales</em> y <em>soportes blandos</em>. </p> 
+</div> 
+<br><br><br>
 
-<div class="subtitulo">Pinturas de Soportes Blandos</div>
-<br>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: unidad - s/t n° 6, 40 x 40 cm, 2011</figcaption>
-</figure>
-<br>
-<div class="parrafo">
-  <p>
-    Esta innovación técnica emplea materiales flexibles como telas sintéticas, lonas industriales y papeles de propaganda. La elección de soportes precarios -símbolos del consumo desechable- amplía la reflexión sobre fragilidad ambiental. Las propiedades físicas de estos materiales permiten crear:
-  </p>
-</div>
-<br>
-<div class="parrafo">
-  <p>
-    <strong>Membranas:</strong> Tapices de gran formato creados con páginas de catálogos intervenidas. Su flexibilidad permite adaptaciones site-specific que dialogan con la arquitectura, aludiendo a las aeropostales de Eugenio Dittborn. La fragilidad material enfatiza la vulnerabilidad ecológica.
-  </p>
-  <br>
-  <p>
-    <strong>Módulos:</strong> Sistemas expansivos compuestos por unidades pictóricas interconectadas. Alcanzan dimensiones monumentales (4x8m) que replican la escala agresiva de la publicidad exterior. Cada módulo mantiene autonomía estética mientras contribuye a una narrativa global sobre saturación visual.
-  </p>
-  <br>
-  <p>
-    <strong>Unidades:</strong> Piezas íntimas creadas con páginas individuales de revistas y periódicos. Estas obras concentran el discurso ambiental en formatos reducidos, invitando a una contemplación reflexiva donde conviven imágenes mediáticas y pinceladas tradicionales.
-  </p>
-</div>
-<br>
+<div class="subtitulo">Soportes Tradicionales</div> 
+<br> <div class="parrafo"> 
+  <p> Las obras en soportes tradicionales se clasifican en dos líneas: </p> 
+  <br> <p> <strong>Intervenciones:</strong> Acciones directas mediante raspados, perforaciones y collages que evidencian la violencia contaminante, generando marcas visuales que reflejan el impacto ambiental humano. Dialogan conceptualmente con movimientos disruptivos como <em>Just Stop Oil</em>, al usar la alteración artística para generar conciencia ecológica. </p> 
+  <br> <p> <strong>Producción:</strong> Integración planificada desde el origen de materiales industriales y publicitarios con técnicas pictóricas tradicionales. Estas obras cuestionan la normalización estética de la contaminación, desdibujando los límites entre arte y residuo. </p> </div>
+  
+  <br><br><br><div class="subtitulo">Pinturas de Soportes Blandos</div> 
+  <br> <figure class="imagen-con-caption"> <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy"> <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: unidad - s/t n° 6, 40 x 40 cm, 2011</figcaption> </figure> 
+  <br> <div class="parrafo"> <p> Utilizando soportes flexibles como lonas industriales, telas sintéticas y papel publicitario reciclado, estas pinturas profundizan la reflexión sobre la fragilidad ambiental y el consumismo. La flexibilidad de los soportes permite plegar las obras, optimizando espacio y facilitando su traslado e instalación, imitando así dinámicas del cartelismo publicitario callejero. La acción de pegar directamente sobre muros conecta estas obras con el graffiti y el cartelismo, generando pinturas efímeras, móviles y urbanas. </p> </div> <br> <div class="parrafo"> 
+  <p> Las pinturas de soporte blando se organizan en: </p> 
+  <br> <p> <strong>Membranas:</strong> Grandes tapices construidos con papeles de prensa grafica encolados. Su flexibilidad permite adaptaciones específicas al sitio, generando diálogos espaciales y enfatizando la vulnerabilidad ecológica. </p> 
+  <br> <p> <strong>Módulos:</strong> Sistemas expansibles conformados por unidades pictóricas que son configuradas por cada pagina de catalogo, revista o periodico desglozado, interconectadas que alcanzan dimensiones monumentales, replicando la agresividad visual de la publicidad exterior. Cada módulo es autónomo pero contribuye a una narrativa global sobre la saturación visual. </p> 
+  <br> <p> <strong>Unidades:</strong> Obras íntimas en formatos pequeños, realizadas con páginas individuales recicladas, invitando a una contemplación reflexiva del contraste entre la imagen mediática saturada y la intervención pictórica tradicional. </p> </div>
 
 <div class="mermaid">
 graph TD
