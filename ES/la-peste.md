@@ -88,12 +88,18 @@ graph TD
   <figcaption>La Saturación / Pinturas infectadas: módulos - s/t n° 4 (paisaje urbano), 2011</figcaption>
 </figure>
 
-<div class="parrafo">
+<div class="parrafo"> 
   <p>
-    La pintura explora el conflicto entre lo natural y lo artificial, erosionando sus superficies para representar el daño ambiental con técnicas que integran materiales publicitarios reciclados, creando una categoría específica llamada <strong>"Soportes Blandos"</strong>.
-  </p>
-</div>
-<br><br>
+    La pintura se consolida como lenguaje esencial para representar lo contemporáneo. Establezco un vínculo entre la nobleza de la naturaleza y la de la tradición pictórica, confrontándolas con elementos contaminantes: saturación visual, residuos publicitarios y desechos industriales.</p> 
+  <p>
+    Este conflicto entre lo puro (naturaleza, pintura, paisaje) y lo invasivo (desechos, corrosión industrial) se materializa en las <strong>Pinturas Infectadas</strong>. La superficie pictórica se erosiona deliberadamente como metáfora del daño ambiental, explorando formatos innovadores que incluyen soportes creados con papel de prensa gráfica o publicidades.</p> 
+  <p>
+      Catálogos, revistas y materiales publicitarios -ejemplares de la saturación contemporánea- se transforman en materia prima artística. Sus propiedades físicas y simbólicas los convierten en protagonistas de esta investigación visual sobre el exceso consumista.</p> 
+<p> 
+  La técnica integra estos papeles reciclados como elementos constitutivos de la composición, funcionando simultáneamente como materia prima y testimonio crítico. La obra trasciende lo bidimensional: comienza erosionando superficies pictóricas para luego infiltrarse en espacios físicos, explorando la tensión orgánico-artificial mediante residuos publicitarios que mutan en componentes estéticos.</p> 
+  <p>
+    Este proceso da origen a <strong>Soportes Blandos</strong> - categoría experimental que opera en dos frentes: dentro de las <strong>Pinturas Infectadas</strong> como integración material disruptiva, y en el <strong>Desplazamiento de la Pintura</strong> como intervención espacial donde los restos gráficos interactúan con contextos arquitectónicos y ambientales.</p> </div>
+    <br><br>
 <div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
 
 <figure class="imagen-con-caption">
