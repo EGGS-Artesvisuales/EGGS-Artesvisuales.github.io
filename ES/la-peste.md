@@ -14,14 +14,12 @@ mermaid: true
   <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
   <figcaption>La Saturación / La Peste / Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
 </figure>
-
-
 <br>
 <div class="parrafo">
 <p> La serie <strong>«La Peste»</strong> representa la contaminación contemporánea mediante la metáfora de una enfermedad que aqueja al planeta Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe a nuestro planeta como un organismo vivo y autorregulado, la obra sugiere que la intervención industrial y comercial humana —evidenciada en la proliferación de residuos plásticos y emisiones tóxicas, proliferacion de ruidos del marketing y desechos— ha comprometido el equilibrio de Gaia y con ello el de nuestro propio entorno.</p>
-  <p> 
+ <br> <p> 
     Esta iniciativa surge de la necesidad de plasmar las características esenciales de nuestra época, destacando sus elementos más significativos y poniendo en relieve la crisis ecológica como un factor distintivo del contexto contemporáneo. Más allá de una perspectiva puramente personal, el proyecto responde a la urgente necesidad de documentar y reflexionar críticamente sobre los aspectos que definen nuestro tiempo. </p>
-<p> 
+<br> <p> 
   La pintura opera como punto de partida constante en mi práctica, aunque mediante la expansión de sus límites conceptuales y físicos -<em>desplazamiento de la pintura</em>- ha derivado en una investigación interdisciplinar. Instalaciones, performances e intervenciones artísticas amplifican el discurso pictórico inicial, desarrollando estrategias transmediales para potenciar la eficacia comunicativa de esta exploración crítica de nuestra realidad contemporánea: la saturación visual, la degradación ambiental y las patologías sociales que conforman <strong>«La Peste»</strong> del principio del siglo XXI. </p>
 </div>
 
@@ -65,17 +63,17 @@ graph TD
   click H "/es/espacio-publico.html"
   click I "/es/espacios-naturales.html"
 </div>
-<br><br><br>
+<br><br><br><br><br>
 
 <div class="parrafo">
   <p>
     La propuesta establece fuertes contrastes: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. Utilizando materiales no convencionales como desechos gráficos, las obras evidencian cómo la publicidad y el consumo funcionan como agentes contaminantes, afectando la integridad ambiental y cultural.
   </p>
 
-  <p>
+ <br> <p>
     A nivel visual, la saturación aparece como elemento dominante, y se interpone al normal apreciacin de lo representado o lo visualizado. la estetica de la peste ilustra explícitamente la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas clásicas. En las obras desplazadas hacia el entorno físico, la acumulación y saturación material simbolizan claramente esta contaminación tangible, explorando cómo el exceso interrumpe y distorsiona la percepción original del paisaje y la funcionalidad del espacio.
   </p>
-  <p>
+<br>  <p>
     Paralelamente, El concepto de saturacion como contaminación intangible es abordada en la serie complementaria <strong>«Lo Invisible»</strong>, enfocada en la contaminación  de ondas magneticas o radiactivas, olores y químicos nocivos.
   </p>
 </div>
