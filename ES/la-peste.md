@@ -50,7 +50,7 @@ graph TD
 
   click A "/es/saturacion.html"
   click B "/es/la-peste.html"
-  click C "/es/la-peste-pinturas.html"
+  click C "/es/peste-pinturas-infectadas.html"
   click D "/es/pinturas-infectadas.html"
   click D1 "/es/intervenciones.html"
   click D2 "/es/produccion.html"
