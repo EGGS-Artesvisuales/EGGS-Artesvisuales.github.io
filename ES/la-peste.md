@@ -99,7 +99,7 @@ graph TD
   La técnica integra estos papeles reciclados como elementos constitutivos de la composición, funcionando simultáneamente como materia prima y testimonio crítico. La obra trasciende lo bidimensional: comienza erosionando superficies pictóricas para luego infiltrarse en espacios físicos, explorando la tensión orgánico-artificial mediante residuos publicitarios que mutan en componentes estéticos.</p> 
   <p>
     Este proceso da origen a <strong>Soportes Blandos</strong> - categoría experimental que opera en dos frentes: dentro de las <strong>Pinturas Infectadas</strong> como integración material disruptiva, y en el <strong>Desplazamiento de la Pintura</strong> como intervención espacial donde los restos gráficos interactúan con contextos arquitectónicos y ambientales.</p> </div>
-    <br><br>
+  <br><br>
 <div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
 
 <figure class="imagen-con-caption">
