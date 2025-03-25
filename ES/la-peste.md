@@ -118,7 +118,7 @@ graph TD
 <br><br>
 
 <div class="button-container">
-  <a href="/ES/peste-pintura.html" class="fancy-button">
+  <a href="/ES/peste-pinturas-infectadas.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-pintura.gif" alt="La Peste en Pintura">
       <p class="title">Pintura</p>
