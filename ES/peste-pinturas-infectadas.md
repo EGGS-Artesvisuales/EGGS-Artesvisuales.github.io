@@ -8,7 +8,11 @@ mermaid: true
 ---
 <div class="titulo">Pinturas Infectadas</div> 
 <div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div> 
-<br> <figure class="imagen-con-caption"> <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy"> <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales: Producción / Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> </figure> 
+<br> 
+<figure class="imagen-con-caption"> 
+  <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy"> 
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales: Producción / Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> </figure> 
+
 <div class="parrafo" style="margin-top: 6%;"> 
   <p> En la serie <strong>«Pinturas Infectadas»</strong>, exploro la saturación y contaminación contemporánea del paisaje mediante una técnica híbrida que integra pintura tradicional con elementos visuales del marketing y residuos industriales. Superficies erosionadas y alteradas simulan infecciones cutáneas, actuando como metáforas de la contaminación corporal y ambiental. </p> 
   <br><p> Lo pictórico tradicional entra en tensión directa con materiales provenientes del desecho industrial y publicidad, manifestando el conflicto entre tradición académica y contaminación visual contemporánea. Las obras son intervenidas con estratos que obstaculizan y distorsionan la apreciación del paisaje, transformándolo en reflejo crítico del impacto humano sobre los ecosistemas. </p> 
