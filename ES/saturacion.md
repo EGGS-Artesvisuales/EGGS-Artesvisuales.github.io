@@ -35,7 +35,7 @@ graph TD
   LTec[La Tecnología]
   LP[La Peste]
   LI[Lo Invisible]
-  P[Pintura]
+  P[Pinturas Infectadas]
   DP[Desplazamiento de la Pintura]
 
   RM --> LT
@@ -52,7 +52,7 @@ graph TD
   click LTec "/Es/tecnologia.html" "Ir a La Tecnología"
   click LP "/Es/la-peste.html" "Ir a La Peste"
   click LI "/Es/lo-invisible.html" "Ir a Lo Invisible"
-  click P "/Es/pinturas.html" "Ir a Pintura"
+  click P "/Es/peste-pinturas-infectadas.html" "Ir a Pintura"
   click DP "/Es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 </div>
 
