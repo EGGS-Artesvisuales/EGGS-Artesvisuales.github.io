@@ -7,9 +7,9 @@ permalink: /ES/peste-pintura.html
 mermaid: true  
 ---
 
-<div class="titulo">PINTURAS INFECTADAS</div>
+<div class="titulo">Pinturas Infectadas</div>
 
-<div class="subtitulo">Representacion del mundo / La Saturacion / La Peste: Pinturas infectadas</div>
+<div class="subtitulo">Representacion del mundo/ La Saturacion/ La Peste: Pinturas infectadas</div>
 <br>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="Pintura infectada representando la contaminación" loading="lazy">
