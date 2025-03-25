@@ -78,7 +78,7 @@ graph TD
   </p>
 </div>
 <br><br>
-<div class="subtitulo">La Peste: Pintura</div>
+<div class="subtitulo">PINTURAS INFECTADAS</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
@@ -90,14 +90,15 @@ graph TD
     La pintura se consolida como lenguaje esencial para representar lo contemporáneo. Establezco un vínculo entre la nobleza de la naturaleza y la de la tradición pictórica, confrontándolas con elementos contaminantes: saturación visual, residuos publicitarios y desechos industriales.</p> 
   <p>
     Este conflicto entre lo puro (naturaleza, pintura, paisaje) y lo invasivo (desechos, corrosión industrial) se materializa en las <strong>Pinturas Infectadas</strong>. La superficie pictórica se erosiona deliberadamente como metáfora del daño ambiental, explorando formatos innovadores que incluyen soportes creados con papel de prensa gráfica o publicidades.</p> 
+
   <p>
-      Catálogos, revistas y materiales publicitarios -ejemplares de la saturación contemporánea- se transforman en materia prima artística. Sus propiedades físicas y simbólicas los convierten en protagonistas de esta investigación visual sobre el exceso consumista.</p> 
-<p> 
-  La técnica integra estos papeles reciclados como elementos constitutivos de la composición, funcionando simultáneamente como materia prima y testimonio crítico. La obra trasciende lo bidimensional: comienza erosionando superficies pictóricas para luego infiltrarse en espacios físicos, explorando la tensión orgánico-artificial mediante residuos publicitarios que mutan en componentes estéticos.</p> 
-  <p>
-    Este proceso da origen a <strong>Soportes Blandos</strong> - categoría experimental que opera en dos frentes: dentro de las <strong>Pinturas Infectadas</strong> como integración material disruptiva, y en el <strong>Desplazamiento de la Pintura</strong> como intervención espacial donde los restos gráficos interactúan con contextos arquitectónicos y ambientales.</p> </div>
+    Catálogos, revistas y materiales publicitarios —símbolos de la saturación contemporánea— se transforman en materia prima. Sus propiedades físicas y simbólicas los convierten en protagonistas de esta investigación visual sobre la saturación. </p> 
+    <p>
+      La técnica integra estos papeles de prensa gráfica reciclados como elementos esenciales de la composición, actuando simultáneamente como recurso material y testimonio crítico. Su aplicación pictórica y posterior expansión hacia espacios físicos permiten trascender lo bidimensional, comenzando por erosionar superficies pictóricas para luego infiltrarse en entornos objetuales y espaciales. Así se expone visualmente la saturación, revelando la tensión antipática entre lo limpio y lo sucio, lo natural y lo tóxico, mediante la manipulación de residuos publicitarios transformados en componentes estéticos. </p> 
+
+</div>
   <br><br>
-<div class="subtitulo">La Peste: Desplazamiento de la Pintura</div>
+<div class="subtitulo">DESPLAZAMIENTO DE LA PINTURA</div>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacios naturales" loading="lazy">
