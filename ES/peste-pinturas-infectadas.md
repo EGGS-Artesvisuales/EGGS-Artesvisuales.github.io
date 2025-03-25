@@ -18,25 +18,11 @@ mermaid: true
 <br>
 <div class="parrafo" style="margin-top: 6%;"> 
   <p>
-    En la serie <strong>«PINTURAS INFECTADAS»</strong>, la representacion del mundo . parti desde la pintura, y como se dice en las paginas anteriores abordo la representacion de este aspeto de la saturacion que contaminación ambiental a través del lenguaje pictórico tradicional, estableciendo un diálogo entre la pureza técnica de la pintura y la invasión de elementos ajenos que simbolizan la polución. como se venia diciendo desde el recoorido teorico desde la representacion del mundo , a la captacion de la saturacion como element omimporitante para retratar, y luego este fenomeno al representarlo en el lenguaje artistico tradicoinal academico como la pintura. partiendo de estas reflexiones dichas anteriormente, estas obras representan la tensión entre la integridad del entorno natural y la agresión producida por la actividad industrial humana.
-  </p>
-<p>
-  La pintura es el lenguaje esencial para representar lo contemporáneo. En esta propuesta vinculo la nobleza de la naturaleza y la tradición pictórica con elementos invasivos propios de la época actual: saturación visual, residuos publicitarios y desechos industriales.
-
-Este contraste entre lo puro (naturaleza, paisaje, tradición artística) y lo contaminante (desechos, corrosión industrial) da origen a las Pinturas Infectadas. La erosión deliberada de la superficie pictórica actúa como metáfora del daño ambiental, explorando formatos que incorporan papel reciclado proveniente de prensa gráfica y publicidad.
-
-Catálogos, revistas y materiales publicitarios—símbolos del exceso contemporáneo—se convierten en materia prima central. Sus cualidades físicas y simbólicas protagonizan esta investigación visual sobre la saturación.
-
-La técnica integra estos papeles reciclados directamente en la composición, transformándolos simultáneamente en material artístico y testimonio crítico. Su aplicación pictórica, y posterior expansión hacia objetos y espacios físicos, permite trascender lo bidimensional, revelando visualmente la tensión entre lo limpio y lo sucio, lo natural y lo tóxico, mediante residuos publicitarios convertidos en componentes estéticos. </p>
-  <br>
-  <p>
-    La pintura, como medio expresivo ancestral, se convierte aquí en metáfora de lo natural y lo puro, mientras que los elementos gráficos publicitarios, residuos sintéticos y otros materiales industriales se incorporan como agentes contaminantes que invaden y deterioran la superficie pictórica. 
-  </p>
-  <p> como habia dicho antes, la publicidad se identifica como elemento saturador, contaminante, y comence a tratarlo e incorporarlo en las pinturas. el progreso fue gradual, en un proceso investigativo creativo, que comenzo cuando estudiaba en la escuela de artes del DAV u de chile, . 
-    </p>
-  <p>
-    meinteresaba yuxtaponer estos elemtos frente a lo noble del lenguaje pictorico traducional. y asi llegue a combinarlo en los elementos compositivos de la pintura, y llegue a la idea de utiliazarlo negativamente, es decir borrando. y si fuera asi la saturacion tendria que ser un elemento de la saturacion. asi llegue a la idesa qde que el mismo soporte dela pntura ( que tradicionalmente seria la tela, o la tabla, podria utilizar alguna s uérficie similiar. el papel y el pvc se prestan para ocuparlos de material para los soportes de las pinturas de la saturacion que desde el mismo soporte ya tratan la tematica de la satyracion. esto fue gradual.
-  </p>
+    En la serie <strong>«PINTURAS INFECTADAS»</strong>, abordo el fenómeno contemporáneo de la saturación visual como metáfora de la contaminación ambiental, utilizando el lenguaje pictórico tradicional. A través del contraste entre la pureza técnica de la pintura académica y la incorporación de elementos invasivos que simbolizan polución, estas obras reflejan la tensión entre la integridad del entorno natural y el daño causado por la actividad industrial humana. </p>
+  <p> 
+    La pintura tradicional, símbolo de pureza y naturaleza, se contrapone a elementos invasivos contemporáneos como residuos publicitarios y desechos industriales. Este contraste da origen a las «Pinturas Infectadas», en las que la erosión intencional de la superficie actúa como metáfora del daño ambiental. Utilizo papel reciclado proveniente de catálogos, revistas y publicidad gráfica, materiales simbólicos del exceso actual, que son integrados directamente en las composiciones como elementos artísticos y testimonios críticos de saturación. </p>
+  <p> 
+    Este proceso creativo comenzó durante mis estudios en la Escuela de Artes (DAV) de la Universidad de Chile. Inicialmente identifiqué la publicidad como agente saturador y contaminante, incorporándola progresivamente a mis obras. Luego surgió la idea de usar estos elementos en negativo, es decir, mediante el borrado o erosión, convirtiendo el propio soporte—tradicionalmente lienzo o tabla—en una superficie saturada desde su origen. Para ello, experimenté gradualmente con soportes alternativos como el papel reciclado y el PVC, que refuerzan visual y simbólicamente el concepto de saturación desde su base material. </p> 
 </div>
 <div class="parrafo"> 
   <p>
