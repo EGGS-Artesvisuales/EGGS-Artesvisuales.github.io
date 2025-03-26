@@ -1,8 +1,7 @@
 /* =============================================================================
    Estilos Unificados y Optimizados para Owl Carousel
    ============================================================================= */
-.owl-carousel,
-.owl-carousel-large {
+.owl-carousel {
   position: relative;
   overflow: visible; 
   margin: 2rem auto;
@@ -11,11 +10,6 @@
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.owl-carousel-large .owl-item {
-  overflow: visible !important;
-  position: relative;
 }
 
 /* =============================================================================
@@ -35,14 +29,12 @@
   font-size: 1.3rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  /* Se elimina la transición de transform, quedando solo la del color de fondo */
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* Solo transición de color */
   z-index: 100;
 }
 
 .owl-nav button:hover {
   background-color: rgba(0,0,0,0.9);
-  /* Se elimina la transformación de escala para evitar deformaciones */
 }
 
 .owl-nav .owl-prev { left: 10px; }
@@ -178,7 +170,8 @@
    Ajustes responsivos generales
    ============================================================================= */
 @media (max-width: 768px) {
-  .owl-carousel, .owl-carousel-large { width: 90%; }
+  .owl-carousel { width: 90%; }
   .owl-nav button { width: 2rem; height: 2rem; font-size: 1rem; }
   .carousel-imagen figcaption { font-size: 0.8rem; padding: 0.5rem; }
 }
+
