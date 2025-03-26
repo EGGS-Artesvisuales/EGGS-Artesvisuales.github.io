@@ -40,11 +40,11 @@ $('.carousel-fancy').owlCarousel({
       dots: true
     },
     600: {
-      items: 4,   // Para dispositivos medianos
+      items: 3,   // Para dispositivos medianos
       nav: false
     },
     1000: {
-      items: 6    // Para pantallas grandes
+      items: 4   // Para pantallas grandes
     }
   }
 });
