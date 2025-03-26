@@ -92,6 +92,9 @@
   text-align: center;
   overflow: hidden;
   border-radius: var(--radius-extra);
+  min-height: 600px; /* Ajusta este valor según la altura esperada */
+}
+
 }
 
 .carousel-imagen .carousel-img {
