@@ -6,7 +6,7 @@ $(document).ready(function() {
     margin: 10,
     nav: true,
     dots: true,
-    dotsEach: true,
+    dotsEach: 1,
     center: true,
     stagePadding: 30,
     autoHeight: false,
@@ -27,7 +27,6 @@ $(document).ready(function() {
     margin: 9,
     nav: true,
     dots: true,
-    dotsData: true,
     navText: [
       '<span class="owl-nav-prev">&#10094;</span>',
       '<span class="owl-nav-next">&#10095;</span>'
