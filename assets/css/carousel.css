@@ -268,4 +268,67 @@
 .carousel-fancy .fancy-button:hover .button-content .subtitle {
   background-color: var(--content-subtitle-hover-bg, rgba(0,0,0,0.7));
 }
+/* Complemento para Carousel Minimalista y Elegante */
+
+.owl-carousel {
+  width: 73%;
+  margin: 2rem auto;
+}
+
+.carousel-imagen .imagen-con-caption {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: var(--radius-extra);
+}
+
+.carousel-imagen .carousel-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: var(--radius-extra);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.carousel-imagen .carousel-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos minimalistas para subtítulos artísticos */
+.carousel-imagen figcaption {
+  font-family: var(--parrafo-font);
+  color: var(--color-medio-claro);
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0;
+  font-size: 0.95rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+
+/* Flechas de navegación minimalistas y elegantes */
+.owl-nav button {
+  background-color: rgba(0,0,0,0.6);
+  color: var(--color-claro);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.owl-nav button:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Ajuste para dots minimalistas */
+.owl-dots .owl-dot span {
+  background-color: var(--color-medio-claro);
+}
+
+.owl-dots .owl-dot.active span {
+  background-color: var(--color-destacado);
+}
 
