@@ -53,11 +53,11 @@ graph TD
 <div class="subtitulo">Soportes Tradicionales</div> 
 <br> 
 <div class="parrafo"> 
-  <p>Las obras en soportes tradicionales se clasifican en dos líneas:</p> 
+  <p>Las obras en soportes tradicionales se clasifican en dos líneas principales:</p> 
   <br> 
-  <p><strong>Intervenciones:</strong> Acciones directas sobre pinturas de otros autorias. con esto quiero contrastar el valor del autor con el daño de las pintura. se asemeja mucho a las acciones de stop oil. mediante raspados, perforaciones y collages que evidencian la violencia contaminante, generando marcas visuales que reflejan el impacto ambiental humano. Dialogan conceptualmente con movimientos disruptivos como <em>Just Stop Oil</em>, al usar la alteración artística para generar conciencia ecológica.</p> 
+  <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
   <br> 
-  <p><strong>Producción:</strong> obras que son autoria proia. aca se la Integración planificada desde el origen de materiales industriales y publicitarios con técnicas pictóricas tradicionales. </p> 
+  <p><strong>Producción:</strong> Obras originales creadas desde cero, donde se integran estratégicamente materiales industriales y elementos provenientes del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p> 
 </div>
 
 <br><br><br>
@@ -66,42 +66,22 @@ graph TD
 <br> 
 <figure class="imagen-con-caption"> 
   <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy"> 
-  <figcaption>La Saturación / La Peste / Pintura / Soportes blandos: unidad - s/t n° 6, 40 x 40 cm, 2011</figcaption> 
+  <figcaption><em>La Saturación / La Peste</em>, Unidad - s/t n° 6, pintura sobre soporte blando, 40 x 40 cm, 2011</figcaption> 
 </figure> 
 <br>
 <div class="parrafo"> 
-  <p>Utilizando soportes flexibles como lonas industriales, telas sintéticas y papel publicitario reciclado, estas pinturas profundizan la reflexión sobre la fragilidad ambiental y el consumismo. La flexibilidad de los soportes permite plegar las obras, optimizando espacio y facilitando su traslado e instalación, imitando así dinámicas del cartelismo publicitario callejero. La acción de pegar directamente sobre muros conecta estas obras con el graffiti y el cartelismo, generando pinturas efímeras, móviles y urbanas.</p> 
+  <p>Mediante el uso de soportes flexibles como lonas industriales recicladas, telas sintéticas reutilizadas y papel publicitario recuperado, estas pinturas reflexionan sobre la fragilidad ecológica, el consumo masivo y la cultura visual efímera. La característica maleable de estos soportes permite doblar o enrollar las obras, optimizando su almacenamiento, transporte e instalación, en clara alusión a las dinámicas de distribución y visibilidad del cartelismo publicitario urbano. La instalación directa sobre muros establece una conexión visual y conceptual con técnicas como el graffiti y el street art, resultando en obras móviles, efímeras y de carácter urbano.</p> 
 </div> 
 
 <br>
 
 <div class="parrafo"> 
-  <p>Las pinturas de soporte blando se organizan en:</p> 
+  <p>Las pinturas en soporte blando están organizadas en tres categorías:</p> 
   <br> 
-  <p><strong>Membranas:</strong> Grandes tapices construidos con papeles de prensa gráfica encolados. Su flexibilidad permite adaptaciones específicas al sitio, generando diálogos espaciales y enfatizando la vulnerabilidad ecológica.</p> 
+  <p><strong>Membranas:</strong> Amplios tapices creados mediante la técnica del collage, utilizando principalmente papeles provenientes de periódicos y revistas adheridos mediante encolado. Su flexibilidad facilita una adaptación precisa al espacio expositivo, generando un diálogo específico con el entorno y enfatizando la vulnerabilidad del medio ambiente frente a la sobreproducción mediática y consumista.</p> 
   <br> 
-  <p><strong>Módulos:</strong> Sistemas expansibles conformados por unidades pictóricas que son configuradas por cada página de catálogo, revista o periódico desglosado, interconectadas que alcanzan dimensiones monumentales, replicando la agresividad visual de la publicidad exterior. Cada módulo es autónomo pero contribuye a una narrativa global sobre la saturación visual.</p> 
+  <p><strong>Módulos:</strong> Obras expansibles compuestas por múltiples unidades pictóricas basadas en páginas individuales extraídas de catálogos, revistas o periódicos. Cada módulo se conecta con otros, creando sistemas visuales monumentales que replican la intensidad agresiva del lenguaje publicitario exterior, pero con un enfoque crítico sobre la saturación informativa y visual contemporánea. Aunque cada módulo puede existir de manera autónoma, su fuerza comunicativa se potencia en su conjunto.</p> 
   <br> 
-  <p><strong>Unidades:</strong> Obras íntimas en formatos pequeños, realizadas con páginas individuales recicladas, invitando a una contemplación reflexiva del contraste entre la imagen mediática saturada y la intervención pictórica tradicional.</p> 
+  <p><strong>Unidades:</strong> Piezas individuales, de pequeño formato, creadas a partir de páginas recicladas intervenidas pictóricamente. Estas obras invitan a una reflexión íntima sobre el contraste entre el impacto visual efímero y saturado del material mediático original y la profundidad simbólica de la intervención artística tradicional.</p> 
 </div>
-
-
-
-<div class="button-container">
-  <a href="/ES/la-peste.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-volver-la-peste.gif" alt="Volver a La Peste">
-      <p class="title">La Peste</p>
-      <p class="subtitle">Volver a la página principal</p>
-    </div>
-  </a>
-  <a href="/ES/soportes-blandos.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/boton-soportes-blandos.gif" alt="Explorar soportes no tradicionales">
-      <p class="title">Soportes Blandos</p>
-      <p class="subtitle">Innovación material y conceptual</p>
-    </div>
-  </a>
-</div>
-<br>
 
