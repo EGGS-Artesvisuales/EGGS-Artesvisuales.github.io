@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  // Carrusel de imágenes con captions
   $('.carousel-imagen').owlCarousel({
     items: 1,
     loop: true,
@@ -7,7 +6,8 @@ $(document).ready(function() {
     nav: true,
     dots: true,
     dotsEach: 1,
-    center: true,
+    // Elimina "center: true" para que la imagen se muestre completa
+    startPosition: 0,
     stagePadding: 30,
     autoHeight: true,
     navText: ["&#9664;", "&#9654;"],
@@ -20,6 +20,8 @@ $(document).ready(function() {
       }
     }
   });
+});
+
 
   // Carrusel fancy
 $('.carousel-fancy').owlCarousel({
