@@ -1,32 +1,50 @@
 $(document).ready(function() {
-  // Inicialización para el carrusel de imágenes (una imagen por slide)
-$('.owl-carousel-large').owlCarousel({
-  items: 1,           // Se muestra un item activo centrado
-  loop: true,
-  margin: 10,         // Separación entre items (aplica también al efecto visual)
-  nav: true,
-  dots: true,
-  center: true,       // Activa el modo centrado
-  stagePadding: 30,   // Espacio en píxeles para mostrar parte de los items adyacentes; ajusta este valor según necesites
-  autoHeight: true
-});
+  // Carrusel grande (imágenes)
+  $('.owl-carousel-large').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: true,
+    dotsEach: true, // Añade esto
+    center: true,
+    stagePadding: 30,
+    autoHeight: false, // Cambia a false
+    responsive: { // Añade responsive para consistencia
+      0: {
+        stagePadding: 15
+      },
+      768: {
+        stagePadding: 30
+      }
+    }
+  });
 
-
-  // Inicialización para el carrusel fancy (si es que lo utilizas)
+  // Carrusel fancy
   $('.carousel-fancy').owlCarousel({
-    items: 3, // Ajusta según tus necesidades
+    items: 3,
     loop: true,
     margin: 9,
     nav: true,
+    dots: true, // Asegúrate que está en true
+    dotsData: true, // Añade esto si necesitas dots personalizados
     navText: [
       '<span class="owl-nav-prev">&#10094;</span>',
       '<span class="owl-nav-next">&#10095;</span>'
     ],
+    responsiveClass: true, // Añade esto
     responsive: {
-      0: { items: 1 },
-      600: { items: 2 },
-      1000: { items: 3 }
+      0: {
+        items: 1,
+        dots: true // Fuerza dots en móvil
+      },
+      600: {
+        items: 2,
+        nav: false // Desactiva flechas en tablet
+      },
+      1000: {
+        items: 3
+      }
     }
   });
 });
-
