@@ -9,7 +9,7 @@ $(document).ready(function() {
     // Elimina "center: true" para que la imagen se muestre completa
     startPosition: 0,
     stagePadding: 30,
-    autoHeight: true,
+
     navText: ["&#9664;", "&#9654;"],
     responsive: {
       0: {
