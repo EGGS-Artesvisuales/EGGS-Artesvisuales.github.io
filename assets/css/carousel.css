@@ -240,6 +240,6 @@
   }
   
   .carousel-fancy {
-    --gap-between-buttons: 20px;
+    --gap-between-buttons: 10px;
   }
 }
