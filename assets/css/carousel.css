@@ -1,4 +1,7 @@
-
+:root {
+  /* Ajusta el espacio entre botones; reduce este valor para disminuir el gap */
+  --gap-between-buttons: 1rem;
+}
 
 /* =============================================================================
    Estilos Unificados y Optimizados para Owl Carousel
@@ -7,9 +10,9 @@
   position: relative; /* Asegura que los elementos posicionados absolutamente se sitúen en este contenedor */
   overflow: visible;
   margin: 2rem auto;
-  padding: 20px 0 30px 0 !important; /* Se reserva espacio suficiente en la parte inferior para los dots */
+  padding: 20px 0 70px 0 !important; /* Se reserva espacio suficiente en la parte inferior para los dots */
   width: 100%;
-  min-height: 300px; 
+  min-height: 300px;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -89,13 +92,12 @@
   text-align: center;
   overflow: hidden;
   border-radius: var(--radius-extra);
- 
 }
 
 .carousel-imagen .carousel-img {
   width: 100%;
   height: auto;
-    min-height: 600px; /* Ajusta este valor según la altura esperada */
+  min-height: 600px; /* Altura esperada para pantallas grandes */
   object-fit: cover;
   border-radius: var(--radius-extra);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -119,6 +121,13 @@
   backdrop-filter: blur(4px);
 }
 
+/* Ajuste para pantallas pequeñas en Carousel-Imágen */
+@media (max-width: 768px) {
+  .carousel-imagen .carousel-img {
+    min-height: 300px; /* Reduce la altura en dispositivos pequeños */
+  }
+}
+
 /* =============================================================================
    Carrusel Fancy (Botones Interactivos)
    ============================================================================= */
@@ -127,16 +136,17 @@
   text-decoration: none;
   background-color: var(--button-bg-color, #007bff);
   border-radius: var(--button-border-radius, 8px);
-  box-shadow: var(--button-shadow, 0 2px 4px rgba(0,0,0,0.2));
+  box-shadow: var(--button-shadow, 0 2px 4px rgba(0, 0, 0, 0.2));
   transition: var(--button-transition, transform 0.3s ease, box-shadow 0.3s ease);
   overflow: hidden;
   text-align: center;
-  flex: 1 1 calc(33% - var(--gap-between-buttons, 5px));
-  max-width: var(--button-max-width, 300px);
-  min-width: var(--button-min-width, 200px);
+  /* Se elimina el cálculo fijo para permitir que Owl Carousel asigne el ancho según su configuración */
+  flex: 1 1 auto;
+  /* Opcional: comentar max-width y min-width si interfieren con la cantidad de items */
+  /* max-width: var(--button-max-width, 300px);
+     min-width: var(--button-min-width, 200px); */
   height: auto;
 }
-
 
 .carousel-fancy .fancy-button:hover {
   transform: translateY(-8px);
