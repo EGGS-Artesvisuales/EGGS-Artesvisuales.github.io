@@ -57,35 +57,35 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/carousel.css">
 
-<!-- Mermaid (solo si se requiere) -->
-{% if page.mermaid %}
-  <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script defer>
-    window.addEventListener("DOMContentLoaded", () => {
-      try {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: 'dark',
-          themeVariables: {
-            background: '#1e1e1e',
-            primaryColor: '#444444',
-            primaryTextColor: '#ffffff',
-            primaryBorderColor: '#aaaaaa',
-            secondaryColor: '#2d2d2d',
-            lineColor: '#ffffff',
-            arrowheadColor: '#ffffff',
-            tertiaryColor: '#666666'
-          },
-          flowchart: { wrap: true, curve: 'basis' },
-          sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
-          gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
-        });
-      } catch (error) {
-        console.error("Error al inicializar Mermaid:", error);
-      }
-    });
-  </script>
-{% endif %}
+  <!-- Mermaid (solo si se requiere) -->
+  {% if page.mermaid %}
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script defer>
+      window.addEventListener("DOMContentLoaded", () => {
+        try {
+          mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+              background: '#1e1e1e',
+              primaryColor: '#444444',
+              primaryTextColor: '#ffffff',
+              primaryBorderColor: '#aaaaaa',
+              secondaryColor: '#2d2d2d',
+              lineColor: '#ffffff',
+              arrowheadColor: '#ffffff',
+              tertiaryColor: '#666666'
+            },
+            flowchart: { wrap: true, curve: 'basis' },
+            sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
+            gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
+          });
+        } catch (error) {
+          console.error("Error al inicializar Mermaid:", error);
+        }
+      });
+    </script>
+  {% endif %}
 </head>
 
 <body>
@@ -108,41 +108,46 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
   <!-- Owl Carousel JS e inicialización (solo si la página lo requiere) -->
- {% if page.carousel %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.owl-carousel.carousel-imagen').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: true,
-        items: 1, // importante: un ítem grande por slide
-        autoHeight: true,
-        navText: ["&#9664;", "&#9654;"]
-      });
+  {% if page.carousel %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel.carousel-imagen').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          dots: true,
+          items: 1, // Importante: un ítem grande por slide
+          autoHeight: true,
+          navText: ["&#9664;", "&#9654;"]
+        });
 
-      $('.owl-carousel.carousel-fancy').owlCarousel({
-        loop: true,
-        margin: 9,
-        nav: true,
-        dots: true,
-        navText: ["&#9664;", "&#9654;"],
-        responsive: {
-          0: { items: 1 },
-          600: { items: 2 },
-          1000: { items: 3 }
-        }
+        $('.owl-carousel.carousel-fancy').owlCarousel({
+          loop: true,
+          margin: 9,
+          nav: true,
+          dots: true,
+          navText: ["&#9664;", "&#9654;"],
+          responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 }
+          }
+        });
       });
-    });
-  </script>
-{% endif %}
-
+    </script>
+  {% endif %}
 
   <!-- Script de la barra de progreso, solo si 'progreso: true' está definido en el front matter -->
   {% if page.progreso %}
     <script src="/assets/js/progreso.js" defer></script>
   {% endif %}
+
+  <!-- Script del menú -->
+  <script src="/assets/js/menu.js" defer></script>
+</body>
+</html>
+
 
   <!-- Script del menú -->
   <script src="/assets/js/menu.js" defer></script>
