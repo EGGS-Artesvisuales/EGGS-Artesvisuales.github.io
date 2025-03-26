@@ -73,7 +73,7 @@ graph TD
     <figure>
       <img 
         class="carousel-img" 
-        src="/assets/img/pintura-soporte-blando-02.jpg" 
+        src="/assets/img/la-peste---pintura01.jpg" 
         alt="Instalación urbana Membranas" 
         loading="lazy"
       >
