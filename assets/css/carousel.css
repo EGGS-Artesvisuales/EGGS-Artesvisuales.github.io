@@ -1,6 +1,6 @@
 :root {
   /* Ajusta el espacio entre botones; reduce este valor para disminuir el gap */
-  --gap-between-buttons: 1rem;
+  --gap-between-buttons: 0.31rem;
 }
 
 /* =============================================================================
