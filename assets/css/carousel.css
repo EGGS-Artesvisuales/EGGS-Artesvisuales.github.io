@@ -119,15 +119,15 @@
    Carrusel Fancy (4 elementos en desktop) - Versión Mejorada
    ============================================================================= */
 .carousel-fancy {
-  --gap-between-buttons: 15px;
-  --items-desktop: 4;
+  --gap-between-buttons: 7px;
+  --items-desktop: 5;
   --items-tablet: 3;
   --items-mobile: 1;
 }
 
 .carousel-fancy .owl-stage {
   display: flex;
-  gap: var(--gap-between-buttons);
+  gap: 5px;
   padding: 5px 0;
 }
 
