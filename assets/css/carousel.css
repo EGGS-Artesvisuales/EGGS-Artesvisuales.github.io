@@ -55,25 +55,32 @@
    ============================================================================= */
 .owl-dots {
   position: absolute;
-  bottom: 10px !important; /* Ubica los dots 10px desde el fondo */
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  display: flex !important;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  z-index: 10000;  /* Aumenta el z-index para que se superpongan sobre otros elementos */
   margin: 0;
-  padding: 10px 0;
-  background: none;
-  opacity: 1;
+  padding: 0;
 }
 
 .owl-dots .owl-dot {
-  margin: 0 6px;
+  margin: 0 5px;
   cursor: pointer;
-  pointer-events: all; /* Habilita la interacción en los dots */
 }
 
+.owl-dots .owl-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.owl-dots .owl-dot.active span {
+  background-color: #333;
+}
 /* =============================================================================
    Carrusel de Imágenes con pies de foto (Carousel-Imágen)
    ============================================================================= */
