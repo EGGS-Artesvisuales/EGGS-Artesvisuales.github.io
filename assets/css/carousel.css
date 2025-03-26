@@ -1,41 +1,22 @@
 /* =============================================================================
-   Base Styles para Owl Carousel (aplica a ambos tipos)
+   Estilos Unificados y Optimizados para Owl Carousel
    ============================================================================= */
+
 .owl-carousel,
 .owl-carousel-large {
   position: relative;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: 20px 0;
-  border-radius: 8px; /* Bordes redondeados generales */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  width: 73%;
+  border-radius: var(--radius-extra);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  will-change: transform, box-shadow;
 }
 
-/* Para el carrusel large sin desborde */
-.owl-carousel-large {
-  overflow: hidden;
-}
-.owl-carousel-large .owl-stage-outer,
-.owl-carousel-large .owl-stage {
-  overflow: hidden;
-}
-
-/* Permitir que cada ítem de carousel-large expanda su contenido y se eleve en hover */
 .owl-carousel-large .owl-item {
   overflow: visible !important;
   position: relative;
-}
-.owl-carousel-large .owl-item:hover {
-  z-index: 100;
-}
-.owl-carousel-large .owl-nav button {
-  z-index: 999 !important;
-}
-
-.owl-carousel-large .owl-dots {
-  z-index: 999 !important;
 }
 
 /* =============================================================================
@@ -45,230 +26,62 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  color: var(--color-claro);
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
   border: none;
   outline: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 1.2em;
-  color: #333;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 100;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 100;
 }
 
 .owl-nav button:hover {
-  background-color: #f0f0f0;
+  background-color: rgba(0,0,0,0.9);
+  transform: scale(1.1);
 }
 
-.owl-nav .owl-prev {
-  left: 10px;
-}
-
-.owl-nav .owl-next {
-  right: 10px;
-}
+.owl-nav .owl-prev { left: 10px; }
+.owl-nav .owl-next { right: 10px; }
 
 /* =============================================================================
    Navegación: Dots (paginación)
    ============================================================================= */
 .owl-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 .owl-dots .owl-dot {
-  margin: 0 5px;
+  margin: 0 6px;
   cursor: pointer;
 }
 
 .owl-dots .owl-dot span {
-  display: block;
   width: 10px;
   height: 10px;
-  background-color: #ccc;
+  background-color: var(--color-medio-claro);
   border-radius: 50%;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.owl-dots .owl-dot.active span {
-  background-color: #333;
-}
-
-/* =============================================================================
-   Estilos Especializados para el Carrusel de Imágenes (Carousel-Imágen)
-   ============================================================================= */
-
-/* Configuración básica para los ítems de imagen */
-.carousel-imagen .item--imagen {
-  width: 100%;
-  height: auto;
-  margin: 0;
-}
-
-/* Contenedor interno para la versión normal */
-.owl-carousel .carousel-imagen .item--imagen .imagen {
-  display: block;
-  text-decoration: none;
-  background-color: #3a3a3a;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-              inset 0 -2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, box-shadow 0.3s ease;
-  overflow: hidden;
-  text-align: center;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-/* Estilos para las imágenes internas */
-.carousel-imagen .imagen img.carousel-img {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* Tamaños específicos para imágenes según el tipo de carrusel */
-.owl-carousel .carousel-imagen .owl-item img {
-  width: 100%;
-  object-fit: cover;
-  height: 600px; /* Ajusta según tus necesidades */
-}
-.owl-carousel-large .carousel-imagen .owl-item img {
-  width: 100%;
-  object-fit: cover;
-  height: 1000px; /* Ajusta para mayor visibilidad */
-}
-
-/* Ajustes para cada ítem en carrusel large */
-.owl-carousel-large .item {
-  width: 100%;
-  margin-right: 10px;
-}
-
-/* Permitir que el contenedor de imagen no recorte efectos hover */
-.owl-carousel-large .item .imagen {
-  overflow: visible;
-}
-
-/* Hover para la imagen en la versión normal */
-.carousel-imagen .imagen img.carousel-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-/* Hover 3D para imagen en carrusel large */
-.owl-carousel-large {
-  perspective: 1000px; /* Habilita efecto 3D en descendientes */
-}
-.owl-carousel-large .carousel-img:hover {
-  transform: translateZ(30px) scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
-
-/* Ajustes responsivos para imágenes */
-@media (min-width: 1024px) {
-  .owl-carousel .carousel-imagen .imagen img.carousel-img,
-  .owl-carousel-large .carousel-imagen .imagen img.carousel-img {
-    width: 110%;
-    margin-left: -5%;
-  }
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background-color: var(--color-destacado);
+  transform: scale(1.3);
 }
 
 /* =============================================================================
-   Estilos Especializados para el Carrusel Fancy (Botones Interactivos)
+   Carrusel de Imágenes con pies de foto (Carousel-Imágen)
    ============================================================================= */
-/* Nota: Se asumen variables CSS globales definidas para colores, sombras, etc. */
-.carousel-fancy .fancy-button {
-  display: block;
-  text-decoration: none;
-  background-color: var(--button-bg-color, #007bff);
-  border-radius: var(--button-border-radius, 8px);
-  box-shadow: var(--button-shadow, 0 2px 4px rgba(0,0,0,0.2));
-  transition: var(--button-transition, transform 0.3s ease, box-shadow 0.3s ease);
-  overflow: hidden;
-  text-align: center;
-  flex: 1 1 calc(25% - var(--gap-between-buttons, 10px));
-  max-width: var(--button-max-width, 200px);
-  min-width: var(--button-min-width, 150px);
-  height: auto;
-}
-.carousel-fancy .fancy-button:focus {
-  outline: none;
-  box-shadow: var(--button-focus-shadow, 0 0 0 3px rgba(0,123,255,0.5));
-  transform: translateY(-5px);
-}
-.carousel-fancy .fancy-button:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--button-hover-shadow, 0 8px 16px rgba(0,0,0,0.3));
-  background-color: var(--button-hover-bg-color, #0056b3);
-}
-
-.carousel-fancy .button-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  color: var(--content-title-color, #fff);
-  text-align: center;
-  overflow: hidden;
-}
-
-.carousel-fancy .button-content img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  opacity: var(--img-opacity, 0.9);
-  transition: opacity 0.3s ease-in-out;
-}
-
-.carousel-fancy .fancy-button:hover .button-content img {
-  opacity: var(--img-hover-opacity, 1);
-}
-
-.carousel-fancy .button-content .title {
-  font-size: var(--title-font-size, 1.2rem);
-  font-weight: bold;
-  color: var(--content-title-color, #fff);
-  margin-bottom: 5px;
-}
-
-.carousel-fancy .button-content .subtitle {
-  background-color: var(--content-subtitle-bg, rgba(0, 0, 0, 0.5));
-  padding: var(--content-subtitle-padding, 5px 10px);
-  border-radius: 0 0 var(--button-border-radius, 8px) var(--button-border-radius, 8px);
-  font-size: var(--subtitle-font-size, 0.9rem);
-  color: var(--content-subtitle-color, #fff);
-  margin: 0;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background-color: var(--content-subtitle-hover-bg, rgba(0,0,0,0.7));
-}
-/* Complemento para Carousel Minimalista y Elegante */
-
-.owl-carousel {
-  width: 73%;
-  margin: 2rem auto;
-}
-
 .carousel-imagen .imagen-con-caption {
   position: relative;
   text-align: center;
@@ -285,44 +98,96 @@
 }
 
 .carousel-imagen .carousel-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: scale(1.07);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
-/* Estilos minimalistas para subtítulos artísticos */
 .carousel-imagen figcaption {
   font-family: var(--parrafo-font);
-  color: var(--color-medio-claro);
-  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-claro);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 0.5rem;
-  margin: 0;
-  font-size: 0.95rem;
-  text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  backdrop-filter: blur(4px);
 }
 
-/* Flechas de navegación minimalistas y elegantes */
-.owl-nav button {
-  background-color: rgba(0,0,0,0.6);
-  color: var(--color-claro);
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
+/* =============================================================================
+   Carrusel Fancy (Botones Interactivos)
+   ============================================================================= */
+.carousel-fancy .fancy-button {
+  display: block;
+  background-color: var(--button-bg-color);
+  border-radius: var(--button-border-radius);
+  box-shadow: var(--button-shadow);
+  transition: var(--button-transition);
+  overflow: hidden;
+  text-align: center;
+  flex: 1 1 calc(25% - var(--gap-between-buttons));
+  max-width: var(--button-max-width);
+  min-width: var(--button-min-width);
+  height: auto;
 }
 
-.owl-nav button:hover {
-  background-color: rgba(0,0,0,0.8);
+.carousel-fancy .fancy-button:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--button-hover-shadow);
+  background-color: var(--button-hover-bg-color);
 }
 
-/* Ajuste para dots minimalistas */
-.owl-dots .owl-dot span {
-  background-color: var(--color-medio-claro);
+.carousel-fancy .button-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--content-title-color);
+  text-align: center;
+  overflow: hidden;
 }
 
-.owl-dots .owl-dot.active span {
-  background-color: var(--color-destacado);
+.carousel-fancy .button-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: var(--img-opacity);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-fancy .fancy-button:hover .button-content img {
+  opacity: var(--img-hover-opacity);
+}
+
+.carousel-fancy .button-content .title {
+  font-size: var(--title-font-size);
+  font-weight: bold;
+  color: var(--content-title-color);
+  margin-bottom: 5px;
+}
+
+.carousel-fancy .button-content .subtitle {
+  background-color: var(--content-subtitle-bg);
+  padding: var(--content-subtitle-padding);
+  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
+  font-size: var(--subtitle-font-size);
+  color: var(--content-subtitle-color);
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.carousel-fancy .fancy-button:hover .button-content .subtitle {
+  background-color: var(--content-subtitle-hover-bg);
+}
+
+/* =============================================================================
+   Ajustes responsivos generales
+   ============================================================================= */
+@media (max-width: 768px) {
+  .owl-carousel, .owl-carousel-large { width: 90%; }
+  .owl-nav button { width: 2rem; height: 2rem; font-size: 1rem; }
+  .carousel-imagen figcaption { font-size: 0.8rem; padding: 0.5rem; }
 }
 
