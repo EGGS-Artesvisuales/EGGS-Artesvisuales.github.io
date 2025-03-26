@@ -9,7 +9,7 @@ $(document).ready(function() {
     dotsEach: 1,
     center: true,
     stagePadding: 30,
-    autoHeight: false,
+    autoHeight: true,
     responsive: {
       0: {
         stagePadding: 15
