@@ -125,17 +125,16 @@
    ============================================================================= */
 .carousel-fancy .fancy-button {
   display: block;
-  background-color: var(--button-bg-color);
-  border-radius: var(--button-border-radius);
-  box-shadow: var(--button-shadow);
-  transition: var(--button-transition);
+  text-decoration: none;
+  background-color: var(--button-bg-color, #007bff);
+  border-radius: var(--button-border-radius, 8px);
+  box-shadow: var(--button-shadow, 0 2px 4px rgba(0,0,0,0.2));
+  transition: var(--button-transition, transform 0.3s ease, box-shadow 0.3s ease);
   overflow: hidden;
   text-align: center;
-  /* Eliminamos el cálculo fijo para permitir que OwlCarousel determine el ancho */
-  flex: 1 1 auto;
-  /* Opcional: si max-width o min-width están limitando, puedes comentarlos o ajustarlos */
-  /* max-width: var(--button-max-width); */
-  /* min-width: var(--button-min-width); */
+  flex: 1 1 calc(33% - var(--gap-between-buttons, 5px));
+  max-width: var(--button-max-width, 300px);
+  min-width: var(--button-min-width, 200px);
   height: auto;
 }
 
