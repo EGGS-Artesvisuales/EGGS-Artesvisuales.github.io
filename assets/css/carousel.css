@@ -125,13 +125,7 @@
   transition: transform 0.2s, box-shadow 0.3s ease;
   overflow: hidden;
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* En el carrusel large se elimina la restricción de ancho */
-.owl-carousel-large .carousel-imagen .item--imagen .imagen {
-  max-width: none;
+  max-width: 100%;
   margin: 0 auto;
 }
 
