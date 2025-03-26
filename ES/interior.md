@@ -36,7 +36,7 @@ carousel: true
 
 <br>
 <div class="subtitulo">Dinámicas artísticas para la introspección y bienestar:</div>
-<div class="owl-carousel">
+<div class="owl-carousel carousel-fancy">
   <!-- AUTORRETRATO -->
   <div class="item">
     <a href="/ES/autorretrato.html" class="fancy-button">
