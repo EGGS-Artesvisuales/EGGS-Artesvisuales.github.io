@@ -369,7 +369,6 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
-
 /* ------------------------------------------------------------------
    PIE DE FOTOS OPTIMIZADO
 ------------------------------------------------------------------ */
@@ -395,7 +394,6 @@ p.parrafo:first-of-type ul {
   color: var(--color-medio-claro);
   margin-top: 0.5rem;
 }
-
 
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
@@ -889,6 +887,9 @@ form button:hover {
   max-width: 100%;
   overflow: hidden;
 }
+
+/* Nota: La regla global para ".item" puede interferir con componentes que usen la misma clase (como Owl Carousel).
+   Si esta regla está destinada solo a grids, considera limitarla al contenedor o renombrarla (por ejemplo, ".grid-item"). */
 .item {
   flex: 1 1 calc(33.33% - 1.25rem);
   box-sizing: border-box;
