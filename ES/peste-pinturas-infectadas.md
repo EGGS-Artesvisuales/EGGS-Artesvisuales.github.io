@@ -62,7 +62,7 @@ graph TD
     <figure>
       <img 
         class="carousel-img" 
-        src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" 
+        src="/assets/img/pinturainfectada-intervencion-01.jpg" 
         alt="La Saturación / La Peste, unidad - serie sin título n° 6, 40 x 40 cm" 
         loading="lazy"
       >
