@@ -1,16 +1,16 @@
 $(document).ready(function() {
-  // Carrusel grande (imágenes)
-  $('.owl-carousel-large').owlCarousel({
+  // Carrusel de imágenes con captions
+  $('.carousel-imagen').owlCarousel({
     items: 1,
     loop: true,
     margin: 10,
     nav: true,
     dots: true,
-    dotsEach: true, // Añade esto
+    dotsEach: true,
     center: true,
     stagePadding: 30,
-    autoHeight: false, // Cambia a false
-    responsive: { // Añade responsive para consistencia
+    autoHeight: false,
+    responsive: {
       0: {
         stagePadding: 15
       },
@@ -26,21 +26,21 @@ $(document).ready(function() {
     loop: true,
     margin: 9,
     nav: true,
-    dots: true, // Asegúrate que está en true
-    dotsData: true, // Añade esto si necesitas dots personalizados
+    dots: true,
+    dotsData: true,
     navText: [
       '<span class="owl-nav-prev">&#10094;</span>',
       '<span class="owl-nav-next">&#10095;</span>'
     ],
-    responsiveClass: true, // Añade esto
+    responsiveClass: true,
     responsive: {
       0: {
         items: 1,
-        dots: true // Fuerza dots en móvil
+        dots: true
       },
       600: {
         items: 2,
-        nav: false // Desactiva flechas en tablet
+        nav: false
       },
       1000: {
         items: 3
@@ -48,3 +48,4 @@ $(document).ready(function() {
     }
   });
 });
+
