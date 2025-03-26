@@ -1,3 +1,8 @@
+:root {
+  /* Ajusta el espacio entre botones; reduce este valor para disminuir el gap */
+  --gap-between-buttons: 10px;
+}
+
 /* =============================================================================
    Estilos Unificados y Optimizados para Owl Carousel
    ============================================================================= */
@@ -110,6 +115,7 @@
   transition: var(--button-transition);
   overflow: hidden;
   text-align: center;
+  /* Se reduce el gap entre elementos mediante la variable --gap-between-buttons */
   flex: 1 1 calc(25% - var(--gap-between-buttons));
   max-width: var(--button-max-width);
   min-width: var(--button-min-width);
