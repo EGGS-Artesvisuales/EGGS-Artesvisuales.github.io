@@ -57,6 +57,42 @@ graph TD
   <br> 
   <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
   <br> 
+  <div class="carousel-imagen owl-carousel">
+  <div class="item--imagen">
+    <figure>
+      <img 
+        class="carousel-img" 
+        src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" 
+        alt="La Saturación / La Peste, unidad - serie sin título n° 6, 40 x 40 cm" 
+        loading="lazy"
+      >
+      <figcaption><em>La Saturación / La Peste</em>, Unidad - s/t n° 6, 40 x 40 cm, 2011</figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure>
+      <img 
+        class="carousel-img" 
+        src="/assets/img/pintura-soporte-blando-02.jpg" 
+        alt="Instalación urbana Membranas" 
+        loading="lazy"
+      >
+      <figcaption>Membranas, Instalación urbana, 2020</figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure>
+      <img 
+        class="carousel-img" 
+        src="/assets/img/pintura-soporte-blando-03.jpg" 
+        alt="Detalle de módulos pictóricos en expansión visual" 
+        loading="lazy"
+      >
+      <figcaption>Módulos, Expansión visual, 2018</figcaption>
+    </figure>
+  </div>
+</div>
+  <br><br>
   <p><strong>Producción:</strong> Obras originales creadas desde cero, donde se integran estratégicamente materiales industriales y elementos provenientes del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p> 
 </div>
 
