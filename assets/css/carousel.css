@@ -10,7 +10,7 @@
   position: relative;
   overflow: visible;
   margin: 2rem auto;
-  padding: 20px 0 50px 0 !important; /* Corrección clave */
+  padding: 20px 0 70px 0 !important; /* Corrección clave */
   width: 100%;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -55,16 +55,16 @@
    ============================================================================= */
 .owl-dots {
   position: absolute;
-  bottom: 25px !important;
+  bottom: 10px !important; /* Se acerca más los dots hacia arriba */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  z-index: 1000; /* Nivel superior */
+  z-index: 1000;
   margin: 0;
   padding: 10px 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, transparent 70%);
-  pointer-events: none; /* Permite clicks a través del fondo */
+  /* Puedes ajustar o eliminar el background si afecta la visibilidad */
+  background: none;
 }
 
 .owl-dots .owl-dot {
