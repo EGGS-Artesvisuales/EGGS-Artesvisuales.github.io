@@ -114,7 +114,7 @@
   margin: 0;
 }
 
-/* Contenedor interno para la versión normal (limitado a 800px de ancho) */
+/* Contenedor interno para la versión normal */
 .owl-carousel .carousel-imagen .item--imagen .imagen {
   display: block;
   text-decoration: none;
@@ -153,7 +153,7 @@
 
 /* Ajustes para cada ítem en carrusel large */
 .owl-carousel-large .item {
-  width: 800px;
+  width: 100%;
   margin-right: 10px;
 }
 
