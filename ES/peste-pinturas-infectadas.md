@@ -4,7 +4,8 @@ lang: es
 title: "La Peste: Pintura"  
 description: "La contaminación representada a través de la pintura."  
 permalink: /ES/peste-pinturas-infectadas.html  
-mermaid: true  
+mermaid: true
+carousel: true
 ---
 <div class="titulo">Pinturas Infectadas</div> 
 <div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div> 
