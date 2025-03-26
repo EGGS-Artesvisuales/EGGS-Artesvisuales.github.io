@@ -89,7 +89,7 @@
 .carousel-imagen .carousel-img {
   width: 100%;
   height: auto;
-  min-height: 400px;
+  min-height: auto;
   max-height: 80vh;
   object-fit: cover;
   object-position: center;
