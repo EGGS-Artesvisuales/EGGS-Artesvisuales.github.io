@@ -1,21 +1,15 @@
 /* =============================================================================
-   Estilos Unificados y Optimizados para Owl Carousel
+   Estilos Unificados para Owl Carousel
    ============================================================================= */
-.owl-carousel,
-.owl-carousel-large {
+.owl-carousel {
   position: relative;
-  overflow: visible; 
+  overflow: visible;
   margin: 2rem auto;
-  padding: 20px 0 50px 0 !important; /* Corrección clave aquí */
+  padding: 20px 0 50px 0 !important; /* Prioridad para el padding */
   width: 100%;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.owl-carousel-large .owl-item {
-  overflow: visible !important;
-  position: relative;
 }
 
 /* =============================================================================
@@ -25,7 +19,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: var(--color-claro);
   width: 2.8rem;
   height: 2.8rem;
@@ -40,15 +34,20 @@
 }
 
 .owl-nav button:hover {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   transform: scale(1.1);
 }
 
-.owl-nav .owl-prev { left: 10px; }
-.owl-nav .owl-next { right: 10px; }
+.owl-nav .owl-prev {
+  left: 10px;
+}
+
+.owl-nav .owl-next {
+  right: 10px;
+}
 
 /* =============================================================================
-   Navegación: Dots (paginación) - Versión final
+   Navegación: Dots (Paginación)
    ============================================================================= */
 .owl-dots {
   position: absolute;
@@ -57,17 +56,17 @@
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  z-index: 1000; /* Nivel superior */
+  z-index: 1000;
   margin: 0;
   padding: 10px 0;
   background: linear-gradient(to top, rgba(0,0,0,0.15) 0%, transparent 70%);
-  pointer-events: none; /* Permite clicks a través del fondo */
+  pointer-events: none;
 }
 
 .owl-dots .owl-dot {
   margin: 0 6px;
   cursor: pointer;
-  pointer-events: all; /* Habilita interacción solo en los dots */
+  pointer-events: all;
 }
 
 /* =============================================================================
@@ -174,11 +173,20 @@
 }
 
 /* =============================================================================
-   Ajustes responsivos generales
+   Ajustes Responsivos Generales
    ============================================================================= */
 @media (max-width: 768px) {
-  .owl-carousel, .owl-carousel-large { width: 90%; }
-  .owl-nav button { width: 2rem; height: 2rem; font-size: 1rem; }
-  .carousel-imagen figcaption { font-size: 0.8rem; padding: 0.5rem; }
+  .owl-carousel {
+    width: 90%;
+  }
+  .owl-nav button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .carousel-imagen figcaption {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
 }
 
