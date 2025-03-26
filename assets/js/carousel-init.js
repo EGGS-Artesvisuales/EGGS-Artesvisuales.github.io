@@ -3,13 +3,14 @@ $(document).ready(function() {
   $('.carousel-imagen').owlCarousel({
     items: 1,
     loop: true,
-    margin: 10,
+    margin: 3,
     nav: true,
     dots: true,
     dotsEach: 1,
     center: true,
     stagePadding: 30,
     autoHeight: true,
+    navText: ["&#9664;", "&#9654;"],
     responsive: {
       0: {
         stagePadding: 15
@@ -22,9 +23,9 @@ $(document).ready(function() {
 
   // Carrusel fancy
   $('.carousel-fancy').owlCarousel({
-    items: 3,
+    items: 5,
     loop: true,
-    margin: 9,
+    margin: 5,
     nav: true,
     dots: true,
     navText: [
@@ -47,4 +48,3 @@ $(document).ready(function() {
     }
   });
 });
-
