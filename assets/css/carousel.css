@@ -7,10 +7,10 @@
    Estilos Unificados y Optimizados para Owl Carousel
    ============================================================================= */
 .owl-carousel {
-  position: relative;
+  position: relative; /* Asegura que los elementos posicionados absolutamente se sitúen en este contenedor */
   overflow: visible;
   margin: 2rem auto;
-  padding: 20px 0 70px 0 !important; /* Corrección clave */
+  padding: 20px 0 70px 0 !important; /* Se reserva espacio suficiente en la parte inferior para los dots */
   width: 100%;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -42,12 +42,12 @@
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.owl-nav .owl-prev {
-  left: 10px;
+.owl-nav .owl-prev { 
+  left: 10px; 
 }
 
-.owl-nav .owl-next {
-  right: 10px;
+.owl-nav .owl-next { 
+  right: 10px; 
 }
 
 /* =============================================================================
@@ -55,22 +55,23 @@
    ============================================================================= */
 .owl-dots {
   position: absolute;
-  overflow: visible;
-  bottom: 10px !important; /* Se acerca más los dots hacia arriba */
+  bottom: 10px !important; /* Ubica los dots 10px desde el fondo */
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
+  display: flex !important;
   justify-content: center;
-  z-index: 1000;
+  align-items: center;
+  z-index: 10000;  /* Aumenta el z-index para que se superpongan sobre otros elementos */
   margin: 0;
   padding: 10px 0;
   background: none;
+  opacity: 1;
 }
 
 .owl-dots .owl-dot {
   margin: 0 6px;
   cursor: pointer;
-  pointer-events: all; /* Habilita interacción solo en los dots */
+  pointer-events: all; /* Habilita la interacción en los dots */
 }
 
 /* =============================================================================
@@ -181,16 +182,16 @@
    Ajustes responsivos generales
    ============================================================================= */
 @media (max-width: 768px) {
-  .owl-carousel {
-    width: 90%;
+  .owl-carousel { 
+    width: 90%; 
   }
-  .owl-nav button {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1rem;
+  .owl-nav button { 
+    width: 2rem; 
+    height: 2rem; 
+    font-size: 1rem; 
   }
-  .carousel-imagen figcaption {
-    font-size: 0.8rem;
-    padding: 0.5rem;
+  .carousel-imagen figcaption { 
+    font-size: 0.8rem; 
+    padding: 0.5rem; 
   }
 }
