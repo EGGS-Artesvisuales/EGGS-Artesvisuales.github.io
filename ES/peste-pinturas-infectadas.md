@@ -57,16 +57,14 @@ graph TD
   <p>Las obras en soportes tradicionales se clasifican en dos líneas principales:</p> 
   <br> 
   <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
-  <br> 
-  <div class="carousel-imagen owl-carousel">
-  <div class="item--imagen">
-    <figure>
-      <img 
-        class="carousel-img" 
-        src="/assets/img/pinturainfectada-intervencion-01.jpg" 
-        alt="La Saturación / La Peste, unidad - serie sin título n° 6, 40 x 40 cm" 
-        loading="lazy"
-      >
+  <br> <br>
+
+  
+ <div class="owl-carousel carousel-imagen">
+ <div class="item--imagen">
+ <figure class="imagen-con-caption">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, unidad - serie sin título n° 6, 40 x 40 cm" 
+        loading="lazy">
       <figcaption><em>La Saturación / La Peste</em>, Unidad - s/t n° 6, 40 x 40 cm, 2011</figcaption>
     </figure>
   </div>
