@@ -62,6 +62,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+  z-index: 1000; /* Asegura que los dots se sitúen sobre otros elementos */
 }
 
 .owl-dots .owl-dot {
@@ -81,6 +82,7 @@
 .owl-dots .owl-dot.active span {
   background-color: #333;
 }
+
 /* =============================================================================
    Carrusel de Imágenes con pies de foto (Carousel-Imágen)
    ============================================================================= */
