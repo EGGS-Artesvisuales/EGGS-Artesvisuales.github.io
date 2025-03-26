@@ -62,7 +62,7 @@ graph TD
 
 <br><br><br>
 
-<div class="subtitulo">Pinturas de Soportes Blandos</div> 
+<div class="subtitulo">Soportes Blandos</div> 
 <br> 
 <figure class="imagen-con-caption"> 
   <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy"> 
