@@ -42,12 +42,12 @@
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.owl-nav .owl-prev { 
-  left: 10px; 
+.owl-nav .owl-prev {
+  left: 10px;
 }
 
-.owl-nav .owl-next { 
-  right: 10px; 
+.owl-nav .owl-next {
+  right: 10px;
 }
 
 /* =============================================================================
@@ -55,6 +55,7 @@
    ============================================================================= */
 .owl-dots {
   position: absolute;
+  overflow: visible;
   bottom: 10px !important; /* Se acerca más los dots hacia arriba */
   left: 50%;
   transform: translateX(-50%);
@@ -63,7 +64,6 @@
   z-index: 1000;
   margin: 0;
   padding: 10px 0;
-  /* Puedes ajustar o eliminar el background si afecta la visibilidad */
   background: none;
 }
 
@@ -181,16 +181,16 @@
    Ajustes responsivos generales
    ============================================================================= */
 @media (max-width: 768px) {
-  .owl-carousel { 
-    width: 90%; 
+  .owl-carousel {
+    width: 90%;
   }
-  .owl-nav button { 
-    width: 2rem; 
-    height: 2rem; 
-    font-size: 1rem; 
+  .owl-nav button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
   }
-  .carousel-imagen figcaption { 
-    font-size: 0.8rem; 
-    padding: 0.5rem; 
+  .carousel-imagen figcaption {
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
 }
