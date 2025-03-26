@@ -108,26 +108,36 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   
   <!-- Owl Carousel JS e inicialización (solo si la página lo requiere) -->
-  {% if page.carousel %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-          loop: true,
-          margin: 10,
-          nav: true,
-          dots: true,
-          dotsEach: 1,
-          navText: ["&#9664;", "&#9654;"],
-          responsive: {
-            0: { items: 1 },
-            600: { items: 3 },
-            1000: { items: 5 }
-          }
-        });
+ {% if page.carousel %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel.carousel-imagen').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        items: 1, // importante: un ítem grande por slide
+        autoHeight: true,
+        navText: ["&#9664;", "&#9654;"]
       });
-    </script>
-  {% endif %}
+
+      $('.owl-carousel.carousel-fancy').owlCarousel({
+        loop: true,
+        margin: 9,
+        nav: true,
+        dots: true,
+        navText: ["&#9664;", "&#9654;"],
+        responsive: {
+          0: { items: 1 },
+          600: { items: 2 },
+          1000: { items: 3 }
+        }
+      });
+    });
+  </script>
+{% endif %}
+
 
   <!-- Script de la barra de progreso, solo si 'progreso: true' está definido en el front matter -->
   {% if page.progreso %}
