@@ -22,30 +22,27 @@ $(document).ready(function() {
   });
 
   // Carrusel fancy
-  $('.carousel-fancy').owlCarousel({
-    items: 5,
-    loop: true,
-    margin: 5,
-    nav: true,
-    dots: true,
-    navText: [
-      '<span class="owl-nav-prev">&#10094;</span>',
-      '<span class="owl-nav-next">&#10095;</span>'
-    ],
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1,
-        dots: true
-      },
-      600: {
-        items: 3,
-        nav: false
-      },
-      1000: {
-        items: 5
-      }
+$('.carousel-fancy').owlCarousel({
+  loop: true,
+  margin: 5,
+  nav: true,
+  dots: true,
+  navText: [
+    '<span class="owl-nav-prev">&#10094;</span>',
+    '<span class="owl-nav-next">&#10095;</span>'
+  ],
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 2,   // Para dispositivos muy pequeños
+      dots: true
+    },
+    600: {
+      items: 4,   // Para dispositivos medianos
+      nav: false
+    },
+    1000: {
+      items: 6    // Para pantallas grandes
     }
-  });
+  }
 });
-
