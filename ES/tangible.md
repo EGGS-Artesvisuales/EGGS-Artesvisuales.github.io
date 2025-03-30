@@ -2,6 +2,7 @@
 layout: default-es
 title: Lo Tangible
 permalink: /ES/tangible.html
+mermaid: true
 ---
 
 
@@ -33,7 +34,26 @@ La serie busca capturar rasgos característicos de la realidad contemporánea, m
 <p class="parrafo">
 Esta línea de trabajo incluye, hasta ahora, las siguientes series:
 </p>
+<br><br>
+<!-- Diagrama Mermaid -->
+<div class="subtitulo">Diagrama de relaciones</div>
+<div class="parrafo">
+Este diagrama esquematiza cómo las distintas series de la línea “Lo Tangible” se relacionan con los conceptos clave de la investigación.
+</div>
 
+<div class="mermaid">
+graph TD
+    Representacion["Representación del Mundo"]
+    Representacion --> Tangible["Lo Tangible"]
+    Representacion --> Intangible["Lo Intangible"]
+
+    Tangible --> Saturacion["La Saturación"]
+    Tangible --> Tecnologia["La Tecnología"]
+
+    Saturacion --> Peste["La Peste"]
+    Saturacion --> Invisible["Lo Invisible"]
+</div>
+<br>br>
 <!-- Aquí se pueden añadir las series específicas cuando estén disponibles -->
 
 <div class="button-container">
