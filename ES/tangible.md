@@ -4,35 +4,42 @@ title: Lo Tangible
 permalink: /ES/tangible.html
 mermaid: true
 ---
+
+
 <div class="titulo">Lo tangible</div>
+
 <div class="subtitulo">Representación del mundo material</div>
 
+<p class="parrafo">
+Esta serie de obras se enfoca en reflejar y representar aspectos físicos y materiales de mi entorno, con el objetivo de retratar nuestra época contemporánea. Los temas seleccionados destacan elementos emblemáticos del presente, elegidos por su significado y capacidad de simbolizar la realidad única de nuestro tiempo.
+</p>
+
+<p class="parrafo">
+Los criterios para identificar estos elementos son:
+</p>
+
+<ul class="parrafo">
+    <li>Presencia constante o abundante en los paisajes urbanos y naturales</li>
+    <li>Frecuencia en la experiencia cotidiana</li>
+    <li>Carácter novedoso, inexistente en épocas anteriores pero que cumple con los criterios anteriores</li>
+    <li>Capacidad para simbolizar cambios sociales, culturales o tecnológicos</li>
+</ul>
+
+<br>
+<p class="parrafo">
+La serie busca capturar rasgos distintivos de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión mediante una investigación continua. Hasta el momento, la serie explora dos temas fundamentales que representan aspectos tangibles de nuestra época:
+</p>
+
+<p class="parrafo">
+La Saturación y la Tecnología. Estas líneas de trabajo surgen de la identificación de características esenciales de nuestro presente y se desarrollan inicialmente a través de la pintura, para luego expandirse hacia otras manifestaciones artísticas.
+</p>
+
+<br><br>
+<!-- Diagrama Mermaid -->
+<div class="subtitulo">Diagrama de relaciones</div>
 <div class="parrafo">
-  <p>
-    Este conjunto de obras se enfoca en reflejar, retratar y representar aspectos físicos y materiales de mi entorno, con el fin de plasmar mi época, el tiempo presente. El tema se selecciona estratégicamente para destacar elementos emblemáticos de la contemporaneidad, elegidos por su significado y su capacidad para representar una realidad única y actual.
-  </p>
-
-  <p>
-    Los criterios para identificar estos elementos son:
-  </p>
-
-  <ul class="parrafo"> <!-- ahora sí es un UL real -->
-      <li>Presencia constante o abundante en los paisajes.</li>
-      <li>Frecuencia de uso o aparición en la experiencia diaria.</li>
-      <li>Carácter novedoso, no presente en épocas anteriores, pero que además cumple con las condiciones anteriores.</li>
-      <li>Capacidad para simbolizar cambios sociales, culturales o tecnológicos.</li>
-  </ul>
-  <br>
-
-  <p class="parrafo">
-    La serie busca capturar rasgos característicos de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión a través de una investigación continua. Hasta el momento, la serie cuenta con dos ejes temáticos que abordan tópicos representativos de los rasgos tangibles de lo contemporáneo:
-  </p>
-
-  <p class="parrafo">
-    La saturación y la tecnología: dos líneas de trabajo que surgen de la identificación de rasgos importantes de nuestro presente y que abren nuevas posibilidades, desarrolladas inicialmente en la pintura y extendidas a otras manifestaciones a través de la ampliación de este lenguaje primordial del arte.
-  </p>
-  <br><br>
-
+Este diagrama esquematiza cómo las distintas series de la línea "Lo Tangible" se relacionan con los conceptos clave de la investigación.
+</div>
 
 <div class="mermaid">
 graph TD
