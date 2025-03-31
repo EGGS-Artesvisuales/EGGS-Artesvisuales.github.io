@@ -63,13 +63,13 @@ graph TD
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervencion 01, 60 x 80 cm" loading="lazy">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervencion 01, 60 x 80 cm" loading="lazy">
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure>
-      <img class="carousel-img" src="/assets/img/la-peste---pintura02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm" loading="lazy">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm" loading="lazy">
       <figcaption>La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm, 2008</figcaption>
     </figure>
   </div>
