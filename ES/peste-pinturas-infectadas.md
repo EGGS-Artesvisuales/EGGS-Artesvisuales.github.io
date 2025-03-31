@@ -12,7 +12,7 @@ carousel: true
 <br> 
 <figure class="imagen-con-caption"> 
   <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy"> 
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales: Producción / Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> 
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones : Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> 
 </figure> 
 
 <div class="parrafo" style="margin-top: 6%;"> 
@@ -24,7 +24,6 @@ carousel: true
   <br>
   <p>El empleo de estos materiales precontaminados como soporte pictórico abre un abanico de posibilidades físicas y simbólicas, generando hibridaciones que enriquecen el discurso visual y conceptual. En este contexto, las «Pinturas Infectadas» se clasifican en dos categorías principales: <em>soportes tradicionales</em> y <em>soportes blandos</em>.</p> 
 </div>
-
 <br><br><br>
 <div class="mermaid">
 graph TD
@@ -50,14 +49,11 @@ graph TD
   click E3 "/es/unidad.html"
 </div>
 
-<br><br><br>
+<br><br>
 <div class="subtitulo">Soportes Tradicionales</div> 
-<br> 
-<div class="parrafo"> 
-  <p>Las obras en soportes tradicionales se clasifican en dos líneas principales:</p> 
-  <br> 
-  <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
-  <br> <br>  
+<div class="subtitulo2">Intervenciones</div>
+
+ <br> <br>  
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -74,6 +70,13 @@ graph TD
 </div>
 
   <br><br>
+  
+<div class="parrafo">
+  <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
+</div>
+<br><br>
+<div class="subtitulo2">Intervenciones</div>
+<div class="parrafo"> 
   <p><strong>Producción:</strong> Obras originales creadas desde cero, donde se integran estratégicamente materiales industriales y elementos provenientes del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p> 
 </div>
 
@@ -95,9 +98,15 @@ graph TD
 <div class="parrafo"> 
   <p>Las pinturas en soporte blando están organizadas en tres categorías:</p> 
   <br> 
+  <div class="subtitulo2">Membranas</div>
+<div class="parrafo"> 
   <p><strong>Membranas:</strong> Amplios tapices creados mediante la técnica del collage, utilizando principalmente papeles provenientes de periódicos y revistas adheridos mediante encolado. Su flexibilidad facilita una adaptación precisa al espacio expositivo, generando un diálogo específico con el entorno y enfatizando la vulnerabilidad del medio ambiente frente a la sobreproducción mediática y consumista.</p> 
   <br> 
+  <div class="subtitulo2">Modulos</div>
+<div class="parrafo"> 
   <p><strong>Módulos:</strong> Obras expansibles compuestas por múltiples unidades pictóricas basadas en páginas individuales extraídas de catálogos, revistas o periódicos. Cada módulo se conecta con otros, creando sistemas visuales monumentales que replican la intensidad agresiva del lenguaje publicitario exterior, pero con un enfoque crítico sobre la saturación informativa y visual contemporánea. Aunque cada módulo puede existir de manera autónoma, su fuerza comunicativa se potencia en su conjunto.</p> 
   <br> 
+  <div class="subtitulo2">Unidad</div>
+<div class="parrafo"> 
   <p><strong>Unidades:</strong> Piezas individuales, de pequeño formato, creadas a partir de páginas recicladas intervenidas pictóricamente. Estas obras invitan a una reflexión íntima sobre el contraste entre el impacto visual efímero y saturado del material mediático original y la profundidad simbólica de la intervención artística tradicional.</p> 
 </div>
