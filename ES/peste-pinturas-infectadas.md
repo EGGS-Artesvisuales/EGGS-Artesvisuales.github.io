@@ -7,24 +7,19 @@ permalink: /ES/peste-pinturas-infectadas.html
 mermaid: true
 carousel: true
 ---
-<div class="titulo">Pinturas Infectadas</div> 
-<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div> 
-<br> 
-<figure class="imagen-con-caption"> 
-  <img src="/assets/img/la-peste---pintura02.jpg" alt="Detalle de pintura con técnica mixta mostrando erosión y elementos contaminantes" loading="lazy"> 
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones : Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> 
-</figure> 
+<div class="titulo">Pinturas Infectadas</div>
+<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div> <br> 
+<figure class="imagen-con-caption"> <img src="/assets/img/la-peste---pintura02.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - bandera de chile" loading="lazy"> 
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption> </figure>
+  <div class="parrafo" style="margin-top: 6%;"> 
+    <p>En la serie <strong>«Pinturas Infectadas»</strong> retrato la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona la pintura tradicional con elementos visuales extraídos del marketing y de residuos industriales. Empleo materiales tales como envases, tapas de plástico y papel impreso —reciclado de catálogos y revistas— para generar superficies erosionadas y transformadas. Estas texturas evocan manifestaciones visuales similares a infecciones cutáneas, funcionando como metáfora de la degradación ambiental (<em>La Idea de Gaia Enferma</em>).</p> <br> 
+    <p>Lo pictórico tradicional colisiona frontalmente con materiales de desecho industrial y publicitario —incrustados, adheridos, hilvanados, pegados y cosidos sobre la superficie—. Esta intervención busca generar una tensión dialéctica entre la tradición académica (la pintura concebida como <em>ars</em> noble) y la contaminación contemporánea, entendida como la huella material del sistema de consumo industrializado.</p> <br> 
+    <p>Las obras se construyen a partir de estratos superpuestos de elementos que obstruyen y distorsionan la imagen pictórica. Esta aproximación establece un paralelismo entre la piel del cuerpo y la superficie del territorio y de la pintura, donde lo noble-natural aparece infectado por elementos invasores antipáticos. Las piezas operan como reatratos críticos del Antropoceno, evidenciando la cicatriz humana en nuestra época.</p> <br> 
+    <p>El proceso evolucionó desde intervenciones iniciales —donde materiales plásticos como tapas, envases y residuos publicitarios dialogaban con la pintura tradicional— hacia la incorporación radical de soportes precontaminados: PVC industrial, lonas publicitarias descartadas y papel reciclado de revistas, periódicos y catálogos. Estos vestigios del consumo, cargados de memoria visual, aportan una materialidad contradictoria: simultáneamente frágil y resistente, flexible y rígida, efímera y persistente, según su procedencia en el ecosistema del desperdicio.</p> <br> 
+    <p>La elección de soportes precontaminados —PVC industrial, lonas publicitarias descartadas, pero sobre todo papel, papel de revistas, catálogos, folletos— no es arbitraria. Cada material impone sus propias reglas: el PVC resiste pero no absorbe, las lonas conservan las huellas de su uso previo y los papeles impresos aportan texturas y patrones ajenos llenos de contenido y significado alusivo a lo contemporaneo.</p> <br> 
+<p>El corpus se divide en dos líneas de experimentación: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), en las que analizo cómo los residuos modifican la pintura académica; y 2) <em>Soportes Blandos</em>, en las que el soporte mismo es desecho y la superficie determina la solución formal. Esta dualidad metodológica evidencia la transformación de lo pictórico al tratar con materiales ajenos a su tradición, en la búsqueda de retratar fielmente lo contemporáneo.</p>
 
-<div class="parrafo" style="margin-top: 6%;"> 
-  <p>En la serie <strong>«Pinturas Infectadas»</strong>, exploro la saturación y contaminación contemporánea del paisaje mediante una técnica híbrida que integra pintura tradicional con elementos visuales provenientes del marketing y residuos industriales. Superficies erosionadas y alteradas simulan infecciones cutáneas, funcionando como metáforas visuales de la contaminación corporal y ambiental.</p> 
-  <br>
-  <p>Lo pictórico tradicional se enfrenta directamente con materiales provenientes de desechos industriales y publicitarios, manifestando así un conflicto entre la tradición académica y la contaminación visual contemporánea. Las obras son intervenidas con estratos que dificultan y distorsionan la apreciación del paisaje, transformándolo en un reflejo crítico del impacto humano en los ecosistemas.</p> 
-  <br>
-  <p>Este proceso evolucionó desde intervenciones iniciales con materiales plásticos como tapas, envases y restos publicitarios sobre pintura tradicional, hacia la incorporación integral de soportes precontaminados, utilizando PVC, lonas y papel reciclado de revistas, periódicos y catálogos. Estos materiales, símbolos del exceso consumista y la saturación visual, aportan cualidades físicas diversas como maleabilidad, flexibilidad, ligereza y resistencia variable según su naturaleza específica.</p>
-  <br>
-  <p>El empleo de estos materiales precontaminados como soporte pictórico abre un abanico de posibilidades físicas y simbólicas, generando hibridaciones que enriquecen el discurso visual y conceptual. En este contexto, las «Pinturas Infectadas» se clasifican en dos categorías principales: <em>soportes tradicionales</em> y <em>soportes blandos</em>.</p> 
-</div>
-<br><br><br>
+<br><br>
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
@@ -75,7 +70,28 @@ graph TD
   <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, ya que utiliza la alteración visual para evidenciar la violencia ambiental, subrayando la urgencia de la conciencia ecológica ante el deterioro generado por la actividad humana.</p> 
 </div>
 <br><br>
-<div class="subtitulo2">Intervenciones</div>
+
+<div class="subtitulo2">Producciones</div>
+
+<br> <br>  
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervencion 01, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</em></figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure>
+      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm" loading="lazy">
+      <figcaption>La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm, 2008</figcaption>
+    </figure>
+  </div>
+</div>
+
+  <br><br>
+
+
 <div class="parrafo"> 
   <p><strong>Producción:</strong> Obras originales creadas desde cero, donde se integran estratégicamente materiales industriales y elementos provenientes del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p> 
 </div>
