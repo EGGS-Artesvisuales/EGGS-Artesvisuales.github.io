@@ -60,27 +60,21 @@ graph TD
   <br> <br>
 
   
- <div class="owl-carousel carousel-imagen">
- <div class="item--imagen">
- <figure class="imagen-con-caption">
-    <img class="carousel-img" src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervencion 01, 60 x 80 cm" 
-        loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</figcaption>
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/la-peste---pintura01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervencion 01, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure>
-      <img 
-        class="carousel-img" 
-        src="/assets/img/la-peste---pintura02.jpg" 
-        alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm" 
-        loading="lazy"
-      >
+      <img class="carousel-img" src="/assets/img/la-peste---pintura02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm" loading="lazy">
       <figcaption>La Saturación / La Peste, pinturas infectadas - soportes tradicionales - intervencion 03, 60 x 80 cm, 2008</figcaption>
     </figure>
   </div>
- 
 </div>
+
   <br><br>
   <p><strong>Producción:</strong> Obras originales creadas desde cero, donde se integran estratégicamente materiales industriales y elementos provenientes del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p> 
 </div>
