@@ -59,8 +59,6 @@ graph TD
 
 <div class="subtitulo">Soportes Tradicionales</div>
 <div class="subtitulo2">Intervenciones</div>
-<br><br>
-
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -75,18 +73,13 @@ graph TD
     </figure>
   </div>
 </div>
-
-<br><br>
-
-<div class="parrafo">
+<br><div class="parrafo">
   <p><strong>Intervenciones:</strong> Acciones artísticas que operan directamente sobre obras existentes de otros autores. Estas intervenciones buscan generar un contraste entre el valor original de la obra y el daño simbólico provocado, manifestado a través de técnicas como raspados, perforaciones o collages. Este enfoque dialoga conceptualmente con movimientos activistas contemporáneos, como <em>Just Stop Oil</em>, al utilizar la alteración visual para evidenciar la violencia ambiental y subrayar la urgencia de una conciencia ecológica frente al deterioro provocado por la actividad humana.</p>
 </div>
 
 <br><br>
 
 <div class="subtitulo2">Producciones</div>
-<br><br>
-
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -101,18 +94,12 @@ graph TD
     </figure>
   </div>
 </div>
-
-<br><br>
-
+<br>
 <div class="parrafo">
   <p><strong>Producción:</strong> Obras originales creadas desde cero, en las que se integran estratégicamente materiales industriales y elementos del lenguaje publicitario, combinados con técnicas pictóricas tradicionales como óleo o acrílico. Este método resalta la interacción crítica entre el arte clásico y la saturación visual contemporánea, explorando el impacto del consumismo y la publicidad en nuestra percepción cotidiana.</p>
 </div>
-
 <br><br><br>
-
 <div class="subtitulo">Soportes Blandos</div>
-<br>
-
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy">
   <figcaption><em>La Saturación / La Peste</em>, Unidad - s/t n° 6, pintura sobre soporte blando, 40 x 40 cm, 2011</figcaption>
