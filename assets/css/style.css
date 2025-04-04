@@ -31,7 +31,7 @@
   --titulo-size: 3rem;
   --subtitulo-size: 2rem;
   --subtitulo2-size: 1.4rem; 
-  --parrafo-size: 1.1rem;
+  --parrafo-size: clamp(1rem, 1vw + 0.5rem, 1.2rem);
 
   /* Espaciado y line-height */
   --spacing-tight: 0.05em;
@@ -230,31 +230,72 @@ header {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Menú Hamburguesa */
-.nav-toggle {
-  display: none;
-  margin: 1.25rem 0 0 1.25rem;
-  cursor: pointer;
-  flex-direction: column;
-  gap: 0.3125rem;
-  transition: transform 0.3s ease;
-  z-index: 1000;
+/* ------------------------------------------------------------------
+   MENÚ HAMBURGUESA (SOLO EN MÓVILES)
+------------------------------------------------------------------ */
+/* En dispositivos móviles (hasta 901px) se muestra el botón */
+@media (max-width: 901px) {
+  .nav-toggle {
+    display: flex;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 0.3125rem;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 2.0625rem;
+    height: 0.375rem;
+    background-color: var(--color-medio-claro);
+    border-radius: var(--radius-small);
+  }
+  .nav-toggle:hover {
+    transform: scale(1.1);
+  }
+  .nav-toggle:focus,
+  .nav-toggle.active {
+    outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
+    border-radius: var(--radius-small);
+    transform: scale(1.05);
+  }
+
+  /* Ocultar menú por defecto en móvil */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0.625rem;
+    background-color: var(--color-medio-oscuro);
+    width: 100%;
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    z-index: 9999;
+    padding: 0.625rem;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
+    max-height: calc(100vh - 7.5rem);
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav-menu.active {
+    display: flex;
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  .dropdown.active .dropdown-menu { 
+    display: block; 
+    position: static; 
+  }
 }
-.nav-toggle span {
-  display: flex;
-  width: 2.0625rem;
-  height: 0.375rem;
-  background-color: var(--color-medio-claro);
-  border-radius: var(--radius-small);
-}
-.nav-toggle:hover {
-  transform: scale(1.1);
-}
-.nav-toggle:focus,
-.nav-toggle.active {
-  outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
-  border-radius: var(--radius-small);
-  transform: scale(1.05);
+
+/* En pantallas mayores a 901px (escritorio) se oculta el botón hamburguesa */
+@media (min-width: 902px) {
+  .nav-toggle {
+    display: none;
+  }
 }
 
 /* ------------------------------------------------------------------
@@ -314,7 +355,7 @@ main {
 }
 
 p.parrafo:first-of-type {
-  margin-top: 2rem; /* Unidad corregida */
+  margin-top: 2rem;
   text-indent: 2.5em;
 }
 p.parrafo:first-of-type ul {
@@ -338,8 +379,6 @@ p.parrafo:first-of-type ul {
   align-items: center;
   margin: 1.25rem 0;
 }
-
-/* Propiedades comunes para imágenes dentro de .imagen y para .imagen__foto */
 .imagen img,
 .imagen__foto {
   display: block;
@@ -348,21 +387,15 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* Estilo para imágenes que NO tienen la clase .imagen__foto */
 .imagen img:not(.imagen__foto) {
   width: 100%;
   max-width: 100%;
 }
-
-/* Estilo específico para imágenes con la clase BEM .imagen__foto */
 .imagen__foto {
   width: 44%;
   max-width: 100%;
   margin-right: auto;
 }
-
-/* Efecto hover unificado para ambas variantes */
 .imagen img:hover,
 .imagen__foto:hover {
   transform: translateY(-0.3125rem) scale(1.05);
@@ -375,11 +408,10 @@ p.parrafo:first-of-type ul {
 .imagen-con-caption {
   display: flex;
   flex-direction: column;
-  align-items: center; /* 'right' no es un valor válido; se usa 'center' para centrar */
+  align-items: center;
   margin: 1.25rem 0;
   text-align: center;
 }
-
 .imagen-con-caption img {
   width: 100%;
   height: auto;
@@ -387,7 +419,6 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .imagen-con-caption figcaption {
   font-family: var(--parrafo-font);
   font-size: 0.9rem;
@@ -489,13 +520,11 @@ p.parrafo:first-of-type ul {
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 .boton-donacion:hover {
   background: linear-gradient(135deg, #FFA500, #FF8C00);
   transform: scale(1.05);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
-
 .boton-donacion:active {
   transform: scale(0.98);
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
@@ -507,14 +536,12 @@ p.parrafo:first-of-type ul {
 .barra-progreso-container {
   margin: 1.5rem 0;
 }
-
 .barra-progreso-container label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
   color: #444;
 }
-
 .barra-progreso {
   width: 100%;
   background-color: #e0e0e0;
@@ -524,8 +551,6 @@ p.parrafo:first-of-type ul {
   position: relative;
   box-shadow: 0 0.1875rem 0.375rem rgba(0, 0, 0, 0.15);
 }
-
-/* Llenado de la barra */
 .barra-progreso-fill {
   height: 100%;
   background: linear-gradient(90deg, #ffad33, #f89900);
@@ -538,15 +563,12 @@ p.parrafo:first-of-type ul {
   width: 0;
   transition: width 2s ease-in-out;
 }
-
-/* Información adicional de progreso */
 .progress-info {
   margin-top: 1rem;
   text-align: center;
   color: #555;
   font-size: 0.9rem;
 }
-
 .progress-info p {
   margin: 0.5rem 0;
 }
@@ -557,16 +579,13 @@ p.parrafo:first-of-type ul {
 .mermaid {
   text-align: center;
 }
-
 .mermaid svg {
   display: inline-block;
 }
-
 .mermaid svg g.node:hover {
   filter: invert(88%);
   transition: filter 0.3s ease-in-out;
 }
-
 .mermaid svg g.node rect {
   rx: 5;
   ry: 5;
@@ -749,7 +768,6 @@ footer {
   text-align: center;
   box-shadow: 0 -0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
 }
-
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -758,7 +776,6 @@ footer {
   align-items: center;
   gap: 0.9375rem;
 }
-
 .footer-logo img {
   max-width: 12%;
   height: auto;
@@ -766,45 +783,37 @@ footer {
   margin: 0 auto;
   transition: transform 0.3s ease-in-out;
 }
-
 .footer-logo a:hover img {
   transform: scale(1.1);
 }
-
 .footer-links {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 0.9375rem;
 }
-
 .footer-links a {
   color: var(--color-destacado);
   text-decoration: none;
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
-
 .footer-links a:hover {
   color: #fff;
 }
-
 .footer-social {
   display: flex;
   gap: 0.9375rem;
 }
-
 .footer-social a img {
   width: 2.0625rem;
   height: 2.0625rem;
   transition: transform 0.3s ease;
 }
-
 .footer-social a img:hover {
   transform: scale(1.2);
   filter: brightness(1.2);
 }
-
 .footer-copyright {
   font-family: 'Arial', sans-serif;
   font-size: 0.9rem;
@@ -887,9 +896,6 @@ form button:hover {
   max-width: 100%;
   overflow: hidden;
 }
-
-/* Nota: La regla global para ".item" puede interferir con componentes que usen la misma clase (como Owl Carousel).
-   Si esta regla está destinada solo a grids, considera limitarla al contenedor o renombrarla (por ejemplo, ".grid-item"). */
 .item {
   flex: 1 1 calc(33.33% - 1.25rem);
   box-sizing: border-box;
@@ -939,9 +945,31 @@ form button:hover {
   body { 
     font-size: 1.2rem; 
   }
-  .nav-toggle { 
-    display: flex; 
-    margin-top: 0.625rem; 
+  /* El botón hamburguesa se muestra y el menú se oculta por defecto */
+  .nav-toggle {
+    display: flex;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 0.3125rem;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  .nav-toggle span {
+    display: block;
+    width: 2.0625rem;
+    height: 0.375rem;
+    background-color: var(--color-medio-claro);
+    border-radius: var(--radius-small);
+  }
+  .nav-toggle:hover {
+    transform: scale(1.1);
+  }
+  .nav-toggle:focus,
+  .nav-toggle.active {
+    outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
+    border-radius: var(--radius-small);
+    transform: scale(1.05);
   }
   .nav-menu {
     display: none;
@@ -957,6 +985,8 @@ form button:hover {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
     max-height: calc(100vh - 7.5rem);
     overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
   }
   .nav-menu.active {
     display: flex;
@@ -968,31 +998,12 @@ form button:hover {
     display: block; 
     position: static; 
   }
-  .year::before { 
-    left: -3.125rem;
-    font-size: 1rem; 
-  }
-  .fun-button { 
-    font-size: 0.9rem; 
-    padding: 0.5rem 0.9375rem;
-  }
-  .text-container { 
-    padding: 0.1875rem;
-    font-size: 0.9rem; 
-    line-height: 1.6; 
-  }
-  .item { 
-    flex: 1 1 calc(50% - 1.25rem); 
-  }
-  .button-container {
-    flex-direction: column;
-    gap: 0.9375rem;
-    align-items: center;
-    padding: 0.625rem;
-  }
-  .fancy-button { 
-    width: 80%; 
-    max-width: 18.75rem;
+}
+
+/* En pantallas mayores a 901px (escritorio) se oculta el botón hamburguesa */
+@media (min-width: 902px) {
+  .nav-toggle {
+    display: none;
   }
 }
 
@@ -1004,13 +1015,6 @@ form button:hover {
   }
   .fancy-button { 
     width: 40%; 
-  }
-}
-
-/* Para pantallas entre 902px y 1024px (sin menú hamburguesa) */
-@media (min-width: 902px) {
-  .nav-toggle {
-    display: none;
   }
 }
 
@@ -1042,4 +1046,3 @@ body.no-scroll {
   position: fixed;
   width: 100%;
 }
-
