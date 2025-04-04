@@ -940,39 +940,9 @@ form button:hover {
   }
 }
 
-/* Dispositivos móviles: Hasta 901px */
 @media (max-width: 901px) {
-  body { 
-    font-size: 1.2rem; 
-  }
-  /* El botón hamburguesa se muestra y el menú se oculta por defecto */
-  .nav-toggle {
-    display: flex;
-    margin-top: 0.625rem;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 0.3125rem;
-    transition: transform 0.3s ease;
-    z-index: 1000;
-  }
-  .nav-toggle span {
-    display: block;
-    width: 2.0625rem;
-    height: 0.375rem;
-    background-color: var(--color-medio-claro);
-    border-radius: var(--radius-small);
-  }
-  .nav-toggle:hover {
-    transform: scale(1.1);
-  }
-  .nav-toggle:focus,
-  .nav-toggle.active {
-    outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
-    border-radius: var(--radius-small);
-    transform: scale(1.05);
-  }
   .nav-menu {
-    display: none;
+    display: flex; /* <-- IMPORTANTE para animación basada en visibilidad */
     flex-direction: column;
     gap: 0.625rem;
     background-color: var(--color-medio-oscuro);
@@ -987,18 +957,16 @@ form button:hover {
     overflow-y: auto;
     opacity: 0;
     visibility: hidden;
+    pointer-events: none; /* 🔒 Evita que se haga clic cuando está oculto */
   }
+
   .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
     opacity: 1;
     visibility: visible;
-  }
-  .dropdown.active .dropdown-menu { 
-    display: block; 
-    position: static; 
+    pointer-events: auto; /* ✅ Reactiva clics cuando está visible */
   }
 }
+
 
 /* En pantallas mayores a 901px (escritorio) se oculta el botón hamburguesa */
 @media (min-width: 902px) {
