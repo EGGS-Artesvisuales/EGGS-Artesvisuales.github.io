@@ -32,7 +32,7 @@
 .carousel-imagen .owl-stage-outer,
 .carousel-imagen .owl-stage,
 .carousel-imagen .owl-item {
-  height: 100% !important; /* Necesario para forzar altura */
+  height: 100% !important;
 }
 
 .carousel-imagen .item {
@@ -56,7 +56,6 @@
   object-fit: cover;
   object-position: center center;
   transition: transform 0.5s ease;
-  will-change: transform; /* Mejora rendimiento de animación */
 }
 
 .carousel-imagen .item:hover .carousel-img {
@@ -72,59 +71,74 @@
   color: white;
   background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
   backdrop-filter: blur(4px);
-  font-size: clamp(0.8rem, 2vw, 1rem); /* Texto responsive */
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 /* =============================================================================
-   Navegación Mejorada
+   Navegación (Estilos Funcionales Originales Mejorados)
    ============================================================================= */
-.owl-nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none; /* Permite clicks a través de los botones */
-}
-
 .owl-nav button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  color: white !important;
-  width: 3rem;
-  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--color-claro);
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 50%;
-  font-size: 1.5rem;
-  pointer-events: auto; /* Habilita clicks */
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   transition: all 0.3s ease;
-  z-index: 10;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .owl-nav button:hover {
-  background-color: rgba(0, 0, 0, 0.9) !important;
-  transform: translateY(-50%) scale(1.1);
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.owl-nav .owl-prev { 
+  left: 15px;
+}
+
+.owl-nav .owl-next { 
+  right: 15px;
 }
 
 .owl-dots {
   position: absolute;
-  bottom: 1rem;
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 0.5rem;
-  z-index: 10;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+.owl-dots .owl-dot {
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 .owl-dots .owl-dot span {
-  width: 12px;
-  height: 12px;
-  background: rgba(255,255,255,0.5);
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
   transition: all 0.3s ease;
 }
 
 .owl-dots .owl-dot.active span {
-  background: white;
+  background-color: #333;
   transform: scale(1.2);
 }
 
@@ -141,78 +155,38 @@
   height: 100%;
 }
 
-.carousel-fancy .fancy-item {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.carousel-fancy .fancy-item:hover {
-  transform: translateY(-0.5rem);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-}
-
-.carousel-fancy .fancy-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-.carousel-fancy .fancy-content {
-  padding: 1.25rem;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-
 /* =============================================================================
-   Responsive Design Mejorado
+   Responsive Design
    ============================================================================= */
-@media (max-width: 1200px) {
-  .carousel-imagen {
-    --max-height: 70vh;
-    --min-height: 450px;
-  }
-}
-
 @media (max-width: 768px) {
   .owl-carousel {
     width: 95%;
     margin: 1.5rem auto;
   }
   
-  .carousel-imagen {
-    --max-height: 60vh;
-    --min-height: 400px;
-  }
-  
   .owl-nav button {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.2rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
   }
   
-  .carousel-fancy .fancy-img {
-    height: 160px;
+  .owl-dots {
+    bottom: 10px;
+  }
+  
+  .owl-dots .owl-dot span {
+    width: 8px;
+    height: 8px;
   }
 }
 
 @media (max-width: 480px) {
-  .carousel-imagen {
-    --max-height: 50vh;
-    --min-height: 350px;
+  .owl-nav button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
   }
   
-  .carousel-imagen figcaption {
-    padding: 1rem;
-  }
-  
-  .owl-dots {
-    bottom: 0.5rem;
-  }
+  .owl-nav .owl-prev { left: 8px; }
+  .owl-nav .owl-next { right: 8px; }
 }
