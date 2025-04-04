@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 🔹 Cerrar el menú
   const closeMenu = () => {
     navMenu.classList.remove("active");
+     navToggle.classList.remove("active"); // 🟢 Cierra el ícono visual también
     navToggle.setAttribute("aria-expanded", "false");
     toggleScrollLock(false);
     enableBackground();
@@ -68,6 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleMenu = () => {
     const isExpanded = navToggle.getAttribute("aria-expanded") === "true";
     navToggle.setAttribute("aria-expanded", String(!isExpanded));
+      navToggle.classList.toggle("active"); // ✅ ESTA LÍNEA FALTABA
     navMenu.classList.toggle("active");
     toggleScrollLock(!isExpanded);
 
