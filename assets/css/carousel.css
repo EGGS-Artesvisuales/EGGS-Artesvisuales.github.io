@@ -1,47 +1,28 @@
 /* =============================================================================
-   Estilos Unificados y Optimizados para Owl Carousel
+   Estilos Base para Todos los Carruseles
    ============================================================================= */
 .owl-carousel {
   width: 90%;
   height: auto;
-  min-height: 600px; /* ← NUEVO: evita el colapso antes de render */
   margin: 2rem auto;
   padding: 20px 0 30px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Para mayor compatibilidad (fallback): */
-.carousel-square-wrapper {
+/* Contenedor común para ambos carruseles */
+.carousel-container {
   position: relative;
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
   border-radius: var(--radius-extra);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
-.carousel-square-wrapper .owl-carousel {
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-square-wrapper .owl-carousel img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-}
-
 
 /* =============================================================================
-   Navegación: Flechas (owl-nav)
+   Navegación Común (Flechas y Dots)
    ============================================================================= */
 .owl-nav button {
   position: absolute;
@@ -53,11 +34,9 @@
   height: 2.8rem;
   border-radius: 50%;
   border: none;
-  outline: none;
   font-size: 1.3rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   z-index: 100;
 }
 
@@ -68,24 +47,14 @@
 .owl-nav .owl-prev { left: 10px; }
 .owl-nav .owl-next { right: 10px; }
 
-/* =============================================================================
-   Navegación: Dots (paginación)
-   ============================================================================= */
 .owl-dots {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  z-index: 1000;
-}
-
-.owl-dots .owl-dot {
-  margin: 0 5px;
-  cursor: pointer;
+  gap: 5px;
+  z-index: 100;
 }
 
 .owl-dots .owl-dot span {
@@ -102,171 +71,131 @@
 }
 
 /* =============================================================================
-   Carrusel de Imágenes con pies de foto (Corregido)
+   Estilos Específicos para Carrusel de Imágenes
    ============================================================================= */
-.carousel-imagen .imagen-con-caption {
+.carousel-imagen {
+  min-height: 600px;
+}
+
+.carousel-imagen .item {
   position: relative;
   text-align: center;
   overflow: hidden;
   border-radius: var(--radius-extra);
-  width: 100%;
-  margin: 0 auto;
 }
 
 .carousel-imagen .carousel-img {
   width: 100%;
   height: auto;
-  min-height: auto;
+  min-height: 300px;
   max-height: 80vh;
   object-fit: cover;
-  object-position: center;
-  border-radius: var(--radius-extra);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.4s ease;
 }
 
-.carousel-imagen .carousel-img:hover {
-  transform: scale(1.07);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+.carousel-imagen .item:hover .carousel-img {
+  transform: scale(1.03);
 }
 
 .carousel-imagen figcaption {
-  font-family: var(--parrafo-font);
-  color: var(--color-claro);
-  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 0.7rem;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 0.9rem;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
 }
 
 /* =============================================================================
-   Carrusel Fancy (4 elementos en desktop) - Versión Mejorada
+   Estilos Específicos para Carrusel Fancy
    ============================================================================= */
 .carousel-fancy {
-  --gap-between-buttons: 7px;
-  --items-desktop: 5;
+  --item-gap: 10px;
+  --items-desktop: 4;
   --items-tablet: 3;
-  --items-mobile: 1;
+  --items-mobile: 2;
 }
 
-.carousel-fancy .owl-stage {
-  display: flex;
-  gap: 5px;
-  padding: 5px 0;
+.carousel-fancy .item {
+  padding: 0 var(--item-gap);
 }
 
-.carousel-fancy .fancy-button {
+.carousel-fancy .fancy-item {
   display: block;
-  text-decoration: none;
-  background-color: var(--button-bg-color, #007bff);
-  border-radius: var(--button-border-radius, 8px);
-  box-shadow: var(--button-shadow, 0 2px 4px rgba(0,0,0,0.2));
-  transition: var(--button-transition, transform 0.3s ease, box-shadow 0.3s ease);
-  overflow: hidden;
-  text-align: center;
-  flex: 1 1 calc((100% / var(--items-desktop)) - var(--gap-between-buttons));
-  margin: 0 calc(var(--gap-between-buttons) / 2);
-  height: auto;
-}
-
-.carousel-fancy .fancy-button:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--button-hover-shadow);
-  background-color: var(--button-hover-bg-color);
-}
-
-.carousel-fancy .button-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  color: var(--content-title-color);
   height: 100%;
-  min-height: 250px;
+  background-color: var(--color-fondo);
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
 }
 
-.carousel-fancy .button-content img {
+.carousel-fancy .fancy-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.carousel-fancy .fancy-img {
   width: 100%;
-  height: 70%;
-  min-height: 180px;
+  height: 180px;
   object-fit: cover;
-  opacity: var(--img-opacity);
-  transition: opacity 0.3s ease-in-out;
 }
 
-.carousel-fancy .fancy-button:hover .button-content img {
-  opacity: var(--img-hover-opacity);
+.carousel-fancy .fancy-content {
+  padding: 1rem;
 }
 
-.carousel-fancy .button-content .title {
-  font-size: var(--title-font-size);
+.carousel-fancy .fancy-title {
   font-weight: bold;
-  color: var(--content-title-color);
-  margin: 10px 0 5px;
+  margin-bottom: 0.5rem;
+  color: var(--color-texto);
 }
 
-.carousel-fancy .button-content .subtitle {
-  background-color: var(--content-subtitle-bg);
-  padding: var(--content-subtitle-padding);
-  border-radius: 0 0 var(--button-border-radius) var(--button-border-radius);
-  font-size: var(--subtitle-font-size);
-  color: var(--content-subtitle-color);
-  width: 100%;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.carousel-fancy .fancy-button:hover .button-content .subtitle {
-  background-color: var(--content-subtitle-hover-bg);
+.carousel-fancy .fancy-subtitle {
+  font-size: 0.8rem;
+  color: var(--color-texto-secundario);
 }
 
 /* =============================================================================
-   Ajustes Responsivos
+   Responsive Design
    ============================================================================= */
 @media (max-width: 1200px) {
-  .carousel-fancy .fancy-button {
-    flex-basis: calc((100% / var(--items-tablet)) - var(--gap-between-buttons)));
+  .carousel-fancy {
+    --items-desktop: 3;
   }
 }
 
 @media (max-width: 768px) {
-  .owl-carousel { 
-    width: 100%;
+  .owl-carousel {
+    width: 95%;
     margin: 1rem auto;
-    border-radius: var(--radius-medium);
   }
   
-  .carousel-imagen .carousel-img {
-    min-height: 300px;
-    max-height: 60vh;
+  .carousel-imagen {
+    min-height: 400px;
   }
   
-  .owl-nav button { 
-    width: 2rem; 
-    height: 2rem; 
-    font-size: 1rem; 
-  }
-  
-  .carousel-imagen figcaption { 
-    font-size: 0.8rem; 
-    padding: 0.5rem; 
-  }
-  
-  .carousel-fancy .fancy-button {
-    flex-basis: calc((100% / var(--items-mobile)) - var(--gap-between-buttons)));
-  }
-}
-
-@media (min-width: 1600px) {
-  .carousel-imagen .carousel-img {
-    max-height: 700px;
+  .owl-nav button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
   }
   
   .carousel-fancy {
-    --gap-between-buttons: 10px;
+    --items-desktop: 2;
+    --item-gap: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-fancy {
+    --items-desktop: 1;
+  }
+  
+  .carousel-imagen figcaption {
+    font-size: 0.8rem;
+    padding: 0.8rem;
   }
 }
