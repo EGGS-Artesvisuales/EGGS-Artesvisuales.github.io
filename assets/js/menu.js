@@ -90,9 +90,32 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  // 🔹 Activar submenús en móviles
+  const dropdownParents = document.querySelectorAll('.dropdown > a');
+
+  dropdownParents.forEach(link => {
+    link.addEventListener('click', (e) => {
+      const parent = link.parentElement;
+      if (window.innerWidth <= 901) {
+        e.preventDefault();
+        parent.classList.toggle('active');
+      }
+    });
+  });
+
+  // 🔹 Cerrar submenús al hacer clic fuera (solo en móviles)
+  document.addEventListener('click', (event) => {
+    if (window.innerWidth > 901) return;
+
+    document.querySelectorAll('.dropdown.active').forEach(dropdown => {
+      if (!dropdown.contains(event.target)) {
+        dropdown.classList.remove('active');
+      }
+    });
+  });
+
   // 🔹 Eventos
   navToggle.addEventListener("click", toggleMenu);
-
   navToggle.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
@@ -104,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", closeMenu);
   });
 
-  // 🔹 Navegación con teclas de flecha dentro del menú
+  // 🔹 Navegación con flechas dentro del menú
   navMenu.addEventListener("keydown", (event) => {
     const links = Array.from(navMenu.querySelectorAll("a")).filter(link => getComputedStyle(link).display !== "none");
     const currentIndex = links.indexOf(document.activeElement);
@@ -122,11 +145,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 🔹 Cerrar el menú con la tecla Escape
+  // 🔹 Cerrar el menú con Escape
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && navMenu.classList.contains("active")) {
       closeMenu();
     }
   });
 });
-
