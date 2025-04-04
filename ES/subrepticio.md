@@ -2,24 +2,9 @@
 layout: default-es
 title: Lo Subrepticio
 permalink: /ES/subrepticio.html
-breadcrumbs: >
-    <a href="/ES/index.html">Inicio</a> >
-    <a href="/ES/accion.html">Acción en el Mundo</a> >
-    <span>Lo Subrepticio</span>
 ---
 <!-- Título principal -->
 <div class="titulo">Lo Subrepticio</div>
-<br>
-
-<!-- Texto descriptivo -->
-<p class="parrafo">
-  Acciones discretas y estratégicas que generan un impacto profundo en comunidades y espacios. en este apartado hay tres grupos que comparto a continuación:
-</p>
-<br>
-
-<!-- Sección de Actividades con fancy buttons -->
-<div class="subtitulo" style="margin-top: 4%;">Actividades:</div>
-<br>
 <div class="button-container">
   <!-- Botón: Graffiti -->
   <a href="/ES/graffiti.html" class="fancy-button">
