@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.getElementById("nav-toggle");
   const navMenu = document.getElementById("nav-menu");
-  const backgroundElements = document.querySelectorAll("#page-wrapper");
+  const backgroundElements = document.querySelectorAll("main, footer");
   const focusableElements = 'a, button, input, textarea, select';
   let firstFocusableElement, lastFocusableElement;
 
@@ -10,15 +10,13 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  // 🔹 Deshabilitar interactividad en el fondo
   const disableBackground = () => {
     backgroundElements.forEach(el => {
-      el.setAttribute("inert", "true"); 
+      el.setAttribute("inert", "true");
       el.setAttribute("aria-hidden", "true");
     });
   };
 
-  // 🔹 Reactivar interactividad en el fondo
   const enableBackground = () => {
     backgroundElements.forEach(el => {
       el.removeAttribute("inert");
@@ -26,19 +24,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  // 🔹 Bloquear/desbloquear el scroll de la página
   const toggleScrollLock = (lock) => {
     document.body.classList.toggle("no-scroll", lock);
   };
 
-  // 🔹 Capturar elementos enfocables dentro del menú para navegación accesible
   const setFocusableElements = () => {
     const focusable = navMenu.querySelectorAll(focusableElements);
     firstFocusableElement = focusable[0];
     lastFocusableElement = focusable[focusable.length - 1];
   };
 
-  // 🔹 Manejar el "focus trap" dentro del menú
   const trapFocus = (event) => {
     if (!navMenu.classList.contains("active")) return;
 
@@ -53,23 +48,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // 🔹 Cerrar el menú
   const closeMenu = () => {
     navMenu.classList.remove("active");
-     navToggle.classList.remove("active"); // 🟢 Cierra el ícono visual también
+    navToggle.classList.remove("active");
     navToggle.setAttribute("aria-expanded", "false");
     toggleScrollLock(false);
     enableBackground();
     document.removeEventListener("keydown", trapFocus);
     document.removeEventListener("click", closeOnClickOutside);
-    navToggle.focus();
   };
 
-  // 🔹 Abrir/cerrar menú
   const toggleMenu = () => {
     const isExpanded = navToggle.getAttribute("aria-expanded") === "true";
     navToggle.setAttribute("aria-expanded", String(!isExpanded));
-      navToggle.classList.toggle("active"); // ✅ ESTA LÍNEA FALTABA
+    navToggle.classList.toggle("active");
     navMenu.classList.toggle("active");
     toggleScrollLock(!isExpanded);
 
@@ -85,14 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // 🔹 Cerrar el menú al hacer clic fuera de él
   const closeOnClickOutside = (event) => {
     if (!navMenu.contains(event.target) && !navToggle.contains(event.target)) {
       closeMenu();
     }
   };
 
-  // 🔹 Activar submenús en móviles
   const dropdownParents = document.querySelectorAll('.dropdown > a');
 
   dropdownParents.forEach(link => {
@@ -105,7 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // 🔹 Cerrar submenús al hacer clic fuera (solo en móviles)
   document.addEventListener('click', (event) => {
     if (window.innerWidth > 901) return;
 
@@ -116,20 +105,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // 🔹 Eventos
   navToggle.addEventListener("click", toggleMenu);
   navToggle.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" || event.key === " ") {
+    if (["Enter", " "].includes(event.key)) {
       event.preventDefault();
       toggleMenu();
     }
   });
 
   navMenu.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", closeMenu);
+    link.addEventListener("click", (e) => {
+      if (!link.parentElement.classList.contains("dropdown")) {
+        closeMenu();
+      }
+    });
   });
 
-  // 🔹 Navegación con flechas dentro del menú
   navMenu.addEventListener("keydown", (event) => {
     const links = Array.from(navMenu.querySelectorAll("a")).filter(link => getComputedStyle(link).display !== "none");
     const currentIndex = links.indexOf(document.activeElement);
@@ -138,16 +129,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (["ArrowDown", "ArrowRight"].includes(event.key)) {
       event.preventDefault();
-      const nextIndex = (currentIndex + 1) % links.length;
-      links[nextIndex].focus();
+      links[(currentIndex + 1) % links.length].focus();
     } else if (["ArrowUp", "ArrowLeft"].includes(event.key)) {
       event.preventDefault();
-      const prevIndex = (currentIndex - 1 + links.length) % links.length;
-      links[prevIndex].focus();
+      links[(currentIndex - 1 + links.length) % links.length].focus();
     }
   });
 
-  // 🔹 Cerrar el menú con Escape
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && navMenu.classList.contains("active")) {
       closeMenu();
