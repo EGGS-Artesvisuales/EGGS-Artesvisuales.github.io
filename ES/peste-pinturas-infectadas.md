@@ -34,6 +34,8 @@ carousel: true
 <div class="mermaid">
 graph TD
   A[La Saturación] --> B[La Peste]
+  A --> X[Lo Invisible]
+
   B --> C[Pinturas Infectadas]
   C --> D[Soportes tradicionales]
   D --> D1[Intervención]
