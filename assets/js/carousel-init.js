@@ -7,6 +7,7 @@ $(document).ready(function() {
     nav: true,
     dots: true,
     dotsEach: 1,
+    autoHeight: true, // ⬅️ esta opción es clave
     startPosition: 0,
     stagePadding: 30,
     navText: ["&#9664;", "&#9654;"],
