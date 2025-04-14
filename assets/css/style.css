@@ -590,6 +590,11 @@ p.parrafo:first-of-type ul {
   rx: 5;
   ry: 5;
 }
+/* Mermaid subgraph border-radius */
+.mermaid .cluster rect {
+  rx: 8px;
+  ry: 8px;
+}
 
 /* ------------------------------------------------------------------
    PRODUCTOS
