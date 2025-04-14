@@ -5,7 +5,6 @@ permalink: /ES/tangible.html
 mermaid: true
 ---
 
-
 <div class="titulo">Lo tangible</div>
 
 <div class="subtitulo">Representación del mundo material</div>
@@ -43,9 +42,10 @@ Este diagrama esquematiza cómo las distintas series de la línea "Lo Tangible" 
 
 <div class="mermaid">
 graph TD
-    Representacion["Representación del Mundo"]
-    Representacion --> Tangible["Lo Tangible"]
-    Representacion --> Intangible["Lo Intangible"]
+    subgraph "Representación del Mundo"
+        Tangible["Lo Tangible"]
+        Intangible["Lo Intangible"]
+    end
 
     Tangible --> Saturacion["La Saturación"]
     Tangible --> Tecnologia["La Tecnología"]
@@ -53,13 +53,6 @@ graph TD
     Saturacion --> Peste["La Peste"]
     Saturacion --> Invisible["Lo Invisible"]
 
-    %% Desarrollo del nodo "Lo Tangible"
-    subgraph "Lo Tangible"
-        Saturacion
-        Tecnologia
-    end
-
-    click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
     click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
     click Saturacion "/ES/saturacion.html" "Ir a La Saturación"
