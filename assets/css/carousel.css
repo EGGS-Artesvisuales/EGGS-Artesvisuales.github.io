@@ -27,30 +27,30 @@
 .carousel-imagen .owl-stage-outer,
 .carousel-imagen .owl-stage,
 .carousel-imagen .owl-item {
-  height: 100% !important;
+  height: auto !important;
 }
 
 .carousel-imagen .item {
-  height: 100%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .carousel-imagen .img-container {
   width: 100%;
-  height: 100%;
   position: relative;
   overflow: hidden;
 }
 
 .carousel-imagen .carousel-img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   object-position: center center;
   transition: transform 0.5s ease;
+  display: block;
 }
 
 .carousel-imagen .item:hover .carousel-img {
@@ -62,11 +62,25 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 1.5rem;
+  padding: 1.2rem;
   color: white;
   background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
   backdrop-filter: blur(4px);
   font-size: clamp(0.8rem, 2vw, 1rem);
+  opacity: 1;
+  animation: fadeOutCaption 6s ease forwards;
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+@keyframes fadeOutCaption {
+  0%, 60% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}
+
+.carousel-imagen:hover figcaption {
+  opacity: 1;
+  visibility: visible;
+  animation: none;
 }
 
 /* =============================================================================
@@ -158,17 +172,17 @@
     width: 95%;
     margin: 1.5rem auto;
   }
-  
+
   .owl-nav button {
     width: 2.2rem;
     height: 2.2rem;
     font-size: 1.1rem;
   }
-  
+
   .owl-dots {
     bottom: 10px;
   }
-  
+
   .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
@@ -181,7 +195,13 @@
     height: 2rem;
     font-size: 1rem;
   }
-  
+
   .owl-nav .owl-prev { left: 8px; }
   .owl-nav .owl-next { right: 8px; }
+
+  .carousel-imagen figcaption {
+    font-size: 0.95rem;
+    padding: 1rem;
+  }
 }
+
