@@ -42,10 +42,9 @@ Este diagrama esquematiza cómo las distintas series de la línea "Lo Tangible" 
 
 <div class="mermaid">
 graph TD
-    subgraph "Representación del Mundo"
-        Tangible["Lo Tangible"]
-        Intangible["Lo Intangible"]
-    end
+    Representacion["Representación del Mundo"]
+    Representacion --> Tangible["Lo Tangible"]
+    Representacion --> Intangible["Lo Intangible"]
 
     Tangible --> Saturacion["La Saturación"]
     Tangible --> Tecnologia["La Tecnología"]
@@ -53,6 +52,7 @@ graph TD
     Saturacion --> Peste["La Peste"]
     Saturacion --> Invisible["Lo Invisible"]
 
+    click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
     click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
     click Saturacion "/ES/saturacion.html" "Ir a La Saturación"
