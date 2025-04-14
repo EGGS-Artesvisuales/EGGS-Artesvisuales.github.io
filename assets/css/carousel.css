@@ -155,7 +155,7 @@
    Carrusel Fancy (Optimizado)
    ============================================================================= */
 .carousel-fancy {
-  --item-gap: 0.75rem;
+  --item-gap: 0.35rem;
   padding: 1rem 0;
 }
 
