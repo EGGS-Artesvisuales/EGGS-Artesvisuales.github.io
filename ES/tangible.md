@@ -57,7 +57,7 @@ graph TD
     click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
     click Saturacion "/ES/saturacion.html" "Ir a La Saturación"
     click Tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
-    click Peste "/ES/peste.html" "Ir a La Peste"
+    click Peste "/es/la-peste" "Ir a La Peste"
     click Invisible "/ES/invisible.html" "Ir a Lo Invisible"
 </div>
 <br><br>
