@@ -20,12 +20,7 @@
    Carrusel de Imágenes (Versión Mejorada)
    ============================================================================= */
 .carousel-imagen {
-  --min-height: 500px;
-  --max-height: 80vh;
-  
   width: 100%;
-  height: var(--max-height);
-  min-height: var(--min-height);
   position: relative;
 }
 
