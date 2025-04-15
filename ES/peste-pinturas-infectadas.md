@@ -80,13 +80,37 @@ graph TD
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+    </figure>
+  </div>
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
