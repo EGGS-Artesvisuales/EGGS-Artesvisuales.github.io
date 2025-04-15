@@ -43,14 +43,15 @@
   position: relative;
   overflow: hidden;
 }
-
-.carousel-imagen .carousel-img {
-  width: 100%;
+ 
+ .carousel-imagen .carousel-img {
+  max-height: 90vh; /* evita que exceda el alto de la pantalla */
+  width: auto;      /* ajusta el ancho proporcionalmente */
   height: auto;
-  object-fit: cover;
-  object-position: center center;
-  transition: transform 0.5s ease;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
+  transition: transform 0.5s ease;
 }
 
 .carousel-imagen .item:hover .carousel-img {
