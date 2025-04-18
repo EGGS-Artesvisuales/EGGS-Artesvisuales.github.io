@@ -12,7 +12,7 @@ mermaid: true
 
 <br>
 <div class="mermaid">
-graph TD
+graph LR
     principal[Actividad Artística]
     representacion[Representación del Mundo]
     accion[Acción en el Mundo]
