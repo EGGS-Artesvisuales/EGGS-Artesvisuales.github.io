@@ -8,6 +8,12 @@ mermaid: true
 carousel: true
 ---
 
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
+</figure>
+
+
 <h1 class="titulo">Pinturas Infectadas</h1>
 <h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
 <br>
@@ -71,7 +77,7 @@ graph LR
   <p><strong>Intervenciones agrupan obras que son más bien acciones artísticas realizadas sobre obras de otros autores</strong>, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages con elementos del desecho publicitario. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica. equiparando el daño de la obra de arte con el daño a la madre tierra.</p>
 </section>
 <br>
-<h4 class="subtitulo2">Serie Sin titulo - 2008</h4>
+<h4 class="subtitulo2">1. Serie Sin titulo - 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -219,17 +225,17 @@ graph LR
   <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
 </section>
 <br>
-<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+<h4 class="subtitulo2">1. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/imgpinturainfectada-sop-blando-membr-mapa02.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1, 120 x 440 cm, 2008</em></figcaption>
   </figure>
   
-  <figure class="imagen-con-caption item--imagen">
-  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/imgpinturainfectada-sop-blando-membr-mapa01.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1, 120 x 440 cm, 2008</em></figcaption>
   </figure>
 </div>
 <br><br><br>
