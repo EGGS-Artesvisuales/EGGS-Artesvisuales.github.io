@@ -8,8 +8,6 @@ mermaid: true
 <div class="subtitulo">Retrato de lo contemporáneo</div> 
 <p class="parrafo" style="margin-top: 6%;"> 
     Desde los orígenes del arte, la pintura y las artes visuales han sido ventanas para descifrar la complejidad de la realidad. Desde las enigmáticas cuevas prehistóricas hasta las galerías modernas, se ha buscado plasmar no solo la apariencia, sino también los significados profundos que subyacen en la existencia. Esta pasión por la representación ha impulsado una constante evolución en técnicas, estilos y discursos artísticos. </p> <p class="parrafo"> En la actualidad, el diálogo con la realidad trasciende los formatos tradicionales. Las prácticas contemporáneas fusionan la herencia pictórica con nuevos lenguajes —como instalaciones, fotografía y medios digitales—, ofreciendo una visión crítica e innovadora ante los desafíos de representar el presente. </p> <p class="parrafo"> Esta sección de la práctica artística busca capturar la esencia del ahora, resaltando los rasgos más distintivos de lo contemporáneo desde dos enfoques complementarios: el tangible, manifestado en el mundo físico, y el intangible, donde ideas y fenómenos abstractos se transforman en temas para la creación. El proceso creativo se origina en la pintura y se expande hacia formas de arte contemporáneas y mixtas. </p> <p class="parrafo"> Así, el recorrido se organiza de la siguiente manera: </p>
-<br><br>
-
 <br>
 <div class="mermaid">
 graph LR
@@ -49,8 +47,7 @@ graph LR
 
 
 </div>
-
-<br><br><br><br>
+<br><br>
 <div class="subtitulo">Lo Tangible</div> 
 <br>
 <p class="parrafo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Categoría de obras que exploran los aspectos físicos y materiales del entorno, resaltando las características del paisaje local, los objetos cotidianos y las escenas que configuran nuestra realidad inmediata. Cada serie se nombra en función de un tema distintivo, representativo del presente, lo que implica que esta colección no es definitiva y puede ampliarse con nuevas series surgidas de características emergentes de la realidad actual. Este grupo abarca las siguientes series: </p>
