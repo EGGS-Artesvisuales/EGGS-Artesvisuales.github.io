@@ -132,10 +132,56 @@ graph LR
     </figure>
   </div>
 </div>
+<br><br>
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-03.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-04.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+</div>
+<br>
+<div class="parrafo">
+  <p><strong>Intervenciones:</strong> acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
+</div>
+
+<br><br>
 
 <div class="parrafo">
   <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
 </div>
+
 
 <br><br><br>
 <div class="subtitulo">Soportes Blandos</div>
