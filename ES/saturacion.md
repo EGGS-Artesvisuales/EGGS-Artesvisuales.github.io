@@ -8,7 +8,7 @@ mermaid: true
 
 <div class="titulo">La Saturación</div>
 <div class="subtitulo">Síntoma de nuestra época</div>
-<br><br>
+<br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
@@ -25,10 +25,10 @@ mermaid: true
   </p>
 </div>
 
-<br><br><br><br>
+<br><br>
 
 <div class="mermaid">
-graph TD
+graph LR
   RM[Representación del Mundo]
   LT[Lo Tangible]
   LS[La Saturación]
@@ -56,7 +56,7 @@ graph TD
   click DP "/Es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 </div>
 
-<br><br><br><br>
+<br><br>
 
 <div class="subtitulo">La Peste</div>
 <figure class="imagen-con-caption">
