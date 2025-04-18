@@ -32,8 +32,10 @@ carousel: true
 <br><br>
 
 <div class="mermaid">
-graph TD
-  A[La Saturación] --> B[La Peste]
+graph LR
+  Z[Representación del Mundo] --> Y[Lo Tangible]
+  Y --> A[La Saturación]
+  A --> B[La Peste]
   A --> X[Lo Invisible]
 
   B --> C[Pinturas Infectadas]
@@ -45,6 +47,8 @@ graph TD
   E --> E2[Módulo]
   E --> E3[Unidad]
 
+  click Z "/es/representacion-del-mundo.html"
+  click Y "/es/lo-tangible.html"
   click A "/es/saturacion.html"
   click B "/es/la-peste.html"
   click C "/es/peste-pinturas-infectadas.html"
@@ -56,6 +60,7 @@ graph TD
   click E2 "/es/modulo.html"
   click E3 "/es/unidad.html"
 </div>
+
 <br>
 <div class="subtitulo">Soportes Tradicionales</div>
 <br>
