@@ -129,10 +129,26 @@ graph LR
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 </div>
-<br>
+<section class="parrafo">
+  <p>
+    <strong>Pinturas infectadas: 1. Serie de producciones sin título.</strong><br>
+    Esta serie traslada la violencia infligida al paisaje natural sobre lienzos académicos rescatados de mi etapa en el taller de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
+    Empleo soportes híbridos —tela, lonas publicitarias rasgadas, paneles de PVC y madera erosionada— para subrayar que la crisis ecológica no distingue jerarquías. El choque entre la tradición pictórica, ligada a lo sublime, y los residuos industriales convierte cada obra en un pequeño ecocidio.<br><br>
+    Hay un eco invertido de Just Stop Oil: en lugar de atacar obras ajenas, infecto mi propia producción. Este gesto es una autopsia poética que revela cómo el mercado del arte, con su fetichismo del “original” y su lógica extractiva, perpetúa la misma depredación.<br><br>
+    *Pinturas infectadas* no son cuadros sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella inevitable de un sistema que devora toda pureza.
+  </p>
+</section>
+<br><br>
+
+
 <h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+  </figure>
+  
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
@@ -157,13 +173,18 @@ graph LR
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
-  
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
-  </figure>
 </div>
-<br>
+<section class="parrafo">
+  <p>
+    <strong>Pinturas infectadas: Soportes tradicionales / Producciones #2 (Paisajes de carretera, 2009)</strong><br>
+    Serie de 6 óleos sobre papel adherido a cartón y madera (55,5 × 85,5 cm c/u).<br><br>
+    Documenta la invasión publicitaria en los márgenes de las carreteras chilenas. El soporte integra capas de revistas, catálogos y periódicos, creando una piel textual bajo la pintura. Los óleos se infiltran entre restos de iconografía comercial, sugiriendo que la naturaleza solo existe en los intersticios del consumo.<br><br>
+    La serie culmina con una bandera nacional intervenida con residuos gráficos: síntesis cruda de un territorio colonizado por la publicidad. Esta técnica de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se convierte en un elemento esencial para retratar nuestra época, y el paisaje solo cobra sentido al exhibir su propia infección contemporánea.
+  </p>
+</section>
+<br><br>
+
+
 <h4 class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -187,8 +208,14 @@ graph LR
     <figcaption><em>Autofusión — Vista general, 110 x 100 cm c/u, 2010</em></figcaption>
   </figure>
 </div>
-<br>
-<br>
+<section class="parrafo">
+  <p>
+    <strong>Pinturas infectadas: Autofusión (Autorretrato fisurado, 2009)</strong><br>
+    Díptico de dos paneles de madera (130 × 120 cm c/u) con óleo sobre papel de periódico adherido. Partiendo de una fotografía digital de mi rostro, dividí verticalmente los hemisferios y reflejé cada uno horizontalmente para crear dos retratos asimétricos.<br><br>
+    El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Paisajes de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
+  </p>
+</section>
+<br><br>
 <h4 class="subtitulo2">4. Serie de banderas infectadas- 2008/2025</h4>
 
 <div class="owl-carousel carousel-imagen">
