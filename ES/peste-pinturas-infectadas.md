@@ -71,20 +71,29 @@ graph LR
   <p><strong>Intervenciones agrupan obras que son más bien acciones artísticas realizadas sobre obras de otros autores</strong>, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages con elementos del desecho publicitario. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica. equiparando el daño de la obra de arte con el daño a la madre tierra.</p>
 </section>
 <br>
-<h4 class="subtitulo2">1. Serie Sin titulo - 2008</h4>
+<h4 class="subtitulo2">1. El Arte de la Pintura : estado actual - 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 60 x 80 cm, 2008</em></figcaption>
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 65 x 85 cm, 2008</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 65 x 85 cm, 2008</em></figcaption>
   </figure>
 </div>
-<br><br><br>
+<section class="parrafo">
+  <p>
+    <strong>El Arte de la Pintura, 2008</strong><br>
+    Díptico de dos óleos enmarcados en madera (65 × 85 cm c/u), intervenidos con esténcil de esmalte, tajos y tapas plásticas.<br><br>
+    Ejercicio de corrupción de obras preexistentes: el objeto pintura como mercancía alterada, más que el acto mismo de pintar. La tensión entre materiales industriales y la naturaleza retoma la fórmula conceptual de la serie.<br><br>
+    En la pieza n° 1, las tapas plásticas evocan brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se aplica en esténcil, remitiendo al lenguaje del graffiti.
+  </p>
+</section>
+<br><br>
+<br><br>
 <h3 class="subtitulo2">B. PRODUCCIONES</h3>
 
 <section class="parrafo">
@@ -129,9 +138,12 @@ graph LR
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 </div>
+
+
+
+
 <section class="parrafo">
   <p>
-    <strong>Pinturas infectadas: 1. Serie de producciones sin título.</strong><br>
     Esta serie traslada la violencia infligida al paisaje natural sobre lienzos académicos rescatados de mi etapa en el taller de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
     Empleo soportes híbridos —tela, lonas publicitarias rasgadas, paneles de PVC y madera erosionada— para subrayar que la crisis ecológica no distingue jerarquías. El choque entre la tradición pictórica, ligada a lo sublime, y los residuos industriales convierte cada obra en un pequeño ecocidio.<br><br>
     Hay un eco invertido de Just Stop Oil: en lugar de atacar obras ajenas, infecto mi propia producción. Este gesto es una autopsia poética que revela cómo el mercado del arte, con su fetichismo del “original” y su lógica extractiva, perpetúa la misma depredación.<br><br>
