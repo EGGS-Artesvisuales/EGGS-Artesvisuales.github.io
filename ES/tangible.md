@@ -10,36 +10,26 @@ mermaid: true
 <div class="subtitulo">Representación del mundo material</div>
 
 <p class="parrafo">
-Esta serie de obras se enfoca en reflejar y representar aspectos físicos y materiales de mi entorno, con el objetivo de retratar nuestra época contemporánea. Los temas seleccionados destacan elementos emblemáticos del presente, elegidos por su significado y capacidad de simbolizar la realidad única de nuestro tiempo.
+Esta serie de obras se centra en representar aspectos físicos y materiales del entorno, con el propósito de retratar las particularidades de nuestra época contemporánea. Los temas abordados destacan elementos emblemáticos del presente, seleccionados por su capacidad simbólica y su relevancia en la construcción de nuestra realidad actual.
 </p>
 
 <p class="parrafo">
-Los criterios para identificar estos elementos son:
+Los criterios de selección de estos elementos incluyen:
 </p>
 
 <ul class="parrafo">
-    <li>Presencia constante o abundante en los paisajes urbanos y naturales</li>
-    <li>Frecuencia en la experiencia cotidiana</li>
-    <li>Carácter novedoso, inexistente en épocas anteriores pero que cumple con los criterios anteriores</li>
-    <li>Capacidad para simbolizar cambios sociales, culturales o tecnológicos</li>
+    <li>Presencia constante o predominante en paisajes urbanos o naturales</li>
+    <li>Relevancia en la experiencia cotidiana</li>
+    <li>Carácter novedoso: elementos inexistentes en épocas pasadas, pero que cumplen con los criterios anteriores</li>
+    <li>Potencial simbólico para reflejar transformaciones sociales, culturales o tecnológicas</li>
 </ul>
 
 <br>
 <p class="parrafo">
-La serie busca capturar rasgos distintivos de la realidad contemporánea, manteniéndose en constante evolución y abierta a la expansión mediante una investigación continua. Hasta el momento, la serie explora dos temas fundamentales que representan aspectos tangibles de nuestra época:
-</p>
-
-<p class="parrafo">
-La Saturación y la Tecnología. Estas líneas de trabajo surgen de la identificación de características esenciales de nuestro presente y se desarrollan inicialmente a través de la pintura, para luego expandirse hacia otras manifestaciones artísticas.
+La serie propone una lectura visual de los rasgos distintivos del presente, manteniéndose abierta a la evolución y expansión mediante una investigación artística en curso. Hasta ahora, la exploración se articula en torno a dos ejes temáticos:
 </p>
 
 <br><br>
-<!-- Diagrama Mermaid -->
-<div class="subtitulo">Diagrama de relaciones</div>
-<div class="parrafo">
-Este diagrama esquematiza cómo las distintas series de la línea "Lo Tangible" se relacionan con los conceptos clave de la investigación.
-</div>
-
 <div class="mermaid">
 graph TD
     Representacion["Representación del Mundo"]
