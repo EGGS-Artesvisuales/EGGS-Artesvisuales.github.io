@@ -122,6 +122,11 @@ graph TD
 <div class="parrafo">
   <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
 </div>
+<br>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinturainfectada-produccion-ST-001.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - mujer en bicicleta" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</figcaption>
+</figure>
 
 <br><br><br>
 <div class="subtitulo">Soportes Blandos</div>
