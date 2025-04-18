@@ -11,7 +11,7 @@ mermaid: true
 <p class="parrafo" style="margin-top: 7%;"> Espacio donde convergen las múltiples facetas de mi practica artística. Aquí comparto tanto proyectos íntimos como obras grandes, organizados en un esquema que esclarece la práctica artística. Esta se estructura en tres nodos principales, cada uno representando una modalidad fundamental en mi acercamiento a la practica artística. </p> <br> <br>
 <div class="mermaid">
 
- graph TD
+ graph LR
     principal[Actividad Artística]
     representacion[Representación del Mundo]
     accion[Acción en el Mundo]
