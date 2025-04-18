@@ -88,6 +88,13 @@ graph LR
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-ST-001.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - mujer en bicicleta" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
+    </figure>
+  </div>
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
       <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 01, 40 x 50 cm" loading="lazy">
       <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
     </figure>
