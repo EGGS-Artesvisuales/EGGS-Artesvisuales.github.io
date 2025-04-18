@@ -14,7 +14,7 @@ graph LR
     principal[Actividad Artística]
     representacion[Representación del Mundo]
     accion[Acción en el Mundo]
-    interior[Exploración del Mundo Interior]
+    interior[Mundo Interior]
 
     principal --> representacion
     principal --> accion
