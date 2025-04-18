@@ -8,26 +8,26 @@ mermaid: true
 carousel: true
 ---
 <div class="titulo">Pinturas Infectadas</div>
-<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div>
+<div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div><br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - bandera de chile" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
 </figure>
 
-<div class="parrafo">
+<br><br><div class="parrafo">
   <p>La serie <strong>«Pinturas Infectadas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona la pintura tradicional con elementos visuales extraídos del marketing y residuos industriales. Utilizo materiales como envases, tapas plásticas y papel impreso —reciclado de catálogos y revistas— para generar superficies erosionadas y transformadas. Estas texturas evocan manifestaciones similares a infecciones cutáneas, funcionando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
 
-  <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p>
+  <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p><br>
 
   <p>Las obras se componen por estratos superpuestos que distorsionan la imagen pictórica. Este enfoque establece un paralelismo entre la piel del cuerpo, la superficie del territorio y la propia pintura: lo noble y natural aparece infectado por elementos invasores. Las piezas son retratos críticos del Antropoceno, evidenciando la cicatriz humana en nuestra época.</p>
 
   <p>El proceso evolucionó desde intervenciones iniciales —con materiales plásticos y residuos publicitarios sobre soportes tradicionales— hacia la incorporación de soportes precontaminados: PVC industrial, lonas publicitarias descartadas y papel reciclado. Estos vestigios del consumo aportan una materialidad contradictoria: simultáneamente frágil y resistente, efímera y persistente, según su procedencia en el ecosistema del desperdicio.</p>
 
-  <p>La elección de estos materiales no es arbitraria. El PVC resiste pero no absorbe; las lonas conservan huellas de uso previo; los papeles impresos aportan texturas y patrones cargados de referencias contemporáneas.</p>
+  <p>La elección de estos materiales no es arbitraria. El PVC resiste pero no absorbe; las lonas conservan huellas de uso previo; los papeles impresos aportan texturas y patrones cargados de referencias contemporáneas.</p><br>
 
   <p>El corpus se divide en dos líneas: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), que exploran cómo los residuos transforman la pintura académica; y 2) <em>Soportes Blandos</em>, en los que el soporte ya es residuo, y su materialidad determina la solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse con materiales ajenos a su tradición.</p>
-</div>
+</div><br><br>
 
 <div class="mermaid">
 graph TD
@@ -54,9 +54,9 @@ graph TD
   click E2 "/es/modulo.html"
   click E3 "/es/unidad.html"
 </div>
-
+<br>
 <div class="subtitulo">Soportes Tradicionales</div>
-<div class="subtitulo2">Intervenciones</div>
+<br><div class="subtitulo2">Intervenciones</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -75,7 +75,7 @@ graph TD
 <div class="parrafo">
   <p><strong>Intervenciones:</strong> acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
 </div>
-
+<br><br>
 <div class="subtitulo2">Producciones</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
@@ -120,6 +120,7 @@ graph TD
   <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
 </div>
 
+<br><br><br>
 <div class="subtitulo">Soportes Blandos</div>
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy">
