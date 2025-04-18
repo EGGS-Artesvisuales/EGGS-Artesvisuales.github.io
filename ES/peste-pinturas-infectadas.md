@@ -15,7 +15,8 @@ carousel: true
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
 </figure>
 
-<br><br><div class="parrafo">
+<br><br>
+<div class="parrafo">
   <p>La serie <strong>«Pinturas Infectadas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona la pintura tradicional con elementos visuales extraídos del marketing y residuos industriales. Utilizo materiales como envases, tapas plásticas y papel impreso —reciclado de catálogos y revistas— para generar superficies erosionadas y transformadas. Estas texturas evocan manifestaciones similares a infecciones cutáneas, funcionando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
 
   <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p><br>
@@ -27,7 +28,8 @@ carousel: true
   <p>La elección de estos materiales no es arbitraria. El PVC resiste pero no absorbe; las lonas conservan huellas de uso previo; los papeles impresos aportan texturas y patrones cargados de referencias contemporáneas.</p><br>
 
   <p>El corpus se divide en dos líneas: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), que exploran cómo los residuos transforman la pintura académica; y 2) <em>Soportes Blandos</em>, en los que el soporte ya es residuo, y su materialidad determina la solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse con materiales ajenos a su tradición.</p>
-</div><br><br>
+</div>
+<br><br>
 
 <div class="mermaid">
 graph TD
@@ -56,7 +58,8 @@ graph TD
 </div>
 <br>
 <div class="subtitulo">Soportes Tradicionales</div>
-<br><div class="subtitulo2">Intervenciones</div>
+<br>
+<div class="subtitulo2">Intervenciones</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
