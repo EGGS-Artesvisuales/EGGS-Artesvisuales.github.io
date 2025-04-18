@@ -171,11 +171,6 @@ graph LR
     </figure>
   </div>
 </div>
-<br>
-<div class="parrafo">
-  <p><strong>Intervenciones:</strong> acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
-</div>
-
 <br><br>
 
 <div class="parrafo">
@@ -185,20 +180,50 @@ graph LR
 
 <br><br><br>
 <div class="subtitulo">Soportes Blandos</div>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-soporte-blando-unidad-01.jpg" alt="Detalle de pintura sobre soporte flexible con materiales reciclados" loading="lazy">
-  <figcaption><em>La Saturación / La Peste</em>, Unidad - s/t n°6, pintura sobre soporte blando, 40 x 40 cm, 2011</figcaption>
-</figure>
-
+<br>
 <div class="parrafo">
   <p>Estas pinturas se elaboran sobre soportes flexibles como lonas recicladas, telas sintéticas y papel publicitario recuperado. Reflejan la fragilidad ecológica y la cultura visual efímera del consumo masivo. Su maleabilidad permite enrollarlas o doblarlas para facilitar montaje y transporte, aludiendo a la lógica del cartel urbano. Su instalación directa remite al graffiti y street art, acentuando su carácter efímero y móvil.</p>
 </div>
-
 <div class="parrafo">
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
 </div>
 
 <div class="subtitulo2">Membranas</div>
+
+<br><br>
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm c/u, 2010</em></figcaption>
+    </figure>
+  </div>
+     <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión: A, 110 x 100 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión: B, 110 x 100 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm, c/u, 2010</em></figcaption>
+    </figure>
+  </div>
+    <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-000.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm, c/u, 2010</em></figcaption>
+    </figure>
+  </div>
+</div>
+<br><br>
 <div class="parrafo">
   <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
 </div>
