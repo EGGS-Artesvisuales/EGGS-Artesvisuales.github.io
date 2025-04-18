@@ -26,9 +26,9 @@ graph LR
     tangible --> saturacion[La Saturación]
     tangible --> tecnologia[La Tecnología]
 
-    intangible --> capitalismo[i. del capitalismo]
-    intangible --> popular[i. de lo popular]
-    intangible --> ancestrales[i. de l@s ancestr@s]
+    intangible --> capitalismo[imágenes del capitalismo]
+    intangible --> popular[imágenes de lo popular]
+    intangible --> ancestrales[imágenes de l@s ancestr@s]
 
     click principal "/ES/index.html" "Ir al Inicio"
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
