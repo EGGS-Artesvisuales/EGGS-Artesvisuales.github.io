@@ -63,9 +63,15 @@ graph LR
 </div>
 
 <br>
-<div class="subtitulo">Soportes Tradicionales</div>
+<div class="subtitulo">PINTURAS INFECTADAS / Soportes Tradicionales</div>
 <br>
-<div class="subtitulo2">Intervenciones</div>
+<div class="subtitulo2">INTERVENCIONES</div>
+<br>
+<div class="parrafo">
+  <p><strong>acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
+</div>
+    <br>
+    <div class="subtitulo2">Serie Sin titulo - 2008</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -80,13 +86,14 @@ graph LR
     </figure>
   </div>
 </div>
-
-<div class="parrafo">
-  <p><strong>Intervenciones:</strong> acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
+<br><br><br>
+<div class="subtitulo2">PRODUCCION</div>
+    <br>
+    <div class="parrafo">
+  <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
 </div>
-
-<br><br>
-<div class="subtitulo2">Producciones</div>
+    <br>
+    <div class="subtitulo2">1. Serie sin título - 2008 / 2010</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -94,8 +101,7 @@ graph LR
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
     </figure>
   </div>
-
-  <div class="item--imagen">
+    <div class="item--imagen">
     <figure class="imagen-con-caption">
       <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="Producción S/T 01, 40 x 50 cm" loading="lazy">
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
@@ -133,6 +139,7 @@ graph LR
   </div>
 </div>
 <br><br>
+    <div class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</div>
 <div class="owl-carousel carousel-imagen">
   <div class="item--imagen">
     <figure class="imagen-con-caption">
@@ -172,13 +179,48 @@ graph LR
   </div>
 </div>
 <br><br>
+<div class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</div>
 
-<div class="parrafo">
-  <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
+<div class="owl-carousel carousel-imagen">
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-001.jpg" alt="Autofusión – La Saturación / La Peste / Pinturas Infectadas" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción: <strong>Autofusión</strong>, díptico, 110 x 100 cm c/u, 2010</em></figcaption>
+    </figure>
+  </div>
+
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-002.jpg" alt="Autofusión A – La Saturación / La Peste / Pinturas Infectadas" loading="lazy">
+      <figcaption><em>Autofusión: A — 110 x 100 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-003.jpg" alt="Autofusión B – La Saturación / La Peste / Pinturas Infectadas" loading="lazy">
+      <figcaption><em>Autofusión: B — 110 x 100 cm, 2010</em></figcaption>
+    </figure>
+  </div>
+
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004.jpg" alt="Autofusión – Vista general de conjunto" loading="lazy">
+      <figcaption><em>Autofusión — Vista general, 110 x 100 cm c/u, 2010</em></figcaption>
+    </figure>
+  </div>
+
+  <div class="item--imagen">
+    <figure class="imagen-con-caption">
+      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-000.jpg" alt="Autofusión – Proceso de elaboración" loading="lazy">
+      <figcaption><em>Autofusión — Proceso de elaboración, 110 x 100 cm c/u, 2010</em></figcaption>
+    </figure>
+  </div>
 </div>
 
-
+<br><br>
 <br><br><br>
+
 <div class="subtitulo">Soportes Blandos</div>
 <br>
 <div class="parrafo">
@@ -190,40 +232,7 @@ graph LR
 
 <div class="subtitulo2">Membranas</div>
 
-<br><br>
-<div class="owl-carousel carousel-imagen">
-  <div class="item--imagen">
-    <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm c/u, 2010</em></figcaption>
-    </figure>
-  </div>
-     <div class="item--imagen">
-    <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión: A, 110 x 100 cm, 2010</em></figcaption>
-    </figure>
-  </div>
-    <div class="item--imagen">
-    <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión: B, 110 x 100 cm, 2010</em></figcaption>
-    </figure>
-  </div>
-    <div class="item--imagen">
-    <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm, c/u, 2010</em></figcaption>
-    </figure>
-  </div>
-    <div class="item--imagen">
-    <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-000.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Autofusion" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Autofusión, 110 x 100 cm, c/u, 2010</em></figcaption>
-    </figure>
-  </div>
-</div>
-<br><br>
+
 <div class="parrafo">
   <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
 </div>
