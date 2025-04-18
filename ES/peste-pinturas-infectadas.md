@@ -189,17 +189,17 @@ graph LR
 </div>
 <br>
 <br>
-<h4 class="subtitulo2">Serie de banderas - 2008/2025</h4>
+<h4 class="subtitulo2">4. Serie de banderas infectadas- 2008/2025</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 60 x 80 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
   </figure>
 </div>
 <br><br><br>
@@ -218,6 +218,21 @@ graph LR
 <section class="parrafo">
   <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
 </section>
+<br>
+<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
 
 <h3 class="subtitulo2">Módulos</h3>
 
@@ -225,8 +240,38 @@ graph LR
   <p><strong>Módulos:</strong> composiciones expandibles construidas a partir de páginas individuales de catálogos, revistas o diarios. Se ensamblan en estructuras monumentales que replican la agresividad del lenguaje publicitario y la saturación visual contemporánea. Aunque autónomos, su potencial expresivo se amplifica en conjunto.</p>
 </section>
 
+<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
+
 <h3 class="subtitulo2">Unidades</h3>
 
 <section class="parrafo">
   <p><strong>Unidades:</strong> piezas individuales de pequeño formato, trabajadas sobre páginas recicladas intervenidas pictóricamente. Invitan a reflexionar sobre el contraste entre el impacto visual efímero del medio publicitario y la profundidad de la intervención artística.</p>
 </section>
+
+<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
