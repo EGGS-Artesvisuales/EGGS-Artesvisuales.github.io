@@ -33,7 +33,7 @@ mermaid: true
 <br><br><br>
 
 <div class="mermaid">
-graph TD
+graph LR
   A[La Saturación] --> B[La Peste]
   B --> C[Pinturas Infectadas]
   C --> D[Soportes tradicionales]
