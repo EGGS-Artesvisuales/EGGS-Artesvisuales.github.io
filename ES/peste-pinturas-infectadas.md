@@ -8,12 +8,6 @@ mermaid: true
 carousel: true
 ---
 
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
-</figure>
-
-
 <h1 class="titulo">Pinturas Infectadas</h1>
 <h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
 <br>
@@ -220,6 +214,11 @@ graph LR
 </section>
 
 <h3 class="subtitulo2">Membranas</h3>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
+</figure>
+
 
 <section class="parrafo">
   <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
