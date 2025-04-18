@@ -85,7 +85,7 @@ graph LR
   </figure>
 </div>
 <br><br><br>
-<h3 class="subtitulo2">PRODUCCION</h3>
+<h3 class="subtitulo2">B. PRODUCCIONES</h3>
 
 <section class="parrafo">
   <p><strong>Producciones:</strong> obras originales que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana y reflejando la situacion del paisaje contemporáneo.</p>
@@ -187,6 +187,22 @@ graph LR
     <figcaption><em>Autofusión — Vista general, 110 x 100 cm c/u, 2010</em></figcaption>
   </figure>
 </div>
+<br>
+<br>
+<h4 class="subtitulo2">Serie de banderas - 2008/2025</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 60 x 80 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
 <br><br><br>
 
 <h2 class="subtitulo">Soportes Blandos</h2>
