@@ -7,6 +7,7 @@ permalink: /ES/peste-pinturas-infectadas.html
 mermaid: true
 carousel: true
 ---
+
 <div class="titulo">Pinturas Infectadas</div>
 <div class="subtitulo">Saturación y contaminación en el lenguaje pictórico</div><br>
 
@@ -69,13 +70,13 @@ graph LR
   <div class="item--imagen">
     <figure class="imagen-con-caption">
       <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 01, 60 x 80 cm" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°1, 60 x 80 cm, 2008</em></figcaption>
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
       <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - intervención 02, 60 x 80 cm" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / intervención n°2, 60 x 80 cm, 2008</em></figcaption>
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 60 x 80 cm, 2008</em></figcaption>
     </figure>
   </div>
 </div>
@@ -83,6 +84,7 @@ graph LR
 <div class="parrafo">
   <p><strong>Intervenciones:</strong> acciones artísticas realizadas sobre obras de otros autores, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
 </div>
+
 <br><br>
 <div class="subtitulo2">Producciones</div>
 <div class="owl-carousel carousel-imagen">
@@ -92,41 +94,41 @@ graph LR
       <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
     </figure>
   </div>
-<div class="owl-carousel carousel-imagen">
+
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 01, 40 x 50 cm" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="Producción S/T 01, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-002.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 02, 40 x 50 cm, 2008" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 02, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-002.jpg" alt="Producción S/T 02, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 02, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 03, 40 x 50 cm, 2008" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 03, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003.jpg" alt="Producción S/T 03, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 03, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 04, 40 x 50 cm, 2008" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 04, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Producción S/T 04, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 04, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 05, 40 x 50 cm, 2008" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005.jpg" alt="Producción S/T 05, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 05, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
   <div class="item--imagen">
     <figure class="imagen-con-caption">
-      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006.jpg" alt="La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 06, 40 x 50 cm, 2008" loading="lazy">
-      <figcaption><em>La Saturación / La Peste / pinturas infectadas - Soportes tradicionales - Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+      <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+      <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
     </figure>
   </div>
 </div>
@@ -134,11 +136,6 @@ graph LR
 <div class="parrafo">
   <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
 </div>
-<br>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-produccion-ST-001.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - mujer en bicicleta" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</figcaption>
-</figure>
 
 <br><br><br>
 <div class="subtitulo">Soportes Blandos</div>
