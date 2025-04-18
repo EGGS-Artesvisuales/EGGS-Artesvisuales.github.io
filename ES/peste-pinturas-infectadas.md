@@ -10,12 +10,13 @@ carousel: true
 
 <h1 class="titulo">Pinturas Infectadas</h1>
 <h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
+<br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---pintura02.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - bandera de chile" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Bandera n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
 </figure>
-
+<br>
 <section class="parrafo">
   <p>La serie <strong>«Pinturas Infectadas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona la pintura tradicional con elementos visuales extraídos del marketing y residuos industriales. Utilizo materiales como envases, tapas plásticas y papel impreso —reciclado de catálogos y revistas— para generar superficies erosionadas y transformadas. Estas texturas evocan manifestaciones similares a infecciones cutáneas, funcionando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
 
@@ -60,14 +61,16 @@ graph LR
   click E3 "/es/unidad.html"
 </div>
 
-<h2 class="subtitulo">PINTURAS INFECTADAS / Soportes Tradicionales</h2>
+<br><br>
 
-<h3 class="subtitulo2">INTERVENCIONES</h3>
+<h2 class="subtitulo">PINTURAS INFECTADAS: Soportes Tradicionales</h2>
+
+<h3 class="subtitulo2">A. INTERVENCIONES</h3>
 
 <section class="parrafo">
-  <p><strong>Acciones artísticas realizadas sobre obras de otros autores</strong>, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica.</p>
+  <p><strong>Intervenciones agrupan obras que son más bien acciones artísticas realizadas sobre obras de otros autores</strong>, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages con elementos del desecho publicitario. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica. equiparando el daño de la obra de arte con el daño a la madre tierra.</p>
 </section>
-
+<br>
 <h4 class="subtitulo2">Serie Sin titulo - 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -81,13 +84,13 @@ graph LR
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 60 x 80 cm, 2008</em></figcaption>
   </figure>
 </div>
-
+<br><br><br>
 <h3 class="subtitulo2">PRODUCCION</h3>
 
 <section class="parrafo">
-  <p><strong>Producciones:</strong> obras originales creadas desde cero, que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana.</p>
+  <p><strong>Producciones:</strong> obras originales que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana y reflejando la situacion del paisaje contemporáneo.</p>
 </section>
-
+<br>
 <h4 class="subtitulo2">1. Serie sin título - 2008 / 2010</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -126,7 +129,7 @@ graph LR
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 </div>
-
+<br>
 <h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -160,7 +163,7 @@ graph LR
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 </div>
-
+<br>
 <h4 class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -183,12 +186,8 @@ graph LR
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004.jpg" alt="Autofusión – Vista general de conjunto" loading="lazy">
     <figcaption><em>Autofusión — Vista general, 110 x 100 cm c/u, 2010</em></figcaption>
   </figure>
-
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-000.jpg" alt="Autofusión – Proceso de elaboración" loading="lazy">
-    <figcaption><em>Autofusión — Proceso de elaboración, 110 x 100 cm c/u, 2010</em></figcaption>
-  </figure>
 </div>
+<br><br><br>
 
 <h2 class="subtitulo">Soportes Blandos</h2>
 
