@@ -63,15 +63,21 @@ graph LR
 
 <br><br>
 
-<h2 class="subtitulo">PINTURAS INFECTADAS: Soportes Tradicionales</h2>
+<h2 class="subtitulo">PINTURAS INFECTADAS: SOPORTES TRADICIONALES</h2>
 
 <h3 class="subtitulo2">A. INTERVENCIONES</h3>
 
 <section class="parrafo">
-  <p><strong>Intervenciones agrupan obras que son más bien acciones artísticas realizadas sobre obras de otros autores</strong>, generando una tensión entre el valor original y el daño simbólico provocado mediante raspados, perforaciones o collages con elementos del desecho publicitario. Estas piezas dialogan con movimientos activistas como <em>Just Stop Oil</em>, utilizando la alteración visual para visibilizar la violencia ambiental y subrayar la urgencia de una conciencia ecológica. equiparando el daño de la obra de arte con el daño a la madre tierra.</p>
+  <p>
+    <strong>Intervenciones agrupan acciones artísticas sobre obras de otros autores</strong>, generando tensión entre el valor original y el daño simbólico y real mediante raspados, perforaciones y collages con desechos publicitarios. Estas piezas reproducen la agresión ambiental, estableciendo un vínculo entre la nobleza de la naturaleza y la tradición artística.<br><br>
+    Este ejercicio de corrupción convierte la pintura en mercancía alterada, desplazando el foco del acto creativo al objeto dañado y representando el entorno contemporáneo. La confrontación de materiales industriales y elementos naturales retoma la fórmula conceptual de la serie, inspirada en enfermedades infecciosas y síntomas cutáneos.<br><br>
+    Al dañar deliberadamente estas obras (2008), anticipo y dialogo con movimientos como <em>Just Stop Oil</em> (fundado en 2022). La intervención de una obra maestra —símbolo de lo sublime, lo valioso y lo real— visibiliza la violencia ambiental y subraya la urgencia de una conciencia ecológica, equiparando el daño al arte con el daño a Gaia.
+  </p>
 </section>
 <br>
-<h4 class="subtitulo2">1. El Arte de la Pintura : estado actual - 2008</h4>
+
+
+<h4 class="subtitulo2">1. Serie Sin Titulo, 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -86,21 +92,26 @@ graph LR
 </div>
 <section class="parrafo">
   <p>
-    <strong>El Arte de la Pintura, 2008</strong><br>
-    Díptico de dos óleos enmarcados en madera (65 × 85 cm c/u), intervenidos con esténcil de esmalte, tajos y tapas plásticas.<br><br>
-    Ejercicio de corrupción de obras preexistentes: el objeto pintura como mercancía alterada, más que el acto mismo de pintar. La tensión entre materiales industriales y la naturaleza retoma la fórmula conceptual de la serie.<br><br>
-    En la pieza n° 1, las tapas plásticas evocan brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se aplica en esténcil, remitiendo al lenguaje del graffiti.
+    <strong>Intervenciones, 1. Serie sin título (2008)</strong><br>
+    Óleos enmarcados en madera (65 × 85 cm c/u), intervenidos con esténcil de esmalte, tajos y tapas plásticas.<br><br>
+    Corrupción de obras preexistentes: la pintura se convierte en mercancía alterada. El contraste entre materiales industriales y naturaleza retoma la fórmula conceptual de la serie.<br><br>
+    En la pieza n° 1, las tapas plásticas remiten a brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se estenciló, evocando el graffiti y su invasión cuantitativa: acumulación, iteración y saturación del espacio.
   </p>
 </section>
+
 <br><br>
 <br><br>
 <h3 class="subtitulo2">B. PRODUCCIONES</h3>
 
 <section class="parrafo">
-  <p><strong>Producciones:</strong> obras originales que integran estratégicamente materiales industriales y elementos publicitarios con técnicas pictóricas tradicionales como óleo o acrílico. Este método genera un contraste crítico entre arte clásico y saturación visual contemporánea, explorando el impacto del consumismo en la percepción cotidiana y reflejando la situacion del paisaje contemporáneo.</p>
+  <p>
+    <strong>Pinturas infectadas: Soportes tradicionales / Producciones</strong><br>
+    Obras originales que combinan materiales industriales y residuos publicitarios con técnicas de óleo y acrílico. Este contraste entre la pintura clásica y la saturación visual contemporánea explora el impacto del consumismo en la percepción cotidiana y refleja el estado actual del paisaje.
+  </p>
 </section>
 <br>
-<h4 class="subtitulo2">1. Serie sin título - 2008 / 2010</h4>
+
+<h4 class="subtitulo2">1. Serie sin título n°1 - 2008 / 2010</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -139,17 +150,15 @@ graph LR
   </figure>
 </div>
 
-
-
-
 <section class="parrafo">
   <p>
-    Esta serie traslada la violencia infligida al paisaje natural sobre lienzos académicos rescatados de mi etapa en el taller de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
-    Empleo soportes híbridos —tela, lonas publicitarias rasgadas, paneles de PVC y madera erosionada— para subrayar que la crisis ecológica no distingue jerarquías. El choque entre la tradición pictórica, ligada a lo sublime, y los residuos industriales convierte cada obra en un pequeño ecocidio.<br><br>
-    Hay un eco invertido de Just Stop Oil: en lugar de atacar obras ajenas, infecto mi propia producción. Este gesto es una autopsia poética que revela cómo el mercado del arte, con su fetichismo del “original” y su lógica extractiva, perpetúa la misma depredación.<br><br>
-    *Pinturas infectadas* no son cuadros sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella inevitable de un sistema que devora toda pureza.
+    Esta serie traslada la violencia ejercida contra el paisaje natural a lienzos académicos rescatados de mi etapa en el taller de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
+    Empleo soportes híbridos —telas, lonas publicitarias y paneles de PVC— para acentuar la antipatía entre materiales y subrayar que la crisis ecológica no distingue jerarquías. El choque entre lo sublime de la tradición pictórica y la agresividad industrial convierte cada obra en un pequeño ecocidio.<br><br>
+    Invirtiendo el gesto de Just Stop Oil, en lugar de atacar obras ajenas, infecto mi propia producción.<br><br>
+    *Pinturas infectadas* no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
   </p>
 </section>
+
 <br><br>
 
 
@@ -244,10 +253,10 @@ graph LR
 <br><br><br>
 <br><br><br>
 
-<h2 class="subtitulo">Soportes Blandos</h2>
+<h2 class="subtitulo">PINTURAS INFECTADAS: Soportes Blandos</h2>
 
 <section class="parrafo">
-  <p>Estas pinturas se elaboran sobre soportes flexibles como lonas recicladas, telas sintéticas y papel publicitario recuperado. Reflejan la fragilidad ecológica y la cultura visual efímera del consumo masivo. Su maleabilidad permite enrollarlas o doblarlas para facilitar montaje y transporte, aludiendo a la lógica del cartel urbano. Su instalación directa remite al graffiti y street art, acentuando su carácter efímero y móvil.</p>
+  <p>Estas pinturas se elaboran sobre soportes flexibles, telas sintéticas y papel publicitario recuperados. Su maleabilidad permite enrollarlas o doblarlas para facilitar montaje y transporte, aludiendo a la lógica del cartel urbano. Su instalación directa remite al graffiti y street art, acentuando su carácter efímero y móvil.</p>
   
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
 </section>
