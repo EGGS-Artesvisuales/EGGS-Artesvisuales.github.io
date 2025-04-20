@@ -105,7 +105,6 @@ graph LR
 
 <section class="parrafo">
   <p>
-    <strong>Pinturas infectadas: Soportes tradicionales / Producciones</strong><br>
     Obras originales que combinan materiales industriales y residuos publicitarios con técnicas de óleo y acrílico. Este contraste entre la pintura clásica y la saturación visual contemporánea explora el impacto del consumismo en la percepción cotidiana y refleja el estado actual del paisaje.
   </p>
 </section>
@@ -152,26 +151,26 @@ graph LR
 
 <section class="parrafo">
   <p>
-    Esta serie traslada la violencia ejercida contra el paisaje natural a lienzos académicos rescatados de mi etapa en el taller de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
+    Esta serie traslada la violencia ejercida contra el paisaje natural a lienzos académicos rescatados de mi etapa en el taller de pintura de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.<br><br>
     Empleo soportes híbridos —telas, lonas publicitarias y paneles de PVC— para acentuar la antipatía entre materiales y subrayar que la crisis ecológica no distingue jerarquías. El choque entre lo sublime de la tradición pictórica y la agresividad industrial convierte cada obra en un pequeño ecocidio.<br><br>
     Invirtiendo el gesto de Just Stop Oil, en lugar de atacar obras ajenas, infecto mi propia producción.<br><br>
-    *Pinturas infectadas* no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
+    "Pinturas infectadas" no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
   </p>
 </section>
 
-<br><br>
+<br><br><br>
 
 
 <h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06b.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01b.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
   
@@ -181,12 +180,12 @@ graph LR
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-03.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-03b.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-04.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-04b.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
   
@@ -197,10 +196,10 @@ graph LR
 </div>
 <section class="parrafo">
   <p>
-    <strong>Pinturas infectadas: Soportes tradicionales / Producciones #2 (Paisajes de carretera, 2009)</strong><br>
-    Serie de 6 óleos sobre papel adherido a cartón y madera (55,5 × 85,5 cm c/u).<br><br>
-    Documenta la invasión publicitaria en los márgenes de las carreteras chilenas. El soporte integra capas de revistas, catálogos y periódicos, creando una piel textual bajo la pintura. Los óleos se infiltran entre restos de iconografía comercial, sugiriendo que la naturaleza solo existe en los intersticios del consumo.<br><br>
-    La serie culmina con una bandera nacional intervenida con residuos gráficos: síntesis cruda de un territorio colonizado por la publicidad. Esta técnica de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se convierte en un elemento esencial para retratar nuestra época, y el paisaje solo cobra sentido al exhibir su propia infección contemporánea.
+    <strong>Paisajes de Carretera (2009)</strong><br>
+    Serie de 6 óleos sobre paneles de madera tratados con capas de papel adherido (residuos publicitarios que aportan información y, al combinarse con la pintura, generan una estética de peste) (55,5 × 85,5 cm c/u).<br><br>
+    Esta serie se inspira en la tarea de documentar la presencia publicitaria en los márgenes de las carreteras chilenas e interrumpe el paisaje periodicamente: el soporte integra capas de revistas, catálogos y periódicos, formando una piel bajo los óleos, en donde se filtran las iconografías comerciales, sugiriendo que la naturaleza esta interrumpida por los objetos residuos  del consumo.<br><br>
+    La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un territorio colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
   </p>
 </section>
 <br><br>
