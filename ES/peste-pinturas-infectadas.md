@@ -158,7 +158,7 @@ graph LR
   </p>
 </section>
 
-<br><br><br>
+<br><br><br><br>
 
 
 <h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
@@ -190,7 +190,7 @@ graph LR
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05b.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / produccion - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 </div>
@@ -202,7 +202,7 @@ graph LR
     La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un territorio colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
   </p>
 </section>
-<br><br>
+<br><br><br><br>
 
 
 <h4 class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</h4>
@@ -235,7 +235,7 @@ graph LR
     El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Paisajes de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
   </p>
 </section>
-<br><br>
+<br><br><br><br>
 <h4 class="subtitulo2">4. Serie de banderas infectadas- 2008/2025</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -252,13 +252,18 @@ graph LR
 <br><br><br>
 <br><br><br>
 
-<h2 class="subtitulo">PINTURAS INFECTADAS: Soportes Blandos</h2>
+<h2 class="subtitulo">PINTURAS INFECTADAS: SOPORTES BLANDOS</h2>
 
 <section class="parrafo">
-  <p>Estas pinturas se elaboran sobre soportes flexibles, telas sintéticas y papel publicitario recuperados. Su maleabilidad permite enrollarlas o doblarlas para facilitar montaje y transporte, aludiendo a la lógica del cartel urbano. Su instalación directa remite al graffiti y street art, acentuando su carácter efímero y móvil.</p>
-  
+  <p>
+    En la serie de soportes blandos despliego una técnica que une economía de recursos y potencia conceptual. Sustituyo bastidores por telas sintéticas, lonas publicitarias o páginas de papel recuperado, selladas y preparadas con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad permite enrollar y doblar las piezas, facilitando traslado, montaje y almacenaje, mientras evoca la lógica del cartel urbano y la fugacidad del graffiti y el street art al ser instaladase en espacios callejeros.
+  </p>
+  <p>
+    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora de contagio: su blancura desgastada y sus impresiones comerciales simbolizan la saturación visual y la contaminación de la sociedad contemporánea. Cada superficie “infectada” actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
+  </p>
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
 </section>
+<br><br>
 
 <h3 class="subtitulo2">Membranas</h3>
 <figure class="imagen-con-caption">
@@ -266,9 +271,16 @@ graph LR
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
 </figure>
 
-
 <section class="parrafo">
-  <p><strong>Membranas:</strong> tapices flexibles creados mediante collage con papeles de prensa y revistas. Su adaptabilidad permite un diálogo con el espacio expositivo, enfatizando la vulnerabilidad del entorno frente a la sobreproducción mediática.</p>
+  <p>
+    <strong>Membranas:</strong> tapices flexibles creados por collage de papeles de prensa, revistas y carteles. Al pegar capas con cola fría y, a veces, aplicar una base de látex blanco, se forma una superficie resistente que conserva fragmentos del material original, reduciendo su saturación visual. Sobre esta membrana se emplean esmaltes, óleos, acrílicos y tintas para evocar el efecto de peste que caracteriza la serie.
+  </p>
+  <p>
+    Su maleabilidad facilita el plegado, transporte y montaje, y habilita intervenciones en el espacio público, donde las membranas se instalan como carteles urbanos que envejecen y se deterioran. La obra “Mapamundi” ejemplifica este ciclo: desde la instalación en la calle hasta el desgaste natural y la remoción, profundizando el discurso sobre la saturación mediática y la contaminación visual.
+  </p>
+  <p>
+    Las membranas abren nuevas posibilidades formales y conceptuales, ofreciendo un gran formato con materiales reciclados. No obstante, su manejo a una sola pieza puede resultar engorroso, lo que impulsó el desarrollo de la siguiente categoría en soportes blandos: los Módulos.
+  </p>
 </section>
 <br>
 <h4 class="subtitulo2">1. Mapamundi, 2009</h4>
@@ -289,8 +301,26 @@ graph LR
 <h3 class="subtitulo2">Módulos</h3>
 
 <section class="parrafo">
-  <p><strong>Módulos:</strong> composiciones expandibles construidas a partir de páginas individuales de catálogos, revistas o diarios. Se ensamblan en estructuras monumentales que replican la agresividad del lenguaje publicitario y la saturación visual contemporánea. Aunque autónomos, su potencial expresivo se amplifica en conjunto.</p>
+  <p>
+    <strong>Módulos:</strong> composiciones expansibles formadas por páginas individuales de catálogos, revistas o periódicos, ensambladas en estructuras que reproducen la agresividad publicitaria y la saturación visual contemporánea. Aunque cada módulo funciona de manera autónoma, su fuerza expresiva se multiplica en conjunto.
+  </p>
+  <p>
+    Surgidos para mejorar la manejabilidad tras las membranas, los módulos ofrecen:
+  </p>
+  <ul>
+    <li><strong>Flexibilidad de formato:</strong> permitiendo obras de gran escala que se adaptan a distintos espacios.</li>
+    <li><strong>Practicidad:</strong> montaje, traslado y almacenamiento más sencillos al trabajar por unidades.</li>
+    <li><strong>Adaptabilidad:</strong> configuración dimensional y compositiva ajustable, ideal para intervenciones site‑specific.</li>
+    <li><strong>Experimentación compositiva:</strong> posibilidad de ensayar múltiples disposiciones antes de fijar la versión definitiva.</li>
+  </ul>
+  <p>
+    Cada página conserva fragmentos de su impresión original, generando un juego entre lo micro —detalles publicitarios— y lo macro —la imagen global—. Esta fragmentación alude a nuestra percepción digital, donde construimos visiones completas a partir de piezas discretas.
+  </p>
+  <p>
+    La ligereza y modularidad facilitan la instalación en el espacio público: los módulos se disponen como carteles urbanos, fusionando pintura, graffiti y publicidad. De este modo, trascienden el lienzo tradicional y reconfiguran el paisaje cotidiano.
+  </p>
 </section>
+
 
 <h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
 
@@ -310,10 +340,22 @@ graph LR
 <h3 class="subtitulo2">Unidades</h3>
 
 <section class="parrafo">
-  <p><strong>Unidades:</strong> piezas individuales de pequeño formato, trabajadas sobre páginas recicladas intervenidas pictóricamente. Invitan a reflexionar sobre el contraste entre el impacto visual efímero del medio publicitario y la profundidad de la intervención artística.</p>
+  <p>
+    <strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada página se convierte en un microcosmos crítico que contrapone el mensaje comercial y la intervención pictórica.
+  </p>
+  <p>
+    Selecciono cuidadosamente qué áreas conservar y cuáles pintar, generando una tensión visual que subvierte la intención publicitaria. Enmarcadas con vidrio y paspartú, estas obras dialogan con las artes gráficas y ofrecen una experiencia íntima y directa al espectador.
+  </p>
+  <p>Las unidades se organizan en tres series:</p>
+  <ul>
+    <li><strong>Retratos (2019–):</strong> rostros corrompidos por la “peste publicitaria” impresa en el soporte.</li>
+    <li><strong>Bodegones (2024–):</strong> productos cotidianos infectados mediante omisiones selectivas de pintura, cuestionando el consumismo.</li>
+    <li><strong>Paisajes (2019–):</strong> escenas naturales tratadas con la misma lógica de peste y saturación visual.</li>
+  </ul>
 </section>
 
-<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+
+<h4 class="subtitulo2">RETRATOS: 1. Serie sin titulo- 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -327,3 +369,5 @@ graph LR
   </figure>
 </div>
 <br><br><br>
+<h4 class="subtitulo2">PAISAJES: 1. Serie sin titulo- 2008</h4>
+<h4 class="subtitulo2">BODEGONES: 1. Serie sin titulo- 2008</h4>
