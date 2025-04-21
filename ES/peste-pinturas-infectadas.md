@@ -139,12 +139,22 @@ graph LR
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005.jpg" alt="Producción S/T 05, 40 x 50 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005b.jpg" alt="Producción S/T 05, 40 x 50 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 05, 40 x 50 cm, 2008</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006b.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+  </figure>
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-007.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003-1.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 </div>
