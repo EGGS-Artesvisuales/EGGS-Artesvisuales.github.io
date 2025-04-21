@@ -37,7 +37,6 @@ graph LR
   Y --> A[La Saturación]
   A --> B[La Peste]
   A --> X[Lo Invisible]
-
   B --> C[Pinturas Infectadas]
   C --> D[Soportes tradicionales]
   D --> D1[Intervención]
@@ -47,18 +46,18 @@ graph LR
   E --> E2[Módulo]
   E --> E3[Unidad]
 
-  click Z "/es/representacion-del-mundo.html"
-  click Y "/es/lo-tangible.html"
-  click A "/es/saturacion.html"
-  click B "/es/la-peste.html"
-  click C "/es/peste-pinturas-infectadas.html"
-  click D "#soportes-tradicionales"    "Ir a Soportes Tradicionales"
-  click D1 "#intervenciones"           "Ir a Intervenciones"
-  click D2 "#producciones"             "Ir a Producciones"
-  click E "#soportes-blandos"          "Ir a Soportes Blandos"
-  click E1 "#membranas"                "Ir a Membranas"
-  click E2 "#modulos"                  "Ir a Módulos"
-  click E3 "#unidades"                 "Ir a Unidades"
+  click Z "/es/representacion-del-mundo.html"       "Ver Representación del Mundo"
+  click Y "/es/lo-tangible.html"                   "Ver Lo Tangible"
+  click A "/es/saturacion.html"                    "Ver La Saturación"
+  click B "/es/la-peste.html"                      "Ver La Peste"
+  click C "/es/peste-pinturas-infectadas.html"     "Ver Pinturas Infectadas"
+  click D "#soportes-tradicionales"                "Ir a Soportes Tradicionales"
+  click D1 "#intervenciones"                       "Ir a Intervenciones"
+  click D2 "#producciones"                         "Ir a Producciones"
+  click E "#soportes-blandos"                      "Ir a Soportes Blandos"
+  click E1 "#membranas"                            "Ir a Membranas"
+  click E2 "#modulos"                              "Ir a Módulos"
+  click E3 "#unidades"                             "Ir a Unidades"
 </div>
 
 
