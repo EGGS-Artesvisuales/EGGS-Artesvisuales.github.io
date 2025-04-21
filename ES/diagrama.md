@@ -22,68 +22,84 @@ breadcrumbs: >
 
   <!-- 1) Representación del Mundo -->
   <div class="subtitulo">Representación del Mundo</div>
-  <div class="mermaid">
-    graph TD
-      A[Representación del Mundo] --> A1[Lo Tangible]
-      A --> A2[Lo Intangible]
+<div class="mermaid">
+  flowchart TD
+    A["Representación del Mundo"] --> A1["Lo Tangible"]
+    A --> A2["Lo Intangible"]
 
-      A1 --> A1a[La Saturación]
-      A1a --> A1a1[La Peste]
-      A1a1 --> A1a1a[Pinturas Infectadas]
-      A1a1a --> A1a1a1[Soportes tradicionales]
-      A1a1a --> A1a1a2[Soportes Blandos]
-      A1a1 --> A1a1b[Desplazamiento \nde la Pintura]
-      A1a1b --> A1a1b1[Intervenciones\n /Instalaciones]
-      A1a1b --> A1a1b2[Multimedia \n/Video]
-      A1a --> A1a2[Lo Invisible]
-      A1a2 --> A1a2a[Pinturas Wi-Fi]
+    A1 --> A1a["La Saturación"]
+    A1a --> A1a1["La Peste"]
+    A1a1 --> A1a1a["Pinturas Infectadas"]
+    A1a1a --> A1a1a1["Soportes tradicionales"]
+    A1a1a --> A1a1a2["Soportes Blandos"]
 
-      A1 --> A1b[La Tecnología]
-      A1b --> A1b1[La IA]
-      A1b --> A1b2[Lo Espacial]
-      A1b --> A1b3[Telecomunicaciones]
+    %% Desplazamiento ahora hijo de La Peste
+    A1a1 --> A1a1b["Desplazamiento de la Pintura"]
+    A1a1b --> A1a1b1["Intervenciones\n/ Instalaciones"]
+    A1a1b --> A1a1b2["Multimedia\n/ Video"]
 
-      A2 --> A2a[El Capitalismo]
-      A2a --> A2a1[El Colgado]
-      A2a --> A2a2[Mr. Burns]
-      A2a --> A2a3[El Empaquetador\n / Contaminador\n / Contador]
+    %% Hijos de Soportes tradicionales
+    A1a1a1 --> A1a1a1a["Intervenciones"]
+    A1a1a1 --> A1a1a1b["Producciones"]
 
-      A2 --> A2b[Lo Popular]
-      A2b --> A2b1[Esculturas]
-      A2b1 --> A2b1a[Papelucho]
+    %% Hijos de Soportes Blandos
+    A1a1a2 --> A1a1a2a["Membrana"]
+    A1a1a2 --> A1a1a2b["Módulo"]
+    A1a1a2 --> A1a1a2c["Unidad"]
 
-      A2 --> A2c[Lo Ancestral]
-      A2c --> A2c1[Museo a \n Cielo Abierto]
-      A2c --> A2c2[Mapuche Urbano, \n La Tala de la Memoria]
+    A1a --> A1a2["Lo Invisible"]
+    A1a2 --> A1a2a["Pinturas Wi‑Fi"]
 
-      click A "mundo-exterior.html" "Ir a Representación del Mundo"
-      click A1 "tangible.html" "Ir a Lo Tangible"
-      click A1a "/la-saturacion.html" "Ir a La Saturación"
-      click A1a1 "/la-peste.html" "Ir a La Peste"
-      click A1a1a "/pinturas.html" "Ir a Pinturas"
-      click A1a1a1 "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-      click A1a1a2 "/soportes-blandos.html" "Ir a Soportes Blandos"
-      click A1a1b "/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-      click A1a1b1 "/intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
-      click A1a1b2 "/multimedia-video.html" "Ir a Multimedia/Video"
-      click A1a2 "/lo-invisible.html" "Ir a Lo Invisible"
-      click A1a2a "/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
-      click A1b "/la-tecnologia.html" "Ir a La Tecnología"
-      click A1b1 "/la-ia.html" "Ir a La IA"
-      click A1b2 "/lo-espacial.html" "Ir a Lo Espacial"
-      click A1b3 "/telecomunicaciones.html" "Ir a Telecomunicaciones"
-      click A2 "intangible.html" "Ir a Lo Intangible"
-      click A2a "/el-capitalismo.html" "Ir a El Capitalismo"
-      click A2a1 "/el-colgado.html" "Ir a El Colgado"
-      click A2a2 "/mr-burns.html" "Ir a Mr. Burns"
-      click A2a3 "/el-empaquetador.html" "Ir a El Empaquetador"
-      click A2b "/lo-popular.html" "Ir a Lo Popular"
-      click A2b1 "/esculturas.html" "Ir a Esculturas"
-      click A2b1a "/papelucho.html" "Ir a Papelucho"
-      click A2c "/lo-ancestral.html" "Ir a Lo Ancestral"
-      click A2c1 "/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
-      click A2c2 "/mapuche-urbano.html" "Ir a Mapuche Urbano"
-  </div>
+    A1 --> A1b["La Tecnología"]
+    A1b --> A1b1["La IA"]
+    A1b --> A1b2["Lo Espacial"]
+    A1b --> A1b3["Telecomunicaciones"]
+
+    A2 --> A2a["El Capitalismo"]
+    A2a --> A2a1["El Colgado"]
+    A2a --> A2a2["Mr. Burns"]
+    A2a --> A2a3["El Empaquetador\n/ Contaminador\n/ Contador"]
+
+    A2 --> A2b["Lo Popular"]
+    A2b --> A2b1["Esculturas"]
+    A2b1 --> A2b1a["Papelucho"]
+
+    A2 --> A2c["Lo Ancestral"]
+    A2c --> A2c1["Museo a\nCielo Abierto"]
+    A2c --> A2c2["Mapuche Urbano,\nLa Tala de la Memoria"]
+
+    click A    "mundo-exterior.html"                                          "Ir a Representación del Mundo"
+    click A1   "tangible.html"                                                "Ir a Lo Tangible"
+    click A2   "intangible.html"                                              "Ir a Lo Intangible"
+    click A1a  "la-saturacion.html"                                            "Ir a La Saturación"
+    click A1a1 "la-peste.html"                                                 "Ir a La Peste"
+    click A1a1a "pinturas-infectadas.html"                                     "Ir a Pinturas Infectadas"
+    click A1a1a1 "pinturas-infectadas.html#soportes-tradicionales"             "Ir a Soportes Tradicionales"
+    click A1a1a1a "pinturas-infectadas.html#intervenciones"                    "Ir a Intervenciones"
+    click A1a1a1b "pinturas-infectadas.html#producciones"                      "Ir a Producciones"
+    click A1a1a2 "soportes-blandos.html"                                       "Ir a Soportes Blandos"
+    click A1a1a2a "soportes-blandos.html#membranas"                            "Ir a Membranas"
+    click A1a1a2b "soportes-blandos.html#modulos"                              "Ir a Módulos"
+    click A1a1a2c "soportes-blandos.html#unidades"                             "Ir a Unidades"
+    click A1a1b "desplazamiento-pintura.html"                                  "Ir a Desplazamiento de la Pintura"
+    click A1a1b1 "intervenciones-instalaciones.html"                           "Ir a Intervenciones/Instalaciones"
+    click A1a1b2 "multimedia-video.html"                                       "Ir a Multimedia/Video"
+    click A1a2  "lo-invisible.html"                                            "Ir a Lo Invisible"
+    click A1a2a "pinturas-wifi.html"                                           "Ir a Pinturas Wi‑Fi"
+    click A1b   "la-tecnologia.html"                                           "Ir a La Tecnología"
+    click A1b1  "la-ia.html"                                                    "Ir a La IA"
+    click A1b2  "lo-espacial.html"                                              "Ir a Lo Espacial"
+    click A1b3  "telecomunicaciones.html"                                       "Ir a Telecomunicaciones"
+    click A2a   "el-capitalismo.html"                                           "Ir a El Capitalismo"
+    click A2a1  "el-colgado.html"                                               "Ir a El Colgado"
+    click A2a2  "mr-burns.html"                                                  "Ir a Mr. Burns"
+    click A2a3  "el-empaquetador.html"                                          "Ir a El Empaquetador"
+    click A2b   "lo-popular.html"                                               "Ir a Lo Popular"
+    click A2b1  "esculturas.html"                                               "Ir a Esculturas"
+    click A2b1a "papelucho.html"                                                "Ir a Papelucho"
+    click A2c1  "museo-a-cielo-abierto.html"                                    "Ir a Museo a Cielo Abierto"
+    click A2c2  "mapuche-urbano.html"                                           "Ir a Mapuche Urbano"
+</div>
 <br><br><br><br>
   <!-- 2) Acción en el Mundo -->
   <div class="subtitulo">Acción en el Mundo</div>
