@@ -298,46 +298,56 @@ flowchart LR
 <h4 class="subtitulo2">1. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
+  <!-- Array de imágenes optimizado -->
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
   </figure>
-  
+
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
-  </figure>
-  
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-03.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
-  </figure>
-  
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-04b.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02.jpg" 
+         alt="Detalle Mapamundi n°1 – Pintura infectada" loading="lazy">
+    <figcaption><em>Detalle de Mapamundi n°1. Serie: La Saturación / La Peste.</em></figcaption>
   </figure>
 
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-05.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-03.jpg" 
+         alt="Detalle Mapamundi n°1 – Óleo y esmalte sobre papel" loading="lazy">
+    <figcaption><em>Detalle de Mapamundi n°1. Técnica: óleo y esmalte sobre papel.</em></figcaption>
   </figure>
 
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-06.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-04b.jpg" 
+         alt="Mapamundi n°1 – Vista parcial" loading="lazy">
+    <figcaption><em>Vista parcial de Mapamundi n°1. Soporte blando, membrana pictórica.</em></figcaption>
   </figure>
 
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-07.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-05.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, vista lateral" loading="lazy">
+    <figcaption><em>Mapamundi n°1 desde vista lateral. Pertenece a la serie 'Pinturas Infectadas'.</em></figcaption>
   </figure>
 
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-06.jpg" 
+         alt="Mapamundi n°1 – Detalle técnico" loading="lazy">
+    <figcaption><em>Detalle técnico del soporte blando. Serie La Peste / La Saturación.</em></figcaption>
+  </figure>
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-07.jpg" 
+         alt="Detalle compositivo – Mapamundi n°1" loading="lazy">
+    <figcaption><em>Fragmento compositivo de Mapamundi n°1. Técnica mixta en papel.</em></figcaption>
+  </figure>
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
   </figure>
 </div>
+
 <br><br><br>
 
 <h3 class="subtitulo2" id="modulos">SOPORTES BLANDOS, 2. Módulos</h3>
