@@ -23,7 +23,7 @@ breadcrumbs: >
 <!-- Representación del Mundo -->
 <div class="subtitulo">Representación del Mundo</div>
 <div class="mermaid">
-graph TD
+graph LR
   A[Representación del Mundo] --> A1[Lo Tangible]
   A --> A2[Lo Intangible]
 
