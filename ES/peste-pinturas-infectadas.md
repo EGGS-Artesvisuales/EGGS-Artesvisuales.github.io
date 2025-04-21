@@ -299,13 +299,43 @@ flowchart LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/imgpinturainfectada-sop-blando-membr-mapa02.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
   </figure>
   
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/imgpinturainfectada-sop-blando-membr-mapa01.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1, 120 x 440 cm, 2008</em></figcaption>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+  
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-03.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+  
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-04b.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-05.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-06.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-07.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
+  </figure>
+
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" alt="La Saturación / La Peste, pinturas - soporte blando - membranas - mapamundi" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / membrana / mapamundi - n°1. Óleo y esmalte sobre papel, 120 x 440 cm, 2008</em></figcaption>
   </figure>
 </div>
 <br><br><br>
