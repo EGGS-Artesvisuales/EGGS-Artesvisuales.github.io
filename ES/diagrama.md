@@ -29,8 +29,8 @@ breadcrumbs: >
 
       A1 --> A1a[La Saturación]
       A1a --> A1a1[La Peste]
-      A1a1 --> A1a1a[Pinturas]
-      A1a1a --> A1a1a1[Pinturas Infectadas]
+      A1a1 --> A1a1a[Pinturas Infectadas]
+      A1a1a --> A1a1a1[Soportes tradicionales]
       A1a1a --> A1a1a2[Soportes Blandos]
       A1a1 --> A1a1b[Desplazamiento \nde la Pintura]
       A1a1b --> A1a1b1[Intervenciones\n /Instalaciones]
