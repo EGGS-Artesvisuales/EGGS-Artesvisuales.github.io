@@ -30,36 +30,35 @@ carousel: true
 
   <p>El corpus se divide en dos líneas: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), que exploran cómo los residuos transforman la pintura académica; y 2) <em>Soportes Blandos</em>, en los que el soporte ya es residuo, y su materialidad determina la solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse con materiales ajenos a su tradición.</p>
 </section>
-
+<br>
 <div class="mermaid">
-graph LR
-  Z[Representación del Mundo] --> Y[Lo Tangible]
-  Y --> A[La Saturación]
-  A --> B[La Peste]
-  A --> X[Lo Invisible]
-  B --> C[Pinturas Infectadas]
-  C --> D[Soportes tradicionales]
-  D --> D1[Intervención]
-  D --> D2[Producción]
-  C --> E[Soportes Blandos]
-  E --> E1[Membrana]
-  E --> E2[Módulo]
-  E --> E3[Unidad]
+flowchart LR
+  Z["Representación del Mundo"] --> Y["Lo Tangible"]
+  Y --> A["La Saturación"]
+  A --> B["La Peste"]
+  A --> X["Lo Invisible"]
+  B --> C["Pinturas Infectadas"]
+  C --> D["Soportes tradicionales"]
+  D --> D1["Intervención"]
+  D --> D2["Producción"]
+  C --> E["Soportes Blandos"]
+  E --> E1["Membrana"]
+  E --> E2["Módulo"]
+  E --> E3["Unidad"]
 
-  click Z "/es/representacion-del-mundo.html"       "Ver Representación del Mundo"
-  click Y "/es/lo-tangible.html"                   "Ver Lo Tangible"
-  click A "/es/saturacion.html"                    "Ver La Saturación"
-  click B "/es/la-peste.html"                      "Ver La Peste"
-  click C "/es/peste-pinturas-infectadas.html"     "Ver Pinturas Infectadas"
-  click D "#soportes-tradicionales"                "Ir a Soportes Tradicionales"
-  click D1 "#intervenciones"                       "Ir a Intervenciones"
-  click D2 "#producciones"                         "Ir a Producciones"
-  click E "#soportes-blandos"                      "Ir a Soportes Blandos"
-  click E1 "#membranas"                            "Ir a Membranas"
-  click E2 "#modulos"                              "Ir a Módulos"
-  click E3 "#unidades"                             "Ir a Unidades"
+  click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
+  click Y "/es/lo-tangible.html" "Ver Lo Tangible"
+  click A "/es/saturacion.html" "Ver La Saturación"
+  click B "/es/la-peste.html" "Ver La Peste"
+  click C "/es/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+  click D "#soportes-tradicionales" "Ir a Soportes Tradicionales"
+  click D1 "#intervenciones" "Ir a Intervenciones"
+  click D2 "#producciones" "Ir a Producciones"
+  click E "#soportes-blandos" "Ir a Soportes Blandos"
+  click E1 "#membranas" "Ir a Membranas"
+  click E2 "#modulos" "Ir a Módulos"
+  click E3 "#unidades" "Ir a Unidades"
 </div>
-
 
 <br><br>
 
