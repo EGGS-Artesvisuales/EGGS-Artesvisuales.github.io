@@ -33,35 +33,35 @@ mermaid: true
 <br><br><br>
 
 <div class="mermaid">
-graph LR
-  A[La Saturación] --> B[La Peste]
-  B --> C[Pinturas Infectadas]
-  C --> D[Soportes tradicionales]
-  D --> D1[Intervención]
-  D --> D2[Producción]
-  C --> E[Soportes Blandos]
-  E --> E1[Membrana]
-  E --> E2[Módulo]
-  E --> E3[Unidad]
-  B --> F[Desplazamiento de la Pintura]
-  F --> G[Espacios Domésticos]
-  F --> H[Espacio Público]
-  F --> I[Espacios Naturales y Rurales]
+flowchart LR
+  A["La Saturación"] --> B["La Peste"]
+  B --> C["Pinturas Infectadas"]
+  C --> D["Soportes tradicionales"]
+  D --> D1["Intervención"]
+  D --> D2["Producción"]
+  C --> E["Soportes Blandos"]
+  E --> E1["Membrana"]
+  E --> E2["Módulo"]
+  E --> E3["Unidad"]
+  B --> F["Desplazamiento de la Pintura"]
+  F --> G["Espacios Domésticos"]
+  F --> H["Espacio Público"]
+  F --> I["Espacios Naturales y Rurales"]
 
-  click A "/es/saturacion.html"
-  click B "/es/la-peste.html"
-  click C "/es/peste-pinturas-infectadas.html"
-  click D "/es/pinturas-infectadas.html"
-  click D1 "/es/intervenciones.html"
-  click D2 "/es/produccion.html"
-  click E "/es/soportes-blandos.html"
-  click E1 "/es/membrana.html"
-  click E2 "/es/modulo.html"
-  click E3 "/es/unidad.html"
-  click F "/es/desplazamiento-pintura.html"
-  click G "/es/espacios-domesticos.html"
-  click H "/es/espacio-publico.html"
-  click I "/es/espacios-naturales.html"
+  click A "/es/saturacion.html"                  "Ver La Saturación"
+  click B "/es/la-peste.html"                    "Ver La Peste"
+  click C "/es/peste-pinturas-infectadas.html"   "Ver Pinturas Infectadas"
+  click D "/es/pinturas-infectadas.html"         "Ver Soportes Tradicionales"
+  click D1 "/es/intervenciones.html"             "Ver Intervenciones"
+  click D2 "/es/produccion.html"                 "Ver Producciones"
+  click E "/es/soportes-blandos.html"             "Ver Soportes Blandos"
+  click E1 "/es/membrana.html"                   "Ver Membranas"
+  click E2 "/es/modulo.html"                     "Ver Módulos"
+  click E3 "/es/unidad.html"                     "Ver Unidades"
+  click F "/es/desplazamiento-pintura.html"      "Ver Desplazamiento de la Pintura"
+  click G "/es/espacios-domesticos.html"         "Ver Espacios Domésticos"
+  click H "/es/espacio-publico.html"             "Ver Espacio Público"
+  click I "/es/espacios-naturales.html"          "Ver Espacios Naturales y Rurales"
 </div>
 <br><br><br><br><br>
 
