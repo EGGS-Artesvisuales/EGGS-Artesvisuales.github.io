@@ -13,8 +13,8 @@ carousel: true
 <br>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---pintura02.jpg" alt="pintura con técnica mixta mostrando erosión y elementos contaminantes - bandera de chile" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie de banderas infectadas, S/T n°1, óleo y papel sobre tabla, 65 x 85 cm, 2008</figcaption>
+  <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie S/T, óleo y plasticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
 </figure>
 <br>
 <section class="parrafo">
@@ -255,28 +255,33 @@ flowchart LR
    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
   </figure>
 </div>
-<br><br><br>
-<br><br><br>
-
-<h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS: SOPORTES BLANDOS</h2>
-
 <section class="parrafo">
   <p>
-    En la serie de soportes blandos es una solucion técnicas que une economía de recursos y potencia conceptual. Sustituyo bastidores por telas sintéticas, lonas y papel publicitario recuperado, que luego son selladas y preparadas con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando traslado, montaje y almacenaje. esto luego me permitira hacer avidenciar cruces entre la lógica del cartel urbano y el graffiti, la publicidad y la pintura y el street art al ser instaladase en espacios callejeros.
+     Serie de banderas infectadas, como síntesis del territorio. Óleo sobre papel de periódico adherido a paneles de cartón y madera. <br><br>
+  El soporte, preparado como en la serie Paisajes de carretera, deja entrever fragmentos tipográficos entre las capas de pintura, produciendo el efecto de "peste" que caracteriza toda la serie.
+  </p>
+</section>
+<br><br><br>
+<br><br><br>
+
+<h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS <br> SOPORTES BLANDOS</h2>
+<section class="parrafo">
+  <p>
+    La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en espacios callejeros.
   </p>
   <p>
-    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora de contagio y su eleccionamterial ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación visual y la contaminación de la sociedad contemporánea las cuales luego son usadas como soporte de mis pinturas. la pintura es aplicada de tal manera que puedo incorporar los elementos impresos en os soportes de papel publicitario. me interesa crear la interrupcion de la apreciacion de lo representado. , la peste de la satuarcion. Cada superficie “infectada” actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
+    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora del contagio y su elección material ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación visual y la contaminación de la sociedad contemporánea, las cuales luego son utilizadas como soporte de mis pinturas. La pintura es aplicada de tal manera que puedo incorporar los elementos impresos en los soportes de papel publicitario. Me interesa crear la interrupción en la apreciación de lo representado, la peste de la saturación. Cada superficie "infectada" actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
   </p>
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
   <ul>
-    <li><strong>1. Membranas:</strong></li>
-    <li><strong>2. Módulos:</strong></li>
-    <li><strong>3. Unidad/Página:</strong></li>
+    <li><strong>1. Membranas</strong></li>
+    <li><strong>2. Módulos</strong></li>
+    <li><strong>3. Unidades</strong></li>
   </ul>
 </section>
 <br><br>
 
-<h3 class="subtitulo2" id="membranas">SOPORTES BLANDOS, 1. Membranas</h3>
+<h3 class="subtitulo2" id="membranas">PINTURAS INFECTADAS / SOPORTES BLANDOS, <br> 1. Membranas</h3>
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
@@ -284,21 +289,21 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    <strong>Membranas:</strong> tapices flexibles conformados por collage de papeles de prensa, revistas y carteles. Mediante la aplicación sucesiva de capas con cola fría y, en ocasiones, una imprimación de látex blanco, se obtiene una superficie resistente que conserva fragmentos del material original e integra su saturación visual. Sobre esta membrana se aplican esmaltes, óleos, acrílicos y tintas para evocar el carácter “peste” en estos soportes que define la serie.
+    Las pinturas sobre soportes blandos clasificadas como <strong>Membranas</strong> consisten en tapices flexibles elaborados mediante collage de papel prensa, revistas y carteles urbanos. A través de capas sucesivas de cola fría y, ocasionalmente, una imprimación de látex blanco, se genera una superficie resistente que conserva fragmentos originales, integrando y resaltando la saturación visual del material inicial. Sobre esta membrana se aplican técnicas mixtas, como esmaltes, óleos, acrílicos y tintas, evocando el concepto de "peste" visual que caracteriza esta serie.
   </p>
   <p>
-    Su gran maleabilidad facilita el plegado, transporte y montaje, habilitando intervenciones en el espacio público y permitiendo escalar las obras más allá del formato de caballete. Al tratarse de un material muy flexible, es posible producirlas en fragmentos o etapas, sin requerir un taller de gran dimensiones. Esta característica impulsa la instalación directa en la vía pública, estableciendo un diálogo con los carteles urbanos que envejecen y se deterioran. La obra “Mapamundi” ilustra este ciclo: desde su colocación en la calle hasta el desgaste natural y la remoción, profundizando el discurso sobre la saturación mediática y la contaminación visual.
+    Su flexibilidad permite un fácil plegado, transporte y montaje, favoreciendo la intervención en espacios públicos y superando las limitaciones del formato tradicional de caballete. Al tratarse de un material altamente adaptable, puede realizarse en fragmentos o etapas sucesivas, lo que reduce la necesidad de contar con un taller amplio. Esta cualidad facilita su instalación directa en contextos urbanos, dialogando con los carteles públicos en deterioro. La obra "Mapamundi" ejemplifica este ciclo: desde su colocación inicial hasta su desgaste natural y eventual retiro, profundizando así en el discurso sobre la saturación mediática y la contaminación visual contemporánea.
   </p>
   <p>
-    Las membranas abren nuevas posibilidades formales y conceptuales, al ofrecer gran formato con materiales reciclados. Sin embargo, su manejo en una sola pieza puede resultar engorroso, lo que motivó el desarrollo de la siguiente categoría de soportes blandos: los <strong>Módulos</strong> y luego a <strong>Unidad</strong>, subtipos de soportes blandos.
+    Las membranas amplían las posibilidades formales y conceptuales al permitir la creación de obras de gran formato utilizando materiales reciclados. Sin embargo, el manejo de piezas únicas de gran dimensión puede resultar complejo, lo que dio origen al desarrollo de otras categorías dentro de los soportes blandos: los <strong>Módulos</strong> y, posteriormente, la <strong>Unidad</strong>, ofreciendo formatos más prácticos y accesibles.
   </p>
 </section>
+<br>
 <br>
 
 <h4 class="subtitulo2">1. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
-  <!-- Array de imágenes optimizado -->
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
          alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
@@ -347,65 +352,260 @@ flowchart LR
     <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
   </figure>
 </div>
+<section class="parrafo"><p><strong>Mapamundi</strong> es una obra elaborada con esmalte sintético y óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones de 400 cm de ancho por 130 cm de alto. Esta pintura en soporte blando, similar a tapices flexibles formados por collage de papel prensa, revistas y carteles urbanos, fue concebida para su instalación en espacios públicos de La Florida, Santiago de Chile. Sobre esta superficie se emplearon técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando mi exploración previa del paisaje. Este tránsito artístico va desde representaciones del cuerpo y el paisaje hasta imágenes de banderas y mapas, buscando captar la totalidad abstracta del territorio y manifestar el fenómeno global y profundamente penetrante de la saturación visual.</p><br>
+  
+  <p>En <strong>Mapamundi</strong> replico conscientemente el ciclo del cartel publicitario urbano: el papel es inicialmente instalado en muros callejeros, sometido al deterioro natural provocado por la intemperie, y termina convertido en residuo. Esta obra fue instalada utilizando engrudo para iniciar deliberadamente su proceso de desgaste. Posteriormente, realicé una acción performática al limpiar personalmente el muro vestido como trabajador urbano—con casco y guantes—transformando la obra en este acto simbólico de borrado, en clara referencia al "Erased de Kooning Drawing" de Robert Rauschenberg. De este modo, la instalación en la vía pública de La Florida integra el soporte blando como herramienta conceptual, permitiendo a la obra desplazarse desde la representación pictórica hacia la intervención urbana y la performance, y explorando diversas dimensiones del fenómeno contemporáneo de saturación visual y contaminación.</p></section>
+  
+  <br><br>
+  
+<h4 class="subtitulo2">2. Mapamundi n°2, 2009</h4>
 
-<br><br><br>
-
-<h3 class="subtitulo2" id="modulos">SOPORTES BLANDOS, 2. Módulos</h3>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg" alt="Pintura con técnica mixta mostrando erosión y elementos contaminantes - Mapamundi" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético y óleo sobre papel encolado, 130 x 410 cm, 2008</figcaption>
+</figure>
 
 <section class="parrafo">
   <p>
-    <strong>Módulos:</strong> composiciones expansibles formadas por páginas individuales de catálogos, revistas o periódicos, ensambladas en estructuras que reproducen la agresividad publicitaria y la saturación visual contemporánea. Aunque cada módulo funciona de manera autónoma, su fuerza expresiva se multiplica en conjunto.
+    <strong>Mapamundi n°2</strong> es una obra elaborada con esmalte sintético y óleo sobre papel encolado, reciclado de residuos de revistas y catálogos couché, con dimensiones de 410 cm de ancho por 130 cm de alto. Este soporte blando, semejante a tapices flexibles realizados mediante collage de papel prensa, revistas y carteles urbanos, surge de una investigación artística interdisciplinaria que incorpora influencias del grafiti, la pintura híbrida, el cartelismo y diversos formatos gráficos y publicitarios urbanos. La elección de estos soportes blandos responde a la intención de ampliar las dimensiones tradicionales, en diálogo directo con las gigantografías publicitarias presentes en ciudades y caminos.
   </p>
   <p>
-    Surgidos para mejorar la manejabilidad tras las membranas, los módulos ofrecen:
-  </p>
-  <ul>
-    <li><strong>Flexibilidad de formato:</strong> permitiendo obras de gran escala que se adaptan a distintos espacios.</li>
-    <li><strong>Practicidad:</strong> montaje, traslado y almacenamiento más sencillos al trabajar por unidades.</li>
-    <li><strong>Adaptabilidad:</strong> configuración dimensional y compositiva ajustable, ideal para intervenciones site‑specific.</li>
-    <li><strong>Experimentación compositiva:</strong> posibilidad de ensayar múltiples disposiciones antes de fijar la versión definitiva.</li>
-  </ul>
-  <p>
-    Cada página conserva fragmentos de su impresión original, generando un juego entre lo micro —detalles publicitarios— y lo macro —la imagen global—. Esta fragmentación alude a nuestra percepción digital, donde construimos visiones completas a partir de piezas discretas.
+    El aumento significativo en tamaño facilita su instalación en espacios públicos, enfatizando la conexión conceptual con prácticas artísticas callejeras, como el grafiti, el muralismo y la publicidad urbana. Técnicamente, la obra explora contrastes visuales mediante la aplicación de esmaltes, óleos, acrílicos y tintas, jugando con dualidades opuestas como lo opaco y terroso frente a lo brillante y azulado del esmalte, evocando tierra y mar respectivamente.
   </p>
   <p>
-    La ligereza y modularidad facilitan la instalación en el espacio público: los módulos se disponen como carteles urbanos, fusionando pintura, graffiti y publicidad. De este modo, trascienden el lienzo tradicional y reconfiguran el paisaje cotidiano.
+    <strong>Mapamundi n°2</strong> ya no existe como objeto físico, evidenciando así su naturaleza efímera y enfatizando mi postura sobre la temporalidad del arte y los objetos artísticos. A través de este enfoque, la obra busca captar una abstracción territorial completa, manifestando críticamente el fenómeno global y omnipresente de saturación visual y contaminación contemporánea.
   </p>
 </section>
+<br><br><br>
 
+<h3 class="subtitulo2" id="modulos">
+  PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
+  2. Módulos
+</h3>
 
-<h4 class="subtitulo2">1. Serie sin titulo- 2008</h4>
+<section class="parrafo">
+  <p>
+    <strong>Módulos:</strong> composiciones expansibles creadas a partir de páginas sueltas de catálogos, revistas o periódicos, ensambladas en estructuras que evocan el impacto de la publicidad urbana y su sobresaturación visual. Cada módulo funciona de manera independiente, pero al agruparse configuran una imagen monumental que iguala o supera las dimensiones de los anuncios en el paisaje urbano.
+  </p>
+  <p>
+    Esta organización modular surge como evolución de mi exploración con papel de prensa. Tras enfrentar la dificultad de manejar grandes membranas —grandes piezas continuas de una sola unidad—, descubrí en el diseño modular una solución eficaz. Cada módulo se concibe como un fragmento autónomo que, en conjunto, construye una obra de gran formato.
+  </p>
+
+  <p>Con este método obtengo varias ventajas:</p>
+  <ul>
+    <li><strong>Flexibilidad de formato:</strong> permite superar restricciones espaciales y logísticas.</li>
+    <li><strong>Practicidad:</strong> facilita el montaje, traslado y almacenaje al poder plegar las piezas.</li>
+    <li><strong>Adaptabilidad:</strong> posibilita ajustar dimensiones y configuraciones, ideal para instalaciones site‑specific.</li>
+    <li><strong>Experimentación compositiva:</strong> ofrece la libertad de ensayar distintas disposiciones antes de la versión definitiva.</li>
+  </ul>
+
+  <p>
+    Conceptualmente, estos módulos funcionan como metáfora de la fragmentación perceptual en la era digital. Cada fragmento conserva vestigios de su contenido original, generando un juego entre lo micro y lo macro. Esto invita a una doble lectura: la observación detallada de cada unidad y la apreciación de la imagen global desde la distancia.
+  </p>
+
+  <p>
+    En cada página decido conscientemente dónde intervenir y dónde respetar la impronta original del material impreso, dando forma a la estética distintiva de <em>La Peste</em> que caracteriza esta serie.
+  </p>
+
+  <p>
+    Al igual que las membranas, la ligereza y modularidad de estas obras amplían sus posibilidades de interacción con el espacio público. Instaladas en muros urbanos, evocan carteles publicitarios de gran formato y establecen un diálogo entre arte, grafiti y publicidad, desafiando las convenciones expositivas tradicionales.
+  </p>
+</section>
+<br><br>
+<h4 class="subtitulo2">1. Cordillera, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
   </figure>
-  
-  <figure class="imagen-con-caption item--imagen">
-  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
   </figure>
 </div>
-<br><br><br>
+<section class="parrafo">
+  <p>
+    <strong>Cordillera</strong>, 2008. Óleo sobre 84 páginas de la revista <em>Sábado</em> (suplemento de <em>El Mercurio</em>), dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.
+  </p>
+  <p>
+    <em>Cordillera</em> constituye la primera obra pictórica cuyo soporte se compone exclusivamente de páginas homogéneas. Cada unidad funciona simultáneamente como módulo autónomo y fragmento de una imagen de mayor escala, sustituyendo el pliegue característico de obras anteriores por una fragmentación modular que permite ampliar dimensiones sin las limitaciones del espacio de taller. Esta estructura facilita, además, el plegado de la pintura al tamaño de los módulos individuales, optimizando su montaje, traslado y conservación.
+  </p>
+  <p>
+    La composición parte de un registro fotográfico de la vista este desde mi taller, reencuadrado estratégicamente para superponer elementos publicitarios frente al macizo cordillerano. Este motivo retoma la tensión dialéctica entre paisaje, publicidad y contaminación explorada desde mis primeras series, confrontando lo natural con lo artificial en un diálogo visual contemporáneo.
+  </p>
+  <p>
+    A diferencia de la estética de "peste" característica de trabajos previos —donde coexistían dos lógicas espaciales diferenciadas—, en esta pieza predomina un tratamiento realista del espacio, buscando establecer un vínculo de verosimilitud con la experiencia perceptiva. Se preservó deliberadamente la superficie impresa en las zonas publicitarias, manteniendo su impronta original como elemento conceptual.
+  </p>
+  <p>
+    En su fase inicial, la pintura fue instalada en diversos muros para ensayos de registro (condiciones lumínicas, encuadre) y debido a circunstancias contextuales (confrontaciones vecinales, características estructurales del soporte mural). La utilización de cinta de enmascarar de doble contacto permitió su adhesión temporal y posterior remoción sin deterioro. Un año después, con la colaboración técnica de Javiera Asenjo, la obra fue adherida mediante engrudo a un muro público, asumiendo plenamente su condición de intervención urbana efímera. Esta acción —que integra pintura, publicidad, práctica gráfica urbana y performance— sacrifica la materialidad objetual en favor de una expansión de los procesos conceptuales, experiencia metodológica que se replicaría posteriormente en piezas como <em>Mapamundi</em>.
+  </p>
+  <p>
+    El emplazamiento seleccionado, un muro de ladrillo fiscal en estado de deterioro avanzado, se sitúa en calle Virginia (sin intervención vial), en proximidad a la estación San Joaquín del sistema metropolitano de transporte, en su intersección con Avenida Vicuña Mackenna sector poniente. Adyacente a zonas de acumulación periódica de residuos, la pieza estableció un diálogo contextual con un entorno urbano en proceso de transformación continua.
+  </p>
+  <p>
+    El formato de gran escala enfatiza la conexión con prácticas de intervención urbana —grafiti, expresión mural y comunicación publicitaria—, mientras que la aproximación técnica explora contrastes cromáticos y texturales mediante la combinación de esmaltes sintéticos, óleos, acrílicos y tintas gráficas. La dualidad material (lo opaco y terroso contrapuesto a lo brillante y azulado) genera una evocación simbólica de los elementos primordiales: tierra y agua.
+  </p>
+  <p>
+    <strong>Cordillera</strong> ha dejado de existir como entidad física, evidenciando su naturaleza transitoria y mi investigación en torno a la temporalidad en las prácticas artísticas contemporáneas. A través de esta condición efímera, la obra propone una abstracción territorial integral y una reflexión crítica sobre los fenómenos de saturación visual y contaminación característicos de nuestra contemporaneidad.
+  </p>
+</section>
 
-<h3 class="subtitulo2" id="unidades">SOPORTES BLANDOS, 3. Unidades</h3>
+<br><br>
+<h4 class="subtitulo2">2. Gran paisaje n°1, 2010</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+  </figure>
+</div>
+<section class="parrafo">
+  <p>
+    <strong>Gran paisaje de carretera</strong>, 2010.<br>
+    Óleo sobre 140 páginas de catálogo (supermercado Jumbo), dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
+  </p>
+
+  <p>
+    La obra emplea por primera vez formatos monumentales equivalentes a la publicidad urbana. La técnica desarrolla investigaciones previas sobre soportes fragmentados iniciadas en series anteriores.
+  </p>
+
+  <p>
+    La composición aborda la mediación publicitaria en el paisaje, aplicando la técnica de "peste" explorada en <em>Cordillera</em>: la pintura se limita exclusivamente a los intersticios entre los elementos promocionales del catálogo.
+  </p>
+
+  <p>
+    La imagen base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.
+  </p>
+
+  <p>
+    Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental en obras de artistas como Roberto Matta o Pablo Picasso.
+  </p>
+
+  <p>
+    Exhibiciones: Sala Juan Egenau (Facultad de Artes Visuales, Universidad de Chile, marzo 2010) e intersección de Av. Macul con Av. Américo Vespucio (espacio público, enero 2010).
+  </p>
+</section>
+<br><br>
+<h4 class="subtitulo2">3. Gran paisaje n°2, 2014</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+  </figure>
+</div>
+<section class="parrafo">
+  <p>
+    <strong>Gran paisaje n°2</strong>, 2010. Acrílico sobre 140 páginas de periódicos <em>La Tercera</em>, dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
+  </p>
+
+  <p>
+    Comparte formato con su “hermana” <em>Gran paisaje n°1</em>, pero no es gemela: esta vez el soporte proviene de secciones de periódico del mismo tamaño que aquellos suplementos de Jumbo.
+  </p>
+
+  <p>
+    El motivo es una vista desde mi taller hacia la cordillera, con los tejados de los vecinos en primer plano. Me fascina cómo la luz y la atmósfera cambian día a día, aportando variaciones constantes al paisaje.
+  </p>
+
+  <p>
+    Retomo la estética de “peste” al pintar únicamente en los intersticios que quedan entre las imágenes impresas. Así, los fragmentos sin intervención funcionan como imperfecciones intencionales que distorsionan y suspenden la lectura habitual de la escena.
+  </p>
+
+  <p>
+    Al asumir dimensiones publicitarias –4 m de alto por 7,5 m de ancho–, la obra se sitúa en el espacio urbano y dialoga con el entorno de gigantografías y carteles callejeros.
+  </p>
+
+  <p>
+    <strong>Gran paisaje n°2</strong> propone, a través de su gran escala y su proceso fragmentario, una reflexión sobre la percepción y la saturación visual en el paisaje contemporáneo.
+  </p>
+</section>
+
+<br><br>
+<h4 class="subtitulo2">4. Paisaje urbano, 2010</h4>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+  </figure>
+</div>
+<section class="parrafo">
+  <p>
+    <strong>Paisaje Urbano</strong>, 2010.<br>
+    Óleo sobre 25 páginas de periódico (<em>La Tercera</em>), dispuestas ortogonalmente en 5 columnas de 5 páginas cada una. Dimensiones: 210 × 290 cm.
+  </p>
+
+  <p>
+    La obra sintetiza técnicas desarrolladas en <em>Cordillera</em> y <em>Gran paisaje de carretera</em>: mantiene intactas las zonas publicitarias del soporte y aplica la estética de "peste" mediante intersticios no pintados entre los recortes periodísticos.
+  </p>
+
+  <p>
+    El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.
+  </p>
+
+  <p>
+    La imagen base procede de documentación fotográfica del sector comercial de Plaza Vespucio (intersección de Vicuña Mackenna con Américo Vespucio, La Florida), locación relevante en mi trayectoria.
+  </p>
+</section>
+
+<h3 class="subtitulo2" id="modulos">
+  PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
+  3. Unidades
+</h3>
 
 <section class="parrafo">
   <p>
-    <strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada página se convierte en un microcosmos crítico que contrapone el mensaje comercial y la intervención pictórica.
+    <strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada unidad funciona como un microcosmos crítico, contraponiendo el mensaje comercial a la intervención pictórica.
   </p>
+
   <p>
-    Selecciono cuidadosamente qué áreas conservar y cuáles pintar, generando una tensión visual que subvierte la intención publicitaria. Enmarcadas con vidrio y paspartú, estas obras dialogan con las artes gráficas y ofrecen una experiencia íntima y directa al espectador.
+    En esta serie, cada obra utiliza una sola página extraída del material publicitario, recontextualizada para generar una tensión entre su propósito original y su nueva función como obra de arte crítica. Este enfoque preserva la integridad física del soporte y lo transforma en un vehículo de reflexión.
   </p>
-  <p>Las unidades se organizan en tres series:</p>
+
+  <p>
+    La elección de trabajar con formato reducido responde a mi búsqueda de soportes efectivos, livianos y sintéticos. Cada página-unidad se convierte en un fragmento autónomo de información comercial que, a través de mi intervención estratégica, subvierte la intención original del mensaje y crea una yuxtaposición entre lo superficial y lo profundo.
+  </p>
+
+  <p>
+    Exhibidas enmarcadas tras vidrio y paspartú, estas piezas dialogan con las artes gráficas y ofrecen una experiencia íntima: invitan al espectador a una contemplación cercana y personal, estableciendo una conexión directa con la obra.
+  </p>
+
+  <p>
+    Mi intervención es meticulosa: selecciono cuidadosamente las áreas a intervenir y las que conservo intactas, configurando un complejo diálogo visual entre el soporte impreso y mi narrativa pictórica. Cada unidad puede existir de forma independiente o integrarse en instalaciones mayores, ampliando las posibilidades de montaje y lectura.
+  </p>
+
+  <p>
+    Con este trabajo elevo el material publicitario desechable a la categoría de arte reflexivo, invitando al público a reconsiderar su relación con los objetos cotidianos y la omnipresencia de la publicidad.
+  </p>
+
+  <p>Las unidades se organizan en tres series principales:</p>
   <ul>
-    <li><strong>Retratos (2019–):</strong> rostros corrompidos por la “peste publicitaria” impresa en el soporte.</li>
-    <li><strong>Bodegones (2024–):</strong> productos cotidianos infectados mediante omisiones selectivas de pintura, cuestionando el consumismo.</li>
-    <li><strong>Paisajes (2019–):</strong> escenas naturales tratadas con la misma lógica de peste y saturación visual.</li>
+    <li><strong>Retratos (2019–):</strong> rostros intervenidos por la “peste publicitaria” impresa en el soporte.</li>
+    <li><strong>Bodegones (2024–):</strong> productos cotidianos reinterpretados y “infectados” mediante omisiones selectivas de pintura.</li>
+    <li><strong>Paisajes (2019–):</strong> escenas naturales tratadas con la estética de la “peste”, resaltando la saturación visual.</li>
   </ul>
 </section>
-
 
 <h4 class="subtitulo2">RETRATOS: 1. Serie sin titulo- 2008</h4>
 
@@ -422,4 +622,28 @@ flowchart LR
 </div>
 <br><br><br>
 <h4 class="subtitulo2">PAISAJES: 1. Serie sin titulo- 2008</h4>
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
 <h4 class="subtitulo2">BODEGONES: 1. Serie sin titulo- 2008</h4>
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+  </figure>
+  
+  <figure class="imagen-con-caption item--imagen">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
