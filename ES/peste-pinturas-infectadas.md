@@ -52,20 +52,21 @@ graph LR
   click A "/es/saturacion.html"
   click B "/es/la-peste.html"
   click C "/es/peste-pinturas-infectadas.html"
-  click D "/es/pinturas-infectadas.html"
-  click D1 "/es/intervenciones.html"
-  click D2 "/es/produccion.html"
-  click E "/es/soportes-blandos.html"
-  click E1 "/es/membrana.html"
-  click E2 "/es/modulo.html"
-  click E3 "/es/unidad.html"
+  click D "#soportes-tradicionales"    "Ir a Soportes Tradicionales"
+  click D1 "#intervenciones"           "Ir a Intervenciones"
+  click D2 "#producciones"             "Ir a Producciones"
+  click E "#soportes-blandos"          "Ir a Soportes Blandos"
+  click E1 "#membranas"                "Ir a Membranas"
+  click E2 "#modulos"                  "Ir a Módulos"
+  click E3 "#unidades"                 "Ir a Unidades"
 </div>
+
 
 <br><br>
 
-<h2 class="subtitulo">PINTURAS INFECTADAS: SOPORTES TRADICIONALES</h2>
+<h2 class="subtitulo" id="soportes-tradicionales">PINTURAS INFECTADAS: SOPORTES TRADICIONALES</h2>
 
-<h3 class="subtitulo2">A. INTERVENCIONES</h3>
+<h3 class="subtitulo2" id="intervenciones">A. INTERVENCIONES</h3>
 
 <section class="parrafo">
   <p>
@@ -100,7 +101,7 @@ graph LR
 
 <br><br>
 <br><br>
-<h3 class="subtitulo2">B. PRODUCCIONES</h3>
+<h3 class="subtitulo2" id="producciones">B. PRODUCCIONES</h3>
 
 <section class="parrafo">
   <p>
@@ -249,7 +250,7 @@ graph LR
 <br><br><br>
 <br><br><br>
 
-<h2 class="subtitulo">PINTURAS INFECTADAS: SOPORTES BLANDOS</h2>
+<h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS: SOPORTES BLANDOS</h2>
 
 <section class="parrafo">
   <p>
@@ -267,7 +268,7 @@ graph LR
 </section>
 <br><br>
 
-<h3 class="subtitulo2">SOPORTES BLANDOS, 1. Membranas</h3>
+<h3 class="subtitulo2" id="membranas">SOPORTES BLANDOS, 1. Membranas</h3>
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
@@ -301,7 +302,7 @@ graph LR
 </div>
 <br><br><br>
 
-<h3 class="subtitulo2">Módulos</h3>
+<h3 class="subtitulo2" id="modulos">SOPORTES BLANDOS, 2. Módulos</h3>
 
 <section class="parrafo">
   <p>
@@ -340,7 +341,7 @@ graph LR
 </div>
 <br><br><br>
 
-<h3 class="subtitulo2">Unidades</h3>
+<h3 class="subtitulo2" id="unidades">SOPORTES BLANDOS, 3. Unidades</h3>
 
 <section class="parrafo">
   <p>
