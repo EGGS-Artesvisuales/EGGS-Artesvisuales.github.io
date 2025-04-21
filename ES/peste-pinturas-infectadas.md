@@ -278,7 +278,7 @@ flowchart LR
 
 <h3 class="subtitulo2" id="membranas">SOPORTES BLANDOS, 1. Membranas</h3>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
 </figure>
 
