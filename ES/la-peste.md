@@ -34,7 +34,11 @@ mermaid: true
 
 <div class="mermaid">
 flowchart LR
-  A["La Saturación"] --> B["La Peste"]
+  Z["Representación del Mundo"] --> Y["Lo Tangible"]
+  Y --> A["La Saturación"]
+  A --> B["La Peste"]
+  A --> X["Lo Invisible"]
+
   B --> C["Pinturas Infectadas"]
   C --> D["Soportes tradicionales"]
   D --> D1["Intervención"]
@@ -43,26 +47,21 @@ flowchart LR
   E --> E1["Membrana"]
   E --> E2["Módulo"]
   E --> E3["Unidad"]
-  B --> F["Desplazamiento de la Pintura"]
-  F --> G["Espacios Domésticos"]
-  F --> H["Espacio Público"]
-  F --> I["Espacios Naturales y Rurales"]
 
-  click A "/es/saturacion.html"                  "Ver La Saturación"
-  click B "/es/la-peste.html"                    "Ver La Peste"
-  click C "/es/peste-pinturas-infectadas.html"   "Ver Pinturas Infectadas"
-  click D "/es/pinturas-infectadas.html"         "Ver Soportes Tradicionales"
-  click D1 "/es/intervenciones.html"             "Ver Intervenciones"
-  click D2 "/es/produccion.html"                 "Ver Producciones"
-  click E "/es/soportes-blandos.html"             "Ver Soportes Blandos"
-  click E1 "/es/membrana.html"                   "Ver Membranas"
-  click E2 "/es/modulo.html"                     "Ver Módulos"
-  click E3 "/es/unidad.html"                     "Ver Unidades"
-  click F "/es/desplazamiento-pintura.html"      "Ver Desplazamiento de la Pintura"
-  click G "/es/espacios-domesticos.html"         "Ver Espacios Domésticos"
-  click H "/es/espacio-publico.html"             "Ver Espacio Público"
-  click I "/es/espacios-naturales.html"          "Ver Espacios Naturales y Rurales"
+  click Z "/es/representacion-del-mundo.html"                                            "Ver Representación del Mundo"
+  click Y "/es/lo-tangible.html"                                                          "Ver Lo Tangible"
+  click A "/es/saturacion.html"                                                           "Ver La Saturación"
+  click B "/es/la-peste.html"                                                             "Ver La Peste"
+  click C "/es/peste-pinturas-infectadas.html"                                            "Ver Pinturas Infectadas"
+  click D "/ES/peste-pinturas-infectadas.html#soportes-tradicionales"                     "Ir a Soportes Tradicionales"
+  click D1 "/ES/peste-pinturas-infectadas.html#intervenciones"                            "Ir a Intervenciones"
+  click D2 "/ES/peste-pinturas-infectadas.html#producciones"                              "Ir a Producciones"
+  click E "/ES/peste-pinturas-infectadas.html#soportes-blandos"                           "Ir a Soportes Blandos"
+  click E1 "/ES/peste-pinturas-infectadas.html#membranas"                                 "Ir a Membranas"
+  click E2 "/ES/peste-pinturas-infectadas.html#modulos"                                   "Ir a Módulos"
+  click E3 "/ES/peste-pinturas-infectadas.html#unidades"                                  "Ir a Unidades"
 </div>
+
 <br><br><br><br><br>
 
 <div class="parrafo">
