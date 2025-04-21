@@ -278,19 +278,19 @@ flowchart LR
 
 <h3 class="subtitulo2" id="membranas">SOPORTES BLANDOS, 1. Membranas</h3>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 100 x 400 cm, 2009</figcaption>
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
 </figure>
 
 <section class="parrafo">
   <p>
-    <strong>Membranas:</strong> tapices flexibles conformados por collage de papeles de prensa, revistas y carteles. Mediante la aplicación sucesiva de capas con cola fría y, en ocasiones, una imprimación de látex blanco, se obtiene una superficie resistente que conserva fragmentos del material original e integra su saturación visual. Sobre esta membrana se aplican esmaltes, óleos, acrílicos y tintas para evocar el carácter “peste” que define la serie.
+    <strong>Membranas:</strong> tapices flexibles conformados por collage de papeles de prensa, revistas y carteles. Mediante la aplicación sucesiva de capas con cola fría y, en ocasiones, una imprimación de látex blanco, se obtiene una superficie resistente que conserva fragmentos del material original e integra su saturación visual. Sobre esta membrana se aplican esmaltes, óleos, acrílicos y tintas para evocar el carácter “peste” en estos soportes que define la serie.
   </p>
   <p>
     Su gran maleabilidad facilita el plegado, transporte y montaje, habilitando intervenciones en el espacio público y permitiendo escalar las obras más allá del formato de caballete. Al tratarse de un material muy flexible, es posible producirlas en fragmentos o etapas, sin requerir un taller de gran dimensiones. Esta característica impulsa la instalación directa en la vía pública, estableciendo un diálogo con los carteles urbanos que envejecen y se deterioran. La obra “Mapamundi” ilustra este ciclo: desde su colocación en la calle hasta el desgaste natural y la remoción, profundizando el discurso sobre la saturación mediática y la contaminación visual.
   </p>
   <p>
-    Las membranas abren nuevas posibilidades formales y conceptuales, al ofrecer gran formato con materiales reciclados. Sin embargo, su manejo en una sola pieza puede resultar complejo, lo que motivó el desarrollo de la siguiente categoría de soportes blandos: los <strong>Módulos</strong>.
+    Las membranas abren nuevas posibilidades formales y conceptuales, al ofrecer gran formato con materiales reciclados. Sin embargo, su manejo en una sola pieza puede resultar engorroso, lo que motivó el desarrollo de la siguiente categoría de soportes blandos: los <strong>Módulos</strong> y luego a <strong>Unidad</strong>, subtipos de soportes blandos.
   </p>
 </section>
 <br>
