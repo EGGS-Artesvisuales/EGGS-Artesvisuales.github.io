@@ -61,7 +61,7 @@ graph TD
   %% Enlaces
   click A "mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "tangible.html" "Ir a Lo Tangible"
-  click A1a "/la-saturacion.html" "Ir a La Saturación"
+  click A1a "es/saturacion.html" "Ir a La Saturación"
   click A1a1 "/la-peste.html" "Ir a La Peste"
   click A1a1a "/pinturas.html" "Ir a Pinturas"
   click A1a1a1 "/pinturas-infectadas.html" "Ir a Pinturas Infectadas"
