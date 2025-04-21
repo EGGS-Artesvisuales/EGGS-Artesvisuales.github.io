@@ -131,7 +131,7 @@ graph LR
   <!-- 3) Exploración del Mundo Interior -->
   <div class="subtitulo">Exploración del Mundo Interior</div>
   <div class="mermaid">
-    graph TD
+    graph LR
       C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
       C --> C2[Arte y Espiritualidad]
 
