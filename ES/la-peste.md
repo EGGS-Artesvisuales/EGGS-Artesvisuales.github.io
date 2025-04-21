@@ -48,19 +48,19 @@ flowchart LR
   E --> E2["Módulo"]
   E --> E3["Unidad"]
 
-  click Z "/es/representacion-del-mundo.html"                                            "Ver Representación del Mundo"
-  click Y "/es/lo-tangible.html"                                                          "Ver Lo Tangible"
-  click A "/es/saturacion.html"                                                           "Ver La Saturación"
-  click B "/es/la-peste.html"                                                             "Ver La Peste"
-  click C "/es/peste-pinturas-infectadas.html"                                            "Ver Pinturas Infectadas"
-  click D "/ES/peste-pinturas-infectadas.html#soportes-tradicionales"                     "Ir a Soportes Tradicionales"
-  click D1 "/ES/peste-pinturas-infectadas.html#intervenciones"                            "Ir a Intervenciones"
-  click D2 "/ES/peste-pinturas-infectadas.html#producciones"                              "Ir a Producciones"
-  click E "/ES/peste-pinturas-infectadas.html#soportes-blandos"                           "Ir a Soportes Blandos"
-  click E1 "/ES/peste-pinturas-infectadas.html#membranas"                                 "Ir a Membranas"
-  click E2 "/ES/peste-pinturas-infectadas.html#modulos"                                   "Ir a Módulos"
-  click E3 "/ES/peste-pinturas-infectadas.html#unidades"                                  "Ir a Unidades"
-</div>
+  click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
+  click Y "/es/lo-tangible.html" "Ver Lo Tangible"
+  click A "/es/saturacion.html" "Ver La Saturación"
+  click B "/es/la-peste.html" "Ver La Peste"
+  click C "/es/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+  click D "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
+  click D1 "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Intervenciones"
+  click D2 "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Producciones"
+  click E "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
+  click E1 "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
+  click E2 "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
+  click E3 "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Unidades"
+  </div>
 
 <br><br><br><br><br>
 
