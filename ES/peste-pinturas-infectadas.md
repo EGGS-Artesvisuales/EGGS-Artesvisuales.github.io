@@ -117,7 +117,7 @@ flowchart LR
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001.jpg" alt="Producción S/T 01, 40 x 50 cm" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001b.jpg" alt="Producción S/T 01, 40 x 50 cm" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
   </figure>
   
@@ -148,13 +148,24 @@ flowchart LR
 
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-007.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 07, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
    <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003-1.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 08, 40 x 50 cm, 2008</em></figcaption>
   </figure>
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-008.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 09, 40 x 50 cm, 2008</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-009.jpg" alt="Producción S/T 06, 40 x 50 cm" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 10, 40 x 40 cm, 2008</em></figcaption>
+  </figure>
+
 </div>
 
 <section class="parrafo">
