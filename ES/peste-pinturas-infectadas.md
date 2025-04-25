@@ -404,30 +404,27 @@ flowchart LR
     <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
   </figure>
 </div>
-<section class="parrafo"><p><strong>Mapamundi</strong> es una obra elaborada con esmalte sintético y óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones de 400 cm de ancho por 130 cm de alto. Esta pintura en soporte blando, similar a tapices flexibles formados por collage de papel prensa, revistas y carteles urbanos, fue concebida para su instalación en espacios públicos de La Florida, Santiago de Chile. Sobre esta superficie se emplearon técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando mi exploración previa del paisaje. Este tránsito artístico va desde representaciones del cuerpo y el paisaje hasta imágenes de banderas y mapas, buscando captar la totalidad abstracta del territorio y manifestar el fenómeno global y profundamente penetrante de la saturación visual.</p><br>
+<section class="parrafo">
+  <p><strong>Mapamundi</strong> es una obra realizada con esmalte sintético y óleo sobre papel encolado, reciclado de revistas y catálogos couché. Mide aproximadamente 400 x 130 cm. Se trata de una pintura en soporte blando, semejante a tapices flexibles compuestos por collages de papel prensa, revistas y carteles urbanos, concebida específicamente para su instalación en espacios públicos de La Florida, en Santiago de Chile. La superficie fue intervenida con técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando una línea de exploración pictórica que va del cuerpo y el paisaje hacia las banderas y los mapas, en busca de una abstracción territorial que refleje el fenómeno global de la saturación visual.</p>
   
-  <p>En <strong>Mapamundi</strong> replico conscientemente el ciclo del cartel publicitario urbano: el papel es inicialmente instalado en muros callejeros, sometido al deterioro natural provocado por la intemperie, y termina convertido en residuo. Esta obra fue instalada utilizando engrudo para iniciar deliberadamente su proceso de desgaste. Posteriormente, realicé una acción performática al limpiar personalmente el muro vestido como trabajador urbano—con casco y guantes—transformando la obra en este acto simbólico de borrado, en clara referencia al "Erased de Kooning Drawing" de Robert Rauschenberg. De este modo, la instalación en la vía pública de La Florida integra el soporte blando como herramienta conceptual, permitiendo a la obra desplazarse desde la representación pictórica hacia la intervención urbana y la performance, y explorando diversas dimensiones del fenómeno contemporáneo de saturación visual y contaminación.</p></section>
-  
-  <br><br>
-  
-<h4 class="subtitulo2">3. Mapamundi n°2, 2009</h4>
+  <p>La obra reproduce deliberadamente el ciclo de vida del cartel publicitario urbano: comienza como papel instalado en el muro, sufre el desgaste natural de la intemperie y culmina como residuo. Para ello utilicé engrudo, iniciando intencionalmente su deterioro. Posteriormente realicé una acción performática limpiando el muro disfrazado de trabajador urbano—con casco y guantes—transformando la obra en un acto simbólico de borrado, en clara alusión al <em>Erased de Kooning Drawing</em> de Rauschenberg. Así, esta instalación incorpora el soporte blando como vehículo conceptual que permite el tránsito de la pintura hacia la intervención urbana y la performance, amplificando su crítica a la saturación y contaminación visual contemporáneas.</p>
+</section>
 
+<br>
+  
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg" alt="Pintura con técnica mixta mostrando erosión y elementos contaminantes - Mapamundi" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético y óleo sobre papel encolado, 130 x 410 cm, 2008</figcaption>
 </figure>
 
 <section class="parrafo">
-  <p>
-    <strong>Mapamundi n°2</strong> es una obra elaborada con esmalte sintético y óleo sobre papel encolado, reciclado de residuos de revistas y catálogos couché, con dimensiones de 410 cm de ancho por 130 cm de alto. Este soporte blando, semejante a tapices flexibles realizados mediante collage de papel prensa, revistas y carteles urbanos, surge de una investigación artística interdisciplinaria que incorpora influencias del grafiti, la pintura híbrida, el cartelismo y diversos formatos gráficos y publicitarios urbanos. La elección de estos soportes blandos responde a la intención de ampliar las dimensiones tradicionales, en diálogo directo con las gigantografías publicitarias presentes en ciudades y caminos.
-  </p>
-  <p>
-    El aumento significativo en tamaño facilita su instalación en espacios públicos, enfatizando la conexión conceptual con prácticas artísticas callejeras, como el grafiti, el muralismo y la publicidad urbana. Técnicamente, la obra explora contrastes visuales mediante la aplicación de esmaltes, óleos, acrílicos y tintas, jugando con dualidades opuestas como lo opaco y terroso frente a lo brillante y azulado del esmalte, evocando tierra y mar respectivamente.
-  </p>
-  <p>
-    <strong>Mapamundi n°2</strong> ya no existe como objeto físico, evidenciando así su naturaleza efímera y enfatizando mi postura sobre la temporalidad del arte y los objetos artísticos. A través de este enfoque, la obra busca captar una abstracción territorial completa, manifestando críticamente el fenómeno global y omnipresente de saturación visual y contaminación contemporánea.
-  </p>
+  <p><strong>Mapamundi</strong> es también una pieza de 410 x 130 cm, realizada con esmalte sintético y óleo sobre papel reciclado. Esta obra surge de una investigación interdisciplinaria que articula elementos del grafiti, la pintura híbrida, el cartelismo y la gráfica urbana. El uso de soportes blandos responde a una estrategia de expansión del formato tradicional, en diálogo con las gigantografías publicitarias que dominan el espacio urbano.</p>
+  
+  <p>Su gran escala facilita su instalación en el espacio público y establece vínculos conceptuales con el muralismo, el grafiti y otras prácticas de arte callejero. A nivel técnico, la obra genera contrastes expresivos mediante la aplicación de materiales opacos y terrosos frente a brillos azulados, evocando simbólicamente tierra y mar. Estos efectos buscan representar una totalidad geográfica abstracta, contaminada y saturada.</p>
+  
+  <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos visuales en el mundo contemporáneo.</p>
 </section>
+
 <br><br><br>
 
 <h3 class="subtitulo2" id="modulos">
