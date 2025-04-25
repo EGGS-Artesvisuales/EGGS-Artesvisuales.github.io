@@ -426,7 +426,7 @@ flowchart LR
 <h4 class="subtitulo2">1. Cordillera, 2009</h4>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadae.jpg" alt="pintura sobre paginas de revistas instalada en espacio publico - pinturas infectadas, soportes blandos" loading="lazy">
+  <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadaf.jpg" alt="pintura sobre paginas de revistas instalada en espacio publico - pinturas infectadas, soportes blandos" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas de la revista, dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</figcaption>
 </figure>
 
