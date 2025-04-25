@@ -343,12 +343,6 @@ flowchart LR
          alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
     <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
-
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-006.jpg" 
-         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
-  </figure>
   </div>
   <section class="parrafo">
   <p><strong>Verde</strong> es la obra que inaugura esta serie de soportes blandos tipo membrana. Está elaborada con esmalte óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones aproximadas de 130 x 140 cm. Es la primera pintura que realicé sobre un soporte flexible, similar a tapices hechos con collages de papel prensa, revistas y carteles urbanos. Fue concebida como una alternativa para ampliar los formatos convencionales sin elevar los costos de producción. Este aumento de escala permitió su instalación en espacios públicos de mi localidad, en Santiago de Chile. La obra explora, desde una abstracción deliberada, la saturación visual, centrando la atención en el color —de ahí su nombre. Me interesa que se entienda como pintura, referida esencialmente por el color, que a su vez activa una memoria: ese verde opaco. A todo esto se suma una reflexión sobre el exceso de estímulos visuales en nuestro entorno cotidiano.</p>
