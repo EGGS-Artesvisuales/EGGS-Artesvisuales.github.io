@@ -279,11 +279,12 @@ flowchart LR
 <section class="parrafo">
   <p>
     La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en espacios callejeros.
-  </p>
+  </p><br>
   <p>
     El uso de papel de prensa y catálogos gratuitos refuerza la metáfora del contagio y su elección material ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación visual y la contaminación de la sociedad contemporánea, las cuales luego son utilizadas como soporte de mis pinturas. La pintura es aplicada de tal manera que puedo incorporar los elementos impresos en los soportes de papel publicitario. Me interesa crear la interrupción en la apreciación de lo representado, la peste de la saturación. Cada superficie "infectada" actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
   </p>
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
+  <br>
   <ul>
     <li><strong>1. Membranas</strong></li>
     <li><strong>2. Módulos</strong></li>
