@@ -294,7 +294,7 @@ flowchart LR
 
 <h3 class="subtitulo2" id="membranas">PINTURAS INFECTADAS / SOPORTES BLANDOS, <br> 1. Membranas</h3>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
+  <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01b.jpg" alt="pintura soporte blando - mapamundi" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
 </figure>
 
@@ -311,8 +311,54 @@ flowchart LR
 </section>
 <br>
 <br>
+<h4 class="subtitulo2">1. Verde, 2009</h4>
 
-<h4 class="subtitulo2">1. Mapamundi, 2009</h4>
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-001.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-002.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-003.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-004.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+  
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-005.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-006.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. de la serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+  </figure>
+  </div>
+  <section class="parrafo">
+  <p><strong>Verde</strong> es la obra que inaugura esta serie de soportes blandos tipo membrana. Está elaborada con esmalte óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones aproximadas de 130 x 140 cm. Es la primera pintura que realicé sobre un soporte flexible, similar a tapices hechos con collages de papel prensa, revistas y carteles urbanos. Fue concebida como una alternativa para ampliar los formatos convencionales sin elevar los costos de producción. Este aumento de escala permitió su instalación en espacios públicos de mi localidad, en Santiago de Chile. La obra explora, desde una abstracción deliberada, la saturación visual, centrando la atención en el color —de ahí su nombre. Me interesa que se entienda como pintura, referida esencialmente por el color, que a su vez activa una memoria: ese verde opaco. A todo esto se suma una reflexión sobre el exceso de estímulos visuales en nuestro entorno cotidiano.</p>
+</section>
+
+
+  
+  <br><br>
+  
+<h4 class="subtitulo2">2. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -369,7 +415,7 @@ flowchart LR
   
   <br><br>
   
-<h4 class="subtitulo2">2. Mapamundi n°2, 2009</h4>
+<h4 class="subtitulo2">3. Mapamundi n°2, 2009</h4>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg" alt="Pintura con técnica mixta mostrando erosión y elementos contaminantes - Mapamundi" loading="lazy">
