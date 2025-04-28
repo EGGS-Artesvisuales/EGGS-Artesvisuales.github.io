@@ -432,6 +432,12 @@ flowchart LR
   2. Módulos
 </h3>
 
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+</figure>
+<br>
+
 <section class="parrafo">
   <p>
     <strong>Módulos:</strong> composiciones expansibles creadas a partir de páginas sueltas de catálogos, revistas o periódicos, ensambladas en estructuras que evocan el impacto de la publicidad urbana y su sobresaturación visual. Cada módulo funciona de manera independiente, pero al agruparse configuran una imagen monumental que iguala o supera las dimensiones de los anuncios en el paisaje urbano.
@@ -627,7 +633,11 @@ flowchart LR
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
   3. Unidades
 </h3>
-
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+</figure>
+<br>
 <section class="parrafo">
   <p>
     <strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada unidad funciona como un microcosmos crítico, contraponiendo el mensaje comercial a la intervención pictórica.
