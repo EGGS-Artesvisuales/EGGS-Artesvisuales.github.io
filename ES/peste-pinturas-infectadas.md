@@ -473,19 +473,6 @@ flowchart LR
   <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg" alt="pintura sobre paginas de revistas instalada en espacio publico - pinturas infectadas, soportes blandos" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas de la revista, dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</figcaption>
 </figure>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
-         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
-    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
-  </figure>
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
-         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
-    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
-  </figure>
-</div>
 <section class="parrafo">
   <p>
     <strong>Cordillera</strong>, 2008. Óleo sobre 84 páginas de la revista <em>Sábado</em> (suplemento de <em>El Mercurio</em>), dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.
@@ -502,6 +489,22 @@ flowchart LR
   <p>
     En su fase inicial, la pintura fue instalada en diversos muros para ensayos de registro (condiciones lumínicas, encuadre) y debido a circunstancias contextuales (confrontaciones vecinales, características estructurales del soporte mural). La utilización de cinta de enmascarar de doble contacto permitió su adhesión temporal y posterior remoción sin deterioro. Un año después, con la colaboración técnica de Javiera Asenjo, la obra fue adherida mediante engrudo a un muro público, asumiendo plenamente su condición de intervención urbana efímera. Esta acción —que integra pintura, publicidad, práctica gráfica urbana y performance— sacrifica la materialidad objetual en favor de una expansión de los procesos conceptuales, experiencia metodológica que se replicaría posteriormente en piezas como <em>Mapamundi</em>.
   </p>
+</section>
+  <br>
+  <div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
+         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
+         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
+    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+  </figure>
+</div>
+<br>
+  <section>
   <p>
     El emplazamiento seleccionado, un muro de ladrillo fiscal en estado de deterioro avanzado, se sitúa en calle Virginia (sin intervención vial), en proximidad a la estación San Joaquín del sistema metropolitano de transporte, en su intersección con Avenida Vicuña Mackenna sector poniente. Adyacente a zonas de acumulación periódica de residuos, la pieza estableció un diálogo contextual con un entorno urbano en proceso de transformación continua.
   </p>
