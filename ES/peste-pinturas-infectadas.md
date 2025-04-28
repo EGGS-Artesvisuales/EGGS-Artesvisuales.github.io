@@ -504,7 +504,7 @@ flowchart LR
   </figure>
 </div>
 <br>
-  <section>
+  <section class="parrafo">
   <p>
     El emplazamiento seleccionado, un muro de ladrillo fiscal en estado de deterioro avanzado, se sitúa en calle Virginia (sin intervención vial), en proximidad a la estación San Joaquín del sistema metropolitano de transporte, en su intersección con Avenida Vicuña Mackenna sector poniente. Adyacente a zonas de acumulación periódica de residuos, la pieza estableció un diálogo contextual con un entorno urbano en proceso de transformación continua.
   </p>
