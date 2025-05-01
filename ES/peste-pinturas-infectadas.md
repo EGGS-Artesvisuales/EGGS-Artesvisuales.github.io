@@ -574,6 +574,39 @@ flowchart LR
   </p>
 </section>
 
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-01.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-02.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-03.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-04.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-05.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+</div>
+
+<br>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
