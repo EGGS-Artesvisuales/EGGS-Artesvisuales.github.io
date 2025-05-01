@@ -549,6 +549,32 @@ flowchart LR
 <br><br>
 <h4 class="subtitulo2">2. Gran paisaje n°1, 2010</h4>
 
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie S/T, óleo y plasticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
+</figure>
+
+
+<section class="parrafo">
+  <p>
+    <strong>Gran paisaje de carretera</strong>, 2010.<br>
+    Óleo sobre 140 páginas de catálogo (supermercado Jumbo), dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
+  </p>
+
+  <p>
+    La obra emplea por primera vez formatos monumentales equivalentes a la publicidad urbana. La técnica desarrolla investigaciones previas sobre soportes fragmentados iniciadas en series anteriores.
+  </p>
+
+  <p>
+    La composición aborda la mediación publicitaria en el paisaje, aplicando la técnica de "peste" explorada en <em>Cordillera</em>: la pintura se limita exclusivamente a los intersticios entre los elementos promocionales del catálogo.
+  </p>
+
+  <p>
+    La imagen base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.
+  </p>
+</section>
+
+
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-04.jpg" 
@@ -602,23 +628,6 @@ flowchart LR
   </figure>
 </div>
 <section class="parrafo">
-  <p>
-    <strong>Gran paisaje de carretera</strong>, 2010.<br>
-    Óleo sobre 140 páginas de catálogo (supermercado Jumbo), dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
-  </p>
-
-  <p>
-    La obra emplea por primera vez formatos monumentales equivalentes a la publicidad urbana. La técnica desarrolla investigaciones previas sobre soportes fragmentados iniciadas en series anteriores.
-  </p>
-
-  <p>
-    La composición aborda la mediación publicitaria en el paisaje, aplicando la técnica de "peste" explorada en <em>Cordillera</em>: la pintura se limita exclusivamente a los intersticios entre los elementos promocionales del catálogo.
-  </p>
-
-  <p>
-    La imagen base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.
-  </p>
-
   <p>
     Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental en obras de artistas como Roberto Matta o Pablo Picasso.
   </p>
