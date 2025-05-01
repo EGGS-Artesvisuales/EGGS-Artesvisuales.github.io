@@ -573,41 +573,7 @@ flowchart LR
     La imagen base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.
   </p>
 </section>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-01.jpg" 
-         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
-  </figure>
-
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-02.jpg" 
-         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
-  </figure>
-
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-03.jpg" 
-         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
-  </figure>
-
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-04.jpg" 
-         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
-  </figure>
-
-   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-05.jpg" 
-         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
-  </figure>
-</div>
-
 <br>
-
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-04.jpg" 
@@ -660,13 +626,42 @@ flowchart LR
     <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
+<br>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-01.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-02.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-03.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-04.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-05.jpg" 
+         alt="Gran Paisaje n°1 – Pintura infectada, soporte blando, modulos" loading="lazy">
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+</div>
 <section class="parrafo">
   <p>
-    Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental en obras de artistas como Roberto Matta o Pablo Picasso.
-  </p>
-
-  <p>
-    Exhibiciones: Sala Juan Egenau (Facultad de Artes Visuales, Universidad de Chile, marzo 2010) e intersección de Av. Macul con Av. Américo Vespucio (espacio público, enero 2010).
+    Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental.
   </p>
 </section>
 <br><br>
