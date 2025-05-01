@@ -550,8 +550,8 @@ flowchart LR
 <h4 class="subtitulo2">2. Gran paisaje n°1, 2010</h4>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie S/T, óleo y plasticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
+  <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-002-b.jpg" alt="pinturas infectadas - soportes blandos - modulos - gran paisaje" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: modulos. Gran Paisaje n°1, 400 x 750cm, 2010</figcaption>
 </figure>
 
 
