@@ -2,7 +2,6 @@
 <img src="/assets/img/eggs-logo-header-05.jpg" alt="Header Image" style="width: 100%; height: auto; max-width: 100%; display: block; margin: 0 auto;">
 
 <nav class="navbar" role="navigation" aria-label="Menú principal">
-  <!-- Botón Hamburguesa (accesible) -->
   <div 
     class="nav-toggle" 
     id="nav-toggle"
@@ -17,7 +16,6 @@
     <span></span>
   </div>
 
-  <!-- Menú Principal -->
   <ul class="nav-menu" id="nav-menu" role="menu">
     <li class="nav-logo" role="none">
       <a href="https://eggs-studio.cl/" target="_blank" rel="noopener noreferrer">
@@ -29,8 +27,21 @@
     <li class="dropdown" role="none">
       <a href="/ES/mundo-exterior.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Representación del mundo</a>
       <ul class="dropdown-menu" role="menu">
-        <li role="none"><a href="/ES/tangible.html" role="menuitem">Tangible</a></li>
-        <li role="none"><a href="/ES/intangible.html" role="menuitem">Intangible</a></li>
+        <li class="dropdown-sub" role="none">
+          <a href="/ES/tangible.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Tangible</a>
+          <ul class="dropdown-menu-sub" role="menu">
+            <li role="none"><a href="/ES/saturacion.html" role="menuitem">La Saturación</a></li>
+            <li role="none"><a href="/ES/tecnologia.html" role="menuitem">La Tecnología</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-sub" role="none">
+          <a href="/ES/intangible.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Intangible</a>
+          <ul class="dropdown-menu-sub" role="menu">
+            <li role="none"><a href="/ES/capitalismo.html" role="menuitem">Imágenes del Capitalismo</a></li>
+            <li role="none"><a href="/ES/popular.html" role="menuitem">Imágenes de lo Popular</a></li>
+            <li role="none"><a href="/ES/ancestrxs.html" role="menuitem">Imágenes de l@s Ancestr@s</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
 
