@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const trapFocus = (event) => {
     if (!navMenu.classList.contains("active")) return;
-
     if (event.key === "Tab") {
       if (event.shiftKey && document.activeElement === firstFocusableElement) {
         event.preventDefault();
@@ -83,28 +82,34 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  const dropdownParents = document.querySelectorAll('.dropdown > a');
-
-  dropdownParents.forEach(link => {
-    link.addEventListener('click', (e) => {
-      const parent = link.parentElement;
-      if (window.innerWidth <= 901) {
-        e.preventDefault();
-        parent.classList.toggle('active');
-      }
+  // Manejo de menús desplegables en móviles (nivel 1 y submenús)
+  const initDropdownToggle = (selector) => {
+    document.querySelectorAll(selector).forEach(link => {
+      link.addEventListener('click', (e) => {
+        const parent = link.parentElement;
+        if (window.innerWidth <= 901) {
+          e.preventDefault();
+          parent.classList.toggle('active');
+        }
+      });
     });
-  });
+  };
 
+  initDropdownToggle('.dropdown > a');
+  initDropdownToggle('.dropdown-sub > a');
+
+  // Cerrar dropdowns activos si se hace clic fuera (solo móviles)
   document.addEventListener('click', (event) => {
     if (window.innerWidth > 901) return;
 
-    document.querySelectorAll('.dropdown.active').forEach(dropdown => {
+    document.querySelectorAll('.dropdown.active, .dropdown-sub.active').forEach(dropdown => {
       if (!dropdown.contains(event.target)) {
         dropdown.classList.remove('active');
       }
     });
   });
 
+  // Toggle desde botón hamburguesa
   navToggle.addEventListener("click", toggleMenu);
   navToggle.addEventListener("keydown", (event) => {
     if (["Enter", " "].includes(event.key)) {
@@ -113,18 +118,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Cierre automático al hacer clic en links (solo si no tienen submenú)
   navMenu.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", (e) => {
-      if (!link.parentElement.classList.contains("dropdown")) {
-        closeMenu();
-      }
+      const parent = link.parentElement;
+      const hasSubmenu = parent.classList.contains("dropdown") || parent.classList.contains("dropdown-sub");
+      if (!hasSubmenu) closeMenu();
     });
   });
 
+  // Navegación con flechas dentro del menú
   navMenu.addEventListener("keydown", (event) => {
     const links = Array.from(navMenu.querySelectorAll("a")).filter(link => getComputedStyle(link).display !== "none");
     const currentIndex = links.indexOf(document.activeElement);
-
     if (currentIndex === -1) return;
 
     if (["ArrowDown", "ArrowRight"].includes(event.key)) {
@@ -136,6 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Escape cierra el menú
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && navMenu.classList.contains("active")) {
       closeMenu();
