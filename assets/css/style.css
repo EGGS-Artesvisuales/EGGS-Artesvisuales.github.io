@@ -230,6 +230,60 @@ header {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/*_______________________________________________________--*/
+
+/* SUBMENÚS ANIDADOS (2do nivel) 
+___________________________________________________________*/
+
+
+.dropdown-sub {
+  position: relative;
+}
+
+.dropdown-sub > a::after {
+  content: "▶";
+  font-size: 0.6rem;
+  margin-left: 0.5rem;
+  color: var(--color-destacado);
+  float: right;
+}
+
+.dropdown-menu-sub {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: var(--color-medio);
+  border-radius: var(--radius-small);
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 0.3125rem 0;
+  z-index: 1000;
+  min-width: 11.25rem;
+}
+
+/* Mostrar submenú al pasar el mouse */
+@media (min-width: 769px) {
+  .dropdown-sub:hover > .dropdown-menu-sub {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+}
+
+/* Submenús anidados visibles en móvil */
+@media (max-width: 901px) {
+  .dropdown-sub > .dropdown-menu-sub {
+    display: none;
+    position: static;
+    margin-left: 1rem;
+  }
+
+  .dropdown-sub.active > .dropdown-menu-sub {
+    display: block;
+  }
+}
+
 /* ------------------------------------------------------------------
    MENÚ HAMBURGUESA (SOLO EN MÓVILES)
 ------------------------------------------------------------------ */
