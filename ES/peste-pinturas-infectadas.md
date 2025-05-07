@@ -728,18 +728,12 @@ flowchart LR
 <br><br>
 <h4 class="subtitulo2">4. Paisaje urbano, 2010</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
-         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
-    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
-  </figure>
-    <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
-         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
-    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
-  </figure>
-</div>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+</figure>
+<br>
+
 <section class="parrafo">
   <p>
     <strong>Paisaje Urbano</strong>, 2010.<br>
@@ -752,10 +746,6 @@ flowchart LR
 
   <p>
     El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.
-  </p>
-
-  <p>
-    La imagen base procede de documentación fotográfica del sector comercial de Plaza Vespucio (intersección de Vicuña Mackenna con Américo Vespucio, La Florida), locación relevante en mi trayectoria.
   </p>
 </section>
 
