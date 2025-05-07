@@ -759,6 +759,7 @@ flowchart LR
          alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
     <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
   </figure>
+</div>
 <section class="parrafo">
   <p>
     <strong>Paisaje Urbano</strong>, 2010.<br>
