@@ -668,7 +668,7 @@ flowchart LR
 <h4 class="subtitulo2">3. Gran paisaje n°2, 2014</h4>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-ap-01.jpg" alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+  <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-ap-01c.jpg" alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
   <figcaption>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</figcaption>
 </figure>
 <br>
@@ -728,12 +728,37 @@ flowchart LR
 <br><br>
 <h4 class="subtitulo2">4. Paisaje urbano, 2010</h4>
 
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
-</figure>
-<br>
-
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d01.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d02.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d03.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d04.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d05.jpg" 
+         alt="Paisaje urbano - Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
 <section class="parrafo">
   <p>
     <strong>Paisaje Urbano</strong>, 2010.<br>
@@ -748,6 +773,7 @@ flowchart LR
     El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.
   </p>
 </section>
+<br><br><br>
 
 <h3 class="subtitulo2" id="unidades">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
