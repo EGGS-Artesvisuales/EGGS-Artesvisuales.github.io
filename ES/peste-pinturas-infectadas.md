@@ -557,7 +557,7 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    <strong>Gran paisaje de carretera</strong>, 2010.<br>
+    <strong>Gran paisaje n°1</strong>, 2010.<br>
     Óleo sobre 140 páginas de catálogo (supermercado Jumbo), dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
   </p>
 
@@ -667,6 +667,11 @@ flowchart LR
 <br><br>
 <h4 class="subtitulo2">3. Gran paisaje n°2, 2014</h4>
 
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-ap-01.jpg" alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+  <figcaption>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</figcaption>
+</figure>
+<br>
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-01b.jpg" 
