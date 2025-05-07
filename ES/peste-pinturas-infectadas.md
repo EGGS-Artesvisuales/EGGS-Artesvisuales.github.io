@@ -669,19 +669,34 @@ flowchart LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg" 
-         alt="Mapamundi n°1 – Pintura infectada, soporte blando, membrana" loading="lazy">
-    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-01b.jpg" 
+         alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
   </figure>
     <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg" 
-         alt="Serie La Saturación – Membrana pictórica" loading="lazy">
-    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-02.jpg" 
+         alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+     <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01b.jpg" 
+         alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01.jpg" 
+         alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-00.jpg" 
+         alt="gran paisaje n°2 – Pintura infectada, soporte blando, modulo." loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
 <section class="parrafo">
   <p>
-    <strong>Gran paisaje n°2</strong>, 2010. Acrílico sobre 140 páginas de periódicos <em>La Tercera</em>, dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
+    <strong>Gran paisaje n°2</strong>, 2014. Acrílico sobre 140 páginas de periódicos <em>La Tercera</em>, dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
   </p>
 
   <p>
