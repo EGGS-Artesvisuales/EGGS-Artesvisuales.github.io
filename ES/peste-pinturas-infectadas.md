@@ -822,12 +822,12 @@ flowchart LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
   </figure>
   
  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
   </figure>
    <figure class="imagen-con-caption item--imagen">
@@ -868,12 +868,12 @@ flowchart LR
 <h4 class="subtitulo2">BODEGONES: 1. Serie sin titulo- 2008</h4>
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
   </figure>
   
   <figure class="imagen-con-caption item--imagen">
-  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
+  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-0" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
   </figure>
 </div>
