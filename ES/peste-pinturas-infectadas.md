@@ -822,26 +822,46 @@ flowchart LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
   </figure>
   
-  <figure class="imagen-con-caption item--imagen">
-  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+ <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°3, 25 x 40 cm. 2019</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°4, 25 x 40 cm. 2019</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-005.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°5, 25 x 40 cm. 2019</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-006.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°6, 25 x 40 cm. 2019</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-007.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - serie retratos" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°7, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 </div>
 <br><br><br>
-<h4 class="subtitulo2">PAISAJES: 1. Serie sin titulo- 2008</h4>
+<h4 class="subtitulo2">PAISAJES: 1. Serie sin titulo- 2019</h4>
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019</em></figcaption>
   </figure>
   
-  <figure class="imagen-con-caption item--imagen">
-  <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes tradicionales - produccion - banderas infectadas, 2008" loading="lazy">
-   <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+ <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019</em></figcaption>
   </figure>
 </div>
 <br><br><br>
