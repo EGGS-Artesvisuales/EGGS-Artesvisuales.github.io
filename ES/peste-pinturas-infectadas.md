@@ -817,6 +817,7 @@ flowchart LR
     <li><strong>Paisajes (2019–):</strong> escenas naturales tratadas con la estética de la “peste”, resaltando la saturación visual.</li>
   </ul>
 </section>
+<br><br>
 
 <h4 class="subtitulo2">RETRATOS: 1. Serie sin titulo- 2008</h4>
 
@@ -856,12 +857,12 @@ flowchart LR
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-001.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019</em></figcaption>
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
   
  <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-002.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 2019</em></figcaption>
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
 </div>
 <br><br><br>
