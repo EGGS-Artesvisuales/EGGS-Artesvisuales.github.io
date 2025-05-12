@@ -781,8 +781,8 @@ flowchart LR
   3. Unidades
 </h3>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="pinturas con técnica mixta mostrando erosión y elementos contaminantes - pinturas infectadas" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+  <img src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg" alt="retrato sobre papel de catalogo de la serie infected paintings soportes blandos unidades" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: unidades: retratos, S/T n°1 y n°2, 2019</figcaption>
 </figure>
 <br>
 <section class="parrafo">
