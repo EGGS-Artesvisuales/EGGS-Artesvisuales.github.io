@@ -46,6 +46,13 @@ flowchart LR
   E --> E2["Módulo"]
   E --> E3["Unidad"]
 
+  B --> F["Desplazamiento de la Pintura"]
+  C --> F  %% flecha adicional desde Pinturas Infectadas
+
+  F --> F1["Espacio Doméstico"]
+  F --> F2["Espacio Público"]
+  F --> F3["Espacio Rural / Natural"]
+
   click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
   click Y "/es/lo-tangible.html" "Ver Lo Tangible"
   click A "/es/saturacion.html" "Ver La Saturación"
@@ -58,7 +65,12 @@ flowchart LR
   click E1 "#membranas" "Ir a Membranas"
   click E2 "#modulos" "Ir a Módulos"
   click E3 "#unidades" "Ir a Unidades"
+  click F "#desplazamiento" "Ir a Desplazamiento de la Pintura"
+  click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
+  click F2 "#espacio-publico" "Ir a Espacio Público"
+  click F3 "#espacio-rural-natural" "Ir a Espacio Rural / Natural"
 </div>
+
 
 <br><br>
 
