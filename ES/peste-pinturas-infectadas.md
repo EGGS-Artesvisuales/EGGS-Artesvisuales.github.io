@@ -828,11 +828,20 @@ flowchart LR
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
   3. Unidades
 </h3>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg" alt="retrato sobre papel de catalogo de la serie infected paintings soportes blandos unidades" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: unidades: retratos, S/T n°1 y n°2, 2019</figcaption>
-</figure>
-<br>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 1" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 1, 55 x 27 cm. 2019</em></figcaption>
+  </figure>
+   <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 2" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 2, 55 x 27 cm. 2019</em></figcaption>
+  </figure>
+   <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-005.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 3" loading="lazy">
+    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 3, 55 x 27 cm. 2019</em></figcaption>
+  </figure>
+</div>
+
 <section class="parrafo">
   <p>
     <strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada unidad funciona como un microcosmos crítico, contraponiendo el mensaje comercial a la intervención pictórica.
