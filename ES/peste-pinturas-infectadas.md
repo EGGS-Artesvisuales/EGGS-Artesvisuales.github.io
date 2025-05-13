@@ -830,17 +830,30 @@ flowchart LR
 </h3>
 
 <div class="owl-carousel carousel-imagen">
+
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-003.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 1" loading="lazy">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-003.jpg" 
+         alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 1" 
+         loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 1, 55 x 27 cm. 2019</em></figcaption>
   </figure>
-   <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-004.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 2" loading="lazy">
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-004.jpg" 
+         alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 2" 
+         loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 2, 55 x 27 cm. 2019</em></figcaption>
   </figure>
-   <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-005.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 3" loading="lazy">
+
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-005.jpg" 
+         alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - etapa 3" 
+         loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 3, 55 x 27 cm. 2019</em></figcaption>
   </figure>
+
 </div>
+
 
 <section class="parrafo">
   <p>
