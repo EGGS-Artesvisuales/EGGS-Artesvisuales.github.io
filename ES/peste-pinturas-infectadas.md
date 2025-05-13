@@ -793,7 +793,7 @@ flowchart LR
 </section>
 <br><br>
 
-<h3 class="subtitulo2" id="modulos-print">
+<h3 class="subtitulo2" id="modulos-prints">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
   2.1 Módulos print
 </h3>
