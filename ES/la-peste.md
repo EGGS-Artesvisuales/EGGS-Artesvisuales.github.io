@@ -64,12 +64,10 @@ flowchart LR
   click E1 "#membranas" "Ir a Membranas"
   click E2 "#modulos" "Ir a Módulos"
   click E3 "#unidades" "Ir a Unidades"
-
-  %% Enlaces opcionales si existen
-  %% click F "#desplazamiento" "Ir a Desplazamiento de la Pintura"
-  %% click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
-  %% click F2 "#espacio-publico" "Ir a Espacio Público"
-  %% click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
+  click F "#desplazamiento" "Ir a Desplazamiento de la Pintura"
+  click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
+  click F2 "#espacio-publico" "Ir a Espacio Público"
+  click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
 
 
