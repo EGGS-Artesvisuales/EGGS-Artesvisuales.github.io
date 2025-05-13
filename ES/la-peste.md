@@ -38,7 +38,6 @@ flowchart LR
   Y --> A["La Saturación"]
   A --> B["La Peste"]
   A --> X["Lo Invisible"]
-
   B --> C["Pinturas Infectadas"]
   C --> D["Soportes tradicionales"]
   D --> D1["Intervención"]
@@ -48,19 +47,31 @@ flowchart LR
   E --> E2["Módulo"]
   E --> E3["Unidad"]
 
+  B --> F["Desplazamiento de la Pintura"]
+  F --> F1["Espacio Doméstico"]
+  F --> F2["Espacio Público"]
+  F --> F3["Espacio Rural / Natural"]
+
   click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
   click Y "/es/lo-tangible.html" "Ver Lo Tangible"
   click A "/es/saturacion.html" "Ver La Saturación"
   click B "/es/la-peste.html" "Ver La Peste"
   click C "/es/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
-  click D "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
-  click D1 "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Intervenciones"
-  click D2 "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Producciones"
-  click E "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
-  click E1 "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
-  click E2 "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
-  click E3 "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Unidades"
-  </div>
+  click D "#soportes-tradicionales" "Ir a Soportes Tradicionales"
+  click D1 "#intervenciones" "Ir a Intervenciones"
+  click D2 "#producciones" "Ir a Producciones"
+  click E "#soportes-blandos" "Ir a Soportes Blandos"
+  click E1 "#membranas" "Ir a Membranas"
+  click E2 "#modulos" "Ir a Módulos"
+  click E3 "#unidades" "Ir a Unidades"
+
+  %% Enlaces opcionales si existen
+  %% click F "#desplazamiento" "Ir a Desplazamiento de la Pintura"
+  %% click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
+  %% click F2 "#espacio-publico" "Ir a Espacio Público"
+  %% click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
+</div>
+
 
 <br><br><br><br><br>
 
