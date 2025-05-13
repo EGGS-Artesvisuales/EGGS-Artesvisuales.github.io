@@ -45,7 +45,16 @@ flowchart LR
   E --> E1["Membrana"]
   E --> E2["Módulo"]
   E --> E3["Unidad"]
+  B --> F["Desplazamiento de la Pintura"]
+  F --> F1["Espacio Doméstico"]
+  F --> F2["Espacio Público"]
+  F --> F3["Espacio Rural / Natural"]
 
+  %% Nuevos nodos
+  X --> X1["Pinturas Deformadas"]
+  E2 --> E2a["Módulos Prints n Paint"]
+
+  %% Enlaces
   click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
   click Y "/es/lo-tangible.html" "Ver Lo Tangible"
   click A "/es/saturacion.html" "Ver La Saturación"
@@ -58,7 +67,14 @@ flowchart LR
   click E1 "#membranas" "Ir a Membranas"
   click E2 "#modulos" "Ir a Módulos"
   click E3 "#unidades" "Ir a Unidades"
+  click F "/es/desplazamiento.html" "Ver Desplazamiento de la Pintura"
+  click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
+  click F2 "#espacio-publico" "Ir a Espacio Público"
+  click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
+  click X1 "/es/pinturas-deformadas.html" "Ver Pinturas Deformadas"
+  click E2a "#modulos-prints" "Ir a Módulos Prints n Paint"
 </div>
+
 
 
 <br><br>
@@ -775,8 +791,39 @@ flowchart LR
     El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.
   </p>
 </section>
-<br><br><br>
+<br><br>
 
+<h3 class="subtitulo2" id="modulos-print">
+  PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
+  2.1 Módulos print
+</h3>
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-01.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam, 100 x 110 cm, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
+  </figure>
+  
+ <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-02.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam, 100 x 110 cm, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-03.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam, 100 x 110 cm, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-04.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam, 100 x 110 cm, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
+  </figure>
+
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-05.jpg" alt="La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam, 100 x 110 cm, 2019" loading="lazy">
+    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
+  </figure>
+</div>
+<br><br><br>
 <h3 class="subtitulo2" id="unidades">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
   3. Unidades
