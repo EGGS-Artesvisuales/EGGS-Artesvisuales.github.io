@@ -37,7 +37,7 @@ graph LR
   LI[Lo Invisible]
   P[Pinturas Infectadas]
   DP[Desplazamiento de la Pintura]
-  PL[Pinturas Licuadas]  %% Nuevo nodo
+  PL[Pinturas Licuadas]  
 
   RM --> LT
   LT --> LS
@@ -46,7 +46,7 @@ graph LR
   LS --> LI
   LP --> P
   LP --> DP
-  LI --> PL          %% Nueva conexión
+  LI --> PL          
 
   click RM "/Es/mundo-exterior.html" "Ir a Representación del Mundo"
   click LT "/Es/tangible.html" "Ir a Lo Tangible"
