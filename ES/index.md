@@ -10,8 +10,7 @@ mermaid: true
 <div class="subtitulo">Artesvisuales integradas: ideas, obras y proyectos.</div> 
 <p class="parrafo" style="margin-top: 7%;"> Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. Aquí encontrarás tanto proyectos íntimos como intervenciones de gran escala, organizados en tres ejes que estructuran mi enfoque creativo. Cada uno representa una manera particular de vincularme con el arte: desde la observación del mundo, la acción colectiva, y la exploración interior. </p> <br> <br>
 <div class="mermaid">
-
- graph TD
+  graph TD
     principal[Actividad Artística]
     representacion[Representación del Mundo]
     accion[Acción en el Mundo]
@@ -29,9 +28,6 @@ mermaid: true
     accion --> docencia[Docencia y Talleres]
     accion --> servicios[Servicios]
 
-    interior --> psicologia[Arte y Psicología]
-    interior --> espiritualidad[Arte y Espiritualidad]
-
     click principal "/ES/index.html" "Ir al Inicio"
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click tangible "/ES/tangible.html" "Ir a Lo Tangible"
@@ -41,13 +37,9 @@ mermaid: true
     click subrepticio "/ES/subrepticio.html" "Ir a Lo Subrepticio"
     click comunitario "/ES/comunitario.html" "Ir a Lo Comunitario"
     click docencia "/ES/docencia.html" "Ir a Docencia y Talleres"
-    click servicios "/ES/servicios.html" "Ir a Servicios"
+    click servicios "/ES/services.html" "Ir a Servicios"
 
     click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
-    click psicologia "/ES/arte-y-psicologia.html" "Ir a Arte y Psicología"
-    click espiritualidad "/ES/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
-
-
 </div>
 <br><br>
 <div class="button-container">
