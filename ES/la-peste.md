@@ -134,7 +134,7 @@ flowchart LR
     </div>
   </a>
 
-  <a href="/contaminacion-sonora.html" class="fancy-button">
+  <a href="/ES/desplazamiento-pintura.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Desplazamiento de la Pintura">
       <p class="title">Desplazamiento de la Pintura</p>
