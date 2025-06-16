@@ -5,6 +5,7 @@ title: "Desplazamiento de la Pintura"
 description: "La expansión de la pintura hacia contextos domésticos, públicos y naturales."  
 permalink: /es/desplazamiento-pintura.html  
 carousel: true
+mermaid: true
 ---
 
 <h1 class="titulo">LA PESTE: Desplazamiento de la Pintura</h1>
