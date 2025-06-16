@@ -23,6 +23,39 @@ carousel: true
 
 <br>
 
+
+<div class="mermaid">
+flowchart TD
+  Z["Representación del Mundo"]
+  Y["Lo Tangible"]
+  A["La Saturación"]
+  B["La Peste"]
+  F["Desplazamiento de la Pintura"]
+  F1["Espacio Doméstico"]
+  F2["Espacio Público"]
+  F3["Espacio Rural / Natural"]
+
+  Z --> Y
+  Y --> A
+  A --> B
+  B --> F
+  F --> F1
+  F --> F2
+  F --> F3
+
+  click Z "/es/mundo-exterior.html" "Ver Representación del Mundo"
+  click Y "/es/tangible.html" "Ver Lo Tangible"
+  click A "/es/saturacion.html" "Ver La Saturación"
+  click B "/es/la-peste.html" "Ver La Peste"
+  click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click F1 "/es/desplazamiento-pintura.html#espacio-domestico" "Ir a Espacio Doméstico"
+  click F2 "/es/desplazamiento-pintura.html#espacio-publico" "Ir a Espacio Público"
+  click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
+</div>
+
+<br><br>
+
+
 <h3 class="subtitulo2" id="espacio-domestico">1. Espacio Doméstico</h3>
 
 <section class="parrafo">
