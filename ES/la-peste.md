@@ -64,7 +64,7 @@ flowchart LR
   click E1 "#membranas" "Ir a Membranas"
   click E2 "#modulos" "Ir a Módulos"
   click E3 "#unidades" "Ir a Unidades"
-  click F "#desplazamiento" "Ir a Desplazamiento de la Pintura"
+  click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
   click F2 "#espacio-publico" "Ir a Espacio Público"
   click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
