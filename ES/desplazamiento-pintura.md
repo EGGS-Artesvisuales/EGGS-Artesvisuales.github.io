@@ -26,7 +26,7 @@ mermaid: true
 
 
 <div class="mermaid">
-flowchart TD
+flowchart LR
   Z["Representación del Mundo"]
   Y["Lo Tangible"]
   A["La Saturación"]
