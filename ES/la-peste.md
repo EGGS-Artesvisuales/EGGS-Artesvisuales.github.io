@@ -52,22 +52,22 @@ flowchart LR
   F --> F2["Espacio Público"]
   F --> F3["Espacio Rural / Natural"]
 
-  click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
-  click Y "/es/lo-tangible.html" "Ver Lo Tangible"
+  click Z "/es/mundo-exterior.html" "Ver Representación del Mundo"
+  click Y "/es/tangible.html" "Ver Lo Tangible"
   click A "/es/saturacion.html" "Ver La Saturación"
   click B "/es/la-peste.html" "Ver La Peste"
   click C "/es/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
-  click D "#soportes-tradicionales" "Ir a Soportes Tradicionales"
-  click D1 "#intervenciones" "Ir a Intervenciones"
-  click D2 "#producciones" "Ir a Producciones"
-  click E "#soportes-blandos" "Ir a Soportes Blandos"
-  click E1 "#membranas" "Ir a Membranas"
-  click E2 "#modulos" "Ir a Módulos"
-  click E3 "#unidades" "Ir a Unidades"
+  click D "/es/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
+  click D1 "/es/peste-pinturas-infectadas#intervenciones" "Ir a Intervenciones"
+  click D2 "/es/peste-pinturas-infectadas#producciones" "Ir a Producciones"
+  click E "/es/peste-pinturas-infectadas#soportes-blandos" "Ir a Soportes Blandos"
+  click E1 "/es/peste-pinturas-infectadas#membranas" "Ir a Membranas"
+  click E2 "/es/peste-pinturas-infectadas#modulos" "Ir a Módulos"
+  click E3 "/es/peste-pinturas-infectadas#unidades" "Ir a Unidades"
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
-  click F2 "#espacio-publico" "Ir a Espacio Público"
-  click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
+  click F1 "/es/desplazamiento-pintura.html#espacio-domestico" "Ir a Espacio Doméstico"
+  click F2 "/es/desplazamiento-pintura.html#espacio-publico" "Ir a Espacio Público"
+  click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
 
 
