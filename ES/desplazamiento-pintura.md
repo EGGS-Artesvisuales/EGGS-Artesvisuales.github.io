@@ -58,6 +58,11 @@ flowchart LR
 
 
 <h3 class="subtitulo2" id="espacio-domestico">1. Espacio Doméstico</h3>
+<br>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+</figure>
 
 <section class="parrafo">
   <p>
@@ -71,6 +76,11 @@ flowchart LR
 <br>
 
 <h3 class="subtitulo2" id="espacio-publico">2. Espacio Público</h3>
+<br>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+</figure>
 
 <section class="parrafo">
   <p>
@@ -84,6 +94,11 @@ flowchart LR
 <br>
 
 <h3 class="subtitulo2" id="espacio-rural">3. Espacio Rural / Natural</h3>
+<br>
+<figure class="imagen-con-caption">
+  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+</figure>
 
 <section class="parrafo">
   <p>
@@ -94,12 +109,4 @@ flowchart LR
   </p>
 </section>
 
-<br><br>
-
-<h2 class="subtitulo">Notas finales</h2>
-<section class="parrafo">
-  <p>
-    Este desplazamiento no es solo físico o geográfico, sino también conceptual. Implica abandonar ciertos paradigmas de permanencia, monumentalidad y unicidad. La pintura se mueve, muta, y en ese proceso, se redefine.
-  </p>
-</section>
-
+<br>
