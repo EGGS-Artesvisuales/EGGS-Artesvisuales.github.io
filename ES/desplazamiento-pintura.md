@@ -60,7 +60,7 @@ flowchart LR
 <h3 class="subtitulo2" id="espacio-domestico">1. Espacio Doméstico</h3>
 <br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Intervención artística en espacio público" loading="lazy">
   <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
 </figure>
 
