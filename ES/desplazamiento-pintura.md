@@ -60,8 +60,8 @@ flowchart LR
 <h3 class="subtitulo2" id="espacio-domestico">1. Espacio Doméstico</h3>
 <br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-ruido-fweason-024.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+  <img src="/assets/img/la-saturacion-cocina-cubierta-aikrea01.jpg" alt="Intervención artística en espacio domestico" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacios doméstico: Cocina S/T. EGGS - Santiago de Chile, 2009</figcaption>
 </figure>
 
 <section class="parrafo">
@@ -78,8 +78,8 @@ flowchart LR
 <h3 class="subtitulo2" id="espacio-publico">2. Espacio Público</h3>
 <br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+  <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacios públicos: Busto de O'Higgins infectado. EGGS - Santiago, 2010</figcaption>
 </figure>
 
 <section class="parrafo">
@@ -96,8 +96,8 @@ flowchart LR
 <h3 class="subtitulo2" id="espacio-rural">3. Espacio Rural / Natural</h3>
 <br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento../ Espacios públicos: Richard Prince Infested. EGGS - MAC, 2009</figcaption>
+  <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacio público" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacio rural y natural: Ruralia. EGGS - Residencia ruralías, Region X, Los muermos, Chile. 2012.</figcaption>
 </figure>
 
 <section class="parrafo">
