@@ -27,7 +27,7 @@ mermaid: true
 <br>
 
 <div class="mermaid">
-graph TD
+graph LR
     Representacion["Representación del Mundo"]
     Representacion --> Tangible["Lo Tangible"]
     Representacion --> Intangible["Lo Intangible"]
