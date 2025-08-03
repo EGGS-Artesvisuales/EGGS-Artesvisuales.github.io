@@ -48,7 +48,7 @@ flowchart LR
   click A "/es/saturacion.html" "Ver La Saturación"
   click B "/es/la-peste.html" "Ver La Peste"
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/es/desplazamiento-pintura.html#espacio-domestico" "Ir a Espacio Doméstico"
+  click F1 "/ES/espacio-domestico.md" "Ir a Espacio Doméstico"
   click F2 "/es/desplazamiento-pintura.html#espacio-publico" "Ir a Espacio Público"
   click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
