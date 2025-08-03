@@ -6,9 +6,10 @@ permalink: /ES/index.html
 mermaid: true
 ---
 
-<div class="titulo">Bienvenid@ a <br>EGGS-STUDIO</div>
-<div class="subtitulo">Artesvisuales integradas: ideas, obras y proyectos.</div> 
-<p class="parrafo" style="margin-top: 7%;"> Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. Aquí encontrarás tanto proyectos íntimos como intervenciones de gran escala, organizados en tres ejes que estructuran mi enfoque creativo. Cada uno representa una manera particular de vincularme con el arte: desde la observación del mundo, la acción colectiva, y la exploración interior. </p> <br> <br>
+<h1 class="titulo">Bienvenid@ a <br>EGGS-STUDIO</h1> 
+<h2 class="subtitulo">Artesvisuales integradas: ideas, obras y proyectos.</h2> 
+<p class="parrafo" style="margin-top: 7%;"> Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. Aquí encontrarás tanto proyectos íntimos como intervenciones de gran escala, organizados en tres ejes que estructuran mi enfoque creativo. Cada uno representa una manera particular de vincularme con el arte: desde la observación del mundo, la acción colectiva, y la exploración interior. </p>
+<br><br>
 <div class="mermaid">
   graph TD
     principal[Actividad Artística]
