@@ -107,3 +107,35 @@ flowchart LR
 </section>
 
 <br>
+
+<!-- Carrusel de secciones -->
+<div class="owl-carousel carousel-fancy">
+  <div class="item">
+    <a href="#espacio-domestico" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Espacio doméstico">
+        <p class="title">Espacio doméstico</p>
+        <p class="subtitle">desplazamiento de la pintura al espacio inmediato</p>
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="#espacio-publico" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Espacio público">
+        <p class="title">Espacio público</p>
+        <p class="subtitle">desplazamiento de la pintura hacia Intervenciones urbanas</p>
+      </div>
+    </a>
+  </div>
+  <div class="item">
+    <a href="#espacio-rural" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Espacio rural/natural">
+        <p class="title">Espacio rural / natural</p>
+        <p class="subtitle">desplazamiento de la pintura hacia las Intervenciones en la naturaleza</p>
+      </div>
+    </a>
+  </div>
+</div>
+
