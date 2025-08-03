@@ -48,7 +48,7 @@ flowchart LR
   click A "/es/saturacion.html" "Ver La Saturación"
   click B "/es/la-peste.html" "Ver La Peste"
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/ES/espacio-domestico.md" "Ir a Espacio Doméstico"
+  click F1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/es/desplazamiento-pintura.html#espacio-publico" "Ir a Espacio Público"
   click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
@@ -56,7 +56,7 @@ flowchart LR
 <br>
 <!-- Botones de secciones -->
 <div class="button-container">
-  <a href="/ES/espacio-domestico.md" class="fancy-button">
+  <a href="/ES/espacio-domestico.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Espacio doméstico">
       <p class="title">Espacio doméstico</p>
