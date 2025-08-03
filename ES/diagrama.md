@@ -34,11 +34,13 @@ graph LR
   A1a1a --> A1a1a2[Soportes Blandos]
 
   A1a1 --> A1a1b[Desplazamiento de la Pintura]
-  A1a1b --> A1a1b1[Intervenciones / Instalaciones]
-  A1a1b --> A1a1b2[Multimedia / Video]
+  %% Hijos de Desplazamiento de la Pintura
+  A1a1b --> A1a1b1[Espacio Doméstico]
+  A1a1b --> A1a1b2[Espacio Público]
+  A1a1b --> A1a1b3[Espacio Rural / Natural]
 
   A1a --> A1a2[Lo Invisible]
-  A1a2 --> A1a2a[Pinturas Wi-Fi]
+  A1a2 --> A1a2a[Pinturas Wi‑Fi]
 
   A1 --> A1b[La Tecnología]
   A1b --> A1b1[La IA]
@@ -67,10 +69,11 @@ graph LR
   click A1a1a1 "peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Pinturas Infectadas: soportes tradicionales"
   click A1a1a2 "peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "intervenciones-instalaciones.html" "Ir a Intervenciones/Instalaciones"
-  click A1a1b2 "multimedia-video.html" "Ir a Multimedia/Video"
+  click A1a1b1 "espacio-domestico.html" "Ir a Espacio Doméstico"
+  click A1a1b2 "espacio-publico.html" "Ir a Espacio Público"
+  click A1a1b3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-  click A1a2a "pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
+  click A1a2a "pinturas-wifi.html" "Ir a Pinturas Wi‑Fi"
   click A1b "la-tecnologia.html" "Ir a La Tecnología"
   click A1b1 "la-ia.html" "Ir a La IA"
   click A1b2 "lo-espacial.html" "Ir a Lo Espacial"
@@ -87,6 +90,7 @@ graph LR
   click A2c1 "museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
   click A2c2 "mapuche-urbano.html" "Ir a Mapuche Urbano"
 </div>
+
 
 <br><br><br><br>
   <!-- 2) Acción en el Mundo -->
