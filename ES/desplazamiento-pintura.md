@@ -50,7 +50,7 @@ flowchart LR
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
-  click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
+  click F3 "/ES/espacio-natural.html" "Ir a Espacio Rural / Natural"
 </div>
 
 <br>
@@ -70,7 +70,7 @@ flowchart LR
       <p class="subtitle">Desplazamiento de la pintura hacia intervenciones urbanas</p>
     </div>
   </a>
-  <a href="#espacio-rural" class="fancy-button">
+  <a href="/ES/espacio-natural.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Espacio rural/natural">
       <p class="title">Espacio rural / natural</p>
