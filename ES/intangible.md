@@ -25,39 +25,25 @@ mermaid: true
     desarrollado este tipo de obras organizándolas en tres categorías principales:
 </p>
 <br>
+
 <div class="mermaid">
 graph TD
     Representacion["Representación del Mundo"]
+    Representacion --> Tangible["Lo Tangible"]
     Representacion --> Intangible["Lo Intangible"]
 
     Intangible --> Capitalismo["Imágenes del Capitalismo"]
     Intangible --> Popular["Imágenes de lo Popular"]
     Intangible --> Ancestros["Imágenes de los Ancestros"]
 
-    Capitalismo --> Colgado["El Colgado"]
-    Capitalismo --> Burns["Mr. Burns"]
-    Capitalismo --> Empaquetador["El Empaquetador"]
-
-    Popular --> Esculturas["Esculturas"]
-    Esculturas --> Papelucho["Papelucho"]
-
-    Ancestros --> Museo["Museo a Cielo Abierto"]
-    Ancestros --> Mapuche["Mapuche Urbano, La Tala de la Memoria"]
-
     click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+    click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
     click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
     click Capitalismo "/ES/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
-    click Colgado "/ES/el-colgado.html" "Ir a El Colgado"
-    click Burns "/ES/mr-burns.html" "Ir a Mr. Burns"
-    click Empaquetador "/ES/el-empaquetador.html" "Ir a El Empaquetador"
     click Popular "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
-    click Esculturas "/ES/esculturas.html" "Ir a Esculturas"
-    click Papelucho "/ES/papelucho.html" "Ir a Papelucho"
     click Ancestros "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-    click Museo "/ES/museo-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
-    click Mapuche "/ES/mapuche-urbano.html" "Ir a Mapuche Urbano"
 </div>
-
+<br>
 
 <!-- Botones de categorías -->
 <div class="button-container">
