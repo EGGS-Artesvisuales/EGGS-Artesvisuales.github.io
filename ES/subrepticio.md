@@ -16,7 +16,7 @@ permalink: /ES/subrepticio.html
   </a>
 
   <!-- Botón: La Antipublicidad -->
-  <a href="/ES/antipublicidad.html" class="fancy-button">
+  <a href="/Es/subrep-antipublicidad.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-antipub.gif" alt="La Antipublicidad">
       <p class="title">La Antipublicidad</p>
