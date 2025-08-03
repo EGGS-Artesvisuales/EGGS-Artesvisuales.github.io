@@ -53,58 +53,6 @@ flowchart LR
   click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
 
-<br><br>
-
-
-<h3 class="subtitulo2" id="espacio-domestico">1. Espacio Doméstico</h3>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Intervención artística en espacio domestico" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacios doméstico: Cocina S/T. EGGS - Santiago de Chile, 2009</figcaption>
-</figure>
-
-<section class="parrafo">
-  <p>
-    En el contexto doméstico, las obras se integran a la vida cotidiana como una extensión sensible del habitar. Las piezas son flexibles, enrollables o livianas, pensadas para ser trasladadas, adaptadas a muros variables, o incluso montadas temporalmente sobre muebles, puertas o cortinas.
-  </p>
-  <p>
-    Este uso sugiere una reapropiación del gesto pictórico por parte de los habitantes del espacio, permitiendo que la obra respire con el ritmo de lo cotidiano. La pintura se vuelve íntima, funcional y fragmentaria.
-  </p>
-</section>
-
-<br>
-
-<h3 class="subtitulo2" id="espacio-publico">2. Espacio Público</h3>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacios públicos: Busto de O'Higgins infectado. EGGS - Santiago, 2010</figcaption>
-</figure>
-
-<section class="parrafo">
-  <p>
-    En el espacio público, las obras intervienen el paisaje urbano como si fueran carteles, anuncios, mantas o pancartas. Los soportes blandos permiten una instalación rápida, muchas veces efímera, como gesto crítico ante la saturación visual contemporánea.
-  </p>
-  <p>
-    Aquí, la pintura dialoga con el graffiti, la publicidad, los muros deteriorados y los mensajes políticos callejeros. Esta interacción crea una tensión productiva entre arte, entorno y sociedad, desdibujando los límites entre expresión artística y manifestación ciudadana.
-  </p>
-</section>
-
-<br>
-
-<h3 class="subtitulo2" id="espacio-rural">3. Espacio Rural / Natural</h3>
-<figure class="imagen-con-caption">
-  <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacio público" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura/ Espacio rural y natural: Ruralia. EGGS - Residencia ruralías, Region X, Los muermos, Chile. 2012.</figcaption>
-</figure>
-
-<section class="parrafo">
-  <p>
-    El desplazamiento hacia entornos naturales o rurales representa un intento de reencuentro con la materialidad primaria. La pintura se instala en paisajes abiertos, integrándose al ciclo del clima, del polvo, de la tierra. En este contexto, el soporte y la técnica dialogan con lo orgánico.
-  </p>
-  <p>
-    Estas experiencias permiten repensar la pintura no como artefacto, sino como <em>acto</em>, donde lo pictórico es también huella, residuo o marca sobre la tierra. Son ejercicios de temporalidad, de observación, de conexión.
-  </p>
-</section>
-
 <br>
 <!-- Botones de secciones -->
 <div class="button-container">
