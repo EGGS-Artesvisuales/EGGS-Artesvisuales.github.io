@@ -66,8 +66,8 @@ flowchart LR
   click E3 "/es/peste-pinturas-infectadas#unidades" "Ir a Unidades"
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/es/espacio-domestico.html" "Ir a Espacio Doméstico"
-  click F2 "/es/desplazamiento-pintura.html#espacio-publico" "Ir a Espacio Público"
-  click F3 "/es/desplazamiento-pintura.html#espacio-rural" "Ir a Espacio Rural / Natural"
+  click F2 "/es/espacio-publico.html" "Ir a Espacio Público"
+  click F3 "/es/espacio-rural.html" "Ir a Espacio Rural / Natural"
 </div>
 
 
