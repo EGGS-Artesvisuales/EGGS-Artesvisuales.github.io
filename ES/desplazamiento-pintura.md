@@ -56,7 +56,7 @@ flowchart LR
 <br>
 <!-- Botones de secciones -->
 <div class="button-container">
-  <a href="#espacio-domestico" class="fancy-button">
+  <a href="/ES/espacio-domestico.md" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Espacio doméstico">
       <p class="title">Espacio doméstico</p>
