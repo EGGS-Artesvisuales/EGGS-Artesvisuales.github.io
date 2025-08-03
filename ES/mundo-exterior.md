@@ -39,10 +39,10 @@ graph LR
     click interior "/ES/interior.html" "Ir a Exploración del Mundo Interior"
 
     click saturacion "/ES/saturacion.html" "Ir a La Saturación"
-    click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
-    click capitalismo "/ES/capitalismo.html" "Ir a i. del capitalismo"
-    click popular "/ES/popular.html" "Ir a i. de lo popular"
-    click ancestrales "/ES/ancestros.html" "Ir a i. de l@s ancestr@s"
+    click tecnologia "/ES/en-construcion.html" "Ir a La Tecnología"
+    click capitalismo "/ES/imagenes-capitalismo.html" "Ir a i. del capitalismo"
+    click popular "/ES/imagenes-popular.html" "Ir a i. de lo popular"
+    click ancestrales "/ES/imagenes-ancestros.html" "Ir a i. de l@s ancestr@s"
 
 
 
@@ -60,7 +60,7 @@ graph LR
             <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
         </div>
     </a>
-    <a href="/ES/tecnologia.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
             <p class="title">La Tecnología</p>
@@ -75,21 +75,21 @@ graph LR
 <br><br>
 
 <div class="button-container">
-    <a href="/ES/capitalismo.html" class="fancy-button">
+    <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo">
             <p class="title">Imágenes del Capitalismo</p>
             <p class="subtitle">Reflexiones sobre estructuras económicas</p>
         </div>
     </a>
-    <a href="/ES/popular.html" class="fancy-button">
+    <a href="/ES/imagenes-popular.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular">
             <p class="title">Imágenes de lo Popular</p>
             <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
         </div>
     </a>
-    <a href="/ES/ancestros.html" class="fancy-button">
+    <a href="/ES/imagenes-ancestros.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros">
             <p class="title">Imágenes de los Ancestros</p>
