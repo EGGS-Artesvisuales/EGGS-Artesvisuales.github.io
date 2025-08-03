@@ -7,7 +7,7 @@ permalink: /ES/subrepticio.html
 <div class="titulo">Lo Subrepticio</div>
 <div class="button-container">
   <!-- Botón: Graffiti -->
-  <a href="/ES/graffiti.html" class="fancy-button">
+  <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-graffiti.gif" alt="Graffiti">
       <p class="title">Graffiti</p>
@@ -25,7 +25,7 @@ permalink: /ES/subrepticio.html
   </a>
 
   <!-- Botón: Remiendas Urbanas -->
-  <a href="/ES/remiendas-urbanas.html" class="fancy-button">
+  <a href="/ES/subrep-remiendas-urbanas.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-remienda-urbana2.gif" alt="Remiendas Urbanas">
       <p class="title">Remiendas Urbanas</p>
