@@ -6,9 +6,15 @@ permalink: /ES/index.html
 mermaid: true
 ---
 
-<h1 class="titulo">Bienvenid@ a <br>EGGS-STUDIO</h1> 
-<h2 class="subtitulo">Artesvisuales integradas: ideas, obras y proyectos.</h2> 
-<p class="parrafo" style="margin-top: 7%;"> Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. Aquí encontrarás tanto proyectos íntimos como intervenciones de gran escala, organizados en tres ejes que estructuran mi enfoque creativo. Cada uno representa una manera particular de vincularme con el arte: desde la observación del mundo, la acción colectiva, y la exploración interior. </p>
+<h1 class="titulo">
+  <br>EGGS-STUDIO
+</h1> 
+<h2 class="subtitulo">
+  Artes visuales integradas: ideas, obras y proyectos.
+</h2>
+<p class="parrafo" style="margin-top: 7%;"> 
+  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. Aquí encontrarás desde proyectos íntimos hasta intervenciones de gran escala, organizados en tres ejes que estructuran mi práctica creativa. Cada uno representa una forma particular de relacionarme con el arte: la observación del mundo que me rodea, la acción colectiva y la exploración del universo interior.
+</p>
 <br><br>
 <div class="mermaid">
   graph TD
@@ -62,7 +68,7 @@ mermaid: true
     <div class="button-content">
     <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploración del Mundo Interior" loading="lazy">
       <p class="title">Mundo Interior</p>
-      <p class="subtitle">Arte para el bienestar físico-espiritual y la introspección.</p>
+      <p class="subtitle">Arte para el bienestar humano.</p>
     </div>
   </a>
 </div>
