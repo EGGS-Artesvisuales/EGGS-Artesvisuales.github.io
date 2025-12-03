@@ -26,10 +26,17 @@ mermaid: true
     familiar. Lo doméstico deja de ser un fondo neutro y se convierte en protagonista: un escenario donde 
     se cruzan memoria, desgaste, precariedad y deseo.
   </p>
+
+  <p class="parrafo">
+    A continuación puedes recorrer dos líneas dentro de este eje: <strong>objetos</strong> y 
+    <strong>habitaciones</strong>. Cada una propone una manera distinta de entender la casa como 
+    territorio pictórico, afectivo y político.
+  </p>
 </section>
 
 <br>
 
+<!-- DIAGRAMA MERMAID CON ENLACES A #objetos Y #habitaciones -->
 <div class="mermaid">
 graph LR
   %% Rama principal que conduce a Desplazamiento de la Pintura
@@ -75,15 +82,17 @@ graph LR
   click A1a "saturacion.html" "Ir a La Saturación"
   click A1b "la-tecnologia.html" "Ir a La Tecnología"
   click A1a1 "la-peste.html" "Ir a La Peste"
-
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click A1a1c "peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
 
   click D1 "espacio-domestico.html" "Ir a Espacio Doméstico"
   click D2 "espacio-publico.html" "Ir a Espacio Público"
   click D3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
+
+  %% Enlaces internos dentro de esta misma página
+  click D1a "espacio-domestico.html#objetos" "Ver objetos domésticos"
+  click D1b "espacio-domestico.html#habitaciones" "Ver habitaciones domésticas"
 
   %% Hijos de Espacio Doméstico → fichas de obra
   click ObjAuto "automovil.html" "Ver Automóvil"
@@ -96,108 +105,120 @@ graph LR
   click HabStudio "studio-apestado.html" "Ver Studio apestado"
 </div>
 
+<br><br>
 
-<br>
-
-<section>
+<!-- SECCIÓN OBJETOS -->
+<section id="objetos">
+  <h3 class="subtitulo">Objetos en espacios domésticos</h3>
   <p class="parrafo">
-    A continuación puedes recorrer una selección de obras vinculadas a este eje. Cada pieza propone un 
-    modo distinto de entender la saturacion en el espacio de la casa como territorio pictórico, afectivo y político.
+    En esta línea, la pintura se adhiere a <strong>objetos cotidianos</strong> —autos, televisores, 
+    imágenes devocionales, elementos decorativos— que habitan la casa. Al ser intervenidos, estos objetos 
+    dejan de ser parte del paisaje funcional y se cargan de extrañeza, ruido visual y preguntas sobre 
+    consumo, memoria e intimidad.
   </p>
+
+  <div class="owl-carousel carousel-imagen">
+
+    <figure class="item">
+      <a href="/ES/arbol.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/la-peste-desp-espacio-domestico-arbol.jpg" alt="Árbol, intervención pictórica en espacio doméstico" loading="lazy">
+        </div>
+        <figcaption>Árbol</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/automovil.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/automovil.jpg" alt="Automóvil en contexto doméstico" loading="lazy">
+        </div>
+        <figcaption>Automóvil</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/beuys-tv.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/beuys-tv.jpg" alt="Beuys TV en ambiente doméstico" loading="lazy">
+        </div>
+        <figcaption>Beuys TV</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/jesus.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/jesus.jpg" alt="Imagen de Jesús en interior doméstico" loading="lazy">
+        </div>
+        <figcaption>Jesús</figcaption>
+      </a>
+    </figure>
+
+  </div>
 </section>
 
-<!-- Carrusel de obras domésticas --> 
-<div class="owl-carousel carousel-imagen">
+<br><br>
 
-  <figure class="item">
-    <a href="/ES/arbol.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/la-peste-desp-espacio-domestico-arbol.jpg" alt="Árbol, intervención pictórica en espacio doméstico" loading="lazy">
-      </div>
-      <figcaption>Árbol</figcaption>
-    </a>
-  </figure>
+<!-- SECCIÓN HABITACIONES -->
+<section id="habitaciones">
+  <h3 class="subtitulo">Habitaciones y superficies de la casa</h3>
+  <p class="parrafo">
+    Aquí, la pintura interviene directamente <strong>habitaciones y superficies arquitectónicas</strong>: 
+    cocinas, comedores, baños y estudios. Los muros y cubiertas se convierten en soporte pictórico, 
+    tensionando el límite entre espacio de uso y espacio de contemplación, entre habitar y exhibir.
+  </p>
 
-  <figure class="item">
-    <a href="/ES/automovil.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/automovil.jpg" alt="Automóvil en contexto doméstico" loading="lazy">
-      </div>
-      <figcaption>Automóvil</figcaption>
-    </a>
-  </figure>
+  <div class="owl-carousel carousel-imagen">
 
-  <figure class="item">
-    <a href="/ES/bano-obrero.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/bano-obrero.jpg" alt="Baño obrero intervenido pictóricamente" loading="lazy">
-      </div>
-      <figcaption>Baño obrero</figcaption>
-    </a>
-  </figure>
+    <figure class="item">
+      <a href="/ES/cubierta-cocina.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Cubierta de cocina intervenida" loading="lazy">
+        </div>
+        <figcaption>Cubierta de cocina</figcaption>
+      </a>
+    </figure>
 
-  <figure class="item">
-    <a href="/ES/jesus.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/jesus.jpg" alt="Jesús en interior doméstico" loading="lazy">
-      </div>
-      <figcaption>Jesús</figcaption>
-    </a>
-  </figure>
+    <figure class="item">
+      <a href="/ES/comedor-apestado.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/comedor-apestado.jpg" alt="Comedor apestado" loading="lazy">
+        </div>
+        <figcaption>Comedor apestado</figcaption>
+      </a>
+    </figure>
 
-  <figure class="item">
-    <a href="/ES/avalancha.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Avalancha, pintura desplazada hacia el espacio cotidiano" loading="lazy">
-      </div>
-      <figcaption>Avalancha</figcaption>
-    </a>
-  </figure>
+    <figure class="item">
+      <a href="/ES/bano-obrero.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/bano-obrero.jpg" alt="Baño obrero intervenido pictóricamente" loading="lazy">
+        </div>
+        <figcaption>Baño obrero</figcaption>
+      </a>
+    </figure>
 
-  <figure class="item">
-    <a href="/ES/comedor-apestado.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/comedor-apestado.jpg" alt="Comedor apestado" loading="lazy">
-      </div>
-      <figcaption>Comedor apestado</figcaption>
-    </a>
-  </figure>
+    <figure class="item">
+      <a href="/ES/studio-apestado.html">
+        <div class="img-container">
+          <img class="carousel-img" src="/assets/img/studio-apestado.jpg" alt="Studio apestado" loading="lazy">
+        </div>
+        <figcaption>Studio apestado</figcaption>
+      </a>
+    </figure>
 
-  <figure class="item">
-    <a href="/ES/cubierta-cocina.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Cubierta de cocina intervenida" loading="lazy">
-      </div>
-      <figcaption>Cubierta cocina</figcaption>
-    </a>
-  </figure>
+  </div>
+</section>
 
-  <figure class="item">
-    <a href="/ES/studio-apestado.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/studio-apestado.jpg" alt="Studio apestado" loading="lazy">
-      </div>
-      <figcaption>Studio apestado</figcaption>
-    </a>
-  </figure>
-
-  <figure class="item">
-    <a href="/ES/beuys-tv.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/beuys-tv.jpg" alt="Beuys TV en ambiente doméstico" loading="lazy">
-      </div>
-      <figcaption>Beuys TV</figcaption>
-    </a>
-  </figure>
-
-</div>
+<br><br>
 
 <section>
   <p class="parrafo" style="margin-top: 3%;">
-    Estas obras forman parte de un proceso más amplio de investigación sobre el <strong>desplazamiento de la pintura</strong>, 
-    donde la superficie tradicional del cuadro se expande hacia soportes cotidianos y arquitectónicos. 
-    Si quieres profundizar en este marco teórico y visual, puedes visitar también las secciones de 
-    <a href="/ES/saturacion.html">La Saturación</a> y otras series relacionadas dentro de 
-    <a href="/ES/mundo-exterior.html">Representación del Mundo</a>.
+    Estas obras forman parte de un proceso más amplio de investigación sobre el 
+    <strong>desplazamiento de la pintura</strong>, donde la superficie tradicional del cuadro se expande 
+    hacia soportes cotidianos y arquitectónicos. Si quieres profundizar en este marco teórico y visual, 
+    puedes visitar también las secciones de <a href="/ES/saturacion.html">La Saturación</a> y otras series 
+    relacionadas dentro de <a href="/ES/mundo-exterior.html">Representación del Mundo</a>.
   </p>
 </section>
+
