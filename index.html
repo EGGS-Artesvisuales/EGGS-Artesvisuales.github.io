@@ -11,8 +11,8 @@
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
 
   <!-- Meta básicos de SEO (opcional ampliar) -->
-  <meta name="description" content="EGGS-Studio - Welcome to our art and design platform.">
-  <meta name="keywords" content="EGGS Studio, art, murals, design, restoration">
+  <meta name="description" content="EGGS-Studio: visual arts, murals, community projects and restoration by Esteban Garnica (EGGS), based in Santiago, Chile.">
+  <meta name="keywords" content="EGGS Studio, Esteban Garnica, art, murals, design, restoration, La Florida, Santiago">
   <meta name="robots" content="index, follow">
 
   <!-- Estilos en línea (idealmente mover a un .css externo) -->
@@ -90,7 +90,7 @@
       margin-top: 30px;
       margin-bottom: 100px;
     }
-    .language-selection button {
+    .language-selection a {
       background-color: transparent;
       color: #fff;
       border: 2px solid #58a6ff;
@@ -101,15 +101,18 @@
       cursor: pointer;
       position: relative;
       overflow: hidden;
+      text-decoration: none;
       transition:
         background-color 0.3s ease,
         color 0.3s ease,
         transform 0.2s ease;
     }
-    .language-selection button:hover {
+    .language-selection a:hover,
+    .language-selection a:focus-visible {
       background-color: #58a6ff;
       color: #f4f4f4;
       transform: scale(1.1);
+      outline: none;
     }
 
     /* ANIMACIÓN PULSO (LOGO) */
@@ -139,35 +142,36 @@
 
   <!-- TÍTULO Y SUBTÍTULO -->
   <h1>EGGS - Studio</h1>
-  <h2>Bienvenid@ / Welcome</h2>
-  <p>Select your language / Seleccione su idioma:</p>
+  <h2>Arte visual, murales y comunidad / Visual Art, Murals & Community</h2>
+  <p>Seleccione su idioma / Select your language:</p>
 
-  <!-- BOTONES DE IDIOMA -->
+  <!-- BOTONES DE IDIOMA (AHORA ENLACES) -->
   <nav class="language-selection" aria-label="Language selection">
-    <button onclick="setLanguage('es')">Español</button>
-    <button onclick="setLanguage('en')">English</button>
+    <a href="/ES/index.html" onclick="setLanguage('es')">Español</a>
+    <a href="/EN/index.html" onclick="setLanguage('en')">English</a>
   </nav>
 
-  <!-- SCRIPT PARA GUARDAR IDIOMA Y REDIRIGIR -->
+  <!-- SCRIPT PARA GUARDAR IDIOMA -->
   <script>
     function setLanguage(lang) {
-      // Guardar idioma en localStorage (verificar compatibilidad si es crucial)
-      if (typeof(Storage) !== 'undefined') {
-        localStorage.setItem('language', lang);
+      // Guardar idioma en localStorage (si está disponible)
+      try {
+        if (typeof(Storage) !== 'undefined') {
+          localStorage.setItem('language', lang);
+        }
+      } catch (e) {
+        // Si localStorage falla, simplemente dejamos que el enlace navegue igual
       }
-      // Redirigir a la carpeta de idioma correspondiente
-      if (lang === 'es') {
-        window.location.href = '/ES/index.html';
-      } else {
-        window.location.href = '/EN/index.html';
-      }
+      // No redirigimos aquí: el <a> ya tiene su href y se encarga de la navegación
     }
   </script>
 
   <!-- MENSAJE PARA USUARIOS SIN JAVASCRIPT (OPCIONAL) -->
   <noscript>
     <p style="color:#fff;">
-      JavaScript is required to select language. Please enable JavaScript or use the ES/EN version directly.
+      JavaScript is disabled. You can still access the site directly:
+      <a href="/ES/index.html" style="color:#58a6ff;">Versión en Español</a> ·
+      <a href="/EN/index.html" style="color:#58a6ff;">English version</a>.
     </p>
   </noscript>
 </body>
