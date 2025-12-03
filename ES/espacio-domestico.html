@@ -26,11 +26,6 @@ mermaid: true
     familiar. Lo doméstico deja de ser un fondo neutro y se convierte en protagonista: un escenario donde 
     se cruzan memoria, desgaste, precariedad y deseo.
   </p>
-
-  <p class="parrafo">
-    A continuación puedes recorrer una selección de obras vinculadas a este eje. Cada pieza propone un 
-    modo distinto de entender la casa como territorio pictórico, afectivo y político.
-  </p>
 </section>
 
 <br>
@@ -39,10 +34,18 @@ mermaid: true
 graph LR
   %% Rama principal que conduce a Desplazamiento de la Pintura
   A[Representación del Mundo] --> A1[Lo Tangible]
+  A --> A2[Lo Intangible]
+
   A1 --> A1a[La Saturación]
+  A1 --> A1b[La Tecnología]
+
   A1a --> A1a1[La Peste]
+  A1a --> A1a2[Lo Invisible]
+
   A1a1 --> A1a1b[Desplazamiento de la Pintura]
   A1a1b --> D1[Espacio Doméstico]
+  A1a1b --> D2[Espacio Público]
+  A1a1b --> D3[Espacio Rural / Natural]
 
   %% Subdivisión interna del Espacio Doméstico
   D1 --> D1a[Objetos]
@@ -63,11 +66,17 @@ graph LR
   %% Enlaces clicables (relativos a /ES/)
   click A "mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "tangible.html" "Ir a Lo Tangible"
+  click A2 "intangible.html" "Ir a Lo Intangible"
+
   click A1a "saturacion.html" "Ir a La Saturación"
+  click A1b "la-tecnologia.html" "Ir a La Tecnología"
   click A1a1 "la-peste.html" "Ir a La Peste"
+  click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 
   click D1 "espacio-domestico.html" "Ir a Espacio Doméstico"
+  click D2 "espacio-publico.html" "Ir a Espacio Público"
+  click D3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
 
   %% Hijos de Espacio Doméstico → fichas de obra
   click ObjAuto "automovil.html" "Ver Automóvil"
@@ -81,6 +90,13 @@ graph LR
 </div>
 
 <br>
+
+<section>
+  <p class="parrafo">
+    A continuación puedes recorrer una selección de obras vinculadas a este eje. Cada pieza propone un 
+    modo distinto de entender la saturacion en el espacio de la casa como territorio pictórico, afectivo y político.
+  </p>
+</section>
 
 <!-- Carrusel de obras domésticas --> 
 <div class="owl-carousel carousel-imagen">
