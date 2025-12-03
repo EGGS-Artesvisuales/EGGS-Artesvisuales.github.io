@@ -5,7 +5,7 @@ title: "Espacios domésticos"
 description: "Introducción a las obras de La Saturación, La Peste y Desplazamiento de la Pintura en contextos domésticos."
 permalink: /ES/espacio-domestico.html
 carousel: true
-mermaid: false
+mermaid: true
 ---
 
 <h1 class="titulo">Espacios domésticos</h1>
@@ -32,6 +32,55 @@ mermaid: false
     modo distinto de entender la casa como territorio pictórico, afectivo y político.
   </p>
 </section>
+
+<br>
+
+<div class="mermaid">
+graph LR
+  %% Rama principal que conduce a Desplazamiento de la Pintura
+  A[Representación del Mundo] --> A1[Lo Tangible]
+  A1 --> A1a[La Saturación]
+  A1a --> A1a1[La Peste]
+  A1a1 --> A1a1b[Desplazamiento de la Pintura]
+  A1a1b --> D1[Espacio Doméstico]
+
+  %% Subdivisión interna del Espacio Doméstico
+  D1 --> D1a[Objetos]
+  D1 --> D1b[Habitaciones]
+
+  %% Objetos (obras específicas)
+  D1a --> ObjAuto[Automóvil]
+  D1a --> ObjBeuys[Beuys TV]
+  D1a --> ObjArbol[Árbol]
+  D1a --> ObjOtros[Otros objetos]
+
+  %% Habitaciones (tipos de espacio)
+  D1b --> HabCocina[Cocina / Cubierta]
+  D1b --> HabComedor[Comedor apestado]
+  D1b --> HabBano[Baño obrero]
+  D1b --> HabStudio[Studio apestado]
+
+  %% Enlaces clicables (relativos a /ES/)
+  click A "mundo-exterior.html" "Ir a Representación del Mundo"
+  click A1 "tangible.html" "Ir a Lo Tangible"
+  click A1a "saturacion.html" "Ir a La Saturación"
+  click A1a1 "la-peste.html" "Ir a La Peste"
+  click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+
+  click D1 "espacio-domestico.html" "Ir a Espacio Doméstico"
+
+  %% Hijos de Espacio Doméstico → fichas de obra
+  click ObjAuto "automovil.html" "Ver Automóvil"
+  click ObjBeuys "beuys-tv.html" "Ver Beuys TV"
+  click ObjArbol "arbol.html" "Ver Árbol"
+
+  click HabCocina "cubierta-cocina.html" "Ver Cubierta de cocina"
+  click HabComedor "comedor-apestado.html" "Ver Comedor apestado"
+  click HabBano "bano-obrero.html" "Ver Baño obrero"
+  click HabStudio "studio-apestado.html" "Ver Studio apestado"
+</div>
+
+<br>
 
 <!-- Carrusel de obras domésticas --> 
 <div class="owl-carousel carousel-imagen">
@@ -118,7 +167,6 @@ mermaid: false
   </figure>
 
 </div>
-
 
 <section>
   <p class="parrafo" style="margin-top: 3%;">
