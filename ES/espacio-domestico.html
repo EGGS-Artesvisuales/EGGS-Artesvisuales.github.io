@@ -74,35 +74,40 @@ graph LR
   D1b --> HabBano[Baño obrero]
   D1b --> HabStudio[Studio apestado]
 
-  %% Enlaces clicables (relativos a /ES/)
-  click A "mundo-exterior.html" "Ir a Representación del Mundo"
-  click A1 "tangible.html" "Ir a Lo Tangible"
-  click A2 "intangible.html" "Ir a Lo Intangible"
+  %% Enlaces clicables (puedes ajustar a /ES/ o rutas relativas según tu estructura final)
+  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  click A1 "/ES/tangible.html" "Ir a Lo Tangible"
+  click A2 "/ES/intangible.html" "Ir a Lo Intangible"
 
-  click A1a "saturacion.html" "Ir a La Saturación"
-  click A1b "la-tecnologia.html" "Ir a La Tecnología"
-  click A1a1 "la-peste.html" "Ir a La Peste"
-  click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-  click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1c "peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click A1a "/ES/saturacion.html" "Ir a La Saturación"
+  click A1b "/ES/la-tecnologia.html" "Ir a La Tecnología"
+  click A1a1 "/ES/la-peste.html" "Ir a La Peste"
+  click A1a2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
 
-  click D1 "espacio-domestico.html" "Ir a Espacio Doméstico"
-  click D2 "espacio-publico.html" "Ir a Espacio Público"
-  click D3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
+  %% Enlace al hermano: Pinturas Infectadas
+  click A1a1c "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+
+  %% Desplazamiento
+  click A1a1b "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+
+  %% Espacios (otras páginas)
+  click D1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
+  click D2 "/ES/espacio-publico.html" "Ir a Espacio Público"
+  click D3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"
 
   %% Enlaces internos dentro de esta misma página
-  click D1a "espacio-domestico.html#objetos" "Ver objetos domésticos"
-  click D1b "espacio-domestico.html#habitaciones" "Ver habitaciones domésticas"
+  click D1a "/ES/espacio-domestico.html#objetos" "Ver objetos domésticos"
+  click D1b "/ES/espacio-domestico.html#habitaciones" "Ver habitaciones domésticas"
 
   %% Hijos de Espacio Doméstico → fichas de obra
-  click ObjAuto "automovil.html" "Ver Automóvil"
-  click ObjBeuys "beuys-tv.html" "Ver Beuys TV"
-  click ObjArbol "arbol.html" "Ver Árbol"
+  click ObjAuto "/ES/automovil.html" "Ver Automóvil"
+  click ObjBeuys "/ES/beuys-tv.html" "Ver Beuys TV"
+  click ObjArbol "/ES/arbol.html" "Ver Árbol"
 
-  click HabCocina "cubierta-cocina.html" "Ver Cubierta de cocina"
-  click HabComedor "comedor-apestado.html" "Ver Comedor apestado"
-  click HabBano "bano-obrero.html" "Ver Baño obrero"
-  click HabStudio "studio-apestado.html" "Ver Studio apestado"
+  click HabCocina "/ES/cubierta-cocina.html" "Ver Cubierta de cocina"
+  click HabComedor "/ES/comedor-apestado.html" "Ver Comedor apestado"
+  click HabBano "/ES/bano-obrero.html" "Ver Baño obrero"
+  click HabStudio "/ES/studio-apestado.html" "Ver Studio apestado"
 </div>
 
 <br><br>
