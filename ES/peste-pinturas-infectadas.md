@@ -32,48 +32,78 @@ carousel: true
 </section>
 <br>
 <div class="mermaid">
-flowchart LR
-  Z["Representación del Mundo"] --> Y["Lo Tangible"]
-  Y --> A["La Saturación"]
-  A --> B["La Peste"]
-  A --> X["Lo Invisible"]
-  B --> C["Pinturas Infectadas"]
-  C --> D["Soportes tradicionales"]
-  D --> D1["Intervención"]
-  D --> D2["Producción"]
-  C --> E["Soportes Blandos"]
-  E --> E1["Membrana"]
-  E --> E2["Módulo"]
-  E --> E3["Unidad"]
-  B --> F["Desplazamiento de la Pintura"]
-  F --> F1["Espacio Doméstico"]
-  F --> F2["Espacio Público"]
-  F --> F3["Espacio Rural / Natural"]
+graph LR
+  %% Eje general de representación
+  Z[Representación del Mundo] --> Y[Lo Tangible]
+  Z --> Z2[Lo Intangible]
 
-  %% Nuevos nodos
-  X --> X1["Pinturas Deformadas"]
-  E2 --> E2a["Módulos Prints n Paint"]
+  %% Rama La Saturación / La Peste
+  Y --> A[La Saturación]
+  A --> B[La Peste]
+  A --> X[Lo Invisible]
 
-  %% Enlaces
-  click Z "/es/representacion-del-mundo.html" "Ver Representación del Mundo"
-  click Y "/es/lo-tangible.html" "Ver Lo Tangible"
-  click A "/es/saturacion.html" "Ver La Saturación"
-  click B "/es/la-peste.html" "Ver La Peste"
-  click C "/es/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
-  click D "#soportes-tradicionales" "Ir a Soportes Tradicionales"
+  %% Pinturas Infectadas dentro de La Peste
+  B --> C[Pinturas Infectadas]
+  C --> D[Soportes tradicionales]
+  C --> E[Soportes blandos]
+
+  %% Detalle Soportes tradicionales
+  D --> D1[Intervenciones]
+  D --> D2[Producciones]
+
+  %% Detalle Soportes blandos
+  E --> E1[Membranas]
+  E --> E2[Módulos]
+  E --> E3[Unidades]
+  E2 --> E2a[Módulos print]
+
+  %% Desplazamiento de la Pintura (hermano de Pinturas Infectadas)
+  B --> F[Desplazamiento de la Pintura]
+  F --> F1[Espacio doméstico]
+  F --> F2[Espacio público]
+  F --> F3[Espacio rural / natural]
+
+  %% Derivación desde Lo Invisible
+  X --> X1[Pinturas deformadas]
+
+  %% Derivaciones emblemáticas desde Lo Intangible (hermano mayor)
+  Z2 --> Z2a[El Capitalismo]
+  Z2 --> Z2b[Lo Popular]
+  Z2 --> Z2c[Lo Ancestral]
+
+  %% Enlaces clicables – árbol general
+  click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
+  click Y "/ES/tangible.html" "Ver Lo Tangible"
+  click Z2 "/ES/intangible.html" "Ver Lo Intangible"
+
+  click A "/ES/saturacion.html" "Ver La Saturación"
+  click B "/ES/la-peste.html" "Ver La Peste"
+  click X "/ES/lo-invisible.html" "Ver Lo Invisible"
+  click X1 "/ES/pinturas-deformadas.html" "Ver Pinturas Deformadas"
+
+  click Z2a "/ES/el-capitalismo.html" "Ver El Capitalismo"
+  click Z2b "/ES/lo-popular.html" "Ver Lo Popular"
+  click Z2c "/ES/lo-ancestral.html" "Ver Lo Ancestral"
+
+  %% Enlaces específicos de Pinturas Infectadas
+  click C "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+  click D "#soportes-tradicionales" "Ir a Soportes tradicionales"
   click D1 "#intervenciones" "Ir a Intervenciones"
   click D2 "#producciones" "Ir a Producciones"
-  click E "#soportes-blandos" "Ir a Soportes Blandos"
+
+  click E "#soportes-blandos" "Ir a Soportes blandos"
   click E1 "#membranas" "Ir a Membranas"
   click E2 "#modulos" "Ir a Módulos"
+  click E2a "#modulos-prints" "Ir a Módulos print"
   click E3 "#unidades" "Ir a Unidades"
-  click F "/es/desplazamiento.html" "Ver Desplazamiento de la Pintura"
-  click F1 "#espacio-domestico" "Ir a Espacio Doméstico"
-  click F2 "#espacio-publico" "Ir a Espacio Público"
-  click F3 "#espacio-rural" "Ir a Espacio Rural / Natural"
-  click X1 "/es/pinturas-deformadas.html" "Ver Pinturas Deformadas"
-  click E2a "#modulos-prints" "Ir a Módulos Prints n Paint"
+
+  %% Enlaces a Desplazamiento de la Pintura y sus ramas
+  click F "/ES/desplazamiento-pintura.html" "Ver Desplazamiento de la Pintura"
+  click F1 "/ES/espacio-domestico.html#espacio-domestico" "Ir a Espacio doméstico"
+  click F2 "/ES/espacio-publico.html#espacio-publico" "Ir a Espacio público"
+  click F3 "/ES/espacio-rural.html#espacio-rural" "Ir a Espacio rural / natural"
 </div>
+
 
 
 
