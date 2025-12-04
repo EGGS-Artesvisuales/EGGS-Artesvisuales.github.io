@@ -456,6 +456,29 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
+/* Nueva “categoría” 70% */
+.imagen-con-caption-70 {
+  width: 70%;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.imagen-con-caption.imagen-con-caption-70 {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.imagen-con-caption-70 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .imagen-con-caption-70 {
+    width: 100%;
+  }
+}
+
 /* ------------------------------------------------------------------
    PIE DE FOTOS OPTIMIZADO
 ------------------------------------------------------------------ */
@@ -479,6 +502,7 @@ p.parrafo:first-of-type ul {
   color: var(--color-medio-claro);
   margin-top: 0.5rem;
 }
+
 
 /* ------------------------------------------------------------------
    BOTONES: FANCY BUTTONS Y OTROS
