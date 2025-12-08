@@ -1,25 +1,28 @@
 ---
 layout: default-es
-title: "Esteban Garnica Sánchez | Acción en el Arte"
+title: "Esteban Garnica Sánchez – Artista visual y muralista"
+description: "Biografía y trayectoria de Esteban Garnica Sánchez: artista visual, muralista y creador de EGGS-Studio, especializado en arte público, pintura expandida y procesos comunitarios."
+keywords: "Esteban Garnica, artista visual chileno, muralista, EGGS-Studio, arte contemporáneo Chile, pintura expandida, arte público, proyectos comunitarios"
 permalink: /ES/garnica.html
 ---
+
 <!-- Título principal -->
-<div class="titulo">Esteban Garnica Sánchez</div>
-<div class="subtitulo">Arte como herramienta de transformación social</div>
+<h1 class="titulo">Esteban Garnica Sánchez</h1>
+<h2 class="subtitulo">Arte como herramienta de transformación social</h2>
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  Esteban Garnica Sánchez (Santiago, 1985) es un artista visual chileno formado en la Universidad de Chile. Su carrera integra la creación artística, la docencia y la intervención en el espacio urbano. Su obra se centra en problemáticas actuales como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando técnicas que van desde la pintura mural hasta intervenciones en espacios públicos.
+  Esteban Garnica Sánchez (Santiago, 1985) es un artista visual chileno formado en la Universidad de Chile. Su trayectoria articula creación artística, docencia e intervención en el espacio urbano. Su obra aborda temas contemporáneos como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando lenguajes que van desde la pintura mural hasta la instalación en espacios públicos.
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Garnica se define como un cronista de su tiempo. Sus proyectos, que incluyen murales de gran escala y acciones callejeras, buscan transformar la percepción del espacio público y fomentar el debate ciudadano. 
+  Garnica se concibe como un cronista visual de su tiempo. Sus proyectos —que incluyen murales de gran formato, intervenciones colaborativas y acciones situadas— buscan transformar la percepción del espacio público, activar la memoria territorial y fortalecer el diálogo ciudadano.
 </p>
 
 <!-- Párrafo 3 -->
 <p class="parrafo">
-  Además, su labor educativa, desarrollada a través de talleres y proyectos colaborativos, contribuye a formar nuevas generaciones de artistas comprometidos con el cambio social. 
+  Su labor educativa, desarrollada mediante talleres, procesos participativos y proyectos comunitarios, ha contribuido a la formación de nuevas generaciones de artistas y mediadores culturales comprometidos con la transformación social a través del arte.
 </p>
 
 <br>
