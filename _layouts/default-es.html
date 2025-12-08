@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Título dinámico con fallback -->
-  <title>{{ page.title | default: 'EGGS-Studio | Arte visual y Murales' }}</title>
+  <!-- Título dinámico con fallback 
+       🔹 Recomendación: SIEMPRE definir `title` en el front matter de cada página. -->
+  <title>{{ page.title | default: 'EGGS-Studio | Arte visual y murales en La Florida, Santiago' }}</title>
   
-  <!-- Meta Etiquetas Principales para SEO -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: experto en arte visual, murales y restauración de arte y docencia de artes.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales, restauración de arte, diseño artístico' }}">
+  <!-- Meta Etiquetas Principales para SEO
+       🔹 Recomendación: Personalizar `description` y `keywords` por página. -->
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: arte visual, murales comunitarios y restauración de obras en La Florida, Santiago de Chile.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales comunitarios, restauración de arte, diseño artístico, La Florida, Santiago' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
-  
+  <meta name="language" content="es-CL">
+
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
 
@@ -23,27 +26,49 @@
   <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y Murales' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Descubre nuestra experiencia en murales, restauración y arte visual.' }}">
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Arte y murales en La Florida, Santiago' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Murales comunitarios, restauración de arte y proyectos visuales creados por Esteban Garnica en La Florida, Santiago de Chile.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
-  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale" content="es_CL">
   <meta property="og:site_name" content="EGGS-Studio">
+  <!-- Si tienes versión EN equivalente de la misma página, puedes añadir:
+  <meta property="og:locale:alternate" content="en_US">
+  -->
 
-  <!-- JSON-LD Schema -->
+  <!-- JSON-LD Schema: Organización + Negocio Local (arte/murales en La Florida) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness"],
     "name": "EGGS-Studio",
-    "url": "{{ site.url | default: 'https://eggs-studio.cl' }}",
-    "logo": "{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.jpg",
+    "legalName": "E.GG.S – Producciones & Art SpA",
+    "url": "{{ site.url | default: "https://eggs-studio.cl" }}",
+    "logo": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.jpg",
+    "image": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.png",
+    "description": "Arte chileno y muralismo comunitario de Esteban Garnica. Murales, restauración de obras de arte y proyectos de arte público en La Florida, Santiago de Chile.",
     "sameAs": [
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Arte Chileno, Arte visual de Esteban Garnica, especialista en pintura, murales, arte visual y restauración de obras artísticas."
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Florida",
+      "addressRegion": "Región Metropolitana",
+      "addressCountry": "CL"
+    },
+    "areaServed": [
+      "La Florida",
+      "Santiago",
+      "Región Metropolitana de Santiago",
+      "Chile"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Esteban Armando Garnica Sánchez",
+      "jobTitle": "Artista visual y muralista"
+    }
   }
   </script>
 
@@ -117,21 +142,21 @@
           margin: 10,
           nav: true,
           dots: true,
-          items: 1, // Importante: un ítem grande por slide
+          items: 1,
           autoHeight: true,
           navText: ["&#9664;", "&#9654;"]
         });
 
         $('.owl-carousel.carousel-fancy').owlCarousel({
           loop: true,
-        margin: 9,
-        nav: true,
-        dots: true,
-        navText: ["&#9664;", "&#9654;"],
-        responsive: {
-          0: { items: 1 },
-          600: { items: 2 },
-          1000: { items: 3 }
+          margin: 9,
+          nav: true,
+          dots: true,
+          navText: ["&#9664;", "&#9654;"],
+          responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 }
           }
         });
       });
@@ -147,3 +172,4 @@
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
+
