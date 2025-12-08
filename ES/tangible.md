@@ -1,7 +1,10 @@
 ---
 layout: default-es
-title: Lo Tangible
+lang: es
+title: "Lo Tangible – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que exploran la materialidad, el objeto y la presencia física como dimensiones fundamentales del arte contemporáneo."
 permalink: /ES/tangible.html
+keywords: "Lo Tangible, materialidad, arte contemporáneo, objeto artístico, presencia física, pintura expandida, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
