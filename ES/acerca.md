@@ -1,8 +1,11 @@
 ---
 layout: default-es
-title: "Acerca de"
+title: "Acerca de EGGS-Studio – Esteban Garnica"
+description: "Conoce el universo creativo de Esteban Garnica y EGGS-Studio: arte visual, muralismo, restauración, docencia y producción cultural desarrollada en Chile."
+keywords: "Esteban Garnica, EGGS-Studio, artista visual chileno, muralismo, restauración de arte, producción cultural, arte contemporáneo Chile"
 permalink: /ES/acerca.html
 ---
+
 
 <h1 class="titulo">Acerca de EGGS-Studio</h1>
 <h2 class="subtitulo">Universo creativo de Esteban Gárnica S.</h2>
