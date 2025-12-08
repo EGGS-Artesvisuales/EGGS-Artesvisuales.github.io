@@ -8,45 +8,42 @@ keywords: "Mundo Interior, arte introspectivo, imaginario psicológico, arte con
 carousel: true
 ---
 
-<!-- Título principal -->
-<div class="titulo">Mundo Interior</div>
-<div class="subtitulo">Un viaje introspectivo a través del arte</div>
+<h1 class="titulo">Mundo Interior</h1>
+<h2 class="subtitulo">Un viaje introspectivo a través del arte</h2>
 
-<!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  El concepto de Mundo Interior remite a la práctica artística como un viaje introspectivo y transformador, enfocado en la exploración de la propia emocionalidad, el bienestar físico, espiritual y psicológico. En lugar de centrarse únicamente en la contemplación de colores, formas o técnicas, esta perspectiva concibe el arte como un recurso que facilita la expresión emocional y la autorreflexión.
+  El concepto de <strong>Mundo Interior</strong> remite a la práctica artística como un viaje introspectivo y transformador. Aquí, la creación se orienta a explorar la emocionalidad, el bienestar físico, espiritual y psicológico. Más que centrarse únicamente en técnicas o formas, esta perspectiva valora el arte como un recurso para la expresión emocional y la autorreflexión.
 </p>
 
-<!-- Párrafo 2 -->
 <p class="parrafo">
-  Desde disciplinas como la psicología, la antropología, la neurociencia, la filosofía, la sociología, la meditación y diversas corrientes de espiritualidad, el arte se convierte en un espacio convergente de múltiples saberes que contribuyen a la exploración de nuestra mente y corazón. La práctica artística intencionada, enfocada en la búsqueda interior, puede influir en el sistema nervioso simpático, aliviar el estrés y estimular la creatividad. No obstante, no todo arte resulta terapéutico: la diferencia radica en la intención y el contexto. Un autorretrato, por ejemplo, puede ser un proceso catártico o un simple ejercicio técnico, según la consciencia que lo impulse.
+  Desde disciplinas como la psicología, antropología, neurociencia, filosofía, sociología, meditación y diversas corrientes de espiritualidad, el arte se vuelve un espacio convergente de saberes que amplifican la comprensión de nuestra mente y nuestras experiencias afectivas. La práctica artística intencionada puede calmar el sistema nervioso, aliviar el estrés y estimular la creatividad. Sin embargo, no todo acto creativo es terapéutico: la diferencia radica en la conciencia e intención que guían el proceso. Un autorretrato, por ejemplo, puede ser catártico o simplemente técnico según la postura interna desde la cual se realiza.
 </p>
 
-<!-- Párrafo 3 -->
 <p class="parrafo">
-  Esta búsqueda no se concibe para exhibición pública; la honestidad es fundamental: cada trazo, línea o palabra expone vulnerabilidades y fortalezas. Al compartir la obra, se invita al espectador a reconocer sus propios matices de luz y sombra. El Mundo Interior se reconfigura constantemente a través de vivencias, emociones y aprendizajes, y puede enriquecerse con símbolos ancestrales, tradiciones religiosas o espirituales, e incluso con interpretaciones desde el psicoanálisis, expandiendo así la experiencia creativa.
+  Esta búsqueda es íntima y honesta. No se concibe necesariamente para exhibición pública: cada trazo revela vulnerabilidades, recuerdos y fuerzas internas. Al compartir la obra, se abre un espacio donde el espectador reconoce también sus propias luces y sombras. El Mundo Interior se transforma continuamente a partir de emociones, vivencias y aprendizajes, pudiendo dialogar con símbolos ancestrales, tradiciones espirituales o enfoques del psicoanálisis, expandiendo la experiencia creativa.
 </p>
 
-<!-- Párrafo 4 -->
 <p class="parrafo">
-  En mi propia práctica, he constatado cómo el arte actúa como vía de sanación y equilibrio personal. En entornos colectivos, la práctica creativa fortalece la cohesión social y fomenta el autoconocimiento grupal, permitiendo resignificar recuerdos, confrontar conflictos internos y adentrarse en lo más profundo de nuestro ser.
+  En mi práctica personal, he observado cómo el arte puede actuar como vía de equilibrio y sanación. En contextos colectivos, la creatividad permite fortalecer vínculos, resignificar memorias y abordar conflictos internos desde un lugar seguro y expresivo. El arte se convierte en un camino hacia una comprensión más profunda del ser.
 </p>
 
-<!-- Párrafo 5 -->
 <p class="parrafo">
-  En este apartado, propongo una serie de dinámicas artísticas que invitan a adentrarnos aún más en nuestro Mundo Interior. Este acto es liberador y, al mismo tiempo, supone un compromiso con la autenticidad, pues el arte trasciende lo meramente estético para convertirse en un camino hacia la autoconciencia. Al compartir lo íntimo, lo personal se universaliza, recordándonos que todos somos peregrinos de un viaje interior, un encuentro con la esencia misma de la vida.
+  Este apartado reúne una serie de dinámicas artísticas que invitan a explorar ese territorio íntimo. La introspección creativa es un acto liberador, pero también un compromiso con la autenticidad: cuando lo personal se comparte, lo íntimo se vuelve universal y nos recuerda que todos habitamos un viaje interior en permanente transformación.
 </p>
 
 <br>
-<div class="subtitulo">Dinámicas artísticas para la introspección y bienestar:</div>
+
+<h2 class="subtitulo">Dinámicas artísticas para la introspección y el bienestar</h2>
+
 <div class="owl-carousel carousel-fancy">
+
   <!-- AUTORRETRATO -->
   <div class="item">
     <a href="/ES/autorretrato.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-autorretrato.gif" alt="Autorretrato" loading="lazy">
         <p class="title">Autorretrato</p>
-        <p class="subtitle">Explora tu propia identidad a través del arte.</p>
+        <p class="subtitle">Explora tu identidad desde la autoobservación creativa.</p>
       </div>
     </a>
   </div>
@@ -57,7 +54,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-bitacoras.gif" alt="Bitácoras y diarios" loading="lazy">
         <p class="title">Bitácoras y diarios</p>
-        <p class="subtitle">Registros oníricos, anhelos, miedos y recuerdos.</p>
+        <p class="subtitle">Registros de sueños, anhelos, temores y memorias.</p>
       </div>
     </a>
   </div>
@@ -68,7 +65,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Dinámicas Sensoriales" loading="lazy">
         <p class="title">Dinámicas Sensoriales</p>
-        <p class="subtitle">Ejercicios y actividades que estimulan los sentidos.</p>
+        <p class="subtitle">Ejercicios que estimulan la percepción y la presencia.</p>
       </div>
     </a>
   </div>
@@ -79,7 +76,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-mascaras.gif" alt="La Máscara y el Alter Ego" loading="lazy">
         <p class="title">La Máscara y el Alter Ego</p>
-        <p class="subtitle">Explora distintas facetas de tu personalidad.</p>
+        <p class="subtitle">Explora distintas facetas de tu identidad simbólica.</p>
       </div>
     </a>
   </div>
@@ -90,7 +87,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala y Zentangle" loading="lazy">
         <p class="title">Mandala y Zentangle</p>
-        <p class="subtitle">Practica la concentración y la meditación a través del dibujo.</p>
+        <p class="subtitle">Concentración, equilibrio y meditación a través del trazo.</p>
       </div>
     </a>
   </div>
@@ -101,7 +98,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-quema.gif" alt="Quema del Mono" loading="lazy">
         <p class="title">Quema del Mono</p>
-        <p class="subtitle">Deshazte de bloqueos emocionales mediante un ritual artístico.</p>
+        <p class="subtitle">Ritual creativo para liberar tensiones emocionales.</p>
       </div>
     </a>
   </div>
@@ -112,7 +109,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-afden.gif" alt="Silueta del Exterior Interior" loading="lazy">
         <p class="title">Silueta del Exterior Interior</p>
-        <p class="subtitle">Reflexiona sobre la imagen corporal y la esencia interna.</p>
+        <p class="subtitle">Reflexión sobre cuerpo, identidad y esencia interna.</p>
       </div>
     </a>
   </div>
@@ -123,7 +120,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacros y Psicomagia" loading="lazy">
         <p class="title">Simulacros y Psicomagia</p>
-        <p class="subtitle">Experimenta con actos simbólicos de transformación personal.</p>
+        <p class="subtitle">Actos simbólicos para la transformación personal.</p>
       </div>
     </a>
   </div>
@@ -133,31 +130,33 @@ carousel: true
     <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.gif" alt="Sincronización Grafo Cinética" loading="lazy">
-        <p class="title">Sincronización Grafo Cinética</p>
-        <p class="subtitle">Conecta movimiento, trazo y ritmo para favorecer estados de concentración y meditación.</p>
+        <p class="title">Sincronización Grafo-Cinética</p>
+        <p class="subtitle">Movimiento, trazo y ritmo para estados meditativos.</p>
       </div>
     </a>
   </div>
 
-  <!-- SUPERFICIES PAREIDÓLICAS Y OTROS ELEMENTOS DE PROYECCIÓN -->
+  <!-- SUPERFICIES PAREIDÓLICAS -->
   <div class="item">
     <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas y otros Elementos de Proyección" loading="lazy">
-        <p class="title">Superficies Pareidólicas y otros Elementos de Proyección</p>
-        <p class="subtitle">Descubre figuras y significados ocultos en formas abstractas.</p>
+        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas" loading="lazy">
+        <p class="title">Superficies Pareidólicas</p>
+        <p class="subtitle">Figuras emergentes y proyecciones del inconsciente.</p>
       </div>
     </a>
   </div>
 
-   <!-- POSITIVIDA -->
+  <!-- AUTOPOIESIS POSITIVA -->
   <div class="item">
-    <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
+    <a href="/ES/positivida.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-grafocine.gif" alt="Positivida" loading="lazy">
-        <p class="title">autopoiesis positiva</p>
-        <p class="subtitle">creacion y retralimentacion de positivades textual.</p>
+        <img src="/assets/img/interior/boton-grafocine.gif" alt="Autopoiesis positiva" loading="lazy">
+        <p class="title">Autopoiesis Positiva</p>
+        <p class="subtitle">Prácticas textuales de retroalimentación creativa.</p>
       </div>
     </a>
   </div>
+
 </div>
+
