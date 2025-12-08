@@ -6,40 +6,36 @@ keywords: "arte comunitario, muralismo participativo, talleres vecinales, arte c
 permalink: /ES/comunitario.html
 ---
 
+<h1 class="titulo">Lo Comunitario</h1>
 
-  <!-- Título principal -->
-  <div class="titulo">Lo Comunitario</div>
-<br>
-<br>
-<br>
-  <!-- Texto descriptivo -->
-  <p class="parrafo">
-    Proyectos colaborativos que unen comunidades a través del arte. En esta sección
-    destaca el trabajo conjunto, promoviendo la inclusión y el fortalecimiento social.
-  </p>
+<h2 class="subtitulo">Procesos participativos y creación colectiva</h2>
+
+<p class="parrafo" style="margin-top: 6%;">
+  Esta sección reúne proyectos colaborativos que se desarrollan en diálogo directo con vecinas, vecinos, organizaciones y comunidades locales. A través del muralismo participativo, talleres y acciones colectivas, estas prácticas buscan fortalecer el tejido social, abrir espacios de encuentro y activar la creatividad como herramienta de transformación comunitaria.
+</p>
 
 <br>
 
-<!-- Contenedor de botones estilo 'fancy-button' -->
 <div class="button-container">
-  <!-- Botón 1: Talleres participativos -->
+
+  <!-- Botón 1: Muralismo participativo -->
   <a href="/ES/talleres-participativos.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Muralismo participativo" loading="lazy">
-      <p class="title">Muralismo participativos</p>
-      <p class="subtitle">Espacios de aprendizaje colaborativo en torno a la creación de murales para la comunidad.</p>
+      <p class="title">Muralismo participativo</p>
+      <p class="subtitle">Procesos de creación colectiva para fortalecer la identidad local.</p>
     </div>
   </a>
 
-  <!-- Botón 2: Murales en festivales al aire libre -->
+  <!-- Botón 2: Museos a cielo abierto -->
   <a href="/ES/murales-comunitarios.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Murales comunitarios" loading="lazy">
       <p class="title">Museos a cielo abierto</p>
-      <p class="subtitle">Creación de gran formato para la ciudad.</p>
+      <p class="subtitle">Intervenciones de gran formato en convivencia con la ciudad.</p>
     </div>
   </a>
 
 </div>
-<br>
-<br>
+
+<br><br>
