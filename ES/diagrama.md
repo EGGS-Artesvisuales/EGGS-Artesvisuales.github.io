@@ -7,21 +7,23 @@ permalink: /ES/diagrama.html
 mermaid: true
 ---
 
+<h1 class="titulo">Diagrama de Obra</h1>
 
-<div class="titulo">Diagrama de Obra</div>
-<div class="subtitulo">
-  Un mapa visual de las ideas, conceptos y obras artísticas.
-</div>
-<p class="parrafo">
-  Las tres categorías de mi práctica artística se presentan en los diagramas. Cada categoría actúa como un eje principal que conecta con sus respectivas series de obras y proyectos. Estas conexiones destacan los vínculos entre mis exploraciones conceptuales, técnicas y temáticas, reflejando la amplitud y profundidad de mi quehacer artístico.
-</p>
-<p class="parrafo">
-  Este esquema no solo organiza mi proceso creativo, sino que también ilustra cómo las ideas y conceptos centrales se transforman en diversas expresiones artísticas, proporcionando una visión integral y coherente de mi práctica visual.
-</p>
-  <br><br>
+<h2 class="subtitulo">Un mapa visual de ideas, conceptos y prácticas artísticas</h2>
 
-<!-- Representación del Mundo -->
-<div class="subtitulo">Representación del Mundo</div>
+<p class="parrafo" style="margin-top: 6%;">
+  Este diagrama reúne las principales líneas que estructuran mi práctica artística. Cada categoría opera como un eje conceptual que se ramifica en series, proyectos y procesos específicos. El esquema permite visualizar cómo se relacionan las distintas áreas de trabajo, evidenciando cruces, afinidades y desarrollos que componen mi investigación visual.
+</p>
+
+<p class="parrafo">
+  Más que un mapa fijo, este diagrama funciona como un sistema abierto. Se actualiza y expande a medida que las obras evolucionan, incorporando nuevas preguntas, materiales y modos de hacer. Su propósito es ofrecer una mirada integral al conjunto de mi producción, atendiendo tanto a lo técnico como a lo conceptual.
+</p>
+
+<br><br>
+
+<!-- 1) Representación del Mundo -->
+<h2 class="subtitulo">Representación del Mundo</h2>
+
 <div class="mermaid">
 graph LR
   A[Representación del Mundo] --> A1[Lo Tangible]
@@ -34,13 +36,12 @@ graph LR
   A1a1a --> A1a1a2[Soportes Blandos]
 
   A1a1 --> A1a1b[Desplazamiento de la Pintura]
-  %% Hijos de Desplazamiento de la Pintura
   A1a1b --> A1a1b1[Espacio Doméstico]
   A1a1b --> A1a1b2[Espacio Público]
   A1a1b --> A1a1b3[Espacio Rural / Natural]
 
   A1a --> A1a2[Lo Invisible]
-  A1a2 --> A1a2a[Pinturas Wi‑Fi]
+  A1a2 --> A1a2a[Pinturas Wi-Fi]
 
   A1 --> A1b[La Tecnología]
   A1b --> A1b1[La IA]
@@ -63,22 +64,22 @@ graph LR
   %% Enlaces
   click A "mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "tangible.html" "Ir a Lo Tangible"
+  click A2 "intangible.html" "Ir a Lo Intangible"
   click A1a "saturacion.html" "Ir a La Saturación"
   click A1a1 "la-peste.html" "Ir a La Peste"
   click A1a1a "peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
-  click A1a1a1 "peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Pinturas Infectadas: soportes tradicionales"
-  click A1a1a2 "peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
+  click A1a1a1 "peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
+  click A1a1a2 "peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click A1a1b1 "espacio-domestico.html" "Ir a Espacio Doméstico"
   click A1a1b2 "espacio-publico.html" "Ir a Espacio Público"
   click A1a1b3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-  click A1a2a "pinturas-wifi.html" "Ir a Pinturas Wi‑Fi"
+  click A1a2a "pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
   click A1b "la-tecnologia.html" "Ir a La Tecnología"
   click A1b1 "la-ia.html" "Ir a La IA"
   click A1b2 "lo-espacial.html" "Ir a Lo Espacial"
   click A1b3 "telecomunicaciones.html" "Ir a Telecomunicaciones"
-  click A2 "intangible.html" "Ir a Lo Intangible"
   click A2a "el-capitalismo.html" "Ir a El Capitalismo"
   click A2a1 "el-colgado.html" "Ir a El Colgado"
   click A2a2 "mr-burns.html" "Ir a Mr. Burns"
@@ -91,56 +92,61 @@ graph LR
   click A2c2 "mapuche-urbano.html" "Ir a Mapuche Urbano"
 </div>
 
+<br><br><br><br>
+
+<!-- 2) Acción en el Mundo -->
+<h2 class="subtitulo">Acción en el Mundo</h2>
+
+<div class="mermaid">
+graph TD
+  B[Acción en\n el Mundo] --> B1[Lo Subrepticio]
+  B1 --> B1a[Remiendas\n Urbanas]
+  B1 --> B1b[La Anti-Publicidad]
+  B1 --> B1c[Graffiti \n&amp; Tags]
+
+  B --> B2[Lo Comunitario]
+  B2 --> B2a[Muralismo]
+
+  B --> B3[Docencia \ny Talleres]
+  B3 --> B3a[Mineduc]
+  B3 --> B3b[Corporaciones]
+  B3 --> B3c[Independientes]
+
+  B --> B4[Servicios]
+  B4 --> B4a[Restauración]
+  B4 --> B4b[Decoraciones \n&amp; Encargo]
+  B4 --> B4c[Asesorías \nTécnicas]
+
+  click B "/accion.html" "Ir a Acción en el Mundo"
+  click B1 "subrepticio.html" "Ir a Lo Subrepticio"
+  click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
+  click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
+  click B1c "/graffiti-tags.html" "Ir a Graffiti &amp; Tags"
+  click B2 "comunitario.html" "Ir a Lo Comunitario"
+  click B2a "/muralismo.html" "Ir a Muralismo"
+  click B3 "docencia.html" "Ir a Docencia y Talleres"
+  click B3a "/mineduc.html" "Ir a Mineduc"
+  click B3b "/corporaciones.html" "Ir a Corporaciones"
+  click B3c "/independientes.html" "Ir a Independientes"
+  click B4 "servicios.html" "Ir a Servicios"
+  click B4a "/restauracion.html" "Ir a Restauración"
+  click B4b "/decoraciones-encargo.html" "Ir a Decoraciones &amp; Encargo"
+  click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
+</div>
 
 <br><br><br><br>
-  <!-- 2) Acción en el Mundo -->
-  <div class="subtitulo">Acción en el Mundo</div>
-  <div class="mermaid">
-    graph TD
-      B[Acción en\n el Mundo] --> B1[Lo Subrepticio]
-      B1 --> B1a[Remiendas\n Urbanas]
-      B1 --> B1b[La Anti-Publicidad]
-      B1 --> B1c[Graffiti \n&amp; Tags]
 
-      B --> B2[Lo Comunitario]
-      B2 --> B2a[Muralismo]
+<!-- 3) Exploración del Mundo Interior -->
+<h2 class="subtitulo">Exploración del Mundo Interior</h2>
 
-      B --> B3[Docencia \ny Talleres]
-      B3 --> B3a[Mineduc]
-      B3 --> B3b[Corporaciones]
-      B3 --> B3c[Independientes]
+<div class="mermaid">
+graph LR
+  C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
+  C --> C2[Arte y Espiritualidad]
 
-      B --> B4[Servicios]
-      B4 --> B4a[Restauración]
-      B4 --> B4b[Decoraciones \n&amp; Encargo]
-      B4 --> B4c[Asesorías \nTécnicas]
+  click C "/interior.html" "Ir a Exploración del Mundo Interior"
+  click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
+  click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
+</div>
 
-      click B "/accion.html" "Ir a Acción en el Mundo"
-      click B1 "subrepticio.html" "Ir a Lo Subrepticio"
-      click B1a "/remiendas-urbanas.html" "Ir a Remiendas Urbanas"
-      click B1b "/la-anti-publicidad.html" "Ir a La Anti-Publicidad"
-      click B1c "/graffiti-tags.html" "Ir a Graffiti &amp; Tags"
-      click B2 "comunitario.html" "Ir a Lo Comunitario"
-      click B2a "/muralismo.html" "Ir a Muralismo"
-      click B3 "docencia.html" "Ir a Docencia y Talleres"
-      click B3a "/mineduc.html" "Ir a Mineduc"
-      click B3b "/corporaciones.html" "Ir a Corporaciones"
-      click B3c "/independientes.html" "Ir a Independientes"
-      click B4 "servicios.html" "Ir a Servicios"
-      click B4a "/restauracion.html" "Ir a Restauración"
-      click B4b "/decoraciones-encargo.html" "Ir a Decoraciones &amp; Encargo"
-      click B4c "/asesorias-tecnicas.html" "Ir a Asesorías Técnicas"
-  </div>
-<br><br><br><br>
-  <!-- 3) Exploración del Mundo Interior -->
-  <div class="subtitulo">Exploración del Mundo Interior</div>
-  <div class="mermaid">
-    graph LR
-      C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
-      C --> C2[Arte y Espiritualidad]
-
-      click C "/interior.html" "Ir a Exploración del Mundo Interior"
-      click C1 "/arte-y-psicologia.html" "Ir a Arte y Psicología"
-      click C2 "/arte-y-espiritualidad.html" "Ir a Arte y Espiritualidad"
-  </div>
 <br><br>
