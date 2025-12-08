@@ -1,12 +1,12 @@
 ---
 layout: default-es
-title: Diagrama de Obra
+title: "Diagrama de Obra – Estructura y relaciones del proyecto artístico"
+description: "Visualiza el diagrama general de la obra de Esteban Garnica: vínculos entre series, procesos, conceptos y acciones dentro de su práctica artística contemporánea."
+keywords: "diagrama de obra, mapa conceptual arte, estructura artística, Esteban Garnica, EGGS-Studio, procesos creativos, arte contemporáneo Chile"
 permalink: /ES/diagrama.html
 mermaid: true
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <span>Diagrama de Obra</span>
 ---
+
 
 <div class="titulo">Diagrama de Obra</div>
 <div class="subtitulo">
