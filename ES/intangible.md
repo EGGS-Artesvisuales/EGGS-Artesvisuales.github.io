@@ -1,9 +1,13 @@
 ---
 layout: default-es
-title: "Lo Intangible"
+lang: es
+title: "Lo Intangible – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que indagan en lo invisible, lo espiritual y las fuerzas simbólicas que atraviesan la experiencia contemporánea."
 permalink: /ES/intangible.html
+keywords: "Lo Intangible, arte contemporáneo, pintura expandida, simbolismo, espiritualidad, estética de lo invisible, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
+
 
 <!-- Título principal -->
 <div class="titulo">Lo intangible</div>
