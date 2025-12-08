@@ -5,31 +5,33 @@ permalink: /ES/tangible.html
 mermaid: true
 ---
 
-<div class="titulo">Lo tangible</div>
+<h1 class="titulo">Lo Tangible</h1>
 
-<div class="subtitulo">Representación del mundo material</div>
+<h2 class="subtitulo">Representación del mundo material</h2>
 
-<p class="parrafo">
-Esta serie de obras se centra en representar aspectos físicos y materiales del entorno, con el propósito de retratar las particularidades de nuestra época contemporánea. Los temas abordados destacan elementos emblemáticos del presente, seleccionados por su capacidad simbólica y su relevancia en la construcción de nuestra realidad actual.
+<p class="parrafo" style="margin-top: 6%;">
+  Esta serie reúne obras que se concentran en los aspectos físicos y materiales del entorno, explorando elementos que caracterizan la experiencia contemporánea. Cada tema se selecciona por su presencia significativa en la vida actual y por su capacidad para reflejar transformaciones sociales, culturales o tecnológicas. Su objetivo es proponer una lectura visual de aquello que define nuestra época desde lo cotidiano hasta lo estructural.
 </p>
 
 <p class="parrafo">
-Los criterios de selección de estos elementos incluyen:
+  Los criterios de selección de estos elementos consideran:
 </p>
 
 <ul class="parrafo">
-    <li>Presencia constante o predominante en paisajes urbanos o naturales</li>
-    <li>Relevancia en la experiencia cotidiana</li>
-    <li>Carácter novedoso: elementos inexistentes en épocas pasadas, pero que cumplen con los criterios anteriores</li>
-    <li>Potencial simbólico para reflejar transformaciones sociales, culturales o tecnológicas</li>
+    <li>Presencia constante o predominante en paisajes urbanos o naturales.</li>
+    <li>Relevancia en la experiencia cotidiana.</li>
+    <li>Carácter novedoso: elementos propios del presente que no existían en épocas anteriores.</li>
+    <li>Potencial simbólico para representar cambios y tensiones del contexto contemporáneo.</li>
 </ul>
 
 <br>
+
 <p class="parrafo">
-La serie propone una lectura visual de los rasgos distintivos del presente, manteniéndose abierta a la evolución y expansión mediante una investigación artística en curso. Hasta ahora, la exploración se articula en torno a dos ejes temáticos:
+  Esta serie permanece abierta y en desarrollo, incorporando nuevos temas a medida que la investigación artística avanza. Actualmente, la exploración se organiza en torno a dos grandes ejes:
 </p>
 
 <br><br>
+
 <div class="mermaid">
 graph TD
     Representacion["Representación del Mundo"]
@@ -50,22 +52,23 @@ graph TD
     click Peste "/es/la-peste" "Ir a La Peste"
     click Invisible "/ES/invisible.html" "Ir a Lo Invisible"
 </div>
+
 <br><br>
-<!-- botones -->
 
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
             <p class="title">La Saturación</p>
-            <p class="subtitle">La contaminación y producción capitalista</p>
+            <p class="subtitle">Contaminación, exceso y producción capitalista</p>
         </div>
     </a>
+
     <a href="/ES/tecnologia.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
             <p class="title">La Tecnología</p>
-            <p class="subtitle">Influencias en el entorno contemporáneo</p>
+            <p class="subtitle">Influencia técnica en el entorno contemporáneo</p>
         </div>
     </a>
 </div>
