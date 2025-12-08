@@ -1,6 +1,8 @@
 ---
 layout: default-es
-title: "Acción en el Mundo"
+title: "Acción en el Mundo – Prácticas artísticas directas y comunitarias"
+description: "Acciones artísticas directas de Esteban Garnica: muralismo comunitario, intervenciones urbanas, docencia y proyectos que articulan arte y territorio."
+keywords: "acción en el mundo, arte público, prácticas artísticas directas, muralismo comunitario, intervenciones urbanas, arte participativo, Esteban Garnica, arte social en Chile"
 permalink: /ES/accion.html
 ---
 
