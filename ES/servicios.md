@@ -1,20 +1,26 @@
 ---
 layout: default-es
-title: Servicios
+lang: es
+title: "Servicios – EGGS-Studio"
+description: "Servicios profesionales de Esteban Garnica: muralismo, restauración de obras de arte, diseño artístico, talleres comunitarios y producción cultural."
 permalink: /ES/servicios.html
-breadcrumbs: >
-    <a href="/ES/index.html">Inicio</a> >
-    <a href="/ES/accion.html">Acción en el Mundo</a> >
-    <span>Servicios</span>
+keywords: "servicios artísticos, muralismo, restauración de arte, talleres de arte, producción cultural, diseño artístico, Esteban Garnica, EGGS-Studio"
 ---
+
 <!-- Título principal -->
-<div class="titulo">Servicios</div>
+<div class="titulo"><h1>Servicios</h1></div>
 <br>
 
 <p class="parrafo">
-  Soluciones artísticas y técnicas para una amplia gama de necesidades. Desde restauración de obras hasta diseño visual, adaptando nuestras habilidades a proyectos específicos.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ofrecemos soluciones artísticas y técnicas para una amplia variedad de necesidades, combinando experiencia en arte público, restauración, diseño y gestión cultural. Cada servicio se adapta a las particularidades de cada proyecto, integrando creatividad, oficio y un enfoque responsable orientado a la calidad.
 </p>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nuestro trabajo abarca tanto intervenciones en espacios comunitarios como desarrollos especializados para instituciones, empresas y proyectos independientes, siempre priorizando el diálogo con el entorno y las personas involucradas.
+</p>
+
 <br>
+
 <!-- Sección de Categorías con fancy buttons -->
 <div class="subtitulo" style="margin-top: 4%;">Categorías:</div>
 <br>
