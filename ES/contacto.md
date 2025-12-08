@@ -1,8 +1,9 @@
 ---
 layout: default-es
-title: "Contacto"
+title: "Contacto – EGGS-Studio"
+description: "Ponte en contacto con Esteban Garnica y EGGS-Studio para proyectos de arte, muralismo, restauración, docencia o colaboraciones culturales."
+keywords: "contacto EGGS-Studio, Esteban Garnica, muralismo, restauración de arte, proyectos artísticos, colaboraciones, arte en Chile"
 permalink: /ES/contacto.html
-
 ---
 
   <!-- Título principal, usando la clase 'titulo' -->
