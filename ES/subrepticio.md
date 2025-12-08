@@ -3,9 +3,21 @@ layout: default-es
 title: Lo Subrepticio
 permalink: /ES/subrepticio.html
 ---
-<!-- Título principal -->
-<div class="titulo">Lo Subrepticio</div>
+
+<h1 class="titulo">Lo Subrepticio</h1>
+
+<h2 class="subtitulo">
+  Gestos mínimos que intervienen el entorno sin anunciarse.
+</h2>
+
+<p class="parrafo" style="margin-top: 7%;">
+  Esta categoría reúne prácticas urbanas que actúan desde la sutileza. Son intervenciones que no buscan protagonismo, sino provocar una breve interrupción en la mirada: pequeños desplazamientos perceptivos que revelan tensiones, contradicciones o silencios del paisaje urbano. A través del graffiti, la antipublicidad o las remiendas urbanas, estas acciones proponen un diálogo crítico con el espacio y sus lógicas de uso.
+</p>
+
+<h3 class="subtitulo2">Líneas de trabajo</h3>
+
 <div class="button-container">
+
   <!-- Botón: Graffiti -->
   <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
@@ -32,4 +44,8 @@ permalink: /ES/subrepticio.html
       <p class="subtitle">Intervenciones para renovar y transformar.</p>
     </div>
   </a>
+
 </div>
+
+<br><br>
+
