@@ -1,7 +1,10 @@
 ---
 layout: default-es
-title: Mundo Interior
+lang: es
+title: "Mundo Interior – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que exploran la dimensión psicológica, emocional y simbólica del artista."
 permalink: /ES/interior.html
+keywords: "Mundo Interior, arte introspectivo, imaginario psicológico, arte contemporáneo, pintura expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
