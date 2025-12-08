@@ -1,10 +1,14 @@
 ---
 layout: default-es
-title: Inicio
-description: "Bienvenido a EGGS-Studio, explorando el arte."
+lang: es
+title: "EGGS-Studio – Inicio"
+description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista visual y muralista chileno. Arte contemporáneo, pintura expandida, muralismo comunitario y proyectos culturales desde Santiago de Chile."
 permalink: /ES/index.html
+keywords: "EGGS-Studio, Esteban Garnica, artista visual chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo comunitario, arte público, proyectos culturales, Santiago de Chile"
 mermaid: true
+
 ---
+
 
 <h1 class="titulo">EGGS-STUDIO</h1>
 
