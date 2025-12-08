@@ -1,12 +1,14 @@
 ---
-layout: default-es  
-lang: es  
-title: "La Peste: Pinturas infectadas"  
-description: "La contaminación representada a través de la pintura."  
-permalink: /ES/peste-pinturas-infectadas.html  
+layout: default-es
+lang: es
+title: "La Peste: Pinturas Infectadas – Serie de obras de Esteban Garnica"
+description: "Serie 'Pinturas Infectadas' de Esteban Garnica: una exploración visual sobre la contaminación ambiental, las crisis invisibles y las tensiones que afectan el ecosistema contemporáneo."
+permalink: /ES/peste-pinturas-infectadas.html
+keywords: "Pinturas Infectadas, La Peste, contaminación ambiental, arte ecológico, pintura contemporánea, arte chileno, crisis invisibles, Esteban Garnica, EGGS-Studio"
 mermaid: true
 carousel: true
 ---
+
 
 <h1 class="titulo">Pinturas Infectadas</h1>
 <h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
