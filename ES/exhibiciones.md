@@ -1,10 +1,9 @@
 ---
 layout: default-es
-title: Exhibiciones
+title: "Exhibiciones – Muestras y presentaciones de obra"
+description: "Exhibiciones y muestras de la obra de Esteban Garnica: presentaciones individuales y colectivas, archivos curatoriales, procesos y registros expositivos."
+keywords: "exhibiciones de arte, muestras, exposiciones, Esteban Garnica, EGGS-Studio, arte contemporáneo Chile, presentaciones de obra"
 permalink: /ES/exhibiciones.html
-breadcrumbs: >
-  <a href="/ES/index.html">Inicio</a> >
-  <a href="/ES/exhibiciones.html">Exhibiciones</a>
 ---
 
 <div class="titulo">Exhibiciones</div>
