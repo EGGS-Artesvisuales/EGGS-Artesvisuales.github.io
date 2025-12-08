@@ -1,9 +1,12 @@
 ---
 layout: default-es
-title: Mecenas
-description: "Explora proyectos en desarrollo y conviértete en un impulsor del arte y la cultura."
+lang: es
+title: "Mecenas – Apoya el trabajo de Esteban Garnica"
+description: "Explora proyectos en desarrollo y conviértete en un impulsor del arte, el muralismo y la producción cultural de Esteban Garnica."
 permalink: /ES/mecenas.html
+keywords: "Mecenas, apoyar arte, financiamiento cultural, proyectos artísticos, muralismo, Esteban Garnica, EGGS-Studio, donaciones arte"
 ---
+
 
 <div class="titulo">Conviértete en Mecenas</div>
 
