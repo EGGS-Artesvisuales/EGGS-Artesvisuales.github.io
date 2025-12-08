@@ -1,9 +1,11 @@
 ---
 layout: default-es
-title: Docencia
+title: "Docencia – Metodologías y prácticas de enseñanza artística"
+description: "Programas, talleres y experiencias docentes de Esteban Garnica: metodologías de enseñanza artística, procesos participativos y formación en artes visuales."
+keywords: "docencia en artes, enseñanza artística, talleres de arte, Esteban Garnica, educación visual, metodologías artísticas, formación en artes en Chile"
 permalink: /ES/docencia.html
-
 ---
+
 
 <!-- Título principal -->
 <div class="titulo">Docencia</div>
