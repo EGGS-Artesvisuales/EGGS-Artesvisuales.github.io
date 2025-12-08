@@ -3,54 +3,52 @@ layout: default-es
 title: "Acerca de"
 permalink: /ES/acerca.html
 ---
-<!-- Título principal -->
-<div class="titulo">Acerca de EGGS-Studio</div>
-<div class="subtitulo">Arte Visual: Un Puente entre la Creatividad y la Vida</div>
+
+<h1 class="titulo">Acerca de EGGS-Studio</h1>
+<h2 class="subtitulo">Universo creativo de Esteban Gárnica S.</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  <strong>EGGS-Studio</strong> emerge como un espacio donde el arte se convierte en catalizador 
-  de transformación. Fundado por Esteban Garnica Sánchez, este proyecto materializa su visión 
-  a través de <strong>E.GG.S - Producciones y Art SpA</strong> (RUT: 77.973.201-0), una entidad 
-  que integra experiencia artística, innovación tecnológica y compromiso social. Nuestra 
-  aproximación ecléctica fusiona restauración, docencia, producción y montaje artístico, 
-  desarrollando soluciones creativas que enriquecen la vida cotidiana. Buscamos revolucionar 
-  espacios culturales y comunitarios, creando puntos de encuentro donde el arte cataliza el 
-  cambio social y abre nuevas posibilidades de transformación colectiva.
+  <strong>EGGS-Studio</strong> es un espacio de creación y trabajo visual impulsado por Esteban 
+  Gárnica S. Desde aquí desarrollo proyectos que unen arte, oficio y colaboración con personas y 
+  comunidades. A través de <strong>E.GG.S – Producciones y Art SpA</strong> (RUT 77.973.201-0), 
+  pongo a disposición una experiencia diversa que integra muralismo, restauración, docencia, 
+  montaje y producción cultural.
+  Más que buscar grandes declaraciones, intento aportar soluciones claras, sensibles y útiles, 
+  construyendo vínculos y generando espacios donde el arte puede acompañar procesos, mejorar 
+  entornos y abrir nuevas formas de encontrarnos, y también de encontrarme.
 </p>
 
-<!-- Sección Esteban Garnica -->
-<div class="subtitulo2">Esteban Garnica Sánchez</div>
+<h3 class="subtitulo2">Esteban Garnica S.</h3>
 <p class="parrafo">
-  Artista visual chileno (Santiago, 1985) formado en la Universidad de Chile, cuya trayectoria 
-  desafía las fronteras convencionales del arte contemporáneo. Su obra se distingue por un 
-  lenguaje visual potente y simbólico que aborda las problemáticas cruciales de nuestra época: 
-  la desigualdad social, la crisis medioambiental y la transformación urbana. En el ámbito del 
-  arte público, especialmente en pintura mural e intervenciones urbanas, su trabajo sobresale 
-  por su capacidad de innovación, adaptabilidad y eficacia transformadora, siempre en búsqueda 
-  de despertar conciencias mientras celebra la belleza inherente del mundo y sus comunidades.
+  Soy artista visual chileno (Santiago, 1985), formado en la Universidad de Chile. Mi trabajo nace 
+  del interés por observar el entorno y transformarlo mediante la pintura, la acción comunitaria 
+  o intervenciones subrepticias. Me muevo en la pintura como lenguaje primordial, transitando entre 
+  el muralismo, la investigación visual y la docencia, buscando siempre un equilibrio entre lo 
+  técnico, lo expresivo y lo humano.
 </p>
 
 <p class="parrafo">
-  En paralelo a su obra pública, Garnica ha construido un sólido corpus académico que profundiza 
-  en la exploración de la representación pictórica contemporánea. A través de la investigación y 
-  experimentación con nuevos medios y lenguajes visuales, su práctica artística se enriquece con 
-  la interacción entre lo público y lo académico, permitiéndole abordar la transformación social 
-  desde perspectivas múltiples y metodologías innovadoras.
+  Con los años he desarrollado proyectos que dialogan con temas sociales, ambientales y urbanos, 
+  siempre desde una mirada cercana y colaborativa. Creo en el arte como herramienta para mejorar 
+  la vida íntima y cotidiana, fortalecer relaciones e identidades y abrir espacios de reflexión. 
+  Mi práctica combina mi experiencia temprana en la pintura callejera, la formación académica, 
+  la experimentación y el trabajo en territorio, aprendiendo de cada comunidad y de cada proceso.
 </p>
 
-<!-- Sección EGGS -->
-<div class="subtitulo2">E.GG.S - Producciones &amp; Art SpA</div>
+<h3 class="subtitulo2">E.GG.S – Producciones &amp; Art SpA</h3>
 <p class="parrafo">
-  Como empresa chilena (RUT: 77.973.201-0), E.GG.S representa la culminación de una visión que 
-  integra arte, tecnología y gestión cultural en soluciones concretas y efectivas. Ofrecemos 
-  servicios especializados que abarcan desde el muralismo y la restauración patrimonial hasta 
-  el diseño de escenografías y aplicaciones artísticas innovadoras en educación, diseño y 
-  desarrollo comunitario. Nuestra misión se centra en revitalizar espacios urbanos, fortalecer 
-  identidades territoriales y democratizar el acceso a la cultura mediante intervenciones que 
-  estimulan tanto la interacción social como la reflexión colectiva, transformando espacios en 
-  experiencias significativas que perduran.
+  La empresa nace como una forma de dar estructura profesional a un trabajo que ha crecido con el 
+  tiempo. Desde E.GG.S desarrollamos servicios vinculados al muralismo, la restauración, la 
+  ambientación de espacios, la producción artística y el diseño de soluciones visuales para 
+  instituciones, comunidades y proyectos educativos.
+  Nuestro objetivo es claro: aportar valor de manera honesta y responsable, respetando cada 
+  contexto y buscando que el arte se vuelva una experiencia cercana, accesible y significativa 
+  para quienes lo reciben.
 </p>
+
 <br>
+
+
 
 <!-- Botones Fancy para conocer más -->
 <div class="button-container">
