@@ -1,10 +1,13 @@
 ---
 layout: default-es
-title: Saturación
-description: "Obras de la saturación en arte contemporáneo."
-permalink: /es/saturacion.html
+lang: es
+title: "Saturación – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que investigan la saturación visual, simbólica y ambiental en el arte contemporáneo."
+permalink: /ES/saturacion.html
+keywords: "Saturación, arte contemporáneo, saturación visual, saturación simbólica, contaminación visual, pintura expandida, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
+
 
 <div class="titulo">La Saturación</div>
 <div class="subtitulo">Síntoma de nuestra época</div>
