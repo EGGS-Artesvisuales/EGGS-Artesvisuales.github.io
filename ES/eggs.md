@@ -7,36 +7,35 @@ permalink: /ES/eggs.html
 carousel: true
 ---
 
-
 <!-- Título principal -->
-<div class="titulo">EGGS-Producciones & Art Spa</div>
-<div class="subtitulo">Descubre todo lo que ofrecemos</div>
+<h1 class="titulo">E.GG.S – Producciones & Art SpA</h1>
+<h2 class="subtitulo">Servicios profesionales en arte, cultura y territorio</h2>
 
 <!-- Texto descriptivo -->
 <p class="parrafo" style="margin-top:6%;">
-  <strong>E.GG.S - Producciones & Art SpA</strong> es una empresa chilena innovadora (RUT: 77.973.201-0) que integra arte, tecnología y gestión cultural para transformar espacios. Fundada por el artista visual Esteban Garnica Sánchez, nos comprometemos a crear experiencias artísticas con impacto real.
+  <strong>E.GG.S – Producciones & Art SpA</strong> es una empresa chilena (RUT: 77.973.201-0) que integra arte, tecnología y gestión cultural para acompañar proyectos en distintas escalas. Fundada por el artista visual Esteban Garnica Sánchez, busca poner la experiencia artística al servicio de comunidades, instituciones y personas que desean transformar sus espacios con sentido.
 </p>
 
 <p class="parrafo">
-  Creemos que el arte es un catalizador de transformación, capaz de revitalizar espacios urbanos, fortalecer identidades territoriales y democratizar el acceso a la cultura mediante soluciones integrales.
+  Creemos que el arte puede actuar como un catalizador de cambio: revitaliza espacios urbanos, fortalece identidades territoriales y amplía el acceso a la cultura. Desde esa perspectiva, cada proyecto se trabaja de manera cuidadosa y situada, escuchando a quienes participan y respetando el contexto en el que intervenimos.
 </p>
 
 <p class="parrafo">
-  Nuestra experiencia y versatilidad nos permiten abordar diversas necesidades en el ámbito artístico y cultural, ofreciendo desde muralismo y restauración patrimonial hasta diseño de escenografías, producción multimedia y desarrollo de software artístico.
+  La experiencia acumulada en muralismo, restauración, producción cultural y docencia nos permite abordar una amplia gama de necesidades: desde la recuperación de patrimonio y la creación de obras originales, hasta el diseño de escenografías, el desarrollo de contenidos multimedia y la exploración de herramientas digitales vinculadas al arte.
 </p>
 
 <p class="parrafo">
-  Descubre cómo podemos transformar tu entorno y potenciar el impacto cultural de tus proyectos. Estamos aquí para colaborar y convertir el arte en una herramienta poderosa para el cambio social.
+  Si te interesa colaborar, desarrollar un proyecto o explorar una idea, podemos diseñar juntos una propuesta ajustada a tu realidad, tus tiempos y tus recursos.
 </p>
 
 <!-- Llamado a la acción -->
 <p class="parrafo" style="margin-top:4%;">
-  <strong>¡Transformemos juntos los espacios a través del arte!</strong><br>
-  Contáctanos: hola@eggs-studio.cl
+  <strong>Conversemos cómo el arte puede aportar a tu proyecto.</strong><br>
+  Escríbenos a: <a href="mailto:hola@eggs-studio.cl">hola@eggs-studio.cl</a>
 </p>
 
 <!-- Subtítulo para el carrusel -->
-<div class="subtitulo" style="margin-top:4%;">Nuestros Servicios Especializados</div>
+<h2 class="subtitulo" style="margin-top:4%;">Nuestros servicios especializados</h2>
 
 <!-- Carousel de Servicios -->
 <div class="owl-carousel">
@@ -46,7 +45,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-eventos.gif" alt="Producción y organización de eventos culturales" loading="lazy">
         <p class="title">Producción y organización de eventos culturales</p>
-        <p class="subtitle">Creamos experiencias culturales únicas.</p>
+        <p class="subtitle">Diseño, coordinación y acompañamiento de experiencias culturales.</p>
       </div>
     </a>
   </div>
@@ -57,7 +56,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-restauracion.gif" alt="Restauración y conservación de obras de arte y patrimonio" loading="lazy">
         <p class="title">Restauración y conservación de obras de arte y patrimonio</p>
-        <p class="subtitle">Preservamos el legado cultural.</p>
+        <p class="subtitle">Preservamos el legado artístico y material con criterios técnicos y respeto por la obra.</p>
       </div>
     </a>
   </div>
@@ -68,7 +67,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-muralismo.gif" alt="Muralismo y arte urbano" loading="lazy">
         <p class="title">Muralismo y arte urbano</p>
-        <p class="subtitle">Transformamos espacios con color y forma.</p>
+        <p class="subtitle">Intervenciones murales para espacios públicos, comunitarios y privados.</p>
       </div>
     </a>
   </div>
@@ -79,7 +78,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-escenografia.gif" alt="Diseño y construcción de escenografías y mobiliario artístico" loading="lazy">
         <p class="title">Diseño y construcción de escenografías y mobiliario artístico</p>
-        <p class="subtitle">Espacios que narran historias visuales.</p>
+        <p class="subtitle">Espacios y objetos que acompañan relatos escénicos y expositivos.</p>
       </div>
     </a>
   </div>
@@ -90,7 +89,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-docencia.gif" alt="Docencia y talleres de formación artística" loading="lazy">
         <p class="title">Docencia y talleres de formación artística</p>
-        <p class="subtitle">Compartimos conocimiento y pasión por el arte.</p>
+        <p class="subtitle">Programas formativos en artes visuales, muralismo y procesos creativos.</p>
       </div>
     </a>
   </div>
@@ -101,7 +100,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-exhibiciones.gif" alt="Producción y montaje de exhibiciones y museos digitales" loading="lazy">
         <p class="title">Producción y montaje de exhibiciones y museos digitales</p>
-        <p class="subtitle">Innovamos en la presentación del arte.</p>
+        <p class="subtitle">Curaduría, montaje y experiencias expositivas presenciales y virtuales.</p>
       </div>
     </a>
   </div>
@@ -112,7 +111,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-decoracion.gif" alt="Decoración artística de interiores y exteriores" loading="lazy">
         <p class="title">Decoración artística de interiores y exteriores</p>
-        <p class="subtitle">Diseño que transforma ambientes.</p>
+        <p class="subtitle">Propuestas visuales a medida para hogares, instituciones y espacios comerciales.</p>
       </div>
     </a>
   </div>
@@ -123,7 +122,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-software.gif" alt="Desarrollo de software y aplicaciones para el sector artístico" loading="lazy">
         <p class="title">Desarrollo de software y aplicaciones para el sector artístico</p>
-        <p class="subtitle">Tecnología al servicio de la creatividad.</p>
+        <p class="subtitle">Herramientas digitales pensadas para proyectos culturales y visuales.</p>
       </div>
     </a>
   </div>
@@ -134,7 +133,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-multimedia.gif" alt="Producción de contenido multimedia y arte digital" loading="lazy">
         <p class="title">Producción de contenido multimedia y arte digital</p>
-        <p class="subtitle">Narrativas visuales en el mundo digital.</p>
+        <p class="subtitle">Video, imagen y piezas digitales para proyectos artísticos y comunicacionales.</p>
       </div>
     </a>
   </div>
@@ -145,7 +144,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-comercial.gif" alt="Comercialización de productos artísticos y diseño especializado" loading="lazy">
         <p class="title">Comercialización de productos artísticos y diseño especializado</p>
-        <p class="subtitle">Arte que trasciende en el mercado.</p>
+        <p class="subtitle">Obras, ediciones y productos derivados vinculados a la práctica artística.</p>
       </div>
     </a>
   </div>
@@ -155,8 +154,8 @@ carousel: true
     <a href="/ES/intervenciones-comunitarias.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-intervenciones.gif" alt="Intervenciones comunitarias y proyectos de inclusión social a través del arte" loading="lazy">
-        <p class="title">Intervenciones comunitarias y proyectos de inclusión social a través del arte</p>
-        <p class="subtitle">Impulsamos el cambio social a través de la creatividad.</p>
+        <p class="title">Intervenciones comunitarias e inclusión social a través del arte</p>
+        <p class="subtitle">Procesos participativos que vinculan creación, territorio y bienestar.</p>
       </div>
     </a>
   </div>
