@@ -1,8 +1,9 @@
 ---
 layout: default-es
-title: Lo Comunitario
+title: "Lo Comunitario – Arte participativo y muralismo en territorio"
+description: "Proyectos comunitarios de Esteban Garnica: muralismo participativo, talleres vecinales, procesos colaborativos y acciones artísticas desarrolladas junto a comunidades locales."
+keywords: "arte comunitario, muralismo participativo, talleres vecinales, arte colaborativo, Esteban Garnica, proyectos comunitarios, arte público en Chile"
 permalink: /ES/comunitario.html
-
 ---
 
 
