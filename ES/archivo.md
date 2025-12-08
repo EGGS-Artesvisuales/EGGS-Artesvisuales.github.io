@@ -1,7 +1,8 @@
 ---
 layout: default-es
-title: Archivo
-description: "Explora bocetos, catálogos, escritos y documentos del trabajo de EGGS-Studio."
+title: "Archivo – Bocetos, documentos y procesos de obra"
+description: "Explora el archivo de EGGS-Studio: bocetos, documentos, catálogos, escritos, procesos de obra y materiales que registran el desarrollo artístico de Esteban Garnica."
+keywords: "archivo artístico, EGGS-Studio, Esteban Garnica, bocetos, catálogos de arte, documentos de obra, procesos creativos, arte contemporáneo Chile"
 permalink: /ES/archivo.html
 ---
 
