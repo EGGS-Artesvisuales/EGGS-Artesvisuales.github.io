@@ -1,9 +1,12 @@
 ---
 layout: default-es
-title: Nuestros Servicios
+title: "Servicios – EGGS-Studio"
+description: "Servicios profesionales de EGGS-Studio: restauración de obras de arte, encargos, ambientación, montajes, producción cultural y soluciones integrales en artes visuales."
+keywords: "servicios artísticos, EGGS-Studio, restauración de arte, encargos artísticos, montajes y ambientación, producción cultural, Esteban Garnica"
 permalink: /ES/eggs.html
 carousel: true
 ---
+
 
 <!-- Título principal -->
 <div class="titulo">EGGS-Producciones & Art Spa</div>
