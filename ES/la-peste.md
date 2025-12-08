@@ -1,11 +1,13 @@
 ---
-layout: default-es  
-lang: es  
-title: "La Peste"  
-description: "Reflexión visual sobre la contaminación del entorno."  
-permalink: /ES/la-peste.html  
-mermaid: true  
+layout: default-es
+lang: es
+title: "La Peste – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que reflexionan visualmente sobre la contaminación ambiental, las crisis invisibles y las tensiones ecológicas del entorno contemporáneo."
+permalink: /ES/la-peste.html
+keywords: "La Peste, contaminación ambiental, arte ecológico, crisis invisibles, pintura contemporánea, arte chileno, Esteban Garnica, EGGS-Studio"
+mermaid: true
 ---
+
 
 <div class="titulo">La Peste</div>
 <div class="subtitulo">La contaminación como enfermedad del planeta</div>
