@@ -1,11 +1,13 @@
 ---
-layout: default-es  
-lang: es  
-title: "Desplazamiento de la Pintura"  
-description: "La expansión de la pintura hacia contextos domésticos, públicos y naturales."  
-permalink: /es/desplazamiento-pintura.html  
+layout: default-es
+lang: es
+title: "Desplazamiento de la Pintura – Expansión y contaminación del soporte"
+description: "Investigación visual de Esteban Garnica sobre el desplazamiento de la pintura hacia objetos, espacios domésticos, públicos y naturales, explorando nuevas materialidades y fricciones sensoriales."
+keywords: "desplazamiento de la pintura, pintura expandida, arte contemporáneo Chile, Esteban Garnica, materialidad pictórica, pintura y espacio doméstico, prácticas experimentales"
+permalink: /ES/desplazamiento-pintura.html
 mermaid: true
 ---
+
 
 <h1 class="titulo">LA PESTE: Desplazamiento de la Pintura</h1>
 <h2 class="subtitulo">Expandiendo los límites del formato pictórico</h2>
