@@ -4,15 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Dynamic Title with Fallback -->
-  <title>{{ page.title | default: 'EGGS-Studio | Visual Art and Murals' }}</title>
+  <!-- Dynamic Title with Fallback
+       🔹 Recommendation: always set `title` in each page front matter. -->
+  <title>{{ page.title | default: 'EGGS-Studio | Visual art and murals in Santiago, Chile' }}</title>
   
-  <!-- Main Meta Tags for SEO -->
-  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: expert in visual art, murals, art restoration, and art education.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'visual art, murals, art restoration, artistic design' }}">
+  <!-- Main Meta Tags for SEO
+       🔹 Recommendation: customize `description` and `keywords` per page. -->
+  <meta name="description" content="{{ page.description | default: 'EGGS-Studio: visual art, community murals, and art restoration by Esteban Garnica in Santiago, Chile.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'visual art, community murals, art restoration, artistic design, Santiago, Chile' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
-  
+  <meta name="language" content="en">
+
   <!-- Favicon -->
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
   
@@ -23,27 +26,49 @@
   <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Art and Murals' }}">
-  <meta property="og:description" content="{{ page.description | default: 'Discover our expertise in murals, art restoration, and visual art.' }}">
+  <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Visual art and murals in Santiago, Chile' }}">
+  <meta property="og:description" content="{{ page.description | default: 'Community murals, art restoration, and visual art projects by Esteban Garnica in Santiago, Chile.' }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="EGGS-Studio">
-  
-  <!-- JSON-LD Schema -->
+  <!-- If you have a Spanish equivalent for the same page, you can add:
+  <meta property="og:locale:alternate" content="es_CL">
+  -->
+
+  <!-- JSON-LD Schema: Organization + LocalBusiness (art/murals in Santiago) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness"],
     "name": "EGGS-Studio",
-    "url": "{{ site.url | default: 'https://eggs-studio.cl' }}",
-    "logo": "{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.jpg",
+    "legalName": "E.GG.S – Producciones & Art SpA",
+    "url": "{{ site.url | default: "https://eggs-studio.cl" }}",
+    "logo": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.jpg",
+    "image": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.png",
+    "description": "Chilean visual art and community murals by Esteban Garnica. Murals, art restoration, and public art projects based in Santiago, Chile.",
     "sameAs": [
       "https://www.facebook.com/ART.EGarnica",
       "https://www.instagram.com/egarnicasanchez"
     ],
-    "description": "Chilean art, visual art by Esteban Garnica, specialist in painting, murals, visual art, and art restoration."
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Florida",
+      "addressRegion": "Metropolitan Region",
+      "addressCountry": "CL"
+    },
+    "areaServed": [
+      "La Florida",
+      "Santiago",
+      "Metropolitan Region of Santiago",
+      "Chile"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Esteban Armando Garnica Sánchez",
+      "jobTitle": "Visual artist and muralist"
+    }
   }
   </script>
   
