@@ -9,17 +9,16 @@ mermaid: true
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Artes visuales integradas: ideas, obras y proyectos.
+  Universo creativo de Esteban Gárnica.
 </h2>
 
 <p class="parrafo" style="margin-top: 7%;">
   Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
-  Aquí encontrarás desde proyectos íntimos hasta intervenciones de gran escala, organizados en tres ejes que estructuran 
-  mi práctica creativa. Cada uno representa una forma particular de relacionarme con el arte: la observación del mundo 
-  que me rodea, la acción colectiva y la exploración del universo interior.
+  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: la representación del mundo exterior, la acción en el territorio y la exploración del universo interior. Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
 <br><br>
+
 
 <div class="mermaid">
 graph TD
@@ -63,7 +62,7 @@ graph TD
       <img src="/assets/img/ES-inicio - representacion del mundo.gif" 
            alt="Obras de Representación del Mundo" loading="lazy">
       <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Obras que observan, retratan y reflexionan sobre lo que habitamos.</p>
+      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
     </div>
   </a>
 
@@ -72,7 +71,7 @@ graph TD
       <img src="/assets/img/index---gif--accion-en-el-mundo.gif" 
            alt="Obras de Acción en el Mundo" loading="lazy">
       <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Prácticas comunitarias, talleres, oficios y servicios culturales.</p>
+      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
     </div>
   </a>
 
@@ -81,7 +80,7 @@ graph TD
       <img src="/assets/img/ES-inicio---mundo-interior.gif" 
            alt="Exploración del Mundo Interior" loading="lazy">
       <p class="title">Mundo Interior</p>
-      <p class="subtitle">Obra personal y procesos dedicados a la introspección y el bienestar.</p>
+      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
     </div>
   </a>
 
