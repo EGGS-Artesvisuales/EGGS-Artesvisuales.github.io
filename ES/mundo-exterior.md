@@ -1,14 +1,33 @@
 ---
 layout: default-es
-title: Representación del Mundo
+lang: es
+title: "Representación del Mundo – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que interpretan el mundo exterior a través de una mirada crítica, estética y contemporánea."
 permalink: /ES/mundo-exterior.html
+keywords: "Representación del Mundo, mundo exterior, arte contemporáneo, paisaje simbólico, lectura visual del entorno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
-<div class="titulo">Representación del mundo</div> 
-<div class="subtitulo">Retrato de lo contemporáneo</div> 
-<p class="parrafo" style="margin-top: 6%;"> 
-    Desde los orígenes del arte, la pintura y las artes visuales han sido ventanas para descifrar la complejidad de la realidad. Desde las enigmáticas cuevas prehistóricas hasta las galerías modernas, se ha buscado plasmar no solo la apariencia, sino también los significados profundos que subyacen en la existencia. Esta pasión por la representación ha impulsado una constante evolución en técnicas, estilos y discursos artísticos. </p> <p class="parrafo"> En la actualidad, el diálogo con la realidad trasciende los formatos tradicionales. Las prácticas contemporáneas fusionan la herencia pictórica con nuevos lenguajes —como instalaciones, fotografía y medios digitales—, ofreciendo una visión crítica e innovadora ante los desafíos de representar el presente. </p> <p class="parrafo"> Esta sección de la práctica artística busca capturar la esencia del ahora, resaltando los rasgos más distintivos de lo contemporáneo desde dos enfoques complementarios: el tangible, manifestado en el mundo físico, y el intangible, donde ideas y fenómenos abstractos se transforman en temas para la creación. El proceso creativo se origina en la pintura y se expande hacia formas de arte contemporáneas y mixtas. </p> <p class="parrafo"> Así, el recorrido se organiza de la siguiente manera: </p>
+
+<div class="titulo"><h1>Representación del mundo</h1></div>
+<div class="subtitulo"><h2>Retrato de lo contemporáneo</h2></div>
+
+<p class="parrafo" style="margin-top: 6%;">
+    Desde los inicios de la humanidad, la pintura y las artes visuales han sido un modo de comprender el mundo y darle forma a aquello que nos rodea. Desde las primeras marcas en cuevas prehistóricas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino también interpretar sus significados más profundos. Esta búsqueda —persistente y humilde— ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
+</p>
+
+<p class="parrafo">
+    En el presente, el diálogo con la realidad se expande más allá de los soportes clásicos. Las prácticas contemporáneas combinan la tradición pictórica con instalaciones, fotografía, objetos y medios digitales, abriendo nuevas posibilidades para observar, cuestionar y reinterpretar lo que vivimos. La pintura sigue siendo un origen fértil, pero no un límite.
+</p>
+
+<p class="parrafo">
+    Esta sección reúne obras y procesos que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el mundo físico, cotidiano y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
+</p>
+
+<p class="parrafo">
+    El recorrido se organiza de la siguiente manera:
+</p>
 <br>
+
 <div class="mermaid">
 graph LR
     principal[Actividad Artística]
@@ -48,10 +67,23 @@ graph LR
 
 </div>
 <br><br>
-<div class="subtitulo">Lo Tangible</div> 
+<div class="subtitulo"><h2>Lo Tangible</h2></div>
 <br>
-<p class="parrafo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Categoría de obras que exploran los aspectos físicos y materiales del entorno, resaltando las características del paisaje local, los objetos cotidianos y las escenas que configuran nuestra realidad inmediata. Cada serie se nombra en función de un tema distintivo, representativo del presente, lo que implica que esta colección no es definitiva y puede ampliarse con nuevas series surgidas de características emergentes de la realidad actual. Este grupo abarca las siguientes series: </p>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta categoría reúne obras que se enfocan en los aspectos físicos y materiales del entorno: el paisaje local, los objetos cotidianos y las escenas que componen nuestra vida inmediata. A través de estas imágenes, se busca observar con atención aquello que está frente a nosotros, reconociendo su valor simbólico y su presencia en la experiencia diaria.
+</p>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cada serie recibe un nombre asociado a un rasgo significativo del presente. Esto implica que la colección permanece abierta y en constante transformación, incorporando nuevas series que respondan a fenómenos, hábitos o miradas emergentes dentro de la realidad contemporánea.
+</p>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro de este grupo se incluyen las siguientes series:
+</p>
+
 <br><br>
+
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
@@ -70,9 +102,19 @@ graph LR
 </div>
 
 <br><br><br>
-<div class="subtitulo">Lo Intangible</div><br>
-<p class="parrafo"> Categoría de obras que abordan fenómenos sociales, culturales y abstractos, enfocándose en ideas, emociones y conceptos que trascienden lo físico. Al igual que la categoría de obras de lo tangible, esta serie también es susceptible de ampliación.</p>
+<div class="subtitulo"><h2>Lo Intangible</h2></div>
+<br>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en nuestra vida sin manifestarse directamente en lo físico. Aquí, la creación busca dar forma a aquello que se intuye, se percibe o se imagina, abriendo espacio a lecturas simbólicas y reflexiones más profundas sobre el presente.
+</p>
+
+<p class="parrafo">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al igual que en la dimensión de lo tangible, esta colección permanece abierta. Nuevas series pueden incorporarse en la medida en que surjan conceptos, problemáticas o sensibilidades que dialoguen con la realidad contemporánea y amplíen esta línea de exploración.
+</p>
+
 <br><br>
+
 
 <div class="button-container">
     <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
