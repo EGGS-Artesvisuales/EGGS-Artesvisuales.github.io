@@ -9,7 +9,8 @@ mermaid: true
 ---
 
 <h1 class="titulo">La Saturación</h1>
-<h2 class="subtitulo">Síntoma de nuestra época</h2>
+<h2 class="subtitulo">Representacion del mundo/ Lo Tangible/ La saturacion del mundo moderno</h2>
+<h3 class="subtitulo2">Síntoma de nuestra época</h3>
 
 <br>
 
