@@ -95,7 +95,7 @@ graph LR
 <h2 class="subtitulo">Lo Invisible</h2>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/lo-invisible-pintura-04b.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
+  <img src="/assets/img/lo-invisible-pintura-wifi-04b.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
   <figcaption>La Saturación / Lo Invisible / Pintura / Serie Wi-Fi / Paisaje n°4, EGGS 2014</figcaption>
 </figure>
 
