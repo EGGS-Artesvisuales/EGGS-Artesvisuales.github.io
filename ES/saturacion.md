@@ -11,11 +11,9 @@ mermaid: true
 <h1 class="titulo">La Saturación</h1>
 <h2 class="subtitulo">Representacion del mundo/ Lo Tangible/ La saturacion del mundo moderno</h2>
 <h3 class="subtitulo2">Síntoma de nuestra época</h3>
-
 <br>
-
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+  <img src="/assets/img/la-saturacion-cocina-cubierta-aikrea01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
   <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Domésticos, s/t n°4, EGGS 2009</figcaption>
 </figure>
 
