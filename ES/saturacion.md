@@ -13,8 +13,8 @@ mermaid: true
 <h3 class="subtitulo2">Síntoma de nuestra época</h3>
 <br>
 <figure class="imagen-con-caption">
-  <img src="/assets/img/la-saturacion-cocina-cubierta-aikrea01.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
-  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Domésticos, s/t n°4, EGGS 2009</figcaption>
+  <img src="/assets/img/desp-domestico-hbt-coci-001.jpg" alt="La Saturación - Manifestación del Exceso" loading="lazy">
+  <figcaption>La Saturación / La Peste / Desplazamiento de la pintura: Espacios Domésticos, cocina cubierta, 2009.</figcaption>
 </figure>
 
 <br><br><br>
