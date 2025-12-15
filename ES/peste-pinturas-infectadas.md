@@ -33,47 +33,36 @@ carousel: true
   <p>El corpus se divide en dos líneas: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), que exploran cómo los residuos transforman la pintura académica; y 2) <em>Soportes Blandos</em>, en los que el soporte ya es residuo, y su materialidad determina la solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse con materiales ajenos a su tradición.</p>
 </section>
 <br>
+
 <div class="mermaid">
 graph LR
-  %% Eje general de representación
+  %% Eje general (mínimo necesario)
   Z[Representación del Mundo] --> Y[Lo Tangible]
   Z --> Z2[Lo Intangible]
 
-  %% Rama La Saturación / La Peste
+  %% Camino de la rama (hasta La Peste)
   Y --> A[La Saturación]
   A --> B[La Peste]
-  A --> X[Lo Invisible]
 
-  %% Pinturas Infectadas dentro de La Peste
+  %% Hermanas en el camino (solo nombradas)
+  A --> X[Lo Invisible]
+  B --> F[Desplazamiento de la Pintura]
+
+  %% Rama desarrollada: Pinturas Infectadas
   B --> C[Pinturas Infectadas]
+
   C --> D[Soportes tradicionales]
   C --> E[Soportes blandos]
 
-  %% Detalle Soportes tradicionales
   D --> D1[Intervenciones]
   D --> D2[Producciones]
 
-  %% Detalle Soportes blandos
   E --> E1[Membranas]
   E --> E2[Módulos]
+  E --> E2a[Módulos print]
   E --> E3[Unidades]
-  E2 --> E2a[Módulos print]
 
-  %% Desplazamiento de la Pintura (hermano de Pinturas Infectadas)
-  B --> F[Desplazamiento de la Pintura]
-  F --> F1[Espacio doméstico]
-  F --> F2[Espacio público]
-  F --> F3[Espacio rural / natural]
-
-  %% Derivación desde Lo Invisible
-  X --> X1[Pinturas deformadas]
-
-  %% Derivaciones emblemáticas desde Lo Intangible (hermano mayor)
-  Z2 --> Z2a[El Capitalismo]
-  Z2 --> Z2b[Lo Popular]
-  Z2 --> Z2c[Lo Ancestral]
-
-  %% Enlaces clicables – árbol general
+  %% Enlaces clicables (estructura general)
   click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
   click Y "/ES/tangible.html" "Ver Lo Tangible"
   click Z2 "/ES/intangible.html" "Ver Lo Intangible"
@@ -81,14 +70,12 @@ graph LR
   click A "/ES/saturacion.html" "Ver La Saturación"
   click B "/ES/la-peste.html" "Ver La Peste"
   click X "/ES/lo-invisible.html" "Ver Lo Invisible"
-  click X1 "/ES/pinturas-deformadas.html" "Ver Pinturas Deformadas"
+  click F "/ES/desplazamiento-pintura.html" "Ver Desplazamiento de la Pintura"
 
-  click Z2a "/ES/el-capitalismo.html" "Ver El Capitalismo"
-  click Z2b "/ES/lo-popular.html" "Ver Lo Popular"
-  click Z2c "/ES/lo-ancestral.html" "Ver Lo Ancestral"
-
-  %% Enlaces específicos de Pinturas Infectadas
+  %% Enlace principal
   click C "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+
+  %% Enlaces internos (IDs operativos)
   click D "#soportes-tradicionales" "Ir a Soportes tradicionales"
   click D1 "#intervenciones" "Ir a Intervenciones"
   click D2 "#producciones" "Ir a Producciones"
@@ -98,14 +85,7 @@ graph LR
   click E2 "#modulos" "Ir a Módulos"
   click E2a "#modulos-prints" "Ir a Módulos print"
   click E3 "#unidades" "Ir a Unidades"
-
-  %% Enlaces a Desplazamiento de la Pintura y sus ramas
-  click F "/ES/desplazamiento-pintura.html" "Ver Desplazamiento de la Pintura"
-  click F1 "/ES/espacio-domestico.html#espacio-domestico" "Ir a Espacio doméstico"
-  click F2 "/ES/espacio-publico.html#espacio-publico" "Ir a Espacio público"
-  click F3 "/ES/espacio-rural.html#espacio-rural" "Ir a Espacio rural / natural"
 </div>
-
 
 
 
