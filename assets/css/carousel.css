@@ -84,6 +84,28 @@
   animation: none;
 }
 
+
+
+/* =============================================================================
+   Carrusel de Video
+   ============================================================================= */
+.carousel-video .img-container{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-video .carousel-video-el{
+  width: 100%;
+  max-height: 90vh;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--radius-extra);
+}
+
+
+
 /* =============================================================================
    Navegación (Estilos Funcionales Originales Mejorados)
    ============================================================================= */
