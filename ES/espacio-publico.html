@@ -13,171 +13,303 @@ mermaid: true
 <h2 class="subtitulo">De la serie: La Peste – Desplazamiento de la Pintura</h2>
 <h3 class="subtitulo2">Intervenciones urbanas y desplazamientos pictóricos en el espacio común</h3>
 
+<figure class="imagen-con-caption imagen-con-caption-70">
+  <!-- Reemplaza el src por tu “imagen-hero” de Espacios públicos -->
+  <img src="/assets/img/desp-publico-hero-001.jpg"
+       alt="Intervención pictórica en espacio público de la serie Espacios públicos"
+       loading="lazy">
+  <figcaption>
+    La Saturación / La Peste / Desplazamiento de la pintura: Espacios públicos.
+    Intervención en espacio urbano, EGGS, Santiago de Chile, s/f.
+  </figcaption>
+</figure>
+
+<br>
+
 <section aria-label="Introducción a Espacios públicos">
   <p class="parrafo" style="margin-top: 3%;">
-    Esta página introduce la serie <strong>Espacios públicos</strong>, en la que se reúnen obras de
-    <em>La Saturación</em>, <em>La Peste</em> y <em>Desplazamiento de la Pintura</em> que exploran cómo el lenguaje
-    pictórico se inscribe en el ámbito urbano. En el marco de la macrotemática <strong>Representación del Mundo</strong>,
-    y desde el rasgo característico de <strong>la saturación</strong>, estas obras abordan el modo en que la pintura
-    se expande más allá del bastidor para dialogar con museos, monumentos, plazas y avenidas, convirtiendo la calle
-    en un soporte de experimentación y sensibilidad.
+    <strong>Espacios públicos</strong> reúne obras y acciones donde el desplazamiento de la pintura abandona el
+    bastidor y se instala en el <em>espacio común</em>: muros, mobiliario urbano, superficies de tránsito y zonas
+    de encuentro. No se trata de “decorar” la ciudad, sino de producir una fricción: cuando la pintura aparece
+    fuera de su lugar esperado, el espacio cotidiano deja de operar como fondo neutral y se vuelve un campo de
+    lectura, tensión y experiencia.
   </p>
 
   <p class="parrafo">
-    En estas obras, el desplazamiento no se entiende como “llevar el cuadro afuera”, sino como una operación
-    sobre el territorio: el gesto pictórico se enfrenta a la escala pública, a la fricción social y a la
-    circulación de imágenes en la ciudad. El espacio común aparece como escenario de disputa simbólica, donde
-    memoria, publicidad y relato histórico se superponen y se contaminan.
+    En esta línea, la saturación se vuelve <strong>condición ambiental</strong>. La imagen ya no está contenida:
+    se adhiere, invade, interrumpe y obliga a negociar con lo que circula —publicidad, señalética, desgaste,
+    ruido visual, velocidad—. La intervención funciona como una forma de evidencia: la ciudad como superficie
+    afectada por flujos de consumo, información y presencia social, donde lo íntimo y lo colectivo se contaminan
+    mutuamente.
+  </p>
+
+  <p class="parrafo">
+    El uso de <strong>papel de prensa</strong>, recortes y fragmentos de imagen opera aquí como pintura expandida:
+    una materialidad asociada a lo masivo y lo efímero se vuelve piel del espacio. El gesto desplaza la mirada:
+    hace visible lo que normalmente se naturaliza (la repetición, la insistencia, la sobrecarga), y sitúa la obra
+    en un régimen de exposición real: intemperie, roce, tiempo, cuerpos.
   </p>
 </section>
 
 <br>
 
+<!-- NAVEGACIÓN INTERNA (recomendado para orientar la página) -->
+<nav aria-label="Navegación interna" style="margin-top: 1.5rem;">
+  <p class="parrafo">
+    Ir a: <a href="#mobiliario">Mobiliario urbano</a> ·
+    <a href="#muros">Muros y fachadas</a> ·
+    <a href="#acciones">Entornos colectivos</a>
+  </p>
+</nav>
+
+<br>
+
+<!-- DIAGRAMA MERMAID (misma lógica del modelo, con anclas internas limpias) -->
 <div class="mermaid">
 graph LR
-  %% Eje principal
   A[Representación del Mundo] --> A1[Lo Tangible]
   A --> A2[Lo Intangible]
 
-  %% Desarrollo hacia Saturación
-  A1 --> B1[La Saturación]
-  A1 --> B2[La Tecnología]
+  A1 --> A1a[La Saturación]
+  A1 --> A1b[La Tecnología]
 
-  %% Ramas internas de Saturación
-  B1 --> C1[La Peste]
-  B1 --> C2[Lo Invisible]
+  A1a --> A1a1[La Peste]
+  A1a --> A1a2[Lo Invisible]
 
-  %% Hijos directos de La Peste
-  C1 --> D1[Desplazamiento de la Pintura]
-  C1 --> D2[Pinturas Infectadas]
+  A1a1 --> A1a1b[Desplazamiento de la Pintura]
+  A1a1 --> A1a1c[Pinturas Infectadas]
 
-  %% Desplazamiento de la pintura (espacios)
-  D1 --> E1[Espacio Doméstico]
-  D1 --> E2[Espacio Público]
-  D1 --> E3[Espacio Rural / Natural]
+  A1a1b --> D1[Espacios domésticos]
+  A1a1b --> D2[Espacios públicos]
+  A1a1b --> D3[Espacio rural / natural]
 
-  %% Subobras dentro del Espacio Público
-  E2 --> F1[Richard Prince infectado]
-  E2 --> F2[Claes Oldenburg infectado]
-  E2 --> F3[O’Higgins infectado]
+  %% Subdivisión interna de Espacios públicos
+  D2 --> P1[Mobiliario urbano]
+  D2 --> P2[Muros y fachadas]
+  D2 --> P3[Entornos colectivos]
 
-  %% Enlaces clicables (navegación global)
+  %% Enlaces clicables (externos)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/ES/tangible.html" "Ir a Lo Tangible"
   click A2 "/ES/intangible.html" "Ir a Lo Intangible"
 
-  click B1 "/ES/saturacion.html" "Ir a La Saturación"
-  click B2 "/ES/en-construccion.html" "Ir a La Tecnología"
+  click A1a "/ES/saturacion.html" "Ir a La Saturación"
+  click A1b "/ES/en-construccion" "Ir a La Tecnología"
+  click A1a1 "/ES/la-peste.html" "Ir a La Peste"
+  click A1a2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
 
-  click C1 "/ES/la-peste.html" "Ir a La Peste"
-  click C2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
-  click D2 "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click A1a1c "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+  click A1a1b "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 
-  click D1 "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click D1 "/ES/espacio-domestico.html" "Ir a Espacios domésticos"
+  click D2 "/ES/espacio-publico.html" "Ir a Espacios públicos"
+  click D3 "/ES/espacio-rural.html" "Ir a Espacio rural / natural"
 
-  %% Enlaces a series/espacios
-  click E1 "/ES/espacio-domestico.html" "Ir a Espacios domésticos"
-  click E2 "/ES/espacio-publico.html" "Ir a Espacios públicos"
-  click E3 "/ES/espacio-rural.html" "Ir a Espacio rural / natural"
-
-  %% Enlaces a secciones internas de ESTA página
-  click F1 "/ES/espacio-publico.html#richard-prince-infectado" "Ir a Richard Prince infectado"
-  click F2 "/ES/espacio-publico.html#claes-oldenburg-infectado" "Ir a Claes Oldenburg infectado"
-  click F3 "/ES/espacio-publico.html#ohiggins-infectado" "Ir a O’Higgins infectado"
+  %% Enlaces internos (sin recargar página)
+  click P1 "#mobiliario" "Ver Mobiliario urbano"
+  click P2 "#muros" "Ver Muros y fachadas"
+  click P3 "#acciones" "Ver Entornos colectivos"
 </div>
-
 
 <br><br>
 
-<section aria-label="Obras espacio público">
-
-  <!-- RICHARD PRINCE -->
-  <h3 class="subtitulo2" id="richard-prince-infectado">
-    Richard Prince infectado, MAC, Santiago de Chile, 2009
-  </h3>
-
-  <p class="parrafo" style="margin-top: 3%;">
-    Esta acción consistió en intervenir una obra destacada de la muestra de arte pop en el MAC de Santiago, el año 2009.
-    Se adhirieron pegatinas (stickers) con doble contacto, inocuas para la obra original, pero visualmente disruptivas.
-    Con ello se “infectaron” obras de fotografía y bidimensionales, y también una obra tridimensional: la de Claes Oldenburg.
+<section aria-label="Estructura de la serie">
+  <p class="parrafo">
+    La serie se organiza en tres líneas operativas —<strong>mobiliario urbano</strong>, <strong>muros y fachadas</strong>
+    y <strong>entornos colectivos</strong>— que describen distintos grados de inserción de la pintura en el espacio común:
+    desde superficies “menores” y utilitarias, pasando por planos de alta visibilidad urbana, hasta situaciones donde la
+    intervención se activa por el uso social del lugar.
   </p>
 
- <div class="owl-carousel carousel-imagen">
-
- <figure class="item">
-      <a href="/ES/###.html">
-      <div class="img-container">
-        <img class="carousel-img"
-             src="/assets/img/peste-mac.jpg"
-             alt="Intervención en el MAC, Santiago de Chile, 2009 — Richard Prince infectado"
-             loading="lazy">
-      </div>
-      <br><br>
-      <figcaption>Richard Prince infectado, MAC, Santiago de Chile, 2009.</figcaption>
-    </a>
-  </figure>
-
-</div>
-
-
-  <br><br><br>
-
-  <!-- CLAES OLDENBURG -->
-  <h3 class="subtitulo2" id="claes-oldenburg-infectado">
-    Claes Oldenburg infectado, MAC, Santiago de Chile, 2009
-  </h3>
-
-  <p class="parrafo" style="margin-top: 3%;">
-    En el mismo contexto de intervención en el MAC, la acción se extendió a una obra tridimensional de Claes Oldenburg.
-    La operación mantuvo el mismo criterio: incorporar elementos adhesivos inocuos para activar una lectura de contagio,
-    fricción visual y alteración de la experiencia museal, sin producir daño material sobre la pieza.
+  <p class="parrafo">
+    En todos los casos, el desplazamiento de la pintura funciona como una estrategia de fricción: desplaza el régimen de
+    contemplación hacia un régimen de tránsito. La obra se enfrenta a la intemperie, al desgaste y a la circulación, y
+    por ello deja de ser únicamente imagen: se vuelve <em>condición</em>, <em>marca</em>, <em>insistencia</em>.
   </p>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="item">
-    <a href="/ES/claes-oldenburg.html">
-      <div class="img-container">
-        <img class="carousel-img"
-             src="/assets/img/peste-mac.jpg"
-             alt="Intervención en el MAC, Santiago de Chile, 2009 — Claes Oldenburg infectado"
-             loading="lazy">
-      </div>
-      <br><br>
-      <figcaption>Claes Oldenburg infectado, MAC, Santiago de Chile, 2009.</figcaption>
-    </a>
-  </figure>
-</div>
-
-  <br><br><br>
-
-  <!-- BUSTO O’HIGGINS -->
-  <h3 class="subtitulo2" id="ohiggins-infectado">
-    Busto de Bernardo O’Higgins infectado, Santiago de Chile, 2009
-  </h3>
-
-  <p class="parrafo" style="margin-top: 3%;">
-    Esta acción consistió en intervenir un busto escultórico, monumento patrio: el busto de Bernardo O’Higgins.
-    La intervención se realizó en Santiago, Plaza Ñuñoa, el año 2009. Se colocó papel apelmazado, previamente recogido,
-    proveniente de papel prensa y publicidad, sobre la superficie del busto, cubriéndolo y anulando su visibilidad.
-    La operación representa una situación histórica de olvido, donde la memoria queda sepultada bajo capas de capitalismo
-    y saturación mediática. No se trata de una crítica al patriotismo, sino de una reproducción material de un fenómeno
-    que ocurre en el presente.
-  </p>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="item">
-    <a href="/ES/busto-ohiggins.html">
-      <div class="img-container">
-        <img class="carousel-img"
-             src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg"
-             alt="Busto de Bernardo O’Higgins intervenido con papel de prensa, Plaza Ñuñoa, Santiago de Chile, 2009"
-             loading="lazy">
-      </div>
-      <br><br>
-      <figcaption>Busto de Bernardo O’Higgins infectado, Plaza Ñuñoa, Santiago de Chile, 2009.</figcaption>
-    </a>
-  </figure>
-</div>
-
 </section>
 
+<br><br>
+
+<!-- SECCIÓN MOBILIARIO URBANO -->
+<section id="mobiliario">
+  <h3 class="subtitulo">Mobiliario urbano</h3>
+
+  <p class="parrafo">
+    En esta línea, el desplazamiento se sitúa en objetos y soportes funcionales del espacio público: bancas, barandas,
+    postes, señaléticas, contenedores y estructuras de uso cotidiano. Al intervenirlos, su lectura cambia: lo utilitario
+    se vuelve superficie crítica, y lo “neutral” aparece como un campo ya saturado de mensajes, residuos e imaginarios.
+  </p>
+
+  <br>
+
+  <h3 class="subtitulo2" id="mobiliario-galeria">
+    De la serie: <em>La Peste – Desplazamiento de la pintura</em>, espacios públicos: Mobiliario urbano, s/f
+  </h3>
+
+  <div class="owl-carousel carousel-imagen">
+    <!-- Reemplaza los src/href por tus páginas e imágenes reales -->
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención en mobiliario urbano 001">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-mob-001.jpg"
+               alt="Intervención pictórica en mobiliario urbano (vista 001)"
+               loading="lazy">
+        </div>
+        <figcaption>Mobiliario urbano, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención en mobiliario urbano 002">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-mob-002.jpg"
+               alt="Intervención pictórica en mobiliario urbano (vista 002)"
+               loading="lazy">
+        </div>
+        <figcaption>Mobiliario urbano, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención en mobiliario urbano 003">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-mob-003.jpg"
+               alt="Intervención pictórica en mobiliario urbano (vista 003)"
+               loading="lazy">
+        </div>
+        <figcaption>Mobiliario urbano, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+  </div>
+</section>
+
+<br><br><br>
+
+<!-- SECCIÓN MUROS Y FACHADAS -->
+<section id="muros">
+  <h3 class="subtitulo">Muros y fachadas</h3>
+
+  <p class="parrafo">
+    Aquí la pintura se desplaza hacia planos de alta exposición: muros medianeros, cierres perimetrales, fachadas y
+    superficies de tránsito. La intervención no busca estabilizar un “mensaje” único; opera como una capa más dentro de
+    la ecología visual urbana, enfatizando el conflicto entre memoria local, circulación publicitaria y desgaste del
+    entorno.
+  </p>
+
+  <br>
+
+  <h3 class="subtitulo2" id="muros-galeria">
+    De la serie: <em>La Peste – Desplazamiento de la pintura</em>, espacios públicos: Obras de Arte,
+  </h3>
+
+  <div class="owl-carousel carousel-imagen">
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención mural 001">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-muro-001.jpg"
+               alt="Intervención pictórica en muro (vista 001)"
+               loading="lazy">
+        </div>
+        <figcaption>Muro intervenido, acción de arte, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención mural 002">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-muro-002.jpg"
+               alt="Intervención pictórica en muro (vista 002)"
+               loading="lazy">
+        </div>
+        <figcaption>Muro intervenido, acción de arte, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver intervención mural 003">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-muro-003.jpg"
+               alt="Intervención pictórica en muro (vista 003)"
+               loading="lazy">
+        </div>
+        <figcaption>Muro intervenido, acción de arte, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+  </div>
+</section>
+
+<br><br><br>
+
+<!-- SECCIÓN ENTORNOS COLECTIVOS -->
+<section id="acciones">
+  <h3 class="subtitulo">Entornos colectivos y situaciones de uso</h3>
+
+  <p class="parrafo">
+    En esta línea, la intervención se entiende como <strong>situación</strong>: el desplazamiento pictórico aparece en
+    lugares donde se concentra la vida social (plazas, pasajes, puntos de encuentro, recorridos). La obra no se limita a
+    un soporte; se activa por la circulación de cuerpos y por la experiencia compartida del lugar, haciendo del espacio
+    público un campo sensible atravesado por conflicto, pertenencia y memoria.
+  </p>
+
+  <br>
+
+  <h3 class="subtitulo2" id="acciones-galeria">
+    De la serie: <em>La Peste – Desplazamiento de la pintura</em>, espacios públicos: Entornos colectivos, s/f
+  </h3>
+
+  <div class="owl-carousel carousel-imagen">
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver entorno colectivo 001">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-entorno-001.jpg"
+               alt="Entorno colectivo intervenido (vista 001)"
+               loading="lazy">
+        </div>
+        <figcaption>Entorno colectivo, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver entorno colectivo 002">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-entorno-002.jpg"
+               alt="Entorno colectivo intervenido (vista 002)"
+               loading="lazy">
+        </div>
+        <figcaption>Entorno colectivo, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+
+    <figure class="item">
+      <a href="/ES/en-construccion" aria-label="Ver entorno colectivo 003">
+        <div class="img-container">
+          <img class="carousel-img"
+               src="/assets/img/desp-publico-entorno-003.jpg"
+               alt="Entorno colectivo intervenido (vista 003)"
+               loading="lazy">
+        </div>
+        <figcaption>Entorno colectivo, intervención s/t, EGGS, s/f.</figcaption>
+      </a>
+    </figure>
+  </div>
+</section>
+
+<br><br><br>
+
+<section aria-label="Cierre y vínculos">
+  <p class="parrafo" style="margin-top: 3%;">
+    Estas obras forman parte de un proceso más amplio de investigación sobre el <strong>desplazamiento de la pintura</strong>,
+    donde la superficie tradicional del cuadro se expande hacia soportes cotidianos, urbanos y arquitectónicos.
+    Si quieres profundizar en este marco, puedes visitar también <a href="/ES/espacio-domestico.html">Espacios domésticos</a>,
+    <a href="/ES/desplazamiento-pintura.html">Desplazamiento de la Pintura</a> y el mapa general de
+    <a href="/ES/mundo-exterior.html">Representación del Mundo</a>.
+  </p>
+</section>
