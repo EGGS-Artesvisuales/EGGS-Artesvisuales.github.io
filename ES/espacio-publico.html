@@ -6,39 +6,185 @@ description: "Obras de Esteban Garnica que desplazan la pintura hacia el espacio
 keywords: "espacio público, intervenciones urbanas, pintura expandida, La Saturación, La Peste, Esteban Garnica, arte urbano Chile, desplazamiento pictórico"
 permalink: /ES/espacio-publico.html
 carousel: true
-mermaid: false
+mermaid: true
 ---
 
-
 <h1 class="titulo">Espacios públicos</h1>
-<h2 class="subtitulo">De la serie: La peste – desplazamiento de la pintura</h2>
+<h2 class="subtitulo">De la serie: La Peste – Desplazamiento de la Pintura</h2>
+<h3 class="subtitulo2">Intervenciones urbanas y desplazamientos pictóricos en el espacio común</h3>
 
-<section class="parrafo">
-  <p>
-    Esta página introduce la serie <strong>Espacios públicos</strong>, en la que se reúnen obras de <em>La Saturación</em>, <em>La Peste</em> y <em>Desplazamiento de la Pintura</em> que exploran cómo el lenguaje pictórico se inscribe en el ámbito urbano. Estas obras se expanden más allá del bastidor para dialogar con museos, monumentos, plazas y avenidas, convirtiendo la calle en un lienzo de experimentación y sensibilidad.
+<section aria-label="Introducción a Espacios públicos">
+  <p class="parrafo" style="margin-top: 3%;">
+    Esta página introduce la serie <strong>Espacios públicos</strong>, en la que se reúnen obras de
+    <em>La Saturación</em>, <em>La Peste</em> y <em>Desplazamiento de la Pintura</em> que exploran cómo el lenguaje
+    pictórico se inscribe en el ámbito urbano. Las reflexiones en torno al macrotematica representacion del mundo, rasgo caracteristico, la saturacion, estas en particular 
+    tratan tambien de la pintura se expande más allá del bastidor para dialogar con
+    museos, monumentos, plazas y avenidas, convirtiendo la calle en un soporte de experimentación y sensibilidad.
   </p>
-  <p>
-    A continuación puedes acceder a las obras de esta serie. Cada imagen te llevará a la página de la obra correspondiente.
+
+  <p class="parrafo">
+    En estas obras, el desplazamiento no se entiende como “llevar el cuadro afuera”, sino como una operación
+    sobre el territorio: el gesto pictórico se enfrenta a la escala pública, a la fricción social y a la
+    circulación de imágenes en la ciudad. El espacio común aparece como escenario de disputa simbólica, donde
+    memoria, publicidad y relato histórico se superponen y se contaminan.
   </p>
 </section>
 
-<!-- Carrusel de obras públicas -->
-<div class="owl-carousel carousel-imagen">
-  <div class="item">
-    <a href="/es/peste-mac.html">
+<br>
+
+<!-- DIAGRAMA MERMAID (LR) - ENFOCADO EN ESPACIO DOMÉSTICO -->
+<div class="mermaid">
+graph LR
+  %% Eje principal
+  A[Representación del Mundo] --> A1[Lo Tangible]
+  A --> A2[Lo Intangible]
+
+  %% Desarrollo hacia Saturación
+  A1 --> B1[La Saturación]
+  A1 --> B2[La Tecnología]
+
+  %% Ramas internas de Saturación
+  B1 --> C1[La Peste]
+  B1 --> C2[Lo Invisible]
+
+  %% Hijos directos de La Peste
+  C1 --> D1[Desplazamiento de la Pintura]
+  C1 --> D2[Pinturas Infectadas]
+
+  %% Desplazamiento de la pintura (espacios)
+  D1 --> E1[Espacio Doméstico]
+  D1 --> E2[Espacio Público]
+  D1 --> E3[Espacio Rural / Natural]
+
+  %% Subdivisión interna del Espacio Doméstico
+  E1 --> F1[Objetos]
+  E1 --> F2[Habitaciones]
+
+  %% Enlaces clicables (navegación global)
+  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  click A1 "/ES/tangible.html" "Ir a Lo Tangible"
+  click A2 "/ES/intangible.html" "Ir a Lo Intangible"
+
+  click B1 "/ES/saturacion.html" "Ir a La Saturación"
+  click B2 "/ES/en-construccion.html" "Ir a La Tecnología"
+
+  click C1 "/ES/la-peste.html" "Ir a La Peste"
+  click C2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
+  click D2 "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+
+  click D1 "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+
+  %% Enlaces a series/espacios
+  click E1 "/ES/espacio-domestico.html" "Ir a Espacios domésticos"
+  click E2 "/ES/espacio-publico.html" "Ir a Espacios públicos"
+  click E3 "/ES/espacio-rural.html" "Ir a Espacio rural / natural"
+
+  %% Enlaces internos dentro de Espacios domésticos
+  click F1 "/ES/espacio-domestico.html#objetos" "Ver objetos (Espacios domésticos)"
+  click F2 "/ES/espacio-domestico.html#habitaciones" "Ver habitaciones (Espacios domésticos)"
+</div>
+
+<br><br>
+
+<section aria-label="Obras espacio publico">
+
+<h2 class="subtitulo">Obras del POP Art, infectadas, 2009</h2>
+<h3 class="subtitulo2">Richard Prince infested, MAC, Santiago. Chile.</h3>
+
+
+  <p class="parrafo" style="margin-top: 3%;">
+    Esta accion consistio en intervenir una obra destacada en ela muestra de arte pop en el mac de santiago, año 2009. se adirireron pegaticas stivker con doble contacto, inocuas para la obra real, pero llamando la atencion, se infectaron las obras de fotografia, bidimiedsinal, y otra tridimensinal, la de claes oldenburg. 
+    
+  </p>
+
+
+  
+<!-- CARRUSEL DE OBRAS richrad prince -->
+<div class="owl-carousel carousel-imagen" aria-label="Carrusel de obras: Espacios públicos">
+
+  <figure class="item">
+    <a href="/ES/peste-mac.html" aria-label="Ver obra: Peste en el MAC">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/peste-mac.jpg" alt="Peste en el MAC" />
+        <img class="carousel-img"
+             src="/assets/img/peste-mac.jpg"
+             alt="Peste en el MAC: intervención pública vinculada a La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
       </div>
       <figcaption>Peste en el MAC</figcaption>
     </a>
-  </div>
+  </figure>
 
-  <div class="item">
-    <a href="/es/busto-ohiggins.html">
+  <figure class="item">
+    <a href="/ES/busto-ohiggins.html" aria-label="Ver obra: Busto de O&#39;Higgins">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Busto de O'Higgins" />
+        <img class="carousel-img"
+             src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg"
+             alt="Busto de O&#39;Higgins: intervención pública en monumento, serie La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
       </div>
-      <figcaption>Busto de O'Higgins</figcaption>
+      <figcaption>Busto de O&#39;Higgins</figcaption>
     </a>
-  </div>
+  </figure>
+
 </div>
+
+
+  <!-- CARRUSEL DE OBRAS claes oldenburg -->
+<div class="owl-carousel carousel-imagen" aria-label="Carrusel de obras: Espacios públicos">
+
+  <figure class="item">
+    <a href="/ES/peste-mac.html" aria-label="Ver obra: Peste en el MAC">
+      <div class="img-container">
+        <img class="carousel-img"
+             src="/assets/img/peste-mac.jpg"
+             alt="Peste en el MAC: intervención pública vinculada a La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
+      </div>
+      <figcaption>Peste en el MAC</figcaption>
+    </a>
+  </figure>
+
+  <figure class="item">
+    <a href="/ES/busto-ohiggins.html" aria-label="Ver obra: Busto de O&#39;Higgins">
+      <div class="img-container">
+        <img class="carousel-img"
+             src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg"
+             alt="Busto de O&#39;Higgins: intervención pública en monumento, serie La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
+      </div>
+      <figcaption>Busto de O&#39;Higgins</figcaption>
+    </a>
+  </figure>
+
+</div>
+
+
+   <!-- CARRUSEL DE OBRAS busto de ohiggins -->
+<div class="owl-carousel carousel-imagen" aria-label="Carrusel de obras: Espacios públicos">
+
+  <figure class="item">
+    <a href="/ES/peste-mac.html" aria-label="Ver obra: Peste en el MAC">
+      <div class="img-container">
+        <img class="carousel-img"
+             src="/assets/img/peste-mac.jpg"
+             alt="Peste en el MAC: intervención pública vinculada a La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
+      </div>
+      <figcaption>Peste en el MAC</figcaption>
+    </a>
+  </figure>
+
+  <figure class="item">
+    <a href="/ES/busto-ohiggins.html" aria-label="Ver obra: Busto de O&#39;Higgins">
+      <div class="img-container">
+        <img class="carousel-img"
+             src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg"
+             alt="Busto de O&#39;Higgins: intervención pública en monumento, serie La Peste – Desplazamiento de la Pintura"
+             loading="lazy">
+      </div>
+      <figcaption>Busto de O&#39;Higgins</figcaption>
+    </a>
+  </figure>
+
+</div>
+
