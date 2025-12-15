@@ -15,23 +15,25 @@ mermaid: true
 
 <section aria-label="Introducción a Espacios públicos">
   <p class="parrafo" style="margin-top: 3%;">
-    Esta página reúne obras de <em>La Saturación</em>, <em>La Peste</em> y <em>Desplazamiento de la Pintura</em>
-    en las que el lenguaje pictórico se inscribe en el ámbito urbano. En el marco de la macrotemática
-    <strong>Representación del Mundo</strong>, estas intervenciones trasladan la lógica de la saturación al espacio
-    común: la pintura se expande más allá del bastidor para dialogar con museos, monumentos, plazas y avenidas,
-    convirtiendo la calle en soporte de experimentación y fricción.
+    Esta página introduce la serie <strong>Espacios públicos</strong>, en la que se reúnen obras de
+    <em>La Saturación</em>, <em>La Peste</em> y <em>Desplazamiento de la Pintura</em> que exploran cómo el lenguaje
+    pictórico se inscribe en el ámbito urbano. En el marco de la macrotemática <strong>Representación del Mundo</strong>,
+    y desde el rasgo característico de <strong>la saturación</strong>, estas obras abordan el modo en que la pintura
+    se expande más allá del bastidor para dialogar con museos, monumentos, plazas y avenidas, convirtiendo la calle
+    en un soporte de experimentación y sensibilidad.
   </p>
 
   <p class="parrafo">
-    Aquí, el “desplazamiento” no significa simplemente llevar el cuadro afuera, sino operar sobre el territorio:
-    el gesto pictórico se enfrenta a la escala pública, a la circulación de imágenes y a sus capas simbólicas.
-    Memoria, publicidad y relato histórico se superponen, se contaminan y reconfiguran la lectura del espacio.
+    En estas obras, el desplazamiento no se entiende como “llevar el cuadro afuera”, sino como una operación
+    sobre el territorio: el gesto pictórico se enfrenta a la escala pública, a la fricción social y a la
+    circulación de imágenes en la ciudad. El espacio común aparece como escenario de disputa simbólica, donde
+    memoria, publicidad y relato histórico se superponen y se contaminan.
   </p>
 </section>
 
 <br>
 
-<!-- DIAGRAMA MERMAID (LR) - MAPA GENERAL + ACCESO A ESPACIOS -->
+<!-- DIAGRAMA MERMAID (LR) – ESPACIO PÚBLICO CON SUBOBRAS -->
 <div class="mermaid">
 graph LR
   %% Eje principal
@@ -55,6 +57,11 @@ graph LR
   D1 --> E2[Espacio Público]
   D1 --> E3[Espacio Rural / Natural]
 
+  %% Subobras dentro del Espacio Público
+  E2 --> F1[Richard Prince infectado]
+  E2 --> F2[Claes Oldenburg infectado]
+  E2 --> F3[O’Higgins infectado]
+
   %% Enlaces clicables (navegación global)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/ES/tangible.html" "Ir a Lo Tangible"
@@ -66,31 +73,38 @@ graph LR
   click C1 "/ES/la-peste.html" "Ir a La Peste"
   click C2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
   click D2 "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+
   click D1 "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 
   %% Enlaces a series/espacios
   click E1 "/ES/espacio-domestico.html" "Ir a Espacios domésticos"
   click E2 "/ES/espacio-publico.html" "Ir a Espacios públicos"
   click E3 "/ES/espacio-rural.html" "Ir a Espacio rural / natural"
-</div>
 
+  %% Enlaces a obras específicas (Espacio Público)
+  click F1 "/ES/peste-mac.html" "Richard Prince infectado"
+  click F2 "/ES/claes-oldenburg.html" "Claes Oldenburg infectado"
+  click F3 "/ES/busto-ohiggins.html" "Busto de O’Higgins infectado"
+</div>
 <br><br>
 
-<section aria-label="Obras en espacio público">
+<section aria-label="Obras espacio público">
 
-  <!-- BLOQUE 1: MAC / RICHARD PRINCE -->
-  <h3 class="subtitulo2">Richard Prince infested, MAC, Santiago, Chile (2009)</h3>
+  <h3 class="subtitulo2" id="richard-prince-infectado">
+    Richard Prince infectado, MAC, Santiago de Chile, 2009
+  </h3>
 
   <p class="parrafo" style="margin-top: 3%;">
-    Esta acción consistió en intervenir de forma <strong>reversible</strong> una obra expuesta en una muestra de
-    arte pop en el MAC (Santiago, 2009). Se adhirieron <strong>stickers</strong> con doble contacto, inocuos para la
-    pieza original, para activar la idea de “infección” y hacer visible el modo en que la circulación de signos
-    (publicidad, titulares, consignas) se adhiere a las imágenes y altera su lectura. La intervención se extendió
-    también hacia otras obras de la muestra, incluyendo registros bidimensionales y una pieza tridimensional.
+    Esta acción consistió en intervenir una obra destacada de la muestra de arte pop en el MAC de Santiago, el año 2009.
+    Se adhirieron pegatinas (stickers) con doble contacto, inocuas para la obra original, pero visualmente disruptivas.
+    Con ello se “infectaron” obras de fotografía y bidimensionales, y también una obra tridimensional: la de Claes Oldenburg.
   </p>
 
-  <!-- Carrusel: Richard Prince -->
-  <div class="owl-carousel carousel-imagen" aria-label="Carrusel: Richard Prince infested">
+  <!-- CARRUSEL DE OBRAS: RICHARD PRINCE -->
+  <div class="owl-carousel carousel-imagen"
+       id="carousel-richard-prince-infectado"
+       aria-label="Carrusel de obras: Richard Prince infectado">
+
     <figure class="item">
       <a href="/ES/peste-mac.html" aria-label="Ver obra: Peste en el MAC">
         <div class="img-container">
@@ -102,64 +116,72 @@ graph LR
         <figcaption>Peste en el MAC</figcaption>
       </a>
     </figure>
+
   </div>
 
   <br><br>
 
-  <!-- BLOQUE 2: MAC / CLAES OLDENBURG -->
-  <h3 class="subtitulo2">Claes Oldenburg infested, MAC, Santiago, Chile (2009)</h3>
+  <h3 class="subtitulo2" id="claes-oldenburg-infectado">
+    Claes Oldenburg infectado, MAC, Santiago de Chile, 2009
+  </h3>
 
   <p class="parrafo" style="margin-top: 3%;">
-    En el caso de la obra de Claes Oldenburg, la “infección” opera como una capa crítica: la intervención introduce
-    ruido y fricción sobre un objeto ya instalado en el circuito cultural, tensionando la relación entre
-    <em>museo</em>, <em>mercado</em> y <em>espectador</em>. La acción insiste en que la saturación no es únicamente un tema,
-    sino un modo de producción de sentido: una alteración mínima puede desplazar la experiencia completa de la obra.
+    En el mismo contexto de intervención en el MAC, la acción se extendió a una obra tridimensional de Claes Oldenburg.
+    La operación mantuvo el mismo criterio: incorporar elementos adhesivos inocuos para activar una lectura de contagio,
+    fricción visual y alteración de la experiencia museal, sin producir daño material sobre la pieza.
   </p>
 
-  <!-- Carrusel: Claes Oldenburg -->
-  <div class="owl-carousel carousel-imagen" aria-label="Carrusel: Claes Oldenburg infested">
+  <!-- CARRUSEL DE OBRAS: CLAES OLDENBURG -->
+  <div class="owl-carousel carousel-imagen"
+       id="carousel-claes-oldenburg-infectado"
+       aria-label="Carrusel de obras: Claes Oldenburg infectado">
+
     <figure class="item">
-      <a href="/ES/peste-mac.html" aria-label="Ver obra relacionada: Peste en el MAC">
+      <a href="/ES/peste-mac.html" aria-label="Ver obra: Peste en el MAC">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/peste-mac.jpg"
-               alt="Registro de intervención en el MAC (serie La Peste – Desplazamiento de la Pintura)"
+               alt="Peste en el MAC: intervención pública vinculada a La Peste – Desplazamiento de la Pintura"
                loading="lazy">
         </div>
-        <figcaption>Registro MAC (serie La Peste)</figcaption>
+        <figcaption>Peste en el MAC</figcaption>
       </a>
     </figure>
+
   </div>
 
   <br><br>
 
-  <!-- BLOQUE 3: BUSTO O'HIGGINS -->
-  <h3 class="subtitulo2">Busto de Bernardo O’Higgins, Santiago, Chile (2009)</h3>
+  <h3 class="subtitulo2" id="ohiggins-infectado">
+    Busto de Bernardo O’Higgins infectado, Santiago de Chile, 2009
+  </h3>
 
   <p class="parrafo" style="margin-top: 3%;">
-    Esta acción consistió en intervenir un busto-monumento (patrimonial) asociado al relato fundacional chileno.
-    En 2009, se colocó <strong>papel apelmazado</strong> previamente recolectado —proveniente de prensa y publicidad—
-    sobre el busto, cubriéndolo y anulando temporalmente su visibilidad. La operación no busca atacar el
-    patriotismo; propone una imagen de época: la memoria histórica quedando bajo capas de consumo, titulares y
-    economía de la atención. El monumento no desaparece: queda <em>sepultado</em> por el mismo flujo que organiza la vida
-    contemporánea.
+    Esta acción consistió en intervenir un busto escultórico, monumento patrio: el busto de Bernardo O’Higgins.
+    La intervención se realizó en Santiago, Plaza Ñuñoa, el año 2009. Se colocó papel apelmazado, previamente recogido,
+    proveniente de papel prensa y publicidad, sobre la superficie del busto, cubriéndolo y anulando su visibilidad.
+    La operación representa una situación histórica de olvido, donde la memoria queda sepultada bajo capas de capitalismo
+    y saturación mediática. No se trata de una crítica al patriotismo, sino de una reproducción material de un fenómeno
+    que ocurre en el presente.
   </p>
 
-  <!-- Carrusel: O'Higgins -->
-  <div class="owl-carousel carousel-imagen" aria-label="Carrusel: Busto de O’Higgins">
+  <!-- CARRUSEL DE OBRAS: BUSTO DE O’HIGGINS -->
+  <div class="owl-carousel carousel-imagen"
+       id="carousel-ohiggins-infectado"
+       aria-label="Carrusel de obras: Busto de Bernardo O’Higgins infectado">
+
     <figure class="item">
-      <a href="/ES/busto-ohiggins.html" aria-label="Ver obra: Busto de O&#39;Higgins">
+      <a href="/ES/busto-ohiggins.html" aria-label="Ver obra: Busto de Bernardo O’Higgins infectado">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg"
-               alt="Busto de O&#39;Higgins: intervención pública en monumento, serie La Peste – Desplazamiento de la Pintura"
+               alt="Busto de Bernardo O’Higgins intervenido con papel de prensa, Santiago de Chile, 2009"
                loading="lazy">
         </div>
-        <figcaption>Busto de O&#39;Higgins</figcaption>
+        <figcaption>Busto de Bernardo O’Higgins infectado</figcaption>
       </a>
     </figure>
+
   </div>
 
 </section>
-
-<br><br><br>
