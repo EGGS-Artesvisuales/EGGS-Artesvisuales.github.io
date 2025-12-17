@@ -38,16 +38,47 @@ $(document).ready(function() {
       768: { stagePadding: 30 }
     },
     onInitialized: function() {
-      $(this.$element).trigger('refresh.owl.carousel');
+      const $car = $(this.$element);
+      $car.trigger('refresh.owl.carousel');
+      playActiveVideo($car); // arranca el primer video
     }
   });
 
-  // Pausar videos al cambiar de slide / arrastrar
-  $('.carousel-video').on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function() {
-    $(this).find('video').each(function(){
-      this.pause();
-      this.currentTime = 0; // opcional
+  // --- Helpers: controlar videos en carrusel ---
+  function pauseAllVideos($carousel, resetTime = true) {
+    $carousel.find('video').each(function(){
+      try {
+        this.pause();
+        if (resetTime) this.currentTime = 0; // opcional
+      } catch (e) {}
     });
+  }
+
+  function playActiveVideo($carousel) {
+    // Owl puede marcar varios active; toma el primero visible
+    const $v = $carousel.find('.owl-item.active video').first();
+    if (!$v.length) return;
+
+    const v = $v.get(0);
+
+    // Para que autoplay funcione: muted + playsinline + loop
+    v.muted = true;
+    v.loop = true;
+    v.playsInline = true;
+
+    // Intento de reproducción (evita warnings si el browser bloquea)
+    const p = v.play();
+    if (p && typeof p.catch === "function") {
+      p.catch(function(){ /* autoplay puede ser bloqueado si no está muted */ });
+    }
+  }
+
+  // Pausar videos al cambiar de slide / arrastrar
+  // y luego reproducir SOLO el activo
+  $('.carousel-video').on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function() {
+    const $car = $(this);
+    pauseAllVideos($car, true);
+    playActiveVideo($car);
   });
 
   // Carrusel fancy
@@ -71,9 +102,12 @@ $(document).ready(function() {
   // Refresh al terminar de cargar la página
   $(window).on('load', function() {
     $('.carousel-imagen').trigger('refresh.owl.carousel');
-    $('.carousel-video').trigger('refresh.owl.carousel');
+
+    const $vid = $('.carousel-video');
+    $vid.trigger('refresh.owl.carousel');
+    playActiveVideo($vid); // asegura autoplay al cargar
+
     $('.carousel-fancy').trigger('refresh.owl.carousel');
   });
 
 });
-
