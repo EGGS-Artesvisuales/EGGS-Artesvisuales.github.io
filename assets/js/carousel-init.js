@@ -1,6 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-  // Carrusel de imágenes
+  /* ============================
+     Carrusel de imágenes
+  ============================ */
   $('.carousel-imagen').owlCarousel({
     items: 1,
     loop: true,
@@ -16,12 +18,47 @@ $(document).ready(function() {
       0: { stagePadding: 15 },
       768: { stagePadding: 30 }
     },
-    onInitialized: function() {
+    onInitialized: function () {
       $(this.$element).trigger('refresh.owl.carousel');
     }
   });
 
-  // Carrusel de video
+  /* ============================
+     Helpers: controlar videos
+  ============================ */
+  function pauseAllVideos($carousel, resetTime = true) {
+    $carousel.find('video').each(function () {
+      try {
+        this.pause();
+        if (resetTime) this.currentTime = 0; // opcional
+      } catch (e) {}
+    });
+  }
+
+  function playActiveVideo($carousel) {
+    const $v = $carousel.find('.owl-item.active video').first();
+    if (!$v.length) return;
+
+    const v = $v.get(0);
+
+    // Asegura autoplay cross-browser
+    v.muted = true;
+    v.loop = true;
+    v.playsInline = true;
+
+    // Solo intenta reproducir si no está en modo interactivo
+    // (si el usuario activó controles, respetamos su decisión)
+    if (v.classList.contains('is-interactive')) return;
+
+    const p = v.play();
+    if (p && typeof p.catch === "function") {
+      p.catch(function () {});
+    }
+  }
+
+  /* ============================
+     Carrusel de video
+  ============================ */
   $('.carousel-video').owlCarousel({
     items: 1,
     loop: true,
@@ -37,51 +74,58 @@ $(document).ready(function() {
       0: { stagePadding: 15 },
       768: { stagePadding: 30 }
     },
-    onInitialized: function() {
+    onInitialized: function () {
       const $car = $(this.$element);
       $car.trigger('refresh.owl.carousel');
       playActiveVideo($car); // arranca el primer video
     }
   });
 
-  // --- Helpers: controlar videos en carrusel ---
-  function pauseAllVideos($carousel, resetTime = true) {
-    $carousel.find('video').each(function(){
-      try {
-        this.pause();
-        if (resetTime) this.currentTime = 0; // opcional
-      } catch (e) {}
-    });
-  }
-
-  function playActiveVideo($carousel) {
-    // Owl puede marcar varios active; toma el primero visible
-    const $v = $carousel.find('.owl-item.active video').first();
-    if (!$v.length) return;
-
-    const v = $v.get(0);
-
-    // Para que autoplay funcione: muted + playsinline + loop
-    v.muted = true;
-    v.loop = true;
-    v.playsInline = true;
-
-    // Intento de reproducción (evita warnings si el browser bloquea)
-    const p = v.play();
-    if (p && typeof p.catch === "function") {
-      p.catch(function(){ /* autoplay puede ser bloqueado si no está muted */ });
-    }
-  }
-
-  // Pausar videos al cambiar de slide / arrastrar
-  // y luego reproducir SOLO el activo
-  $('.carousel-video').on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function() {
+  // Al cambiar de slide / arrastrar:
+  // pausa todos, resetea y reproduce solo el activo
+  $('.carousel-video').on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function () {
     const $car = $(this);
+
+    // Quita estado interactivo y controles al moverse de slide (opcional, recomendado)
+    $car.find('video.is-interactive').each(function () {
+      this.classList.remove('is-interactive');
+      this.removeAttribute('controls');
+      this.muted = true; // vuelve a muted para permitir autoplay
+    });
+
     pauseAllVideos($car, true);
     playActiveVideo($car);
   });
 
-  // Carrusel fancy
+  /* ============================
+     Click: activar controles en video
+  ============================ */
+  $(document).on('click', '.carousel-video-el', function (e) {
+    e.stopPropagation();
+
+    const video = this;
+
+    // Primer click: activar controles e interacción
+    if (!video.classList.contains('is-interactive')) {
+      video.classList.add('is-interactive');
+      video.setAttribute('controls', 'controls');
+
+      // Si quieres que el usuario tenga audio al interactuar:
+      video.muted = false;
+    }
+
+    // Toggle play/pause
+    if (video.paused) {
+      const p = video.play();
+      if (p && typeof p.catch === "function") p.catch(function () {});
+    } else {
+      video.pause();
+    }
+  });
+
+  /* ============================
+     Carrusel fancy
+  ============================ */
   $('.carousel-fancy').owlCarousel({
     loop: true,
     margin: 5,
@@ -99,8 +143,10 @@ $(document).ready(function() {
     }
   });
 
-  // Refresh al terminar de cargar la página
-  $(window).on('load', function() {
+  /* ============================
+     Refresh al terminar de cargar
+  ============================ */
+  $(window).on('load', function () {
     $('.carousel-imagen').trigger('refresh.owl.carousel');
 
     const $vid = $('.carousel-video');
