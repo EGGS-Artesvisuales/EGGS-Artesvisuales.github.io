@@ -433,6 +433,7 @@ p.parrafo:first-of-type ul {
   align-items: center;
   margin: 1.25rem 0;
 }
+
 .imagen img,
 .imagen__foto {
   display: block;
@@ -441,15 +442,18 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .imagen img:not(.imagen__foto) {
   width: 100%;
   max-width: 100%;
 }
+
 .imagen__foto {
   width: 44%;
   max-width: 100%;
   margin-right: auto;
 }
+
 .imagen img:hover,
 .imagen__foto:hover {
   transform: translateY(-0.3125rem) scale(1.05);
@@ -489,6 +493,7 @@ p.parrafo:first-of-type ul {
   margin: 1.25rem 0;
   text-align: center;
 }
+
 .imagen-con-caption img {
   width: 100%;
   height: auto;
@@ -496,6 +501,26 @@ p.parrafo:first-of-type ul {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+/* Video dentro de figure imagen-con-caption (hero / fuera de carrusel) */
+.imagen-con-caption video {
+  width: 100%;
+  max-height: 90vh;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--radius-extra);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover consistente para img y video dentro de imagen-con-caption */
+.imagen-con-caption img:hover,
+.imagen-con-caption video:hover {
+  transform: translateY(-0.3125rem) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
 .imagen-con-caption figcaption {
   font-family: var(--parrafo-font);
   font-size: 0.9rem;
