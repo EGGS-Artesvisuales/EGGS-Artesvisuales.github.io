@@ -44,7 +44,7 @@
   overflow: hidden;
 }
  
- .carousel-imagen .carousel-img {
+.carousel-imagen .carousel-img {
   max-height: 90vh; /* evita que exceda el alto de la pantalla */
   width: auto;      /* ajusta el ancho proporcionalmente */
   height: auto;
@@ -84,27 +84,32 @@
   animation: none;
 }
 
-
-
 /* =============================================================================
-   Carrusel de Video
+   Carrusel de Video (corregido)
    ============================================================================= */
-.carousel-video .img-container{
+.carousel-video .img-container {
   width: 100%;
   position: relative;
   overflow: hidden;
+
+  /* Corrección: el contenedor también respeta el radio,
+     evita esquinas “duras” al reproducir video */
+  border-radius: var(--radius-extra);
 }
 
-.carousel-video .carousel-video-el{
+.carousel-video .carousel-video-el {
   width: 100%;
   max-height: 90vh;
   height: auto;
   display: block;
   margin: 0 auto;
+
+  /* Mantienes el radio aquí también (doble seguridad) */
   border-radius: var(--radius-extra);
+
+  /* Corrección: asegura comportamiento consistente de escalado */
+  object-fit: contain; /* cambia a cover si quieres llenar */
 }
-
-
 
 /* =============================================================================
    Navegación (Estilos Funcionales Originales Mejorados)
@@ -227,4 +232,3 @@
     padding: 1rem;
   }
 }
-
