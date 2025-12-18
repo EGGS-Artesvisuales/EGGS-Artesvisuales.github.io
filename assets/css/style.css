@@ -716,13 +716,15 @@ p.parrafo:first-of-type ul {
   overflow: visible !important;
 }
 
-/* Nodos base */
-.mermaid .node rect,
-.mermaid .node polygon {
-  fill: #333333 !important;
-  stroke: rgba(240,240,240,0.85) !important;
-  stroke-width: 2px;
-  transition: fill .22s ease, stroke .22s ease, stroke-width .22s ease, filter .22s ease;
+/* Mermaid: estilo consistente para TODOS los nodos (incluye circulares) */
+.mermaid svg .node circle,
+.mermaid svg .node ellipse,
+.mermaid svg .node rect,
+.mermaid svg .node polygon,
+.mermaid svg .node path {
+  fill: rgba(17,17,17,0.92) !important;    /* nodo oscuro */
+  stroke: rgba(240,240,240,0.65) !important;
+  stroke-width: 1px !important;
 }
 
 /* TEXTO: fuerza visibilidad (incluye tspan/label) */
@@ -730,15 +732,14 @@ p.parrafo:first-of-type ul {
 .mermaid .node tspan,
 .mermaid .label text,
 .mermaid .label tspan {
-  fill: rgba(240,240,240,0.92) !important;
+  fill: rgba(240,240,240,0.92) !important; /* texto claro */
   opacity: 1 !important;
-  display: block !important;
   visibility: visible !important;
   font-family: var(--parrafo-font, system-ui, sans-serif) !important;
   font-weight: 600;
 }
 
-/* Opcional pro: contorno sutil para legibilidad sobre nodos oscuros */
+/* Opcional pro: contorno sutil para legibilidad */
 .mermaid .node text,
 .mermaid .node tspan {
   paint-order: stroke;
@@ -753,14 +754,18 @@ p.parrafo:first-of-type ul {
 }
 .mermaid marker path { fill: rgba(240,240,240,0.85) !important; }
 
-/* Hover inverso */
+/* Hover inverso (incluye rect/polygon/circle/ellipse/path) */
 .mermaid svg g.node:hover rect,
-.mermaid svg g.node:hover polygon {
-  fill: #e6e6e6 !important;
+.mermaid svg g.node:hover polygon,
+.mermaid svg g.node:hover circle,
+.mermaid svg g.node:hover ellipse,
+.mermaid svg g.node:hover path {
+  fill: rgba(230,230,230,0.95) !important;
   stroke: var(--color-destacado, #58a6ff) !important;
   stroke-width: 2px !important;
   filter: drop-shadow(0 10px 22px rgba(0,0,0,.45));
 }
+
 .mermaid svg g.node:hover text,
 .mermaid svg g.node:hover tspan {
   fill: #222222 !important;
