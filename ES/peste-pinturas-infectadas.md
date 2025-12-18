@@ -18,7 +18,7 @@ carousel: true
   <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Pinturas Infectadas: técnica mixta con erosión y elementos contaminantes" loading="lazy">
   <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie S/T, óleo y plásticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
 </figure>
-<br>
+<hr class="separador separador--aire" />
 
 <section class="parrafo">
   <p>La serie <strong>«Pinturas Infectadas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona pintura con elementos residuales del consumo. Utilizo materiales como envases, tapas plásticas y papel impreso —recuperado de catálogos y revistas— para producir superficies erosionadas, intervenidas y transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
@@ -39,25 +39,25 @@ carousel: true
 flowchart LR
   RM((Representación del Mundo))
   LT((Lo Tangible))
-  Z2[Lo Intangible]
+  Z2([Lo Intangible])
 
   LS((La Saturación))
-  LTec[La Tecnología]
+  LTec([La Tecnología])
   LP((La Peste))
-  LI[Lo Invisible]
-  DP[Desplazamiento de la Pintura]
+  LI([Lo Invisible])
+  DP([Desplazamiento de la Pintura])
 
   PI((Pinturas Infectadas))
-  ST[Soportes tradicionales]
-  SB[Soportes blandos]
+  ST([Soportes tradicionales])
+  SB([Soportes blandos])
 
-  INT[Intervenciones]
-  PROD[Producciones]
+  INT([Intervenciones])
+  PROD([Producciones])
 
-  MEM[Membranas]
-  MOD[Modulos]
-  MODP[Modulos print]
-  UNI[Unidades]
+  MEM([Membranas])
+  MOD([Módulos])
+  MODP([Módulos print])
+  UNI([Unidades])
 
   RM --> LT
   RM --> Z2
@@ -100,14 +100,13 @@ flowchart LR
 
   click SB "#soportes-blandos" "Ir a Soportes blandos"
   click MEM "#membranas" "Ir a Membranas"
-  click MOD "#modulos" "Ir a Modulos"
-  click MODP "#modulos-prints" "Ir a Modulos print"
+  click MOD "#modulos" "Ir a Módulos"
+  click MODP "#modulos-prints" "Ir a Módulos print"
   click UNI "#unidades" "Ir a Unidades"
 </div>
 
 
-
-<br><br>
+<hr class="separador separador--aire" />
 
 <h2 class="subtitulo" id="soportes-tradicionales">PINTURAS INFECTADAS: SOPORTES TRADICIONALES</h2>
 
@@ -144,8 +143,8 @@ flowchart LR
   </p>
 </section>
 
-<br><br>
-<br><br>
+<hr class="separador separador--aire" />
+
 <h3 class="subtitulo2" id="producciones">B. PRODUCCIONES</h3>
 
 <section class="parrafo">
@@ -224,7 +223,7 @@ flowchart LR
   </p>
 </section>
 
-<br><br><br><br>
+<hr class="separador separador--aire" />
 
 
 <h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
@@ -267,7 +266,7 @@ flowchart LR
     La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un territorio colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
   </p>
 </section>
-<br><br><br><br>
+<hr class="separador separador--aire" />
 
 
 <h4 class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</h4>
@@ -299,7 +298,7 @@ flowchart LR
     El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Paisajes de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
   </p>
 </section>
-<br><br><br><br>
+<hr class="separador separador--aire" />
 <h4 class="subtitulo2">4. Serie de banderas infectadas- 2008/2025</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -319,8 +318,7 @@ flowchart LR
   El soporte, preparado como en la serie Paisajes de carretera, deja entrever fragmentos tipográficos entre las capas de pintura, produciendo el efecto de "peste" que caracteriza toda la serie.
   </p>
 </section>
-<br><br><br>
-<br><br><br>
+<hr class="separador separador--aire" />
 
 <h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS <br> SOPORTES BLANDOS</h2>
 <section class="parrafo">
@@ -338,7 +336,7 @@ flowchart LR
     <li><strong>3. Unidades</strong></li>
   </ul>
 </section>
-<br><br>
+<hr class="separador separador--aire" />
 
 <h3 class="subtitulo2" id="membranas">PINTURAS INFECTADAS / SOPORTES BLANDOS, <br> 1. Membranas</h3>
 <figure class="imagen-con-caption">
@@ -398,7 +396,7 @@ flowchart LR
 
 
   
-  <br><br>
+<hr class="separador separador--aire" />
   
 <h4 class="subtitulo2">2. Mapamundi, 2009</h4>
 
@@ -472,7 +470,7 @@ flowchart LR
   <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos visuales en el mundo contemporáneo.</p>
 </section>
 
-<br><br><br>
+<hr class="separador separador--aire" />
 
 <h3 class="subtitulo2" id="modulos">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
@@ -593,7 +591,7 @@ flowchart LR
   </p>
 </section>
 
-<br><br>
+<hr class="separador separador--aire" />
 <h4 class="subtitulo2">2. Gran paisaje n°1, 2010</h4>
 
 <figure class="imagen-con-caption">
@@ -711,7 +709,7 @@ flowchart LR
     Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental.
   </p>
 </section>
-<br><br>
+<hr class="separador separador--aire" />
 <h4 class="subtitulo2">3. Gran paisaje n°2, 2014</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -772,7 +770,7 @@ flowchart LR
   </p>
 </section>
 
-<br><br>
+<hr class="separador separador--aire" />
 <h4 class="subtitulo2">4. Paisaje urbano, 2010</h4>
 
 <div class="owl-carousel carousel-imagen">
@@ -821,7 +819,7 @@ flowchart LR
     El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.
   </p>
 </section>
-<br><br>
+<hr class="separador separador--aire" />
 
 <h3 class="subtitulo2" id="modulos-prints">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
@@ -853,7 +851,7 @@ flowchart LR
     <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm cm, 2019</em></figcaption>
   </figure>
 </div>
-<br><br><br>
+<hr class="separador separador--aire" />
 <h3 class="subtitulo2" id="unidades">
   PINTURAS INFECTADAS / SOPORTES BLANDOS,<br>
   3. Unidades
