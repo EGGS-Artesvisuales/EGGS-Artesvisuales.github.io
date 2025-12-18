@@ -14,8 +14,8 @@
   /* Tipografías */
   --titulo-font: 'Arial', sans-serif;
   --subtitulo-font: 'Arial', sans-serif;
-  --subtitulo2-font: 'Arial', sans-serif; 
-  --parrafo-font: 'Arial', sans-serif; 
+  --subtitulo2-font: 'Arial', sans-serif;
+  --parrafo-font: 'Arial', sans-serif;
 
   /* Colores base */
   --color-fondo: #222;
@@ -30,7 +30,7 @@
   /* Tamaños tipográficos */
   --titulo-size: 3rem;
   --subtitulo-size: 2rem;
-  --subtitulo2-size: 1.4rem; 
+  --subtitulo2-size: 1.4rem;
   --parrafo-size: clamp(1rem, 1vw + 0.5rem, 1.2rem);
 
   /* Espaciado y line-height */
@@ -44,7 +44,7 @@
   /* Botones fancy */
   --button-bg-color: #3a3a3a;
   --button-hover-bg-color: #444;
-  --button-border-radius: 0.75rem; 
+  --button-border-radius: 0.75rem;
   --button-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -2px 6px rgba(0, 0, 0, 0.2);
   --button-hover-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), inset 0 -2px 8px rgba(0, 0, 0, 0.2);
   --button-focus-shadow: 0 0 0 0.1875rem rgba(88, 166, 255, 0.6), var(--button-shadow);
@@ -67,10 +67,10 @@
   --subtitle-font-size: 0.85rem;
 
   /* Radios de borde comunes */
-  --radius-small: 0.3125rem;   /* 5px */
-  --radius-medium: 0.5rem;      /* 8px */
-  --radius-large: 0.75rem;      /* 12px */
-  --radius-extra: 1.25rem;      /* 20px */
+  --radius-small: 0.3125rem;
+  --radius-medium: 0.5rem;
+  --radius-large: 0.75rem;
+  --radius-extra: 1.25rem;
 }
 
 /* ------------------------------------------------------------------
@@ -120,6 +120,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .nav-logo img.logo-menu {
   height: 1.375rem;
   width: auto;
@@ -168,9 +169,9 @@ header {
   color: var(--color-destacado);
   transform: scale(1.02);
 }
-.nav-menu a:visited {
-  color: var(--color-claro);
-}
+
+.nav-menu a:visited { color: var(--color-claro); }
+
 .nav-menu a::after {
   content: "";
   position: absolute;
@@ -183,6 +184,7 @@ header {
   transform-origin: bottom right;
   transition: transform 0.3s ease-in-out;
 }
+
 .nav-menu a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -202,17 +204,20 @@ header {
   z-index: 100;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
 }
+
 .dropdown-menu li {
   width: 11.25rem;
   overflow-wrap: break-word;
   white-space: normal;
 }
+
 .dropdown-menu a {
   padding: 0.625rem 0.9375rem;
   white-space: normal;
   color: var(--color-claro);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .dropdown-menu a:hover {
   background-color: var(--color-hover);
   color: var(--color-destacado);
@@ -225,20 +230,14 @@ header {
     animation: fadeIn 0.3s ease-in-out;
   }
 }
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-0.625rem); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-/*_______________________________________________________--*/
-
-/* SUBMENÚS ANIDADOS (2do nivel) 
-___________________________________________________________*/
-
-
-.dropdown-sub {
-  position: relative;
-}
+/* SUBMENÚS ANIDADOS (2do nivel) */
+.dropdown-sub { position: relative; }
 
 .dropdown-sub > a::after {
   content: "▶";
@@ -263,7 +262,6 @@ ___________________________________________________________*/
   min-width: 11.25rem;
 }
 
-/* Mostrar submenú al pasar el mouse */
 @media (min-width: 769px) {
   .dropdown-sub:hover > .dropdown-menu-sub {
     display: block;
@@ -278,7 +276,6 @@ ___________________________________________________________*/
     position: static;
     margin-left: 1rem;
   }
-
   .dropdown-sub.active > .dropdown-menu-sub {
     display: block;
   }
@@ -287,7 +284,6 @@ ___________________________________________________________*/
 /* ------------------------------------------------------------------
    MENÚ HAMBURGUESA (SOLO EN MÓVILES)
 ------------------------------------------------------------------ */
-/* En dispositivos móviles (hasta 901px) se muestra el botón */
 @media (max-width: 901px) {
   .nav-toggle {
     display: flex;
@@ -298,6 +294,7 @@ ___________________________________________________________*/
     transition: transform 0.3s ease;
     z-index: 1000;
   }
+
   .nav-toggle span {
     display: block;
     width: 2.0625rem;
@@ -305,9 +302,9 @@ ___________________________________________________________*/
     background-color: var(--color-medio-claro);
     border-radius: var(--radius-small);
   }
-  .nav-toggle:hover {
-    transform: scale(1.1);
-  }
+
+  .nav-toggle:hover { transform: scale(1.1); }
+
   .nav-toggle:focus,
   .nav-toggle.active {
     outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
@@ -315,9 +312,10 @@ ___________________________________________________________*/
     transform: scale(1.05);
   }
 
-  /* Ocultar menú por defecto en móvil */
+  /* Menú móvil: NO usar display:none (rompe transiciones).
+     Se oculta con opacity/visibility/pointer-events/transform. */
   .nav-menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 0.625rem;
     background-color: var(--color-medio-oscuro);
@@ -327,39 +325,40 @@ ___________________________________________________________*/
     left: 0;
     z-index: 9999;
     padding: 0.625rem;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
     max-height: calc(100vh - 7.5rem);
     overflow-y: auto;
+
     opacity: 0;
     visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
   }
+
   .nav-menu.active {
-    display: flex;
-    transform: translateY(0);
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
+    transform: translateY(0);
   }
-  .dropdown.active .dropdown-menu { 
-    display: block; 
-    position: static; 
+
+  .dropdown.active .dropdown-menu {
+    display: block;
+    position: static;
   }
 }
 
-/* En pantallas mayores a 901px (escritorio) se oculta el botón hamburguesa */
 @media (min-width: 902px) {
-  .nav-toggle {
-    display: none;
-  }
+  .nav-toggle { display: none; }
 }
 
 /* ------------------------------------------------------------------
-   MAIN
+   MAIN (corregido: padding no se pisa)
 ------------------------------------------------------------------ */
 main {
-  padding-top: 5rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.25rem;
+  padding: 5rem 1.25rem 0; /* antes se pisaba padding-top */
   text-align: justify;
 }
 
@@ -376,6 +375,7 @@ main {
   letter-spacing: var(--spacing-tight);
   overflow-wrap: break-word;
 }
+
 .subtitulo {
   font-family: var(--subtitulo-font);
   font-size: var(--subtitulo-size);
@@ -385,6 +385,7 @@ main {
   text-indent: 1.5em;
   overflow-wrap: break-word;
 }
+
 .subtitulo2 {
   font-family: var(--subtitulo2-font);
   font-size: var(--subtitulo2-size);
@@ -394,6 +395,7 @@ main {
   text-indent: 1.5em;
   overflow-wrap: break-word;
 }
+
 .parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
@@ -403,6 +405,7 @@ main {
   color: var(--color-claro);
   overflow-wrap: break-word;
 }
+
 .parrafo {
   margin-bottom: var(--margin-bottom-small);
   text-indent: 1.5em;
@@ -412,17 +415,18 @@ p.parrafo:first-of-type {
   margin-top: 2rem;
   text-indent: 2.5em;
 }
+
 p.parrafo:first-of-type ul {
   margin-top: 0 !important;
   text-indent: 0 !important;
 }
+
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
 }
-.parrafo ul li {
-  margin-bottom: 0.5em;
-}
+
+.parrafo ul li { margin-bottom: 0.5em; }
 
 /* ------------------------------------------------------------------
    IMÁGENES (base)
@@ -434,7 +438,6 @@ p.parrafo:first-of-type ul {
   margin: 1.25rem 0;
 }
 
-/* Reglas comunes (img + variante .imagen__foto) */
 .imagen img,
 .imagen__foto {
   display: block;
@@ -444,20 +447,17 @@ p.parrafo:first-of-type ul {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* img dentro de .imagen que NO sean .imagen__foto */
 .imagen img:not(.imagen__foto) {
   width: 100%;
   max-width: 100%;
 }
 
-/* variante foto “flotada” a la izquierda */
 .imagen__foto {
   width: 44%;
   max-width: 100%;
   margin-right: auto;
 }
 
-/* Hover consistente */
 .imagen img:hover,
 .imagen__foto:hover {
   transform: translateY(-0.3125rem) scale(1.05);
@@ -475,7 +475,6 @@ p.parrafo:first-of-type ul {
   text-align: center;
 }
 
-/* Estilo común para img y video dentro de figure */
 .imagen-con-caption img,
 .imagen-con-caption video,
 .imagen-con-caption .hero-video {
@@ -488,13 +487,11 @@ p.parrafo:first-of-type ul {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Video (límite vertical) */
 .imagen-con-caption video,
 .imagen-con-caption .hero-video {
   max-height: 90vh;
 }
 
-/* Hover consistente dentro de figure */
 .imagen-con-caption img:hover,
 .imagen-con-caption video:hover,
 .imagen-con-caption .hero-video:hover {
@@ -529,9 +526,7 @@ p.parrafo:first-of-type ul {
 }
 
 @media (max-width: 768px) {
-  .imagen-con-caption-70 {
-    width: 100%;
-  }
+  .imagen-con-caption-70 { width: 100%; }
 }
 
 /* ------------------------------------------------------------------
@@ -544,6 +539,7 @@ p.parrafo:first-of-type ul {
   gap: var(--gap-between-buttons);
   margin: var(--button-container-margin);
 }
+
 .fancy-button {
   display: block;
   text-decoration: none;
@@ -558,15 +554,18 @@ p.parrafo:first-of-type ul {
   min-width: var(--button-min-width);
   height: auto;
 }
+
 .fancy-button:focus {
   box-shadow: var(--button-focus-shadow);
   transform: translateY(-0.3125rem);
 }
+
 .fancy-button:hover {
   transform: translateY(-0.3125rem);
   box-shadow: var(--button-hover-shadow);
   background-color: var(--button-hover-bg-color);
 }
+
 .button-content {
   position: relative;
   display: flex;
@@ -579,6 +578,7 @@ p.parrafo:first-of-type ul {
   overflow: hidden;
   overflow-wrap: break-word;
 }
+
 .button-content img {
   width: 100%;
   height: auto;
@@ -586,9 +586,11 @@ p.parrafo:first-of-type ul {
   opacity: var(--img-opacity);
   transition: opacity 0.3s ease-in-out;
 }
+
 .fancy-button:hover .button-content img {
   opacity: var(--img-hover-opacity);
 }
+
 .button-content .title {
   font-size: var(--title-font-size);
   font-weight: bold;
@@ -596,6 +598,7 @@ p.parrafo:first-of-type ul {
   margin-bottom: 0.3125rem;
   overflow-wrap: break-word;
 }
+
 .button-content .subtitle {
   background: var(--content-subtitle-bg);
   padding: var(--content-subtitle-padding);
@@ -609,6 +612,7 @@ p.parrafo:first-of-type ul {
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-wrap: break-word;
 }
+
 .fancy-button:hover .button-content .subtitle {
   background: var(--content-subtitle-hover-bg);
 }
@@ -641,9 +645,7 @@ p.parrafo:first-of-type ul {
 /* ------------------------------------------------------------------
    BARRA DE PROGRESO Y CONTENEDOR
 ------------------------------------------------------------------ */
-.barra-progreso-container {
-  margin: 1.5rem 0;
-}
+.barra-progreso-container { margin: 1.5rem 0; }
 .barra-progreso-container label {
   display: block;
   margin-bottom: 0.5rem;
@@ -677,32 +679,19 @@ p.parrafo:first-of-type ul {
   color: #555;
   font-size: 0.9rem;
 }
-.progress-info p {
-  margin: 0.5rem 0;
-}
+.progress-info p { margin: 0.5rem 0; }
 
 /* ------------------------------------------------------------------
    MERMAID (Diagramas)
 ------------------------------------------------------------------ */
-.mermaid {
-  text-align: center;
-}
-.mermaid svg {
-  display: inline-block;
-}
+.mermaid { text-align: center; }
+.mermaid svg { display: inline-block; }
 .mermaid svg g.node:hover {
   filter: invert(88%);
   transition: filter 0.3s ease-in-out;
 }
-.mermaid svg g.node rect {
-  rx: 5;
-  ry: 5;
-}
-/* Mermaid subgraph border-radius */
-.mermaid .cluster rect {
-  rx: 8px;
-  ry: 8px;
-}
+.mermaid svg g.node rect { rx: 5; ry: 5; }
+.mermaid .cluster rect { rx: 8px; ry: 8px; }
 
 /* ------------------------------------------------------------------
    PRODUCTOS
@@ -727,25 +716,12 @@ p.parrafo:first-of-type ul {
   height: auto;
   border-radius: var(--radius-small);
 }
-.title {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 0.625rem;
-}
-.subtitle {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 0.3125rem;
-}
-.precio {
-  font-size: 1.1em;
-  font-weight: bold;
-  color: #000;
-  margin-top: 0.625rem;
-}
+.title { font-size: 1.2em; font-weight: bold; margin-top: 0.625rem; }
+.subtitle { font-size: 0.9em; color: #666; margin-top: 0.3125rem; }
+.precio { font-size: 1.1em; font-weight: bold; color: #000; margin-top: 0.625rem; }
 .boton-compra {
   background: #d32f2f;
-  color: white;
+  color: #fff;
   border: none;
   padding: 0.625rem 0.9375rem;
   font-size: 1em;
@@ -754,9 +730,7 @@ p.parrafo:first-of-type ul {
   margin-top: 0.625rem;
   transition: background 0.3s;
 }
-.boton-compra:hover {
-  background: #b71c1c;
-}
+.boton-compra:hover { background: #b71c1c; }
 
 /* ------------------------------------------------------------------
    LÍNEA DE TIEMPO
@@ -831,6 +805,7 @@ p.parrafo:first-of-type ul {
   margin-top: 0.625rem;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.3);
 }
+
 .text-container .imagen {
   width: 100%;
   max-height: 12.5rem;
@@ -896,9 +871,7 @@ footer {
   margin: 0 auto;
   transition: transform 0.3s ease-in-out;
 }
-.footer-logo a:hover img {
-  transform: scale(1.1);
-}
+.footer-logo a:hover img { transform: scale(1.1); }
 .footer-links {
   list-style: none;
   padding: 0;
@@ -911,9 +884,7 @@ footer {
   font-size: 1.3rem;
   transition: color 0.3s ease;
 }
-.footer-links a:hover {
-  color: #fff;
-}
+.footer-links a:hover { color: #fff; }
 .footer-social {
   display: flex;
   gap: 0.9375rem;
@@ -1009,7 +980,11 @@ form button:hover {
   max-width: 100%;
   overflow: hidden;
 }
-.item {
+
+/* CORRECCIÓN CRÍTICA:
+   Esto antes era .item (global) y rompía OwlCarousel y otros componentes.
+   Mantiene exactamente tu intención pero solo para items dentro de .container. */
+.container > .item {
   flex: 1 1 calc(33.33% - 1.25rem);
   box-sizing: border-box;
 }
@@ -1017,143 +992,46 @@ form button:hover {
 /* ------------------------------------------------------------------
    MEDIA QUERIES (Optimizado sin perder info relevante)
 ------------------------------------------------------------------ */
-
-/* Muy pequeños: Hasta 480px */
 @media (max-width: 480px) {
-  body { 
-    font-size: 0.8rem; 
-  }
-  header { 
+  body { font-size: 0.8rem; }
+  header {
     padding: 0.3125rem 0.625rem;
-    font-size: 1rem; 
+    font-size: 1rem;
   }
-  .text-container { 
+  .text-container {
     padding: 0.625rem 0.3125rem;
-    font-size: 0.8rem; 
-    width: 100%; 
+    font-size: 0.8rem;
+    width: 100%;
   }
-  .button-container { 
-    gap: 0.625rem;
-  }
-  .fancy-button { 
-    width: 100%; 
+  .button-container { gap: 0.625rem; }
+  .fancy-button {
+    width: 100%;
     max-width: var(--button-max-width);
     padding: 0.625rem 0.9375rem;
   }
 }
 
-/* Pequeños: Hasta 600px */
 @media (max-width: 600px) {
-  .nav-menu { 
-    flex-direction: column; 
-    gap: 0.625rem; 
-  }
-  .text-container { 
-    padding: 0.625rem; 
-  }
+  .nav-menu { flex-direction: column; gap: 0.625rem; }
+  .text-container { padding: 0.625rem; }
 }
 
-@media (max-width: 901px) {
-  .nav-toggle {
-    display: flex;
-    margin-top: 0.625rem;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 0.3125rem;
-    transition: transform 0.3s ease;
-    z-index: 1000;
-  }
-
-  .nav-toggle span {
-    display: block;
-    width: 2.0625rem;
-    height: 0.375rem;
-    background-color: var(--color-medio-claro);
-    border-radius: var(--radius-small);
-  }
-
-  .nav-toggle:hover {
-    transform: scale(1.1);
-  }
-
-  .nav-toggle:focus,
-  .nav-toggle.active {
-    outline: 0.1875rem solid rgba(88, 166, 255, 0.6);
-    border-radius: var(--radius-small);
-    transform: scale(1.05);
-  }
-
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 0.625rem;
-    background-color: var(--color-medio-oscuro);
-    width: 100%;
-    position: fixed;
-    top: 8rem;
-    left: 0;
-    z-index: 9999;
-    padding: 0.625rem;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease, visibility 0.3s ease;
-    max-height: calc(100vh - 7.5rem);
-    overflow-y: auto;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transform: translateY(-100%); /* 🟡 Oculto hacia arriba */
-  }
-
-  .nav-menu.active {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    transform: translateY(0); /* 🟢 Muestra el menú */
-  }
-
-  .dropdown.active .dropdown-menu {
-    display: block;
-    position: static;
-  }
-}
-
-
-
-/* En pantallas mayores a 901px (escritorio) se oculta el botón hamburguesa */
-@media (min-width: 902px) {
-  .nav-toggle {
-    display: none;
-  }
-}
-
-/* Tabletas y dispositivos intermedios: Hasta 1024px */
 @media (max-width: 1024px) {
-  .navbar { 
-    flex-direction: column; 
-    align-items: flex-start; 
-  }
-  .fancy-button { 
-    width: 40%; 
-  }
+  .navbar { flex-direction: column; align-items: flex-start; }
+  .fancy-button { width: 40%; }
 }
 
-/* Dispositivos medianos: Hasta 1200px */
 @media (max-width: 1200px) {
-  .text-container { 
-    font-size: 1.2rem; 
-    padding: 0.9375rem; 
-  }
+  .text-container { font-size: 1.2rem; padding: 0.9375rem; }
 }
 
-/* Escritorio: Mínimo 1024px */
 @media (min-width: 1024px) {
   .fancy-button {
     width: 30%;
     max-width: 21.875rem;
     transition: width 0.3s ease, transform 0.2s ease-in-out;
   }
-  .text-container { 
-    padding: 1.875rem;
-  }
+  .text-container { padding: 1.875rem; }
 }
 
 /* ------------------------------------------------------------------
