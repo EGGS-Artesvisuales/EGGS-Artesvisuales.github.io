@@ -40,15 +40,15 @@ flowchart LR
     principal --> accion
     principal --> interior
 
-    representacion --> tangible[Lo Tangible]
-    representacion --> intangible[Lo Intangible]
+    representacion --> tangible([Lo Tangible])
+    representacion --> intangible([Lo Intangible])
 
-    tangible --> saturacion[La Saturación]
-    tangible --> tecnologia[La Tecnología]
+    tangible --> saturacion([La Saturación])
+    tangible --> tecnologia([La Tecnología])
 
-    intangible --> capitalismo[Imágenes del Capitalismo]
-    intangible --> popular[Imágenes de lo Popular]
-    intangible --> ancestrales[Imágenes de l@s ancestr@s]
+    intangible --> capitalismo([Imágenes del Capitalismo])
+    intangible --> popular([Imágenes de lo Popular])
+    intangible --> ancestrales([Imágenes de l@s ancestr@s])
 
     click principal "/ES/index.html" "Ir al Inicio"
     click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
