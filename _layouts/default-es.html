@@ -81,38 +81,27 @@
 
   <!-- Mermaid (solo si se requiere) -->
   {% if page.mermaid %}
-    <script>
-      window.__MERMAID_CONFIG__ = {
-        startOnLoad: false,
-        theme: 'dark',
-        themeVariables: {
-          background: 'transparent',
-
-          /* NODOS (si luego los oscureces por CSS, aquí no estorba) */
-          primaryColor: '#f0f0f0',
-          secondaryColor: '#e0e0e0',
-          tertiaryColor: '#d6d6d6',
-
-          /* Texto dentro de nodos (forzado a claro) */
-          primaryTextColor: '#f0f0f0',
-          textColor: '#f0f0f0',
-
-          /* Borde */
-          primaryBorderColor: '#aaaaaa',
-
-          /* Conectores claros sobre fondo #222/#333 */
-          lineColor: '#f0f0f0',
-          arrowheadColor: '#f0f0f0',
-
-          /* Tipografía */
-          fontFamily: 'Inter, system-ui, sans-serif',
-          fontSize: '15px'
-        },
-        flowchart: { wrap: true, curve: 'basis' },
-        sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
-        gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
-      };
-    </script>
+  <script>
+  window.__MERMAID_CONFIG__ = {
+    startOnLoad: false,
+    theme: 'dark',
+    themeVariables: {
+      background: 'transparent',
+      primaryTextColor: '#f0f0f0',
+      textColor: '#f0f0f0',
+      lineColor: '#f0f0f0',
+      arrowheadColor: '#f0f0f0',
+      primaryBorderColor: '#aaaaaa',
+      fontFamily: 'Inter, system-ui, sans-serif',
+      fontSize: '15px'
+    },
+    flowchart: {
+      htmlLabels: false,   // <-- CLAVE: evita foreignObject (texto “atrás” o invisible)
+      wrap: true,
+      curve: 'basis'
+    }
+  };
+</script>
 
     <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script defer src="/assets/js/diagram.js"></script>
