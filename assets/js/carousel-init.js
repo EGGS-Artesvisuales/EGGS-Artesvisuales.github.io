@@ -33,32 +33,89 @@ $(document).ready(function () {
     }
   });
 
+/* ============================================================
+   Owl Carousel Init – EGGS-Studio
+   Objetivo: 1 ítem visible, sin “peek” lateral (stagePadding = 0)
+============================================================ */
+
+(function () {
+  // Helper: fuerza refresh para evitar layouts a medias (flash/50%)
+  function forceOwlRefresh($car) {
+    if (!$car || !$car.length) return;
+    // Owl necesita refresh luego de render/paint
+    $car.trigger('refresh.owl.carousel');
+  }
+
   /* ============================
      Carrusel de imágenes
   ============================ */
   const $imgCarousel = $('.carousel-imagen');
 
-  $imgCarousel.owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 3,
-    nav: true,
-    dots: true,
-    autoHeight: true,
-    startPosition: 0,
-    stagePadding: 30,
-    navText: ["&#9664;", "&#9654;"],
-    responsive: {
-      0: { stagePadding: 15 },
-      768: { stagePadding: 30 }
-    },
-    onInitialized: function () {
-      const $car = $(this.$element);
-      // refresh inmediato para evitar el “50%”
-      requestAnimationFrame(function () { forceOwlRefresh($car); });
-      setTimeout(function () { forceOwlRefresh($car); }, 120);
-    }
-  });
+  if ($imgCarousel.length) {
+    $imgCarousel.owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 3,
+      nav: true,
+      dots: true,
+      autoHeight: true,
+      startPosition: 0,
+
+      /* clave: sin asomo lateral */
+      stagePadding: 0,
+      center: false,
+
+      navText: ["&#9664;", "&#9654;"],
+
+      /* mantener explícito en responsive para evitar override */
+      responsive: {
+        0:   { stagePadding: 0 },
+        768: { stagePadding: 0 }
+      },
+
+      onInitialized: function () {
+        const $car = $(this.$element);
+        requestAnimationFrame(function () { forceOwlRefresh($car); });
+        setTimeout(function () { forceOwlRefresh($car); }, 120);
+      }
+    });
+  }
+
+  /* ============================
+     Carrusel de video
+  ============================ */
+  const $videoCarousel = $('.carousel-video');
+
+  if ($videoCarousel.length) {
+    $videoCarousel.owlCarousel({
+      items: 1,
+      loop: true,
+      margin: 3,
+      nav: true,
+      dots: true,
+      autoHeight: true,
+      startPosition: 0,
+
+      /* clave: sin asomo lateral */
+      stagePadding: 0,
+      center: false,
+
+      navText: ["&#9664;", "&#9654;"],
+
+      responsive: {
+        0:   { stagePadding: 0 },
+        768: { stagePadding: 0 }
+      },
+
+      onInitialized: function () {
+        const $car = $(this.$element);
+        requestAnimationFrame(function () { forceOwlRefresh($car); });
+        setTimeout(function () { forceOwlRefresh($car); }, 120);
+      }
+    });
+  }
+})();
+
 
   /* ============================
      Helpers: video
