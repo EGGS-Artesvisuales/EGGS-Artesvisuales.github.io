@@ -25,40 +25,40 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  A[Representación del Mundo] --> A1[Lo Tangible]
-  A --> A2[Lo Intangible]
+  A([Representación del Mundo]) --> A1([Lo Tangible])
+  A --> A2([Lo Intangible])
 
-  A1 --> A1a[La Saturación]
-  A1a --> A1a1[La Peste]
-  A1a1 --> A1a1a[Pinturas Infectadas]
-  A1a1a --> A1a1a1[Soportes tradicionales]
-  A1a1a --> A1a1a2[Soportes Blandos]
+  A1 --> A1a([La Saturación])
+  A1a --> A1a1([La Peste])
+  A1a1 --> A1a1a([Pinturas Infectadas])
+  A1a1a --> A1a1a1([Soportes tradicionales])
+  A1a1a --> A1a1a2([Soportes Blandos])
 
-  A1a1 --> A1a1b[Desplazamiento de la Pintura]
-  A1a1b --> A1a1b1[Espacio Doméstico]
-  A1a1b --> A1a1b2[Espacio Público]
-  A1a1b --> A1a1b3[Espacio Rural / Natural]
+  A1a1 --> A1a1b([Desplazamiento de la Pintura])
+  A1a1b --> A1a1b1([Espacio Doméstico])
+  A1a1b --> A1a1b2([Espacio Público])
+  A1a1b --> A1a1b3([Espacio Rural / Natural])
 
-  A1a --> A1a2[Lo Invisible]
-  A1a2 --> A1a2a[Pinturas Wi-Fi]
+  A1a --> A1a2([Lo Invisible])
+  A1a2 --> A1a2a([Pinturas Wi-Fi])
 
-  A1 --> A1b[La Tecnología]
-  A1b --> A1b1[La IA]
-  A1b --> A1b2[Lo Espacial]
-  A1b --> A1b3[Telecomunicaciones]
+  A1 --> A1b([La Tecnología])
+  A1b --> A1b1([La IA])
+  A1b --> A1b2([Lo Espacial])
+  A1b --> A1b3([Telecomunicaciones])
 
-  A2 --> A2a[El Capitalismo]
-  A2a --> A2a1[El Colgado]
-  A2a --> A2a2[Mr. Burns]
-  A2a --> A2a3[El Empaquetador]
+  A2 --> A2a([El Capitalismo])
+  A2a --> A2a1([El Colgado])
+  A2a --> A2a2([Mr. Burns])
+  A2a --> A2a3([El Empaquetador])
 
-  A2 --> A2b[Lo Popular]
-  A2b --> A2b1[Esculturas]
-  A2b1 --> A2b1a[Papelucho]
+  A2 --> A2b([Lo Popular])
+  A2b --> A2b1([Esculturas])
+  A2b1 --> A2b1a([Papelucho])
 
-  A2 --> A2c[Lo Ancestral]
-  A2c --> A2c1[Museo a Cielo Abierto]
-  A2c --> A2c2[Mapuche Urbano, La Tala de la Memoria]
+  A2 --> A2c([Lo Ancestral])
+  A2c --> A2c1([Museo a Cielo Abierto])
+  A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
 
   %% Enlaces (existentes)
   click A "mundo-exterior.html" "Ir a Representación del Mundo"
@@ -100,23 +100,23 @@ graph LR
 
 <div class="mermaid">
 graph TD
-  B[Acción en\nel Mundo] --> B1[Lo Subrepticio]
-  B1 --> B1a[Remiendas\nUrbanas]
-  B1 --> B1b[La Anti-Publicidad]
-  B1 --> B1c[Graffiti\n& Tags]
+  B([Acción en\nel Mundo]) --> B1([Lo Subrepticio])
+  B1 --> B1a([Remiendas\nUrbanas])
+  B1 --> B1b([La Anti-Publicidad])
+  B1 --> B1c([Graffiti\n& Tags])
 
-  B --> B2[Lo Comunitario]
-  B2 --> B2a[Muralismo]
+  B --> B2([Lo Comunitario])
+  B2 --> B2a([Muralismo])
 
-  B --> B3[Docencia\ny Talleres]
-  B3 --> B3a[Mineduc]
-  B3 --> B3b[Corporaciones]
-  B3 --> B3c[Independientes]
+  B --> B3([Docencia\ny Talleres])
+  B3 --> B3a([Mineduc])
+  B3 --> B3b([Corporaciones])
+  B3 --> B3c([Independientes])
 
-  B --> B4[Servicios]
-  B4 --> B4a[Restauración]
-  B4 --> B4b[Decoraciones\n& Encargo]
-  B4 --> B4c[Asesorías\nTécnicas]
+  B --> B4([Servicios])
+  B4 --> B4a([Restauración])
+  B4 --> B4b([Decoraciones\n& Encargo])
+  B4 --> B4c([Asesorías\nTécnicas])
 
   %% Enlaces (existentes)
   click B "accion.html" "Ir a Acción en el Mundo"
@@ -145,8 +145,8 @@ graph TD
 
 <div class="mermaid">
 graph LR
-  C[Exploración del Mundo Interior] --> C1[Arte y Psicología]
-  C --> C2[Arte y Espiritualidad]
+  C([Exploración del Mundo Interior]) --> C1([Arte y Psicología])
+  C --> C2([Arte y Espiritualidad])
 
   %% Enlaces (existentes)
   click C "interior.html" "Ir a Exploración del Mundo Interior"
@@ -155,4 +155,5 @@ graph LR
   click C1 "en-construccion.html" "En construcción"
   click C2 "en-construccion.html" "En construcción"
 </div>
+
 
