@@ -15,10 +15,8 @@
   function renderMermaid() {
     if (!window.mermaid) return;
 
-    mermaid.initialize({
-      startOnLoad: false,
-      theme: 'default'
-    });
+   mermaid.initialize(window.__MERMAID_CONFIG__ || { startOnLoad: false, theme: "dark" });
+
 
     mermaid.run({
       querySelector: '.mermaid'
