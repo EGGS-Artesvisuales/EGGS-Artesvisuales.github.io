@@ -7,9 +7,38 @@ $(document).ready(function () {
   }
 
   /* ============================
+     Refresh robusto (fix “50% hasta click”)
+  ============================ */
+  function forceOwlRefresh($c) {
+    if (!$c || !$c.length) return;
+    $c.trigger("invalidate.owl.carousel");
+    $c.trigger("refresh.owl.carousel");
+  }
+
+  // Si cargan imágenes dentro de cualquier carrusel, refrescar ese carrusel
+  $(document).on("load", ".owl-carousel img", function () {
+    const $c = $(this).closest(".owl-carousel");
+    // doble refresh breve para asegurar layout final
+    setTimeout(function () { forceOwlRefresh($c); }, 0);
+    setTimeout(function () { forceOwlRefresh($c); }, 120);
+  });
+
+  // Cuando Owl inicializa o cambia tamaño, refrescar para evitar estados intermedios
+  $(document).on("initialized.owl.carousel resized.owl.carousel", function (e) {
+    const $c = $(e.target);
+    // solo nuestros carruseles
+    if ($c.hasClass("carousel-imagen") || $c.hasClass("carousel-video") || $c.hasClass("carousel-fancy")) {
+      requestAnimationFrame(function () { forceOwlRefresh($c); });
+      setTimeout(function () { forceOwlRefresh($c); }, 120);
+    }
+  });
+
+  /* ============================
      Carrusel de imágenes
   ============================ */
-  $('.carousel-imagen').owlCarousel({
+  const $imgCarousel = $('.carousel-imagen');
+
+  $imgCarousel.owlCarousel({
     items: 1,
     loop: true,
     margin: 3,
@@ -22,6 +51,12 @@ $(document).ready(function () {
     responsive: {
       0: { stagePadding: 15 },
       768: { stagePadding: 30 }
+    },
+    onInitialized: function () {
+      const $car = $(this.$element);
+      // refresh inmediato para evitar el “50%”
+      requestAnimationFrame(function () { forceOwlRefresh($car); });
+      setTimeout(function () { forceOwlRefresh($car); }, 120);
     }
   });
 
@@ -76,6 +111,10 @@ $(document).ready(function () {
       const $car = $(this.$element);
       pauseAllVideos($car, true);
       playActiveVideo($car);
+
+      // refresh inmediato para evitar el “50%”
+      requestAnimationFrame(function () { forceOwlRefresh($car); });
+      setTimeout(function () { forceOwlRefresh($car); }, 120);
     }
   });
 
@@ -88,6 +127,9 @@ $(document).ready(function () {
 
     pauseAllVideos($car, true);
     playActiveVideo($car);
+
+    // asegurar recalculo post-transición
+    setTimeout(function () { forceOwlRefresh($car); }, 0);
   });
 
   // Click: activar controles (y permitir play/pause)
@@ -118,7 +160,9 @@ $(document).ready(function () {
   /* ============================
      Carrusel fancy
   ============================ */
-  $('.carousel-fancy').owlCarousel({
+  const $fancyCarousel = $('.carousel-fancy');
+
+  $fancyCarousel.owlCarousel({
     loop: true,
     margin: 5,
     nav: true,
@@ -132,17 +176,29 @@ $(document).ready(function () {
       0: { items: 2, dots: true },
       600: { items: 3, nav: false },
       1000: { items: 4 }
+    },
+    onInitialized: function () {
+      const $car = $(this.$element);
+      requestAnimationFrame(function () { forceOwlRefresh($car); });
+      setTimeout(function () { forceOwlRefresh($car); }, 120);
     }
   });
 
   /* ============================
-     Refresh al cargar
+     Refresh al cargar (incluye fuentes/imagenes)
   ============================ */
   $(window).on('load', function () {
-    $('.carousel-imagen').trigger('refresh.owl.carousel');
-    $videoCarousel.trigger('refresh.owl.carousel');
-    $('.carousel-fancy').trigger('refresh.owl.carousel');
+    // refresh global
+    $('.owl-carousel').each(function () {
+      forceOwlRefresh($(this));
+    });
+
+    // refuerzo por si el navegador aún está estabilizando layout
+    setTimeout(function () {
+      $('.owl-carousel').each(function () {
+        forceOwlRefresh($(this));
+      });
+    }, 200);
   });
 
 });
-
