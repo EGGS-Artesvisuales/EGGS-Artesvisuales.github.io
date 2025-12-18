@@ -453,6 +453,36 @@ p.parrafo:first-of-type ul {
   }
 }
 
+
+
+/* ------------------------------------------------------------------
+   SEPARADORES (HR) – 3 densidades
+------------------------------------------------------------------ */
+hr.separador {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: rgba(240,240,240,0.15);
+  border-radius: 999px;
+  margin: 3rem 0; /* default: medio */
+}
+
+/* Estrecho */
+hr.separador--estrecho {
+  margin: 1.5rem 0;
+}
+
+/* Medio (opcional, por claridad; coincide con el default) */
+hr.separador--medio {
+  margin: 3rem 0;
+}
+
+/* Con harto aire */
+hr.separador--aire {
+  margin: 5rem 0;
+}
+
+
 /* ------------------------------------------------------------------
    IMÁGENES (base)
 ------------------------------------------------------------------ */
