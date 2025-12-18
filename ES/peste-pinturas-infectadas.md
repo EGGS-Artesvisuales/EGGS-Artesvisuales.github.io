@@ -40,7 +40,9 @@ carousel: true
 
 <hr class="separador separador--aire" />
 
-<!-- Mermaid / Mapa conceptual -->
+<!-- ========================= -->
+<!-- MERMAID (1) MAPA GENERAL -->
+<!-- ========================= -->
 <div class="mermaid">
 flowchart LR
   RM((Representación del Mundo))
@@ -113,7 +115,38 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
+<!-- =============================================== -->
+<!-- MERMAID (2) SECTORIZADO: SOPORTES TRADICIONALES -->
+<!-- =============================================== -->
+<div class="mermaid">
+flowchart LR
+  ST([Soportes tradicionales])
+  INT([A. Intervenciones])
+  PROD([B. Producciones])
+
+  INT --> INT1(["1. Serie Sin Título (2008)"])
+
+  PROD --> P1(["1. Serie sin título n°1 (2008/2010)"])
+  PROD --> P2(["2. Paisajes de carretera (2008/2009)"])
+  PROD --> P3(["3. Autofusión (2009/2010)"])
+  PROD --> P4(["4. Banderas infectadas (2008/2025)"])
+
+  click ST "#soportes-tradicionales" "Ir a Soportes tradicionales"
+  click INT "#intervenciones" "Ir a Intervenciones"
+  click PROD "#producciones" "Ir a Producciones"
+
+  click INT1 "#intervencion-serie-st-2008" "Ir a Serie Sin Título (Intervenciones) 2008"
+  click P1 "#produccion-serie-st-1-2008-2010" "Ir a Serie sin título n°1 (Producciones)"
+  click P2 "#produccion-paisajes-carretera-2008-2009" "Ir a Paisajes de carretera"
+  click P3 "#produccion-autofusion-2009-2010" "Ir a Autofusión"
+  click P4 "#produccion-banderas-infectadas-2008-2025" "Ir a Banderas infectadas"
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
 <!-- SOPORTES TRADICIONALES -->
+<!-- ===================== -->
 <h2 class="subtitulo" id="soportes-tradicionales">PINTURAS INFECTADAS: SOPORTES TRADICIONALES</h2>
 
 <h3 class="subtitulo2" id="intervenciones">A. INTERVENCIONES</h3>
@@ -130,7 +163,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">1. Serie Sin Título, 2008</h4>
+<h4 class="subtitulo2" id="intervencion-serie-st-2008">1. Serie Sin Título, 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -170,7 +203,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">1. Serie sin título n°1 - 2008 / 2010</h4>
+<h4 class="subtitulo2" id="produccion-serie-st-1-2008-2010">1. Serie sin título n°1 - 2008 / 2010</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -265,7 +298,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">2. Serie Paisajes de carretera - 2008 / 2009</h4>
+<h4 class="subtitulo2" id="produccion-paisajes-carretera-2008-2009">2. Serie Paisajes de carretera - 2008 / 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -323,7 +356,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">3. Autofusión (Autorretrato fisurado) – 2009</h4>
+<h4 class="subtitulo2" id="produccion-autofusion-2009-2010">3. Autofusión (Autorretrato fisurado) – 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -365,7 +398,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">4. Serie de banderas infectadas - 2008/2025</h4>
+<h4 class="subtitulo2" id="produccion-banderas-infectadas-2008-2025">4. Serie de banderas infectadas - 2008/2025</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -393,46 +426,41 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
+<!-- ================= -->
 <!-- SOPORTES BLANDOS -->
+<!-- ================= -->
 <h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS <br> SOPORTES BLANDOS</h2>
 
+<!-- ================================================= -->
+<!-- MERMAID (3) SECTORIZADO: SOPORTES BLANDOS + OBRAS -->
+<!-- ================================================= -->
 <div class="mermaid">
 flowchart LR
-  %% =========================
-  %% LA PESTE → PINTURAS INFECTADAS → SOPORTES BLANDOS (taxonomía + obras)
-  %% =========================
+  SB([Soportes blandos])
+  MEM(["1. Membranas"])
+  MOD(["2. Módulos"])
+  MODP(["2.1 Módulos print"])
+  UNI(["3. Unidades"])
 
-  LP((La Peste))
-  PI((Pinturas Infectadas))
+  SB --> MEM
+  SB --> MOD
+  MOD --> MODP
+  SB --> UNI
 
-  LP --> PI
-
-  PI --> ST(["Soportes tradicionales"])
-  PI --> SB(("Soportes blandos"))
-
-  %% --- SOPORTES BLANDOS (estructura de tu página) ---
-  SB --> MEM(["1. Membranas"])
   MEM --> VER(["Verde (2009)"])
   MEM --> MAP1(["Mapamundi n°1 (2008/2009)"])
   MEM --> MAP2(["Mapamundi n°2 (2008)"])
 
-  SB --> MOD(["2. Módulos"])
   MOD --> COR(["Cordillera (2009)"])
   MOD --> GP1(["Gran paisaje n°1 (2010)"])
   MOD --> GP2(["Gran paisaje n°2 (2014)"])
   MOD --> PU(["Paisaje urbano (2010)"])
 
-  MOD --> MODP(["2.1 Módulos print"])
   MODP --> SELK(["Mujeres selk'nam infectadas por el fútbol (2019)"])
 
-  SB --> UNI(["3. Unidades"])
   UNI --> URET(["Retratos (2019–)"])
   UNI --> UPAI(["Paisajes (2019–)"])
   UNI --> UBOD(["Bodegones (2024–)"])
-
-  %% --- navegación (páginas / anchors) ---
-  click LP "/ES/la-peste.html" "Ver La Peste"
-  click PI "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
 
   click SB "#soportes-blandos" "Ir a Soportes blandos"
   click MEM "#membranas" "Ir a Membranas"
@@ -440,23 +468,21 @@ flowchart LR
   click MODP "#modulos-prints" "Ir a Módulos print"
   click UNI "#unidades" "Ir a Unidades"
 
-  %% --- navegación a OBRAS (requiere ids en tu HTML) ---
   click VER "#verde-2009" "Ir a Verde (2009)"
-  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1"
-  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2"
+  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1 (2008/2009)"
+  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2 (2008)"
 
   click COR "#cordillera-2009" "Ir a Cordillera (2009)"
   click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1 (2010)"
   click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2 (2014)"
   click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano (2010)"
 
-  click SELK "#mujeres-selknam-2019" "Ir a Módulos print (2019)"
+  click SELK "#mujeres-selknam-2019" "Ir a Mujeres selk'nam (2019)"
 
   click URET "#unidades-retratos-2019" "Ir a Unidades: Retratos"
   click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Paisajes"
   click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Bodegones"
 </div>
-
 
 <section class="parrafo">
   <p>
@@ -475,6 +501,28 @@ flowchart LR
     <li><strong>3. Unidades</strong></li>
   </ul>
 </section>
+
+<hr class="separador separador--aire" />
+
+<!-- =============================== -->
+<!-- MERMAID (4) MEMBRANAS (OBRAS)  -->
+<!-- =============================== -->
+<div class="mermaid">
+flowchart LR
+  MEM([Membranas])
+  VER(["1. Verde (2009)"])
+  MAP1(["2. Mapamundi n°1 (2008/2009)"])
+  MAP2(["2.1 Mapamundi n°2 (2008)"])
+
+  MEM --> VER
+  MEM --> MAP1
+  MEM --> MAP2
+
+  click MEM "#membranas" "Ir a Membranas"
+  click VER "#verde-2009" "Ir a Verde (2009)"
+  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1"
+  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2"
+</div>
 
 <hr class="separador separador--aire" />
 
@@ -542,7 +590,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="mapamundi-2009">2. Mapamundi, 2009</h4>
+<h4 class="subtitulo2" id="mapamundi-2009-1">2. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -602,6 +650,8 @@ flowchart LR
 
 <br>
 
+<h4 class="subtitulo2" id="mapamundi-2008-2">2.1 Mapamundi n°2, 2008</h4>
+
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg"
        alt="Mapamundi n°2 – Pinturas Infectadas, 130 x 410 cm"
@@ -616,6 +666,31 @@ flowchart LR
 
   <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos visuales en el mundo contemporáneo.</p>
 </section>
+
+<hr class="separador separador--aire" />
+
+<!-- =========================== -->
+<!-- MERMAID (5) MODULOS (OBRAS) -->
+<!-- =========================== -->
+<div class="mermaid">
+flowchart LR
+  MOD([Módulos])
+  COR(["1. Cordillera (2009)"])
+  GP1(["2. Gran paisaje n°1 (2010)"])
+  GP2(["3. Gran paisaje n°2 (2014)"])
+  PU(["4. Paisaje urbano (2010)"])
+
+  MOD --> COR
+  MOD --> GP1
+  MOD --> GP2
+  MOD --> PU
+
+  click MOD "#modulos" "Ir a Módulos"
+  click COR "#cordillera-2009" "Ir a Cordillera"
+  click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1"
+  click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2"
+  click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano"
+</div>
 
 <hr class="separador separador--aire" />
 
@@ -666,7 +741,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">1. Cordillera, 2009</h4>
+<h4 class="subtitulo2" id="cordillera-2009">1. Cordillera, 2009</h4>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg"
@@ -751,7 +826,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">2. Gran paisaje n°1, 2010</h4>
+<h4 class="subtitulo2" id="gran-paisaje-1-2010">2. Gran paisaje n°1, 2010</h4>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-002-b.jpg"
@@ -870,7 +945,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">3. Gran paisaje n°2, 2014</h4>
+<h4 class="subtitulo2" id="gran-paisaje-2-2014">3. Gran paisaje n°2, 2014</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -926,7 +1001,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">4. Paisaje urbano, 2010</h4>
+<h4 class="subtitulo2" id="paisaje-urbano-2010">4. Paisaje urbano, 2010</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -984,6 +1059,8 @@ flowchart LR
   2.1 Módulos print
 </h3>
 
+<h4 class="subtitulo2" id="mujeres-selknam-2019">1. Mujeres selk'nam infectadas por el fútbol, 2019</h4>
+
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-01.jpg"
@@ -1014,6 +1091,28 @@ flowchart LR
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
     <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- ============================ -->
+<!-- MERMAID (6) UNIDADES (SERIES) -->
+<!-- ============================ -->
+<div class="mermaid">
+flowchart LR
+  UNI([Unidades])
+  URET(["Retratos (2019–)"])
+  UPAI(["Paisajes (2019–)"])
+  UBOD(["Bodegones (2024–)"])
+
+  UNI --> URET
+  UNI --> UPAI
+  UNI --> UBOD
+
+  click UNI "#unidades" "Ir a Unidades"
+  click URET "#unidades-retratos-2019" "Ir a Retratos"
+  click UPAI "#unidades-paisajes-2019" "Ir a Paisajes"
+  click UBOD "#unidades-bodegones-2024" "Ir a Bodegones"
 </div>
 
 <hr class="separador separador--aire" />
@@ -1070,7 +1169,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">RETRATOS: 1. Serie sin título - 2008</h4>
+<h4 class="subtitulo2" id="unidades-retratos-2019">RETRATOS: 1. Serie sin título - 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -1118,7 +1217,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">PAISAJES: 1. Serie sin título - 2019</h4>
+<h4 class="subtitulo2" id="unidades-paisajes-2019">PAISAJES: 1. Serie sin título - 2019</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -1136,7 +1235,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">BODEGONES: 1. Serie sin título - 2008</h4>
+<h4 class="subtitulo2" id="unidades-bodegones-2024">BODEGONES: 1. Serie sin título - 2008</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -1158,3 +1257,4 @@ flowchart LR
 <p class="parrafo" style="margin-top:2rem;">
   <a href="#top">Volver arriba</a>
 </p>
+<br>
