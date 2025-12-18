@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+/* Reset suave para elementos típicos */
+html, body { width: 100%; }
+figure { margin: 0; } /* importante: algunos estilos/temas agregan margin por defecto */
+
 /* ------------------------------------------------------------------
    VARIABLES CSS (Definidas en :root)
 ------------------------------------------------------------------ */
@@ -91,10 +95,18 @@ body {
   overflow-x: hidden;
 }
 
+/* Importante: margen 0 evita que una regla externa con auto-margins empuje imágenes */
 img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
+}
+
+/* coherencia con media */
+video {
+  display: block;
+  max-width: 100%;
 }
 
 /* ------------------------------------------------------------------
@@ -315,8 +327,7 @@ header {
     transform: scale(1.05);
   }
 
-  /* Menú móvil: NO usar display:none (rompe transiciones).
-     Se oculta con opacity/visibility/pointer-events/transform. */
+  /* Menú móvil: NO usar display:none (rompe transiciones). */
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -362,7 +373,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 5rem 1.25rem 0;
-  text-align: left; /* base global */
+  text-align: left;
 }
 
 /* ------------------------------------------------------------------
@@ -408,8 +419,6 @@ main {
   line-height: var(--line-height);
   color: var(--color-claro);
   overflow-wrap: break-word;
-
-  /* Base: evitar “ríos” en pantallas angostas */
   text-align: left;
   hyphens: auto;
 }
@@ -419,38 +428,30 @@ main {
   text-indent: 1.5em;
 }
 
-/* Primer párrafo de cada sección */
 p.parrafo:first-of-type {
   margin-top: 2rem;
   text-indent: 2.5em;
 }
 
-/* Listas dentro de párrafos */
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
 }
 
-.parrafo ul li {
-  margin-bottom: 0.5em;
-}
+.parrafo ul li { margin-bottom: 0.5em; }
 
-/* Evita comportamientos extraños si una lista cae dentro del primer párrafo */
 p.parrafo:first-of-type ul {
   margin-top: 0 !important;
   text-indent: 0 !important;
 }
 
-/* ------------------------------------------------------------------
-   JUSTIFICADO SOLO EN ESCRITORIO (párrafos, NO listas)
------------------------------------------------------------------- */
+/* Justificado solo en escritorio (párrafos, NO listas) */
 @media (min-width: 902px) {
   .parrafo {
     text-align: justify;
     text-justify: inter-word;
   }
 }
-
 
 /* ------------------------------------------------------------------
    IMÁGENES (base)
@@ -512,9 +513,7 @@ p.parrafo:first-of-type ul {
 }
 
 .imagen-con-caption video,
-.imagen-con-caption .hero-video {
-  max-height: 90vh;
-}
+.imagen-con-caption .hero-video { max-height: 90vh; }
 
 .imagen-con-caption img:hover,
 .imagen-con-caption video:hover,
@@ -530,9 +529,7 @@ p.parrafo:first-of-type ul {
   margin-top: 0.5rem;
 }
 
-/* ------------------------------------------------------------------
-   MODIFICADOR: 70% (alineado a la izquierda)
------------------------------------------------------------------- */
+/* MODIFICADOR: 70% (alineado a la izquierda) */
 .imagen-con-caption-70 {
   width: 70%;
   margin-left: 0;
@@ -544,10 +541,7 @@ p.parrafo:first-of-type ul {
   text-align: left;
 }
 
-.imagen-con-caption-70 img {
-  width: 100%;
-  height: auto;
-}
+.imagen-con-caption-70 img { width: 100%; height: auto; }
 
 @media (max-width: 768px) {
   .imagen-con-caption-70 { width: 100%; }
@@ -611,9 +605,7 @@ p.parrafo:first-of-type ul {
   transition: opacity 0.3s ease-in-out;
 }
 
-.fancy-button:hover .button-content img {
-  opacity: var(--img-hover-opacity);
-}
+.fancy-button:hover .button-content img { opacity: var(--img-hover-opacity); }
 
 .button-content .title {
   font-size: var(--title-font-size);
@@ -667,7 +659,7 @@ p.parrafo:first-of-type ul {
 }
 
 /* ------------------------------------------------------------------
-   BARRA DE PROGRESO Y CONTENEDOR
+   BARRA DE PROGRESO
 ------------------------------------------------------------------ */
 .barra-progreso-container { margin: 1.5rem 0; }
 
@@ -711,8 +703,7 @@ p.parrafo:first-of-type ul {
 .progress-info p { margin: 0.5rem 0; }
 
 /* ------------------------------------------------------------------
-   MERMAID – EGGS-Studio (nodo oscuro + texto claro + hover inverso)
-   Nota: pensado para htmlLabels:false (SVG labels)
+   MERMAID – EGGS-Studio
 ------------------------------------------------------------------ */
 .mermaid {
   text-align: center;
@@ -727,7 +718,6 @@ p.parrafo:first-of-type ul {
   overflow: visible !important;
 }
 
-/* Transiciones: en estado normal */
 .mermaid svg g.node rect,
 .mermaid svg g.node polygon,
 .mermaid svg g.node circle,
@@ -735,7 +725,6 @@ p.parrafo:first-of-type ul {
   transition: fill 0.18s ease, stroke 0.18s ease, stroke-width 0.18s ease, filter 0.18s ease;
 }
 
-/* NODOS: estilo consistente (incluye circulares) */
 .mermaid svg .node rect,
 .mermaid svg .node polygon,
 .mermaid svg .node circle,
@@ -745,11 +734,9 @@ p.parrafo:first-of-type ul {
   stroke-width: 1.25px !important;
 }
 
-/* Si hay links (click), que se sienta interactivo */
 .mermaid svg g.node { cursor: default; }
 .mermaid svg g.node.clickable { cursor: pointer; }
 
-/* TEXTO: visible y consistente */
 .mermaid .node text,
 .mermaid .node tspan,
 .mermaid .label text,
@@ -762,7 +749,6 @@ p.parrafo:first-of-type ul {
   font-size: clamp(12px, 1.15vw, 14px);
 }
 
-/* Contorno sutil (evita “doble texto” pesado) */
 .mermaid .node text,
 .mermaid .node tspan {
   paint-order: stroke;
@@ -771,16 +757,12 @@ p.parrafo:first-of-type ul {
   stroke-linejoin: round;
 }
 
-/* CONECTORES */
 .mermaid .edgePath path {
   stroke: rgba(255, 255, 255, 0.88) !important;
   stroke-width: 1.8px;
 }
-.mermaid marker path {
-  fill: rgba(255, 255, 255, 0.88) !important;
-}
+.mermaid marker path { fill: rgba(255, 255, 255, 0.88) !important; }
 
-/* HOVER inverso */
 .mermaid svg g.node:hover rect,
 .mermaid svg g.node:hover polygon,
 .mermaid svg g.node:hover circle,
@@ -797,7 +779,6 @@ p.parrafo:first-of-type ul {
   stroke: transparent !important;
 }
 
-/* FOCUS (teclado): accesibilidad, similar a hover */
 .mermaid svg g.node:focus-visible rect,
 .mermaid svg g.node:focus-visible polygon,
 .mermaid svg g.node:focus-visible circle,
@@ -807,12 +788,10 @@ p.parrafo:first-of-type ul {
   filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.55));
 }
 
-/* Etiquetas de aristas (SVG) */
 .mermaid .edgeLabel text {
   fill: rgba(255, 255, 255, 0.95) !important;
   font-weight: 600;
 }
-
 
 /* ------------------------------------------------------------------
    PRODUCTOS
@@ -1102,8 +1081,7 @@ form button:hover {
   overflow: hidden;
 }
 
-/* CORRECCIÓN CRÍTICA:
-   Mantiene tu intención pero solo para items dentro de .container. */
+/* Mantiene tu intención solo para items dentro de .container */
 .container > .item {
   flex: 1 1 calc(33.33% - 1.25rem);
   box-sizing: border-box;
@@ -1114,21 +1092,10 @@ form button:hover {
 ------------------------------------------------------------------ */
 @media (max-width: 480px) {
   body { font-size: 0.8rem; }
-  header {
-    padding: 0.3125rem 0.625rem;
-    font-size: 1rem;
-  }
-  .text-container {
-    padding: 0.625rem 0.3125rem;
-    font-size: 0.8rem;
-    width: 100%;
-  }
+  header { padding: 0.3125rem 0.625rem; font-size: 1rem; }
+  .text-container { padding: 0.625rem 0.3125rem; font-size: 0.8rem; width: 100%; }
   .button-container { gap: 0.625rem; }
-  .fancy-button {
-    width: 100%;
-    max-width: var(--button-max-width);
-    padding: 0.625rem 0.9375rem;
-  }
+  .fancy-button { width: 100%; max-width: var(--button-max-width); padding: 0.625rem 0.9375rem; }
 }
 
 @media (max-width: 600px) {
@@ -1165,4 +1132,9 @@ body.no-scroll {
   width: 100%;
   left: 0;
 }
+
+/* ------------------------------------------------------------------
+   NOTA
+   Owl Carousel / carouseles: van en carousel.css (separado)
+------------------------------------------------------------------ */
 
