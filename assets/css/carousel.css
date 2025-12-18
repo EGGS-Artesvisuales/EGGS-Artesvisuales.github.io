@@ -1,18 +1,22 @@
 /* =============================================================================
-   Owl Carousel – Base
+   Owl Carousel – Base & Fixes (Optimizado)
 ============================================================================= */
 
-/* FIX init: evita “colapso/flash” antes de que Owl calcule layout */
+:root {
+  --owl-min-h: 45vh; /* ajustable */
+}
+
+/* Preload hide: evita colapso/flash hasta owl-loaded */
 .owl-carousel {
   width: 90%;
-  margin: 2rem auto;
+  margin-inline: auto;
+  margin-block: 2rem;
   position: relative;
   display: block;
 
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 
-  /* ocultar hasta que Owl esté listo */
   opacity: 0;
   visibility: hidden;
   transition: opacity .18s ease, visibility .18s ease;
@@ -23,7 +27,7 @@
   visibility: visible;
 }
 
-/* CRÍTICO: neutraliza .item global SOLO dentro de Owl */
+/* Neutraliza .item global SOLO dentro de Owl */
 .owl-carousel .item {
   display: block !important;
   flex: none !important;
@@ -31,19 +35,14 @@
   box-sizing: border-box;
 }
 
-/* El recorte real lo hace stage-outer */
+/* Recorte real + esquinas */
 .owl-carousel .owl-stage-outer {
-  overflow: hidden !important;        /* clave para no ver “orillas” */
-  border-radius: var(--radius-extra); /* respeta esquinas redondeadas */
+  overflow: hidden !important;
+  border-radius: var(--radius-extra);
+  min-height: var(--owl-min-h);
 }
 
-/* Reserva altura mínima para evitar colapso (ajusta si quieres) */
-.carousel-imagen .owl-stage-outer,
-.carousel-video .owl-stage-outer {
-  min-height: 45vh;
-}
-
-/* Asegura que el item active ocupe alto disponible */
+/* Centrado vertical del slide (sin tocar el stage de Owl) */
 .carousel-imagen .owl-item,
 .carousel-video .owl-item {
   display: flex;
@@ -68,18 +67,18 @@
   width: 100%;
   overflow: hidden;
 
-  /* Reserva alto para evitar “aplastado” al cargar */
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 45vh;  /* ajustable */
+  min-height: var(--owl-min-h);
+
   background: transparent;
 }
 
 .carousel-imagen img {
   max-height: 90vh;
   width: auto;
-  margin: 0 auto;
+  margin-inline: auto;
   display: block;
   object-fit: contain;
 }
@@ -99,13 +98,13 @@
 .carousel-video .img-container {
   position: relative;
   overflow: hidden;
+  width: 100%;
 
-  /* Reserva alto para evitar “aplastado” al cargar */
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 45vh;  /* ajustable */
-  width: 100%;
+  min-height: var(--owl-min-h);
+
   background: transparent;
 }
 
@@ -122,15 +121,17 @@
 .carousel-video .img-container::after {
   content: "Click para activar controles";
   position: absolute;
-  left: 12px;
-  bottom: 12px;
+  inset-inline-start: 12px;
+  inset-block-end: 12px;
+
   padding: .55rem .8rem;
   border-radius: 999px;
   font-size: .85rem;
   background: rgba(0,0,0,.6);
   color: #fff;
+
   opacity: 0;
-  transition: .25s ease;
+  transition: opacity .25s ease;
 }
 
 .carousel-video .item:hover .img-container::after {
@@ -142,31 +143,30 @@
 }
 
 .carousel-video figcaption {
-  margin-top: .75rem;
+  margin-block-start: .75rem;
   text-align: center;
   font-size: .95rem;
 }
 
 /* =============================================================================
-   OVERRIDE FINAL – eliminar bandas laterales (máscara)
-   (Con stagePadding=0 ya no corresponde “peek”.)
+   Sin bandas laterales (stagePadding=0)
 ============================================================================= */
 
 .carousel-imagen::before,
 .carousel-video::before,
 .carousel-imagen::after,
 .carousel-video::after {
-  display: none !important;
   content: none !important;
+  display: none !important;
 }
 
 /* =============================================================================
-   Navegación
+   Navegación (Nav y Dots)
 ============================================================================= */
 
 .owl-nav button {
   position: absolute;
-  top: 50%;
+  inset-block-start: 50%;
   transform: translateY(-50%);
   width: 2.6rem;
   height: 2.6rem;
@@ -178,12 +178,12 @@
   z-index: 100;
 }
 
-.owl-nav .owl-prev { left: 10px; }
-.owl-nav .owl-next { right: 10px; }
+.owl-nav .owl-prev { inset-inline-start: 10px; }
+.owl-nav .owl-next { inset-inline-end: 10px; }
 
 .owl-dots {
   text-align: center;
-  margin-top: .75rem;
+  margin-block-start: .75rem;
 }
 
 .owl-dot span {
@@ -197,3 +197,4 @@
 .owl-dot.active span {
   background: #333;
 }
+
