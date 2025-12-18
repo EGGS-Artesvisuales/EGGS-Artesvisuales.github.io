@@ -81,6 +81,38 @@
 
   <!-- Mermaid (solo si se requiere) -->
   {% if page.mermaid %}
+    <script>
+      window.__MERMAID_CONFIG__ = {
+        startOnLoad: false,
+        theme: 'dark',
+        themeVariables: {
+          background: 'transparent',
+
+          /* NODOS (alineado a tu paleta) */
+          primaryColor: '#f0f0f0',       /* --color-claro */
+          secondaryColor: '#e0e0e0',
+          tertiaryColor: '#d6d6d6',
+
+          /* Texto dentro de nodos */
+          primaryTextColor: '#222222',
+
+          /* Borde */
+          primaryBorderColor: '#aaaaaa', /* --color-medio-claro */
+
+          /* Conectores claros sobre fondo #222/#333 */
+          lineColor: '#f0f0f0',
+          arrowheadColor: '#f0f0f0',
+
+          /* Tipografía */
+          fontFamily: 'Inter, system-ui, sans-serif',
+          fontSize: '15px'
+        },
+        flowchart: { wrap: true, curve: 'basis' },
+        sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
+        gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
+      };
+    </script>
+
     <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script defer src="/assets/js/diagram.js"></script>
   {% endif %}
