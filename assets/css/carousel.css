@@ -1,22 +1,73 @@
 /* =============================================================================
-   Owl Carousel – EGGS-Studio (Optimizado, listo para copiar)
+   Owl Carousel – EGGS-Studio
    Archivo: carousel.css
+   Carruseles:
+   1) .carousel-imagen (con caption)
+   2) .carousel-video  (con caption)
+   3) .carousel-fancy  (fancy buttons)
 ============================================================================= */
 
-:root {
-  --owl-min-h: 45vh; /* ajustable */
+:root{
+  --owl-min-h: 45vh; /* Solo imagen/video */
 }
 
 /* =============================================================================
-   Base & Fixes
+   BASE COMÚN (lo mínimo para cualquier Owl)
 ============================================================================= */
 
-/* Preload hide: evita “colapso/flash” hasta owl-loaded */
-.owl-carousel {
-  width: 90%;
-  margin: 2rem auto;
+.owl-carousel{
   position: relative;
   display: block;
+}
+
+/* Neutraliza .item global SOLO dentro de Owl (crítico si tu CSS global usa flex) */
+.owl-carousel .item{
+  display: block !important;
+  flex: none !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Navegación (común) */
+.owl-nav button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: rgba(0,0,0,.65);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+.owl-nav .owl-prev{ left: 10px; }
+.owl-nav .owl-next{ right: 10px; }
+
+/* Dots (común) */
+.owl-dots{
+  text-align: center;
+  margin-top: .75rem;
+}
+.owl-dot span{
+  width: 10px;
+  height: 10px;
+  background: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.owl-dot.active span{ background: #333; }
+
+/* =============================================================================
+   IMAGEN + VIDEO (tarjeta + preload hide + min-height)
+============================================================================= */
+
+/* Preload hide SOLO para imagen/video */
+.carousel-imagen.owl-carousel,
+.carousel-video.owl-carousel{
+  width: 90%;
+  margin: 2rem auto;
 
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -26,51 +77,45 @@
   transition: opacity .18s ease, visibility .18s ease;
 }
 
-.owl-carousel.owl-loaded {
+.carousel-imagen.owl-carousel.owl-loaded,
+.carousel-video.owl-carousel.owl-loaded{
   opacity: 1;
   visibility: visible;
 }
 
-/* Stage recorte + esquinas */
-.owl-carousel .owl-stage-outer {
+/* Recorte + esquinas + reserva de alto SOLO imagen/video */
+.carousel-imagen .owl-stage-outer,
+.carousel-video  .owl-stage-outer{
   overflow: hidden !important;
   border-radius: var(--radius-extra);
   min-height: var(--owl-min-h);
 }
 
-/* Importante: NO convertir .owl-item en flex */
-.owl-carousel .owl-item {
-  /* dejamos que Owl maneje layout/width/transform */
-}
-
-/* Neutraliza .item global SOLO dentro de Owl */
-.owl-carousel .item {
-  display: block !important;
-  flex: none !important;   /* por si tu CSS global mete flex */
-  width: 100%;
-  box-sizing: border-box;
+/* Importante: NO tocar .owl-item (Owl gestiona widths/transforms) */
+.carousel-imagen .owl-item,
+.carousel-video  .owl-item{
+  /* intencionalmente vacío */
 }
 
 /* =============================================================================
    Carrusel Imágenes
 ============================================================================= */
 
-.carousel-imagen .item {
+.carousel-imagen .item{
   position: relative;
   text-align: center;
 
-  /* Centrado robusto sin interferir con Owl */
+  /* Centrado robusto */
   display: grid;
   place-items: center;
 
   min-height: var(--owl-min-h);
 }
 
-.carousel-imagen .img-container {
+.carousel-imagen .img-container{
   width: 100%;
   overflow: hidden;
 
-  /* Centrado horizontal y vertical */
   display: grid;
   place-items: center;
 
@@ -78,26 +123,20 @@
   background: transparent;
 }
 
-/* Centrado real de la imagen */
-.carousel-imagen img {
+.carousel-imagen img{
   display: block;
-
-  /* “Seguro” contra herencias raras */
   margin: 0 auto;
 
-  /* Respetar proporción */
   max-width: 100%;
   height: auto;
 
-  /* Tamaño dentro del viewport */
   max-height: 90vh;
   width: auto;
 
   object-fit: contain;
 }
 
-/* Caption */
-.carousel-imagen figcaption {
+.carousel-imagen figcaption{
   position: absolute;
   inset: auto 0 0 0;
   padding: 1rem;
@@ -109,13 +148,13 @@
    Carrusel Video
 ============================================================================= */
 
-.carousel-video .item {
+.carousel-video .item{
   display: grid;
   place-items: center;
   min-height: var(--owl-min-h);
 }
 
-.carousel-video .img-container {
+.carousel-video .img-container{
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -127,7 +166,7 @@
   background: transparent;
 }
 
-.carousel-video video {
+.carousel-video video{
   display: block;
   margin: 0 auto;
 
@@ -142,7 +181,7 @@
 }
 
 /* Overlay */
-.carousel-video .img-container::after {
+.carousel-video .img-container::after{
   content: "Click para activar controles";
   position: absolute;
   left: 12px;
@@ -157,64 +196,66 @@
   opacity: 0;
   transition: opacity .25s ease;
 }
+.carousel-video .item:hover .img-container::after{ opacity: 1; }
+.carousel-video .img-container.is-active::after{ opacity: 0 !important; }
 
-.carousel-video .item:hover .img-container::after { opacity: 1; }
-.carousel-video .img-container.is-active::after { opacity: 0 !important; }
-
-.carousel-video figcaption {
+.carousel-video figcaption{
   margin-top: .75rem;
   text-align: center;
   font-size: .95rem;
 }
 
 /* =============================================================================
-   OVERRIDE – eliminar bandas laterales (máscara)
-   (Con stagePadding=0 no corresponde “peek”.)
+   OVERRIDE – eliminar “máscaras” laterales (si existían antes)
 ============================================================================= */
-
 .carousel-imagen::before,
 .carousel-video::before,
 .carousel-imagen::after,
-.carousel-video::after {
+.carousel-video::after{
   content: none !important;
   display: none !important;
 }
 
 /* =============================================================================
-   Navegación (Nav y Dots)
+   Carrusel Fancy (botones)
+   - sin tarjeta/shadow/radius del carrusel
+   - sin min-height
+   - sin “sobra” inferior
 ============================================================================= */
 
-.owl-nav button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.carousel-fancy.owl-carousel{
+  width: 100%;
+  margin: 1.25rem auto; /* más compacto que imagen/video */
 
-  width: 2.6rem;
-  height: 2.6rem;
-  border-radius: 50%;
+  /* no tarjeta aquí */
+  border-radius: 0;
+  box-shadow: none;
 
-  background: rgba(0,0,0,.65);
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  z-index: 100;
+  /* si quieres mismo preload-hide para evitar “lista” antes de Owl, déjalo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .18s ease, visibility .18s ease;
 }
 
-.owl-nav .owl-prev { left: 10px; }
-.owl-nav .owl-next { right: 10px; }
-
-.owl-dots {
-  text-align: center;
-  margin-top: .75rem;
+.carousel-fancy.owl-carousel.owl-loaded{
+  opacity: 1;
+  visibility: visible;
 }
 
-.owl-dot span {
-  width: 10px;
-  height: 10px;
-  background: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+/* Fancy: NO reservar alto */
+.carousel-fancy .owl-stage-outer{
+  overflow: hidden !important; /* o visible si lo prefieres */
+  border-radius: 0;
+  min-height: 0;
 }
 
-.owl-dot.active span { background: #333; }
+/* Ajuste de dots para fancy (menos aire) */
+.carousel-fancy .owl-dots{
+  margin-top: .5rem;
+}
 
+/* Opcional: botones nav un poco más “ligeros” en fancy */
+.carousel-fancy .owl-nav button{
+  width: 2.4rem;
+  height: 2.4rem;
+}
