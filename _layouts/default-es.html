@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ page.lang | default: 'es' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,9 +39,9 @@
     "@type": ["Organization", "LocalBusiness"],
     "name": "EGGS-Studio",
     "legalName": "E.GG.S – Producciones & Art SpA",
-    "url": "{{ site.url | default: "https://eggs-studio.cl" }}",
-    "logo": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.jpg",
-    "image": "{{ site.url | default: "https://eggs-studio.cl" }}/assets/img/EGGSLOGOindex1.png",
+    "url": "{{ site.url | default: 'https://eggs-studio.cl' }}",
+    "logo": "{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.jpg",
+    "image": "{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.png",
     "description": "Arte chileno y muralismo comunitario de Esteban Garnica. Murales, restauración de obras de arte y proyectos de arte público en La Florida, Santiago de Chile.",
     "sameAs": [
       "https://www.facebook.com/ART.EGarnica",
@@ -75,36 +75,14 @@
 
   <!-- Hojas de Estilo Personalizadas -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="/assets/css/carousel.css">
+  {% if page.carousel %}
+    <link rel="stylesheet" href="/assets/css/carousel.css">
+  {% endif %}
 
   <!-- Mermaid (solo si se requiere) -->
   {% if page.mermaid %}
     <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script defer>
-      window.addEventListener("DOMContentLoaded", () => {
-        try {
-          mermaid.initialize({
-            startOnLoad: true,
-            theme: 'dark',
-            themeVariables: {
-              background: '#1e1e1e',
-              primaryColor: '#444444',
-              primaryTextColor: '#ffffff',
-              primaryBorderColor: '#aaaaaa',
-              secondaryColor: '#2d2d2d',
-              lineColor: '#ffffff',
-              arrowheadColor: '#ffffff',
-              tertiaryColor: '#666666'
-            },
-            flowchart: { wrap: true, curve: 'basis' },
-            sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
-            gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 18 }
-          });
-        } catch (error) {
-          console.error("Error al inicializar Mermaid:", error);
-        }
-      });
-    </script>
+    <script defer src="/assets/js/diagram.js"></script>
   {% endif %}
 </head>
 
@@ -130,7 +108,6 @@
   <!-- Owl Carousel JS + init (solo si la página lo requiere) -->
   {% if page.carousel %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <!-- IMPORTANT: aquí va tu init único (imagen + video + fancy) -->
     <script src="/assets/js/carousel-init.js"></script>
   {% endif %}
 
