@@ -10,9 +10,7 @@ mermaid: true
 
 <h1 class="titulo">Representación del Mundo</h1>
 <h2 class="subtitulo">Retrato de lo contemporáneo</h2>
-
-<hr class="separador separador--aire" />
-
+<br>
 <div class="mermaid">
 flowchart LR
   principal((Actividad Artística))
@@ -35,6 +33,7 @@ flowchart LR
   click interior "/ES/interior.html" "Ir a Mundo Interior"
 </div>
 
+<hr class="separador separador--aire" />
 
 <p class="parrafo" style="margin-top: 6%;">
   Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
@@ -52,6 +51,8 @@ flowchart LR
   El recorrido se organiza de la siguiente manera:
 </p>
 
+
+<br><br>
 
 
 <h2 class="subtitulo">Lo Tangible</h2>
@@ -169,3 +170,6 @@ flowchart LR
   </a>
 
 </div>
+
+
+<hr class="separador separador--aire" />
