@@ -15,7 +15,21 @@
   function renderMermaid() {
     if (!window.mermaid) return;
 
-   mermaid.initialize(window.__MERMAID_CONFIG__ || { startOnLoad: false, theme: "dark" });
+ mermaid.initialize({
+  startOnLoad: false,
+  theme: "base",
+  flowchart: {
+    htmlLabels: false
+  },
+  themeVariables: {
+    borderRadius: 10,      // ← radio de borde
+    nodeBorder: "#333",
+    primaryColor: "#ffffff",
+    primaryBorderColor: "#333",
+    fontFamily: "Inter, system-ui, sans-serif"
+  }
+});
+
 
 
     mermaid.run({
