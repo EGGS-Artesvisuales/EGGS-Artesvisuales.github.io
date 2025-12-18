@@ -3,7 +3,7 @@ layout: default-en
 lang: en
 title: "EGGS-Studio – Home (Full Translation)"
 description: "EGGS-Studio: creative platform of Esteban Garnica, Chilean visual artist and muralist. Contemporary art, expanded painting, community muralism, and cultural projects from Santiago de Chile."
-permalink: /EN/index-full.html
+permalink: /EN/index
 keywords: "EGGS-Studio, Esteban Garnica, Chilean visual artist, muralist, contemporary art Chile, expanded painting, community muralism, public art, cultural projects, Santiago de Chile"
 mermaid: true
 ---
