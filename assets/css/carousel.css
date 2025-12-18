@@ -12,12 +12,15 @@
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 
+  /* ocultar hasta que Owl esté listo */
   opacity: 0;
-  transition: opacity .18s ease;
+  visibility: hidden;
+  transition: opacity .18s ease, visibility .18s ease;
 }
 
 .owl-carousel.owl-loaded {
   opacity: 1;
+  visibility: visible;
 }
 
 /* CRÍTICO: neutraliza .item global SOLO dentro de Owl */
@@ -30,8 +33,26 @@
 
 /* El recorte real lo hace stage-outer */
 .owl-carousel .owl-stage-outer {
-  overflow: hidden;                   /* clave para no ver “orillas” */
+  overflow: hidden !important;        /* clave para no ver “orillas” */
   border-radius: var(--radius-extra); /* respeta esquinas redondeadas */
+}
+
+/* Reserva altura mínima para evitar colapso (ajusta si quieres) */
+.carousel-imagen .owl-stage-outer,
+.carousel-video .owl-stage-outer {
+  min-height: 45vh;
+}
+
+/* Asegura que el item active ocupe alto disponible */
+.carousel-imagen .owl-item,
+.carousel-video .owl-item {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-imagen .owl-item .item,
+.carousel-video .owl-item .item {
+  width: 100%;
 }
 
 /* =============================================================================
@@ -127,8 +148,10 @@
 }
 
 /* =============================================================================
-   OVERRIDE FINAL – eliminar bandas laterales (máscara) y “peek”
+   OVERRIDE FINAL – eliminar bandas laterales (máscara)
+   (Con stagePadding=0 ya no corresponde “peek”.)
 ============================================================================= */
+
 .carousel-imagen::before,
 .carousel-video::before,
 .carousel-imagen::after,
@@ -136,13 +159,6 @@
   display: none !important;
   content: none !important;
 }
-
-/* Recorte real del carrusel + esquinas consistentes */
-.owl-carousel .owl-stage-outer {
-  overflow: hidden !important;
-  border-radius: var(--radius-extra);
-}
-
 
 /* =============================================================================
    Navegación
@@ -159,7 +175,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  z-index: 100; /* por encima de máscara */
+  z-index: 100;
 }
 
 .owl-nav .owl-prev { left: 10px; }
@@ -181,60 +197,3 @@
 .owl-dot.active span {
   background: #333;
 }
-
-/* =============================================================================
-   MÁSCARA OPACA: tapa “orillas” de prev/sig (por stagePadding) con fade suave
-============================================================================= */
-
-/* Ajusta estos valores si cambias stagePadding en tu JS */
-:root {
-  --owl-mask-w: 36px;         /* >= stagePadding (tú usas 30px) */
-  --owl-mask-alpha: 0.35;     /* más claro (antes estaba demasiado oscuro) */
-}
-
-.carousel-imagen,
-.carousel-video {
-  position: relative;
-}
-
-/* base: pseudo-elementos laterales */
-.carousel-imagen::before,
-.carousel-video::before,
-.carousel-imagen::after,
-.carousel-video::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: var(--owl-mask-w);
-  z-index: 60;
-  pointer-events: none;
-}
-
-/* izquierda: fade a transparente */
-.carousel-imagen::before,
-.carousel-video::before {
-  left: 0;
-  background: linear-gradient(
-    to right,
-    rgba(0,0,0,var(--owl-mask-alpha)),
-    rgba(0,0,0,0)
-  );
-}
-
-/* derecha: fade a transparente */
-.carousel-imagen::after,
-.carousel-video::after {
-  right: 0;
-  background: linear-gradient(
-    to left,
-    rgba(0,0,0,var(--owl-mask-alpha)),
-    rgba(0,0,0,0)
-  );
-}
-
-/* Ajuste responsive de la máscara */
-@media (max-width: 768px){
-  :root { --owl-mask-w: 20px; --owl-mask-alpha: 0.25; }
-}
-
