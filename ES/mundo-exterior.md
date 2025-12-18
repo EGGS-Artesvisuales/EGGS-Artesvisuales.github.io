@@ -35,6 +35,7 @@ flowchart LR
   click interior "/ES/interior.html" "Ir a Mundo Interior"
 </div>
 
+
 <p class="parrafo" style="margin-top: 6%;">
   Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
 </p>
@@ -51,13 +52,13 @@ flowchart LR
   El recorrido se organiza de la siguiente manera:
 </p>
 
-<hr class="separador separador--aire" />
+
 
 <h2 class="subtitulo">Lo Tangible</h2>
 
 <div class="mermaid">
 flowchart LR
-  representacion(("Representación del Mundo"))
+  representacion((Representación del Mundo))
   tangible(["Lo Tangible"])
   intangible(["Lo Intangible"])
 
@@ -73,6 +74,7 @@ flowchart LR
   click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
   click intangible "/ES/intangible.html" "Ir a Lo Intangible"
 </div>
+
 
 <p class="parrafo">
   Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: el paisaje local, los objetos cotidianos y las escenas que construyen nuestra vida inmediata. Se busca observar con atención aquello que está frente a nosotros, reconociendo su valor simbólico y su presencia en la experiencia diaria.
@@ -110,7 +112,7 @@ flowchart LR
 
 <div class="mermaid">
 flowchart LR
-  representacion(("Representación del Mundo"))
+  representacion((Representación del Mundo))
   tangible(["Lo Tangible"])
   intangible(["Lo Intangible"])
 
@@ -128,6 +130,7 @@ flowchart LR
   click ancestros "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
   click popular "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
 </div>
+
 
 <p class="parrafo">
   Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La creación busca dar forma a aquello que se intuye o se imagina, abriendo espacio a lecturas simbólicas y reflexiones profundas sobre el presente.
