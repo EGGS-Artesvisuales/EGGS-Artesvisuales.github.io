@@ -34,16 +34,16 @@ mermaid: true
 <br><br>
 
 <div class="mermaid">
-graph LR
-  RM[Representación del Mundo]
-  LT[Lo Tangible]
-  LS[La Saturación]
-  LTec[La Tecnología]
-  LP[La Peste]
-  LI[Lo Invisible]
-  P[Pinturas Infectadas]
-  DP[Desplazamiento de la Pintura]
-  PL[Pinturas Licuadas]  
+flowchart LR
+  RM((Representación del Mundo))
+  LT((Lo Tangible))
+  LS((La Saturación))
+  LTec([La Tecnología])
+  LP([La Peste])
+  LI([Lo Invisible])
+  P([Pinturas Infectadas])
+  DP([Desplazamiento de la Pintura])
+  PL([Pinturas Licuadas])  
 
   RM --> LT
   LT --> LS
