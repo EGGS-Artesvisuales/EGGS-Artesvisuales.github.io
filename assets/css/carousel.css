@@ -1,12 +1,20 @@
 /* =============================================================================
-   Owl Carousel – Base & Fixes (Optimizado)
+   Owl Carousel – EGGS-Studio (Optimizado, listo para copiar)
+   - Sin “peek” lateral (pensado para stagePadding = 0)
+   - Sin bandas/máscaras laterales
+   - Sin colapso/flash: oculto hasta owl-loaded + min-height reservado
+   - Imágenes y videos centrados horizontal/vertical
 ============================================================================= */
 
 :root {
   --owl-min-h: 45vh; /* ajustable */
 }
 
-/* Preload hide: evita colapso/flash hasta owl-loaded */
+/* =============================================================================
+   Owl Carousel – Base & Fixes
+============================================================================= */
+
+/* Preload hide: evita “colapso/flash” hasta owl-loaded */
 .owl-carousel {
   width: 90%;
   margin-inline: auto;
@@ -35,14 +43,14 @@
   box-sizing: border-box;
 }
 
-/* Recorte real + esquinas */
+/* Recorte real + esquinas consistentes */
 .owl-carousel .owl-stage-outer {
   overflow: hidden !important;
   border-radius: var(--radius-extra);
   min-height: var(--owl-min-h);
 }
 
-/* Centrado vertical del slide (sin tocar el stage de Owl) */
+/* Centrado vertical del slide (sin tocar stage de Owl) */
 .carousel-imagen .owl-item,
 .carousel-video .owl-item {
   display: flex;
@@ -67,19 +75,22 @@
   width: 100%;
   overflow: hidden;
 
+  /* Centrado horizontal y vertical */
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: var(--owl-min-h);
 
+  min-height: var(--owl-min-h);
   background: transparent;
 }
 
 .carousel-imagen img {
-  max-height: 90vh;
-  width: auto;
-  margin-inline: auto;
   display: block;
+  margin-inline: auto;
+  max-width: 100%;
+  width: auto;
+
+  max-height: 90vh;
   object-fit: contain;
 }
 
@@ -100,18 +111,20 @@
   overflow: hidden;
   width: 100%;
 
+  /* Centrado horizontal y vertical */
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: var(--owl-min-h);
 
+  min-height: var(--owl-min-h);
   background: transparent;
 }
 
 .carousel-video video {
+  display: block;
   width: 100%;
   max-height: 90vh;
-  display: block;
+
   background: #000;
   object-fit: contain;
   cursor: pointer;
@@ -149,7 +162,8 @@
 }
 
 /* =============================================================================
-   Sin bandas laterales (stagePadding=0)
+   OVERRIDE – eliminar bandas laterales (máscara)
+   (Con stagePadding=0 no corresponde “peek”.)
 ============================================================================= */
 
 .carousel-imagen::before,
@@ -197,4 +211,3 @@
 .owl-dot.active span {
   background: #333;
 }
-
