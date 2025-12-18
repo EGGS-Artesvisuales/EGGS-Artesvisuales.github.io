@@ -33,7 +33,7 @@ flowchart LR
   click interior "/ES/interior.html" "Ir a Mundo Interior"
 </div>
 
-<hr class="separador separador--aire" />
+<br>
 
 <p class="parrafo" style="margin-top: 6%;">
   Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
@@ -75,19 +75,26 @@ flowchart LR
   click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
   click intangible "/ES/intangible.html" "Ir a Lo Intangible"
 </div>
-
-
-<p class="parrafo">
-  Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: el paisaje local, los objetos cotidianos y las escenas que construyen nuestra vida inmediata. Se busca observar con atención aquello que está frente a nosotros, reconociendo su valor simbólico y su presencia en la experiencia diaria.
-</p>
-
-<p class="parrafo">
-  Cada serie recibe un nombre asociado a un rasgo significativo del presente. Esto permite que la colección permanezca abierta y en constante transformación, incorporando nuevas series que respondan a fenómenos, hábitos o sensibilidades emergentes.
-</p>
-
-<p class="parrafo">Dentro de este grupo se incluyen las siguientes series:</p>
-
 <br>
+
+<p class="parrafo">
+  Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: paisaje local, objetos cotidianos y escenas que configuran la experiencia inmediata. El propósito es observar lo que tenemos enfrente con atención sostenida, reconociendo su densidad simbólica y su incidencia en la vida diaria.
+</p>
+
+<p class="parrafo">
+  Cada serie recibe un nombre asociado a un rasgo significativo del presente. Así, la colección permanece abierta y en permanente actualización, capaz de incorporar nuevas series a medida que emergen fenómenos, hábitos y sensibilidades que reconfiguran lo contemporáneo.
+</p>
+
+<p class="parrafo">
+  Dentro de “Lo Tangible” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el mundo material? La primera es <strong>La Saturación</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, visual, informativa y sensorial— como condición de época. La segunda es <strong>La Tecnología</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
+</p>
+
+<p class="parrafo">
+  En ambos casos parto desde la pintura como lenguaje de base, pero el trabajo se despliega en dos líneas complementarias: un cuerpo de <strong>pinturas</strong> y otro de <strong>desplazamientos de la pintura</strong>, donde el gesto pictórico se expande hacia formatos híbridos, medios mixtos e intervenciones contemporáneas. Esta estructura permite sostener una investigación coherente y, a la vez, flexible: la pintura como origen, no como límite.
+</p>
+
+<br><br>
+
 
 <div class="button-container">
   <a href="/ES/saturacion.html" class="fancy-button">
@@ -107,7 +114,7 @@ flowchart LR
   </a>
 </div>
 
-<hr class="separador separador--aire" />
+<hr class="separador separador--medio" />
 
 <h2 class="subtitulo">Lo Intangible</h2>
 
@@ -172,4 +179,4 @@ flowchart LR
 </div>
 
 
-<hr class="separador separador--aire" />
+<br>
