@@ -1,33 +1,23 @@
 /* =============================================================================
    Estilos Base Optimizados para Carruseles
    ============================================================================= */
-
-/* FIX CRÍTICO:
-   Evita conflicto con un .item global (por ejemplo en style.css) que use flex.
-   Owl usa .item dentro del carrusel: esto debe quedar neutralizado aquí. */
-.owl-carousel .item {
-  flex: 0 0 auto !important;
-  box-sizing: border-box;
-}
-
 .owl-carousel {
   width: 90%;
   margin: 2rem auto;
   position: relative;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  display: block; /* asegura que no colapse si aún no carga Owl */
+  display: block; /* evita “no se ve” si algo colapsa */
 }
 
-.carousel-container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  border-radius: inherit;
+/* FIX: tu style.css tenía .item global (flex). Aquí blindamos Owl. */
+.owl-carousel .item {
+  flex: 0 0 auto !important;
+  box-sizing: border-box;
 }
 
 /* =============================================================================
-   Carrusel de Imágenes (Versión Mejorada)
+   Carrusel de Imágenes
    ============================================================================= */
 .carousel-imagen {
   width: 100%;
@@ -74,7 +64,7 @@
   left: 0;
   right: 0;
   padding: 1.2rem;
-  color: #fff;
+  color: white;
   background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
   backdrop-filter: blur(4px);
   font-size: clamp(0.8rem, 2vw, 1rem);
@@ -95,30 +85,8 @@
 }
 
 /* =============================================================================
-   Carrusel de Video (autoplay + loop + controles por click)
+   Carrusel de Video (autoplay + loop + “activar controles” por click)
    ============================================================================= */
-.owl-carousel.carousel-video {
-  width: 90%;
-  margin: 2rem auto;
-  position: relative;
-}
-
-.carousel-video .owl-stage-outer {
-  border-radius: var(--radius-extra);
-  overflow: hidden; /* evita esquinas “duras” al reproducir */
-}
-
-.carousel-video .owl-item {
-  display: flex;
-  justify-content: center;
-}
-
-.carousel-video .item {
-  width: 100%;
-  margin: 0;
-  position: relative;
-}
-
 .carousel-video .img-container {
   width: 100%;
   position: relative;
@@ -126,7 +94,11 @@
   border-radius: var(--radius-extra);
 }
 
-/* Video base */
+.carousel-video .owl-stage-outer {
+  border-radius: var(--radius-extra);
+  overflow: hidden; /* esquinas suaves mientras reproduce */
+}
+
 .carousel-video .carousel-video-el {
   width: 100%;
   max-height: 90vh;
@@ -134,55 +106,41 @@
   display: block;
   margin: 0 auto;
   border-radius: var(--radius-extra);
-  object-fit: contain; /* cambia a cover si quieres llenar */
-  background: #000;    /* evita “parpadeo” mientras carga */
+  object-fit: contain;
+  background: #000; /* mientras carga */
   cursor: pointer;
 }
 
-/* UX: mientras NO sea interactivo, no debe bloquear el swipe.
-   OJO: esto hace que el click NO llegue al <video> si no lo manejas en JS.
-   Si tu click no funciona, cambia esto a pointer-events:auto y resuelve el swipe con otra estrategia. */
-.carousel-video .carousel-video-el:not(.is-interactive) {
-  pointer-events: none;
-}
-
-.carousel-video .carousel-video-el.is-interactive {
-  pointer-events: auto;
-  cursor: default;
-}
-
-/* Overlay único (no duplicado) */
+/* Overlay guía (se apaga cuando el usuario “activa” el video) */
 .carousel-video .img-container::after {
-  content: "Click para controles";
+  content: "Click para activar controles";
   position: absolute;
   left: 12px;
   bottom: 12px;
-  padding: 0.5rem 0.7rem;
+  padding: 0.55rem 0.8rem;
   border-radius: 999px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1;
-  color: rgba(255,255,255,0.92);
+  color: rgba(255,255,255,0.95);
   background: rgba(0,0,0,0.55);
   backdrop-filter: blur(3px);
   opacity: 0;
-  transform: translateY(4px);
+  transform: translateY(6px);
   transition: opacity 0.25s ease, transform 0.25s ease;
   pointer-events: none;
 }
 
-/* Mostrar overlay al pasar el mouse (desktop) */
 .carousel-video .item:hover .img-container::after {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Ocultar overlay cuando el usuario ya activó controles */
-.carousel-video .carousel-video-el.is-interactive ~ .img-container::after {
-  opacity: 0;
-  transform: translateY(4px);
+/* Cuando JS marca el contenedor como activo, ocultamos overlay */
+.carousel-video .img-container.is-active::after {
+  opacity: 0 !important;
+  transform: translateY(6px) !important;
 }
 
-/* Caption del carrusel de video */
 .carousel-video figcaption {
   margin-top: 0.75rem;
   font-family: var(--parrafo-font);
@@ -192,7 +150,7 @@
 }
 
 /* =============================================================================
-   Navegación (Estilos Funcionales Originales Mejorados)
+   Navegación
    ============================================================================= */
 .owl-nav button {
   position: absolute;
@@ -235,10 +193,7 @@
   z-index: 1000;
 }
 
-.owl-dots .owl-dot {
-  margin: 0 5px;
-  cursor: pointer;
-}
+.owl-dots .owl-dot { margin: 0 5px; cursor: pointer; }
 
 .owl-dots .owl-dot span {
   display: block;
@@ -255,7 +210,7 @@
 }
 
 /* =============================================================================
-   Carrusel Fancy (Optimizado)
+   Carrusel Fancy
    ============================================================================= */
 .carousel-fancy {
   --item-gap: 0.35rem;
@@ -268,7 +223,7 @@
 }
 
 /* =============================================================================
-   Responsive Design
+   Responsive
    ============================================================================= */
 @media (max-width: 768px) {
   .owl-carousel {
@@ -282,16 +237,10 @@
     font-size: 1.1rem;
   }
 
-  .owl-dots {
-    bottom: 10px;
-  }
+  .owl-dots { bottom: 10px; }
+  .owl-dots .owl-dot span { width: 8px; height: 8px; }
 
-  .owl-dots .owl-dot span {
-    width: 8px;
-    height: 8px;
-  }
-
-  /* Overlay en móvil: visible (ayuda UX táctil) */
+  /* En móvil, muestra la guía más visible */
   .carousel-video .img-container::after {
     opacity: 0.9;
     transform: translateY(0);
@@ -313,3 +262,4 @@
     padding: 1rem;
   }
 }
+
