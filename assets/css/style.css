@@ -744,7 +744,7 @@ p.parrafo:first-of-type ul {
 .mermaid .node tspan {
   paint-order: stroke;
   stroke: rgba(0,0,0,0.35);
-  stroke-width: 3px;
+  stroke-width: 0.3px;
 }
 
 /* Conectores */
