@@ -169,9 +169,10 @@
 
 /* Ajusta estos valores si cambias stagePadding en tu JS */
 :root {
-  --owl-mask-w: 36px;                 /* >= stagePadding (tú usas 30px) */
-  --owl-mask-bg: rgba(34,34,34,1);    /* fondo opaco, ajustable */
+  --owl-mask-w: 36px;
+  --owl-mask-bg: rgba(0,0,0,.35);
 }
+
 
 .carousel-imagen,
 .carousel-video {
