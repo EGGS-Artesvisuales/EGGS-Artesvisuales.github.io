@@ -4,23 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Título dinámico con fallback -->
   <title>{{ page.title | default: 'EGGS-Studio | Arte visual y murales en La Florida, Santiago' }}</title>
 
-  <!-- Meta Etiquetas Principales para SEO -->
   <meta name="description" content="{{ page.description | default: 'EGGS-Studio: arte visual, murales comunitarios y restauración de obras en La Florida, Santiago de Chile.' }}">
   <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales comunitarios, restauración de arte, diseño artístico, La Florida, Santiago' }}">
   <meta name="author" content="EGGS-Studio">
   <meta name="robots" content="index, follow">
-  <meta name="language" content="es-CL">
 
-  <!-- Favicon -->
+  <!-- Idioma dinámico -->
+  <meta name="language" content="{% if page.lang == 'en' %}en{% else %}es-CL{% endif %}">
+
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
-
-  <!-- Color de la barra de navegación en móviles -->
   <meta name="theme-color" content="#000000">
 
-  <!-- URL canónica -->
   <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
 
   <!-- Open Graph -->
@@ -29,10 +25,10 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
-  <meta property="og:locale" content="es_CL">
+  <meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}es_CL{% endif %}">
   <meta property="og:site_name" content="EGGS-Studio">
 
-  <!-- JSON-LD Schema: Organización + Negocio Local -->
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,12 +49,7 @@
       "addressRegion": "Región Metropolitana",
       "addressCountry": "CL"
     },
-    "areaServed": [
-      "La Florida",
-      "Santiago",
-      "Región Metropolitana de Santiago",
-      "Chile"
-    ],
+    "areaServed": ["La Florida", "Santiago", "Región Metropolitana de Santiago", "Chile"],
     "founder": {
       "@type": "Person",
       "name": "Esteban Armando Garnica Sánchez",
@@ -67,13 +58,11 @@
   }
   </script>
 
-  <!-- Owl Carousel CSS (solo si la página lo requiere) -->
   {% if page.carousel %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   {% endif %}
 
-  <!-- Hojas de Estilo Personalizadas -->
   <link rel="stylesheet" href="/assets/css/style.css">
   {% if page.carousel %}
     <link rel="stylesheet" href="/assets/css/carousel.css">
@@ -81,40 +70,27 @@
 
   <!-- Mermaid (solo si se requiere) -->
   {% if page.mermaid %}
-  <script>
-  window.__MERMAID_CONFIG__ = {
-    startOnLoad: false,
-    theme: 'dark',
-    themeVariables: {
-      background: 'transparent',
-      primaryTextColor: '#f0f0f0',
-      textColor: '#f0f0f0',
-      lineColor: '#f89900',
-      arrowheadColor: '#f0f0f0',
-      primaryBorderColor: '#0000',
-      fontFamily: 'Inter, system-ui, sans-serif',
-      fontSize: '15px'
-    },
-  
-</script>
-
     <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script defer src="/assets/js/diagram.js"></script>
+    <script defer src="/assets/js/mermaid-init.js"></script>
   {% endif %}
 </head>
 
 <body>
-  {% include header-es.html %}
+  {% if page.lang == 'en' %}
+    {% include header-en.html %}
+  {% else %}
+    {% include header-es.html %}
+  {% endif %}
 
   <main id="main-content" role="main">
-    {% if content %}
-      {{ content }}
-    {% else %}
-      <p>El contenido no está disponible en este momento. Por favor, intente nuevamente más tarde.</p>
-    {% endif %}
+    {{ content }}
   </main>
 
-  {% include footer-es.html %}
+  {% if page.lang == 'en' %}
+    {% include footer-en.html %}
+  {% else %}
+    {% include footer-es.html %}
+  {% endif %}
 
   <!-- Scripts generales -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
