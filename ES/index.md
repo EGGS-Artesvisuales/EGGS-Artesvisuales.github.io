@@ -16,6 +16,8 @@ mermaid: true
   Universo creativo de Esteban Garnica.
 </h2>
 
+<hr class="separador separador--aire" />
+
 <p class="parrafo" style="margin-top: 7%;">
   Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
   Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: 
@@ -23,7 +25,7 @@ mermaid: true
   Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
-<br>
+
 
 <div class="mermaid">
 flowchart LR
@@ -41,7 +43,7 @@ flowchart LR
   click interior "/ES/interior.html" "Ir a Mundo interior"
 </div>
 
-<br>
+
 
 <p class="parrafo" style="margin-top: 7%;">
   Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo. 
@@ -49,7 +51,8 @@ flowchart LR
   Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
 </p>
 
-<hr class="separador" />
+<hr class="separador separador--aire" />
+
 <div class="button-container">
 
   <a href="/ES/mundo-exterior.html" class="fancy-button">
@@ -80,7 +83,7 @@ flowchart LR
   </a>
 
 </div>
-<br>
+
 
 
 <a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
