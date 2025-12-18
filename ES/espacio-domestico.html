@@ -86,7 +86,6 @@ mermaid: true
 <!-- DIAGRAMA MERMAID CON ENLACES A #objetos Y #habitaciones -->
 <div class="mermaid">
 graph LR
-  %% Rama principal
   A([Representación del Mundo]) --> A1([Lo Tangible])
   A --> A2([Lo Intangible])
 
@@ -96,20 +95,16 @@ graph LR
   A1a --> A1a1([La Peste])
   A1a --> A1a2([Lo Invisible])
 
-  %% Hijos directos de La Peste
   A1a1 --> A1a1b([Desplazamiento de la Pintura])
   A1a1 --> A1a1c([Pinturas Infectadas])
 
-  %% Hijos de Desplazamiento de la Pintura
   A1a1b --> D1([Espacio Doméstico])
   A1a1b --> D2([Espacio Público])
   A1a1b --> D3([Espacio Rural / Natural])
 
-  %% Subdivisión interna del Espacio Doméstico
   D1 --> D1a([Objetos])
   D1 --> D1b([Habitaciones])
 
-  %% Enlaces (existentes)
   click A  "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/ES/tangible.html" "Ir a Lo Tangible"
   click A2 "/ES/intangible.html" "Ir a Lo Intangible"
@@ -118,8 +113,8 @@ graph LR
   click A1a1 "/ES/la-peste.html" "Ir a La Peste"
   click A1a2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
 
-  click A1a1c "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click A1a1b "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click A1a1c "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
 
   click D1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click D2 "/ES/espacio-publico.html" "Ir a Espacio Público"
@@ -128,10 +123,9 @@ graph LR
   click D1a "/ES/espacio-domestico.html#objetos" "Ver objetos domésticos"
   click D1b "/ES/espacio-domestico.html#habitaciones" "Ver habitaciones domésticas"
 
-  %% Enlaces (en construcción)
   click A1b "/ES/en-construccion" "Ir a La Tecnología"
-
 </div>
+
 
 <br><br>
 
