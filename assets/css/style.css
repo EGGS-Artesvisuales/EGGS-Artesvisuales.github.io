@@ -692,7 +692,7 @@ p.parrafo:first-of-type ul {
 .progress-info p { margin: 0.5rem 0; }
 
 /* ------------------------------------------------------------------
-   MERMAID (Diagramas) – Integración EGGS-Studio
+   MERMAID (Diagramas) – EGGS-Studio (base oscuro + hover inverso)
 ------------------------------------------------------------------ */
 .mermaid {
   text-align: center;
@@ -706,40 +706,64 @@ p.parrafo:first-of-type ul {
   height: auto;
 }
 
-/* Nodos */
+/* =========================
+   BASE: nodos oscuros
+   - fondo nodo: oscuro
+   - texto: claro
+   - borde: claro
+========================= */
 .mermaid .node rect,
 .mermaid .node polygon {
-  fill: var(--color-claro) !important;
-  stroke: var(--color-medio-claro) !important;
+  fill: var(--color-fondo-secundario) !important;   /* #333 */
+  stroke: var(--color-claro) !important;            /* #f0f0f0 */
   stroke-width: 1.5px;
+  transition: fill .18s ease, stroke .18s ease, stroke-width .18s ease, filter .18s ease;
 }
 
 .mermaid .node text {
-  fill: #222 !important;
+  fill: var(--color-claro) !important;              /* #f0f0f0 */
   font-family: var(--parrafo-font) !important;
   font-weight: 500;
+  transition: fill .18s ease;
 }
 
-/* Conectores */
+/* Conectores claros (sobre fondo oscuro del sitio) */
 .mermaid .edgePath path {
   stroke: var(--color-claro) !important;
-  stroke-width: 1.4px;
+  stroke-width: 1.35px;
 }
 
 .mermaid marker path {
   fill: var(--color-claro) !important;
 }
 
-/* Hover: resalta con color destacado (sin invertir colores) */
-.mermaid svg g.node:hover rect,
-.mermaid svg g.node:hover polygon {
-  stroke: var(--color-destacado) !important;
-  stroke-width: 2px;
-}
-
 /* Bordes redondeados Mermaid */
 .mermaid svg g.node rect { rx: 5; ry: 5; }
 .mermaid .cluster rect { rx: 8px; ry: 8px; }
+
+/* =========================
+   HOVER INVERSO (tipo "invert"):
+   - fondo nodo: claro
+   - texto: oscuro
+   - borde: destacado o claro (elige)
+========================= */
+.mermaid svg g.node:hover rect,
+.mermaid svg g.node:hover polygon {
+  fill: var(--color-claro) !important;              /* claro */
+  stroke: var(--color-destacado) !important;        /* azul destacado */
+  stroke-width: 2px !important;
+  filter: drop-shadow(0 6px 14px rgba(0,0,0,.35));
+}
+
+.mermaid svg g.node:hover text {
+  fill: var(--color-fondo) !important;              /* #222 */
+}
+
+/* Si hay links dentro de nodos */
+.mermaid svg g.node:hover a text {
+  fill: var(--color-fondo) !important;
+}
+
 
 /* ------------------------------------------------------------------
    PRODUCTOS
