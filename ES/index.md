@@ -21,42 +21,26 @@ mermaid: true
   Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: la representación del mundo exterior, la acción en el territorio y la exploración del universo interior. Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
-<hr class="separador" />
+<br>
 
 <div class="mermaid">
-graph TD
-  principal((Actividad Artística))
-  representacion[Representación del Mundo]
-  accion[Acción en el Mundo]
-  interior[Exploración del Mundo Interior]
+flowchart LR
+  principal(("Actividad artística"))
+  representacion(["Representación del mundo"])
+  accion(["Acción en el mundo"])
+  interior(["Exploración del mundo interior"])
 
   principal --> representacion
   principal --> accion
   principal --> interior
 
-  representacion --> tangible([Lo Tangible])
-  representacion --> intangible([Lo Intangible])
-
-  accion --> subrepticio([Lo Subrepticio])
-  accion --> comunitario([Lo Comunitario])
-  accion --> docencia([Docencia y Talleres])
-  accion --> servicios([Servicios])
-
-  click principal "/ES/index.html" "Ir al Inicio"
-  click representacion "/ES/mundo-exterior.html" "Ver Representación del Mundo"
-  click tangible "/ES/tangible.html" "Explorar Lo Tangible"
-  click intangible "/ES/intangible.html" "Explorar Lo Intangible"
-
-  click accion "/ES/accion.html" "Ver Acción en el Mundo"
-  click subrepticio "/ES/subrepticio.html" "Ver Lo Subrepticio"
-  click comunitario "/ES/comunitario.html" "Ver Lo Comunitario"
-  click docencia "/ES/docencia.html" "Ver Docencia y Talleres"
-  click servicios "/ES/servicios.html" "Ver Servicios"
-
-  click interior "/ES/interior.html" "Explorar Mundo Interior"
+  click representacion "/ES/mundo-exterior.html" "Ir a Representación del mundo"
+  click accion "/ES/accion.html" "Ir a Acción en el mundo"
+  click interior "/ES/interior.html" "Ir a Mundo interior"
 </div>
 
-<hr class="separador" />
+
+<br>
 
 <div class="button-container">
 
@@ -88,8 +72,9 @@ graph TD
   </a>
 
 </div>
-
 <hr class="separador" />
+
+
 
 <a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
-<hr class="separador" />
+
