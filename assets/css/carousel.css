@@ -30,7 +30,7 @@
 
 /* El recorte real lo hace stage-outer */
 .owl-carousel .owl-stage-outer {
-  overflow: hidden;                 /* clave para no ver “orillas” */
+  overflow: hidden;                   /* clave para no ver “orillas” */
   border-radius: var(--radius-extra); /* respeta esquinas redondeadas */
 }
 
@@ -51,7 +51,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 45vh;   /* ajustable */
+  min-height: 45vh;  /* ajustable */
+  background: transparent;
 }
 
 .carousel-imagen img {
@@ -83,8 +84,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 45vh;   /* ajustable */
+  min-height: 45vh;  /* ajustable */
   width: 100%;
+  background: transparent;
 }
 
 .carousel-video video {
@@ -164,25 +166,23 @@
 }
 
 /* =============================================================================
-   MÁSCARA OPACA: tapa “orillas” de prev/sig (por stagePadding)
+   MÁSCARA OPACA: tapa “orillas” de prev/sig (por stagePadding) con fade suave
 ============================================================================= */
 
 /* Ajusta estos valores si cambias stagePadding en tu JS */
 :root {
-  --owl-mask-w: 36px;
-  --owl-mask-bg: rgba(0,0,0,.35);
+  --owl-mask-w: 36px;         /* >= stagePadding (tú usas 30px) */
+  --owl-mask-alpha: 0.35;     /* más claro (antes estaba demasiado oscuro) */
 }
-
 
 .carousel-imagen,
 .carousel-video {
   position: relative;
 }
 
-/* izquierda */
+/* base: pseudo-elementos laterales */
 .carousel-imagen::before,
 .carousel-video::before,
-/* derecha */
 .carousel-imagen::after,
 .carousel-video::after {
   content: "";
@@ -190,13 +190,28 @@
   top: 0;
   height: 100%;
   width: var(--owl-mask-w);
-  background: var(--owl-mask-bg);
   z-index: 60;
   pointer-events: none;
 }
 
+/* izquierda: fade a transparente */
 .carousel-imagen::before,
-.carousel-video::before { left: 0; }
+.carousel-video::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,var(--owl-mask-alpha)),
+    rgba(0,0,0,0)
+  );
+}
 
+/* derecha: fade a transparente */
 .carousel-imagen::after,
-.carousel-video::after { right: 0; }
+.carousel-video::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(0,0,0,var(--owl-mask-alpha)),
+    rgba(0,0,0,0)
+  );
+}
