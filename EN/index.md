@@ -1,58 +1,95 @@
 ---
 layout: default-en
-title: Home
-description: "Welcome to EGGS-Studio, exploring the art world."
+lang: en
+title: "EGGS-Studio – Inicio"
+description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista visual y muralista chileno. Arte contemporáneo, pintura expandida, muralismo comunitario y proyectos culturales desde Santiago de Chile."
 permalink: /EN/index.html
+keywords: "EGGS-Studio, Esteban Garnica, artista visual chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo comunitario, arte público, proyectos culturales, Santiago de Chile"
+mermaid: true
+
 ---
-<div class="titulo">Welcome to EGGS-Studio</div>
 
-<div class="subtitulo">Integrated Visual Arts: Discover ideas, works, and projects.</div>
 
-<!-- Paragraph 1 -->
-<p class="parrafo">
-  I invite you to explore this site, where I share the breadth of my artistic activities, from intimate projects to large-scale works. My approach to art is universal, 
-  a fertile space where interests, knowledge, and experiences converge.
+<h1 class="titulo">EGGS-STUDIO</h1>
+
+<h2 class="subtitulo">
+  Universo creativo de Esteban Gárnica.
+</h2>
+
+<p class="parrafo" style="margin-top: 7%;">
+  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
+  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: la representación del mundo exterior, la acción en el territorio y la exploración del universo interior. Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
-<!-- Paragraph 2 -->
-<p class="parrafo">
-  Throughout my career, I have tackled multiple disciplines and areas. This journey led me to create a rhizomatic scheme that classifies the 
-  entirety of my work, leaving no cultural activities I have undertaken unrepresented.
-</p>
+<br><br>
 
-<!-- Paragraph 3 -->
-<p class="parrafo">
-  This scheme not only helps me understand and project my own creative nature but also 
-  serves as a tool to present my work in a clear and organized manner.
-</p>
 
-<div class="subtitulo">General Categories of My Artistic Practice</div>
+<div class="mermaid">
+graph TD
+  principal[Actividad Artística]
+  representacion[Representación del Mundo]
+  accion[Acción en el Mundo]
+  interior[Exploración del Mundo Interior]
 
-<div class="button-container">
-  <a href="mundo-exterior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.gif" alt="World Representation Works">
-       <p class="title">World Representation</p>
-       <p class="subtitle">Works that portray, reflect, and comment on the world.</p>
-    </div>
-  </a>
+  principal --> representacion
+  principal --> accion
+  principal --> interior
 
-  <a href="accion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" alt="Action in the World Works">
-      <p class="title">Action in the World</p>
-      <p class="subtitle">Community activities, workshops, and services.</p>
-    </div>
-  </a>
+  representacion --> tangible[Lo Tangible]
+  representacion --> intangible[Lo Intangible]
 
-  <a href="interior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Exploration of the Inner World">
-      <p class="title">Inner World</p>
-      <p class="subtitle">Art for physical-spiritual well-being and introspection.</p>
-    </div>
-  </a>
+  accion --> subrepticio[Lo Subrepticio]
+  accion --> comunitario[Lo Comunitario]
+  accion --> docencia[Docencia y Talleres]
+  accion --> servicios[Servicios]
+
+  click principal "/ES/index.html" "Ir al Inicio"
+  click representacion "/ES/mundo-exterior.html" "Ver Representación del Mundo"
+  click tangible "/ES/tangible.html" "Explorar Lo Tangible"
+  click intangible "/ES/intangible.html" "Explorar Lo Intangible"
+
+  click accion "/ES/accion.html" "Ver Acción en el Mundo"
+  click subrepticio "/ES/subrepticio.html" "Ver Lo Subrepticio"
+  click comunitario "/ES/comunitario.html" "Ver Lo Comunitario"
+  click docencia "/ES/docencia.html" "Ver Docencia y Talleres"
+  click servicios "/ES/servicios.html" "Ver Servicios"
+
+  click interior "/ES/interior.html" "Explorar Mundo Interior"
 </div>
 
-<a href="exhibiciones.html" class="enlace">See more works</a>
+<br><br>
 
+<div class="button-container">
+
+  <a href="/ES/mundo-exterior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio - representacion del mundo.gif" 
+           alt="Obras de Representación del Mundo" loading="lazy">
+      <p class="title">Representación del Mundo</p>
+      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
+    </div>
+  </a>
+
+  <a href="/ES/accion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" 
+           alt="Obras de Acción en el Mundo" loading="lazy">
+      <p class="title">Acción en el Mundo</p>
+      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
+    </div>
+  </a>
+
+  <a href="/ES/interior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio---mundo-interior.gif" 
+           alt="Exploración del Mundo Interior" loading="lazy">
+      <p class="title">Mundo Interior</p>
+      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
+    </div>
+  </a>
+
+</div>
+
+<a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
+
+<br><br>

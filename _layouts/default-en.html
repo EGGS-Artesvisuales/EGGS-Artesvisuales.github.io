@@ -84,28 +84,25 @@
   
   <!-- Mermaid (only if required) -->
   {% if page.mermaid %}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: 'dark',
-          themeVariables: {
-            background: '#1e1e1e',
-            primaryColor: '#444444',
-            primaryTextColor: '#ffffff',
-            primaryBorderColor: '#aaaaaa',
-            secondaryColor: '#2d2d2d',
-            lineColor: '#ffffff',
-            arrowheadColor: '#ffffff',
-            tertiaryColor: '#666666'
-          },
-          flowchart: { wrap: true, curve: 'basis' },
-          sequence: { actorMargin: 50, boxMargin: 10, boxTextMargin: 5, noteMargin: 10 },
-          gantt: { barHeight: 20, barGap: 4, topPadding: 50, leftPadding: 75, gridLineStartPadding: 35, fontSize: 12 }
-        });
-      });
+      window.__MERMAID_CONFIG__ = {
+        startOnLoad: false,
+        theme: 'dark',
+        themeVariables: {
+          background: 'transparent',
+          primaryTextColor: '#f0f0f0',
+          textColor: '#f0f0f0',
+          lineColor: '#f89900',
+          arrowheadColor: '#f0f0f0',
+          primaryBorderColor: '#0000',
+          fontFamily: 'Inter, system-ui, sans-serif',
+          fontSize: '15px'
+        },
+        flowchart: { wrap: true, curve: 'basis' }
+      };
     </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script defer src="/assets/js/diagram.js"></script>
   {% endif %}
 </head>
 <body>

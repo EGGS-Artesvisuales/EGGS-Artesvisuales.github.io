@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EGGS - Studio | En Construcción</title>
+  <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
+  <meta name="description" content="Página en construcción de EGGS-Studio.">
+  <meta name="keywords" content="EGGS Studio, en construcción, arte, diseño">
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    /* REGLAS GENERALES */
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #222;
+      color: #777;
+    }
+    /* CONTENEDOR DEL GIF (RESPONSIVO) */
+    .gif-fullscreen {
+      width: 100%;
+      height: 0;
+      padding-top: 56.25%; /* Relación 16:9 */
+      position: relative;
+      overflow: hidden;
+      background-color: #000;
+      margin-bottom: 130px;
+    }
+    .gif-fullscreen img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* LOGO */
+    .logo-container img {
+      width: 101px;
+      height: 101px;
+      animation: pulse 2s infinite;
+      display: block;
+      margin: 0 auto;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.7; transform: scale(1.1); }
+    }
+    /* TÍTULOS Y TEXTO */
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #58a6ff;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #aaaaaa;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
+    /* BOTÓN VOLVER AL INICIO */
+    .back-home {
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #58a6ff;
+      padding: 12px 25px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 3rem; /* Espacio en la parte inferior */
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    }
+    .back-home:hover {
+      background-color: #58a6ff;
+      color: #f4f4f4;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- GIF RESPONSIVO -->
+  <div class="gif-fullscreen">
+    <img src="/assets/img/intro-a-web-eggstudiob.gif" alt="Animación de Introducción">
+  </div>
+  <!-- LOGO CON ENLACE AL INICIO -->
+  <div class="logo-container">
+    <a href="/ES/index.html">
+      <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS Logo" loading="lazy">
+    </a>
+  </div>
+  <!-- TÍTULO Y MENSAJE -->
+  <h1>EGGS - Studio</h1>
+  <h2>Página en Construcción</h2>
+  <p>Estamos trabajando para ofrecerte nuevas experiencias artísticas. ¡Vuelve pronto!</p>
+  <!-- BOTÓN VOLVER AL INICIO -->
+  <a href="/ES/index.html" class="back-home">Volver al Inicio</a>
+  <br>
+  <br>
+  <br>
+    <br>
+  <br>
+  <br>
+    <br>
+  <br>
+  <br>
+  
+</body>
+</html>

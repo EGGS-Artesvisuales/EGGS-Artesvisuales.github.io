@@ -20,7 +20,7 @@
     if (!window.mermaid) return;
 
     if (!mermaidInited) {
-      mermaid.initialize({
+      const defaultConfig = {
         startOnLoad: false,
         theme: "base",
         flowchart: { htmlLabels: false },
@@ -31,7 +31,23 @@
           primaryTextColor: "#111",
           fontFamily: "Inter, system-ui, sans-serif"
         }
-      });
+      };
+
+      const pageConfig = window.__MERMAID_CONFIG__ || {};
+      const mergedConfig = {
+        ...defaultConfig,
+        ...pageConfig,
+        flowchart: {
+          ...(defaultConfig.flowchart || {}),
+          ...(pageConfig.flowchart || {})
+        },
+        themeVariables: {
+          ...(defaultConfig.themeVariables || {}),
+          ...(pageConfig.themeVariables || {})
+        }
+      };
+
+      mermaid.initialize(mergedConfig);
       mermaidInited = true;
     }
 
@@ -47,4 +63,3 @@
   }
 
 })();
-
