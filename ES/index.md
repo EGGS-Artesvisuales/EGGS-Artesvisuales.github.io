@@ -13,12 +13,14 @@ mermaid: true
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Universo creativo de Esteban Gárnica.
+  Universo creativo de Esteban Garnica.
 </h2>
 
 <p class="parrafo" style="margin-top: 7%;">
   Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
-  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: la representación del mundo exterior, la acción en el territorio y la exploración del universo interior. Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
+  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: 
+  1) la representación del mundo exterior, 2) la acción en el mundo y 3) la exploración del mundo interior. 
+  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
 <br>
@@ -39,9 +41,15 @@ flowchart LR
   click interior "/ES/interior.html" "Ir a Mundo interior"
 </div>
 
-
 <br>
 
+<p class="parrafo" style="margin-top: 7%;">
+  Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo. 
+  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de proyectos culturales.
+  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
+</p>
+
+<hr class="separador" />
 <div class="button-container">
 
   <a href="/ES/mundo-exterior.html" class="fancy-button">
@@ -72,8 +80,7 @@ flowchart LR
   </a>
 
 </div>
-<hr class="separador" />
-
+<br>
 
 
 <a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
