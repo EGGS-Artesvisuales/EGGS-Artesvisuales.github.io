@@ -397,67 +397,46 @@ flowchart LR
 <h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS <br> SOPORTES BLANDOS</h2>
 
 <div class="mermaid">
-flowchart TB
+flowchart LR
   %% =========================
-  %% PINTURAS INFECTADAS
-  %% SOPORTES BLANDOS
+  %% LA PESTE → PINTURAS INFECTADAS → SOPORTES BLANDOS (taxonomía + obras)
   %% =========================
 
+  LP((La Peste))
   PI((Pinturas Infectadas))
-  SB["Soportes blandos"]
 
-  %% Ejes
-  E1["Eje material:\nresiduo como soporte"]
-  E2["Eje operativo:\nmovilidad y montaje"]
-  E3["Eje conceptual:\ncontagio / saturación / espacio público"]
+  LP --> PI
 
-  %% Materiales base
-  MAT["Materiales:\n• papel de prensa / catálogos\n• lonas publicitarias\n• telas sintéticas"]
-  PREP["Preparación / sellado:\n• cola fría / engrudo\n• látex (opcional)\n• esmaltes industriales"]
+  PI --> ST["Soportes tradicionales\n(Intervenciones / Producciones)"]
+  PI --> SB["Soportes blandos"]
 
-  %% Propiedades
-  PROP["Propiedades:\n• flexible (doblar/enrollar)\n• liviano\n• escalable\n• site-specific"]
+  %% --- SOPORTES BLANDOS (estructura de tu página) ---
+  SB --> MEM["1. Membranas"]
+  MEM --> VER["Verde (2009)"]
+  MEM --> MAP1["Mapamundi n°1 (2008/2009)"]
+  MEM --> MAP2["Mapamundi n°2 (2008)"]
 
-  %% Diálogos y cruces
-  DLG["Diálogo de lenguajes:\ncartel urbano ↔ pintura\npublicidad ↔ crítica\ngraffiti/street art ↔ instalación"]
-  CIC["Ciclo urbano (cartel):\ninstalar → intemperie → deterioro → residuo\n(+ registro/performance posible)"]
+  SB --> MOD["2. Módulos"]
+  MOD --> COR["Cordillera (2009)"]
+  MOD --> GP1["Gran paisaje n°1 (2010)"]
+  MOD --> GP2["Gran paisaje n°2 (2014)"]
+  MOD --> PU["Paisaje urbano (2010)"]
 
-  %% Categorías
-  CAT["Categorías (Soportes blandos)"]
-  MEM["1. Membranas\n(tapices continuos)"]
-  MOD["2. Módulos\n(ensamble por páginas)"]
-  MOP["2.1 Módulos print\n(base impresa intervenida)"]
-  UNI["3. Unidades\n(1 página = 1 obra)"]
+  MOD --> MODP["2.1 Módulos print"]
+  MODP --> SELK["Mujeres selk'nam infectadas por el fútbol (2019)"]
 
-  %% Funciones / efectos
-  FUN["Función:\nampliar formato sin taller grande\n+ llevar pintura al espacio urbano"]
-  EFF["Efecto visual:\n'peste' tipográfica\nintersticios / omisiones\nruido impreso como infección"]
+  SB --> UNI["3. Unidades"]
+  UNI --> URET["Retratos (2019–)"]
+  UNI --> UPAI["Paisajes (2019–)\n• Serie paisajes (etapas 1–3)\n• Marina 01"]
+  UNI --> UBOD["Bodegones (2024–)\n(en construcción)"]
 
-  %% Conexiones principales
-  PI --> SB
-  SB --> E1
-  SB --> E2
-  SB --> E3
-
-  SB --> MAT --> PREP --> PROP
-  PROP --> FUN
-  SB --> DLG --> CIC
-
-  SB --> CAT
-  CAT --> MEM
-  CAT --> MOD --> MOP
-  CAT --> UNI
-
-  MEM --> EFF
-  MOD --> EFF
-  MOP --> EFF
-  UNI --> EFF
-
-  %% Navegación (IDs según tu página)
+  %% --- navegación (anchors existentes en tu archivo) ---
+  click LP "/ES/la-peste.html" "Ver La Peste"
+  click PI "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
   click SB "#soportes-blandos" "Ir a Soportes blandos"
   click MEM "#membranas" "Ir a Membranas"
   click MOD "#modulos" "Ir a Módulos"
-  click MOP "#modulos-prints" "Ir a Módulos print"
+  click MODP "#modulos-prints" "Ir a Módulos print"
   click UNI "#unidades" "Ir a Unidades"
 </div>
 
