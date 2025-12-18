@@ -27,24 +27,27 @@ mermaid: true
 
 
 <div class="mermaid">
-flowchart LR
-  Z["Representación del Mundo"]
-  Y["Lo Tangible"]
-  A["La Saturación"]
-  B["La Peste"]
-  F["Desplazamiento de la Pintura"]
-  F1["Espacio Doméstico"]
-  F2["Espacio Público"]
-  F3["Espacio Rural / Natural"]
+graph LR
+  Z([Representación del Mundo])
+  Y([Lo Tangible])
+  A([La Saturación])
+  B([La Peste])
+  F([Desplazamiento de la Pintura])
+
+  F1([Espacio Doméstico])
+  F2([Espacio Público])
+  F3([Espacio Rural / Natural])
 
   Z --> Y
   Y --> A
   A --> B
   B --> F
+
   F --> F1
   F --> F2
   F --> F3
 
+  %% Enlaces (existentes)
   click Z "/es/mundo-exterior.html" "Ver Representación del Mundo"
   click Y "/es/tangible.html" "Ver Lo Tangible"
   click A "/es/saturacion.html" "Ver La Saturación"
@@ -53,6 +56,7 @@ flowchart LR
   click F1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"
+
 </div>
 
 <br>
