@@ -396,6 +396,72 @@ flowchart LR
 <!-- SOPORTES BLANDOS -->
 <h2 class="subtitulo" id="soportes-blandos">PINTURAS INFECTADAS <br> SOPORTES BLANDOS</h2>
 
+<div class="mermaid">
+flowchart TB
+  %% =========================
+  %% PINTURAS INFECTADAS
+  %% SOPORTES BLANDOS
+  %% =========================
+
+  PI((Pinturas Infectadas))
+  SB["Soportes blandos"]
+
+  %% Ejes
+  E1["Eje material:\nresiduo como soporte"]
+  E2["Eje operativo:\nmovilidad y montaje"]
+  E3["Eje conceptual:\ncontagio / saturación / espacio público"]
+
+  %% Materiales base
+  MAT["Materiales:\n• papel de prensa / catálogos\n• lonas publicitarias\n• telas sintéticas"]
+  PREP["Preparación / sellado:\n• cola fría / engrudo\n• látex (opcional)\n• esmaltes industriales"]
+
+  %% Propiedades
+  PROP["Propiedades:\n• flexible (doblar/enrollar)\n• liviano\n• escalable\n• site-specific"]
+
+  %% Diálogos y cruces
+  DLG["Diálogo de lenguajes:\ncartel urbano ↔ pintura\npublicidad ↔ crítica\ngraffiti/street art ↔ instalación"]
+  CIC["Ciclo urbano (cartel):\ninstalar → intemperie → deterioro → residuo\n(+ registro/performance posible)"]
+
+  %% Categorías
+  CAT["Categorías (Soportes blandos)"]
+  MEM["1. Membranas\n(tapices continuos)"]
+  MOD["2. Módulos\n(ensamble por páginas)"]
+  MOP["2.1 Módulos print\n(base impresa intervenida)"]
+  UNI["3. Unidades\n(1 página = 1 obra)"]
+
+  %% Funciones / efectos
+  FUN["Función:\nampliar formato sin taller grande\n+ llevar pintura al espacio urbano"]
+  EFF["Efecto visual:\n'peste' tipográfica\nintersticios / omisiones\nruido impreso como infección"]
+
+  %% Conexiones principales
+  PI --> SB
+  SB --> E1
+  SB --> E2
+  SB --> E3
+
+  SB --> MAT --> PREP --> PROP
+  PROP --> FUN
+  SB --> DLG --> CIC
+
+  SB --> CAT
+  CAT --> MEM
+  CAT --> MOD --> MOP
+  CAT --> UNI
+
+  MEM --> EFF
+  MOD --> EFF
+  MOP --> EFF
+  UNI --> EFF
+
+  %% Navegación (IDs según tu página)
+  click SB "#soportes-blandos" "Ir a Soportes blandos"
+  click MEM "#membranas" "Ir a Membranas"
+  click MOD "#modulos" "Ir a Módulos"
+  click MOP "#modulos-prints" "Ir a Módulos print"
+  click UNI "#unidades" "Ir a Unidades"
+</div>
+
+
 <section class="parrafo">
   <p>
     La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en espacios callejeros.
