@@ -16,7 +16,7 @@ mermaid: true
 <div class="mermaid">
 flowchart LR
   principal((Actividad Artística))
-  representacion(["Representación del Mundo"])
+  representacion(("Representación del Mundo"))
   accion(["Acción en el Mundo"])
   interior(["Mundo Interior"])
 
@@ -59,7 +59,7 @@ flowchart LR
 <div class="mermaid">
 flowchart LR
   representacion((Representación del Mundo))
-  tangible(["Lo Tangible"])
+  tangible(("Lo Tangible"))
   intangible(["Lo Intangible"])
 
   representacion --> tangible
@@ -114,7 +114,7 @@ flowchart LR
 flowchart LR
   representacion((Representación del Mundo))
   tangible(["Lo Tangible"])
-  intangible(["Lo Intangible"])
+  intangible(("Lo Intangible"))
 
   representacion --> tangible
   representacion --> intangible
