@@ -1,276 +1,132 @@
 /* =============================================================================
-   Estilos Base Optimizados para Carruseles
-   ============================================================================= */
+   Owl Carousel – Base
+============================================================================= */
 .owl-carousel {
   width: 90%;
   margin: 2rem auto;
   position: relative;
   border-radius: var(--radius-extra);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   display: block;
 }
 
-/* =============================================================================
-   FIX CRÍTICO: tu style.css define .item global con flex.
-   Blindaje: acotamos el "reset" SOLO dentro de OwlCarousel.
-   ============================================================================= */
+/* CRÍTICO: neutraliza .item global SOLO dentro de Owl */
 .owl-carousel .item {
-  flex: unset !important;          /* neutraliza el flex global */
+  display: block !important;
+  flex: none !important;
   width: 100%;
   box-sizing: border-box;
 }
 
 /* =============================================================================
-   Carrusel de Imágenes
-   ============================================================================= */
-.carousel-imagen {
-  width: 100%;
-  position: relative;
-}
-
-.carousel-imagen .owl-stage-outer,
-.carousel-imagen .owl-stage,
-.carousel-imagen .owl-item {
-  height: auto !important;
-}
-
+   Carrusel Imágenes
+============================================================================= */
 .carousel-imagen .item {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 .carousel-imagen .img-container {
   width: 100%;
-  position: relative;
   overflow: hidden;
 }
 
-.carousel-imagen .carousel-img {
+.carousel-imagen img {
   max-height: 90vh;
   width: auto;
-  height: auto;
-  object-fit: contain;
-  display: block;
   margin: 0 auto;
-  transition: transform 0.5s ease;
-}
-
-.carousel-imagen .item:hover .carousel-img {
-  transform: scale(1.03);
+  display: block;
+  object-fit: contain;
 }
 
 .carousel-imagen figcaption {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1.2rem;
-  color: white;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
-  backdrop-filter: blur(4px);
-  font-size: clamp(0.8rem, 2vw, 1rem);
-  opacity: 1;
-  animation: fadeOutCaption 4s ease forwards;
-  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
-}
-
-@keyframes fadeOutCaption {
-  0%, 60% { opacity: 1; }
-  100% { opacity: 0; visibility: hidden; }
-}
-
-.carousel-imagen:hover figcaption {
-  opacity: 1;
-  visibility: visible;
-  animation: none;
+  inset: auto 0 0 0;
+  padding: 1rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(0,0,0,.8), transparent);
 }
 
 /* =============================================================================
-   Carrusel de Video
-   ============================================================================= */
-.owl-carousel.carousel-video {
-  width: 90%;
-  margin: 2rem auto;
-  position: relative;
-  border-radius: var(--radius-extra);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.carousel-video .owl-stage-outer {
-  border-radius: var(--radius-extra);
-  overflow: hidden;
-}
-
+   Carrusel Video
+============================================================================= */
 .carousel-video .img-container {
-  width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-extra);
 }
 
-.carousel-video .carousel-video-el {
+.carousel-video video {
   width: 100%;
   max-height: 90vh;
-  height: auto;
   display: block;
-  margin: 0 auto;
-  border-radius: var(--radius-extra);
-  object-fit: contain;
   background: #000;
+  object-fit: contain;
   cursor: pointer;
 }
 
-/* Overlay guía: se apaga con .is-active (puesto por JS en .img-container) */
+/* Overlay */
 .carousel-video .img-container::after {
   content: "Click para activar controles";
   position: absolute;
   left: 12px;
   bottom: 12px;
-  padding: 0.55rem 0.8rem;
+  padding: .55rem .8rem;
   border-radius: 999px;
-  font-size: 0.9rem;
-  line-height: 1;
-  color: rgba(255,255,255,0.95);
-  background: rgba(0,0,0,0.55);
-  backdrop-filter: blur(3px);
+  font-size: .85rem;
+  background: rgba(0,0,0,.6);
+  color: #fff;
   opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
-  pointer-events: none;
+  transition: .25s ease;
 }
 
 .carousel-video .item:hover .img-container::after {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .carousel-video .img-container.is-active::after {
   opacity: 0 !important;
-  transform: translateY(6px) !important;
 }
 
 .carousel-video figcaption {
-  margin-top: 0.75rem;
-  font-family: var(--parrafo-font);
-  font-size: 0.95rem;
-  color: var(--color-medio-claro);
+  margin-top: .75rem;
   text-align: center;
+  font-size: .95rem;
 }
 
 /* =============================================================================
    Navegación
-   ============================================================================= */
+============================================================================= */
 .owl-nav button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: var(--color-claro);
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 2.6rem;
+  height: 2.6rem;
   border-radius: 50%;
+  background: rgba(0,0,0,.65);
+  color: #fff;
   border: none;
-  outline: none;
-  font-size: 1.3rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  transition: all 0.3s ease;
   z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.owl-nav button:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  transform: translateY(-50%) scale(1.05);
-}
-
-.owl-nav .owl-prev { left: 15px; }
-.owl-nav .owl-next { right: 15px; }
+.owl-nav .owl-prev { left: 10px; }
+.owl-nav .owl-next { right: 10px; }
 
 .owl-dots {
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  z-index: 1000;
+  text-align: center;
+  margin-top: .75rem;
 }
 
-.owl-dots .owl-dot { margin: 0 5px; cursor: pointer; }
-
-.owl-dots .owl-dot span {
-  display: block;
+.owl-dot span {
   width: 10px;
   height: 10px;
-  background-color: #ccc;
+  background: #bbb;
   border-radius: 50%;
-  transition: all 0.3s ease;
+  display: inline-block;
 }
 
-.owl-dots .owl-dot.active span {
-  background-color: #333;
-  transform: scale(1.2);
+.owl-dot.active span {
+  background: #333;
 }
-
-/* =============================================================================
-   Carrusel Fancy
-   ============================================================================= */
-.carousel-fancy {
-  --item-gap: 0.35rem;
-  padding: 1rem 0;
-}
-
-.carousel-fancy .item {
-  padding: 0 var(--item-gap);
-  height: 100%;
-}
-
-/* =============================================================================
-   Responsive
-   ============================================================================= */
-@media (max-width: 768px) {
-  .owl-carousel {
-    width: 95%;
-    margin: 1.5rem auto;
-  }
-
-  .owl-nav button {
-    width: 2.2rem;
-    height: 2.2rem;
-    font-size: 1.1rem;
-  }
-
-  .owl-dots { bottom: 10px; }
-  .owl-dots .owl-dot span { width: 8px; height: 8px; }
-
-  /* En móvil, overlay más visible */
-  .carousel-video .img-container::after {
-    opacity: 0.9;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 480px) {
-  .owl-nav button {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1rem;
-  }
-
-  .owl-nav .owl-prev { left: 8px; }
-  .owl-nav .owl-next { right: 8px; }
-
-  .carousel-imagen figcaption {
-    font-size: 0.95rem;
-    padding: 1rem;
-  }
-}
-
