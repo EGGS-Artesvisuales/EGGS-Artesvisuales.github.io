@@ -407,37 +407,54 @@ flowchart LR
 
   LP --> PI
 
-  PI --> ST["Soportes tradicionales\n(Intervenciones / Producciones)"]
-  PI --> SB["Soportes blandos"]
+  PI --> ST(["Soportes tradicionales"])
+  PI --> SB(("Soportes blandos"))
 
   %% --- SOPORTES BLANDOS (estructura de tu página) ---
-  SB --> MEM["1. Membranas"]
-  MEM --> VER["Verde (2009)"]
-  MEM --> MAP1["Mapamundi n°1 (2008/2009)"]
-  MEM --> MAP2["Mapamundi n°2 (2008)"]
+  SB --> MEM(["1. Membranas"])
+  MEM --> VER(["Verde (2009)"])
+  MEM --> MAP1(["Mapamundi n°1 (2008/2009)"])
+  MEM --> MAP2(["Mapamundi n°2 (2008)"])
 
-  SB --> MOD["2. Módulos"]
-  MOD --> COR["Cordillera (2009)"]
-  MOD --> GP1["Gran paisaje n°1 (2010)"]
-  MOD --> GP2["Gran paisaje n°2 (2014)"]
-  MOD --> PU["Paisaje urbano (2010)"]
+  SB --> MOD(["2. Módulos"])
+  MOD --> COR(["Cordillera (2009)"])
+  MOD --> GP1(["Gran paisaje n°1 (2010)"])
+  MOD --> GP2(["Gran paisaje n°2 (2014)"])
+  MOD --> PU(["Paisaje urbano (2010)"])
 
-  MOD --> MODP["2.1 Módulos print"]
-  MODP --> SELK["Mujeres selk'nam infectadas por el fútbol (2019)"]
+  MOD --> MODP(["2.1 Módulos print"])
+  MODP --> SELK(["Mujeres selk'nam infectadas por el fútbol (2019)"])
 
-  SB --> UNI["3. Unidades"]
-  UNI --> URET["Retratos (2019–)"]
-  UNI --> UPAI["Paisajes (2019–)\n• Serie paisajes (etapas 1–3)\n• Marina 01"]
-  UNI --> UBOD["Bodegones (2024–)\n(en construcción)"]
+  SB --> UNI(["3. Unidades"])
+  UNI --> URET(["Retratos (2019–)"])
+  UNI --> UPAI(["Paisajes (2019–)"])
+  UNI --> UBOD(["Bodegones (2024–)"])
 
-  %% --- navegación (anchors existentes en tu archivo) ---
+  %% --- navegación (páginas / anchors) ---
   click LP "/ES/la-peste.html" "Ver La Peste"
   click PI "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+
   click SB "#soportes-blandos" "Ir a Soportes blandos"
   click MEM "#membranas" "Ir a Membranas"
   click MOD "#modulos" "Ir a Módulos"
   click MODP "#modulos-prints" "Ir a Módulos print"
   click UNI "#unidades" "Ir a Unidades"
+
+  %% --- navegación a OBRAS (requiere ids en tu HTML) ---
+  click VER "#verde-2009" "Ir a Verde (2009)"
+  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1"
+  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2"
+
+  click COR "#cordillera-2009" "Ir a Cordillera (2009)"
+  click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1 (2010)"
+  click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2 (2014)"
+  click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano (2010)"
+
+  click SELK "#mujeres-selknam-2019" "Ir a Módulos print (2019)"
+
+  click URET "#unidades-retratos-2019" "Ir a Unidades: Retratos"
+  click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Paisajes"
+  click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Bodegones"
 </div>
 
 
@@ -485,7 +502,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">1. Verde, 2009</h4>
+<h4 class="subtitulo2" id="verde-2009">1. Verde, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -525,7 +542,7 @@ flowchart LR
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2">2. Mapamundi, 2009</h4>
+<h4 class="subtitulo2" id="mapamundi-2009">2. Mapamundi, 2009</h4>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
