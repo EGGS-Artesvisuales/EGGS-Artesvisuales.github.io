@@ -215,3 +215,9 @@
     rgba(0,0,0,0)
   );
 }
+
+/* Ajuste responsive de la máscara */
+@media (max-width: 768px){
+  :root { --owl-mask-w: 20px; --owl-mask-alpha: 0.25; }
+}
+
