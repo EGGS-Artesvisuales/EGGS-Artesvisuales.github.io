@@ -21,12 +21,11 @@ mermaid: true
   Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: la representación del mundo exterior, la acción en el territorio y la exploración del universo interior. Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
-<br><br>
-
+<hr class="separador" />
 
 <div class="mermaid">
 graph TD
-  principal[Actividad Artística]
+  principal((Actividad Artística))
   representacion[Representación del Mundo]
   accion[Acción en el Mundo]
   interior[Exploración del Mundo Interior]
@@ -35,13 +34,13 @@ graph TD
   principal --> accion
   principal --> interior
 
-  representacion --> tangible[Lo Tangible]
-  representacion --> intangible[Lo Intangible]
+  representacion --> tangible([Lo Tangible])
+  representacion --> intangible([Lo Intangible])
 
-  accion --> subrepticio[Lo Subrepticio]
-  accion --> comunitario[Lo Comunitario]
-  accion --> docencia[Docencia y Talleres]
-  accion --> servicios[Servicios]
+  accion --> subrepticio([Lo Subrepticio])
+  accion --> comunitario([Lo Comunitario])
+  accion --> docencia([Docencia y Talleres])
+  accion --> servicios([Servicios])
 
   click principal "/ES/index.html" "Ir al Inicio"
   click representacion "/ES/mundo-exterior.html" "Ver Representación del Mundo"
@@ -57,7 +56,7 @@ graph TD
   click interior "/ES/interior.html" "Explorar Mundo Interior"
 </div>
 
-<br><br>
+<hr class="separador" />
 
 <div class="button-container">
 
@@ -90,6 +89,7 @@ graph TD
 
 </div>
 
-<a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
+<hr class="separador" />
 
-<br><br>
+<a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
+<hr class="separador" />
