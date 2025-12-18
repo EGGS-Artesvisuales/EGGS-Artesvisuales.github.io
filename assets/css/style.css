@@ -362,7 +362,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 5rem 1.25rem 0;
-  text-align: left; /* evita “ríos” del justificado */
+  text-align: left; /* base global */
 }
 
 /* ------------------------------------------------------------------
@@ -399,6 +399,7 @@ main {
   overflow-wrap: break-word;
 }
 
+/* Párrafos (base móvil/escritorio) */
 .parrafo,
 .parrafo ul {
   font-family: var(--parrafo-font);
@@ -407,6 +408,8 @@ main {
   line-height: var(--line-height);
   color: var(--color-claro);
   overflow-wrap: break-word;
+
+  /* Base: evitar “ríos” en pantallas angostas */
   text-align: left;
   hyphens: auto;
 }
@@ -416,32 +419,36 @@ main {
   text-indent: 1.5em;
 }
 
+/* Primer párrafo de cada sección */
 p.parrafo:first-of-type {
   margin-top: 2rem;
   text-indent: 2.5em;
 }
 
-p.parrafo:first-of-type ul {
-  margin-top: 0 !important;
-  text-indent: 0 !important;
-}
-
+/* Listas dentro de párrafos */
 .parrafo ul {
   padding-left: 3em;
   margin-bottom: var(--margin-bottom-small);
 }
 
-.parrafo ul li { margin-bottom: 0.5em; }
+.parrafo ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Evita comportamientos extraños si una lista cae dentro del primer párrafo */
+p.parrafo:first-of-type ul {
+  margin-top: 0 !important;
+  text-indent: 0 !important;
+}
 
 /* ------------------------------------------------------------------
-   separadores de texto
+   JUSTIFICADO SOLO EN ESCRITORIO (párrafos, NO listas)
 ------------------------------------------------------------------ */
-
-.separador{
-  border: 0;
-  height: 1px;
-  background: rgba(240,240,240,0.15);
-  margin: 3rem 0;
+@media (min-width: 902px) {
+  .parrafo {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }
 
 
