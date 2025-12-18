@@ -705,6 +705,7 @@ p.parrafo:first-of-type ul {
 
 /* ------------------------------------------------------------------
    MERMAID – EGGS-Studio (nodo oscuro + texto claro + hover inverso)
+   Nota: pensado para htmlLabels:false (SVG labels)
 ------------------------------------------------------------------ */
 .mermaid {
   text-align: center;
@@ -719,25 +720,29 @@ p.parrafo:first-of-type ul {
   overflow: visible !important;
 }
 
-/* Transiciones (ponerlas en estado normal, no en :hover) */
+/* Transiciones: en estado normal */
 .mermaid svg g.node rect,
 .mermaid svg g.node polygon,
 .mermaid svg g.node circle,
 .mermaid svg g.node ellipse {
-  transition: fill 0.2s ease, stroke 0.2s ease, stroke-width 0.2s ease, filter 0.2s ease;
+  transition: fill 0.18s ease, stroke 0.18s ease, stroke-width 0.18s ease, filter 0.18s ease;
 }
 
-/* Estilo consistente para TODOS los nodos (incluye circulares) */
-.mermaid svg .node circle,
-.mermaid svg .node ellipse,
+/* NODOS: estilo consistente (incluye circulares) */
 .mermaid svg .node rect,
-.mermaid svg .node polygon {
+.mermaid svg .node polygon,
+.mermaid svg .node circle,
+.mermaid svg .node ellipse {
   fill: rgba(20, 20, 20, 0.95) !important;
-  stroke: rgba(255, 255, 255, 0.85) !important;
-  stroke-width: 2px !important;
+  stroke: rgba(255, 255, 255, 0.82) !important;
+  stroke-width: 1.25px !important;
 }
 
-/* Texto visible y legible con alto contraste */
+/* Si hay links (click), que se sienta interactivo */
+.mermaid svg g.node { cursor: default; }
+.mermaid svg g.node.clickable { cursor: pointer; }
+
+/* TEXTO: visible y consistente */
 .mermaid .node text,
 .mermaid .node tspan,
 .mermaid .label text,
@@ -747,44 +752,52 @@ p.parrafo:first-of-type ul {
   visibility: visible !important;
   font-family: var(--parrafo-font, system-ui, sans-serif) !important;
   font-weight: 700;
-  font-size: clamp(12px, 1.2vw, 14px);
+  font-size: clamp(12px, 1.15vw, 14px);
 }
 
-/* Contorno (más controlado para evitar "doble texto" excesivo) */
+/* Contorno sutil (evita “doble texto” pesado) */
 .mermaid .node text,
 .mermaid .node tspan {
   paint-order: stroke;
-  stroke: rgba(0, 0, 0, 0.70);
-  stroke-width: 1.4px;
+  stroke: rgba(0, 0, 0, 0.62);
+  stroke-width: 1.1px;
   stroke-linejoin: round;
 }
 
-/* Conectores más visibles */
+/* CONECTORES */
 .mermaid .edgePath path {
-  stroke: rgba(255, 255, 255, 0.9) !important;
-  stroke-width: 2px;
+  stroke: rgba(255, 255, 255, 0.88) !important;
+  stroke-width: 1.8px;
 }
-
 .mermaid marker path {
-  fill: rgba(255, 255, 255, 0.9) !important;
+  fill: rgba(255, 255, 255, 0.88) !important;
 }
 
-/* Hover con contraste máximo (solo “cuerpo” del nodo) */
+/* HOVER inverso */
 .mermaid svg g.node:hover rect,
 .mermaid svg g.node:hover polygon,
 .mermaid svg g.node:hover circle,
 .mermaid svg g.node:hover ellipse {
   fill: rgba(245, 245, 245, 1) !important;
   stroke: var(--color-destacado, #58a6ff) !important;
-  stroke-width: 3px !important;
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.6));
+  stroke-width: 2.5px !important;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.55));
 }
 
 .mermaid svg g.node:hover text,
 .mermaid svg g.node:hover tspan {
   fill: #111111 !important;
   stroke: transparent !important;
-  font-weight: 700;
+}
+
+/* FOCUS (teclado): accesibilidad, similar a hover */
+.mermaid svg g.node:focus-visible rect,
+.mermaid svg g.node:focus-visible polygon,
+.mermaid svg g.node:focus-visible circle,
+.mermaid svg g.node:focus-visible ellipse {
+  stroke: var(--color-destacado, #58a6ff) !important;
+  stroke-width: 2.5px !important;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.55));
 }
 
 /* Etiquetas de aristas (SVG) */
@@ -792,15 +805,6 @@ p.parrafo:first-of-type ul {
   fill: rgba(255, 255, 255, 0.95) !important;
   font-weight: 600;
 }
-
-/* Etiquetas de aristas cuando Mermaid usa HTML labels (foreignObject) */
-.mermaid svg foreignObject .edgeLabel,
-.mermaid svg foreignObject .label {
-  background: rgba(20, 20, 20, 0.90) !important;
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-
 
 
 /* ------------------------------------------------------------------
