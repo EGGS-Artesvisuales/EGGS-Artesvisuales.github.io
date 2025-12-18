@@ -30,11 +30,11 @@ mermaid: true
 <br>
 
 <div class="mermaid">
-graph LR
-    principal[Actividad Artística]
-    representacion[Representación del Mundo]
-    accion[Acción en el Mundo]
-    interior[Mundo Interior]
+flowchart LR
+    principal((Actividad Artística))
+    representacion([Representación del Mundo])
+    accion([Acción en el Mundo])
+    interior([Mundo Interior])
 
     principal --> representacion
     principal --> accion
