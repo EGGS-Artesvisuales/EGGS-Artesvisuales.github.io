@@ -692,7 +692,8 @@ p.parrafo:first-of-type ul {
 .progress-info p { margin: 0.5rem 0; }
 
 /* ------------------------------------------------------------------
-   MERMAID (Diagramas) – EGGS-Studio (base oscuro + hover inverso)
+   MERMAID (Diagramas) – EGGS-Studio
+   Base oscuro + hover inverso
 ------------------------------------------------------------------ */
 .mermaid {
   text-align: center;
@@ -706,18 +707,18 @@ p.parrafo:first-of-type ul {
   height: auto;
 }
 
-/* =========================
-   BASE: nodos oscuros con “look” degradado
-   Nota técnica: CSS no aplica gradients a fill SVG de forma consistente.
-   Solución robusta: simulamos degradado con un fill sólido + leve shadow.
-========================= */
+/* =========================================================
+   BASE: nodos oscuros con “look” degradado perceptual
+   Nota técnica:
+   SVG no soporta linear-gradient CSS de forma fiable,
+   se simula profundidad con sombra + contraste sutil.
+========================================================= */
 .mermaid .node rect,
 .mermaid .node polygon {
-  fill: #333333 !important; /* base oscura alineada a tu paleta */
-  stroke: rgba(240,240,240,0.85) !important; /* borde claro, no blanco puro */
-  stroke-width: 1.5px;
+  fill: #333333 !important; /* base oscura (tu paleta) */
+  stroke: rgba(240,240,240,0.85) !important;
+  stroke-width: 2px;
 
-  /* “Degradación” perceptual: profundidad sin romper compatibilidad */
   filter:
     drop-shadow(0 8px 18px rgba(0,0,0,.35))
     drop-shadow(0 1px 0 rgba(255,255,255,.06));
@@ -729,15 +730,22 @@ p.parrafo:first-of-type ul {
     filter .22s ease;
 }
 
-/* Texto base: claro (no blanco puro) */
-.mermaid .node text {
-  fill: rgba(240,240,240,0.88) !important;
-  font-family: var(--parrafo-font) !important;
+/* =========================================================
+   TEXTO — forzado a claro (incluye tspan y labels Mermaid)
+========================================================= */
+.mermaid .node text,
+.mermaid .node tspan,
+.mermaid .node .label {
+  fill: rgba(240,240,240,0.9) !important;
+  color: rgba(240,240,240,0.9) !important;
+  font-family: var(--parrafo-font, system-ui, sans-serif) !important;
   font-weight: 500;
-  transition: fill .18s ease;
+  transition: fill .18s ease, color .18s ease;
 }
 
-/* Conectores claros sobre fondo oscuro */
+/* =========================================================
+   CONECTORES — claros sobre fondo oscuro
+========================================================= */
 .mermaid .edgePath path {
   stroke: rgba(240,240,240,0.85) !important;
   stroke-width: 1.35px;
@@ -747,31 +755,33 @@ p.parrafo:first-of-type ul {
   fill: rgba(240,240,240,0.85) !important;
 }
 
-/* Bordes redondeados Mermaid */
-.mermaid svg g.node rect { rx: 5; ry: 5; }
+/* Bordes redondeados coherentes con tu UI */
+.mermaid svg g.node rect { rx: 6; ry: 6; }
 .mermaid .cluster rect { rx: 8px; ry: 8px; }
 
-/* =========================
+/* =========================================================
    HOVER INVERSO
-   - fondo nodo: claro
-   - texto: oscuro
-   - borde: destacado
-========================= */
+   Fondo claro + texto oscuro + borde destacado
+========================================================= */
 .mermaid svg g.node:hover rect,
 .mermaid svg g.node:hover polygon {
   fill: #e6e6e6 !important;
-  stroke: var(--color-destacado) !important;
+  stroke: var(--color-destacado, #58a6ff) !important;
   stroke-width: 2px !important;
 
   filter: drop-shadow(0 10px 22px rgba(0,0,0,.45));
 }
 
-.mermaid svg g.node:hover text {
+.mermaid svg g.node:hover text,
+.mermaid svg g.node:hover tspan,
+.mermaid svg g.node:hover .label {
   fill: #222222 !important;
+  color: #222222 !important;
 }
 
-/* Si hay links dentro de nodos */
-.mermaid svg g.node:hover a text {
+/* Links dentro de nodos */
+.mermaid svg g.node:hover a text,
+.mermaid svg g.node:hover a tspan {
   fill: #222222 !important;
 }
 
