@@ -4,12 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Título dinámico con fallback 
-       🔹 Recomendación: SIEMPRE definir `title` en el front matter de cada página. -->
+  <!-- Título dinámico con fallback -->
   <title>{{ page.title | default: 'EGGS-Studio | Arte visual y murales en La Florida, Santiago' }}</title>
-  
-  <!-- Meta Etiquetas Principales para SEO
-       🔹 Recomendación: Personalizar `description` y `keywords` por página. -->
+
+  <!-- Meta Etiquetas Principales para SEO -->
   <meta name="description" content="{{ page.description | default: 'EGGS-Studio: arte visual, murales comunitarios y restauración de obras en La Florida, Santiago de Chile.' }}">
   <meta name="keywords" content="{{ page.keywords | default: 'arte visual, murales comunitarios, restauración de arte, diseño artístico, La Florida, Santiago' }}">
   <meta name="author" content="EGGS-Studio">
@@ -33,11 +31,8 @@
   <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex.jpg">
   <meta property="og:locale" content="es_CL">
   <meta property="og:site_name" content="EGGS-Studio">
-  <!-- Si tienes versión EN equivalente de la misma página, puedes añadir:
-  <meta property="og:locale:alternate" content="en_US">
-  -->
 
-  <!-- JSON-LD Schema: Organización + Negocio Local (arte/murales en La Florida) -->
+  <!-- JSON-LD Schema: Organización + Negocio Local -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -131,39 +126,15 @@
 
   <!-- Scripts generales -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
-  <!-- Owl Carousel JS e inicialización (solo si la página lo requiere) -->
+
+  <!-- Owl Carousel JS + init (solo si la página lo requiere) -->
   {% if page.carousel %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.owl-carousel.carousel-imagen').owlCarousel({
-          loop: true,
-          margin: 10,
-          nav: true,
-          dots: true,
-          items: 1,
-          autoHeight: true,
-          navText: ["&#9664;", "&#9654;"]
-        });
-
-        $('.owl-carousel.carousel-fancy').owlCarousel({
-          loop: true,
-          margin: 9,
-          nav: true,
-          dots: true,
-          navText: ["&#9664;", "&#9654;"],
-          responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 3 }
-          }
-        });
-      });
-    </script>
+    <!-- IMPORTANT: aquí va tu init único (imagen + video + fancy) -->
+    <script src="/assets/js/carousel-init.js"></script>
   {% endif %}
 
-  <!-- Script de la barra de progreso, solo si 'progreso: true' está definido en el front matter -->
+  <!-- Script de la barra de progreso, solo si 'progreso: true' está definido -->
   {% if page.progreso %}
     <script src="/assets/js/progreso.js" defer></script>
   {% endif %}
@@ -172,4 +143,3 @@
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
-
