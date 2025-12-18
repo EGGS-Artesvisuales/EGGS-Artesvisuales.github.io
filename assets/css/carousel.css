@@ -1,13 +1,23 @@
 /* =============================================================================
    Owl Carousel – Base
 ============================================================================= */
+
+/* FIX init: evita “colapso/flash” antes de que Owl calcule layout */
 .owl-carousel {
   width: 90%;
   margin: 2rem auto;
   position: relative;
+  display: block;
+
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  display: block;
+
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+
+.owl-carousel.owl-loaded {
+  opacity: 1;
 }
 
 /* CRÍTICO: neutraliza .item global SOLO dentro de Owl */
@@ -18,9 +28,16 @@
   box-sizing: border-box;
 }
 
+/* El recorte real lo hace stage-outer */
+.owl-carousel .owl-stage-outer {
+  overflow: hidden;                 /* clave para no ver “orillas” */
+  border-radius: var(--radius-extra); /* respeta esquinas redondeadas */
+}
+
 /* =============================================================================
    Carrusel Imágenes
 ============================================================================= */
+
 .carousel-imagen .item {
   position: relative;
   text-align: center;
@@ -29,6 +46,12 @@
 .carousel-imagen .img-container {
   width: 100%;
   overflow: hidden;
+
+  /* Reserva alto para evitar “aplastado” al cargar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45vh;   /* ajustable */
 }
 
 .carousel-imagen img {
@@ -50,10 +73,18 @@
 /* =============================================================================
    Carrusel Video
 ============================================================================= */
+
 .carousel-video .img-container {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-extra);
+
+  /* Reserva alto para evitar “aplastado” al cargar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45vh;   /* ajustable */
+  width: 100%;
 }
 
 .carousel-video video {
@@ -97,6 +128,7 @@
 /* =============================================================================
    Navegación
 ============================================================================= */
+
 .owl-nav button {
   position: absolute;
   top: 50%;
@@ -108,7 +140,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  z-index: 100;
+  z-index: 100; /* por encima de máscara */
 }
 
 .owl-nav .owl-prev { left: 10px; }
@@ -130,3 +162,40 @@
 .owl-dot.active span {
   background: #333;
 }
+
+/* =============================================================================
+   MÁSCARA OPACA: tapa “orillas” de prev/sig (por stagePadding)
+============================================================================= */
+
+/* Ajusta estos valores si cambias stagePadding en tu JS */
+:root {
+  --owl-mask-w: 36px;                 /* >= stagePadding (tú usas 30px) */
+  --owl-mask-bg: rgba(34,34,34,1);    /* fondo opaco, ajustable */
+}
+
+.carousel-imagen,
+.carousel-video {
+  position: relative;
+}
+
+/* izquierda */
+.carousel-imagen::before,
+.carousel-video::before,
+/* derecha */
+.carousel-imagen::after,
+.carousel-video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: var(--owl-mask-w);
+  background: var(--owl-mask-bg);
+  z-index: 60;
+  pointer-events: none;
+}
+
+.carousel-imagen::before,
+.carousel-video::before { left: 0; }
+
+.carousel-imagen::after,
+.carousel-video::after { right: 0; }
