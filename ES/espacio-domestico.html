@@ -86,53 +86,51 @@ mermaid: true
 <!-- DIAGRAMA MERMAID CON ENLACES A #objetos Y #habitaciones -->
 <div class="mermaid">
 graph LR
-  %% Rama principal que conduce a Desplazamiento de la Pintura
-  A[Representación del Mundo] --> A1[Lo Tangible]
-  A --> A2[Lo Intangible]
+  %% Rama principal
+  A([Representación del Mundo]) --> A1([Lo Tangible])
+  A --> A2([Lo Intangible])
 
-  A1 --> A1a[La Saturación]
-  A1 --> A1b[La Tecnología]
+  A1 --> A1a([La Saturación])
+  A1 --> A1b([La Tecnología])
 
-  A1a --> A1a1[La Peste]
-  A1a --> A1a2[Lo Invisible]
+  A1a --> A1a1([La Peste])
+  A1a --> A1a2([Lo Invisible])
 
   %% Hijos directos de La Peste
-  A1a1 --> A1a1b[Desplazamiento de la Pintura]
-  A1a1 --> A1a1c[Pinturas Infectadas]
+  A1a1 --> A1a1b([Desplazamiento de la Pintura])
+  A1a1 --> A1a1c([Pinturas Infectadas])
 
   %% Hijos de Desplazamiento de la Pintura
-  A1a1b --> D1[Espacio Doméstico]
-  A1a1b --> D2[Espacio Público]
-  A1a1b --> D3[Espacio Rural / Natural]
+  A1a1b --> D1([Espacio Doméstico])
+  A1a1b --> D2([Espacio Público])
+  A1a1b --> D3([Espacio Rural / Natural])
 
   %% Subdivisión interna del Espacio Doméstico
-  D1 --> D1a[Objetos]
-  D1 --> D1b[Habitaciones]
+  D1 --> D1a([Objetos])
+  D1 --> D1b([Habitaciones])
 
-  %% Enlaces clicables
-  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  %% Enlaces (existentes)
+  click A  "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "/ES/tangible.html" "Ir a Lo Tangible"
   click A2 "/ES/intangible.html" "Ir a Lo Intangible"
 
-  click A1a "/ES/saturacion.html" "Ir a La Saturación"
-  click A1b "/ES/en-construccion" "Ir a La Tecnología"
+  click A1a  "/ES/saturacion.html" "Ir a La Saturación"
   click A1a1 "/ES/la-peste.html" "Ir a La Peste"
   click A1a2 "/ES/lo-invisible.html" "Ir a Lo Invisible"
 
-  %% Hermano: Pinturas Infectadas
   click A1a1c "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-
-  %% Desplazamiento
   click A1a1b "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
 
-  %% Espacios
   click D1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click D2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click D3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"
 
-  %% Enlaces internos
   click D1a "/ES/espacio-domestico.html#objetos" "Ver objetos domésticos"
   click D1b "/ES/espacio-domestico.html#habitaciones" "Ver habitaciones domésticas"
+
+  %% Enlaces (en construcción)
+  click A1b "/ES/en-construccion" "Ir a La Tecnología"
+
 </div>
 
 <br><br>
