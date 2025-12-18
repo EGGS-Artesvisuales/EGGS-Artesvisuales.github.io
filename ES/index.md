@@ -16,7 +16,7 @@ mermaid: true
   Universo creativo de Esteban Garnica.
 </h2>
 
-<hr class="separador separador--aire" />
+<br<br>
 
 <p class="parrafo" style="margin-top: 7%;">
   Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
