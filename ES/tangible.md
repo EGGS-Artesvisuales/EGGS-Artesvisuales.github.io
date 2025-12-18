@@ -12,6 +12,26 @@ mermaid: true
 
 <h2 class="subtitulo">Representación del mundo material</h2>
 
+<div class="mermaid">
+flowchart LR
+  representacion((Representación del Mundo))
+  tangible(("Lo Tangible"))
+  intangible(["Lo Intangible"])
+
+  representacion --> tangible
+  representacion --> intangible
+
+  tangible --> saturacion(["La Saturación"])
+  tangible --> tecnologia(["La Tecnología"])
+
+  click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  click tangible "/ES/tangible.html" "Ir a Lo Tangible"
+  click saturacion "/ES/saturacion.html" "Ir a La Saturación"
+  click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
+  click intangible "/ES/intangible.html" "Ir a Lo Intangible"
+</div>
+<br>
+
 <p class="parrafo" style="margin-top: 6%;">
   Esta serie reúne obras que se concentran en los aspectos físicos y materiales del entorno, explorando elementos que caracterizan la experiencia contemporánea. Cada tema se selecciona por su presencia significativa en la vida actual y por su capacidad para reflejar transformaciones sociales, culturales o tecnológicas. Su objetivo es proponer una lectura visual de aquello que define nuestra época desde lo cotidiano hasta lo estructural.
 </p>
@@ -33,30 +53,7 @@ mermaid: true
   Esta serie permanece abierta y en desarrollo, incorporando nuevos temas a medida que la investigación artística avanza. Actualmente, la exploración se organiza en torno a dos grandes ejes:
 </p>
 
-<br><br>
 
-<div class="mermaid">
-graph TD
-    Representacion["Representación del Mundo"]
-    Representacion --> Tangible["Lo Tangible"]
-    Representacion --> Intangible["Lo Intangible"]
-
-    Tangible --> Saturacion["La Saturación"]
-    Tangible --> Tecnologia["La Tecnología"]
-
-    Saturacion --> Peste["La Peste"]
-    Saturacion --> Invisible["Lo Invisible"]
-
-    click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
-    click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
-    click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
-    click Saturacion "/ES/saturacion.html" "Ir a La Saturación"
-    click Tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
-    click Peste "/es/la-peste" "Ir a La Peste"
-    click Invisible "/ES/invisible.html" "Ir a Lo Invisible"
-</div>
-
-<br><br>
 
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
