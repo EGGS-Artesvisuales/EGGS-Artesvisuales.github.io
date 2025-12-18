@@ -7,12 +7,16 @@
   position: relative;
   border-radius: var(--radius-extra);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  display: block; /* evita “no se ve” si algo colapsa */
+  display: block;
 }
 
-/* FIX: tu style.css tenía .item global (flex). Aquí blindamos Owl. */
+/* =============================================================================
+   FIX CRÍTICO: tu style.css define .item global con flex.
+   Blindaje: acotamos el "reset" SOLO dentro de OwlCarousel.
+   ============================================================================= */
 .owl-carousel .item {
-  flex: 0 0 auto !important;
+  flex: unset !important;          /* neutraliza el flex global */
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -85,18 +89,26 @@
 }
 
 /* =============================================================================
-   Carrusel de Video (autoplay + loop + “activar controles” por click)
+   Carrusel de Video
    ============================================================================= */
+.owl-carousel.carousel-video {
+  width: 90%;
+  margin: 2rem auto;
+  position: relative;
+  border-radius: var(--radius-extra);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.carousel-video .owl-stage-outer {
+  border-radius: var(--radius-extra);
+  overflow: hidden;
+}
+
 .carousel-video .img-container {
   width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-extra);
-}
-
-.carousel-video .owl-stage-outer {
-  border-radius: var(--radius-extra);
-  overflow: hidden; /* esquinas suaves mientras reproduce */
 }
 
 .carousel-video .carousel-video-el {
@@ -107,11 +119,11 @@
   margin: 0 auto;
   border-radius: var(--radius-extra);
   object-fit: contain;
-  background: #000; /* mientras carga */
+  background: #000;
   cursor: pointer;
 }
 
-/* Overlay guía (se apaga cuando el usuario “activa” el video) */
+/* Overlay guía: se apaga con .is-active (puesto por JS en .img-container) */
 .carousel-video .img-container::after {
   content: "Click para activar controles";
   position: absolute;
@@ -135,7 +147,6 @@
   transform: translateY(0);
 }
 
-/* Cuando JS marca el contenedor como activo, ocultamos overlay */
 .carousel-video .img-container.is-active::after {
   opacity: 0 !important;
   transform: translateY(6px) !important;
@@ -240,7 +251,7 @@
   .owl-dots { bottom: 10px; }
   .owl-dots .owl-dot span { width: 8px; height: 8px; }
 
-  /* En móvil, muestra la guía más visible */
+  /* En móvil, overlay más visible */
   .carousel-video .img-container::after {
     opacity: 0.9;
     transform: translateY(0);
