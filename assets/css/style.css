@@ -707,34 +707,44 @@ p.parrafo:first-of-type ul {
 }
 
 /* =========================
-   BASE: nodos oscuros
-   - fondo nodo: oscuro
-   - texto: claro
-   - borde: claro
+   BASE: nodos oscuros con “look” degradado
+   Nota técnica: CSS no aplica gradients a fill SVG de forma consistente.
+   Solución robusta: simulamos degradado con un fill sólido + leve shadow.
 ========================= */
 .mermaid .node rect,
 .mermaid .node polygon {
-  fill: var(--color-fondo-secundario) !important;   /* #333 */
-  stroke: var(--color-claro) !important;            /* #f0f0f0 */
+  fill: #333333 !important; /* base oscura alineada a tu paleta */
+  stroke: rgba(240,240,240,0.85) !important; /* borde claro, no blanco puro */
   stroke-width: 1.5px;
-  transition: fill .18s ease, stroke .18s ease, stroke-width .18s ease, filter .18s ease;
+
+  /* “Degradación” perceptual: profundidad sin romper compatibilidad */
+  filter:
+    drop-shadow(0 8px 18px rgba(0,0,0,.35))
+    drop-shadow(0 1px 0 rgba(255,255,255,.06));
+
+  transition:
+    fill .22s ease,
+    stroke .22s ease,
+    stroke-width .22s ease,
+    filter .22s ease;
 }
 
+/* Texto base: claro (no blanco puro) */
 .mermaid .node text {
-  fill: var(--color-claro) !important;              /* #f0f0f0 */
+  fill: rgba(240,240,240,0.88) !important;
   font-family: var(--parrafo-font) !important;
   font-weight: 500;
   transition: fill .18s ease;
 }
 
-/* Conectores claros (sobre fondo oscuro del sitio) */
+/* Conectores claros sobre fondo oscuro */
 .mermaid .edgePath path {
-  stroke: var(--color-claro) !important;
+  stroke: rgba(240,240,240,0.85) !important;
   stroke-width: 1.35px;
 }
 
 .mermaid marker path {
-  fill: var(--color-claro) !important;
+  fill: rgba(240,240,240,0.85) !important;
 }
 
 /* Bordes redondeados Mermaid */
@@ -742,26 +752,27 @@ p.parrafo:first-of-type ul {
 .mermaid .cluster rect { rx: 8px; ry: 8px; }
 
 /* =========================
-   HOVER INVERSO (tipo "invert"):
+   HOVER INVERSO
    - fondo nodo: claro
    - texto: oscuro
-   - borde: destacado o claro (elige)
+   - borde: destacado
 ========================= */
 .mermaid svg g.node:hover rect,
 .mermaid svg g.node:hover polygon {
-  fill: var(--color-claro) !important;              /* claro */
-  stroke: var(--color-destacado) !important;        /* azul destacado */
+  fill: #e6e6e6 !important;
+  stroke: var(--color-destacado) !important;
   stroke-width: 2px !important;
-  filter: drop-shadow(0 6px 14px rgba(0,0,0,.35));
+
+  filter: drop-shadow(0 10px 22px rgba(0,0,0,.45));
 }
 
 .mermaid svg g.node:hover text {
-  fill: var(--color-fondo) !important;              /* #222 */
+  fill: #222222 !important;
 }
 
 /* Si hay links dentro de nodos */
 .mermaid svg g.node:hover a text {
-  fill: var(--color-fondo) !important;
+  fill: #222222 !important;
 }
 
 
