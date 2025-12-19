@@ -44,47 +44,62 @@ mermaid: true
   <strong>2. Desplazamiento de la pintura:</strong> Obras que trasladan los conceptos pictóricos más allá del lienzo, involucrando objetos y espacios concretos. Esta línea se despliega en intervenciones sobre espacios domésticos, públicos y rurales/naturales.
 </p>
 
-<br><br><br>
+<br><br>
 
 <div class="mermaid">
 flowchart LR
-  Z(("Representación del Mundo")) --> Y((Lo Tangible"))
+  %% --- Macroestructura ---
+  Z(("Representación del Mundo")) --> Y(("Lo Tangible"))
   Y --> A(("La Saturación"))
   A --> B(("La Peste"))
-  A --> X(["Lo Invisible"])
-  B --> C(["Pinturas Infectadas"])
-  C --> D(["Soportes tradicionales"])
-  D --> D1(["Intervención"])
-  D --> D(2["Producción"])
-  C --> E["Soportes Blandos"])
-  E --> E1(["Membrana"])
-  E --> E2(["Módulo"])
-  E --> E3(["Unidad"])
+  A --> X(("Lo Invisible"))
 
-  B --> F(["Desplazamiento de la Pintura"])
-  F --> F1(["Espacio Doméstico"])
-  F --> F2(["Espacio Público"])
-  F --> F3(["Espacio Rural / Natural"])
+  %% --- Rama: La Peste / Pinturas Infectadas ---
+  B --> C(("Pinturas Infectadas"))
 
+  %% Soportes tradicionales
+  C --> D(("Soportes tradicionales"))
+  D --> D1(("Intervención"))
+  D --> D2(("Producción"))
+
+  %% Soportes blandos
+  C --> E(("Soportes blandos"))
+  E --> E1(("Membrana"))
+  E --> E2(("Módulo"))
+  E --> E3(("Unidad"))
+
+  %% --- Rama: Desplazamiento de la Pintura ---
+  B --> F(("Desplazamiento de la Pintura"))
+  F --> F1(("Espacio Doméstico"))
+  F --> F2(("Espacio Público"))
+  F --> F3(("Espacio Rural / Natural"))
+
+  %% --- Links ---
   click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
   click Y "/ES/tangible.html" "Ver Lo Tangible"
   click A "/ES/saturacion.html" "Ver La Saturación"
   click B "/ES/la-peste.html" "Ver La Peste"
+  click X "/ES/lo-invisible.html" "Ver Lo Invisible"
+
   click C "/ES/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+
   click D "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
   click D1 "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Intervenciones"
   click D2 "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Producciones"
+
   click E "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
   click E1 "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
   click E2 "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
   click E3 "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Unidades"
+
   click F "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"
 </div>
 
-<br><br><br><br><br>
+
+<br>
 
 <p class="parrafo">
   La propuesta establece contrastes radicales: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. El uso de materiales no convencionales, como desechos gráficos, evidencia cómo la publicidad y el consumo funcionan como agentes contaminantes que afectan tanto la integridad ambiental como la cultural.
