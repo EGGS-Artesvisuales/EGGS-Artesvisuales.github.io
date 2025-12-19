@@ -8,6 +8,30 @@ permalink: /ES/accion.html
 
 <h1 class="titulo">Acción en el Mundo</h1>
 <h2 class="subtitulo">Prácticas artísticas con impacto social y territorial</h2>
+<br>
+<!-- Mapa / diagrama -->
+<div class="mermaid">
+flowchart LR
+  A(("Actividad artística")) --> B(["Representación del mundo"])
+  A --> C(("Acción en el mundo"))
+  A --> D(["Mundo interior"])
+
+  C --> C1(["Lo Comunitario"])
+  C --> C2(["Lo Subrepticio"])
+  C --> C3(["Docencia y Talleres"])
+  C --> C4(["Servicios"])
+
+  click C1 "/ES/comunitario.html" "Ir a Lo Comunitario"
+  click C2 "/ES/subrepticio.html" "Ir a Lo Subrepticio"
+  click C3 "/ES/docencia.html" "Ir a Docencia y Talleres"
+  click C4 "/ES/servicios.html" "Ir a Servicios"
+
+  %% (Opcional) links a los otros dos ejes:
+  %% click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
+  %% click D "/ES/interior.html" "Ir a Mundo interior"
+</div>
+
+<br><br>
 
 <p class="parrafo" style="margin-top:6%;">
   El arte ha sido, durante siglos, un espacio para la expresión íntima y la reflexión personal. Sin embargo, en el presente, muchas prácticas buscan ir más allá de los márgenes tradicionales del taller o la sala de exhibición. En este giro hacia lo público, el arte se convierte en una herramienta capaz de dialogar con el territorio, involucrar a las comunidades y aportar al bienestar colectivo. Bajo este enfoque, la creación deja de ser únicamente contemplativa para transformarse en un acto que incide directamente en la vida social.
