@@ -227,6 +227,54 @@ $(document).ready(function () {
   }
 
   /* ============================================================
+     Carrusel FULL BLEED (Index)  ✅ (corregido)
+     - Debe vivir DENTRO del document.ready para:
+       1) respetar el guard de Owl
+       2) reutilizar forceOwlRefresh y refreshWhenImagesReady
+       3) evitar inicializar antes de tiempo
+  ============================================================ */
+  const $fullBleed = $(".carousel-fullbleed");
+
+  if ($fullBleed.length) {
+    $fullBleed.owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      dots: true,
+      navText: ["&#9664;", "&#9654;"],
+
+      // En full-bleed normalmente NO conviene autoHeight
+      // porque puede “rebotar” con imágenes de distinto ratio.
+      autoHeight: false,
+
+      responsiveClass: true,
+      responsive: {
+        0:    { items: 1 },
+        640:  { items: 2 },
+        1024: { items: 3 },
+        1280: { items: 4 }
+      },
+
+      onInitialized: function () {
+        const $car = $(this.$element);
+
+        // refresh inmediato + cuando imágenes estén listas
+        requestAnimationFrame(function () { forceOwlRefresh($car); });
+        refreshWhenImagesReady($car);
+
+        // backups típicos
+        setTimeout(function () { forceOwlRefresh($car); }, 120);
+        setTimeout(function () { forceOwlRefresh($car); }, 900);
+      }
+    });
+
+    // Recalcular en transiciones / resize (misma lógica que otros)
+    $fullBleed.on("translated.owl.carousel resized.owl.carousel", function () {
+      forceOwlRefresh($(this));
+    });
+  }
+
+  /* ============================================================
      Refresh global al cargar (incluye fuentes/imagenes)
   ============================================================ */
   $(window).on("load", function () {
