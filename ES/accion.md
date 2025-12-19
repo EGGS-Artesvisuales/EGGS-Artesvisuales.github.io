@@ -32,7 +32,7 @@ flowchart LR
   %% click D "/ES/interior.html" "Ir a Mundo interior"
 </div>
 
-<br><br>
+<br>
 
 <p class="parrafo" style="margin-top:6%;">
   El arte ha sido, durante siglos, un espacio para la expresión íntima y la reflexión personal. Sin embargo, en el presente, muchas prácticas buscan ir más allá de los márgenes tradicionales del taller o la sala de exhibición. En este giro hacia lo público, el arte se convierte en una herramienta capaz de dialogar con el territorio, involucrar a las comunidades y aportar al bienestar colectivo. Bajo este enfoque, la creación deja de ser únicamente contemplativa para transformarse en un acto que incide directamente en la vida social.
