@@ -1,10 +1,12 @@
 /* =============================================================================
    Owl Carousel – EGGS-Studio
    Archivo: carousel.css
+
    Carruseles:
-   1) .carousel-imagen (con caption)
-   2) .carousel-video  (con caption)
-   3) .carousel-fancy  (fancy buttons)
+   1) .carousel-imagen     (con caption)
+   2) .carousel-video      (con caption)
+   3) .carousel-fancy      (fancy buttons)
+   4) .carousel-fullbleed  (index full ancho)
 ============================================================================= */
 
 :root{
@@ -41,7 +43,13 @@
   border: none;
   cursor: pointer;
   z-index: 100;
+  line-height: 1;
 }
+
+.owl-nav button:focus{
+  outline: none;
+}
+
 .owl-nav .owl-prev{ left: 10px; }
 .owl-nav .owl-next{ right: 10px; }
 
@@ -50,13 +58,20 @@
   text-align: center;
   margin-top: .75rem;
 }
+
+.owl-dot{
+  display: inline-block;
+}
+
 .owl-dot span{
   width: 10px;
   height: 10px;
   background: #bbb;
   border-radius: 50%;
   display: inline-block;
+  margin: 0 4px; /* separación consistente */
 }
+
 .owl-dot.active span{ background: #333; }
 
 /* =============================================================================
@@ -196,6 +211,7 @@
   opacity: 0;
   transition: opacity .25s ease;
 }
+
 .carousel-video .item:hover .img-container::after{ opacity: 1; }
 .carousel-video .img-container.is-active::after{ opacity: 0 !important; }
 
@@ -208,6 +224,7 @@
 /* =============================================================================
    OVERRIDE – eliminar “máscaras” laterales (si existían antes)
 ============================================================================= */
+
 .carousel-imagen::before,
 .carousel-video::before,
 .carousel-imagen::after,
@@ -218,9 +235,6 @@
 
 /* =============================================================================
    Carrusel Fancy (botones)
-   - sin tarjeta/shadow/radius del carrusel
-   - sin min-height
-   - sin “sobra” inferior
 ============================================================================= */
 
 .carousel-fancy.owl-carousel{
@@ -231,7 +245,7 @@
   border-radius: 0;
   box-shadow: none;
 
-  /* si quieres mismo preload-hide para evitar “lista” antes de Owl, déjalo */
+  /* preload-hide para evitar “lista” antes de Owl */
   opacity: 0;
   visibility: hidden;
   transition: opacity .18s ease, visibility .18s ease;
@@ -258,4 +272,79 @@
 .carousel-fancy .owl-nav button{
   width: 2.4rem;
   height: 2.4rem;
+}
+
+/* =============================================================================
+   FULL BLEED (ancho completo dentro de <main> con max-width)
+============================================================================= */
+
+.full-bleed{
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* =============================================================================
+   Carrusel Full Ancho – Index
+============================================================================= */
+
+.carousel-fullbleed.owl-carousel{
+  width: 100%;
+  margin: 0;
+
+  border-radius: 0;
+  box-shadow: none;
+
+  /* preload-hide consistente (evita flash de lista) */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .18s ease, visibility .18s ease;
+}
+
+.carousel-fullbleed.owl-carousel.owl-loaded{
+  opacity: 1;
+  visibility: visible;
+}
+
+.carousel-fullbleed .owl-stage-outer{
+  overflow: hidden;
+  border-radius: 0;
+}
+
+/* Items: altura tipo “hero strip” */
+.carousel-fullbleed .item{
+  display: block;
+}
+
+.carousel-fullbleed .cb-figure{
+  width: 100%;
+  height: clamp(260px, 62vh, 720px);
+  margin: 0;
+  overflow: hidden;
+}
+
+.carousel-fullbleed img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* llena el ancho (look editorial) */
+  display: block;
+}
+
+/* Controles sobre el contenido */
+.carousel-fullbleed .owl-nav button{
+  background: rgba(0,0,0,.55);
+}
+
+.carousel-fullbleed .owl-dots{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin-top: 0;
+  z-index: 90;
 }
