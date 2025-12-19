@@ -27,7 +27,7 @@ flowchart LR
   click C3 "/ES/docencia.html" "Ir a Docencia y Talleres"
   click C4 "/ES/servicios.html" "Ir a Servicios"
 
-  links a los otros dos ejes:
+  %%links a los otros dos ejes:
   click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
   click D "/ES/interior.html" "Ir a Mundo interior"
 </div>
