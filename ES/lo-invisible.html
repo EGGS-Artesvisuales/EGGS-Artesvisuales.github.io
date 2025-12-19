@@ -20,7 +20,7 @@ mermaid: true
 <br>
 
 <figure class="imagen-con-caption imagen-con-caption-70">
-  <img src="/assets/img/lo-invisible-pintura-wifi-04b.jpg" 
+  <img src="/assets/img/lo-invisible-pintura-wifi-04.jpg" 
        alt="Pintura Wi-Fi, 004. De la serie La Saturación / Lo Invisible" 
        loading="lazy">
   <figcaption>
@@ -57,16 +57,17 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  A["Representación del Mundo"] --> B["Lo Tangible"]
-  A --> B2["Lo Intangible"]
+  A(("Representación del Mundo")) --> B(("Lo Tangible"))
+  A --> B2(["Lo Intangible"])
 
-  B --> C["La Saturación"]
-  B --> C2["La Tecnología"]
+  B --> C(["La Saturación"])
+  B --> C2(["La Tecnología"])
 
-  C --> D["Lo Invisible"]
-  C --> D2["La Peste"]
+  C --> D(("Lo Invisible"))
+  C --> D2(["La Peste"])
 
-  D --> E["Pinturas Wi-Fi"]
+  D --> E(["Pinturas Wi-Fi"])
+  D --> F(["desplazamientos"]) 
 
   click A "/ES/mundo-exterior.html" "Ver Representación del Mundo"
   click B "/ES/tangible.html" "Ver Lo Tangible"
@@ -76,6 +77,7 @@ graph LR
   click D "/ES/lo-invisible.html" "Ver Lo Invisible"
   click D2 "/ES/la-peste.html" "Ver La Peste"
   click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi"
+  click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura"
 </div>
 
 <br>
