@@ -48,23 +48,23 @@ mermaid: true
 
 <div class="mermaid">
 flowchart LR
-  Z["Representación del Mundo"] --> Y["Lo Tangible"]
-  Y --> A["La Saturación"]
-  A --> B["La Peste"]
-  A --> X["Lo Invisible"]
-  B --> C["Pinturas Infectadas"]
-  C --> D["Soportes tradicionales"]
-  D --> D1["Intervención"]
-  D --> D2["Producción"]
-  C --> E["Soportes Blandos"]
-  E --> E1["Membrana"]
-  E --> E2["Módulo"]
-  E --> E3["Unidad"]
+  Z(("Representación del Mundo")) --> Y((Lo Tangible"))
+  Y --> A(("La Saturación"))
+  A --> B(("La Peste"))
+  A --> X(["Lo Invisible"])
+  B --> C(["Pinturas Infectadas"])
+  C --> D(["Soportes tradicionales"])
+  D --> D1(["Intervención"])
+  D --> D(2["Producción"])
+  C --> E["Soportes Blandos"])
+  E --> E1(["Membrana"])
+  E --> E2(["Módulo"])
+  E --> E3(["Unidad"])
 
-  B --> F["Desplazamiento de la Pintura"]
-  F --> F1["Espacio Doméstico"]
-  F --> F2["Espacio Público"]
-  F --> F3["Espacio Rural / Natural"]
+  B --> F(["Desplazamiento de la Pintura"])
+  F --> F1(["Espacio Doméstico"])
+  F --> F2(["Espacio Público"])
+  F --> F3(["Espacio Rural / Natural"])
 
   click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
   click Y "/ES/tangible.html" "Ver Lo Tangible"
