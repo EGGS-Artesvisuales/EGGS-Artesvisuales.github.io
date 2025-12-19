@@ -14,14 +14,14 @@ mermaid: true
 <!-- Mapa / diagrama -->
 <div class="mermaid">
 flowchart LR
-  A((Actividad artística)) --> B[Representación del mundo]
+  A((Actividad artística)) --> B([Representación del mundo])
   A --> C((Acción en el mundo))
-  A --> D[Mundo interior]
+  A --> D([Mundo interior])
 
-  C --> C1[Lo Comunitario]
-  C --> C2[Lo Subrepticio]
-  C --> C3[Docencia y Talleres]
-  C --> C4[Servicios]
+  C --> C1([Lo Comunitario])
+  C --> C2([Lo Subrepticio])
+  C --> C3([Docencia y Talleres])
+  C --> C4([Servicios])
 
   %% Clicks (todos los nodos clickeables)
   click A "/ES/actividad-artistica.html" "Ir a Actividad artística"
