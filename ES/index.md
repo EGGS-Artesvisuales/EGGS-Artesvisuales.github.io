@@ -6,8 +6,47 @@ description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista visua
 permalink: /ES/index.html
 keywords: "EGGS-Studio, Esteban Garnica, artista visual chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo comunitario, arte público, proyectos culturales, Santiago de Chile"
 mermaid: true
+carousel: true
 
 ---
+<!-- Carrusel Full Ancho (Index) -->
+<section class="full-bleed">
+  <div class="owl-carousel carousel-fullbleed" aria-label="Galería destacada (carrusel)">
+
+    <a class="item" href="/ES/saturacion.html" aria-label="Ir a La Saturación">
+      <figure class="cb-figure">
+        <img src="/assets/img/index-carousel-01.jpg"
+             alt="Obra de la serie La Saturación"
+             loading="eager">
+      </figure>
+    </a>
+
+    <a class="item" href="/ES/peste-pinturas-infectadas.html" aria-label="Ir a Pinturas Infectadas">
+      <figure class="cb-figure">
+        <img src="/assets/img/index-carousel-02.jpg"
+             alt="Obra de la serie Pinturas Infectadas"
+             loading="lazy">
+      </figure>
+    </a>
+
+    <a class="item" href="/ES/musoe-cielo-abierto.html" aria-label="Ir a Musoe a cielo abierto">
+      <figure class="cb-figure">
+        <img src="/assets/img/index-carousel-03.jpg"
+             alt="Muralismo comunitario – Museo a cielo abierto"
+             loading="lazy">
+      </figure>
+    </a>
+
+    <a class="item" href="/ES/diagrama.html" aria-label="Ir a Diagrama de obra">
+      <figure class="cb-figure">
+        <img src="/assets/img/index-carousel-04.jpg"
+             alt="Diagrama de obra – series y relaciones"
+             loading="lazy">
+      </figure>
+    </a>
+
+  </div>
+</section>
 
 
 <h1 class="titulo">EGGS-STUDIO</h1>
