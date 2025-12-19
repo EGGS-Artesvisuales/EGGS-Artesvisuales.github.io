@@ -9,46 +9,6 @@ mermaid: true
 carousel: true
 
 ---
-<!-- Carrusel Full Ancho (Index) -->
-<section class="full-bleed">
-  <div class="owl-carousel carousel-fullbleed" aria-label="Galería destacada (carrusel)">
-
-    <a class="item" href="/ES/saturacion.html" aria-label="Ir a La Saturación">
-      <figure class="cb-figure">
-        <img src="/assets/img/desp-domestico-hbt-avalancha-001.jpg"
-             alt="Obra de la serie La Saturación"
-             loading="eager">
-      </figure>
-    </a>
-
-    <a class="item" href="/ES/peste-pinturas-infectadas.html" aria-label="Ir a Pinturas Infectadas">
-      <figure class="cb-figure">
-        <img src="/assets/img/desp-publico-claesinfected-012.jpg"
-             alt="Obra de la serie Pinturas Infectadas"
-             loading="lazy">
-      </figure>
-    </a>
-
-    <a class="item" href="/ES/musoe-cielo-abierto.html" aria-label="Ir a Musoe a cielo abierto">
-      <figure class="cb-figure">
-        <img src="/assets/img/pes-pint-produccion-Serie01-003.jpg.jpg"
-             alt="Muralismo comunitario – Museo a cielo abierto"
-             loading="lazy">
-      </figure>
-    </a>
-
-    <a class="item" href="/ES/diagrama.html" aria-label="Ir a Diagrama de obra">
-      <figure class="cb-figure">
-        <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02b.jpg"
-             alt="Diagrama de obra – series y relaciones"
-             loading="lazy">
-      </figure>
-    </a>
-
-  </div>
-</section>
-
-
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
