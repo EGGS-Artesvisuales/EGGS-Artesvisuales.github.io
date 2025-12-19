@@ -52,27 +52,27 @@ flowchart LR
   Z(("Representación del Mundo")) --> Y(("Lo Tangible"))
   Y --> A(("La Saturación"))
   A --> B(("La Peste"))
-  A --> X(("Lo Invisible"))
+  A --> X(["Lo Invisible"])
 
   %% --- Rama: La Peste / Pinturas Infectadas ---
-  B --> C(("Pinturas Infectadas"))
+  B --> C(["Pinturas Infectadas"])
 
   %% Soportes tradicionales
-  C --> D(("Soportes tradicionales"))
-  D --> D1(("Intervención"))
-  D --> D2(("Producción"))
+  C --> D(["Soportes tradicionales"])
+  D --> D1(["Intervención"])
+  D --> D2(["Producción"])
 
   %% Soportes blandos
-  C --> E(("Soportes blandos"))
-  E --> E1(("Membrana"))
-  E --> E2(("Módulo"))
-  E --> E3(("Unidad"))
+  C --> E(["Soportes blandos"])
+  E --> E1(["Membrana"])
+  E --> E2(["Módulo"])
+  E --> E3(["Unidad"])
 
   %% --- Rama: Desplazamiento de la Pintura ---
-  B --> F(("Desplazamiento de la Pintura"))
-  F --> F1(("Espacio Doméstico"))
-  F --> F2(("Espacio Público"))
-  F --> F3(("Espacio Rural / Natural"))
+  B --> F(["Desplazamiento de la Pintura"])
+  F --> F1(["Espacio Doméstico"])
+  F --> F2(["Espacio Público"])
+  F --> F3(["Espacio Rural / Natural"])
 
   %% --- Links ---
   click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
