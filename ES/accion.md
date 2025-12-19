@@ -23,16 +23,17 @@ flowchart LR
   C --> C3[Docencia y Talleres]
   C --> C4[Servicios]
 
+  %% Clicks (todos los nodos clickeables)
+  click A "/ES/actividad-artistica.html" "Ir a Actividad artística"
+  click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
+  click C "/ES/accion.html" "Ir a Acción en el mundo"
+  click D "/ES/interior.html" "Ir a Mundo interior"
+
   click C1 "/ES/comunitario.html" "Ir a Lo Comunitario"
   click C2 "/ES/subrepticio.html" "Ir a Lo Subrepticio"
   click C3 "/ES/docencia.html" "Ir a Docencia y Talleres"
   click C4 "/ES/servicios.html" "Ir a Servicios"
-
-  %% Links a los otros dos ejes:
-  click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
-  click D "/ES/interior.html" "Ir a Mundo interior"
 </div>
-
 
 <br>
 
