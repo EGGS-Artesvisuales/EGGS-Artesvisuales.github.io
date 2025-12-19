@@ -10,27 +10,29 @@ mermaid: true
 <h1 class="titulo">Acción en el Mundo</h1>
 <h2 class="subtitulo">Prácticas artísticas con impacto social y territorial</h2>
 <br>
+
 <!-- Mapa / diagrama -->
 <div class="mermaid">
 flowchart LR
-  A(("Actividad artística")) --> B(["Representación del mundo"])
-  A --> C(("Acción en el mundo"))
-  A --> D(["Mundo interior"])
+  A((Actividad artística)) --> B[Representación del mundo]
+  A --> C((Acción en el mundo))
+  A --> D[Mundo interior]
 
-  C --> C1(["Lo Comunitario"])
-  C --> C2(["Lo Subrepticio"])
-  C --> C3(["Docencia y Talleres"])
-  C --> C4(["Servicios"])
+  C --> C1[Lo Comunitario]
+  C --> C2[Lo Subrepticio]
+  C --> C3[Docencia y Talleres]
+  C --> C4[Servicios]
 
   click C1 "/ES/comunitario.html" "Ir a Lo Comunitario"
   click C2 "/ES/subrepticio.html" "Ir a Lo Subrepticio"
   click C3 "/ES/docencia.html" "Ir a Docencia y Talleres"
   click C4 "/ES/servicios.html" "Ir a Servicios"
 
-  %%links a los otros dos ejes:
+  %% Links a los otros dos ejes:
   click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
   click D "/ES/interior.html" "Ir a Mundo interior"
 </div>
+
 
 <br>
 
