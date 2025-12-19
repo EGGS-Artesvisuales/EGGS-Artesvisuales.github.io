@@ -15,7 +15,7 @@ carousel: true
 
     <a class="item" href="/ES/saturacion.html" aria-label="Ir a La Saturación">
       <figure class="cb-figure">
-        <img src="/assets/img/index-carousel-01.jpg"
+        <img src="/assets/img/desp-domestico-hbt-avalancha-001.jpg"
              alt="Obra de la serie La Saturación"
              loading="eager">
       </figure>
@@ -23,7 +23,7 @@ carousel: true
 
     <a class="item" href="/ES/peste-pinturas-infectadas.html" aria-label="Ir a Pinturas Infectadas">
       <figure class="cb-figure">
-        <img src="/assets/img/index-carousel-02.jpg"
+        <img src="/assets/img/desp-publico-claesinfected-012.jpg"
              alt="Obra de la serie Pinturas Infectadas"
              loading="lazy">
       </figure>
@@ -31,7 +31,7 @@ carousel: true
 
     <a class="item" href="/ES/musoe-cielo-abierto.html" aria-label="Ir a Musoe a cielo abierto">
       <figure class="cb-figure">
-        <img src="/assets/img/index-carousel-03.jpg"
+        <img src="/assets/img/pes-pint-produccion-Serie01-003.jpg.jpg"
              alt="Muralismo comunitario – Museo a cielo abierto"
              loading="lazy">
       </figure>
@@ -39,7 +39,7 @@ carousel: true
 
     <a class="item" href="/ES/diagrama.html" aria-label="Ir a Diagrama de obra">
       <figure class="cb-figure">
-        <img src="/assets/img/index-carousel-04.jpg"
+        <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02b.jpg"
              alt="Diagrama de obra – series y relaciones"
              loading="lazy">
       </figure>
