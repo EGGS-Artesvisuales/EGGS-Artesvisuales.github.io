@@ -41,7 +41,7 @@ flowchart LR
   LI([Lo Invisible])
   P([Pinturas Infectadas])
   DP([Desplazamiento de la Pintura])
-  PL([Pinturas Licuadas])  
+  PL([Pinturas WiFi])  
 
   RM --> LT
   LT --> LS
@@ -60,7 +60,7 @@ flowchart LR
   click LI "/ES/lo-invisible.html" "Ir a Lo Invisible"
   click P "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click DP "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click PL "/ES/pinturas-licuadas.html" "Ir a Pinturas Licuadas"
+  click PL "/ES/pinturas-wifi.html" "Ir a Pinturas wi fi"
 </div>
 
 <br><br>
