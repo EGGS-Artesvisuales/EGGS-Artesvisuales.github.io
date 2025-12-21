@@ -25,8 +25,8 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  A([Representación del Mundo]) --> A1([Lo Tangible])
-  A --> A2([Lo Intangible])
+  A((Representación del Mundo)) --> A1((Lo Tangible))
+  A --> A2((Lo Intangible))
 
   A1 --> A1a([La Saturación])
   A1a --> A1a1([La Peste])
@@ -100,20 +100,20 @@ graph LR
 
 <div class="mermaid">
 graph TD
-  B([Acción en\nel Mundo]) --> B1([Lo Subrepticio])
+  B((Acción en\nel Mundo)) --> B1((Lo Subrepticio))
   B1 --> B1a([Remiendas\nUrbanas])
   B1 --> B1b([La Anti-Publicidad])
   B1 --> B1c([Graffiti\n& Tags])
 
-  B --> B2([Lo Comunitario])
+  B --> B2((Lo Comunitario))
   B2 --> B2a([Muralismo])
 
-  B --> B3([Docencia\ny Talleres])
+  B --> B3((Docencia\ny Talleres))
   B3 --> B3a([Mineduc])
   B3 --> B3b([Corporaciones])
   B3 --> B3c([Independientes])
 
-  B --> B4([Servicios])
+  B --> B4((Servicios))
   B4 --> B4a([Restauración])
   B4 --> B4b([Decoraciones\n& Encargo])
   B4 --> B4c([Asesorías\nTécnicas])
@@ -145,8 +145,8 @@ graph TD
 
 <div class="mermaid">
 graph LR
-  C([Exploración del Mundo Interior]) --> C1([Arte y Psicología])
-  C --> C2([Arte y Espiritualidad])
+  C((Exploración del Mundo Interior)) --> C1((Arte y Psicología))
+  C --> C2((Arte y Espiritualidad))
 
   %% Enlaces (existentes)
   click C "interior.html" "Ir a Exploración del Mundo Interior"
