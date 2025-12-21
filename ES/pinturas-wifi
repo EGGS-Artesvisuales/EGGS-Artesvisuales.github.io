@@ -86,38 +86,33 @@ carousel: true
   perceptivo en el que ya vivimos.
 </p>
 
-<div class="mermaid">
-graph LR
-  A((Representación del Mundo)) --> B((Lo Tangible))
-  A --> B2((Lo Intangible))
+<div class="mermaid"> graph LR
+A((Representación del Mundo)) --> B((Lo Tangible)) 
+A --> B2([Lo Intangible]) 
+B --> C((La Saturación)) 
+B --> C2([La Tecnología]) 
+C --> D((Lo Invisible)) 
+C --> D2([La Peste]) 
+D --> E((Pinturas Wi-Fi)) 
+D --> F([Desplazamientos]) 
+%% Nuevos hijos de Pinturas Wi-Fi 
+E --> E1([Paisajes]) 
+E --> E2([Retratos]) 
+E --> E3([Bodegones]) 
 
-  B --> C((La Saturación))
-  B --> C2((La Tecnología))
-
-  C --> D((Lo Invisible))
-  C --> D2((La Peste))
-
-  D --> E((Pinturas Wi-Fi))
-  D --> F((Desplazamientos))
-
-  E --> E1((Paisajes))
-  E --> E2((Retratos))
-  E --> E3((Bodegones))
-
-  %% Clicks (todos los nodos clickeables)
-  click A "/ES/mundo-exterior.html" "Ver Representación del Mundo"
-  click B "/ES/tangible.html" "Ver Lo Tangible"
-  click B2 "/ES/intangible.html" "Ver Lo Intangible"
-  click C "/ES/saturacion.html" "Ver La Saturación"
-  click C2 "/ES/tecnologia.html" "Ver La Tecnología"
-  click D "/ES/lo-invisible.html" "Ver Lo Invisible"
-  click D2 "/ES/la-peste.html" "Ver La Peste"
-  click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi"
-  click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura"
-
-  click E1 "/ES/pinturas-wifi-paisajes.html" "Ver Paisajes (Pinturas Wi-Fi)"
-  click E2 "/ES/pinturas-wifi-retratos.html" "Ver Retratos (Pinturas Wi-Fi)"
-  click E3 "/ES/pinturas-wifi-bodegones.html" "Ver Bodegones (Pinturas Wi-Fi)"
+%% Clicks (todos clickeables) 
+click A "/ES/mundo-exterior.html" "Ver Representación del Mundo" 
+click B "/ES/tangible.html" "Ver Lo Tangible" 
+click B2 "/ES/intangible.html" "Ver Lo Intangible" 
+click C "/ES/saturacion.html" "Ver La Saturación" 
+click C2 "/ES/tecnologia.html" "Ver La Tecnología" 
+click D "/ES/lo-invisible.html" "Ver Lo Invisible" 
+click D2 "/ES/la-peste.html" "Ver La Peste" 
+click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi" 
+click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura" 
+click E1 "/ES/pinturas-wifi-paisajes.html" "Ver Paisajes (Pinturas Wi-Fi)" 
+click E2 "/ES/pinturas-wifi-retratos.html" "Ver Retratos (Pinturas Wi-Fi)" 
+click E3 "/ES/pinturas-wifi-bodegones.html" "Ver Bodegones (Pinturas Wi-Fi)" 
 </div>
 
 <hr class="separador">
