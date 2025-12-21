@@ -28,7 +28,7 @@ graph LR
   A((Representación del Mundo)) --> A1((Lo Tangible))
   A --> A2((Lo Intangible))
 
-  A1 --> A1a([La Saturación])
+  A1 --> A1a((La Saturación))
   A1a --> A1a1([La Peste])
   A1a1 --> A1a1a([Pinturas Infectadas])
   A1a1a --> A1a1a1([Soportes tradicionales])
@@ -42,21 +42,21 @@ graph LR
   A1a --> A1a2([Lo Invisible])
   A1a2 --> A1a2a([Pinturas Wi-Fi])
 
-  A1 --> A1b([La Tecnología])
+  A1 --> A1b((La Tecnología))
   A1b --> A1b1([La IA])
   A1b --> A1b2([Lo Espacial])
   A1b --> A1b3([Telecomunicaciones])
 
-  A2 --> A2a([El Capitalismo])
+  A2 --> A2a((El Capitalismo))
   A2a --> A2a1([El Colgado])
   A2a --> A2a2([Mr. Burns])
   A2a --> A2a3([El Empaquetador])
 
-  A2 --> A2b([Lo Popular])
+  A2 --> A2b((Lo Popular))
   A2b --> A2b1([Esculturas])
   A2b1 --> A2b1a([Papelucho])
 
-  A2 --> A2c([Lo Ancestral])
+  A2 --> A2c((Lo Ancestral))
   A2c --> A2c1([Museo a Cielo Abierto])
   A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
 
@@ -99,7 +99,7 @@ graph LR
 <h2 class="subtitulo">Acción en el Mundo</h2>
 
 <div class="mermaid">
-graph TD
+graph LR
   B((Acción en\nel Mundo)) --> B1((Lo Subrepticio))
   B1 --> B1a([Remiendas\nUrbanas])
   B1 --> B1b([La Anti-Publicidad])
