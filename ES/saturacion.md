@@ -89,8 +89,8 @@ flowchart LR
 <h2 class="subtitulo">Lo Invisible</h2>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/lo-invisible-pintura-wifi-04.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
-  <figcaption>La Saturación / Lo Invisible / Pintura / Serie Wi-Fi / Paisaje n°4, EGGS 2014</figcaption>
+  <img src="/assets/img/lo-invisible-pintura-wifi-04-001.jpg" alt="La Saturación - Lo Invisible" loading="lazy">
+  <figcaption>La Saturación / Lo Invisible / Pintura / Serie Wi-Fi / Paisaje n°4, EGGS 2020</figcaption>
 </figure>
 
 <br><br>
