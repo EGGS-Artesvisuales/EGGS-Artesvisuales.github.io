@@ -1,0 +1,137 @@
+---
+layout: default-es
+lang: es
+title: "Pinturas Wi-Fi – Serie de Lo Invisible (La Saturación) de Esteban Garnica"
+description: "Serie de pinturas de Esteban Garnica que reflexionan visualmente sobre la contaminación ambiental en un ámbito invisible: señales, ondas y saturación tecnológica."
+permalink: /ES/pinturas-wifi.html
+keywords: "La Saturación, Lo Invisible, Pinturas Wi-Fi, contaminación invisible, electromagnetismo, polución lumínica, polución acústica, arte contemporáneo, arte chileno, Esteban Garnica, EGGS-Studio"
+mermaid: true
+carousel: true
+---
+
+<h1 class="titulo">Pinturas Wi-Fi</h1>
+<h2 class="subtitulo">La representación de la contaminación invisible</h2>
+<h3 class="subtitulo2">
+  Obras para ver lo que no se ve. Campos invisibles como materia pictórica.
+</h3>
+
+<br>
+
+<figure class="imagen-con-caption imagen-con-caption-70">
+  <img src="/assets/img/lo-invisible-pintura-wifi-04.jpg"
+       alt="Pintura Wi-Fi n.º 4. De la serie La Saturación / Lo Invisible"
+       loading="lazy">
+  <figcaption>
+    Representación del mundo / Lo tangible / La Saturación / Lo Invisible / Pinturas Wi-Fi, n.º 4.
+    Óleo sobre tabla, EGGS, 2020.
+  </figcaption>
+</figure>
+
+<br>
+
+<p class="parrafo">
+  <strong>Pinturas Wi-Fi</strong> es una subserie dentro de <strong>Lo Invisible</strong>, vinculada al eje de
+  <strong>Representación del mundo físico</strong> y a las <strong>Imágenes de la Saturación</strong>. Nace de una
+  premisa simple pero inquietante: en la era de la hiperconectividad, el entorno ya no está compuesto solo por materia y
+  luz, sino también por un campo permanente de señales, ondas y estímulos que operan fuera del rango de lo evidente.
+  El Wi-Fi, las radiaciones electromagnéticas y otras presencias tecnológicas funcionan como un “clima” invisible que
+  condiciona la experiencia cotidiana y altera, de forma silenciosa, nuestra relación con lo real.
+</p>
+
+<p class="parrafo">
+  En este cuerpo de obra, la pintura no busca ilustrar la tecnología como tema, sino <strong>hacer perceptible su
+  influencia</strong>. La imagen —paisajes, retratos y objetos reconocibles— aparece sometida a torsiones, ondulaciones,
+  quiebres y zonas de interferencia que recuerdan fallas de señal, compresiones digitales o distorsiones de transmisión.
+  Lo familiar se mantiene identificable, pero deja de ser estable: la escena parece afectada por una fuerza que no se ve,
+  aunque se intuye por sus efectos. En ese sentido, las deformaciones no son un recurso decorativo; funcionan como
+  síntomas de una condición contemporánea: la saturación tecnológica flotando en el aire.
+</p>
+
+<h3 class="subtitulo2">Lo Invisible: marco conceptual</h3>
+
+<p class="parrafo">
+  La serie <strong>Lo Invisible</strong> indaga en contaminantes inmateriales que atraviesan el mundo actual:
+  <strong>ondas electromagnéticas</strong>, <strong>polución lumínica</strong> y <strong>polución acústica</strong>, entre
+  otras presiones ambientales y perceptivas. Su propósito es dirigir la atención hacia aquello que normalmente no se
+  percibe pero igualmente nos afecta: una “niebla” constante de radiación, ruido y estímulo que envuelve los cuerpos y
+  los espacios. Desde esta perspectiva, la obra se sitúa en el punto donde lo intangible produce consecuencias tangibles:
+  ansiedad, hiperalerta, fatiga perceptiva, o una sensación difusa de que la realidad perdió nitidez y estabilidad.
+</p>
+
+<h3 class="subtitulo2">Pintar lo analógico con lógica digital</h3>
+
+<p class="parrafo">
+  Formalmente, <strong>Pinturas Wi-Fi</strong> desarrolla una operación híbrida: técnicas pictóricas tradicionales
+  (óleo y acrílico) se articulan con procesos de manipulación digital como método de composición, distorsión o “ruido”
+  visual. Esta fusión no es un mero cruce técnico; es coherente con el tema: la experiencia contemporánea ocurre en una
+  fricción constante entre lo analógico y lo digital, entre lo tangible y lo intangible. Por eso, la pintura adopta una
+  lógica de interferencia: como si el soporte fuese una pantalla afectada, o como si el aire mismo actuara como un medio
+  de transmisión que altera la imagen.
+</p>
+
+<p class="parrafo">
+  El resultado es una estética de impacto inmediato, pero con un trasfondo filosófico: las obras tensionan preguntas sobre
+  percepción y realidad, y proponen una duda persistente. Si lo que vemos puede ser modificado por fuerzas imperceptibles,
+  ¿cuánta de nuestra confianza visual es realmente “natural”? ¿Cuánto de la percepción es un acuerdo cultural que hoy está
+  siendo reprogramado por la tecnología?
+</p>
+
+<h3 class="subtitulo2">Experiencia del espectador: desconcierto, curiosidad, alerta</h3>
+
+<p class="parrafo">
+  Las distorsiones generan una respuesta emocional ambivalente: por un lado, hay fascinación por la belleza del quiebre; por
+  otro, aparece el desconcierto, una incomodidad leve que empuja a mirar de nuevo. Ese “fallo” controlado en la imagen obliga
+  a tomar consciencia de lo que usualmente se ignora. La obra no entrega una moraleja; propone una experiencia: sentir que lo
+  invisible existe porque produce efectos, y reconocer que la saturación tecnológica no es solo un tema externo, sino un entorno
+  perceptivo en el que ya vivimos.
+</p>
+
+<div class="mermaid">
+graph LR
+  A((Representación del Mundo)) --> B((Lo Tangible))
+  A --> B2((Lo Intangible))
+
+  B --> C((La Saturación))
+  B --> C2((La Tecnología))
+
+  C --> D((Lo Invisible))
+  C --> D2((La Peste))
+
+  D --> E((Pinturas Wi-Fi))
+  D --> F((Desplazamientos))
+
+  E --> E1((Paisajes))
+  E --> E2((Retratos))
+  E --> E3((Bodegones))
+
+  %% Clicks (todos los nodos clickeables)
+  click A "/ES/mundo-exterior.html" "Ver Representación del Mundo"
+  click B "/ES/tangible.html" "Ver Lo Tangible"
+  click B2 "/ES/intangible.html" "Ver Lo Intangible"
+  click C "/ES/saturacion.html" "Ver La Saturación"
+  click C2 "/ES/tecnologia.html" "Ver La Tecnología"
+  click D "/ES/lo-invisible.html" "Ver Lo Invisible"
+  click D2 "/ES/la-peste.html" "Ver La Peste"
+  click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi"
+  click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura"
+
+  click E1 "/ES/pinturas-wifi-paisajes.html" "Ver Paisajes (Pinturas Wi-Fi)"
+  click E2 "/ES/pinturas-wifi-retratos.html" "Ver Retratos (Pinturas Wi-Fi)"
+  click E3 "/ES/pinturas-wifi-bodegones.html" "Ver Bodegones (Pinturas Wi-Fi)"
+</div>
+
+<hr class="separador">
+
+<h2 class="subtitulo">Pinturas Wi-Fi: Paisaje</h2>
+<h3 class="subtitulo2">S/t 001, óleo sobre tela</h3>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
+         alt="Pinturas Wi-Fi – Paisaje n.º 1, 65 × 85 cm, 2020"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 65 × 85 cm, 2020</em>
+    </figcaption>
+  </figure>
+</div>
