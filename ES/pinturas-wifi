@@ -86,38 +86,46 @@ carousel: true
   perceptivo en el que ya vivimos.
 </p>
 
-<div class="mermaid"> graph LR
-A((Representación del Mundo)) --> B((Lo Tangible)) 
-A --> B2([Lo Intangible]) 
-B --> C((La Saturación)) 
-B --> C2([La Tecnología]) 
-C --> D((Lo Invisible)) 
-C --> D2([La Peste]) 
-D --> E((Pinturas Wi-Fi)) 
-D --> F([Desplazamientos]) 
-%% Nuevos hijos de Pinturas Wi-Fi 
-E --> E1([Paisajes]) 
-E --> E2([Retratos]) 
-E --> E3([Bodegones]) 
+<div class="mermaid">
+graph LR
+  A((Representación del Mundo)) --> B((Lo Tangible))
+  A --> B2([Lo Intangible])
 
-%% Clicks (todos clickeables) 
-click A "/ES/mundo-exterior.html" "Ver Representación del Mundo" 
-click B "/ES/tangible.html" "Ver Lo Tangible" 
-click B2 "/ES/intangible.html" "Ver Lo Intangible" 
-click C "/ES/saturacion.html" "Ver La Saturación" 
-click C2 "/ES/tecnologia.html" "Ver La Tecnología" 
-click D "/ES/lo-invisible.html" "Ver Lo Invisible" 
-click D2 "/ES/la-peste.html" "Ver La Peste" 
-click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi" 
-click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura" 
-click E1 "/ES/pinturas-wifi-paisajes.html" "Ver Paisajes (Pinturas Wi-Fi)" 
-click E2 "/ES/pinturas-wifi-retratos.html" "Ver Retratos (Pinturas Wi-Fi)" 
-click E3 "/ES/pinturas-wifi-bodegones.html" "Ver Bodegones (Pinturas Wi-Fi)" 
+  B --> C((La Saturación))
+  B --> C2([La Tecnología])
+
+  C --> D((Lo Invisible))
+  C --> D2([La Peste])
+
+  D --> E((Pinturas Wi-Fi))
+  D --> F([Desplazamientos])
+
+  %% Hijos de Pinturas Wi-Fi (categorías dentro de esta página)
+  E --> E1([Paisajes])
+  E --> E2([Retratos])
+  E --> E3([Bodegones])
+
+  %% Clicks (todos clickeables)
+  click A "/ES/mundo-exterior.html" "Ver Representación del Mundo"
+  click B "/ES/tangible.html" "Ver Lo Tangible"
+  click B2 "/ES/intangible.html" "Ver Lo Intangible"
+  click C "/ES/saturacion.html" "Ver La Saturación"
+  click C2 "/ES/tecnologia.html" "Ver La Tecnología"
+  click D "/ES/lo-invisible.html" "Ver Lo Invisible"
+  click D2 "/ES/la-peste.html" "Ver La Peste"
+  click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi"
+  click F "/ES/en-construccion.html" "Ver Desplazamientos de la pintura"
+
+  %% Enlaces a secciones internas (anclas) para coherencia con las 3 categorías
+  click E1 "#paisajes" "Ver Paisajes (Pinturas Wi-Fi)"
+  click E2 "#retratos" "Ver Retratos (Pinturas Wi-Fi)"
+  click E3 "#bodegones" "Ver Bodegones (Pinturas Wi-Fi)"
 </div>
+
 
 <hr class="separador">
 
-<h2 class="subtitulo">Pinturas Wi-Fi: Paisaje</h2>
+<h2 class="subtitulo">Pinturas Wi-Fi: Paisajes</h2>
 <h3 class="subtitulo2">S/t 001, óleo sobre tela</h3>
 
 <div class="owl-carousel carousel-imagen">
@@ -127,6 +135,66 @@ click E3 "/ES/pinturas-wifi-bodegones.html" "Ver Bodegones (Pinturas Wi-Fi)"
          loading="lazy">
     <figcaption>
       <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 65 × 85 cm, 2020</em>
+    </figcaption>
+  </figure>
+</div>
+
+<hr class="separador">
+
+<h2 class="subtitulo" id="paisajes">Pinturas Wi-Fi: Paisajes</h2>
+<h3 class="subtitulo2">Variaciones del paisaje bajo interferencia</h3>
+<p class="parrafo">
+  Paisajes reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
+  atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
+</p>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
+         alt="Pinturas Wi-Fi – Paisaje n.º 001, 65 × 85 cm, 2020"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 65 × 85 cm, 2020</em>
+    </figcaption>
+  </figure>
+</div>
+
+<hr class="separador">
+
+<h2 class="subtitulo" id="retratos">Pinturas Wi-Fi: Retratos</h2>
+<h3 class="subtitulo2">El rostro como campo de distorsión</h3>
+<p class="parrafo">
+  Retratos donde la identidad se mantiene, pero la imagen se quiebra. La interferencia no borra: altera la percepción,
+  tensionando la estabilidad del sujeto en un entorno saturado de señales.
+</p>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
+         alt="Pinturas Wi-Fi – Retrato n.º 001, dimensiones por definir, 2020"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Retrato, n.º 001, 2020</em>
+    </figcaption>
+  </figure>
+</div>
+
+<hr class="separador">
+
+<h2 class="subtitulo" id="bodegones">Pinturas Wi-Fi: Bodegones</h2>
+<h3 class="subtitulo2">Objetos cotidianos bajo señal</h3>
+<p class="parrafo">
+  Bodegones y naturalezas muertas intervenidas por “fallas” de transmisión: lo doméstico se vuelve inestable, como si la
+  materia cotidiana estuviera atravesada por un pulso inmaterial que desordena la mirada.
+</p>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
+         alt="Pinturas Wi-Fi – Bodegón n.º 001, dimensiones por definir, 2020"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Bodegón, n.º 001, 2020</em>
     </figcaption>
   </figure>
 </div>
