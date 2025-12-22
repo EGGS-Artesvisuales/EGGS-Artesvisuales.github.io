@@ -1,4 +1,3 @@
-```html
 ---
 layout: default-es
 lang: es
@@ -707,4 +706,3 @@ permalink: /ES/docencia.html
 
   </div><!-- .timeline -->
 </div><!-- .timeline-container -->
-```
