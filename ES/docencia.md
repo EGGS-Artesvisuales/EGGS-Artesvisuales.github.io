@@ -57,7 +57,7 @@ permalink: /ES/docencia.html
         <div class="text-container">
           <div class="imagen">
             <img
-              src="/assets/img/docencia-2025-miguitas-ternura.jpg"
+              src="/assets/img/docencia-2025-MTer.jpg"
               alt="Taller de muralismo comunitario en Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida"
               loading="lazy">
           </div>
@@ -70,7 +70,7 @@ permalink: /ES/docencia.html
         <div class="text-container">
           <div class="imagen">
             <img
-              src="/assets/img/docencia-2025-hans-asasperger.jpg"
+              src="/assets/img/docencia-2025-HAns.jpg"
               alt="Talleres de muralismo comunitario en Escuela Especial Hans Asperger, La Florida"
               loading="lazy">
           </div>
@@ -97,7 +97,7 @@ permalink: /ES/docencia.html
         <div class="text-container">
           <div class="imagen">
             <img
-              src="/assets/img/docencia-2025-jjvv-23c.jpg"
+              src="/assets/img/docencia-2025-23c.jpg"
               alt="Talleres de muralismo comunitario con JJVV 23-C, Villa Chacón Zamora, La Florida"
               loading="lazy">
           </div>
@@ -110,7 +110,7 @@ permalink: /ES/docencia.html
         <div class="text-container">
           <div class="imagen">
             <img
-              src="/assets/img/docencia-2025-jjvv-24a.jpg"
+              src="/assets/img/docencia-2025-24a.jpg"
               alt="Talleres de muralismo comunitario con JJVV 24-A, Villa Alberto Larraguibel, La Florida"
               loading="lazy">
           </div>
@@ -131,7 +131,7 @@ permalink: /ES/docencia.html
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2024-masc-lf.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2024-masc-lf2.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, comuna de La Florida.<br>
