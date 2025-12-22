@@ -1,5 +1,7 @@
+```html
 ---
 layout: default-es
+lang: es
 title: "Docencia – Metodologías y prácticas de enseñanza artística"
 description: "Programas, talleres y experiencias docentes de Esteban Garnica: metodologías de enseñanza artística, procesos participativos y formación en artes visuales."
 keywords: "docencia en artes, enseñanza artística, talleres de arte, Esteban Garnica, educación visual, metodologías artísticas, formación en artes en Chile"
@@ -26,9 +28,9 @@ permalink: /ES/docencia.html
 <!-- Contenedor de la línea de tiempo -->
 <div class="timeline-container">
   <div class="timeline">
-  
-    <!-- 2025 -->
-    <div class="year" data-year="2025">
+
+    <!-- 2026 -->
+    <div class="year" data-year="2026">
       <div class="entry">
         <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">En construcción</div>
         <div class="text-container">
@@ -36,7 +38,92 @@ permalink: /ES/docencia.html
         </div>
       </div>
     </div>
-    
+
+    <!-- 2025 -->
+    <div class="year" data-year="2025">
+
+      <!-- ETAPA 1: Establecimientos educacionales -->
+      <div class="entry">
+        <div class="fun-button left">
+          Talleres de muralismo comunitario – Etapa 1 (Establecimientos educacionales)
+        </div>
+
+        <div class="text-container">
+          <p>
+            Talleres de muralismo comunitario desarrollados junto a <strong>Corporación Voces de Chile</strong>.<br>
+            <strong>Proyecto financiado por la Corporación Cultural de La Florida – Fondo Entidades Culturales 2025 (Folio N°7).</strong>
+          </p>
+        </div>
+
+        <div class="text-container">
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2025-miguitas-ternura.jpg"
+              alt="Taller de muralismo comunitario en Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>Jardín Infantil Miguitas de Ternura</strong>, Villa Los Quillayes, La Florida.<br>
+            Proceso participativo de acercamiento al muralismo, exploración de imaginarios locales y práctica guiada.
+          </p>
+        </div>
+
+        <div class="text-container">
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2025-hans-asasperger.jpg"
+              alt="Talleres de muralismo comunitario en Escuela Especial Hans Asperger, La Florida"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>Escuela Especial Hans Asperger</strong>, La Florida.<br>
+            Talleres adaptados a contexto educativo especial: mediación visual, trabajo colaborativo y construcción de relato colectivo.
+          </p>
+        </div>
+      </div>
+
+      <!-- ETAPA 2: Organizaciones vecinales -->
+      <div class="entry">
+        <div class="fun-button right">
+          Talleres de muralismo comunitario – Etapa 2 (Organizaciones vecinales)
+        </div>
+
+        <div class="text-container">
+          <p>
+            Segunda etapa territorial del proceso: mediación comunitaria, acuerdos de intervención y desarrollo de diseño participativo.<br>
+            <strong>Proyecto financiado por la Corporación Cultural de La Florida – Fondo Entidades Culturales 2025 (Folio N°7).</strong>
+          </p>
+        </div>
+
+        <div class="text-container">
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2025-jjvv-23c.jpg"
+              alt="Talleres de muralismo comunitario con JJVV 23-C, Villa Chacón Zamora, La Florida"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>JJVV 23-C</strong>, Villa Chacón Zamora, La Florida.<br>
+            Trabajo territorial por etapas: escucha comunitaria, definición temática y producción colectiva.
+          </p>
+        </div>
+
+        <div class="text-container">
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2025-jjvv-24a.jpg"
+              alt="Talleres de muralismo comunitario con JJVV 24-A, Villa Alberto Larraguibel, La Florida"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>JJVV 24-A</strong>, Villa Alberto Larraguibel, La Florida.<br>
+            Proceso comunitario de diseño y práctica mural: organización barrial, construcción de imaginario y ejecución guiada.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- /2025 -->
+
     <!-- 2024 -->
     <div class="year" data-year="2024">
       <div class="entry">
@@ -49,10 +136,11 @@ permalink: /ES/docencia.html
           </div>
           <p>
             Enmarcado en el programa de fortalecimiento social en Villa Los Quillayes, comuna de La Florida.<br>
-            Taller para niñ@s y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
+            Taller para niñas, niños y jóvenes en Espacio Los Quillayes, mediante Corporación Cultural de La Florida.
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
           Taller de muralismo intensivo en Colegio María Pinto
@@ -83,10 +171,12 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left">
           Taller RECICLARTE – Cultura La Florida
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2023-corlf-reciclaje1.jpg" alt="Imagen del taller" loading="lazy">
@@ -95,6 +185,7 @@ permalink: /ES/docencia.html
             Taller de Reciclarte en Casa de la Cultura de La Florida, Corporación Cultural de La Florida, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2023-corlf-reciclaje2.jpg" alt="Imagen del taller" loading="lazy">
@@ -104,6 +195,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
           Taller de máscaras – primer ciclo, Espacio cultural Los Quillayes, La Florida
@@ -134,6 +226,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right">
           Artes Plásticas, Colegio San Esteban de Las Vizcachas
@@ -155,6 +248,7 @@ permalink: /ES/docencia.html
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
           Talleres Artísticos FIBRA MINEDUC: Arte en tiempos de pandemia
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2021-hue.jpg" alt="Imagen del taller" loading="lazy">
@@ -163,6 +257,7 @@ permalink: /ES/docencia.html
             Colegio Hueñicito, La Pintana, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2021-snest.jpg" alt="Imagen del taller" loading="lazy">
@@ -172,6 +267,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
           Talleres de verano – Cultura La Florida
@@ -202,10 +298,12 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2020.html';">
           Talleres Artísticos FIBRA MINEDUC: Arte en tiempos de pandemia
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2020-fibra-hue.jpg" alt="Imagen del taller" loading="lazy">
@@ -214,6 +312,7 @@ permalink: /ES/docencia.html
             Colegio Hueñicito, La Pintana, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2020-fibra-snes.jpg" alt="Imagen del taller" loading="lazy">
@@ -223,6 +322,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
           Taller de muralismo intensivo en Hogar de menores José María Caro
@@ -244,6 +344,7 @@ permalink: /ES/docencia.html
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2019.html';">
           Talleres Artísticos FIBRA MINEDUC
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2019-altascumbre-fibra.jpg" alt="Imagen del taller" loading="lazy">
@@ -252,6 +353,7 @@ permalink: /ES/docencia.html
             Taller de muralismo, Colegio Altas Cumbres, Puente Alto, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2019-losandes.jpg" alt="Imagen del taller" loading="lazy">
@@ -260,6 +362,7 @@ permalink: /ES/docencia.html
             Taller de Artes Plásticas, Escuela Los Andes, Puente Alto, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2019-snesteb.jpg" alt="Imagen del taller" loading="lazy">
@@ -286,7 +389,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
-      
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2018.html';">
           Talleres Artísticos FIBRA MINEDUC: Taller de muralismo
@@ -300,7 +403,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
-      
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
           Taller de muralismo – Programa SENDA Previene
@@ -322,6 +425,7 @@ permalink: /ES/docencia.html
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2017.html';">
           Taller de muralismo – Programa SENDA Previene, Región Metropolitana
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2017-senda-colegio.jpg" alt="Imagen del taller" loading="lazy">
@@ -330,6 +434,7 @@ permalink: /ES/docencia.html
             Taller de pintura en Colegio Mirador, San Ramón, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2017-senda-lautaro.jpg" alt="Imagen del taller" loading="lazy">
@@ -361,6 +466,7 @@ permalink: /ES/docencia.html
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
           Talleres Artísticos FIBRA MINEDUC: Taller de pintura y muralismo
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2016-ceia-graff.jpg" alt="Imagen del taller" loading="lazy">
@@ -369,6 +475,7 @@ permalink: /ES/docencia.html
             Colegio C.E.I.A, La Pintana, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2016-graff-licptealto.jpg" alt="Imagen del taller" loading="lazy">
@@ -428,6 +535,7 @@ permalink: /ES/docencia.html
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2015.html';">
           Taller de muralismo – Programa SENDA Previene
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2015-lo-cañas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
@@ -436,6 +544,7 @@ permalink: /ES/docencia.html
             Programa SENDA Previene: Actuar a tiempo. Colegio Lo Cañas, La Florida, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2015-london-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
@@ -444,6 +553,7 @@ permalink: /ES/docencia.html
             Programa SENDA Previene: Actuar a tiempo. Colegio London, La Florida, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2015-navios-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
@@ -503,6 +613,7 @@ permalink: /ES/docencia.html
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2013.html';">
           Talleres Artísticos – Programa Chile Previene, SENDA: Mosaico
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2013-elsa1.jpg" alt="Imagen del taller" loading="lazy">
@@ -511,6 +622,7 @@ permalink: /ES/docencia.html
             Colegio Maestra Elsa Santibáñez, La Florida, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2013-mel2.jpg" alt="Imagen del taller" loading="lazy">
@@ -519,6 +631,7 @@ permalink: /ES/docencia.html
             Colegio María Elena, La Florida, Santiago.
           </p>
         </div>
+
         <div class="text-container">
           <div class="imagen">
             <img src="/assets/img/docencia-2013-sotero1.jpg" alt="Imagen del taller" loading="lazy">
@@ -545,6 +658,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button left" onclick="window.location.href='/ES/taller-2012.html';">
           Taller de Artes Visuales (EDEX)
@@ -558,6 +672,7 @@ permalink: /ES/docencia.html
           </p>
         </div>
       </div>
+
       <div class="entry">
         <div class="fun-button right" onclick="window.location.href='/ES/taller-2012.html';">
           Talleres Artísticos – Programa Mi Barrio en Paz: Muralismo
@@ -572,7 +687,7 @@ permalink: /ES/docencia.html
         </div>
       </div>
     </div>
-    
+
     <!-- 2011 -->
     <div class="year" data-year="2011">
       <div class="entry">
@@ -589,6 +704,7 @@ permalink: /ES/docencia.html
         </div>
       </div>
     </div>
-    
+
   </div><!-- .timeline -->
 </div><!-- .timeline-container -->
+```
