@@ -132,6 +132,8 @@ graph LR
   Paisajes reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
   atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
 </p>
+<br>
+<h3 class="subtitulo2">Paisaje Wi Fi n°1, 2015</h3>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -139,7 +141,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -188,6 +190,34 @@ graph LR
          loading="lazy">
     <figcaption>
       <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+</div>
+
+<br>
+<h3 class="subtitulo2">Paisaje Wi Fi n°2, 2016</h3>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-02-001.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+</div>
+
+<br>
+<h3 class="subtitulo2">Paisaje Wi Fi n°3, 2020</h3>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-02-001.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
     </figcaption>
   </figure>
 </div>
