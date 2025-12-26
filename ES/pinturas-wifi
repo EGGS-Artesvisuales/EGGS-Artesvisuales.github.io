@@ -125,12 +125,17 @@ graph LR
 
 <hr class="separador">
 
-<h2 class="subtitulo">Pinturas Wi-Fi: Paisajes</h2>
-<h3 class="subtitulo2">S/t 001, óleo sobre tela</h3>
+
+<h2 class="subtitulo" id="paisajes">Pinturas Wi-Fi: Paisajes</h2>
+<h3 class="subtitulo2">Variaciones del paisaje bajo interferencia</h3>
+<p class="parrafo">
+  Paisajes reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
+  atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
+</p>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-001.jpg"
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-002.jpg"
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
@@ -138,7 +143,7 @@ graph LR
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-002.jpg"
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-001.jpg"
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
@@ -183,26 +188,6 @@ graph LR
          loading="lazy">
     <figcaption>
       <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
-    </figcaption>
-  </figure>
-</div>
-
-<hr class="separador">
-
-<h2 class="subtitulo" id="paisajes">Pinturas Wi-Fi: Paisajes</h2>
-<h3 class="subtitulo2">Variaciones del paisaje bajo interferencia</h3>
-<p class="parrafo">
-  Paisajes reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
-  atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
-</p>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
-         alt="Pinturas Wi-Fi – Paisaje n.º 001, 65 × 85 cm, 2020"
-         loading="lazy">
-    <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 65 × 85 cm, 2020</em>
     </figcaption>
   </figure>
 </div>
