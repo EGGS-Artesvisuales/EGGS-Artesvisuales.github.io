@@ -130,11 +130,59 @@ graph LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
-         alt="Pinturas Wi-Fi – Paisaje n.º 1, 65 × 85 cm, 2020"
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-001.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 65 × 85 cm, 2020</em>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-002.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-003.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-004.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-005.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-006.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+    </figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/lo-invisible-pintura-wifi-01-007.jpg"
+         alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
+         loading="lazy">
+    <figcaption>
+      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
 </div>
