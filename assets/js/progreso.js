@@ -1,80 +1,99 @@
-document.addEventListener("DOMContentLoaded", async function() {
-  console.log("📢 Script progreso.js cargado correctamente");
+document.addEventListener("DOMContentLoaded", async function () {
+  // Meta (fuente de verdad)
+  const metaCLP = 20300000;
 
-  // Meta de financiamiento
-  const metaUSD = 23000;
-  const usdToClp = 800; // Tasa de conversión USD → CLP
+  // Tasa USD→CLP (idealmente muévela a config/JSON si la cambiarás)
+  const usdToClp = 800;
 
-  // Elementos del DOM
+  // DOM
   const progressBar = document.getElementById("progreso-barra");
   const recaudadoEl = document.getElementById("recaudado");
   const porcentajeGlobalEl = document.getElementById("porcentaje-global");
   const porcentajeUnitarioEl = document.getElementById("porcentaje-unitario");
 
-  // Endpoint de la función Netlify
+  // (Opcional) crea este <p id="ultima-actualizacion"></p> si quieres mostrar timestamp
+  const ultimaEl = document.getElementById("ultima-actualizacion");
+
+  // Function Netlify
   const endpoint = "https://eggs-studio.cl/.netlify/functions/get-recaudado";
 
-  // Detectar el idioma; se espera que la etiqueta <html> tenga el atributo lang (por ejemplo, "en" o "es")
   const lang = document.documentElement.lang || "es";
 
-  // Función para actualizar la barra de progreso e información
+  // Estado: último valor válido
+  let lastGood = null;
+
+  function formatMoney(n, currency, locale) {
+    return new Intl.NumberFormat(locale, { style: "currency", currency }).format(n);
+  }
+
+  function setUI({ recaudadoUSD }) {
+    const recaudadoCLP = recaudadoUSD * usdToClp;
+    const porcentaje = Math.min((recaudadoCLP / metaCLP) * 100, 100);
+
+    if (progressBar) {
+      progressBar.style.width = `${porcentaje}%`;
+      progressBar.textContent = `${Math.floor(porcentaje)}%`;
+      progressBar.setAttribute("aria-valuenow", `${Math.floor(porcentaje)}`);
+    }
+
+    const locale = lang === "en" ? "en-US" : "es-CL";
+
+    if (recaudadoEl) {
+      recaudadoEl.textContent =
+        lang === "en"
+          ? `Raised: ${formatMoney(recaudadoUSD, "USD", locale)} (${formatMoney(recaudadoCLP, "CLP", locale)})`
+          : `Recaudado: ${formatMoney(recaudadoUSD, "USD", locale)} (${formatMoney(recaudadoCLP, "CLP", locale)})`;
+    }
+
+    if (porcentajeGlobalEl) {
+      porcentajeGlobalEl.textContent =
+        lang === "en" ? `Global Percentage: ${Math.floor(porcentaje)}%` : `Porcentaje global: ${Math.floor(porcentaje)}%`;
+    }
+
+    if (porcentajeUnitarioEl) {
+      const unit = recaudadoCLP / metaCLP;
+      porcentajeUnitarioEl.textContent =
+        lang === "en" ? `Unit Progress: ${unit.toFixed(4)}` : `Progreso unitario: ${unit.toFixed(4)}`;
+    }
+
+    if (ultimaEl) {
+      const now = new Date();
+      ultimaEl.textContent =
+        lang === "en"
+          ? `Last update: ${now.toLocaleString(locale)}`
+          : `Última actualización: ${now.toLocaleString(locale)}`;
+    }
+  }
+
   async function actualizarProgreso() {
     try {
-      console.log("🔄 Solicitando datos de recaudación...");
-      const response = await fetch(endpoint);
-      if (!response.ok) {
-        throw new Error(`❌ HTTP error! Status: ${response.status}`);
-      }
+      const response = await fetch(endpoint, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
       const data = await response.json();
-      console.log("✅ Datos obtenidos:", data);
-      if (!data || typeof data.recaudado !== "number") {
-        throw new Error("⚠️ Respuesta inválida de la API");
-      }
-      
-      const recaudadoUSD = data.recaudado || 0;
-      const porcentaje = Math.min((recaudadoUSD / metaUSD) * 100, 100);
-      const recaudadoCLP = recaudadoUSD * usdToClp;
-      
-      // Actualizar barra de progreso
-      if (progressBar) {
-        progressBar.style.width = `${porcentaje}%`;
-        progressBar.textContent = `${Math.floor(porcentaje)}%`;
-      }
-      
-      // Actualizar textos según el idioma
-      if (recaudadoEl) {
-        recaudadoEl.textContent = lang === "en"
-          ? `Raised: $${recaudadoUSD.toLocaleString()} USD (${recaudadoCLP.toLocaleString()} CLP)`
-          : `Recaudado: $${recaudadoUSD.toLocaleString()} USD (${recaudadoCLP.toLocaleString()} CLP)`;
-      }
-      if (porcentajeGlobalEl) {
-        porcentajeGlobalEl.textContent = lang === "en"
-          ? `Global Percentage: ${Math.floor(porcentaje)}%`
-          : `Porcentaje global: ${Math.floor(porcentaje)}%`;
-      }
-      if (porcentajeUnitarioEl) {
-        porcentajeUnitarioEl.textContent = lang === "en"
-          ? `Unit Progress: ${(recaudadoUSD / metaUSD).toFixed(2)}`
-          : `Progreso unitario: ${(recaudadoUSD / metaUSD).toFixed(2)}`;
-      }
-      
-    } catch (error) {
-      console.error("❌ Error al obtener datos:", error);
-      if (progressBar) {
-        progressBar.style.width = "0%";
-        progressBar.textContent = "Error";
+      if (!data || typeof data.recaudado !== "number") throw new Error("Respuesta inválida");
+
+      lastGood = { recaudadoUSD: data.recaudado };
+      setUI(lastGood);
+    } catch (err) {
+      // Si ya hubo un valor válido, lo mantenemos y solo avisamos.
+      if (!lastGood) {
+        if (progressBar) {
+          progressBar.style.width = "0%";
+          progressBar.textContent = "—";
+        }
       }
       if (recaudadoEl) {
-        recaudadoEl.textContent = lang === "en"
-          ? "Error fetching funding data."
-          : "Error al obtener los datos de financiamiento.";
+        recaudadoEl.textContent =
+          lang === "en"
+            ? "Funding data temporarily unavailable."
+            : "Datos de financiamiento no disponibles temporalmente.";
       }
     }
   }
 
-  // Llamada inicial para obtener los datos al cargar la página
   await actualizarProgreso();
 
-  // Actualización automática cada 30 segundos
-  setInterval(actualizarProgreso, 30000);
+  // Sugerencia: 60–300s suele ser suficiente (menos carga). Ajusta si lo necesitas.
+  setInterval(actualizarProgreso, 120000);
 });
