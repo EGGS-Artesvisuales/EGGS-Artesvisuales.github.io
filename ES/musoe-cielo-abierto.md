@@ -7,20 +7,24 @@ permalink: /ES/musoe-cielo-abierto.html
 progreso: true
 ---
 
-<h1 class="titulo">"Musoe" a Cielo Abierto</h1>
+<h1 class="titulo">Musoe a Cielo Abierto</h1>
 <h2 class="subtitulo">Contribuye al desarrollo mural en la Villa Alberto Larraguibel</h2>
 
 <br><br>
 
 <!-- Imagen principal -->
 <div class="imagen">
-  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Musoe a Cielo Abierto - Mural Selknam" loading="lazy">
+  <img
+    src="/assets/img/selknam-niñes-01-museo.jpg"
+    alt="Musoe a Cielo Abierto: mural Selk’nam con niñes en la Villa Alberto Larraguibel"
+    loading="lazy"
+  >
 </div>
 
 <br>
 
 <p class="parrafo">
-  <strong>“Musoe a Cielo Abierto”</strong> es un proyecto de arte público desarrollado en la Villa Alberto Larraguibel, en la comuna de La Florida. A través del muralismo, buscamos revitalizar fachadas y espacios comunes, transformándolos en soportes de memoria, identidad y encuentro vecinal. Cada muro intervenido dialoga con la historia del barrio, sus habitantes y sus transformaciones, poniendo en valor aquello que suele pasar desapercibido en la vida cotidiana.
+  <strong>Musoe a Cielo Abierto</strong> es un proyecto de arte público desarrollado en la Villa Alberto Larraguibel, en la comuna de La Florida. A través del muralismo, buscamos revitalizar fachadas y espacios comunes, transformándolos en soportes de memoria, identidad y encuentro vecinal. Cada muro intervenido dialoga con la historia del barrio, sus habitantes y sus transformaciones, poniendo en valor aquello que suele pasar desapercibido en la vida cotidiana.
 </p>
 
 <p class="parrafo">
@@ -43,7 +47,7 @@ progreso: true
 <ul class="parrafo">
   <li>Adquisición de pinturas, sellos y materiales especializados para murales de gran formato.</li>
   <li>Arriendo y uso de andamios y equipos de trabajo en altura, garantizando seguridad y calidad en la ejecución.</li>
-  <li>Registro fotográfico y audiovisual del proceso como parte del futuro archivo y museo digital “Musoe”.</li>
+  <li>Registro fotográfico y audiovisual del proceso como parte del futuro archivo y museo digital Musoe.</li>
   <li>Honorarios básicos para el trabajo artístico, la coordinación comunitaria y la documentación del proyecto.</li>
   <li>Diseño y producción de piezas gráficas y material informativo para la comunidad.</li>
 </ul>
@@ -58,14 +62,33 @@ progreso: true
 <br>
 
 <!-- Contenedor de la barra de progreso -->
-<div class="barra-progreso-container">
-  <label for="progreso-barra">Progreso del financiamiento:</label>
+<div class="barra-progreso-container" aria-label="Estado de financiamiento del proyecto">
+  <p class="parrafo" style="margin-bottom: 0.5rem;">
+    <strong>Progreso del financiamiento:</strong>
+  </p>
+
   <div class="barra-progreso">
-    <div class="barra-progreso-fill" id="progreso-barra">0%</div>
+    <div
+      class="barra-progreso-fill"
+      id="progreso-barra"
+      role="progressbar"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+    >0%</div>
   </div>
 </div>
 
+<!-- Fallback si no hay JavaScript -->
+<noscript>
+  <p class="parrafo">
+    La barra de progreso requiere JavaScript para actualizarse automáticamente. Aun así, puedes donar con el botón y apoyar el proyecto.
+  </p>
+</noscript>
+
 <!-- Información adicional -->
+<p id="ultima-actualizacion"></p>
+
 <div class="progress-info">
   <p id="recaudado"></p>
   <p id="porcentaje-global"></p>
@@ -74,7 +97,7 @@ progreso: true
 
 <br>
 
-<h2 class="subtitulo">Cómo apoyar “Musoe a Cielo Abierto”</h2>
+<h2 class="subtitulo">Cómo apoyar Musoe a Cielo Abierto</h2>
 <br>
 
 <p class="parrafo">
@@ -83,7 +106,12 @@ progreso: true
 
 <!-- Botón de donación -->
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
-  <input class="boton-donacion" type="submit" value="Impulsar el proyecto" aria-label="Donar para el proyecto Musoe a Cielo Abierto">
+  <input
+    class="boton-donacion"
+    type="submit"
+    value="Impulsar el proyecto"
+    aria-label="Donar para el proyecto Musoe a Cielo Abierto"
+  >
 </form>
 
 <p class="parrafo">
