@@ -133,6 +133,8 @@ graph LR
 
 <hr class="separador" />
 
+Aquí tienes el **mismo gráfico** con los **hijos agregados** a **“La Anti-Publicidad”** y con sus **clicks a `en-construccion.html`** (sin duplicar clicks existentes):
+
 <!-- 2) Acción en el Mundo -->
 <h2 class="subtitulo">Acción en el Mundo</h2>
 
@@ -142,6 +144,11 @@ graph LR
   B1 --> B1a([Remiendas\nUrbanas])
   B1 --> B1b([La Anti-Publicidad])
   B1 --> B1c([Graffiti\n& Tags])
+
+  %% HIJOS: La Anti-Publicidad (nuevos)
+  B1b --> B1b1([PP series])
+  B1b --> B1b2([Carteles])
+  B1b --> B1b3([Piratería publicitaria])
 
   B --> B2((Lo Comunitario))
   B2 --> B2a([Muralismo])
@@ -174,6 +181,11 @@ graph LR
   click B4a "en-construccion.html" "En construcción"
   click B4b "en-construccion.html" "En construcción"
   click B4c "en-construccion.html" "En construcción"
+
+  %% Enlaces (nuevos hijos -> en construcción)
+  click B1b1 "en-construccion.html" "En construcción"
+  click B1b2 "en-construccion.html" "En construcción"
+  click B1b3 "en-construccion.html" "En construcción"
 </div>
 
 <hr class="separador" />
