@@ -34,13 +34,31 @@ graph LR
   A1a1a --> A1a1a1([Soportes tradicionales])
   A1a1a --> A1a1a2([Soportes Blandos])
 
+  %% HIJOS: Soportes tradicionales
+  A1a1a1 --> ST_OP([Obras propias])
+  A1a1a1 --> ST_OA([Obras ajenas])
+
+  %% HIJOS: Soportes Blandos
+  A1a1a2 --> SB_MEM([Membranas])
+  A1a1a2 --> SB_MOD([Módulos])
+  A1a1a2 --> SB_PU([Página única])
+
   A1a1 --> A1a1b([Desplazamiento de la Pintura])
   A1a1b --> A1a1b1([Espacio Doméstico])
   A1a1b --> A1a1b2([Espacio Público])
   A1a1b --> A1a1b3([Espacio Rural / Natural])
 
+  %% HIJOS: Espacio Doméstico
+  A1a1b1 --> ED_OBJ([Objetos])
+  A1a1b1 --> ED_HAB([Habitaciones])
+
   A1a --> A1a2([Lo Invisible])
   A1a2 --> A1a2a([Pinturas Wi-Fi])
+
+  %% HIJOS: Pinturas Wi-Fi
+  A1a2a --> PW_RET([Retratos])
+  A1a2a --> PW_PAI([Paisajes])
+  A1a2a --> PW_BOD([Bodegones])
 
   A1 --> A1b((La Tecnología))
   A1b --> A1b1([La IA])
@@ -66,18 +84,49 @@ graph LR
   click A2 "intangible.html" "Ir a Lo Intangible"
   click A1a "saturacion.html" "Ir a La Saturación"
   click A1a1 "la-peste.html" "Ir a La Peste"
-  click A1a1a "peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
+
+  %% Pinturas Infectadas (página)
+  click A1a1a "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
+
+  %% Desplazamiento (página)
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "espacio-domestico.html" "Ir a Espacio Doméstico"
+
+  %% Espacios (páginas)
+  click A1a1b1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
   click A1a1b2 "espacio-publico.html" "Ir a Espacio Público"
   click A1a1b3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
+
+  %% Lo Invisible (página)
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
+
+  %% Pinturas Wi-Fi (página)
+  click A1a2a "/ES/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
+
+  %% Museo a Cielo Abierto (página)
   click A2c1 "musoe-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
+  %% Enlaces a SECCIONES internas (anchors)
+
+  %% Pinturas Infectadas: Soportes Tradicionales / Blandos
+  click A1a1a1 "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
+  click ST_OA "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas (Intervenciones)"
+  click ST_OP "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias (Producciones)"
+
+  click A1a1a2 "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
+  click SB_MEM "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
+  click SB_MOD "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
+  click SB_PU "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Página única (Unidades)"
+
+  %% Espacio Doméstico: Objetos / Habitaciones
+  click ED_OBJ "/es/espacio-domestico#objetos" "Ir a Objetos"
+  click ED_HAB "/es/espacio-domestico#habitaciones" "Ir a Habitaciones"
+
+  %% Pinturas Wi-Fi: Retratos / Paisajes / Bodegones
+  click PW_PAI "/ES/pinturas-wifi.html#paisajes" "Ir a Paisajes"
+  click PW_RET "/ES/pinturas-wifi.html#retratos" "Ir a Retratos"
+  click PW_BOD "/ES/pinturas-wifi.html#bodegones" "Ir a Bodegones"
+
   %% Enlaces (no existentes aún -> en construcción)
-  click A1a1a1 "en-construccion.html" "En construcción"
-  click A1a1a2 "en-construccion.html" "En construcción"
-  click A1a2a "en-construccion.html" "En construcción"
   click A1b "en-construccion.html" "En construcción"
   click A1b1 "en-construccion.html" "En construcción"
   click A1b2 "en-construccion.html" "En construcción"
@@ -92,6 +141,7 @@ graph LR
   click A2c "en-construccion.html" "En construcción"
   click A2c2 "en-construccion.html" "En construcción"
 </div>
+
 
 <hr class="separador" />
 
