@@ -133,8 +133,6 @@ graph LR
 
 <hr class="separador" />
 
-Aquí tienes el **mismo gráfico** con los **hijos agregados** a **“La Anti-Publicidad”** y con sus **clicks a `en-construccion.html`** (sin duplicar clicks existentes):
-
 <!-- 2) Acción en el Mundo -->
 <h2 class="subtitulo">Acción en el Mundo</h2>
 
