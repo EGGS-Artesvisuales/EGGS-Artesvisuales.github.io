@@ -84,49 +84,39 @@ graph LR
   click A2 "intangible.html" "Ir a Lo Intangible"
   click A1a "saturacion.html" "Ir a La Saturación"
   click A1a1 "la-peste.html" "Ir a La Peste"
-
-  %% Pinturas Infectadas (página)
-  click A1a1a "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
-
-  %% Desplazamiento (página)
+  click A1a1a "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-
-  %% Espacios (páginas)
   click A1a1b1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
   click A1a1b2 "espacio-publico.html" "Ir a Espacio Público"
   click A1a1b3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
-
-  %% Lo Invisible (página)
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-
-  %% Pinturas Wi-Fi (página)
-  click A1a2a "/ES/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
-
-  %% Museo a Cielo Abierto (página)
   click A2c1 "musoe-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
-  %% Enlaces a SECCIONES internas (anchors)
+  %% NUEVOS ENLACES: Nodos + hijos con anchors (ya existentes)
 
-  %% Pinturas Infectadas: Soportes Tradicionales / Blandos
+  %% Soportes tradicionales + hijos
   click A1a1a1 "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
-  click ST_OA "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas (Intervenciones)"
-  click ST_OP "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias (Producciones)"
+  click ST_OP  "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias"
+  click ST_OA  "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas"
 
+  %% Soportes blandos + hijos
   click A1a1a2 "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
   click SB_MEM "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
   click SB_MOD "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
-  click SB_PU "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Página única (Unidades)"
+  click SB_PU  "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
 
-  %% Espacio Doméstico: Objetos / Habitaciones
+  %% Espacio doméstico + hijos
   click ED_OBJ "/es/espacio-domestico#objetos" "Ir a Objetos"
   click ED_HAB "/es/espacio-domestico#habitaciones" "Ir a Habitaciones"
 
-  %% Pinturas Wi-Fi: Retratos / Paisajes / Bodegones
-  click PW_PAI "/ES/pinturas-wifi.html#paisajes" "Ir a Paisajes"
+  %% Pinturas Wi-Fi + hijos
+  click A1a2a "/ES/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
   click PW_RET "/ES/pinturas-wifi.html#retratos" "Ir a Retratos"
+  click PW_PAI "/ES/pinturas-wifi.html#paisajes" "Ir a Paisajes"
   click PW_BOD "/ES/pinturas-wifi.html#bodegones" "Ir a Bodegones"
 
   %% Enlaces (no existentes aún -> en construcción)
+  click A1a1a2 "en-construccion.html" "En construcción"
   click A1b "en-construccion.html" "En construcción"
   click A1b1 "en-construccion.html" "En construcción"
   click A1b2 "en-construccion.html" "En construcción"
