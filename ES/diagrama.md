@@ -34,12 +34,10 @@ graph LR
   A1a1a --> A1a1a1([Soportes tradicionales])
   A1a1a --> A1a1a2([Soportes Blandos])
 
-  %% HIJOS: Soportes tradicionales
-  A1a1a1 --> ST_OP([Obras propias])
+   A1a1a1 --> ST_OP([Obras propias])
   A1a1a1 --> ST_OA([Obras ajenas])
 
-  %% HIJOS: Soportes Blandos
-  A1a1a2 --> SB_MEM([Membranas])
+   A1a1a2 --> SB_MEM([Membranas])
   A1a1a2 --> SB_MOD([Módulos])
   A1a1a2 --> SB_PU([Página única])
 
@@ -48,15 +46,13 @@ graph LR
   A1a1b --> A1a1b2([Espacio Público])
   A1a1b --> A1a1b3([Espacio Rural / Natural])
 
-  %% HIJOS: Espacio Doméstico
   A1a1b1 --> ED_OBJ([Objetos])
   A1a1b1 --> ED_HAB([Habitaciones])
 
   A1a --> A1a2([Lo Invisible])
   A1a2 --> A1a2a([Pinturas Wi-Fi])
 
-  %% HIJOS: Pinturas Wi-Fi
-  A1a2a --> PW_RET([Retratos])
+   A1a2a --> PW_RET([Retratos])
   A1a2a --> PW_PAI([Paisajes])
   A1a2a --> PW_BOD([Bodegones])
 
@@ -78,8 +74,7 @@ graph LR
   A2c --> A2c1([Museo a Cielo Abierto])
   A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
 
-  %% Enlaces (existentes)
-  click A "mundo-exterior.html" "Ir a Representación del Mundo"
+   click A "mundo-exterior.html" "Ir a Representación del Mundo"
   click A1 "tangible.html" "Ir a Lo Tangible"
   click A2 "intangible.html" "Ir a Lo Intangible"
   click A1a "saturacion.html" "Ir a La Saturación"
@@ -92,30 +87,28 @@ graph LR
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
   click A2c1 "musoe-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
-  %% NUEVOS ENLACES: Nodos + hijos con anchors (ya existentes)
 
-  %% Soportes tradicionales + hijos
-  click A1a1a1 "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
+   click A1a1a1 "/ES/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
   click ST_OP  "/ES/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias"
   click ST_OA  "/ES/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas"
 
-  %% Soportes blandos + hijos
+ 
   click A1a1a2 "/ES/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
   click SB_MEM "/ES/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
   click SB_MOD "/ES/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
   click SB_PU  "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
 
-  %% Espacio doméstico + hijos
+ 
   click ED_OBJ "/es/espacio-domestico#objetos" "Ir a Objetos"
   click ED_HAB "/es/espacio-domestico#habitaciones" "Ir a Habitaciones"
 
-  %% Pinturas Wi-Fi + hijos
+
   click A1a2a "/ES/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
   click PW_RET "/ES/pinturas-wifi.html#retratos" "Ir a Retratos"
   click PW_PAI "/ES/pinturas-wifi.html#paisajes" "Ir a Paisajes"
   click PW_BOD "/ES/pinturas-wifi.html#bodegones" "Ir a Bodegones"
 
-  %% Enlaces (no existentes aún -> en construcción)
+
   click A1a1a2 "en-construccion.html" "En construcción"
   click A1b "en-construccion.html" "En construcción"
   click A1b1 "en-construccion.html" "En construcción"
