@@ -15,7 +15,14 @@ carousel: true
   Universo creativo de Esteban Garnica.
 </h2>
 
-<br><br>
+<br>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
+</figure>
+
+<br><br><br>
 
 <p class="parrafo" style="margin-top: 7%;">
   Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
