@@ -15,7 +15,6 @@ mermaid: true
 <!-- Subtítulo -->
 <h2 class="subtitulo">Dípticos murales: retratos de pueblos originarios en el espacio público</h2>
 
-<!-- Mermaid graph (rama compacta coherente con tu árbol) -->
 <!-- Mermaid graph (rama compacta + musoe desplegado) -->
 <div class="mermaid">
 graph LR
@@ -27,9 +26,9 @@ graph LR
   I --> AN((Imágenes de los Ancestros))
 
   AN --> AN_M((Muralismo / Intervención pictórica))
-  AN --> AN_A([Acción / Foto-performance + Video])
+  AN --> AN_A((Acción / Foto-performance + Video))
 
-  AN_M --> MCA((Musoe a Cielo Abierto))
+  AN_M --> MCA([Musoe a Cielo Abierto])
   AN_A --> MU([Mapuche Urbano: La Tala de la Memoria])
 
   %% DESARROLLO MUSOE (hijos internos)
@@ -41,7 +40,7 @@ graph LR
   %% Links (ES)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click T "/ES/tangible.html" "Ir a Lo Tangible"
-  click I "/ES/intangible.html" "Ir a Lo Intangible"
+  click I "/ES/tangible.html" "Ir a Lo Intangible"
 
   click C "/ES/imagenes-capitalismo.html" "Ir a El Capitalismo"
   click P "/ES/imagenes-popular.html" "Ir a Lo Popular"
@@ -61,6 +60,7 @@ graph LR
   click MCA3 "/ES/musoe-a-cielo-abierto.html#rapa-nui" "Ir a Musoe 3 — Rapa Nui"
   click MCA4 "/ES/musoe-a-cielo-abierto.html#selknam" "Ir a Musoe 4 — Selk'nam"
 </div>
+
 <br>
 
 <!-- ===================== -->
@@ -206,65 +206,9 @@ graph LR
 <!-- Navegación rápida interna -->
 <section class="parrafo">
   <p>
-    <a href="#top">Volver arriba</a> ·
     <a href="#dipticos">Volver a Dípticos</a> ·
     <a href="/ES/imagenes-ancestros.html">Ir a Imágenes de los Ancestros</a>
   </p>
 </section>
+
 <hr class="separador separador--aire" />
-
-<!-- Carrusel de obras / registros -->
-<!-- Reemplaza las imágenes por tus archivos reales y/o agrega más items -->
-<div class="owl-carousel carousel-imagen">
-
-  <div class="item">
-    <a href="/assets/img/musoe/diptico-01.jpg">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/musoe/diptico-01.jpg" alt="Musoe a Cielo Abierto – Díptico mural 01" loading="lazy">
-      </div>
-      <figcaption>Díptico mural 01</figcaption>
-    </a>
-  </div>
-
-  <div class="item">
-    <a href="/assets/img/musoe/diptico-02.jpg">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/musoe/diptico-02.jpg" alt="Musoe a Cielo Abierto – Díptico mural 02" loading="lazy">
-      </div>
-      <figcaption>Díptico mural 02</figcaption>
-    </a>
-  </div>
-
-  <div class="item">
-    <a href="/assets/img/musoe/proceso-01.jpg">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/musoe/proceso-01.jpg" alt="Musoe a Cielo Abierto – Proceso de pintura" loading="lazy">
-      </div>
-      <figcaption>Registro de proceso</figcaption>
-    </a>
-  </div>
-
-</div>
-
-<br>
-
-<!-- Botones -->
-<div class="button-container">
-
-  <a href="/ES/imagenes-ancestros.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-ancestros.gif" alt="Imágenes de los Ancestros" loading="lazy">
-      <p class="title">Imágenes de los Ancestros</p>
-      <p class="subtitle">Volver a la rama de obra.</p>
-    </div>
-  </a>
-
-  <a href="/ES/mapuche-urbano.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-mapuche-urbano.gif" alt="Mapuche Urbano: La Tala de la Memoria" loading="lazy">
-      <p class="title">Mapuche Urbano</p>
-      <p class="subtitle">Acción / Foto-performance + Video.</p>
-    </div>
-  </a>
-
-</div>
