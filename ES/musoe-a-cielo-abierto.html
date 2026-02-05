@@ -3,7 +3,7 @@ layout: default-es
 lang: es
 title: "Musoe a Cielo Abierto – Dípticos murales de pueblos originarios | Esteban Garnica"
 description: "Musoe a Cielo Abierto: serie de dípticos murales dedicados a pueblos originarios, instalados en espacio público como retrato, memoria y presencia comunitaria."
-permalink: /ES/musoe-a-cielo-abierto
+permalink: /ES/musoe-a-cielo-abierto.html
 keywords: "Musoe a Cielo Abierto, museo a cielo abierto, díptico mural, pueblos originarios, muralismo, arte público, memoria, Esteban Garnica, EGGS-Studio, La Florida, Santiago"
 carousel: true
 mermaid: true
@@ -18,7 +18,7 @@ mermaid: true
 <!-- Mermaid graph (rama compacta + musoe desplegado) -->
 <div class="mermaid">
 graph LR
-  A((Representación del Mundo)) --> T((Lo Tangible))
+  A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
 
   I --> C([El Capitalismo])
@@ -26,9 +26,9 @@ graph LR
   I --> AN((Imágenes de los Ancestros))
 
   AN --> AN_M((Muralismo / Intervención pictórica))
-  AN --> AN_A((Acción / Foto-performance + Video))
+  AN --> AN_A([Acción / Foto-performance + Video])
 
-  AN_M --> MCA([Musoe a Cielo Abierto])
+  AN_M --> MCA((Musoe a Cielo Abierto))
   AN_A --> MU([Mapuche Urbano: La Tala de la Memoria])
 
   %% DESARROLLO MUSOE (hijos internos)
@@ -40,7 +40,7 @@ graph LR
   %% Links (ES)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click T "/ES/tangible.html" "Ir a Lo Tangible"
-  click I "/ES/tangible.html" "Ir a Lo Intangible"
+  click I "/ES/intangible.html" "Ir a Lo Intangible"
 
   click C "/ES/imagenes-capitalismo.html" "Ir a El Capitalismo"
   click P "/ES/imagenes-popular.html" "Ir a Lo Popular"
@@ -78,7 +78,7 @@ graph LR
     <br><br>
     El nombre <em>Musoe</em> combina el pseudónimo que usé al graffitear en adolescencia (<em>Jusoe</em>) con la palabra <em>Museo</em>, dialogando con la tradición del
     “museo a cielo abierto”. El formato díptico surge de la configuración del lugar: edificios construidos en parejas, lo que facilita una lectura polar y complementaria
-    (hombre/mujer).
+    (hombre/mujer; figura/símbolo; presencia/territorio).
   </p>
 </section>
 
@@ -203,7 +203,7 @@ graph LR
 
 <hr class="separador separador--aire" />
 
-<!-- Navegación rápida interna -->
+<!-- Navegación rápida interna (sin #top) -->
 <section class="parrafo">
   <p>
     <a href="#dipticos">Volver a Dípticos</a> ·
@@ -211,4 +211,26 @@ graph LR
   </p>
 </section>
 
-<hr class="separador separador--aire" />
+<br>
+
+<!-- Botones -->
+<div class="button-container">
+
+  <a href="/ES/imagenes-ancestros.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-ancestros.gif" alt="Imágenes de los Ancestros" loading="lazy">
+      <p class="title">Imágenes de los Ancestros</p>
+      <p class="subtitle">Volver a la rama de obra.</p>
+    </div>
+  </a>
+
+  <a href="/ES/mapuche-urbano.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-mapuche-urbano.gif" alt="Mapuche Urbano: La Tala de la Memoria" loading="lazy">
+      <p class="title">Mapuche Urbano</p>
+      <p class="subtitle">Acción / Foto-performance + Video.</p>
+    </div>
+  </a>
+
+</div>
+
