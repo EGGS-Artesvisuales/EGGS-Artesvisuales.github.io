@@ -88,7 +88,7 @@ flowchart LR
 <!-- ===================== -->
 <!-- 1) MAPUCHES -->
 <!-- ===================== -->
-<h4 class="subtitulo2" id="mapuches">1. MUSOE A CIELO ABIERTO 1 — MAPUCHES (2018)</h4>
+<h4 class="subtitulo2" id="mapuches">1. MUSOE A CIELO ABIERTO 1 — AL Pueblo MAPUCHE (2018)</h4>
 
 <section class="parrafo">
   <p>
@@ -105,37 +105,37 @@ flowchart LR
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-003.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
     <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-001.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
     <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-002.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL PuebloMapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
     <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-004.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
       <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-006.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
       <figure class="imagen-con-caption item--imagen">
     <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-007.jpg"
          alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
          loading="lazy">
-    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — Mapuches, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
   </figure>
 </div>
 
@@ -144,7 +144,7 @@ flowchart LR
 <!-- ===================== -->
 <!-- 2) AIMARAS -->
 <!-- ===================== -->
-<h4 class="subtitulo2" id="aimaras">2. MUSOE A CIELO ABIERTO 2 — AIMARAS (2019)</h4>
+<h4 class="subtitulo2" id="aimaras">2. MUSOE A CIELO ABIERTO 2 — AL Pueblo AIMARA (2019)</h4>
 
 <section class="parrafo">
   <p>
@@ -188,7 +188,7 @@ flowchart LR
 <!-- ===================== -->
 <!-- 3) RAPA NUI -->
 <!-- ===================== -->
-<h4 class="subtitulo2" id="rapa-nui">3. MUSOE A CIELO ABIERTO 3 — RAPA NUI (2020)</h4>
+<h4 class="subtitulo2" id="rapa-nui">3. MUSOE A CIELO ABIERTO 3 — AL Pueblo RAPA NUI (2020)</h4>
 
 <section class="parrafo">
   <p>
@@ -250,7 +250,7 @@ flowchart LR
 <!-- ===================== -->
 <!-- 4) SELK'NAM -->
 <!-- ===================== -->
-<h4 class="subtitulo2" id="selknam">4. MUSOE A CIELO ABIERTO 4 — SELK'NAM (2021)</h4>
+<h4 class="subtitulo2" id="selknam">4. MUSOE A CIELO ABIERTO 4 — AL Pueblo SELK'NAM (2021)</h4>
 
 <section class="parrafo">
   <p>
