@@ -15,64 +15,26 @@ mermaid: true
 <!-- Subtítulo -->
 <h2 class="subtitulo">Dípticos murales: retratos de pueblos originarios en el espacio público</h2>
 
-<!-- Mermaid graph -->
+
+
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 <div class="mermaid">
 flowchart LR
   A((Representación del Mundo))
-  T([Lo Tangible])
-  I((Lo Intangible))
+  A --> T([Lo Tangible])
+  A --> I((Lo Intangible))
 
-  C([El Capitalismo])
-  P([Lo Popular])
-  AN((Imágenes de los Ancestros))
+  %% En Lo Intangible: muestro hermanos; solo desarrollo la ruta hacia Imágenes de los Ancestros
+  I --> C([El Capitalismo])
+  I --> P([Lo Popular])
+  I --> AN((Imágenes de los Ancestros))
 
-  AN_M((Muralismo / Intervención pictórica))
-  AN_A([Acción / Foto-performance + Video])
+  %% En Imágenes de los Ancestros: muestro hermanos; solo desarrollo la ruta hacia Muralismo / Intervención pictórica
+  AN --> AN_M((Muralismo / Intervención pictórica))
+  AN --> AN_A([Acción / Foto-performance + Video])
 
-  MCA((Musoe a Cielo Abierto))
-  MU([Mapuche Urbano: La Tala de la Memoria])
-
-  MCA1([1. Mapuches (2018)])
-  MCA2([2. Aimaras (2019)])
-  MCA3([3. Rapa Nui (2020)])
-  MCA4([4. Selknam (2021)])
-
-  A --> T
-  A --> I
-
-  I --> C
-  I --> P
-  I --> AN
-
-  AN --> AN_M
-  AN --> AN_A
-
-  AN_M --> MCA
-  AN_A --> MU
-
-  MCA --> MCA1
-  MCA --> MCA2
-  MCA --> MCA3
-  MCA --> MCA4
-
-  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
-  click T "/ES/tangible.html" "Ir a Lo Tangible"
-  click I "/ES/intangible.html" "Ir a Lo Intangible"
-
-  click C "/ES/imagenes-capitalismo.html" "Ir a El Capitalismo"
-  click P "/ES/imagenes-popular.html" "Ir a Lo Popular"
-  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-
-  click AN_M "/ES/en-construccion.html" "En construcción"
-  click AN_A "/ES/en-construccion.html" "En construcción"
-
-  click MCA "/ES/musoe-a-cielo-abierto.html#musoe" "Estás aquí"
-  click MU "/ES/mapuche-urbano.html" "Ir a Mapuche Urbano"
-
-  click MCA1 "/ES/musoe-a-cielo-abierto.html#mapuches" "Ir a Musoe 1 — Mapuches"
-  click MCA2 "/ES/musoe-a-cielo-abierto.html#aimaras" "Ir a Musoe 2 — Aimaras"
-  click MCA3 "/ES/musoe-a-cielo-abierto.html#rapa-nui" "Ir a Musoe 3 — Rapa Nui"
-  click MCA4 "/ES/musoe-a-cielo-abierto.html#selknam" "Ir a Musoe 4 — Selknam"
+  %% Llegada al neologismo "Musoe"
+  AN_M --> MCA((Musoe a Cielo Abierto))
 </div>
 
 
