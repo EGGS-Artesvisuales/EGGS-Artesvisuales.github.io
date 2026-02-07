@@ -18,23 +18,42 @@ mermaid: true
 <!-- Mermaid graph -->
 <div class="mermaid">
 flowchart LR
-  A((Representación del Mundo)) --> T([Lo Tangible])
-  A --> I((Lo Intangible))
+  A((Representación del Mundo))
+  T([Lo Tangible])
+  I((Lo Intangible))
 
-  I --> C([El Capitalismo])
-  I --> P([Lo Popular])
-  I --> AN((Imágenes de los Ancestros))
+  C([El Capitalismo])
+  P([Lo Popular])
+  AN((Imágenes de los Ancestros))
 
-  AN --> AN_M((Muralismo / Intervención pictórica))
-  AN --> AN_A([Acción / Foto-performance + Video])
+  AN_M((Muralismo / Intervención pictórica))
+  AN_A([Acción / Foto-performance + Video])
 
-  AN_M --> MCA((Musoe a Cielo Abierto))
-  AN_A --> MU([Mapuche Urbano: La Tala de la Memoria])
+  MCA((Musoe a Cielo Abierto))
+  MU([Mapuche Urbano: La Tala de la Memoria])
 
-  MCA --> MCA1([1. Mapuches (2018)])
-  MCA --> MCA2([2. Aimaras (2019)])
-  MCA --> MCA3([3. Rapa Nui (2020)])
-  MCA --> MCA4([4. Selknam (2021)])
+  MCA1([1. Mapuches (2018)])
+  MCA2([2. Aimaras (2019)])
+  MCA3([3. Rapa Nui (2020)])
+  MCA4([4. Selknam (2021)])
+
+  A --> T
+  A --> I
+
+  I --> C
+  I --> P
+  I --> AN
+
+  AN --> AN_M
+  AN --> AN_A
+
+  AN_M --> MCA
+  AN_A --> MU
+
+  MCA --> MCA1
+  MCA --> MCA2
+  MCA --> MCA3
+  MCA --> MCA4
 
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click T "/ES/tangible.html" "Ir a Lo Tangible"
