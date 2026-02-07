@@ -18,8 +18,15 @@ mermaid: true
 
 
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
+
 <div class="mermaid">
 flowchart LR
+  %% Página: Representación del Mundo
+  %% Regla visual:
+  %% - Ruta activa (nodos tocados): ((redondos))
+  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
+
   A((Representación del Mundo))
   A --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -35,8 +42,18 @@ flowchart LR
 
   %% Llegada al neologismo "Musoe"
   AN_M --> MCA((Musoe a Cielo Abierto))
-</div>
 
+  %% Links (ES/)
+  click A  "/ES/mundo-exterior.html"        "Ir a Representación del Mundo"
+  click T  "/ES/tangible.html"             "Ir a Lo Tangible"
+  click I  "/ES/intangible.html"           "Ir a Lo Intangible"
+  click C  "/ES/en-construccion.html"      "En construcción"
+  click P  "/ES/en-construccion.html"      "En construcción"
+  click AN "/ES/imagenes-ancestros.html"   "Ir a Imágenes de los Ancestros"
+  click AN_M "/ES/muralismo-intervencion.html" "Ir a Muralismo / Intervención pictórica"
+  click AN_A "/ES/en-construccion.html"    "En construcción"
+  click MCA "/ES/musoe-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+</div>
 
 <hr class="separador separador--aire" />
 
