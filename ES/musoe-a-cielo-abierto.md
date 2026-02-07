@@ -20,6 +20,7 @@ mermaid: true
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 <div class="mermaid">
 flowchart LR
   %% Página: Representación del Mundo
@@ -27,33 +28,30 @@ flowchart LR
   %% - Ruta activa (nodos tocados): ((redondos))
   %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
 
-  A((Representación del Mundo))
-  A --> T([Lo Tangible])
+  A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
 
-  %% En Lo Intangible: muestro hermanos; solo desarrollo la ruta hacia Imágenes de los Ancestros
   I --> C([El Capitalismo])
   I --> P([Lo Popular])
   I --> AN((Imágenes de los Ancestros))
 
-  %% En Imágenes de los Ancestros: muestro hermanos; solo desarrollo la ruta hacia Muralismo / Intervención pictórica
   AN --> AN_M((Muralismo / Intervención pictórica))
   AN --> AN_A([Acción / Foto-performance + Video])
 
-  %% Llegada al neologismo "Musoe"
   AN_M --> MCA((Musoe a Cielo Abierto))
 
   %% Links (ES/)
-  click A  "/ES/mundo-exterior.html"        "Ir a Representación del Mundo"
-  click T  "/ES/tangible.html"             "Ir a Lo Tangible"
-  click I  "/ES/intangible.html"           "Ir a Lo Intangible"
-  click C  "/ES/en-construccion.html"      "En construcción"
-  click P  "/ES/en-construccion.html"      "En construcción"
-  click AN "/ES/imagenes-ancestros.html"   "Ir a Imágenes de los Ancestros"
+  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  click T "/ES/tangible.html" "Ir a Lo Tangible"
+  click I "/ES/intangible.html" "Ir a Lo Intangible"
+  click C "/ES/en-construccion.html" "En construcción"
+  click P "/ES/en-construccion.html" "En construcción"
+  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
   click AN_M "/ES/muralismo-intervencion.html" "Ir a Muralismo / Intervención pictórica"
-  click AN_A "/ES/en-construccion.html"    "En construcción"
+  click AN_A "/ES/en-construccion.html" "En construcción"
   click MCA "/ES/musoe-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
 </div>
+
 
 <hr class="separador separador--aire" />
 
