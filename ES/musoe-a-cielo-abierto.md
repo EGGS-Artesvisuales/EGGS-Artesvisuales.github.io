@@ -3,7 +3,7 @@ layout: default-es
 lang: es
 title: "Musoe a Cielo Abierto – Dípticos murales de pueblos originarios | Esteban Garnica"
 description: "Musoe a Cielo Abierto: serie de dípticos murales dedicados a pueblos originarios, instalados en espacio público como retrato, memoria y presencia comunitaria."
-permalink: /ES/musoe-a-cielo-abierto.html
+permalink: /es/musoe-a-cielo-abierto.html
 keywords: "Musoe a Cielo Abierto, museo a cielo abierto, díptico mural, pueblos originarios, muralismo, arte público, memoria, Esteban Garnica, EGGS-Studio, La Florida, Santiago"
 carousel: true
 mermaid: true
