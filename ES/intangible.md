@@ -29,13 +29,13 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-    Representacion["Representación del Mundo"]
-    Representacion --> Tangible["Lo Tangible"]
-    Representacion --> Intangible["Lo Intangible"]
+    Representacion(("Representación del Mundo"))
+    Representacion --> Tangible(["Lo Tangible"])
+    Representacion --> Intangible(("Lo Intangible"))
 
-    Intangible --> Capitalismo["Imágenes del Capitalismo"]
-    Intangible --> Popular["Imágenes de lo Popular"]
-    Intangible --> Ancestros["Imágenes de los Ancestros"]
+    Intangible --> Capitalismo(["Imágenes del Capitalismo"])
+    Intangible --> Popular(["Imágenes de lo Popular"])
+    Intangible --> Ancestros(["Imágenes de los Ancestros"])
 
     click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
