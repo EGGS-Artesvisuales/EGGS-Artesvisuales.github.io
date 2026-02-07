@@ -47,9 +47,9 @@ flowchart LR
   click C "/ES/en-construccion.html" "En construcción"
   click P "/ES/en-construccion.html" "En construcción"
   click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-  click AN_M "/ES/muralismo-intervencion.html" "Ir a Muralismo / Intervención pictórica"
+ 
   click AN_A "/ES/en-construccion.html" "En construcción"
-  click MCA "/ES/musoe-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+  click MCA "/ES/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
 </div>
 
 
