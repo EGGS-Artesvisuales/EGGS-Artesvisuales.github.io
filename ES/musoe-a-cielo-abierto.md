@@ -17,7 +17,7 @@ mermaid: true
 
 <!-- Mermaid graph -->
 <div class="mermaid">
-graph LR
+flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
 
@@ -55,6 +55,7 @@ graph LR
   click MCA3 "/ES/musoe-a-cielo-abierto.html#rapa-nui" "Ir a Musoe 3 — Rapa Nui"
   click MCA4 "/ES/musoe-a-cielo-abierto.html#selknam" "Ir a Musoe 4 — Selknam"
 </div>
+
 
 <hr class="separador separador--aire" />
 
