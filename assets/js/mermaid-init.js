@@ -1,9 +1,12 @@
-document.addEventListener("DOMContentLoaded", () => {
-  if (typeof mermaid === "undefined") return;
+document.addEventListener("DOMContentLoaded", async () => {
+  if (typeof window.mermaid === "undefined") return;
 
-  mermaid.initialize({
-    startOnLoad: true,
+  window.mermaid.initialize({
+    startOnLoad: false,
     theme: "base",
-    flowchart: { htmlLabels: false } // evita dobles textos por foreignObject
+    securityLevel: "loose",
+    flowchart: { htmlLabels: false }
   });
+
+  await window.mermaid.run({ querySelector: ".mermaid" });
 });
