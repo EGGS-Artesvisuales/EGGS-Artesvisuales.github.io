@@ -1168,3 +1168,50 @@ body.no-scroll {
    Owl Carousel / carouseles: van en carousel.css (separado)
 ------------------------------------------------------------------ */
 
+
+/* Product detail pages */
+.producto-layout {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 4rem auto;
+}
+.product-detail {
+  margin-top: 2rem;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(260px, 0.9fr);
+  gap: 2rem;
+  align-items: start;
+}
+.product-images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-small);
+}
+.product-info {
+  text-align: left;
+}
+.product-info label,
+.product-info select {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+}
+.product-info select {
+  margin: 0.5rem 0 1.25rem;
+  padding: 0.65rem;
+}
+@media (max-width: 760px) {
+  .product-container {
+    grid-template-columns: 1fr;
+  }
+  .product-info {
+    text-align: center;
+  }
+  .product-info label,
+  .product-info select {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

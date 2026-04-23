@@ -1,0 +1,11 @@
+---
+layout: default-es
+---
+
+<article class="producto-layout" itemscope itemtype="https://schema.org/Product">
+  <meta itemprop="name" content="{{ page.title | escape }}">
+  {% if page.image %}<meta itemprop="image" content="{{ site.url }}{{ page.image }}">{% endif %}
+  {% if page.description %}<meta itemprop="description" content="{{ page.description | escape }}">{% endif %}
+
+  {{ content }}
+</article>

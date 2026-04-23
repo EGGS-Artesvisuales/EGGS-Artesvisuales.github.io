@@ -39,7 +39,7 @@ carousel: true
 <div class="owl-carousel">
   <!-- SELF-PORTRAIT -->
   <div class="item">
-    <a href="/EN/self-portrait.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-autorretrato.gif" alt="Self-Portrait" loading="lazy">
         <p class="title">Self-Portrait</p>
@@ -50,7 +50,7 @@ carousel: true
 
   <!-- JOURNALS AND DIARIES -->
   <div class="item">
-    <a href="/EN/diaries-and-logs.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-bitacoras.gif" alt="Journals and Diaries" loading="lazy">
         <p class="title">Journals and Diaries</p>
@@ -61,7 +61,7 @@ carousel: true
 
   <!-- SENSORY DYNAMICS -->
   <div class="item">
-    <a href="/EN/sensory-dynamics.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Sensory Dynamics" loading="lazy">
         <p class="title">Sensory Dynamics</p>
@@ -72,7 +72,7 @@ carousel: true
 
   <!-- THE MASK AND THE ALTER EGO -->
   <div class="item">
-    <a href="/EN/the-mask-and-the-alter-ego.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mascaras.gif" alt="The Mask and the Alter Ego" loading="lazy">
         <p class="title">The Mask and the Alter Ego</p>
@@ -83,7 +83,7 @@ carousel: true
 
   <!-- MANDALA AND ZENTANGLE -->
   <div class="item">
-    <a href="/EN/mandala-and-zentangle.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala and Zentangle" loading="lazy">
         <p class="title">Mandala and Zentangle</p>
@@ -94,7 +94,7 @@ carousel: true
 
   <!-- MONKEY BURNING -->
   <div class="item">
-    <a href="/EN/monkey-burning.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-quema.gif" alt="Monkey Burning" loading="lazy">
         <p class="title">Monkey Burning</p>
@@ -105,7 +105,7 @@ carousel: true
 
   <!-- INNER-OUTER SILHOUETTE -->
   <div class="item">
-    <a href="/EN/inner-outer-silhouette.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-afden.gif" alt="Inner-Outer Silhouette" loading="lazy">
         <p class="title">Inner-Outer Silhouette</p>
@@ -116,7 +116,7 @@ carousel: true
 
   <!-- SIMULACRA AND PSYCHOMAGIC -->
   <div class="item">
-    <a href="/EN/simulacra-and-psychomagic.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacra and Psychomagic" loading="lazy">
         <p class="title">Simulacra and Psychomagic</p>
@@ -127,7 +127,7 @@ carousel: true
 
   <!-- GRAFOCINETIC SYNCHRONIZATION -->
   <div class="item">
-    <a href="/EN/grafocinetic-synchronization.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.gif" alt="Grafocinetic Synchronization" loading="lazy">
         <p class="title">Grafocinetic Synchronization</p>
@@ -138,7 +138,7 @@ carousel: true
 
   <!-- PAREIDOLIC SURFACES AND OTHER PROJECTION ELEMENTS -->
   <div class="item">
-    <a href="/EN/pareidolic-surfaces.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-pareidolico.gif" alt="Pareidolic Surfaces and Other Projection Elements" loading="lazy">
         <p class="title">Pareidolic Surfaces and Other Projection Elements</p>

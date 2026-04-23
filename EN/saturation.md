@@ -2,7 +2,7 @@
 layout: default-en
 title: "Saturation"
 description: "Works of saturation in contemporary art."
-permalink: /en/saturacion.html
+permalink: /EN/saturation.html
 mermaid: true
 ---
 
@@ -48,8 +48,8 @@ graph TD
   DP --> DPV
 
   click LS "/en/saturacion.html" "Go to Saturation"
-  click LP "/en/la-peste.html" "Go to The Plague"
-  click LI "/en/lo-invisible.html" "Go to The Invisible"
+  click LP "/EN/under-construction.html" "Go to The Plague"
+  click LI "/EN/under-construction.html" "Go to The Invisible"
 </div>
 <br>
 <br>
@@ -98,14 +98,14 @@ graph TD
 </div>
 <br><br>
 <div class="button-container">
-  <a href="/en/la-peste.html" class="fancy-button">
+  <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-la-peste.gif" alt="The Plague" loading="lazy">
       <p class="title">The Plague</p>
       <p class="subtitle">Explore the physical phenomenon</p>
     </div>
   </a>
-  <a href="/en/lo-invisible.html" class="fancy-button">
+  <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-lo-invisible.gif" alt="The Invisible" loading="lazy">
       <p class="title">The Invisible</p>
@@ -115,4 +115,4 @@ graph TD
 </div>
 <br><br>
 
-<a href="/en/obras.html" class="enlace">View more works</a>
+<a href="/EN/under-construction.html" class="enlace">View more works</a>

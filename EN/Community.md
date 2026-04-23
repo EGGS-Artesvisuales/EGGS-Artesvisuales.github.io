@@ -20,7 +20,7 @@ permalink: /EN/community.html
 <!-- 'Fancy-button' style button container -->
 <div class="button-container">
   <!-- Button 1: Participatory Muralism -->
-  <a href="/EN/participatory-workshops.html" class="fancy-button">
+  <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Participatory Muralism" loading="lazy">
       <p class="title">Participatory Muralism</p>
@@ -29,7 +29,7 @@ permalink: /EN/community.html
   </a>
 
   <!-- Button 2: Open-Air Museums -->
-  <a href="/EN/community-murals.html" class="fancy-button">
+  <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Community Murals" loading="lazy">
       <p class="title">Open-Air Museums</p>
@@ -40,5 +40,3 @@ permalink: /EN/community.html
 </div>
 <br>
 <br>
-
-

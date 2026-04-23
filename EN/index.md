@@ -87,5 +87,4 @@ flowchart LR
 
 
 
-<a href="/EN/exhibiciones.html" class="enlace">See more works</a>
-
+<a href="/EN/exhibitions.html" class="enlace">See more works</a>

@@ -34,7 +34,7 @@ permalink: /EN/patrons.html
       <p class="subtitle">A mural circuit that redefines urban space with stories and colors in collaboration with the community.</p>
     </div>
   </a>
-  <a href="/EN/subrepticio.html" class="fancy-button">
+  <a href="/EN/subreptitious.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-remienda-urbana.gif" alt="Urban Patchwork No. 7">
       <p class="title">Urban Patchwork No. 7</p>

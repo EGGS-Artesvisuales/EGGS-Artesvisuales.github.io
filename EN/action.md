@@ -36,7 +36,7 @@ permalink: /EN/action.html
     </div>
   </a>
 
-  <a href="/EN/surreptitious.html" class="fancy-button" aria-label="Go to The Surreptitious">
+  <a href="/EN/subreptitious.html" class="fancy-button" aria-label="Go to The Surreptitious">
     <div class="button-content">
       <img src="/assets/img/boton-lo-subrepticio.gif" alt="The Surreptitious" loading="lazy">
       <p class="title">The Surreptitious</p>
