@@ -110,7 +110,7 @@ graph LR
   click B "/ES/tangible.html" "Ver Lo Tangible"
   click B2 "/ES/intangible.html" "Ver Lo Intangible"
   click C "/ES/saturacion.html" "Ver La Saturación"
-  click C2 "/ES/tecnologia.html" "Ver La Tecnología"
+  click C2 "/ES/en-construccion.html" "Ver La Tecnología"
   click D "/ES/lo-invisible.html" "Ver Lo Invisible"
   click D2 "/ES/la-peste.html" "Ver La Peste"
   click E "/ES/pinturas-wifi.html" "Ver Pinturas Wi-Fi"

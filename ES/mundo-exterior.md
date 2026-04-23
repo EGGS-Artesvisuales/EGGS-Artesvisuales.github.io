@@ -72,7 +72,7 @@ flowchart LR
   click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click tangible "/ES/tangible.html" "Ir a Lo Tangible"
   click saturacion "/ES/saturacion.html" "Ir a La Saturación"
-  click tecnologia "/ES/tecnologia.html" "Ir a La Tecnología"
+  click tecnologia "/ES/en-construccion.html" "Ir a La Tecnología"
   click intangible "/ES/intangible.html" "Ir a Lo Intangible"
 </div>
 <br>

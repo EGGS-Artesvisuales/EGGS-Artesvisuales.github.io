@@ -26,9 +26,9 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  Z([Representation of the World])
-  Y([The Tangible])
-  A([Saturation])
+  Z((Representation of the World))
+  Y((The Tangible))
+  A((Saturation))
   B([The Plague])
   F([Displacement of Painting])
 
@@ -46,11 +46,11 @@ graph LR
   F --> F3
 
   %% Links (EN)
-  click Z "/EN/world-exterior.html" "View Representation of the World"
+  click Z "/EN/world-representation.html" "View Representation of the World"
   click Y "/EN/tangible.html" "View The Tangible"
   click A "/EN/saturation.html" "View Saturation"
-  click B "/EN/the-plague.html" "View The Plague"
-  click F "/EN/displacement-of-painting.html" "Go to Displacement of Painting"
+  click B "/EN/under-construction.html" "View The Plague"
+  click F "/EN/displacement-of-painting" "Go to Displacement of Painting"
   click F1 "/EN/under-construction.html" "Go to Domestic Space"
   click F2 "/EN/under-construction.html" "Go to Public Space"
   click F3 "/EN/under-construction.html" "Go to Rural / Natural Space"

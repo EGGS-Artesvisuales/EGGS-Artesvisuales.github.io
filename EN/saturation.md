@@ -26,9 +26,9 @@ mermaid: true
 <br><br>
 <div class="mermaid">
 graph TD
-  RM[Representation of the World]
-  LT[Tangible]
-  LS[Saturation]
+  RM((Representation of the World))
+  LT((Tangible))
+  LS((Saturation))
   LTec[Technology]
   LP[The Plague]
   LI[The Invisible]
@@ -47,7 +47,7 @@ graph TD
   DP --> DPI
   DP --> DPV
 
-  click LS "/en/saturacion.html" "Go to Saturation"
+  click LS "/EN/saturation.html" "Go to Saturation"
   click LP "/EN/under-construction.html" "Go to The Plague"
   click LI "/EN/under-construction.html" "Go to The Invisible"
 </div>

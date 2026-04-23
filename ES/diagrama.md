@@ -87,10 +87,10 @@ graph LR
   click A1a1a "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click A1a1b1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
-  click A1a1b2 "espacio-publico.html" "Ir a Espacio Público"
-  click A1a1b3 "espacio-rural.html" "Ir a Espacio Rural / Natural"
+  click A1a1b2 "/ES/espacio-publico/" "Ir a Espacio Público"
+  click A1a1b3 "/ES/espacio-rural" "Ir a Espacio Rural / Natural"
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
-  click A2c1 "musoe-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
+  click A2c1 "musoe-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
   %% Enlaces a secciones internas (anchors) ya existentes
 

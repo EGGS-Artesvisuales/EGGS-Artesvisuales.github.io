@@ -24,7 +24,7 @@ flowchart LR
   C --> C4([Servicios])
 
   %% Clicks (todos los nodos clickeables)
-  click A "/ES/actividad-artistica.html" "Ir a Actividad artística"
+  click A "/ES/index.html" "Ir a Actividad artística"
   click B "/ES/mundo-exterior.html" "Ir a Representación del mundo"
   click C "/ES/accion.html" "Ir a Acción en el mundo"
   click D "/ES/interior.html" "Ir a Mundo interior"
