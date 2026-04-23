@@ -48,8 +48,8 @@ graph TD
   DP --> DPV
 
   click LS "/EN/saturation.html" "Go to Saturation"
-  click LP "/EN/under-construction.html" "Go to The Plague"
-  click LI "/EN/under-construction.html" "Go to The Invisible"
+  click LP "/EN/the-plague.html" "Go to The Plague"
+  click LI "/EN/the-invisible.html" "Go to The Invisible"
 </div>
 <br>
 <br>
@@ -98,14 +98,14 @@ graph TD
 </div>
 <br><br>
 <div class="button-container">
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/the-plague.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-la-peste.gif" alt="The Plague" loading="lazy">
       <p class="title">The Plague</p>
       <p class="subtitle">Explore the physical phenomenon</p>
     </div>
   </a>
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/the-invisible.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-lo-invisible.gif" alt="The Invisible" loading="lazy">
       <p class="title">The Invisible</p>
@@ -115,4 +115,4 @@ graph TD
 </div>
 <br><br>
 
-<a href="/EN/under-construction.html" class="enlace">View more works</a>
+<a href="/EN/work-diagram.html" class="enlace">View more works</a>

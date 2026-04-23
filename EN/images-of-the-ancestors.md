@@ -37,11 +37,11 @@ graph LR
   click P "/EN/images-of-the-popular.html" "Go to The Popular"
   click AN "/EN/images-of-the-ancestors.html" "Go to Images of the Ancestors"
 
-  click AN_M "/EN/under-construction.html" "Under construction"
-  click AN_A "/EN/under-construction.html" "Under construction"
+  click AN_M "/EN/open-air-museum.html" "Go to Muralism / Pictorial intervention"
+  click AN_A "/EN/urban-mapuche.html" "Go to Action / Photo-performance + Video"
 
   click MCA "/EN/open-air-museum.html" "Go to Musoe Open Air"
-  click MU "/EN/under-construction.html" "Go to Urban Mapuche"
+  click MU "/EN/urban-mapuche.html" "Go to Urban Mapuche"
 </div>
 <br>
 
@@ -73,16 +73,16 @@ graph LR
   <div class="item">
     <a href="/EN/open-air-museum.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/museo-a-cielo-abierto.jpg" alt="Musoe Open Air, mural series about Indigenous peoples">
+        <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-003.jpg" alt="Musoe Open Air, mural series about Indigenous peoples">
       </div>
       <figcaption>Musoe Open Air</figcaption>
     </a>
   </div>
 
   <div class="item">
-    <a href="/EN/under-construction.html">
+    <a href="/EN/urban-mapuche.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/mapuche-urbano.jpg" alt="Urban Mapuche, The Felling of Memory">
+        <img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="Urban Mapuche, The Felling of Memory">
       </div>
       <figcaption>Urban Mapuche: The Felling of Memory</figcaption>
     </a>
@@ -95,15 +95,15 @@ graph LR
 <div class="button-container">
   <a href="/EN/open-air-museum.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-musoe.gif" alt="Musoe Open Air" loading="lazy">
+      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Musoe Open Air" loading="lazy">
       <p class="title">Musoe Open Air</p>
       <p class="subtitle">Mural portraits of Indigenous peoples.</p>
     </div>
   </a>
   
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/urban-mapuche.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-mapuche-urbano.gif" alt="Urban Mapuche / The Felling of Memory" loading="lazy">
+      <img src="/assets/img/mapuchenocturno.jpg" alt="Urban Mapuche / The Felling of Memory" loading="lazy">
       <p class="title">Urban Mapuche</p>
       <p class="subtitle">The Felling of Memory.</p>
     </div>

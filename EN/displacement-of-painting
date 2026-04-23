@@ -49,17 +49,17 @@ graph LR
   click Z "/EN/world-representation.html" "View Representation of the World"
   click Y "/EN/tangible.html" "View The Tangible"
   click A "/EN/saturation.html" "View Saturation"
-  click B "/EN/under-construction.html" "View The Plague"
+  click B "/EN/the-plague.html" "View The Plague"
   click F "/EN/displacement-of-painting" "Go to Displacement of Painting"
-  click F1 "/EN/under-construction.html" "Go to Domestic Space"
-  click F2 "/EN/under-construction.html" "Go to Public Space"
-  click F3 "/EN/under-construction.html" "Go to Rural / Natural Space"
+  click F1 "/EN/domestic-space.html" "Go to Domestic Space"
+  click F2 "/EN/public-space.html" "Go to Public Space"
+  click F3 "/EN/rural-natural-space.html" "Go to Rural / Natural Space"
 </div>
 
 <br>
 
 <div class="button-container">
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/domestic-space.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Domestic space" loading="lazy">
       <p class="title">Domestic space</p>
@@ -67,7 +67,7 @@ graph LR
     </div>
   </a>
 
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/public-space.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Public space" loading="lazy">
       <p class="title">Public space</p>
@@ -75,5 +75,11 @@ graph LR
     </div>
   </a>
 
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/rural-natural-space.html" class="fancy-button">
     <div class="button-content">
+      <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Rural / natural space" loading="lazy">
+      <p class="title">Rural / natural space</p>
+      <p class="subtitle">Painting displaced into landscape and territory</p>
+    </div>
+  </a>
+</div>
