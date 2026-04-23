@@ -18,21 +18,30 @@ permalink: /ES/comunitario.html
 
 <div class="button-container">
 
-  <!-- Botón 1: Muralismo participativo -->
-  <a href="/ES/muralismo.html" class="fancy-button">
+  <!-- Botón 1: Muralismo colaborativo -->
+  <a href="/ES/muralismo-facilitacion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Muralismo participativo" loading="lazy">
-      <p class="title">Muralismo</p>
-      <p class="subtitle">Procesos comunitarios y colaborativos organizados por contextos de trabajo.</p>
+      <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Muralismo colaborativo" loading="lazy">
+      <p class="title">Muralismo colaborativo</p>
+      <p class="subtitle">Facilitacion, guia de colectivos y desarrollo de procesos murales participativos.</p>
     </div>
   </a>
 
-  <!-- Botón 2: Museos a cielo abierto -->
+  <!-- Botón 2: Museos al aire libre -->
   <a href="/ES/muralismo-museos-al-aire-libre.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Murales comunitarios" loading="lazy">
       <p class="title">Museos al aire libre</p>
       <p class="subtitle">Línea de muralismo territorial y recorridos de memoria en espacio público.</p>
+    </div>
+  </a>
+
+  <!-- Botón 3: Festivales -->
+  <a href="/ES/muralismo-festivales.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/muralismo/muralismo-festival.jpg" alt="Festivales de muralismo" loading="lazy">
+      <p class="title">Festivales</p>
+      <p class="subtitle">Intervenciones y participacion en encuentros de muralismo y arte publico.</p>
     </div>
   </a>
 

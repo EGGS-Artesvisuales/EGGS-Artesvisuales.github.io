@@ -19,12 +19,12 @@ permalink: /EN/community.html
 
 <!-- 'Fancy-button' style button container -->
 <div class="button-container">
-  <!-- Button 1: Participatory Muralism -->
-  <a href="/EN/muralism.html" class="fancy-button">
+  <!-- Button 1: Collaborative Muralism -->
+  <a href="/EN/muralism-facilitation.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Participatory Muralism" loading="lazy">
-      <p class="title">Muralism</p>
-      <p class="subtitle">Community and collaborative processes organized by working context.</p>
+      <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Collaborative Muralism" loading="lazy">
+      <p class="title">Collaborative Muralism</p>
+      <p class="subtitle">Facilitation, collective guidance, and development of participatory mural processes.</p>
     </div>
   </a>
 
@@ -34,6 +34,15 @@ permalink: /EN/community.html
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Community Murals" loading="lazy">
       <p class="title">Open-air Museums</p>
       <p class="subtitle">Territorial muralism and memory-based routes in public space.</p>
+    </div>
+  </a>
+
+  <!-- Button 3: Festivals -->
+  <a href="/EN/muralism-festivals.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/muralismo/muralismo-festival.jpg" alt="Muralism Festivals" loading="lazy">
+      <p class="title">Festivals</p>
+      <p class="subtitle">Interventions and participation in muralism and public art gatherings.</p>
     </div>
   </a>
 
