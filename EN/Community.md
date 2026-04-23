@@ -20,20 +20,20 @@ permalink: /EN/community.html
 <!-- 'Fancy-button' style button container -->
 <div class="button-container">
   <!-- Button 1: Participatory Muralism -->
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/muralism.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Participatory Muralism" loading="lazy">
-      <p class="title">Participatory Muralism</p>
-      <p class="subtitle">Collaborative learning spaces focused on creating murals for the community.</p>
+      <p class="title">Muralism</p>
+      <p class="subtitle">Community and collaborative processes organized by working context.</p>
     </div>
   </a>
 
   <!-- Button 2: Open-Air Museums -->
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/muralism-open-air-museums.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Community Murals" loading="lazy">
-      <p class="title">Open-Air Museums</p>
-      <p class="subtitle">Large-format creations for the city.</p>
+      <p class="title">Open-air Museums</p>
+      <p class="subtitle">Territorial muralism and memory-based routes in public space.</p>
     </div>
   </a>
 

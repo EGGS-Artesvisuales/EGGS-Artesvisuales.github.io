@@ -19,20 +19,20 @@ permalink: /ES/comunitario.html
 <div class="button-container">
 
   <!-- Botón 1: Muralismo participativo -->
-  <a href="/ES/talleres-participativos.html" class="fancy-button">
+  <a href="/ES/muralismo.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Muralismo participativo" loading="lazy">
-      <p class="title">Muralismo participativo</p>
-      <p class="subtitle">Procesos de creación colectiva para fortalecer la identidad local.</p>
+      <p class="title">Muralismo</p>
+      <p class="subtitle">Procesos comunitarios y colaborativos organizados por contextos de trabajo.</p>
     </div>
   </a>
 
   <!-- Botón 2: Museos a cielo abierto -->
-  <a href="/ES/murales-comunitarios.html" class="fancy-button">
+  <a href="/ES/muralismo-museos-al-aire-libre.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Murales comunitarios" loading="lazy">
-      <p class="title">Museos a cielo abierto</p>
-      <p class="subtitle">Intervenciones de gran formato en convivencia con la ciudad.</p>
+      <p class="title">Museos al aire libre</p>
+      <p class="subtitle">Línea de muralismo territorial y recorridos de memoria en espacio público.</p>
     </div>
   </a>
 
