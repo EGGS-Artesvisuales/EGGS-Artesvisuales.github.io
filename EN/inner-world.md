@@ -41,7 +41,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-autorretrato.gif" alt="Self-Portrait" loading="lazy">
+        <img src="/assets/img/interior/boton-autorretrato.webp" alt="Self-Portrait" loading="lazy">
         <p class="title">Self-Portrait</p>
         <p class="subtitle">Explore your own identity through art.</p>
       </div>
@@ -52,7 +52,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-bitacoras.gif" alt="Journals and Diaries" loading="lazy">
+        <img src="/assets/img/interior/boton-bitacoras.webp" alt="Journals and Diaries" loading="lazy">
         <p class="title">Journals and Diaries</p>
         <p class="subtitle">Dreamlike records, yearnings, fears, and memories.</p>
       </div>
@@ -63,7 +63,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Sensory Dynamics" loading="lazy">
+        <img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Sensory Dynamics" loading="lazy">
         <p class="title">Sensory Dynamics</p>
         <p class="subtitle">Exercises and activities that stimulate the senses.</p>
       </div>
@@ -74,7 +74,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mascaras.gif" alt="The Mask and the Alter Ego" loading="lazy">
+        <img src="/assets/img/interior/boton-mascaras.webp" alt="The Mask and the Alter Ego" loading="lazy">
         <p class="title">The Mask and the Alter Ego</p>
         <p class="subtitle">Explore different facets of your personality.</p>
       </div>
@@ -85,7 +85,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala and Zentangle" loading="lazy">
+        <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala and Zentangle" loading="lazy">
         <p class="title">Mandala and Zentangle</p>
         <p class="subtitle">Practice concentration and meditation through drawing.</p>
       </div>
@@ -96,7 +96,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-quema.gif" alt="Monkey Burning" loading="lazy">
+        <img src="/assets/img/interior/boton-quema.webp" alt="Monkey Burning" loading="lazy">
         <p class="title">Monkey Burning</p>
         <p class="subtitle">Release emotional blockages through an artistic ritual.</p>
       </div>
@@ -107,7 +107,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-afden.gif" alt="Inner-Outer Silhouette" loading="lazy">
+        <img src="/assets/img/interior/boton-afden.webp" alt="Inner-Outer Silhouette" loading="lazy">
         <p class="title">Inner-Outer Silhouette</p>
         <p class="subtitle">Reflect on body image and inner essence.</p>
       </div>
@@ -118,7 +118,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacra and Psychomagic" loading="lazy">
+        <img src="/assets/img/interior/boton-psicomagia.webp" alt="Simulacra and Psychomagic" loading="lazy">
         <p class="title">Simulacra and Psychomagic</p>
         <p class="subtitle">Experiment with symbolic acts of personal transformation.</p>
       </div>
@@ -129,7 +129,7 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-grafocine.gif" alt="Grafocinetic Synchronization" loading="lazy">
+        <img src="/assets/img/interior/boton-grafocine.webp" alt="Grafocinetic Synchronization" loading="lazy">
         <p class="title">Grafocinetic Synchronization</p>
         <p class="subtitle">Connect movement, stroke, and rhythm to promote concentration and meditation.</p>
       </div>
@@ -140,9 +140,20 @@ carousel: true
   <div class="item">
     <a href="/EN/under-construction.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Pareidolic Surfaces and Other Projection Elements" loading="lazy">
+        <img src="/assets/img/interior/boton-pareidolico.webp" alt="Pareidolic Surfaces and Other Projection Elements" loading="lazy">
         <p class="title">Pareidolic Surfaces and Other Projection Elements</p>
         <p class="subtitle">Discover hidden figures and meanings in abstract forms.</p>
+      </div>
+    </a>
+  </div>
+
+  <!-- POSITIVE AUTOPOIESIS -->
+  <div class="item">
+    <a href="/EN/under-construction.html" class="fancy-button">
+      <div class="button-content">
+        <img src="/assets/img/interior/boton-grafocine.webp" alt="Positive Autopoiesis" loading="lazy">
+        <p class="title">Positive Autopoiesis</p>
+        <p class="subtitle">Text-based practices for creative self-feedback.</p>
       </div>
     </a>
   </div>

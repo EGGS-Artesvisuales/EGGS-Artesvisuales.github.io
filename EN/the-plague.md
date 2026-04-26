@@ -61,14 +61,14 @@ flowchart LR
 <div class="button-container">
   <a href="/EN/infected-paintings.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-la-peste-pintura.gif" alt="Infected Paintings" loading="lazy">
+      <img src="/assets/img/boton-la-peste-pintura.webp" alt="Infected Paintings" loading="lazy">
       <p class="title">Infected Paintings</p>
       <p class="subtitle">Painting, waste, and contaminated surfaces.</p>
     </div>
   </a>
   <a href="/EN/displacement-of-painting" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Displacement of Painting" loading="lazy">
+      <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Displacement of Painting" loading="lazy">
       <p class="title">Displacement of Painting</p>
       <p class="subtitle">Painting expanded into objects and real spaces.</p>
     </div>

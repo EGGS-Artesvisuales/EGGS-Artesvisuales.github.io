@@ -22,7 +22,7 @@ permalink: /EN/community.html
   <!-- Button 1: Collaborative Muralism -->
   <a href="/EN/muralism-facilitation.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-muralismo-colectivo.gif" alt="Collaborative Muralism" loading="lazy">
+      <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Collaborative Muralism" loading="lazy">
       <p class="title">Collaborative Muralism</p>
       <p class="subtitle">Facilitation, collective guidance, and development of participatory mural processes.</p>
     </div>
@@ -31,7 +31,7 @@ permalink: /EN/community.html
   <!-- Button 2: Open-Air Museums -->
   <a href="/EN/muralism-open-air-museums.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-museos-cielo-abierto.gif" alt="Community Murals" loading="lazy">
+      <img src="/assets/img/boton-museos-cielo-abierto.webp" alt="Community Murals" loading="lazy">
       <p class="title">Open-air Museums</p>
       <p class="subtitle">Territorial muralism and memory-based routes in public space.</p>
     </div>

@@ -21,7 +21,7 @@ permalink: /ES/subrepticio.html
   <!-- Botón: Graffiti -->
   <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-graffiti.gif" alt="Graffiti">
+      <img src="/assets/img/boton-graffiti.webp" alt="Graffiti">
       <p class="title">Graffiti</p>
       <p class="subtitle">Expresión urbana que desafía normas.</p>
     </div>
@@ -30,7 +30,7 @@ permalink: /ES/subrepticio.html
   <!-- Botón: La Antipublicidad -->
   <a href="/Es/subrep-antipublicidad.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-antipub.gif" alt="La Antipublicidad">
+      <img src="/assets/img/boton-antipub.webp" alt="La Antipublicidad">
       <p class="title">La Antipublicidad</p>
       <p class="subtitle">Contracorriente visual en espacios públicos.</p>
     </div>
@@ -39,7 +39,7 @@ permalink: /ES/subrepticio.html
   <!-- Botón: Remiendas Urbanas -->
   <a href="/ES/subrep-remiendas-urbanas.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-remienda-urbana2.gif" alt="Remiendas Urbanas">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Remiendas Urbanas">
       <p class="title">Remiendas Urbanas</p>
       <p class="subtitle">Intervenciones para renovar y transformar.</p>
     </div>

@@ -5,10 +5,36 @@ title: "Action in the World – Direct and Community-Based Artistic Practices"
 description: "Direct artistic actions by Esteban Garnica: community muralism, urban interventions, teaching, and projects that connect art and territory."
 keywords: "action in the world, public art, direct artistic practices, community muralism, urban interventions, participatory art, Esteban Garnica, social art in Chile"
 permalink: /EN/action.html
+mermaid: true
 ---
 
 <h1 class="titulo" id="top">Action in the World</h1>
 <h2 class="subtitulo">Artistic practices with social and territorial impact</h2>
+<br>
+
+<div class="mermaid">
+flowchart LR
+  A((Artistic Practice)) --> B([Representation of the World])
+  A --> C((Action in the World))
+  A --> D([Inner World])
+
+  C --> C1([Community])
+  C --> C2([Subreptitious])
+  C --> C3([Teaching])
+  C --> C4([Services])
+
+  click A "/EN/index.html" "Go to Artistic Practice"
+  click B "/EN/world-representation.html" "Go to Representation of the World"
+  click C "/EN/action.html" "Go to Action in the World"
+  click D "/EN/inner-world.html" "Go to Inner World"
+
+  click C1 "/EN/community.html" "Go to Community"
+  click C2 "/EN/subreptitious.html" "Go to Subreptitious"
+  click C3 "/EN/teaching.html" "Go to Teaching"
+  click C4 "/EN/services.html" "Go to Services"
+</div>
+
+<br>
 
 <p class="parrafo">
   For centuries, art has been a space for intimate expression and personal reflection. Today, however, many practices move beyond the traditional boundaries of the studio or the exhibition hall. In this shift toward the public sphere, art becomes a tool that engages with place, involves communities, and contributes to collective well-being. Creation moves beyond contemplation to become an act that directly participates in social life.
@@ -30,7 +56,7 @@ permalink: /EN/action.html
 
   <a href="/EN/community.html" class="fancy-button" aria-label="Go to Community">
     <div class="button-content">
-      <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Community" loading="lazy">
+      <img src="/assets/img/boton-lo-comunitarioanimacioin.webp" alt="Community" loading="lazy">
       <p class="title">Community</p>
       <p class="subtitle">Projects that strengthen neighborhood identity and connection.</p>
     </div>
@@ -38,7 +64,7 @@ permalink: /EN/action.html
 
   <a href="/EN/subreptitious.html" class="fancy-button" aria-label="Go to The Surreptitious">
     <div class="button-content">
-      <img src="/assets/img/boton-lo-subrepticio.gif" alt="The Surreptitious" loading="lazy">
+      <img src="/assets/img/boton-lo-subrepticio.webp" alt="The Surreptitious" loading="lazy">
       <p class="title">The Surreptitious</p>
       <p class="subtitle">Discreet actions that reveal new readings of place.</p>
     </div>
@@ -46,7 +72,7 @@ permalink: /EN/action.html
 
   <a href="/EN/teaching.html" class="fancy-button" aria-label="Go to Teaching">
     <div class="button-content">
-      <img src="/assets/img/boton-docencia.gif" alt="Teaching and workshops" loading="lazy">
+      <img src="/assets/img/boton-docencia.webp" alt="Teaching and workshops" loading="lazy">
       <p class="title">Teaching</p>
       <p class="subtitle">Spaces to share knowledge and creative processes.</p>
     </div>
@@ -54,7 +80,7 @@ permalink: /EN/action.html
 
   <a href="/EN/services.html" class="fancy-button" aria-label="Go to Services">
     <div class="button-content">
-      <img src="/assets/img/boton-servicios.gif" alt="Services" loading="lazy">
+      <img src="/assets/img/boton-servicios.webp" alt="Services" loading="lazy">
       <p class="title">Services</p>
       <p class="subtitle">Restoration, commissions, and applied visual solutions.</p>
     </div>

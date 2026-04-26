@@ -14,7 +14,14 @@ mermaid: true
   The creative universe of Esteban Garnica.
 </h2>
 
-<br><br>
+<br>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="infected paintings on soft supports, unique page series, portraits" loading="lazy">
+  <figcaption>The Saturation / The Plague / Infected paintings, soft supports, unique page, portraits, st003. 2020.</figcaption>
+</figure>
+
+<br>
 
 <p class="parrafo" style="margin-top: 7%;">
   This is the space where the different dimensions of my work as a visual artist converge.
@@ -58,7 +65,7 @@ flowchart LR
 
   <a href="/EN/world-representation.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.gif"
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp"
            alt="World Representation works" loading="lazy">
       <p class="title">World Representation</p>
       <p class="subtitle">Works that observe, portray, and reflect on the current world.</p>
@@ -67,7 +74,7 @@ flowchart LR
 
   <a href="/EN/action.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.gif"
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp"
            alt="Action in the World works" loading="lazy">
       <p class="title">Action in the World</p>
       <p class="subtitle">Practices of acting in the world: community arts, workshops, crafts, and cultural services.</p>
@@ -76,7 +83,7 @@ flowchart LR
 
   <a href="/EN/inner-world.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.gif"
+      <img src="/assets/img/ES-inicio---mundo-interior.webp"
            alt="Exploration of the Inner World" loading="lazy">
       <p class="title">Inner World</p>
       <p class="subtitle">Work focused on personal exploration and processes dedicated to introspection and well-being.</p>

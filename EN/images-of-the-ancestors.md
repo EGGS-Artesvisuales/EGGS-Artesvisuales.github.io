@@ -95,7 +95,7 @@ graph LR
 <div class="button-container">
   <a href="/EN/open-air-museum.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Musoe Open Air" loading="lazy">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Musoe Open Air" loading="lazy">
       <p class="title">Musoe Open Air</p>
       <p class="subtitle">Mural portraits of Indigenous peoples.</p>
     </div>

@@ -58,7 +58,7 @@ flowchart LR
 <div class="button-container">
     <a href="/ES/saturacion.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
+            <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
             <p class="title">La Saturación</p>
             <p class="subtitle">Contaminación, exceso y producción capitalista</p>
         </div>
@@ -66,7 +66,7 @@ flowchart LR
 
     <a href="/ES/tecnologia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
+            <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
             <p class="title">La Tecnología</p>
             <p class="subtitle">Influencia técnica en el entorno contemporáneo</p>
         </div>

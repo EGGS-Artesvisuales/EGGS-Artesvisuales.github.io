@@ -99,7 +99,7 @@ flowchart LR
 <div class="button-container">
   <a href="/ES/saturacion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturación">
+      <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
       <p class="title">La Saturación</p>
       <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
     </div>
@@ -107,7 +107,7 @@ flowchart LR
 
   <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="La Tecnología">
+      <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
       <p class="title">La Tecnología</p>
       <p class="subtitle">Influencias en el entorno contemporáneo</p>
     </div>
@@ -154,7 +154,7 @@ flowchart LR
 
   <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Imágenes del Capitalismo">
+      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Imágenes del Capitalismo">
       <p class="title">Imágenes del Capitalismo</p>
       <p class="subtitle">Reflexiones sobre estructuras económicas</p>
     </div>
@@ -162,7 +162,7 @@ flowchart LR
 
   <a href="/ES/imagenes-popular.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Imágenes de lo Popular">
+      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Imágenes de lo Popular">
       <p class="title">Imágenes de lo Popular</p>
       <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
     </div>
@@ -170,7 +170,7 @@ flowchart LR
 
   <a href="/ES/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Imágenes de los Ancestros">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros">
       <p class="title">Imágenes de los Ancestros</p>
       <p class="subtitle">Conexiones con memoria y legado</p>
     </div>

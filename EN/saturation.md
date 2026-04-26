@@ -100,14 +100,14 @@ graph TD
 <div class="button-container">
   <a href="/EN/the-plague.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-saturacion-la-peste.gif" alt="The Plague" loading="lazy">
+      <img src="/assets/img/boton-saturacion-la-peste.webp" alt="The Plague" loading="lazy">
       <p class="title">The Plague</p>
       <p class="subtitle">Explore the physical phenomenon</p>
     </div>
   </a>
   <a href="/EN/the-invisible.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-saturacion-lo-invisible.gif" alt="The Invisible" loading="lazy">
+      <img src="/assets/img/boton-saturacion-lo-invisible.webp" alt="The Invisible" loading="lazy">
       <p class="title">The Invisible</p>
       <p class="subtitle">Intangible saturation</p>
     </div>

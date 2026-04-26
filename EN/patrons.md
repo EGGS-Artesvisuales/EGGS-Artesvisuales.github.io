@@ -29,14 +29,14 @@ permalink: /EN/patrons.html
 <div class="button-container">
   <a href="/EN/open-air-museum.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Open-Air Museum">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Open-Air Museum">
       <p class="title">Open-Air Museum</p>
       <p class="subtitle">A mural circuit that redefines urban space with stories and colors in collaboration with the community.</p>
     </div>
   </a>
   <a href="/EN/subreptitious.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-remienda-urbana.gif" alt="Urban Patchwork No. 7">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Urban Patchwork No. 7">
       <p class="title">Urban Patchwork No. 7</p>
       <p class="subtitle">Artistic interventions that recover and redefine urban furniture, reimagining the city through art.</p>
     </div>

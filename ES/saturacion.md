@@ -113,7 +113,7 @@ flowchart LR
 <div class="button-container">
   <a href="/ES/la-peste.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-saturacion-la-peste.gif" alt="La Peste" loading="lazy">
+      <img src="/assets/img/boton-saturacion-la-peste.webp" alt="La Peste" loading="lazy">
       <p class="title">La Peste</p>
       <p class="subtitle">Explora el fenómeno físico</p>
     </div>
@@ -121,7 +121,7 @@ flowchart LR
 
   <a href="/ES/lo-invisible.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-saturacion-lo-invisible.gif" alt="Lo Invisible" loading="lazy">
+      <img src="/assets/img/boton-saturacion-lo-invisible.webp" alt="Lo Invisible" loading="lazy">
       <p class="title">Lo Invisible</p>
       <p class="subtitle">Saturación intangible</p>
     </div>

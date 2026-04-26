@@ -57,7 +57,7 @@ flowchart LR
 
     <a href="/ES/comunitario.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-lo-comunitarioanimacioin.gif" alt="Lo Comunitario" loading="lazy">
+            <img src="/assets/img/boton-lo-comunitarioanimacioin.webp" alt="Lo Comunitario" loading="lazy">
             <p class="title">Lo Comunitario</p>
             <p class="subtitle">Proyectos que fortalecen la identidad y el encuentro vecinal.</p>
         </div>
@@ -65,7 +65,7 @@ flowchart LR
 
     <a href="/ES/subrepticio.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-lo-subrepticio.gif" alt="Lo Subrepticio" loading="lazy">
+            <img src="/assets/img/boton-lo-subrepticio.webp" alt="Lo Subrepticio" loading="lazy">
             <p class="title">Lo Subrepticio</p>
             <p class="subtitle">Acciones discretas que revelan nuevas lecturas del territorio.</p>
         </div>
@@ -73,7 +73,7 @@ flowchart LR
 
     <a href="/ES/docencia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-docencia.gif" alt="Docencia y Talleres" loading="lazy">
+            <img src="/assets/img/boton-docencia.webp" alt="Docencia y Talleres" loading="lazy">
             <p class="title">Docencia y Talleres</p>
             <p class="subtitle">Espacios para compartir conocimientos y procesos creativos.</p>
         </div>
@@ -81,7 +81,7 @@ flowchart LR
 
     <a href="/ES/servicios.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-servicios.gif" alt="Servicios" loading="lazy">
+            <img src="/assets/img/boton-servicios.webp" alt="Servicios" loading="lazy">
             <p class="title">Servicios</p>
             <p class="subtitle">Restauración, encargos y soluciones visuales aplicadas.</p>
         </div>

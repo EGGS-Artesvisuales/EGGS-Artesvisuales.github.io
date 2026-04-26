@@ -24,21 +24,21 @@ permalink: /EN/intangible.html
 <div class="button-container">
     <a href="/EN/images-of-capitalism.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Images of Capitalism" loading="lazy">
+            <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Images of Capitalism" loading="lazy">
             <p class="title">Images of Capitalism</p>
             <p class="subtitle">A visual reflection on economic structures and their everyday impact.</p>
         </div>
     </a>
     <a href="/EN/images-of-the-popular.html" class="fancy-button">
         <div class="button-content"> 
-            <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Images of the Popular" loading="lazy">
+            <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Images of the Popular" loading="lazy">
             <p class="title">Images of the Popular</p>
             <p class="subtitle">Celebration and questioning of the collective imagination.</p>
         </div>
     </a>
     <a href="/EN/images-of-the-ancestors.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Images of the Ancestors" loading="lazy">
+            <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Images of the Ancestors" loading="lazy">
             <p class="title">Images of the Ancestors</p>
             <p class="subtitle">A tribute to memory, tradition, and connection with our roots.</p>
         </div>

@@ -24,25 +24,25 @@ keywords: "art services, muralism, art restoration, art workshops, cultural prod
 
 <div class="button-container">
 
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/services.html#restoration" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/restauracion-boton.gif" alt="Restoration" loading="lazy">
+      <img src="/assets/img/restauracion-boton.webp" alt="Restoration" loading="lazy">
       <p class="title">Restoration</p>
       <p class="subtitle">Conservation and recovery of artworks.</p>
     </div>
   </a>
 
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/services.html#commissions" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/encargos-boton.gif" alt="Commissions and custom works" loading="lazy">
+      <img src="/assets/img/encargos-boton.webp" alt="Commissions and custom works" loading="lazy">
       <p class="title">Commissions</p>
       <p class="subtitle">Custom paintings and murals.</p>
     </div>
   </a>
 
-  <a href="/EN/under-construction.html" class="fancy-button">
+  <a href="/EN/services.html#installs" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/instalacion-boton.gif" alt="Artistic atmosphere and installation" loading="lazy">
+      <img src="/assets/img/instalacion-boton.webp" alt="Artistic atmosphere and installation" loading="lazy">
       <p class="title">Artistic Atmosphere &amp; Installs</p>
       <p class="subtitle">Artistic and decorative installations.</p>
     </div>

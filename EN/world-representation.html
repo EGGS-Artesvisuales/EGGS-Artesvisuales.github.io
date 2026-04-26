@@ -4,10 +4,35 @@ lang: en
 title: "World Representation"
 description: "A portrayal of contemporary reality through artistic expression."
 permalink: /EN/world-representation.html
+mermaid: true
 ---
 <div class="titulo">World Representation</div>
 <div class="subtitulo">A Portrait of the Contemporary</div>
 <br><br>
+
+<div class="mermaid">
+flowchart LR
+  principal((Artistic Practice))
+  representacion(("Representation of the World"))
+  accion(["Action in the World"])
+  interior(["Inner World"])
+
+  principal --> representacion
+  principal --> accion
+  principal --> interior
+
+  representacion --> tangible(["The Tangible"])
+  representacion --> intangible(["The Intangible"])
+
+  click principal "/EN/index.html" "Go to Home"
+  click representacion "/EN/world-representation.html" "Go to Representation of the World"
+  click tangible "/EN/tangible.html" "Go to The Tangible"
+  click intangible "/EN/intangible.html" "Go to The Intangible"
+  click accion "/EN/action.html" "Go to Action in the World"
+  click interior "/EN/inner-world.html" "Go to Inner World"
+</div>
+
+<br>
 
 <!-- General Introduction Section -->
 <p class="parrafo" style="margin-top: 6%;">
@@ -28,22 +53,41 @@ permalink: /EN/world-representation.html
 </p>
 
 <div class="subtitulo">Representation of the Tangible World</div>
+<div class="mermaid">
+flowchart LR
+  representacion((Representation of the World))
+  tangible(("The Tangible"))
+  intangible(["The Intangible"])
+
+  representacion --> tangible
+  representacion --> intangible
+
+  tangible --> saturation(["The Saturation"])
+  tangible --> technology(["Technology"])
+
+  click representacion "/EN/world-representation.html" "Go to Representation of the World"
+  click tangible "/EN/tangible.html" "Go to The Tangible"
+  click saturation "/EN/saturation.html" "Go to The Saturation"
+  click technology "/EN/under-construction.html" "Go to Technology"
+  click intangible "/EN/intangible.html" "Go to The Intangible"
+</div>
+
 <p class="parrafo">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   These works explore the physical and material aspects of the environment, highlighting the characteristics of the local landscape, everyday objects, and scenes that structure our immediate reality. The chosen themes give each series its title, serving as representative markers of the current era. This group includes the following series:
 </p>
 
 <div class="button-container">
-    <a href="/En/saturation.html" class="fancy-button">
+    <a href="/EN/saturation.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-la-saturacion.gif" alt="La Saturation">
+            <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturation">
             <p class="title">The Saturation</p>
             <p class="subtitle">Ecological phenomena and capitalist production</p>
         </div>
     </a>
-    <a href="/tecnologia.html" class="fancy-button">
+    <a href="/EN/under-construction.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-la-tecnologia.gif" alt="Technology">
+            <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="Technology">
             <p class="title">Technology</p>
             <p class="subtitle">Influences on the contemporary environment</p>
         </div>
@@ -52,28 +96,49 @@ permalink: /EN/world-representation.html
 
 <br>
 <div class="subtitulo">Representation of the Intangible</div>
+<div class="mermaid">
+flowchart LR
+  representacion((Representation of the World))
+  tangible(["The Tangible"])
+  intangible(("The Intangible"))
+
+  representacion --> tangible
+  representacion --> intangible
+
+  intangible --> capitalism(["Images of Capitalism"])
+  intangible --> ancestors(["Images of the Ancestors"])
+  intangible --> popular(["Images of the Popular"])
+
+  click representacion "/EN/world-representation.html" "Go to Representation of the World"
+  click tangible "/EN/tangible.html" "Go to The Tangible"
+  click intangible "/EN/intangible.html" "Go to The Intangible"
+  click capitalism "/EN/images-of-capitalism.html" "Go to Images of Capitalism"
+  click ancestors "/EN/images-of-the-ancestors.html" "Go to Images of the Ancestors"
+  click popular "/EN/images-of-the-popular.html" "Go to Images of the Popular"
+</div>
+
 <p class="parrafo">
     Works that address social, cultural, and abstract phenomena, focusing on ideas, emotions, and concepts that transcend the physical realm.
 </p>
 
 <div class="button-container">
-    <a href="/capitalismo.html" class="fancy-button">
+    <a href="/EN/images-of-capitalism.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/imagenes-del-capitalismo.gif" alt="Images of Capitalism">
+            <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Images of Capitalism">
             <p class="title">Images of Capitalism</p>
             <p class="subtitle">Reflections on economic structures</p>
         </div>
     </a>
-    <a href="/popular.html" class="fancy-button">
+    <a href="/EN/images-of-the-popular.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-lo-popular.gif" alt="Images of the Popular">
+            <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Images of the Popular">
             <p class="title">Images of the Popular</p>
             <p class="subtitle">Culture, traditions, and collective expressions</p>
         </div>
     </a>
-    <a href="/ancestros.html" class="fancy-button">
+    <a href="/EN/images-of-the-ancestors.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Images of the Ancestors">
+            <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Images of the Ancestors">
             <p class="title">Images of the Ancestors</p>
             <p class="subtitle">Connections with memory and legacy</p>
         </div>

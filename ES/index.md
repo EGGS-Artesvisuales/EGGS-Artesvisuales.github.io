@@ -63,7 +63,7 @@ flowchart LR
 
   <a href="/ES/mundo-exterior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.gif" 
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" 
            alt="Obras de Representación del Mundo" loading="lazy">
       <p class="title">Representación del Mundo</p>
       <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
@@ -72,7 +72,7 @@ flowchart LR
 
   <a href="/ES/accion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.gif" 
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" 
            alt="Obras de Acción en el Mundo" loading="lazy">
       <p class="title">Acción en el Mundo</p>
       <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
@@ -81,7 +81,7 @@ flowchart LR
 
   <a href="/ES/interior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.gif" 
+      <img src="/assets/img/ES-inicio---mundo-interior.webp" 
            alt="Exploración del Mundo Interior" loading="lazy">
       <p class="title">Mundo Interior</p>
       <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
@@ -93,4 +93,3 @@ flowchart LR
 
 
 <a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
-

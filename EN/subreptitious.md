@@ -21,7 +21,7 @@ permalink: /EN/subreptitious.html
 
   <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-graffiti.gif" alt="Graffiti">
+      <img src="/assets/img/boton-graffiti.webp" alt="Graffiti">
       <p class="title">Graffiti</p>
       <p class="subtitle">Urban expression that challenges norms.</p>
     </div>
@@ -29,7 +29,7 @@ permalink: /EN/subreptitious.html
 
   <a href="/EN/sub-anti-advertising.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-antipub.gif" alt="Anti-advertising">
+      <img src="/assets/img/boton-antipub.webp" alt="Anti-advertising">
       <p class="title">Anti-advertising</p>
       <p class="subtitle">Visual countercurrent in public spaces.</p>
     </div>
@@ -37,7 +37,7 @@ permalink: /EN/subreptitious.html
 
   <a href="/EN/sub-urban-mending.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-remienda-urbana2.gif" alt="Urban Mending">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Urban Mending">
       <p class="title">Urban Mending</p>
       <p class="subtitle">Interventions to renew and transform.</p>
     </div>

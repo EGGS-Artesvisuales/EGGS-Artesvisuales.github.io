@@ -41,7 +41,7 @@ carousel: true
   <div class="item">
     <a href="/ES/autorretrato.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-autorretrato.gif" alt="Autorretrato" loading="lazy">
+        <img src="/assets/img/interior/boton-autorretrato.webp" alt="Autorretrato" loading="lazy">
         <p class="title">Autorretrato</p>
         <p class="subtitle">Explora tu identidad desde la autoobservación creativa.</p>
       </div>
@@ -52,7 +52,7 @@ carousel: true
   <div class="item">
     <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-bitacoras.gif" alt="Bitácoras y diarios" loading="lazy">
+        <img src="/assets/img/interior/boton-bitacoras.webp" alt="Bitácoras y diarios" loading="lazy">
         <p class="title">Bitácoras y diarios</p>
         <p class="subtitle">Registros de sueños, anhelos, temores y memorias.</p>
       </div>
@@ -63,7 +63,7 @@ carousel: true
   <div class="item">
     <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/ES-inicio---mundo-interior.gif" alt="Dinámicas Sensoriales" loading="lazy">
+        <img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Dinámicas Sensoriales" loading="lazy">
         <p class="title">Dinámicas Sensoriales</p>
         <p class="subtitle">Ejercicios que estimulan la percepción y la presencia.</p>
       </div>
@@ -74,7 +74,7 @@ carousel: true
   <div class="item">
     <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mascaras.gif" alt="La Máscara y el Alter Ego" loading="lazy">
+        <img src="/assets/img/interior/boton-mascaras.webp" alt="La Máscara y el Alter Ego" loading="lazy">
         <p class="title">La Máscara y el Alter Ego</p>
         <p class="subtitle">Explora distintas facetas de tu identidad simbólica.</p>
       </div>
@@ -85,7 +85,7 @@ carousel: true
   <div class="item">
     <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mandalas.gif" alt="Mandala y Zentangle" loading="lazy">
+        <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala y Zentangle" loading="lazy">
         <p class="title">Mandala y Zentangle</p>
         <p class="subtitle">Concentración, equilibrio y meditación a través del trazo.</p>
       </div>
@@ -96,7 +96,7 @@ carousel: true
   <div class="item">
     <a href="/ES/quema-del-mono.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-quema.gif" alt="Quema del Mono" loading="lazy">
+        <img src="/assets/img/interior/boton-quema.webp" alt="Quema del Mono" loading="lazy">
         <p class="title">Quema del Mono</p>
         <p class="subtitle">Ritual creativo para liberar tensiones emocionales.</p>
       </div>
@@ -107,7 +107,7 @@ carousel: true
   <div class="item">
     <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-afden.gif" alt="Silueta del Exterior Interior" loading="lazy">
+        <img src="/assets/img/interior/boton-afden.webp" alt="Silueta del Exterior Interior" loading="lazy">
         <p class="title">Silueta del Exterior Interior</p>
         <p class="subtitle">Reflexión sobre cuerpo, identidad y esencia interna.</p>
       </div>
@@ -118,7 +118,7 @@ carousel: true
   <div class="item">
     <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-psicomagia.gif" alt="Simulacros y Psicomagia" loading="lazy">
+        <img src="/assets/img/interior/boton-psicomagia.webp" alt="Simulacros y Psicomagia" loading="lazy">
         <p class="title">Simulacros y Psicomagia</p>
         <p class="subtitle">Actos simbólicos para la transformación personal.</p>
       </div>
@@ -129,7 +129,7 @@ carousel: true
   <div class="item">
     <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-grafocine.gif" alt="Sincronización Grafo Cinética" loading="lazy">
+        <img src="/assets/img/interior/boton-grafocine.webp" alt="Sincronización Grafo Cinética" loading="lazy">
         <p class="title">Sincronización Grafo-Cinética</p>
         <p class="subtitle">Movimiento, trazo y ritmo para estados meditativos.</p>
       </div>
@@ -140,7 +140,7 @@ carousel: true
   <div class="item">
     <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-pareidolico.gif" alt="Superficies Pareidólicas" loading="lazy">
+        <img src="/assets/img/interior/boton-pareidolico.webp" alt="Superficies Pareidólicas" loading="lazy">
         <p class="title">Superficies Pareidólicas</p>
         <p class="subtitle">Figuras emergentes y proyecciones del inconsciente.</p>
       </div>
@@ -151,7 +151,7 @@ carousel: true
   <div class="item">
     <a href="/ES/positivida.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-grafocine.gif" alt="Autopoiesis positiva" loading="lazy">
+        <img src="/assets/img/interior/boton-grafocine.webp" alt="Autopoiesis positiva" loading="lazy">
         <p class="title">Autopoiesis Positiva</p>
         <p class="subtitle">Prácticas textuales de retroalimentación creativa.</p>
       </div>

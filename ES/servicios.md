@@ -28,7 +28,7 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   <!-- Botón: Restauración -->
   <a href="/ES/restauracion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/restauracion-boton.gif" alt="Restauración" loading="lazy">
+      <img src="/assets/img/restauracion-boton.webp" alt="Restauración" loading="lazy">
       <p class="title">Restauración</p>
       <p class="subtitle">Conservación y recuperación de obras.</p>
     </div>
@@ -37,7 +37,7 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
   <a href="/ES/encargos.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/encargos-boton.gif" alt="Encargos y Encomiendas" loading="lazy">
+      <img src="/assets/img/encargos-boton.webp" alt="Encargos y Encomiendas" loading="lazy">
       <p class="title">Encargos y Encomiendas</p>
       <p class="subtitle">Pinturas y murales a medida.</p>
     </div>
@@ -46,7 +46,7 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
   <a href="/ES/ambientacion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/instalacion-boton.gif" alt="Ambientación e Instalación" loading="lazy">
+      <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
       <p class="title">Ambientación &amp; Montajes</p>
       <p class="subtitle">Instalaciones artísticas y decorativas.</p>
     </div>

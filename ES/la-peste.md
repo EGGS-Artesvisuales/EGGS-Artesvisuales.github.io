@@ -164,7 +164,7 @@ flowchart LR
 <div class="button-container">
   <a href="/ES/peste-pinturas-infectadas.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-la-peste-pintura.gif" alt="La Peste en pintura" loading="lazy">
+      <img src="/assets/img/boton-la-peste-pintura.webp" alt="La Peste en pintura" loading="lazy">
       <p class="title">Pintura</p>
       <p class="subtitle">La contaminación representada en la superficie pictórica.</p>
     </div>
@@ -172,7 +172,7 @@ flowchart LR
 
   <a href="/ES/desplazamiento-pintura.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-la-peste-desplazamiento.gif" alt="Desplazamiento de la pintura" loading="lazy">
+      <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Desplazamiento de la pintura" loading="lazy">
       <p class="title">Desplazamiento de la Pintura</p>
       <p class="subtitle">Intervenciones, instalaciones y soportes expandidos.</p>
     </div>

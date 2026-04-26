@@ -31,7 +31,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, proyectos artísticos,
 
   <a href="/ES/museo-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Museo a Cielo Abierto">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Museo a Cielo Abierto">
       <p class="title">Museo a Cielo Abierto</p>
       <p class="subtitle">
         Un circuito de murales que transforma el espacio urbano mediante memoria, color y colaboración comunitaria.
@@ -41,7 +41,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, proyectos artísticos,
 
   <a href="/ES/subrepticio.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-remienda-urbana.gif" alt="Remienda Urbana n°7">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Remienda Urbana n°7">
       <p class="title">Remienda Urbana n°7</p>
       <p class="subtitle">
         Intervenciones artísticas que reparan, resignifican y activan el mobiliario urbano desde la creatividad.

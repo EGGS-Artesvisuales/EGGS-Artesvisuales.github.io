@@ -334,7 +334,7 @@ flowchart LR
 
   <a href="/ES/musoe-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-musoe-cielo-abierto.gif" alt="Imágenes de los Ancestros" loading="lazy">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Imágenes de los Ancestros" loading="lazy">
       <p class="title">Musoe a Cielo Abierto</p>
       <p class="subtitle">Volver a la rama de obra.</p>
     </div>
@@ -342,7 +342,7 @@ flowchart LR
 
   <a href="/ES/mapuche-urbano.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.gif" alt="Mapuche Urbano: La Tala de la Memoria" loading="lazy">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Mapuche Urbano: La Tala de la Memoria" loading="lazy">
       <p class="title">Mapuche Urbano</p>
       <p class="subtitle">Acción / Foto-performance + Video.</p>
     </div>
