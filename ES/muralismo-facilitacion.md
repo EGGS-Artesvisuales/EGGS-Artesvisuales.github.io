@@ -1,34 +1,72 @@
 ---
 layout: default-es
 lang: es
-title: "Muralismo – Facilitación y guía de colectivos"
-description: "Procesos de facilitación y guía de colectivos dentro de la serie Muralismo de Esteban Garnica."
+title: "Muralismo - Facilitacion y guia de colectivos"
+description: "Procesos de facilitacion y guia de colectivos dentro de la serie Muralismo de Esteban Garnica."
 permalink: /ES/muralismo-facilitacion.html
-keywords: "muralismo, facilitación, guía de colectivos, diseño participativo, Esteban Garnica, EGGS-Studio"
+keywords: "muralismo, facilitacion, guia de colectivos, diseño participativo, muralismo comunitario, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
 <h1 class="titulo">Muralismo</h1>
-<h2 class="subtitulo">Facilitación y guía de colectivos</h2>
+<h2 class="subtitulo">Facilitacion y guia de colectivos</h2>
 
 <figure class="imagen-con-caption">
-  <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Proceso de muralismo colaborativo" loading="eager">
-  <figcaption>Proceso de facilitación mural con trabajo compartido en terreno.</figcaption>
+  <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso de facilitacion mural con participantes pintando en un muro del CESFAM Villa Los Quillayes" loading="eager">
+  <figcaption>Pinta Tu Mural Los Quillayes, CESFAM Villa Los Quillayes, 2018. Registro optimizado para web desde el archivo FACI.</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Esta línea reúne experiencias donde el trabajo mural se organiza desde la mediación, la escucha y la construcción compartida de una imagen. Aquí, el oficio del muralista no se limita a ejecutar un diseño, sino a acompañar procesos colectivos, ordenar decisiones y traducir imaginarios comunitarios en una obra realizable.
+  <strong>FACI</strong> agrupa procesos de muralismo comunitario donde mi rol principal es facilitar, guiar, acompañar, estructurar o mediar la realizacion colectiva. En estos casos la obra no se entiende solo como imagen final: tambien importa la metodologia, la escucha, la organizacion de decisiones visuales y la posibilidad de que grupos, comunidades o instituciones participen en la construccion del muro.
 </p>
 
 <p class="parrafo">
-  La facilitación implica leer el contexto, proponer metodologías, abrir espacios de participación y sostener técnicamente el proceso para que la autoría pueda expandirse sin perder claridad formal. En ese sentido, el mural funciona como resultado visible de una práctica más amplia de encuentro, negociación y trabajo común.
+  La serie permanece abierta desde 2012 en adelante. Cada carpeta principal corresponde a un caso concreto de facilitacion o guia, y puede contener estado anterior, bocetos, registros de proceso, materiales pedagogicos, documentos de coordinacion, registro final y memorias del trabajo realizado.
 </p>
+
+<div class="archivo-panel">
+  <h3>Ficha de serie</h3>
+  <dl>
+    <div><dt>Codigo</dt><dd>FACI</dd></div>
+    <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FACI</dd></div>
+    <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
+    <div><dt>Año</dt><dd>2012 en adelante</dd></div>
+    <div><dt>Tecnica</dt><dd>Muralismo comunitario, facilitacion de grupos, mediacion grafica y acompañamiento metodologico.</dd></div>
+    <div><dt>Contexto</dt><dd>Grupos juveniles, comunidades locales, escuelas, organizaciones barriales, programas comunitarios y encargos participativos.</dd></div>
+  </dl>
+</div>
+
+<h2 class="subtitulo2">Casos visibles en archivo</h2>
+
+<div class="case-grid">
+  <article class="case-card">
+    <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Participante pintando un mural en el CESFAM Villa Los Quillayes" loading="lazy">
+    <div>
+      <h3>Pinta Tu Mural Los Quillayes</h3>
+      <p>2018 · CESFAM Villa Los Quillayes. Facilitacion mural institucional y comunitaria realizada junto a pacientes y enfermeras en el sector infantil del centro de salud.</p>
+    </div>
+  </article>
+
+  <article class="case-card">
+    <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle de ave pintada en el mural del CESFAM Villa Los Quillayes" loading="lazy">
+    <div>
+      <h3>Ambientacion, cuidado y participacion</h3>
+      <p>El caso muestra como la facilitacion puede operar en espacios de salud, transformando un pasillo en una experiencia visual compartida entre comunidad, institucion y oficio mural.</p>
+    </div>
+  </article>
+
+  <article class="case-card">
+    <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Proceso de muralismo colaborativo en terreno" loading="lazy">
+    <div>
+      <h3>Serie abierta</h3>
+      <p>El archivo FACI incluye AMK Libertad de Expresion, AMKids, Taller AMK LFJoven, Evoluciona Graff, Santa Caterina Comunidad, Mural Los Quillayes, Bloque 23C, Hans Asperger y Miguitas Ternura, entre otros casos.</p>
+    </div>
+  </article>
+</div>
 
 <p class="parrafo">
-  Dentro del archivo, esta subserie reúne bocetos, registros de muro previo, etapas de avance y documentación de experiencias donde la dimensión pedagógica y comunitaria es tan importante como la imagen final.
+  FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
 </p>
-
-<br>
 
 <div class="button-container">
   <a href="/ES/muralismo.html" class="fancy-button">
@@ -40,26 +78,23 @@ carousel: true
   </a>
 </div>
 
-<br>
-
 <div class="owl-carousel carousel-imagen">
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-antes.jpg" alt="Estado previo del muro" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso participativo de mural en CESFAM Villa Los Quillayes" loading="lazy">
     </div>
-    <figcaption>Muro previo al proceso de facilitación y trabajo colectivo.</figcaption>
+    <figcaption>Pinta Tu Mural Los Quillayes: proceso participativo en espacio de salud, 2018.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Trabajo mural en proceso" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle final del mural facilitado en Villa Los Quillayes" loading="lazy">
     </div>
-    <figcaption>Avance de ejecución con participación directa en terreno.</figcaption>
+    <figcaption>Detalle de la intervencion realizada junto a pacientes y enfermeras.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Boceto manual para muro comunitario" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Boceto para proceso mural comunitario" loading="lazy">
     </div>
-    <figcaption>Boceto y planificación visual como parte de la guía del proceso.</figcaption>
+    <figcaption>Boceto y planificacion visual como parte de la guia metodologica.</figcaption>
   </figure>
 </div>
-

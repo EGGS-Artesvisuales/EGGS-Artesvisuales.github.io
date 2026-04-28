@@ -49,3 +49,64 @@ keywords: "art services, muralism, art restoration, art workshops, cultural prod
   </a>
 
 </div>
+
+<hr class="separador separador--aire" />
+
+<section id="restoration" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/restauracion-boton.webp" alt="Visual detail for restoration services" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Restoration and conservation</h2>
+    <p class="parrafo">
+      Material and visual recovery of artworks, objects, and surfaces through conservation criteria, aesthetic reading, and respect for each piece's history.
+    </p>
+    <ul class="service-list">
+      <li>Visual diagnosis, photographic record, and intervention proposal.</li>
+      <li>Cleaning, stabilization, chromatic reintegration, and protective finishes according to each case.</li>
+      <li>Work for private pieces, family collections, institutions, and community spaces.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="commissions" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/encargos-boton.webp" alt="Custom artworks and mural commissions" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Commissions and custom works</h2>
+    <p class="parrafo">
+      Development of paintings, murals, and visual interventions made to measure, from the initial idea to final execution.
+    </p>
+    <ul class="service-list">
+      <li>Sketching, palette definition, scale, support, and production schedule.</li>
+      <li>Works for homes, offices, commercial spaces, social organizations, and cultural institutions.</li>
+      <li>Possibility of integrating archives, territorial identity, family memory, or brand narrative.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="installs" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/instalacion-boton.webp" alt="Artistic atmosphere, exhibition design, and installation" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Artistic atmosphere, exhibition design, and installs</h2>
+    <p class="parrafo">
+      Design and execution of visual solutions for spaces, exhibitions, events, and cultural experiences.
+    </p>
+    <ul class="service-list">
+      <li>Artwork installation, artistic atmosphere, and spatial composition.</li>
+      <li>Visitor flow, simple visual supports, signage, and display solutions.</li>
+      <li>Production for exhibitions, community activities, fairs, workshops, and special projects.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="service-cta">
+  <h2 class="subtitulo2">Let's discuss the project</h2>
+  <p class="parrafo">
+    To request a quote or evaluate an idea, send a short description, location, approximate dates, and photographs of the space or artwork when relevant.
+  </p>
+  <a href="/EN/contact.html" class="enlace">Go to contact</a>
+</div>
