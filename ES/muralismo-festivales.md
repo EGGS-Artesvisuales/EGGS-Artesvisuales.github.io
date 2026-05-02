@@ -68,15 +68,7 @@ carousel: true
   FEST se diferencia de Museos al Aire Libre y de Facilitacion porque aqui el criterio de ingreso es la participacion en un marco evental, no la localidad fija ni el proceso comunitario continuo. Aun asi, cada capsula puede conectarse con otras ramas del archivo segun tecnica, periodo, colaboraciones o territorio.
 </p>
 
-<div class="button-container">
-  <a href="/ES/muralismo.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-hero.jpg" alt="Volver a Muralismo" loading="lazy">
-      <p class="title">Volver a Muralismo</p>
-      <p class="subtitle">Regresar a la vista general de la serie.</p>
-    </div>
-  </a>
-</div>
+
 
 <div class="owl-carousel carousel-imagen">
   <figure class="item">
