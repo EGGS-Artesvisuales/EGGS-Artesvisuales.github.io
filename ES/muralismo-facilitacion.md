@@ -68,15 +68,7 @@ carousel: true
   FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
 </p>
 
-<div class="button-container">
-  <a href="/ES/muralismo.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-hero.jpg" alt="Volver a Muralismo" loading="lazy">
-      <p class="title">Volver a Muralismo</p>
-      <p class="subtitle">Regresar a la vista general de la serie.</p>
-    </div>
-  </a>
-</div>
+
 
 <div class="owl-carousel carousel-imagen">
   <figure class="item">
