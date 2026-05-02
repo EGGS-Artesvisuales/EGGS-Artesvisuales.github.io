@@ -8,8 +8,8 @@ keywords: "muralismo, museo al aire libre, arte barrial, Villa Alberto Larraguib
 carousel: true
 ---
 
-<h1 class="titulo">Muralismo</h1>
-<h2 class="subtitulo">Museos al aire libre</h2>
+<h1 class="titulo">Museos al aire libre</h1>
+<h2 class="subtitulo">Lo comunitario: Museos al aire libre</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Mural Al Padre en fachada de Villa Alberto Larraguibel" loading="eager">
