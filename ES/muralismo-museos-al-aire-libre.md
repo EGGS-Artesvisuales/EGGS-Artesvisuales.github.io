@@ -68,15 +68,7 @@ carousel: true
   Dentro de MAAL, cada carpeta de localidad puede contener una o mas capsulas reales de obra. Esta organizacion permite leer los murales como archivo territorial: imagen, barrio, escala, financiamiento, proceso y memoria publica funcionando juntos.
 </p>
 
-<div class="button-container">
-  <a href="/ES/muralismo.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-hero.jpg" alt="Volver a Muralismo" loading="lazy">
-      <p class="title">Volver a Muralismo</p>
-      <p class="subtitle">Regresar a la vista general de la serie.</p>
-    </div>
-  </a>
-</div>
+
 
 <div class="owl-carousel carousel-imagen">
   <figure class="item">
