@@ -205,6 +205,24 @@ header {
   transform-origin: bottom left;
 }
 
+.nav-lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: var(--color-claro);
+  padding: 0.5rem 0.9375rem;
+}
+
+.nav-lang-switch a {
+  display: inline;
+  padding: 0;
+}
+
+.nav-lang-switch .lang-current {
+  font-weight: 700;
+  color: var(--color-destacado);
+}
+
 /* Submenús */
 .dropdown-menu {
   display: none;
