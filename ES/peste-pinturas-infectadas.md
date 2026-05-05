@@ -1239,13 +1239,13 @@ flowchart LR
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/en-construccion.jpg"
+    <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
          alt="Bodegones – En construcción" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
   </figure>
 
   <figure class="imagen-con-caption item--imagen">
-    <img class="carousel-img" src="/assets/img/en-construccion.jpg"
+    <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
          alt="Bodegones – En construcción" loading="lazy">
     <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
   </figure>

@@ -1,7 +1,7 @@
 ---
 layout: producto
 title: "Impresión - Arte Digital #1"
-image: "/assets/img/impresion001.jpg"
+image: "/assets/img/lo-invisible-pintura-wifi-01-001.jpg"
 description: "Una impresión de alta calidad inspirada en las pinturas de la serie : paisajes wi fi."
 price: "45.00"
 sizes:

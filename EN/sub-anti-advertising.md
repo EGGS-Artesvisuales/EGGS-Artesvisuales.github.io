@@ -52,7 +52,7 @@ graph LR
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/pp-serie.jpg" alt="PP Series">
+        <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="PP Series">
       </div>
       <figcaption>PP Series</figcaption>
     </a>
@@ -60,7 +60,7 @@ graph LR
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/serie-carteles.jpg" alt="Poster Series">
+        <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Poster Series">
       </div>
       <figcaption>Poster Series</figcaption>
     </a>
@@ -68,7 +68,7 @@ graph LR
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/pirateria-publicitaria.jpg" alt="Advertising Piracy">
+        <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Advertising Piracy">
       </div>
       <figcaption>Advertising Piracy</figcaption>
     </a>
@@ -76,7 +76,7 @@ graph LR
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/modelos-intervencion.jpg" alt="Intervention Models">
+        <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Intervention Models">
       </div>
       <figcaption>Intervention Models</figcaption>
     </a>

@@ -94,7 +94,7 @@ flowchart LR
 
   click F "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
-  click F2 "/ES/espacio-publico/" "Ir a Espacio Público"
+  click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/ES/espacio-rural" "Ir a Espacio Rural / Natural"
 </div>
 

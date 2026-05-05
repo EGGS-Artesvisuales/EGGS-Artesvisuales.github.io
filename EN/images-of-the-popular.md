@@ -26,7 +26,7 @@ mermaid: false
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/esculturas.jpg" alt="Sculptures">
+        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Sculptures">
       </div>
       <figcaption>Sculptures</figcaption>
     </a>
@@ -35,7 +35,7 @@ mermaid: false
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/papelucho.jpg" alt="Papelucho">
+        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Papelucho">
       </div>
       <figcaption>Papelucho</figcaption>
     </a>

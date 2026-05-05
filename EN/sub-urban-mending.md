@@ -40,42 +40,42 @@ graph LR
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/paso-cebra.jpg" alt="Intervened crosswalk" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Intervened crosswalk" class="carousel-img">
     </div>
     <figcaption>Crosswalk traced by hand as a gesture of symbolic repair and community attention.</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/unaytres-sillas.jpg" alt="Intervention in pedestrian crossing" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Intervention in pedestrian crossing" class="carousel-img">
     </div>
     <figcaption>A minimal action that questions transit, rest, and the use of shared space.</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/ciclovia.jpg" alt="Improvised bike lane" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Improvised bike lane" class="carousel-img">
     </div>
     <figcaption>Bike lane drawn over an unused sidewalk: irony and civic claim in response to the lack of infrastructure.</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/linea-vial.jpg" alt="Road safety line" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Road safety line" class="carousel-img">
     </div>
     <figcaption>Safety line painted over pavement cracks, marking the contradiction between regulation and neglect.</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/hoyos.jpg" alt="Intervened pavement holes" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Intervened pavement holes" class="carousel-img">
     </div>
     <figcaption>Paint applied to make persistent holes visible and provoke civic reflection.</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
-      <img src="/assets/img/remiendas/calle-sin-salida.jpg" alt="Mended dead-end street" class="carousel-img">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Mended dead-end street" class="carousel-img">
     </div>
     <figcaption>Intervention in a dead-end street as a metaphor for stagnation and lack of urban connectivity.</figcaption>
   </figure>

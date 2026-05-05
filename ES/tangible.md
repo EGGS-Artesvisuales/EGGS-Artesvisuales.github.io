@@ -64,7 +64,7 @@ flowchart LR
         </div>
     </a>
 
-    <a href="/ES/tecnologia.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
             <p class="title">La Tecnología</p>

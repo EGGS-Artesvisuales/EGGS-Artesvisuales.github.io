@@ -26,7 +26,7 @@ mermaid: false
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/el-colgado.jpg" alt="El Colgado">
+        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Colgado">
       </div>
       <figcaption>El Colgado</figcaption>
     </a>
@@ -35,7 +35,7 @@ mermaid: false
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/mr-burns.jpg" alt="Mr. Burns">
+        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="Mr. Burns">
       </div>
       <figcaption>Mr. Burns</figcaption>
     </a>
@@ -44,7 +44,7 @@ mermaid: false
   <div class="item">
     <a href="/EN/under-construction.html">
       <div class="img-container">
-        <img class="carousel-img" src="/assets/img/el-empaquetador.jpg" alt="El Empaquetador">
+        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Empaquetador">
       </div>
       <figcaption>El Empaquetador</figcaption>
     </a>

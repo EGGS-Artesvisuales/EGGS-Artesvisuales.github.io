@@ -41,9 +41,9 @@ carousel: true
 <div class="owl-carousel">
   <!-- Servicio 1: Producción y organización de eventos culturales -->
   <div class="item">
-    <a href="/ES/produccion-eventos-culturales.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-eventos.gif" alt="Producción y organización de eventos culturales" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Producción y organización de eventos culturales" loading="lazy">
         <p class="title">Producción y organización de eventos culturales</p>
         <p class="subtitle">Diseño, coordinación y acompañamiento de experiencias culturales.</p>
       </div>
@@ -52,9 +52,9 @@ carousel: true
   
   <!-- Servicio 2: Restauración y conservación de obras de arte y patrimonio -->
   <div class="item">
-    <a href="/ES/restauracion-conservacion.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-restauracion.gif" alt="Restauración y conservación de obras de arte y patrimonio" loading="lazy">
+        <img src="/assets/img/restauracion-boton.webp" alt="Restauración y conservación de obras de arte y patrimonio" loading="lazy">
         <p class="title">Restauración y conservación de obras de arte y patrimonio</p>
         <p class="subtitle">Preservamos el legado artístico y material con criterios técnicos y respeto por la obra.</p>
       </div>
@@ -63,9 +63,9 @@ carousel: true
   
   <!-- Servicio 3: Muralismo y arte urbano -->
   <div class="item">
-    <a href="/ES/muralismo-arte-urbano.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-muralismo.gif" alt="Muralismo y arte urbano" loading="lazy">
+        <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo y arte urbano" loading="lazy">
         <p class="title">Muralismo y arte urbano</p>
         <p class="subtitle">Intervenciones murales para espacios públicos, comunitarios y privados.</p>
       </div>
@@ -74,9 +74,9 @@ carousel: true
   
   <!-- Servicio 4: Diseño y construcción de escenografías y mobiliario artístico -->
   <div class="item">
-    <a href="/ES/diseno-escenografias.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-escenografia.gif" alt="Diseño y construcción de escenografías y mobiliario artístico" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Diseño y construcción de escenografías y mobiliario artístico" loading="lazy">
         <p class="title">Diseño y construcción de escenografías y mobiliario artístico</p>
         <p class="subtitle">Espacios y objetos que acompañan relatos escénicos y expositivos.</p>
       </div>
@@ -85,9 +85,9 @@ carousel: true
   
   <!-- Servicio 5: Docencia y talleres de formación artística -->
   <div class="item">
-    <a href="/ES/docencia-talleres.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-docencia.gif" alt="Docencia y talleres de formación artística" loading="lazy">
+        <img src="/assets/img/boton-docencia.webp" alt="Docencia y talleres de formación artística" loading="lazy">
         <p class="title">Docencia y talleres de formación artística</p>
         <p class="subtitle">Programas formativos en artes visuales, muralismo y procesos creativos.</p>
       </div>
@@ -96,9 +96,9 @@ carousel: true
   
   <!-- Servicio 6: Producción y montaje de exhibiciones y museos digitales -->
   <div class="item">
-    <a href="/ES/montaje-exhibiciones.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-exhibiciones.gif" alt="Producción y montaje de exhibiciones y museos digitales" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Producción y montaje de exhibiciones y museos digitales" loading="lazy">
         <p class="title">Producción y montaje de exhibiciones y museos digitales</p>
         <p class="subtitle">Curaduría, montaje y experiencias expositivas presenciales y virtuales.</p>
       </div>
@@ -107,9 +107,9 @@ carousel: true
   
   <!-- Servicio 7: Decoración artística de interiores y exteriores -->
   <div class="item">
-    <a href="/ES/decoracion-artistica.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-decoracion.gif" alt="Decoración artística de interiores y exteriores" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Decoración artística de interiores y exteriores" loading="lazy">
         <p class="title">Decoración artística de interiores y exteriores</p>
         <p class="subtitle">Propuestas visuales a medida para hogares, instituciones y espacios comerciales.</p>
       </div>
@@ -118,9 +118,9 @@ carousel: true
   
   <!-- Servicio 8: Desarrollo de software y aplicaciones para el sector artístico -->
   <div class="item">
-    <a href="/ES/software-artistico.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-software.gif" alt="Desarrollo de software y aplicaciones para el sector artístico" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Desarrollo de software y aplicaciones para el sector artístico" loading="lazy">
         <p class="title">Desarrollo de software y aplicaciones para el sector artístico</p>
         <p class="subtitle">Herramientas digitales pensadas para proyectos culturales y visuales.</p>
       </div>
@@ -129,9 +129,9 @@ carousel: true
   
   <!-- Servicio 9: Producción de contenido multimedia y arte digital -->
   <div class="item">
-    <a href="/ES/arte-digital.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-multimedia.gif" alt="Producción de contenido multimedia y arte digital" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Producción de contenido multimedia y arte digital" loading="lazy">
         <p class="title">Producción de contenido multimedia y arte digital</p>
         <p class="subtitle">Video, imagen y piezas digitales para proyectos artísticos y comunicacionales.</p>
       </div>
@@ -140,9 +140,9 @@ carousel: true
   
   <!-- Servicio 10: Comercialización de productos artísticos y diseño especializado -->
   <div class="item">
-    <a href="/ES/comercializacion-productos.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-comercial.gif" alt="Comercialización de productos artísticos y diseño especializado" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Comercialización de productos artísticos y diseño especializado" loading="lazy">
         <p class="title">Comercialización de productos artísticos y diseño especializado</p>
         <p class="subtitle">Obras, ediciones y productos derivados vinculados a la práctica artística.</p>
       </div>
@@ -151,9 +151,9 @@ carousel: true
   
   <!-- Servicio 11: Intervenciones comunitarias y proyectos de inclusión social a través del arte -->
   <div class="item">
-    <a href="/ES/intervenciones-comunitarias.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-intervenciones.gif" alt="Intervenciones comunitarias y proyectos de inclusión social a través del arte" loading="lazy">
+        <img src="/assets/img/eggs-empresagif.webp" alt="Intervenciones comunitarias y proyectos de inclusión social a través del arte" loading="lazy">
         <p class="title">Intervenciones comunitarias e inclusión social a través del arte</p>
         <p class="subtitle">Procesos participativos que vinculan creación, territorio y bienestar.</p>
       </div>

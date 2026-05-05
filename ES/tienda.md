@@ -21,7 +21,7 @@ keywords: "tienda de arte, arte original, impresiones artísticas, productos de 
 
 <div class="productos-container">
   <div class="producto">
-    <img src="/assets/img/producto1.jpg" alt="Impresión artística 1" loading="lazy">
+    <img src="/assets/img/lo-invisible-pintura-wifi-01-001.jpg" alt="Impresión artística 1" loading="lazy">
     <p class="title">Impresión Artística 1</p>
     <p class="subtitle">Impresión en papel de alta calidad. Tamaño aproximado: 30 × 40 cm.</p>
     <p class="precio">$25.000 CLP</p>
@@ -29,7 +29,7 @@ keywords: "tienda de arte, arte original, impresiones artísticas, productos de 
   </div>
 
   <div class="producto">
-    <img src="/assets/img/producto2.jpg" alt="Cuadro enmarcado" loading="lazy">
+    <img src="/assets/img/la-peste---pintura01.jpg" alt="Cuadro enmarcado" loading="lazy">
     <p class="title">Cuadro Enmarcado</p>
     <p class="subtitle">Óleo sobre tela con marco de madera. Tamaño aproximado: 50 × 70 cm.</p>
     <p class="precio">$120.000 CLP</p>
@@ -37,7 +37,7 @@ keywords: "tienda de arte, arte original, impresiones artísticas, productos de 
   </div>
 
   <div class="producto">
-    <img src="/assets/img/producto3.jpg" alt="Colección de postales" loading="lazy">
+    <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Colección de postales" loading="lazy">
     <p class="title">Colección de Postales</p>
     <p class="subtitle">Set de 5 postales con distintas obras seleccionadas.</p>
     <p class="precio">$10.000 CLP</p>

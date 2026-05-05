@@ -54,7 +54,7 @@ graph LR
   click B "/es/la-peste.html" "Ver La Peste"
   click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
-  click F2 "/ES/espacio-publico/" "Ir a Espacio Público"
+  click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/ES/espacio-rural" "Ir a Espacio Rural / Natural"
 
 </div>
@@ -69,7 +69,7 @@ graph LR
       <p class="subtitle">Desplazamiento de la pintura al espacio inmediato</p>
     </div>
   </a>
-  <a href="/ES/espacio-publico/" class="fancy-button">
+  <a href="/ES/espacio-publico.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Espacio público">
       <p class="title">Espacio público</p>

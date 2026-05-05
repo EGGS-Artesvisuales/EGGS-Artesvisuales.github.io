@@ -29,7 +29,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, proyectos artísticos,
 
 <div class="button-container">
 
-  <a href="/ES/museo-a-cielo-abierto.html" class="fancy-button">
+  <a href="/ES/musoe-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Museo a Cielo Abierto">
       <p class="title">Museo a Cielo Abierto</p>

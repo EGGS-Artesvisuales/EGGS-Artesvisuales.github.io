@@ -39,7 +39,7 @@ carousel: true
 
   <!-- AUTORRETRATO -->
   <div class="item">
-    <a href="/ES/autorretrato.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-autorretrato.webp" alt="Autorretrato" loading="lazy">
         <p class="title">Autorretrato</p>
@@ -50,7 +50,7 @@ carousel: true
 
   <!-- BITÁCORAS Y DIARIOS -->
   <div class="item">
-    <a href="/ES/diarios-y-bitacoras.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-bitacoras.webp" alt="Bitácoras y diarios" loading="lazy">
         <p class="title">Bitácoras y diarios</p>
@@ -61,7 +61,7 @@ carousel: true
 
   <!-- DINÁMICAS SENSORIALES -->
   <div class="item">
-    <a href="/ES/dinamicas-sensoriales.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Dinámicas Sensoriales" loading="lazy">
         <p class="title">Dinámicas Sensoriales</p>
@@ -72,7 +72,7 @@ carousel: true
 
   <!-- La Máscara y el Alter Ego -->
   <div class="item">
-    <a href="/ES/la-mascara-y-el-alter-ego.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mascaras.webp" alt="La Máscara y el Alter Ego" loading="lazy">
         <p class="title">La Máscara y el Alter Ego</p>
@@ -83,7 +83,7 @@ carousel: true
 
   <!-- MANDALA Y ZENTANGLE -->
   <div class="item">
-    <a href="/ES/mandala-y-zentangle.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala y Zentangle" loading="lazy">
         <p class="title">Mandala y Zentangle</p>
@@ -94,7 +94,7 @@ carousel: true
 
   <!-- QUEMA DEL MONO -->
   <div class="item">
-    <a href="/ES/quema-del-mono.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-quema.webp" alt="Quema del Mono" loading="lazy">
         <p class="title">Quema del Mono</p>
@@ -105,7 +105,7 @@ carousel: true
 
   <!-- SILUETA DEL EXTERIOR INTERIOR -->
   <div class="item">
-    <a href="/ES/silueta-del-exterior-interior.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-afden.webp" alt="Silueta del Exterior Interior" loading="lazy">
         <p class="title">Silueta del Exterior Interior</p>
@@ -116,7 +116,7 @@ carousel: true
 
   <!-- SIMULACROS Y PSICOMAGIA -->
   <div class="item">
-    <a href="/ES/simulacros-y-psicomagia.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-psicomagia.webp" alt="Simulacros y Psicomagia" loading="lazy">
         <p class="title">Simulacros y Psicomagia</p>
@@ -127,7 +127,7 @@ carousel: true
 
   <!-- SINCRONIZACIÓN GRAFO CINÉTICA -->
   <div class="item">
-    <a href="/ES/sincronizacion-grafo-cinetica.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.webp" alt="Sincronización Grafo Cinética" loading="lazy">
         <p class="title">Sincronización Grafo-Cinética</p>
@@ -138,7 +138,7 @@ carousel: true
 
   <!-- SUPERFICIES PAREIDÓLICAS -->
   <div class="item">
-    <a href="/ES/superficies-pareidolicas.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-pareidolico.webp" alt="Superficies Pareidólicas" loading="lazy">
         <p class="title">Superficies Pareidólicas</p>
@@ -149,7 +149,7 @@ carousel: true
 
   <!-- AUTOPOIESIS POSITIVA -->
   <div class="item">
-    <a href="/ES/positivida.html" class="fancy-button">
+    <a href="/ES/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.webp" alt="Autopoiesis positiva" loading="lazy">
         <p class="title">Autopoiesis Positiva</p>

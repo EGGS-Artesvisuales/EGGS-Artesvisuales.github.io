@@ -25,7 +25,7 @@ permalink: /EN/archive.html
 <div class="button-container">
   <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-bocetos.gif" alt="Sketches and studies">
+      <img src="/assets/img/boton-docencia.webp" alt="Sketches and studies">
       <p class="title">Sketches and Studies</p>
       <p class="subtitle">Preparatory drawings, color studies, and composition studies.</p>
     </div>
@@ -33,7 +33,7 @@ permalink: /EN/archive.html
 
   <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-catalogos.gif" alt="Exhibitions">
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="Exhibitions">
       <p class="title">Exhibitions</p>
       <p class="subtitle">Publications, posters, and exhibition records.</p>
     </div>
@@ -43,7 +43,7 @@ permalink: /EN/archive.html
 <div class="button-container">
   <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-noticias.gif" alt="News and press">
+      <img src="/assets/img/esteban-garnica2.jpg" alt="News and press">
       <p class="title">News and Press</p>
       <p class="subtitle">Articles, interviews, and media coverage.</p>
     </div>
@@ -51,7 +51,7 @@ permalink: /EN/archive.html
 
   <a href="/EN/under-construction.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-referencias.gif" alt="References and bibliography">
+      <img src="/assets/img/eggs-logo-header-05.jpg" alt="References and bibliography">
       <p class="title">References and Bibliography</p>
       <p class="subtitle">Texts, research, and consultation material.</p>
     </div>

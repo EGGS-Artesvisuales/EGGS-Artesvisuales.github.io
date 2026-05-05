@@ -22,17 +22,17 @@ permalink: /ES/archivo.html
 <br>
 
 <div class="button-container">
-  <a href="bocetos.html" class="fancy-button">
+  <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-bocetos.gif" alt="Bocetos y estudios">
+      <img src="/assets/img/boton-docencia.webp" alt="Bocetos y estudios">
       <p class="title">Bocetos y Estudios</p>
       <p class="subtitle">Dibujos preparatorios, estudios de color y composición.</p>
     </div>
   </a>
 
-  <a href="catalogos.html" class="fancy-button">
+  <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-catalogos.gif" alt="Exhibiciones">
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="Exhibiciones">
       <p class="title">Exhibiciones</p>
       <p class="subtitle">Publicaciones, afiches y registros de muestras.</p>
     </div>
@@ -40,23 +40,23 @@ permalink: /ES/archivo.html
 </div>
 
 <div class="button-container">
-  <a href="noticias.html" class="fancy-button">
+  <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-noticias.gif" alt="Noticias y Prensa">
+      <img src="/assets/img/esteban-garnica2.jpg" alt="Noticias y Prensa">
       <p class="title">Noticias y Prensa</p>
       <p class="subtitle">Artículos, entrevistas y cobertura mediática.</p>
     </div>
   </a>
 
-  <a href="referencias.html" class="fancy-button">
+  <a href="/ES/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/archivo-referencias.gif" alt="Referencias y Bibliografía">
+      <img src="/assets/img/eggs-logo-header-05.jpg" alt="Referencias y Bibliografía">
       <p class="title">Referencias y Bibliografía</p>
       <p class="subtitle">Textos, investigaciones y material de consulta.</p>
     </div>
   </a>
 </div>
 
-<a href="descargas.html" class="enlace">Ver más archivos</a>
+<a href="/ES/en-construccion.html" class="enlace">Ver más archivos</a>
 
 <br><br>
