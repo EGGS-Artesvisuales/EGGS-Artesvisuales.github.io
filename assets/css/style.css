@@ -1368,27 +1368,27 @@ body.no-scroll {
    Content structure, routes, and Mermaid diagrams are preserved.
 ------------------------------------------------------------------ */
 :root {
-  --color-fondo: #d2d5d8;
-  --color-fondo-secundario: #f1f2f3;
-  --color-hover: #e3e6e8;
-  --color-destacado: #2b5c9f;
-  --color-claro: #15171a;
-  --color-medio-claro: #565d66;
-  --color-medio: #e9ebed;
-  --color-medio-oscuro: #c5c9ce;
+  --color-fondo: #16181b;
+  --color-fondo-secundario: #202329;
+  --color-hover: #2c3036;
+  --color-destacado: #aeb8c7;
+  --color-claro: #f4f5f6;
+  --color-medio-claro: #c4cad2;
+  --color-medio: #252932;
+  --color-medio-oscuro: #3a404a;
   --content-max-width: min(74ch, 100%);
   --button-border-radius: 0.25rem;
   --radius-small: 0.1875rem;
   --radius-medium: 0.25rem;
   --radius-large: 0.375rem;
   --radius-extra: 0.5rem;
-  --site-line: rgba(22, 24, 28, 0.16);
-  --site-line-strong: rgba(22, 24, 28, 0.32);
-  --site-panel: rgba(246, 247, 248, 0.84);
-  --site-panel-solid: #f7f8f9;
+  --site-line: rgba(230, 234, 240, 0.16);
+  --site-line-strong: rgba(230, 234, 240, 0.32);
+  --site-panel: rgba(28, 31, 37, 0.86);
+  --site-panel-solid: #20242b;
   --site-red: #fc3d21;
   --site-blue: #0b3d91;
-  --site-shadow: 0 22px 70px rgba(45, 50, 58, 0.18);
+  --site-shadow: 0 22px 70px rgba(0, 0, 0, 0.34);
   --site-ease: cubic-bezier(.2, .8, .2, 1);
 }
 
@@ -1399,10 +1399,10 @@ html {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.72), transparent 26rem),
-    radial-gradient(circle at 86% 12%, rgba(133, 143, 154, 0.34), transparent 24rem),
-    radial-gradient(circle at 42% 92%, rgba(43, 92, 159, 0.12), transparent 24rem),
-    linear-gradient(180deg, #eef0f1 0%, #d2d5d8 42%, #bfc4c9 100%);
+    radial-gradient(circle at 18% 8%, rgba(205, 213, 224, 0.2), transparent 26rem),
+    radial-gradient(circle at 86% 12%, rgba(115, 124, 136, 0.18), transparent 24rem),
+    radial-gradient(circle at 42% 92%, rgba(255, 255, 255, 0.08), transparent 24rem),
+    linear-gradient(180deg, #24272d 0%, #181b20 44%, #101215 100%);
   color: var(--color-claro);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -1414,8 +1414,8 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255,255,255,0.34) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(40,45,52,0.045) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.032) 1px, transparent 1px);
   background-size: 72px 72px;
   mask-image: linear-gradient(to bottom, rgba(0,0,0,0.52), transparent 78%);
 }
@@ -1503,8 +1503,8 @@ button:focus-visible,
 
 .nav-menu a:hover,
 .nav-menu a:focus {
-  background: #fff;
-  color: #000;
+  background: #2f343c;
+  color: #ffffff;
   transform: none;
 }
 
@@ -1574,15 +1574,15 @@ button:focus-visible,
 
 .nav-lang-switch a:hover,
 .nav-lang-switch a:focus {
-  background: #fff;
-  color: #000;
+  background: #2f343c;
+  color: #ffffff;
 }
 
 .nav-lang-switch .lang-current {
   display: inline-flex;
   padding: 0.35rem 0.42rem;
-  color: #000;
-  background: #fff;
+  color: #111316;
+  background: #d7dde5;
   border-radius: 999px;
 }
 
@@ -1613,7 +1613,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
   max-width: 15ch;
   margin-top: clamp(1rem, 4vw, 4rem);
   margin-bottom: 1.25rem;
-  color: #111316;
+  color: #ffffff;
   font-size: clamp(2.7rem, 8vw, 6.8rem);
   font-weight: 900;
   line-height: 0.9;
@@ -1631,7 +1631,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
 
 .subtitulo {
   max-width: 62rem;
-  color: #1d2024;
+  color: #f4f5f6;
   font-size: clamp(1.35rem, 2.6vw, 2.8rem);
   font-weight: 850;
   line-height: 1.05;
@@ -1649,7 +1649,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
 .parrafo,
 .parrafo ul {
   max-width: var(--content-max-width);
-  color: rgba(21, 23, 26, 0.86);
+  color: rgba(244, 245, 246, 0.86);
   font-size: clamp(1rem, 0.95rem + 0.25vw, 1.18rem);
 }
 
@@ -1664,7 +1664,7 @@ p.parrafo:first-of-type {
 .parrafo strong,
 .subtitulo strong,
 .subtitulo2 strong {
-  color: #0a0b0d;
+  color: #ffffff;
 }
 
 hr.separador {
@@ -1701,7 +1701,7 @@ hr.separador {
 
 .imagen-con-caption figcaption {
   max-width: 72ch;
-  color: rgba(21, 23, 26, 0.68);
+  color: rgba(244, 245, 246, 0.68);
   text-align: left;
 }
 
@@ -1756,7 +1756,7 @@ hr.separador {
 
 .fancy-button:hover,
 .fancy-button:focus {
-  background: #ffffff;
+  background: #262b33;
   box-shadow: none;
   transform: none;
 }
@@ -1793,7 +1793,7 @@ hr.separador {
 .button-content .title {
   margin: 0;
   padding: 1rem 1rem 0.25rem;
-  color: #111316;
+  color: #ffffff;
   font-size: clamp(1.05rem, 1.15vw, 1.28rem);
   line-height: 1.16;
   overflow-wrap: anywhere;
@@ -1804,7 +1804,7 @@ hr.separador {
   min-height: 5.6rem;
   padding: 0.35rem 3.2rem 1rem 1rem;
   background: transparent;
-  color: rgba(21, 23, 26, 0.68);
+  color: rgba(244, 245, 246, 0.72);
   border-radius: 0;
   line-height: 1.42;
   overflow-wrap: anywhere;
@@ -1812,7 +1812,7 @@ hr.separador {
 
 .fancy-button:hover .button-content .subtitle {
   background: transparent;
-  color: #111316;
+  color: #ffffff;
 }
 
 .archivo-panel,
