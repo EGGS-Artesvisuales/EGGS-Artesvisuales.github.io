@@ -1368,27 +1368,27 @@ body.no-scroll {
    Content structure, routes, and Mermaid diagrams are preserved.
 ------------------------------------------------------------------ */
 :root {
-  --color-fondo: #050505;
-  --color-fondo-secundario: #0d0d0f;
-  --color-hover: #1c1c21;
-  --color-destacado: #8ab4ff;
-  --color-claro: #f7f7f2;
-  --color-medio-claro: #c8c8c3;
-  --color-medio: #151519;
-  --color-medio-oscuro: #202027;
+  --color-fondo: #d2d5d8;
+  --color-fondo-secundario: #f1f2f3;
+  --color-hover: #e3e6e8;
+  --color-destacado: #2b5c9f;
+  --color-claro: #15171a;
+  --color-medio-claro: #565d66;
+  --color-medio: #e9ebed;
+  --color-medio-oscuro: #c5c9ce;
   --content-max-width: min(74ch, 100%);
   --button-border-radius: 0.25rem;
   --radius-small: 0.1875rem;
   --radius-medium: 0.25rem;
   --radius-large: 0.375rem;
   --radius-extra: 0.5rem;
-  --site-line: rgba(255, 255, 255, 0.16);
-  --site-line-strong: rgba(255, 255, 255, 0.28);
-  --site-panel: rgba(12, 12, 14, 0.82);
-  --site-panel-solid: #111114;
+  --site-line: rgba(22, 24, 28, 0.16);
+  --site-line-strong: rgba(22, 24, 28, 0.32);
+  --site-panel: rgba(246, 247, 248, 0.84);
+  --site-panel-solid: #f7f8f9;
   --site-red: #fc3d21;
   --site-blue: #0b3d91;
-  --site-shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+  --site-shadow: 0 22px 70px rgba(45, 50, 58, 0.18);
   --site-ease: cubic-bezier(.2, .8, .2, 1);
 }
 
@@ -1399,9 +1399,10 @@ html {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 18% 8%, rgba(11, 61, 145, 0.25), transparent 28rem),
-    radial-gradient(circle at 90% 12%, rgba(252, 61, 33, 0.16), transparent 20rem),
-    linear-gradient(180deg, #030303 0%, #0b0b0d 42%, #050505 100%);
+    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.72), transparent 26rem),
+    radial-gradient(circle at 86% 12%, rgba(133, 143, 154, 0.34), transparent 24rem),
+    radial-gradient(circle at 42% 92%, rgba(43, 92, 159, 0.12), transparent 24rem),
+    linear-gradient(180deg, #eef0f1 0%, #d2d5d8 42%, #bfc4c9 100%);
   color: var(--color-claro);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -1413,10 +1414,10 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.34) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(40,45,52,0.045) 1px, transparent 1px);
   background-size: 72px 72px;
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.45), transparent 75%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.52), transparent 78%);
 }
 
 a {
@@ -1612,7 +1613,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
   max-width: 15ch;
   margin-top: clamp(1rem, 4vw, 4rem);
   margin-bottom: 1.25rem;
-  color: #fff;
+  color: #111316;
   font-size: clamp(2.7rem, 8vw, 6.8rem);
   font-weight: 900;
   line-height: 0.9;
@@ -1630,7 +1631,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
 
 .subtitulo {
   max-width: 62rem;
-  color: var(--color-claro);
+  color: #1d2024;
   font-size: clamp(1.35rem, 2.6vw, 2.8rem);
   font-weight: 850;
   line-height: 1.05;
@@ -1648,7 +1649,7 @@ main > *:nth-child(4) { animation-delay: 170ms; }
 .parrafo,
 .parrafo ul {
   max-width: var(--content-max-width);
-  color: rgba(247,247,242,0.86);
+  color: rgba(21, 23, 26, 0.86);
   font-size: clamp(1rem, 0.95rem + 0.25vw, 1.18rem);
 }
 
@@ -1663,7 +1664,7 @@ p.parrafo:first-of-type {
 .parrafo strong,
 .subtitulo strong,
 .subtitulo2 strong {
-  color: #fff;
+  color: #0a0b0d;
 }
 
 hr.separador {
@@ -1700,13 +1701,13 @@ hr.separador {
 
 .imagen-con-caption figcaption {
   max-width: 72ch;
-  color: rgba(247,247,242,0.68);
+  color: rgba(21, 23, 26, 0.68);
   text-align: left;
 }
 
 .button-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
   gap: 1px;
   margin: clamp(2rem, 4vw, 4.5rem) 0;
   border: 1px solid var(--site-line);
@@ -1721,6 +1722,16 @@ hr.separador {
   background: var(--site-panel-solid);
   box-shadow: none;
   isolation: isolate;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+.button-container > .fancy-button {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding: 0;
 }
 
 .fancy-button::after {
@@ -1745,7 +1756,7 @@ hr.separador {
 
 .fancy-button:hover,
 .fancy-button:focus {
-  background: #000;
+  background: #ffffff;
   box-shadow: none;
   transform: none;
 }
@@ -1757,13 +1768,17 @@ hr.separador {
 }
 
 .button-content {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   align-items: stretch;
   text-align: left;
+  overflow: visible;
 }
 
 .button-content img {
   aspect-ratio: 16 / 10;
+  width: 100%;
   object-fit: cover;
   opacity: 0.84;
   transition: opacity 220ms var(--site-ease), transform 480ms var(--site-ease), filter 220ms var(--site-ease);
@@ -1778,23 +1793,26 @@ hr.separador {
 .button-content .title {
   margin: 0;
   padding: 1rem 1rem 0.25rem;
-  color: #fff;
-  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
-  line-height: 1.05;
+  color: #111316;
+  font-size: clamp(1.05rem, 1.15vw, 1.28rem);
+  line-height: 1.16;
+  overflow-wrap: anywhere;
 }
 
 .button-content .subtitle {
-  min-height: 4.5rem;
+  flex: 1;
+  min-height: 5.6rem;
   padding: 0.35rem 3.2rem 1rem 1rem;
   background: transparent;
-  color: rgba(247,247,242,0.72);
+  color: rgba(21, 23, 26, 0.68);
   border-radius: 0;
-  line-height: 1.35;
+  line-height: 1.42;
+  overflow-wrap: anywhere;
 }
 
 .fancy-button:hover .button-content .subtitle {
   background: transparent;
-  color: #fff;
+  color: #111316;
 }
 
 .archivo-panel,
