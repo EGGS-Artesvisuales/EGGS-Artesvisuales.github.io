@@ -52,6 +52,10 @@ languages:
     label: "English"
     locale: "en-US"
     dir: "ltr"
+  arn:
+    label: "Mapudungun"
+    locale: "arn-CL"
+    dir: "ltr"
 
 # Configuración por defecto para cada idioma
 defaults:
@@ -65,6 +69,11 @@ defaults:
     values:
       lang: "en"
       locale: "en-US"
+  - scope:
+      path: "MPD"
+    values:
+      lang: "arn"
+      locale: "arn-CL"
 
 # Configurar enlaces permanentes más legibles
 permalink: pretty

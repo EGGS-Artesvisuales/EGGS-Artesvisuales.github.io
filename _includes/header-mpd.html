@@ -1,0 +1,28 @@
+<header id="top" role="banner">
+  <div class="header-container">
+    <div class="logo">
+      <a href="/MPD/index.html" aria-label="EGGS-Studio Mapudungun">
+        <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS-Studio">
+      </a>
+    </div>
+  </div>
+</header>
+
+<nav class="main-nav" aria-label="Mapudungun navigation">
+  <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul id="primary-menu" class="menu" role="menubar">
+    <li role="none"><a href="/MPD/index.html" role="menuitem">Mapudungun</a></li>
+    <li role="none"><a href="/ES/index.html" role="menuitem">Español</a></li>
+    <li role="none"><a href="/EN/index.html" role="menuitem">English</a></li>
+    <li class="nav-lang-switch" role="none" aria-label="Language switcher">
+      <a href="{{ page.es_url | default: '/ES/index.html' }}" role="menuitem" hreflang="es" lang="es" aria-label="Cambiar idioma a espanol">ES</a>
+      <span class="lang-separator" aria-hidden="true">/</span>
+      <a href="{{ page.en_url | default: '/EN/index.html' }}" role="menuitem" hreflang="en" lang="en" aria-label="Switch language to English">EN</a>
+      <span class="lang-separator" aria-hidden="true">/</span>
+      <span class="lang-current" aria-current="true">MPD</span>
+    </li>
+  </ul>
+</nav>
