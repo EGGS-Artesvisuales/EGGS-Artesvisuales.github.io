@@ -4,7 +4,7 @@ lang: arn
 title: "Fentepun – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw trokiñ ñi kintun azentun, simbólico ka wallmapu fentepun fachi antü mew."
 permalink: /MPD/saturacion.html
-keywords: "Saturación, arte contemporáneo, saturación azentun, saturación simbólica, contaminación azentun, pintura expandida, Esteban Garnica, EGGS-Studio"
+keywords: "Saturación, az-küdaw fachi antü mew, saturación azentun, saturación simbólica, kutxan azentun, pintura az-küdaw expandida, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -14,7 +14,7 @@ mermaid: true
 <br>
 <figure class="az-con-caption">
   <img src="/assets/img/desp-domestico-hbt-coci-001.jpg" alt="Fentepun - Manifestación del Exceso" loading="lazy">
-  <figcaption>Fentepun / Kutxan / Desplazamiento de la pintura: Püles Ruka mews, cocina cubierta, 2009.</figcaption>
+  <figcaption>Fentepun / Kutxan / Fentepun ñi feychi pintura az-küdaw: Püles Ruka mews, cocina cubierta, 2009.</figcaption>
 </figure>
 
 <br><br><br>
@@ -23,10 +23,10 @@ mermaid: true
   <strong>«Fentepun»</strong> müley fachi antü ñi küme kimfalchi condición. Chemkün mew müten mülelelay; koni kimün, kalül adkintun ka percepción mew. Txawüley doy fentepun estímulo, consumo ñi excesso, püle rakizuam ñi ñamün, desigualdad, alienación ka itrofill mogen ñi crisis. Fachi propuesta kintuy kutxan mapu az, nülakey <strong>«ñochi ka pengekenon violencia»</strong> ñi wall püle ka fill antü mogen ñi korroer.
 </p>
 <p class="parrafo">
-  <em>horror vacui</em> egu txawün mew, fentepun amuley fentren capa mew —kalül kimün, kimün, wallmapu— ka fragmentakey adkintun ka kom che kimün kuifi. Fachi condición tripalkey epu fütra trokiñ: <em>Kutxan</em> ka <em>Pengekenon</em>. Wünen adkintuy pengechi residuo ñi txawün ka itrofill mogen mew ñi konün; epu adkintuy pengekenon welu koneltuchi fenómeno: radioelectromagnética contaminación, küme/kütral nümün ka química kam energía dungu.
+  <em>horror vacui</em> egu txawün mew, fentepun amuley fentren capa mew —kalül kimün, kimün, wallmapu— ka fragmentakey adkintun ka kom che kimün kuifi. Fachi condición tripalkey epu fütra trokiñ: <em>Kutxan</em> ka <em>Pengekenon</em>. Wünen adkintuy pengechi residuo ñi txawün ka itrofill mogen mew ñi konün; epu adkintuy pengekenon welu koneltuchi fenómeno: radioelectromagnética kutxan, küme/kütral nümün ka química kam energía dungu.
 </p>
 <p class="parrafo">
-  Epu rüpü kintuyn fachi época ñi mülechi az, fütralkülechi pintura rakizuam mew. Tradición katrütual gelay; amulnieal ngey we soporte, teknologia ka filosofía mew, fey ñi concepto alcance fütalngeal.
+  Epu rüpü kintuyn fachi época ñi mülechi az, fütralkülechi pintura az-küdaw rakizuam mew. Tradición katrütual gelay; amulnieal ngey we yafün, teknologia ka filosofía mew, fey ñi concepto alcance fütalngeal.
 </p>
 
 <br><br>
@@ -40,8 +40,8 @@ flowchart LR
   LP([Kutxan])
   LI([Pengekenon])
   P([Kutxan Pinturas])
-  DP([Desplazamiento de la Pintura])
-  PL([Wi-Fi Pinturas])  
+  DP([Fentepun ñi pintura az-küdaw])
+  PL([Wi-Fi Pinturas])
 
   RM --> LT
   LT --> LS
@@ -50,7 +50,7 @@ flowchart LR
   LS --> LI
   LP --> P
   LP --> DP
-  LI --> PL          
+  LI --> PL
 
   click RM "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
   click LT "/MPD/tangible.html" "Amun: Kalül mew"
@@ -59,7 +59,7 @@ flowchart LR
   click LP "/MPD/la-peste.html" "Amun: Kutxan"
   click LI "/MPD/lo-invisible.html" "Amun: Pengekenon"
   click P "/MPD/peste-pinturas-infectadas.html" "Amun: Kutxan Pinturas"
-  click DP "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click DP "/MPD/desplazamiento-pintura.html" "Amun: Fentepun ñi pintura az-küdaw"
   click PL "/MPD/pinturas-wifi.html" "Amun: Pinturas wi fi"
 </div>
 
@@ -69,19 +69,19 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="Fentepun - Kutxan" loading="lazy">
-  <figcaption>Fentepun / Kutxan / Pintura: pintura infectada n°1, EGGS 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Pintura az-küdaw: pintura az-küdaw kutxan niechi n°1, EGGS 2008</figcaption>
 </figure>
 
 <br><br>
 
 <p class="parrafo">
-  Fachi trokiñ mew fentepun adkintugey itrofill mogen txoy mew: polución, plástico residuo, global aretun ka mapu az ñi deterioration. Desecho txawün akumtuy waria vertedero simbólico mew, wiñolgenon rastro eluy. Pintura mew kintun contaminación planeta kutxan reke, mapu az ñi erosión ka kalül trawa ñi degradación kutxan viral, bacteriana kam fúngica mew.
+  Fachi trokiñ mew fentepun adkintugey itrofill mogen txoy mew: polución, plástico residuo, global aretun ka mapu az ñi deterioration. Desecho txawün akumtuy waria vertedero simbólico mew, wiñolgenon rastro eluy. Pintura az-küdaw mew kintun kutxan planeta kutxan reke, mapu az ñi erosión ka kalül trawa ñi degradación kutxan viral, bacteriana kam fúngica mew.
 </p>
 <p class="parrafo">
-  James Lovelock ñi Gaia hipótesis mew, <strong>Kutxan</strong> adkintuy Mapu kiñe mogen organismo reke, fentepun ka kutxan antropogénica presión mew. Fachi rakizuam nütramkey Rachel Carson ñi advertencia wallmapu deterioration mew ka kimelkey kom che ñi responsabilidad ñi urgencia. Küdaw kimelkey chumgechi contaminación korroerkey feychi kuifi küme/puro dungu, ka tóxico agente —publicidad reke— ñi konün kalül ka rakizuam mew.
+  James Lovelock ñi Gaia hipótesis mew, <strong>Kutxan</strong> adkintuy Mapu kiñe mogen organismo reke, fentepun ka kutxan antropogénica presión mew. Fachi rakizuam nütramkey Rachel Carson ñi advertencia wallmapu deterioration mew ka kimelkey kom che ñi responsabilidad ñi urgencia. Küdaw kimelkey chumgechi kutxan korroerkey feychi kuifi küme/puro dungu, ka tóxico agente —waria wirin reke— ñi konün kalül ka rakizuam mew.
 </p>
 <p class="parrafo">
-  <strong>Rakizuam:</strong> Kalül wallmapu ñi degradación azentun, kimelal chumgechi mapu az —óleo pintura mew kuifi pureza símbolo— konkey fachi época ñi corrosivo chemkün mew.
+  <strong>Rakizuam:</strong> Kalül wallmapu ñi degradación azentun, kimelal chumgechi mapu az —óleo pintura az-küdaw mew kuifi pureza símbolo— konkey fachi época ñi corrosivo chemkün mew.
 </p>
 
 <br><br><br>
@@ -90,16 +90,16 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/lo-invisible-pintura-wifi-04-001.jpg" alt="Fentepun - Pengekenon" loading="lazy">
-  <figcaption>Fentepun / Pengekenon / Pintura / Serie Wi-Fi / Paisaje n°4, EGGS 2020</figcaption>
+  <figcaption>Fentepun / Pengekenon / Pintura az-küdaw / Trokiñ Wi-Fi / Paisaje n°4, EGGS 2020</figcaption>
 </figure>
 
 <br><br>
 
 <p class="parrafo">
-  Fachi trokiñ kintukey feychi pengekenon dungu, welu iñchiñ ñi wall püle wente newen niey: electromagnética vibración, informático ruido, invasiva publicidad, hiperconectividad ka dato flow. Guido Dorfles ñi <em>El intervalo perdido</em> mew, püllü mew fentepun erosionakey concentración ponwi püle, adkintun distorsionakey ka iñchiñ ñi rakizuam newen pichintukey.
+  Fachi trokiñ kintukey feychi pengekenon dungu, welu iñchiñ ñi wall püle wente newen niey: electromagnética vibración, informático ruido, invasiva waria wirin, hiperconectividad ka dato flow. Guido Dorfles ñi <em>Fachi intervalo perdido</em> mew, püllü mew fentepun erosionakey concentración ponwi püle, adkintun distorsionakey ka iñchiñ ñi rakizuam newen pichintukey.
 </p>
 <p class="parrafo">
-  <strong>Rakizuam:</strong> Pengekenon dungu chemkün mew elun ka azentun mew nien fachi invisible contaminación ñi kalül-kimün ka rakizuam intoxicación.
+  <strong>Rakizuam:</strong> Pengekenon dungu chemkün mew elun ka azentun mew nien fachi invisible kutxan ñi kalül-kimün ka rakizuam intoxicación.
 </p>
 
 <br><br>

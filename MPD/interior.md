@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Püle rakizuam – Serie de obras de Esteban Garnica"
+title: "Püle rakizuam – Trokiñ ñi pu küdaw ñi Esteban Garnica"
 description: "Esteban Garnica ñi küdaw: rakizuam, püllü, ayün-kutxan dungu ka azentun kintun."
 permalink: /MPD/interior.html
-keywords: "Püle rakizuam, arte introspectivo, imaginario psicológico, arte contemporáneo, pintura expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
+keywords: "Püle rakizuam, az-küdaw introspectivo, imaginario psicológico, az-küdaw fachi antü mew, pintura az-küdaw expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
@@ -30,7 +30,7 @@ carousel: true
   Fachi kintun müley pichi, rüf ka nor. Fütra exhibición mew müleal müten gelay:
   kiñeke wirin nülakey püllü kutxan, kimün kuifi ka ponwi newen. Küdaw
   trawün mew, adkintufe müley ñi propio kütral ka küdaw ñi trafün. Püle rakizuam
-  amuley püllü zugu, mogen kimün ka aprendizaje mew; ka nütramkey kuifikeche
+  amuley püllü zugu, mogen kimün ka kimün mew; ka nütramkey kuifikeche
   ñi az, püllü admapu ka psicoanálisis rüpü egu.
 </p>
 
@@ -68,8 +68,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-bitacoras.webp" alt="Bitácoras y diarios" loading="lazy">
-        <p class="title">Bitácoras y diarios</p>
-        <p class="subtitle">Pewma, ayün, llükan ka kimün kuifi registro.</p>
+        <p class="title">Bitácoras ka diarios</p>
+        <p class="subtitle">Pewma, ayün, llükan ka kimün kuifi wirin.</p>
       </div>
     </a>
   </div>
@@ -90,7 +90,7 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mascaras.webp" alt="La Máscara y el Alter Ego" loading="lazy">
-        <p class="title">La Máscara y el Alter Ego</p>
+        <p class="title">Fachi Máscara ka feychi Alter Ego</p>
         <p class="subtitle">Tami az che ñi kake püllü az kintunge.</p>
       </div>
     </a>
@@ -101,7 +101,7 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala y Zentangle" loading="lazy">
-        <p class="title">Mandala y Zentangle</p>
+        <p class="title">Mandala ka Zentangle</p>
         <p class="subtitle">Rakizuam, küme trawün ka meditación wirin mew.</p>
       </div>
     </a>
@@ -112,7 +112,7 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-quema.webp" alt="Quema del Mono" loading="lazy">
-        <p class="title">Quema del Mono</p>
+        <p class="title">Quema ñi Mono</p>
         <p class="subtitle">Dewman rito ñi nülal püllü tensión.</p>
       </div>
     </a>
@@ -123,7 +123,7 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-afden.webp" alt="Silueta del Exterior Interior" loading="lazy">
-        <p class="title">Silueta del Exterior Interior</p>
+        <p class="title">Silueta ñi Exterior Interior</p>
         <p class="subtitle">Kalül, az che ka ponwi ngen ñi rakizuam.</p>
       </div>
     </a>
@@ -134,7 +134,7 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/interior/boton-psicomagia.webp" alt="Simulacros y Psicomagia" loading="lazy">
-        <p class="title">Simulacros y Psicomagia</p>
+        <p class="title">Simulacros ka Psicomagia</p>
         <p class="subtitle">Azentun zugu ñi che küme akumtun.</p>
       </div>
     </a>

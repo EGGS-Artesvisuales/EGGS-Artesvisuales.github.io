@@ -1,6 +1,6 @@
 ---
 layout: default-mpd
-title: "Lof mew – Az-küdaw participativo y muralismo en mapu"
+title: "Lof mew – Az-küdaw participativo ka muralismo mew mapu"
 description: "Esteban Garnica ñi lof mew küdaw: muralismo, taller, kelluwün ka pu lof egu az-küdaw."
 keywords: "lof mew, muralismo, taller, kelluwün, Esteban Garnica, az-küdaw fütra che mew"
 permalink: /MPD/comunitario.html

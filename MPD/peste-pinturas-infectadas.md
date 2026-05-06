@@ -1,41 +1,41 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Kutxan: Kutxan Pinturas – Serie de obras de Esteban Garnica"
-description: "Serie 'Kutxan Pinturas' de Esteban Garnica: una exploración azentun sobre la contaminación ambiental, las crisis invisibles y las tensiones que afectan el ecosistema contemporáneo."
+title: "Kutxan: Kutxan Pinturas – Trokiñ ñi pu küdaw ñi Esteban Garnica"
+description: "Trokiñ 'Kutxan Pinturas' ñi Esteban Garnica: kiñe exploración azentun wente feychi kutxan ambiental, pu crisis invisibles ka pu tensiones chi afectan feychi ecosistema fachi antü mew."
 permalink: /MPD/peste-pinturas-infectadas.html
-keywords: "Kutxan Pinturas, Kutxan, contaminación ambiental, arte ecológico, pintura contemporánea, arte chileno, crisis invisibles, Esteban Garnica, EGGS-Studio"
+keywords: "Kutxan Pinturas, Kutxan, kutxan ambiental, az-küdaw ecológico, pintura az-küdaw fachi antü mew, az-küdaw chileno, crisis invisibles, Esteban Garnica, EGGS-Studio"
 mermaid: true
 carousel: true
 ---
 
 <h1 class="titulo" id="top">Kutxan Pinturas</h1>
-<h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
+<h2 class="subtitulo">Saturación ka kutxan mew feychi lenguaje pictórico</h2>
 <br>
 
 <!-- Az de apertura -->
 <figure class="az-con-caption">
   <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg"
-       alt="Kutxan Pinturas: técnica mixta con erosión y elementos contaminantes"
+       alt="Kutxan Pinturas: técnica mixta egu erosión ka elementos contaminantes"
        loading="lazy">
-  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: Serie S/T, óleo y plásticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: Trokiñ S/T, óleo ka plásticos wente tela, 45 x 65 cm c/u, 2008</figcaption>
 </figure>
 
 <hr class="separador separador--aire" />
 
 <!-- Texto introductorio -->
 <section class="parrafo">
-  <p>La serie <strong>«Kutxan Pinturas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona pintura con elementos residuales del consumo. Utilizo materiales como envases, tapas plásticas y papel impreso —recuperado de catálogos y revistas— para producir superficies erosionadas, intervenidas y transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
+  <p>Fachi trokiñ <strong>«Kutxan Pinturas»</strong> retrata feychi saturación ka feychi kutxan ñi mapu az fachi antü mew mediante kiñe técnica híbrida chi fusiona pintura az-küdaw egu elementos residuales ñi consumo. Utilizo pu chemkün reke envases, tapas plásticas ka papel impreso —recuperado ñi catálogos ka revistas— ñi producir superficies erosionadas, intervenidas ka transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando reke metáfora ñi feychi degradación ambiental (<em>feychi idea ñi Gaia enferma</em>).</p>
 
-  <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p>
+  <p>Fachi pintura az-küdaw tradicional colisiona egu desechos industriales ka publicitarios —incrustados, adheridos, hilvanados kam cosidos— generando kiñe tensión rangiñ feychi tradición académica ka feychi huella chemkün ñi sistema ñi consumo industrializado.</p>
 
-  <p>Las obras se componen por estratos superpuestos que distorsionan la az pictórica. Este enfoque establece un paralelismo entre la piel del cuerpo, la superficie del mapu y la propia pintura: lo noble y lo natural aparece infectado por elementos invasores. Las piezas funcionan como retratos críticos del Antropoceno, evidenciando la cicatriz humana en nuestra época.</p>
+  <p>Pu pu küdaw se componen mew estratos superpuestos chi distorsionan feychi az pictórica. Este enfoque establece kiñe paralelismo rangiñ feychi piel ñi kalül, feychi superficie ñi mapu ka feychi propia pintura az-küdaw: lo noble ka lo mapu lof mew aparece kutxan niechi mew elementos invasores. Pu piezas funcionan reke retratos críticos ñi Antropoceno, evidenciando feychi cicatriz humana mew iñchiñ ñi época.</p>
 
-  <p>El proceso evolucionó desde intervenciones iniciales —con materiales plásticos y residuos publicitarios sobre soportes tradicionales— hacia la incorporación de soportes precontaminados: PVC industrial, lonas publicitarias descartadas y papel reciclado. Estos vestigios del consumo aportan una materialidad contradictoria: simultáneamente frágil y resistente, efímera y persistente, según su procedencia en el ecosistema del desperdicio.</p>
+  <p>Fachi rüpü evolucionó mew pu koneltun iniciales —egu pu chemkün plásticos ka residuos publicitarios wente pu yafün tradicionales— püle feychi incorporación ñi pu yafün precontaminados: PVC industrial, lonas waria wirin descartadas ka papel reciclado. Estos vestigios ñi consumo aportan kiñe materialidad contradictoria: simultáneamente frágil ka resistente, efímera ka persistente, según ñi procedencia mew feychi ecosistema ñi desperdicio.</p>
 
-  <p>La elección de estos materiales no es arbitraria. El PVC resiste pero no absorbe; las lonas conservan huellas de uso previo; los papeles impresos aportan texturas y patrones cargados de referencias contemporáneas.</p>
+  <p>Fachi elección ñi estos pu chemkün no es arbitraria. Fachi PVC resiste pero no absorbe; pu lonas conservan huellas ñi uso previo; pu papeles impresos aportan texturas ka patrones cargados ñi referencias fachi antü mew.</p>
 
-  <p>El corpus se divide en dos líneas: 1) <em>Intervenciones sobre soportes tradicionales</em> (lienzo/tablero), que exploran cómo los residuos transforman la pintura académica; y 2) <em>Soportes blandos</em>, en los que el soporte ya es residuo, y su materialidad determina la solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse con materiales ajenos a su tradición.</p>
+  <p>Fachi corpus se divide mew dos líneas: 1) <em>Intervenciones wente pu yafün tradicionales</em> (lienzo/tablero), chi exploran cómo pu residuos transforman feychi pintura az-küdaw académica; ka 2) <em>Soportes blandos</em>, mew pu chi feychi yafün ya es residuo, ka ñi materialidad determina feychi solución formal. Esta dualidad evidencia cómo lo pictórico muta al enfrentarse egu pu chemkün ajenos a ñi tradición.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -53,7 +53,7 @@ flowchart LR
   LTec([Teknologia])
   LP((Kutxan))
   LI([Pengekenon])
-  DP([Desplazamiento de la Pintura])
+  DP([Fentepun ñi pintura az-küdaw])
 
   PI((Kutxan Pinturas))
   ST([Soportes tradicionales])
@@ -98,7 +98,7 @@ flowchart LR
   click LTec "/MPD/en-construccion.html" "Adkintun: Teknologia"
   click LP "/MPD/la-peste.html" "Adkintun: Kutxan"
   click LI "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
-  click DP "/MPD/desplazamiento-pintura.html" "Adkintun: Desplazamiento de la Pintura"
+  click DP "/MPD/desplazamiento-pintura.html" "Adkintun: Fentepun ñi pintura az-küdaw"
 
   click PI "/MPD/peste-pinturas-infectadas.html" "Adkintun: Kutxan Pinturas"
 
@@ -124,22 +124,22 @@ flowchart LR
   INT([A. Intervenciones])
   PROD([B. Producciones])
 
-  INT --> INT1(["1. Serie Sin Título (2008)"])
+  INT --> INT1(["1. Trokiñ Sin Título (2008)"])
 
-  PROD --> P1(["1. Serie sin título n°1 (2008/2010)"])
-  PROD --> P2(["2. Mapu az de carretera (2008/2009)"])
+  PROD --> P1(["1. Trokiñ sin üy n°1 (2008/2010)"])
+  PROD --> P2(["2. Mapu az ñi carretera (2008/2009)"])
   PROD --> P3(["3. Autofusión (2009/2010)"])
-  PROD --> P4(["4. Banderas infectadas (2008/2025)"])
+  PROD --> P4(["4. Banderas kutxan niechi (2008/2025)"])
 
   click ST "#soportes-tradicionales" "Amun: Soportes tradicionales"
   click INT "#intervenciones" "Amun: Intervenciones"
   click PROD "#producciones" "Amun: Producciones"
 
-  click INT1 "#intervencion-serie-st-2008" "Amun: Serie Sin Título (Intervenciones) 2008"
-  click P1 "#produccion-serie-st-1-2008-2010" "Amun: Serie sin título n°1 (Producciones)"
-  click P2 "#produccion-paisajes-carretera-2008-2009" "Amun: Mapu az de carretera"
+  click INT1 "#intervencion-serie-st-2008" "Amun: Trokiñ Sin Título (Intervenciones) 2008"
+  click P1 "#produccion-serie-st-1-2008-2010" "Amun: Trokiñ sin üy n°1 (Producciones)"
+  click P2 "#produccion-paisajes-carretera-2008-2009" "Amun: Mapu az ñi carretera"
   click P3 "#produccion-autofusion-2009-2010" "Amun: Autofusión"
-  click P4 "#produccion-banderas-infectadas-2008-2025" "Amun: Banderas infectadas"
+  click P4 "#produccion-banderas-infectadas-2008-2025" "Amun: Banderas kutxan niechi"
 </div>
 
 <hr class="separador separador--aire" />
@@ -153,17 +153,17 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    <strong>Intervenciones agrupan acciones az-küdaws sobre obras de otros autores</strong>, generando tensión entre el valor original y el daño simbólico y real mediante raspados, perforaciones y collages con desechos publicitarios. Estas piezas reproducen la agresión ambiental, estableciendo un vínculo entre la nobleza de la naturaleza y la tradición az-küdaw.
+    <strong>Intervenciones agrupan acciones az-küdaws wente pu küdaw ñi otros autores</strong>, generando tensión rangiñ feychi valor original ka feychi daño simbólico ka real mediante raspados, perforaciones ka collages egu desechos publicitarios. Estas piezas reproducen feychi agresión ambiental, estableciendo kiñe vínculo rangiñ feychi nobleza ñi feychi naturaleza ka feychi tradición az-küdaw.
     <br><br>
-    Este ejercicio de corrupción convierte la pintura en mercancía alterada, desplazando el foco del acto creativo al objeto dañado y representando el entorno contemporáneo. La confrontación de materiales industriales y elementos naturales retoma la fórmula conceptual de la serie, inspirada en enfermedades infecciosas y síntomas cutáneos.
+    Este ejercicio ñi corrupción convierte feychi pintura az-küdaw mew mercancía alterada, desplazando feychi foco ñi acto creativo al chemkün dañado ka representando feychi entorno fachi antü mew. Fachi confrontación ñi pu chemkün industriales ka elementos mapu lof mew retoma feychi fórmula conceptual ñi feychi trokiñ, inspirada mew enfermedades infecciosas ka síntomas cutáneos.
     <br><br>
-    Al dañar deliberadamente estas obras (2008), anticipo y dialogo con movimientos como <em>Just Stop Oil</em> (fundado en 2022). La intervención de una obra maestra —símbolo de lo sublime, lo valioso y lo real— visibiliza la violencia ambiental y subraya la urgencia de una conciencia ecológica, equiparando el daño al arte con el daño a Gaia.
+    Al dañar deliberadamente estas pu küdaw (2008), anticipo ka dialogo egu movimientos reke <em>Just Stop Oil</em> (fundado mew 2022). Fachi koneltun ñi kiñe küdaw maestra —símbolo ñi lo sublime, lo valioso ka lo real— visibiliza feychi violencia ambiental ka subraya feychi urgencia ñi kiñe conciencia ecológica, equiparando feychi daño al az-küdaw egu feychi daño a Gaia.
   </p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="intervencion-serie-st-2008">1. Serie Sin Título, 2008</h4>
+<h4 class="subtitulo2" id="intervencion-serie-st-2008">1. Trokiñ Sin Título, 2008</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
@@ -183,11 +183,11 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    Óleos enmarcados en madera (65 × 85 cm c/u), intervenidos con esténcil de esmalte, tajos y tapas plásticas.
+    Óleos enmarcados mew madera (65 × 85 cm c/u), intervenidos egu esténcil ñi esmalte, tajos ka tapas plásticas.
     <br><br>
-    Corrupción de obras preexistentes: la pintura se convierte en mercancía alterada. El contraste entre materiales industriales y naturaleza retoma la fórmula conceptual de la serie.
+    Corrupción ñi pu küdaw preexistentes: feychi pintura az-küdaw se convierte mew mercancía alterada. Fachi contraste rangiñ pu chemkün industriales ka naturaleza retoma feychi fórmula conceptual ñi feychi trokiñ.
     <br><br>
-    En la pieza n° 1, las tapas plásticas remiten a brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se estenciló, evocando el graffiti y su invasión cuantitativa: acumulación, iteración y saturación del püle.
+    En feychi pieza n° 1, pu tapas plásticas remiten a brotes ñi peste kam acné; mew feychi n° 2, feychi palabra <em>ARTE</em> se estenciló, evocando feychi graffiti ka ñi invasión cuantitativa: acumulación, iteración ka saturación ñi püle.
   </p>
 </section>
 
@@ -197,20 +197,20 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    Küdaw originales que combinan materiales industriales y residuos publicitarios con técnicas de óleo y acrílico. Este contraste entre la pintura clásica y la saturación azentun contemporánea explora el impacto del consumismo en la percepción cotidiana y refleja el estado actual del paisaje.
+    Küdaw originales chi combinan pu chemkün industriales ka residuos publicitarios egu técnicas ñi óleo ka acrílico. Este contraste rangiñ feychi pintura az-küdaw clásica ka feychi saturación azentun fachi antü mew explora feychi impacto ñi consumismo mew feychi percepción cotidiana ka refleja feychi estado fachi antü ñi mapu az.
   </p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="produccion-serie-st-1-2008-2010">1. Serie sin título n°1 - 2008 / 2010</h4>
+<h4 class="subtitulo2" id="produccion-serie-st-1-2008-2010">1. Trokiñ sin üy n°1 - 2008 / 2010</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-ST-001.jpg"
-         alt="Kutxan Pinturas - Producción: mujer en bicicleta, 90 x 70 cm, 2009"
+         alt="Kutxan Pinturas - Producción: mujer mew bicicleta, 90 x 70 cm, 2009"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: mujer mew bicicleta, esmalte acrílico wente PVC, 90 x 70 cm, 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
@@ -286,71 +286,71 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    Esta serie traslada la violencia ejercida contra el paisaje natural a lienzos académicos rescatados de mi etapa en el taller de pintura de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.
+    Esta trokiñ traslada feychi violencia ejercida contra feychi mapu az mapu lof mew a lienzos académicos rescatados ñi iñche ñi etapa mew feychi taller ñi pintura az-küdaw ñi Gonzalo Díaz (DAV). Corrompo deliberadamente óleo ka acrílico egu fragmentos ñi afiches, vinilos, plásticos ka pu chemkün industriales, creando capas chi simulan heridas abiertas e invaden feychi pintura az-küdaw clásica.
     <br><br>
-    Empleo soportes híbridos —telas, lonas publicitarias y paneles de PVC— para acentuar la antipatía entre materiales y subrayar que la crisis ecológica no distingue jerarquías. El choque entre lo sublime de la tradición pictórica y la agresividad industrial convierte cada obra en un pequeño ecocidio.
+    Empleo pu yafün híbridos —telas, lonas waria wirin ka paneles ñi PVC— ñi acentuar feychi antipatía rangiñ pu chemkün ka subrayar chi feychi crisis ecológica no distingue jerarquías. Fachi choque rangiñ lo sublime ñi feychi tradición pictórica ka feychi agresividad industrial convierte cada küdaw mew kiñe pequeño ecocidio.
     <br><br>
-    Invirtiendo el gesto de Just Stop Oil, en lugar de atacar obras ajenas, infecto mi propia producción.
+    Invirtiendo feychi gesto ñi Just Stop Oil, mew püle ñi atacar pu küdaw ajenas, infecto iñche ñi propia dewman.
     <br><br>
-    "kutxan pinturas" no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
+    "kutxan pintura az-küdaw az-küdaw" no son cuadros, sino síntomas ñi kiñe colapso chi funde naturaleza ka cultura, az-küdaw ka mercancía, lo sagrado ka lo desechable. Un llamado a reconocer feychi huella ñi kiñe sistema chi devora toda pureza.
   </p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="produccion-paisajes-carretera-2008-2009">2. Serie Mapu az de carretera - 2008 / 2009</h4>
+<h4 class="subtitulo2" id="produccion-paisajes-carretera-2008-2009">2. Trokiñ Mapu az ñi carretera - 2008 / 2009</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06b.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01b.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-02.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-03b.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-04b.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05b.jpg"
-         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az ñi carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / dewman - Mapu az ñi carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
   <p>
-    Serie de 6 óleos sobre paneles de madera tratados con capas de papel adherido (residuos publicitarios que aportan información y, al combinarse con la pintura, generan una estética de peste) (55,5 × 85,5 cm c/u).
+    Trokiñ ñi 6 óleos wente paneles ñi madera tratados egu capas ñi papel adherido (residuos publicitarios chi aportan información ka, al combinarse egu feychi pintura az-küdaw, generan kiñe az ñi peste) (55,5 × 85,5 cm c/u).
     <br><br>
-    Esta serie se inspira en la tarea de documentar la presencia publicitaria en los márgenes de las carreteras chilenas e interrumpe el paisaje periódicamente: el soporte integra capas de revistas, catálogos y periódicos, formando una piel bajo los óleos, en donde se filtran las iconografías comerciales, sugiriendo que la naturaleza está interrumpida por los objetos residuo del consumo.
+    Esta trokiñ se inspira mew feychi tarea ñi documentar feychi presencia waria wirin mew pu márgenes ñi pu carreteras chilenas e interrumpe feychi mapu az periódicamente: feychi yafün integra capas ñi revistas, catálogos ka periódicos, formando kiñe piel bajo pu óleos, mew donde se filtran pu iconografías comerciales, sugiriendo chi feychi naturaleza está interrumpida mew pu chemkün residuo ñi consumo.
     <br><br>
-    La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un mapu colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
+    Fachi trokiñ concluye egu kiñe bandera nacional intervenida egu residuos gráficos, síntesis cruda ñi kiñe mapu colonizado mew feychi waria wirin. Este método ñi yafün contaminado definió iñche ñi pu küdaw posteriores: feychi chemkün ñi prensa waria wirin se vuelve kiñe recurso esencial ñi retratar iñchiñ ñi época, ka feychi mapu az solo adquiere sentido al mostrar ñi propia infección.
   </p>
 </section>
 
@@ -382,7 +382,7 @@ flowchart LR
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004b.jpg"
-         alt="Autofusión – Vista general de conjunto, 2010"
+         alt="Autofusión – Vista general ñi conjunto, 2010"
          loading="lazy">
     <figcaption><em>Autofusión — Vista general, 110 x 100 cm c/u, 2010</em></figcaption>
   </figure>
@@ -390,37 +390,37 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    Díptico de dos paneles de madera (130 × 120 cm c/u) con óleo sobre papel de periódico adherido. Partiendo de una fotografía digital de mi rostro, dividí verticalmente los hemisferios y reflejé cada uno horizontalmente para crear dos retratos asimétricos.
+    Díptico ñi dos paneles ñi madera (130 × 120 cm c/u) egu óleo wente papel ñi periódico adherido. Partiendo ñi kiñe fotografía digital ñi iñche ñi rostro, dividí verticalmente pu hemisferios ka reflejé cada uno horizontalmente ñi crear dos retratos asimétricos.
     <br><br>
-    El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Mapu az de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
+    Fachi panel izquierdo presenta pinceladas libres ka kiñe acabado inacabado; feychi derecho, kiñe tratamiento detallado ka refinado. Fachi yafün, preparado reke mew feychi trokiñ Mapu az ñi carretera, deja ver fragmentos tipográficos rangiñ pu capas ñi pintura az-küdaw, produciendo feychi efecto ñi “peste” chi caracteriza toda feychi trokiñ.
   </p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="produccion-banderas-infectadas-2008-2025">4. Serie de banderas infectadas - 2008/2025</h4>
+<h4 class="subtitulo2" id="produccion-banderas-infectadas-2008-2025">4. Trokiñ ñi banderas kutxan niechi - 2008/2025</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg"
-         alt="Banderas infectadas n°1, 55 x 65 cm, 2008"
+         alt="Banderas kutxan niechi n°1, 55 x 65 cm, 2008"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas kutxan niechi - n°1, 55 x 65 cm, 2008</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg"
-         alt="Banderas infectadas n°2, 70 x 100 cm, 2010"
+         alt="Banderas kutxan niechi n°2, 70 x 100 cm, 2010"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas kutxan niechi - n°2, 70 x 100 cm, 2010</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
   <p>
-    Serie de banderas infectadas, como síntesis del mapu. Óleo sobre papel de periódico adherido a paneles de cartón y madera.
+    Trokiñ ñi banderas kutxan niechi, reke síntesis ñi mapu. Óleo wente papel ñi periódico adherido a paneles ñi cartón ka madera.
     <br><br>
-    El soporte, preparado como en la serie Mapu az de carretera, deja entrever fragmentos tipográficos entre las capas de pintura, produciendo el efecto de "peste" que caracteriza toda la serie.
+    Fachi yafün, preparado reke mew feychi trokiñ Mapu az ñi carretera, deja entrever fragmentos tipográficos rangiñ pu capas ñi pintura az-küdaw, produciendo feychi efecto ñi "peste" chi caracteriza toda feychi trokiñ.
   </p>
 </section>
 
@@ -452,11 +452,11 @@ flowchart LR
   MEM --> MAP2(["Mapamundi n°2 (2008)"])
 
   MOD --> COR(["Cordillera (2009)"])
-  MOD --> GP1(["Gran paisaje n°1 (2010)"])
-  MOD --> GP2(["Gran paisaje n°2 (2014)"])
-  MOD --> PU(["Paisaje urbano (2010)"])
+  MOD --> GP1(["Gran mapu az n°1 (2010)"])
+  MOD --> GP2(["Gran mapu az n°2 (2014)"])
+  MOD --> PU(["Paisaje waria mew (2010)"])
 
-  MODP --> SELK(["Mujeres selk'nam infectadas por el fútbol (2019)"])
+  MODP --> SELK(["Mujeres selk'nam kutxan niechi mew feychi fútbol (2019)"])
 
   UNI --> URET(["Adentu (2019–)"])
   UNI --> UPAI(["Mapu az (2019–)"])
@@ -473,9 +473,9 @@ flowchart LR
   click MAP2 "#mapamundi-2008-2" "Amun: Mapamundi n°2 (2008)"
 
   click COR "#cordillera-2009" "Amun: Cordillera (2009)"
-  click GP1 "#gran-paisaje-1-2010" "Amun: Gran paisaje n°1 (2010)"
-  click GP2 "#gran-paisaje-2-2014" "Amun: Gran paisaje n°2 (2014)"
-  click PU "#paisaje-urbano-2010" "Amun: Paisaje urbano (2010)"
+  click GP1 "#gran-paisaje-1-2010" "Amun: Gran mapu az n°1 (2010)"
+  click GP2 "#gran-paisaje-2-2014" "Amun: Gran mapu az n°2 (2014)"
+  click PU "#paisaje-urbano-2010" "Amun: Paisaje waria mew (2010)"
 
   click SELK "#mujeres-selknam-2019" "Amun: Mujeres selk'nam (2019)"
 
@@ -486,14 +486,14 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en püles callejeros.
+    Fachi trokiñ ñi pu yafün blandos representa kiñe solución técnica chi une economía ñi recursos ka potencia conceptual. Sustituyo pu bastidores tradicionales mew telas sintéticas, lonas ka papel waria wirin recuperado, chi posteriormente son sellados ka preparados egu cola kam esmaltes industriales ñi asegurar ñi resistencia. Esta maleabilidad chemkün permite enrollar ka doblar pu piezas, facilitando ñi traslado, montaje ka almacenaje. Esta característica posteriormente me permitirá evidenciar cruces rangiñ feychi lógica ñi cartel waria mew, feychi graffiti, feychi waria wirin, feychi pintura az-küdaw ka feychi street art al ser instaladas mew püles callejeros.
   </p>
   <br>
   <p>
-    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora del contagio y su elección material ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación azentun y la contaminación de la sociedad contemporánea, las cuales luego son utilizadas como soporte de mis pinturas. La pintura es aplicada de tal manera que puedo incorporar los elementos impresos en los soportes de papel publicitario. Me interesa crear la interrupción en la apreciación de lo representado, la peste de la saturación. Cada superficie "infectada" actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
+    Fachi uso ñi papel ñi prensa ka catálogos gratuitos refuerza feychi metáfora ñi contagio ka ñi elección chemkün ya ha sido explicada anteriormente: ñi pu impresiones comerciales simbolizan feychi saturación azentun ka feychi kutxan ñi feychi sociedad fachi antü mew, pu cuales luego son utilizadas reke yafün ñi iñche ñi pu pintura az-küdaw az-küdaw. Fachi pintura az-küdaw es aplicada ñi tal manera chi puedo incorporar pu elementos impresos mew pu yafün ñi papel waria wirin. Me interesa crear feychi interrupción mew feychi apreciación ñi lo representado, feychi peste ñi feychi saturación. Cada superficie "kutxan niechi" actúa reke kiñe wirin ñi feychi peste mediática, al mismo antü práctica ka poética, chi articula az, contenido ka crítica ecológica.
   </p>
 
-  <p>Las obras en soporte blando se agrupan en tres categorías:</p>
+  <p>Pu pu küdaw mew yafün blando se agrupan mew tres categorías:</p>
   <br>
   <ul>
     <li><strong>1. Membranas</strong></li>
@@ -533,18 +533,18 @@ flowchart LR
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01b.jpg"
        alt="Kutxan Pinturas - Membranas: Mapamundi, 130 x 400 cm, 2009"
        loading="lazy">
-  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas: Mapamundi, esmalte ka óleo wente papel ñi prensa encolado, 130 x 400 cm, 2009</figcaption>
 </figure>
 
 <section class="parrafo">
   <p>
-    Las pinturas sobre soportes blandos clasificadas como <strong>Membranas</strong> consisten en tapices flexibles elaborados mediante collage de papel prensa, revistas y carteles urbanos. A través de capas sucesivas de cola fría y, ocasionalmente, una imprimación de látex blanco, se genera una superficie resistente que conserva fragmentos originales, integrando y resaltando la saturación azentun del material inicial. Sobre esta membrana se aplican técnicas mixtas, como esmaltes, óleos, acrílicos y tintas, evocando el concepto de "peste" azentun que caracteriza esta serie.
+    Pu pintura az-küdaw wente pu yafün blandos clasificadas reke <strong>Membranas</strong> consisten mew tapices flexibles elaborados mediante collage ñi papel prensa, revistas ka carteles urbanos. A través ñi capas sucesivas ñi cola fría ka, ocasionalmente, kiñe imprimación ñi látex blanco, se genera kiñe superficie resistente chi conserva fragmentos originales, integrando ka resaltando feychi saturación azentun ñi chemkün inicial. Sobre fachi membrana se aplican técnicas mixtas, reke esmaltes, óleos, acrílicos ka tintas, evocando feychi concepto ñi "peste" azentun chi caracteriza fachi trokiñ.
   </p>
   <p>
-    Su flexibilidad permite un fácil plegado, transporte y montaje, favoreciendo la intervención en püles fütra che mews y superando las limitaciones del formato tradicional de caballete. Al tratarse de un material altamente adaptable, puede realizarse en fragmentos o etapas sucesivas, lo que reduce la necesidad de contar con un taller amplio. Esta cualidad facilita su instalación directa en contextos urbanos, dialogando con los carteles fütra che mews en deterioro. La obra "Mapamundi" ejemplifica este ciclo: desde su colocación inicial hasta su desgaste natural y eventual retiro, profundizando así en el discurso sobre la saturación mediática y la contaminación azentun contemporánea.
+    Su flexibilidad permite kiñe fácil plegado, transporte ka montaje, favoreciendo feychi koneltun mew püles fütra che mews ka superando pu limitaciones ñi aztrawün tradicional ñi caballete. Al tratarse ñi kiñe chemkün altamente adaptable, puede realizarse mew fragmentos kam etapas sucesivas, lo chi reduce feychi necesidad ñi contar egu kiñe taller amplio. Esta cualidad facilita ñi eltun directa mew contextos urbanos, dialogando egu pu carteles fütra che mews mew deterioro. Fachi küdaw "Mapamundi" ejemplifica fachi ciclo: mew ñi colocación inicial hasta ñi desgaste mapu lof mew ka eventual retiro, profundizando así mew feychi discurso wente feychi saturación mediática ka feychi kutxan azentun fachi antü mew.
   </p>
   <p>
-    Las membranas amplían las posibilidades formales y conceptuales al permitir la dewman de obras de gran formato utilizando materiales reciclados. Sin embargo, el manejo de piezas únicas de gran dimensión puede resultar complejo, lo que dio origen al desarrollo de otras categorías dentro de los soportes blandos: los <strong>Módulos</strong> y, posteriormente, la <strong>Unidad</strong>, ofreciendo formatos más prácticos y accesibles.
+    Pu membranas amplían pu posibilidades formales ka conceptuales al permitir feychi dewman ñi pu küdaw ñi fütra aztrawün utilizando pu chemkün reciclados. Sin embargo, feychi manejo ñi piezas únicas ñi fütra dimensión puede resultar complejo, lo chi dio origen al desarrollo ñi otras categorías dentro ñi pu yafün blandos: pu <strong>Módulos</strong> ka, posteriormente, feychi <strong>Unidad</strong>, ofreciendo formatos más prácticos ka accesibles.
   </p>
 </section>
 
@@ -556,36 +556,36 @@ flowchart LR
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-001.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo wente papel, 120 x 140 cm. 2009. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-002.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo wente papel, 120 x 140 cm. 2009. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-003.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo wente papel, 120 x 140 cm. 2009. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-004.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo wente papel, 120 x 140 cm. 2009. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-005.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo wente papel, 120 x 140 cm. 2009. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p><strong>Verde</strong> es la obra que inaugura esta serie de soportes blandos tipo membrana. Está elaborada con esmalte óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones aproximadas de 130 x 140 cm. Es la primera pintura que realicé sobre un soporte flexible, similar a tapices hechos con collages de papel prensa, revistas y carteles urbanos. Fue concebida como una alternativa para ampliar los formatos convencionales sin elevar los costos de producción. Este aumento de escala permitió su instalación en püles fütra che mews de mi localidad, en Santiago de Chile. La obra explora, desde una abstracción deliberada, la saturación azentun, centrando la atención en el color —de ahí su nombre. Me interesa que se entienda como pintura, referida esencialmente por el color, que a su vez activa una memoria: ese verde opaco. A todo esto se suma una reflexión sobre el exceso de estímulos azentunes en nuestro entorno cotidiano.</p>
+  <p><strong>Verde</strong> es feychi küdaw chi inaugura fachi trokiñ ñi pu yafün blandos tipo membrana. Está elaborada egu esmalte óleo wente papel encolado, recuperado ñi residuos ñi revistas ka catálogos couché, egu azentuñma aproximadas ñi 130 x 140 cm. Es feychi primera pintura az-küdaw chi realicé wente kiñe yafün flexible, similar a tapices hechos egu collages ñi papel prensa, revistas ka carteles urbanos. Fue concebida reke kiñe alternativa ñi ampliar pu aztrawün convencionales sin elevar pu costos ñi dewman. Este aumento ñi escala permitió ñi eltun mew püles fütra che mews ñi iñche ñi localidad, mew Santiago ñi Chile. Fachi küdaw explora, mew kiñe abstracción deliberada, feychi saturación azentun, centrando feychi atención mew feychi color —ñi ahí ñi nombre. Me interesa chi se entienda reke pintura az-küdaw, referida esencialmente mew feychi color, chi a ñi vez activa kiñe kimün kuifi: ese verde opaco. A todo esto se suma kiñe reflexión wente feychi exceso ñi estímulos azentunes mew iñchiñ ñi entorno cotidiano.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -596,56 +596,56 @@ flowchart LR
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg"
          alt="Mapamundi n°1 – Membranas, 2008/2009" loading="lazy">
-    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: Fentepun / Kutxan / Kutxan Pinturas.</em></figcaption>
+    <figcaption><em>Mapamundi n°1 — Óleo ka esmalte wente papel, 120 x 440 cm. 2008. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02.jpg"
          alt="Detalle Mapamundi n°1 – Kutxan Pinturas" loading="lazy">
-    <figcaption><em>Detalle de Mapamundi n°1. Serie: Fentepun / Kutxan.</em></figcaption>
+    <figcaption><em>Detalle ñi Mapamundi n°1. Trokiñ: Fentepun / Kutxan.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-03.jpg"
          alt="Detalle Mapamundi n°1 – Técnica mixta" loading="lazy">
-    <figcaption><em>Detalle de Mapamundi n°1. Técnica: óleo y esmalte sobre papel.</em></figcaption>
+    <figcaption><em>Detalle ñi Mapamundi n°1. Técnica: óleo ka esmalte wente papel.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-04b.jpg"
          alt="Mapamundi n°1 – Vista parcial" loading="lazy">
-    <figcaption><em>Vista parcial de Mapamundi n°1. Soporte blando, membrana pictórica.</em></figcaption>
+    <figcaption><em>Vista parcial ñi Mapamundi n°1. Soporte blando, membrana pictórica.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-05.jpg"
          alt="Mapamundi n°1 – Vista lateral" loading="lazy">
-    <figcaption><em>Mapamundi n°1 desde vista lateral. Pertenece a la serie "Kutxan Pinturas".</em></figcaption>
+    <figcaption><em>Mapamundi n°1 mew vista lateral. Pertenece a feychi trokiñ "Kutxan Pinturas".</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-06.jpg"
          alt="Detalle técnico – Soporte blando" loading="lazy">
-    <figcaption><em>Detalle técnico del soporte blando. Serie Kutxan / Fentepun.</em></figcaption>
+    <figcaption><em>Detalle técnico ñi yafün blando. Trokiñ Kutxan / Fentepun.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-07.jpg"
          alt="Fragmento compositivo – Mapamundi n°1" loading="lazy">
-    <figcaption><em>Fragmento compositivo de Mapamundi n°1. Técnica mixta en papel.</em></figcaption>
+    <figcaption><em>Fragmento compositivo ñi Mapamundi n°1. Técnica mixta mew papel.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg"
          alt="Extracto final – Mapamundi n°1" loading="lazy">
-    <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
+    <figcaption><em>Extracto final ñi Mapamundi n°1. Parte ñi feychi exploración wente saturación ka membranas pictóricas.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p><strong>Mapamundi</strong> es una obra realizada con esmalte sintético y óleo sobre papel encolado, reciclado de revistas y catálogos couché. Mide aproximadamente 400 x 130 cm. Se trata de una pintura en soporte blando, semejante a tapices flexibles compuestos por collages de papel prensa, revistas y carteles urbanos, concebida específicamente para su instalación en püles fütra che mews de La Florida, en Santiago de Chile. La superficie fue intervenida con técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando una línea de exploración pictórica que va del cuerpo y el paisaje hacia las banderas y los mapas, en busca de una abstracción mapu mew que refleje el fenómeno global de la saturación azentun.</p>
+  <p><strong>Mapamundi</strong> es kiñe küdaw realizada egu esmalte sintético ka óleo wente papel encolado, reciclado ñi revistas ka catálogos couché. Mide aproximadamente 400 x 130 cm. Se trata ñi kiñe pintura az-küdaw mew yafün blando, semejante a tapices flexibles compuestos mew collages ñi papel prensa, revistas ka carteles urbanos, concebida específicamente ñi ñi eltun mew püles fütra che mews ñi Fachi Florida, mew Santiago ñi Chile. Fachi superficie fue intervenida egu técnicas mixtas—esmaltes, óleos, acrílicos ka tintas—ñi evocar feychi concepto ñi mapamundi, ampliando kiñe línea ñi exploración pictórica chi va ñi kalül ka feychi mapu az püle pu banderas ka pu mapas, mew busca ñi kiñe abstracción mapu mew chi refleje feychi fenómeno global ñi feychi saturación azentun.</p>
 
-  <p>La obra reproduce deliberadamente el ciclo de vida del cartel publicitario urbano: comienza como papel instalado en el muro, sufre el desgaste natural de la intemperie y culmina como residuo. Para ello utilicé engrudo, iniciando intencionalmente su deterioro. Posteriormente realicé una acción performática limpiando el muro disfrazado de trabajador urbano—con casco y guantes—transformando la obra en un acto simbólico de borrado, en clara alusión al <em>Erased de Kooning Drawing</em> de Rauschenberg. Así, esta instalación incorpora el soporte blando como vehículo conceptual que permite el tránsito de la pintura hacia la intervención urbana y la performance, amplificando su crítica a la saturación y contaminación azentun contemporáneas.</p>
+  <p>Fachi küdaw reproduce deliberadamente feychi ciclo ñi mogen ñi cartel waria wirin waria mew: comienza reke papel instalado mew feychi muro, sufre feychi desgaste mapu lof mew ñi feychi intemperie ka culmina reke residuo. Para ello utilicé engrudo, iniciando intencionalmente ñi deterioro. Posteriormente realicé kiñe acción performática limpiando feychi muro disfrazado ñi trabajador waria mew—egu casco ka guantes—transformando feychi küdaw mew kiñe acto simbólico ñi borrado, mew clara alusión al <em>Erased ñi Kooning Drawing</em> ñi Rauschenberg. Así, fachi eltun incorpora feychi yafün blando reke vehículo conceptual chi permite feychi tránsito ñi feychi pintura az-küdaw püle feychi koneltun waria mew ka feychi performance, amplificando ñi crítica a feychi saturación ka kutxan azentun fachi antü mew.</p>
 </section>
 
 <br>
@@ -656,15 +656,15 @@ flowchart LR
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg"
        alt="Mapamundi n°2 – Kutxan Pinturas, 130 x 410 cm"
        loading="lazy">
-  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético y óleo sobre papel encolado, 130 x 410 cm, 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético ka óleo wente papel encolado, 130 x 410 cm, 2008</figcaption>
 </figure>
 
 <section class="parrafo">
-  <p><strong>Mapamundi</strong> es también una pieza de 410 x 130 cm, realizada con esmalte sintético y óleo sobre papel reciclado. Esta obra surge de una investigación interdisciplinaria que articula elementos del grafiti, la pintura híbrida, el cartelismo y la gráfica urbana. El uso de soportes blandos responde a una estrategia de expansión del formato tradicional, en diálogo con las gigantografías publicitarias que dominan el püle urbano.</p>
+  <p><strong>Mapamundi</strong> es también kiñe pieza ñi 410 x 130 cm, realizada egu esmalte sintético ka óleo wente papel reciclado. Esta küdaw surge ñi kiñe investigación interdisciplinaria chi articula elementos ñi grafiti, feychi pintura az-küdaw híbrida, feychi cartelismo ka feychi gráfica waria mew. Fachi uso ñi pu yafün blandos responde a kiñe estrategia ñi expansión ñi aztrawün tradicional, mew diálogo egu pu gigantografías waria wirin chi dominan feychi püle waria mew.</p>
 
-  <p>Su gran escala facilita su instalación en el püle fütra che mew y establece vínculos conceptuales con el muralismo, el grafiti y otras prácticas de arte callejero. A nivel técnico, la obra genera contrastes expresivos mediante la aplicación de materiales opacos y terrosos frente a brillos azulados, evocando simbólicamente tierra y mar. Estos efectos buscan representar una totalidad geográfica abstracta, contaminada y saturada.</p>
+  <p>Su fütra escala facilita ñi eltun mew feychi püle fütra che mew ka establece vínculos conceptuales egu feychi muralismo, feychi grafiti ka otras prácticas ñi az-küdaw callejero. A nivel técnico, feychi küdaw genera contrastes expresivos mediante feychi aplicación ñi pu chemkün opacos ka terrosos frente a brillos azulados, evocando simbólicamente tierra ka mar. Estos efectos buscan representar kiñe totalidad geográfica abstracta, contaminada ka saturada.</p>
 
-  <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos azentunes en el wallmapu contemporáneo.</p>
+  <p>Fachi antü, <strong>Mapamundi</strong> ya no existe reke chemkün físico, lo chi refuerza ñi carácter efímero ka iñche ñi visión wente feychi temporalidad ñi az-küdaw. Esta desaparición se convierte mew parte ñi ñi discurso, señalando feychi obsolescencia inherente a pu chemkün culturales ka evidenciando feychi crítica al exceso ñi estímulos azentunes mew feychi wallmapu fachi antü mew.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -676,9 +676,9 @@ flowchart LR
 flowchart LR
   MOD([Módulos])
   COR(["1. Cordillera (2009)"])
-  GP1(["2. Gran paisaje n°1 (2010)"])
-  GP2(["3. Gran paisaje n°2 (2014)"])
-  PU(["4. Paisaje urbano (2010)"])
+  GP1(["2. Gran mapu az n°1 (2010)"])
+  GP2(["3. Gran mapu az n°2 (2014)"])
+  PU(["4. Paisaje waria mew (2010)"])
 
   MOD --> COR
   MOD --> GP1
@@ -687,9 +687,9 @@ flowchart LR
 
   click MOD "#modulos" "Amun: Módulos"
   click COR "#cordillera-2009" "Amun: Cordillera"
-  click GP1 "#gran-paisaje-1-2010" "Amun: Gran paisaje n°1"
-  click GP2 "#gran-paisaje-2-2014" "Amun: Gran paisaje n°2"
-  click PU "#paisaje-urbano-2010" "Amun: Paisaje urbano"
+  click GP1 "#gran-paisaje-1-2010" "Amun: Gran mapu az n°1"
+  click GP2 "#gran-paisaje-2-2014" "Amun: Gran mapu az n°2"
+  click PU "#paisaje-urbano-2010" "Amun: Paisaje waria mew"
 </div>
 
 <hr class="separador separador--aire" />
@@ -702,40 +702,40 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg"
-       alt="Módulos – Paisaje urbano n°1, 2011"
+       alt="Módulos – Paisaje waria mew n°1, 2011"
        loading="lazy">
-  <figcaption>Fentepun / Kutxan / kutxan pinturas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+  <figcaption>Fentepun / Kutxan / kutxan pintura az-küdaw az-küdaw / Soportes blandos: módulos - Paisaje waria mew n°1, 2011</figcaption>
 </figure>
 
 <br>
 
 <section class="parrafo">
   <p>
-    <strong>Módulos:</strong> composiciones expansibles creadas a partir de páginas sueltas de catálogos, revistas o periódicos, ensambladas en estructuras que evocan el impacto de la publicidad urbana y su sobresaturación azentun. Cada módulo funciona de manera independiente, pero al agruparse configuran una az monumental que iguala o supera las dimensiones de los anuncios en el paisaje urbano.
+    <strong>Módulos:</strong> composiciones expansibles creadas a partir ñi pu txoy sueltas ñi catálogos, revistas kam periódicos, ensambladas mew estructuras chi evocan feychi impacto ñi feychi waria wirin waria mew ka ñi sobresaturación azentun. Cada módulo funciona ñi manera independiente, pero al agruparse configuran kiñe az monumental chi iguala kam supera pu azentuñma ñi pu anuncios mew feychi mapu az waria mew.
   </p>
 
   <p>
-    Esta organización modular surge como evolución de mi exploración con papel de prensa. Tras enfrentar la dificultad de manejar grandes membranas —grandes piezas continuas de una sola unidad—, descubrí en el diseño modular una solución eficaz. Cada módulo se concibe como un fragmento autónomo que, en conjunto, construye una obra de gran formato.
+    Esta organización modular surge reke evolución ñi iñche ñi exploración egu papel ñi prensa. Tras enfrentar feychi dificultad ñi manejar grandes membranas —grandes piezas continuas ñi kiñe sola unidad—, descubrí mew feychi diseño modular kiñe solución eficaz. Cada módulo se concibe reke kiñe fragmento autónomo chi, mew conjunto, construye kiñe küdaw ñi fütra aztrawün.
   </p>
 
-  <p>Con este método obtengo varias ventajas:</p>
+  <p>Con fachi método obtengo varias ventajas:</p>
   <ul>
-    <li><strong>Flexibilidad de formato:</strong> permite superar restricciones espaciales y logísticas.</li>
-    <li><strong>Practicidad:</strong> facilita el montaje, traslado y almacenaje al poder plegar las piezas.</li>
-    <li><strong>Adaptabilidad:</strong> posibilita ajustar dimensiones y configuraciones, ideal para instalaciones site-specific.</li>
-    <li><strong>Experimentación compositiva:</strong> ofrece la libertad de ensayar distintas disposiciones antes de la versión definitiva.</li>
+    <li><strong>Flexibilidad ñi aztrawün:</strong> permite superar restricciones espaciales ka logísticas.</li>
+    <li><strong>Practicidad:</strong> facilita feychi montaje, traslado ka almacenaje al poder plegar pu piezas.</li>
+    <li><strong>Adaptabilidad:</strong> posibilita ajustar azentuñma ka configuraciones, ideal ñi pu eltun site-specific.</li>
+    <li><strong>Experimentación compositiva:</strong> ofrece feychi libertad ñi ensayar distintas disposiciones antes ñi feychi versión definitiva.</li>
   </ul>
 
   <p>
-    Conceptualmente, estos módulos funcionan como metáfora de la fragmentación perceptual en la era digital. Cada fragmento conserva vestigios de su contenido original, generando un juego entre lo micro y lo macro. Esto invita a una doble lectura: la observación detallada de cada unidad y la apreciación de la az global desde la distancia.
+    Conceptualmente, estos módulos funcionan reke metáfora ñi feychi fragmentación perceptual mew feychi era digital. Cada fragmento conserva vestigios ñi ñi contenido original, generando kiñe juego rangiñ lo micro ka lo macro. Esto invita a kiñe doble lectura: feychi observación detallada ñi cada unidad ka feychi apreciación ñi feychi az global mew feychi distancia.
   </p>
 
   <p>
-    En cada página decido conscientemente dónde intervenir y dónde respetar la impronta original del material impreso, dando forma a la estética distintiva de <em>Kutxan</em> que caracteriza esta serie.
+    En cada txoy decido conscientemente dónde intervenir ka dónde respetar feychi impronta original ñi chemkün impreso, dando az a feychi az distintiva ñi <em>Kutxan</em> chi caracteriza fachi trokiñ.
   </p>
 
   <p>
-    Al igual que las membranas, la ligereza y modularidad de estas obras amplían sus posibilidades de interacción con el püle fütra che mew. Instaladas en muros urbanos, evocan carteles publicitarios de gran formato y establecen un diálogo entre arte, grafiti y publicidad, desafiando las convenciones expositivas tradicionales.
+    Al igual chi pu membranas, feychi ligereza ka modularidad ñi estas pu küdaw amplían ñi pu posibilidades ñi interacción egu feychi püle fütra che mew. Instaladas mew muros urbanos, evocan carteles publicitarios ñi fütra aztrawün ka establecen kiñe diálogo rangiñ az-küdaw, grafiti ka waria wirin, desafiando pu convenciones expositivas tradicionales.
   </p>
 </section>
 
@@ -745,21 +745,21 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg"
-       alt="Cordillera – Módulos en püle fütra che mew, 195 × 510 cm"
+       alt="Cordillera – Módulos mew püle fütra che mew, 195 × 510 cm"
        loading="lazy">
-  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas de la revista, dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy ñi feychi revista, dispuestas ortogonalmente mew 12 columnas ñi 7 pu txoy cada kiñe. Dimensiones: 195 × 510 cm.</figcaption>
 </figure>
 
 <section class="parrafo">
-  <p><strong>Cordillera</strong>, 2008. Óleo sobre 84 páginas de la revista <em>Sábado</em> (suplemento de <em>El Mercurio</em>), dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</p>
+  <p><strong>Cordillera</strong>, 2008. Óleo wente 84 pu txoy ñi feychi revista <em>Sábado</em> (suplemento ñi <em>Fachi Mercurio</em>), dispuestas ortogonalmente mew 12 columnas ñi 7 pu txoy cada kiñe. Dimensiones: 195 × 510 cm.</p>
 
-  <p><em>Cordillera</em> constituye la primera obra pictórica cuyo soporte se compone exclusivamente de páginas homogéneas. Cada unidad funciona simultáneamente como módulo autónomo y fragmento de una az de mayor escala, sustituyendo el pliegue característico de obras anteriores por una fragmentación modular que permite ampliar dimensiones sin las limitaciones del püle de taller. Esta estructura facilita, además, el plegado de la pintura al tamaño de los módulos individuales, optimizando su montaje, traslado y conservación.</p>
+  <p><em>Cordillera</em> constituye feychi primera küdaw pictórica cuyo yafün se compone exclusivamente ñi pu txoy homogéneas. Cada unidad funciona simultáneamente reke módulo autónomo ka fragmento ñi kiñe az ñi mayor escala, sustituyendo feychi pliegue característico ñi pu küdaw anteriores mew kiñe fragmentación modular chi permite ampliar azentuñma sin pu limitaciones ñi püle ñi taller. Esta estructura facilita, además, feychi plegado ñi feychi pintura az-küdaw al tamaño ñi pu módulos individuales, optimizando ñi montaje, traslado ka conservación.</p>
 
-  <p>La composición parte de un registro fotográfico de la vista este desde mi taller, reencuadrado estratégicamente para superponer elementos publicitarios frente al macizo cordillerano. Este motivo retoma la tensión dialéctica entre paisaje, publicidad y contaminación explorada desde mis primeras series, confrontando lo natural con lo artificial en un diálogo azentun contemporáneo.</p>
+  <p>Fachi composición parte ñi kiñe wirin fotográfico ñi feychi vista fachi mew iñche ñi taller, reencuadrado estratégicamente ñi superponer elementos publicitarios frente al macizo cordillerano. Este motivo retoma feychi tensión dialéctica rangiñ mapu az, waria wirin ka kutxan explorada mew iñche ñi pu primeras series, confrontando lo mapu lof mew egu lo artificial mew kiñe diálogo azentun fachi antü mew.</p>
 
-  <p>A diferencia de la estética de "peste" característica de trabajos previos —donde coexistían dos lógicas espaciales diferenciadas—, en esta pieza predomina un tratamiento realista del püle, buscando establecer un vínculo de verosimilitud con la experiencia perceptiva. Se preservó deliberadamente la superficie impresa en las zonas publicitarias, manteniendo su impronta original como elemento conceptual.</p>
+  <p>A diferencia ñi feychi az ñi "peste" característica ñi trabajos previos —donde coexistían dos lógicas espaciales diferenciadas—, mew fachi pieza predomina kiñe tratamiento realista ñi püle, buscando establecer kiñe vínculo ñi verosimilitud egu feychi experiencia perceptiva. Se preservó deliberadamente feychi superficie impresa mew pu zonas waria wirin, manteniendo ñi impronta original reke elemento conceptual.</p>
 
-  <p>En su fase inicial, la pintura fue instalada en diversos muros para ensayos de registro (condiciones lumínicas, encuadre) y debido a circunstancias contextuales (confrontaciones vecinales, características estructurales del soporte mural). La utilización de cinta de enmascarar de doble contacto permitió su adhesión temporal y posterior remoción sin deterioro. Un año después, con la kelluwün técnica de Javiera Asenjo, la obra fue adherida mediante engrudo a un muro fütra che mew, asumiendo plenamente su condición de intervención urbana efímera. Esta acción —que integra pintura, publicidad, práctica gráfica urbana y performance— sacrifica la materialidad objetual en favor de una expansión de los küdaw rüpü conceptuales, experiencia metodológica que se replicaría posteriormente en piezas como <em>Mapamundi</em>.</p>
+  <p>En ñi fase inicial, feychi pintura az-küdaw fue instalada mew diversos muros ñi ensayos ñi wirin (condiciones lumínicas, encuadre) ka debido a circunstancias contextuales (confrontaciones vecinales, características estructurales ñi yafün mural). Fachi utilización ñi cinta ñi enmascarar ñi doble nütram permitió ñi adhesión temporal ka posterior remoción sin deterioro. Un txipantu después, egu feychi kelluwün técnica ñi Javiera Asenjo, feychi küdaw fue adherida mediante engrudo a kiñe muro fütra che mew, asumiendo plenamente ñi condición ñi koneltun waria mew efímera. Esta acción —chi integra pintura az-küdaw, waria wirin, práctica gráfica waria mew ka performance— sacrifica feychi materialidad objetual mew favor ñi kiñe expansión ñi pu küdaw rüpü conceptuales, experiencia metodológica chi se replicaría posteriormente mew piezas reke <em>Mapamundi</em>.</p>
 </section>
 
 <br>
@@ -767,84 +767,84 @@ flowchart LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-004.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-003.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-005.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-006b.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-006.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-007.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-008.jpg"
-         alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg"
-         alt="Cordillera – portada/registro, 2009" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+         alt="Cordillera – portada/wirin, 2009" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo wente 84 pu txoy... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 </div>
 
 <br>
 
 <section class="parrafo">
-  <p>El emplazamiento seleccionado, un muro de ladrillo fiscal en estado de deterioro avanzado, se sitúa en calle Virginia (sin intervención vial), en proximidad a la estación San Joaquín del sistema metropolitano de transporte, en su intersección con Avenida Vicuña Mackenna sector poniente. Adyacente a zonas de acumulación periódica de residuos, la pieza estableció un diálogo contextual con un entorno urbano en proceso de transformación continua.</p>
+  <p>Fachi emplazamiento seleccionado, kiñe muro ñi ladrillo fiscal mew estado ñi deterioro avanzado, se sitúa mew calle Virginia (sin koneltun vial), mew proximidad a feychi estación San Joaquín ñi sistema metropolitano ñi transporte, mew ñi intersección egu Avenida Vicuña Mackenna sector poniente. Adyacente a zonas ñi acumulación periódica ñi residuos, feychi pieza estableció kiñe diálogo contextual egu kiñe entorno waria mew mew rüpü ñi transformación continua.</p>
 
-  <p>El formato de gran escala enfatiza la conexión con prácticas de intervención urbana —grafiti, expresión mural y comunicación publicitaria—, mientras que la aproximación técnica explora contrastes cromáticos y texturales mediante la combinación de esmaltes sintéticos, óleos, acrílicos y tintas gráficas. La dualidad material (lo opaco y terroso contrapuesto a lo brillante y azulado) genera una evocación simbólica de los elementos primordiales: tierra y agua.</p>
+  <p>Fachi aztrawün ñi fütra escala enfatiza feychi conexión egu prácticas ñi koneltun waria mew —grafiti, expresión mural ka comunicación waria wirin—, mientras chi feychi aproximación técnica explora contrastes cromáticos ka texturales mediante feychi combinación ñi esmaltes sintéticos, óleos, acrílicos ka tintas gráficas. Fachi dualidad chemkün (lo opaco ka terroso contrapuesto a lo brillante ka azulado) genera kiñe evocación simbólica ñi pu elementos primordiales: tierra ka agua.</p>
 
-  <p><strong>Cordillera</strong> ha dejado de existir como entidad física, evidenciando su naturaleza transitoria y mi investigación en torno a la temporalidad en las prácticas az-küdaws contemporáneas. A través de esta condición efímera, la obra propone una abstracción mapu mew integral y una reflexión crítica sobre los fenómenos de saturación azentun y contaminación característicos de nuestra contemporaneidad.</p>
+  <p><strong>Cordillera</strong> ha dejado ñi existir reke entidad física, evidenciando ñi naturaleza transitoria ka iñche ñi investigación mew torno a feychi temporalidad mew pu prácticas az-küdaws fachi antü mew. A través ñi fachi condición efímera, feychi küdaw propone kiñe abstracción mapu mew integral ka kiñe reflexión crítica wente pu fenómenos ñi saturación azentun ka kutxan característicos ñi iñchiñ ñi contemporaneidad.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="gran-paisaje-1-2010">2. Gran paisaje n°1, 2010</h4>
+<h4 class="subtitulo2" id="gran-paisaje-1-2010">2. Gran mapu az n°1, 2010</h4>
 
 <figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-002-b.jpg"
-       alt="Gran paisaje n°1 – 400 x 750 cm, 2010"
+       alt="Gran mapu az n°1 – 400 x 750 cm, 2010"
        loading="lazy">
   <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: modulos. Gran Paisaje n°1, 400 x 750cm, 2010</figcaption>
 </figure>
 
 <section class="parrafo">
-  <p><strong>Gran paisaje n°1</strong>, 2010.<br>
-    Óleo sobre 140 páginas de catálogo (supermercado Jumbo), dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.
+  <p><strong>Gran mapu az n°1</strong>, 2010.<br>
+    Óleo wente 140 pu txoy ñi catálogo (supermercado Jumbo), dispuestas ortogonalmente mew 14 columnas ñi 10 pu txoy cada kiñe. Dimensiones: 400 × 750 cm.
   </p>
 
-  <p>La obra emplea por primera vez formatos monumentales equivalentes a la publicidad urbana. La técnica desarrolla investigaciones previas sobre soportes fragmentados iniciadas en series anteriores.</p>
+  <p>Fachi küdaw emplea mew primera vez pu aztrawün monumentales equivalentes a feychi waria wirin waria mew. Fachi técnica desarrolla investigaciones previas wente pu yafün fragmentados iniciadas mew series anteriores.</p>
 
-  <p>La composición aborda la mediación publicitaria en el paisaje, aplicando la técnica de "peste" explorada en <em>Cordillera</em>: la pintura se limita exclusivamente a los intersticios entre los elementos promocionales del catálogo.</p>
+  <p>Fachi composición aborda feychi mediación waria wirin mew feychi mapu az, aplicando feychi técnica ñi "peste" explorada mew <em>Cordillera</em>: feychi pintura az-küdaw se limita exclusivamente a pu intersticios rangiñ pu elementos promocionales ñi catálogo.</p>
 
-  <p>La az base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.</p>
+  <p>Fachi az base proviene ñi fotografías tomadas mew kiñe vehículo mew movimiento, mismas chi originaron pu <em>Estudios ñi mapu az ñi carretera</em>. Fachi diferencia principal radica mew feychi cambio ñi yafün (ñi madera a papel), permitiendo mayor fragmentación ka reducción ñi peso.</p>
 </section>
 
 <br>
@@ -852,56 +852,56 @@ flowchart LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-04.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-01.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-02.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-03.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05b.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05c.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-06.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-07.jpg"
-         alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – wirin" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
@@ -910,145 +910,145 @@ flowchart LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-01.jpg"
-         alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – detalle" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-02.jpg"
-         alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – detalle" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-03.jpg"
-         alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – detalle" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-04.jpg"
-         alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – detalle" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-05.jpg"
-         alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°1 – detalle" loading="lazy">
+    <figcaption><em>Gran mapu az n°1 — Óleo wente papel, 400 x 750 cm. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p>Las dimensiones cumplen dos propósitos técnicos: replicar el formato de vallas publicitarias urbanas y establecer referencias históricas con el tratamiento monumental.</p>
+  <p>Pu azentuñma cumplen dos propósitos técnicos: replicar feychi aztrawün ñi vallas waria wirin waria mew ka establecer referencias históricas egu feychi tratamiento monumental.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="gran-paisaje-2-2014">3. Gran paisaje n°2, 2014</h4>
+<h4 class="subtitulo2" id="gran-paisaje-2-2014">3. Gran mapu az n°2, 2014</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-01b.jpg"
-         alt="Gran paisaje n°2 – 2014" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – 2014" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-02.jpg"
-         alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – detalle" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01b.jpg"
-         alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – detalle" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01.jpg"
-         alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – detalle" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-00.jpg"
-         alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – detalle" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-ap-01c.jpg"
-         alt="Gran paisaje n°2 – aplicación" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Gran mapu az n°2 – aplicación" loading="lazy">
+    <figcaption><em>Gran Paisaje n°2 — Acrílico wente papel ñi periódico, 400 x 750 cm. 2014. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p><strong>Gran paisaje n°2</strong>, 2014. Acrílico sobre 140 páginas de periódicos <em>La Tercera</em>, dispuestas ortogonalmente en 14 columnas de 10 páginas cada una. Dimensiones: 400 × 750 cm.</p>
+  <p><strong>Gran mapu az n°2</strong>, 2014. Acrílico wente 140 pu txoy ñi periódicos <em>Fachi Tercera</em>, dispuestas ortogonalmente mew 14 columnas ñi 10 pu txoy cada kiñe. Dimensiones: 400 × 750 cm.</p>
 
-  <p>Comparte formato con su “hermana” <em>Gran paisaje n°1</em>, pero no es gemela: esta vez el soporte proviene de secciones de periódico del mismo tamaño que aquellos suplementos de Jumbo.</p>
+  <p>Comparte aztrawün egu ñi “hermana” <em>Gran mapu az n°1</em>, pero no es gemela: fachi vez feychi yafün proviene ñi pu txoy ñi periódico ñi mismo tamaño chi aquellos suplementos ñi Jumbo.</p>
 
-  <p>El motivo es una vista desde mi taller hacia la cordillera, con los tejados de los vecinos en primer plano. Me fascina cómo la luz y la atmósfera cambian día a día, aportando variaciones constantes al paisaje.</p>
+  <p>Fachi motivo es kiñe vista mew iñche ñi taller püle feychi cordillera, egu pu tejados ñi pu vecinos mew primer plano. Me fascina cómo feychi luz ka feychi atmósfera cambian día a día, aportando variaciones constantes al mapu az.</p>
 
-  <p>Retomo la estética de “peste” al pintar únicamente en los intersticios que quedan entre las pu az impresas. Así, los fragmentos sin intervención funcionan como imperfecciones intencionales que distorsionan y suspenden la lectura habitual de la escena.</p>
+  <p>Retomo feychi az ñi “peste” al pintar únicamente mew pu intersticios chi quedan rangiñ pu az impresas. Así, pu fragmentos sin koneltun funcionan reke imperfecciones intencionales chi distorsionan ka suspenden feychi lectura habitual ñi feychi escena.</p>
 
-  <p>Al asumir dimensiones publicitarias –4 m de alto por 7,5 m de ancho–, la obra se sitúa en el püle urbano y dialoga con el entorno de gigantografías y carteles callejeros.</p>
+  <p>Al asumir azentuñma waria wirin –4 m ñi alto mew 7,5 m ñi ancho–, feychi küdaw se sitúa mew feychi püle waria mew ka dialoga egu feychi entorno ñi gigantografías ka carteles callejeros.</p>
 
-  <p><strong>Gran paisaje n°2</strong> propone, a través de su gran escala y su proceso fragmentario, una reflexión sobre la percepción y la saturación azentun en el paisaje contemporáneo.</p>
+  <p><strong>Gran mapu az n°2</strong> propone, a través ñi ñi fütra escala ka ñi rüpü fragmentario, kiñe reflexión wente feychi percepción ka feychi saturación azentun mew feychi mapu az fachi antü mew.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="paisaje-urbano-2010">4. Paisaje urbano, 2010</h4>
+<h4 class="subtitulo2" id="paisaje-urbano-2010">4. Paisaje waria mew, 2010</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg"
-         alt="Paisaje urbano – 2010" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – 2010" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d01.jpg"
-         alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – detalle" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d02.jpg"
-         alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – detalle" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d03.jpg"
-         alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – detalle" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d04.jpg"
-         alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – detalle" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d05.jpg"
-         alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
+         alt="Paisaje waria mew – detalle" loading="lazy">
+    <figcaption><em>Paisaje waria mew — Óleo wente papel ñi periódico, 210 x 290 cm. 2010. Trokiñ: Fentepun / Kutxan / Kutxan Pinturas / pu yafün blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
   <p><strong>Paisaje Urbano</strong>, 2010.<br>
-    Óleo sobre 25 páginas de periódico (<em>La Tercera</em>), dispuestas ortogonalmente en 5 columnas de 5 páginas cada una. Dimensiones: 210 × 290 cm.
+    Óleo wente 25 pu txoy ñi periódico (<em>Fachi Tercera</em>), dispuestas ortogonalmente mew 5 columnas ñi 5 pu txoy cada kiñe. Dimensiones: 210 × 290 cm.
   </p>
 
-  <p>La obra sintetiza técnicas desarrolladas en <em>Cordillera</em> y <em>Gran paisaje de carretera</em>: mantiene intactas las zonas publicitarias del soporte y aplica la estética de "peste" mediante intersticios no pintados entre los recortes periodísticos.</p>
+  <p>Fachi küdaw sintetiza técnicas desarrolladas mew <em>Cordillera</em> ka <em>Gran mapu az ñi carretera</em>: mantiene intactas pu zonas waria wirin ñi yafün ka aplica feychi az ñi "peste" mediante intersticios no pintados rangiñ pu recortes periodísticos.</p>
 
-  <p>El trabajo desplaza su enfoque al entorno urbano, representando püles ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación azentun característica del paisaje contemporáneo.</p>
+  <p>Fachi trabajo desplaza ñi enfoque al entorno waria mew, representando püles ya saturados ñi waria wirin. Esta elección temática acentúa feychi condición ñi sobresaturación azentun característica ñi mapu az fachi antü mew.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -1059,37 +1059,37 @@ flowchart LR
   2.1 Módulos print
 </h3>
 
-<h4 class="subtitulo2" id="mujeres-selknam-2019">1. Mujeres selk'nam infectadas por el fútbol, 2019</h4>
+<h4 class="subtitulo2" id="mujeres-selknam-2019">1. Mujeres selk'nam kutxan niechi mew feychi fútbol, 2019</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-01.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - modulos: print / mujeres selknam kutxan niechi mew feychi futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-02.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - modulos: print / mujeres selknam kutxan niechi mew feychi futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-03.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - modulos: print / mujeres selknam kutxan niechi mew feychi futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-04.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - modulos: print / mujeres selknam kutxan niechi mew feychi futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-05.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - modulos: print / mujeres selknam kutxan niechi mew feychi futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 </div>
 
@@ -1126,128 +1126,128 @@ flowchart LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-003.jpg"
-         alt="Unidades – serie paisajes (etapa 1), 2019"
+         alt="Unidades – trokiñ pu mapu az (etapa 1), 2019"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 1, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ pu mapu az - etapa 1, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-004.jpg"
-         alt="Unidades – serie paisajes (etapa 2), 2019"
+         alt="Unidades – trokiñ pu mapu az (etapa 2), 2019"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 2, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ pu mapu az - etapa 2, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-005.jpg"
-         alt="Unidades – serie paisajes (etapa 3), 2019"
+         alt="Unidades – trokiñ pu mapu az (etapa 3), 2019"
          loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 3, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ pu mapu az - etapa 3, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p><strong>Unidades:</strong> piezas individuales elaboradas sobre páginas recicladas de catálogos o revistas, manteniendo su formato original. Cada unidad funciona como un microcosmos crítico, contraponiendo el mensaje comercial a la intervención pictórica.</p>
+  <p><strong>Unidades:</strong> piezas individuales elaboradas wente pu txoy recicladas ñi catálogos kam revistas, manteniendo ñi aztrawün original. Cada unidad funciona reke kiñe microcosmos crítico, contraponiendo feychi mensaje comercial a feychi koneltun pictórica.</p>
 
-  <p>En esta serie, cada obra utiliza una sola página extraída del material publicitario, recontextualizada para generar una tensión entre su propósito original y su nueva función como obra de arte crítica. Este enfoque preserva la integridad física del soporte y lo transforma en un vehículo de reflexión.</p>
+  <p>En fachi trokiñ, cada küdaw utiliza kiñe sola txoy extraída ñi chemkün waria wirin, recontextualizada ñi generar kiñe tensión rangiñ ñi propósito original ka ñi we función reke küdaw ñi az-küdaw crítica. Este enfoque preserva feychi integridad física ñi yafün ka lo transforma mew kiñe vehículo ñi reflexión.</p>
 
-  <p>La elección de trabajar con formato reducido responde a mi búsqueda de soportes efectivos, livianos y sintéticos. Cada página-unidad se convierte en un fragmento autónomo de información comercial que, a través de mi intervención estratégica, subvierte la intención original del mensaje y crea una yuxtaposición entre lo superficial y lo profundo.</p>
+  <p>Fachi elección ñi trabajar egu aztrawün reducido responde a iñche ñi búsqueda ñi pu yafün efectivos, livianos ka sintéticos. Cada txoy-unidad se convierte mew kiñe fragmento autónomo ñi información comercial chi, a través ñi iñche ñi koneltun estratégica, subvierte feychi intención original ñi mensaje ka crea kiñe yuxtaposición rangiñ lo superficial ka lo profundo.</p>
 
-  <p>Exhibidas enmarcadas tras vidrio y paspartú, estas piezas dialogan con las artes gráficas y ofrecen una experiencia íntima: invitan al espectador a una contemplación cercana y personal, estableciendo una conexión directa con la obra.</p>
+  <p>Exhibidas enmarcadas tras vidrio ka paspartú, estas piezas dialogan egu pu artes gráficas ka ofrecen kiñe experiencia íntima: invitan al espectador a kiñe contemplación cercana ka personal, estableciendo kiñe conexión directa egu feychi küdaw.</p>
 
-  <p>Mi intervención es meticulosa: selecciono cuidadosamente las áreas a intervenir y las que conservo intactas, configurando un complejo diálogo azentun entre el soporte impreso y mi narrativa pictórica. Cada unidad puede existir de forma independiente o integrarse en instalaciones mayores, ampliando las posibilidades de montaje y lectura.</p>
+  <p>Mi koneltun es meticulosa: selecciono cuidadosamente pu áreas a intervenir ka pu chi conservo intactas, configurando kiñe complejo diálogo azentun rangiñ feychi yafün impreso ka iñche ñi narrativa pictórica. Cada unidad puede existir ñi az independiente kam integrarse mew pu eltun mayores, ampliando pu posibilidades ñi montaje ka lectura.</p>
 
-  <p>Con este trabajo elevo el material publicitario desechable a la categoría de arte reflexivo, invitando al fütra che mew a reconsiderar su relación con los objetos cotidianos y la omnipresencia de la publicidad.</p>
+  <p>Con fachi trabajo elevo feychi chemkün waria wirin desechable a feychi categoría ñi az-küdaw reflexivo, invitando al fütra che mew a reconsiderar ñi nütram egu egu pu chemkün cotidianos ka feychi omnipresencia ñi feychi waria wirin.</p>
 
-  <p>Las unidades se organizan en tres series principales:</p>
+  <p>Pu unidades se organizan mew tres series principales:</p>
   <ul>
-    <li><strong>Adentu (2019–):</strong> rostros intervenidos por la “peste publicitaria” impresa en el soporte.</li>
-    <li><strong>Chemkün az (2024–):</strong> productos cotidianos reinterpretados y “infectados” mediante omisiones selectivas de pintura.</li>
-    <li><strong>Mapu az (2019–):</strong> escenas naturales tratadas con la estética de la “peste”, resaltando la saturación azentun.</li>
+    <li><strong>Adentu (2019–):</strong> rostros intervenidos mew feychi “peste waria wirin” impresa mew feychi yafün.</li>
+    <li><strong>Chemkün az (2024–):</strong> productos cotidianos reinterpretados ka “kutxan niechi” mediante omisiones selectivas ñi pintura az-küdaw.</li>
+    <li><strong>Mapu az (2019–):</strong> escenas mapu lof mew tratadas egu feychi az ñi feychi “peste”, resaltando feychi saturación azentun.</li>
   </ul>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="unidades-retratos-2019">RETRATOS: 1. Serie sin título - 2008</h4>
+<h4 class="subtitulo2" id="unidades-retratos-2019">RETRATOS: 1. Trokiñ sin üy - 2008</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg"
          alt="Unidades – Adentu S/T n°1, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-001.jpg"
          alt="Unidades – Adentu S/T n°2, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-003.jpg"
          alt="Unidades – Adentu S/T n°3, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°3, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°3, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-004.jpg"
          alt="Unidades – Adentu S/T n°4, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°4, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°4, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-005.jpg"
          alt="Unidades – Adentu S/T n°5, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°5, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°5, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-006.jpg"
          alt="Unidades – Adentu S/T n°6, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°6, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°6, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-007.jpg"
          alt="Unidades – Adentu S/T n°7, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°7, 25 x 40 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ retratos - S/T n°7, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 </div>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="unidades-paisajes-2019">PAISAJES: 1. Serie sin título - 2019</h4>
+<h4 class="subtitulo2" id="unidades-paisajes-2019">PAISAJES: 1. Trokiñ sin üy - 2019</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-001.jpg"
          alt="Unidades – Mapu az, marina 01, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - unidades - pu mapu az - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-002.jpg"
          alt="Unidades – Mapu az, marina 01, 2019" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pintura az-küdaw az-küdaw kutxan niechi - pu yafün blandos - unidades - pu mapu az - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
 </div>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="unidades-bodegones-2024">BODEGONES: 1. Serie sin título - 2008</h4>
+<h4 class="subtitulo2" id="unidades-bodegones-2024">BODEGONES: 1. Trokiñ sin üy - 2008</h4>
 
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
          alt="Chemkün az – Dewmangen mew" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ bodegones - mew construcción</em></figcaption>
   </figure>
 
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
          alt="Chemkün az – Dewmangen mew" loading="lazy">
-    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / trokiñ bodegones - mew construcción</em></figcaption>
   </figure>
 </div>
 

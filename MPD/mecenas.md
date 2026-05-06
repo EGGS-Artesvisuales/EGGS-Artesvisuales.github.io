@@ -1,13 +1,13 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Mecenas – Esteban Garnica ñi küdaw kellu"
-description: "Amulechi küdaw adkintun ka Esteban Garnica ñi az-küdaw, muralismo ka kimün producción kellu."
+title: "Kellufe – Esteban Garnica ñi küdaw kellu"
+description: "Amulechi küdaw adkintun ka Esteban Garnica ñi az-küdaw, muralismo ka kimün dewman kellu."
 permalink: /MPD/mecenas.html
-keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, muralismo, Esteban Garnica, EGGS-Studio, donaciones arte"
+keywords: "Kellufe, apoyar az-küdaw, financiamiento cultural, küdaw az-küdaws, muralismo, Esteban Garnica, EGGS-Studio, pu kelluwün az-küdaw"
 ---
 
-<h1 class="titulo">Mecenas ngeaymi</h1>
+<h1 class="titulo">Kellufe ngeaymi</h1>
 
 <h2 class="subtitulo">Dewman az-küdaw kellu ka kimün mew tami rastro elu.</h2>
 
@@ -16,7 +16,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
 </p>
 
 <p class="parrafo">
-  Mecenas reke, eluaimi tami ayüchi monto ka koneltuaimi kiñeke iniciativa ñi amulen mew. Niea tami acceso: avance, dewman rüpü, especial wirin ka evento tami kellu küdaw egu. Tami kelluwün fütra newen niey fachi pu küdaw müleal.
+  Kellufe reke, eluaimi tami ayüchi monto ka koneltuaimi kiñeke iniciativa ñi amulen mew. Niea tami acceso: avance, dewman rüpü, especial wirin ka evento tami kellu küdaw egu. Tami kelluwün fütra newen niey fachi pu küdaw müleal.
 </p>
 
 <h2 class="subtitulo">Amulechi küdaw</h2>
@@ -32,7 +32,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
   <a href="/MPD/musoe-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Museo a Cielo Abierto">
-      <p class="title">Museo a Cielo Abierto</p>
+      <p class="title">Wente mapu musoe</p>
       <p class="subtitle">
         Mural rüpü ñi akumtun waria püle: kimün kuifi, color ka lof kelluwün mew.
       </p>
@@ -54,7 +54,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
 <br>
 
 <p class="parrafo">
-  Tami kellun donación müten gelay: kimün, lof ka küme akumtun mew inversión ngey. Mañum az-küdaw amulnieal.
+  Tami kellun kelluwün müten gelay: kimün, lof ka küme akumtun mew inversión ngey. Mañum az-küdaw amulnieal.
 </p>
 
 

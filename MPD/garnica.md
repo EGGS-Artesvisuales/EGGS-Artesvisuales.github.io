@@ -2,7 +2,7 @@
 layout: default-mpd
 title: "Esteban Garnica Sánchez – Az-küdawfe ka muralista"
 description: "Esteban Garnica Sánchez ñi rüpü: az-küdawfe, muralista ka EGGS-Studio ñi dewmafe."
-keywords: "Esteban Garnica, artista azentun chileno, muralista, EGGS-Studio, arte contemporáneo Chile, pintura expandida, arte fütra che mew, küdaw lof mews"
+keywords: "Esteban Garnica, artista azentun chileno, muralista, EGGS-Studio, az-küdaw fachi antü mew Chile, pintura az-küdaw expandida, az-küdaw fütra che mew, küdaw lof mews"
 permalink: /MPD/garnica.html
 ---
 
@@ -12,7 +12,7 @@ permalink: /MPD/garnica.html
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  Esteban Garnica Sánchez (Santiago, 1985) müley chileno az-küdawfe, Universidad de Chile mew kimeltun niey. Ñi rüpü txawüley dewman az-küdaw, kimeltun ka waria püle mew koneltun. Ñi küdaw nütramkey fachi antü ñi kutxan dungu: desigualdad, wallmapu kutxan ka waria conflicto; pintura mural mew ka instalación fütra che mew püle mew amuley.
+  Esteban Garnica Sánchez (Santiago, 1985) müley chileno az-küdawfe, Universidad ñi Chile mew kimeltun niey. Ñi rüpü txawüley dewman az-küdaw, kimeltun ka waria püle mew koneltun. Ñi küdaw nütramkey fachi antü ñi kutxan dungu: desigualdad, wallmapu kutxan ka waria conflicto; pintura az-küdaw mural mew ka eltun fütra che mew püle mew amuley.
 </p>
 
 <!-- Párrafo 2 -->

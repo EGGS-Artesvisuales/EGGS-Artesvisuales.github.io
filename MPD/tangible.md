@@ -1,16 +1,16 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Kalül mew – Serie de obras de Esteban Garnica"
+title: "Kalül mew – Trokiñ ñi pu küdaw ñi Esteban Garnica"
 description: "Esteban Garnica ñi küdaw trokiñ: chemkün, kalül ka fachi antü ñi püle az-küdaw mew."
 permalink: /MPD/tangible.html
-keywords: "Kalül mew, materialidad, arte contemporáneo, objeto az-küdaw, presencia física, pintura expandida, Esteban Garnica, EGGS-Studio"
+keywords: "Kalül mew, materialidad, az-küdaw fachi antü mew, chemkün az-küdaw, presencia física, pintura az-küdaw expandida, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
 <h1 class="titulo">Kalül mew</h1>
 
-<h2 class="subtitulo">Wallmapu ñi azentun material</h2>
+<h2 class="subtitulo">Wallmapu ñi azentun chemkün</h2>
 
 <div class="mermaid">
 flowchart LR
@@ -60,7 +60,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
             <p class="title">Fentepun</p>
-            <p class="subtitle">Kutxan, fentepun ka capitalismo producción.</p>
+            <p class="subtitle">Kutxan, fentepun ka capitalismo dewman.</p>
         </div>
     </a>
 

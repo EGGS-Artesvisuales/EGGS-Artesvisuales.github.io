@@ -4,7 +4,7 @@ lang: arn
 title: "Kellun – EGGS-Studio"
 description: "Esteban Garnica ñi kellun: muralismo, küme dewün, az-küdaw diseño, lof taller ka kimün küdaw."
 permalink: /MPD/servicios.html
-keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de arte, producción cultural, diseño az-küdaw, Esteban Garnica, EGGS-Studio"
+keywords: "servicios az-küdaws, muralismo, küme dewün ñi az-küdaw, pu taller ñi az-küdaw, dewman cultural, diseño az-küdaw, Esteban Garnica, EGGS-Studio"
 ---
 
 <h1 class="titulo">Kellun</h1>
@@ -39,7 +39,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
     <div class="button-content">
       <img src="/assets/img/encargos-boton.webp" alt="Küdaw ngütram y Encomiendas" loading="lazy">
       <p class="title">Küdaw ngütram</p>
-      <p class="subtitle">Pintura ka mural tami zugu mew.</p>
+      <p class="subtitle">Pintura az-küdaw ka mural tami zugu mew.</p>
     </div>
   </a>
 
@@ -48,7 +48,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
     <div class="button-content">
       <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
       <p class="title">Püle dewman &amp; Montaje</p>
-      <p class="subtitle">Azentun instalación ka püle akumtun.</p>
+      <p class="subtitle">Azentun eltun ka püle akumtun.</p>
     </div>
   </a>
 
@@ -66,7 +66,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
       Küdaw, chemkün ka superficie ñi wiñol dewman, küme inakintun, azentun adkintun ka kiñeke pieza ñi kuifi dungu yamuwün mew.
     </p>
     <ul class="service-list">
-      <li>Azentun diagnóstico, foto registro ka koneltun propuesta.</li>
+      <li>Azentun diagnóstico, foto wirin ka koneltun propuesta.</li>
       <li>Liftun, estabilización, color wiñol ka protección dewman.</li>
       <li>Küdaw particular, familia colección, institución ka lof püle mew.</li>
     </ul>
@@ -80,12 +80,12 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
   <div class="service-copy">
     <h2 class="subtitulo">Küdaw ngütram</h2>
     <p class="parrafo">
-      Pintura, mural ka azentun koneltun dewman, wünen rakizuam mew tripay ka afpun küdaw mew akuy.
+      Pintura az-küdaw, mural ka azentun koneltun dewman, wünen rakizuam mew tripay ka afpun küdaw mew akuy.
     </p>
     <ul class="service-list">
-      <li>Boceto, color, escala, soporte ka producción txipantu rüpü.</li>
+      <li>Boceto, color, escala, yafün ka dewman txipantu rüpü.</li>
       <li>Küdaw ruka, oficina, local, organización ka institución mew.</li>
-      <li>Archivo, mapu az che, familia kimün kuifi ka marca nütram txawün.</li>
+      <li>Txawün wirin, mapu az che, familia kimün kuifi ka marca nütram txawün.</li>
     </ul>
   </div>
 </section>
@@ -102,7 +102,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
     <ul class="service-list">
       <li>Küdaw montaje, az-küdaw ambientación ka püle composición.</li>
       <li>Rüpü diseño, azentun kellun, señalética pichi ka exhibición solución.</li>
-      <li>Muestra, lof actividad, feria, taller ka especial küdaw producción.</li>
+      <li>Muestra, lof actividad, feria, taller ka especial küdaw dewman.</li>
     </ul>
   </div>
 </section>

@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Trafkintu – Az-küdaw original y productos de EGGS-Studio"
+title: "Trafkintu – Az-küdaw original ka productos ñi EGGS-Studio"
 description: "EGGS-Studio mew trafkintu: ngen küdaw, prints, piezas ka Esteban Garnica ñi az-küdaw."
 permalink: /MPD/tienda.html
-keywords: "tienda de arte, arte original, impresiones az-küdaws, productos de arte, EGGS-Studio, Esteban Garnica, comprar arte"
+keywords: "tienda ñi az-küdaw, az-küdaw original, impresiones az-küdaws, productos ñi az-küdaw, EGGS-Studio, Esteban Garnica, comprar az-küdaw"
 ---
 
 <h1 class="titulo">Trafkintu EGGS-Studio</h1>
@@ -16,7 +16,7 @@ keywords: "tienda de arte, arte original, impresiones az-küdaws, productos de a
 </p>
 
 <p class="parrafo">
-  Mi ayüle kiñe pieza kake formato mew, tamaño kake, marco, pichi edición kam küdaw ngütram, wirintuku nütram. Iñchiw adkintukayu chumgechi doy küme.
+  Mi ayüle kiñe pieza kake aztrawün mew, tamaño kake, marco, pichi edición kam küdaw ngütram, wirintuku nütram. Iñchiw adkintukayu chumgechi doy küme.
 </p>
 
 <div class="productos-container">

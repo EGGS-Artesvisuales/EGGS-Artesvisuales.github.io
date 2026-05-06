@@ -2,9 +2,9 @@
 layout: default-mpd
 lang: arn
 title: "EGGS-Studio – Wünen"
-description: "EGGS-Studio: Esteban Garnica ñi dewman püle. Az-küdaw, muralismo, fütralkülechi pintura ka kimün küdaw Santiago de Chile mew."
+description: "EGGS-Studio: Esteban Garnica ñi dewman püle. Az-küdaw, muralismo, fütralkülechi pintura az-küdaw ka kimün küdaw Santiago ñi Chile mew."
 permalink: /MPD/index.html
-keywords: "EGGS-Studio, Esteban Garnica, artista azentun chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo lof mew, arte fütra che mew, küdaw culturales, Santiago de Chile"
+keywords: "EGGS-Studio, Esteban Garnica, artista azentun chileno, muralista, az-küdaw fachi antü mew Chile, pintura az-küdaw expandida, muralismo lof mew, az-küdaw fütra che mew, küdaw culturales, Santiago ñi Chile"
 mermaid: true
 carousel: true
 
@@ -19,7 +19,7 @@ carousel: true
 
 <figure class="az-con-caption">
   <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
-  <figcaption>Fentepun / Kutxan / kutxan pinturas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
+  <figcaption>Fentepun / Kutxan / kutxan pintura az-küdaw az-küdaw, pu yafün blandos, pagina unica, retratos, st003. 2020.</figcaption>
 </figure>
 
 <br>
@@ -38,7 +38,7 @@ flowchart LR
   principal(("Actividad az-küdaw"))
   representacion(["Wallmapu ñi azentun"])
   accion(["Mapu mew küdaw"])
-  interior(["Exploración del wallmapu interior"])
+  interior(["Exploración ñi wallmapu interior"])
 
   principal --> representacion
   principal --> accion
@@ -65,8 +65,8 @@ flowchart LR
 
   <a href="/MPD/mundo-exterior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp" 
-           alt="Küdaw de Wallmapu ñi azentun" loading="lazy">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp"
+           alt="Küdaw ñi Wallmapu ñi azentun" loading="lazy">
       <p class="title">Wallmapu ñi azentun</p>
       <p class="subtitle">Küdaw ñi adkintun, azentun ka rakizuam wallmapu mew.</p>
     </div>
@@ -74,8 +74,8 @@ flowchart LR
 
   <a href="/MPD/accion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" 
-           alt="Küdaw de Mapu mew Küdaw" loading="lazy">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp"
+           alt="Küdaw ñi Mapu mew Küdaw" loading="lazy">
       <p class="title">Mapu mew Küdaw</p>
       <p class="subtitle">Mapu mew zugu, lof az-küdaw, taller, oficio ka kellun.</p>
     </div>
@@ -83,8 +83,8 @@ flowchart LR
 
   <a href="/MPD/interior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.webp" 
-           alt="Exploración del Püle rakizuam" loading="lazy">
+      <img src="/assets/img/ES-inicio---mundo-interior.webp"
+           alt="Exploración ñi Püle rakizuam" loading="lazy">
       <p class="title">Püle rakizuam</p>
       <p class="subtitle">Iñche ñi kintun, püle rakizuam ka küme mogen rüpü.</p>
     </div>

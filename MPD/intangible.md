@@ -4,7 +4,7 @@ lang: arn
 title: "Püllü mew – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw trokiñ: pengekenon, püllü zugu ka azentun newen fachi antü mew."
 permalink: /MPD/intangible.html
-keywords: "Lo Püllü mew, arte contemporáneo, pintura expandida, simbolismo, espiritualidad, estética de lo invisible, Esteban Garnica, EGGS-Studio"
+keywords: "Lo Püllü mew, az-küdaw fachi antü mew, pintura az-küdaw expandida, simbolismo, espiritualidad, az ñi lo invisible, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -20,7 +20,7 @@ mermaid: true
 </p>
 
 <p class="parrafo">
-  Ñi pintura rüpü inarrumen mew, fachi pu küdaw azmogen küla rüpü mew.
+  Ñi pintura az-küdaw rüpü inarrumen mew, fachi pu küdaw azmogen küla rüpü mew.
   Fey pu rüpü nütramkey rakizuam, imaginario ka zugu azmogen egu, fachi
   antü ñi tensión ka kuifi dungu ñi amulen adkintual.
 </p>
@@ -35,14 +35,14 @@ graph LR
 
     Püllü mew --> Capitalismo(["Capitalismo ñi pu az"])
     Püllü mew --> Popular(["Pu che ñi pu az"])
-    Püllü mew --> Ancestros(["Pu az de los Ancestros"])
+    Püllü mew --> Ancestros(["Pu az ñi pu Ancestros"])
 
     click Representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
     click Kalül mew "/MPD/tangible.html" "Amun: Kalül mew"
     click Püllü mew "/MPD/intangible.html" "Amun: Lo Püllü mew"
     click Capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
     click Popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
-    click Ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
+    click Ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az ñi pu Ancestros"
 </div>
 
 <br>
@@ -58,7 +58,7 @@ graph LR
   </a>
 
   <a href="/MPD/imagenes-popular.html" class="fancy-button">
-    <div class="button-content"> 
+    <div class="button-content">
       <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Pu che ñi pu az" loading="lazy">
       <p class="title">Pu che ñi pu az</p>
       <p class="subtitle">Kom che ñi imaginario: ayün, ramtun ka adkintun.</p>
@@ -68,7 +68,7 @@ graph LR
   <a href="/MPD/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros" loading="lazy">
-      <p class="title">Pu az de los Ancestros</p>
+      <p class="title">Pu az ñi pu Ancestros</p>
       <p class="subtitle">Kimün kuifi, admapu ka folil egu nütram.</p>
     </div>
   </a>

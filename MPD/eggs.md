@@ -1,8 +1,8 @@
 ---
 layout: default-mpd
 title: "Kellun – EGGS-Studio"
-description: "EGGS-Studio ñi profesional kellun: küme dewün, küdaw ngütram, montaje, kimün producción ka azentun solución."
-keywords: "servicios az-küdaws, EGGS-Studio, restauración de arte, encargos az-küdaws, montajes y ambientación, producción cultural, Esteban Garnica"
+description: "EGGS-Studio ñi profesional kellun: küme dewün, küdaw ngütram, montaje, kimün dewman ka azentun solución."
+keywords: "servicios az-küdaws, EGGS-Studio, küme dewün ñi az-küdaw, encargos az-küdaws, montajes ka ambientación, dewman cultural, Esteban Garnica"
 permalink: /MPD/eggs.html
 carousel: true
 ---
@@ -21,11 +21,11 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  Muralismo, küme dewün, kimün producción ka kimeltun mew txawüchi kimün elugey fill necesidad mew küdaw: patrimonio wiñol dewman, ngen küdaw dewman, escenografía diseño, multimedia contenido ka digital herramienta az-küdaw mew.
+  Muralismo, küme dewün, kimün dewman ka kimeltun mew txawüchi kimün elugey fill necesidad mew küdaw: patrimonio wiñol dewman, ngen küdaw dewman, escenografía diseño, multimedia contenido ka digital herramienta az-küdaw mew.
 </p>
 
 <p class="parrafo">
-  Mi ayüle kelluwün, küdaw amulnieal kam kiñe idea kintual, iñchiw dewmayay propuesta tami realidad, tiempo ka recurso mew adattulu.
+  Mi ayüle kelluwün, küdaw amulnieal kam kiñe idea kintual, iñchiw dewmayay propuesta tami realidad, antü ka recurso mew adattulu.
 </p>
 
 <!-- Llamado a la acción -->
@@ -44,12 +44,12 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Producción y organización de eventos culturales" loading="lazy">
-        <p class="title">Kimün evento producción ka organización</p>
+        <p class="title">Kimün evento dewman ka organización</p>
         <p class="subtitle">Diseño, coordinación ka kimün rüpü acompañamiento.</p>
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 2: Küme dewün ka inakintun de obras de arte y patrimonio -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -60,7 +60,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 3: Muralismo y arte urbano -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -71,7 +71,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 4: Diseño y construcción de escenografías y mobiliario az-küdaw -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -82,7 +82,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 5: Kimeltun y talleres de formación az-küdaw -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -93,18 +93,18 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 6: Producción y montaje de exhibiciones y museos digitales -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Producción y montaje de exhibiciones y museos digitales" loading="lazy">
-        <p class="title">Exhibición ka digital musoe producción</p>
+        <p class="title">Exhibición ka digital musoe dewman</p>
         <p class="subtitle">Curaduría, montaje ka presencial/virtual exhibición kimün rüpü.</p>
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 7: Decoración az-küdaw de interiores y exteriores -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -115,7 +115,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 8: Desarrollo de software y aplicaciones para el sector az-küdaw -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -126,7 +126,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 9: Producción de contenido multimedia y arte digital -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -137,7 +137,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 10: Comercialización de productos az-küdaws y diseño especializado -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
@@ -148,7 +148,7 @@ carousel: true
       </div>
     </a>
   </div>
-  
+
   <!-- Kellun 11: Intervenciones lof mews y küdaw de inclusión social a través del arte -->
   <div class="item">
     <a href="/MPD/en-construccion.html" class="fancy-button">
