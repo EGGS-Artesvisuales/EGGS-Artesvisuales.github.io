@@ -1,0 +1,352 @@
+---
+layout: default-mpd
+lang: arn
+title: "Musoe a Cielo Abierto – Dípticos murales de pueblos originarios | Esteban Garnica"
+description: "Musoe a Cielo Abierto: serie de dípticos murales dedicados a pueblos originarios, instalados en espacio público como retrato, memoria y presencia comunitaria."
+permalink: /MPD/musoe-a-cielo-abierto.html
+keywords: "Musoe a Cielo Abierto, museo a cielo abierto, díptico mural, pueblos originarios, muralismo, arte público, memoria, Esteban Garnica, EGGS-Studio, La Florida, Santiago"
+carousel: true
+mermaid: true
+---
+
+<!-- Título principal -->
+<h1 class="titulo">Musoe a Cielo Abierto</h1>
+
+<!-- Subtítulo -->
+<h2 class="subtitulo">Dípticos murales: retratos de pueblos originarios en el espacio público</h2>
+
+
+
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
+
+<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
+<div class="mermaid">
+flowchart LR
+  %% Página: Representación del Mundo
+  %% Regla visual:
+  %% - Ruta activa (nodos tocados): ((redondos))
+  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
+
+  A((Representación del Mundo)) --> T([Lo Tangible])
+  A --> I((Lo Intangible))
+
+  I --> C([El Capitalismo])
+  I --> P([Lo Popular])
+  I --> AN((Imágenes de los Ancestros))
+
+  AN --> AN_M((Muralismo / Intervención pictórica))
+  AN --> AN_A([Acción / Foto-performance + Video])
+
+  AN_M --> MCA((Musoe a Cielo Abierto))
+
+  %% Links (ES/)
+  click A "/MPD/mundo-exterior.html" "Ir a Representación del Mundo"
+  click T "/MPD/tangible.html" "Ir a Lo Tangible"
+  click I "/MPD/intangible.html" "Ir a Lo Intangible"
+  click C "/MPD/en-construccion.html" "En construcción"
+  click P "/MPD/en-construccion.html" "En construcción"
+  click AN "/MPD/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+ 
+  click AN_A "/MPD/en-construccion.html" "En construcción"
+  click MCA "/MPD/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+</div>
+
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
+<!-- MUSOE A CIELO ABIERTO -->
+<!-- ===================== -->
+<h2 class="subtitulo" id="musoe">MUSOE A CIELO ABIERTO</h2>
+
+<section class="parrafo">
+  <p>
+    <strong>Musoe a Cielo Abierto</strong> es una serie de <strong>dípticos murales</strong> realizados en fachadas de edificios residenciales de tres plantas,
+    representando retratos de hombres y mujeres de culturas originarias: <strong>mapuche, aimara, rapa nui y selk'nam</strong>.
+    <br><br>
+    La serie fue ejecutada en <strong>La Florida, Santiago</strong> entre <strong>2018 y 2021</strong>. Consiste en <strong>cuatro dípticos murales</strong> de
+    <strong>8,0 × 6,0 metros</strong> cada uno, realizados con <strong>esmalte acrílico y barniz sobre ladrillo</strong>, en la <strong>Villa Alberto Larraguibel</strong>.
+    <br><br>
+    El nombre <em>Musoe</em> combina el pseudónimo que usé al graffitear en adolescencia (<em>Jusoe</em>) con la palabra <em>Museo</em>, dialogando con la tradición del
+    “museo a cielo abierto”. El formato díptico surge de la configuración del lugar: edificios construidos en parejas, lo que facilita una lectura polar y complementaria
+    (hombre/mujer; figura/símbolo; presencia/territorio).
+  </p>
+</section>
+
+<h3 class="subtitulo2" id="dipticos">DÍPTICOS MURALES (2018–2021)</h3>
+
+<section class="parrafo">
+  <p>
+    El retrato —históricamente asociado a distinción y honor— se utiliza aquí como estrategia de reconocimiento: ennoblecer la presencia visual de los pueblos originarios
+    en el espacio público, entendiendo que la imagen también es territorio y memoria. Cada díptico se emplaza para ser leído a distancia y en tránsito cotidiano.
+  </p>
+</section>
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
+<!-- 1) MAPUCHES -->
+<!-- ===================== -->
+<h4 class="subtitulo2" id="mapuches">1. MUSOE A CIELO ABIERTO 1 — AL Pueblo MAPUCHE (2018)</h4>
+
+<section class="parrafo">
+  <p>
+    <strong>Ubicación:</strong> Av. A. Vespucio 6566, La Florida.
+    <br>
+    <strong>Formato:</strong> Díptico mural, 8,0 × 6,0 m c/u.
+    <br>
+    <strong>Técnica:</strong> Esmalte acrílico y barniz sobre ladrillo.
+  </p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-003.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-001.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-002.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL PuebloMapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-004.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+      <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-006.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+      <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-007.jpg"
+         alt="Musoe a Cielo Abierto 1 - Mapuches (2018), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 1 — AL Pueblo Mapuche, díptico mural, 8,0 × 6,0 m c/u, 2018.</em></figcaption>
+  </figure>
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
+<!-- 2) AIMARAS -->
+<!-- ===================== -->
+<h4 class="subtitulo2" id="aimaras">2. MUSOE A CIELO ABIERTO 2 — AL Pueblo AIMARA (2019)</h4>
+
+<section class="parrafo">
+  <p>
+    <strong>Ubicación:</strong> Av. A. Vespucio 6460, La Florida.
+    <br>
+    <strong>Formato:</strong> Díptico mural, 8,0 × 6,0 m c/u.
+    <br>
+    <strong>Técnica:</strong> Esmalte acrílico y barniz sobre ladrillo.
+  </p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-02aimr-001.jpg"
+         alt="Musoe a Cielo Abierto 2 - Aimaras (2019), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 2 — Aimaras, díptico mural, 8,0 × 6,0 m c/u, 2019.</em></figcaption>
+  </figure>
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-02aimr-003.jpg"
+         alt="Musoe a Cielo Abierto 2 - Aimaras (2019), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 2 — Aimaras, díptico mural, 8,0 × 6,0 m c/u, 2019.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-02aimr-004.jpg"
+         alt="Musoe a Cielo Abierto 2 - Aimaras (2019), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 2 — Aimaras, díptico mural, 8,0 × 6,0 m c/u, 2019.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-02aimr-002.jpg"
+         alt="Musoe a Cielo Abierto 2 - Aimaras (2019), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 2 — Aimaras, díptico mural, 8,0 × 6,0 m c/u, 2019.</em></figcaption>
+  </figure>
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
+<!-- 3) RAPA NUI -->
+<!-- ===================== -->
+<h4 class="subtitulo2" id="rapa-nui">3. MUSOE A CIELO ABIERTO 3 — AL Pueblo RAPA NUI (2020)</h4>
+
+<section class="parrafo">
+  <p>
+    <strong>Ubicación:</strong> Av. El Parque 6486, La Florida.
+    <br>
+    <strong>Formato:</strong> Díptico mural, 8,0 × 6,0 m c/u.
+    <br>
+    <strong>Técnica:</strong> Esmalte acrílico y barniz sobre ladrillo.
+  </p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-001.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-002.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-003.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-004.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+     <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-006.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+     <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-005.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+     <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-03rpnui-007.jpg"
+         alt="Musoe a Cielo Abierto 3 - Rapa Nui (2020), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 3 — Rapa Nui, díptico mural, 8,0 × 6,0 m c/u, 2020.</em></figcaption>
+  </figure>
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- ===================== -->
+<!-- 4) SELK'NAM -->
+<!-- ===================== -->
+<h4 class="subtitulo2" id="selknam">4. MUSOE A CIELO ABIERTO 4 — AL Pueblo SELK'NAM (2021)</h4>
+
+<section class="parrafo">
+  <p>
+    <strong>Ubicación:</strong> Av. El Parque 6467, La Florida.
+    <br>
+    <strong>Formato:</strong> Díptico mural, 8,0 × 6,0 m c/u.
+    <br>
+    <strong>Técnica:</strong> Esmalte acrílico y barniz sobre ladrillo.
+    <br><br>
+    En 2021 se incorporó la tecnología <strong>Photio</strong> (aditivo nanotecnológico) en el díptico mural Selk'nam, con el objetivo de aportar una dimensión
+    ambiental al soporte mural (según información de fabricante).
+  </p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-001.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+   <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-002.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-006b.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-003.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-007.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-009.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-011.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+    <figure class="imagen-con-caption item--imagen">
+    <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-04slknm-012.jpg"
+         alt="Musoe a Cielo Abierto 4 - Selk'nam (2021), díptico mural"
+         loading="lazy">
+    <figcaption><em>Imágenes de los Ancestros / Musoe a Cielo Abierto 4 — Selk'nam, díptico mural, 8,0 × 6,0 m c/u, 2021.</em></figcaption>
+  </figure>
+
+</div>
+
+<hr class="separador separador--aire" />
+
+<!-- Navegación rápida interna (sin #top) -->
+<section class="parrafo">
+  <p>
+    <a href="#dipticos">Volver a Dípticos</a> ·
+    <a href="/MPD/imagenes-ancestros.html">Ir a Imágenes de los Ancestros</a>
+  </p>
+</section>
+
+<br>
+
+<!-- Botones -->
+<div class="button-container">
+
+  <a href="/MPD/musoe-a-cielo-abierto.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Imágenes de los Ancestros" loading="lazy">
+      <p class="title">Musoe a Cielo Abierto</p>
+      <p class="subtitle">Volver a la rama de obra.</p>
+    </div>
+  </a>
+
+  <a href="/MPD/mapuche-urbano.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Mapuche Urbano: La Tala de la Memoria" loading="lazy">
+      <p class="title">Mapuche Urbano</p>
+      <p class="subtitle">Acción / Foto-performance + Video.</p>
+    </div>
+  </a>
+
+</div>
+

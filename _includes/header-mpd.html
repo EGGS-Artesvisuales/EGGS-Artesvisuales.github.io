@@ -1,26 +1,123 @@
-<header id="top" role="banner">
-  <div class="header-container">
-    <div class="logo">
-      <a href="/MPD/index.html" aria-label="EGGS-Studio Mapudungun">
-        <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS-Studio">
-      </a>
-    </div>
+<!-- Header Image -->
+<div class="site-masthead" aria-label="EGGS-Studio">
+  <img src="/assets/img/eggs-logo-header-05.jpg" alt="EGGS-Studio" class="site-masthead__image">
+</div>
+
+<nav class="navbar" role="navigation" aria-label="Menu Mapudungun">
+  <div 
+    class="nav-toggle" 
+    id="nav-toggle"
+    role="button"
+    tabindex="0"
+    aria-expanded="false"
+    aria-controls="nav-menu"
+    aria-label="Abrir menú"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
   </div>
-</header>
 
-<nav class="main-nav" aria-label="Mapudungun navigation">
-  <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-menu">
-    <span></span><span></span><span></span>
-  </button>
+   <ul class="nav-menu" id="nav-menu" role="menu">
+    <li class="nav-logo" role="none">
+      <a href="/MPD/index.html" aria-label="Landing EGGS-studio">
+        <img src="/assets/img/EGGSLOGOindex1.png" alt="Logo" class="logo-menu">
+      </a>
+    </li>
+    <li role="none"><a href="/MPD/index.html" role="menuitem">Inicio</a></li>
 
-  <ul id="primary-menu" class="menu" role="menubar">
-    <li role="none"><a href="/MPD/index.html" role="menuitem">Mapudungun</a></li>
-    <li role="none"><a href="/ES/index.html" role="menuitem">Español</a></li>
-    <li role="none"><a href="/EN/index.html" role="menuitem">English</a></li>
-    <li class="nav-lang-switch" role="none" aria-label="Language switcher">
-      <a href="{{ page.es_url | default: '/ES/index.html' }}" role="menuitem" hreflang="es" lang="es" aria-label="Cambiar idioma a espanol">ES</a>
+    <li class="dropdown" role="none">
+      <a href="/MPD/mundo-exterior.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Representación del mundo</a>
+      <ul class="dropdown-menu" role="menu">
+        <li class="dropdown-sub" role="none">
+          <a href="/MPD/tangible.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Tangible</a>
+          <ul class="dropdown-menu-sub" role="menu">
+            <li role="none"><a href="/MPD/saturacion.html" role="menuitem">La Saturación</a></li>
+            <li role="none"><a href="/MPD/en-construccion.html" role="menuitem">La Tecnología</a></li>
+          </ul>
+        </li>
+        <li class="dropdown-sub" role="none">
+          <a href="/MPD/intangible.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Intangible</a>
+          <ul class="dropdown-menu-sub" role="menu">
+            <li role="none"><a href="/MPD/imagenes-capitalismo.html" role="menuitem">Imágenes del Capitalismo</a></li>
+            <li role="none"><a href="/MPD/imagenes-popular.html" role="menuitem">Imágenes de lo Popular</a></li>
+            <li role="none"><a href="/MPD/imagenes-ancestros.html" role="menuitem">Imágenes de l@s Ancestr@s</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+  <li class="dropdown" role="none">
+  <a href="/MPD/accion.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Acción en el mundo</a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-sub" role="none">
+      <a href="/MPD/comunitario.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Lo Comunitario</a>
+      <ul class="dropdown-menu-sub" role="menu">
+        <li role="none"><a href="/MPD/muralismo-facilitacion.html" role="menuitem">Muralismo colaborativo</a></li>
+        <li role="none"><a href="/MPD/muralismo-festivales.html" role="menuitem">Festivales</a></li>
+        <li role="none"><a href="/MPD/muralismo-museos-al-aire-libre.html" role="menuitem">Museos al aire libre</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown-sub" role="none">
+      <a href="/MPD/subrepticio.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Lo Subrepticio</a>
+      <ul class="dropdown-menu-sub" role="menu">
+        <li role="none"><a href="/MPD/en-construccion.html" role="menuitem">Graffiti</a></li>
+        <li role="none"><a href="/MPD/subrep-antipublicidad.html" role="menuitem">Antipublicidad</a></li>
+        <li role="none"><a href="/MPD/subrep-remiendas-urbanas.html" role="menuitem">Remiendas urbanas</a></li>
+      </ul>
+    </li>
+
+    <li role="none"><a href="/MPD/docencia.html" role="menuitem">Docencia</a></li>
+
+    <li class="dropdown-sub" role="none">
+      <a href="/MPD/servicios.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Servicios</a>
+      <ul class="dropdown-menu-sub" role="menu">
+        <li role="none"><a href="/MPD/servicios.html#restauracion" role="menuitem">Restauración</a></li>
+        <li role="none"><a href="/MPD/servicios.html#encargos" role="menuitem">Encargos</a></li>
+        <li role="none"><a href="/MPD/servicios.html#ambientacion" role="menuitem">Ambientación y montajes</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+
+    <li role="none"><a href="/MPD/interior.html" role="menuitem">Mundo interior</a></li>
+    <li role="none"><a href="/MPD/diagrama.html" role="menuitem">Diagrama de Obra</a></li>
+    <li role="none"><a href="/MPD/archivo.html" role="menuitem">Archivo</a></li>
+
+    <li class="dropdown">
+      <a href="/MPD/mecenas.html" aria-haspopup="true" aria-expanded="false">Colabora</a>
+      <ul class="dropdown-menu">
+        <li><a href="/MPD/musoe-a-cielo-abierto.html">¨Musoe¨ a cielo abierto</a></li>
+        <li><a href="/MPD/en-construccion.html">Remiendas urbanas</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="/MPD/en-construccion.html" aria-haspopup="true" aria-expanded="false">Tienda</a>
+      <ul class="dropdown-menu">
+         <li><a href="/MPD/en-construccion.html">Pieza única</a></li>
+         <li><a href="/MPD/en-construccion.html">Ediciones</a></li>
+        <li><a href="/MPD/en-construccion.html">Prints</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown" role="none">
+      <a href="/MPD/acerca.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Acerca de</a>
+      <ul class="dropdown-menu" role="menu">
+        <li role="none"><a href="/MPD/garnica.html" role="menuitem">Esteban Gárnica Sanchez</a></li>
+        <li role="none"><a href="/MPD/eggs.html" role="menuitem">EGGS-Prods & Art Spa</a></li>
+      </ul>
+    </li>
+
+    <li role="none"><a href="/MPD/contacto.html" role="menuitem">Contacto</a></li>
+    {% assign es_lang_url = page.es_url | default: page.url | replace_first: '/MPD/', '/ES/' %}
+    {% assign en_lang_url = page.en_url | default: site.data.language_switch[es_lang_url] | default: '/EN/index.html' %}
+    <li class="nav-lang-switch" role="none" aria-label="Selector de idioma">
+      <a href="{{ es_lang_url }}" role="menuitem" hreflang="es" lang="es" aria-label="Cambiar idioma a espanol">ES</a>
       <span class="lang-separator" aria-hidden="true">/</span>
-      <a href="{{ page.en_url | default: '/EN/index.html' }}" role="menuitem" hreflang="en" lang="en" aria-label="Switch language to English">EN</a>
+      <a href="{{ en_lang_url }}" role="menuitem" hreflang="en" lang="en" aria-label="Switch language to English">EN</a>
       <span class="lang-separator" aria-hidden="true">/</span>
       <span class="lang-current" aria-current="true">MPD</span>
     </li>

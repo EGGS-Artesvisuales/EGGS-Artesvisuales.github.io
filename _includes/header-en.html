@@ -114,7 +114,7 @@
 
     <li role="none"><a href="/EN/contact.html" role="menuitem">Contact</a></li>
     {% assign alternate_lang_url = site.data.language_switch[page.url] | default: '/ES/index.html' %}
-    {% assign mpd_lang_url = page.mpd_url | default: '/MPD/index.html' %}
+    {% assign mpd_lang_url = page.mpd_url | default: alternate_lang_url | replace_first: '/ES/', '/MPD/' %}
     <li class="nav-lang-switch" role="none" aria-label="Language switcher">
       <a href="{{ alternate_lang_url }}" role="menuitem" hreflang="es" lang="es" aria-label="Switch language to Spanish">ES</a>
       <span class="lang-separator" aria-hidden="true">/</span>

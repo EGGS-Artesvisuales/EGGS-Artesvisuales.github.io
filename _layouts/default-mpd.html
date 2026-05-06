@@ -23,7 +23,20 @@
   <meta property="og:locale" content="arn_CL">
   <meta property="og:site_name" content="EGGS-Studio">
 
+  {% if page.carousel %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  {% endif %}
+
   <link rel="stylesheet" href="/assets/css/style.css">
+  {% if page.carousel %}
+    <link rel="stylesheet" href="/assets/css/carousel.css">
+  {% endif %}
+
+  {% if page.mermaid %}
+    <script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script defer src="/assets/js/mermaid-init.js"></script>
+  {% endif %}
 </head>
 
 <body>
@@ -36,6 +49,13 @@
   {% include footer-mpd.html %}
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  {% if page.carousel %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/assets/js/carousel-init.js"></script>
+  {% endif %}
+  {% if page.progreso %}
+    <script src="/assets/js/progreso.js" defer></script>
+  {% endif %}
   <script src="/assets/js/menu.js" defer></script>
 </body>
 </html>
