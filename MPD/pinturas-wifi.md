@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Wi-Fi Pinturas – Serie de Pengekenon (Fentepun) de Esteban Garnica"
-description: "Esteban Garnica ñi pinturas ñi rakizuam pengekenon contaminación mew: señal, onda ka teknologia fentepun."
+title: "Wi-Fi Pinturas – Esteban Garnica ñi Pengekenon trokiñ"
+description: "Esteban Garnica ñi pintura ñi rakizuam pengekenon kutxan mew: señal, onda ka teknologia fentepun."
 permalink: /MPD/pinturas-wifi.html
-keywords: "Fentepun, Pengekenon, Wi-Fi Pinturas, contaminación invisible, electromagnetismo, polución lumínica, polución acústica, arte contemporáneo, arte chileno, Esteban Garnica, EGGS-Studio"
+keywords: "Fentepun, Pengekenon, Wi-Fi Pinturas, pengekenon kutxan, electromagnetismo, kütral polución, sonido polución, fachi antü az-küdaw, az-küdaw chileno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 carousel: true
 ---
@@ -19,11 +19,11 @@ carousel: true
 
 <figure class="az-con-caption az-con-caption-70">
   <img src="/assets/img/lo-invisible-pintura-wifi-04.jpg"
-       alt="Pintura Wi-Fi n.º 4. De la serie Fentepun / Pengekenon"
+       alt="Wi-Fi Pintura n.º 4. Fentepun / Pengekenon trokiñ"
        loading="lazy">
   <figcaption>
     Wallmapu ñi azentun / Kalül mew / Fentepun / Pengekenon / Wi-Fi Pinturas, n.º 4.
-    Óleo sobre tabla, EGGS, 2020.
+    Óleo tabla mew, EGGS, 2020.
   </figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ carousel: true
   püle: ansiedad, hiperalerta, percepción fatigue kam realidad ñi nitidez ka estabilidad ñamün.
 </p>
 
-<h3 class="subtitulo2">Pintar lo analógico con lógica digital</h3>
+<h3 class="subtitulo2">Analógico pintura, digital rakizuam egu</h3>
 
 <p class="parrafo">
   Formalmente, <strong>Wi-Fi Pinturas</strong> amulniey híbrido operación: kuifi pintura técnica
@@ -77,7 +77,7 @@ carousel: true
   müley kimün acuerdo, fachi antü teknologia ñi wiñol programangen mew?
 </p>
 
-<h3 class="subtitulo2">Experiencia del espectador: desconcierto, curiosidad, alerta</h3>
+<h3 class="subtitulo2">Adkintufe ñi experiencia: ramtun, kintun, alerta</h3>
 
 <p class="parrafo">
   Distorsión eluy epu txoy püllü respuesta: kiñe püle mew, katrüntun ñi ayün; kake püle mew,
@@ -90,7 +90,7 @@ carousel: true
 <div class="mermaid">
 graph LR
   A((Wallmapu ñi azentun)) --> B((Kalül mew))
-  A --> B2([Lo Püllü mew])
+  A --> B2([Püllü mew])
 
   B --> C((Fentepun))
   B --> C2([Teknologia])
@@ -99,7 +99,7 @@ graph LR
   C --> D2([Kutxan])
 
   D --> E((Wi-Fi Pinturas))
-  D --> F([Desplazamientos])
+  D --> F([Pintura ñi fentepun])
 
   %% Hijos de Wi-Fi Pinturas (categorías dentro de esta página)
   E --> E1([Mapu az])
@@ -109,13 +109,13 @@ graph LR
   %% Clicks (todos clickeables)
   click A "/MPD/mundo-exterior.html" "Adkintun: Wallmapu ñi azentun"
   click B "/MPD/tangible.html" "Adkintun: Kalül mew"
-  click B2 "/MPD/intangible.html" "Adkintun: Lo Püllü mew"
+  click B2 "/MPD/intangible.html" "Adkintun: Püllü mew"
   click C "/MPD/saturacion.html" "Adkintun: Fentepun"
   click C2 "/MPD/en-construccion.html" "Adkintun: Teknologia"
   click D "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
   click D2 "/MPD/la-peste.html" "Adkintun: Kutxan"
   click E "/MPD/pinturas-wifi.html" "Adkintun: Wi-Fi Pinturas"
-  click F "/MPD/en-construccion.html" "Adkintun: Desplazamientos de la pintura"
+  click F "/MPD/en-construccion.html" "Adkintun: Pintura ñi fentepun"
 
   %% Enlaces a secciones internas (anclas) para coherencia con las 3 categorías
   click E1 "#paisajes" "Adkintun: Mapu az (Wi-Fi Pinturas)"

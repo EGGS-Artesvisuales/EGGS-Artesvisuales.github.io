@@ -4,7 +4,7 @@ lang: arn
 title: "Kellun – EGGS-Studio"
 description: "Esteban Garnica ñi kellun: muralismo, küme dewün, az-küdaw diseño, lof taller ka kimün küdaw."
 permalink: /MPD/servicios.html
-keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de arte, producción cultural, diseño az-küdaw, Esteban Garnica, EGGS-Studio"
+keywords: "az-küdaw kellun, muralismo, küme dewün az-küdaw, az-küdaw taller, kimün dewman, diseño az-küdaw, Esteban Garnica, EGGS-Studio"
 ---
 
 <h1 class="titulo">Kellun</h1>
@@ -22,10 +22,10 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
 <h2 class="subtitulo">Trokiñ</h2>
 <br>
 
-<!-- Sección de Categorías con fancy buttons -->
+<!-- Trokiñ botones -->
 <div class="button-container">
 
-  <!-- Botón: Küme dewün -->
+  <!-- Küme dewün ñi botón -->
   <a href="#restauracion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/restauracion-boton.webp" alt="Küme dewün" loading="lazy">
@@ -34,19 +34,19 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
     </div>
   </a>
 
-  <!-- Botón: Küdaw ngütram y Encomiendas de Küdaw de Az-küdaw -->
+  <!-- Küdaw ngütram ñi botón -->
   <a href="#encargos" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/encargos-boton.webp" alt="Küdaw ngütram y Encomiendas" loading="lazy">
+      <img src="/assets/img/encargos-boton.webp" alt="Küdaw ngütram" loading="lazy">
       <p class="title">Küdaw ngütram</p>
       <p class="subtitle">Pintura ka mural tami zugu mew.</p>
     </div>
   </a>
 
-  <!-- Botón: Ambientación e Instalación de Az-küdaw y Montajes -->
+  <!-- Püle dewman ka montaje ñi botón -->
   <a href="#ambientacion" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
+      <img src="/assets/img/instalacion-boton.webp" alt="Püle dewman ka montaje" loading="lazy">
       <p class="title">Püle dewman &amp; Montaje</p>
       <p class="subtitle">Azentun instalación ka püle akumtun.</p>
     </div>
@@ -58,7 +58,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
 
 <section id="restauracion" class="service-section">
   <div class="service-media">
-    <img src="/assets/img/restauracion-boton.webp" alt="Detalle azentun del servicio de restauración" loading="lazy">
+    <img src="/assets/img/restauracion-boton.webp" alt="Küme dewün kellun ñi detalle azentun" loading="lazy">
   </div>
   <div class="service-copy">
     <h2 class="subtitulo">Küme dewün ka inakintun</h2>
@@ -75,7 +75,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
 
 <section id="encargos" class="service-section">
   <div class="service-media">
-    <img src="/assets/img/encargos-boton.webp" alt="Küdaw por encargo y murales personalizados" loading="lazy">
+    <img src="/assets/img/encargos-boton.webp" alt="Küdaw ngütram ka mural" loading="lazy">
   </div>
   <div class="service-copy">
     <h2 class="subtitulo">Küdaw ngütram</h2>
@@ -83,7 +83,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
       Pintura, mural ka azentun koneltun dewman, wünen rakizuam mew tripay ka afpun küdaw mew akuy.
     </p>
     <ul class="service-list">
-      <li>Boceto, color, escala, soporte ka producción txipantu rüpü.</li>
+      <li>Boceto, color, escala, soporte ka dewman txipantu rüpü.</li>
       <li>Küdaw ruka, oficina, local, organización ka institución mew.</li>
       <li>Archivo, mapu az che, familia kimün kuifi ka marca nütram txawün.</li>
     </ul>
@@ -92,7 +92,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
 
 <section id="ambientacion" class="service-section">
   <div class="service-media">
-    <img src="/assets/img/instalacion-boton.webp" alt="Ambientación az-küdaw, montaje e instalación de obra" loading="lazy">
+    <img src="/assets/img/instalacion-boton.webp" alt="Az-küdaw ambientación, montaje ka instalación" loading="lazy">
   </div>
   <div class="service-copy">
     <h2 class="subtitulo">Montaje ka püle dewman</h2>
@@ -102,7 +102,7 @@ keywords: "servicios az-küdaws, muralismo, restauración de arte, talleres de a
     <ul class="service-list">
       <li>Küdaw montaje, az-küdaw ambientación ka püle composición.</li>
       <li>Rüpü diseño, azentun kellun, señalética pichi ka exhibición solución.</li>
-      <li>Muestra, lof actividad, feria, taller ka especial küdaw producción.</li>
+      <li>Muestra, lof actividad, feria, taller ka especial küdaw dewman.</li>
     </ul>
   </div>
 </section>

@@ -4,7 +4,7 @@ lang: arn
 title: "Fentepun – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw trokiñ ñi kintun azentun, simbólico ka wallmapu fentepun fachi antü mew."
 permalink: /MPD/saturacion.html
-keywords: "Saturación, arte contemporáneo, saturación azentun, saturación simbólica, contaminación azentun, pintura expandida, Esteban Garnica, EGGS-Studio"
+keywords: "Fentepun, fachi antü az-küdaw, azentun fentepun, simbólico fentepun, azentun kutxan, pintura ñi fentepun, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -13,8 +13,8 @@ mermaid: true
 <h3 class="subtitulo2">Iñchiñ ñi época ñi kutxan az</h3>
 <br>
 <figure class="az-con-caption">
-  <img src="/assets/img/desp-domestico-hbt-coci-001.jpg" alt="Fentepun - Manifestación del Exceso" loading="lazy">
-  <figcaption>Fentepun / Kutxan / Desplazamiento de la pintura: Püles Ruka mews, cocina cubierta, 2009.</figcaption>
+  <img src="/assets/img/desp-domestico-hbt-coci-001.jpg" alt="Fentepun ñi az" loading="lazy">
+  <figcaption>Fentepun / Kutxan / Pintura ñi fentepun: Püles Ruka mews, cocina cubierta, 2009.</figcaption>
 </figure>
 
 <br><br><br>
@@ -40,7 +40,7 @@ flowchart LR
   LP([Kutxan])
   LI([Pengekenon])
   P([Kutxan Pinturas])
-  DP([Desplazamiento de la Pintura])
+  DP([Pintura ñi fentepun])
   PL([Wi-Fi Pinturas])
 
   RM --> LT
@@ -59,8 +59,8 @@ flowchart LR
   click LP "/MPD/la-peste.html" "Amun: Kutxan"
   click LI "/MPD/lo-invisible.html" "Amun: Pengekenon"
   click P "/MPD/peste-pinturas-infectadas.html" "Amun: Kutxan Pinturas"
-  click DP "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
-  click PL "/MPD/pinturas-wifi.html" "Amun: Pinturas wi fi"
+  click DP "/MPD/desplazamiento-pintura.html" "Amun: Pintura ñi fentepun"
+  click PL "/MPD/pinturas-wifi.html" "Amun: Wi-Fi Pinturas"
 </div>
 
 <br><br>
@@ -69,7 +69,7 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste---pintura01.jpg" alt="Fentepun - Kutxan" loading="lazy">
-  <figcaption>Fentepun / Kutxan / Pintura: pintura infectada n°1, EGGS 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Pintura: kutxan pintura n°1, EGGS 2008</figcaption>
 </figure>
 
 <br><br>
@@ -90,7 +90,7 @@ flowchart LR
 
 <figure class="az-con-caption">
   <img src="/assets/img/lo-invisible-pintura-wifi-04-001.jpg" alt="Fentepun - Pengekenon" loading="lazy">
-  <figcaption>Fentepun / Pengekenon / Pintura / Serie Wi-Fi / Paisaje n°4, EGGS 2020</figcaption>
+  <figcaption>Fentepun / Pengekenon / Pintura / Wi-Fi trokiñ / Mapu az n°4, EGGS 2020</figcaption>
 </figure>
 
 <br><br>

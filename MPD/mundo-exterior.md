@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Wallmapu ñi azentun – Serie de obras de Esteban Garnica"
+title: "Wallmapu ñi azentun – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw: wallmapu ñi azentun, crítica adkintun, az ka fachi antü rakizuam mew."
 permalink: /MPD/mundo-exterior.html
-keywords: "Wallmapu ñi azentun, wallmapu exterior, arte contemporáneo, paisaje simbólico, lectura azentun del entorno, Esteban Garnica, EGGS-Studio"
+keywords: "Wallmapu ñi azentun, wallmapu exterior, fachi antü az-küdaw, simbólico mapu az, entorno ñi azentun lectura, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -13,7 +13,7 @@ mermaid: true
 <br>
 <div class="mermaid">
 flowchart LR
-  principal((Actividad Artística))
+  principal((Az-küdaw küdaw))
   representacion(("Wallmapu ñi azentun"))
   accion(["Mapu mew Küdaw"])
   interior(["Püle rakizuam"])
@@ -23,12 +23,12 @@ flowchart LR
   principal --> interior
 
   representacion --> tangible(["Kalül mew"])
-  representacion --> intangible(["Lo Püllü mew"])
+  representacion --> intangible(["Püllü mew"])
 
-  click principal "/MPD/index.html" "Ir al Wünen"
+  click principal "/MPD/index.html" "Amun: Wünen"
   click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
   click tangible "/MPD/tangible.html" "Amun: Kalül mew"
-  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click intangible "/MPD/intangible.html" "Amun: Püllü mew"
   click accion "/MPD/accion.html" "Amun: Mapu mew Küdaw"
   click interior "/MPD/interior.html" "Amun: Püle rakizuam"
 </div>
@@ -71,7 +71,7 @@ flowchart LR
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(("Kalül mew"))
-  intangible(["Lo Püllü mew"])
+  intangible(["Püllü mew"])
 
   representacion --> tangible
   representacion --> intangible
@@ -83,7 +83,7 @@ flowchart LR
   click tangible "/MPD/tangible.html" "Amun: Kalül mew"
   click saturacion "/MPD/saturacion.html" "Amun: Fentepun"
   click tecnologia "/MPD/en-construccion.html" "Amun: Teknologia"
-  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click intangible "/MPD/intangible.html" "Amun: Püllü mew"
 </div>
 <br>
 
@@ -110,7 +110,7 @@ flowchart LR
 
 <p class="parrafo">
   Epu rüpü mew pintura müley wünen dungun. Welu küdaw amuley epu txoy mew:
-  <strong>pinturas</strong> ka <strong>pintura ñi desplazamiento</strong>. Fey mew
+  <strong>pintura</strong> ka <strong>pintura ñi fentepun</strong>. Fey mew
   pintura zugu fütalngey híbrido formato, mixto medio ka fachi antü koneltun
   mew. Fachi azmogen kellukey kiñe kintukimün nor ka ngüñü: pintura folil reke,
   afpun reke gelay.
@@ -139,26 +139,26 @@ flowchart LR
 
 <hr class="separador separador--medio" />
 
-<h2 class="subtitulo">Lo Püllü mew</h2>
+<h2 class="subtitulo">Püllü mew</h2>
 
 <div class="mermaid">
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(["Kalül mew"])
-  intangible(("Lo Püllü mew"))
+  intangible(("Püllü mew"))
 
   representacion --> tangible
   representacion --> intangible
 
   intangible --> capitalismo(["Capitalismo ñi pu az"])
-  intangible --> ancestros(["Pu az de los Ancestros"])
+  intangible --> ancestros(["Kuifikeche ñi pu az"])
   intangible --> popular(["Pu che ñi pu az"])
 
   click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
   click tangible "/MPD/tangible.html" "Amun: Kalül mew"
-  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click intangible "/MPD/intangible.html" "Amun: Püllü mew"
   click capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
-  click ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
+  click ancestros "/MPD/imagenes-ancestros.html" "Amun: Kuifikeche ñi pu az"
   click popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
 </div>
 
@@ -197,8 +197,8 @@ flowchart LR
 
   <a href="/MPD/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros">
-      <p class="title">Pu az de los Ancestros</p>
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Kuifikeche ñi pu az">
+      <p class="title">Kuifikeche ñi pu az</p>
       <p class="subtitle">Kimün kuifi, folil ka eluwün egu trawün.</p>
     </div>
   </a>
