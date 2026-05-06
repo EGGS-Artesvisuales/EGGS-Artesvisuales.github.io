@@ -20,7 +20,7 @@ flowchart LR
 
   C --> C1([Lof mew])
   C --> C2([Ellka küdaw])
-  C --> C3([Kimeltun ka Talleres])
+  C --> C3([Kimeltun ka pu taller])
   C --> C4([Kellun])
 
   %% Clicks (todos los nodos clickeables)
@@ -31,7 +31,7 @@ flowchart LR
 
   click C1 "/MPD/comunitario.html" "Amun: Lof mew"
   click C2 "/MPD/subrepticio.html" "Amun: Ellka küdaw"
-  click C3 "/MPD/docencia.html" "Amun: Kimeltun ka Talleres"
+  click C3 "/MPD/docencia.html" "Amun: Kimeltun ka pu taller"
   click C4 "/MPD/servicios.html" "Amun: Kellun"
 </div>
 
@@ -73,8 +73,8 @@ flowchart LR
 
     <a href="/MPD/docencia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-docencia.webp" alt="Kimeltun ka Talleres" loading="lazy">
-            <p class="title">Kimeltun ka Talleres</p>
+            <img src="/assets/img/boton-docencia.webp" alt="Kimeltun ka pu taller" loading="lazy">
+            <p class="title">Kimeltun ka pu taller</p>
             <p class="subtitle">Kimün, taller ka dewman rüpü ñi trawün.</p>
         </div>
     </a>

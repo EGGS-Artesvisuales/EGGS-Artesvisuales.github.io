@@ -4,7 +4,7 @@ lang: arn
 title: "Püllü mew – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw trokiñ: pengekenon, püllü zugu ka azentun newen fachi antü mew."
 permalink: /MPD/intangible.html
-keywords: "Lo Püllü mew, arte contemporáneo, pintura expandida, simbolismo, espiritualidad, estética de lo invisible, Esteban Garnica, EGGS-Studio"
+keywords: "Püllü mew, fachi antü az-küdaw, pintura ñi fentepun, simbolismo, püllü dungu, pengekenon ñi az, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -31,18 +31,18 @@ mermaid: true
 graph LR
     Representacion(("Wallmapu ñi azentun"))
     Representacion --> Kalül mew(["Kalül mew"])
-    Representacion --> Püllü mew(("Lo Püllü mew"))
+    Representacion --> Püllü mew(("Püllü mew"))
 
     Püllü mew --> Capitalismo(["Capitalismo ñi pu az"])
     Püllü mew --> Popular(["Pu che ñi pu az"])
-    Püllü mew --> Ancestros(["Pu az de los Ancestros"])
+    Püllü mew --> Ancestros(["Kuifikeche ñi pu az"])
 
     click Representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
     click Kalül mew "/MPD/tangible.html" "Amun: Kalül mew"
-    click Püllü mew "/MPD/intangible.html" "Amun: Lo Püllü mew"
+    click Püllü mew "/MPD/intangible.html" "Amun: Püllü mew"
     click Capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
     click Popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
-    click Ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
+    click Ancestros "/MPD/imagenes-ancestros.html" "Amun: Kuifikeche ñi pu az"
 </div>
 
 <br>
@@ -67,8 +67,8 @@ graph LR
 
   <a href="/MPD/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros" loading="lazy">
-      <p class="title">Pu az de los Ancestros</p>
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Kuifikeche ñi pu az" loading="lazy">
+      <p class="title">Kuifikeche ñi pu az</p>
       <p class="subtitle">Kimün kuifi, admapu ka folil egu nütram.</p>
     </div>
   </a>

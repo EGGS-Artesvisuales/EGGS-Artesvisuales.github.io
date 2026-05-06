@@ -1,16 +1,16 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Kalül mew – Serie de obras de Esteban Garnica"
+title: "Kalül mew – Esteban Garnica ñi küdaw trokiñ"
 description: "Esteban Garnica ñi küdaw trokiñ: chemkün, kalül ka fachi antü ñi püle az-küdaw mew."
 permalink: /MPD/tangible.html
-keywords: "Kalül mew, materialidad, arte contemporáneo, objeto az-küdaw, presencia física, pintura expandida, Esteban Garnica, EGGS-Studio"
+keywords: "Kalül mew, materialidad, fachi antü az-küdaw, objeto az-küdaw, kalül mew mülen, pintura ñi fentepun, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
 <h1 class="titulo">Kalül mew</h1>
 
-<h2 class="subtitulo">Wallmapu ñi azentun material</h2>
+<h2 class="subtitulo">Wallmapu ñi kalül azentun</h2>
 
 <div class="mermaid">
 flowchart LR
@@ -43,7 +43,7 @@ flowchart LR
 <ul class="parrafo">
     <li>Waria kam itrofill mogen mew mülelu ñi küme felen.</li>
     <li>Fill antü kimün rüpü mew ñi newen.</li>
-    <li>We dungu: fachi antü ñi chemkün, kuifi mew mülelafuy.</li>
+    <li>We dungu: fachi antü ñi chemkün, kuifi mew mülelafuy chi.</li>
     <li>Azentun newen ñi kimelal akumtun ka tensión fachi zugu mew.</li>
 </ul>
 
@@ -60,7 +60,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
             <p class="title">Fentepun</p>
-            <p class="subtitle">Kutxan, fentepun ka capitalismo producción.</p>
+            <p class="subtitle">Kutxan, fentepun ka capitalismo ñi dewman.</p>
         </div>
     </a>
 

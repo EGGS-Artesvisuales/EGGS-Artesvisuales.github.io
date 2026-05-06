@@ -13,7 +13,7 @@ permalink: /MPD/acerca.html
 <p class="parrafo" style="margin-top:6%;">
   <strong>EGGS-Studio</strong> müley kiñe püle dewman, azentun ka küdaw mew. Esteban
   Gárnica S. faw amulniey küdaw ñi txawün az-küdaw, oficio ka kelluwün pu che
-  ka lof egu. <strong>E.GG.S – Producciones y Art SpA</strong> (RUT 77.973.201-0)
+  ka lof egu. <strong>E.GG.S – Producciones &amp; Art SpA</strong> (RUT 77.973.201-0)
   mew müley muralismo, küme dewün, kimeltun, montaje ka kimün küdaw.
   Ñi rakizuam: kimche, küme ka püchike rüpü elun; az-küdaw mew kellun
   pu püle, pu trawün ka iñche ñi kintun.
@@ -37,7 +37,7 @@ permalink: /MPD/acerca.html
 <h3 class="subtitulo2">E.GG.S – Producciones &amp; Art SpA</h3>
 <p class="parrafo">
   E.GG.S tripay ñi elun azmogen profesional kiñe küdaw ñi amulen mew.
-  Fey mew amulniey muralismo, küme dewün, püle akumtun, az-küdaw producción
+  Fey mew amulniey muralismo, küme dewün, püle akumtun, az-küdaw dewman
   ka azentun solución pu institución, pu lof ka kimeltun küdaw mew.
   Iñchiñ ñi zugu: nor, küme ka responsable kellun; kiñeke püle yamuwün,
   az-küdaw ñi feleal feychi che mew püchi, nülaley ka zugu niey.
@@ -47,24 +47,24 @@ permalink: /MPD/acerca.html
 
 
 
-<!-- Botones Fancy para conocer más -->
+<!-- Doy dungu adkintual botones -->
 <div class="button-container">
-  <!-- Botón para Esteban Garnica -->
+  <!-- Esteban Garnica ñi botón -->
   <a href="/MPD/garnica.html" class="fancy-button">
     <div class="button-content">
-      <!-- Az representativa para Esteban Garnica -->
+      <!-- Esteban Garnica ñi az -->
       <img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica" loading="lazy">
       <p class="title">Esteban Garnica S.</p>
       <p class="subtitle">Esteban Garnica Sánchez ñi dungu adkintun</p>
     </div>
   </a>
 
-  <!-- Botón para EGGS -->
+  <!-- EGGS ñi botón -->
   <a href="/MPD/eggs.html" class="fancy-button">
     <div class="button-content">
-      <!-- Az representativa para EGGS -->
-      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="EGGS - Producciones y Art SpA" loading="lazy">
-      <p class="title">EGGS - prods. y art spa</p>
+      <!-- EGGS ñi az -->
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="EGGS - Producciones & Art SpA" loading="lazy">
+      <p class="title">EGGS - Prods. &amp; Art SpA</p>
       <p class="subtitle">E.GG.S - Producciones &amp; Art SpA ñi dungu adkintun</p>
     </div>
   </a>

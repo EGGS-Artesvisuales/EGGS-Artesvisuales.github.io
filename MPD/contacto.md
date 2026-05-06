@@ -2,7 +2,7 @@
 layout: default-mpd
 title: "Nütram – EGGS-Studio"
 description: "Nütramkawün Esteban Garnica ka EGGS-Studio mew: az-küdaw, muralismo, küme dewün, kimeltun ka kelluwün."
-keywords: "contacto EGGS-Studio, Esteban Garnica, muralismo, restauración de arte, küdaw az-küdaws, kelluwün, arte en Chile"
+keywords: "nütram EGGS-Studio, Esteban Garnica, muralismo, küme dewün az-küdaw, az-küdaw küdaw, kelluwün, az-küdaw Chile"
 permalink: /MPD/contacto.html
 ---
 
@@ -18,7 +18,7 @@ permalink: /MPD/contacto.html
       action="https://formsubmit.co/e.garnicasanchez@gmail.com"
       method="POST">
 
-  <!-- Campos del formulario -->
+  <!-- Formulario ñi campos -->
   <label for="name">Üy:</label>
   <input type="text" id="name" name="name" required placeholder="Tami üy">
 
@@ -28,10 +28,10 @@ permalink: /MPD/contacto.html
   <label for="message">Nütram:</label>
   <textarea id="message" name="message" rows="5" required placeholder="Faw wirintuku tami nütram"></textarea>
 
-  <!-- Botón de envío -->
+  <!-- Werkün botón -->
   <button type="submit">Werkün</button>
 
-  <!-- Configuración adicional opcional -->
+  <!-- Kake configuración -->
   <input type="hidden" name="_next" value="https://eggs-studio.cl/MPD/gracias.html">
   <input type="hidden" name="_captcha" value="false">
 </form>
