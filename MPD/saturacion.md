@@ -1,16 +1,16 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Saturación – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que investigan la saturación azentun, simbólica y ambiental en el arte contemporáneo."
+title: "Fentepun – Esteban Garnica ñi küdaw trokiñ"
+description: "Esteban Garnica ñi küdaw trokiñ ñi kintun azentun, simbólico ka wallmapu fentepun fachi antü mew."
 permalink: /MPD/saturacion.html
 keywords: "Saturación, arte contemporáneo, saturación azentun, saturación simbólica, contaminación azentun, pintura expandida, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
 <h1 class="titulo">Fentepun</h1>
-<h2 class="subtitulo">Wallmapu ñi azentun/ Kalül mew/ Fentepun del wallmapu moderno</h2>
-<h3 class="subtitulo2">Síntoma de nuestra época</h3>
+<h2 class="subtitulo">Wallmapu ñi azentun / Kalül mew / Fachi antü ñi Fentepun</h2>
+<h3 class="subtitulo2">Iñchiñ ñi época ñi kutxan az</h3>
 <br>
 <figure class="az-con-caption">
   <img src="/assets/img/desp-domestico-hbt-coci-001.jpg" alt="Fentepun - Manifestación del Exceso" loading="lazy">
@@ -20,13 +20,13 @@ mermaid: true
 <br><br><br>
 
 <p class="parrafo">
-  <strong>«Fentepun»</strong> se presenta como una condición distintiva de nuestra época, trascendiendo lo material para abarcar dimensiones culturales y perceptivas. Engloba tanto la sobresaturación sensorial como las consecuencias del consumo excesivo, evidenciando la pérdida de püles de contemplación y el aumento de la desigualdad, la alienación y la crisis ecológica. Esta propuesta investiga ese paisaje contaminado, revelando una <strong>«violencia lenta e invisible»</strong> que corroe el entorno y la vida cotidiana. Así, la saturación se erige como un rasgo esencial del retrato contemporáneo.
+  <strong>«Fentepun»</strong> müley fachi antü ñi küme kimfalchi condición. Chemkün mew müten mülelelay; koni kimün, kalül adkintun ka percepción mew. Txawüley doy fentepun estímulo, consumo ñi excesso, püle rakizuam ñi ñamün, desigualdad, alienación ka itrofill mogen ñi crisis. Fachi propuesta kintuy kutxan mapu az, nülakey <strong>«ñochi ka pengekenon violencia»</strong> ñi wall püle ka fill antü mogen ñi korroer.
 </p>
 <p class="parrafo">
-  Vinculada al <em>horror vacui</em>, la saturación se despliega en múltiples estratos —sensibles, culturales, ambientales— fragmentando la atención y la memoria colectiva. Esta condición da origen a dos grandes series: <em>Kutxan</em> y <em>Pengekenon</em>. La primera aborda la acumulación de residuos visibles y su impacto ecológico; la segunda examina fenómenos imperceptibles pero invasivos, como la contaminación radioelectromagnética, los olores y otras manifestaciones químicas o energéticas.
+  <em>horror vacui</em> egu txawün mew, fentepun amuley fentren capa mew —kalül kimün, kimün, wallmapu— ka fragmentakey adkintun ka kom che kimün kuifi. Fachi condición tripalkey epu fütra trokiñ: <em>Kutxan</em> ka <em>Pengekenon</em>. Wünen adkintuy pengechi residuo ñi txawün ka itrofill mogen mew ñi konün; epu adkintuy pengekenon welu koneltuchi fenómeno: radioelectromagnética contaminación, küme/kütral nümün ka química kam energía dungu.
 </p>
 <p class="parrafo">
-  Ambas rutas buscan capturar los rasgos indispensables de la época desde una perspectiva expandida de la pintura, no para romper deliberadamente con la tradición, sino para continuarla mediante nuevos soportes, tecnologías y filosofías que amplían su alcance conceptual.
+  Epu rüpü kintuyn fachi época ñi mülechi az, fütralkülechi pintura rakizuam mew. Tradición katrütual gelay; amulnieal ngey we soporte, teknologia ka filosofía mew, fey ñi concepto alcance fütalngeal.
 </p>
 
 <br><br>
@@ -75,13 +75,13 @@ flowchart LR
 <br><br>
 
 <p class="parrafo">
-  En esta serie se aborda la saturación en su dimensión ecológica: la polución, los residuos plásticos, el calentamiento global y el deterioro del paisaje. La acumulación de desechos transforma ciudades en vertederos simbólicos, dejando una huella irreversible. Desde la pintura, exploro la idea de contaminación como enfermedad planetaria, estableciendo una analogía entre la erosión del paisaje y la degradación de la piel en enfermedades virales, bacterianas o fúngicas.
+  Fachi trokiñ mew fentepun adkintugey itrofill mogen txoy mew: polución, plástico residuo, global aretun ka mapu az ñi deterioration. Desecho txawün akumtuy waria vertedero simbólico mew, wiñolgenon rastro eluy. Pintura mew kintun contaminación planeta kutxan reke, mapu az ñi erosión ka kalül trawa ñi degradación kutxan viral, bacteriana kam fúngica mew.
 </p>
 <p class="parrafo">
-  Inspirada en la hipótesis Gaia de James Lovelock, <strong>Kutxan</strong> concibe la Tierra como un organismo vivo saturado y enfermo por la presión antropogénica. Este enfoque dialoga con la advertencia de Rachel Carson sobre el deterioro ambiental y subraya la urgencia de asumir colectivamente nuestra responsabilidad. La obra evidencia cómo la contaminación corroe lo que alguna vez fue puro, estableciendo un paralelismo con la invasión de otros agentes tóxicos —como la publicidad— que afectan tanto al cuerpo como a la mente.
+  James Lovelock ñi Gaia hipótesis mew, <strong>Kutxan</strong> adkintuy Mapu kiñe mogen organismo reke, fentepun ka kutxan antropogénica presión mew. Fachi rakizuam nütramkey Rachel Carson ñi advertencia wallmapu deterioration mew ka kimelkey kom che ñi responsabilidad ñi urgencia. Küdaw kimelkey chumgechi contaminación korroerkey feychi kuifi küme/puro dungu, ka tóxico agente —publicidad reke— ñi konün kalül ka rakizuam mew.
 </p>
 <p class="parrafo">
-  <strong>Concepto:</strong> Representar la degradación del wallmapu físico, mostrando cómo el paisaje —tradicionalmente símbolo de pureza en la pintura al óleo— queda impregnado por elementos corrosivos propios de nuestra época.
+  <strong>Rakizuam:</strong> Kalül wallmapu ñi degradación azentun, kimelal chumgechi mapu az —óleo pintura mew kuifi pureza símbolo— konkey fachi época ñi corrosivo chemkün mew.
 </p>
 
 <br><br><br>
@@ -96,16 +96,16 @@ flowchart LR
 <br><br>
 
 <p class="parrafo">
-  Esta serie investiga aquello que no se ve, pero domina nuestro entorno: vibraciones electromagnéticas, ruido informático, publicidad invasiva, hiperconectividad y flujos de datos. Como plantea Guido Dorfles en <em>El intervalo perdido</em>, la saturación intangible erosiona los püles internos de concentración, distorsiona la atención y debilita nuestra capacidad reflexiva.
+  Fachi trokiñ kintukey feychi pengekenon dungu, welu iñchiñ ñi wall püle wente newen niey: electromagnética vibración, informático ruido, invasiva publicidad, hiperconectividad ka dato flow. Guido Dorfles ñi <em>El intervalo perdido</em> mew, püllü mew fentepun erosionakey concentración ponwi püle, adkintun distorsionakey ka iñchiñ ñi rakizuam newen pichintukey.
 </p>
 <p class="parrafo">
-  <strong>Concepto:</strong> Materializar lo imperceptible y capturar azentunmente la intoxicación sensorial y cognitiva provocada por esta contaminación invisible.
+  <strong>Rakizuam:</strong> Pengekenon dungu chemkün mew elun ka azentun mew nien fachi invisible contaminación ñi kalül-kimün ka rakizuam intoxicación.
 </p>
 
 <br><br>
 
 <p class="parrafo">
-  Estas dos series —<em>Kutxan</em> y <em>Pengekenon</em>— expresan la saturación contemporánea desde diferentes frentes. Son líneas abiertas, susceptibles de ampliación y de nuevas derivas que continúen interrogando los fenómenos decisivos de nuestra época.
+  Fachi epu trokiñ —<em>Kutxan</em> ka <em>Pengekenon</em>— azentuy fachi antü ñi fentepun kake püle mew. Nülaley pu rüpü: fütalngeal ka we amulen niey, fachi época ñi decisivo fenómeno ramtun amulnieal.
 </p>
 
 <br><br>
@@ -115,7 +115,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-la-peste.webp" alt="Kutxan" loading="lazy">
       <p class="title">Kutxan</p>
-      <p class="subtitle">Explora el fenómeno físico</p>
+      <p class="subtitle">Kalül fenómeno adkintun</p>
     </div>
   </a>
 
@@ -123,7 +123,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/boton-saturacion-lo-invisible.webp" alt="Pengekenon" loading="lazy">
       <p class="title">Pengekenon</p>
-      <p class="subtitle">Saturación intangible</p>
+      <p class="subtitle">Püllü mew fentepun</p>
     </div>
   </a>
 </div>

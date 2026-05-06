@@ -2,7 +2,7 @@
 layout: default-mpd
 lang: arn
 title: "Wi-Fi Pinturas – Serie de Pengekenon (Fentepun) de Esteban Garnica"
-description: "Serie de pinturas de Esteban Garnica que reflexionan azentunmente sobre la contaminación ambiental en un ámbito invisible: señales, ondas y saturación tecnológica."
+description: "Esteban Garnica ñi pinturas ñi rakizuam pengekenon contaminación mew: señal, onda ka teknologia fentepun."
 permalink: /MPD/pinturas-wifi.html
 keywords: "Fentepun, Pengekenon, Wi-Fi Pinturas, contaminación invisible, electromagnetismo, polución lumínica, polución acústica, arte contemporáneo, arte chileno, Esteban Garnica, EGGS-Studio"
 mermaid: true
@@ -10,9 +10,9 @@ carousel: true
 ---
 
 <h1 class="titulo">Wi-Fi Pinturas</h1>
-<h2 class="subtitulo">La representación de la contaminación invisible</h2>
+<h2 class="subtitulo">Pengekenon contaminación ñi azentun</h2>
 <h3 class="subtitulo2">
-  Küdaw para ver lo que no se ve. Campos invisibles como materia pictórica.
+  Küdaw ñi pengeal feychi pengekenon. Pengekenon campo pintura chemkün reke.
 </h3>
 
 <br>
@@ -30,60 +30,61 @@ carousel: true
 <br>
 
 <p class="parrafo">
-  <strong>Wi-Fi Pinturas</strong> es una subserie dentro de <strong>Pengekenon</strong>, vinculada al eje de
-  <strong>Wallmapu ñi azentun físico</strong> y a las <strong>Pu az de la Saturación</strong>. Nace de una
-  premisa simple pero inquietante: en la era de la hiperconectividad, el entorno ya no está compuesto solo por materia y
-  luz, sino también por un campo permanente de señales, ondas y estímulos que operan fuera del rango de lo evidente.
-  El Wi-Fi, las radiaciones electromagnéticas y otras presencias tecnológicas funcionan como un “clima” invisible que
-  condiciona la experiencia cotidiana y altera, de forma silenciosa, nuestra relación con lo real.
+  <strong>Wi-Fi Pinturas</strong> müley <strong>Pengekenon</strong> ñi pichi trokiñ, txawüley
+  <strong>Wallmapu ñi kalül azentun</strong> ka <strong>Fentepun ñi pu az</strong> egu.
+  Kiñe pichi welu inquietante rakizuam mew tripay: hiperconectividad época mew, wall püle
+  chemkün ka kütral müten gelay; fey mew müley permanente campo: señal, onda ka estímulo,
+  pengefal rüpü ñi wekun mew küdawkey. Wi-Fi, electromagnética radiación ka kake teknologia
+  presencia müley invisible "clima" reke, fill antü kimün rüpü condicionakey ka ñochi mew
+  realidad egu iñchiñ ñi trawün akumtuy.
 </p>
 
 <p class="parrafo">
-  En este cuerpo de obra, la pintura no busca ilustrar la tecnología como tema, sino <strong>hacer perceptible su
-  influencia</strong>. La az —paisajes, retratos y objetos reconocibles— aparece sometida a torsiones, ondulaciones,
-  quiebres y zonas de interferencia que recuerdan fallas de señal, compresiones digitales o distorsiones de transmisión.
-  Lo familiar se mantiene identificable, pero deja de ser estable: la escena parece afectada por una fuerza que no se ve,
-  aunque se intuye por sus efectos. En ese sentido, las deformaciones no son un recurso decorativo; funcionan como
-  síntomas de una condición contemporánea: la saturación tecnológica flotando en el aire.
+  Fachi küdaw mew, pintura teknologia ilustrar müten kintulay; <strong>ñi influencia
+  pengefal elual</strong> kintuy. Az —mapu az, adentu ka chemkün kimfal— müley torsión,
+  onda, katrüntun ka interferencia püle mew, señal falla, digital compresión kam transmisión
+  distorsión reke. Kimfal dungu kimfal müley, welu estable gelay: escena afektagey kiñe
+  pengekenon newen mew, ñi efecto mew müten kimngey. Fey mew deformación decoración
+  gelay; síntoma reke küdawkey fachi antü condición mew: teknologia fentepun aire mew.
 </p>
 
 <h3 class="subtitulo2">Pengekenon: marco conceptual</h3>
 
 <p class="parrafo">
-  La serie <strong>Pengekenon</strong> indaga en contaminantes inmateriales que atraviesan el wallmapu actual:
-  <strong>ondas electromagnéticas</strong>, <strong>polución lumínica</strong> y <strong>polución acústica</strong>, entre
-  otras presiones ambientales y perceptivas. Su propósito es dirigir la atención hacia aquello que normalmente no se
-  percibe pero igualmente nos afecta: una “niebla” constante de radiación, ruido y estímulo que envuelve los cuerpos y
-  los püles. Desde esta perspectiva, la obra se sitúa en el punto donde lo intangible produce consecuencias tangibles:
-  ansiedad, hiperalerta, fatiga perceptiva, o una sensación difusa de que la realidad perdió nitidez y estabilidad.
+  <strong>Pengekenon</strong> trokiñ kintukey püllü mew contaminante ñi rupan fachi wallmapu mew:
+  <strong>electromagnética onda</strong>, <strong>kütral polución</strong> ka <strong>sonido polución</strong>,
+  kake wallmapu ka percepción presión egu. Ñi zugu: adkintun feychi normalmente pengekenon
+  welu iñchiñ afektakey; radiación, ruido ka estímulo ñi permanente "trukur" ñi kalül ka püle
+  witrakontun. Fachi püle mew, küdaw müley püllü mew dungu ñi kalül consecuencia dewmangen
+  püle: ansiedad, hiperalerta, percepción fatigue kam realidad ñi nitidez ka estabilidad ñamün.
 </p>
 
 <h3 class="subtitulo2">Pintar lo analógico con lógica digital</h3>
 
 <p class="parrafo">
-  Formalmente, <strong>Wi-Fi Pinturas</strong> desarrolla una operación híbrida: técnicas pictóricas tradicionales
-  (óleo y acrílico) se articulan con küdaw rüpü de manipulación digital como método de composición, distorsión o “ruido”
-  azentun. Esta fusión no es un mero cruce técnico; es coherente con el tema: la experiencia contemporánea ocurre en una
-  fricción constante entre lo analógico y lo digital, entre lo tangible y lo intangible. Por eso, la pintura adopta una
-  lógica de interferencia: como si el soporte fuese una pantalla afectada, o como si el aire mismo actuara como un medio
-  de transmisión que altera la az.
+  Formalmente, <strong>Wi-Fi Pinturas</strong> amulniey híbrido operación: kuifi pintura técnica
+  (óleo ka acrílico) txawüley digital manipulación rüpü egu, composición, distorsión kam azentun
+  "ruido" método reke. Fachi fusión técnica cruce müten gelay; tema egu nor txawüley: fachi antü
+  kimün rüpü müley constante fricción analógico ka digital mew, kalül ka püllü mew mew. Fey mew
+  pintura nien interferencia lógica: soporte pantalla afectada reke, kam aire mismo transmisión
+  medio reke ñi az akumtual.
 </p>
 
 <p class="parrafo">
-  El resultado es una estética de impacto inmediato, pero con un trasfondo filosófico: las obras tensionan preguntas sobre
-  percepción y realidad, y proponen una duda persistente. Si lo que vemos puede ser modificado por fuerzas imperceptibles,
-  ¿cuánta de nuestra confianza azentun es realmente “natural”? ¿Cuánto de la percepción es un acuerdo cultural que hoy está
-  siendo reprogramado por la tecnología?
+  Resultado müley pichi mew konlu estética, welu püllü filosofía niey: pu küdaw ramtun tensionakey
+  percepción ka realidad mew, ka kiñe persistente duda eluy. Feychi adkintulelu akumtungeal
+  pengekenon newen mew, ¿tunten iñchiñ ñi azentun confianza "natural" rüf ngey? ¿Tunten percepción
+  müley kimün acuerdo, fachi antü teknologia ñi wiñol programangen mew?
 </p>
 
 <h3 class="subtitulo2">Experiencia del espectador: desconcierto, curiosidad, alerta</h3>
 
 <p class="parrafo">
-  Las distorsiones generan una respuesta emocional ambivalente: por un lado, hay fascinación por la belleza del quiebre; por
-  otro, aparece el desconcierto, una incomodidad leve que empuja a mirar de nuevo. Ese “fallo” controlado en la az obliga
-  a tomar consciencia de lo que usualmente se ignora. La obra no entrega una moraleja; propone una experiencia: sentir que lo
-  invisible existe porque produce efectos, y reconocer que la saturación tecnológica no es solo un tema externo, sino un entorno
-  perceptivo en el que ya vivimos.
+  Distorsión eluy epu txoy püllü respuesta: kiñe püle mew, katrüntun ñi ayün; kake püle mew,
+  desconcierto, pichi incomodidad ñi we adkintun mütrümün. Feychi controlado "falla" az mew
+  nütramkey conciencia, feychi thường ignored dungu mew. Küdaw moraleja elulay; kimün rüpü
+  eluy: pengekenon müley ñi efecto dewmangen mew, ka teknologia fentepun wekun tema müten
+  gelay, iñchiñ ñi mülechi percepción wall püle ngey.
 </p>
 
 <div class="mermaid">
@@ -127,10 +128,10 @@ graph LR
 
 
 <h2 class="subtitulo" id="paisajes">Wi-Fi Pinturas: Mapu az</h2>
-<h3 class="subtitulo2">Variaciones del paisaje bajo interferencia</h3>
+<h3 class="subtitulo2">Mapu az ñi variación interferencia mew</h3>
 <p class="parrafo">
-  Mapu az reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
-  atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
+  Kimfal mapu az koni torsión, onda ka señal "ruido" mew. Itrofill mogen tripay invisible
+  teknologia clima ñi rupan püle reke, fey mew estable dungu nekul ka vibrátil ngey.
 </p>
 <br>
 <h3 class="subtitulo2">Paisaje Wi Fi n°1, 2015</h3>
@@ -225,10 +226,10 @@ graph LR
 <hr class="separador">
 
 <h2 class="subtitulo" id="retratos">Wi-Fi Pinturas: Adentu</h2>
-<h3 class="subtitulo2">El rostro como campo de distorsión</h3>
+<h3 class="subtitulo2">Ad reke distorsión campo</h3>
 <p class="parrafo">
-  Adentu donde la identidad se mantiene, pero la az se quiebra. La interferencia no borra: altera la percepción,
-  tensionando la estabilidad del sujeto en un entorno saturado de señales.
+  Adentu mew az che müley, welu az katrüntugey. Interferencia ñamümkelay: percepción akumtukey,
+  sujeto ñi estabilidad tensionakey señal mew fentepun wall püle mew.
 </p>
 
 <div class="owl-carousel carousel-az">
@@ -245,10 +246,10 @@ graph LR
 <hr class="separador">
 
 <h2 class="subtitulo" id="bodegones">Wi-Fi Pinturas: Chemkün az</h2>
-<h3 class="subtitulo2">Objetos cotidianos bajo señal</h3>
+<h3 class="subtitulo2">Fill antü chemkün señal ñi wente</h3>
 <p class="parrafo">
-  Chemkün az y naturalezas muertas intervenidas por “fallas” de transmisión: lo ruka mew se vuelve inestable, como si la
-  materia cotidiana estuviera atravesada por un pulso inmaterial que desordena la mirada.
+  Chemkün az ka naturaleza muerta koneltugey transmisión "falla" mew: ruka mew dungu inestable ngey,
+  fill antü chemkün rupan püllü pulso mew reke, adkintun ñi desordenal.
 </p>
 
 <div class="owl-carousel carousel-az">
