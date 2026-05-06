@@ -1558,11 +1558,16 @@ button:focus-visible,
   font-size: clamp(0.78rem, 0.68rem + 0.25vw, 0.95rem);
   font-weight: 900;
   line-height: 1;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .nav-lang-switch a {
   min-height: auto;
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
   padding: 0.35rem 0.42rem;
   border: 1px solid var(--site-line);
   border-radius: 999px;
@@ -1580,6 +1585,9 @@ button:focus-visible,
 
 .nav-lang-switch .lang-current {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
   padding: 0.35rem 0.42rem;
   color: #111316;
   background: #d7dde5;
@@ -1974,6 +1982,7 @@ footer::before {
   .nav-lang-switch {
     width: 100%;
     min-height: auto;
+    flex-wrap: wrap;
     justify-content: flex-start;
     padding: 1rem;
     border-right: 0;

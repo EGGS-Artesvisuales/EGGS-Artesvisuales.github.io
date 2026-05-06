@@ -140,7 +140,7 @@
       margin: 0 auto;
       padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(2.5rem, 5vw, 4rem);
       display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
       gap: clamp(1rem, 4vw, 4rem);
       align-items: end;
     }
@@ -154,7 +154,7 @@
 
     .language-selection {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(8.75rem, 1fr));
       gap: 1px;
       margin: 0;
       background: rgba(230, 234, 240, 0.16);
@@ -182,8 +182,10 @@
     }
 
     .language-selection strong {
-      font-size: clamp(1.4rem, 2.5vw, 2.2rem);
-      line-height: 1;
+      max-width: 100%;
+      overflow-wrap: anywhere;
+      font-size: clamp(1.25rem, 2vw, 1.9rem);
+      line-height: 1.05;
     }
 
     .language-selection span {
@@ -276,7 +278,7 @@
         </a>
         <a href="/MPD/index.html" hreflang="arn" lang="arn" onclick="setLanguage('arn')">
           <strong>Mapudungun</strong>
-          <span>Version en preparacion</span>
+          <span>Entrar al sitio</span>
         </a>
       </nav>
     </section>
