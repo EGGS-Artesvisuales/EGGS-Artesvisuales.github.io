@@ -107,20 +107,20 @@ graph LR
   E --> E3([Chemkün az])
 
   %% Clicks (todos clickeables)
-  click A "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
-  click B "/MPD/tangible.html" "Ver Kalül mew"
-  click B2 "/MPD/intangible.html" "Ver Lo Püllü mew"
-  click C "/MPD/saturacion.html" "Ver Fentepun"
-  click C2 "/MPD/en-construccion.html" "Ver Teknologia"
-  click D "/MPD/lo-invisible.html" "Ver Pengekenon"
-  click D2 "/MPD/la-peste.html" "Ver Kutxan"
-  click E "/MPD/pinturas-wifi.html" "Ver Wi-Fi Pinturas"
-  click F "/MPD/en-construccion.html" "Ver Desplazamientos de la pintura"
+  click A "/MPD/mundo-exterior.html" "Adkintun: Wallmapu ñi azentun"
+  click B "/MPD/tangible.html" "Adkintun: Kalül mew"
+  click B2 "/MPD/intangible.html" "Adkintun: Lo Püllü mew"
+  click C "/MPD/saturacion.html" "Adkintun: Fentepun"
+  click C2 "/MPD/en-construccion.html" "Adkintun: Teknologia"
+  click D "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
+  click D2 "/MPD/la-peste.html" "Adkintun: Kutxan"
+  click E "/MPD/pinturas-wifi.html" "Adkintun: Wi-Fi Pinturas"
+  click F "/MPD/en-construccion.html" "Adkintun: Desplazamientos de la pintura"
 
   %% Enlaces a secciones internas (anclas) para coherencia con las 3 categorías
-  click E1 "#paisajes" "Ver Mapu az (Wi-Fi Pinturas)"
-  click E2 "#retratos" "Ver Adentu (Wi-Fi Pinturas)"
-  click E3 "#bodegones" "Ver Chemkün az (Wi-Fi Pinturas)"
+  click E1 "#paisajes" "Adkintun: Mapu az (Wi-Fi Pinturas)"
+  click E2 "#retratos" "Adkintun: Adentu (Wi-Fi Pinturas)"
+  click E3 "#bodegones" "Adkintun: Chemkün az (Wi-Fi Pinturas)"
 </div>
 
 

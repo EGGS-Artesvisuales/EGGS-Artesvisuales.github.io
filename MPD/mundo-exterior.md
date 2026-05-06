@@ -26,11 +26,11 @@ flowchart LR
   representacion --> intangible(["Lo Püllü mew"])
 
   click principal "/MPD/index.html" "Ir al Wünen"
-  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
-  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
-  click accion "/MPD/accion.html" "Ir a Mapu mew Küdaw"
-  click interior "/MPD/interior.html" "Ir a Püle rakizuam"
+  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Amun: Kalül mew"
+  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click accion "/MPD/accion.html" "Amun: Mapu mew Küdaw"
+  click interior "/MPD/interior.html" "Amun: Püle rakizuam"
 </div>
 
 <br>
@@ -79,11 +79,11 @@ flowchart LR
   tangible --> saturacion(["Fentepun"])
   tangible --> tecnologia(["Teknologia"])
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
-  click saturacion "/MPD/saturacion.html" "Ir a Fentepun"
-  click tecnologia "/MPD/en-construccion.html" "Ir a Teknologia"
-  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
+  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Amun: Kalül mew"
+  click saturacion "/MPD/saturacion.html" "Amun: Fentepun"
+  click tecnologia "/MPD/en-construccion.html" "Amun: Teknologia"
+  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
 </div>
 <br>
 
@@ -154,12 +154,12 @@ flowchart LR
   intangible --> ancestros(["Pu az de los Ancestros"])
   intangible --> popular(["Pu che ñi pu az"])
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
-  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
-  click capitalismo "/MPD/imagenes-capitalismo.html" "Ir a Capitalismo ñi pu az"
-  click ancestros "/MPD/imagenes-ancestros.html" "Ir a Pu az de los Ancestros"
-  click popular "/MPD/imagenes-popular.html" "Ir a Pu che ñi pu az"
+  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Amun: Kalül mew"
+  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
+  click ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
+  click popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
 </div>
 
 

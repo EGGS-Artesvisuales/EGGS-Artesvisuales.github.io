@@ -44,9 +44,9 @@ flowchart LR
   principal --> accion
   principal --> interior
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click accion "/MPD/accion.html" "Ir a Mapu mew küdaw"
-  click interior "/MPD/interior.html" "Ir a Püle rakizuam"
+  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click accion "/MPD/accion.html" "Amun: Mapu mew küdaw"
+  click interior "/MPD/interior.html" "Amun: Püle rakizuam"
 </div>
 
 

@@ -41,15 +41,15 @@ flowchart LR
   AN_M --> MCA((Musoe a Cielo Abierto))
 
   %% Links (ES/)
-  click A "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click T "/MPD/tangible.html" "Ir a Kalül mew"
-  click I "/MPD/intangible.html" "Ir a Lo Püllü mew"
+  click A "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click T "/MPD/tangible.html" "Amun: Kalül mew"
+  click I "/MPD/intangible.html" "Amun: Lo Püllü mew"
   click C "/MPD/en-construccion.html" "Dewmangen mew"
   click P "/MPD/en-construccion.html" "Dewmangen mew"
-  click AN "/MPD/imagenes-ancestros.html" "Ir a Pu az de los Ancestros"
+  click AN "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
  
   click AN_A "/MPD/en-construccion.html" "Dewmangen mew"
-  click MCA "/MPD/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+  click MCA "/MPD/musoe-a-cielo-abierto.html" "Amun: Musoe a Cielo Abierto"
 </div>
 
 
@@ -323,7 +323,7 @@ flowchart LR
 <section class="parrafo">
   <p>
     <a href="#dipticos">Volver a Dípticos</a> ·
-    <a href="/MPD/imagenes-ancestros.html">Ir a Pu az de los Ancestros</a>
+    <a href="/MPD/imagenes-ancestros.html">Amun: Pu az de los Ancestros</a>
   </p>
 </section>
 

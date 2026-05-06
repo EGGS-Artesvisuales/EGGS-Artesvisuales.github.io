@@ -48,14 +48,14 @@ graph LR
   F --> F3
 
   %% Enlaces (existentes)
-  click Z "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
-  click Y "/MPD/tangible.html" "Ver Kalül mew"
-  click A "/MPD/saturacion.html" "Ver Fentepun"
-  click B "/MPD/la-peste.html" "Ver Kutxan"
-  click F "/MPD/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/MPD/espacio-domestico.html" "Ir a Püle Ruka mew"
-  click F2 "/MPD/espacio-publico.html" "Ir a Püle Fütra che mew"
-  click F3 "/MPD/espacio-rural.html" "Ir a Püle Mapu lof mew / Natural"
+  click Z "/MPD/mundo-exterior.html" "Adkintun: Wallmapu ñi azentun"
+  click Y "/MPD/tangible.html" "Adkintun: Kalül mew"
+  click A "/MPD/saturacion.html" "Adkintun: Fentepun"
+  click B "/MPD/la-peste.html" "Adkintun: Kutxan"
+  click F "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click F1 "/MPD/espacio-domestico.html" "Amun: Püle Ruka mew"
+  click F2 "/MPD/espacio-publico.html" "Amun: Püle Fütra che mew"
+  click F3 "/MPD/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
 
 </div>
 

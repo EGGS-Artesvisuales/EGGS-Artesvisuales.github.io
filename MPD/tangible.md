@@ -24,11 +24,11 @@ flowchart LR
   tangible --> saturacion(["Fentepun"])
   tangible --> tecnologia(["Teknologia"])
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
-  click saturacion "/MPD/saturacion.html" "Ir a Fentepun"
-  click tecnologia "/MPD/en-construccion.html" "Ir a Teknologia"
-  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
+  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Amun: Kalül mew"
+  click saturacion "/MPD/saturacion.html" "Amun: Fentepun"
+  click tecnologia "/MPD/en-construccion.html" "Amun: Teknologia"
+  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
 </div>
 <br>
 

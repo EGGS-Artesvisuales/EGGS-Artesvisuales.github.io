@@ -37,12 +37,12 @@ graph LR
     Püllü mew --> Popular(["Pu che ñi pu az"])
     Püllü mew --> Ancestros(["Pu az de los Ancestros"])
 
-    click Representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-    click Kalül mew "/MPD/tangible.html" "Ir a Kalül mew"
-    click Püllü mew "/MPD/intangible.html" "Ir a Lo Püllü mew"
-    click Capitalismo "/MPD/imagenes-capitalismo.html" "Ir a Capitalismo ñi pu az"
-    click Popular "/MPD/imagenes-popular.html" "Ir a Pu che ñi pu az"
-    click Ancestros "/MPD/imagenes-ancestros.html" "Ir a Pu az de los Ancestros"
+    click Representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+    click Kalül mew "/MPD/tangible.html" "Amun: Kalül mew"
+    click Püllü mew "/MPD/intangible.html" "Amun: Lo Püllü mew"
+    click Capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
+    click Popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
+    click Ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
 </div>
 
 <br>

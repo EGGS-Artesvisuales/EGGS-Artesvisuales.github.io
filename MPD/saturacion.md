@@ -52,15 +52,15 @@ flowchart LR
   LP --> DP
   LI --> PL          
 
-  click RM "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click LT "/MPD/tangible.html" "Ir a Kalül mew"
-  click LS "/MPD/saturacion.html" "Ir a Fentepun"
-  click LTec "/MPD/en-construccion.html" "Ir a Teknologia"
-  click LP "/MPD/la-peste.html" "Ir a Kutxan"
-  click LI "/MPD/lo-invisible.html" "Ir a Pengekenon"
-  click P "/MPD/peste-pinturas-infectadas.html" "Ir a Kutxan Pinturas"
-  click DP "/MPD/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click PL "/MPD/pinturas-wifi.html" "Ir a Pinturas wi fi"
+  click RM "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click LT "/MPD/tangible.html" "Amun: Kalül mew"
+  click LS "/MPD/saturacion.html" "Amun: Fentepun"
+  click LTec "/MPD/en-construccion.html" "Amun: Teknologia"
+  click LP "/MPD/la-peste.html" "Amun: Kutxan"
+  click LI "/MPD/lo-invisible.html" "Amun: Pengekenon"
+  click P "/MPD/peste-pinturas-infectadas.html" "Amun: Kutxan Pinturas"
+  click DP "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click PL "/MPD/pinturas-wifi.html" "Amun: Pinturas wi fi"
 </div>
 
 <br><br>

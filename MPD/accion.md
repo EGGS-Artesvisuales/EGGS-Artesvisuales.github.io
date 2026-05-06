@@ -24,15 +24,15 @@ flowchart LR
   C --> C4([Kellun])
 
   %% Clicks (todos los nodos clickeables)
-  click A "/MPD/index.html" "Ir a Actividad az-küdaw"
-  click B "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
-  click C "/MPD/accion.html" "Ir a Mapu mew küdaw"
-  click D "/MPD/interior.html" "Ir a Püle rakizuam"
+  click A "/MPD/index.html" "Amun: Actividad az-küdaw"
+  click B "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click C "/MPD/accion.html" "Amun: Mapu mew küdaw"
+  click D "/MPD/interior.html" "Amun: Püle rakizuam"
 
-  click C1 "/MPD/comunitario.html" "Ir a Lof mew"
-  click C2 "/MPD/subrepticio.html" "Ir a Ellka küdaw"
-  click C3 "/MPD/docencia.html" "Ir a Kimeltun ka Talleres"
-  click C4 "/MPD/servicios.html" "Ir a Kellun"
+  click C1 "/MPD/comunitario.html" "Amun: Lof mew"
+  click C2 "/MPD/subrepticio.html" "Amun: Ellka küdaw"
+  click C3 "/MPD/docencia.html" "Amun: Kimeltun ka Talleres"
+  click C4 "/MPD/servicios.html" "Amun: Kellun"
 </div>
 
 <br>

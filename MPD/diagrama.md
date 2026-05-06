@@ -79,41 +79,41 @@ graph LR
   A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
 
   %% Enlaces (existentes)
-  click A "wallmapu-exterior.html" "Ir a Wallmapu ñi azentun"
-  click A1 "tangible.html" "Ir a Kalül mew"
-  click A2 "intangible.html" "Ir a Lo Püllü mew"
-  click A1a "saturacion.html" "Ir a Fentepun"
-  click A1a1 "la-peste.html" "Ir a Kutxan"
-  click A1a1a "/MPD/peste-pinturas-infectadas.html" "Ir a kutxan pinturas"
-  click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "/MPD/espacio-domestico.html" "Ir a Püle Ruka mew"
-  click A1a1b2 "/MPD/espacio-publico.html" "Ir a Püle Fütra che mew"
-  click A1a1b3 "/MPD/espacio-rural.html" "Ir a Püle Mapu lof mew / Natural"
-  click A1a2 "lo-invisible.html" "Ir a Pengekenon"
-  click A2c1 "musoe-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
+  click A "wallmapu-exterior.html" "Amun: Wallmapu ñi azentun"
+  click A1 "tangible.html" "Amun: Kalül mew"
+  click A2 "intangible.html" "Amun: Lo Püllü mew"
+  click A1a "saturacion.html" "Amun: Fentepun"
+  click A1a1 "la-peste.html" "Amun: Kutxan"
+  click A1a1a "/MPD/peste-pinturas-infectadas.html" "Amun: kutxan pinturas"
+  click A1a1b "desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click A1a1b1 "/MPD/espacio-domestico.html" "Amun: Püle Ruka mew"
+  click A1a1b2 "/MPD/espacio-publico.html" "Amun: Püle Fütra che mew"
+  click A1a1b3 "/MPD/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
+  click A1a2 "lo-invisible.html" "Amun: Pengekenon"
+  click A2c1 "musoe-a-cielo-abierto.html" "Amun: Museo a Cielo Abierto"
 
   %% Enlaces a secciones internas (anchors) ya existentes
 
   %% Kutxan Pinturas: Soportes tradicionales + hijos
-  click A1a1a1 "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
-  click ST_OP "/MPD/peste-pinturas-infectadas.html#producciones" "Ir a Ñi mülechi küdaw"
-  click ST_OA "/MPD/peste-pinturas-infectadas.html#intervenciones" "Ir a Kakeche ñi küdaw"
+  click A1a1a1 "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Amun: Soportes tradicionales"
+  click ST_OP "/MPD/peste-pinturas-infectadas.html#producciones" "Amun: Ñi mülechi küdaw"
+  click ST_OA "/MPD/peste-pinturas-infectadas.html#intervenciones" "Amun: Kakeche ñi küdaw"
 
   %% Kutxan Pinturas: Soportes blandos + hijos
-  click A1a1a2 "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
-  click SB_MEM "/MPD/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
-  click SB_MOD "/MPD/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
-  click SB_PU "/MPD/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
+  click A1a1a2 "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Amun: Soportes blandos"
+  click SB_MEM "/MPD/peste-pinturas-infectadas.html#membranas" "Amun: Membranas"
+  click SB_MOD "/MPD/peste-pinturas-infectadas.html#modulos" "Amun: Módulos"
+  click SB_PU "/MPD/peste-pinturas-infectadas.html#unidades" "Amun: Página única"
 
   %% Püle ruka mew: Objetos / Habitaciones
-  click ED_OBJ "/MPD/espacio-domestico.html#objetos" "Ir a Objetos"
-  click ED_HAB "/MPD/espacio-domestico.html#habitaciones" "Ir a Habitaciones"
+  click ED_OBJ "/MPD/espacio-domestico.html#objetos" "Amun: Objetos"
+  click ED_HAB "/MPD/espacio-domestico.html#habitaciones" "Amun: Habitaciones"
 
   %% Wi-Fi Pinturas: página + secciones
-  click A1a2a "/MPD/pinturas-wifi.html" "Ir a Wi-Fi Pinturas"
-  click PW_RET "/MPD/pinturas-wifi.html#retratos" "Ir a Adentu"
-  click PW_PAI "/MPD/pinturas-wifi.html#paisajes" "Ir a Mapu az"
-  click PW_BOD "/MPD/pinturas-wifi.html#bodegones" "Ir a Chemkün az"
+  click A1a2a "/MPD/pinturas-wifi.html" "Amun: Wi-Fi Pinturas"
+  click PW_RET "/MPD/pinturas-wifi.html#retratos" "Amun: Adentu"
+  click PW_PAI "/MPD/pinturas-wifi.html#paisajes" "Amun: Mapu az"
+  click PW_BOD "/MPD/pinturas-wifi.html#bodegones" "Amun: Chemkün az"
 
   %% Enlaces (no existentes aún -> en construcción)
   click A1b "en-construccion.html" "Dewmangen mew"
@@ -162,13 +162,13 @@ graph LR
   B4 --> B4c([Asesorías\nTécnicas])
 
   %% Enlaces (existentes)
-  click B "accion.html" "Ir a Mapu mew Küdaw"
-  click B1 "subrepticio.html" "Ir a Ellka küdaw"
-  click B1a "subrep-remiendas-urbanas.html" "Ir a Remiendas Urbanas"
-  click B1b "subrep-antipublicidad.html" "Ir a La Anti-Publicidad"
-  click B2 "lof mew.html" "Ir a Lof mew"
-  click B3 "docencia.html" "Ir a Kimeltun ka Talleres"
-  click B4 "servicios.html" "Ir a Kellun"
+  click B "accion.html" "Amun: Mapu mew Küdaw"
+  click B1 "subrepticio.html" "Amun: Ellka küdaw"
+  click B1a "subrep-remiendas-urbanas.html" "Amun: Remiendas Urbanas"
+  click B1b "subrep-antipublicidad.html" "Amun: La Anti-Publicidad"
+  click B2 "lof mew.html" "Amun: Lof mew"
+  click B3 "docencia.html" "Amun: Kimeltun ka Talleres"
+  click B4 "servicios.html" "Amun: Kellun"
 
   %% Enlaces (no existentes aún -> en construcción)
   click B1c "en-construccion.html" "Dewmangen mew"
@@ -197,7 +197,7 @@ graph LR
   C --> C2((Az-küdaw y Espiritualidad))
 
   %% Enlaces (existentes)
-  click C "interior.html" "Ir a Exploración del Püle rakizuam"
+  click C "interior.html" "Amun: Exploración del Püle rakizuam"
 
   %% Enlaces (no existentes aún -> en construcción)
   click C1 "en-construccion.html" "Dewmangen mew"

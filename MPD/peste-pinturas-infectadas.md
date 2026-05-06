@@ -90,27 +90,27 @@ flowchart LR
   MOD --> MODP
   SB --> UNI
 
-  click RM "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
-  click LT "/MPD/tangible.html" "Ver Kalül mew"
-  click Z2 "/MPD/intangible.html" "Ver Lo Püllü mew"
+  click RM "/MPD/mundo-exterior.html" "Adkintun: Wallmapu ñi azentun"
+  click LT "/MPD/tangible.html" "Adkintun: Kalül mew"
+  click Z2 "/MPD/intangible.html" "Adkintun: Lo Püllü mew"
 
-  click LS "/MPD/saturacion.html" "Ver Fentepun"
-  click LTec "/MPD/en-construccion.html" "Ver Teknologia"
-  click LP "/MPD/la-peste.html" "Ver Kutxan"
-  click LI "/MPD/lo-invisible.html" "Ver Pengekenon"
-  click DP "/MPD/desplazamiento-pintura.html" "Ver Desplazamiento de la Pintura"
+  click LS "/MPD/saturacion.html" "Adkintun: Fentepun"
+  click LTec "/MPD/en-construccion.html" "Adkintun: Teknologia"
+  click LP "/MPD/la-peste.html" "Adkintun: Kutxan"
+  click LI "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
+  click DP "/MPD/desplazamiento-pintura.html" "Adkintun: Desplazamiento de la Pintura"
 
-  click PI "/MPD/peste-pinturas-infectadas.html" "Ver Kutxan Pinturas"
+  click PI "/MPD/peste-pinturas-infectadas.html" "Adkintun: Kutxan Pinturas"
 
-  click ST "#soportes-tradicionales" "Ir a Soportes tradicionales"
-  click INT "#intervenciones" "Ir a Intervenciones"
-  click PROD "#producciones" "Ir a Producciones"
+  click ST "#soportes-tradicionales" "Amun: Soportes tradicionales"
+  click INT "#intervenciones" "Amun: Intervenciones"
+  click PROD "#producciones" "Amun: Producciones"
 
-  click SB "#soportes-blandos" "Ir a Soportes blandos"
-  click MEM "#membranas" "Ir a Membranas"
-  click MOD "#modulos" "Ir a Módulos"
-  click MODP "#modulos-prints" "Ir a Módulos print"
-  click UNI "#unidades" "Ir a Unidades"
+  click SB "#soportes-blandos" "Amun: Soportes blandos"
+  click MEM "#membranas" "Amun: Membranas"
+  click MOD "#modulos" "Amun: Módulos"
+  click MODP "#modulos-prints" "Amun: Módulos print"
+  click UNI "#unidades" "Amun: Unidades"
 </div>
 
 <hr class="separador separador--aire" />
@@ -131,15 +131,15 @@ flowchart LR
   PROD --> P3(["3. Autofusión (2009/2010)"])
   PROD --> P4(["4. Banderas infectadas (2008/2025)"])
 
-  click ST "#soportes-tradicionales" "Ir a Soportes tradicionales"
-  click INT "#intervenciones" "Ir a Intervenciones"
-  click PROD "#producciones" "Ir a Producciones"
+  click ST "#soportes-tradicionales" "Amun: Soportes tradicionales"
+  click INT "#intervenciones" "Amun: Intervenciones"
+  click PROD "#producciones" "Amun: Producciones"
 
-  click INT1 "#intervencion-serie-st-2008" "Ir a Serie Sin Título (Intervenciones) 2008"
-  click P1 "#produccion-serie-st-1-2008-2010" "Ir a Serie sin título n°1 (Producciones)"
-  click P2 "#produccion-paisajes-carretera-2008-2009" "Ir a Mapu az de carretera"
-  click P3 "#produccion-autofusion-2009-2010" "Ir a Autofusión"
-  click P4 "#produccion-banderas-infectadas-2008-2025" "Ir a Banderas infectadas"
+  click INT1 "#intervencion-serie-st-2008" "Amun: Serie Sin Título (Intervenciones) 2008"
+  click P1 "#produccion-serie-st-1-2008-2010" "Amun: Serie sin título n°1 (Producciones)"
+  click P2 "#produccion-paisajes-carretera-2008-2009" "Amun: Mapu az de carretera"
+  click P3 "#produccion-autofusion-2009-2010" "Amun: Autofusión"
+  click P4 "#produccion-banderas-infectadas-2008-2025" "Amun: Banderas infectadas"
 </div>
 
 <hr class="separador separador--aire" />
@@ -462,26 +462,26 @@ flowchart LR
   UNI --> UPAI(["Mapu az (2019–)"])
   UNI --> UBOD(["Chemkün az (2024–)"])
 
-  click SB "#soportes-blandos" "Ir a Soportes blandos"
-  click MEM "#membranas" "Ir a Membranas"
-  click MOD "#modulos" "Ir a Módulos"
-  click MODP "#modulos-prints" "Ir a Módulos print"
-  click UNI "#unidades" "Ir a Unidades"
+  click SB "#soportes-blandos" "Amun: Soportes blandos"
+  click MEM "#membranas" "Amun: Membranas"
+  click MOD "#modulos" "Amun: Módulos"
+  click MODP "#modulos-prints" "Amun: Módulos print"
+  click UNI "#unidades" "Amun: Unidades"
 
-  click VER "#verde-2009" "Ir a Verde (2009)"
-  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1 (2008/2009)"
-  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2 (2008)"
+  click VER "#verde-2009" "Amun: Verde (2009)"
+  click MAP1 "#mapamundi-2009-1" "Amun: Mapamundi n°1 (2008/2009)"
+  click MAP2 "#mapamundi-2008-2" "Amun: Mapamundi n°2 (2008)"
 
-  click COR "#cordillera-2009" "Ir a Cordillera (2009)"
-  click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1 (2010)"
-  click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2 (2014)"
-  click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano (2010)"
+  click COR "#cordillera-2009" "Amun: Cordillera (2009)"
+  click GP1 "#gran-paisaje-1-2010" "Amun: Gran paisaje n°1 (2010)"
+  click GP2 "#gran-paisaje-2-2014" "Amun: Gran paisaje n°2 (2014)"
+  click PU "#paisaje-urbano-2010" "Amun: Paisaje urbano (2010)"
 
-  click SELK "#mujeres-selknam-2019" "Ir a Mujeres selk'nam (2019)"
+  click SELK "#mujeres-selknam-2019" "Amun: Mujeres selk'nam (2019)"
 
-  click URET "#unidades-retratos-2019" "Ir a Unidades: Adentu"
-  click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Mapu az"
-  click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Chemkün az"
+  click URET "#unidades-retratos-2019" "Amun: Unidades: Adentu"
+  click UPAI "#unidades-paisajes-2019" "Amun: Unidades: Mapu az"
+  click UBOD "#unidades-bodegones-2024" "Amun: Unidades: Chemkün az"
 </div>
 
 <section class="parrafo">
@@ -518,10 +518,10 @@ flowchart LR
   MEM --> MAP1
   MEM --> MAP2
 
-  click MEM "#membranas" "Ir a Membranas"
-  click VER "#verde-2009" "Ir a Verde (2009)"
-  click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1"
-  click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2"
+  click MEM "#membranas" "Amun: Membranas"
+  click VER "#verde-2009" "Amun: Verde (2009)"
+  click MAP1 "#mapamundi-2009-1" "Amun: Mapamundi n°1"
+  click MAP2 "#mapamundi-2008-2" "Amun: Mapamundi n°2"
 </div>
 
 <hr class="separador separador--aire" />
@@ -685,11 +685,11 @@ flowchart LR
   MOD --> GP2
   MOD --> PU
 
-  click MOD "#modulos" "Ir a Módulos"
-  click COR "#cordillera-2009" "Ir a Cordillera"
-  click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1"
-  click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2"
-  click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano"
+  click MOD "#modulos" "Amun: Módulos"
+  click COR "#cordillera-2009" "Amun: Cordillera"
+  click GP1 "#gran-paisaje-1-2010" "Amun: Gran paisaje n°1"
+  click GP2 "#gran-paisaje-2-2014" "Amun: Gran paisaje n°2"
+  click PU "#paisaje-urbano-2010" "Amun: Paisaje urbano"
 </div>
 
 <hr class="separador separador--aire" />
@@ -1109,10 +1109,10 @@ flowchart LR
   UNI --> UPAI
   UNI --> UBOD
 
-  click UNI "#unidades" "Ir a Unidades"
-  click URET "#unidades-retratos-2019" "Ir a Adentu"
-  click UPAI "#unidades-paisajes-2019" "Ir a Mapu az"
-  click UBOD "#unidades-bodegones-2024" "Ir a Chemkün az"
+  click UNI "#unidades" "Amun: Unidades"
+  click URET "#unidades-retratos-2019" "Amun: Adentu"
+  click UPAI "#unidades-paisajes-2019" "Amun: Mapu az"
+  click UBOD "#unidades-bodegones-2024" "Amun: Chemkün az"
 </div>
 
 <hr class="separador separador--aire" />

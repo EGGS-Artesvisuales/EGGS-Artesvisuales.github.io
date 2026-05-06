@@ -75,27 +75,27 @@ flowchart LR
   F --> F3(["Püle Mapu lof mew / Natural"])
 
   %% --- Links ---
-  click Z "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
-  click Y "/MPD/tangible.html" "Ver Kalül mew"
-  click A "/MPD/saturacion.html" "Ver Fentepun"
-  click B "/MPD/la-peste.html" "Ver Kutxan"
-  click X "/MPD/lo-invisible.html" "Ver Pengekenon"
+  click Z "/MPD/mundo-exterior.html" "Adkintun: Wallmapu ñi azentun"
+  click Y "/MPD/tangible.html" "Adkintun: Kalül mew"
+  click A "/MPD/saturacion.html" "Adkintun: Fentepun"
+  click B "/MPD/la-peste.html" "Adkintun: Kutxan"
+  click X "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
 
-  click C "/MPD/peste-pinturas-infectadas.html" "Ver Kutxan Pinturas"
+  click C "/MPD/peste-pinturas-infectadas.html" "Adkintun: Kutxan Pinturas"
 
-  click D "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
-  click D1 "/MPD/peste-pinturas-infectadas.html#intervenciones" "Ir a Intervenciones"
-  click D2 "/MPD/peste-pinturas-infectadas.html#producciones" "Ir a Producciones"
+  click D "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Amun: Soportes Tradicionales"
+  click D1 "/MPD/peste-pinturas-infectadas.html#intervenciones" "Amun: Intervenciones"
+  click D2 "/MPD/peste-pinturas-infectadas.html#producciones" "Amun: Producciones"
 
-  click E "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
-  click E1 "/MPD/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
-  click E2 "/MPD/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
-  click E3 "/MPD/peste-pinturas-infectadas.html#unidades" "Ir a Unidades"
+  click E "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Amun: Soportes Blandos"
+  click E1 "/MPD/peste-pinturas-infectadas.html#membranas" "Amun: Membranas"
+  click E2 "/MPD/peste-pinturas-infectadas.html#modulos" "Amun: Módulos"
+  click E3 "/MPD/peste-pinturas-infectadas.html#unidades" "Amun: Unidades"
 
-  click F "/MPD/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/MPD/espacio-domestico.html" "Ir a Püle Ruka mew"
-  click F2 "/MPD/espacio-publico.html" "Ir a Püle Fütra che mew"
-  click F3 "/MPD/espacio-rural.html" "Ir a Püle Mapu lof mew / Natural"
+  click F "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click F1 "/MPD/espacio-domestico.html" "Amun: Püle Ruka mew"
+  click F2 "/MPD/espacio-publico.html" "Amun: Püle Fütra che mew"
+  click F3 "/MPD/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
 </div>
 
 
