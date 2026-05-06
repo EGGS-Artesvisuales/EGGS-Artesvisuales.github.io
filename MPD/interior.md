@@ -1,26 +1,26 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Mundo Interior – Serie de obras de Esteban Garnica"
+title: "Püle rakizuam – Serie de obras de Esteban Garnica"
 description: "Serie de obras de Esteban Garnica que exploran la dimensión psicológica, emocional y simbólica del artista."
 permalink: /MPD/interior.html
-keywords: "Mundo Interior, arte introspectivo, imaginario psicológico, arte contemporáneo, pintura expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
+keywords: "Püle rakizuam, arte introspectivo, imaginario psicológico, arte contemporáneo, pintura expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
-<h1 class="titulo">Mundo Interior</h1>
+<h1 class="titulo">Püle rakizuam</h1>
 <h2 class="subtitulo">Un viaje introspectivo a través del arte</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  El concepto de <strong>Mundo Interior</strong> remite a la práctica artística como un viaje introspectivo y transformador. Aquí, la creación se orienta a explorar la emocionalidad, el bienestar físico, espiritual y psicológico. Más que centrarse únicamente en técnicas o formas, esta perspectiva valora el arte como un recurso para la expresión emocional y la autorreflexión.
+  El concepto de <strong>Püle rakizuam</strong> remite a la práctica az-küdaw como un viaje introspectivo y transformador. Aquí, la dewman se orienta a explorar la emocionalidad, el bienestar físico, espiritual y psicológico. Más que centrarse únicamente en técnicas o formas, esta perspectiva valora el arte como un recurso para la expresión emocional y la autorreflexión.
 </p>
 
 <p class="parrafo">
-  Desde disciplinas como la psicología, antropología, neurociencia, filosofía, sociología, meditación y diversas corrientes de espiritualidad, el arte se vuelve un espacio convergente de saberes que amplifican la comprensión de nuestra mente y nuestras experiencias afectivas. La práctica artística intencionada puede calmar el sistema nervioso, aliviar el estrés y estimular la creatividad. Sin embargo, no todo acto creativo es terapéutico: la diferencia radica en la conciencia e intención que guían el proceso. Un autorretrato, por ejemplo, puede ser catártico o simplemente técnico según la postura interna desde la cual se realiza.
+  Desde disciplinas como la psicología, antropología, neurociencia, filosofía, sociología, meditación y diversas corrientes de espiritualidad, el arte se vuelve un püle convergente de saberes que amplifican la comprensión de nuestra mente y nuestras experiencias afectivas. La práctica az-küdaw intencionada puede calmar el sistema nervioso, aliviar el estrés y estimular la creatividad. Sin embargo, no todo acto creativo es terapéutico: la diferencia radica en la conciencia e intención que guían el proceso. Un autorretrato, por ejemplo, puede ser catártico o simplemente técnico según la postura interna desde la cual se realiza.
 </p>
 
 <p class="parrafo">
-  Esta búsqueda es íntima y honesta. No se concibe necesariamente para exhibición pública: cada trazo revela vulnerabilidades, recuerdos y fuerzas internas. Al compartir la obra, se abre un espacio donde el espectador reconoce también sus propias luces y sombras. El Mundo Interior se transforma continuamente a partir de emociones, vivencias y aprendizajes, pudiendo dialogar con símbolos ancestrales, tradiciones espirituales o enfoques del psicoanálisis, expandiendo la experiencia creativa.
+  Esta búsqueda es íntima y honesta. No se concibe necesariamente para exhibición pública: cada trazo revela vulnerabilidades, recuerdos y fuerzas internas. Al compartir la obra, se abre un püle donde el espectador reconoce también sus propias luces y sombras. El Püle rakizuam se transforma continuamente a partir de emociones, vivencias y aprendizajes, pudiendo dialogar con símbolos ancestrales, tradiciones espirituales o enfoques del psicoanálisis, expandiendo la experiencia creativa.
 </p>
 
 <p class="parrafo">
@@ -28,12 +28,12 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  Este apartado reúne una serie de dinámicas artísticas que invitan a explorar ese territorio íntimo. La introspección creativa es un acto liberador, pero también un compromiso con la autenticidad: cuando lo personal se comparte, lo íntimo se vuelve universal y nos recuerda que todos habitamos un viaje interior en permanente transformación.
+  Este apartado reúne una serie de dinámicas az-küdaws que invitan a explorar ese mapu íntimo. La introspección creativa es un acto liberador, pero también un compromiso con la autenticidad: cuando lo personal se comparte, lo íntimo se vuelve universal y nos recuerda que todos habitamos un viaje interior en permanente transformación.
 </p>
 
 <br>
 
-<h2 class="subtitulo">Dinámicas artísticas para la introspección y el bienestar</h2>
+<h2 class="subtitulo">Dinámicas az-küdaws para la introspección y el bienestar</h2>
 
 <div class="owl-carousel carousel-fancy">
 

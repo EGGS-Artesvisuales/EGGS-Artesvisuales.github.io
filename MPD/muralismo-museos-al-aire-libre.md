@@ -1,27 +1,27 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Muralismo - Museos al aire libre"
-description: "Museos al aire libre dentro de la serie Muralismo de Esteban Garnica."
+title: "Muralismo - Wente mapu musoe"
+description: "Wente mapu musoe dentro de la serie Muralismo de Esteban Garnica."
 permalink: /MPD/muralismo-museos-al-aire-libre.html
 keywords: "muralismo, museo al aire libre, arte barrial, Villa Alberto Larraguibel, Villa Los Quillayes, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
-<h1 class="titulo">Museos al aire libre</h1>
-<h2 class="subtitulo">Lo comunitario: Museos al aire libre</h2>
+<h1 class="titulo">Wente mapu musoe</h1>
+<h2 class="subtitulo">Lof mew: Wente mapu musoe</h2>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Mural Al Padre en fachada de Villa Alberto Larraguibel" loading="eager">
   <figcaption>Al Padre, Villa Alberto Larraguibel, La Florida, 2025. Registro optimizado para web desde el archivo MAAL.</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  <strong>MAAL</strong> agrupa experiencias de muralismo de gran formato organizadas por localidad, entendidas como museos al aire libre o conjuntos urbanos de murales. El criterio principal no es el festival ni la facilitacion, sino la localizacion, la escala urbana y la forma en que cada muro participa de un recorrido territorial.
+  <strong>MAAL</strong> agrupa experiencias de muralismo de gran formato organizadas por localidad, entendidas como museos al aire libre o conjuntos urbanos de murales. El criterio principal no es el festival ni la facilitacion, sino la localizacion, la escala urbana y la forma en que cada muro participa de un recorrido mapu mew.
 </p>
 
 <p class="parrafo">
-  En esta linea, la calle, la fachada, la circulacion cotidiana y la memoria vecinal forman parte del sistema de lectura. Cada obra existe como imagen individual, pero tambien como pieza de un conjunto barrial mayor.
+  En esta linea, la calle, la fachada, la circulacion cotidiana y la memoria vecinal forman parte del sistema de lectura. Cada obra existe como az individual, pero tambien como pieza de un conjunto barrial mayor.
 </p>
 
 <div class="archivo-panel">
@@ -59,18 +59,18 @@ carousel: true
     <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detalle del retrato mural Al Padre" loading="lazy">
     <div>
       <h3>Proceso 2025</h3>
-      <p>El proyecto conserva memoria, cronograma, adjudicacion, rendicion y abundante registro de proceso vinculado a Talentos Creativos La Florida 2025.</p>
+      <p>El küdaw conserva memoria, cronograma, adjudicacion, rendicion y abundante registro de proceso vinculado a Talentos Creativos La Florida 2025.</p>
     </div>
   </article>
 </div>
 
 <p class="parrafo">
-  Dentro de MAAL, cada carpeta de localidad puede contener una o mas capsulas reales de obra. Esta organizacion permite leer los murales como archivo territorial: imagen, barrio, escala, financiamiento, proceso y memoria publica funcionando juntos.
+  Dentro de MAAL, cada carpeta de localidad puede contener una o mas capsulas reales de obra. Esta organizacion permite leer los murales como archivo mapu mew: az, barrio, escala, financiamiento, proceso y memoria publica funcionando juntos.
 </p>
 
 
 
-<div class="owl-carousel carousel-imagen">
+<div class="owl-carousel carousel-az">
   <figure class="item">
     <div class="img-container">
       <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Vista panoramica del mural Al Padre" loading="lazy">

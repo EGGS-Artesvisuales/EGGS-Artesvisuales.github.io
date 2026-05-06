@@ -1,42 +1,42 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Representación del Mundo – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que interpretan el mundo exterior a través de una mirada crítica, estética y contemporánea."
+title: "Wallmapu ñi azentun – Serie de obras de Esteban Garnica"
+description: "Serie de obras de Esteban Garnica que interpretan el wallmapu exterior a través de una mirada crítica, estética y contemporánea."
 permalink: /MPD/mundo-exterior.html
-keywords: "Representación del Mundo, mundo exterior, arte contemporáneo, paisaje simbólico, lectura visual del entorno, Esteban Garnica, EGGS-Studio"
+keywords: "Wallmapu ñi azentun, wallmapu exterior, arte contemporáneo, paisaje simbólico, lectura azentun del entorno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
-<h1 class="titulo">Representación del Mundo</h1>
+<h1 class="titulo">Wallmapu ñi azentun</h1>
 <h2 class="subtitulo">Retrato de lo contemporáneo</h2>
 <br>
 <div class="mermaid">
 flowchart LR
   principal((Actividad Artística))
-  representacion(("Representación del Mundo"))
-  accion(["Acción en el Mundo"])
-  interior(["Mundo Interior"])
+  representacion(("Wallmapu ñi azentun"))
+  accion(["Mapu mew Küdaw"])
+  interior(["Püle rakizuam"])
 
   principal --> representacion
   principal --> accion
   principal --> interior
 
-  representacion --> tangible(["Lo Tangible"])
-  representacion --> intangible(["Lo Intangible"])
+  representacion --> tangible(["Kalül mew"])
+  representacion --> intangible(["Lo Püllü mew"])
 
-  click principal "/MPD/index.html" "Ir al Inicio"
-  click representacion "/MPD/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/MPD/tangible.html" "Ir a Lo Tangible"
-  click intangible "/MPD/intangible.html" "Ir a Lo Intangible"
-  click accion "/MPD/accion.html" "Ir a Acción en el Mundo"
-  click interior "/MPD/interior.html" "Ir a Mundo Interior"
+  click principal "/MPD/index.html" "Ir al Wünen"
+  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
+  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
+  click accion "/MPD/accion.html" "Ir a Mapu mew Küdaw"
+  click interior "/MPD/interior.html" "Ir a Püle rakizuam"
 </div>
 
 <br>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
+  Desde los inicios de la humanidad, la pintura y las artes azentunes han sido una vía para comprender el wallmapu y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la az.
 </p>
 
 <p class="parrafo">
@@ -44,7 +44,7 @@ flowchart LR
 </p>
 
 <p class="parrafo">
-  Esta sección reúne obras y procesos que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el mundo físico y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
+  Esta sección reúne obras y küdaw rüpü que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el wallmapu físico y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
 </p>
 
 <p class="parrafo">
@@ -55,25 +55,25 @@ flowchart LR
 <br><br>
 
 
-<h2 class="subtitulo">Lo Tangible</h2>
+<h2 class="subtitulo">Kalül mew</h2>
 
 <div class="mermaid">
 flowchart LR
-  representacion((Representación del Mundo))
-  tangible(("Lo Tangible"))
-  intangible(["Lo Intangible"])
+  representacion((Wallmapu ñi azentun))
+  tangible(("Kalül mew"))
+  intangible(["Lo Püllü mew"])
 
   representacion --> tangible
   representacion --> intangible
 
-  tangible --> saturacion(["La Saturación"])
-  tangible --> tecnologia(["La Tecnología"])
+  tangible --> saturacion(["Fentepun"])
+  tangible --> tecnologia(["Teknologia"])
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/MPD/tangible.html" "Ir a Lo Tangible"
-  click saturacion "/MPD/saturacion.html" "Ir a La Saturación"
-  click tecnologia "/MPD/en-construccion.html" "Ir a La Tecnología"
-  click intangible "/MPD/intangible.html" "Ir a Lo Intangible"
+  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
+  click saturacion "/MPD/saturacion.html" "Ir a Fentepun"
+  click tecnologia "/MPD/en-construccion.html" "Ir a Teknologia"
+  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
 </div>
 <br>
 
@@ -86,7 +86,7 @@ flowchart LR
 </p>
 
 <p class="parrafo">
-  Dentro de “Lo Tangible” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el mundo material? La primera es <strong>La Saturación</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, visual, informativa y sensorial— como condición de época. La segunda es <strong>La Tecnología</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
+  Dentro de “Kalül mew” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el wallmapu material? La primera es <strong>Fentepun</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, azentun, informativa y sensorial— como condición de época. La segunda es <strong>Teknologia</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
 </p>
 
 <p class="parrafo">
@@ -99,16 +99,16 @@ flowchart LR
 <div class="button-container">
   <a href="/MPD/saturacion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
-      <p class="title">La Saturación</p>
+      <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
+      <p class="title">Fentepun</p>
       <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
     </div>
   </a>
 
   <a href="/MPD/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
-      <p class="title">La Tecnología</p>
+      <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="Teknologia">
+      <p class="title">Teknologia</p>
       <p class="subtitle">Influencias en el entorno contemporáneo</p>
     </div>
   </a>
@@ -116,32 +116,32 @@ flowchart LR
 
 <hr class="separador separador--medio" />
 
-<h2 class="subtitulo">Lo Intangible</h2>
+<h2 class="subtitulo">Lo Püllü mew</h2>
 
 <div class="mermaid">
 flowchart LR
-  representacion((Representación del Mundo))
-  tangible(["Lo Tangible"])
-  intangible(("Lo Intangible"))
+  representacion((Wallmapu ñi azentun))
+  tangible(["Kalül mew"])
+  intangible(("Lo Püllü mew"))
 
   representacion --> tangible
   representacion --> intangible
 
-  intangible --> capitalismo(["Imágenes del Capitalismo"])
-  intangible --> ancestros(["Imágenes de los Ancestros"])
-  intangible --> popular(["Imágenes de lo Popular"])
+  intangible --> capitalismo(["Capitalismo ñi pu az"])
+  intangible --> ancestros(["Pu az de los Ancestros"])
+  intangible --> popular(["Pu che ñi pu az"])
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/MPD/tangible.html" "Ir a Lo Tangible"
-  click intangible "/MPD/intangible.html" "Ir a Lo Intangible"
-  click capitalismo "/MPD/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
-  click ancestros "/MPD/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-  click popular "/MPD/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
+  click tangible "/MPD/tangible.html" "Ir a Kalül mew"
+  click intangible "/MPD/intangible.html" "Ir a Lo Püllü mew"
+  click capitalismo "/MPD/imagenes-capitalismo.html" "Ir a Capitalismo ñi pu az"
+  click ancestros "/MPD/imagenes-ancestros.html" "Ir a Pu az de los Ancestros"
+  click popular "/MPD/imagenes-popular.html" "Ir a Pu che ñi pu az"
 </div>
 
 
 <p class="parrafo">
-  Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La creación busca dar forma a aquello que se intuye o se imagina, abriendo espacio a lecturas simbólicas y reflexiones profundas sobre el presente.
+  Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La dewman busca dar forma a aquello que se intuye o se imagina, abriendo püle a lecturas simbólicas y reflexiones profundas sobre el presente.
 </p>
 
 <p class="parrafo">
@@ -154,24 +154,24 @@ flowchart LR
 
   <a href="/MPD/imagenes-capitalismo.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Imágenes del Capitalismo">
-      <p class="title">Imágenes del Capitalismo</p>
+      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Capitalismo ñi pu az">
+      <p class="title">Capitalismo ñi pu az</p>
       <p class="subtitle">Reflexiones sobre estructuras económicas</p>
     </div>
   </a>
 
   <a href="/MPD/imagenes-popular.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Imágenes de lo Popular">
-      <p class="title">Imágenes de lo Popular</p>
+      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Pu che ñi pu az">
+      <p class="title">Pu che ñi pu az</p>
       <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
     </div>
   </a>
 
   <a href="/MPD/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros">
-      <p class="title">Imágenes de los Ancestros</p>
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros">
+      <p class="title">Pu az de los Ancestros</p>
       <p class="subtitle">Conexiones con memoria y legado</p>
     </div>
   </a>

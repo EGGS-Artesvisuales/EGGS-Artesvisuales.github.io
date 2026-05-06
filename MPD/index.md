@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "EGGS-Studio – Inicio"
-description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista visual y muralista chileno. Arte contemporáneo, pintura expandida, muralismo comunitario y proyectos culturales desde Santiago de Chile."
+title: "EGGS-Studio – Wünen"
+description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista azentun y muralista chileno. Az-küdaw contemporáneo, pintura expandida, muralismo lof mew y küdaw culturales desde Santiago de Chile."
 permalink: /MPD/index.html
-keywords: "EGGS-Studio, Esteban Garnica, artista visual chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo comunitario, arte público, proyectos culturales, Santiago de Chile"
+keywords: "EGGS-Studio, Esteban Garnica, artista azentun chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo lof mew, arte fütra che mew, küdaw culturales, Santiago de Chile"
 mermaid: true
 carousel: true
 
@@ -17,44 +17,44 @@ carousel: true
 
 <br>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
+  <figcaption>Fentepun / Kutxan / kutxan pinturas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
 </figure>
 
 <br>
 
 <p class="parrafo" style="margin-top: 7%;">
-  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
-  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: 
-  1) la representación del mundo exterior, 2) la acción en el mundo y 3) la exploración del mundo interior. 
-  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
+  Este es el püle donde convergen las distintas dimensiones de mi trabajo como artista azentun. 
+  Aquí se articulan küdaw íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: 
+  1) la representación del wallmapu exterior, 2) la acción en el wallmapu y 3) la exploración del wallmapu interior. 
+  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo azentun.
 </p>
 
 
 
 <div class="mermaid">
 flowchart LR
-  principal(("Actividad artística"))
-  representacion(["Representación del mundo"])
-  accion(["Acción en el mundo"])
-  interior(["Exploración del mundo interior"])
+  principal(("Actividad az-küdaw"))
+  representacion(["Wallmapu ñi azentun"])
+  accion(["Mapu mew küdaw"])
+  interior(["Exploración del wallmapu interior"])
 
   principal --> representacion
   principal --> accion
   principal --> interior
 
-  click representacion "/MPD/mundo-exterior.html" "Ir a Representación del mundo"
-  click accion "/MPD/accion.html" "Ir a Acción en el mundo"
-  click interior "/MPD/interior.html" "Ir a Mundo interior"
+  click representacion "/MPD/mundo-exterior.html" "Ir a Wallmapu ñi azentun"
+  click accion "/MPD/accion.html" "Ir a Mapu mew küdaw"
+  click interior "/MPD/interior.html" "Ir a Püle rakizuam"
 </div>
 
 
 
 <p class="parrafo" style="margin-top: 7%;">
-  Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo. 
-  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de proyectos culturales.
-  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
+  Te invito a recorrer estos tres ejes para conocer mi universo az-küdaw: explorar obras y series, leer sobre mis küdaw rüpü, y acceder a distintas formas de vínculo con mi trabajo. 
+  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de küdaw culturales.
+  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada küdaw.
 </p>
 
 <hr class="separador separador--aire" />
@@ -64,27 +64,27 @@ flowchart LR
   <a href="/MPD/mundo-exterior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp" 
-           alt="Obras de Representación del Mundo" loading="lazy">
-      <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
+           alt="Küdaw de Wallmapu ñi azentun" loading="lazy">
+      <p class="title">Wallmapu ñi azentun</p>
+      <p class="subtitle">Küdaw que observan, retratan y reflexionan el wallmapu actual.</p>
     </div>
   </a>
 
   <a href="/MPD/accion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/index---gif--accion-en-el-mundo.webp" 
-           alt="Obras de Acción en el Mundo" loading="lazy">
-      <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
+           alt="Küdaw de Mapu mew Küdaw" loading="lazy">
+      <p class="title">Mapu mew Küdaw</p>
+      <p class="subtitle">Prácticas de acción en el wallmapu, artes lof mews, talleres, oficios y servicios culturales.</p>
     </div>
   </a>
 
   <a href="/MPD/interior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.webp" 
-           alt="Exploración del Mundo Interior" loading="lazy">
-      <p class="title">Mundo Interior</p>
-      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
+           alt="Exploración del Püle rakizuam" loading="lazy">
+      <p class="title">Püle rakizuam</p>
+      <p class="subtitle">Obra de exploracion personal y küdaw rüpü dedicados a la introspección y el bienestar.</p>
     </div>
   </a>
 
@@ -92,4 +92,4 @@ flowchart LR
 
 
 
-<a href="/MPD/exhibiciones.html" class="enlace">Ver más obras</a>
+<a href="/MPD/exhibiciones.html" class="enlace">Doy küdaw adkintun</a>

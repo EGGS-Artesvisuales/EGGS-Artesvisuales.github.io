@@ -1,35 +1,35 @@
 ---
 layout: default-mpd
 lang: arn
-title: "La Peste: Pinturas Infectadas – Serie de obras de Esteban Garnica"
-description: "Serie 'Pinturas Infectadas' de Esteban Garnica: una exploración visual sobre la contaminación ambiental, las crisis invisibles y las tensiones que afectan el ecosistema contemporáneo."
+title: "Kutxan: Kutxan Pinturas – Serie de obras de Esteban Garnica"
+description: "Serie 'Kutxan Pinturas' de Esteban Garnica: una exploración azentun sobre la contaminación ambiental, las crisis invisibles y las tensiones que afectan el ecosistema contemporáneo."
 permalink: /MPD/peste-pinturas-infectadas.html
-keywords: "Pinturas Infectadas, La Peste, contaminación ambiental, arte ecológico, pintura contemporánea, arte chileno, crisis invisibles, Esteban Garnica, EGGS-Studio"
+keywords: "Kutxan Pinturas, Kutxan, contaminación ambiental, arte ecológico, pintura contemporánea, arte chileno, crisis invisibles, Esteban Garnica, EGGS-Studio"
 mermaid: true
 carousel: true
 ---
 
-<h1 class="titulo" id="top">Pinturas Infectadas</h1>
+<h1 class="titulo" id="top">Kutxan Pinturas</h1>
 <h2 class="subtitulo">Saturación y contaminación en el lenguaje pictórico</h2>
 <br>
 
-<!-- Imagen de apertura -->
-<figure class="imagen-con-caption">
+<!-- Az de apertura -->
+<figure class="az-con-caption">
   <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg"
-       alt="Pinturas Infectadas: técnica mixta con erosión y elementos contaminantes"
+       alt="Kutxan Pinturas: técnica mixta con erosión y elementos contaminantes"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: Serie S/T, óleo y plásticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: Serie S/T, óleo y plásticos sobre tela, 45 x 65 cm c/u, 2008</figcaption>
 </figure>
 
 <hr class="separador separador--aire" />
 
 <!-- Texto introductorio -->
 <section class="parrafo">
-  <p>La serie <strong>«Pinturas Infectadas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona pintura con elementos residuales del consumo. Utilizo materiales como envases, tapas plásticas y papel impreso —recuperado de catálogos y revistas— para producir superficies erosionadas, intervenidas y transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
+  <p>La serie <strong>«Kutxan Pinturas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona pintura con elementos residuales del consumo. Utilizo materiales como envases, tapas plásticas y papel impreso —recuperado de catálogos y revistas— para producir superficies erosionadas, intervenidas y transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
 
   <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p>
 
-  <p>Las obras se componen por estratos superpuestos que distorsionan la imagen pictórica. Este enfoque establece un paralelismo entre la piel del cuerpo, la superficie del territorio y la propia pintura: lo noble y lo natural aparece infectado por elementos invasores. Las piezas funcionan como retratos críticos del Antropoceno, evidenciando la cicatriz humana en nuestra época.</p>
+  <p>Las obras se componen por estratos superpuestos que distorsionan la az pictórica. Este enfoque establece un paralelismo entre la piel del cuerpo, la superficie del mapu y la propia pintura: lo noble y lo natural aparece infectado por elementos invasores. Las piezas funcionan como retratos críticos del Antropoceno, evidenciando la cicatriz humana en nuestra época.</p>
 
   <p>El proceso evolucionó desde intervenciones iniciales —con materiales plásticos y residuos publicitarios sobre soportes tradicionales— hacia la incorporación de soportes precontaminados: PVC industrial, lonas publicitarias descartadas y papel reciclado. Estos vestigios del consumo aportan una materialidad contradictoria: simultáneamente frágil y resistente, efímera y persistente, según su procedencia en el ecosistema del desperdicio.</p>
 
@@ -45,17 +45,17 @@ carousel: true
 <!-- ========================= -->
 <div class="mermaid">
 flowchart LR
-  RM((Representación del Mundo))
-  LT((Lo Tangible))
-  Z2([Lo Intangible])
+  RM((Wallmapu ñi azentun))
+  LT((Kalül mew))
+  Z2([Lo Püllü mew])
 
-  LS((La Saturación))
-  LTec([La Tecnología])
-  LP((La Peste))
-  LI([Lo Invisible])
+  LS((Fentepun))
+  LTec([Teknologia])
+  LP((Kutxan))
+  LI([Pengekenon])
   DP([Desplazamiento de la Pintura])
 
-  PI((Pinturas Infectadas))
+  PI((Kutxan Pinturas))
   ST([Soportes tradicionales])
   SB([Soportes blandos])
 
@@ -90,17 +90,17 @@ flowchart LR
   MOD --> MODP
   SB --> UNI
 
-  click RM "/MPD/mundo-exterior.html" "Ver Representación del Mundo"
-  click LT "/MPD/tangible.html" "Ver Lo Tangible"
-  click Z2 "/MPD/intangible.html" "Ver Lo Intangible"
+  click RM "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
+  click LT "/MPD/tangible.html" "Ver Kalül mew"
+  click Z2 "/MPD/intangible.html" "Ver Lo Püllü mew"
 
-  click LS "/MPD/saturacion.html" "Ver La Saturación"
-  click LTec "/MPD/en-construccion.html" "Ver La Tecnología"
-  click LP "/MPD/la-peste.html" "Ver La Peste"
-  click LI "/MPD/lo-invisible.html" "Ver Lo Invisible"
+  click LS "/MPD/saturacion.html" "Ver Fentepun"
+  click LTec "/MPD/en-construccion.html" "Ver Teknologia"
+  click LP "/MPD/la-peste.html" "Ver Kutxan"
+  click LI "/MPD/lo-invisible.html" "Ver Pengekenon"
   click DP "/MPD/desplazamiento-pintura.html" "Ver Desplazamiento de la Pintura"
 
-  click PI "/MPD/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+  click PI "/MPD/peste-pinturas-infectadas.html" "Ver Kutxan Pinturas"
 
   click ST "#soportes-tradicionales" "Ir a Soportes tradicionales"
   click INT "#intervenciones" "Ir a Intervenciones"
@@ -127,7 +127,7 @@ flowchart LR
   INT --> INT1(["1. Serie Sin Título (2008)"])
 
   PROD --> P1(["1. Serie sin título n°1 (2008/2010)"])
-  PROD --> P2(["2. Paisajes de carretera (2008/2009)"])
+  PROD --> P2(["2. Mapu az de carretera (2008/2009)"])
   PROD --> P3(["3. Autofusión (2009/2010)"])
   PROD --> P4(["4. Banderas infectadas (2008/2025)"])
 
@@ -137,7 +137,7 @@ flowchart LR
 
   click INT1 "#intervencion-serie-st-2008" "Ir a Serie Sin Título (Intervenciones) 2008"
   click P1 "#produccion-serie-st-1-2008-2010" "Ir a Serie sin título n°1 (Producciones)"
-  click P2 "#produccion-paisajes-carretera-2008-2009" "Ir a Paisajes de carretera"
+  click P2 "#produccion-paisajes-carretera-2008-2009" "Ir a Mapu az de carretera"
   click P3 "#produccion-autofusion-2009-2010" "Ir a Autofusión"
   click P4 "#produccion-banderas-infectadas-2008-2025" "Ir a Banderas infectadas"
 </div>
@@ -153,7 +153,7 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    <strong>Intervenciones agrupan acciones artísticas sobre obras de otros autores</strong>, generando tensión entre el valor original y el daño simbólico y real mediante raspados, perforaciones y collages con desechos publicitarios. Estas piezas reproducen la agresión ambiental, estableciendo un vínculo entre la nobleza de la naturaleza y la tradición artística.
+    <strong>Intervenciones agrupan acciones az-küdaws sobre obras de otros autores</strong>, generando tensión entre el valor original y el daño simbólico y real mediante raspados, perforaciones y collages con desechos publicitarios. Estas piezas reproducen la agresión ambiental, estableciendo un vínculo entre la nobleza de la naturaleza y la tradición az-küdaw.
     <br><br>
     Este ejercicio de corrupción convierte la pintura en mercancía alterada, desplazando el foco del acto creativo al objeto dañado y representando el entorno contemporáneo. La confrontación de materiales industriales y elementos naturales retoma la fórmula conceptual de la serie, inspirada en enfermedades infecciosas y síntomas cutáneos.
     <br><br>
@@ -165,19 +165,19 @@ flowchart LR
 
 <h4 class="subtitulo2" id="intervencion-serie-st-2008">1. Serie Sin Título, 2008</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
-         alt="Pinturas Infectadas - Intervención n°1, 65 x 85 cm, 2008"
+         alt="Kutxan Pinturas - Intervención n°1, 65 x 85 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°1, 65 x 85 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Intervención n°1, 65 x 85 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-02.jpg"
-         alt="Pinturas Infectadas - Intervención n°2, 65 x 85 cm, 2008"
+         alt="Kutxan Pinturas - Intervención n°2, 65 x 85 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Intervención n°2, 65 x 85 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Intervención n°2, 65 x 85 cm, 2008</em></figcaption>
   </figure>
 </div>
 
@@ -187,7 +187,7 @@ flowchart LR
     <br><br>
     Corrupción de obras preexistentes: la pintura se convierte en mercancía alterada. El contraste entre materiales industriales y naturaleza retoma la fórmula conceptual de la serie.
     <br><br>
-    En la pieza n° 1, las tapas plásticas remiten a brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se estenciló, evocando el graffiti y su invasión cuantitativa: acumulación, iteración y saturación del espacio.
+    En la pieza n° 1, las tapas plásticas remiten a brotes de peste o acné; en la n° 2, la palabra <em>ARTE</em> se estenciló, evocando el graffiti y su invasión cuantitativa: acumulación, iteración y saturación del püle.
   </p>
 </section>
 
@@ -197,7 +197,7 @@ flowchart LR
 
 <section class="parrafo">
   <p>
-    Obras originales que combinan materiales industriales y residuos publicitarios con técnicas de óleo y acrílico. Este contraste entre la pintura clásica y la saturación visual contemporánea explora el impacto del consumismo en la percepción cotidiana y refleja el estado actual del paisaje.
+    Küdaw originales que combinan materiales industriales y residuos publicitarios con técnicas de óleo y acrílico. Este contraste entre la pintura clásica y la saturación azentun contemporánea explora el impacto del consumismo en la percepción cotidiana y refleja el estado actual del paisaje.
   </p>
 </section>
 
@@ -205,82 +205,82 @@ flowchart LR
 
 <h4 class="subtitulo2" id="produccion-serie-st-1-2008-2010">1. Serie sin título n°1 - 2008 / 2010</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-ST-001.jpg"
-         alt="Pinturas Infectadas - Producción: mujer en bicicleta, 90 x 70 cm, 2009"
+         alt="Kutxan Pinturas - Producción: mujer en bicicleta, 90 x 70 cm, 2009"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producciones: mujer en bicicleta, esmalte acrílico sobre PVC, 90 x 70 cm, 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-001b.jpg"
-         alt="Pinturas Infectadas - Producción S/T 01, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 01, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 01, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-002.jpg"
-         alt="Pinturas Infectadas - Producción S/T 02, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 02, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 02, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 02, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003.jpg"
-         alt="Pinturas Infectadas - Producción S/T 03, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 03, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 03, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 03, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-004.jpg"
-         alt="Pinturas Infectadas - Producción S/T 04, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 04, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 04, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 04, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-005b.jpg"
-         alt="Pinturas Infectadas - Producción S/T 05, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 05, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 05, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 05, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-006b.jpg"
-         alt="Pinturas Infectadas - Producción S/T 06, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 06, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 06, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-007.jpg"
-         alt="Pinturas Infectadas - Producción S/T 07, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 07, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 07, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 07, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-003-1.jpg"
-         alt="Pinturas Infectadas - Producción S/T 08, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 08, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 08, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 08, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-008.jpg"
-         alt="Pinturas Infectadas - Producción S/T 09, 40 x 50 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 09, 40 x 50 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 09, 40 x 50 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 09, 40 x 50 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pes-pint-produccion-Serie01-009.jpg"
-         alt="Pinturas Infectadas - Producción S/T 10, 40 x 40 cm, 2008"
+         alt="Kutxan Pinturas - Producción S/T 10, 40 x 40 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción, S/T 10, 40 x 40 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción, S/T 10, 40 x 40 cm, 2008</em></figcaption>
   </figure>
 </div>
 
@@ -292,55 +292,55 @@ flowchart LR
     <br><br>
     Invirtiendo el gesto de Just Stop Oil, en lugar de atacar obras ajenas, infecto mi propia producción.
     <br><br>
-    "Pinturas infectadas" no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
+    "kutxan pinturas" no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
   </p>
 </section>
 
 <hr class="separador separador--aire" />
 
-<h4 class="subtitulo2" id="produccion-paisajes-carretera-2008-2009">2. Serie Paisajes de carretera - 2008 / 2009</h4>
+<h4 class="subtitulo2" id="produccion-paisajes-carretera-2008-2009">2. Serie Mapu az de carretera - 2008 / 2009</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-06b.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-01b.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-02.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-03b.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-04b.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-paisajecarretera-05b.jpg"
-         alt="Pinturas Infectadas - Paisajes de carretera, 55 x 85 cm, 2010"
+         alt="Kutxan Pinturas - Mapu az de carretera, 55 x 85 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / producción - Paisajes de carretera, 55 x 85 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / producción - Mapu az de carretera, 55 x 85 cm, 2010</em></figcaption>
   </figure>
 </div>
 
@@ -350,7 +350,7 @@ flowchart LR
     <br><br>
     Esta serie se inspira en la tarea de documentar la presencia publicitaria en los márgenes de las carreteras chilenas e interrumpe el paisaje periódicamente: el soporte integra capas de revistas, catálogos y periódicos, formando una piel bajo los óleos, en donde se filtran las iconografías comerciales, sugiriendo que la naturaleza está interrumpida por los objetos residuo del consumo.
     <br><br>
-    La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un territorio colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
+    La serie concluye con una bandera nacional intervenida con residuos gráficos, síntesis cruda de un mapu colonizado por la publicidad. Este método de soporte contaminado definió mis obras posteriores: el material de prensa publicitaria se vuelve un recurso esencial para retratar nuestra época, y el paisaje solo adquiere sentido al mostrar su propia infección.
   </p>
 </section>
 
@@ -358,29 +358,29 @@ flowchart LR
 
 <h4 class="subtitulo2" id="produccion-autofusion-2009-2010">3. Autofusión (Autorretrato fisurado) – 2009</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-001.jpg"
-         alt="Autofusión – Pinturas Infectadas (díptico), 2010"
+         alt="Autofusión – Kutxan Pinturas (díptico), 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción: <strong>Autofusión</strong>, díptico, 110 x 100 cm c/u, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción: <strong>Autofusión</strong>, díptico, 110 x 100 cm c/u, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-002.jpg"
          alt="Autofusión A – 110 x 100 cm, 2010"
          loading="lazy">
     <figcaption><em>Autofusión: A — 110 x 100 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-003.jpg"
          alt="Autofusión B – 110 x 100 cm, 2010"
          loading="lazy">
     <figcaption><em>Autofusión: B — 110 x 100 cm, 2010</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-autofusion-004b.jpg"
          alt="Autofusión – Vista general de conjunto, 2010"
          loading="lazy">
@@ -392,7 +392,7 @@ flowchart LR
   <p>
     Díptico de dos paneles de madera (130 × 120 cm c/u) con óleo sobre papel de periódico adherido. Partiendo de una fotografía digital de mi rostro, dividí verticalmente los hemisferios y reflejé cada uno horizontalmente para crear dos retratos asimétricos.
     <br><br>
-    El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Paisajes de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
+    El panel izquierdo presenta pinceladas libres y un acabado inacabado; el derecho, un tratamiento detallado y refinado. El soporte, preparado como en la serie Mapu az de carretera, deja ver fragmentos tipográficos entre las capas de pintura, produciendo el efecto de “peste” que caracteriza toda la serie.
   </p>
 </section>
 
@@ -400,27 +400,27 @@ flowchart LR
 
 <h4 class="subtitulo2" id="produccion-banderas-infectadas-2008-2025">4. Serie de banderas infectadas - 2008/2025</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-01.jpg"
          alt="Banderas infectadas n°1, 55 x 65 cm, 2008"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas infectadas - n°1, 55 x 65 cm, 2008</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-produccion-banderas-02.jpg"
          alt="Banderas infectadas n°2, 70 x 100 cm, 2010"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes tradicionales / Producción / banderas infectadas - n°2, 70 x 100 cm, 2010</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
   <p>
-    Serie de banderas infectadas, como síntesis del territorio. Óleo sobre papel de periódico adherido a paneles de cartón y madera.
+    Serie de banderas infectadas, como síntesis del mapu. Óleo sobre papel de periódico adherido a paneles de cartón y madera.
     <br><br>
-    El soporte, preparado como en la serie Paisajes de carretera, deja entrever fragmentos tipográficos entre las capas de pintura, produciendo el efecto de "peste" que caracteriza toda la serie.
+    El soporte, preparado como en la serie Mapu az de carretera, deja entrever fragmentos tipográficos entre las capas de pintura, produciendo el efecto de "peste" que caracteriza toda la serie.
   </p>
 </section>
 
@@ -458,9 +458,9 @@ flowchart LR
 
   MODP --> SELK(["Mujeres selk'nam infectadas por el fútbol (2019)"])
 
-  UNI --> URET(["Retratos (2019–)"])
-  UNI --> UPAI(["Paisajes (2019–)"])
-  UNI --> UBOD(["Bodegones (2024–)"])
+  UNI --> URET(["Adentu (2019–)"])
+  UNI --> UPAI(["Mapu az (2019–)"])
+  UNI --> UBOD(["Chemkün az (2024–)"])
 
   click SB "#soportes-blandos" "Ir a Soportes blandos"
   click MEM "#membranas" "Ir a Membranas"
@@ -479,18 +479,18 @@ flowchart LR
 
   click SELK "#mujeres-selknam-2019" "Ir a Mujeres selk'nam (2019)"
 
-  click URET "#unidades-retratos-2019" "Ir a Unidades: Retratos"
-  click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Paisajes"
-  click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Bodegones"
+  click URET "#unidades-retratos-2019" "Ir a Unidades: Adentu"
+  click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Mapu az"
+  click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Chemkün az"
 </div>
 
 <section class="parrafo">
   <p>
-    La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en espacios callejeros.
+    La serie de soportes blandos representa una solución técnica que une economía de recursos y potencia conceptual. Sustituyo los bastidores tradicionales por telas sintéticas, lonas y papel publicitario recuperado, que posteriormente son sellados y preparados con cola o esmaltes industriales para asegurar su resistencia. Esta maleabilidad material permite enrollar y doblar las piezas, facilitando su traslado, montaje y almacenaje. Esta característica posteriormente me permitirá evidenciar cruces entre la lógica del cartel urbano, el graffiti, la publicidad, la pintura y el street art al ser instaladas en püles callejeros.
   </p>
   <br>
   <p>
-    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora del contagio y su elección material ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación visual y la contaminación de la sociedad contemporánea, las cuales luego son utilizadas como soporte de mis pinturas. La pintura es aplicada de tal manera que puedo incorporar los elementos impresos en los soportes de papel publicitario. Me interesa crear la interrupción en la apreciación de lo representado, la peste de la saturación. Cada superficie "infectada" actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
+    El uso de papel de prensa y catálogos gratuitos refuerza la metáfora del contagio y su elección material ya ha sido explicada anteriormente: sus impresiones comerciales simbolizan la saturación azentun y la contaminación de la sociedad contemporánea, las cuales luego son utilizadas como soporte de mis pinturas. La pintura es aplicada de tal manera que puedo incorporar los elementos impresos en los soportes de papel publicitario. Me interesa crear la interrupción en la apreciación de lo representado, la peste de la saturación. Cada superficie "infectada" actúa como un registro de la peste mediática, al mismo tiempo práctica y poética, que articula forma, contenido y crítica ecológica.
   </p>
 
   <p>Las obras en soporte blando se agrupan en tres categorías:</p>
@@ -529,22 +529,22 @@ flowchart LR
 <!-- 1. MEMBRANAS -->
 <h3 class="subtitulo2" id="membranas">PINTURAS INFECTADAS / SOPORTES BLANDOS, <br> 1. Membranas</h3>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa01b.jpg"
-       alt="Pinturas Infectadas - Membranas: Mapamundi, 130 x 400 cm, 2009"
+       alt="Kutxan Pinturas - Membranas: Mapamundi, 130 x 400 cm, 2009"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas: Mapamundi, esmalte y óleo sobre papel de prensa encolado, 130 x 400 cm, 2009</figcaption>
 </figure>
 
 <section class="parrafo">
   <p>
-    Las pinturas sobre soportes blandos clasificadas como <strong>Membranas</strong> consisten en tapices flexibles elaborados mediante collage de papel prensa, revistas y carteles urbanos. A través de capas sucesivas de cola fría y, ocasionalmente, una imprimación de látex blanco, se genera una superficie resistente que conserva fragmentos originales, integrando y resaltando la saturación visual del material inicial. Sobre esta membrana se aplican técnicas mixtas, como esmaltes, óleos, acrílicos y tintas, evocando el concepto de "peste" visual que caracteriza esta serie.
+    Las pinturas sobre soportes blandos clasificadas como <strong>Membranas</strong> consisten en tapices flexibles elaborados mediante collage de papel prensa, revistas y carteles urbanos. A través de capas sucesivas de cola fría y, ocasionalmente, una imprimación de látex blanco, se genera una superficie resistente que conserva fragmentos originales, integrando y resaltando la saturación azentun del material inicial. Sobre esta membrana se aplican técnicas mixtas, como esmaltes, óleos, acrílicos y tintas, evocando el concepto de "peste" azentun que caracteriza esta serie.
   </p>
   <p>
-    Su flexibilidad permite un fácil plegado, transporte y montaje, favoreciendo la intervención en espacios públicos y superando las limitaciones del formato tradicional de caballete. Al tratarse de un material altamente adaptable, puede realizarse en fragmentos o etapas sucesivas, lo que reduce la necesidad de contar con un taller amplio. Esta cualidad facilita su instalación directa en contextos urbanos, dialogando con los carteles públicos en deterioro. La obra "Mapamundi" ejemplifica este ciclo: desde su colocación inicial hasta su desgaste natural y eventual retiro, profundizando así en el discurso sobre la saturación mediática y la contaminación visual contemporánea.
+    Su flexibilidad permite un fácil plegado, transporte y montaje, favoreciendo la intervención en püles fütra che mews y superando las limitaciones del formato tradicional de caballete. Al tratarse de un material altamente adaptable, puede realizarse en fragmentos o etapas sucesivas, lo que reduce la necesidad de contar con un taller amplio. Esta cualidad facilita su instalación directa en contextos urbanos, dialogando con los carteles fütra che mews en deterioro. La obra "Mapamundi" ejemplifica este ciclo: desde su colocación inicial hasta su desgaste natural y eventual retiro, profundizando así en el discurso sobre la saturación mediática y la contaminación azentun contemporánea.
   </p>
   <p>
-    Las membranas amplían las posibilidades formales y conceptuales al permitir la creación de obras de gran formato utilizando materiales reciclados. Sin embargo, el manejo de piezas únicas de gran dimensión puede resultar complejo, lo que dio origen al desarrollo de otras categorías dentro de los soportes blandos: los <strong>Módulos</strong> y, posteriormente, la <strong>Unidad</strong>, ofreciendo formatos más prácticos y accesibles.
+    Las membranas amplían las posibilidades formales y conceptuales al permitir la dewman de obras de gran formato utilizando materiales reciclados. Sin embargo, el manejo de piezas únicas de gran dimensión puede resultar complejo, lo que dio origen al desarrollo de otras categorías dentro de los soportes blandos: los <strong>Módulos</strong> y, posteriormente, la <strong>Unidad</strong>, ofreciendo formatos más prácticos y accesibles.
   </p>
 </section>
 
@@ -552,90 +552,90 @@ flowchart LR
 
 <h4 class="subtitulo2" id="verde-2009">1. Verde, 2009</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-001.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-002.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-003.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-004.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-verde-005.jpg"
          alt="Verde (detalle) – Membranas, 2009" loading="lazy">
-    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: Membranas.</em></figcaption>
+    <figcaption><em>Verde, Óleo sobre papel, 120 x 140 cm. 2009. Serie: Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: Membranas.</em></figcaption>
   </figure>
 </div>
 
 <section class="parrafo">
-  <p><strong>Verde</strong> es la obra que inaugura esta serie de soportes blandos tipo membrana. Está elaborada con esmalte óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones aproximadas de 130 x 140 cm. Es la primera pintura que realicé sobre un soporte flexible, similar a tapices hechos con collages de papel prensa, revistas y carteles urbanos. Fue concebida como una alternativa para ampliar los formatos convencionales sin elevar los costos de producción. Este aumento de escala permitió su instalación en espacios públicos de mi localidad, en Santiago de Chile. La obra explora, desde una abstracción deliberada, la saturación visual, centrando la atención en el color —de ahí su nombre. Me interesa que se entienda como pintura, referida esencialmente por el color, que a su vez activa una memoria: ese verde opaco. A todo esto se suma una reflexión sobre el exceso de estímulos visuales en nuestro entorno cotidiano.</p>
+  <p><strong>Verde</strong> es la obra que inaugura esta serie de soportes blandos tipo membrana. Está elaborada con esmalte óleo sobre papel encolado, recuperado de residuos de revistas y catálogos couché, con dimensiones aproximadas de 130 x 140 cm. Es la primera pintura que realicé sobre un soporte flexible, similar a tapices hechos con collages de papel prensa, revistas y carteles urbanos. Fue concebida como una alternativa para ampliar los formatos convencionales sin elevar los costos de producción. Este aumento de escala permitió su instalación en püles fütra che mews de mi localidad, en Santiago de Chile. La obra explora, desde una abstracción deliberada, la saturación azentun, centrando la atención en el color —de ahí su nombre. Me interesa que se entienda como pintura, referida esencialmente por el color, que a su vez activa una memoria: ese verde opaco. A todo esto se suma una reflexión sobre el exceso de estímulos azentunes en nuestro entorno cotidiano.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
 <h4 class="subtitulo2" id="mapamundi-2009-1">2. Mapamundi, 2009</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-01.jpg"
          alt="Mapamundi n°1 – Membranas, 2008/2009" loading="lazy">
-    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: La Saturación / La Peste / Pinturas Infectadas.</em></figcaption>
+    <figcaption><em>Mapamundi n°1 — Óleo y esmalte sobre papel, 120 x 440 cm. 2008. Serie: Fentepun / Kutxan / Kutxan Pinturas.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-02.jpg"
-         alt="Detalle Mapamundi n°1 – Pinturas Infectadas" loading="lazy">
-    <figcaption><em>Detalle de Mapamundi n°1. Serie: La Saturación / La Peste.</em></figcaption>
+         alt="Detalle Mapamundi n°1 – Kutxan Pinturas" loading="lazy">
+    <figcaption><em>Detalle de Mapamundi n°1. Serie: Fentepun / Kutxan.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-03.jpg"
          alt="Detalle Mapamundi n°1 – Técnica mixta" loading="lazy">
     <figcaption><em>Detalle de Mapamundi n°1. Técnica: óleo y esmalte sobre papel.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-04b.jpg"
          alt="Mapamundi n°1 – Vista parcial" loading="lazy">
     <figcaption><em>Vista parcial de Mapamundi n°1. Soporte blando, membrana pictórica.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-05.jpg"
          alt="Mapamundi n°1 – Vista lateral" loading="lazy">
-    <figcaption><em>Mapamundi n°1 desde vista lateral. Pertenece a la serie "Pinturas Infectadas".</em></figcaption>
+    <figcaption><em>Mapamundi n°1 desde vista lateral. Pertenece a la serie "Kutxan Pinturas".</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-06.jpg"
          alt="Detalle técnico – Soporte blando" loading="lazy">
-    <figcaption><em>Detalle técnico del soporte blando. Serie La Peste / La Saturación.</em></figcaption>
+    <figcaption><em>Detalle técnico del soporte blando. Serie Kutxan / Fentepun.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-07.jpg"
          alt="Fragmento compositivo – Mapamundi n°1" loading="lazy">
     <figcaption><em>Fragmento compositivo de Mapamundi n°1. Técnica mixta en papel.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-membr-mapa-acc-08.jpg"
          alt="Extracto final – Mapamundi n°1" loading="lazy">
     <figcaption><em>Extracto final de Mapamundi n°1. Parte de la exploración sobre saturación y membranas pictóricas.</em></figcaption>
@@ -643,28 +643,28 @@ flowchart LR
 </div>
 
 <section class="parrafo">
-  <p><strong>Mapamundi</strong> es una obra realizada con esmalte sintético y óleo sobre papel encolado, reciclado de revistas y catálogos couché. Mide aproximadamente 400 x 130 cm. Se trata de una pintura en soporte blando, semejante a tapices flexibles compuestos por collages de papel prensa, revistas y carteles urbanos, concebida específicamente para su instalación en espacios públicos de La Florida, en Santiago de Chile. La superficie fue intervenida con técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando una línea de exploración pictórica que va del cuerpo y el paisaje hacia las banderas y los mapas, en busca de una abstracción territorial que refleje el fenómeno global de la saturación visual.</p>
+  <p><strong>Mapamundi</strong> es una obra realizada con esmalte sintético y óleo sobre papel encolado, reciclado de revistas y catálogos couché. Mide aproximadamente 400 x 130 cm. Se trata de una pintura en soporte blando, semejante a tapices flexibles compuestos por collages de papel prensa, revistas y carteles urbanos, concebida específicamente para su instalación en püles fütra che mews de La Florida, en Santiago de Chile. La superficie fue intervenida con técnicas mixtas—esmaltes, óleos, acrílicos y tintas—para evocar el concepto de mapamundi, ampliando una línea de exploración pictórica que va del cuerpo y el paisaje hacia las banderas y los mapas, en busca de una abstracción mapu mew que refleje el fenómeno global de la saturación azentun.</p>
 
-  <p>La obra reproduce deliberadamente el ciclo de vida del cartel publicitario urbano: comienza como papel instalado en el muro, sufre el desgaste natural de la intemperie y culmina como residuo. Para ello utilicé engrudo, iniciando intencionalmente su deterioro. Posteriormente realicé una acción performática limpiando el muro disfrazado de trabajador urbano—con casco y guantes—transformando la obra en un acto simbólico de borrado, en clara alusión al <em>Erased de Kooning Drawing</em> de Rauschenberg. Así, esta instalación incorpora el soporte blando como vehículo conceptual que permite el tránsito de la pintura hacia la intervención urbana y la performance, amplificando su crítica a la saturación y contaminación visual contemporáneas.</p>
+  <p>La obra reproduce deliberadamente el ciclo de vida del cartel publicitario urbano: comienza como papel instalado en el muro, sufre el desgaste natural de la intemperie y culmina como residuo. Para ello utilicé engrudo, iniciando intencionalmente su deterioro. Posteriormente realicé una acción performática limpiando el muro disfrazado de trabajador urbano—con casco y guantes—transformando la obra en un acto simbólico de borrado, en clara alusión al <em>Erased de Kooning Drawing</em> de Rauschenberg. Así, esta instalación incorpora el soporte blando como vehículo conceptual que permite el tránsito de la pintura hacia la intervención urbana y la performance, amplificando su crítica a la saturación y contaminación azentun contemporáneas.</p>
 </section>
 
 <br>
 
 <h4 class="subtitulo2" id="mapamundi-2008-2">2.1 Mapamundi n°2, 2008</h4>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-membr-mapa02b.jpg"
-       alt="Mapamundi n°2 – Pinturas Infectadas, 130 x 410 cm"
+       alt="Mapamundi n°2 – Kutxan Pinturas, 130 x 410 cm"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético y óleo sobre papel encolado, 130 x 410 cm, 2008</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / Membranas, Mapamundi n°2: esmalte sintético y óleo sobre papel encolado, 130 x 410 cm, 2008</figcaption>
 </figure>
 
 <section class="parrafo">
-  <p><strong>Mapamundi</strong> es también una pieza de 410 x 130 cm, realizada con esmalte sintético y óleo sobre papel reciclado. Esta obra surge de una investigación interdisciplinaria que articula elementos del grafiti, la pintura híbrida, el cartelismo y la gráfica urbana. El uso de soportes blandos responde a una estrategia de expansión del formato tradicional, en diálogo con las gigantografías publicitarias que dominan el espacio urbano.</p>
+  <p><strong>Mapamundi</strong> es también una pieza de 410 x 130 cm, realizada con esmalte sintético y óleo sobre papel reciclado. Esta obra surge de una investigación interdisciplinaria que articula elementos del grafiti, la pintura híbrida, el cartelismo y la gráfica urbana. El uso de soportes blandos responde a una estrategia de expansión del formato tradicional, en diálogo con las gigantografías publicitarias que dominan el püle urbano.</p>
 
-  <p>Su gran escala facilita su instalación en el espacio público y establece vínculos conceptuales con el muralismo, el grafiti y otras prácticas de arte callejero. A nivel técnico, la obra genera contrastes expresivos mediante la aplicación de materiales opacos y terrosos frente a brillos azulados, evocando simbólicamente tierra y mar. Estos efectos buscan representar una totalidad geográfica abstracta, contaminada y saturada.</p>
+  <p>Su gran escala facilita su instalación en el püle fütra che mew y establece vínculos conceptuales con el muralismo, el grafiti y otras prácticas de arte callejero. A nivel técnico, la obra genera contrastes expresivos mediante la aplicación de materiales opacos y terrosos frente a brillos azulados, evocando simbólicamente tierra y mar. Estos efectos buscan representar una totalidad geográfica abstracta, contaminada y saturada.</p>
 
-  <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos visuales en el mundo contemporáneo.</p>
+  <p>Hoy, <strong>Mapamundi</strong> ya no existe como objeto físico, lo que refuerza su carácter efímero y mi visión sobre la temporalidad del arte. Esta desaparición se convierte en parte de su discurso, señalando la obsolescencia inherente a los objetos culturales y evidenciando la crítica al exceso de estímulos azentunes en el wallmapu contemporáneo.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -700,18 +700,18 @@ flowchart LR
   2. Módulos
 </h3>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg"
        alt="Módulos – Paisaje urbano n°1, 2011"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
+  <figcaption>Fentepun / Kutxan / kutxan pinturas / Soportes blandos: módulos - Paisaje urbano n°1, 2011</figcaption>
 </figure>
 
 <br>
 
 <section class="parrafo">
   <p>
-    <strong>Módulos:</strong> composiciones expansibles creadas a partir de páginas sueltas de catálogos, revistas o periódicos, ensambladas en estructuras que evocan el impacto de la publicidad urbana y su sobresaturación visual. Cada módulo funciona de manera independiente, pero al agruparse configuran una imagen monumental que iguala o supera las dimensiones de los anuncios en el paisaje urbano.
+    <strong>Módulos:</strong> composiciones expansibles creadas a partir de páginas sueltas de catálogos, revistas o periódicos, ensambladas en estructuras que evocan el impacto de la publicidad urbana y su sobresaturación azentun. Cada módulo funciona de manera independiente, pero al agruparse configuran una az monumental que iguala o supera las dimensiones de los anuncios en el paisaje urbano.
   </p>
 
   <p>
@@ -727,15 +727,15 @@ flowchart LR
   </ul>
 
   <p>
-    Conceptualmente, estos módulos funcionan como metáfora de la fragmentación perceptual en la era digital. Cada fragmento conserva vestigios de su contenido original, generando un juego entre lo micro y lo macro. Esto invita a una doble lectura: la observación detallada de cada unidad y la apreciación de la imagen global desde la distancia.
+    Conceptualmente, estos módulos funcionan como metáfora de la fragmentación perceptual en la era digital. Cada fragmento conserva vestigios de su contenido original, generando un juego entre lo micro y lo macro. Esto invita a una doble lectura: la observación detallada de cada unidad y la apreciación de la az global desde la distancia.
   </p>
 
   <p>
-    En cada página decido conscientemente dónde intervenir y dónde respetar la impronta original del material impreso, dando forma a la estética distintiva de <em>La Peste</em> que caracteriza esta serie.
+    En cada página decido conscientemente dónde intervenir y dónde respetar la impronta original del material impreso, dando forma a la estética distintiva de <em>Kutxan</em> que caracteriza esta serie.
   </p>
 
   <p>
-    Al igual que las membranas, la ligereza y modularidad de estas obras amplían sus posibilidades de interacción con el espacio público. Instaladas en muros urbanos, evocan carteles publicitarios de gran formato y establecen un diálogo entre arte, grafiti y publicidad, desafiando las convenciones expositivas tradicionales.
+    Al igual que las membranas, la ligereza y modularidad de estas obras amplían sus posibilidades de interacción con el püle fütra che mew. Instaladas en muros urbanos, evocan carteles publicitarios de gran formato y establecen un diálogo entre arte, grafiti y publicidad, desafiando las convenciones expositivas tradicionales.
   </p>
 </section>
 
@@ -743,74 +743,74 @@ flowchart LR
 
 <h4 class="subtitulo2" id="cordillera-2009">1. Cordillera, 2009</h4>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg"
-       alt="Cordillera – Módulos en espacio público, 195 × 510 cm"
+       alt="Cordillera – Módulos en püle fütra che mew, 195 × 510 cm"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas de la revista, dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas de la revista, dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</figcaption>
 </figure>
 
 <section class="parrafo">
   <p><strong>Cordillera</strong>, 2008. Óleo sobre 84 páginas de la revista <em>Sábado</em> (suplemento de <em>El Mercurio</em>), dispuestas ortogonalmente en 12 columnas de 7 páginas cada una. Dimensiones: 195 × 510 cm.</p>
 
-  <p><em>Cordillera</em> constituye la primera obra pictórica cuyo soporte se compone exclusivamente de páginas homogéneas. Cada unidad funciona simultáneamente como módulo autónomo y fragmento de una imagen de mayor escala, sustituyendo el pliegue característico de obras anteriores por una fragmentación modular que permite ampliar dimensiones sin las limitaciones del espacio de taller. Esta estructura facilita, además, el plegado de la pintura al tamaño de los módulos individuales, optimizando su montaje, traslado y conservación.</p>
+  <p><em>Cordillera</em> constituye la primera obra pictórica cuyo soporte se compone exclusivamente de páginas homogéneas. Cada unidad funciona simultáneamente como módulo autónomo y fragmento de una az de mayor escala, sustituyendo el pliegue característico de obras anteriores por una fragmentación modular que permite ampliar dimensiones sin las limitaciones del püle de taller. Esta estructura facilita, además, el plegado de la pintura al tamaño de los módulos individuales, optimizando su montaje, traslado y conservación.</p>
 
-  <p>La composición parte de un registro fotográfico de la vista este desde mi taller, reencuadrado estratégicamente para superponer elementos publicitarios frente al macizo cordillerano. Este motivo retoma la tensión dialéctica entre paisaje, publicidad y contaminación explorada desde mis primeras series, confrontando lo natural con lo artificial en un diálogo visual contemporáneo.</p>
+  <p>La composición parte de un registro fotográfico de la vista este desde mi taller, reencuadrado estratégicamente para superponer elementos publicitarios frente al macizo cordillerano. Este motivo retoma la tensión dialéctica entre paisaje, publicidad y contaminación explorada desde mis primeras series, confrontando lo natural con lo artificial en un diálogo azentun contemporáneo.</p>
 
-  <p>A diferencia de la estética de "peste" característica de trabajos previos —donde coexistían dos lógicas espaciales diferenciadas—, en esta pieza predomina un tratamiento realista del espacio, buscando establecer un vínculo de verosimilitud con la experiencia perceptiva. Se preservó deliberadamente la superficie impresa en las zonas publicitarias, manteniendo su impronta original como elemento conceptual.</p>
+  <p>A diferencia de la estética de "peste" característica de trabajos previos —donde coexistían dos lógicas espaciales diferenciadas—, en esta pieza predomina un tratamiento realista del püle, buscando establecer un vínculo de verosimilitud con la experiencia perceptiva. Se preservó deliberadamente la superficie impresa en las zonas publicitarias, manteniendo su impronta original como elemento conceptual.</p>
 
-  <p>En su fase inicial, la pintura fue instalada en diversos muros para ensayos de registro (condiciones lumínicas, encuadre) y debido a circunstancias contextuales (confrontaciones vecinales, características estructurales del soporte mural). La utilización de cinta de enmascarar de doble contacto permitió su adhesión temporal y posterior remoción sin deterioro. Un año después, con la colaboración técnica de Javiera Asenjo, la obra fue adherida mediante engrudo a un muro público, asumiendo plenamente su condición de intervención urbana efímera. Esta acción —que integra pintura, publicidad, práctica gráfica urbana y performance— sacrifica la materialidad objetual en favor de una expansión de los procesos conceptuales, experiencia metodológica que se replicaría posteriormente en piezas como <em>Mapamundi</em>.</p>
+  <p>En su fase inicial, la pintura fue instalada en diversos muros para ensayos de registro (condiciones lumínicas, encuadre) y debido a circunstancias contextuales (confrontaciones vecinales, características estructurales del soporte mural). La utilización de cinta de enmascarar de doble contacto permitió su adhesión temporal y posterior remoción sin deterioro. Un año después, con la kelluwün técnica de Javiera Asenjo, la obra fue adherida mediante engrudo a un muro fütra che mew, asumiendo plenamente su condición de intervención urbana efímera. Esta acción —que integra pintura, publicidad, práctica gráfica urbana y performance— sacrifica la materialidad objetual en favor de una expansión de los küdaw rüpü conceptuales, experiencia metodológica que se replicaría posteriormente en piezas como <em>Mapamundi</em>.</p>
 </section>
 
 <br>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-004.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-003.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-005.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-006b.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-006.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-007.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-008.jpg"
          alt="Cordillera – registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-cordillera-portadag.jpg"
          alt="Cordillera – portada/registro, 2009" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos, módulos: Cordillera, Óleo sobre 84 páginas... Dimensiones: 195 × 510 cm., 2009</em></figcaption>
   </figure>
 </div>
 
@@ -821,18 +821,18 @@ flowchart LR
 
   <p>El formato de gran escala enfatiza la conexión con prácticas de intervención urbana —grafiti, expresión mural y comunicación publicitaria—, mientras que la aproximación técnica explora contrastes cromáticos y texturales mediante la combinación de esmaltes sintéticos, óleos, acrílicos y tintas gráficas. La dualidad material (lo opaco y terroso contrapuesto a lo brillante y azulado) genera una evocación simbólica de los elementos primordiales: tierra y agua.</p>
 
-  <p><strong>Cordillera</strong> ha dejado de existir como entidad física, evidenciando su naturaleza transitoria y mi investigación en torno a la temporalidad en las prácticas artísticas contemporáneas. A través de esta condición efímera, la obra propone una abstracción territorial integral y una reflexión crítica sobre los fenómenos de saturación visual y contaminación característicos de nuestra contemporaneidad.</p>
+  <p><strong>Cordillera</strong> ha dejado de existir como entidad física, evidenciando su naturaleza transitoria y mi investigación en torno a la temporalidad en las prácticas az-küdaws contemporáneas. A través de esta condición efímera, la obra propone una abstracción mapu mew integral y una reflexión crítica sobre los fenómenos de saturación azentun y contaminación característicos de nuestra contemporaneidad.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
 <h4 class="subtitulo2" id="gran-paisaje-1-2010">2. Gran paisaje n°1, 2010</h4>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-002-b.jpg"
        alt="Gran paisaje n°1 – 400 x 750 cm, 2010"
        loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos: modulos. Gran Paisaje n°1, 400 x 750cm, 2010</figcaption>
+  <figcaption>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos: modulos. Gran Paisaje n°1, 400 x 750cm, 2010</figcaption>
 </figure>
 
 <section class="parrafo">
@@ -844,98 +844,98 @@ flowchart LR
 
   <p>La composición aborda la mediación publicitaria en el paisaje, aplicando la técnica de "peste" explorada en <em>Cordillera</em>: la pintura se limita exclusivamente a los intersticios entre los elementos promocionales del catálogo.</p>
 
-  <p>La imagen base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.</p>
+  <p>La az base proviene de fotografías tomadas desde un vehículo en movimiento, mismas que originaron los <em>Estudios para paisaje de carretera</em>. La diferencia principal radica en el cambio de soporte (de madera a papel), permitiendo mayor fragmentación y reducción de peso.</p>
 </section>
 
 <br>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-04.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-01.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-02.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-03.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05b.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-05c.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-06.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-m-07.jpg"
          alt="Gran paisaje n°1 – registro" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
 <br>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-01.jpg"
          alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-02.jpg"
          alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-03.jpg"
          alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-04.jpg"
          alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn1-md-05.jpg"
          alt="Gran paisaje n°1 – detalle" loading="lazy">
-    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran paisaje n°1 — Óleo sobre papel, 400 x 750 cm. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
@@ -947,41 +947,41 @@ flowchart LR
 
 <h4 class="subtitulo2" id="gran-paisaje-2-2014">3. Gran paisaje n°2, 2014</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-01b.jpg"
          alt="Gran paisaje n°2 – 2014" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-02.jpg"
          alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01b.jpg"
          alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-01.jpg"
          alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-d-00.jpg"
          alt="Gran paisaje n°2 – detalle" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-granpn2-ap-01c.jpg"
          alt="Gran paisaje n°2 – aplicación" loading="lazy">
-    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Gran Paisaje n°2 — Acrílico sobre papel de periódico, 400 x 750 cm. 2014. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
@@ -992,52 +992,52 @@ flowchart LR
 
   <p>El motivo es una vista desde mi taller hacia la cordillera, con los tejados de los vecinos en primer plano. Me fascina cómo la luz y la atmósfera cambian día a día, aportando variaciones constantes al paisaje.</p>
 
-  <p>Retomo la estética de “peste” al pintar únicamente en los intersticios que quedan entre las imágenes impresas. Así, los fragmentos sin intervención funcionan como imperfecciones intencionales que distorsionan y suspenden la lectura habitual de la escena.</p>
+  <p>Retomo la estética de “peste” al pintar únicamente en los intersticios que quedan entre las pu az impresas. Así, los fragmentos sin intervención funcionan como imperfecciones intencionales que distorsionan y suspenden la lectura habitual de la escena.</p>
 
-  <p>Al asumir dimensiones publicitarias –4 m de alto por 7,5 m de ancho–, la obra se sitúa en el espacio urbano y dialoga con el entorno de gigantografías y carteles callejeros.</p>
+  <p>Al asumir dimensiones publicitarias –4 m de alto por 7,5 m de ancho–, la obra se sitúa en el püle urbano y dialoga con el entorno de gigantografías y carteles callejeros.</p>
 
-  <p><strong>Gran paisaje n°2</strong> propone, a través de su gran escala y su proceso fragmentario, una reflexión sobre la percepción y la saturación visual en el paisaje contemporáneo.</p>
+  <p><strong>Gran paisaje n°2</strong> propone, a través de su gran escala y su proceso fragmentario, una reflexión sobre la percepción y la saturación azentun en el paisaje contemporáneo.</p>
 </section>
 
 <hr class="separador separador--aire" />
 
 <h4 class="subtitulo2" id="paisaje-urbano-2010">4. Paisaje urbano, 2010</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg"
          alt="Paisaje urbano – 2010" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d01.jpg"
          alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d02.jpg"
          alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d03.jpg"
          alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d04.jpg"
          alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/la-peste-pintura-s-blando-mod-04-d05.jpg"
          alt="Paisaje urbano – detalle" loading="lazy">
-    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: La Saturación / La Peste / Pinturas Infectadas / soportes blandos: modulos.</em></figcaption>
+    <figcaption><em>Paisaje urbano — Óleo sobre papel de periódico, 210 x 290 cm. 2010. Serie: Fentepun / Kutxan / Kutxan Pinturas / soportes blandos: modulos.</em></figcaption>
   </figure>
 </div>
 
@@ -1048,7 +1048,7 @@ flowchart LR
 
   <p>La obra sintetiza técnicas desarrolladas en <em>Cordillera</em> y <em>Gran paisaje de carretera</em>: mantiene intactas las zonas publicitarias del soporte y aplica la estética de "peste" mediante intersticios no pintados entre los recortes periodísticos.</p>
 
-  <p>El trabajo desplaza su enfoque al entorno urbano, representando espacios ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación visual característica del paisaje contemporáneo.</p>
+  <p>El trabajo desplaza su enfoque al entorno urbano, representando püles ya saturados de publicidad. Esta elección temática acentúa la condición de sobresaturación azentun característica del paisaje contemporáneo.</p>
 </section>
 
 <hr class="separador separador--aire" />
@@ -1061,35 +1061,35 @@ flowchart LR
 
 <h4 class="subtitulo2" id="mujeres-selknam-2019">1. Mujeres selk'nam infectadas por el fútbol, 2019</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-01.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-02.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-03.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-04.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-mod-b-mselk-05.jpg"
          alt="Módulos print – mujeres selknam, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - modulos: print / mujeres selknam infectadas por el futbol, 110 x 120cm, 2019</em></figcaption>
   </figure>
 </div>
 
@@ -1101,18 +1101,18 @@ flowchart LR
 <div class="mermaid">
 flowchart LR
   UNI([Unidades])
-  URET(["Retratos (2019–)"])
-  UPAI(["Paisajes (2019–)"])
-  UBOD(["Bodegones (2024–)"])
+  URET(["Adentu (2019–)"])
+  UPAI(["Mapu az (2019–)"])
+  UBOD(["Chemkün az (2024–)"])
 
   UNI --> URET
   UNI --> UPAI
   UNI --> UBOD
 
   click UNI "#unidades" "Ir a Unidades"
-  click URET "#unidades-retratos-2019" "Ir a Retratos"
-  click UPAI "#unidades-paisajes-2019" "Ir a Paisajes"
-  click UBOD "#unidades-bodegones-2024" "Ir a Bodegones"
+  click URET "#unidades-retratos-2019" "Ir a Adentu"
+  click UPAI "#unidades-paisajes-2019" "Ir a Mapu az"
+  click UBOD "#unidades-bodegones-2024" "Ir a Chemkün az"
 </div>
 
 <hr class="separador separador--aire" />
@@ -1123,26 +1123,26 @@ flowchart LR
   3. Unidades
 </h3>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-003.jpg"
          alt="Unidades – serie paisajes (etapa 1), 2019"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 1, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 1, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-004.jpg"
          alt="Unidades – serie paisajes (etapa 2), 2019"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 2, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 2, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-005.jpg"
          alt="Unidades – serie paisajes (etapa 3), 2019"
          loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie paisajes - etapa 3, 55 x 27 cm. 2019</em></figcaption>
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie paisajes - etapa 3, 55 x 27 cm. 2019</em></figcaption>
   </figure>
 </div>
 
@@ -1155,15 +1155,15 @@ flowchart LR
 
   <p>Exhibidas enmarcadas tras vidrio y paspartú, estas piezas dialogan con las artes gráficas y ofrecen una experiencia íntima: invitan al espectador a una contemplación cercana y personal, estableciendo una conexión directa con la obra.</p>
 
-  <p>Mi intervención es meticulosa: selecciono cuidadosamente las áreas a intervenir y las que conservo intactas, configurando un complejo diálogo visual entre el soporte impreso y mi narrativa pictórica. Cada unidad puede existir de forma independiente o integrarse en instalaciones mayores, ampliando las posibilidades de montaje y lectura.</p>
+  <p>Mi intervención es meticulosa: selecciono cuidadosamente las áreas a intervenir y las que conservo intactas, configurando un complejo diálogo azentun entre el soporte impreso y mi narrativa pictórica. Cada unidad puede existir de forma independiente o integrarse en instalaciones mayores, ampliando las posibilidades de montaje y lectura.</p>
 
-  <p>Con este trabajo elevo el material publicitario desechable a la categoría de arte reflexivo, invitando al público a reconsiderar su relación con los objetos cotidianos y la omnipresencia de la publicidad.</p>
+  <p>Con este trabajo elevo el material publicitario desechable a la categoría de arte reflexivo, invitando al fütra che mew a reconsiderar su relación con los objetos cotidianos y la omnipresencia de la publicidad.</p>
 
   <p>Las unidades se organizan en tres series principales:</p>
   <ul>
-    <li><strong>Retratos (2019–):</strong> rostros intervenidos por la “peste publicitaria” impresa en el soporte.</li>
-    <li><strong>Bodegones (2024–):</strong> productos cotidianos reinterpretados y “infectados” mediante omisiones selectivas de pintura.</li>
-    <li><strong>Paisajes (2019–):</strong> escenas naturales tratadas con la estética de la “peste”, resaltando la saturación visual.</li>
+    <li><strong>Adentu (2019–):</strong> rostros intervenidos por la “peste publicitaria” impresa en el soporte.</li>
+    <li><strong>Chemkün az (2024–):</strong> productos cotidianos reinterpretados y “infectados” mediante omisiones selectivas de pintura.</li>
+    <li><strong>Mapu az (2019–):</strong> escenas naturales tratadas con la estética de la “peste”, resaltando la saturación azentun.</li>
   </ul>
 </section>
 
@@ -1171,47 +1171,47 @@ flowchart LR
 
 <h4 class="subtitulo2" id="unidades-retratos-2019">RETRATOS: 1. Serie sin título - 2008</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-002.jpg"
-         alt="Unidades – Retratos S/T n°1, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°1, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°1, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-001.jpg"
-         alt="Unidades – Retratos S/T n°2, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°2, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°2, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-003.jpg"
-         alt="Unidades – Retratos S/T n°3, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°3, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°3, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°3, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-004.jpg"
-         alt="Unidades – Retratos S/T n°4, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°4, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°4, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°4, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-005.jpg"
-         alt="Unidades – Retratos S/T n°5, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°5, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°5, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°5, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-006.jpg"
-         alt="Unidades – Retratos S/T n°6, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°6, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°6, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°6, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-ret-007.jpg"
-         alt="Unidades – Retratos S/T n°7, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie retratos - S/T n°7, 25 x 40 cm. 2019</em></figcaption>
+         alt="Unidades – Adentu S/T n°7, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie retratos - S/T n°7, 25 x 40 cm. 2019</em></figcaption>
   </figure>
 </div>
 
@@ -1219,17 +1219,17 @@ flowchart LR
 
 <h4 class="subtitulo2" id="unidades-paisajes-2019">PAISAJES: 1. Serie sin título - 2019</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-001.jpg"
-         alt="Unidades – Paisajes, marina 01, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
+         alt="Unidades – Mapu az, marina 01, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-sop-blando-uni-paisaje-002.jpg"
-         alt="Unidades – Paisajes, marina 01, 2019" loading="lazy">
-    <figcaption><em>La Saturación / La Peste, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
+         alt="Unidades – Mapu az, marina 01, 2019" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan, pinturas infectadas - soportes blandos - unidades - paisajes - marina 01, 55 x 27 cm (sin marco) - 2019</em></figcaption>
   </figure>
 </div>
 
@@ -1237,17 +1237,17 @@ flowchart LR
 
 <h4 class="subtitulo2" id="unidades-bodegones-2024">BODEGONES: 1. Serie sin título - 2008</h4>
 
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen">
+<div class="owl-carousel carousel-az">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
-         alt="Bodegones – En construcción" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
+         alt="Chemkün az – Dewmangen mew" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
   </figure>
 
-  <figure class="imagen-con-caption item--imagen">
+  <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/intro-a-web-eggstudiob.webp"
-         alt="Bodegones – En construcción" loading="lazy">
-    <figcaption><em>La Saturación / La Peste / Pinturas Infectadas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
+         alt="Chemkün az – Dewmangen mew" loading="lazy">
+    <figcaption><em>Fentepun / Kutxan / Kutxan Pinturas / Soportes blandos / unidades / serie bodegones - en construcción</em></figcaption>
   </figure>
 </div>
 
@@ -1255,6 +1255,6 @@ flowchart LR
 
 <!-- Botón volver arriba (si tu CSS lo maneja como link simple) -->
 <p class="parrafo" style="margin-top:2rem;">
-  <a href="#top">Volver arriba</a>
+  <a href="#top">Wente mew wiñotun</a>
 </p>
 <br>

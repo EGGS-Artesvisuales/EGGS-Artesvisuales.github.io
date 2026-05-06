@@ -1,17 +1,17 @@
 ---
 layout: default-mpd
-title: "Contacto – EGGS-Studio"
-description: "Ponte en contacto con Esteban Garnica y EGGS-Studio para proyectos de arte, muralismo, restauración, docencia o colaboraciones culturales."
-keywords: "contacto EGGS-Studio, Esteban Garnica, muralismo, restauración de arte, proyectos artísticos, colaboraciones, arte en Chile"
+title: "Nütram – EGGS-Studio"
+description: "Nütramkawün Esteban Garnica ka EGGS-Studio mew: az-küdaw, muralismo, küme dewün, kimeltun ka kelluwün."
+keywords: "contacto EGGS-Studio, Esteban Garnica, muralismo, restauración de arte, küdaw az-küdaws, kelluwün, arte en Chile"
 permalink: /MPD/contacto.html
 ---
 
-<h1 class="titulo">Contacto</h1>
+<h1 class="titulo">Nütram</h1>
 
-<h2 class="subtitulo">Consultas, colaboraciones y proyectos</h2>
+<h2 class="subtitulo">Ramtu, kelluwün ka küdaw</h2>
 
 <p class="subtitulo2" style="margin-left: 3rem; margin-top: 2rem;">
-  Completa el siguiente formulario y me pondré en contacto contigo a la brevedad.
+  Faw wirintuku tami nütram; pichi mew wiñotun ka nütramkayu.
 </p>
 
 <form class="contact-form" 
@@ -19,17 +19,17 @@ permalink: /MPD/contacto.html
       method="POST">
 
   <!-- Campos del formulario -->
-  <label for="name">Nombre:</label>
-  <input type="text" id="name" name="name" required placeholder="Tu nombre">
+  <label for="name">Üy:</label>
+  <input type="text" id="name" name="name" required placeholder="Tami üy">
 
-  <label for="email">Correo electrónico:</label>
-  <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required placeholder="Tami email">
 
-  <label for="message">Mensaje:</label>
-  <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí"></textarea>
+  <label for="message">Nütram:</label>
+  <textarea id="message" name="message" rows="5" required placeholder="Faw wirintuku tami nütram"></textarea>
 
   <!-- Botón de envío -->
-  <button type="submit">Enviar</button>
+  <button type="submit">Werkün</button>
 
   <!-- Configuración adicional opcional -->
   <input type="hidden" name="_next" value="https://eggs-studio.cl/MPD/gracias.html">

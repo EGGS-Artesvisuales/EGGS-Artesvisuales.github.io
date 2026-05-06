@@ -1,24 +1,24 @@
 ---
 layout: default-mpd
-title: "Archivo – Bocetos, documentos y procesos de obra"
-description: "Explora el archivo de EGGS-Studio: bocetos, documentos, catálogos, escritos y procesos que registran el desarrollo artístico de Esteban Garnica."
-keywords: "archivo artístico, EGGS-Studio, Esteban Garnica, bocetos, catálogos de arte, documentos de obra, procesos creativos, arte contemporáneo Chile"
+title: "Archivo – Bocetos, documentos y küdaw rüpü de obra"
+description: "Explora el archivo de EGGS-Studio: bocetos, documentos, catálogos, escritos y küdaw rüpü que registran el desarrollo az-küdaw de Esteban Garnica."
+keywords: "archivo az-küdaw, EGGS-Studio, Esteban Garnica, bocetos, catálogos de arte, documentos de obra, küdaw rüpü creativos, arte contemporáneo Chile"
 permalink: /MPD/archivo.html
 ---
 
-<h1 class="titulo">Archivo de EGGS-Studio</h1>
+<h1 class="titulo">EGGS-Studio ñi Archivo</h1>
 
-<h2 class="subtitulo">Un espacio para explorar procesos, documentación y referencias</h2>
+<h2 class="subtitulo">Fachi püle mew adkintugey küdaw, wirin ka kimün</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Aquí encontrarás una recopilación de material documental que refleja mi proceso creativo en distintas etapas: bocetos, registros de obra, catálogos, escritos y archivos que acompañan el desarrollo de proyectos.
+  Aquí encontrarás una recopilación de material documental que refleja mi proceso creativo en distintas etapas: bocetos, registros de obra, catálogos, escritos y archivos que acompañan el desarrollo de küdaw.
 </p>
 
 <p class="parrafo">
-  Este archivo está en constante construcción y crecimiento. Su propósito es ofrecer acceso abierto a referencias, investigaciones, documentos y material visual que contribuyen a comprender el recorrido de las obras y su contexto.
+  Este archivo está en constante construcción y crecimiento. Su propósito es ofrecer acceso abierto a referencias, investigaciones, documentos y material azentun que contribuyen a comprender el recorrido de las obras y su contexto.
 </p>
 
-<h3 class="subtitulo2" style="margin-top: 4%;">Categorías del Archivo</h3>
+<h3 class="subtitulo2" style="margin-top: 4%;">Archivo ñi trokiñ</h3>
 <br>
 
 <div class="button-container">
@@ -57,6 +57,6 @@ permalink: /MPD/archivo.html
   </a>
 </div>
 
-<a href="/MPD/en-construccion.html" class="enlace">Ver más archivos</a>
+<a href="/MPD/en-construccion.html" class="enlace">Doy archivo adkintun</a>
 
 <br><br>

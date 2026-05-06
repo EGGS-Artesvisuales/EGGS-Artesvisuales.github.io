@@ -11,7 +11,7 @@ carousel: true
 <h1 class="titulo">Muralismo</h1>
 <h2 class="subtitulo">Festivales</h2>
 
-<figure class="imagen-con-caption">
+<figure class="az-con-caption">
   <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural realizado en Festival La Legua 2010" loading="eager">
   <figcaption>Festival La Legua, 2010. Registro optimizado para web desde el archivo FEST.</figcaption>
 </figure>
@@ -65,12 +65,12 @@ carousel: true
 </div>
 
 <p class="parrafo">
-  FEST se diferencia de Museos al Aire Libre y de Facilitacion porque aqui el criterio de ingreso es la participacion en un marco evental, no la localidad fija ni el proceso comunitario continuo. Aun asi, cada capsula puede conectarse con otras ramas del archivo segun tecnica, periodo, colaboraciones o territorio.
+  FEST se diferencia de Museos al Aire Libre y de Facilitacion porque aqui el criterio de ingreso es la participacion en un marco evental, no la localidad fija ni el proceso lof mew continuo. Aun asi, cada capsula puede conectarse con otras ramas del archivo segun tecnica, periodo, kelluwün o mapu.
 </p>
 
 
 
-<div class="owl-carousel carousel-imagen">
+<div class="owl-carousel carousel-az">
   <figure class="item">
     <div class="img-container">
       <img class="carousel-img" src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural panoramico Festival La Legua 2010" loading="lazy">

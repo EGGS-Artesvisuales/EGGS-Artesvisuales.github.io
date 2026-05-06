@@ -2,8 +2,8 @@
 layout: default-mpd
 lang: arn
 title: "Desplazamiento de la Pintura – Expansión y contaminación del soporte"
-description: "Investigación visual de Esteban Garnica sobre el desplazamiento de la pintura hacia objetos, espacios domésticos, públicos y naturales, explorando nuevas materialidades y fricciones sensoriales."
-keywords: "desplazamiento de la pintura, pintura expandida, arte contemporáneo Chile, Esteban Garnica, materialidad pictórica, pintura y espacio doméstico, prácticas experimentales"
+description: "Investigación azentun de Esteban Garnica sobre el desplazamiento de la pintura hacia objetos, püles ruka mews, fütra che mews y naturales, explorando nuevas materialidades y fricciones sensoriales."
+keywords: "desplazamiento de la pintura, pintura expandida, arte contemporáneo Chile, Esteban Garnica, materialidad pictórica, pintura y püle ruka mew, prácticas experimentales"
 permalink: /MPD/desplazamiento-pintura.html
 mermaid: true
 ---
@@ -15,7 +15,7 @@ mermaid: true
 
 <section class="parrafo">
   <p>
-    El concepto de <strong>Desplazamiento de la Pintura</strong> refiere a la expansión del lenguaje pictórico más allá del bastidor, del caballete y del espacio expositivo tradicional. Este desplazamiento ocurre en tres dimensiones fundamentales: el espacio doméstico, el espacio público y el entorno natural/rural.
+    El concepto de <strong>Desplazamiento de la Pintura</strong> refiere a la expansión del lenguaje pictórico más allá del bastidor, del caballete y del püle expositivo tradicional. Este desplazamiento ocurre en tres dimensiones fundamentales: el püle ruka mew, el püle fütra che mew y el entorno natural/mapu lof mew.
   </p>
 
   <p>
@@ -28,15 +28,15 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  Z([Representación del Mundo])
-  Y([Lo Tangible])
-  A([La Saturación])
-  B([La Peste])
+  Z([Wallmapu ñi azentun])
+  Y([Kalül mew])
+  A([Fentepun])
+  B([Kutxan])
   F([Desplazamiento de la Pintura])
 
-  F1([Espacio Doméstico])
-  F2([Espacio Público])
-  F3([Espacio Rural / Natural])
+  F1([Püle Ruka mew])
+  F2([Püle Fütra che mew])
+  F3([Püle Mapu lof mew / Natural])
 
   Z --> Y
   Y --> A
@@ -48,14 +48,14 @@ graph LR
   F --> F3
 
   %% Enlaces (existentes)
-  click Z "/MPD/mundo-exterior.html" "Ver Representación del Mundo"
-  click Y "/MPD/tangible.html" "Ver Lo Tangible"
-  click A "/MPD/saturacion.html" "Ver La Saturación"
-  click B "/MPD/la-peste.html" "Ver La Peste"
+  click Z "/MPD/mundo-exterior.html" "Ver Wallmapu ñi azentun"
+  click Y "/MPD/tangible.html" "Ver Kalül mew"
+  click A "/MPD/saturacion.html" "Ver Fentepun"
+  click B "/MPD/la-peste.html" "Ver Kutxan"
   click F "/MPD/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/MPD/espacio-domestico.html" "Ir a Espacio Doméstico"
-  click F2 "/MPD/espacio-publico.html" "Ir a Espacio Público"
-  click F3 "/MPD/espacio-rural.html" "Ir a Espacio Rural / Natural"
+  click F1 "/MPD/espacio-domestico.html" "Ir a Püle Ruka mew"
+  click F2 "/MPD/espacio-publico.html" "Ir a Püle Fütra che mew"
+  click F3 "/MPD/espacio-rural.html" "Ir a Püle Mapu lof mew / Natural"
 
 </div>
 
@@ -64,22 +64,22 @@ graph LR
 <div class="button-container">
   <a href="/MPD/espacio-domestico.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Espacio doméstico">
-      <p class="title">Espacio doméstico</p>
-      <p class="subtitle">Desplazamiento de la pintura al espacio inmediato</p>
+      <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Püle ruka mew">
+      <p class="title">Püle ruka mew</p>
+      <p class="subtitle">Desplazamiento de la pintura al püle inmediato</p>
     </div>
   </a>
   <a href="/MPD/espacio-publico.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Espacio público">
-      <p class="title">Espacio público</p>
+      <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Püle fütra che mew">
+      <p class="title">Püle fütra che mew</p>
       <p class="subtitle">Desplazamiento de la pintura hacia intervenciones urbanas</p>
     </div>
   </a>
   <a href="/MPD/espacio-rural.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Espacio rural/natural">
-      <p class="title">Espacio rural / natural</p>
+      <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Püle mapu lof mew/natural">
+      <p class="title">Püle mapu lof mew / natural</p>
       <p class="subtitle">Desplazamiento de la pintura hacia intervenciones en la naturaleza</p>
     </div>
   </a>

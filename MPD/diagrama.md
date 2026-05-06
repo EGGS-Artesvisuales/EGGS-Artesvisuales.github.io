@@ -1,17 +1,17 @@
 ---
 layout: default-mpd
-title: "Diagrama de Obra – Estructura y relaciones del proyecto artístico"
-description: "Visualiza el diagrama general de la obra de Esteban Garnica: vínculos entre series, procesos, conceptos y acciones dentro de su práctica artística contemporánea."
-keywords: "diagrama de obra, mapa conceptual arte, estructura artística, Esteban Garnica, EGGS-Studio, procesos creativos, arte contemporáneo Chile"
+title: "Küdaw ñi azentun – Estructura y relaciones del küdaw az-küdaw"
+description: "Azentuniza el diagrama general de la obra de Esteban Garnica: vínculos entre series, küdaw rüpü, conceptos y acciones dentro de su práctica az-küdaw contemporánea."
+keywords: "diagrama de obra, mapa conceptual arte, estructura az-küdaw, Esteban Garnica, EGGS-Studio, küdaw rüpü creativos, arte contemporáneo Chile"
 permalink: /MPD/diagrama.html
 mermaid: true
 ---
 
-<h1 class="titulo">Diagrama de Obra</h1>
-<h2 class="subtitulo">Un mapa visual de ideas, conceptos y prácticas artísticas</h2>
+<h1 class="titulo">Küdaw ñi azentun</h1>
+<h2 class="subtitulo">Un mapa azentun de ideas, conceptos y prácticas az-küdaws</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Este diagrama reúne las principales líneas que estructuran mi práctica artística. Cada categoría opera como un eje conceptual que se ramifica en series, proyectos y procesos específicos. El esquema permite visualizar cómo se relacionan las distintas áreas de trabajo, evidenciando cruces, afinidades y desarrollos que componen mi investigación visual.
+  Este diagrama reúne las principales líneas que estructuran mi práctica az-küdaw. Cada categoría opera como un eje conceptual que se ramifica en series, küdaw y küdaw rüpü específicos. El esquema permite azentunizar cómo se relacionan las distintas áreas de trabajo, evidenciando cruces, afinidades y desarrollos que componen mi investigación azentun.
 </p>
 
 <p class="parrafo">
@@ -20,23 +20,23 @@ mermaid: true
 
 <hr class="separador" />
 
-<!-- 1) Representación del Mundo -->
-<h2 class="subtitulo">Representación del Mundo</h2>
+<!-- 1) Wallmapu ñi azentun -->
+<h2 class="subtitulo">Wallmapu ñi azentun</h2>
 
 <div class="mermaid">
 graph LR
-  A((Representación del Mundo)) --> A1((Lo Tangible))
-  A --> A2((Lo Intangible))
+  A((Wallmapu ñi azentun)) --> A1((Kalül mew))
+  A --> A2((Lo Püllü mew))
 
-  A1 --> A1a((La Saturación))
-  A1a --> A1a1([La Peste])
-  A1a1 --> A1a1a([Pinturas Infectadas])
+  A1 --> A1a((Fentepun))
+  A1a --> A1a1([Kutxan])
+  A1a1 --> A1a1a([Kutxan Pinturas])
   A1a1a --> A1a1a1([Soportes tradicionales])
   A1a1a --> A1a1a2([Soportes Blandos])
 
   %% HIJOS: Soportes tradicionales
-  A1a1a1 --> ST_OP([Obras propias])
-  A1a1a1 --> ST_OA([Obras ajenas])
+  A1a1a1 --> ST_OP([Ñi mülechi küdaw])
+  A1a1a1 --> ST_OA([Kakeche ñi küdaw])
 
   %% HIJOS: Soportes blandos
   A1a1a2 --> SB_MEM([Membranas])
@@ -44,23 +44,23 @@ graph LR
   A1a1a2 --> SB_PU([Página única])
 
   A1a1 --> A1a1b([Desplazamiento de la Pintura])
-  A1a1b --> A1a1b1([Espacio Doméstico])
-  A1a1b --> A1a1b2([Espacio Público])
-  A1a1b --> A1a1b3([Espacio Rural / Natural])
+  A1a1b --> A1a1b1([Püle Ruka mew])
+  A1a1b --> A1a1b2([Püle Fütra che mew])
+  A1a1b --> A1a1b3([Püle Mapu lof mew / Natural])
 
-  %% HIJOS: Espacio doméstico
+  %% HIJOS: Püle ruka mew
   A1a1b1 --> ED_OBJ([Objetos])
   A1a1b1 --> ED_HAB([Habitaciones])
 
-  A1a --> A1a2([Lo Invisible])
-  A1a2 --> A1a2a([Pinturas Wi-Fi])
+  A1a --> A1a2([Pengekenon])
+  A1a2 --> A1a2a([Wi-Fi Pinturas])
 
-  %% HIJOS: Pinturas Wi-Fi
-  A1a2a --> PW_RET([Retratos])
-  A1a2a --> PW_PAI([Paisajes])
-  A1a2a --> PW_BOD([Bodegones])
+  %% HIJOS: Wi-Fi Pinturas
+  A1a2a --> PW_RET([Adentu])
+  A1a2a --> PW_PAI([Mapu az])
+  A1a2a --> PW_BOD([Chemkün az])
 
-  A1 --> A1b((La Tecnología))
+  A1 --> A1b((Teknologia))
   A1b --> A1b1([La IA])
   A1b --> A1b2([Lo Espacial])
   A1b --> A1b3([Telecomunicaciones])
@@ -79,66 +79,66 @@ graph LR
   A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
 
   %% Enlaces (existentes)
-  click A "mundo-exterior.html" "Ir a Representación del Mundo"
-  click A1 "tangible.html" "Ir a Lo Tangible"
-  click A2 "intangible.html" "Ir a Lo Intangible"
-  click A1a "saturacion.html" "Ir a La Saturación"
-  click A1a1 "la-peste.html" "Ir a La Peste"
-  click A1a1a "/MPD/peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
+  click A "wallmapu-exterior.html" "Ir a Wallmapu ñi azentun"
+  click A1 "tangible.html" "Ir a Kalül mew"
+  click A2 "intangible.html" "Ir a Lo Püllü mew"
+  click A1a "saturacion.html" "Ir a Fentepun"
+  click A1a1 "la-peste.html" "Ir a Kutxan"
+  click A1a1a "/MPD/peste-pinturas-infectadas.html" "Ir a kutxan pinturas"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "/MPD/espacio-domestico.html" "Ir a Espacio Doméstico"
-  click A1a1b2 "/MPD/espacio-publico.html" "Ir a Espacio Público"
-  click A1a1b3 "/MPD/espacio-rural.html" "Ir a Espacio Rural / Natural"
-  click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
+  click A1a1b1 "/MPD/espacio-domestico.html" "Ir a Püle Ruka mew"
+  click A1a1b2 "/MPD/espacio-publico.html" "Ir a Püle Fütra che mew"
+  click A1a1b3 "/MPD/espacio-rural.html" "Ir a Püle Mapu lof mew / Natural"
+  click A1a2 "lo-invisible.html" "Ir a Pengekenon"
   click A2c1 "musoe-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
   %% Enlaces a secciones internas (anchors) ya existentes
 
-  %% Pinturas Infectadas: Soportes tradicionales + hijos
+  %% Kutxan Pinturas: Soportes tradicionales + hijos
   click A1a1a1 "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
-  click ST_OP "/MPD/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias"
-  click ST_OA "/MPD/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas"
+  click ST_OP "/MPD/peste-pinturas-infectadas.html#producciones" "Ir a Ñi mülechi küdaw"
+  click ST_OA "/MPD/peste-pinturas-infectadas.html#intervenciones" "Ir a Kakeche ñi küdaw"
 
-  %% Pinturas Infectadas: Soportes blandos + hijos
+  %% Kutxan Pinturas: Soportes blandos + hijos
   click A1a1a2 "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
   click SB_MEM "/MPD/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
   click SB_MOD "/MPD/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
   click SB_PU "/MPD/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
 
-  %% Espacio doméstico: Objetos / Habitaciones
+  %% Püle ruka mew: Objetos / Habitaciones
   click ED_OBJ "/MPD/espacio-domestico.html#objetos" "Ir a Objetos"
   click ED_HAB "/MPD/espacio-domestico.html#habitaciones" "Ir a Habitaciones"
 
-  %% Pinturas Wi-Fi: página + secciones
-  click A1a2a "/MPD/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
-  click PW_RET "/MPD/pinturas-wifi.html#retratos" "Ir a Retratos"
-  click PW_PAI "/MPD/pinturas-wifi.html#paisajes" "Ir a Paisajes"
-  click PW_BOD "/MPD/pinturas-wifi.html#bodegones" "Ir a Bodegones"
+  %% Wi-Fi Pinturas: página + secciones
+  click A1a2a "/MPD/pinturas-wifi.html" "Ir a Wi-Fi Pinturas"
+  click PW_RET "/MPD/pinturas-wifi.html#retratos" "Ir a Adentu"
+  click PW_PAI "/MPD/pinturas-wifi.html#paisajes" "Ir a Mapu az"
+  click PW_BOD "/MPD/pinturas-wifi.html#bodegones" "Ir a Chemkün az"
 
   %% Enlaces (no existentes aún -> en construcción)
-  click A1b "en-construccion.html" "En construcción"
-  click A1b1 "en-construccion.html" "En construcción"
-  click A1b2 "en-construccion.html" "En construcción"
-  click A1b3 "en-construccion.html" "En construcción"
-  click A2a "en-construccion.html" "En construcción"
-  click A2a1 "en-construccion.html" "En construcción"
-  click A2a2 "en-construccion.html" "En construcción"
-  click A2a3 "en-construccion.html" "En construcción"
-  click A2b "en-construccion.html" "En construcción"
-  click A2b1 "en-construccion.html" "En construcción"
-  click A2b1a "en-construccion.html" "En construcción"
-  click A2c "en-construccion.html" "En construcción"
-  click A2c2 "en-construccion.html" "En construcción"
+  click A1b "en-construccion.html" "Dewmangen mew"
+  click A1b1 "en-construccion.html" "Dewmangen mew"
+  click A1b2 "en-construccion.html" "Dewmangen mew"
+  click A1b3 "en-construccion.html" "Dewmangen mew"
+  click A2a "en-construccion.html" "Dewmangen mew"
+  click A2a1 "en-construccion.html" "Dewmangen mew"
+  click A2a2 "en-construccion.html" "Dewmangen mew"
+  click A2a3 "en-construccion.html" "Dewmangen mew"
+  click A2b "en-construccion.html" "Dewmangen mew"
+  click A2b1 "en-construccion.html" "Dewmangen mew"
+  click A2b1a "en-construccion.html" "Dewmangen mew"
+  click A2c "en-construccion.html" "Dewmangen mew"
+  click A2c2 "en-construccion.html" "Dewmangen mew"
 </div>
 
 <hr class="separador" />
 
-<!-- 2) Acción en el Mundo -->
-<h2 class="subtitulo">Acción en el Mundo</h2>
+<!-- 2) Mapu mew Küdaw -->
+<h2 class="subtitulo">Mapu mew Küdaw</h2>
 
 <div class="mermaid">
 graph LR
-  B((Acción en\nel Mundo)) --> B1((Lo Subrepticio))
+  B((Acción en\nel Wallmapu)) --> B1((Ellka küdaw))
   B1 --> B1a([Remiendas\nUrbanas])
   B1 --> B1b([La Anti-Publicidad])
   B1 --> B1c([Graffiti\n& Tags])
@@ -148,60 +148,60 @@ graph LR
   B1b --> B1b2([Carteles])
   B1b --> B1b3([Piratería publicitaria])
 
-  B --> B2((Lo Comunitario))
+  B --> B2((Lof mew))
   B2 --> B2a([Muralismo])
 
-  B --> B3((Docencia\ny Talleres))
+  B --> B3((Kimeltun\ny Talleres))
   B3 --> B3a([Mineduc])
   B3 --> B3b([Corporaciones])
   B3 --> B3c([Independientes])
 
-  B --> B4((Servicios))
-  B4 --> B4a([Restauración])
+  B --> B4((Kellun))
+  B4 --> B4a([Küme dewün])
   B4 --> B4b([Decoraciones\n& Encargo])
   B4 --> B4c([Asesorías\nTécnicas])
 
   %% Enlaces (existentes)
-  click B "accion.html" "Ir a Acción en el Mundo"
-  click B1 "subrepticio.html" "Ir a Lo Subrepticio"
+  click B "accion.html" "Ir a Mapu mew Küdaw"
+  click B1 "subrepticio.html" "Ir a Ellka küdaw"
   click B1a "subrep-remiendas-urbanas.html" "Ir a Remiendas Urbanas"
   click B1b "subrep-antipublicidad.html" "Ir a La Anti-Publicidad"
-  click B2 "comunitario.html" "Ir a Lo Comunitario"
-  click B3 "docencia.html" "Ir a Docencia y Talleres"
-  click B4 "servicios.html" "Ir a Servicios"
+  click B2 "lof mew.html" "Ir a Lof mew"
+  click B3 "docencia.html" "Ir a Kimeltun ka Talleres"
+  click B4 "servicios.html" "Ir a Kellun"
 
   %% Enlaces (no existentes aún -> en construcción)
-  click B1c "en-construccion.html" "En construcción"
-  click B2a "en-construccion.html" "En construcción"
-  click B3a "en-construccion.html" "En construcción"
-  click B3b "en-construccion.html" "En construcción"
-  click B3c "en-construccion.html" "En construcción"
-  click B4a "en-construccion.html" "En construcción"
-  click B4b "en-construccion.html" "En construcción"
-  click B4c "en-construccion.html" "En construcción"
+  click B1c "en-construccion.html" "Dewmangen mew"
+  click B2a "en-construccion.html" "Dewmangen mew"
+  click B3a "en-construccion.html" "Dewmangen mew"
+  click B3b "en-construccion.html" "Dewmangen mew"
+  click B3c "en-construccion.html" "Dewmangen mew"
+  click B4a "en-construccion.html" "Dewmangen mew"
+  click B4b "en-construccion.html" "Dewmangen mew"
+  click B4c "en-construccion.html" "Dewmangen mew"
 
   %% Enlaces (nuevos hijos -> en construcción)
-  click B1b1 "en-construccion.html" "En construcción"
-  click B1b2 "en-construccion.html" "En construcción"
-  click B1b3 "en-construccion.html" "En construcción"
+  click B1b1 "en-construccion.html" "Dewmangen mew"
+  click B1b2 "en-construccion.html" "Dewmangen mew"
+  click B1b3 "en-construccion.html" "Dewmangen mew"
 </div>
 
 <hr class="separador" />
 
-<!-- 3) Exploración del Mundo Interior -->
-<h2 class="subtitulo">Exploración del Mundo Interior</h2>
+<!-- 3) Exploración del Püle rakizuam -->
+<h2 class="subtitulo">Exploración del Püle rakizuam</h2>
 
 <div class="mermaid">
 graph LR
-  C((Exploración del Mundo Interior)) --> C1((Arte y Psicología))
-  C --> C2((Arte y Espiritualidad))
+  C((Exploración del Püle rakizuam)) --> C1((Az-küdaw y Psicología))
+  C --> C2((Az-küdaw y Espiritualidad))
 
   %% Enlaces (existentes)
-  click C "interior.html" "Ir a Exploración del Mundo Interior"
+  click C "interior.html" "Ir a Exploración del Püle rakizuam"
 
   %% Enlaces (no existentes aún -> en construcción)
-  click C1 "en-construccion.html" "En construcción"
-  click C2 "en-construccion.html" "En construcción"
+  click C1 "en-construccion.html" "Dewmangen mew"
+  click C2 "en-construccion.html" "Dewmangen mew"
 </div>
 
 
