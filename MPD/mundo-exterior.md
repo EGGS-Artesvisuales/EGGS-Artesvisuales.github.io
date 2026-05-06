@@ -2,14 +2,14 @@
 layout: default-mpd
 lang: arn
 title: "Wallmapu ñi azentun – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que interpretan el wallmapu exterior a través de una mirada crítica, estética y contemporánea."
+description: "Esteban Garnica ñi küdaw: wallmapu ñi azentun, crítica adkintun, az ka fachi antü rakizuam mew."
 permalink: /MPD/mundo-exterior.html
 keywords: "Wallmapu ñi azentun, wallmapu exterior, arte contemporáneo, paisaje simbólico, lectura azentun del entorno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
 <h1 class="titulo">Wallmapu ñi azentun</h1>
-<h2 class="subtitulo">Retrato de lo contemporáneo</h2>
+<h2 class="subtitulo">Fachi antü ñi adentu</h2>
 <br>
 <div class="mermaid">
 flowchart LR
@@ -36,19 +36,29 @@ flowchart LR
 <br>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Desde los inicios de la humanidad, la pintura y las artes azentunes han sido una vía para comprender el wallmapu y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la az.
+  Che ñi wünen txipantu mew, pintura ka azentun küdaw müley kiñe rüpü wallmapu
+  kimam ka iñchiñ ñi wall püle azentual. Kura ruka mew wünen wirin mew
+  ka fachi antü ñi prácticas mew, az-küdaw kintuy pengechi dungu müten
+  azentuam gelay, püllü zugu ka fütra rakizuam kimam.
 </p>
 
 <p class="parrafo">
-  En la actualidad, el diálogo con la realidad se expande más allá de los soportes clásicos. Las prácticas contemporáneas combinan la tradición pictórica con instalaciones, fotografía, objetos y medios digitales, abriendo nuevas posibilidades para observar, cuestionar y reinterpretar nuestra experiencia. La pintura sigue siendo un origen fértil, pero no un límite.
+  Fachi antü mew, realidad egu nütram amuley clásico soporte ñi afpun wente.
+  We prácticas txawüley pintura kimün, instalación, foto, chemkün ka digital
+  medio egu. Fey nülakey we rüpü: adkintun, ramtun ka we kimün mew wiñol
+  azentun. Pintura müley wünen folil reke, welu afpun gelay.
 </p>
 
 <p class="parrafo">
-  Esta sección reúne obras y küdaw rüpü que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el wallmapu físico y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
+  Fachi trokiñ txawüley pu küdaw ka rüpü ñi kintun fachi antü ñi püllü zugu.
+  Epu txoy müley: <strong>Kalül mew</strong>, wallmapu físico ka chemkün; ka
+  <strong>Püllü mew</strong>, rakizuam, newen ka fenómeno ñi konün iñchiñ ñi
+  kimün rüpü mew pengekenon mew. Kiñeke küdaw tripay pintura mew ka amuley
+  híbrido, we ka fachi antü az mew.
 </p>
 
 <p class="parrafo">
-  El recorrido se organiza de la siguiente manera:
+  Rüpü feychi az mew azmogen:
 </p>
 
 
@@ -78,19 +88,32 @@ flowchart LR
 <br>
 
 <p class="parrafo">
-  Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: paisaje local, objetos cotidianos y escenas que configuran la experiencia inmediata. El propósito es observar lo que tenemos enfrente con atención sostenida, reconociendo su densidad simbólica y su incidencia en la vida diaria.
+  Fachi trokiñ txawüley pu küdaw ñi adkintun kalül ka chemkün wall püle:
+  mapu az, fill antü chemkün ka püle dungu. Ñi zugu: nor adkintun feychi
+  iñchiñ ñi wente mülelu, ñi azentun newen ka fill antü mogen mew ñi konün kimam.
 </p>
 
 <p class="parrafo">
-  Cada serie recibe un nombre asociado a un rasgo significativo del presente. Así, la colección permanece abierta y en permanente actualización, capaz de incorporar nuevas series a medida que emergen fenómenos, hábitos y sensibilidades que reconfiguran lo contemporáneo.
+  Kiñeke trokiñ niey üy fachi antü ñi kiñe mülechi zugu mew. Fey mew fachi
+  txawün nülaley ka amuley; we fenómeno, hábito ka sensibilidad tripale,
+  we trokiñ konkey fachi antü ñi az wiñol azmogen mew.
 </p>
 
 <p class="parrafo">
-  Dentro de “Kalül mew” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el wallmapu material? La primera es <strong>Fentepun</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, azentun, informativa y sensorial— como condición de época. La segunda es <strong>Teknologia</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
+  "Kalül mew" mew müley, fachi mew, epu trokiñ kiñe ramtun mew tripalu:
+  ¿chem newen fachi antü mew wallmapu material mew wirintukugey?
+  Wünen: <strong>Fentepun</strong>, kutxan, contaminación ka doy mülen wall püle,
+  azentun, información ka kalül kimün mew. Epu: <strong>Teknologia</strong>,
+  mediación txawün ñi akumtun iñchiñ ñi adkintun, trawün ka wall püle ñi
+  dewmangen ka mülen.
 </p>
 
 <p class="parrafo">
-  En ambos casos parto desde la pintura como lenguaje de base, pero el trabajo se despliega en dos líneas complementarias: un cuerpo de <strong>pinturas</strong> y otro de <strong>desplazamientos de la pintura</strong>, donde el gesto pictórico se expande hacia formatos híbridos, medios mixtos e intervenciones contemporáneas. Esta estructura permite sostener una investigación coherente y, a la vez, flexible: la pintura como origen, no como límite.
+  Epu rüpü mew pintura müley wünen dungun. Welu küdaw amuley epu txoy mew:
+  <strong>pinturas</strong> ka <strong>pintura ñi desplazamiento</strong>. Fey mew
+  pintura zugu fütalngey híbrido formato, mixto medio ka fachi antü koneltun
+  mew. Fachi azmogen kellukey kiñe kintukimün nor ka ngüñü: pintura folil reke,
+  afpun reke gelay.
 </p>
 
 <br><br>
@@ -101,7 +124,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
       <p class="title">Fentepun</p>
-      <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
+      <p class="subtitle">Itrofill mogen kutxan ka capitalismo producción.</p>
     </div>
   </a>
 
@@ -109,7 +132,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="Teknologia">
       <p class="title">Teknologia</p>
-      <p class="subtitle">Influencias en el entorno contemporáneo</p>
+      <p class="subtitle">Teknologia ñi newen fachi antü wall püle mew.</p>
     </div>
   </a>
 </div>
@@ -141,11 +164,15 @@ flowchart LR
 
 
 <p class="parrafo">
-  Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La dewman busca dar forma a aquello que se intuye o se imagina, abriendo püle a lecturas simbólicas y reflexiones profundas sobre el presente.
+  Fachi trokiñ txawüley pu küdaw ñi kintun lof, kimün ka abstracto fenómeno:
+  rakizuam, püllü zugu ka newen ñi konün mogen mew, welu kalül mew mülelelay.
+  Dewman kintuy az elual feychi kimngekenon dungu, nülakey püle azentun
+  adkintun ka püllü rakizuam fachi antü mew.
 </p>
 
 <p class="parrafo">
-  Al igual que en la dimensión de lo tangible, esta colección permanece abierta: nuevas series pueden incorporarse a medida que surjan conceptos o problemáticas que dialoguen con la realidad contemporánea.
+  Kalül mew reke, fachi txawün nülaley: we trokiñ konkey we rakizuam kam
+  kutxan dungu tripale, fachi antü realidad egu nütramkey.
 </p>
 
 <br>
@@ -156,7 +183,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Capitalismo ñi pu az">
       <p class="title">Capitalismo ñi pu az</p>
-      <p class="subtitle">Reflexiones sobre estructuras económicas</p>
+      <p class="subtitle">Economía azmogen ñi rakizuam.</p>
     </div>
   </a>
 
@@ -164,7 +191,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Pu che ñi pu az">
       <p class="title">Pu che ñi pu az</p>
-      <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
+      <p class="subtitle">Kimün, admapu ka kom che ñi dungu.</p>
     </div>
   </a>
 
@@ -172,7 +199,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros">
       <p class="title">Pu az de los Ancestros</p>
-      <p class="subtitle">Conexiones con memoria y legado</p>
+      <p class="subtitle">Kimün kuifi, folil ka eluwün egu trawün.</p>
     </div>
   </a>
 

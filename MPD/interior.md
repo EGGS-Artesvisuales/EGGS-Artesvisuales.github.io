@@ -2,38 +2,53 @@
 layout: default-mpd
 lang: arn
 title: "Püle rakizuam – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que exploran la dimensión psicológica, emocional y simbólica del artista."
+description: "Esteban Garnica ñi küdaw: rakizuam, püllü, ayün-kutxan dungu ka azentun kintun."
 permalink: /MPD/interior.html
 keywords: "Püle rakizuam, arte introspectivo, imaginario psicológico, arte contemporáneo, pintura expandida, exploración emocional, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
 <h1 class="titulo">Püle rakizuam</h1>
-<h2 class="subtitulo">Un viaje introspectivo a través del arte</h2>
+<h2 class="subtitulo">Az-küdaw rüpü mew püle rakizuam kintun</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  El concepto de <strong>Püle rakizuam</strong> remite a la práctica az-küdaw como un viaje introspectivo y transformador. Aquí, la dewman se orienta a explorar la emocionalidad, el bienestar físico, espiritual y psicológico. Más que centrarse únicamente en técnicas o formas, esta perspectiva valora el arte como un recurso para la expresión emocional y la autorreflexión.
+  <strong>Püle rakizuam</strong> pingey az-küdaw rüpü ñi püle kintun ka küme akumtun.
+  Faw dewman kintuy püllü zugu, kalül küme mogen, rakizuam ka psicológica
+  dungu. Técnica kam az müten gelay: az-küdaw müley püllü ñi nütram ka iñche
+  ñi adkintun rüpü.
 </p>
 
 <p class="parrafo">
-  Desde disciplinas como la psicología, antropología, neurociencia, filosofía, sociología, meditación y diversas corrientes de espiritualidad, el arte se vuelve un püle convergente de saberes que amplifican la comprensión de nuestra mente y nuestras experiencias afectivas. La práctica az-küdaw intencionada puede calmar el sistema nervioso, aliviar el estrés y estimular la creatividad. Sin embargo, no todo acto creativo es terapéutico: la diferencia radica en la conciencia e intención que guían el proceso. Un autorretrato, por ejemplo, puede ser catártico o simplemente técnico según la postura interna desde la cual se realiza.
+  Psicología, antropología, neurociencia, filosofía, sociología, meditación ka püllü
+  kimün rüpü mew, az-küdaw txawün püle reke müley. Fey kellukey iñchiñ ñi longko,
+  püllü ka afecto kimün. Intención niechi az-küdaw yafümtukey, kutxan rakizuam
+  pichintukey ka dewman newentukey. Welu kom dewman terapéutico gelay: zugu
+  müley conciencia ka intención mew.
 </p>
 
 <p class="parrafo">
-  Esta búsqueda es íntima y honesta. No se concibe necesariamente para exhibición pública: cada trazo revela vulnerabilidades, recuerdos y fuerzas internas. Al compartir la obra, se abre un püle donde el espectador reconoce también sus propias luces y sombras. El Püle rakizuam se transforma continuamente a partir de emociones, vivencias y aprendizajes, pudiendo dialogar con símbolos ancestrales, tradiciones espirituales o enfoques del psicoanálisis, expandiendo la experiencia creativa.
+  Fachi kintun müley pichi, rüf ka nor. Fütra exhibición mew müleal müten gelay:
+  kiñeke wirin nülakey püllü kutxan, kimün kuifi ka ponwi newen. Küdaw
+  trawün mew, adkintufe müley ñi propio kütral ka küdaw ñi trafün. Püle rakizuam
+  amuley püllü zugu, mogen kimün ka aprendizaje mew; ka nütramkey kuifikeche
+  ñi az, püllü admapu ka psicoanálisis rüpü egu.
 </p>
 
 <p class="parrafo">
-  En mi práctica personal, he observado cómo el arte puede actuar como vía de equilibrio y sanación. En contextos colectivos, la creatividad permite fortalecer vínculos, resignificar memorias y abordar conflictos internos desde un lugar seguro y expresivo. El arte se convierte en un camino hacia una comprensión más profunda del ser.
+  Ñi rüpü mew adkintun: az-küdaw elugey küme trawün ka lawen reke. Kom che
+  mew dewman newentukey trawün, kimün kuifi we zugu mew eluy ka ponwi kutxan
+  nor püle mew nütramkey. Az-küdaw amuley che ñi ngen kimün mew.
 </p>
 
 <p class="parrafo">
-  Este apartado reúne una serie de dinámicas az-küdaws que invitan a explorar ese mapu íntimo. La introspección creativa es un acto liberador, pero también un compromiso con la autenticidad: cuando lo personal se comparte, lo íntimo se vuelve universal y nos recuerda que todos habitamos un viaje interior en permanente transformación.
+  Fachi trokiñ txawüley pu dinámica az-küdaw ñi mütrümün ponwi mapu kintual.
+  Dewman püle rakizuam müley nülal zugu ka rüf felen. Che ñi propio dungu
+  trawün mew, pichi dungu wallmapu dungu reke amuley.
 </p>
 
 <br>
 
-<h2 class="subtitulo">Dinámicas az-küdaws para la introspección y el bienestar</h2>
+<h2 class="subtitulo">Az-küdaw dinámica püle rakizuam ka küme mogen mew</h2>
 
 <div class="owl-carousel carousel-fancy">
 
@@ -43,7 +58,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-autorretrato.webp" alt="Autorretrato" loading="lazy">
         <p class="title">Autorretrato</p>
-        <p class="subtitle">Explora tu identidad desde la autoobservación creativa.</p>
+        <p class="subtitle">Tami az che kintunge tami propio adkintun mew.</p>
       </div>
     </a>
   </div>
@@ -54,7 +69,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-bitacoras.webp" alt="Bitácoras y diarios" loading="lazy">
         <p class="title">Bitácoras y diarios</p>
-        <p class="subtitle">Registros de sueños, anhelos, temores y memorias.</p>
+        <p class="subtitle">Pewma, ayün, llükan ka kimün kuifi registro.</p>
       </div>
     </a>
   </div>
@@ -64,8 +79,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Dinámicas Sensoriales" loading="lazy">
-        <p class="title">Dinámicas Sensoriales</p>
-        <p class="subtitle">Ejercicios que estimulan la percepción y la presencia.</p>
+        <p class="title">Allkün ka adkintun dinámica</p>
+        <p class="subtitle">Kalül kimün ka felen newentun.</p>
       </div>
     </a>
   </div>
@@ -76,7 +91,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-mascaras.webp" alt="La Máscara y el Alter Ego" loading="lazy">
         <p class="title">La Máscara y el Alter Ego</p>
-        <p class="subtitle">Explora distintas facetas de tu identidad simbólica.</p>
+        <p class="subtitle">Tami az che ñi kake püllü az kintunge.</p>
       </div>
     </a>
   </div>
@@ -87,7 +102,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala y Zentangle" loading="lazy">
         <p class="title">Mandala y Zentangle</p>
-        <p class="subtitle">Concentración, equilibrio y meditación a través del trazo.</p>
+        <p class="subtitle">Rakizuam, küme trawün ka meditación wirin mew.</p>
       </div>
     </a>
   </div>
@@ -98,7 +113,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-quema.webp" alt="Quema del Mono" loading="lazy">
         <p class="title">Quema del Mono</p>
-        <p class="subtitle">Ritual creativo para liberar tensiones emocionales.</p>
+        <p class="subtitle">Dewman rito ñi nülal püllü tensión.</p>
       </div>
     </a>
   </div>
@@ -109,7 +124,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-afden.webp" alt="Silueta del Exterior Interior" loading="lazy">
         <p class="title">Silueta del Exterior Interior</p>
-        <p class="subtitle">Reflexión sobre cuerpo, identidad y esencia interna.</p>
+        <p class="subtitle">Kalül, az che ka ponwi ngen ñi rakizuam.</p>
       </div>
     </a>
   </div>
@@ -120,7 +135,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-psicomagia.webp" alt="Simulacros y Psicomagia" loading="lazy">
         <p class="title">Simulacros y Psicomagia</p>
-        <p class="subtitle">Actos simbólicos para la transformación personal.</p>
+        <p class="subtitle">Azentun zugu ñi che küme akumtun.</p>
       </div>
     </a>
   </div>
@@ -131,7 +146,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.webp" alt="Sincronización Grafo Cinética" loading="lazy">
         <p class="title">Sincronización Grafo-Cinética</p>
-        <p class="subtitle">Movimiento, trazo y ritmo para estados meditativos.</p>
+        <p class="subtitle">Nekan, wirin ka ritmo meditación püle mew.</p>
       </div>
     </a>
   </div>
@@ -142,7 +157,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-pareidolico.webp" alt="Superficies Pareidólicas" loading="lazy">
         <p class="title">Superficies Pareidólicas</p>
-        <p class="subtitle">Figuras emergentes y proyecciones del inconsciente.</p>
+        <p class="subtitle">Tripachi az ka müñetun rakizuam ñi proyección.</p>
       </div>
     </a>
   </div>
@@ -153,7 +168,7 @@ carousel: true
       <div class="button-content">
         <img src="/assets/img/interior/boton-grafocine.webp" alt="Autopoiesis positiva" loading="lazy">
         <p class="title">Autopoiesis Positiva</p>
-        <p class="subtitle">Prácticas textuales de retroalimentación creativa.</p>
+        <p class="subtitle">Wiriñ rüpü ñi wiñol newentun dewman mew.</p>
       </div>
     </a>
   </div>

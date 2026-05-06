@@ -1,28 +1,28 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Lo Püllü mew – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que indagan en lo invisible, lo espiritual y las fuerzas simbólicas que atraviesan la experiencia contemporánea."
+title: "Püllü mew – Esteban Garnica ñi küdaw trokiñ"
+description: "Esteban Garnica ñi küdaw trokiñ: pengekenon, püllü zugu ka azentun newen fachi antü mew."
 permalink: /MPD/intangible.html
 keywords: "Lo Püllü mew, arte contemporáneo, pintura expandida, simbolismo, espiritualidad, estética de lo invisible, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
-<h1 class="titulo">Lo intangible</h1>
+<h1 class="titulo">Püllü mew</h1>
 
-<h2 class="subtitulo">Wallmapu ñi azentun inmaterial</h2>
+<h2 class="subtitulo">Wallmapu ñi azentun pengekenon</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  En el vasto campo de la representación del wallmapu, emergen dos dimensiones claramente definidas: 
-  la representación de lo tangible, aquello que se manifiesta de manera física y se percibe a través 
-  de los sentidos, y la representación de lo intangible, compuesta por ideas y fuerzas simbólicas que 
-  trascienden lo material. Este apartado reúne las obras que exploran esa esfera inmaterial.
+  Wallmapu ñi azentun mew müley epu fütra txoy: kalül mew, feychi chemkün
+  adkintugey ka allkütugey fill püle mew; ka püllü mew, feychi rakizuam,
+  newen ka az dungu kalül mew mülelelay. Fachi trokiñ txawüley pu küdaw
+  ñi kintun feychi pengekenon püle.
 </p>
 
 <p class="parrafo">
-  Siguiendo mi estrategia pictórica —orientada a captar las tensiones y particularidades de nuestra 
-  contingencia histórica— he organizado estas obras en tres líneas de trabajo que dialogan entre sí 
-  a través de conceptos, imaginarios y estructuras de sentido.
+  Ñi pintura rüpü inarrumen mew, fachi pu küdaw azmogen küla rüpü mew.
+  Fey pu rüpü nütramkey rakizuam, imaginario ka zugu azmogen egu, fachi
+  antü ñi tensión ka kuifi dungu ñi amulen adkintual.
 </p>
 
 <br>
@@ -53,7 +53,7 @@ graph LR
     <div class="button-content">
       <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Capitalismo ñi pu az" loading="lazy">
       <p class="title">Capitalismo ñi pu az</p>
-      <p class="subtitle">Reflexión azentun sobre estructuras económicas y su impacto cotidiano.</p>
+      <p class="subtitle">Azentun rakizuam economía azmogen ka fill antü newen mew.</p>
     </div>
   </a>
 
@@ -61,7 +61,7 @@ graph LR
     <div class="button-content"> 
       <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Pu che ñi pu az" loading="lazy">
       <p class="title">Pu che ñi pu az</p>
-      <p class="subtitle">Celebración y cuestionamiento del imaginario colectivo.</p>
+      <p class="subtitle">Kom che ñi imaginario: ayün, ramtun ka adkintun.</p>
     </div>
   </a>
 
@@ -69,7 +69,7 @@ graph LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros" loading="lazy">
       <p class="title">Pu az de los Ancestros</p>
-      <p class="subtitle">Homenaje a la memoria, tradición y conexión con las raíces.</p>
+      <p class="subtitle">Kimün kuifi, admapu ka folil egu nütram.</p>
     </div>
   </a>
 

@@ -1,8 +1,8 @@
 ---
 layout: default-mpd
 title: "Mapu mew Küdaw – Az-küdaw lof mew ka mapu mew"
-description: "Acciones az-küdaws directas de Esteban Garnica: muralismo lof mew, intervenciones urbanas, docencia y küdaw que articulan arte y mapu."
-keywords: "acción en el wallmapu, arte fütra che mew, prácticas az-küdaws directas, muralismo lof mew, intervenciones urbanas, arte participativo, Esteban Garnica, arte social en Chile"
+description: "Esteban Garnica ñi az-küdaw: muralismo lof mew, waria mew koneltun, kimeltun ka mapu mew küdaw."
+keywords: "mapu mew küdaw, az-küdaw fütra che mew, muralismo lof mew, waria mew koneltun, kelluwün, Esteban Garnica"
 permalink: /MPD/accion.html
 mermaid: true
 ---
@@ -38,15 +38,15 @@ flowchart LR
 <br>
 
 <p class="parrafo" style="margin-top:6%;">
-  El arte ha sido, durante siglos, un püle para la expresión íntima y la reflexión personal. Sin embargo, en el presente, muchas prácticas buscan ir más allá de los márgenes tradicionales del taller o la sala de exhibición. En este giro hacia lo fütra che mew, el arte se convierte en una herramienta capaz de dialogar con el mapu, involucrar a las comunidades y aportar al bienestar colectivo. Bajo este enfoque, la dewman deja de ser únicamente contemplativa para transformarse en un acto que incide directamente en la vida social.
+  Az-küdaw kuifi mew müley kiñe püle rakizuam, püllü dungu ka che ñi nütram. Fachi antü mew, ñi küdaw amulniey doy kamapu: taller mew mülelu, exhibición ruka mew mülelu, ka fütra che mew mülelu. Fey mew az-küdaw nütramkey mapu egu, lof egu ka kom che ñi küme mogen egu.
 </p>
 
 <p class="parrafo">
-  Esta visión de “Mapu mew Küdaw” concibe al artista como un interlocutor activo, comprometido con los lugares, las personas y las problemáticas que conforman la realidad contemporánea. La obra no solo representa; también participa, propone y acompaña küdaw rüpü de transformación. Desde el muralismo lof mew hasta la docencia y las intervenciones urbanas, estas prácticas buscan generar un impacto tangible, respetuoso y sostenido en el tiempo.
+  "Mapu mew Küdaw" mew az-küdawfe müley nütramfe ñi az: adkintuy püle, pu che ka fachi antü ñi kutxan dungu. Küdaw müten azentunlay; konkey, rakizuam eluy ka kellukey küme akumtun rüpü mew. Muralismo lof mew, kimeltun ka waria mew koneltun, kom fey pu rüpü kintuy newen ka yamuwün.
 </p>
 
 <p class="parrafo">
-  En este apartado, se presentan cuatro modalidades que estructuran este enfoque, cada una con metodologías, alcances y objetivos propios. Todas comparten un mismo propósito: contribuir al tejido social mediante la creatividad, el oficio y la kelluwün.
+  Fachi trokiñ mew müley meli rüpü: Lof mew, Ellka küdaw, Kimeltun ka Kellun. Kiñeke rüpü niey ñi az, ñi kimün ka ñi zugu; kom txawüley kiñe rakizuam mew: lof ñi trawün newentun, oficio mew, dewman mew ka kelluwün mew.
 </p>
 
 <br><br>
@@ -59,7 +59,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/boton-lo-comunitarioanimacioin.webp" alt="Lof mew" loading="lazy">
             <p class="title">Lof mew</p>
-            <p class="subtitle">Küdaw que fortalecen la identidad y el encuentro vecinal.</p>
+            <p class="subtitle">Küdaw ñi newentun az che ka lof trawün.</p>
         </div>
     </a>
 
@@ -67,7 +67,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/boton-lo-subrepticio.webp" alt="Ellka küdaw" loading="lazy">
             <p class="title">Ellka küdaw</p>
-            <p class="subtitle">Acciones discretas que revelan nuevas lecturas del mapu.</p>
+            <p class="subtitle">Ellka zugu ñi nülal dungu adkintun mapu mew.</p>
         </div>
     </a>
 
@@ -75,7 +75,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/boton-docencia.webp" alt="Kimeltun ka Talleres" loading="lazy">
             <p class="title">Kimeltun ka Talleres</p>
-            <p class="subtitle">Püles para compartir kimüns y küdaw rüpü creativos.</p>
+            <p class="subtitle">Kimün, taller ka dewman rüpü ñi trawün.</p>
         </div>
     </a>
 
@@ -83,7 +83,7 @@ flowchart LR
         <div class="button-content">
             <img src="/assets/img/boton-servicios.webp" alt="Kellun" loading="lazy">
             <p class="title">Kellun</p>
-            <p class="subtitle">Küme dewün, encargos y soluciones azentunes aplicadas.</p>
+            <p class="subtitle">Küme dewün, küdaw ngütram ka azentun kellun.</p>
         </div>
     </a>
 
