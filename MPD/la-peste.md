@@ -1,47 +1,47 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Kutxan – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que reflexionan azentunmente sobre la contaminación ambiental, las crisis invisibles y las tensiones ecológicas del entorno contemporáneo."
+title: "Kutxan - Esteban Garnica ñi küdaw trokiñ"
+description: "Esteban Garnica ñi küdaw trokiñ: mapu ñi kutxan, pengekenon crisis ka fachi antü entorno ñi itrofill mogen tensión mew azentun rakizuam."
 permalink: /MPD/la-peste.html
-keywords: "Kutxan, contaminación ambiental, arte ecológico, crisis invisibles, pintura contemporánea, arte chileno, Esteban Garnica, EGGS-Studio"
+keywords: "Kutxan, mapu ñi kutxan, itrofill mogen az-küdaw, pengekenon crisis, fachi antü pintura, Chile ñi az-küdaw, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
 <h1 class="titulo">Kutxan</h1>
-<h2 class="subtitulo">La contaminación como enfermedad del planeta</h2>
+<h2 class="subtitulo">Mapu ñi kutxan reke contaminación</h2>
 
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención az-küdaw en püle fütra che mew" loading="lazy">
   <figcaption>
-    Fentepun / Kutxan / Desplazamiento… / Püles fütra che mews: Richard Prince Infested. EGGS – MAC, 2009.
+    Fentepun / Kutxan / Pintura ñi fentepun / Püle fütra che mew: Richard Prince Infested. EGGS - MAC, 2009.
   </figcaption>
 </figure>
 
 <br>
 
 <p class="parrafo">
-  La serie <strong>«Kutxan»</strong> aborda la contaminación contemporánea mediante la metáfora de una enfermedad que afecta al planeta Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe al planeta como un organismo vivo y autorregulado, esta obra sugiere que la intervención industrial y comercial humana —evidenciada en la proliferación de residuos plásticos, emisiones tóxicas, ruido publicitario y desechos— ha comprometido el equilibrio de Gaia y, con ello, el de nuestro propio entorno vital.
+  <strong>Kutxan</strong> trokiñ ramtukey fachi antü contaminación mapu ñi kutxan reke. James Lovelock ñi Gaia hipótesis mew rakizuamkey mapu kiñe mogen organismo reke. Fachi obra kimelkey chumül industrial ka comercial che ñi koneltun -plástico resto, venenoso emisión, publicidad ñi ruido ka desecho- Gaia ñi küme txürün ka iñchiñ ñi mogen entorno kutxankünukey.
 </p>
 
 <p class="parrafo">
-  Esta línea de trabajo surge de la necesidad de registrar azentunmente las características esenciales de nuestra época, destacando aquellos elementos que la definen y poniendo la crisis ecológica en el centro de la reflexión. Más allá de una mirada puramente personal, el küdaw busca documentar y cuestionar críticamente los factores que marcan nuestro tiempo.
+  Fachi küdaw rüpü tripay iñchiñ ñi época ñi fütra az azentun mew txawün wirial. Itrofill mogen crisis ragiñ rakizuam mew elugey. Iñche ñi adkintun müten gelay: küdaw kintuy dokumentar ka ramtun fachi antü ñi zugu.
 </p>
 
 <p class="parrafo">
-  La pintura opera como punto de partida constante en mi práctica. Sin embargo, al expandir sus límites conceptuales y físicos —<em>desplazamiento de la pintura</em>— el proceso deriva en una investigación interdisciplinar. Instalaciones, performances e intervenciones en distintos soportes amplifican el discurso pictórico inicial, desplegando estrategias transmediales para intensificar la potencia comunicativa de esta exploración crítica de nuestra realidad contemporánea: la saturación azentun, la degradación ambiental y las patologías sociales que constituyen <strong>«Kutxan»</strong> de comienzos del siglo XXI.
+  Pintura müley ñi az-küdaw ñi wünen rüpü reke. Welu ñi rakizuam ka kalül afpun fentepulelu -<em>pintura ñi fentepun</em>- proceso amuley rangipun kimün kintun mew. Instalación, performance ka kake soporte mew koneltun yafültukey wünen pintura dungun; transmedia estrategia mew newentulgey fachi antü realidad ñi ramtun: azentun fentepun, mapu degradación ka xãfla zugu, fey mew müley siglo XXI ñi <strong>Kutxan</strong>.
 </p>
 
 <p class="parrafo">
-  <strong>La serie se estructura en dos grandes áreas:</strong>
+  <strong>Trokiñ epu fütra püle mew azelgey:</strong>
 </p>
 
 <p class="parrafo">
-  <strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos —especialmente reciclados— para evidenciar la erosión de la naturaleza y la invasión del consumismo en todos los aspectos de la vida cotidiana.
+  <strong>1. Pintura:</strong> Kuyfi técnica ka fachi antü material -doy reciclado- txürümgey, itrofill mogen ñi rütxan ka consumo ñi konün fill antü mogen mew pengeal.
 </p>
 
 <p class="parrafo">
-  <strong>2. Desplazamiento de la pintura:</strong> Küdaw que trasladan los conceptos pictóricos más allá del lienzo, involucrando objetos y püles concretos. Esta línea se despliega en intervenciones sobre püles ruka mews, fütra che mews y mapu lof mewes/naturales.
+  <strong>2. Pintura ñi fentepun:</strong> Küdaw amulkey pintura rakizuam lienzo ñi zoy mew, chemkün ka rüf püle egu. Fachi rüpü amuley ruka püle, fütra che püle ka mapu lof püle mew koneltun.
 </p>
 
 <br><br>
@@ -58,18 +58,18 @@ flowchart LR
   B --> C(["Kutxan Pinturas"])
 
   %% Soportes tradicionales
-  C --> D(["Soportes tradicionales"])
-  D --> D1(["Intervención"])
-  D --> D2(["Producción"])
+  C --> D(["Kuyfi soporte"])
+  D --> D1(["Koneltun"])
+  D --> D2(["Dewman"])
 
   %% Soportes blandos
-  C --> E(["Soportes blandos"])
+  C --> E(["Ñochi soporte"])
   E --> E1(["Membrana"])
   E --> E2(["Módulo"])
   E --> E3(["Unidad"])
 
   %% --- Rama: Desplazamiento de la Pintura ---
-  B --> F(["Desplazamiento de la Pintura"])
+  B --> F(["Pintura ñi fentepun"])
   F --> F1(["Püle Ruka mew"])
   F --> F2(["Püle Fütra che mew"])
   F --> F3(["Püle Mapu lof mew / Natural"])
@@ -83,16 +83,16 @@ flowchart LR
 
   click C "/MPD/peste-pinturas-infectadas.html" "Adkintun: Kutxan Pinturas"
 
-  click D "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Amun: Soportes Tradicionales"
-  click D1 "/MPD/peste-pinturas-infectadas.html#intervenciones" "Amun: Intervenciones"
-  click D2 "/MPD/peste-pinturas-infectadas.html#producciones" "Amun: Producciones"
+  click D "/MPD/peste-pinturas-infectadas.html#soportes-tradicionales" "Amun: Kuyfi soporte"
+  click D1 "/MPD/peste-pinturas-infectadas.html#intervenciones" "Amun: Koneltun"
+  click D2 "/MPD/peste-pinturas-infectadas.html#producciones" "Amun: Dewman"
 
-  click E "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Amun: Soportes Blandos"
+  click E "/MPD/peste-pinturas-infectadas.html#soportes-blandos" "Amun: Ñochi soporte"
   click E1 "/MPD/peste-pinturas-infectadas.html#membranas" "Amun: Membranas"
   click E2 "/MPD/peste-pinturas-infectadas.html#modulos" "Amun: Módulos"
   click E3 "/MPD/peste-pinturas-infectadas.html#unidades" "Amun: Unidades"
 
-  click F "/MPD/desplazamiento-pintura.html" "Amun: Desplazamiento de la Pintura"
+  click F "/MPD/desplazamiento-pintura.html" "Amun: Pintura ñi fentepun"
   click F1 "/MPD/espacio-domestico.html" "Amun: Püle Ruka mew"
   click F2 "/MPD/espacio-publico.html" "Amun: Püle Fütra che mew"
   click F3 "/MPD/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
@@ -102,15 +102,15 @@ flowchart LR
 <br>
 
 <p class="parrafo">
-  La propuesta establece contrastes radicales: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. El uso de materiales no convencionales, como desechos gráficos, evidencia cómo la publicidad y el consumo funcionan como agentes contaminantes que afectan tanto la integridad ambiental como la cultural.
+  Fachi propuesta txafkintukey: itrofill mogen ka contaminación, Gaia ka degradación, az-küdaw ka mercado, kalül ka virus. Kake material, gráfica desecho reke, kimelkey chumül publicidad ka consumo contaminante agente reke küdawkey, mapu ka cultura ñi küme felen afeluwün.
 </p>
 
 <p class="parrafo">
-  A nivel azentun, la saturación se vuelve un elemento dominante que interfiere con la percepción habitual de la az. La estética de <strong>«Kutxan»</strong> explicita la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas tradicionales. En las obras trasladadas al entorno físico, la acumulación material y la sobresaturación del püle funcionan como metáfora directa de la contaminación tangible, distorsionando el paisaje y afectando incluso la funcionalidad del lugar intervenido.
+  Azentun püle mew, fentepun dominante zugu reke konkey ka az ñi kuyfi percepción katrütukey. <strong>Kutxan</strong> ñi az kimelkey mapu crisis, kuyfi pintura wente ñi rütxan ka adrede kakekünun mew. Rüf entorno mew amulchi obras mew, material ñi txawün ka püle ñi doy fentepun müley kalül mew contaminación ñi metáfora directa reke, mapu az kakekünuy ka koneltuchi püle ñi küdaw rume afeluwkey.
 </p>
 
 <p class="parrafo">
-  De manera complementaria, el concepto de saturación como contaminación intangible se desarrolla en la serie <strong>«Pengekenon»</strong>, centrada en formas de contaminación difíciles de percibir: ondas electromagnéticas o radiactivas, olores, químicos nocivos y otras presencias que alteran el entorno sin ser inmediatamente visibles.
+  Ka rüpü mew, fentepun püllü mew contaminación reke amuley <strong>Pengekenon</strong> trokiñ mew. Fey zoy kintuy zugu pichi pengeal: electromagnética kam radiactiva onda, nümü, venenoso químico ka kake presencia, feychi entorno kakekünukey müchay pengekenolu.
 </p>
 
 <br><br>
@@ -120,43 +120,43 @@ flowchart LR
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
   <figcaption>
-    <em>Fentepun / Kutxan / kutxan pinturas / Soportes blandos: módulo – Paisaje urbano n°1, 2011.</em>
+    <em>Fentepun / Kutxan / Kutxan pinturas / Ñochi soporte: módulo - Waria mapu az n°1, 2011.</em>
   </figcaption>
 </figure>
 
 <p class="parrafo">
-  La pintura es el lenguaje esencial desde el cual abordo la representación de lo contemporáneo. En esta propuesta vinculo la nobleza de la naturaleza y la tradición pictórica con elementos invasivos propios de nuestra época: saturación azentun, residuos publicitarios y desechos industriales.
+  Pintura müley ñi wünen dungun fachi antü ñi azentun kintual. Fachi propuesta mew txürümtuken itrofill mogen ñi küme az ka pintura ñi kuyfi rüpü, fachi antü ñi koneltuchi zugu egu: azentun fentepun, publicidad resto ka industrial desecho.
 </p>
 
 <p class="parrafo">
-  De ese contraste entre lo puro (naturaleza, paisaje, tradición az-küdaw) y lo contaminante (desechos, corrosión industrial) surgen las <strong>Kutxan Pinturas</strong>. La erosión deliberada de la superficie pictórica actúa como metáfora del daño ambiental, explorando formatos que incorporan papel reciclado proveniente de prensa gráfica y publicidad.
+  Feychi txafkintun mew -itrofill mogen, mapu az, az-küdaw ñi kuyfi rüpü ka desecho, industrial rütxan- tripay <strong>Kutxan Pinturas</strong>. Pintura wente ñi adrede rütxan müley mapu ñi daño metáfora reke; fey mew kintugey prensa gráfica ka publicidad mew tripachi reciclado papül ñi formato.
 </p>
 
 <p class="parrafo">
-  Catálogos, revistas y materiales publicitarios —símbolos del exceso contemporáneo— se convierten en materia prima central. Sus cualidades físicas y simbólicas protagonizan esta investigación azentun sobre la saturación, permitiendo que el desecho se transforme en az crítica.
+  Catálogo, revista ka publicidad material -fachi antü ñi excesso símbolo- ragiñ material reke konkey. Ñi kalül ka simbólico az fentepun ñi kintun azentun mew wünenkey, fey mew desecho wallontukey ramtun az mew.
 </p>
 
 <p class="parrafo">
-  La técnica integra estos papeles reciclados directamente en la composición, convirtiéndolos simultáneamente en soporte, pigmento y testimonio. Su uso pictórico, y la posterior expansión hacia objetos y püles físicos, permite trascender lo bidimensional y revelar la tensión entre lo limpio y lo sucio, lo natural y lo tóxico, mediante residuos publicitarios reconvertidos en componentes estéticos.
+  Técnica feychi reciclado papül komposición mew koneltukey; kiñewün mew soporte, pigmento ka testimonio reke müley. Ñi pintura mew nien ka chemkün/püle rüf mew fentepun, epu dimensión ñi zoy püle amulkey ka küme/wezha, natural/venenoso ñi tensión kimelkey, publicidad resto az komponente mew wiñol elugey.
 </p>
 
 <br><br>
 
-<h2 class="subtitulo">Desplazamiento de la Pintura</h2>
+<h2 class="subtitulo">Pintura ñi fentepun</h2>
 
 <figure class="az-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención az-küdaw en püles naturales" loading="lazy">
   <figcaption>
-    <em>Fentepun / Kutxan / Desplazamiento… / Püles naturales: Mapu lof mewías s/t n°1, EGGS, 2012.</em>
+    <em>Fentepun / Kutxan / Pintura ñi fentepun / Püle mapu lof mew: Mapu lof mewías s/t n°1, EGGS, 2012.</em>
   </figcaption>
 </figure>
 
 <p class="parrafo">
-  Esta categoría amplía el concepto pictórico hacia instalaciones efímeras, intervenciones espaciales y registros fotográficos, continuando la experimentación con materiales reciclados originados en la fase de pintura. Catálogos, revistas, volantes publicitarios y otros residuos gráficos se convierten en elementos invasivos que saturan azentunmente püles simbólicos: monumentos históricos, instituciones gubernamentales, lugares de culto, entornos comerciales y paisajes naturales o mapu lof mewes.
+  Fachi trokiñ fentepulkey pintura rakizuam instalación, püle mew koneltun ka foto registro püle, pintura fase mew tripachi reciclado material egu kintun amulkey. Catálogo, revista, volante publicitario ka kake gráfica resto koneltuchi zugu reke wallontukey; simbólico püle fentepuley: kuyfi monumento, gobierno institución, ngillatun kam culto püle, comercio entorno ka mapu lof mew.
 </p>
 
 <p class="parrafo">
-  Las obras se construyen mediante acumulaciones deliberadas de estos materiales reciclados, confrontándolos con contextos ruka mews, jerárquicos, ordenados, institucionales o naturales. De este modo se generan tensiones azentunes y conceptuales explícitas. La saturación deliberada revela cómo el consumo excesivo y la contaminación han permeado todos los niveles de la vida cotidiana, interrumpiendo la percepción habitual del püle e invitando a una reflexión crítica sobre las dinámicas ecológicas, culturales y políticas que hoy definen nuestra relación con el planeta.
+  Pu obra dewmagkey feychi reciclado material ñi adrede txawün mew, ruka, jerárquico, azelchi, institucional kam natural contexto egu txafkintual. Fey mew tripay azentun ka rakizuam tensión. Adrede fentepun kimelkey chumül doy consumo ka contaminación fill antü mogen ñi kom nivel mew konkey, püle ñi kuyfi percepción katrütukey ka fachi antü itrofill mogen, cultura ka política dinámica ñi ramtun mew mütrümkey.
 </p>
 
 <br><br>
@@ -166,15 +166,15 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-pintura.webp" alt="Kutxan en pintura" loading="lazy">
       <p class="title">Pintura</p>
-      <p class="subtitle">La contaminación representada en la superficie pictórica.</p>
+      <p class="subtitle">Contaminación pintura wente mew azentungey.</p>
     </div>
   </a>
 
   <a href="/MPD/desplazamiento-pintura.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Desplazamiento de la pintura" loading="lazy">
-      <p class="title">Desplazamiento de la Pintura</p>
-      <p class="subtitle">Intervenciones, instalaciones y soportes expandidos.</p>
+      <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Pintura ñi fentepun" loading="lazy">
+      <p class="title">Pintura ñi fentepun</p>
+      <p class="subtitle">Koneltun, instalación ka fentepuchi soporte.</p>
     </div>
   </a>
 </div>
