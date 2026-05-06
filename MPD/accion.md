@@ -23,7 +23,7 @@ flowchart LR
   C --> C3([Kimeltun ka Talleres])
   C --> C4([Kellun])
 
-  %% Clicks (todos pu nodos clickeables)
+  %% Clicks (todos los nodos clickeables)
   click A "/MPD/index.html" "Amun: Actividad az-küdaw"
   click B "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
   click C "/MPD/accion.html" "Amun: Mapu mew küdaw"

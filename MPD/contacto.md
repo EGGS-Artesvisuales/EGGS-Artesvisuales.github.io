@@ -2,7 +2,7 @@
 layout: default-mpd
 title: "Nütram – EGGS-Studio"
 description: "Nütramkawün Esteban Garnica ka EGGS-Studio mew: az-küdaw, muralismo, küme dewün, kimeltun ka kelluwün."
-keywords: "nütram EGGS-Studio, Esteban Garnica, muralismo, küme dewün ñi az-küdaw, küdaw az-küdaws, kelluwün, az-küdaw mew Chile"
+keywords: "contacto EGGS-Studio, Esteban Garnica, muralismo, restauración de arte, küdaw az-küdaws, kelluwün, arte en Chile"
 permalink: /MPD/contacto.html
 ---
 

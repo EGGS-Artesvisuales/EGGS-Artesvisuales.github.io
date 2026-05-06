@@ -1,29 +1,29 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Wi-Fi Pinturas – Trokiñ ñi Pengekenon (Fentepun) ñi Esteban Garnica"
-description: "Esteban Garnica ñi pintura az-küdaw az-küdaw ñi rakizuam pengekenon kutxan mew: señal, onda ka teknologia fentepun."
+title: "Wi-Fi Pinturas – Serie de Pengekenon (Fentepun) de Esteban Garnica"
+description: "Esteban Garnica ñi pinturas ñi rakizuam pengekenon contaminación mew: señal, onda ka teknologia fentepun."
 permalink: /MPD/pinturas-wifi.html
-keywords: "Fentepun, Pengekenon, Wi-Fi Pinturas, kutxan invisible, electromagnetismo, polución lumínica, polución acústica, az-küdaw fachi antü mew, az-küdaw chileno, Esteban Garnica, EGGS-Studio"
+keywords: "Fentepun, Pengekenon, Wi-Fi Pinturas, contaminación invisible, electromagnetismo, polución lumínica, polución acústica, arte contemporáneo, arte chileno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 carousel: true
 ---
 
 <h1 class="titulo">Wi-Fi Pinturas</h1>
-<h2 class="subtitulo">Pengekenon kutxan ñi azentun</h2>
+<h2 class="subtitulo">Pengekenon contaminación ñi azentun</h2>
 <h3 class="subtitulo2">
-  Küdaw ñi pengeal feychi pengekenon. Pengekenon campo pintura az-küdaw chemkün reke.
+  Küdaw ñi pengeal feychi pengekenon. Pengekenon campo pintura chemkün reke.
 </h3>
 
 <br>
 
 <figure class="az-con-caption az-con-caption-70">
   <img src="/assets/img/lo-invisible-pintura-wifi-04.jpg"
-       alt="Pintura az-küdaw az-küdaw az-küdaw Wi-Fi n.º 4. De feychi trokiñ Fentepun / Pengekenon"
+       alt="Pintura Wi-Fi n.º 4. De la serie Fentepun / Pengekenon"
        loading="lazy">
   <figcaption>
     Wallmapu ñi azentun / Kalül mew / Fentepun / Pengekenon / Wi-Fi Pinturas, n.º 4.
-    Óleo wente tabla, EGGS, 2020.
+    Óleo sobre tabla, EGGS, 2020.
   </figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  Fachi küdaw mew, pintura az-küdaw teknologia ilustrar müten kintulay; <strong>ñi influencia
+  Fachi küdaw mew, pintura teknologia ilustrar müten kintulay; <strong>ñi influencia
   pengefal elual</strong> kintuy. Az —mapu az, adentu ka chemkün kimfal— müley torsión,
   onda, katrüntun ka interferencia püle mew, señal falla, digital compresión kam transmisión
   distorsión reke. Kimfal dungu kimfal müley, welu estable gelay: escena afektagey kiñe
@@ -59,25 +59,25 @@ carousel: true
   püle: ansiedad, hiperalerta, percepción fatigue kam realidad ñi nitidez ka estabilidad ñamün.
 </p>
 
-<h3 class="subtitulo2">Pintar lo analógico egu lógica digital</h3>
+<h3 class="subtitulo2">Pintar lo analógico con lógica digital</h3>
 
 <p class="parrafo">
-  Formalmente, <strong>Wi-Fi Pinturas</strong> amulniey híbrido operación: kuifi pintura az-küdaw técnica
+  Formalmente, <strong>Wi-Fi Pinturas</strong> amulniey híbrido operación: kuifi pintura técnica
   (óleo ka acrílico) txawüley digital manipulación rüpü egu, composición, distorsión kam azentun
   "ruido" método reke. Fachi fusión técnica cruce müten gelay; tema egu nor txawüley: fachi antü
   kimün rüpü müley constante fricción analógico ka digital mew, kalül ka püllü mew mew. Fey mew
-  pintura az-küdaw nien interferencia lógica: yafün pantalla afectada reke, kam aire mismo transmisión
+  pintura nien interferencia lógica: soporte pantalla afectada reke, kam aire mismo transmisión
   medio reke ñi az akumtual.
 </p>
 
 <p class="parrafo">
-  Resultado müley pichi mew konlu az, welu püllü filosofía niey: pu küdaw ramtun tensionakey
+  Resultado müley pichi mew konlu estética, welu püllü filosofía niey: pu küdaw ramtun tensionakey
   percepción ka realidad mew, ka kiñe persistente duda eluy. Feychi adkintulelu akumtungeal
-  pengekenon newen mew, ¿tunten iñchiñ ñi azentun confianza "mapu lof mew" rüf ngey? ¿Tunten percepción
+  pengekenon newen mew, ¿tunten iñchiñ ñi azentun confianza "natural" rüf ngey? ¿Tunten percepción
   müley kimün acuerdo, fachi antü teknologia ñi wiñol programangen mew?
 </p>
 
-<h3 class="subtitulo2">Experiencia ñi espectador: desconcierto, curiosidad, alerta</h3>
+<h3 class="subtitulo2">Experiencia del espectador: desconcierto, curiosidad, alerta</h3>
 
 <p class="parrafo">
   Distorsión eluy epu txoy püllü respuesta: kiñe püle mew, katrüntun ñi ayün; kake püle mew,
@@ -101,7 +101,7 @@ graph LR
   D --> E((Wi-Fi Pinturas))
   D --> F([Desplazamientos])
 
-  %% Hijos ñi Wi-Fi Pinturas (categorías dentro ñi fachi txoy)
+  %% Hijos de Wi-Fi Pinturas (categorías dentro de esta página)
   E --> E1([Mapu az])
   E --> E2([Adentu])
   E --> E3([Chemkün az])
@@ -115,9 +115,9 @@ graph LR
   click D "/MPD/lo-invisible.html" "Adkintun: Pengekenon"
   click D2 "/MPD/la-peste.html" "Adkintun: Kutxan"
   click E "/MPD/pinturas-wifi.html" "Adkintun: Wi-Fi Pinturas"
-  click F "/MPD/en-construccion.html" "Adkintun: Desplazamientos ñi feychi pintura az-küdaw"
+  click F "/MPD/en-construccion.html" "Adkintun: Desplazamientos de la pintura"
 
-  %% Enlaces a pu txoy internas (anclas) ñi coherencia egu pu 3 categorías
+  %% Enlaces a secciones internas (anclas) para coherencia con las 3 categorías
   click E1 "#paisajes" "Adkintun: Mapu az (Wi-Fi Pinturas)"
   click E2 "#retratos" "Adkintun: Adentu (Wi-Fi Pinturas)"
   click E3 "#bodegones" "Adkintun: Chemkün az (Wi-Fi Pinturas)"
@@ -142,7 +142,7 @@ graph LR
          alt="Wi-Fi Pinturas – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo wente lienzo, 100x150cm, 2015</em>
+      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="az-con-caption item--az">
@@ -204,7 +204,7 @@ graph LR
          alt="Wi-Fi Pinturas – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo wente lienzo, 100x150cm, 2015</em>
+      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
     </figcaption>
   </figure>
 </div>
@@ -218,7 +218,7 @@ graph LR
          alt="Wi-Fi Pinturas – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo wente lienzo, 100x150cm, 2015</em>
+      <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
     </figcaption>
   </figure>
 </div>
@@ -235,7 +235,7 @@ graph LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
-         alt="Wi-Fi Pinturas – Retrato n.º 001, azentuñma mew definir, 2020"
+         alt="Wi-Fi Pinturas – Retrato n.º 001, dimensiones por definir, 2020"
          loading="lazy">
     <figcaption>
       <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Retrato, n.º 001, 2020</em>
@@ -255,7 +255,7 @@ graph LR
 <div class="owl-carousel carousel-az">
   <figure class="az-con-caption item--az">
     <img class="carousel-img" src="/assets/img/pinturainfectada-intervencion-01.jpg"
-         alt="Wi-Fi Pinturas – Bodegón n.º 001, azentuñma mew definir, 2020"
+         alt="Wi-Fi Pinturas – Bodegón n.º 001, dimensiones por definir, 2020"
          loading="lazy">
     <figcaption>
       <em>Fentepun / Pengekenon / Wi-Fi Pinturas, Bodegón, n.º 001, 2020</em>

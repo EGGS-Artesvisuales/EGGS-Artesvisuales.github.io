@@ -11,7 +11,7 @@ permalink: /MPD/subrepticio.html
 </h2>
 
 <p class="parrafo" style="margin-top: 7%;">
-  Fachi trokiñ txawüley waria mew prácticas ñi ellka rüpü mew küdaw. Fey pu koneltun protagonismo kintulay; kintuyn pichi wirarün adkintun mew: pichi fentepun ñi nülal tensión, contradicción ka waria mapu az ñi ñüküf. Graffiti, anti-waria wirin ka waria remiendas rüpü mew, fachi zugu nütramkey püle ka ñi uso lógica egu.
+  Fachi trokiñ txawüley waria mew prácticas ñi ellka rüpü mew küdaw. Fey pu koneltun protagonismo kintulay; kintuyn pichi wirarün adkintun mew: pichi desplazamiento ñi nülal tensión, contradicción ka waria mapu az ñi ñüküf. Graffiti, anti-publicidad ka waria remiendas rüpü mew, fachi zugu nütramkey püle ka ñi uso lógica egu.
 </p>
 
 <h3 class="subtitulo2">Küdaw rüpü</h3>

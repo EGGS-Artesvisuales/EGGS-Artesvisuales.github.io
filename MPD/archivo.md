@@ -1,24 +1,24 @@
 ---
 layout: default-mpd
-title: "Txawün wirin – Bocetos, documentos ka küdaw rüpü ñi küdaw"
-description: "EGGS-Studio ñi txawün wirin: bocetos, wirin, catálogos ka Esteban Garnica ñi az-küdaw rüpü."
-keywords: "txawün wirin az-küdaw, EGGS-Studio, Esteban Garnica, bocetos, catálogos, wirin, küdaw rüpü"
+title: "Archivo – Bocetos, documentos y küdaw rüpü de obra"
+description: "EGGS-Studio ñi archivo: bocetos, wirin, catálogos ka Esteban Garnica ñi az-küdaw rüpü."
+keywords: "archivo az-küdaw, EGGS-Studio, Esteban Garnica, bocetos, catálogos, wirin, küdaw rüpü"
 permalink: /MPD/archivo.html
 ---
 
-<h1 class="titulo">EGGS-Studio ñi Txawün wirin</h1>
+<h1 class="titulo">EGGS-Studio ñi Archivo</h1>
 
 <h2 class="subtitulo">Fachi püle mew adkintugey küdaw, wirin ka kimün</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Faw müley txawün wirin chemkün: bocetos, küdaw wirin, catálogos, escritos ka txawün wirin. Kom fey dungu inakintuy ñi dewman rüpü ka ñi küdaw ñi amulen.
+  Faw müley txawün wirin chemkün: bocetos, küdaw registro, catálogos, escritos ka archivo. Kom fey dungu inakintuy ñi dewman rüpü ka ñi küdaw ñi amulen.
 </p>
 
 <p class="parrafo">
-  Fachi txawün wirin müley dewmangen mew ka amulen mew. Ñi zugu: nülal acceso elun, kintukimün, wirin ka azentun chemkün, fey mew kimngeal pu küdaw ñi rüpü ka ñi mapu.
+  Fachi archivo müley dewmangen mew ka amulen mew. Ñi zugu: nülal acceso elun, kintukimün, wirin ka azentun chemkün, fey mew kimngeal pu küdaw ñi rüpü ka ñi mapu.
 </p>
 
-<h3 class="subtitulo2" style="margin-top: 4%;">Txawün wirin ñi trokiñ</h3>
+<h3 class="subtitulo2" style="margin-top: 4%;">Archivo ñi trokiñ</h3>
 <br>
 
 <div class="button-container">
@@ -34,7 +34,7 @@ permalink: /MPD/archivo.html
     <div class="button-content">
       <img src="/assets/img/EGGSLOGO - 16-9.png" alt="Exhibiciones">
       <p class="title">Exhibiciones</p>
-      <p class="subtitle">Publicación, afiche ka muestra wirin.</p>
+      <p class="subtitle">Publicación, afiche ka muestra registro.</p>
     </div>
   </a>
 </div>
@@ -44,7 +44,7 @@ permalink: /MPD/archivo.html
     <div class="button-content">
       <img src="/assets/img/esteban-garnica2.jpg" alt="Noticias y Prensa">
       <p class="title">Dungu ka Prensa</p>
-      <p class="subtitle">Artículo, entrevista ka medio wirin.</p>
+      <p class="subtitle">Artículo, entrevista ka medio registro.</p>
     </div>
   </a>
 

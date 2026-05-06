@@ -1,10 +1,10 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Wallmapu ñi azentun – Trokiñ ñi pu küdaw ñi Esteban Garnica"
+title: "Wallmapu ñi azentun – Serie de obras de Esteban Garnica"
 description: "Esteban Garnica ñi küdaw: wallmapu ñi azentun, crítica adkintun, az ka fachi antü rakizuam mew."
 permalink: /MPD/mundo-exterior.html
-keywords: "Wallmapu ñi azentun, wallmapu exterior, az-küdaw fachi antü mew, mapu az simbólico, lectura azentun ñi entorno, Esteban Garnica, EGGS-Studio"
+keywords: "Wallmapu ñi azentun, wallmapu exterior, arte contemporáneo, paisaje simbólico, lectura azentun del entorno, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
@@ -36,24 +36,24 @@ flowchart LR
 <br>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Che ñi wünen txipantu mew, pintura az-küdaw ka azentun küdaw müley kiñe rüpü wallmapu
+  Che ñi wünen txipantu mew, pintura ka azentun küdaw müley kiñe rüpü wallmapu
   kimam ka iñchiñ ñi wall püle azentual. Kura ruka mew wünen wirin mew
   ka fachi antü ñi prácticas mew, az-küdaw kintuy pengechi dungu müten
   azentuam gelay, püllü zugu ka fütra rakizuam kimam.
 </p>
 
 <p class="parrafo">
-  Fachi antü mew, realidad egu nütram amuley clásico yafün ñi afpun wente.
-  We prácticas txawüley pintura az-küdaw kimün, eltun, foto, chemkün ka digital
+  Fachi antü mew, realidad egu nütram amuley clásico soporte ñi afpun wente.
+  We prácticas txawüley pintura kimün, instalación, foto, chemkün ka digital
   medio egu. Fey nülakey we rüpü: adkintun, ramtun ka we kimün mew wiñol
-  azentun. Pintura az-küdaw müley wünen folil reke, welu afpun gelay.
+  azentun. Pintura müley wünen folil reke, welu afpun gelay.
 </p>
 
 <p class="parrafo">
   Fachi trokiñ txawüley pu küdaw ka rüpü ñi kintun fachi antü ñi püllü zugu.
   Epu txoy müley: <strong>Kalül mew</strong>, wallmapu físico ka chemkün; ka
   <strong>Püllü mew</strong>, rakizuam, newen ka fenómeno ñi konün iñchiñ ñi
-  kimün rüpü mew pengekenon mew. Kiñeke küdaw tripay pintura az-küdaw mew ka amuley
+  kimün rüpü mew pengekenon mew. Kiñeke küdaw tripay pintura mew ka amuley
   híbrido, we ka fachi antü az mew.
 </p>
 
@@ -101,18 +101,18 @@ flowchart LR
 
 <p class="parrafo">
   "Kalül mew" mew müley, fachi mew, epu trokiñ kiñe ramtun mew tripalu:
-  ¿chem newen fachi antü mew wallmapu chemkün mew wirintukugey?
-  Wünen: <strong>Fentepun</strong>, kutxan, kutxan ka doy mülen wall püle,
+  ¿chem newen fachi antü mew wallmapu material mew wirintukugey?
+  Wünen: <strong>Fentepun</strong>, kutxan, contaminación ka doy mülen wall püle,
   azentun, información ka kalül kimün mew. Epu: <strong>Teknologia</strong>,
   mediación txawün ñi akumtun iñchiñ ñi adkintun, trawün ka wall püle ñi
   dewmangen ka mülen.
 </p>
 
 <p class="parrafo">
-  Epu rüpü mew pintura az-küdaw müley wünen dungun. Welu küdaw amuley epu txoy mew:
-  <strong>pintura az-küdaw az-küdaw</strong> ka <strong>pintura az-küdaw ñi fentepun</strong>. Fey mew
-  pintura az-küdaw zugu fütalngey híbrido aztrawün, mixto medio ka fachi antü koneltun
-  mew. Fachi azmogen kellukey kiñe kintukimün nor ka ngüñü: pintura az-küdaw folil reke,
+  Epu rüpü mew pintura müley wünen dungun. Welu küdaw amuley epu txoy mew:
+  <strong>pinturas</strong> ka <strong>pintura ñi desplazamiento</strong>. Fey mew
+  pintura zugu fütalngey híbrido formato, mixto medio ka fachi antü koneltun
+  mew. Fachi azmogen kellukey kiñe kintukimün nor ka ngüñü: pintura folil reke,
   afpun reke gelay.
 </p>
 
@@ -124,7 +124,7 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
       <p class="title">Fentepun</p>
-      <p class="subtitle">Itrofill mogen kutxan ka capitalismo dewman.</p>
+      <p class="subtitle">Itrofill mogen kutxan ka capitalismo producción.</p>
     </div>
   </a>
 
@@ -151,14 +151,14 @@ flowchart LR
   representacion --> intangible
 
   intangible --> capitalismo(["Capitalismo ñi pu az"])
-  intangible --> ancestros(["Pu az ñi pu Ancestros"])
+  intangible --> ancestros(["Pu az de los Ancestros"])
   intangible --> popular(["Pu che ñi pu az"])
 
   click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
   click tangible "/MPD/tangible.html" "Amun: Kalül mew"
   click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
   click capitalismo "/MPD/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
-  click ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az ñi pu Ancestros"
+  click ancestros "/MPD/imagenes-ancestros.html" "Amun: Pu az de los Ancestros"
   click popular "/MPD/imagenes-popular.html" "Amun: Pu che ñi pu az"
 </div>
 
@@ -198,7 +198,7 @@ flowchart LR
   <a href="/MPD/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Pu az de los Ancestros">
-      <p class="title">Pu az ñi pu Ancestros</p>
+      <p class="title">Pu az de los Ancestros</p>
       <p class="subtitle">Kimün kuifi, folil ka eluwün egu trawün.</p>
     </div>
   </a>
