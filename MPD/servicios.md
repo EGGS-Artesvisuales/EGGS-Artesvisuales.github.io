@@ -85,7 +85,7 @@ keywords: "az-küdaw kellun, muralismo, küme dewün az-küdaw, az-küdaw taller
     <ul class="service-list">
       <li>Boceto, color, escala, soporte ka dewman txipantu rüpü.</li>
       <li>Küdaw ruka, oficina, local, organización ka institución mew.</li>
-      <li>Archivo, mapu az che, familia kimün kuifi ka marca nütram txawün.</li>
+      <li>Txawün wirin, mapu az che, familia kimün kuifi ka marca nütram txawün.</li>
     </ul>
   </div>
 </section>

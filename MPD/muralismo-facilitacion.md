@@ -1,71 +1,71 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Muralismo - Facilitacion y guia de colectivos"
-description: "Küdaw rüpü de facilitacion y guia de colectivos dentro de la serie Muralismo de Esteban Garnica."
+title: "Muralismo - Txawün ñi kellun ka ngülam"
+description: "Esteban Garnica ñi Muralismo trokiñ mew txawün küdaw ñi kellun, ngülam ka metodología."
 permalink: /MPD/muralismo-facilitacion.html
-keywords: "muralismo, facilitacion, guia de colectivos, diseño participativo, muralismo lof mew, Esteban Garnica, EGGS-Studio"
+keywords: "muralismo, txawün kellun, lof ñi ngülam, participativo az, muralismo lof mew, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
 <h1 class="titulo">Muralismo</h1>
-<h2 class="subtitulo">Facilitacion y guia de colectivos</h2>
+<h2 class="subtitulo">Txawün ñi kellun ka ngülam</h2>
 
 <figure class="az-con-caption">
-  <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso de facilitacion mural con participantes pintando en un muro del CESFAM Villa Los Quillayes" loading="eager">
-  <figcaption>Pinta Tu Mural Los Quillayes, CESFAM Villa Los Quillayes, 2018. Registro optimizado para web desde el archivo FACI.</figcaption>
+  <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Mural ñi kellun proceso, pu che CESFAM Villa Los Quillayes mew pintay" loading="eager">
+  <figcaption>Pinta Tu Mural Los Quillayes, CESFAM Villa Los Quillayes, 2018. Web mew küme eluchi registro FACI txawün wirin mew.</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  <strong>FACI</strong> agrupa küdaw rüpü de muralismo lof mew donde mi rol principal es facilitar, guiar, acompañar, estructurar o mediar la realizacion colectiva. En estos casos la obra no se entiende solo como az final: tambien importa la metodologia, la escucha, la organizacion de decisiones azentunes y la posibilidad de que grupos, comunidades o instituciones participen en la construccion del muro.
+  <strong>FACI</strong> txawüley lof mew muralismo ñi küdaw rüpü, chew ñi zugu müley kellun, ngülam, acompañar, az elun ka txawün dewman ñi mediación. Fachi mew obra az afpun müten gelay: metodología, allkütun, azentun decisión ñi organización ka trokiñ, lof kam institución ñi muro dewman mew konün rume zuamgey.
 </p>
 
 <p class="parrafo">
-  La serie permanece abierta desde 2012 en adelante. Cada carpeta principal corresponde a un caso concreto de facilitacion o guia, y puede contener estado anterior, bocetos, registros de proceso, materiales pedagogicos, documentos de coordinacion, registro final y memorias del trabajo realizado.
+  Fachi trokiñ 2012 mew nülaley ka petu amuley. Fill fütra carpeta müley kiñe rüf caso kellun kam ngülam mew; nieafuy kuifi estado, boceto, proceso registro, kimeltun material, coordinación wirin, afpun registro ka dewman küdaw ñi memoria.
 </p>
 
 <div class="archivo-panel">
-  <h3>Ficha de serie</h3>
+  <h3>Trokiñ ñi ficha</h3>
   <dl>
     <div><dt>Codigo</dt><dd>FACI</dd></div>
-    <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FACI</dd></div>
-    <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
-    <div><dt>Año</dt><dd>2012 en adelante</dd></div>
-    <div><dt>Tecnica</dt><dd>Muralismo lof mew, facilitacion de grupos, mediacion grafica y acompañamiento metodologico.</dd></div>
-    <div><dt>Contexto</dt><dd>Grupos juveniles, comunidades locales, escuelas, organizaciones barriales, programas lof mews y encargos participativos.</dd></div>
+    <div><dt>Autoral rüpü</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FACI</dd></div>
+    <div><dt>Az</dt><dd>Nülalechi trokiñ</dd></div>
+    <div><dt>Txipantu</dt><dd>2012 mew amulelu</dd></div>
+    <div><dt>Dewman rüpü</dt><dd>Muralismo lof mew, trokiñ ñi kellun, gráfica mediación ka metodología ñi acompañamiento.</dd></div>
+    <div><dt>Mülewe</dt><dd>Weche trokiñ, lof, escuela, waria organización, lof mew programa ka txawün pedido.</dd></div>
   </dl>
 </div>
 
-<h2 class="subtitulo2">Casos visibles en archivo</h2>
+<h2 class="subtitulo2">Txawün wirin mew pengechi casos</h2>
 
 <div class="case-grid">
   <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Participante pintando un mural en el CESFAM Villa Los Quillayes" loading="lazy">
+    <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Konchi che mural pintay CESFAM Villa Los Quillayes mew" loading="lazy">
     <div>
       <h3>Pinta Tu Mural Los Quillayes</h3>
-      <p>2018 · CESFAM Villa Los Quillayes. Facilitacion mural institucional y lof mew realizada junto a pacientes y enfermeras en el sector infantil del centro de salud.</p>
+      <p>2018 · CESFAM Villa Los Quillayes. Institución ka lof mew mural ñi kellun, pacientes ka enfermeras egu püchikeche sector mew dewman.</p>
     </div>
   </article>
 
   <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle de ave pintada en el mural del CESFAM Villa Los Quillayes" loading="lazy">
+    <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Üñüm ñi detalle CESFAM Villa Los Quillayes mural mew" loading="lazy">
     <div>
-      <h3>Ambientacion, cuidado y participacion</h3>
-      <p>El caso muestra como la facilitacion puede operar en püles de salud, transformando un pasillo en una experiencia azentun compartida entre comunidad, institucion y oficio mural.</p>
+      <h3>Azümün, kuñiwtun ka konün</h3>
+      <p>Fachi caso kimelkey chumül kellun küdawkey salud püle mew, kiñe pasillo wallontukey lof, institución ka mural oficio ñi txawün azentun mew.</p>
     </div>
   </article>
 
   <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Proceso de muralismo colaborativo en terreno" loading="lazy">
+    <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Mapu mew txawün muralismo proceso" loading="lazy">
     <div>
-      <h3>Serie abierta</h3>
-      <p>El archivo FACI incluye AMK Libertad de Expresion, AMKids, Taller AMK LFJoven, Evoluciona Graff, Santa Caterina Comunidad, Mural Los Quillayes, Bloque 23C, Hans Asperger y Miguitas Ternura, entre otros casos.</p>
+      <h3>Nülalechi trokiñ</h3>
+      <p>FACI txawün wirin mew müley AMK Libertad de Expresión, AMKids, Taller AMK LFJoven, Evoluciona Graff, Santa Caterina Comunidad, Mural Los Quillayes, Bloque 23C, Hans Asperger ka Miguitas Ternura, kake casos egu.</p>
     </div>
   </article>
 </div>
 
 <p class="parrafo">
-  FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza por localidad fija ni por obra plenamente autoral cerrada, sino por küdaw rüpü compartidos donde la conduccion metodologica es central.
+  FACI kakegey Festivales mew, feychi criterio evento gelay, ngülam ka kellun ñi rol müley. Ka kakegey Wente mapu musoe mew, localidad fija kam autoral obra ñi afpun mew müten organizar gelay; txawün küdaw rüpü mew, metodología ñi conducción ragiñ mew müley.
 </p>
 
 
@@ -73,20 +73,20 @@ carousel: true
 <div class="owl-carousel carousel-az">
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso participativo de mural en CESFAM Villa Los Quillayes" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="CESFAM Villa Los Quillayes mew participativo mural proceso" loading="lazy">
     </div>
-    <figcaption>Pinta Tu Mural Los Quillayes: proceso participativo en püle de salud, 2018.</figcaption>
+    <figcaption>Pinta Tu Mural Los Quillayes: salud püle mew participativo proceso, 2018.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle final del mural facilitado en Villa Los Quillayes" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Villa Los Quillayes mew kellun mural ñi afpun detalle" loading="lazy">
     </div>
-    <figcaption>Detalle de la intervencion realizada junto a pacientes y enfermeras.</figcaption>
+    <figcaption>Pacientes ka enfermeras egu dewmanchi koneltun ñi detalle.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Boceto para proceso mural lof mew" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Lof mew mural proceso ñi boceto" loading="lazy">
     </div>
-    <figcaption>Boceto y planificacion azentun como parte de la guia metodologica.</figcaption>
+    <figcaption>Boceto ka azentun plan, metodología ngülam ñi kiñe rangiñ.</figcaption>
   </figure>
 </div>

@@ -16,7 +16,7 @@ mermaid: true
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(("Kalül mew"))
-  intangible(["Lo Püllü mew"])
+  intangible(["Püllü mew"])
 
   representacion --> tangible
   representacion --> intangible
@@ -28,7 +28,7 @@ flowchart LR
   click tangible "/MPD/tangible.html" "Amun: Kalül mew"
   click saturacion "/MPD/saturacion.html" "Amun: Fentepun"
   click tecnologia "/MPD/en-construccion.html" "Amun: Teknologia"
-  click intangible "/MPD/intangible.html" "Amun: Lo Püllü mew"
+  click intangible "/MPD/intangible.html" "Amun: Püllü mew"
 </div>
 <br>
 

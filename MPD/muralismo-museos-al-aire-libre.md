@@ -2,9 +2,9 @@
 layout: default-mpd
 lang: arn
 title: "Muralismo - Wente mapu musoe"
-description: "Wente mapu musoe dentro de la serie Muralismo de Esteban Garnica."
+description: "Esteban Garnica ñi Muralismo trokiñ mew wente mapu musoe ka waria mural rüpü."
 permalink: /MPD/muralismo-museos-al-aire-libre.html
-keywords: "muralismo, museo al aire libre, arte barrial, Villa Alberto Larraguibel, Villa Los Quillayes, Esteban Garnica, EGGS-Studio"
+keywords: "muralismo, wente mapu musoe, lof az-küdaw, Villa Alberto Larraguibel, Villa Los Quillayes, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
 
@@ -12,60 +12,60 @@ carousel: true
 <h2 class="subtitulo">Lof mew: Wente mapu musoe</h2>
 
 <figure class="az-con-caption">
-  <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Mural Al Padre en fachada de Villa Alberto Larraguibel" loading="eager">
-  <figcaption>Al Padre, Villa Alberto Larraguibel, La Florida, 2025. Registro optimizado para web desde el archivo MAAL.</figcaption>
+  <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Al Padre mural Villa Alberto Larraguibel ñi fachada mew" loading="eager">
+  <figcaption>Al Padre, Villa Alberto Larraguibel, La Florida, 2025. Web mew küme eluchi registro MAAL txawün wirin mew.</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  <strong>MAAL</strong> agrupa experiencias de muralismo de gran formato organizadas por localidad, entendidas como museos al aire libre o conjuntos urbanos de murales. El criterio principal no es el festival ni la facilitacion, sino la localizacion, la escala urbana y la forma en que cada muro participa de un recorrido mapu mew.
+  <strong>MAAL</strong> txawüley fütra formato muralismo experiencia localidad mew organizadas, wente mapu musoe kam waria mural txawün reke. Ñi fütra criterio festival kam facilitación gelay; ubicación, waria escala ka chumül fill muro mapu mew rüpü ñi rangiñ mew konkey.
 </p>
 
 <p class="parrafo">
-  En esta linea, la calle, la fachada, la circulacion cotidiana y la memoria vecinal forman parte del sistema de lectura. Cada obra existe como az individual, pero tambien como pieza de un conjunto barrial mayor.
+  Fachi rüpü mew, kalle, fachada, fill antü circulación ka vecino memoria lectura sistema ñi rangiñgey. Fill obra müley kiñe az reke, welu ka müley fütra lof conjunto ñi kiñe rangiñ reke.
 </p>
 
 <div class="archivo-panel">
-  <h3>Ficha de serie</h3>
+  <h3>Trokiñ ñi ficha</h3>
   <dl>
     <div><dt>Codigo</dt><dd>MAAL</dd></div>
-    <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; Museos_al_Aire_Libre</dd></div>
-    <div><dt>Tipo</dt><dd>Serie abierta y ampliable</dd></div>
-    <div><dt>Formato</dt><dd>Murales de gran formato en conjuntos urbanos o localidades organizadas como museo al aire libre.</dd></div>
-    <div><dt>Contexto</dt><dd>Fachadas de edificios y soportes de escala barrial o urbana.</dd></div>
-    <div><dt>Localidades visibles</dt><dd>Villa Alberto Larraguibel y Villa Los Quillayes.</dd></div>
+    <div><dt>Autoral rüpü</dt><dd>ACMU &gt; COMU &gt; MURL &gt; Museos_al_Aire_Libre</dd></div>
+    <div><dt>Az</dt><dd>Nülalechi ka fentepual trokiñ</dd></div>
+    <div><dt>Formato</dt><dd>Fütra formato mural waria conjunto mew kam wente mapu musoe reke organizadas localidades mew.</dd></div>
+    <div><dt>Mülewe</dt><dd>Edificio ñi fachada ka lof kam waria escala soporte.</dd></div>
+    <div><dt>Pengechi localidades</dt><dd>Villa Alberto Larraguibel ka Villa Los Quillayes.</dd></div>
   </dl>
 </div>
 
-<h2 class="subtitulo2">Caso destacado: Al Padre</h2>
+<h2 class="subtitulo2">Pengechi caso: Al Padre</h2>
 
 <div class="case-grid">
   <article class="case-card">
-    <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Vista panoramica del mural Al Padre" loading="lazy">
+    <img src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Al Padre mural ñi panorama adkintun" loading="lazy">
     <div>
       <h3>Villa Alberto Larraguibel</h3>
-      <p>Al Padre corresponde al panel posterior del diptico Madre / Padre, realizado en 2025 en Villa Alberto Larraguibel, La Florida.</p>
+      <p>Al Padre müley Madre / Padre díptico ñi furi panel, 2025 mew Villa Alberto Larraguibel, La Florida püle dewman.</p>
     </div>
   </article>
 
   <article class="case-card">
-    <img src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Mural Al Padre completo en relacion con el edificio" loading="lazy">
+    <img src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Al Padre mural kom edificio egu nütramkawün" loading="lazy">
     <div>
-      <h3>Diptico Madre / Padre</h3>
-      <p>La obra se vincula directamente con Dia de la Madre como contraparte y continuacion dentro del mismo conjunto de fachadas del 6440.</p>
+      <h3>Díptico Madre / Padre</h3>
+      <p>Obra nütramkawkey Día de la Madre egu, contraparte ka continuación reke 6440 ñi fachada conjunto mew.</p>
     </div>
   </article>
 
   <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detalle del retrato mural Al Padre" loading="lazy">
+    <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Al Padre mural adentu ñi detalle" loading="lazy">
     <div>
-      <h3>Proceso 2025</h3>
-      <p>El küdaw conserva memoria, cronograma, adjudicacion, rendicion y abundante registro de proceso vinculado a Talentos Creativos La Florida 2025.</p>
+      <h3>Küdaw rüpü 2025</h3>
+      <p>Küdaw niey memoria, cronograma, adjudicación, rendición ka fentren proceso registro, Talentos Creativos La Florida 2025 egu nütramkawün.</p>
     </div>
   </article>
 </div>
 
 <p class="parrafo">
-  Dentro de MAAL, cada carpeta de localidad puede contener una o mas capsulas reales de obra. Esta organizacion permite leer los murales como archivo mapu mew: az, barrio, escala, financiamiento, proceso y memoria publica funcionando juntos.
+  MAAL mew, fill localidad carpeta nieafuy kiñe kam doy obra cápsula. Fachi organización kellukey mural ñi txawün wirin mapu mew adkintual: az, barrio, escala, financiamiento, proceso ka fütra che ñi memoria kiñewün mew küdawkey.
 </p>
 
 
@@ -73,20 +73,20 @@ carousel: true
 <div class="owl-carousel carousel-az">
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Vista panoramica del mural Al Padre" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-panoramica-2025.webp" alt="Al Padre mural ñi panorama adkintun" loading="lazy">
     </div>
-    <figcaption>Al Padre, mural de gran formato sobre fachada, Villa Alberto Larraguibel, 2025.</figcaption>
+    <figcaption>Al Padre, fachada wente fütra formato mural, Villa Alberto Larraguibel, 2025.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Mural Al Padre y su entorno arquitectonico" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Al Padre mural ka ñi arquitectura entorno" loading="lazy">
     </div>
-    <figcaption>Relacion entre mural, edificio y entorno barrial.</figcaption>
+    <figcaption>Mural, edificio ka lof entorno ñi trafün.</figcaption>
   </figure>
   <figure class="item">
     <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detalle del retrato en el mural Al Padre" loading="lazy">
+      <img class="carousel-img" src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Al Padre mural mew adentu ñi detalle" loading="lazy">
     </div>
-    <figcaption>Detalle del retrato y de la estructura grafica del mural.</figcaption>
+    <figcaption>Adentu ka mural ñi gráfica az ñi detalle.</figcaption>
   </figure>
 </div>
