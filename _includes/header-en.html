@@ -113,8 +113,9 @@
     </li>
 
     <li role="none"><a href="/EN/contact.html" role="menuitem">Contact</a></li>
+    {% assign alternate_lang_url = site.data.language_switch[page.url] | default: '/ES/index.html' %}
     <li class="nav-lang-switch" role="none" aria-label="Language switcher">
-      <a href="/ES/index.html" role="menuitem" hreflang="es" lang="es" aria-label="Switch language to Spanish">ES</a>
+      <a href="{{ alternate_lang_url }}" role="menuitem" hreflang="es" lang="es" aria-label="Switch language to Spanish">ES</a>
       <span class="lang-separator" aria-hidden="true">/</span>
       <span class="lang-current" aria-current="true">EN</span>
     </li>
