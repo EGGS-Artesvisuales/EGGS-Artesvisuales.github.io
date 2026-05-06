@@ -53,7 +53,7 @@ languages:
     locale: "en-US"
     dir: "ltr"
   arn:
-    label: "Mapudungun"
+    label: "Mapuzungun"
     locale: "arn-CL"
     dir: "ltr"
 
