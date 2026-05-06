@@ -1,7 +1,7 @@
 ---
 layout: default-mpd
 title: "Kellun – EGGS-Studio"
-description: "Kellun profesionales de EGGS-Studio: restauración de obras de arte, encargos, ambientación, montajes, producción cultural y soluciones integrales en artes azentunes."
+description: "EGGS-Studio ñi profesional kellun: küme dewün, küdaw ngütram, montaje, kimün producción ka azentun solución."
 keywords: "servicios az-küdaws, EGGS-Studio, restauración de arte, encargos az-küdaws, montajes y ambientación, producción cultural, Esteban Garnica"
 permalink: /MPD/eggs.html
 carousel: true
@@ -9,33 +9,33 @@ carousel: true
 
 <!-- Título principal -->
 <h1 class="titulo">E.GG.S – Producciones & Art SpA</h1>
-<h2 class="subtitulo">Kellun profesionales en arte, cultura y mapu</h2>
+<h2 class="subtitulo">Profesional kellun az-küdaw, kimün ka mapu mew</h2>
 
 <!-- Texto descriptivo -->
 <p class="parrafo" style="margin-top:6%;">
-  <strong>E.GG.S – Producciones & Art SpA</strong> es una empresa chilena (RUT: 77.973.201-0) que integra arte, tecnología y gestión cultural para acompañar küdaw en distintas escalas. Fundada por el artista azentun Esteban Garnica Sánchez, busca poner la experiencia az-küdaw al servicio de comunidades, instituciones y personas que desean transformar sus püles con sentido.
+  <strong>E.GG.S – Producciones & Art SpA</strong> müley chileno empresa (RUT: 77.973.201-0) ñi txawün az-küdaw, teknologia ka kimün gestión, kake escala küdaw kellual. Esteban Garnica Sánchez az-küdawfe ñi dewman, ñi zugu müley az-küdaw kimün elun pu lof, institución ka pu che ñi püle zugu niechi akumtun mew.
 </p>
 
 <p class="parrafo">
-  Creemos que el arte puede actuar como un catalizador de cambio: revitaliza püles urbanos, fortalece identidades mapu mewes y amplía el acceso a la cultura. Desde esa perspectiva, cada küdaw se trabaja de manera cuidadosa y situada, escuchando a quienes participan y respetando el contexto en el que intervenimos.
+  Iñchiñ rakizuam: az-küdaw elugey akumtun newen. Waria püle newentuy, mapu az che yafümtuy ka kimün acceso fütalkey. Fey mew kiñeke küdaw dewmangey inakintun mew, allkütugey pu koneltufe ka yamuwün niey püle ñi contexto.
 </p>
 
 <p class="parrafo">
-  La experiencia acumulada en muralismo, restauración, producción cultural y docencia nos permite abordar una amplia gama de necesidades: desde la recuperación de patrimonio y la dewman de obras originales, hasta el diseño de escenografías, el desarrollo de contenidos multimedia y la exploración de herramientas digitales vinculadas al arte.
+  Muralismo, küme dewün, kimün producción ka kimeltun mew txawüchi kimün elugey fill necesidad mew küdaw: patrimonio wiñol dewman, ngen küdaw dewman, escenografía diseño, multimedia contenido ka digital herramienta az-küdaw mew.
 </p>
 
 <p class="parrafo">
-  Si te interesa colaborar, desarrollar un küdaw o explorar una idea, podemos diseñar juntos una propuesta ajustada a tu realidad, tus tiempos y tus recursos.
+  Mi ayüle kelluwün, küdaw amulnieal kam kiñe idea kintual, iñchiw dewmayay propuesta tami realidad, tiempo ka recurso mew adattulu.
 </p>
 
 <!-- Llamado a la acción -->
 <p class="parrafo" style="margin-top:4%;">
-  <strong>Conversemos cómo el arte puede aportar a tu küdaw.</strong><br>
-  Escríbenos a: <a href="mailto:hola@eggs-studio.cl">hola@eggs-studio.cl</a>
+  <strong>Nütramkayu chumgechi az-küdaw tami küdaw kellual.</strong><br>
+  Wirintuku: <a href="mailto:hola@eggs-studio.cl">hola@eggs-studio.cl</a>
 </p>
 
 <!-- Subtítulo para el carrusel -->
-<h2 class="subtitulo" style="margin-top:4%;">Nuestros servicios especializados</h2>
+<h2 class="subtitulo" style="margin-top:4%;">Iñchiñ ñi kellun especializado</h2>
 
 <!-- Carousel de Kellun -->
 <div class="owl-carousel">
@@ -44,8 +44,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Producción y organización de eventos culturales" loading="lazy">
-        <p class="title">Producción y organización de eventos culturales</p>
-        <p class="subtitle">Diseño, coordinación y acompañamiento de experiencias culturales.</p>
+        <p class="title">Kimün evento producción ka organización</p>
+        <p class="subtitle">Diseño, coordinación ka kimün rüpü acompañamiento.</p>
       </div>
     </a>
   </div>
@@ -55,8 +55,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/restauracion-boton.webp" alt="Küme dewün ka inakintun de obras de arte y patrimonio" loading="lazy">
-        <p class="title">Küme dewün ka inakintun de obras de arte y patrimonio</p>
-        <p class="subtitle">Preservamos el legado az-küdaw y material con criterios técnicos y respeto por la obra.</p>
+        <p class="title">Küme dewün ka patrimonio inakintun</p>
+        <p class="subtitle">Az-küdaw eluwün ka chemkün inakintuyiñ técnica ka yamuwün mew.</p>
       </div>
     </a>
   </div>
@@ -66,8 +66,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo y arte urbano" loading="lazy">
-        <p class="title">Muralismo y arte urbano</p>
-        <p class="subtitle">Intervenciones murales para püles fütra che mews, lof mews y privados.</p>
+        <p class="title">Muralismo ka waria az-küdaw</p>
+        <p class="subtitle">Mural koneltun fütra che mew, lof mew ka privado püle mew.</p>
       </div>
     </a>
   </div>
@@ -77,8 +77,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Diseño y construcción de escenografías y mobiliario az-küdaw" loading="lazy">
-        <p class="title">Diseño y construcción de escenografías y mobiliario az-küdaw</p>
-        <p class="subtitle">Püles y objetos que acompañan relatos escénicos y expositivos.</p>
+        <p class="title">Escenografía ka az-küdaw mobiliario diseño</p>
+        <p class="subtitle">Püle ka chemkün ñi acompañar escena ka exhibición nütram.</p>
       </div>
     </a>
   </div>
@@ -88,8 +88,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/boton-docencia.webp" alt="Kimeltun y talleres de formación az-küdaw" loading="lazy">
-        <p class="title">Kimeltun y talleres de formación az-küdaw</p>
-        <p class="subtitle">Programas formativos en artes azentunes, muralismo y küdaw rüpü creativos.</p>
+        <p class="title">Kimeltun ka az-küdaw taller</p>
+        <p class="subtitle">Az-küdaw, muralismo ka dewman rüpü kimeltun programas.</p>
       </div>
     </a>
   </div>
@@ -99,8 +99,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Producción y montaje de exhibiciones y museos digitales" loading="lazy">
-        <p class="title">Producción y montaje de exhibiciones y museos digitales</p>
-        <p class="subtitle">Curaduría, montaje y experiencias expositivas presenciales y virtuales.</p>
+        <p class="title">Exhibición ka digital musoe producción</p>
+        <p class="subtitle">Curaduría, montaje ka presencial/virtual exhibición kimün rüpü.</p>
       </div>
     </a>
   </div>
@@ -110,8 +110,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Decoración az-küdaw de interiores y exteriores" loading="lazy">
-        <p class="title">Decoración az-küdaw de interiores y exteriores</p>
-        <p class="subtitle">Propuestas azentunes a medida para hogares, instituciones y püles comerciales.</p>
+        <p class="title">Ponwi ka wekun püle az-küdaw dewman</p>
+        <p class="subtitle">Ruka, institución ka comercio püle mew azentun propuesta.</p>
       </div>
     </a>
   </div>
@@ -121,8 +121,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Desarrollo de software y aplicaciones para el sector az-küdaw" loading="lazy">
-        <p class="title">Desarrollo de software y aplicaciones para el sector az-küdaw</p>
-        <p class="subtitle">Herramientas digitales pensadas para küdaw culturales y azentunes.</p>
+        <p class="title">Software ka aplicación az-küdaw püle mew</p>
+        <p class="subtitle">Digital herramienta kimün ka azentun küdaw mew.</p>
       </div>
     </a>
   </div>
@@ -132,8 +132,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Producción de contenido multimedia y arte digital" loading="lazy">
-        <p class="title">Producción de contenido multimedia y arte digital</p>
-        <p class="subtitle">Video, az y piezas digitales para küdaw az-küdaws y comunicacionales.</p>
+        <p class="title">Multimedia contenido ka digital az-küdaw</p>
+        <p class="subtitle">Video, az ka digital pieza az-küdaw ka comunicación mew.</p>
       </div>
     </a>
   </div>
@@ -143,8 +143,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Comercialización de productos az-küdaws y diseño especializado" loading="lazy">
-        <p class="title">Comercialización de productos az-küdaws y diseño especializado</p>
-        <p class="subtitle">Küdaw, ediciones y productos derivados vinculados a la práctica az-küdaw.</p>
+        <p class="title">Az-küdaw producto trafkintu ka diseño</p>
+        <p class="subtitle">Küdaw, edición ka derivado producto az-küdaw rüpü egu.</p>
       </div>
     </a>
   </div>
@@ -154,8 +154,8 @@ carousel: true
     <a href="/MPD/en-construccion.html" class="fancy-button">
       <div class="button-content">
         <img src="/assets/img/eggs-empresagif.webp" alt="Intervenciones lof mews y küdaw de inclusión social a través del arte" loading="lazy">
-        <p class="title">Intervenciones lof mews e inclusión social a través del arte</p>
-        <p class="subtitle">Küdaw rüpü participativos que vinculan dewman, mapu y bienestar.</p>
+        <p class="title">Lof koneltun ka kom che inclusión</p>
+        <p class="subtitle">Kelluwün rüpü ñi txawün dewman, mapu ka küme mogen.</p>
       </div>
     </a>
   </div>

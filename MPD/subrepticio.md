@@ -7,14 +7,14 @@ permalink: /MPD/subrepticio.html
 <h1 class="titulo">Ellka küdaw</h1>
 
 <h2 class="subtitulo">
-  Gestos mínimos que intervienen el entorno sin anunciarse.
+  Pichi zugu ñi konün wall püle mew, mütrümün ngenon.
 </h2>
 
 <p class="parrafo" style="margin-top: 7%;">
-  Esta categoría reúne prácticas urbanas que actúan desde la sutileza. Son intervenciones que no buscan protagonismo, sino provocar una breve interrupción en la mirada: pequeños desplazamientos perceptivos que revelan tensiones, contradicciones o silencios del paisaje urbano. A través del graffiti, la antipublicidad o las remiendas urbanas, estas acciones proponen un diálogo crítico con el püle y sus lógicas de uso.
+  Fachi trokiñ txawüley waria mew prácticas ñi ellka rüpü mew küdaw. Fey pu koneltun protagonismo kintulay; kintuyn pichi wirarün adkintun mew: pichi desplazamiento ñi nülal tensión, contradicción ka waria mapu az ñi ñüküf. Graffiti, anti-publicidad ka waria remiendas rüpü mew, fachi zugu nütramkey püle ka ñi uso lógica egu.
 </p>
 
-<h3 class="subtitulo2">Líneas de trabajo</h3>
+<h3 class="subtitulo2">Küdaw rüpü</h3>
 
 <div class="button-container">
 
@@ -23,7 +23,7 @@ permalink: /MPD/subrepticio.html
     <div class="button-content">
       <img src="/assets/img/boton-graffiti.webp" alt="Graffiti">
       <p class="title">Graffiti</p>
-      <p class="subtitle">Expresión urbana que desafía normas.</p>
+      <p class="subtitle">Waria mew dungu ñi ramtun norma.</p>
     </div>
   </a>
 
@@ -31,8 +31,8 @@ permalink: /MPD/subrepticio.html
   <a href="/MPD/subrep-antipublicidad.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-antipub.webp" alt="La Antipublicidad">
-      <p class="title">La Antipublicidad</p>
-      <p class="subtitle">Contracorriente azentun en püles fütra che mews.</p>
+      <p class="title">Anti-Publicidad</p>
+      <p class="subtitle">Fütra che mew püle mew azentun kontrakorriente.</p>
     </div>
   </a>
 
@@ -40,8 +40,8 @@ permalink: /MPD/subrepticio.html
   <a href="/MPD/subrep-remiendas-urbanas.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-remienda-urbana2.webp" alt="Remiendas Urbanas">
-      <p class="title">Remiendas Urbanas</p>
-      <p class="subtitle">Intervenciones para renovar y transformar.</p>
+      <p class="title">Waria remiendas</p>
+      <p class="subtitle">Koneltun ñi wiñol dewman ka akumtun.</p>
     </div>
   </a>
 

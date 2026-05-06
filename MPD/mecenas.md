@@ -1,28 +1,28 @@
 ---
 layout: default-mpd
 lang: arn
-title: "Mecenas – Apoya el trabajo de Esteban Garnica"
-description: "Explora küdaw en desarrollo y conviértete en un impulsor del arte, el muralismo y la producción cultural de Esteban Garnica."
+title: "Mecenas – Esteban Garnica ñi küdaw kellu"
+description: "Amulechi küdaw adkintun ka Esteban Garnica ñi az-küdaw, muralismo ka kimün producción kellu."
 permalink: /MPD/mecenas.html
 keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, muralismo, Esteban Garnica, EGGS-Studio, donaciones arte"
 ---
 
-<h1 class="titulo">Conviértete en Mecenas</h1>
+<h1 class="titulo">Mecenas ngeaymi</h1>
 
-<h2 class="subtitulo">Apoya la dewman az-küdaw y deja huella en la cultura.</h2>
+<h2 class="subtitulo">Dewman az-küdaw kellu ka kimün mew tami rastro elu.</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  El arte y la cultura transforman comunidades, conectan historias y generan nuevas experiencias. Cada uno de nuestros küdaw es una oportunidad para revitalizar püles, fortalecer identidades y contribuir a una sociedad más creativa y cohesionada.
+  Az-küdaw ka kimün akumtukey pu lof, txawüley kuifi dungu ka nülakey we kimün rüpü. Kiñeke iñchiñ ñi küdaw müley oportunidad: püle newentun, az che yafümtun ka doy dewman niechi lof kellun.
 </p>
 
 <p class="parrafo">
-  Como mecenas, puedes aportar el monto que estimes conveniente y ser parte activa del desarrollo de cada iniciativa. Accederás a avances exclusivos, küdaw rüpü creativos, documentación especial y eventos ligados a los küdaw que apoyas. Tu kelluwün es fundamental para que estas obras existan.
+  Mecenas reke, eluaimi tami ayüchi monto ka koneltuaimi kiñeke iniciativa ñi amulen mew. Niea tami acceso: avance, dewman rüpü, especial wirin ka evento tami kellu küdaw egu. Tami kelluwün fütra newen niey fachi pu küdaw müleal.
 </p>
 
-<h2 class="subtitulo">Küdaw en marcha</h2>
+<h2 class="subtitulo">Amulechi küdaw</h2>
 
 <p class="parrafo">
-  Explora las propuestas que actualmente buscan financiamiento y elige cómo deseas involucrarte.
+  Adkintunge pu propuesta ñi kintun financiamiento ka dullinge chumgechi koneltual.
 </p>
 
 <br>
@@ -34,7 +34,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
       <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Museo a Cielo Abierto">
       <p class="title">Museo a Cielo Abierto</p>
       <p class="subtitle">
-        Un circuito de murales que transforma el püle urbano mediante memoria, color y kelluwün lof mew.
+        Mural rüpü ñi akumtun waria püle: kimün kuifi, color ka lof kelluwün mew.
       </p>
     </div>
   </a>
@@ -44,7 +44,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
       <img src="/assets/img/boton-remienda-urbana.webp" alt="Remienda Urbana n°7">
       <p class="title">Remienda Urbana n°7</p>
       <p class="subtitle">
-        Intervenciones az-küdaws que reparan, resignifican y activan el mobiliario urbano desde la creatividad.
+        Az-küdaw koneltun ñi wiñol dewman, we zugu elun ka waria mobiliario newentun.
       </p>
     </div>
   </a>
@@ -54,7 +54,7 @@ keywords: "Mecenas, apoyar arte, financiamiento cultural, küdaw az-küdaws, mur
 <br>
 
 <p class="parrafo">
-  Tu aporte es más que una donación: es una inversión en cultura, comunidad y transformación social. Gracias por impulsar el arte.
+  Tami kellun donación müten gelay: kimün, lof ka küme akumtun mew inversión ngey. Mañum az-küdaw amulnieal.
 </p>
 
 

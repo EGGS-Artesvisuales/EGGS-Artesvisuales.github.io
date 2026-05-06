@@ -1,28 +1,28 @@
 ---
 layout: default-mpd
-title: "Esteban Garnica Sánchez – Artista azentun y muralista"
-description: "Biografía y trayectoria de Esteban Garnica Sánchez: artista azentun, muralista y creador de EGGS-Studio, especializado en arte fütra che mew, pintura expandida y küdaw rüpü lof mews."
+title: "Esteban Garnica Sánchez – Az-küdawfe ka muralista"
+description: "Esteban Garnica Sánchez ñi rüpü: az-küdawfe, muralista ka EGGS-Studio ñi dewmafe."
 keywords: "Esteban Garnica, artista azentun chileno, muralista, EGGS-Studio, arte contemporáneo Chile, pintura expandida, arte fütra che mew, küdaw lof mews"
 permalink: /MPD/garnica.html
 ---
 
 <!-- Título principal -->
 <h1 class="titulo">Esteban Garnica Sánchez</h1>
-<h2 class="subtitulo">Az-küdaw como herramienta de transformación social</h2>
+<h2 class="subtitulo">Az-küdaw küme akumtun lof mew</h2>
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  Esteban Garnica Sánchez (Santiago, 1985) es un artista azentun chileno formado en la Universidad de Chile. Su trayectoria articula dewman az-küdaw, docencia e intervención en el püle urbano. Su obra aborda temas contemporáneos como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando lenguajes que van desde la pintura mural hasta la instalación en püles fütra che mews.
+  Esteban Garnica Sánchez (Santiago, 1985) müley chileno az-küdawfe, Universidad de Chile mew kimeltun niey. Ñi rüpü txawüley dewman az-küdaw, kimeltun ka waria püle mew koneltun. Ñi küdaw nütramkey fachi antü ñi kutxan dungu: desigualdad, wallmapu kutxan ka waria conflicto; pintura mural mew ka instalación fütra che mew püle mew amuley.
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Garnica se concibe como un cronista azentun de su tiempo. Sus küdaw —que incluyen murales de gran formato, intervenciones colaborativas y acciones situadas— buscan transformar la percepción del püle fütra che mew, activar la memoria mapu mew y fortalecer el diálogo ciudadano.
+  Garnica adkintuy iñche ñi rüpü cronista azentun reke. Ñi küdaw —fütra mural, kelluwün koneltun ka püle mew zugu— kintuy akumtun fütra che mew püle ñi adkintun, newentun mapu kimün kuifi ka waria che ñi nütram.
 </p>
 
 <!-- Párrafo 3 -->
 <p class="parrafo">
-  Su labor educativa, desarrollada mediante talleres, küdaw rüpü participativos y küdaw lof mews, ha contribuido a la formación de nuevas generaciones de artistas y mediadores culturales comprometidos con la transformación social a través del arte.
+  Ñi kimeltun küdaw, taller, kelluwün rüpü ka lof küdaw mew amulniey we txipantu az-küdawfe ka kimün mediador ñi kimeltun. Fey pu che txawüley az-küdaw rüpü mew lof küme akumtun zugu egu.
 </p>
 
 <br>
