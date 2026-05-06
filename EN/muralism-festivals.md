@@ -69,7 +69,7 @@ carousel: true
 </p>
 
 <div class="button-container">
-  <a href="/EN/muralism.html" class="fancy-button">
+  <a href="/EN/community.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/muralismo/muralismo-hero.jpg" alt="Back to Muralism" loading="lazy">
       <p class="title">Back to Muralism</p>

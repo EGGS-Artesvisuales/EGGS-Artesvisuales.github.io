@@ -86,9 +86,9 @@ graph LR
   click A1a1 "la-peste.html" "Ir a La Peste"
   click A1a1a "/ES/peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
   click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click A1a1b1 "/es/espacio-domestico" "Ir a Espacio Doméstico"
+  click A1a1b1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click A1a1b2 "/ES/espacio-publico.html" "Ir a Espacio Público"
-  click A1a1b3 "/ES/espacio-rural" "Ir a Espacio Rural / Natural"
+  click A1a1b3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"
   click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
   click A2c1 "musoe-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
 
@@ -106,8 +106,8 @@ graph LR
   click SB_PU "/ES/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
 
   %% Espacio doméstico: Objetos / Habitaciones
-  click ED_OBJ "/es/espacio-domestico#objetos" "Ir a Objetos"
-  click ED_HAB "/es/espacio-domestico#habitaciones" "Ir a Habitaciones"
+  click ED_OBJ "/ES/espacio-domestico.html#objetos" "Ir a Objetos"
+  click ED_HAB "/ES/espacio-domestico.html#habitaciones" "Ir a Habitaciones"
 
   %% Pinturas Wi-Fi: página + secciones
   click A1a2a "/ES/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"

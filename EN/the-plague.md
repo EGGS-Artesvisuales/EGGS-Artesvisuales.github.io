@@ -48,7 +48,7 @@ flowchart LR
   click C "/EN/infected-paintings.html" "View Infected Paintings"
   click D "/EN/infected-paintings.html#traditional-supports" "Go to Traditional Supports"
   click E "/EN/infected-paintings.html#soft-supports" "Go to Soft Supports"
-  click F "/EN/displacement-of-painting" "Go to Displacement of Painting"
+  click F "/EN/displacement-of-painting.html" "Go to Displacement of Painting"
   click F1 "/EN/domestic-space.html" "Go to Domestic Space"
   click F2 "/EN/public-space.html" "Go to Public Space"
   click F3 "/EN/rural-natural-space.html" "Go to Rural / Natural Space"
@@ -66,7 +66,7 @@ flowchart LR
       <p class="subtitle">Painting, waste, and contaminated surfaces.</p>
     </div>
   </a>
-  <a href="/EN/displacement-of-painting" class="fancy-button">
+  <a href="/EN/displacement-of-painting.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Displacement of Painting" loading="lazy">
       <p class="title">Displacement of Painting</p>

@@ -73,7 +73,7 @@ permalink: pretty
 collections:
   productos_es:
     output: true
-    permalink: /es/productos/:path/
+    permalink: /ES/productos/:path/
   productos_en:
     output: true
-    permalink: /en/products/:path/
+    permalink: /EN/products/:path/

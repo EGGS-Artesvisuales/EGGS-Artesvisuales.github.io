@@ -8,7 +8,7 @@ sizes:
   - "Pequeño"
   - "Mediano"
   - "Grande"
-permalink: /es/productos/impresion001/
+permalink: /ES/productos/impresion001/
 ---
 
 ## {{ page.title }}

@@ -74,7 +74,7 @@ graph LR
   click A1 "/EN/tangible.html" "Go to The Tangible"
   click A2 "/EN/intangible.html" "Go to The Intangible"
   click A1a "/EN/saturation.html" "Go to Saturation"
-  click A1a1b "/EN/displacement-of-painting" "Go to Displacement of Painting"
+  click A1a1b "/EN/displacement-of-painting.html" "Go to Displacement of Painting"
   click A2a "/EN/images-of-capitalism.html" "Go to Images of Capitalism"
   click A2b "/EN/images-of-the-popular.html" "Go to Images of the Popular"
   click A2c "/EN/images-of-the-ancestors.html" "Go to Images of the Ancestors"

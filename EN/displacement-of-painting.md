@@ -4,7 +4,7 @@ lang: en
 title: "Displacement of Painting – Expansion and Contamination of the Support"
 description: "Esteban Garnica’s visual research on the displacement of painting toward objects and domestic, public, and natural spaces, exploring new materialities and sensory frictions."
 keywords: "displacement of painting, expanded painting, contemporary art Chile, Esteban Garnica, pictorial materiality, painting and domestic space, experimental practices"
-permalink: /EN/displacement-of-painting
+permalink: /EN/displacement-of-painting.html
 mermaid: true
 ---
 
@@ -50,7 +50,7 @@ graph LR
   click Y "/EN/tangible.html" "View The Tangible"
   click A "/EN/saturation.html" "View Saturation"
   click B "/EN/the-plague.html" "View The Plague"
-  click F "/EN/displacement-of-painting" "Go to Displacement of Painting"
+  click F "/EN/displacement-of-painting.html" "Go to Displacement of Painting"
   click F1 "/EN/domestic-space.html" "Go to Domestic Space"
   click F2 "/EN/public-space.html" "Go to Public Space"
   click F3 "/EN/rural-natural-space.html" "Go to Rural / Natural Space"
