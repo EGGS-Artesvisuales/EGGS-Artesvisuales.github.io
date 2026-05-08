@@ -148,7 +148,7 @@ graph LR
   click B4 "/EN/services.html" "Go to Services"
 
   %% Not yet existing -> under construction
-  click B1c "/EN/under-construction.html" "Under construction"
+  click B1c "/EN/sub-graffiti.html" "Go to Graffiti and Tags"
   click B1b1 "/EN/under-construction.html" "Under construction"
   click B1b2 "/EN/under-construction.html" "Under construction"
   click B1b3 "/EN/under-construction.html" "Under construction"

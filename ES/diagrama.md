@@ -171,7 +171,7 @@ graph LR
   click B4 "servicios.html" "Ir a Servicios"
 
   %% Enlaces (no existentes aún -> en construcción)
-  click B1c "en-construccion.html" "En construcción"
+  click B1c "subrep-graffiti.html" "Ir a Graffiti y Tags"
   click B2a "en-construccion.html" "En construcción"
   click B3a "en-construccion.html" "En construcción"
   click B3b "en-construccion.html" "En construcción"

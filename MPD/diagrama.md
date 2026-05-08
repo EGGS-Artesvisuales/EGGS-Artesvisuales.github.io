@@ -171,7 +171,7 @@ graph LR
   click B4 "servicios.html" "Amun: Kellun"
 
   %% Enlaces (no existentes aún -> en construcción)
-  click B1c "en-construccion.html" "Dewmangen mew"
+  click B1c "subrep-graffiti.html" "Amun: Graffiti ka Tags"
   click B2a "en-construccion.html" "Dewmangen mew"
   click B3a "en-construccion.html" "Dewmangen mew"
   click B3b "en-construccion.html" "Dewmangen mew"

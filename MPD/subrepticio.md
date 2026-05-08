@@ -19,7 +19,7 @@ permalink: /MPD/subrepticio.html
 <div class="button-container">
 
   <!-- Graffiti ñi botón -->
-  <a href="/MPD/en-construccion.html" class="fancy-button">
+  <a href="/MPD/subrep-graffiti.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-graffiti.webp" alt="Graffiti">
       <p class="title">Graffiti</p>

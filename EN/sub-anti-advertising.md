@@ -38,7 +38,7 @@ graph LR
   click B1 "/EN/subreptitious.html" "Go to The Subreptitious"
   click B1a "/EN/sub-urban-mending.html" "Go to Urban Mending"
   click B1b "/EN/sub-anti-advertising.html" "Go to Anti-advertising"
-  click B1c "/EN/under-construction.html" "Go to Graffiti &amp; Tags"
+  click B1c "/EN/sub-graffiti.html" "Go to Graffiti &amp; Tags"
 
   click B1b1 "/EN/under-construction.html" "PP Series"
   click B1b2 "/EN/under-construction.html" "Poster Series"
