@@ -1535,12 +1535,12 @@ button:focus-visible,
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
   .site-masthead__title {
     background:
-      linear-gradient(92deg, #f9fafb 0%, #aeb5bf 23%, #ffffff 46%, #737b86 64%, #f5f7fa 82%, #aab1ba 100%);
-    background-size: 180% 100%;
+      linear-gradient(100deg, #f4f6f8 0%, #aeb5bf 24%, #ffffff 34%, #ffffff 39%, #6f7782 48%, #f8fafc 66%, #aab1ba 100%);
+    background-size: 230% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: titleFoil 11s var(--site-ease) infinite alternate;
+    animation: titleFoil 7.5s cubic-bezier(.45, 0, .2, 1) infinite;
   }
 }
 
@@ -1574,8 +1574,8 @@ button:focus-visible,
 }
 
 @keyframes titleFoil {
-  from { background-position: 0% 50%; }
-  to { background-position: 100% 50%; }
+  from { background-position: 130% 50%; }
+  to { background-position: -130% 50%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
