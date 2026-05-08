@@ -46,6 +46,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-01.webp" alt="Final record of the Bloque 23C mural" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-02.webp" alt="Collaborative work session for the Bloque 23C mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2025 · Villa Alberto Larraguibel · Voces de Chile</p>
@@ -57,6 +58,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-01.webp" alt="Advanced record of the Hans Asperger mural" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-02.webp" alt="Site review process for the Hans Asperger mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2025 · First stage of Voces de Chile · La Florida</p>
@@ -68,6 +70,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-01.webp" alt="Painting record at Miguitas Ternura" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-02.webp" alt="Children working during the Miguitas Ternura process" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2025 · First stage of Voces de Chile · La Florida</p>
@@ -79,6 +82,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-01.webp" alt="Mural Los Quillayes in an advanced painting session" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-02.webp" alt="Children and community drawing for Mural Los Quillayes" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2024 · Miguitas de Ternura Kindergarten, Los Quillayes · La Florida</p>
@@ -90,6 +94,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-01.webp" alt="Finished Santa Caterina community mural" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-02.webp" alt="Neighbors working on Santa Caterina Comunidad mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2021 · Vicuña Mackenna poniente and Santa Caterina · La Florida</p>
@@ -100,7 +105,8 @@ carousel: true
 
   <article class="case-card case-card--wide">
       <div class="case-gallery">
-        <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Participatory process for Pinta Tu Mural Los Quillayes" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-ptmq-2018-01.webp" alt="Participatory process for Pinta Tu Mural Los Quillayes" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-ptmq-2018-02.webp" alt="Participants painting Pinta Tu Mural Los Quillayes" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2018 · CESFAM Villa Los Quillayes · La Florida</p>
@@ -112,6 +118,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-01.webp" alt="Evoluciona Graff mural with two figures in conflict" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-02.webp" alt="Students painting the Evoluciona Graff mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2016 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
@@ -123,6 +130,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-01.webp" alt="Panoramic view of the Kurin Batu mural in process" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-02.webp" alt="Collective painting session in Facilitacion AMK La Florida Joven" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2015 · Villa Los Copihues · La Florida</p>
@@ -134,6 +142,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-01.webp" alt="Taller AMK La Florida Joven with painting panels" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-02.webp" alt="Participants painting panels during Taller AMK La Florida Joven" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2014 · Av. Walker Martinez and Jardin Alto · La Florida</p>
@@ -145,6 +154,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-01.webp" alt="AMKids mural process with preschool children and AMK Crew" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-02.webp" alt="Participant group next to the AMKids mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2014 · Rayen and Jeronimo de Alderete · La Florida</p>
@@ -156,6 +166,7 @@ carousel: true
   <article class="case-card case-card--wide">
       <div class="case-gallery">
         <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-01.webp" alt="AMK Libertad de Expresion mural at Plaza Las Lluvias" loading="lazy">
+        <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-02.webp" alt="Participant next to the AMK Libertad de Expresion mural" loading="lazy">
       </div>
       <div>
         <p class="case-meta">2012 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
