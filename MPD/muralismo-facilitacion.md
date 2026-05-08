@@ -36,30 +36,144 @@ carousel: true
   </dl>
 </div>
 
-<h2 class="subtitulo2">Txawün wirin mew pengechi casos</h2>
+<h2 class="subtitulo2">FACI txawün wirin ñi casos</h2>
+
+<p class="parrafo">
+  Fachi zullin trokiñ ordenakey fill caso küdaw mew. Kiñeke ficha niey contexto, kellun-ngülam ñi rol ka pichi azentun trokiñ; pu az web mew küme elugey archivo original mew.
+</p>
 
 <div class="case-grid">
-  <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Konchi che mural pintay CESFAM Villa Los Quillayes mew" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-01.webp" alt="AMK Libertad de Expresion mural Plaza Las Lluvias mew" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-02.webp" alt="AMK Libertad de Expresion mural ñi registro" loading="lazy">
+    </div>
     <div>
+      <p class="case-meta">2012 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
+      <h3>AMK Libertad de Expresion</h3>
+      <p>Mural ka graffiti ñi wünen kimün jornada, wecheke che ka AMK Crew egu. Fachi caso formación ka konün rüpü reke adkintugey: afpun muro müten gelay, ngülam, acompañamiento ka txawün az-küdaw ñi nülün rume zuamgey.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-01.webp" alt="AMKids proceso mural pichikeche ka AMK Crew egu" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-02.webp" alt="AMKids mural Rayen ka Jeronimo de Alderete mew" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2014 · Rayen / Jeronimo de Alderete · La Florida</p>
+      <h3>AMKids</h3>
+      <p>Lof mew mural proceso, AMK Crew ka pichikeche egu. Kellun-ngülam trawüley aukantun, kimün ka txawün dewman mew, waria rüpü ñi azümün aerosol, esmalte ka acompañamiento mew.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-01.webp" alt="Taller AMK La Florida Joven paneles mew" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-02.webp" alt="Pu che paneles pintay La Florida Joven mew" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2014 · Av. Walker Martinez / Jardin Alto · La Florida</p>
+      <h3>Taller AMK La Florida Joven</h3>
+      <p>Nülalechi brocha jornada ka pu che ñi konün. Paneles elugey müten pintangeal, gesture azkintual, muralismo mew feyentual ka txawün mew espacio ñi nülün.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-01.webp" alt="Kurin Batu mural proceso ñi panoramica" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-02.webp" alt="Facilitacion AMK La Florida Joven ñi pintura jornada" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2015 · Villa Los Copihues · La Florida</p>
+      <h3>Facilitacion AMK La Florida Joven</h3>
+      <p>Identidad mural, AMK Crew ka Kurin Batu weche batucada trokiñ egu, La Florida Joven ñi mediación mew. Mural az kintuy grupo, sede ka territorio ñi simbolo nieal.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-01.webp" alt="Evoluciona Graff mural" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-02.webp" alt="Evoluciona graffiti estudiantes egu dewman" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2016 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
+      <h3>Evoluciona Graff</h3>
+      <p>Graffiti txawün, Manuel ka Tomas estudiantes egu. Az reke meme mural: epu figura kewan ka Evoluciona wirin, no violencia ñi rakizuam azentual.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Pinta Tu Mural Los Quillayes ñi proceso" loading="lazy">
+      <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Pinta Tu Mural Los Quillayes ñi üñüm detalle" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2018 · CESFAM Villa Los Quillayes · La Florida</p>
       <h3>Pinta Tu Mural Los Quillayes</h3>
-      <p>2018 · CESFAM Villa Los Quillayes. Institución ka lof mew mural ñi kellun, pacientes ka enfermeras egu püchikeche sector mew dewman.</p>
+      <p>Institución ka lof mew mural ñi kellun, Corporacion Cultural de La Florida ñi pedido mew. Intervención pichikeche sector CESFAM mew dewman, pacientes ka enfermeras egu, kuñiwtun, azümün ka txawün az-küdaw rüpü mew.</p>
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Üñüm ñi detalle CESFAM Villa Los Quillayes mural mew" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-01.webp" alt="Santa Caterina lof mural afpun" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-02.webp" alt="Santa Caterina mural ñi wünen jornada panoramica" loading="lazy">
+    </div>
     <div>
-      <h3>Azümün, kuñiwtun ka konün</h3>
-      <p>Fachi caso kimelkey chumül kellun küdawkey salud püle mew, kiñe pasillo wallontukey lof, institución ka mural oficio ñi txawün azentun mew.</p>
+      <p class="case-meta">2021 · Vicuña Mackenna poniente / Santa Caterina · La Florida</p>
+      <h3>Santa Caterina Comunidad</h3>
+      <p>Lof mew mural, Villa Santa Caterina vecinos ka vecinas egu, Corporacion Cultural de La Florida mew txawün. Proceso kintuy entorno ñi küme azümün, jardin, verde püle ka txawün küdaw mew.</p>
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Mapu mew txawün muralismo proceso" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-01.webp" alt="Mural Los Quillayes ñi avanzada jornada" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-02.webp" alt="Lof küdaw Mural Los Quillayes mew" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-03.webp" alt="Mural Los Quillayes ñi registro general" loading="lazy">
+    </div>
     <div>
-      <h3>Nülalechi trokiñ</h3>
-      <p>FACI txawün wirin mew müley AMK Libertad de Expresión, AMKids, Taller AMK LFJoven, Evoluciona Graff, Santa Caterina Comunidad, Mural Los Quillayes, Bloque 23C, Hans Asperger ka Miguitas Ternura, kake casos egu.</p>
+      <p class="case-meta">2024 · Jardin Infantil Miguitas de Ternura, Los Quillayes · La Florida</p>
+      <h3>Mural Los Quillayes</h3>
+      <p>Lof mew mural proyecto, jardin infantil, familias, kimeltufe equipo ka lof egu. Proceso niey participativo diseño, boceto ñi votación ka txawün küdaw, kiñe muro exterior ñi wesha zugu küme azümün ka pertenencia hito mew wallontukual.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-01.webp" alt="Bloque 23C mural ñi afpun registro" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-02.webp" alt="Bloque 23C fachada intervenida" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-03.webp" alt="Bloque 23C mural ñi detalle" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Villa Alberto Larraguibel · Voces de Chile</p>
+      <h3>Bloque 23C</h3>
+      <p>Fütra formato lof mural, vivienda fachada mew, Voces de Chile - Murales Comunitarios ñi epu txoy mew. Caso niey kuifi estado, boceto, grafica mediación, obra jornadas, inauguración ka afpun registro, barrio wente mapu musoe rüpü mew.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-01.webp" alt="Hans Asperger mural ñi avanzada registro" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-02.webp" alt="Hans Asperger mural ñi wünen proceso" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Voces de Chile ñi wünen txoy · La Florida</p>
+      <h3>Hans Asperger</h3>
+      <p>Lof ka kimeltun contexto mew mural intervención. Caso registro niey boceto, preparación, comunidad mew materiales elun ka küdaw proceso fill jornadas mew.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-01.webp" alt="Miguitas Ternura pintura registro" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-02.webp" alt="Miguitas Ternura mural jornada" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Voces de Chile ñi wünen txoy · La Florida</p>
+      <h3>Miguitas Ternura</h3>
+      <p>Lof mew mural intervención, kimeltun entorno mew nütramkawün. Proceso txawüley bocetos, entregables, realización jornadas ka registro, Voces de Chile - Murales Comunitarios ñi kiñe unidad küdaw reke.</p>
     </div>
   </article>
 </div>
@@ -67,26 +181,3 @@ carousel: true
 <p class="parrafo">
   FACI kakegey Festivales mew, feychi criterio evento gelay, ngülam ka kellun ñi rol müley. Ka kakegey Wente mapu musoe mew, localidad fija kam autoral obra ñi afpun mew müten organizar gelay; txawün küdaw rüpü mew, metodología ñi conducción ragiñ mew müley.
 </p>
-
-
-
-<div class="owl-carousel carousel-az">
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="CESFAM Villa Los Quillayes mew participativo mural proceso" loading="lazy">
-    </div>
-    <figcaption>Pinta Tu Mural Los Quillayes: salud püle mew participativo proceso, 2018.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Villa Los Quillayes mew kellun mural ñi afpun detalle" loading="lazy">
-    </div>
-    <figcaption>Pacientes ka enfermeras egu dewmanchi koneltun ñi detalle.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Lof mew mural proceso ñi boceto" loading="lazy">
-    </div>
-    <figcaption>Boceto ka azentun plan, metodología ngülam ñi kiñe rangiñ.</figcaption>
-  </figure>
-</div>

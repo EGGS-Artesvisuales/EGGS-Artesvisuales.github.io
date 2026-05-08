@@ -36,57 +36,148 @@ carousel: true
   </dl>
 </div>
 
-<h2 class="subtitulo2">Casos visibles en archivo</h2>
+<h2 class="subtitulo2">Casos del archivo FACI</h2>
+
+<p class="parrafo">
+  Esta seleccion organiza los casos por trabajo. Cada ficha presenta una sintesis del contexto, el rol de facilitacion y un grupo breve de imagenes representativas, optimizadas para web desde el archivo original.
+</p>
 
 <div class="case-grid">
-  <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Participante pintando un mural en el CESFAM Villa Los Quillayes" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-01.webp" alt="Mural AMK Libertad de Expresion en Plaza Las Lluvias" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-amle-2012-02.webp" alt="Registro frontal del mural AMK Libertad de Expresion" loading="lazy">
+    </div>
     <div>
+      <p class="case-meta">2012 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
+      <h3>AMK Libertad de Expresion</h3>
+      <p>Jornada de iniciacion mural y graffiti realizada junto a jovenes y AMK Crew. El caso se entiende como una accion formativa e inclusiva: el valor no esta solo en el muro terminado, sino en la guia, el acompañamiento y la apertura de una practica visual colectiva.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-01.webp" alt="Proceso mural AMKids con niños preescolares y AMK Crew" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-amk4-2014-02.webp" alt="Mural AMKids en calle Rayen esquina Jeronimo de Alderete" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2014 · Rayen esquina Jeronimo de Alderete · La Florida</p>
+      <h3>AMKids</h3>
+      <p>Proceso de muralismo comunitario junto a AMK Crew y niños preescolares. La facilitacion opero como mediacion entre juego, aprendizaje y produccion colectiva, decorando una calle del barrio mediante aerosol, esmalte y acompañamiento directo.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-01.webp" alt="Taller AMK La Florida Joven con paneles de pintura" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-talf-2014-02.webp" alt="Participantes pintando paneles en jornada abierta de La Florida Joven" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2014 · Av. Walker Martinez esquina Jardin Alto · La Florida</p>
+      <h3>Taller AMK La Florida Joven</h3>
+      <p>Jornada abierta de brocha y participacion publica. Se instalaron paneles para que distintas personas pudieran pintar, ensayar gestos, acercarse al muralismo y experimentar una forma de activacion colectiva del espacio.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-01.webp" alt="Panoramica de mural en proceso para Kurin Batu" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-falf-2015-02.webp" alt="Jornada de pintura del mural Facilitacion AMK La Florida Joven" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2015 · Villa Los Copihues · La Florida</p>
+      <h3>Facilitacion AMK La Florida Joven</h3>
+      <p>Mural identitario realizado junto a AMK Crew para el grupo juvenil de batucada Kurin Batu, mediado por La Florida Joven. La imagen mural busco dar presencia simbolica al grupo, su sede y su territorio.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-01.webp" alt="Mural Evoluciona Graff con figuras en conflicto" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-evgr-2016-02.webp" alt="Registro del graffiti Evoluciona realizado junto a estudiantes" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2016 · Plaza Las Lluvias, Villa Ensenada · La Florida</p>
+      <h3>Evoluciona Graff</h3>
+      <p>Graffiti colaborativo desarrollado con los estudiantes Manuel y Tomas. La imagen funcionaba como una especie de meme mural: dos figuras enfrentadas y la palabra Evoluciona, articulando una reflexion visual sobre la no violencia.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso participativo del mural Pinta Tu Mural Los Quillayes" loading="lazy">
+      <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle de ave en el mural Pinta Tu Mural Los Quillayes" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2018 · CESFAM Villa Los Quillayes · La Florida</p>
       <h3>Pinta Tu Mural Los Quillayes</h3>
-      <p>2018 · CESFAM Villa Los Quillayes. Facilitacion mural institucional y comunitaria realizada junto a pacientes y enfermeras en el sector infantil del centro de salud.</p>
+      <p>Facilitacion mural institucional y comunitaria por encargo de la Corporacion Cultural de La Florida. La intervencion se concentro en el sector infantil del CESFAM y fue realizada junto a pacientes y enfermeras como experiencia de ambientacion, cuidado y trabajo visual compartido.</p>
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle de ave pintada en el mural del CESFAM Villa Los Quillayes" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-01.webp" alt="Mural comunitario Santa Caterina terminado" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-scom-2021-02.webp" alt="Panoramica de primera jornada del mural Santa Caterina" loading="lazy">
+    </div>
     <div>
-      <h3>Ambientacion, cuidado y participacion</h3>
-      <p>El caso muestra como la facilitacion puede operar en espacios de salud, transformando un pasillo en una experiencia visual compartida entre comunidad, institucion y oficio mural.</p>
+      <p class="case-meta">2021 · Av. Vicuña Mackenna poniente esquina Santa Caterina · La Florida</p>
+      <h3>Santa Caterina Comunidad</h3>
+      <p>Mural comunitario guiado con vecinos y vecinas de Villa Santa Caterina, en articulacion con la Corporacion Cultural de La Florida. El proceso formo parte de un esfuerzo barrial por embellecer el entorno mediante jardines, areas verdes y trabajo colectivo.</p>
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-facilitacion-proceso.jpg" alt="Proceso de muralismo colaborativo en terreno" loading="lazy">
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-01.webp" alt="Mural Los Quillayes en jornada avanzada de pintura" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-02.webp" alt="Comunidad trabajando en el mural Los Quillayes" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mlqu-2024-03.webp" alt="Registro general del mural Los Quillayes" loading="lazy">
+    </div>
     <div>
-      <h3>Serie abierta</h3>
-      <p>El archivo FACI incluye AMK Libertad de Expresion, AMKids, Taller AMK LFJoven, Evoluciona Graff, Santa Caterina Comunidad, Mural Los Quillayes, Bloque 23C, Hans Asperger y Miguitas Ternura, entre otros casos.</p>
+      <p class="case-meta">2024 · Jardin Infantil Miguitas de Ternura, Los Quillayes · La Florida</p>
+      <h3>Mural Los Quillayes</h3>
+      <p>Proyecto de muralismo comunitario desarrollado con el jardin infantil, familias, equipo educativo y comunidad local. El proceso incorporo diseño participativo, votacion de bocetos y trabajo conjunto para transformar un muro exterior asociado a basura y usos no deseados en un hito barrial de cuidado y pertenencia.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-01.webp" alt="Registro final del mural Bloque 23C" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-02.webp" alt="Fachada residencial intervenida en Bloque 23C" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-b23c-2025-03.webp" alt="Detalle del mural comunitario Bloque 23C" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Villa Alberto Larraguibel · Voces de Chile</p>
+      <h3>Bloque 23C</h3>
+      <p>Intervencion mural comunitaria de gran formato en fachada residencial, correspondiente a la segunda etapa de Voces de Chile - Murales Comunitarios. El caso integra estado anterior, bocetos, mediacion grafica, jornadas de obra, inauguracion y registro final dentro de un proceso de museo a cielo abierto barrial.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-01.webp" alt="Registro avanzado del mural Hans Asperger" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-hasp-2025-02.webp" alt="Inicio de proceso del mural Hans Asperger" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Primera etapa Voces de Chile · La Florida</p>
+      <h3>Hans Asperger</h3>
+      <p>Intervencion mural en contexto comunitario y educativo. La carpeta del caso registra bocetaje, preparacion previa, materiales entregados a comunidad y un proceso de obra sostenido por jornadas, como unidad especifica dentro de Voces de Chile.</p>
+    </div>
+  </article>
+
+  <article class="case-card case-card--wide">
+    <div class="case-gallery">
+      <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-01.webp" alt="Registro de pintura en Miguitas Ternura" loading="lazy">
+      <img src="/assets/img/muralismo/faci/casos/faci-mite-2025-02.webp" alt="Jornada de trabajo mural en Miguitas Ternura" loading="lazy">
+    </div>
+    <div>
+      <p class="case-meta">2025 · Primera etapa Voces de Chile · La Florida</p>
+      <h3>Miguitas Ternura</h3>
+      <p>Intervencion mural comunitaria vinculada a un entorno educativo. El proceso reunio bocetos, entregables, jornadas de realizacion y registro de obra, funcionando como una unidad de trabajo dentro del proyecto mayor Voces de Chile - Murales Comunitarios.</p>
     </div>
   </article>
 </div>
 
 <p class="parrafo">
-  FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
+  FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza solo por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
 </p>
-
-
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso participativo de mural en CESFAM Villa Los Quillayes" loading="lazy">
-    </div>
-    <figcaption>Pinta Tu Mural Los Quillayes: proceso participativo en espacio de salud, 2018.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/faci/faci-ptmq-detalle-2018.webp" alt="Detalle final del mural facilitado en Villa Los Quillayes" loading="lazy">
-    </div>
-    <figcaption>Detalle de la intervencion realizada junto a pacientes y enfermeras.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-facilitacion-boceto.jpg" alt="Boceto para proceso mural comunitario" loading="lazy">
-    </div>
-    <figcaption>Boceto y planificacion visual como parte de la guia metodologica.</figcaption>
-  </figure>
-</div>
