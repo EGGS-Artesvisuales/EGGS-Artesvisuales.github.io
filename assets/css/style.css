@@ -2178,12 +2178,19 @@ footer::before {
   .dropdown-menu-sub {
     padding: 0;
     border: 0;
+    border-left: 1px solid rgba(255,255,255,0.16);
     box-shadow: none;
     background: #111;
   }
 
+  .dropdown.active > .dropdown-menu {
+    margin-left: 0.85rem;
+    width: calc(100% - 0.85rem);
+  }
+
   .dropdown-sub > .dropdown-menu-sub {
-    margin-left: 0;
+    margin-left: 0.85rem;
+    width: calc(100% - 0.85rem);
   }
 
   .dropdown-menu a,
