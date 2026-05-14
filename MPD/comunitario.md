@@ -39,7 +39,7 @@ permalink: /MPD/comunitario.html
   <!-- Festivales ñi botón -->
   <a href="/MPD/muralismo-festivales.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-festival.jpg" alt="Muralismo festivales" loading="lazy">
+      <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Muralismo festivales" loading="lazy">
       <p class="title">Festivales</p>
       <p class="subtitle">Muralismo trawün ka fütra che mew koneltun.</p>
     </div>

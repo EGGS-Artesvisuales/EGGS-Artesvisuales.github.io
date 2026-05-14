@@ -39,7 +39,7 @@ permalink: /ES/comunitario.html
   <!-- Botón 3: Festivales -->
   <a href="/ES/muralismo-festivales.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-festival.jpg" alt="Festivales de muralismo" loading="lazy">
+      <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Festivales de muralismo" loading="lazy">
       <p class="title">Festivales</p>
       <p class="subtitle">Intervenciones y participacion en encuentros de muralismo y arte publico.</p>
     </div>

@@ -40,7 +40,7 @@ permalink: /EN/community.html
   <!-- Button 3: Festivals -->
   <a href="/EN/muralism-festivals.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-festival.jpg" alt="Muralism Festivals" loading="lazy">
+      <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Muralism Festivals" loading="lazy">
       <p class="title">Festivals</p>
       <p class="subtitle">Interventions and participation in muralism and public art gatherings.</p>
     </div>

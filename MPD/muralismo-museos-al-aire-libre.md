@@ -55,13 +55,6 @@ carousel: true
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Al Padre mural adentu ñi detalle" loading="lazy">
-    <div>
-      <h3>Küdaw rüpü 2025</h3>
-      <p>Küdaw niey memoria, cronograma, adjudicación, rendición ka fentren proceso registro, Talentos Creativos La Florida 2025 egu nütramkawün.</p>
-    </div>
-  </article>
 </div>
 
 <p class="parrafo">
@@ -82,11 +75,5 @@ carousel: true
       <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Al Padre mural ka ñi arquitectura entorno" loading="lazy">
     </div>
     <figcaption>Mural, edificio ka lof entorno ñi trafün.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Al Padre mural mew adentu ñi detalle" loading="lazy">
-    </div>
-    <figcaption>Adentu ka mural ñi gráfica az ñi detalle.</figcaption>
   </figure>
 </div>

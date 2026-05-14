@@ -47,21 +47,7 @@ carousel: true
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/fest/fest-graffcamp-chile-2021.webp" alt="Grupo de artistas trabajando en Graffcamp Chile 2021" loading="lazy">
-    <div>
-      <h3>Graffcamp Chile</h3>
-      <p>2021 · Encuentro de dos dias en Angostura, camino a Rancagua, realizado en contexto de pandemia y con patrocinio tecnico de material descontaminante para pinturas.</p>
-    </div>
-  </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-fiesta.jpg" alt="Produccion mural en contexto de festival" loading="lazy">
-    <div>
-      <h3>Serie abierta</h3>
-      <p>El archivo incluye Festival La Legua, AMK Challenge, Aniversario La Victoria, Oiga Pinte Villarrica, Monticello, Hip Hop Masters, TRINIGRAFF, Villanos La Florida, Agosto Negro, PintaPlaza, SUCIOVICIO, Caps in the Wall y Graffcamp Chile.</p>
-    </div>
-  </article>
 </div>
 
 <p class="parrafo">
@@ -76,17 +62,5 @@ carousel: true
       <img class="carousel-img" src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural panoramico Festival La Legua 2010" loading="lazy">
     </div>
     <figcaption>Festival La Legua, 2010: participacion en contexto de encuentro mural.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/fest/fest-graffcamp-chile-2021.webp" alt="Registro de Graffcamp Chile 2021" loading="lazy">
-    </div>
-    <figcaption>Graffcamp Chile, 2021: campamento, produccion mural y lectura ecologica en contexto de pandemia.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-festival.jpg" alt="Obra mural en festival" loading="lazy">
-    </div>
-    <figcaption>Registro de obra desarrollada en contexto de festival mural.</figcaption>
   </figure>
 </div>

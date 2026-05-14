@@ -55,28 +55,12 @@ carousel: true
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detail of the Al Padre mural portrait" loading="lazy">
-    <div>
-      <h3>2025 Process</h3>
-      <p>The project preserves memory, schedule, grant documentation, accountability records, and extensive process documentation linked to Talentos Creativos La Florida 2025.</p>
-    </div>
-  </article>
 </div>
 
 <p class="parrafo">
   Within MAAL, each locality folder may contain one or more real work capsules. This organization makes it possible to read murals as a territorial archive: image, neighborhood, scale, funding, process, and public memory working together.
 </p>
 
-<div class="button-container">
-  <a href="/EN/community.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/muralismo/muralismo-hero.jpg" alt="Back to Muralism" loading="lazy">
-      <p class="title">Back to Muralism</p>
-      <p class="subtitle">Return to the overview of the series.</p>
-    </div>
-  </a>
-</div>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="item">
@@ -90,11 +74,5 @@ carousel: true
       <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Al Padre mural and its architectural surroundings" loading="lazy">
     </div>
     <figcaption>Relationship between mural, building, and neighborhood surroundings.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Portrait detail in the Al Padre mural" loading="lazy">
-    </div>
-    <figcaption>Detail of the portrait and graphic structure of the mural.</figcaption>
   </figure>
 </div>

@@ -55,13 +55,6 @@ carousel: true
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detalle del retrato mural Al Padre" loading="lazy">
-    <div>
-      <h3>Proceso 2025</h3>
-      <p>El proyecto conserva memoria, cronograma, adjudicacion, rendicion y abundante registro de proceso vinculado a Talentos Creativos La Florida 2025.</p>
-    </div>
-  </article>
 </div>
 
 <p class="parrafo">
@@ -82,11 +75,5 @@ carousel: true
       <img class="carousel-img" src="/assets/img/muralismo/maal/maal-al-padre-completo-2025.webp" alt="Mural Al Padre y su entorno arquitectonico" loading="lazy">
     </div>
     <figcaption>Relacion entre mural, edificio y entorno barrial.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-museo-al-padre-detalle.jpg" alt="Detalle del retrato en el mural Al Padre" loading="lazy">
-    </div>
-    <figcaption>Detalle del retrato y de la estructura grafica del mural.</figcaption>
   </figure>
 </div>

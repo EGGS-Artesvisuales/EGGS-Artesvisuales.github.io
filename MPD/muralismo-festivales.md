@@ -47,21 +47,7 @@ carousel: true
     </div>
   </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/fest/fest-graffcamp-chile-2021.webp" alt="Graffcamp Chile 2021 mew az-küdawfe trokiñ küdawkey" loading="lazy">
-    <div>
-      <h3>Graffcamp Chile</h3>
-      <p>2021 · Epu antü txawün Angostura mew, Rancagua rüpü mew; pandemia contexto mew dewman, pintura ñi descontaminante material técnica kelluwün egu.</p>
-    </div>
-  </article>
 
-  <article class="case-card">
-    <img src="/assets/img/muralismo/muralismo-fiesta.jpg" alt="Festival contexto mew mural dewman" loading="lazy">
-    <div>
-      <h3>Nülalechi trokiñ</h3>
-      <p>Txawün wirin mew müley Festival La Legua, AMK Challenge, Aniversario La Victoria, Oiga Pinte Villarrica, Monticello, Hip Hop Masters, TRINIGRAFF, Villanos La Florida, Agosto Negro, PintaPlaza, SUCIOVICIO, Caps in the Wall ka Graffcamp Chile.</p>
-    </div>
-  </article>
 </div>
 
 <p class="parrafo">
@@ -76,17 +62,5 @@ carousel: true
       <img class="carousel-img" src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Festival La Legua 2010 ñi panorama mural" loading="lazy">
     </div>
     <figcaption>Festival La Legua, 2010: mural txawün contexto mew konün.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/fest/fest-graffcamp-chile-2021.webp" alt="Graffcamp Chile 2021 ñi registro" loading="lazy">
-    </div>
-    <figcaption>Graffcamp Chile, 2021: campamento, mural dewman ka itrofill mogen ñi adkintun pandemia contexto mew.</figcaption>
-  </figure>
-  <figure class="item">
-    <div class="img-container">
-      <img class="carousel-img" src="/assets/img/muralismo/muralismo-festival.jpg" alt="Festival mew mural obra" loading="lazy">
-    </div>
-    <figcaption>Festival mural contexto mew amulchi obra ñi registro.</figcaption>
   </figure>
 </div>
