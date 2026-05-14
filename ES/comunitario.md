@@ -19,7 +19,7 @@ permalink: /ES/comunitario.html
 <div class="button-container">
 
   <!-- Botón 1: Muralismo colaborativo -->
-  <a href="/ES/muralismo-facilitacion.html" class="fancy-button">
+  <a href="/es/muralismo-facilitacion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo colaborativo" loading="lazy">
       <p class="title">Muralismo colaborativo</p>

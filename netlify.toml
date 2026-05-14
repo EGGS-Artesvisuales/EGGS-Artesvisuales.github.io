@@ -5,3 +5,13 @@
 
 [functions]
   directory = "netlify/functions"
+
+[[redirects]]
+  from = "/ES/muralismo-facilitacion.html"
+  to = "/es/muralismo-facilitacion"
+  status = 301
+
+[[redirects]]
+  from = "/ES/muralismo-facilitacion"
+  to = "/es/muralismo-facilitacion"
+  status = 301

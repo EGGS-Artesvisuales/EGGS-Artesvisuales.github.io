@@ -3,7 +3,7 @@ layout: default-es
 lang: es
 title: "Muralismo - Facilitacion y guia de colectivos"
 description: "Procesos de facilitacion y guia de colectivos dentro de la serie Muralismo de Esteban Garnica."
-permalink: /ES/muralismo-facilitacion.html
+permalink: /es/muralismo-facilitacion.html
 keywords: "muralismo, facilitacion, guia de colectivos, diseño participativo, muralismo comunitario, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
