@@ -4,6 +4,21 @@
     <p class="case-meta">{{ hito.meta }}</p>
     <h3>{{ hito.title }}</h3>
     <p>{{ hito.description }}</p>
+    <dl class="hito-details">
+      {% if hito.codigo %}<div><dt>Codigo</dt><dd>{{ hito.codigo }}</dd></div>{% endif %}
+      {% if hito.tipo %}<div><dt>Tipo</dt><dd>{{ hito.tipo }}</dd></div>{% endif %}
+      {% if hito.serie %}<div><dt>Serie</dt><dd>{{ hito.serie }}</dd></div>{% endif %}
+      {% if hito.subserie %}<div><dt>Subserie</dt><dd>{{ hito.subserie }}</dd></div>{% endif %}
+      {% if hito.estado %}<div><dt>Estado</dt><dd>{{ hito.estado }}</dd></div>{% endif %}
+      {% if hito.tecnica %}<div class="hito-detail--wide"><dt>Tecnica</dt><dd>{{ hito.tecnica }}</dd></div>{% endif %}
+      {% if hito.materiales %}<div class="hito-detail--wide"><dt>Materiales</dt><dd>{{ hito.materiales }}</dd></div>{% endif %}
+      {% if hito.medidas %}<div><dt>Medidas</dt><dd>{{ hito.medidas }}</dd></div>{% endif %}
+      {% if hito.contexto %}<div class="hito-detail--wide"><dt>Contexto</dt><dd>{{ hito.contexto }}</dd></div>{% endif %}
+      {% if hito.relaciones %}<div class="hito-detail--wide"><dt>Relaciones</dt><dd>{{ hito.relaciones }}</dd></div>{% endif %}
+      {% if hito.registro %}<div class="hito-detail--wide"><dt>Registro</dt><dd>{{ hito.registro }}</dd></div>{% endif %}
+      {% if hito.jornadas %}<div class="hito-detail--wide"><dt>Jornadas</dt><dd>{{ hito.jornadas }}</dd></div>{% endif %}
+      {% if hito.notas %}<div class="hito-detail--wide"><dt>Notas</dt><dd>{{ hito.notas }}</dd></div>{% endif %}
+    </dl>
   </div>
 
   <div class="owl-carousel carousel-imagen hito-carousel" aria-label="Carrusel {{ hito.title }}">
