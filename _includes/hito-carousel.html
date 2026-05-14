@@ -1,0 +1,26 @@
+{% assign hito = include.hito %}
+<section class="hito-section" id="{{ hito.id }}">
+  <div class="hito-copy">
+    <p class="case-meta">{{ hito.meta }}</p>
+    <h3>{{ hito.title }}</h3>
+    <p>{{ hito.description }}</p>
+  </div>
+
+  <div class="owl-carousel carousel-imagen hito-carousel" aria-label="Carrusel {{ hito.title }}">
+    {% for index in (1..hito.count) %}
+      {% if index < 10 %}
+        {% assign num = index | prepend: "00" %}
+      {% elsif index < 100 %}
+        {% assign num = index | prepend: "0" %}
+      {% else %}
+        {% assign num = index %}
+      {% endif %}
+      <figure class="item">
+        <div class="img-container">
+          <img src="{{ hito.path }}/{{ hito.prefix }}-{{ num }}.webp" alt="{{ hito.title }} - registro {{ index }}" loading="lazy">
+        </div>
+        <figcaption>{{ hito.title }} · registro {{ index }} de {{ hito.count }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+</section>

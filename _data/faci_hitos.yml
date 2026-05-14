@@ -1,0 +1,87 @@
+- id: 2025-b23c
+  title: "Bloque 23C"
+  meta: "2025 · Villa Chacon Zamora · Voces de Chile"
+  description: "Intervencion mural comunitaria de gran formato en fachada residencial, correspondiente a la segunda etapa de Voces de Chile - Murales Comunitarios. El caso integra estado anterior, bocetos, mediacion grafica, jornadas de obra, inauguracion y registro final dentro de un proceso de museo a cielo abierto barrial."
+  path: "/assets/img/muralismo/faci/hitos/2025-b23c"
+  prefix: "2025-b23c"
+  count: 126
+
+- id: 2025-hasp
+  title: "Hans Asperger"
+  meta: "2025 · Primera etapa Voces de Chile · La Florida"
+  description: "Intervencion mural en contexto comunitario y educativo. La carpeta del caso registra bocetaje, preparacion previa, materiales entregados a comunidad y un proceso de obra sostenido por jornadas, como unidad especifica dentro de Voces de Chile."
+  path: "/assets/img/muralismo/faci/hitos/2025-hasp"
+  prefix: "2025-hasp"
+  count: 130
+
+- id: 2025-mite
+  title: "Miguitas Ternura"
+  meta: "2025 · Primera etapa Voces de Chile · La Florida"
+  description: "Intervencion mural comunitaria vinculada a un entorno educativo. El proceso reunio bocetos, entregables, jornadas de realizacion y registro de obra, funcionando como una unidad de trabajo dentro del proyecto mayor Voces de Chile - Murales Comunitarios."
+  path: "/assets/img/muralismo/faci/hitos/2025-mite"
+  prefix: "2025-mite"
+  count: 94
+
+- id: 2024-mlqu
+  title: "Mural Los Quillayes"
+  meta: "2024 · Jardin Infantil Miguitas de Ternura, Los Quillayes · La Florida"
+  description: "Proyecto de muralismo comunitario desarrollado con el jardin infantil, familias, equipo educativo y comunidad local. El proceso incorporo diseno participativo, votacion de bocetos y trabajo conjunto para transformar un muro exterior asociado a basura y usos no deseados en un hito barrial de cuidado y pertenencia."
+  path: "/assets/img/muralismo/faci/hitos/2024-mlqu"
+  prefix: "2024-mlqu"
+  count: 35
+
+- id: 2021-scom
+  title: "Santa Caterina Comunidad"
+  meta: "2021 · Av. Vicuna Mackenna poniente esquina Santa Caterina · La Florida"
+  description: "Mural comunitario guiado con vecinos y vecinas de Villa Santa Caterina, en articulacion con la Corporacion Cultural de La Florida. El proceso formo parte de un esfuerzo barrial por embellecer el entorno mediante jardines, areas verdes y trabajo colectivo."
+  path: "/assets/img/muralismo/faci/hitos/2021-scom"
+  prefix: "2021-scom"
+  count: 28
+
+- id: 2018-ptmq
+  title: "Pinta Tu Mural Los Quillayes"
+  meta: "2018 · CESFAM Villa Los Quillayes · La Florida"
+  description: "Facilitacion mural institucional y comunitaria por encargo de la Corporacion Cultural de La Florida. La intervencion se concentro en el sector infantil del CESFAM y fue realizada junto a pacientes y enfermeras como experiencia de ambientacion, cuidado y trabajo visual compartido."
+  path: "/assets/img/muralismo/faci/hitos/2018-ptmq"
+  prefix: "2018-ptmq"
+  count: 18
+
+- id: 2016-evgr
+  title: "Evoluciona Graff"
+  meta: "2016 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  description: "Graffiti colaborativo desarrollado con los estudiantes Manuel y Tomas. La imagen funcionaba como una especie de meme mural: dos figuras enfrentadas y la palabra Evoluciona, articulando una reflexion visual sobre la no violencia."
+  path: "/assets/img/muralismo/faci/hitos/2016-evgr"
+  prefix: "2016-evgr"
+  count: 6
+
+- id: 2015-falf
+  title: "Facilitacion AMK La Florida Joven"
+  meta: "2015 · Villa Los Copihues · La Florida"
+  description: "Mural identitario realizado junto a AMK Crew para el grupo juvenil de batucada Kurin Batu, mediado por La Florida Joven. La imagen mural busco dar presencia simbolica al grupo, su sede y su territorio."
+  path: "/assets/img/muralismo/faci/hitos/2015-falf"
+  prefix: "2015-falf"
+  count: 5
+
+- id: 2014-talf
+  title: "Taller AMK La Florida Joven"
+  meta: "2014 · Av. Walker Martinez esquina Jardin Alto · La Florida"
+  description: "Jornada abierta de brocha y participacion publica. Se instalaron paneles para que distintas personas pudieran pintar, ensayar gestos, acercarse al muralismo y experimentar una forma de activacion colectiva del espacio."
+  path: "/assets/img/muralismo/faci/hitos/2014-talf"
+  prefix: "2014-talf"
+  count: 7
+
+- id: 2014-amk4
+  title: "AMKids"
+  meta: "2014 · Rayen esquina Jeronimo de Alderete · La Florida"
+  description: "Proceso de muralismo comunitario junto a AMK Crew y ninos preescolares. La facilitacion opero como mediacion entre juego, aprendizaje y produccion colectiva, decorando una calle del barrio mediante aerosol, esmalte y acompanamiento directo."
+  path: "/assets/img/muralismo/faci/hitos/2014-amk4"
+  prefix: "2014-amk4"
+  count: 2
+
+- id: 2012-amle
+  title: "AMK Libertad de Expresion"
+  meta: "2012 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  description: "Jornada de iniciacion mural y graffiti realizada junto a jovenes y AMK Crew. El caso se entiende como una accion formativa e inclusiva: el valor no esta solo en el muro terminado, sino en la guia, el acompanamiento y la apertura de una practica visual colectiva."
+  path: "/assets/img/muralismo/faci/hitos/2012-amle"
+  prefix: "2012-amle"
+  count: 6

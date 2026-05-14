@@ -925,6 +925,35 @@ hr.separador--aire {
   object-fit: cover;
 }
 
+.hito-section {
+  margin: 2rem 0 3rem;
+  padding: 1rem 0 2rem;
+  border-top: 1px solid rgba(240, 240, 240, 0.16);
+}
+
+.hito-copy {
+  max-width: 48rem;
+  margin: 0 auto 1rem;
+}
+
+.hito-copy h3 {
+  color: var(--color-destacado);
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.hito-copy p {
+  color: var(--color-claro);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.hito-carousel.carousel-imagen {
+  width: min(100%, 68rem);
+  margin: 1rem auto 0;
+}
+
 @media (max-width: 900px) {
   .archivo-panel dl,
   .case-grid {

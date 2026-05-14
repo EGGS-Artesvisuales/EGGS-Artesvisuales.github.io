@@ -42,6 +42,12 @@ carousel: true
   Esta seleccion organiza los casos por trabajo. Cada ficha presenta una sintesis del contexto, el rol de facilitacion y un grupo breve de imagenes representativas, optimizadas para web desde el archivo original.
 </p>
 
+<h2 class="subtitulo2">Carruseles por hito</h2>
+
+{% for hito in site.data.faci_hitos %}
+  {% include hito-carousel.html hito=hito %}
+{% endfor %}
+
 <div class="case-grid">
   <article class="case-card case-card--wide">
       <div class="case-gallery">

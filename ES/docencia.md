@@ -5,6 +5,7 @@ title: "Docencia – Metodologías y prácticas de enseñanza artística"
 description: "Programas, talleres y experiencias docentes de Esteban Garnica: metodologías de enseñanza artística, procesos participativos y formación en artes visuales."
 keywords: "docencia en artes, enseñanza artística, talleres de arte, Esteban Garnica, educación visual, metodologías artísticas, formación en artes en Chile"
 permalink: /ES/docencia.html
+carousel: true
 ---
 
 <!-- Título principal -->
@@ -152,6 +153,9 @@ permalink: /ES/docencia.html
             Enmarcado en el programa de fortalecimiento de las artes MINEDUC, mediante consultora FIBRA, en Liceo Politécnico María Pinto, comuna de María Pinto, Región Metropolitana.
           </p>
         </div>
+
+        {% assign maria_pinto = site.data.docencia_hitos | where: "id", "maria-pinto-2024" | first %}
+        {% include hito-carousel.html hito=maria_pinto %}
       </div>
     </div>
 
