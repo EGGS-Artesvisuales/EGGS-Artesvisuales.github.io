@@ -25,6 +25,15 @@
   prefix: "2025-mite"
   count: 94
 
+- id: 2024-mcmp
+  title: "Colegio Maria Pinto muralismo"
+  meta: "2024 · Colegio Maria Pinto · Maria Pinto · FIBRA / MINEDUC"
+  credits: "Mañumtun: Esteban Garnica / FIBRA / MINEDUC / Colegio Maria Pinto."
+  description: "Fachi txawün muralismo küdaw dewmagelu 2024 mew Colegio Maria Pinto, Maria Pinto comuna mew. FIBRA ka MINEDUC ñi mütrüm mew, Artes ñi newentun rüpü rangiñ, 3 ka 4 medio ñi artes zullin pu estudiante egu allkütun, boceto ka txawün mural dewman amuley."
+  path: "/assets/img/muralismo/faci/hitos/2024-mcmp"
+  prefix: "2024-mcmp"
+  count: 103
+
 - id: 2024-mlqu
   title: "Mural Los Quillayes"
   meta: "2024 · Pichikeche kimeltuwe Miguitas de Ternura, Los Quillayes · La Florida"
@@ -96,4 +105,3 @@
   path: "/assets/img/muralismo/faci/hitos/2012-amle"
   prefix: "2012-amle"
   count: 6
-

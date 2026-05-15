@@ -25,6 +25,15 @@
   prefix: "2025-mite"
   count: 94
 
+- id: 2024-mcmp
+  title: "Colegio Maria Pinto Muralism"
+  meta: "2024 · Colegio Maria Pinto · Maria Pinto · FIBRA / MINEDUC"
+  credits: "Credits: Esteban Garnica / FIBRA / MINEDUC / Colegio Maria Pinto."
+  description: "A collaborative muralism workshop carried out in 2024 at Colegio Maria Pinto, in the commune of Maria Pinto, within the Program for Strengthening the Arts in Schools. Commissioned by FIBRA and MINEDUC, the process worked through listening, sketch development, and collaborative mural production with the 3rd and 4th year high-school art elective."
+  path: "/assets/img/muralismo/faci/hitos/2024-mcmp"
+  prefix: "2024-mcmp"
+  count: 103
+
 - id: 2024-mlqu
   title: "Mural Los Quillayes"
   meta: "2024 · Miguitas de Ternura Kindergarten, Los Quillayes · La Florida"
@@ -96,4 +105,3 @@
   path: "/assets/img/muralismo/faci/hitos/2012-amle"
   prefix: "2012-amle"
   count: 6
-

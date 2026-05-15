@@ -64,6 +64,26 @@
   prefix: "2025-mite"
   count: 94
 
+- id: 2024-mcmp
+  title: "Muralismo Colegio Maria Pinto"
+  meta: "2024 · Colegio Maria Pinto · Maria Pinto · FIBRA / MINEDUC"
+  credits: "Creditos: Esteban Garnica / FIBRA / MINEDUC / Colegio Maria Pinto."
+  codigo: "MCMP_2024"
+  tipo: "Taller de muralismo colaborativo / caso de facilitacion"
+  serie: "Muralismo"
+  subserie: "Facilitacion_y_Guia_de_Colectivos"
+  estado: "Historico"
+  tecnica: "Taller de muralismo colaborativo con etapas de escucha, bocetaje, acuerdos visuales y realizacion mural junto al electivo de artes."
+  materiales: "Pinturas y herramientas de realizacion mural, materiales de bocetaje y recursos pedagogicos del taller."
+  medidas: "Variables segun el soporte trabajado en el establecimiento."
+  contexto: "Colegio Maria Pinto, comuna de Maria Pinto, en el marco del Programa de Fortalecimiento de las Artes en los Establecimientos, por encargo de FIBRA y MINEDUC, con estudiantes de 3 y 4 medio del electivo de artes."
+  description: "El hito corresponde a un taller de muralismo colaborativo realizado en 2024 en el Colegio Maria Pinto, comuna de Maria Pinto. En el proceso se trabajo escucha, desarrollo de bocetos y realizacion mural junto al curso electivo de artes de 3 y 4 medio, en el marco del Programa de Fortalecimiento de las Artes en los Establecimientos, por encargo de FIBRA y MINEDUC."
+  relaciones: "Pertenece a FACI por el rol de guia y facilitacion del autor en un proceso educativo de muralismo colaborativo. Se relaciona con docencia, mediacion artistica y trabajo visual colectivo en contexto escolar."
+  notas: "Hito incorporado desde la carpeta de seleccion web del proyecto Muralismo FIBRA Colegio Maria Pinto."
+  path: "/assets/img/muralismo/faci/hitos/2024-mcmp"
+  prefix: "2024-mcmp"
+  count: 103
+
 - id: 2024-mlqu
   title: "Mural Los Quillayes"
   meta: "2024 · Jardin Infantil Miguitas de Ternura, Los Quillayes · La Florida"
