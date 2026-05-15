@@ -118,8 +118,8 @@
     </li>
 
     <li role="none"><a href="/ES/contacto.html" role="menuitem">Contacto</a></li>
-    {% assign alternate_lang_url = site.data.language_switch[page.url] | default: '/EN/index.html' %}
-    {% assign mpd_lang_url = page.mpd_url | default: page.url | replace_first: '/ES/', '/MPD/' %}
+    {% assign alternate_lang_url = page.en_url | default: site.data.language_switch[page.url] | default: '/EN/index.html' %}
+    {% assign mpd_lang_url = page.mpd_url | default: page.url | replace_first: '/ES/', '/MPD/' | replace_first: '/es/', '/MPD/' %}
     <li class="nav-lang-switch" role="none" aria-label="Selector de idioma">
       <span class="lang-current" aria-current="true">ES</span>
       <span class="lang-separator" aria-hidden="true">/</span>

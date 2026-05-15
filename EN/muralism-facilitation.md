@@ -4,6 +4,8 @@ lang: en
 title: "Muralism - Facilitation and collective guidance"
 description: "Facilitation and collective guidance processes within Esteban Garnica's Muralism series."
 permalink: /EN/muralism-facilitation.html
+es_url: /es/muralismo-facilitacion.html
+mpd_url: /MPD/muralismo-facilitacion.html
 keywords: "muralism, facilitation, collective guidance, participatory design, community muralism, Esteban Garnica, EGGS-Studio"
 carousel: true
 ---
