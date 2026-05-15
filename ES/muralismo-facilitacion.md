@@ -34,13 +34,11 @@ carousel: true
   </dl>
 </div>
 
-<h2 class="subtitulo2">Casos de Muralismo colaborativo</h2>
+<h2 class="subtitulo2">Hitos</h2>
 
 <p class="parrafo">
-  Esta seleccion organiza los casos. Cada ficha presenta una sintesis del contexto, el rol de facilitacion y un grupo breve de imagenes representativas.
+  Esta seleccion organiza los procesos por hito. Cada bloque conserva una descripcion breve, creditos sinteticos y un carrusel de registros optimizados para web desde las carpetas de seleccion.
 </p>
-
-<h2 class="subtitulo2">Hitos</h2>
 
 {% for hito in site.data.faci_hitos %}
   {% include hito-carousel.html hito=hito %}

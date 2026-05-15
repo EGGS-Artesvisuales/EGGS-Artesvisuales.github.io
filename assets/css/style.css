@@ -949,37 +949,12 @@ hr.separador--aire {
   line-height: 1.6;
 }
 
-.hito-details {
-  margin: 1.25rem 0 0;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem 1rem;
-}
-
-.hito-details div {
-  min-width: 0;
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-.hito-details dt {
-  margin-bottom: 0.3rem;
+.hito-copy .hito-credit {
+  margin-top: 0.85rem;
   color: #d8c49a;
-  font-size: 0.72rem;
+  font-size: 0.9rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.hito-details dd {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 0.92rem;
-  line-height: 1.55;
-}
-
-.hito-detail--wide {
-  grid-column: 1 / -1;
+  line-height: 1.45;
 }
 
 .hito-carousel.carousel-imagen {
@@ -989,8 +964,7 @@ hr.separador--aire {
 
 @media (max-width: 900px) {
   .archivo-panel dl,
-  .case-grid,
-  .hito-details {
+  .case-grid {
     grid-template-columns: 1fr;
   }
 }

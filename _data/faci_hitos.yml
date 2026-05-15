@@ -1,6 +1,7 @@
 - id: 2025-b23c
   title: "Bloque 23C"
   meta: "2025 · Villa Alberto Larraguibel · Voces de Chile"
+  credits: "Creditos: Esteban Garnica / Voces de Chile / comunidad Villa Alberto Larraguibel."
   codigo: "23C"
   tipo: "Intervencion / obra mural"
   serie: "Voces de Chile - Murales Comunitarios"
@@ -22,6 +23,7 @@
 - id: 2025-hasp
   title: "Hans Asperger"
   meta: "2025 · Primera etapa Voces de Chile · La Florida"
+  credits: "Creditos: Esteban Garnica / Voces de Chile / comunidad educativa."
   codigo: "HASP"
   tipo: "Intervencion / obra mural"
   serie: "Voces de Chile - Murales Comunitarios"
@@ -43,6 +45,7 @@
 - id: 2025-mite
   title: "Miguitas Ternura"
   meta: "2025 · Primera etapa Voces de Chile · La Florida"
+  credits: "Creditos: Esteban Garnica / Voces de Chile / comunidad Miguitas Ternura."
   codigo: "MITE"
   tipo: "Intervencion / obra mural"
   serie: "Voces de Chile - Murales Comunitarios"
@@ -64,6 +67,7 @@
 - id: 2024-mlqu
   title: "Mural Los Quillayes"
   meta: "2024 · Jardin Infantil Miguitas de Ternura, Los Quillayes · La Florida"
+  credits: "Creditos: Esteban Garnica / Jardin Infantil Miguitas de Ternura / Corporacion Cultural de La Florida."
   codigo: "MLQU_2024"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -83,6 +87,7 @@
 - id: 2021-scom
   title: "Santa Caterina Comunidad"
   meta: "2021 · Av. Vicuna Mackenna poniente esquina Santa Caterina · La Florida"
+  credits: "Creditos: Esteban Garnica / vecinos Villa Santa Caterina / Corporacion Cultural de La Florida."
   codigo: "SCOM_2021"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -102,6 +107,7 @@
 - id: 2018-ptmq
   title: "Pinta Tu Mural Los Quillayes"
   meta: "2018 · CESFAM Villa Los Quillayes · La Florida"
+  credits: "Creditos: Esteban Garnica / CESFAM Villa Los Quillayes / Corporacion Cultural de La Florida."
   codigo: "PTMQ_2018"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -121,6 +127,7 @@
 - id: 2016-evgr
   title: "Evoluciona Graff"
   meta: "2016 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  credits: "Creditos: Esteban Garnica / Manuel y Tomas / AMK Crew."
   codigo: "EVGR_2016"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -140,6 +147,7 @@
 - id: 2015-falf
   title: "Facilitacion AMK La Florida Joven"
   meta: "2015 · Villa Los Copihues · La Florida"
+  credits: "Creditos: Esteban Garnica / AMK Crew / La Florida Joven / Kurin Batu."
   codigo: "FALF_2015"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -159,6 +167,7 @@
 - id: 2014-talf
   title: "Taller AMK La Florida Joven"
   meta: "2014 · Av. Walker Martinez esquina Jardin Alto · La Florida"
+  credits: "Creditos: Esteban Garnica / AMK Crew / La Florida Joven."
   codigo: "TALF_2014"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -178,6 +187,7 @@
 - id: 2014-amk4
   title: "AMKids"
   meta: "2014 · Rayen esquina Jeronimo de Alderete · La Florida"
+  credits: "Creditos: Esteban Garnica / AMK Crew / ninos participantes."
   codigo: "AMK4_2014"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"
@@ -197,6 +207,7 @@
 - id: 2012-amle
   title: "AMK Libertad de Expresion"
   meta: "2012 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  credits: "Creditos: Esteban Garnica / AMK Crew / jovenes participantes."
   codigo: "AMLE_2012"
   tipo: "Capsula de obra / caso de facilitacion"
   serie: "Muralismo"

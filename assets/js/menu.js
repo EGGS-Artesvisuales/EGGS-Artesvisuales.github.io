@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const setDropdownExpanded = (dropdown, expanded) => {
     dropdown.classList.toggle("active", expanded);
     dropdown.querySelector(":scope > a")?.setAttribute("aria-expanded", String(expanded));
+    if (!expanded) closeDropdowns(dropdown);
   };
 
   const closeDropdowns = (container = navMenu) => {
@@ -108,10 +109,10 @@ document.addEventListener("DOMContentLoaded", () => {
       link.addEventListener('click', (e) => {
         const parent = link.parentElement;
         if (window.innerWidth <= 901) {
-          if (parent.classList.contains('active')) return;
+          const isExpanded = parent.classList.contains('active');
           e.preventDefault();
           closeSiblingDropdowns(parent);
-          setDropdownExpanded(parent, true);
+          setDropdownExpanded(parent, !isExpanded);
         }
       });
     });
