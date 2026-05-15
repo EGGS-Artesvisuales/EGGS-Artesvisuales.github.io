@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  const IMAGE_PRELOAD_DEPTH = 2;
 
   // Guard: si Owl no está cargado, no habrá carrusel (y todo se verá “en lista”)
   if (!$.fn || !$.fn.owlCarousel) {
@@ -43,6 +44,38 @@ $(document).ready(function () {
     });
 
     if (pending === 0) forceOwlRefresh($car);
+  }
+
+  function loadLazyImage($img) {
+    const src = $img.attr("data-src");
+    if (!src || $img.attr("src")) return;
+    $img.attr("src", src);
+  }
+
+  function preloadNearbyImages($car) {
+    const $items = $car.find(".owl-item");
+    const $active = $items.filter(".active");
+    if (!$items.length || !$active.length) return;
+
+    const sources = [];
+
+    $active.each(function () {
+      const activeIndex = $items.index(this);
+      for (let offset = -IMAGE_PRELOAD_DEPTH; offset <= IMAGE_PRELOAD_DEPTH; offset++) {
+        const $item = $items.eq(activeIndex + offset);
+        $item.find("img.owl-lazy[data-src]").each(function () {
+          const src = $(this).attr("data-src");
+          if (src && sources.indexOf(src) === -1) sources.push(src);
+        });
+      }
+    });
+
+    if (!sources.length) return;
+
+    $car.find("img.owl-lazy[data-src]").each(function () {
+      const $img = $(this);
+      if (sources.indexOf($img.attr("data-src")) !== -1) loadLazyImage($img);
+    });
   }
 
   // Backups globales (por fuentes/layout tardío)
@@ -93,6 +126,7 @@ $(document).ready(function () {
       dots: true,
       autoHeight: true,
       lazyLoad: true,
+      lazyLoadEager: 2,
       startPosition: 0,
 
       // clave: sin asomo lateral
@@ -110,6 +144,8 @@ $(document).ready(function () {
       onInitialized: function () {
         const $car = $(this.$element);
 
+        preloadNearbyImages($car);
+
         // refresh inmediato + cuando imágenes estén listas
         requestAnimationFrame(function () { forceOwlRefresh($car); });
         refreshWhenImagesReady($car);
@@ -122,7 +158,9 @@ $(document).ready(function () {
 
     // Recalcular al terminar transiciones/cambios
     $imgCarousel.on("loaded.owl.lazy translated.owl.carousel resized.owl.carousel", function () {
-      forceOwlRefresh($(this));
+      const $car = $(this);
+      preloadNearbyImages($car);
+      forceOwlRefresh($car);
     });
   }
 
