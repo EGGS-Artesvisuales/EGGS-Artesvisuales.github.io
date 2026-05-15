@@ -8,7 +8,7 @@ keywords: "muralismo, facilitacion, guia de colectivos, diseño participativo, m
 carousel: true
 ---
 
-<h1 class="titulo">Muralismo</h1>
+<h1 class="titulo">Muralismo Colaborativo</h1>
 <h2 class="subtitulo">Facilitacion y guia de colectivos</h2>
 
 <figure class="imagen-con-caption">
