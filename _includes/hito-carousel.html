@@ -1,4 +1,7 @@
 {% assign hito = include.hito %}
+{% assign carousel_label = include.carousel_label | default: "Carrusel" %}
+{% assign record_label = include.record_label | default: "registro" %}
+{% assign of_label = include.of_label | default: "de" %}
 <section class="hito-section" id="{{ hito.id }}">
   <div class="hito-copy">
     <p class="case-meta">{{ hito.meta }}</p>
@@ -7,7 +10,7 @@
     {% if hito.credits %}<p class="hito-credit">{{ hito.credits }}</p>{% endif %}
   </div>
 
-  <div class="owl-carousel carousel-imagen hito-carousel" aria-label="Carrusel {{ hito.title }}">
+  <div class="owl-carousel carousel-imagen hito-carousel" aria-label="{{ carousel_label }} {{ hito.title }}">
     {% for index in (1..hito.count) %}
       {% if index < 10 %}
         {% assign num = index | prepend: "00" %}
@@ -18,9 +21,9 @@
       {% endif %}
       <figure class="item">
         <div class="img-container">
-          <img class="owl-lazy" data-src="{{ hito.path }}/{{ hito.prefix }}-{{ num }}.webp" alt="{{ hito.title }} - registro {{ index }}" decoding="async">
+          <img class="owl-lazy" data-src="{{ hito.path }}/{{ hito.prefix }}-{{ num }}.webp" alt="{{ hito.title }} - {{ record_label }} {{ index }}" decoding="async">
         </div>
-        <figcaption>{{ hito.title }} · registro {{ index }} de {{ hito.count }}</figcaption>
+        <figcaption>{{ hito.title }} · {{ record_label }} {{ index }} {{ of_label }} {{ hito.count }}</figcaption>
       </figure>
     {% endfor %}
   </div>
