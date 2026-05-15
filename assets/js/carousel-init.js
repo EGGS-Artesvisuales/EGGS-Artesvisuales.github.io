@@ -26,6 +26,12 @@ $(document).ready(function () {
     let pending = 0;
 
     $imgs.each(function () {
+      const waitingForOwlLazy = this.classList.contains("owl-lazy") &&
+        this.getAttribute("data-src") &&
+        !this.getAttribute("src");
+
+      if (waitingForOwlLazy) return;
+
       // ya cargada (o cache)
       if (this.complete && this.naturalWidth > 0) return;
 
@@ -86,6 +92,7 @@ $(document).ready(function () {
       nav: true,
       dots: true,
       autoHeight: true,
+      lazyLoad: true,
       startPosition: 0,
 
       // clave: sin asomo lateral
@@ -114,7 +121,7 @@ $(document).ready(function () {
     });
 
     // Recalcular al terminar transiciones/cambios
-    $imgCarousel.on("translated.owl.carousel resized.owl.carousel", function () {
+    $imgCarousel.on("loaded.owl.lazy translated.owl.carousel resized.owl.carousel", function () {
       forceOwlRefresh($(this));
     });
   }

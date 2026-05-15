@@ -18,7 +18,7 @@
       {% endif %}
       <figure class="item">
         <div class="img-container">
-          <img src="{{ hito.path }}/{{ hito.prefix }}-{{ num }}.webp" alt="{{ hito.title }} - registro {{ index }}" decoding="async">
+          <img class="owl-lazy" data-src="{{ hito.path }}/{{ hito.prefix }}-{{ num }}.webp" alt="{{ hito.title }} - registro {{ index }}" decoding="async">
         </div>
         <figcaption>{{ hito.title }} · registro {{ index }} de {{ hito.count }}</figcaption>
       </figure>
