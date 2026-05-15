@@ -27,7 +27,6 @@ carousel: true
 <div class="archivo-panel">
   <h3>Ficha de serie</h3>
   <dl>
-    <div><dt>Codigo</dt><dd>FACI</dd></div>
     <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FACI</dd></div>
     <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
     <div><dt>Año</dt><dd>2012 en adelante</dd></div>
