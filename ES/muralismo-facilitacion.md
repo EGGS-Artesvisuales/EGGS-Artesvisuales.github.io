@@ -23,7 +23,7 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  La serie permanece abierta desde 2012 en adelante. Cada carpeta principal corresponde a un caso concreto de facilitacion o guia, y puede contener estado anterior, bocetos, registros de proceso, materiales pedagogicos, documentos de coordinacion, registro final y memorias del trabajo realizado.
+  La serie permanece abierta desde 2012 en adelante. Cada actividad principal corresponde a un caso concreto de facilitacion o guia de estas actividades de muralismo colaborativo o comunitario.
 </p>
 
 <div class="archivo-panel">
@@ -38,14 +38,10 @@ carousel: true
 
 <h2 class="subtitulo2">Hitos</h2>
 
-<p class="parrafo">
-  Esta seleccion organiza los procesos por hito. Cada bloque conserva una descripcion breve, creditos sinteticos y un carrusel de registros optimizados para web desde las carpetas de seleccion.
-</p>
-
 {% for hito in site.data.faci_hitos %}
   {% include hito-carousel.html hito=hito %}
 {% endfor %}
 
 <p class="parrafo">
-  FACI se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza solo por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
+  FACI (muralismo colaborativo) se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza solo por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
 </p>
