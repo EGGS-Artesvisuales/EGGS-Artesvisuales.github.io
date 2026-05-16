@@ -10,7 +10,7 @@ keywords: "muralism, facilitation, collective guidance, participatory design, co
 carousel: true
 ---
 
-<h1 class="titulo">Muralism</h1>
+<h1 class="titulo">Collaborative Muralism</h1>
 <h2 class="subtitulo">Facilitation and collective guidance</h2>
 
 <figure class="imagen-con-caption">
@@ -23,7 +23,7 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  The series has remained open since 2012. Each main folder corresponds to a specific case of facilitation or guidance, and may contain the previous state of the wall, sketches, process records, educational materials, coordination documents, final documentation, and project memory.
+  The series has remained open since 2012. Each main activity corresponds to a specific case of facilitation or guidance within collaborative or community muralism.
 </p>
 
 <div class="archivo-panel">
@@ -37,10 +37,6 @@ carousel: true
 </div>
 
 <h2 class="subtitulo2">Milestones</h2>
-
-<p class="parrafo">
-  This selection organizes the processes by milestone. Each block keeps a short description, concise credits, and a carousel of web-optimized records from the selected folders.
-</p>
 
 {% for hito in site.data.faci_hitos_en %}
   {% include hito-carousel.html hito=hito carousel_label="Carousel" record_label="record" of_label="of" %}

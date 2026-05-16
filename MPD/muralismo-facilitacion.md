@@ -10,7 +10,7 @@ keywords: "muralismo, txawün kellun, lof ñi ngülam, participativo az, muralis
 carousel: true
 ---
 
-<h1 class="titulo">Muralismo</h1>
+<h1 class="titulo">Txawün muralismo</h1>
 <h2 class="subtitulo">Txawün ñi kellun ka ngülam</h2>
 
 <figure class="az-con-caption">
@@ -23,7 +23,7 @@ carousel: true
 </p>
 
 <p class="parrafo">
-  Fachi trokiñ 2012 mew nülaley ka petu amuley. Fill fütra carpeta müley kiñe rüf caso kellun kam ngülam mew; nieafuy kuifi felen, boceto, küdaw ñi azentun, kimeltun papül, txawün wirin, afpun azentun ka küdaw ñi kimün.
+  Fachi trokiñ 2012 mew nülaley ka petu amuley. Fill fütra actividad müley kiñe rüf caso kellun kam ngülam mew, txawün muralismo kam lof muralismo ñi küdaw rüpü mew.
 </p>
 
 <div class="archivo-panel">
@@ -37,10 +37,6 @@ carousel: true
 </div>
 
 <h2 class="subtitulo2">Hitos</h2>
-
-<p class="parrafo">
-  Fachi zullin ordenakey küdaw rüpü fill hito mew. Fill bloque niey pichi nütram, pichi mañumtun ka azentun txawün web mew küme eluchi zullin carpetas mew.
-</p>
 
 {% for hito in site.data.faci_hitos_mpd %}
   {% include hito-carousel.html hito=hito carousel_label="Azentun txawün" record_label="azentun" of_label="mew" %}
