@@ -2,30 +2,124 @@
 layout: default-chn
 lang: zh-Hans
 title: "祖先图像"
-description: "祖先图像关注历史、族群记忆、家庭叙事和文化继承。"
+description: "EGGS-Studio 中文页面：祖先图像。"
 permalink: /CHN/imagenes-ancestros.html
 es_url: /ES/imagenes-ancestros.html
 en_url: /EN/images-of-the-ancestors.html
 mpd_url: /MPD/imagenes-ancestros.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+carousel: true
+mermaid: true
 ---
 
-<h1 class="titulo">祖先图像</h1>
-<h2 class="subtitulo">记忆、血缘与历史层次</h2>
 
-<p class="parrafo" style="margin-top: 6%;">
-  祖先图像关注历史、族群记忆、家庭叙事和文化继承。
-</p>
+<!-- Título principal -->
+<h1 class="titulo">Imágenes de los Ancestros</h1>
 
-<p class="parrafo">
-  这些作品把图像理解为记忆的容器，也作为重新阅读身份与时间的方式。
-</p>
+<!-- Subtítulo -->
+<h2 class="subtitulo">Exploración de la memoria e identidad</h2>
+<br>
+<!-- 1) Representación del Mundo - lo intangible-->
+<div class="mermaid">
+graph LR
+  A((Representación del Mundo)) --> T([Lo Tangible])
+  A --> I((Lo Intangible))
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+  I --> C([El Capitalismo])
+  I --> P([Lo Popular])
+  I --> AN((Imágenes de los Ancestros))
+
+  %% Contenedores por medio
+  AN --> AN_M([Muralismo / Intervención pictórica])
+  AN --> AN_A([Acción / Foto-performance + Video])
+
+  %% Obras
+  AN_M --> MCA([Musoe a Cielo Abierto])
+  AN_A --> MU([Mapuche Urbano: La Tala de la Memoria])
+
+  %% Links (ES)
+  click A "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
+  click T "/CHN/tangible.html" "Ir a Lo Tangible"
+  click I "/CHN/intangible.html" "Ir a Lo Intangible"
+
+  click C "/CHN/imagenes-capitalismo.html" "Ir a El Capitalismo"
+  click P "/CHN/imagenes-popular.html" "Ir a Lo Popular"
+  click AN "/CHN/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+
+  %% Contenedores (en construcción)
+  click AN_M "/CHN/en-construccion.html" "En construcción"
+  click AN_A "/CHN/en-construccion.html" "En construcción"
+
+  %% Obras
+  click MCA "/CHN/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto (en desarrollo)"
+  click MU "/CHN/mapuche-urbano.html" "Ir a Mapuche Urbano"
+</div>
+<br>
+
+<!-- Introducción -->
+<section>
+  <p class="parrafo" style="margin-top: 6%;">
+    La serie <strong>Imágenes de los Ancestros</strong> reúne obras que rinden homenaje a las culturas originarias del territorio chileno. A través del muralismo y de intervenciones en el espacio público, estas piezas buscan visibilizar la memoria, la espiritualidad y la resistencia de los pueblos indígenas, incorporando elementos de identidad, genealogía y reflexión histórica.
+  </p>
+
+  <p class="parrafo">
+    Esta línea de trabajo se orienta menos a la decoración y más al reconocimiento: se pinta para dejar huella, abrir preguntas y conectar con aquello que muchas veces ha sido negado o silenciado. Cada obra se construye desde el respeto por el territorio y las personas, entendiendo que estas imágenes son también espacios de encuentro y diálogo.
+  </p>
+
+  <p class="parrafo">
+    En esta rama conviven dos formatos principales. Por un lado, el <strong>muralismo</strong> como retrato público: la serie <strong>Musoe a Cielo Abierto</strong> reúne <strong>dípticos murales</strong> dedicados a pueblos originarios, instalando sus rostros y símbolos en la escala cotidiana del barrio. Por otro lado, aparece la <strong>acción / foto-performance + video</strong>: <strong>Mapuche Urbano: La Tala de la Memoria</strong> trabaja la presencia del cuerpo y el signo en el espacio urbano para abrir una reflexión sobre memoria interrumpida, herencia y conflicto.
+  </p>
+
+  <p class="parrafo">
+    Más que ilustrar “lo ancestral”, estas obras proponen una <strong>ética de mirada</strong>: reconocer el territorio como una capa viva de historia, tensiones y afectos. El gesto de pintar, registrar o intervenir se entiende como una forma de <strong>reparación simbólica</strong> y de conversación pública, donde la imagen funciona como umbral entre pasado y presente, entre identidad y pregunta.
+  </p>
+
+  <p class="parrafo">
+    Así, <strong>Imágenes de los Ancestros</strong> se plantea como un campo de trabajo abierto: una serie en expansión que articula obra visual, investigación y presencia comunitaria, buscando que la imagen no cierre el sentido, sino que lo active; no imponga un relato único, sino que habilite un espacio de lectura compartida.
+  </p>
+</section>
+<br>
+
+<!-- Carrusel de obras -->
+<div class="owl-carousel carousel-imagen">
+
+  <div class="item">
+    <a href="/CHN/musoe-a-cielo-abierto.html">
+      <div class="img-container">
+        <img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-001.jpg" alt="Musoe a Cielo Abierto, serie de murales de pueblos originarios">
+      </div>
+      <figcaption>Musoe a Cielo Abierto</figcaption>
+    </a>
+  </div>
+
+  <div class="item">
+    <a href="/CHN/mapuche-urbano.html">
+      <div class="img-container">
+        <img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="Mapuche Urbano, La Tala de la Memoria">
+      </div>
+      <figcaption>Mapuche Urbano: La Tala de la Memoria</figcaption>
+    </a>
+  </div>
+
+</div>
+
+<br>
+
+<!-- Botones de obras -->
+<div class="button-container">
+  <a href="/CHN/musoe-a-cielo-abierto.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Musoe a Cielo Abierto" loading="lazy">
+      <p class="title">Musoe a Cielo Abierto</p>
+      <p class="subtitle">Retratos murales de pueblos originarios.</p>
+    </div>
+  </a>
+
+  <a href="/CHN/mapuche-urbano.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Mapuche Urbano / La Tala de la Memoria" loading="lazy">
+      <p class="title">Mapuche Urbano</p>
+      <p class="subtitle">La Tala de la Memoria.</p>
+    </div>
+  </a>
 </div>

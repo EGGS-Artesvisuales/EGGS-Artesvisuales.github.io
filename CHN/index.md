@@ -2,30 +2,97 @@
 layout: default-chn
 lang: zh-Hans
 title: "EGGS-Studio"
-description: "EGGS-Studio 是 Esteban Garnica 的创作平台，连接当代视觉艺术、社区壁画、扩展绘画、修复与文化项目。"
+description: "EGGS-Studio 中文页面：EGGS-Studio。"
 permalink: /CHN/index.html
 es_url: /ES/index.html
 en_url: /EN/index.html
 mpd_url: /MPD/index.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+carousel: true
+mermaid: true
 ---
 
-<h1 class="titulo">EGGS-Studio</h1>
-<h2 class="subtitulo">视觉艺术、壁画、社区与作品档案</h2>
+<h1 class="titulo">EGGS-STUDIO</h1>
 
-<p class="parrafo" style="margin-top: 6%;">
-  EGGS-Studio 是 Esteban Garnica 的创作平台，连接当代视觉艺术、社区壁画、扩展绘画、修复与文化项目。
+<h2 class="subtitulo">
+  Universo creativo de Esteban Garnica.
+</h2>
+
+<br>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas infectadas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
+</figure>
+
+<br>
+
+<p class="parrafo" style="margin-top: 7%;">
+  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual.
+  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica:
+  1) la representación del mundo exterior, 2) la acción en el mundo y 3) la exploración del mundo interior.
+  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
 </p>
 
-<p class="parrafo">
-  这个中文版本按照网站现有结构建立，方便从作品系列、社区行动、教学、服务和档案进入。
-</p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+
+<div class="mermaid">
+flowchart LR
+  principal(("Actividad artística"))
+  representacion(["Representación del mundo"])
+  accion(["Acción en el mundo"])
+  interior(["Exploración del mundo interior"])
+
+  principal --> representacion
+  principal --> accion
+  principal --> interior
+
+  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del mundo"
+  click accion "/CHN/accion.html" "Ir a Acción en el mundo"
+  click interior "/CHN/interior.html" "Ir a Mundo interior"
 </div>
+
+
+
+<p class="parrafo" style="margin-top: 7%;">
+  Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo.
+  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de proyectos culturales.
+  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
+</p>
+
+<hr class="separador separador--aire" />
+
+<div class="button-container">
+
+  <a href="/CHN/mundo-exterior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp"
+           alt="Obras de Representación del Mundo" loading="lazy">
+      <p class="title">Representación del Mundo</p>
+      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
+    </div>
+  </a>
+
+  <a href="/CHN/accion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp"
+           alt="Obras de Acción en el Mundo" loading="lazy">
+      <p class="title">Acción en el Mundo</p>
+      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
+    </div>
+  </a>
+
+  <a href="/CHN/interior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio---mundo-interior.webp"
+           alt="Exploración del Mundo Interior" loading="lazy">
+      <p class="title">Mundo Interior</p>
+      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
+    </div>
+  </a>
+
+</div>
+
+
+
+<a href="/CHN/exhibiciones.html" class="enlace">Ver más obras</a>

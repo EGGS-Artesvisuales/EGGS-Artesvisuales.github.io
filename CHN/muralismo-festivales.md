@@ -2,30 +2,69 @@
 layout: default-chn
 lang: zh-Hans
 title: "壁画艺术节"
-description: "本页整理在艺术节、公共活动或集体创作场合中进行的壁画项目。"
+description: "EGGS-Studio 中文页面：壁画艺术节。"
 permalink: /CHN/muralismo-festivales.html
 es_url: /ES/muralismo-festivales.html
 en_url: /EN/muralism-festivals.html
 mpd_url: /MPD/muralismo-festivales.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+carousel: true
 ---
 
-<h1 class="titulo">壁画艺术节</h1>
-<h2 class="subtitulo">活动框架中的壁画实践</h2>
+
+<h1 class="titulo">Muralismo</h1>
+<h2 class="subtitulo">Festivales</h2>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural realizado en Festival La Legua 2010" loading="eager">
+  <figcaption>Festival La Legua, 2010. Registro optimizado para web desde el archivo FEST.</figcaption>
+</figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  本页整理在艺术节、公共活动或集体创作场合中进行的壁画项目。
+  <strong>FEST</strong> agrupa participaciones en festivales, encuentros, challenges, meetings y plataformas colectivas de muralismo, graffiti y arte urbano. Cada carpeta principal corresponde a una participacion autoral o de crew en un marco evental concreto.
 </p>
 
 <p class="parrafo">
-  与协作壁画不同，这里的分类重点是活动、节庆或项目框架本身。
+  En estos casos el contexto de realizacion es decisivo: tiempos acotados, convivencia con otros artistas, visibilidad publica inmediata, circulacion de tecnicas y produccion compartida. La obra no depende de un solo lenguaje formal, sino de su insercion en una instancia colectiva.
 </p>
 
 <div class="archivo-panel">
-  <h3>页面信息</h3>
+  <h3>Ficha de serie</h3>
   <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
+    <div><dt>Codigo</dt><dd>FEST</dd></div>
+    <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FEST</dd></div>
+    <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
+    <div><dt>Año</dt><dd>2010 en adelante</dd></div>
+    <div><dt>Tecnica</dt><dd>Muralismo, graffiti y registro fotografico de participaciones autorales o de crew.</dd></div>
+    <div><dt>Contexto</dt><dd>Eventos, encuentros y plataformas colectivas de produccion mural.</dd></div>
   </dl>
+</div>
+
+<h2 class="subtitulo2">Participaciones destacadas</h2>
+
+<div class="case-grid">
+  <article class="case-card">
+    <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural del Festival La Legua 2010" loading="lazy">
+    <div>
+      <h3>Festival La Legua</h3>
+      <p>2010 · Registro de participacion mural y grafica vinculada al circuito de encuentros y produccion colectiva.</p>
+    </div>
+  </article>
+
+
+</div>
+
+<p class="parrafo">
+  FEST se diferencia de Museos al Aire Libre y de Facilitacion porque aqui el criterio de ingreso es la participacion en un marco evental, no la localidad fija ni el proceso comunitario continuo. Aun asi, cada capsula puede conectarse con otras ramas del archivo segun tecnica, periodo, colaboraciones o territorio.
+</p>
+
+
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="item">
+    <div class="img-container">
+      <img class="carousel-img" src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural panoramico Festival La Legua 2010" loading="lazy">
+    </div>
+    <figcaption>Festival La Legua, 2010: participacion en contexto de encuentro mural.</figcaption>
+  </figure>
 </div>

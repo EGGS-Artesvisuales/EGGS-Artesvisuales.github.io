@@ -2,30 +2,185 @@
 layout: default-chn
 lang: zh-Hans
 title: "世界的再现"
-description: "世界的再现组织了面向外部现实、图像文化、空间和社会结构的作品。"
+description: "EGGS-Studio 中文页面：世界的再现。"
 permalink: /CHN/mundo-exterior.html
 es_url: /ES/mundo-exterior.html
 en_url: /EN/world-representation.html
 mpd_url: /MPD/mundo-exterior.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+mermaid: true
 ---
 
-<h1 class="titulo">世界的再现</h1>
-<h2 class="subtitulo">外部世界、图像与结构</h2>
+
+<h1 class="titulo">Representación del Mundo</h1>
+<h2 class="subtitulo">Retrato de lo contemporáneo</h2>
+<br>
+<div class="mermaid">
+flowchart LR
+  principal((Actividad Artística))
+  representacion(("Representación del Mundo"))
+  accion(["Acción en el Mundo"])
+  interior(["Mundo Interior"])
+
+  principal --> representacion
+  principal --> accion
+  principal --> interior
+
+  representacion --> tangible(["Lo Tangible"])
+  representacion --> intangible(["Lo Intangible"])
+
+  click principal "/CHN/index.html" "Ir al Inicio"
+  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
+  click tangible "/CHN/tangible.html" "Ir a Lo Tangible"
+  click intangible "/CHN/intangible.html" "Ir a Lo Intangible"
+  click accion "/CHN/accion.html" "Ir a Acción en el Mundo"
+  click interior "/CHN/interior.html" "Ir a Mundo Interior"
+</div>
+
+<br>
 
 <p class="parrafo" style="margin-top: 6%;">
-  世界的再现组织了面向外部现实、图像文化、空间和社会结构的作品。
+  Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
 </p>
 
 <p class="parrafo">
-  它连接有形、无形、行动和内在世界之间的关系。
+  En la actualidad, el diálogo con la realidad se expande más allá de los soportes clásicos. Las prácticas contemporáneas combinan la tradición pictórica con instalaciones, fotografía, objetos y medios digitales, abriendo nuevas posibilidades para observar, cuestionar y reinterpretar nuestra experiencia. La pintura sigue siendo un origen fértil, pero no un límite.
 </p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<p class="parrafo">
+  Esta sección reúne obras y procesos que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el mundo físico y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
+</p>
+
+<p class="parrafo">
+  El recorrido se organiza de la siguiente manera:
+</p>
+
+
+<br><br>
+
+
+<h2 class="subtitulo">Lo Tangible</h2>
+
+<div class="mermaid">
+flowchart LR
+  representacion((Representación del Mundo))
+  tangible(("Lo Tangible"))
+  intangible(["Lo Intangible"])
+
+  representacion --> tangible
+  representacion --> intangible
+
+  tangible --> saturacion(["La Saturación"])
+  tangible --> tecnologia(["La Tecnología"])
+
+  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
+  click tangible "/CHN/tangible.html" "Ir a Lo Tangible"
+  click saturacion "/CHN/saturacion.html" "Ir a La Saturación"
+  click tecnologia "/CHN/en-construccion.html" "Ir a La Tecnología"
+  click intangible "/CHN/intangible.html" "Ir a Lo Intangible"
 </div>
+<br>
+
+<p class="parrafo">
+  Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: paisaje local, objetos cotidianos y escenas que configuran la experiencia inmediata. El propósito es observar lo que tenemos enfrente con atención sostenida, reconociendo su densidad simbólica y su incidencia en la vida diaria.
+</p>
+
+<p class="parrafo">
+  Cada serie recibe un nombre asociado a un rasgo significativo del presente. Así, la colección permanece abierta y en permanente actualización, capaz de incorporar nuevas series a medida que emergen fenómenos, hábitos y sensibilidades que reconfiguran lo contemporáneo.
+</p>
+
+<p class="parrafo">
+  Dentro de “Lo Tangible” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el mundo material? La primera es <strong>La Saturación</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, visual, informativa y sensorial— como condición de época. La segunda es <strong>La Tecnología</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
+</p>
+
+<p class="parrafo">
+  En ambos casos parto desde la pintura como lenguaje de base, pero el trabajo se despliega en dos líneas complementarias: un cuerpo de <strong>pinturas</strong> y otro de <strong>desplazamientos de la pintura</strong>, donde el gesto pictórico se expande hacia formatos híbridos, medios mixtos e intervenciones contemporáneas. Esta estructura permite sostener una investigación coherente y, a la vez, flexible: la pintura como origen, no como límite.
+</p>
+
+<br><br>
+
+
+<div class="button-container">
+  <a href="/CHN/saturacion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
+      <p class="title">La Saturación</p>
+      <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
+    </div>
+  </a>
+
+  <a href="/CHN/en-construccion.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
+      <p class="title">La Tecnología</p>
+      <p class="subtitle">Influencias en el entorno contemporáneo</p>
+    </div>
+  </a>
+</div>
+
+<hr class="separador separador--medio" />
+
+<h2 class="subtitulo">Lo Intangible</h2>
+
+<div class="mermaid">
+flowchart LR
+  representacion((Representación del Mundo))
+  tangible(["Lo Tangible"])
+  intangible(("Lo Intangible"))
+
+  representacion --> tangible
+  representacion --> intangible
+
+  intangible --> capitalismo(["Imágenes del Capitalismo"])
+  intangible --> ancestros(["Imágenes de los Ancestros"])
+  intangible --> popular(["Imágenes de lo Popular"])
+
+  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
+  click tangible "/CHN/tangible.html" "Ir a Lo Tangible"
+  click intangible "/CHN/intangible.html" "Ir a Lo Intangible"
+  click capitalismo "/CHN/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
+  click ancestros "/CHN/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+  click popular "/CHN/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+</div>
+
+
+<p class="parrafo">
+  Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La creación busca dar forma a aquello que se intuye o se imagina, abriendo espacio a lecturas simbólicas y reflexiones profundas sobre el presente.
+</p>
+
+<p class="parrafo">
+  Al igual que en la dimensión de lo tangible, esta colección permanece abierta: nuevas series pueden incorporarse a medida que surjan conceptos o problemáticas que dialoguen con la realidad contemporánea.
+</p>
+
+<br>
+
+<div class="button-container">
+
+  <a href="/CHN/imagenes-capitalismo.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Imágenes del Capitalismo">
+      <p class="title">Imágenes del Capitalismo</p>
+      <p class="subtitle">Reflexiones sobre estructuras económicas</p>
+    </div>
+  </a>
+
+  <a href="/CHN/imagenes-popular.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Imágenes de lo Popular">
+      <p class="title">Imágenes de lo Popular</p>
+      <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
+    </div>
+  </a>
+
+  <a href="/CHN/imagenes-ancestros.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros">
+      <p class="title">Imágenes de los Ancestros</p>
+      <p class="subtitle">Conexiones con memoria y legado</p>
+    </div>
+  </a>
+
+</div>
+
+
+<br>

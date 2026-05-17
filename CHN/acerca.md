@@ -2,7 +2,7 @@
 layout: default-chn
 lang: zh-Hans
 title: "关于"
-description: "本节介绍艺术家、工作室与网站的组织方式。"
+description: "EGGS-Studio 中文页面：关于。"
 permalink: /CHN/acerca.html
 es_url: /ES/acerca.html
 en_url: /EN/about.html
@@ -10,22 +10,73 @@ mpd_url: /MPD/acerca.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
 ---
 
-<h1 class="titulo">关于</h1>
-<h2 class="subtitulo">EGGS-Studio 与创作背景</h2>
 
-<p class="parrafo" style="margin-top: 6%;">
-  本节介绍艺术家、工作室与网站的组织方式。
+
+<h1 class="titulo">Acerca de EGGS-Studio</h1>
+<h2 class="subtitulo">Universo creativo de Esteban Gárnica S.</h2>
+
+<p class="parrafo" style="margin-top:6%;">
+  <strong>EGGS-Studio</strong> es un espacio de creación y trabajo visual impulsado por Esteban
+  Gárnica S. Desde aquí desarrollo proyectos que unen arte, oficio y colaboración con personas y
+  comunidades. A través de <strong>E.GG.S – Producciones y Art SpA</strong> (RUT 77.973.201-0),
+  pongo a disposición una experiencia diversa que integra muralismo, restauración, docencia,
+  montaje y producción cultural.
+  Más que buscar grandes declaraciones, intento aportar soluciones claras, sensibles y útiles,
+  construyendo vínculos y generando espacios donde el arte puede acompañar procesos, mejorar
+  entornos y abrir nuevas formas de encontrarnos, y también de encontrarme.
+</p>
+
+<h3 class="subtitulo2">Esteban Garnica S.</h3>
+<p class="parrafo">
+  Soy artista visual chileno (Santiago, 1985), formado en la Universidad de Chile. Mi trabajo nace
+  del interés por observar el entorno y transformarlo mediante la pintura, la acción comunitaria
+  o intervenciones subrepticias. Me muevo en la pintura como lenguaje primordial, transitando entre
+  el muralismo, la investigación visual y la docencia, buscando siempre un equilibrio entre lo
+  técnico, lo expresivo y lo humano.
 </p>
 
 <p class="parrafo">
-  EGGS-Studio 汇集视觉艺术、壁画、社区项目、修复、教学和作品档案，强调艺术实践与社会空间之间的关系。
+  Con los años he desarrollado proyectos que dialogan con temas sociales, ambientales y urbanos,
+  siempre desde una mirada cercana y colaborativa. Creo en el arte como herramienta para mejorar
+  la vida íntima y cotidiana, fortalecer relaciones e identidades y abrir espacios de reflexión.
+  Mi práctica combina mi experiencia temprana en la pintura callejera, la formación académica,
+  la experimentación y el trabajo en territorio, aprendiendo de cada comunidad y de cada proceso.
 </p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<h3 class="subtitulo2">E.GG.S – Producciones &amp; Art SpA</h3>
+<p class="parrafo">
+  La empresa nace como una forma de dar estructura profesional a un trabajo que ha crecido con el
+  tiempo. Desde E.GG.S desarrollamos servicios vinculados al muralismo, la restauración, la
+  ambientación de espacios, la producción artística y el diseño de soluciones visuales para
+  instituciones, comunidades y proyectos educativos.
+  Nuestro objetivo es claro: aportar valor de manera honesta y responsable, respetando cada
+  contexto y buscando que el arte se vuelva una experiencia cercana, accesible y significativa
+  para quienes lo reciben.
+</p>
+
+<br>
+
+
+
+<!-- Botones Fancy para conocer más -->
+<div class="button-container">
+  <!-- Botón para Esteban Garnica -->
+  <a href="/CHN/garnica.html" class="fancy-button">
+    <div class="button-content">
+      <!-- Imagen representativa para Esteban Garnica -->
+      <img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica" loading="lazy">
+      <p class="title">Esteban Garnica S.</p>
+      <p class="subtitle">Ver más sobre Esteban Garnica Sánchez</p>
+    </div>
+  </a>
+
+  <!-- Botón para EGGS -->
+  <a href="/CHN/eggs.html" class="fancy-button">
+    <div class="button-content">
+      <!-- Imagen representativa para EGGS -->
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="EGGS - Producciones y Art SpA" loading="lazy">
+      <p class="title">EGGS - prods. y art spa</p>
+      <p class="subtitle">Ver más sobre E.GG.S - Producciones &amp; Art SpA</p>
+    </div>
+  </a>
 </div>

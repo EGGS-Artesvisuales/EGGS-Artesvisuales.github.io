@@ -2,30 +2,209 @@
 layout: default-chn
 lang: zh-Hans
 title: "作品图谱"
-description: "作品图谱帮助理解 EGGS-Studio 中不同系列、行动和主题之间的关系。"
+description: "EGGS-Studio 中文页面：作品图谱。"
 permalink: /CHN/diagrama.html
 es_url: /ES/diagrama.html
 en_url: /EN/work-diagram.html
 mpd_url: /MPD/diagrama.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+mermaid: true
 ---
 
-<h1 class="titulo">作品图谱</h1>
-<h2 class="subtitulo">系列、路径与关系</h2>
+
+<h1 class="titulo">Diagrama de Obra</h1>
+<h2 class="subtitulo">Un mapa visual de ideas, conceptos y prácticas artísticas</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  作品图谱帮助理解 EGGS-Studio 中不同系列、行动和主题之间的关系。
+  Este diagrama reúne las principales líneas que estructuran mi práctica artística. Cada categoría opera como un eje conceptual que se ramifica en series, proyectos y procesos específicos. El esquema permite visualizar cómo se relacionan las distintas áreas de trabajo, evidenciando cruces, afinidades y desarrollos que componen mi investigación visual.
 </p>
 
 <p class="parrafo">
-  它不是单一目录，而是一种阅读作品结构、分支和连接的方法。
+  Más que un mapa fijo, este diagrama funciona como un sistema abierto. Se actualiza y expande a medida que las obras evolucionan, incorporando nuevas preguntas, materiales y modos de hacer. Su propósito es ofrecer una mirada integral al conjunto de mi producción, atendiendo tanto a lo técnico como a lo conceptual.
 </p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<hr class="separador" />
+
+<!-- 1) Representación del Mundo -->
+<h2 class="subtitulo">Representación del Mundo</h2>
+
+<div class="mermaid">
+graph LR
+  A((Representación del Mundo)) --> A1((Lo Tangible))
+  A --> A2((Lo Intangible))
+
+  A1 --> A1a((La Saturación))
+  A1a --> A1a1([La Peste])
+  A1a1 --> A1a1a([Pinturas Infectadas])
+  A1a1a --> A1a1a1([Soportes tradicionales])
+  A1a1a --> A1a1a2([Soportes Blandos])
+
+  %% HIJOS: Soportes tradicionales
+  A1a1a1 --> ST_OP([Obras propias])
+  A1a1a1 --> ST_OA([Obras ajenas])
+
+  %% HIJOS: Soportes blandos
+  A1a1a2 --> SB_MEM([Membranas])
+  A1a1a2 --> SB_MOD([Módulos])
+  A1a1a2 --> SB_PU([Página única])
+
+  A1a1 --> A1a1b([Desplazamiento de la Pintura])
+  A1a1b --> A1a1b1([Espacio Doméstico])
+  A1a1b --> A1a1b2([Espacio Público])
+  A1a1b --> A1a1b3([Espacio Rural / Natural])
+
+  %% HIJOS: Espacio doméstico
+  A1a1b1 --> ED_OBJ([Objetos])
+  A1a1b1 --> ED_HAB([Habitaciones])
+
+  A1a --> A1a2([Lo Invisible])
+  A1a2 --> A1a2a([Pinturas Wi-Fi])
+
+  %% HIJOS: Pinturas Wi-Fi
+  A1a2a --> PW_RET([Retratos])
+  A1a2a --> PW_PAI([Paisajes])
+  A1a2a --> PW_BOD([Bodegones])
+
+  A1 --> A1b((La Tecnología))
+  A1b --> A1b1([La IA])
+  A1b --> A1b2([Lo Espacial])
+  A1b --> A1b3([Telecomunicaciones])
+
+  A2 --> A2a((El Capitalismo))
+  A2a --> A2a1([El Colgado])
+  A2a --> A2a2([Mr. Burns])
+  A2a --> A2a3([El Empaquetador])
+
+  A2 --> A2b((Lo Popular))
+  A2b --> A2b1([Esculturas])
+  A2b1 --> A2b1a([Papelucho])
+
+  A2 --> A2c((Lo Ancestral))
+  A2c --> A2c1([Museo a Cielo Abierto])
+  A2c --> A2c2([Mapuche Urbano, La Tala de la Memoria])
+
+  %% Enlaces (existentes)
+  click A "mundo-exterior.html" "Ir a Representación del Mundo"
+  click A1 "tangible.html" "Ir a Lo Tangible"
+  click A2 "intangible.html" "Ir a Lo Intangible"
+  click A1a "saturacion.html" "Ir a La Saturación"
+  click A1a1 "la-peste.html" "Ir a La Peste"
+  click A1a1a "/CHN/peste-pinturas-infectadas.html" "Ir a Pinturas infectadas"
+  click A1a1b "desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click A1a1b1 "/CHN/espacio-domestico.html" "Ir a Espacio Doméstico"
+  click A1a1b2 "/CHN/espacio-publico.html" "Ir a Espacio Público"
+  click A1a1b3 "/CHN/espacio-rural.html" "Ir a Espacio Rural / Natural"
+  click A1a2 "lo-invisible.html" "Ir a Lo Invisible"
+  click A2c1 "musoe-a-cielo-abierto.html" "Ir a Museo a Cielo Abierto"
+
+  %% Enlaces a secciones internas (anchors) ya existentes
+
+  %% Pinturas Infectadas: Soportes tradicionales + hijos
+  click A1a1a1 "/CHN/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes tradicionales"
+  click ST_OP "/CHN/peste-pinturas-infectadas.html#producciones" "Ir a Obras propias"
+  click ST_OA "/CHN/peste-pinturas-infectadas.html#intervenciones" "Ir a Obras ajenas"
+
+  %% Pinturas Infectadas: Soportes blandos + hijos
+  click A1a1a2 "/CHN/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes blandos"
+  click SB_MEM "/CHN/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
+  click SB_MOD "/CHN/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
+  click SB_PU "/CHN/peste-pinturas-infectadas.html#unidades" "Ir a Página única"
+
+  %% Espacio doméstico: Objetos / Habitaciones
+  click ED_OBJ "/CHN/espacio-domestico.html#objetos" "Ir a Objetos"
+  click ED_HAB "/CHN/espacio-domestico.html#habitaciones" "Ir a Habitaciones"
+
+  %% Pinturas Wi-Fi: página + secciones
+  click A1a2a "/CHN/pinturas-wifi.html" "Ir a Pinturas Wi-Fi"
+  click PW_RET "/CHN/pinturas-wifi.html#retratos" "Ir a Retratos"
+  click PW_PAI "/CHN/pinturas-wifi.html#paisajes" "Ir a Paisajes"
+  click PW_BOD "/CHN/pinturas-wifi.html#bodegones" "Ir a Bodegones"
+
+  %% Enlaces (no existentes aún -> en construcción)
+  click A1b "en-construccion.html" "En construcción"
+  click A1b1 "en-construccion.html" "En construcción"
+  click A1b2 "en-construccion.html" "En construcción"
+  click A1b3 "en-construccion.html" "En construcción"
+  click A2a "en-construccion.html" "En construcción"
+  click A2a1 "en-construccion.html" "En construcción"
+  click A2a2 "en-construccion.html" "En construcción"
+  click A2a3 "en-construccion.html" "En construcción"
+  click A2b "en-construccion.html" "En construcción"
+  click A2b1 "en-construccion.html" "En construcción"
+  click A2b1a "en-construccion.html" "En construcción"
+  click A2c "en-construccion.html" "En construcción"
+  click A2c2 "en-construccion.html" "En construcción"
+</div>
+
+<hr class="separador" />
+
+<!-- 2) Acción en el Mundo -->
+<h2 class="subtitulo">Acción en el Mundo</h2>
+
+<div class="mermaid">
+graph LR
+  B((Acción en\nel Mundo)) --> B1((Lo Subrepticio))
+  B1 --> B1a([Remiendas\nUrbanas])
+  B1 --> B1b([La Anti-Publicidad])
+  B1 --> B1c([Graffiti\n& Tags])
+
+  %% HIJOS: La Anti-Publicidad (nuevos)
+  B1b --> B1b1([PP series])
+  B1b --> B1b2([Carteles])
+  B1b --> B1b3([Piratería publicitaria])
+
+  B --> B2((Lo Comunitario))
+  B2 --> B2a([Muralismo])
+
+  B --> B3((Docencia\ny Talleres))
+  B3 --> B3a([Mineduc])
+  B3 --> B3b([Corporaciones])
+  B3 --> B3c([Independientes])
+
+  B --> B4((Servicios))
+  B4 --> B4a([Restauración])
+  B4 --> B4b([Decoraciones\n& Encargo])
+  B4 --> B4c([Asesorías\nTécnicas])
+
+  %% Enlaces (existentes)
+  click B "accion.html" "Ir a Acción en el Mundo"
+  click B1 "subrepticio.html" "Ir a Lo Subrepticio"
+  click B1a "subrep-remiendas-urbanas.html" "Ir a Remiendas Urbanas"
+  click B1b "subrep-antipublicidad.html" "Ir a La Anti-Publicidad"
+  click B2 "comunitario.html" "Ir a Lo Comunitario"
+  click B3 "docencia.html" "Ir a Docencia y Talleres"
+  click B4 "servicios.html" "Ir a Servicios"
+
+  %% Enlaces (no existentes aún -> en construcción)
+  click B1c "subrep-graffiti.html" "Ir a Graffiti y Tags"
+  click B2a "en-construccion.html" "En construcción"
+  click B3a "en-construccion.html" "En construcción"
+  click B3b "en-construccion.html" "En construcción"
+  click B3c "en-construccion.html" "En construcción"
+  click B4a "en-construccion.html" "En construcción"
+  click B4b "en-construccion.html" "En construcción"
+  click B4c "en-construccion.html" "En construcción"
+
+  %% Enlaces (nuevos hijos -> en construcción)
+  click B1b1 "en-construccion.html" "En construcción"
+  click B1b2 "en-construccion.html" "En construcción"
+  click B1b3 "en-construccion.html" "En construcción"
+</div>
+
+<hr class="separador" />
+
+<!-- 3) Exploración del Mundo Interior -->
+<h2 class="subtitulo">Exploración del Mundo Interior</h2>
+
+<div class="mermaid">
+graph LR
+  C((Exploración del Mundo Interior)) --> C1((Arte y Psicología))
+  C --> C2((Arte y Espiritualidad))
+
+  %% Enlaces (existentes)
+  click C "interior.html" "Ir a Exploración del Mundo Interior"
+
+  %% Enlaces (no existentes aún -> en construcción)
+  click C1 "en-construccion.html" "En construcción"
+  click C2 "en-construccion.html" "En construcción"
 </div>

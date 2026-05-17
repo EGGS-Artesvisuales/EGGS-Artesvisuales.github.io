@@ -2,30 +2,49 @@
 layout: default-chn
 lang: zh-Hans
 title: "民众图像"
-description: "这一系列观察来自街头、媒体、日常和集体文化的图像。"
+description: "EGGS-Studio 中文页面：民众图像。"
 permalink: /CHN/imagenes-popular.html
 es_url: /ES/imagenes-popular.html
 en_url: /EN/images-of-the-popular.html
 mpd_url: /MPD/imagenes-popular.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+carousel: true
+mermaid: false
 ---
 
-<h1 class="titulo">民众图像</h1>
-<h2 class="subtitulo">流行文化与集体视觉</h2>
 
-<p class="parrafo" style="margin-top: 6%;">
-  这一系列观察来自街头、媒体、日常和集体文化的图像。
-</p>
 
-<p class="parrafo">
-  作品关注民众视觉如何被生产、流通、改写，并在社会空间中形成意义。
-</p>
+<h1 class="titulo">Imágenes de lo Popular</h1>
+<h2 class="subtitulo">Iconografía, identidad y crítica cultural</h2>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<section class="parrafo">
+  <p>
+    Esta serie examina los símbolos, personajes y narrativas visuales que circulan masivamente en los espacios urbanos, los medios de comunicación y la cultura popular. Desde una mirada crítica, las obras aquí reunidas revisan cómo el imaginario colectivo moldea y reproduce ciertas formas de identidad, pertenencia y poder simbólico.
+  </p>
+  <p>
+    A través de apropiaciones, intervenciones y transformaciones, estas imágenes reconfiguran íconos populares para cuestionar su función, desactivar estereotipos y abrir nuevos campos de sentido en torno a lo popular como construcción cultural, política y estética.
+  </p>
+</section>
+
+<!-- Carrusel de obras -->
+<div class="owl-carousel carousel-imagen">
+
+  <div class="item">
+    <a href="/CHN/en-construccion.html">
+      <div class="img-container">
+        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Esculturas">
+      </div>
+      <figcaption>Esculturas</figcaption>
+    </a>
+  </div>
+
+  <div class="item">
+    <a href="/CHN/en-construccion.html">
+      <div class="img-container">
+        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Papelucho">
+      </div>
+      <figcaption>Papelucho</figcaption>
+    </a>
+  </div>
+
 </div>

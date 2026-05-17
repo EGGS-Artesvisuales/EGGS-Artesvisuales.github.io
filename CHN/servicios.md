@@ -2,7 +2,7 @@
 layout: default-chn
 lang: zh-Hans
 title: "服务"
-description: "EGGS-Studio 提供与视觉艺术、壁画、修复、委托制作和展陈相关的服务。"
+description: "EGGS-Studio 中文页面：服务。"
 permalink: /CHN/servicios.html
 es_url: /ES/servicios.html
 en_url: /EN/services.html
@@ -10,37 +10,111 @@ mpd_url: /MPD/servicios.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
 ---
 
-<h1 class="titulo">服务</h1>
-<h2 class="subtitulo">修复、委托、布展与项目执行</h2>
 
-<p class="parrafo" style="margin-top: 6%;">
-  EGGS-Studio 提供与视觉艺术、壁画、修复、委托制作和展陈相关的服务。
+<h1 class="titulo">Servicios</h1>
+
+<p class="parrafo">
+  Ofrezco soluciones artísticas y técnicas para una amplia variedad de necesidades, combinando experiencia en arte público, restauración, diseño y gestión cultural. Cada servicio se adapta a las particularidades de cada proyecto, integrando creatividad, oficio y un enfoque responsable orientado a la calidad.
 </p>
 
 <p class="parrafo">
-  服务工作与艺术实践保持连续，重视材料、场地、历史层次和执行质量。
+  Mi trabajo abarca tanto intervenciones en espacios comunitarios como desarrollos especializados para instituciones, empresas y proyectos independientes, siempre priorizando el diálogo con el entorno y las personas involucradas.
 </p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<br>
+
+<h2 class="subtitulo">Categorías</h2>
+<br>
+
+<!-- Sección de Categorías con fancy buttons -->
+<div class="button-container">
+
+  <!-- Botón: Restauración -->
+  <a href="#restauracion" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/restauracion-boton.webp" alt="Restauración" loading="lazy">
+      <p class="title">Restauración</p>
+      <p class="subtitle">Conservación y recuperación de obras.</p>
+    </div>
+  </a>
+
+  <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
+  <a href="#encargos" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/encargos-boton.webp" alt="Encargos y Encomiendas" loading="lazy">
+      <p class="title">Encargos y Encomiendas</p>
+      <p class="subtitle">Pinturas y murales a medida.</p>
+    </div>
+  </a>
+
+  <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
+  <a href="#ambientacion" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
+      <p class="title">Ambientación &amp; Montajes</p>
+      <p class="subtitle">Instalaciones artísticas y decorativas.</p>
+    </div>
+  </a>
+
 </div>
 
-<h2 id="restoration" class="subtitulo2">修复</h2>
-<p class="parrafo">
-  面向绘画、壁画和艺术对象的修复工作，关注材料状态、历史层次、可逆性和现场条件。
-</p>
+<hr class="separador separador--aire" />
 
-<h2 id="commissions" class="subtitulo2">委托</h2>
-<p class="parrafo">
-  可根据空间、社区、机构或私人需求发展壁画、视觉项目、图像系统与特定作品。
-</p>
+<section id="restauracion" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/restauracion-boton.webp" alt="Detalle visual del servicio de restauración" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Restauración y conservación</h2>
+    <p class="parrafo">
+      Recuperación material y visual de obras, objetos y superficies con criterios de conservación, lectura estética y respeto por la historia de cada pieza.
+    </p>
+    <ul class="service-list">
+      <li>Diagnóstico visual, registro fotográfico y propuesta de intervención.</li>
+      <li>Limpieza, estabilización, reintegración cromática y acabados de protección según el caso.</li>
+      <li>Trabajo para obras particulares, colecciones familiares, instituciones y espacios comunitarios.</li>
+    </ul>
+  </div>
+</section>
 
-<h2 id="installs" class="subtitulo2">布展与安装</h2>
-<p class="parrafo">
-  支持展览设计、作品安装、空间组织和视觉呈现，使作品与场地之间形成清晰关系。
-</p>
+<section id="encargos" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/encargos-boton.webp" alt="Obras por encargo y murales personalizados" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Encargos y encomiendas de obra</h2>
+    <p class="parrafo">
+      Desarrollo de pinturas, murales e intervenciones visuales a medida, desde la idea inicial hasta la ejecución final.
+    </p>
+    <ul class="service-list">
+      <li>Bocetaje, definición de paleta, escala, soporte y calendario de producción.</li>
+      <li>Obras para hogares, oficinas, locales, organizaciones sociales e instituciones culturales.</li>
+      <li>Posibilidad de integrar archivo, identidad territorial, memoria familiar o narrativa de marca.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ambientacion" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/instalacion-boton.webp" alt="Ambientación artística, montaje e instalación de obra" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Ambientación, instalación y montajes</h2>
+    <p class="parrafo">
+      Diseño y ejecución de soluciones visuales para activar espacios, exhibiciones, eventos y experiencias culturales.
+    </p>
+    <ul class="service-list">
+      <li>Montaje de obra, ambientación artística y composición espacial.</li>
+      <li>Diseño de recorridos, apoyos visuales, señalética simple y soluciones de exhibición.</li>
+      <li>Producción para muestras, actividades comunitarias, ferias, talleres y proyectos especiales.</li>
+    </ul>
+  </div>
+</section>
+
+<div class="service-cta">
+  <h2 class="subtitulo2">Conversemos el proyecto</h2>
+  <p class="parrafo">
+    Para cotizar o evaluar una idea, envíame una descripción breve, ubicación, fechas aproximadas y fotografías del espacio u obra cuando corresponda.
+  </p>
+  <a href="/CHN/contacto.html" class="enlace">Ir a contacto</a>
+</div>

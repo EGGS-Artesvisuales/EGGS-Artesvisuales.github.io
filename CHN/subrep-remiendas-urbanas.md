@@ -2,30 +2,87 @@
 layout: default-chn
 lang: zh-Hans
 title: "城市缝补"
-description: "城市缝补关注对城市破损、裂缝、边缘和残余空间的视觉回应。"
+description: "EGGS-Studio 中文页面：城市缝补。"
 permalink: /CHN/subrep-remiendas-urbanas.html
 es_url: /ES/subrep-remiendas-urbanas.html
 en_url: /EN/sub-urban-mending.html
 mpd_url: /MPD/subrep-remiendas-urbanas.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+carousel: true
+mermaid: true
 ---
 
-<h1 class="titulo">城市缝补</h1>
-<h2 class="subtitulo">修补、痕迹与隐性行动</h2>
+
+<h1 class="titulo">Remiendas Urbanas</h1>
+
+<h2 class="subtitulo">
+  Intervenciones mínimas que revelan, reparan y reimaginan el espacio público.
+</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  城市缝补关注对城市破损、裂缝、边缘和残余空间的视觉回应。
+  Las remiendas urbanas son gestos discretos que dialogan con el deterioro cotidiano de la ciudad. A través de intervenciones puntuales —a veces irónicas, a veces poéticas— estas acciones buscan evidenciar el desgaste del espacio vial y, al mismo tiempo, resignificarlo como un soporte expresivo. Más que solucionar un problema material, proponen mirar de nuevo aquello que la rutina vuelve invisible, activando una sensibilidad común frente a los lugares que habitamos.
 </p>
 
 <p class="parrafo">
-  这些行动把修补理解为一种图像策略，也是一种在城市中重新建立关系的方式。
+  Estas prácticas subrepticias operan en la frontera entre la reparación simbólica y la crítica urbana. Su escala reducida y su carácter efímero permiten intervenir sin interrumpir el flujo del espacio público, abriendo pequeños desvíos perceptivos que invitan a reflexionar sobre el cuidado, el abandono y las múltiples capas de significado presentes en la ciudad contemporánea.
 </p>
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
+<h3 class="subtitulo2">Árbol conceptual de la serie</h3>
+
+<div class="mermaid">
+graph LR
+  B[Lo Subrepticio] --> B1[Remiendas Urbanas]
+  B1 --> R1[Paso de cebra]
+  B1 --> R2[Ciclovía]
+  B1 --> R3[Línea de seguridad vial]
+  B1 --> R4[Hoyos de pavimento]
+  B1 --> R5[Calle sin salida]
+</div>
+
+<br><br>
+
+<div class="carousel-imagen owl-carousel owl-theme">
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Paso de cebra intervenido" class="carousel-img">
+    </div>
+    <figcaption>Paso de cebra trazado a mano como gesto de reparación simbólica y atención comunitaria.</figcaption>
+  </figure>
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Intervención en paso peatonal" class="carousel-img">
+    </div>
+    <figcaption>Acción mínima que cuestiona el tránsito, el descanso y el uso del espacio común.</figcaption>
+  </figure>
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Ciclovía improvisada" class="carousel-img">
+    </div>
+    <figcaption>Ciclovía dibujada sobre vereda en desuso: ironía y reclamo ciudadano ante la falta de infraestructura.</figcaption>
+  </figure>
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Línea de seguridad vial" class="carousel-img">
+    </div>
+    <figcaption>Línea de seguridad pintada sobre grietas del pavimento, marcando la contradicción entre norma y abandono.</figcaption>
+  </figure>
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana2.webp" alt="Hoyos de pavimento intervenidos" class="carousel-img">
+    </div>
+    <figcaption>Pintura aplicada para visibilizar hoyos persistentes y provocar reflexión ciudadana.</figcaption>
+  </figure>
+
+  <figure class="item">
+    <div class="img-container">
+      <img src="/assets/img/boton-remienda-urbana.webp" alt="Calle sin salida remendada" class="carousel-img">
+    </div>
+    <figcaption>Intervención en calle sin salida como metáfora del estancamiento y la falta de conectividad urbana.</figcaption>
+  </figure>
+
 </div>

@@ -2,7 +2,7 @@
 layout: default-chn
 lang: zh-Hans
 title: "联系"
-description: "如需联系 EGGS-Studio，可通过网站既有联系渠道与社交平台。"
+description: "EGGS-Studio 中文页面：联系。"
 permalink: /CHN/contacto.html
 es_url: /ES/contacto.html
 en_url: /EN/contact.html
@@ -10,22 +10,35 @@ mpd_url: /MPD/contacto.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
 ---
 
-<h1 class="titulo">联系</h1>
-<h2 class="subtitulo">项目、委托与合作</h2>
 
-<p class="parrafo" style="margin-top: 6%;">
-  如需联系 EGGS-Studio，可通过网站既有联系渠道与社交平台。
+<h1 class="titulo">Contacto</h1>
+
+<h2 class="subtitulo">Consultas, colaboraciones y proyectos</h2>
+
+<p class="subtitulo2" style="margin-left: 3rem; margin-top: 2rem;">
+  Completa el siguiente formulario y me pondré en contacto contigo a la brevedad.
 </p>
 
-<p class="parrafo">
-  欢迎就壁画、修复、教学、展陈、社区项目或档案咨询提出联系。
-</p>
+<form class="contact-form"
+      action="https://formsubmit.co/e.garnicasanchez@gmail.com"
+      method="POST">
 
-<div class="archivo-panel">
-  <h3>页面信息</h3>
-  <dl>
-    <div><dt>语言</dt><dd>中文</dd></div>
-    <div><dt>站点</dt><dd>EGGS-Studio</dd></div>
-    <div><dt>相关入口</dt><dd><a href="/CHN/index.html">首页</a> · <a href="/CHN/contacto.html">联系</a></dd></div>
-  </dl>
-</div>
+  <!-- Campos del formulario -->
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" required placeholder="Tu nombre">
+
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+
+  <label for="message">Mensaje:</label>
+  <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí"></textarea>
+
+  <!-- Botón de envío -->
+  <button type="submit">Enviar</button>
+
+  <!-- Configuración adicional opcional -->
+  <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/CHN/gracias.html">
+  <input type="hidden" name="_captcha" value="false">
+</form>
+
+<br><br><br>
