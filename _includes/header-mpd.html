@@ -120,7 +120,7 @@
     <li role="none"><a href="/MPD/contacto.html" role="menuitem">Nütram</a></li>
     {% assign es_lang_url = page.es_url | default: page.url | replace_first: '/MPD/', '/ES/' %}
     {% assign en_lang_url = page.en_url | default: site.data.language_switch[es_lang_url] | default: '/EN/index.html' %}
-    {% assign zh_lang_url = page.zh_url | default: site.data.language_switch_zh[page.url] | default: '/ZH/index.html' %}
+    {% assign zh_lang_url = page.zh_url | default: site.data.language_switch_chn[page.url] | default: '/CHN/index.html' %}
     <li class="nav-lang-switch" role="none" aria-label="Dungun dungu">
       <a href="{{ es_lang_url }}" role="menuitem" hreflang="es" lang="es" aria-label="Castellano mew amun">ES</a>
       <span class="lang-separator" aria-hidden="true">/</span>
@@ -128,7 +128,7 @@
       <span class="lang-separator" aria-hidden="true">/</span>
       <span class="lang-current" aria-current="true">MPD</span>
       <span class="lang-separator" aria-hidden="true">/</span>
-      <a href="{{ zh_lang_url }}" role="menuitem" hreflang="zh-Hans" lang="zh-Hans" aria-label="Chino mew amun">ZH</a>
+      <a href="{{ zh_lang_url }}" role="menuitem" hreflang="zh-Hans" lang="zh-Hans" aria-label="Chino mew amun">CHN</a>
     </li>
   </ul>
 </nav>
