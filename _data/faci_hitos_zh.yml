@@ -1,0 +1,107 @@
+- id: 2025-b23c
+  title: "Villa Chacon Zamora"
+  meta: "2025 · Villa Chacon Zamora · La Florida · Voces de Chile"
+  credits: "致谢：Esteban Garnica / Voces de Chile / Villa Chacon Zamora 社区。"
+  description: "Villa Chacon Zamora 是 Voces de Chile - 社区壁画第二阶段的主要介入之一。档案保存了场地原状、草图、调解材料、连续工作日以及揭幕后最终记录。"
+  path: "/assets/img/muralismo/faci/hitos/2025-b23c"
+  prefix: "2025-b23c"
+  count: 126
+
+- id: 2025-hasp
+  title: "Escuela Hans Asperger"
+  meta: "2025 · Escuela Hans Asperger · La Florida · Voces de Chile"
+  credits: "致谢：Esteban Garnica / Voces de Chile / 教育共同体。"
+  description: "Escuela Hans Asperger 是 Voces de Chile - 社区壁画第一阶段的主要介入之一。档案保存了场地原状、草图发展、交付给社区的材料，以及按工作日组织的创作记录。"
+  path: "/assets/img/muralismo/faci/hitos/2025-hasp"
+  prefix: "2025-hasp"
+  count: 130
+
+- id: 2025-mite
+  title: "Miguitas Ternura"
+  meta: "2025 · Voces de Chile 第一阶段 · La Florida"
+  credits: "致谢：Esteban Garnica / Voces de Chile / Miguitas Ternura 社区。"
+  description: "Miguitas Ternura 是 Voces de Chile - 社区壁画第一阶段的主要介入之一。档案保存了草图材料、面向介入语境的交付物，以及按工作日组织的创作记录。"
+  path: "/assets/img/muralismo/faci/hitos/2025-mite"
+  prefix: "2025-mite"
+  count: 94
+
+- id: 2024-mcmp
+  title: "Colegio Maria Pinto 壁画工作坊"
+  meta: "2024 · Colegio Maria Pinto · Maria Pinto · FIBRA / MINEDUC"
+  credits: "致谢：Esteban Garnica / FIBRA / MINEDUC / Colegio Maria Pinto。"
+  description: "这是 2024 年在 Maria Pinto 公社 Colegio Maria Pinto 进行的协作壁画工作坊，属于学校艺术强化计划。项目由 FIBRA 与 MINEDUC 委托，过程包括聆听、草图发展，以及与高三、高四艺术选修学生共同完成壁画。"
+  path: "/assets/img/muralismo/faci/hitos/2024-mcmp"
+  prefix: "2024-mcmp"
+  count: 103
+
+- id: 2024-mlqu
+  title: "Mural Los Quillayes"
+  meta: "2024 · Miguitas de Ternura 幼儿园, Los Quillayes · La Florida"
+  credits: "致谢：Esteban Garnica / Miguitas de Ternura 幼儿园 / La Florida 文化机构。"
+  description: "这件社区壁画位于 Los Quillayes 的 Miguitas de Ternura 幼儿园外部。项目与当地社区和幼儿园儿童共同发展，旨在改善环境、加强集体参与，并重新激活一个曾受垃圾和不当使用影响的空间。"
+  path: "/assets/img/muralismo/faci/hitos/2024-mlqu"
+  prefix: "2024-mlqu"
+  count: 35
+
+- id: 2021-scom
+  title: "Santa Caterina Comunidad"
+  meta: "2021 · Av. Vicuna Mackenna poniente 与 Santa Caterina · La Florida"
+  credits: "致谢：Esteban Garnica / Villa Santa Caterina 邻里 / La Florida 文化机构。"
+  description: "这是一件与 Villa Santa Caterina 邻里共同完成的社区壁画，并与 La Florida 文化机构协调。行动属于邻里自我管理的一部分，通过花园、绿地和集体劳动改善共同环境。"
+  path: "/assets/img/muralismo/faci/hitos/2021-scom"
+  prefix: "2021-scom"
+  count: 28
+
+- id: 2018-ptmq
+  title: "Pinta Tu Mural Los Quillayes"
+  meta: "2018 · CESFAM Villa Los Quillayes · La Florida"
+  credits: "致谢：Esteban Garnica / CESFAM Villa Los Quillayes / La Florida 文化机构。"
+  description: "这是一项在 CESFAM Villa Los Quillayes 为 La Florida 文化机构引导的壁画过程。介入聚焦医疗中心儿童区域，并与患者和护理人员共同完成，作为一种关于照护、气氛和共享视觉工作的社区经验。"
+  path: "/assets/img/muralismo/faci/hitos/2018-ptmq"
+  prefix: "2018-ptmq"
+  count: 18
+
+- id: 2016-evgr
+  title: "Evoluciona Graff"
+  meta: "2016 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  credits: "致谢：Esteban Garnica / Manuel 与 Tomas / AMK Crew。"
+  description: "这是与学生 Manuel 和 Tomas 在 Villa Ensenada 的 Plaza Las Lluvias 共同完成的涂鸦作品。图像几乎像一件壁画式 meme：两个正在打斗的人物与 Evoluciona 字样一起构成关于非暴力的信息。"
+  path: "/assets/img/muralismo/faci/hitos/2016-evgr"
+  prefix: "2016-evgr"
+  count: 6
+
+- id: 2015-falf
+  title: "AMK La Florida Joven 引导"
+  meta: "2015 · Villa Los Copihues · La Florida"
+  credits: "致谢：Esteban Garnica / AMK Crew / La Florida Joven / Kurin Batu。"
+  description: "这是 AMK Crew 与青年 batucada 团体 Kurin Batu 在 Villa Los Copihues 进行的壁画引导过程。项目由 La Florida Joven 介入，目标是建立一幅能够赋予团体、总部与地域身份的壁画图像。"
+  path: "/assets/img/muralismo/faci/hitos/2015-falf"
+  prefix: "2015-falf"
+  count: 5
+
+- id: 2014-talf
+  title: "AMK La Florida Joven 工作坊"
+  meta: "2014 · Av. Walker Martinez 与 Jardin Alto · La Florida"
+  credits: "致谢：Esteban Garnica / AMK Crew / La Florida Joven。"
+  description: "这是为 La Florida Joven 开展的开放式刷绘活动。现场安装绘画板，让参与者体验绘画、接近壁画实践，并在公共空间中激活集体绘画姿态。"
+  path: "/assets/img/muralismo/faci/hitos/2014-talf"
+  prefix: "2014-talf"
+  count: 7
+
+- id: 2014-amk4
+  title: "AMKids"
+  meta: "2014 · Rayen 与 Jeronimo de Alderete · La Florida"
+  credits: "致谢：Esteban Garnica / AMK Crew / 参与儿童。"
+  description: "这是 AMK Crew 与学前儿童共同开展的社区壁画经验，用于装饰 La Florida 的一条街道。行动结合了陪伴、集体制作与情境化学习。"
+  path: "/assets/img/muralismo/faci/hitos/2014-amk4"
+  prefix: "2014-amk4"
+  count: 2
+
+- id: 2012-amle
+  title: "AMK Libertad de Expresion"
+  meta: "2012 · Plaza Las Lluvias, Villa Ensenada · La Florida"
+  credits: "致谢：Esteban Garnica / AMK Crew / 青年参与者。"
+  description: "这是与青年参与者在 Villa Ensenada 的 Plaza Las Lluvias 开展的壁画引导过程。活动作为壁画与涂鸦的入门，也是一场与 AMK Crew 共同学习、参与和集体制作的开放日。"
+  path: "/assets/img/muralismo/faci/hitos/2012-amle"
+  prefix: "2012-amle"
+  count: 10

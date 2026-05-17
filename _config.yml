@@ -56,6 +56,10 @@ languages:
     label: "Mapuzungun"
     locale: "arn-CL"
     dir: "ltr"
+  zh:
+    label: "中文"
+    locale: "zh-Hans"
+    dir: "ltr"
 
 # Configuración por defecto para cada idioma
 defaults:
@@ -74,6 +78,11 @@ defaults:
     values:
       lang: "arn"
       locale: "arn-CL"
+  - scope:
+      path: "ZH"
+    values:
+      lang: "zh-Hans"
+      locale: "zh-Hans"
 
 # Configurar enlaces permanentes más legibles
 permalink: pretty
