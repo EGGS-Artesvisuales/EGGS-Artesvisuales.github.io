@@ -14,15 +14,15 @@ mermaid: false
 
 
 
-<h1 class="titulo">Imágenes de lo Popular</h1>
-<h2 class="subtitulo">Iconografía, identidad y crítica cultural</h2>
+<h1 class="titulo">流行图像</h1>
+<h2 class="subtitulo">图像学、身份和文化批评</h2>
 
 <section class="parrafo">
   <p>
-    Esta serie examina los símbolos, personajes y narrativas visuales que circulan masivamente en los espacios urbanos, los medios de comunicación y la cultura popular. Desde una mirada crítica, las obras aquí reunidas revisan cómo el imaginario colectivo moldea y reproduce ciertas formas de identidad, pertenencia y poder simbólico.
+    本系列研究了在城市空间、媒体和流行文化中广泛传播的符号、人物和视觉叙事。从批判的角度来看，这里收集的作品回顾了集体想象力如何塑造和再现某些形式的身份、归属感和象征力量。
   </p>
   <p>
-    A través de apropiaciones, intervenciones y transformaciones, estas imágenes reconfiguran íconos populares para cuestionar su función, desactivar estereotipos y abrir nuevos campos de sentido en torno a lo popular como construcción cultural, política y estética.
+    通过挪用、干预和改造，这些图像重新配置了流行偶像，质疑它们的功能，消除刻板印象，并围绕流行作为一种文化、政治和审美结构开辟新的意义领域。
   </p>
 </section>
 
@@ -34,7 +34,7 @@ mermaid: false
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Esculturas">
       </div>
-      <figcaption>Esculturas</figcaption>
+      <figcaption>雕塑</figcaption>
     </a>
   </div>
 
@@ -43,7 +43,7 @@ mermaid: false
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Papelucho">
       </div>
-      <figcaption>Papelucho</figcaption>
+      <figcaption>帕佩鲁乔</figcaption>
     </a>
   </div>
 

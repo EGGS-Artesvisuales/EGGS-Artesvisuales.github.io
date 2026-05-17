@@ -14,45 +14,45 @@ mermaid: true
 
 
 
-<h1 class="titulo">La Anti-Publicidad</h1>
-<h2 class="subtitulo">Subversión visual del espacio público</h2>
+<h1 class="titulo">反广告</h1>
+<h2 class="subtitulo">公共空间的视觉颠覆</h2>
 
 <section class="parrafo">
   <p>
-    La Anti-Publicidad representa una estrategia estética, política y conceptual que se instala como crítica directa a los sistemas de control simbólico ejercidos por la industria cultural, el marketing y la comunicación masiva. Esta línea de trabajo se configura como un ejercicio artístico de reapropiación visual, sabotaje de mensajes dominantes y creación de disidencias icónicas.
+    反广告代表了一种美学、政治和概念策略，它是对文化产业、营销和大众传播所实行的符号控制系统的直接批评。这一系列作品被配置为视觉重新挪用、破坏主导信息和创造标志性异议的艺术练习。
   </p>
   <p>
-    Utilizando los mismos lenguajes y soportes de la publicidad tradicional —como carteles, pantallas, objetos de marca y mobiliario urbano— esta serie subvierte el discurso original para generar fisuras en la lógica del consumo. Las obras son intervenciones rápidas, móviles, efímeras, pero potentes; buscan introducir ruido en los códigos visuales de la ciudad contemporánea.
+    该系列使用与传统广告相同的语言和支持——如海报、屏幕、品牌物品和街道设施——颠覆了原有的话语，在消费逻辑中产生裂痕。这些作品是快速的、流动的、短暂的，但却是强有力的干预；他们试图将噪音引入当代城市的视觉规范中。
   </p>
 </section>
 
 <!-- Diagrama Mermaid -->
 <div class="mermaid">
 graph LR
-  B[Acción en\n el Mundo]
-  B --> B1[Lo Subrepticio]
-  B1 --> B1a[Remiendas\n Urbanas]
-  B1 --> B1b[La Anti-Publicidad]
-  B1 --> B1c[Graffiti \n&amp; Tags]
+  B[世界各地的行动]
+  B --> B1[鬼鬼祟祟的]
+  B1 --> B1a[城市斑块]
+  B1 --> B1b[反广告]
+  B1 --> B1c[涂鸦\n&标签]
 
   %% Hijos de La Anti-Publicidad
-  B1b --> B1b1[PP Serie]
-  B1b --> B1b2[Serie de los Carteles]
-  B1b --> B1b3[Piratería Publicitaria]
-  B1b --> B1b4[Modelos de Intervención]
+  B1b --> B1b1[PP系列]
+  B1b --> B1b2[海报系列]
+  B1b --> B1b3[广告盗版]
+  B1b --> B1b4[干预模型]
 
   %% Enlaces padres
-  click B "/CHN/accion.html" "Ir a Acción en el Mundo"
-  click B1 "/CHN/subrepticio.html" "Ir a Lo Subrepticio"
-  click B1a "/CHN/subrep-remiendas-urbanas.html" "Ir a Remiendas Urbanas"
-  click B1b "/CHN/subrep-antipublicidad.html" "Ir a La Anti-Publicidad"
-  click B1c "/CHN/subrep-graffiti.html" "Ir a Graffiti &amp; Tags"
+  click B "/CHN/accion.html" "前往世界各地行动"
+  click B1 "/CHN/subrepticio.html" "前往隐秘之地"
+  click B1a "/CHN/subrep-remiendas-urbanas.html" "前往城市补丁"
+  click B1b "/CHN/subrep-antipublicidad.html" "前往反广告"
+  click B1c "/CHN/subrep-graffiti.html" "转到涂鸦和标签"
 
   %% Enlaces hijos desarrollados
-  click B1b1 "/CHN/en-construccion.html" "Ir a PP Serie"
-  click B1b2 "/CHN/en-construccion.html" "Ir a Serie de los Carteles"
-  click B1b3 "/CHN/en-construccion.html" "Ir a Piratería Publicitaria"
-  click B1b4 "/CHN/en-construccion.html" "Ir a Modelos de Intervención"
+  click B1b1 "/CHN/en-construccion.html" "前往PP系列"
+  click B1b2 "/CHN/en-construccion.html" "前往海报系列"
+  click B1b3 "/CHN/en-construccion.html" "前往广告盗版"
+  click B1b4 "/CHN/en-construccion.html" "前往干预模型"
 </div>
 
 <br>
@@ -64,7 +64,7 @@ graph LR
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="PP Serie">
       </div>
-      <figcaption>PP Serie</figcaption>
+      <figcaption>PP系列</figcaption>
     </a>
   </div>
   <div class="item">
@@ -72,7 +72,7 @@ graph LR
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Serie de los Carteles">
       </div>
-      <figcaption>Serie de los Carteles</figcaption>
+      <figcaption>海报系列</figcaption>
     </a>
   </div>
   <div class="item">
@@ -80,7 +80,7 @@ graph LR
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Piratería Publicitaria">
       </div>
-      <figcaption>Piratería Publicitaria</figcaption>
+      <figcaption>广告盗版</figcaption>
     </a>
   </div>
   <div class="item">
@@ -88,7 +88,7 @@ graph LR
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/boton-antipub.webp" alt="Modelos de Intervención">
       </div>
-      <figcaption>Modelos de Intervención</figcaption>
+      <figcaption>干预模型</figcaption>
     </a>
   </div>
 </div>

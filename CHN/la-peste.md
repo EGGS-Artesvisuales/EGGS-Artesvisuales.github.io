@@ -12,40 +12,40 @@ mermaid: true
 ---
 
 
-<h1 class="titulo">La Peste</h1>
-<h2 class="subtitulo">La contaminación como enfermedad del planeta</h2>
+<h1 class="titulo">瘟疫</h1>
+<h2 class="subtitulo">污染是地球的一种疾病</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste---intro01.jpg" alt="Intervención artística en espacio público" loading="lazy">
   <figcaption>
-    La Saturación / La Peste / Desplazamiento… / Espacios públicos: Richard Prince Infested. EGGS – MAC, 2009.
+    饱和/瘟疫/流离失所……/公共空间：理查德·普林斯出没。EGGS-MAC，2009。
   </figcaption>
 </figure>
 
 <br>
 
 <p class="parrafo">
-  La serie <strong>«La Peste»</strong> aborda la contaminación contemporánea mediante la metáfora de una enfermedad que afecta al planeta Tierra. Inspirada en la hipótesis Gaia de James Lovelock, que concibe al planeta como un organismo vivo y autorregulado, esta obra sugiere que la intervención industrial y comercial humana —evidenciada en la proliferación de residuos plásticos, emisiones tóxicas, ruido publicitario y desechos— ha comprometido el equilibrio de Gaia y, con ello, el de nuestro propio entorno vital.
+  该系列 <strong>《瘟疫》</strong> 通过影响地球的疾病的隐喻来解决当代污染问题。受詹姆斯·洛夫洛克的盖亚假说的启发，该假说将地球视为一个活的、自我调节的有机体，这项工作表明，人类的工业和商业干预——以塑料垃圾、有毒排放物、广告噪音和废物的扩散为证据——已经损害了盖亚的平衡，也损害了我们自己的生活环境的平衡。
 </p>
 
 <p class="parrafo">
-  Esta línea de trabajo surge de la necesidad de registrar visualmente las características esenciales de nuestra época, destacando aquellos elementos que la definen y poniendo la crisis ecológica en el centro de la reflexión. Más allá de una mirada puramente personal, el proyecto busca documentar y cuestionar críticamente los factores que marcan nuestro tiempo.
+  这一系列工作的产生是因为需要直观地记录我们这个时代的基本特征，突出那些定义这个时代的元素，并将生态危机置于反思的中心。除了纯粹的个人视角之外，该项目还试图记录并批判性地质疑那些标志着我们这个时代的因素。
 </p>
 
 <p class="parrafo">
-  La pintura opera como punto de partida constante en mi práctica. Sin embargo, al expandir sus límites conceptuales y físicos —<em>desplazamiento de la pintura</em>— el proceso deriva en una investigación interdisciplinar. Instalaciones, performances e intervenciones en distintos soportes amplifican el discurso pictórico inicial, desplegando estrategias transmediales para intensificar la potencia comunicativa de esta exploración crítica de nuestra realidad contemporánea: la saturación visual, la degradación ambiental y las patologías sociales que constituyen <strong>«La Peste»</strong> de comienzos del siglo XXI.
+  绘画是我实践中不断的起点。然而，通过扩大其概念和物理限制——<em>绘画转变</em>——该过程导致跨学科调查。不同媒体的装置、表演和干预放大了最初的图像话语，运用跨媒体策略来加强对我们当代现实的批判性探索的传播力：视觉饱和、环境退化和构成社会病态的社会病态。 <strong>《瘟疫》</strong> 从21世纪初开始。
 </p>
 
 <p class="parrafo">
-  <strong>La serie se estructura en dos grandes áreas:</strong>
+  <strong>该系列分为两大领域：</strong>
 </p>
 
 <p class="parrafo">
-  <strong>1. Pintura:</strong> Fusión de técnicas tradicionales con materiales contemporáneos —especialmente reciclados— para evidenciar la erosión de la naturaleza y la invasión del consumismo en todos los aspectos de la vida cotidiana.
+  <strong>1. 绘画：</strong> 传统技术与当代材料（尤其是回收材料）的融合，展示了自然的侵蚀和消费主义对日常生活各个方面的入侵。
 </p>
 
 <p class="parrafo">
-  <strong>2. Desplazamiento de la pintura:</strong> Obras que trasladan los conceptos pictóricos más allá del lienzo, involucrando objetos y espacios concretos. Esta línea se despliega en intervenciones sobre espacios domésticos, públicos y rurales/naturales.
+  <strong>2、绘画位移：</strong> 将绘画概念转移到画布之外，涉及特定物体和空间的作品。这条线被部署在对家庭、公共和农村/自然空间的干预中。
 </p>
 
 <br><br>
@@ -53,114 +53,114 @@ mermaid: true
 <div class="mermaid">
 flowchart LR
   %% --- Macroestructura ---
-  Z(("Representación del Mundo")) --> Y(("Lo Tangible"))
-  Y --> A(("La Saturación"))
-  A --> B(("La Peste"))
-  A --> X(["Lo Invisible"])
+  Z(("世界的代表")) --> Y(("有形的"))
+  Y --> A(("饱和"))
+  A --> B(("瘟疫"))
+  A --> X(["看不见"])
 
   %% --- Rama: La Peste / Pinturas Infectadas ---
-  B --> C(["Pinturas Infectadas"])
+  B --> C(["受感染的油漆"])
 
   %% Soportes tradicionales
-  C --> D(["Soportes tradicionales"])
-  D --> D1(["Intervención"])
-  D --> D2(["Producción"])
+  C --> D(["传统支撑"])
+  D --> D1(["干涉"])
+  D --> D2(["生产"])
 
   %% Soportes blandos
-  C --> E(["Soportes blandos"])
-  E --> E1(["Membrana"])
-  E --> E2(["Módulo"])
-  E --> E3(["Unidad"])
+  C --> E(["软支撑"])
+  E --> E1(["膜"])
+  E --> E2(["模块"])
+  E --> E3(["单元"])
 
   %% --- Rama: Desplazamiento de la Pintura ---
-  B --> F(["Desplazamiento de la Pintura"])
-  F --> F1(["Espacio Doméstico"])
-  F --> F2(["Espacio Público"])
-  F --> F3(["Espacio Rural / Natural"])
+  B --> F(["绘画转变"])
+  F --> F1(["国内空间"])
+  F --> F2(["公共空间"])
+  F --> F3(["乡村/自然空间"])
 
   %% --- Links ---
-  click Z "/CHN/mundo-exterior.html" "Ver Representación del Mundo"
-  click Y "/CHN/tangible.html" "Ver Lo Tangible"
-  click A "/CHN/saturacion.html" "Ver La Saturación"
-  click B "/CHN/la-peste.html" "Ver La Peste"
-  click X "/CHN/lo-invisible.html" "Ver Lo Invisible"
+  click Z "/CHN/mundo-exterior.html" "参见世界的代表性"
+  click Y "/CHN/tangible.html" "看到有形的"
+  click A "/CHN/saturacion.html" "查看饱和度"
+  click B "/CHN/la-peste.html" "参见瘟疫"
+  click X "/CHN/lo-invisible.html" "看到看不见的东西"
 
-  click C "/CHN/peste-pinturas-infectadas.html" "Ver Pinturas Infectadas"
+  click C "/CHN/peste-pinturas-infectadas.html" "查看受感染的画作"
 
-  click D "/CHN/peste-pinturas-infectadas.html#soportes-tradicionales" "Ir a Soportes Tradicionales"
-  click D1 "/CHN/peste-pinturas-infectadas.html#intervenciones" "Ir a Intervenciones"
-  click D2 "/CHN/peste-pinturas-infectadas.html#producciones" "Ir a Producciones"
+  click D "/CHN/peste-pinturas-infectadas.html#soportes-tradicionales" "转到传统支持"
+  click D1 "/CHN/peste-pinturas-infectadas.html#intervenciones" "前往干预措施"
+  click D2 "/CHN/peste-pinturas-infectadas.html#producciones" "前往制作"
 
-  click E "/CHN/peste-pinturas-infectadas.html#soportes-blandos" "Ir a Soportes Blandos"
-  click E1 "/CHN/peste-pinturas-infectadas.html#membranas" "Ir a Membranas"
-  click E2 "/CHN/peste-pinturas-infectadas.html#modulos" "Ir a Módulos"
-  click E3 "/CHN/peste-pinturas-infectadas.html#unidades" "Ir a Unidades"
+  click E "/CHN/peste-pinturas-infectadas.html#soportes-blandos" "访问 软支撑"
+  click E1 "/CHN/peste-pinturas-infectadas.html#membranas" "前往膜"
+  click E2 "/CHN/peste-pinturas-infectadas.html#modulos" "转到模块"
+  click E3 "/CHN/peste-pinturas-infectadas.html#unidades" "前往单位"
 
-  click F "/CHN/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/CHN/espacio-domestico.html" "Ir a Espacio Doméstico"
-  click F2 "/CHN/espacio-publico.html" "Ir a Espacio Público"
-  click F3 "/CHN/espacio-rural.html" "Ir a Espacio Rural / Natural"
+  click F "/CHN/desplazamiento-pintura.html" "转到绘画变换"
+  click F1 "/CHN/espacio-domestico.html" "前往国内空间"
+  click F2 "/CHN/espacio-publico.html" "前往公共空间"
+  click F3 "/CHN/espacio-rural.html" "前往乡村/自然空间"
 </div>
 
 
 <br>
 
 <p class="parrafo">
-  La propuesta establece contrastes radicales: naturaleza frente a contaminación, Gaia frente a degradación, arte frente a mercantilización, cuerpo frente a virus. El uso de materiales no convencionales, como desechos gráficos, evidencia cómo la publicidad y el consumo funcionan como agentes contaminantes que afectan tanto la integridad ambiental como la cultural.
+  该提案建立了彻底的对比：自然与污染、盖亚与退化、艺术与商业化、身体与病毒。非常规材料（例如图形废物）的使用表明广告和消费如何充当影响环境和文化完整性的污染物。
 </p>
 
 <p class="parrafo">
-  A nivel visual, la saturación se vuelve un elemento dominante que interfiere con la percepción habitual de la imagen. La estética de <strong>«La Peste»</strong> explicita la crisis ambiental mediante la erosión y alteración deliberada de las superficies pictóricas tradicionales. En las obras trasladadas al entorno físico, la acumulación material y la sobresaturación del espacio funcionan como metáfora directa de la contaminación tangible, distorsionando el paisaje y afectando incluso la funcionalidad del lugar intervenido.
+  在视觉层面上，饱和度成为干扰图像通常感知的主要因素。的美学 <strong>《瘟疫》</strong> 通过对传统绘画表面的故意侵蚀和改变，使环境危机变得显而易见。在转移到物理环境的作品中，空间的物质堆积和过度饱和直接隐喻了有形的污染，扭曲了景观，甚至影响了介入场所的功能。
 </p>
 
 <p class="parrafo">
-  De manera complementaria, el concepto de saturación como contaminación intangible se desarrolla en la serie <strong>«Lo Invisible»</strong>, centrada en formas de contaminación difíciles de percibir: ondas electromagnéticas o radiactivas, olores, químicos nocivos y otras presencias que alteran el entorno sin ser inmediatamente visibles.
+  作为补充，该系列提出了饱和作为无形污染的概念 <strong>“看不见”</strong>，重点关注难以察觉的污染形式：电磁波或放射性波、气味、有害化学物质以及其他会改变环境但无法立即看到的存在。
 </p>
 
 <br><br>
 
-<h2 class="subtitulo">Pinturas Infectadas</h2>
+<h2 class="subtitulo">受感染的油漆</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-pintura-s-blando-mod-04.jpg" alt="Pintura sobre contaminación ambiental" loading="lazy">
   <figcaption>
-    <em>La Saturación / La Peste / Pinturas infectadas / Soportes blandos: módulo – Paisaje urbano n°1, 2011.</em>
+    <em>饱和/瘟疫/受感染的绘画/软支撑：模块 – 城市景观 n°1，2011。</em>
   </figcaption>
 </figure>
 
 <p class="parrafo">
-  La pintura es el lenguaje esencial desde el cual abordo la representación de lo contemporáneo. En esta propuesta vinculo la nobleza de la naturaleza y la tradición pictórica con elementos invasivos propios de nuestra época: saturación visual, residuos publicitarios y desechos industriales.
+  绘画是我表达当代事物的基本语言。在这个提案中，我将自然的高贵和绘画传统与我们这个时代典型的侵入性元素联系起来：视觉饱和、广告浪费和工业浪费。
 </p>
 
 <p class="parrafo">
-  De ese contraste entre lo puro (naturaleza, paisaje, tradición artística) y lo contaminante (desechos, corrosión industrial) surgen las <strong>Pinturas Infectadas</strong>. La erosión deliberada de la superficie pictórica actúa como metáfora del daño ambiental, explorando formatos que incorporan papel reciclado proveniente de prensa gráfica y publicidad.
+  从纯净的东西（自然、风景、艺术传统）和污染的东西（废物、工业腐蚀）之间的对比中产生了 <strong>受感染的油漆</strong>。对图片表面的故意侵蚀是对环境破坏的隐喻，探索了结合图文印刷和广告回收纸的格式。
 </p>
 
 <p class="parrafo">
-  Catálogos, revistas y materiales publicitarios —símbolos del exceso contemporáneo— se convierten en materia prima central. Sus cualidades físicas y simbólicas protagonizan esta investigación visual sobre la saturación, permitiendo que el desecho se transforme en imagen crítica.
+  目录、杂志和广告材料——当代过剩的象征——成为核心原材料。它的物理和象征品质在这个对饱和度的视觉研究中脱颖而出，让废物转化为批判性的图像。
 </p>
 
 <p class="parrafo">
-  La técnica integra estos papeles reciclados directamente en la composición, convirtiéndolos simultáneamente en soporte, pigmento y testimonio. Su uso pictórico, y la posterior expansión hacia objetos y espacios físicos, permite trascender lo bidimensional y revelar la tensión entre lo limpio y lo sucio, lo natural y lo tóxico, mediante residuos publicitarios reconvertidos en componentes estéticos.
+  该技术将这些再生纸直接整合到组合物中，同时将它们转化为支撑物、颜料和见证。它的图像使用，以及随后向物体和物理空间的扩展，使我们能够超越二维，通过将广告废物转化为美学成分，揭示干净与肮脏、自然与有毒之间的张力。
 </p>
 
 <br><br>
 
-<h2 class="subtitulo">Desplazamiento de la Pintura</h2>
+<h2 class="subtitulo">绘画转变</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Intervención artística en espacios naturales" loading="lazy">
   <figcaption>
-    <em>La Saturación / La Peste / Desplazamiento… / Espacios naturales: Ruralías s/t n°1, EGGS, 2012.</em>
+    <em>饱和/瘟疫/流离失所……/自然空间：Ruralías s/t n°1，EGGS，2012。</em>
   </figcaption>
 </figure>
 
 <p class="parrafo">
-  Esta categoría amplía el concepto pictórico hacia instalaciones efímeras, intervenciones espaciales y registros fotográficos, continuando la experimentación con materiales reciclados originados en la fase de pintura. Catálogos, revistas, volantes publicitarios y otros residuos gráficos se convierten en elementos invasivos que saturan visualmente espacios simbólicos: monumentos históricos, instituciones gubernamentales, lugares de culto, entornos comerciales y paisajes naturales o rurales.
+  该类别将绘画概念扩展到短暂装置、空间干预和摄影记录，继续对源自绘画阶段的回收材料进行实验。目录、杂志、广告传单和其他图形垃圾成为侵入性元素，在视觉上充满了象征性空间：历史古迹、政府机构、礼拜场所、商业环境和自然或乡村景观。
 </p>
 
 <p class="parrafo">
-  Las obras se construyen mediante acumulaciones deliberadas de estos materiales reciclados, confrontándolos con contextos domésticos, jerárquicos, ordenados, institucionales o naturales. De este modo se generan tensiones visuales y conceptuales explícitas. La saturación deliberada revela cómo el consumo excesivo y la contaminación han permeado todos los niveles de la vida cotidiana, interrumpiendo la percepción habitual del espacio e invitando a una reflexión crítica sobre las dinámicas ecológicas, culturales y políticas que hoy definen nuestra relación con el planeta.
+  这些作品是通过对这些回收材料的有意积累而建造的，使它们面对家庭、等级、有序、制度或自然环境。通过这种方式，产生了明确的视觉和概念张力。故意饱和揭示了过度消费和污染如何渗透到日常生活的各个层面，扰乱了人们对空间的通常认知，并引发了对当今定义我们与地球关系的生态、文化和政治动态的批判性反思。
 </p>
 
 <br><br>
@@ -169,16 +169,16 @@ flowchart LR
   <a href="/CHN/peste-pinturas-infectadas.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-pintura.webp" alt="La Peste en pintura" loading="lazy">
-      <p class="title">Pintura</p>
-      <p class="subtitle">La contaminación representada en la superficie pictórica.</p>
+      <p class="title">画</p>
+      <p class="subtitle">污染表现在图画表面上。</p>
     </div>
   </a>
 
   <a href="/CHN/desplazamiento-pintura.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-la-peste-desplazamiento.webp" alt="Desplazamiento de la pintura" loading="lazy">
-      <p class="title">Desplazamiento de la Pintura</p>
-      <p class="subtitle">Intervenciones, instalaciones y soportes expandidos.</p>
+      <p class="title">绘画转变</p>
+      <p class="subtitle">扩大干预、安装和支持。</p>
     </div>
   </a>
 </div>

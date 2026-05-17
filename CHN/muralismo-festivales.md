@@ -12,42 +12,42 @@ carousel: true
 ---
 
 
-<h1 class="titulo">Muralismo</h1>
-<h2 class="subtitulo">Festivales</h2>
+<h1 class="titulo">壁画主义</h1>
+<h2 class="subtitulo">节日</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural realizado en Festival La Legua 2010" loading="eager">
-  <figcaption>Festival La Legua, 2010. Registro optimizado para web desde el archivo FEST.</figcaption>
+  <figcaption>La Legua Festival，2010。从 FEST 文件进行网络优化注册。</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  <strong>FEST</strong> agrupa participaciones en festivales, encuentros, challenges, meetings y plataformas colectivas de muralismo, graffiti y arte urbano. Cada carpeta principal corresponde a una participacion autoral o de crew en un marco evental concreto.
+  <strong>节庆</strong> 它汇集了壁画、涂鸦和城市艺术的节日、会议、挑战、会议和集体平台。每个主文件夹对应于特定事件框架中的作者或工作人员参与。
 </p>
 
 <p class="parrafo">
-  En estos casos el contexto de realizacion es decisivo: tiempos acotados, convivencia con otros artistas, visibilidad publica inmediata, circulacion de tecnicas y produccion compartida. La obra no depende de un solo lenguaje formal, sino de su insercion en una instancia colectiva.
+  在这些情况下，实现的背景是决定性的：有限的时间、与其他艺术家的共存、直接的公众可见性、技术的流通和共享生产。这项工作并不依赖于单一的正式语言，而是依赖于它插入到一个集体实例中。
 </p>
 
 <div class="archivo-panel">
-  <h3>Ficha de serie</h3>
+  <h3>系列片材</h3>
   <dl>
-    <div><dt>Codigo</dt><dd>FEST</dd></div>
-    <div><dt>Ruta autoral</dt><dd>ACMU &gt; COMU &gt; MURL &gt; FEST</dd></div>
-    <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
-    <div><dt>Año</dt><dd>2010 en adelante</dd></div>
-    <div><dt>Tecnica</dt><dd>Muralismo, graffiti y registro fotografico de participaciones autorales o de crew.</dd></div>
-    <div><dt>Contexto</dt><dd>Eventos, encuentros y plataformas colectivas de produccion mural.</dd></div>
+    <div><dt>代码</dt><dd>节庆</dd></div>
+    <div><dt>作者路线</dt><dd>ACMU > COMU > MURL > FEST</dd></div>
+    <div><dt>盖伊</dt><dd>开放系列</dd></div>
+    <div><dt>年</dt><dd>2010年起</dd></div>
+    <div><dt>技术</dt><dd>作者或工作人员参与的壁画、涂鸦和摄影记录。</dd></div>
+    <div><dt>语境</dt><dd>活动、会议和集体壁画制作平台。</dd></div>
   </dl>
 </div>
 
-<h2 class="subtitulo2">Participaciones destacadas</h2>
+<h2 class="subtitulo2">特色参与</h2>
 
 <div class="case-grid">
   <article class="case-card">
     <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural del Festival La Legua 2010" loading="lazy">
     <div>
-      <h3>Festival La Legua</h3>
-      <p>2010 · Registro de participacion mural y grafica vinculada al circuito de encuentros y produccion colectiva.</p>
+      <h3>拉雷瓜节</h3>
+      <p>2010 · 与会议和集体制作相关的壁画和图形参与记录。</p>
     </div>
   </article>
 
@@ -55,7 +55,7 @@ carousel: true
 </div>
 
 <p class="parrafo">
-  FEST se diferencia de Museos al Aire Libre y de Facilitacion porque aqui el criterio de ingreso es la participacion en un marco evental, no la localidad fija ni el proceso comunitario continuo. Aun asi, cada capsula puede conectarse con otras ramas del archivo segun tecnica, periodo, colaboraciones o territorio.
+  FEST 与露天博物馆和便利设施不同，因为这里的进入标准是参与事件框架，而不是固定地点或持续的社区流程。即便如此，每个胶囊都可以根据技术、时期、合作或地域与档案的其他分支连接。
 </p>
 
 
@@ -65,6 +65,6 @@ carousel: true
     <div class="img-container">
       <img class="carousel-img" src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Mural panoramico Festival La Legua 2010" loading="lazy">
     </div>
-    <figcaption>Festival La Legua, 2010: participacion en contexto de encuentro mural.</figcaption>
+    <figcaption>2010 年 La Legua 音乐节：参与壁画邂逅的背景。</figcaption>
   </figure>
 </div>

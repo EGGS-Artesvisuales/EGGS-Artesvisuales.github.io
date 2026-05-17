@@ -14,43 +14,43 @@ mermaid: true
 
 
 <!-- Título principal -->
-<h1 class="titulo">Mapuche Urbano</h1>
+<h1 class="titulo">城市马普切人</h1>
 
 <!-- Subtítulo -->
-<h2 class="subtitulo">Árbol genealógico: La Tala de la Memoria</h2>
+<h2 class="subtitulo">家谱：记忆的倒塌</h2>
 
 <!-- Mermaid: Ruta desde Representación del Mundo hacia Mapuche Urbano -->
 <div class="mermaid">
 flowchart LR
   %% Regla visual:
-  %% - Ruta activa (nodos tocados): ((redondos))
-  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
+  %% - Ruta activa (触及的节点): ((圆形的))
+  %% - Hermanos / ramas fuera de ruta: ([圆角矩形])
 
-  A((Representación del Mundo)) --> T([Lo Tangible])
-  A --> I((Lo Intangible))
+  A((世界的代表)) --> T([有形的])
+  A --> I((无形资产))
 
-  I --> C([El Capitalismo])
-  I --> P([Lo Popular])
-  I --> AN((Imágenes de los Ancestros))
+  I --> C([资本主义])
+  I --> P([热门])
+  I --> AN((祖先的图像))
 
-  AN --> AN_M([Muralismo / Intervención pictórica])
-  AN --> AN_A((Acción / Foto-performance + Video))
+  AN --> AN_M([壁画/绘画干预])
+  AN --> AN_A((动作/摄影表演+视频))
 
-  AN_A --> MU((Mapuche Urbano: La Tala de la Memoria))
+  AN_A --> MU((城市马普切人：记忆的倒塌))
 
-  %% Links (ES/)
-  click A "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
-  click T "/CHN/tangible.html" "Ir a Lo Tangible"
-  click I "/CHN/intangible.html" "Ir a Lo Intangible"
+  %% Links (是/)
+  click A "/CHN/mundo-exterior.html" "前往世界代表"
+  click T "/CHN/tangible.html" "走向有形"
+  click I "/CHN/intangible.html" "走向无形"
 
-  click C "/CHN/en-construccion.html" "En construcción"
-  click P "/CHN/en-construccion.html" "En construcción"
+  click C "/CHN/en-construccion.html" "建设中"
+  click P "/CHN/en-construccion.html" "建设中"
 
-  click AN "/CHN/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-  click AN_M "/CHN/en-construccion.html" "En construcción"
-  click AN_A "/CHN/en-construccion.html" "En construcción"
+  click AN "/CHN/imagenes-ancestros.html" "前往祖先画像"
+  click AN_M "/CHN/en-construccion.html" "建设中"
+  click AN_A "/CHN/en-construccion.html" "建设中"
 
-  click MU "/CHN/mapuche-urbano.html" "Estás aquí"
+  click MU "/CHN/mapuche-urbano.html" "你在这里"
 </div>
 
 <hr class="separador separador--aire" />
@@ -58,22 +58,22 @@ flowchart LR
 <!-- ===================== -->
 <!-- MAPUCHE URBANO -->
 <!-- ===================== -->
-<h2 class="subtitulo" id="mapuche-urbano">MAPUCHE URBANO</h2>
+<h2 class="subtitulo" id="mapuche-urbano">城市马普切人</h2>
 
 <hr class="separador separador--aire" />
 
 <section class="parrafo">
   <p>
-   Mapuche Urbano / Árbol genealógico: La Tala de la Memoria
+   城市马普切/家谱：记忆的倒塌
   </p>
 </section>
 
 <section class="parrafo">
   <p>
-    <strong>Mapuche Urbano / Árbol genealógico: La Tala de la Memoria</strong> es una obra en formato
-    <strong>video</strong> realizada a partir de <strong>fotografía estereoscópica</strong>, donde el cuerpo aparece como soporte
-    y declaración: una presencia situada en la ciudad, sobre restos de árboles talados, activando la tensión entre
-    <strong>memoria ancestral</strong> y <strong>degradación ambiental</strong>.
+    <strong>城市马普切/家谱：记忆的倒塌</strong> 这是一部有格式的作品
+    <strong>视频</strong> 由...制成 <strong>立体摄影</strong>，其中身体作为支撑
+    和宣言：存在于城市中，在被砍伐的树木的残骸上，激活了之间的紧张关系
+    <strong>祖传记忆</strong> 和 <strong>环境恶化</strong>.
   </p>
 </section>
 
@@ -94,16 +94,16 @@ flowchart LR
 <!-- ===================== -->
 <!-- FICHA TÉCNICA -->
 <!-- ===================== -->
-<h3 class="subtitulo2" id="ficha">FICHA TÉCNICA</h3>
+<h3 class="subtitulo2" id="ficha">技术表</h3>
 
 <section class="parrafo">
   <p>
-    <strong>Título:</strong> <em>Mapuche Urbano / Árbol genealógico: La Tala de la Memoria</em><br>
-    <strong>Año (obra):</strong> 2018<br>
-    <strong>Medio:</strong> Animación de fotografías estereoscópicas / video<br>
-    <strong>Audio:</strong> Sonidos de trompe (referencia a música tradicional mapuche)<br>
-    <strong>Registro/acción:</strong> Poses en espacio público, sobre restos de árboles talados, utilizando indumentaria mapuche (trarilonko (cinta), makuñ (poncho), palo de coligüe).<br>
-    <strong>Exhibición:</strong> Galería Artespacio, selección Premio ArteJoven BBVA 2018.<br>
+    <strong>资质：</strong> <em>城市马普切/家谱：记忆的倒塌</em><br>
+    <strong>年份（工作）：</strong> 2018<br>
+    <strong>一半：</strong> 立体照片/视频动画<br>
+    <strong>声音的：</strong> Trompe 声音（参考传统马普切音乐）<br>
+    <strong>注册/行动：</strong> 使用马普切服装（trarilonko（丝带）、makuñ（雨披）、coligüe 棍）在公共场所、砍伐树木的残骸上摆姿势。<br>
+    <strong>展览：</strong> Artespacio 画廊，2018 年 BBVA ArteJoven 奖评选。<br>
    </p>
 </section>
 
@@ -112,16 +112,16 @@ flowchart LR
 <!-- ===================== -->
 <!-- DESCRIPCIÓN -->
 <!-- ===================== -->
-<h3 class="subtitulo2" id="descripcion">DESCRIPCIÓN</h3>
+<h3 class="subtitulo2" id="descripcion">描述</h3>
 
 <section class="parrafo">
   <p>
-    La obra se construye desde un gesto directo: posar de frente en escenarios urbanos donde aparecen
-    <strong>árboles talados</strong>. Ese “suelo herido” no funciona como fondo, sino como signo. La indumentaria mapuche
-    desplaza la lectura hacia un campo doble: identidad y territorio; cuerpo y memoria; ciudad y continuidad cultural.
+    该作品是由一个直接的姿势构成的：在他们出现的城市环境中正面摆姿势
+    <strong>砍伐的树木</strong>。这个“受伤的土壤”不是作为背景，而是作为一个标志。马普切服装
+    它将阅读转向双重领域：身份和领域；身体和记忆；城市和文化的连续性。
     <br><br>
-    El <strong>árbol genealógico</strong> aparece como metáfora de una conexión interrumpida: una memoria que insiste,
-    aun cuando las condiciones históricas —y ambientales— la hayan intentado cortar.
+    他 <strong>家谱</strong> 似乎是中断联系的隐喻：坚持的记忆，
+    即使历史和环境条件试图切断它。
   </p>
 </section>
 
@@ -130,18 +130,18 @@ flowchart LR
 <!-- ===================== -->
 <!-- CLAVES CONCEPTUALES -->
 <!-- ===================== -->
-<h3 class="subtitulo2" id="claves">CLAVES CONCEPTUALES</h3>
+<h3 class="subtitulo2" id="claves">概念要点</h3>
 
 <section class="parrafo">
   <p>
-    <strong>1) Memoria ancestral y ambiente:</strong> la tala se vuelve imagen de ruptura, daño y pérdida, conectando el
-    deterioro ambiental con la fragilidad de la memoria colectiva.
+    <strong>1）祖先记忆和环境：</strong> 砍伐成为破裂、损坏和损失的意象，将
+    环境恶化，集体记忆脆弱。
     <br><br>
-    <strong>2) Identidad mapuche urbana:</strong> la obra se sitúa en el contexto de quienes viven la identidad indígena en la ciudad,
-    en un campo de tensiones: discriminación, asimilación, olvido y reivindicación.
+    <strong>2）城市马普切人身份：</strong> 该作品的背景是那些以土著身份生活在城市中的人们，
+    在紧张的领域：歧视、同化、遗忘和辩护。
     <br><br>
-    <strong>3) Retrato como declaración:</strong> el encuadre frontal concentra dignidad, vulnerabilidad y resistencia; no ilustra,
-    afirma una presencia.
+    <strong>3）肖像作为陈述：</strong> 额框集中了尊严、脆弱和抵抗；没有说明，
+    确认存在。
   </p>
 </section>
 
@@ -150,14 +150,14 @@ flowchart LR
 <!-- ===================== -->
 <!-- TÉCNICA Y PROCESO -->
 <!-- ===================== -->
-<h3 class="subtitulo2" id="tecnica">TÉCNICA Y PROCESO</h3>
+<h3 class="subtitulo2" id="tecnica">技术与流程</h3>
 
 <section class="parrafo">
   <p>
-    El video se compone mediante una secuencia de <strong>fotografías estereoscópicas</strong> editadas digitalmente para construir
-    un efecto de <strong>movimiento</strong> y <strong>profundidad</strong> (stop-motion estereoscópico).
-    La técnica no es solo un recurso visual: busca intensificar la experiencia perceptiva para que el espectador
-    “entre” en la imagen y la piense desde el cuerpo.
+    该视频由一系列内容组成 <strong>立体照片</strong> 数字编辑构建
+    的影响 <strong>运动</strong> 和 <strong>深度</strong> （立体定格动画）。
+    该技术不仅是一种视觉资源：它旨在强化感知体验，使观看者
+    “进入”形象，从身体出发思考。
   </p>
 </section>
 
@@ -166,12 +166,12 @@ flowchart LR
 <!-- ===================== -->
 <!-- CRONOLOGÍA BREVE -->
 <!-- ===================== -->
-<h3 class="subtitulo2" id="cronologia">CRONOLOGÍA BREVE</h3>
+<h3 class="subtitulo2" id="cronologia">简要年表</h3>
 
 <section class="parrafo">
   <p>
-    <strong>2016:</strong> Apuntes de proceso bajo la idea “Árbol genealógico / la tala de la memoria / mapuche urbano”.<br>
-    <strong>2018:</strong> Obra final exhibida en Galería Artespacio (selección Premio ArteJoven BBVA).<br>
+    <strong>2016:</strong> 以“家谱/记忆的砍伐/马普切城市”为主题的过程笔记。<br>
+    <strong>2018:</strong> 最终作品在 Artespacio 画廊展出（BBVA ArteJoven 奖评选）。<br>
     </p>
 </section>
 
@@ -181,11 +181,11 @@ flowchart LR
 <!-- (OPCIONAL) VIDEO / CARRUSEL -->
 <!-- ===================== -->
 <!--
-<h3 class="subtitulo2" id="registro">REGISTRO</h3>
+<h3 class="subtitulo2" id="registro">记录</h3>
 
 <section class="parrafo">
   <p>
-    Inserta aquí el enlace del video (YouTube/Vimeo) o un registro embebido.
+    在此处插入视频链接 (YouTube/Vimeo) 或嵌入记录。
   </p>
 </section>
 
@@ -194,7 +194,7 @@ flowchart LR
     <img class="carousel-img" src="/assets/img/mapuchenocturno.jpg"
          alt="Mapuche Urbano: La Tala de la Memoria — registro fotográfico"
          loading="lazy">
-    <figcaption><em>Mapuche Urbano / La Tala de la Memoria — registro.</em></figcaption>
+    <figcaption><em>城市马普切 / Tala de la Memoria — 登记。</em></figcaption>
   </figure>
 </div>
 -->
@@ -202,9 +202,9 @@ flowchart LR
 <!-- Navegación rápida interna -->
 <section class="parrafo">
   <p>
-    <a href="#ficha">Ir a Ficha</a> ·
-    <a href="#tecnica">Ir a Técnica</a> ·
-    <a href="/CHN/imagenes-ancestros.html">Ir a Imágenes de los Ancestros</a>
+    <a href="#ficha">转到文件</a> ·
+    <a href="#tecnica">转到技术</a> ·
+    <a href="/CHN/imagenes-ancestros.html">前往祖先画像</a>
   </p>
 </section>
 
@@ -216,24 +216,24 @@ flowchart LR
   <a href="/CHN/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros" loading="lazy">
-      <p class="title">Imágenes de los Ancestros</p>
-      <p class="subtitle">Volver a la rama conceptual.</p>
+      <p class="title">祖先的图像</p>
+      <p class="subtitle">返回到概念分支。</p>
     </div>
   </a>
 
   <a href="/CHN/musoe-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Musoe a Cielo Abierto" loading="lazy">
-      <p class="title">Musoe a Cielo Abierto</p>
-      <p class="subtitle">Dípticos murales (2018–2021).</p>
+      <p class="title">开放天空博物馆</p>
+      <p class="subtitle">壁画双联画（2018-2021）。</p>
     </div>
   </a>
 
   <a href="/CHN/mundo-exterior.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Representación del Mundo" loading="lazy">
-      <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Volver al inicio del mapa.</p>
+      <p class="title">世界的代表</p>
+      <p class="subtitle">返回到地图的开头。</p>
     </div>
   </a>
 

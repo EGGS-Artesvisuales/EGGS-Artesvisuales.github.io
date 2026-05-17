@@ -12,38 +12,38 @@ carousel: true
 ---
 
 
-<h1 class="titulo">Muralismo Colaborativo</h1>
-<h2 class="subtitulo">Facilitacion y guia de colectivos</h2>
+<h1 class="titulo">协作壁画</h1>
+<h2 class="subtitulo">团体的协助和指导</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/muralismo/faci/faci-ptmq-proceso-2018.webp" alt="Proceso de facilitacion mural con participantes pintando en un muro del CESFAM Villa Los Quillayes" loading="eager">
-  <figcaption>Pinta Tu Mural Los Quillayes, CESFAM Villa Los Quillayes, 2018. Registro optimizado para web desde el archivo FACI.</figcaption>
+  <figcaption>Paint Your Mural Los Quillayes，CESFAM Villa Los Quillayes，2018。从 FACI 文件进行 Web 优化注册。</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  <strong>FACI</strong> agrupa procesos de muralismo comunitario donde mi rol principal es facilitar, guiar, acompañar, estructurar o mediar la realizacion colectiva. En estos casos la obra no se entiende solo como imagen final: tambien importa la metodologia, la escucha, la organizacion de decisiones visuales y la posibilidad de que grupos, comunidades o instituciones participen en la construccion del muro.
+  <strong>FACI</strong> 它汇集了社区壁画过程，我的主要作用是促进、指导、陪伴、构建或调解集体实现。在这些情况下，作品不仅仅被理解为最终图像：方法、倾听、视觉决策的组织以及团体、社区或机构参与隔离墙建造的可能性也很重要。
 </p>
 
 <p class="parrafo">
-  La serie permanece abierta desde 2012 en adelante. Cada actividad principal corresponde a un caso concreto de facilitacion o guia de estas actividades de muralismo colaborativo o comunitario.
+  该系列从 2012 年起一直开放。每项主要活动都对应于促进或指导这些协作或社区壁画活动的特定案例。
 </p>
 
 <div class="archivo-panel">
-  <h3>Ficha de serie</h3>
+  <h3>系列片材</h3>
   <dl>
-    <div><dt>Tipo</dt><dd>Serie abierta</dd></div>
-    <div><dt>Año</dt><dd>2012 en adelante</dd></div>
-    <div><dt>Tecnica</dt><dd>Muralismo comunitario, facilitacion de grupos, mediacion grafica y acompañamiento metodologico.</dd></div>
-    <div><dt>Contexto</dt><dd>Grupos juveniles, comunidades locales, escuelas, organizaciones barriales, programas comunitarios y encargos participativos.</dd></div>
+    <div><dt>盖伊</dt><dd>开放系列</dd></div>
+    <div><dt>年</dt><dd>2012年起</dd></div>
+    <div><dt>技术</dt><dd>社区壁画、团体促进、图形调解和方法支持。</dd></div>
+    <div><dt>语境</dt><dd>青年团体、当地社区、学校、邻里组织、社区计划和参与性作业。</dd></div>
   </dl>
 </div>
 
-<h2 class="subtitulo2">Hitos</h2>
+<h2 class="subtitulo2">里程碑</h2>
 
 {% for hito in site.data.faci_hitos_chn %}
   {% include hito-carousel.html hito=hito %}
 {% endfor %}
 
 <p class="parrafo">
-  FACI (muralismo colaborativo) se diferencia de Festivales porque el criterio no es el marco evental, sino el rol de guia y facilitacion. Tambien se distingue de Museos al Aire Libre porque no se organiza solo por localidad fija ni por obra plenamente autoral cerrada, sino por procesos compartidos donde la conduccion metodologica es central.
+  FACI（协作壁画）与节日不同，其标准不是活动框架，而是引导和促进作用。它与露天博物馆的区别还在于，它不仅通过固定地点或完全封闭的作者作品来组织，而且通过以方法指导为核心的共享流程来组织。
 </p>

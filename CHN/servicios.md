@@ -11,19 +11,19 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">Servicios</h1>
+<h1 class="titulo">服务</h1>
 
 <p class="parrafo">
-  Ofrezco soluciones artísticas y técnicas para una amplia variedad de necesidades, combinando experiencia en arte público, restauración, diseño y gestión cultural. Cada servicio se adapta a las particularidades de cada proyecto, integrando creatividad, oficio y un enfoque responsable orientado a la calidad.
+  我结合公共艺术、修复、设计和文化管理方面的经验，为各种需求提供艺术和技术解决方案。每项服务都适应每个项目的特殊性，融合创造力、工艺和以质量为导向的负责任的方法。
 </p>
 
 <p class="parrafo">
-  Mi trabajo abarca tanto intervenciones en espacios comunitarios como desarrollos especializados para instituciones, empresas y proyectos independientes, siempre priorizando el diálogo con el entorno y las personas involucradas.
+  我的工作涵盖社区空间的干预以及机构、公司和独立项目的专门开发，始终优先考虑与环境和相关人员的对话。
 </p>
 
 <br>
 
-<h2 class="subtitulo">Categorías</h2>
+<h2 class="subtitulo">类别</h2>
 <br>
 
 <!-- Sección de Categorías con fancy buttons -->
@@ -33,8 +33,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="#restauracion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/restauracion-boton.webp" alt="Restauración" loading="lazy">
-      <p class="title">Restauración</p>
-      <p class="subtitle">Conservación y recuperación de obras.</p>
+      <p class="title">恢复</p>
+      <p class="subtitle">作品的保护和恢复。</p>
     </div>
   </a>
 
@@ -42,8 +42,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="#encargos" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/encargos-boton.webp" alt="Encargos y Encomiendas" loading="lazy">
-      <p class="title">Encargos y Encomiendas</p>
-      <p class="subtitle">Pinturas y murales a medida.</p>
+      <p class="title">佣金和奖励</p>
+      <p class="subtitle">定制绘画和壁画。</p>
     </div>
   </a>
 
@@ -51,8 +51,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="#ambientacion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
-      <p class="title">Ambientación &amp; Montajes</p>
-      <p class="subtitle">Instalaciones artísticas y decorativas.</p>
+      <p class="title">设置和蒙太奇</p>
+      <p class="subtitle">艺术和装饰装置。</p>
     </div>
   </a>
 
@@ -65,14 +65,14 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     <img src="/assets/img/restauracion-boton.webp" alt="Detalle visual del servicio de restauración" loading="lazy">
   </div>
   <div class="service-copy">
-    <h2 class="subtitulo">Restauración y conservación</h2>
+    <h2 class="subtitulo">恢复和保护</h2>
     <p class="parrafo">
-      Recuperación material y visual de obras, objetos y superficies con criterios de conservación, lectura estética y respeto por la historia de cada pieza.
+      作品、物体和表面的材料和视觉恢复，符合保护标准、审美解读和对每件作品历史的尊重。
     </p>
     <ul class="service-list">
-      <li>Diagnóstico visual, registro fotográfico y propuesta de intervención.</li>
-      <li>Limpieza, estabilización, reintegración cromática y acabados de protección según el caso.</li>
-      <li>Trabajo para obras particulares, colecciones familiares, instituciones y espacios comunitarios.</li>
+      <li>目视诊断、摄影记录和干预建议。</li>
+      <li>适当的清洁、稳定、色彩重新整合和保护性饰面。</li>
+      <li>我为私人作品、家庭收藏、机构和社区空间工作。</li>
     </ul>
   </div>
 </section>
@@ -82,14 +82,14 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     <img src="/assets/img/encargos-boton.webp" alt="Obras por encargo y murales personalizados" loading="lazy">
   </div>
   <div class="service-copy">
-    <h2 class="subtitulo">Encargos y encomiendas de obra</h2>
+    <h2 class="subtitulo">佣金和工作任务</h2>
     <p class="parrafo">
-      Desarrollo de pinturas, murales e intervenciones visuales a medida, desde la idea inicial hasta la ejecución final.
+      定制绘画、壁画和视觉干预的开发，从最初的想法到最终的执行。
     </p>
     <ul class="service-list">
-      <li>Bocetaje, definición de paleta, escala, soporte y calendario de producción.</li>
-      <li>Obras para hogares, oficinas, locales, organizaciones sociales e instituciones culturales.</li>
-      <li>Posibilidad de integrar archivo, identidad territorial, memoria familiar o narrativa de marca.</li>
+      <li>绘制草图、定义调色板、比例、支持和生产日历。</li>
+      <li>适用于家庭、办公室、场所、社会组织和文化机构。</li>
+      <li>整合档案、地域特征、家族记忆或品牌叙事的可能性。</li>
     </ul>
   </div>
 </section>
@@ -99,22 +99,22 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     <img src="/assets/img/instalacion-boton.webp" alt="Ambientación artística, montaje e instalación de obra" loading="lazy">
   </div>
   <div class="service-copy">
-    <h2 class="subtitulo">Ambientación, instalación y montajes</h2>
+    <h2 class="subtitulo">设置、安装和剪辑</h2>
     <p class="parrafo">
-      Diseño y ejecución de soluciones visuales para activar espacios, exhibiciones, eventos y experiencias culturales.
+      设计和执行视觉解决方案以激活空间、展览、活动和文化体验。
     </p>
     <ul class="service-list">
-      <li>Montaje de obra, ambientación artística y composición espacial.</li>
-      <li>Diseño de recorridos, apoyos visuales, señalética simple y soluciones de exhibición.</li>
-      <li>Producción para muestras, actividades comunitarias, ferias, talleres y proyectos especiales.</li>
+      <li>作品、艺术设置和空间构成的组合。</li>
+      <li>路线、视觉支持、简单标牌和展览解决方案的设计。</li>
+      <li>展览、社区活动、博览会、研讨会和特殊项目的制作。</li>
     </ul>
   </div>
 </section>
 
 <div class="service-cta">
-  <h2 class="subtitulo2">Conversemos el proyecto</h2>
+  <h2 class="subtitulo2">我们来谈谈项目</h2>
   <p class="parrafo">
-    Para cotizar o evaluar una idea, envíame una descripción breve, ubicación, fechas aproximadas y fotografías del espacio u obra cuando corresponda.
+    要引用或评估某个想法，请向我发送简短的描述、位置、大致日期以及适用的空间或作品的照片。
   </p>
-  <a href="/CHN/contacto.html" class="enlace">Ir a contacto</a>
+  <a href="/CHN/contacto.html" class="enlace">前往联系方式</a>
 </div>

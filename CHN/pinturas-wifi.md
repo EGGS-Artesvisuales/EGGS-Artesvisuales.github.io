@@ -13,10 +13,10 @@ mermaid: true
 ---
 
 
-<h1 class="titulo">Pinturas Wi-Fi</h1>
-<h2 class="subtitulo">La representación de la contaminación invisible</h2>
+<h1 class="titulo">无线网络绘画</h1>
+<h2 class="subtitulo">看不见的污染的表现</h2>
 <h3 class="subtitulo2">
-  Obras para ver lo que no se ve. Campos invisibles como materia pictórica.
+  工作是为了看到看不见的东西。看不见的领域作为绘画材料。
 </h3>
 
 <br>
@@ -26,118 +26,118 @@ mermaid: true
        alt="Pintura Wi-Fi n.º 4. De la serie La Saturación / Lo Invisible"
        loading="lazy">
   <figcaption>
-    Representación del mundo / Lo tangible / La Saturación / Lo Invisible / Pinturas Wi-Fi, n.º 4.
-    Óleo sobre tabla, EGGS, 2020.
+    世界的表现/有形/饱和度/无形/Wi-Fi 绘画，编号。 4.
+    面板油画，EGGS，2020。
   </figcaption>
 </figure>
 
 <br>
 
 <p class="parrafo">
-  <strong>Pinturas Wi-Fi</strong> es una subserie dentro de <strong>Lo Invisible</strong>, vinculada al eje de
-  <strong>Representación del mundo físico</strong> y a las <strong>Imágenes de la Saturación</strong>. Nace de una
-  premisa simple pero inquietante: en la era de la hiperconectividad, el entorno ya no está compuesto solo por materia y
-  luz, sino también por un campo permanente de señales, ondas y estímulos que operan fuera del rango de lo evidente.
-  El Wi-Fi, las radiaciones electromagnéticas y otras presencias tecnológicas funcionan como un “clima” invisible que
-  condiciona la experiencia cotidiana y altera, de forma silenciosa, nuestra relación con lo real.
+  <strong>无线网络绘画</strong> 它是一个子系列 <strong>看不见</strong>，连接到轴
+  <strong>物理世界的表示</strong> 并在 <strong>饱和度的图像</strong>。出生于一个
+  简单但令人不安的前提：在超连接时代，环境不再仅由物质和
+  光，但也受到在明显范围之外运行的信号、波和刺激的永久场的影响。
+  Wi-Fi、电磁辐射和其他技术的存在就像一种看不见的“气候”，
+  它影响着我们的日常经验，并默默地改变着我们与现实的关系。
 </p>
 
 <p class="parrafo">
-  En este cuerpo de obra, la pintura no busca ilustrar la tecnología como tema, sino <strong>hacer perceptible su
-  influencia</strong>. La imagen —paisajes, retratos y objetos reconocibles— aparece sometida a torsiones, ondulaciones,
-  quiebres y zonas de interferencia que recuerdan fallas de señal, compresiones digitales o distorsiones de transmisión.
-  Lo familiar se mantiene identificable, pero deja de ser estable: la escena parece afectada por una fuerza que no se ve,
-  aunque se intuye por sus efectos. En ese sentido, las deformaciones no son un recurso decorativo; funcionan como
-  síntomas de una condición contemporánea: la saturación tecnológica flotando en el aire.
+  在这幅作品中，这幅画并不试图以技术为主题，而是 <strong>使可察觉
+  影响力</strong>。图像——风景、肖像和可识别的物体——看起来会扭曲、起伏，
+  中断和干扰区域让人想起信号故障、数字压缩或传输失真。
+  熟悉的事物仍然可辨认，但不再稳定：场景似乎受到看不见的力量的影响，
+  尽管它的效果是凭直觉判断的。从这个意义上说，变形不是一种装饰资源；而是一种装饰资源。他们的工作方式就像
+  当代状况的症状：技术饱和漂浮在空气中。
 </p>
 
-<h3 class="subtitulo2">Lo Invisible: marco conceptual</h3>
+<h3 class="subtitulo2">看不见的：概念框架</h3>
 
 <p class="parrafo">
-  La serie <strong>Lo Invisible</strong> indaga en contaminantes inmateriales que atraviesan el mundo actual:
-  <strong>ondas electromagnéticas</strong>, <strong>polución lumínica</strong> y <strong>polución acústica</strong>, entre
-  otras presiones ambientales y perceptivas. Su propósito es dirigir la atención hacia aquello que normalmente no se
-  percibe pero igualmente nos afecta: una “niebla” constante de radiación, ruido y estímulo que envuelve los cuerpos y
-  los espacios. Desde esta perspectiva, la obra se sitúa en el punto donde lo intangible produce consecuencias tangibles:
-  ansiedad, hiperalerta, fatiga perceptiva, o una sensación difusa de que la realidad perdió nitidez y estabilidad.
+  该系列 <strong>看不见</strong> 调查当前世界的无形污染物：
+  <strong>电磁波</strong>, <strong>光污染</strong> 和 <strong>声污染</strong>, 之间
+  其他环境和感知压力。其目的是引导人们注意不正常的事情
+  感知但同样影响我们：辐射、噪音和刺激的持续“雾”笼罩着我们的身体和
+  空间。从这个角度来看，该作品处于无形产生有形后果的位置：
+  焦虑、高度警觉、知觉疲劳或弥漫的现实已经失去清晰度和稳定性的感觉。
 </p>
 
-<h3 class="subtitulo2">Pintar lo analógico con lógica digital</h3>
+<h3 class="subtitulo2">用数字逻辑绘制模拟</h3>
 
 <p class="parrafo">
-  Formalmente, <strong>Pinturas Wi-Fi</strong> desarrolla una operación híbrida: técnicas pictóricas tradicionales
-  (óleo y acrílico) se articulan con procesos de manipulación digital como método de composición, distorsión o “ruido”
-  visual. Esta fusión no es un mero cruce técnico; es coherente con el tema: la experiencia contemporánea ocurre en una
-  fricción constante entre lo analógico y lo digital, entre lo tangible y lo intangible. Por eso, la pintura adopta una
-  lógica de interferencia: como si el soporte fuese una pantalla afectada, o como si el aire mismo actuara como un medio
-  de transmisión que altera la imagen.
+  正式地， <strong>无线网络绘画</strong> 开发混合操作：传统绘画技术
+  （油和丙烯酸）通过数字处理过程作为构图、扭曲或“噪音”的方法进行连接
+  视觉。这次合并不仅仅是技术上的交叉；与主题一致：当代经验发生在
+  模拟与数字、有形与无形之间不断存在摩擦。因此，这幅画采用了
+  干扰逻辑：就好像支撑物是受影响的屏幕，或者就好像空气本身充当介质
+  改变图像的传输。
 </p>
 
 <p class="parrafo">
-  El resultado es una estética de impacto inmediato, pero con un trasfondo filosófico: las obras tensionan preguntas sobre
-  percepción y realidad, y proponen una duda persistente. Si lo que vemos puede ser modificado por fuerzas imperceptibles,
-  ¿cuánta de nuestra confianza visual es realmente “natural”? ¿Cuánto de la percepción es un acuerdo cultural que hoy está
-  siendo reprogramado por la tecnología?
+  其结果是一种具有直接影响力的美学，但具有哲学背景：这些作品提出了关于
+  感知和现实，并提出持续的怀疑。如果我们看到的东西可以被不可察觉的力量改变，
+  我们的视觉信心有多少是真正“自然”的？当今有多少认知是文化共识
+  被技术重新编程？
 </p>
 
-<h3 class="subtitulo2">Experiencia del espectador: desconcierto, curiosidad, alerta</h3>
+<h3 class="subtitulo2">观众体验：困惑、好奇、警觉</h3>
 
 <p class="parrafo">
-  Las distorsiones generan una respuesta emocional ambivalente: por un lado, hay fascinación por la belleza del quiebre; por
-  otro, aparece el desconcierto, una incomodidad leve que empuja a mirar de nuevo. Ese “fallo” controlado en la imagen obliga
-  a tomar consciencia de lo que usualmente se ignora. La obra no entrega una moraleja; propone una experiencia: sentir que lo
-  invisible existe porque produce efectos, y reconocer que la saturación tecnológica no es solo un tema externo, sino un entorno
-  perceptivo en el que ya vivimos.
+  扭曲会产生矛盾的情绪反应：一方面，人们对断裂之美着迷；另一方面，人们对断裂的美丽感到着迷。通过
+  另一种是混乱的出现，一种轻微的不适促使我们再次审视。这种控制性的图像力量中的“错误”
+  意识到通常被忽视的事情。作品不提供道德；提出一种体验：感觉
+  无形之所以存在，是因为它产生了效果，并认识到技术饱和不仅仅是一个外部问题，而是一个环境
+  我们已经生活在其中的观念。
 </p>
 
 <div class="mermaid">
 graph LR
-  A((Representación del Mundo)) --> B((Lo Tangible))
-  A --> B2([Lo Intangible])
+  A((世界的代表)) --> B((有形的))
+  A --> B2([无形资产])
 
-  B --> C((La Saturación))
-  B --> C2([La Tecnología])
+  B --> C((饱和))
+  B --> C2([技术])
 
-  C --> D((Lo Invisible))
-  C --> D2([La Peste])
+  C --> D((看不见))
+  C --> D2([瘟疫])
 
-  D --> E((Pinturas Wi-Fi))
-  D --> F([Desplazamientos])
+  D --> E((无线网络绘画))
+  D --> F([位移])
 
-  %% Hijos de Pinturas Wi-Fi (categorías dentro de esta página)
-  E --> E1([Paisajes])
-  E --> E2([Retratos])
-  E --> E3([Bodegones])
+  %% Hijos de Pinturas Wi-Fi (此页面内的类别)
+  E --> E1([风景])
+  E --> E2([肖像])
+  E --> E3([静物画])
 
-  %% Clicks (todos clickeables)
-  click A "/CHN/mundo-exterior.html" "Ver Representación del Mundo"
-  click B "/CHN/tangible.html" "Ver Lo Tangible"
-  click B2 "/CHN/intangible.html" "Ver Lo Intangible"
-  click C "/CHN/saturacion.html" "Ver La Saturación"
-  click C2 "/CHN/en-construccion.html" "Ver La Tecnología"
-  click D "/CHN/lo-invisible.html" "Ver Lo Invisible"
-  click D2 "/CHN/la-peste.html" "Ver La Peste"
-  click E "/CHN/pinturas-wifi.html" "Ver Pinturas Wi-Fi"
-  click F "/CHN/en-construccion.html" "Ver Desplazamientos de la pintura"
+  %% Clicks (全部可点击)
+  click A "/CHN/mundo-exterior.html" "参见世界的代表性"
+  click B "/CHN/tangible.html" "看到有形的"
+  click B2 "/CHN/intangible.html" "查看无形资产"
+  click C "/CHN/saturacion.html" "查看饱和度"
+  click C2 "/CHN/en-construccion.html" "看技术"
+  click D "/CHN/lo-invisible.html" "看到看不见的东西"
+  click D2 "/CHN/la-peste.html" "参见瘟疫"
+  click E "/CHN/pinturas-wifi.html" "查看 Wi-Fi 画作"
+  click F "/CHN/en-construccion.html" "参见绘画动作"
 
-  %% Enlaces a secciones internas (anclas) para coherencia con las 3 categorías
-  click E1 "#paisajes" "Ver Paisajes (Pinturas Wi-Fi)"
-  click E2 "#retratos" "Ver Retratos (Pinturas Wi-Fi)"
-  click E3 "#bodegones" "Ver Bodegones (Pinturas Wi-Fi)"
+  %% Enlaces a secciones internas (锚点) para coherencia con las 3 categorías
+  click E1 "#风景" "看风景（Wi-Fi绘画）"
+  click E2 "#肖像" "查看肖像（Wi-Fi 绘画）"
+  click E3 "#静物" "查看静物画（Wi-Fi 绘画）"
 </div>
 
 
 <hr class="separador">
 
 
-<h2 class="subtitulo" id="paisajes">Pinturas Wi-Fi: Paisajes</h2>
-<h3 class="subtitulo2">Variaciones del paisaje bajo interferencia</h3>
+<h2 class="subtitulo" id="paisajes">Wi-Fi 绘画：风景</h2>
+<h3 class="subtitulo2">干扰下的景观变化</h3>
 <p class="parrafo">
-  Paisajes reconocibles sometidos a torsiones, ondulaciones y “ruidos” de señal. La naturaleza aparece como un lugar
-  atravesado por un clima tecnológico invisible, donde lo estable se vuelve vibrátil.
+  可识别的景观受到扭曲、起伏和信号“噪音”的影响。自然表现为一个地方
+  一种无形的技术氛围穿过，稳定变得充满活力。
 </p>
 <br>
-<h3 class="subtitulo2">Paisaje Wi Fi n°1, 2015</h3>
+<h3 class="subtitulo2">Wi Fi 景观第一名，2015 年</h3>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -145,7 +145,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001，布面油画，100x150cm，2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -153,7 +153,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -161,7 +161,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -169,7 +169,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -177,7 +177,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -185,7 +185,7 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
   <figure class="imagen-con-caption item--imagen">
@@ -193,13 +193,13 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001, 100x150cm, 2015</em>
     </figcaption>
   </figure>
 </div>
 
 <br>
-<h3 class="subtitulo2">Paisaje Wi Fi n°2, 2016</h3>
+<h3 class="subtitulo2">Wi Fi 景观 n°2, 2016</h3>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -207,13 +207,13 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001，布面油画，100x150cm，2015</em>
     </figcaption>
   </figure>
 </div>
 
 <br>
-<h3 class="subtitulo2">Paisaje Wi Fi n°3, 2020</h3>
+<h3 class="subtitulo2">Wi Fi 景观 n°3，2020</h3>
 
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen">
@@ -221,18 +221,18 @@ graph LR
          alt="Pinturas Wi-Fi – Paisaje wi fi n.º 1, 100 × 150 cm, 2015"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Paisaje, n.º 001, óleo sobre lienzo, 100x150cm, 2015</em>
+      <em>饱和度/看不见的/Wi-Fi 绘画，风景，no。 001，布面油画，100x150cm，2015</em>
     </figcaption>
   </figure>
 </div>
 
 <hr class="separador">
 
-<h2 class="subtitulo" id="retratos">Pinturas Wi-Fi: Retratos</h2>
-<h3 class="subtitulo2">El rostro como campo de distorsión</h3>
+<h2 class="subtitulo" id="retratos">Wi-Fi 绘画：肖像</h2>
+<h3 class="subtitulo2">脸部作为扭曲场</h3>
 <p class="parrafo">
-  Retratos donde la identidad se mantiene, pero la imagen se quiebra. La interferencia no borra: altera la percepción,
-  tensionando la estabilidad del sujeto en un entorno saturado de señales.
+  肖像中的身份得以保留，但形象却被打破。干扰不会消除：它会改变感知，
+  强调主体在信号饱和的环境中的稳定性。
 </p>
 
 <div class="owl-carousel carousel-imagen">
@@ -241,18 +241,18 @@ graph LR
          alt="Pinturas Wi-Fi – Retrato n.º 001, dimensiones por definir, 2020"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Retrato, n.º 001, 2020</em>
+      <em>饱和度/隐形/Wi-Fi 绘画，肖像，编号。 001, 2020</em>
     </figcaption>
   </figure>
 </div>
 
 <hr class="separador">
 
-<h2 class="subtitulo" id="bodegones">Pinturas Wi-Fi: Bodegones</h2>
-<h3 class="subtitulo2">Objetos cotidianos bajo señal</h3>
+<h2 class="subtitulo" id="bodegones">Wi-Fi 绘画：静物</h2>
+<h3 class="subtitulo2">标志下的日常物品</h3>
 <p class="parrafo">
-  Bodegones y naturalezas muertas intervenidas por “fallas” de transmisión: lo doméstico se vuelve inestable, como si la
-  materia cotidiana estuviera atravesada por un pulso inmaterial que desordena la mirada.
+  静物和被传播“失败”所干扰的静物：家庭变得不稳定，仿佛
+  日常生活中的事物被一种无形的脉动所穿越，扰乱了视线。
 </p>
 
 <div class="owl-carousel carousel-imagen">
@@ -261,7 +261,7 @@ graph LR
          alt="Pinturas Wi-Fi – Bodegón n.º 001, dimensiones por definir, 2020"
          loading="lazy">
     <figcaption>
-      <em>La Saturación / Lo Invisible / Pinturas Wi-Fi, Bodegón, n.º 001, 2020</em>
+      <em>饱和度 / 看不见的 / Wi-Fi 绘画，静物，No. 001，2020</em>
     </figcaption>
   </figure>
 </div>

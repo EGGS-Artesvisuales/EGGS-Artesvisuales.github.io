@@ -13,15 +13,15 @@ mermaid: false
 ---
 
 
-<h1 class="titulo">Imágenes del Capitalismo</h1>
-<h2 class="subtitulo">Representaciones críticas del sistema económico</h2>
+<h1 class="titulo">资本主义形象</h1>
+<h2 class="subtitulo">经济体系的批判性表述</h2>
 
 <section class="parrafo">
   <p>
-    Esta serie agrupa obras que examinan el impacto del capitalismo sobre las personas, el medio ambiente y las estructuras sociales. A través de fotografía, dibujo y acción de arte, las piezas proponen una reflexión visual sobre las dinámicas de poder, explotación y consumo que caracterizan al sistema económico actual.
+    该系列汇集了探讨资本主义对人类、环境和社会结构影响的作品。通过摄影、绘画和艺术行为，这些作品对当今经济体系的权力、剥削和消费动态进行了视觉反思。
   </p>
   <p>
-    Cada obra se articula desde un punto de vista específico: <strong>El Colgado</strong> expone la alienación del trabajador; <strong>Mr. Burns</strong> encarna la avaricia empresarial; y <strong>El Empaquetador</strong> denuncia la saturación ambiental derivada del consumo cotidiano. En conjunto, estas imágenes abren un espacio de crítica y conciencia frente a las estructuras invisibles que nos gobiernan.
+    每件作品都从特定的角度阐述： <strong>倒吊人</strong> 暴露工人的疏离感； <strong>伯恩斯先生</strong> 体现了企业的贪婪；和 <strong>包装工</strong> 谴责日常消费造成的环境饱和。面对统治我们的无形结构，这些图像共同为批评和认识开辟了空间。
   </p>
 </section>
 
@@ -33,7 +33,7 @@ mermaid: false
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Colgado">
       </div>
-      <figcaption>El Colgado</figcaption>
+      <figcaption>倒吊人</figcaption>
     </a>
   </div>
 
@@ -42,7 +42,7 @@ mermaid: false
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="Mr. Burns">
       </div>
-      <figcaption>Mr. Burns</figcaption>
+      <figcaption>伯恩斯先生</figcaption>
     </a>
   </div>
 
@@ -51,7 +51,7 @@ mermaid: false
       <div class="img-container">
         <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Empaquetador">
       </div>
-      <figcaption>El Empaquetador</figcaption>
+      <figcaption>包装工</figcaption>
     </a>
   </div>
 

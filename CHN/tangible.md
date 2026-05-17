@@ -12,49 +12,49 @@ mermaid: true
 ---
 
 
-<h1 class="titulo">Lo Tangible</h1>
+<h1 class="titulo">有形的</h1>
 
-<h2 class="subtitulo">Representación del mundo material</h2>
+<h2 class="subtitulo">物质世界的表征</h2>
 
 <div class="mermaid">
 flowchart LR
-  representacion((Representación del Mundo))
-  tangible(("Lo Tangible"))
-  intangible(["Lo Intangible"])
+  representacion((世界的代表))
+  tangible(("有形的"))
+  intangible(["无形资产"])
 
   representacion --> tangible
   representacion --> intangible
 
-  tangible --> saturacion(["La Saturación"])
-  tangible --> tecnologia(["La Tecnología"])
+  tangible --> saturacion(["饱和"])
+  tangible --> tecnologia(["技术"])
 
-  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/CHN/tangible.html" "Ir a Lo Tangible"
-  click saturacion "/CHN/saturacion.html" "Ir a La Saturación"
-  click tecnologia "/CHN/en-construccion.html" "Ir a La Tecnología"
-  click intangible "/CHN/intangible.html" "Ir a Lo Intangible"
+  click representacion "/CHN/mundo-exterior.html" "前往世界代表"
+  click tangible "/CHN/tangible.html" "走向有形"
+  click saturacion "/CHN/saturacion.html" "转到饱和度"
+  click tecnologia "/CHN/en-construccion.html" "前往技术"
+  click intangible "/CHN/intangible.html" "走向无形"
 </div>
 <br>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Esta serie reúne obras que se concentran en los aspectos físicos y materiales del entorno, explorando elementos que caracterizan la experiencia contemporánea. Cada tema se selecciona por su presencia significativa en la vida actual y por su capacidad para reflejar transformaciones sociales, culturales o tecnológicas. Su objetivo es proponer una lectura visual de aquello que define nuestra época desde lo cotidiano hasta lo estructural.
+  该系列汇集了关注环境的物理和物质方面的作品，探索表征当代体验的元素。每个主题都因其在当前生活中的重要存在以及反映社会、文化或技术变革的能力而被选择。其目标是提出一种视觉解读，从日常生活到结构，定义我们的时间。
 </p>
 
 <p class="parrafo">
-  Los criterios de selección de estos elementos consideran:
+  这些元素的选择标准考虑：
 </p>
 
 <ul class="parrafo">
-    <li>Presencia constante o predominante en paisajes urbanos o naturales.</li>
-    <li>Relevancia en la experiencia cotidiana.</li>
-    <li>Carácter novedoso: elementos propios del presente que no existían en épocas anteriores.</li>
-    <li>Potencial simbólico para representar cambios y tensiones del contexto contemporáneo.</li>
+    <li>在城市或自然景观中持续或主要存在。</li>
+    <li>与日常经验的相关性。</li>
+    <li>新颖的人物：以前不存在的现在典型的元素。</li>
+    <li>代表当代背景下的变化和紧张的象征潜力。</li>
 </ul>
 
 <br>
 
 <p class="parrafo">
-  Esta serie permanece abierta y en desarrollo, incorporando nuevos temas a medida que la investigación artística avanza. Actualmente, la exploración se organiza en torno a dos grandes ejes:
+  该系列保持开放和发展，随着艺术研究的进展融入新的主题。目前，探索围绕两个主轴进行：
 </p>
 
 
@@ -63,16 +63,16 @@ flowchart LR
     <a href="/CHN/saturacion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
-            <p class="title">La Saturación</p>
-            <p class="subtitle">Contaminación, exceso y producción capitalista</p>
+            <p class="title">饱和</p>
+            <p class="subtitle">污染、过剩和资本主义生产</p>
         </div>
     </a>
 
     <a href="/CHN/en-construccion.html" class="fancy-button">
         <div class="button-content">
             <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
-            <p class="title">La Tecnología</p>
-            <p class="subtitle">Influencia técnica en el entorno contemporáneo</p>
+            <p class="title">技术</p>
+            <p class="subtitle">当代环境中的技术影响</p>
         </div>
     </a>
 </div>

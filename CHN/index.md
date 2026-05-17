@@ -12,52 +12,52 @@ carousel: true
 mermaid: true
 ---
 
-<h1 class="titulo">EGGS-STUDIO</h1>
+<h1 class="titulo">EGGS-Studio</h1>
 
 <h2 class="subtitulo">
-  Universo creativo de Esteban Garnica.
+  Esteban Garnica 的创意宇宙。
 </h2>
 
 <br>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
+  <figcaption>饱和/瘟疫/感染的绘画，软支撑，单页，肖像，st003。 2020.</figcaption>
 </figure>
 
 <br>
 
 <p class="parrafo" style="margin-top: 7%;">
-  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual.
-  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica:
-  1) la representación del mundo exterior, 2) la acción en el mundo y 3) la exploración del mundo interior.
-  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
+  这是我作为视觉艺术家的作品的不同维度汇聚的空间。
+  在这里，亲密的项目和大型作品被阐明，组织成三个轴，构成了我的实践：
+  1）外部世界的表征，2）世界中的行动，3）内部世界的探索。
+  每个轴都展示了与艺术相关并通过视觉构建意义的特定方式。
 </p>
 
 
 
 <div class="mermaid">
 flowchart LR
-  principal(("Actividad artística"))
-  representacion(["Representación del mundo"])
-  accion(["Acción en el mundo"])
-  interior(["Exploración del mundo interior"])
+  principal(("艺术活动"))
+  representacion(["世界的代表"])
+  accion(["在世界上的行动"])
+  interior(["内心世界的探索"])
 
   principal --> representacion
   principal --> accion
   principal --> interior
 
-  click representacion "/CHN/mundo-exterior.html" "Ir a Representación del mundo"
-  click accion "/CHN/accion.html" "Ir a Acción en el mundo"
-  click interior "/CHN/interior.html" "Ir a Mundo interior"
+  click representacion "/CHN/mundo-exterior.html" "前往世界代表"
+  click accion "/CHN/accion.html" "前往世界各地行动"
+  click interior "/CHN/interior.html" "走进内心世界"
 </div>
 
 
 
 <p class="parrafo" style="margin-top: 7%;">
-  Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo.
-  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de proyectos culturales.
-  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
+  我邀请您探索这三个轴来了解我的艺术宇宙：探索作品和系列，阅读我的创作过程，并与我的作品建立不同形式的联系。
+  在这里，您还可以获取作品并请求委托 - 绘画、壁画或其他干预措施 - 除了与我的实践相关的咨询服务，例如文化项目的修复和开发。
+  这种分类就像一张地图：它让我能够组织和明确我的职业生涯，同时也让其他人更容易理解我是如何思考、制作和开发每个项目的。
 </p>
 
 <hr class="separador separador--aire" />
@@ -68,8 +68,8 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp"
            alt="Obras de Representación del Mundo" loading="lazy">
-      <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
+      <p class="title">世界的代表</p>
+      <p class="subtitle">观察、描绘和反思当今世界的作品。</p>
     </div>
   </a>
 
@@ -77,8 +77,8 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/index---gif--accion-en-el-mundo.webp"
            alt="Obras de Acción en el Mundo" loading="lazy">
-      <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
+      <p class="title">世界行动</p>
+      <p class="subtitle">世界各地的行动实践、社区艺术、讲习班、手工艺和文化服务。</p>
     </div>
   </a>
 
@@ -86,8 +86,8 @@ flowchart LR
     <div class="button-content">
       <img src="/assets/img/ES-inicio---mundo-interior.webp"
            alt="Exploración del Mundo Interior" loading="lazy">
-      <p class="title">Mundo Interior</p>
-      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
+      <p class="title">内心世界</p>
+      <p class="subtitle">致力于内省和幸福的个人探索和过程的工作。</p>
     </div>
   </a>
 
@@ -95,4 +95,4 @@ flowchart LR
 
 
 
-<a href="/CHN/exhibiciones.html" class="enlace">Ver más obras</a>
+<a href="/CHN/exhibiciones.html" class="enlace">查看更多作品</a>

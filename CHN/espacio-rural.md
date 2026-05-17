@@ -13,9 +13,9 @@ mermaid: true
 ---
 
 
-<h1 class="titulo">Espacio rural</h1>
-<h2 class="subtitulo">De la serie La Saturacion, La Peste, desplazamiento de la pintura</h2>
-<h3 class="subtitulo2">Representación de la contaminación, Pintura expandida en territorios rurales y paisajes</h3>
+<h1 class="titulo">乡村空间</h1>
+<h2 class="subtitulo">来自《饱和度》、《瘟疫》系列，绘画的位移</h2>
+<h3 class="subtitulo2">污染的表现，绘画在农村地区和风景中的扩展</h3>
 <br>
 
 <figure class="imagen-con-caption">
@@ -30,23 +30,23 @@ mermaid: true
     <source src="/assets/img/videos/saturacion-peste-desp-esp-rural-ruralia-gif-001.mp4" type="video/mp4">
   </video>
   <figcaption>
-    La Saturación / La Peste / Desplazamiento de la pintura: Espacio rural; Ruralias s/t, 2012. Los Muermos, Chile.
+    饱和度/瘟疫/绘画的位移：乡村空间； Ruralias s/t，2012 年。洛斯穆埃尔莫斯，智利。
   </figcaption>
 </figure>
 
 <section aria-label="Introducción a Espacio rural">
   <p class="parrafo" style="margin-top: 3%;">
-    Esta página introduce el eje <strong>Espacio natural / rural</strong> dentro de la serie
-    <em>Desplazamiento de la Pintura</em>, enfocándose en obras que trasladan el gesto pictórico a entornos abiertos,
-    rurales y naturales.
+    本页介绍轴 <strong>自然/乡村空间</strong> 系列内
+    <em>绘画转变</em>，专注于将绘画姿态转移到开放环境的作品，
+    乡村和自然。
   </p>
 
   <p class="parrafo">
-    En este ámbito, la representación del rasgo característico —la saturación— se activa mediante el desplazamiento de la pintura
-    en intervenciones que atraviesan lo doméstico, lo público y lo rural. En este territorio, el material (papel de prensa y publicidad)
-    se contrasta con el paisaje verde y vegetal: casi un oxímoron. La contaminación se vuelve evidente (serie <em>La Peste</em>): los paisajes
-    aparecen afectados, infectados. El material se degrada por clima, tierra y tiempo; sin embargo, lo retiro al final del proceso, porque
-    no busco generar basura real.
+    在该区域中，通过移动颜料来激活特征特征（饱和度）的表示
+    跨家庭、公众和农村的干预措施。在这个领土上，材料（报纸和广告）
+    它与绿色和植物景观形成鲜明对比：几乎是一个矛盾的说法。污染变得明显（系列 <em>瘟疫</em>）：风景
+    他们看起来受到了影响，被感染了。材料会因气候、土壤和时间而降解；但是，我在过程结束时将其删除，因为
+    我不想产生真正的垃圾。
   </p>
 </section>
 
@@ -55,49 +55,49 @@ mermaid: true
 <!-- DIAGRAMA MERMAID -->
 <div class="mermaid">
 graph LR
-  A[Representación del Mundo] --> A1[Lo Tangible]
-  A --> A2[Lo Intangible]
+  A[世界的代表] --> A1[有形的]
+  A --> A2[无形资产]
 
-  A1 --> A1a[La Saturación]
-  A1 --> A1b[La Tecnología]
+  A1 --> A1a[饱和]
+  A1 --> A1b[技术]
 
-  A1a --> A1a1[La Peste]
-  A1a --> A1a2[Lo Invisible]
+  A1a --> A1a1[瘟疫]
+  A1a --> A1a2[看不见]
 
-  A1a1 --> A1a1b[Desplazamiento de la Pintura]
-  A1a1 --> A1a1c[Pinturas Infectadas]
+  A1a1 --> A1a1b[绘画转变]
+  A1a1 --> A1a1c[受感染的油漆]
 
-  A1a1b --> D1[Espacios domésticos]
-  A1a1b --> D2[Espacios públicos]
-  A1a1b --> D3[Espacio rural / natural]
+  A1a1b --> D1[家庭空间]
+  A1a1b --> D2[公共空间]
+  A1a1b --> D3[乡村/自然空间]
 
-  click A "/CHN/mundo-exterior" "Ir a Representación del Mundo"
-  click A1 "/CHN/tangible" "Ir a Lo Tangible"
-  click A2 "/CHN/intangible" "Ir a Lo Intangible"
+  click A "/CHN/mundo-exterior" "前往世界代表"
+  click A1 "/CHN/tangible" "走向有形"
+  click A2 "/CHN/intangible" "走向无形"
 
-  click A1a "/CHN/saturacion" "Ir a La Saturación"
-  click A1b "/CHN/en-construccion" "Ir a La Tecnología"
-  click A1a1 "/CHN/la-peste" "Ir a La Peste"
-  click A1a2 "/CHN/lo-invisible" "Ir a Lo Invisible"
+  click A1a "/CHN/saturacion" "转到饱和度"
+  click A1b "/CHN/en-construccion" "前往技术"
+  click A1a1 "/CHN/la-peste" "前往瘟疫"
+  click A1a2 "/CHN/lo-invisible" "前往看不见的地方"
 
-  click A1a1c "/CHN/peste-pinturas-infectadas" "Ir a Pinturas Infectadas"
-  click A1a1b "/CHN/desplazamiento-pintura" "Ir a Desplazamiento de la Pintura"
+  click A1a1c "/CHN/peste-pinturas-infectadas" "前往受感染的画作"
+  click A1a1b "/CHN/desplazamiento-pintura" "转到绘画变换"
 
-  click D1 "/CHN/espacio-domestico.html" "Ir a Espacios domésticos"
-  click D2 "/CHN/espacio-publico.html" "Ir a Espacios públicos"
-  click D3 "/CHN/espacio-rural.html" "Ir a Espacio rural / natural"
+  click D1 "/CHN/espacio-domestico.html" "前往国内空间"
+  click D2 "/CHN/espacio-publico.html" "前往公共场所"
+  click D3 "/CHN/espacio-rural.html" "前往乡村/自然空间"
 </div>
 
 <br><br>
 
 <p class="parrafo">
-  El diagrama anterior muestra la organización conceptual. A continuación presento registros de la sección <strong>Ruralias</strong>,
-  donde el papel se sitúa en distintas condiciones del campo, generando imágenes, acciones y registros audiovisuales.
+  上图显示了概念组织。下面我展示该部分的记录 <strong>农村地区</strong>,
+  将纸张放置在不同的现场条件下，生成图像、动作和视听记录。
 </p>
 
 <br>
 
-<h3 class="subtitulo2">Ruralias, 2012</h3>
+<h3 class="subtitulo2">农村, 2012</h3>
 <br>
 <br>
 <!-- Carrusel de videos -->
@@ -107,40 +107,40 @@ graph LR
     <div class="img-container">
       <video class="carousel-video-el" muted loop playsinline preload="metadata">
         <source src="/assets/img/videos/saturacion-peste-desp-esp-rural-ruralia-gif-001.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
+        您的浏览器不支持 HTML5 视频。
       </video>
     </div>
-    <figcaption>Ruralias — registro 001, Los Muermos, 2012.</figcaption>
+    <figcaption>Ruralias — 唱片 001，Los Muermos，2012 年。</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
       <video class="carousel-video-el" muted loop playsinline preload="metadata">
         <source src="/assets/img/videos/saturacion-peste-desp-esp-rural-ruralia-gif-001.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
+        您的浏览器不支持 HTML5 视频。
       </video>
     </div>
-    <figcaption>La Peste, desplazamiento de la pintura, espacios rurales , Ruralias — gif s/t, 001, Los Muermos, Chile - 2012.</figcaption>
+    <figcaption>瘟疫，绘画的位移，乡村空间，Ruralias — gif s/t，001，洛斯穆尔莫斯，智利 - 2012。</figcaption>
   </figure>
 
   <figure class="item">
     <div class="img-container">
       <video class="carousel-video-el" muted loop playsinline preload="metadata">
         <source src="/assets/img/videos/saturacion-peste-desp-esp-rural-ruralia-gif-002.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
+        您的浏览器不支持 HTML5 视频。
       </video>
     </div>
-    <figcaption>La Peste, desplazamiento de la pintura, espacios rurales , Ruralias — gif s/t, 002, Los Muermos, Chile - 2012.</figcaption>
+    <figcaption>瘟疫，绘画的位移，乡村空间，Ruralias — gif s/t，002，洛斯穆尔莫斯，智利 - 2012 年。</figcaption>
   </figure>
 
       <figure class="item">
     <div class="img-container">
       <video class="carousel-video-el" muted loop playsinline preload="metadata">
         <source src="/assets/img/videos/saturacion-peste-desp-esp-rural-ruralia-gif-003.mp4" type="video/mp4">
-        Tu navegador no soporta video HTML5.
+        您的浏览器不支持 HTML5 视频。
       </video>
     </div>
-    <figcaption>La Peste, desplazamiento de la pintura, espacios rurales , Ruralias — gif s/t, 003, Los Muermos, Chile - 2012.</figcaption>
+    <figcaption>瘟疫，绘画的位移，乡村空间，Ruralias — gif s/t，003，洛斯穆尔莫斯，智利 - 2012。</figcaption>
   </figure>
 
 </div>
@@ -149,9 +149,9 @@ graph LR
 
 <section aria-label="Introducción a Ruralias">
   <p class="parrafo" style="margin-top: 3%;">
-    Ruralias es una acción de arte de siete días, realizada en la residencia Ruralias en Los Muermos, Chile, en noviembre de 2012.
-    Aquí continúo mi investigación en torno a la saturación, contrastando el material saturante con el verde vegetal del paisaje rural.
-    De esto resultan paisajes y situaciones extrañas, casi surrealistas, que desplazan la lectura habitual del entorno.
+    Ruralias 是一项为期 7 天的艺术活动，于 2012 年 11 月在智利洛斯穆尔莫斯的 Ruralias 住宅举行。
+    在这里，我继续研究饱和度，将饱和材料与乡村景观的植物绿色进行对比。
+    这导致了奇怪的、近乎超现实的景观和情况，取代了通常对环境的解读。
   </p>
 </section>
 
@@ -168,7 +168,7 @@ graph LR
              alt="Ruralias (imagen 001), Los Muermos, 2012"
              loading="lazy">
       </div>
-      <figcaption>La Saturación / Desplazamiento de la pintura / Espacio rural: Ruralias s/t n.º 1, Los Muermos, Chile, 2012.</figcaption>
+      <figcaption>绘画的饱和度/位移/乡村空间：Ruralias s/t n.º 1，Los Muermos，智利，2012。</figcaption>
     </a>
   </figure>
 
@@ -181,7 +181,7 @@ graph LR
              alt="Ruralias (imagen 002), Los Muermos, 2012"
              loading="lazy">
       </div>
-      <figcaption>La Saturación / Desplazamiento de la pintura / Espacio rural: Ruralias s/t n.º 2, Los Muermos, Chile, 2012.</figcaption>
+      <figcaption>绘画的饱和度/位移/乡村空间：Ruralias s/t n.º 2，Los Muermos，智利，2012。</figcaption>
     </a>
   </figure>
 
@@ -193,7 +193,7 @@ graph LR
              alt="Ruralias (imagen 003), Los Muermos, 2012"
              loading="lazy">
       </div>
-      <figcaption>La Saturación / Desplazamiento de la pintura / Espacio rural: Ruralias s/t n.º 3, Los Muermos, Chile, 2012.</figcaption>
+      <figcaption>绘画的饱和度/位移/乡村空间：Ruralias s/t n.º 3，Los Muermos，智利，2012。</figcaption>
     </a>
   </figure>
 

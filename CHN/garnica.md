@@ -13,21 +13,21 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 
 <!-- Título principal -->
 <h1 class="titulo">Esteban Garnica Sánchez</h1>
-<h2 class="subtitulo">Arte como herramienta de transformación social</h2>
+<h2 class="subtitulo">艺术作为社会变革的工具</h2>
 
 <!-- Párrafo 1 -->
 <p class="parrafo" style="margin-top:6%;">
-  Esteban Garnica Sánchez (Santiago, 1985) es un artista visual chileno formado en la Universidad de Chile. Su trayectoria articula creación artística, docencia e intervención en el espacio urbano. Su obra aborda temas contemporáneos como la desigualdad social, la contaminación ambiental y los conflictos urbanos, utilizando lenguajes que van desde la pintura mural hasta la instalación en espacios públicos.
+  Esteban Garnica Sánchez（圣地亚哥，1985 年）是一位智利视觉艺术家，在智利大学接受培训。他的职业生涯阐述了城市空间的艺术创作、教学和干预。他的作品涉及社会不平等、环境污染和城市冲突等当代问题，使用的语言从壁画到公共空间装置等。
 </p>
 
 <!-- Párrafo 2 -->
 <p class="parrafo">
-  Garnica se concibe como un cronista visual de su tiempo. Sus proyectos —que incluyen murales de gran formato, intervenciones colaborativas y acciones situadas— buscan transformar la percepción del espacio público, activar la memoria territorial y fortalecer el diálogo ciudadano.
+  Gárnica将自己视为他那个时代的视觉编年史家。他们的项目包括大幅面壁画、协作干预和情境行动，旨在改变对公共空间的看法，激活领土记忆并加强公民对话。
 </p>
 
 <!-- Párrafo 3 -->
 <p class="parrafo">
-  Su labor educativa, desarrollada mediante talleres, procesos participativos y proyectos comunitarios, ha contribuido a la formación de nuevas generaciones de artistas y mediadores culturales comprometidos con la transformación social a través del arte.
+  其教育工作通过讲习班、参与过程和社区项目开展，为培训致力于通过艺术进行社会转型的新一代艺术家和文化调解人做出了贡献。
 </p>
 
 <br>

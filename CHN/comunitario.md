@@ -11,12 +11,12 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">Lo Comunitario</h1>
+<h1 class="titulo">社区</h1>
 
-<h2 class="subtitulo">Procesos participativos y creación colectiva</h2>
+<h2 class="subtitulo">参与过程和集体创造</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Esta sección reúne proyectos colaborativos que se desarrollan en diálogo directo con vecinas, vecinos, organizaciones y comunidades locales. A través del muralismo participativo, talleres y acciones colectivas, estas prácticas buscan fortalecer el tejido social, abrir espacios de encuentro y activar la creatividad como herramienta de transformación comunitaria.
+  本节汇集了与邻居、组织和当地社区直接对话开发的合作项目。通过参与式壁画、研讨会和集体行动，这些实践旨在加强社会结构、开放会议空间并激活创造力，作为社区转型的工具。
 </p>
 
 <br>
@@ -27,8 +27,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/muralismo-facilitacion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo colaborativo" loading="lazy">
-      <p class="title">Muralismo colaborativo</p>
-      <p class="subtitle">Facilitacion, guia de colectivos y desarrollo de procesos murales participativos.</p>
+      <p class="title">协作壁画</p>
+      <p class="subtitle">参与性壁画过程的促进、小组指导和开发。</p>
     </div>
   </a>
 
@@ -36,8 +36,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/muralismo-museos-al-aire-libre.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-museos-cielo-abierto.webp" alt="Murales comunitarios" loading="lazy">
-      <p class="title">Museos al aire libre</p>
-      <p class="subtitle">Línea de muralismo territorial y recorridos de memoria en espacio público.</p>
+      <p class="title">露天博物馆</p>
+      <p class="subtitle">公共空间中的领土壁画和记忆之旅。</p>
     </div>
   </a>
 
@@ -45,8 +45,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/muralismo-festivales.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/muralismo/fest/fest-amk-la-legua-2010.webp" alt="Festivales de muralismo" loading="lazy">
-      <p class="title">Festivales</p>
-      <p class="subtitle">Intervenciones y participacion en encuentros de muralismo y arte publico.</p>
+      <p class="title">节日</p>
+      <p class="subtitle">干预和参与壁画和公共艺术会议。</p>
     </div>
   </a>
 

@@ -11,35 +11,35 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">Archivo de EGGS-Studio</h1>
+<h1 class="titulo">EGGS-Studio 存档</h1>
 
-<h2 class="subtitulo">Un espacio para explorar procesos, documentación y referencias</h2>
+<h2 class="subtitulo">探索流程、文档和参考的空间</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Aquí encontrarás una recopilación de material documental que refleja mi proceso creativo en distintas etapas: bocetos, registros de obra, catálogos, escritos y archivos que acompañan el desarrollo de proyectos.
+  在这里，您可以找到反映我不同阶段创作过程的文献资料汇编：草图、工作记录、目录、伴随项目开发的著作和文件。
 </p>
 
 <p class="parrafo">
-  Este archivo está en constante construcción y crecimiento. Su propósito es ofrecer acceso abierto a referencias, investigaciones, documentos y material visual que contribuyen a comprender el recorrido de las obras y su contexto.
+  该文件正在不断构建和增长。其目的是提供参考资料、研究、文件和视觉材料的开放获取，有助于理解作品的历程及其背景。
 </p>
 
-<h3 class="subtitulo2" style="margin-top: 4%;">Categorías del Archivo</h3>
+<h3 class="subtitulo2" style="margin-top: 4%;">文件类别</h3>
 <br>
 
 <div class="button-container">
   <a href="/CHN/en-construccion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-docencia.webp" alt="Bocetos y estudios">
-      <p class="title">Bocetos y Estudios</p>
-      <p class="subtitle">Dibujos preparatorios, estudios de color y composición.</p>
+      <p class="title">草图和研究</p>
+      <p class="subtitle">准备图纸、色彩研究和构图。</p>
     </div>
   </a>
 
   <a href="/CHN/en-construccion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/EGGSLOGO - 16-9.png" alt="Exhibiciones">
-      <p class="title">Exhibiciones</p>
-      <p class="subtitle">Publicaciones, afiches y registros de muestras.</p>
+      <p class="title">展览</p>
+      <p class="subtitle">出版物、海报和样本记录。</p>
     </div>
   </a>
 </div>
@@ -48,20 +48,20 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/en-construccion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/esteban-garnica2.jpg" alt="Noticias y Prensa">
-      <p class="title">Noticias y Prensa</p>
-      <p class="subtitle">Artículos, entrevistas y cobertura mediática.</p>
+      <p class="title">新闻与新闻</p>
+      <p class="subtitle">文章、采访和媒体报道。</p>
     </div>
   </a>
 
   <a href="/CHN/en-construccion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/eggs-logo-header-05.jpg" alt="Referencias y Bibliografía">
-      <p class="title">Referencias y Bibliografía</p>
-      <p class="subtitle">Textos, investigaciones y material de consulta.</p>
+      <p class="title">参考文献和参考书目</p>
+      <p class="subtitle">文本、研究和参考材料。</p>
     </div>
   </a>
 </div>
 
-<a href="/CHN/en-construccion.html" class="enlace">Ver más archivos</a>
+<a href="/CHN/en-construccion.html" class="enlace">查看更多文件</a>
 
 <br><br>

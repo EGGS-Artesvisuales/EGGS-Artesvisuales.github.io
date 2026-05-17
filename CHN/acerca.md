@@ -12,46 +12,46 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 
 
 
-<h1 class="titulo">Acerca de EGGS-Studio</h1>
-<h2 class="subtitulo">Universo creativo de Esteban Gárnica S.</h2>
+<h1 class="titulo">关于 EGGS-Studio</h1>
+<h2 class="subtitulo">Esteban Gárnica S. 的创意宇宙</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  <strong>EGGS-Studio</strong> es un espacio de creación y trabajo visual impulsado por Esteban
-  Gárnica S. Desde aquí desarrollo proyectos que unen arte, oficio y colaboración con personas y
-  comunidades. A través de <strong>E.GG.S – Producciones y Art SpA</strong> (RUT 77.973.201-0),
-  pongo a disposición una experiencia diversa que integra muralismo, restauración, docencia,
-  montaje y producción cultural.
-  Más que buscar grandes declaraciones, intento aportar soluciones claras, sensibles y útiles,
-  construyendo vínculos y generando espacios donde el arte puede acompañar procesos, mejorar
-  entornos y abrir nuevas formas de encontrarnos, y también de encontrarme.
+  <strong>EGGS-Studio</strong> 是Esteban推出的一个创作和视觉工作空间
+  Gárnica S. 从这里，我开发了将艺术、工艺和与人合作结合起来的项目，
+  社区。通过 <strong>E.GG.S – 制作与艺术 SpA</strong> （RUT 77.973.201-0），
+  我提供多元化的体验，融合了壁画、修复、教学、
+  集会和文化生产。
+  我不寻求宏大的陈述，而是尝试提供清晰、合理且有用的解决方案，
+  建立联系并生成艺术可以伴随流程的空间，改善
+  环境并开辟了彼此见面以及发现自我的新方式。
 </p>
 
-<h3 class="subtitulo2">Esteban Garnica S.</h3>
+<h3 class="subtitulo2">Esteban Gárnica S.</h3>
 <p class="parrafo">
-  Soy artista visual chileno (Santiago, 1985), formado en la Universidad de Chile. Mi trabajo nace
-  del interés por observar el entorno y transformarlo mediante la pintura, la acción comunitaria
-  o intervenciones subrepticias. Me muevo en la pintura como lenguaje primordial, transitando entre
-  el muralismo, la investigación visual y la docencia, buscando siempre un equilibrio entre lo
-  técnico, lo expresivo y lo humano.
+  我是一名智利视觉艺术家（圣地亚哥，1985 年），在智利大学接受培训。我的作品诞生了
+  对观察环境并通过绘画、社区行动改变环境感兴趣
+  或暗中干预。我将绘画作为一种原始语言，在
+  壁画、视觉研究和教学，始终寻求两者之间的平衡
+  技术性、表现力和人性化。
 </p>
 
 <p class="parrafo">
-  Con los años he desarrollado proyectos que dialogan con temas sociales, ambientales y urbanos,
-  siempre desde una mirada cercana y colaborativa. Creo en el arte como herramienta para mejorar
-  la vida íntima y cotidiana, fortalecer relaciones e identidades y abrir espacios de reflexión.
-  Mi práctica combina mi experiencia temprana en la pintura callejera, la formación académica,
-  la experimentación y el trabajo en territorio, aprendiendo de cada comunidad y de cada proceso.
+  多年来，我开发了与社会、环境和城市问题对话的项目，
+  始终从密切和协作的角度出发。我相信艺术是一种进步的工具
+  亲密和日常生活，加强关系和身份，并提供反思的空间。
+  我的实践结合了我早期的街头绘画经验、学术训练、
+  在该地区进行实验和工作，从每个社区和每个过程中学习。
 </p>
 
-<h3 class="subtitulo2">E.GG.S – Producciones &amp; Art SpA</h3>
+<h3 class="subtitulo2">E.GG.S – Producciones & Art SpA</h3>
 <p class="parrafo">
-  La empresa nace como una forma de dar estructura profesional a un trabajo que ha crecido con el
-  tiempo. Desde E.GG.S desarrollamos servicios vinculados al muralismo, la restauración, la
-  ambientación de espacios, la producción artística y el diseño de soluciones visuales para
-  instituciones, comunidades y proyectos educativos.
-  Nuestro objetivo es claro: aportar valor de manera honesta y responsable, respetando cada
-  contexto y buscando que el arte se vuelva una experiencia cercana, accesible y significativa
-  para quienes lo reciben.
+  该公司的诞生是为了为一项随着时代的发展而发展的工作提供专业的结构。
+  时间。在 E.GG.S，我们开发与壁画、修复、
+  空间设置、艺术创作和视觉解决方案设计
+  机构、社区和教育项目。
+  我们的目标很明确：以诚实和负责任的方式提供价值，尊重每个人
+  背景并寻求艺术成为一种近距离、易于理解和有意义的体验
+  对于那些收到它的人。
 </p>
 
 <br>
@@ -65,8 +65,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     <div class="button-content">
       <!-- Imagen representativa para Esteban Garnica -->
       <img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica" loading="lazy">
-      <p class="title">Esteban Garnica S.</p>
-      <p class="subtitle">Ver más sobre Esteban Garnica Sánchez</p>
+      <p class="title">Esteban Gárnica S.</p>
+      <p class="subtitle">查看更多有关Esteban Garnica Sánchez的信息</p>
     </div>
   </a>
 
@@ -75,8 +75,8 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     <div class="button-content">
       <!-- Imagen representativa para EGGS -->
       <img src="/assets/img/EGGSLOGO - 16-9.png" alt="EGGS - Producciones y Art SpA" loading="lazy">
-      <p class="title">EGGS - prods. y art spa</p>
-      <p class="subtitle">Ver más sobre E.GG.S - Producciones &amp; Art SpA</p>
+      <p class="title">EGGS - 产品。和艺术水疗中心</p>
+      <p class="subtitle">了解有关 E.GG.S - Producciones & Art SpA 的更多信息</p>
     </div>
   </a>
 </div>

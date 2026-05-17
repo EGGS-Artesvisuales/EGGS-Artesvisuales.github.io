@@ -11,22 +11,22 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">Conviértete en Mecenas</h1>
+<h1 class="titulo">成为赞助人</h1>
 
-<h2 class="subtitulo">Apoya la creación artística y deja huella en la cultura.</h2>
+<h2 class="subtitulo">支持艺术创作，留下文化印记。</h2>
 
 <p class="parrafo" style="margin-top:6%;">
-  El arte y la cultura transforman comunidades, conectan historias y generan nuevas experiencias. Cada uno de nuestros proyectos es una oportunidad para revitalizar espacios, fortalecer identidades y contribuir a una sociedad más creativa y cohesionada.
+  艺术和文化改变社区、连接故事并产生新体验。我们的每个项目都是一个振兴空间、强化身份并为建设更具创造力和凝聚力的社会做出贡献的机会。
 </p>
 
 <p class="parrafo">
-  Como mecenas, puedes aportar el monto que estimes conveniente y ser parte activa del desarrollo de cada iniciativa. Accederás a avances exclusivos, procesos creativos, documentación especial y eventos ligados a los proyectos que apoyas. Tu colaboración es fundamental para que estas obras existan.
+  作为赞助人，您可以贡献您认为适当的金额，并积极参与每项计划的发展。您将获得与您支持的项目相关的独家预览、创意流程、特殊文档和活动。您的合作对于这些作品的存在至关重要。
 </p>
 
-<h2 class="subtitulo">Proyectos en marcha</h2>
+<h2 class="subtitulo">正在进行的项目</h2>
 
 <p class="parrafo">
-  Explora las propuestas que actualmente buscan financiamiento y elige cómo deseas involucrarte.
+  探索当前正在寻求资金的提案并选择您想要参与的方式。
 </p>
 
 <br>
@@ -36,9 +36,9 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/musoe-a-cielo-abierto.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Museo a Cielo Abierto">
-      <p class="title">Museo a Cielo Abierto</p>
+      <p class="title">开放天空博物馆</p>
       <p class="subtitle">
-        Un circuito de murales que transforma el espacio urbano mediante memoria, color y colaboración comunitaria.
+        一系列壁画通过记忆、色彩和社区合作改变城市空间。
       </p>
     </div>
   </a>
@@ -46,9 +46,9 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <a href="/CHN/subrepticio.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-remienda-urbana.webp" alt="Remienda Urbana n°7">
-      <p class="title">Remienda Urbana n°7</p>
+      <p class="title">城市斑块 n°7</p>
       <p class="subtitle">
-        Intervenciones artísticas que reparan, resignifican y activan el mobiliario urbano desde la creatividad.
+        通过创造力修复、重新定义和激活城市家具的艺术干预。
       </p>
     </div>
   </a>
@@ -58,5 +58,5 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 <br>
 
 <p class="parrafo">
-  Tu aporte es más que una donación: es una inversión en cultura, comunidad y transformación social. Gracias por impulsar el arte.
+  您的贡献不仅仅是捐赠：更是对文化、社区和社会变革的投资。感谢您推广艺术。
 </p>

@@ -11,51 +11,51 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">Graffiti y tags</h1>
-<h2 class="subtitulo">Escrituras urbanas, marca territorial y gesto directo.</h2>
+<h1 class="titulo">涂鸦和标签</h1>
+<h2 class="subtitulo">城市写作、地域品牌和直接姿态。</h2>
 
 <figure class="imagen-con-caption">
   <img src="/assets/img/boton-graffiti.webp" alt="Detalle grafico asociado a graffiti en el archivo EGGS-Studio" loading="eager">
-  <figcaption>Linea de trabajo en desarrollo dentro de Lo Subrepticio.</figcaption>
+  <figcaption>Lo Subrepcio 内的开发工作线。</figcaption>
 </figure>
 
 <p class="parrafo" style="margin-top: 6%;">
-  Esta linea reune practicas de graffiti, tag, escritura rapida y marca urbana. Su lugar dentro de Lo Subrepticio no se define solo por el uso de aerosol o muro, sino por la forma en que el gesto aparece en la ciudad: como senal, firma, interrupcion, disputa de superficie o afirmacion de presencia.
+  该系列融合了涂鸦、标签、快速书写和城市品牌实践。它在 Lo Subrepticio 中的位置不仅由喷雾或墙壁的使用来定义，还由手势在城市中出现的方式来定义：作为标志、签名、中断、表面争议或存在的确认。
 </p>
 
 <p class="parrafo">
-  En el archivo de EGGS-Studio, el graffiti cruza trabajos formativos, acciones colectivas, festivales, ejercicios de calle y referencias visuales que luego contaminan otras series. Funciona como tecnica, lenguaje y posicion frente al espacio publico.
+  在 EGGS-Studio 档案中，涂鸦跨越了训练作品、集体行动、节日、街头练习和视觉参考，这些后来污染了其他系列。它作为一种技术、语言和位置出现在公共空间前。
 </p>
 
 <div class="archivo-panel">
-  <h3>Ficha de linea</h3>
+  <h3>线路选项卡</h3>
   <dl>
-    <div><dt>Ruta autoral</dt><dd>ACMU &gt; SUBR &gt; Graffiti y tags</dd></div>
-    <div><dt>Tipo</dt><dd>Linea abierta de archivo</dd></div>
-    <div><dt>Tecnicas</dt><dd>Aerosol, marcador, stencil, escritura urbana, registro fotografico y acciones de muro.</dd></div>
-    <div><dt>Relaciones</dt><dd>Festivales de muralismo, docencia, antipublicidad, remiendas urbanas y pintura contaminada por lenguajes de calle.</dd></div>
+    <div><dt>作者路线</dt><dd>ACMU > SUBR > 涂鸦和标签</dd></div>
+    <div><dt>盖伊</dt><dd>打开文件行</dd></div>
+    <div><dt>技巧</dt><dd>气溶胶、记号笔、模板、城市书写、摄影记录和墙壁动作。</dd></div>
+    <div><dt>关系</dt><dd>壁画、教学、反广告、城市斑块和被街头语言污染的绘画的节日。</dd></div>
   </dl>
 </div>
 
-<h2 class="subtitulo2">Criterios de lectura</h2>
+<h2 class="subtitulo2">阅读标准</h2>
 
 <div class="case-grid">
   <article class="case-card">
-    <h3>Firma y presencia</h3>
-    <p>El tag opera como marca minima: una aparicion directa que instala nombre, paso, cuerpo y pertenencia sobre una superficie compartida.</p>
+    <h3>签名和出席</h3>
+    <p>该标签充当最小标记：在共享表面上安装名称、步骤、正文和归属的直接外观。</p>
   </article>
 
   <article class="case-card">
-    <h3>Aprendizaje de calle</h3>
-    <p>La practica aparece tambien como pedagogia informal: ensayo de trazo, coordinacion de grupo, control de herramienta y lectura del soporte urbano.</p>
+    <h3>街头学习</h3>
+    <p>这种实践也表现为非正式的教学法：线路排练、小组协调、工具控制和城市支持的阅读。</p>
   </article>
 
   <article class="case-card">
-    <h3>Contaminacion visual</h3>
-    <p>El graffiti entra en otras series como textura, acumulacion, velocidad, repeticion y conflicto entre pintura, publicidad y ciudad.</p>
+    <h3>视觉污染</h3>
+    <p>涂鸦进入质感、堆积、速度、重复以及绘画、广告与城市之间的冲突等系列。</p>
   </article>
 </div>
 
 <p class="parrafo">
-  Esta pagina queda como nodo navegable inicial. A medida que se ordenen carpetas e imagenes especificas, puede crecer hacia fichas de casos, registros de proceso y cruces con festivales, talleres y acciones subrepticias.
+  该页面仍然作为初始可导航节点。当特定的文件夹和图像被组织起来时，它可以成长为案件档案、流程记录以及与节日、研讨会和秘密行动的交叉点。
 </p>

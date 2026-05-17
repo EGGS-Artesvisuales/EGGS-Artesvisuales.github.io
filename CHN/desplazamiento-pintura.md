@@ -13,17 +13,17 @@ mermaid: true
 
 
 
-<h1 class="titulo">LA PESTE: Desplazamiento de la Pintura</h1>
-<h2 class="subtitulo">Expandiendo los límites del formato pictórico</h2>
+<h1 class="titulo">瘟疫：绘画的位移</h1>
+<h2 class="subtitulo">扩大图片格式的限制</h2>
 <br>
 
 <section class="parrafo">
   <p>
-    El concepto de <strong>Desplazamiento de la Pintura</strong> refiere a la expansión del lenguaje pictórico más allá del bastidor, del caballete y del espacio expositivo tradicional. Este desplazamiento ocurre en tres dimensiones fundamentales: el espacio doméstico, el espacio público y el entorno natural/rural.
+    的概念 <strong>绘画转变</strong> 指图像语言超越画框、画架和传统展览空间的拓展。这种位移发生在三个基本维度：家庭空间、公共空间和自然/乡村环境。
   </p>
 
   <p>
-    A través de esta idea, la pintura deja de ser un objeto autónomo encerrado en sí mismo, para convertirse en una práctica en tránsito, que contamina, ocupa, dialoga y se adapta a contextos reales. Ya no se trata solo de representar, sino de instalar y afectar.
+    通过这个想法，绘画不再是一个封闭在自身中的自主物体，而是成为一种运输中的实践，它污染、占据、对话并适应真实的语境。它不再只是代表，而是安装和影响。
   </p>
 </section>
 
@@ -32,15 +32,15 @@ mermaid: true
 
 <div class="mermaid">
 graph LR
-  Z([Representación del Mundo])
-  Y([Lo Tangible])
-  A([La Saturación])
-  B([La Peste])
-  F([Desplazamiento de la Pintura])
+  Z([世界的代表])
+  Y([有形的])
+  A([饱和])
+  B([瘟疫])
+  F([绘画转变])
 
-  F1([Espacio Doméstico])
-  F2([Espacio Público])
-  F3([Espacio Rural / Natural])
+  F1([国内空间])
+  F2([公共空间])
+  F3([乡村/自然空间])
 
   Z --> Y
   Y --> A
@@ -51,15 +51,15 @@ graph LR
   F --> F2
   F --> F3
 
-  %% Enlaces (existentes)
-  click Z "/CHN/mundo-exterior.html" "Ver Representación del Mundo"
-  click Y "/CHN/tangible.html" "Ver Lo Tangible"
-  click A "/CHN/saturacion.html" "Ver La Saturación"
-  click B "/CHN/la-peste.html" "Ver La Peste"
-  click F "/CHN/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
-  click F1 "/CHN/espacio-domestico.html" "Ir a Espacio Doméstico"
-  click F2 "/CHN/espacio-publico.html" "Ir a Espacio Público"
-  click F3 "/CHN/espacio-rural.html" "Ir a Espacio Rural / Natural"
+  %% Enlaces (现存的)
+  click Z "/CHN/mundo-exterior.html" "参见世界的代表性"
+  click Y "/CHN/tangible.html" "看到有形的"
+  click A "/CHN/saturacion.html" "查看饱和度"
+  click B "/CHN/la-peste.html" "参见瘟疫"
+  click F "/CHN/desplazamiento-pintura.html" "转到绘画变换"
+  click F1 "/CHN/espacio-domestico.html" "前往国内空间"
+  click F2 "/CHN/espacio-publico.html" "前往公共空间"
+  click F3 "/CHN/espacio-rural.html" "前往乡村/自然空间"
 
 </div>
 
@@ -69,22 +69,22 @@ graph LR
   <a href="/CHN/espacio-domestico.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Espacio doméstico">
-      <p class="title">Espacio doméstico</p>
-      <p class="subtitle">Desplazamiento de la pintura al espacio inmediato</p>
+      <p class="title">家庭空间</p>
+      <p class="subtitle">将绘画移至邻近空间</p>
     </div>
   </a>
   <a href="/CHN/espacio-publico.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Espacio público">
-      <p class="title">Espacio público</p>
-      <p class="subtitle">Desplazamiento de la pintura hacia intervenciones urbanas</p>
+      <p class="title">公共空间</p>
+      <p class="subtitle">绘画对城市干预的运动</p>
     </div>
   </a>
   <a href="/CHN/espacio-rural.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Espacio rural/natural">
-      <p class="title">Espacio rural / natural</p>
-      <p class="subtitle">Desplazamiento de la pintura hacia intervenciones en la naturaleza</p>
+      <p class="title">乡村/自然空间</p>
+      <p class="subtitle">绘画走向干预自然的运动</p>
     </div>
   </a>
 </div>
