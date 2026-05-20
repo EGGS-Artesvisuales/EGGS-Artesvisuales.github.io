@@ -9,6 +9,7 @@ sizes:
   - "Mediano"
   - "Grande"
 permalink: /ES/productos/impresion001/
+mpd_url: /MPD/index.html
 ---
 
 ## {{ page.title }}

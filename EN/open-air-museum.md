@@ -13,7 +13,7 @@ progreso: true
 
 <!-- Main image (using the global .imagen style) -->
 <div class="imagen">
-  <img src="/assets/img/selknam-niñes-01-museo.jpg" alt="Open Air Museum - Selknam Mural" loading="lazy">
+  <img src="/assets/img/selknam-nines-01-museo.jpg" alt="Open Air Museum - Selknam Mural" loading="lazy">
 </div>
 <br>
 

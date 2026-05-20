@@ -29,7 +29,7 @@ permalink: /ES/exhibiciones.html
           </div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Festival de Muralismo y Grafiti Caps in the Walls">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Festival de Muralismo y Grafiti Caps in the Walls">
             </div>
             <p>
               Invitación por selección en Quito, Ecuador. Participación patrocinada por la Corporación Cultural de La Florida.
@@ -42,7 +42,7 @@ permalink: /ES/exhibiciones.html
           </div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Santiago Visual IV CNCA – Taller de fotografía">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Visual IV CNCA – Taller de fotografía">
             </div>
             <p>
               Taller con Leonora Vicuña en el Instituto Alpes, Santiago de Chile.
@@ -56,7 +56,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">RURALÍAS</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Residencia artística RURALÍAS">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Residencia artística RURALÍAS">
             </div>
             <p>
               Residencia artística en Los Muermos, Región de Los Lagos, Chile.
@@ -83,7 +83,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Museo a Cielo Abierto</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Museo a Cielo Abierto – Serie de murales">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Museo a Cielo Abierto – Serie de murales">
             </div>
             <p>
               Serie de dípticos murales en la comuna de La Florida, Santiago de Chile.
@@ -97,7 +97,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Pinturas Saturadas</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Exhibición Pinturas Saturadas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Pinturas Saturadas">
             </div>
             <p>
               La Florida Joven, Casona de la Cultura de La Florida, Santiago de Chile.
@@ -111,7 +111,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Pinturas Infectadas</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Exhibición Pinturas Infectadas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Pinturas Infectadas">
             </div>
             <p>
               1er premio en el V Encuentro de Pintura In Situ El Totoral. Exhibición en Galería Santiago Nattino, APECH, Santiago de Chile.
@@ -133,7 +133,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Museo a Cielo Abierto Los Quillayes</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Museo a Cielo Abierto Los Quillayes">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Museo a Cielo Abierto Los Quillayes">
             </div>
             <p>
               Participación con dos murales para la Municipalidad de La Florida, Santiago de Chile.
@@ -147,7 +147,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Tres Ojos: Pa’ la Calle</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Exhibición Tres Ojos: Pa’ la Calle">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Tres Ojos: Pa’ la Calle">
             </div>
             <p>
               Galería Balmaceda #1215. Curatoría de Ximena Zomosa. Exposición conjunta con Viviana Silva y Macarena Vio, Santiago de Chile.
@@ -161,7 +161,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Cita a Ciegas: Dando Vueltas</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Exhibición Cita a Ciegas: Dando Vueltas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Cita a Ciegas: Dando Vueltas">
             </div>
             <p>
               Galería Balmaceda #1215. Exposición conjunta con Valeria Jara. Curatoría de Ximena Zomosa, Santiago de Chile.
@@ -175,7 +175,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Tesis 10: Proliferación en el Paisaje</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Tesis 10: Proliferación en el Paisaje">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Tesis 10: Proliferación en el Paisaje">
             </div>
             <p>
               Sala Juan Egenau, Departamento de Artes Visuales (DAV) – Universidad de Chile, Santiago.
@@ -189,7 +189,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Peste en el Estudio Nº 10</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Peste en el Estudio Nº 10">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Peste en el Estudio Nº 10">
             </div>
             <p>
               Centro de Artes Caja Negra. Curatoría de Felipe Weason, Santiago de Chile.
@@ -211,7 +211,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Festival de Arte Activa La Florida</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Festival de Arte Activa La Florida">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Festival de Arte Activa La Florida">
             </div>
             <p>
               Festival organizado por Ondacultura e Inmobiliaria Activa. Comuna de La Florida, Santiago de Chile.
@@ -225,7 +225,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Santiago Visual IV</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Santiago Visual IV">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Visual IV">
             </div>
             <p>
               Taller y exhibición itinerante en la Región Metropolitana, Chile.
@@ -239,7 +239,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Selección Artespacio Joven BBVA</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Selección Artespacio Joven BBVA">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Selección Artespacio Joven BBVA">
             </div>
             <p>
               Galería Artespacio, Santiago de Chile.
@@ -253,7 +253,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Selección Premio Arte Joven Minera Escondida</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Premio Arte Joven Minera Escondida">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Premio Arte Joven Minera Escondida">
             </div>
             <p>
               Museo de Artes Visuales (MAVI), Santiago de Chile.
@@ -267,7 +267,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Selección 4º Concurso Arte Joven</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="4º Concurso Arte Joven">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="4º Concurso Arte Joven">
             </div>
             <p>
               Museo de Arte Contemporáneo (MAC), Santiago de Chile.
@@ -281,7 +281,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Arte Accesible</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Arte Accesible URBN STGO">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Arte Accesible URBN STGO">
             </div>
             <p>
               URBN STGO. The Clinic Bar, Santiago de Chile.
@@ -293,7 +293,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Festival Hecho en Casa 2</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Festival Hecho en Casa 2">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Festival Hecho en Casa 2">
             </div>
             <p>
               Remiendas Urbanas para Callejismos, del colectivo Elementos Mínimos. Museo a Cielo Abierto, San Miguel, Santiago de Chile.
@@ -305,7 +305,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Selección Punto Ciego</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Selección Punto Ciego – Berlín">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Selección Punto Ciego – Berlín">
             </div>
             <p>
               <em>Con la política en el ojo</em>. Galería SAVVY Contemporary, Berlín, Alemania.
@@ -319,7 +319,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">RURALÍAS</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="RURALÍAS – exhibición colectiva">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="RURALÍAS – exhibición colectiva">
             </div>
             <p>
               Residencia de arte en Los Muermos, Región de Los Lagos, Chile.
@@ -331,7 +331,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">5º Encuentro de Pintura In Situ</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="5º Encuentro de Pintura In Situ – El Totoral">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="5º Encuentro de Pintura In Situ – El Totoral">
             </div>
             <p>
               El Totoral, APECH. Valparaíso, Chile. (Primer premio).
@@ -345,7 +345,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Territorio Abierto</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Territorio Abierto">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Territorio Abierto">
             </div>
             <p>
               Festival de experimentación urbana en Santiago de Chile.
@@ -357,7 +357,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">3ª Muestra Colectiva de Arte Independiente</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="3ª Muestra Colectiva de Arte Independiente">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="3ª Muestra Colectiva de Arte Independiente">
             </div>
             <p>
               Centro Cultural Independiente “La Caldera de Pedro Torres”, Santiago de Chile.
@@ -369,7 +369,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">Selección Concurso Nacional de Pintura Sur Biobío</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Concurso Nacional de Pintura Sur Biobío">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Concurso Nacional de Pintura Sur Biobío">
             </div>
             <p>
               Galería Marina, Concepción, Chile.
@@ -381,7 +381,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Punto Ciego</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Punto Ciego – MAVI">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Punto Ciego – MAVI">
             </div>
             <p>
               <em>Con la política en el ojo</em>. Museo de Artes Visuales (MAVI), Santiago de Chile.
@@ -393,7 +393,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button right">3er Encuentro de Pintura In Situ</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="3er Encuentro de Pintura In Situ – El Totoral">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="3er Encuentro de Pintura In Situ – El Totoral">
             </div>
             <p>
               El Totoral, APECH. Valparaíso, Chile. (Mención honrosa).
@@ -407,7 +407,7 @@ permalink: /ES/exhibiciones.html
           <div class="fun-button left">Muestra Colectiva Itinerante</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Muestra Colectiva Itinerante – Universidad de Chile">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Muestra Colectiva Itinerante – Universidad de Chile">
             </div>
             <p>
               Exposición itinerante en distintas facultades de la Universidad de Chile, Santiago.

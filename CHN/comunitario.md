@@ -24,7 +24,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 <div class="button-container">
 
   <!-- Botón 1: Muralismo colaborativo -->
-  <a href="/CHN/muralismo-facilitacion" class="fancy-button">
+  <a href="/CHN/muralismo-facilitacion.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo colaborativo" loading="lazy">
       <p class="title">协作壁画</p>

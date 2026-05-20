@@ -127,7 +127,7 @@ graph LR
   click D1a "/CHN/espacio-domestico.html#objetos" "查看家居用品"
   click D1b "/CHN/espacio-domestico.html#habitaciones" "查看国内房间"
 
-  click A1b "/CHN/en-construccion" "前往技术"
+  click A1b "/CHN/en-construccion.html" "前往技术"
 </div>
 
 

@@ -29,7 +29,7 @@ permalink: /EN/exhibitions.html
           </div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Muralism and Graffiti Festival Caps in the Walls">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Muralism and Graffiti Festival Caps in the Walls">
             </div>
             <p>
               Invitation by selection in Quito, Ecuador. Participation sponsored by the Cultural Corporation of La Florida.
@@ -42,7 +42,7 @@ permalink: /EN/exhibitions.html
           </div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Santiago Visual IV CNCA photography workshop">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Visual IV CNCA photography workshop">
             </div>
             <p>
               Workshop with Leonora Vicuna at Instituto Alpes, Santiago de Chile.
@@ -56,7 +56,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button left">RURALIAS</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="RURALIAS artistic residency">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="RURALIAS artistic residency">
             </div>
             <p>
               Artistic residency in Los Muermos, Los Lagos Region, Chile.
@@ -81,7 +81,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button right">Open Air Museum</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Open Air Museum mural series">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Open Air Museum mural series">
             </div>
             <p>
               Series of mural diptychs in the district of La Florida, Santiago de Chile.
@@ -95,7 +95,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button left">Saturated Paintings</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Saturated Paintings exhibition">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Saturated Paintings exhibition">
             </div>
             <p>
               La Florida Joven, Casona de la Cultura de La Florida, Santiago de Chile.
@@ -109,7 +109,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button right">Infected Paintings</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Infected Paintings exhibition">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Infected Paintings exhibition">
             </div>
             <p>
               First prize at the V In Situ Painting Encounter El Totoral. Exhibition at Galeria Santiago Nattino, APECH, Santiago de Chile.
@@ -130,7 +130,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button left">Open Air Museum Los Quillayes</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Open Air Museum Los Quillayes">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Open Air Museum Los Quillayes">
             </div>
             <p>
               Participation with two murals for the Municipality of La Florida, Santiago de Chile.
@@ -144,7 +144,7 @@ permalink: /EN/exhibitions.html
           <div class="fun-button right">Tres Ojos: Pa' la Calle</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="ruta-de-la-imagen.jpg" alt="Tres Ojos Pa' la Calle exhibition">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Tres Ojos Pa' la Calle exhibition">
             </div>
             <p>
               Galeria Balmaceda #1215. Curated by Ximena Zomosa. Joint exhibition with Viviana Silva and Macarena Vio, Santiago de Chile.

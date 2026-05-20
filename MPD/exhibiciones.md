@@ -29,7 +29,7 @@ permalink: /MPD/exhibiciones.html
           </div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Muralismo ka grafiti festival Caps in the Walls">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Muralismo ka grafiti festival Caps in the Walls">
             </div>
             <p>
               Selección mew mütrümün Quito, Ecuador püle. Konün Corporación Cultural de La Florida ñi kelluwün egu.
@@ -42,7 +42,7 @@ permalink: /MPD/exhibiciones.html
           </div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Santiago Azentun IV CNCA - Fotografía taller">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Azentun IV CNCA - Fotografía taller">
             </div>
             <p>
               Leonora Vicuña egu taller Instituto Alpes mew, Santiago de Chile.
@@ -56,7 +56,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">RURALÍAS</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="RURALÍAS az-küdaw residencia">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="RURALÍAS az-küdaw residencia">
             </div>
             <p>
               Az-küdaw residencia Los Muermos, Región de Los Lagos, Chile mew.
@@ -83,7 +83,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Museo a Cielo Abierto</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Museo a Cielo Abierto - mural trokiñ">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Museo a Cielo Abierto - mural trokiñ">
             </div>
             <p>
               Díptico mural trokiñ La Florida lof mew, Santiago de Chile.
@@ -97,7 +97,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Pinturas Saturadas</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Pinturas Saturadas pengelün">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Pinturas Saturadas pengelün">
             </div>
             <p>
               La Florida Joven, Casona de la Cultura de La Florida, Santiago de Chile.
@@ -111,7 +111,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Kutxan Pinturas</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Kutxan Pinturas pengelün">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Kutxan Pinturas pengelün">
             </div>
             <p>
               Wünen premio V Encuentro de Pintura In Situ El Totoral mew. Pengelün Galería Santiago Nattino, APECH, Santiago de Chile mew.
@@ -133,7 +133,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Museo a Cielo Abierto Los Quillayes</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Museo a Cielo Abierto Los Quillayes">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Museo a Cielo Abierto Los Quillayes">
             </div>
             <p>
               Epu mural egu konün Municipalidad de La Florida, Santiago de Chile püle.
@@ -147,7 +147,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Tres Ojos: Pa’ la Calle</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Tres Ojos: Pa' la Calle pengelün">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Tres Ojos: Pa' la Calle pengelün">
             </div>
             <p>
               Galería Balmaceda #1215. Ximena Zomosa ñi curatoría. Viviana Silva ka Macarena Vio egu txawün exposición, Santiago de Chile.
@@ -161,7 +161,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Cita a Ciegas: Dando Vueltas</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Cita a Ciegas: Dando Vueltas pengelün">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Cita a Ciegas: Dando Vueltas pengelün">
             </div>
             <p>
               Galería Balmaceda #1215. Valeria Jara egu txawün exposición. Ximena Zomosa ñi curatoría, Santiago de Chile.
@@ -175,7 +175,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Tesis 10: Proliferación en el Paisaje</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Tesis 10: Proliferación en el Paisaje">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Tesis 10: Proliferación en el Paisaje">
             </div>
             <p>
               Sala Juan Egenau, Departamento de Az-küdaws Azentunes (DAV) – Universidad de Chile, Santiago.
@@ -189,7 +189,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Peste en el Estudio Nº 10</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Peste en el Estudio Nº 10">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Peste en el Estudio Nº 10">
             </div>
             <p>
               Centro de Az-küdaws Caja Negra. Felipe Weason ñi curatoría, Santiago de Chile.
@@ -211,7 +211,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Festival de Az-küdaw Activa La Florida</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Festival de Az-küdaw Activa La Florida">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Festival de Az-küdaw Activa La Florida">
             </div>
             <p>
               Ondacultura ka Inmobiliaria Activa ñi organizachi festival. La Florida lof, Santiago de Chile.
@@ -225,7 +225,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Santiago Azentun IV</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Santiago Azentun IV">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Azentun IV">
             </div>
             <p>
               Taller ka amulechi pengelün Región Metropolitana, Chile mew.
@@ -239,7 +239,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Selección Az-küdawspacio Joven BBVA</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Az-küdawspacio Joven BBVA ñi selección">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Az-küdawspacio Joven BBVA ñi selección">
             </div>
             <p>
               Galería Az-küdawspacio, Santiago de Chile.
@@ -253,7 +253,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Selección Premio Az-küdaw Joven Minera Escondida</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Premio Az-küdaw Joven Minera Escondida">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Premio Az-küdaw Joven Minera Escondida">
             </div>
             <p>
               Museo de Az-küdaws Azentunes (MAVI), Santiago de Chile.
@@ -267,7 +267,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Selección 4º Concurso Az-küdaw Joven</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="4º Concurso Az-küdaw Joven">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="4º Concurso Az-küdaw Joven">
             </div>
             <p>
               Museo de Az-küdaw Contemporáneo (MAC), Santiago de Chile.
@@ -281,7 +281,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Az-küdaw Accesible</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Az-küdaw Accesible URBN STGO">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Az-küdaw Accesible URBN STGO">
             </div>
             <p>
               URBN STGO. The Clinic Bar, Santiago de Chile.
@@ -293,7 +293,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Festival Hecho en Casa 2</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Festival Hecho en Casa 2">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Festival Hecho en Casa 2">
             </div>
             <p>
               Waria remiendas Callejismos mew, Elementos Mínimos txawün. Museo a Cielo Abierto, San Miguel, Santiago de Chile.
@@ -305,7 +305,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Selección Punto Ciego</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Punto Ciego ñi selección - Berlín">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Punto Ciego ñi selección - Berlín">
             </div>
             <p>
               <em>Con la política en el ojo</em>. Galería SAVVY Contemporary, Berlín, Alemania.
@@ -319,7 +319,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">RURALÍAS</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="RURALÍAS - txawün pengelün">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="RURALÍAS - txawün pengelün">
             </div>
             <p>
               Az-küdaw residencia Los Muermos, Región de Los Lagos, Chile mew.
@@ -331,7 +331,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">5º Encuentro de Pintura In Situ</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="5º Encuentro de Pintura In Situ – El Totoral">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="5º Encuentro de Pintura In Situ – El Totoral">
             </div>
             <p>
               El Totoral, APECH. Valparaíso, Chile. (Wünen premio).
@@ -345,7 +345,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Territorio Abierto</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Territorio Abierto">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Territorio Abierto">
             </div>
             <p>
               Waria kintun festival Santiago de Chile mew.
@@ -357,7 +357,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">3ª Muestra Colectiva de Az-küdaw Independiente</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="3ª txawün muestra Az-küdaw Independiente">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="3ª txawün muestra Az-küdaw Independiente">
             </div>
             <p>
               Centro Cultural Independiente “La Caldera de Pedro Torres”, Santiago de Chile.
@@ -369,7 +369,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">Selección Concurso Nacional de Pintura Sur Biobío</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Concurso Nacional de Pintura Sur Biobío">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Concurso Nacional de Pintura Sur Biobío">
             </div>
             <p>
               Galería Marina, Concepción, Chile.
@@ -381,7 +381,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Punto Ciego</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Punto Ciego – MAVI">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Punto Ciego – MAVI">
             </div>
             <p>
               <em>Con la política en el ojo</em>. Museo de Az-küdaws Azentunes (MAVI), Santiago de Chile.
@@ -393,7 +393,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button right">3er Encuentro de Pintura In Situ</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="3er Encuentro de Pintura In Situ – El Totoral">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="3er Encuentro de Pintura In Situ – El Totoral">
             </div>
             <p>
               El Totoral, APECH. Valparaíso, Chile. (Küme mención).
@@ -407,7 +407,7 @@ permalink: /MPD/exhibiciones.html
           <div class="fun-button left">Muestra Colectiva Itinerante</div>
           <div class="text-container">
             <div class="az">
-              <img src="ruta-de-la-az.jpg" alt="Amulechi txawün muestra - Universidad de Chile">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Amulechi txawün muestra - Universidad de Chile">
             </div>
             <p>
               Amulechi exposición Universidad de Chile ñi kake facultad mew, Santiago.

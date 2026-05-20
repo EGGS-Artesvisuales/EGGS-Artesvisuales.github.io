@@ -127,7 +127,7 @@ carousel: true
     <!-- 2024 -->
     <div class="year" data-year="2024">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
+        <div class="fun-button right">
           Taller de Máscaras, Espacio cultural Los Quillayes, La Florida
         </div>
         <div class="text-container">
@@ -142,7 +142,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2024.html';">
+        <div class="fun-button right">
           Taller de muralismo intensivo en Colegio María Pinto
         </div>
         <div class="text-container">
@@ -162,7 +162,7 @@ carousel: true
     <!-- 2023 -->
     <div class="year" data-year="2023">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
+        <div class="fun-button left">
           Mural a 50 años del golpe de Estado en Chile – Balmaceda Arte Joven
         </div>
         <div class="text-container">
@@ -200,7 +200,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2023.html';">
+        <div class="fun-button left">
           Taller de máscaras – primer ciclo, Espacio cultural Los Quillayes, La Florida
         </div>
         <div class="text-container">
@@ -248,7 +248,7 @@ carousel: true
     <!-- 2021 -->
     <div class="year" data-year="2021">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
+        <div class="fun-button left">
           Talleres Artísticos FIBRA MINEDUC: Arte en tiempos de pandemia
         </div>
 
@@ -272,7 +272,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2021.html';">
+        <div class="fun-button left">
           Talleres de verano – Cultura La Florida
         </div>
         <div class="text-container">
@@ -289,7 +289,7 @@ carousel: true
     <!-- 2020 -->
     <div class="year" data-year="2020">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
+        <div class="fun-button right">
           Taller de Pintura Evolutiva – La Florida
         </div>
         <div class="text-container">
@@ -303,7 +303,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2020.html';">
+        <div class="fun-button left">
           Talleres Artísticos FIBRA MINEDUC: Arte en tiempos de pandemia
         </div>
 
@@ -327,7 +327,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2020.html';">
+        <div class="fun-button right">
           Taller de muralismo intensivo en Hogar de menores José María Caro
         </div>
         <div class="text-container">
@@ -344,7 +344,7 @@ carousel: true
     <!-- 2019 -->
     <div class="year" data-year="2019">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2019.html';">
+        <div class="fun-button left">
           Talleres Artísticos FIBRA MINEDUC
         </div>
 
@@ -380,7 +380,7 @@ carousel: true
     <!-- 2018 -->
     <div class="year" data-year="2018">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
+        <div class="fun-button right">
           Taller de muralismo – Santiago Cultura
         </div>
         <div class="text-container">
@@ -394,7 +394,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2018.html';">
+        <div class="fun-button left">
           Talleres Artísticos FIBRA MINEDUC: Taller de muralismo
         </div>
         <div class="text-container">
@@ -408,7 +408,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2018.html';">
+        <div class="fun-button right">
           Taller de muralismo – Programa SENDA Previene
         </div>
         <div class="text-container">
@@ -425,7 +425,7 @@ carousel: true
     <!-- 2017 -->
     <div class="year" data-year="2017">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2017.html';">
+        <div class="fun-button left">
           Taller de muralismo – Programa SENDA Previene, Región Metropolitana
         </div>
 
@@ -449,7 +449,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2017.html';">
+        <div class="fun-button right">
           Talleres Artísticos FIBRA MINEDUC: Taller de artes visuales
         </div>
         <div class="text-container">
@@ -466,7 +466,7 @@ carousel: true
     <!-- 2016 -->
     <div class="year" data-year="2016">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
+        <div class="fun-button left">
           Talleres Artísticos FIBRA MINEDUC: Taller de pintura y muralismo
         </div>
 
@@ -490,7 +490,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2016.html';">
+        <div class="fun-button right">
           Taller de muralismo y grafiti – EDEX, COMUDEF
         </div>
         <div class="text-container">
@@ -504,7 +504,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2016.html';">
+        <div class="fun-button left">
           Taller de muralismo – Programa PACE MINEDUC / USACH
         </div>
         <div class="text-container">
@@ -521,7 +521,7 @@ carousel: true
     <!-- 2015 -->
     <div class="year" data-year="2015">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
+        <div class="fun-button left">
           Taller de grafiti – Programa EDEX, COMUDEF
         </div>
         <div class="text-container">
@@ -535,13 +535,13 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2015.html';">
+        <div class="fun-button right">
           Taller de muralismo – Programa SENDA Previene
         </div>
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-lo-cañas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-lo-canas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             Programa SENDA Previene: Actuar a tiempo. Colegio Lo Cañas, La Florida, Santiago.
@@ -568,7 +568,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2015.html';">
+        <div class="fun-button left">
           Talleres Artísticos MINEDUC – Balmaceda 1215: Programa Vivo el Arte
         </div>
         <div class="text-container">
@@ -596,7 +596,7 @@ carousel: true
     <!-- 2014 -->
     <div class="year" data-year="2014">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2014.html';">
+        <div class="fun-button right">
           Talleres Artísticos – Programa Mi Barrio en Paz: Taller de mosaico
         </div>
         <div class="text-container">
@@ -613,7 +613,7 @@ carousel: true
     <!-- 2013 -->
     <div class="year" data-year="2013">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2013.html';">
+        <div class="fun-button left">
           Talleres Artísticos – Programa Chile Previene, SENDA: Mosaico
         </div>
 
@@ -649,7 +649,7 @@ carousel: true
     <!-- 2012 -->
     <div class="year" data-year="2012">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2012.html';">
+        <div class="fun-button right">
           Taller de Artes Visuales (FORINT)
         </div>
         <div class="text-container">
@@ -663,7 +663,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2012.html';">
+        <div class="fun-button left">
           Taller de Artes Visuales (EDEX)
         </div>
         <div class="text-container">
@@ -677,7 +677,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/ES/taller-2012.html';">
+        <div class="fun-button right">
           Talleres Artísticos – Programa Mi Barrio en Paz: Muralismo
         </div>
         <div class="text-container">
@@ -694,7 +694,7 @@ carousel: true
     <!-- 2011 -->
     <div class="year" data-year="2011">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/ES/taller-2011.html';">
+        <div class="fun-button left">
           Taller de pintura al óleo
         </div>
         <div class="text-container">

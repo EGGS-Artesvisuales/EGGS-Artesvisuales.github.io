@@ -131,7 +131,7 @@ carousel: true
     <!-- 2024 -->
     <div class="year" data-year="2024">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2024.html';">
+        <div class="fun-button right">
           面具工作室，洛斯奎耶斯文化空间，La Florida
         </div>
         <div class="text-container">
@@ -146,7 +146,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2024.html';">
+        <div class="fun-button right">
           玛丽亚·平托学校的强化壁画研讨会
         </div>
         <div class="text-container">
@@ -166,7 +166,7 @@ carousel: true
     <!-- 2023 -->
     <div class="year" data-year="2023">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2023.html';">
+        <div class="fun-button left">
           智利政变 50 年后的壁画 – Balmaceda Arte Joven
         </div>
         <div class="text-container">
@@ -204,7 +204,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2023.html';">
+        <div class="fun-button left">
           面具工作坊 – 第一周期，洛斯奎耶斯文化空间，La Florida
         </div>
         <div class="text-container">
@@ -252,7 +252,7 @@ carousel: true
     <!-- 2021 -->
     <div class="year" data-year="2021">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2021.html';">
+        <div class="fun-button left">
           FIBRA MINEDUC 艺术工作坊：大流行时期的艺术
         </div>
 
@@ -276,7 +276,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2021.html';">
+        <div class="fun-button left">
           夏季研讨会 – 佛罗里达文化
         </div>
         <div class="text-container">
@@ -293,7 +293,7 @@ carousel: true
     <!-- 2020 -->
     <div class="year" data-year="2020">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2020.html';">
+        <div class="fun-button right">
           进化绘画工作坊 – La Florida
         </div>
         <div class="text-container">
@@ -307,7 +307,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2020.html';">
+        <div class="fun-button left">
           FIBRA MINEDUC 艺术工作坊：大流行时期的艺术
         </div>
 
@@ -331,7 +331,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2020.html';">
+        <div class="fun-button right">
           何塞·玛丽亚·卡罗儿童之家的强化壁画讲习班
         </div>
         <div class="text-container">
@@ -348,7 +348,7 @@ carousel: true
     <!-- 2019 -->
     <div class="year" data-year="2019">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2019.html';">
+        <div class="fun-button left">
           FIBRA MINEDUC 艺术工作坊
         </div>
 
@@ -384,7 +384,7 @@ carousel: true
     <!-- 2018 -->
     <div class="year" data-year="2018">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2018.html';">
+        <div class="fun-button right">
           壁画工作坊 – Santiago Cultura
         </div>
         <div class="text-container">
@@ -398,7 +398,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2018.html';">
+        <div class="fun-button left">
           FIBRA MINEDUC 艺术工作坊：壁画工作坊
         </div>
         <div class="text-container">
@@ -412,7 +412,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2018.html';">
+        <div class="fun-button right">
           壁画工作坊 – SENDA Previene 计划
         </div>
         <div class="text-container">
@@ -429,7 +429,7 @@ carousel: true
     <!-- 2017 -->
     <div class="year" data-year="2017">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2017.html';">
+        <div class="fun-button left">
           壁画研讨会 – SENDA Previene 计划，大都市区
         </div>
 
@@ -453,7 +453,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2017.html';">
+        <div class="fun-button right">
           FIBRA MINEDUC 艺术工作坊：视觉艺术工作坊
         </div>
         <div class="text-container">
@@ -470,7 +470,7 @@ carousel: true
     <!-- 2016 -->
     <div class="year" data-year="2016">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2016.html';">
+        <div class="fun-button left">
           FIBRA MINEDUC 艺术工作坊：绘画和壁画工作坊
         </div>
 
@@ -494,7 +494,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2016.html';">
+        <div class="fun-button right">
           壁画和涂鸦工作坊 – EDEX、COMUDEF
         </div>
         <div class="text-container">
@@ -508,7 +508,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2016.html';">
+        <div class="fun-button left">
           壁画研讨会 – PACE MINEDUC / USACH 项目
         </div>
         <div class="text-container">
@@ -525,7 +525,7 @@ carousel: true
     <!-- 2015 -->
     <div class="year" data-year="2015">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2015.html';">
+        <div class="fun-button left">
           涂鸦工作坊 – EDEX 计划、COMUDEF
         </div>
         <div class="text-container">
@@ -539,13 +539,13 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2015.html';">
+        <div class="fun-button right">
           壁画工作坊 – SENDA Previene 计划
         </div>
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-lo-cañas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-lo-canas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
           </div>
           <p>
             SENDA预防计划：及时行动。洛卡纳斯学校，拉佛罗里达，圣地亚哥。
@@ -572,7 +572,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2015.html';">
+        <div class="fun-button left">
           MINEDUC 艺术研讨会 – Balmaceda 1215：Vivo el Arte 计划
         </div>
         <div class="text-container">
@@ -600,7 +600,7 @@ carousel: true
     <!-- 2014 -->
     <div class="year" data-year="2014">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2014.html';">
+        <div class="fun-button right">
           艺术工作坊 – 我的和平邻里计划：马赛克工作坊
         </div>
         <div class="text-container">
@@ -617,7 +617,7 @@ carousel: true
     <!-- 2013 -->
     <div class="year" data-year="2013">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2013.html';">
+        <div class="fun-button left">
           艺术研讨会 – 智利 Previene 计划，SENDA：马赛克
         </div>
 
@@ -653,7 +653,7 @@ carousel: true
     <!-- 2012 -->
     <div class="year" data-year="2012">
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2012.html';">
+        <div class="fun-button right">
           视觉艺术工作坊（FORINT）
         </div>
         <div class="text-container">
@@ -667,7 +667,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2012.html';">
+        <div class="fun-button left">
           视觉艺术工作坊（EDEX）
         </div>
         <div class="text-container">
@@ -681,7 +681,7 @@ carousel: true
       </div>
 
       <div class="entry">
-        <div class="fun-button right" onclick="window.location.href='/CHN/taller-2012.html';">
+        <div class="fun-button right">
           艺术工作坊 – 我的和平邻里计划：壁画
         </div>
         <div class="text-container">
@@ -698,7 +698,7 @@ carousel: true
     <!-- 2011 -->
     <div class="year" data-year="2011">
       <div class="entry">
-        <div class="fun-button left" onclick="window.location.href='/CHN/taller-2011.html';">
+        <div class="fun-button left">
           油画工作坊
         </div>
         <div class="text-container">

@@ -71,17 +71,17 @@ graph LR
   A1a1b --> D2[公共空间]
   A1a1b --> D3[乡村/自然空间]
 
-  click A "/CHN/mundo-exterior" "前往世界代表"
-  click A1 "/CHN/tangible" "走向有形"
-  click A2 "/CHN/intangible" "走向无形"
+  click A "/CHN/mundo-exterior.html" "前往世界代表"
+  click A1 "/CHN/tangible.html" "走向有形"
+  click A2 "/CHN/intangible.html" "走向无形"
 
-  click A1a "/CHN/saturacion" "转到饱和度"
-  click A1b "/CHN/en-construccion" "前往技术"
-  click A1a1 "/CHN/la-peste" "前往瘟疫"
-  click A1a2 "/CHN/lo-invisible" "前往看不见的地方"
+  click A1a "/CHN/saturacion.html" "转到饱和度"
+  click A1b "/CHN/en-construccion.html" "前往技术"
+  click A1a1 "/CHN/la-peste.html" "前往瘟疫"
+  click A1a2 "/CHN/lo-invisible.html" "前往看不见的地方"
 
-  click A1a1c "/CHN/peste-pinturas-infectadas" "前往受感染的画作"
-  click A1a1b "/CHN/desplazamiento-pintura" "转到绘画变换"
+  click A1a1c "/CHN/peste-pinturas-infectadas.html" "前往受感染的画作"
+  click A1a1b "/CHN/desplazamiento-pintura.html" "转到绘画变换"
 
   click D1 "/CHN/espacio-domestico.html" "前往国内空间"
   click D2 "/CHN/espacio-publico.html" "前往公共场所"
@@ -161,7 +161,7 @@ graph LR
 <div class="owl-carousel carousel-imagen">
 
   <figure class="item">
-    <a href="/CHN/en-construccion" aria-label="Ver Ruralias (imagen 001)">
+    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 001)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"
@@ -174,7 +174,7 @@ graph LR
 
   <!-- Reemplaza por tus otras imágenes reales -->
   <figure class="item">
-    <a href="/CHN/en-construccion" aria-label="Ver Ruralias (imagen 002)">
+    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 002)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"
@@ -186,7 +186,7 @@ graph LR
   </figure>
 
   <figure class="item">
-    <a href="/CHN/en-construccion" aria-label="Ver Ruralias (imagen 003)">
+    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 003)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"
