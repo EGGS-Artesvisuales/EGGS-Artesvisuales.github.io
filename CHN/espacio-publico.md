@@ -173,7 +173,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 007)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 007)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-007.jpg"
@@ -185,7 +185,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-001.jpg"
@@ -197,7 +197,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 002)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 002)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-002.jpg"
@@ -209,7 +209,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 003)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 003)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-003.jpg"
@@ -221,7 +221,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 03b)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 03b)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-003b.jpg"
@@ -233,7 +233,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 004)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 004)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-004.jpg"
@@ -245,7 +245,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 004b)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 004b)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-004b.jpg"
@@ -257,7 +257,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 004c)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 004c)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-004c.jpg"
@@ -269,7 +269,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 004d)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 004d)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-004d.jpg"
@@ -281,7 +281,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Richard Prince infectado (vista 005)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Richard Prince infectado (vista 005)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-Rich-prince-005.jpg"
@@ -326,7 +326,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-001.jpg"
@@ -338,7 +338,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 002)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 002)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-002.jpg"
@@ -350,7 +350,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 003)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 003)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-003.jpg"
@@ -362,7 +362,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 004)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 004)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-004.jpg"
@@ -374,7 +374,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 005)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 005)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-005.jpg"
@@ -386,7 +386,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 006)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 006)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-006.jpg"
@@ -398,7 +398,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 007)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 007)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-007.jpg"
@@ -410,7 +410,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 008)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 008)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-008.jpg"
@@ -422,7 +422,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 009)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 009)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-009.jpg"
@@ -434,7 +434,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 010)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 010)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-010.jpg"
@@ -446,7 +446,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 011)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 011)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-011.jpg"
@@ -458,7 +458,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Claes Oldenburg infectado (vista 012)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Claes Oldenburg infectado (vista 012)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-claesinfected-012.jpg"
@@ -510,7 +510,7 @@ graph LR
 
   <div class="owl-carousel carousel-imagen">
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-001.jpg"
@@ -522,7 +522,7 @@ graph LR
     </figure>
 
       <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-001b.jpg"
@@ -534,7 +534,7 @@ graph LR
     </figure>
 
   <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-002.jpg"
@@ -547,7 +547,7 @@ graph LR
 
 
      <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-003.jpg"
@@ -559,7 +559,7 @@ graph LR
     </figure>
 
      <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-004.jpg"
@@ -571,7 +571,7 @@ graph LR
     </figure>
 
    <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-004b.jpg"
@@ -583,7 +583,7 @@ graph LR
    </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-005.jpg"
@@ -595,7 +595,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-006.jpg"
@@ -607,7 +607,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-007.jpg"
@@ -619,7 +619,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-008.jpg"
@@ -631,7 +631,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-009.jpg"
@@ -643,7 +643,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-010.jpg"
@@ -656,7 +656,7 @@ graph LR
 
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-011.jpg"
@@ -668,7 +668,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-012.jpg"
@@ -680,7 +680,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-013.jpg"
@@ -693,7 +693,7 @@ graph LR
 
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-014.jpg"
@@ -705,7 +705,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-015.jpg"
@@ -717,7 +717,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-016.jpg"
@@ -729,7 +729,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-017.jpg"
@@ -741,7 +741,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-018.jpg"
@@ -753,7 +753,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-019.jpg"
@@ -765,7 +765,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-020.jpg"
@@ -777,7 +777,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-021.jpg"
@@ -789,7 +789,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-frame-022.jpg"
@@ -800,7 +800,7 @@ graph LR
       </a>
     </figure>
   <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-001.jpg"
@@ -811,7 +811,7 @@ graph LR
       </a>
     </figure>
       <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver El busto de O'Higgins (vista 001)">
+      <a href="/CHN/en-construccion.html" aria-label="查看 El busto de O'Higgins (vista 001)">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-publico-bustoohigg-002.jpg"

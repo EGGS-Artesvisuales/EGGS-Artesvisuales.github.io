@@ -136,7 +136,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2024-masc-lf2.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2024-masc-lf2.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             制定在La Florida洛斯基拉耶斯别墅的社会强化计划中。<br>
@@ -151,7 +151,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2024-mapinto.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2024-mapinto.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             通过 FIBRA 咨询，在大都市区玛丽亚平托公社的玛丽亚平托理工高中制定了 MINEDUC 艺术强化计划。
@@ -171,7 +171,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2023-50anobaj.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-50anobaj.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             巴尔马塞达青年艺术工艺美术工作坊；智利政变 50 年后，位于圣地亚哥 Quinta Normal 的 BAJ 总部出现了密集的壁画。
@@ -186,7 +186,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2023-corlf-reciclaje1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-corlf-reciclaje1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥拉佛罗里达文化公司拉佛罗里达文化之家的回收研讨会。
@@ -195,7 +195,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2023-corlf-reciclaje2.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-corlf-reciclaje2.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             位于圣地亚哥拉La Florida Villa Los Copihues 公共区域的回收车间。
@@ -209,7 +209,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2023-corlf-masc1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2023-corlf-masc1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥拉佛罗里达公社洛斯奎耶斯别墅居民社区的口罩研讨会。
@@ -226,7 +226,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2022-muralismocorlf.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2022-muralismocorlf.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             佛罗里达文化公司，El Hualle 总部，圣地亚哥，佛罗里达。
@@ -240,7 +240,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2022-bsnes.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2022-bsnes.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥普恩特阿尔托 Colegio San Esteban de Las Vizcachas 的造型艺术科目。
@@ -258,7 +258,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2021-hue.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2021-hue.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Hueñicito 学校，拉平塔纳，圣地亚哥。
@@ -267,7 +267,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2021-snest.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2021-snest.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             San Esteban de Las Vizcachas 学校，圣地亚哥普恩特阿尔托。
@@ -281,7 +281,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2021-muralismocorlf.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2021-muralismocorlf.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             佛罗里达文化公司，El Hualle 总部，圣地亚哥，佛罗里达。
@@ -298,7 +298,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2020-pintevo.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-pintevo.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             身份研讨会“Stgo。属于每个人。”通过 Google Meet 进行在线研讨会。佛罗里达文化公司。
@@ -313,7 +313,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2020-fibra-hue.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-fibra-hue.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Hueñicito 学校，拉平塔纳，圣地亚哥。
@@ -322,7 +322,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2020-fibra-snes.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-fibra-snes.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             San Esteban de Las Vizcachas 学校，圣地亚哥普恩特阿尔托。
@@ -336,7 +336,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2020-muralismomovb.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2020-muralismomovb.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥拉平塔纳 Cardenal José María Caro 儿童之家的 Mobcreative Production Company。
@@ -354,7 +354,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2019-altascumbre-fibra.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2019-altascumbre-fibra.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             壁画工作室，Altas Cumbres 学校，Puente Alto，圣地亚哥。
@@ -363,7 +363,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2019-losandes.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2019-losandes.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             造型艺术工作室，洛斯安第斯学校，普恩特阿尔托，圣地亚哥。
@@ -372,7 +372,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2019-snesteb.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2019-snesteb.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             绘画工作室，Liceo San Esteban de Las Vizcachas，普恩特阿尔托，圣地亚哥。
@@ -389,7 +389,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2018-muralismo-culturastgo-irenefrei.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-culturastgo-irenefrei.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥文化 – I. 圣地亚哥市；阿拉莫斯宫 / Irene Frei de Cid 学校。
@@ -403,7 +403,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2018-muralismo-fibra.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-fibra.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             奥洛夫·帕尔梅高中，拉西斯特纳，圣地亚哥。
@@ -417,7 +417,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2018-muralismo-sendaloprado.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2018-muralismo-sendaloprado.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             SENDA预防计划：及时行动。洛普拉多，智利圣地亚哥。
@@ -435,7 +435,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2017-senda-colegio.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2017-senda-colegio.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥圣拉蒙 Colegio Mirador 绘画工作室。
@@ -444,7 +444,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2017-senda-lautaro.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2017-senda-lautaro.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥洛普拉多公社劳塔罗别墅的社区壁画研讨会。
@@ -458,7 +458,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2017-ceia.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2017-ceia.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             C.E.I.A 教育综合体，圣地亚哥拉平塔纳。
@@ -476,7 +476,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2016-ceia-graff.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-ceia-graff.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             C.E.I.A 学校，拉平塔纳，圣地亚哥。
@@ -485,7 +485,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2016-graff-licptealto.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-graff-licptealto.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥普恩特阿尔托高中。
@@ -499,7 +499,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2016-edex-graff-cas1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-edex-graff-cas1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Cardenal Samoré 学校，EDEX SEP 法律项目；La Florida I. 市教育公司。
@@ -513,7 +513,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2016-pace-usach.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2016-pace-usach.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥布埃拉斯学校，迈普，圣地亚哥。 PACE 计划 – MINEDUC，美国加州大学 (USACH)。
@@ -530,7 +530,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015_.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015_.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Cardenal Samoré 学校，EDEX 计划；圣地亚哥拉佛罗里达市政府公司。
@@ -545,7 +545,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-lo-canas-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-lo-canas-muralismo-senda.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             SENDA预防计划：及时行动。洛卡纳斯学校，拉佛罗里达，圣地亚哥。
@@ -554,7 +554,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-london-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-london-muralismo-senda.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             SENDA预防计划：及时行动。伦敦学校，La Florida，圣地亚哥。
@@ -563,7 +563,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-navios-muralismo-senda.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-navios-muralismo-senda.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             SENDA预防计划：及时行动。洛斯纳维奥斯学校，La Florida，圣地亚哥。
@@ -577,7 +577,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-ceia-muralismo.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-ceia-muralismo.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣地亚哥拉平塔纳 Colegio C.E.I.A 壁画工作室。
@@ -588,7 +588,7 @@ carousel: true
       <div class="entry">
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2015-ptealto-cortometraje.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2015-ptealto-cortometraje.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             短片和数字图像编辑工作室，Liceo Puente Alto，圣地亚哥。
@@ -605,7 +605,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2014-barrioenpaz.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2014-barrioenpaz.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             马塞拉·帕斯学校，奥希金斯别墅，La Florida，圣地亚哥。
@@ -623,7 +623,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2013-elsa1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2013-elsa1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Maestra Elsa Santibáñez 学校，La Florida，圣地亚哥。
@@ -632,7 +632,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2013-mel2.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2013-mel2.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             玛丽亚埃琳娜学校，La Florida，圣地亚哥。
@@ -641,7 +641,7 @@ carousel: true
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2013-sotero1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2013-sotero1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             Sótero del Río 学校，La Florida，圣地亚哥。
@@ -658,7 +658,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2012---forint01.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---forint01.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             圣莱昂纳多学校，迈普，智利圣地亚哥。
@@ -672,7 +672,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2012---edex-01.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---edex-01.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             La Florida I. 市政府公司； Maestra Elsa Santibáñez 学校，La Florida，智利圣地亚哥。
@@ -686,7 +686,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2012---01.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2012---01.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             奥希金斯别墅，La Florida，圣地亚哥。
@@ -703,7 +703,7 @@ carousel: true
         </div>
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2011-1.jpg" alt="Imagen del taller" loading="lazy">
+            <img src="/assets/img/docencia-2011-1.jpg" alt="工作坊图像" loading="lazy">
           </div>
           <p>
             国家服务/国家文化艺术委员会。圣伊格纳西奥别墅 – 智利大都市区 Padre Hurtado 埃尔罗布尔。

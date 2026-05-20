@@ -161,7 +161,7 @@ graph LR
 <div class="owl-carousel carousel-imagen">
 
   <figure class="item">
-    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 001)">
+    <a href="/CHN/en-construccion.html" aria-label="查看 Ruralias (imagen 001)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"
@@ -174,7 +174,7 @@ graph LR
 
   <!-- Reemplaza por tus otras imágenes reales -->
   <figure class="item">
-    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 002)">
+    <a href="/CHN/en-construccion.html" aria-label="查看 Ruralias (imagen 002)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"
@@ -186,7 +186,7 @@ graph LR
   </figure>
 
   <figure class="item">
-    <a href="/CHN/en-construccion.html" aria-label="Ver Ruralias (imagen 003)">
+    <a href="/CHN/en-construccion.html" aria-label="查看 Ruralias (imagen 003)">
       <div class="img-container">
         <img class="carousel-img"
              src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg"

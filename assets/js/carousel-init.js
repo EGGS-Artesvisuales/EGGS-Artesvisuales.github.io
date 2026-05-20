@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const IMAGE_PRELOAD_DEPTH = 2;
+  const IMAGE_PRELOAD_DEPTH = 1;
 
   // Guard: si Owl no está cargado, no habrá carrusel (y todo se verá “en lista”)
   if (!$.fn || !$.fn.owlCarousel) {
@@ -50,6 +50,20 @@ $(document).ready(function () {
     const src = $img.attr("data-src");
     if (!src || $img.attr("src")) return;
     $img.attr("src", src);
+  }
+
+  function prepareCarouselLazyImages($car) {
+    $car.find("img").each(function () {
+      const $img = $(this);
+      const src = $img.attr("src");
+      if (!src || $img.attr("data-src")) return;
+
+      $img.attr("data-src", src);
+      $img.removeAttr("src");
+      $img.addClass("owl-lazy");
+
+      if (!$img.attr("decoding")) $img.attr("decoding", "async");
+    });
   }
 
   function preloadNearbyImages($car) {
@@ -118,6 +132,10 @@ $(document).ready(function () {
   const $imgCarousel = $(".carousel-imagen");
 
   if ($imgCarousel.length) {
+    $imgCarousel.each(function () {
+      prepareCarouselLazyImages($(this));
+    });
+
     $imgCarousel.owlCarousel({
       items: 1,
       loop: true,
@@ -126,7 +144,7 @@ $(document).ready(function () {
       dots: true,
       autoHeight: true,
       lazyLoad: true,
-      lazyLoadEager: 2,
+      lazyLoadEager: 1,
       startPosition: 0,
 
       // clave: sin asomo lateral
@@ -248,11 +266,17 @@ $(document).ready(function () {
   const $fancyCarousel = $(".carousel-fancy");
 
   if ($fancyCarousel.length) {
+    $fancyCarousel.each(function () {
+      prepareCarouselLazyImages($(this));
+    });
+
     $fancyCarousel.owlCarousel({
       loop: true,
       margin: 5,
       nav: true,
       dots: true,
+      lazyLoad: true,
+      lazyLoadEager: 1,
       navText: [
         '<span class="owl-nav-prev">&#10094;</span>',
         '<span class="owl-nav-next">&#10095;</span>'
@@ -281,11 +305,17 @@ $(document).ready(function () {
   const $fullBleed = $(".carousel-fullbleed");
 
   if ($fullBleed.length) {
+    $fullBleed.each(function () {
+      prepareCarouselLazyImages($(this));
+    });
+
     $fullBleed.owlCarousel({
       loop: true,
       margin: 0,
       nav: true,
       dots: true,
+      lazyLoad: true,
+      lazyLoadEager: 1,
       navText: ["&#9664;", "&#9654;"],
 
       // En full-bleed normalmente NO conviene autoHeight

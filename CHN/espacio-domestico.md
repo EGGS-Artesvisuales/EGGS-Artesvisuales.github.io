@@ -404,7 +404,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 008b">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 008b">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-008b.jpg"
@@ -419,7 +419,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 007">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 007">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-007.jpg"
@@ -434,7 +434,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 004">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 004">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-004.jpg"
@@ -449,7 +449,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 001">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 001">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-001.jpg"
@@ -464,7 +464,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 003">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 003">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-003.jpg"
@@ -479,7 +479,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 014">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 014">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-014.jpg"
@@ -494,7 +494,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 015">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 015">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-015.jpg"
@@ -509,7 +509,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Avalancha 016">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Avalancha 016">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-avalancha-016.jpg"
@@ -535,7 +535,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 001">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 001">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-001.jpg"
@@ -552,7 +552,7 @@ graph LR
 
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 003">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 003">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-003.jpg"
@@ -567,7 +567,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 004">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 004">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-004.jpg"
@@ -582,7 +582,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 005">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 005">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-005.jpg"
@@ -597,7 +597,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 006">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 006">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-006.jpg"
@@ -612,7 +612,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 007">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 007">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-007.jpg"
@@ -627,7 +627,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Cocina cubierta 008">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Cocina cubierta 008">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-coci-008.jpg"
@@ -653,7 +653,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 001">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 001">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-001.jpg"
@@ -668,7 +668,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 002">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 002">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-002.jpg"
@@ -683,7 +683,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 003">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 003">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-003.jpg"
@@ -698,7 +698,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 004">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 004">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-004.jpg"
@@ -713,7 +713,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 005">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 005">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-005.jpg"
@@ -728,7 +728,7 @@ graph LR
     </figure>
 
         <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 008">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 008">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-008.jpg"
@@ -743,7 +743,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Comedor apestado 009">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Comedor apestado 009">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-peste-comedor-009.jpg"
@@ -769,7 +769,7 @@ graph LR
   <div class="owl-carousel carousel-imagen">
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 001">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 001">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-001.jpg"
@@ -784,7 +784,7 @@ graph LR
     </figure>
 
        <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 003">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 003">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-003.jpg"
@@ -799,7 +799,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 004">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 004">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-004.jpg"
@@ -814,7 +814,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 005">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 005">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-005.jpg"
@@ -829,7 +829,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 006">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 006">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-006.jpg"
@@ -844,7 +844,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 007">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 007">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-007.jpg"
@@ -861,7 +861,7 @@ graph LR
 
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 009">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 009">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-009.jpg"
@@ -878,7 +878,7 @@ graph LR
 
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 011">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 011">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-011.jpg"
@@ -893,7 +893,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 012">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 012">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-012.jpg"
@@ -908,7 +908,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 013">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 013">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-013.jpg"
@@ -923,7 +923,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 014">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 014">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-014.jpg"
@@ -938,7 +938,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 015">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 015">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-015.jpg"
@@ -953,7 +953,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 016">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 016">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-016.jpg"
@@ -968,7 +968,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 017">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 017">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-017.jpg"
@@ -983,7 +983,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 018">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 018">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-018.jpg"
@@ -998,7 +998,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 019">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 019">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-019.jpg"
@@ -1013,7 +1013,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 020">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 020">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-020.jpg"
@@ -1028,7 +1028,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 021">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 021">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-021.jpg"
@@ -1043,7 +1043,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 022">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 022">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-022.jpg"
@@ -1058,7 +1058,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 023">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 023">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-023.jpg"
@@ -1073,7 +1073,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 024">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 024">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-024.jpg"
@@ -1088,7 +1088,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 025">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 025">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-025.jpg"
@@ -1103,7 +1103,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 026">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 026">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-026.jpg"
@@ -1118,7 +1118,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 027">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 027">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-027.jpg"
@@ -1133,7 +1133,7 @@ graph LR
     </figure>
 
     <figure class="item">
-      <a href="/CHN/en-construccion.html" aria-label="Ver Estudio de FW apestado 028">
+      <a href="/CHN/en-construccion.html" aria-label="查看 Estudio de FW apestado 028">
         <div class="img-container">
           <img class="carousel-img"
                src="/assets/img/desp-domestico-hbt-pesteFW-028.jpg"

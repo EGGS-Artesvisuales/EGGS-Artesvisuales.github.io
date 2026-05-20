@@ -37,7 +37,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 
   <a href="/CHN/en-construccion.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="Exhibiciones">
+      <img src="/assets/img/EGGSLOGO - 16-9.png" alt="展览es">
       <p class="title">展览</p>
       <p class="subtitle">出版物、海报和样本记录。</p>
     </div>

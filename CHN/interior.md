@@ -89,7 +89,7 @@ carousel: true
   <div class="item">
     <a href="/CHN/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-mandalas.webp" alt="Mandala y Zentangle" loading="lazy">
+        <img src="/assets/img/interior/boton-mandalas.webp" alt="曼陀罗与禅绕画" loading="lazy">
         <p class="title">曼陀罗和 Zentangle</p>
         <p class="subtitle">通过划水来集中注意力、平衡和冥想。</p>
       </div>
@@ -144,7 +144,7 @@ carousel: true
   <div class="item">
     <a href="/CHN/en-construccion.html" class="fancy-button">
       <div class="button-content">
-        <img src="/assets/img/interior/boton-pareidolico.webp" alt="Superficies Pareidólicas" loading="lazy">
+        <img src="/assets/img/interior/boton-pareidolico.webp" alt="空想性表面" loading="lazy">
         <p class="title">空想曲面</p>
         <p class="subtitle">新兴的人物和无意识的投射。</p>
       </div>

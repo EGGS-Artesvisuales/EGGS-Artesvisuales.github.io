@@ -42,7 +42,7 @@ carousel: true
 <!-- Subtítulo para el carrusel -->
 <h2 class="subtitulo" style="margin-top:4%;">我们的专业服务</h2>
 
-<!-- Carousel de Servicios -->
+<!-- Carousel de 服务 -->
 <div class="owl-carousel">
   <!-- Servicio 1: Producción y organización de eventos culturales -->
   <div class="item">

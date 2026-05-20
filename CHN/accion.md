@@ -62,7 +62,7 @@ flowchart LR
 
     <a href="/CHN/comunitario.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-lo-comunitarioanimacioin.webp" alt="Lo Comunitario" loading="lazy">
+            <img src="/assets/img/boton-lo-comunitarioanimacioin.webp" alt="社区性" loading="lazy">
             <p class="title">社区</p>
             <p class="subtitle">加强身份和邻里聚会的项目。</p>
         </div>
@@ -78,7 +78,7 @@ flowchart LR
 
     <a href="/CHN/docencia.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-docencia.webp" alt="Docencia y Talleres" loading="lazy">
+            <img src="/assets/img/boton-docencia.webp" alt="教学与工作坊" loading="lazy">
             <p class="title">教学和研讨会</p>
             <p class="subtitle">分享知识和创意过程的空间。</p>
         </div>
@@ -86,7 +86,7 @@ flowchart LR
 
     <a href="/CHN/servicios.html" class="fancy-button">
         <div class="button-content">
-            <img src="/assets/img/boton-servicios.webp" alt="Servicios" loading="lazy">
+            <img src="/assets/img/boton-servicios.webp" alt="服务" loading="lazy">
             <p class="title">服务</p>
             <p class="subtitle">修复、委托和应用视觉解决方案。</p>
         </div>

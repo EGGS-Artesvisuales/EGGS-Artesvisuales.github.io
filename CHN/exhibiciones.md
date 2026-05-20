@@ -47,7 +47,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
           </div>
           <div class="text-container">
             <div class="imagen">
-              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Visual IV CNCA – Taller de fotografía">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Santiago Visual IV CNCA – 摄影工作坊">
             </div>
             <p>
               与 Leonora Vicuña 在智利圣地亚哥阿尔卑斯研究所举办的研讨会。
@@ -74,11 +74,11 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   </div><!-- .timeline-container -->
 </section>
 
-<!-- Sección: Exhibiciones -->
+<!-- Sección: 展览es -->
 <section id="exhibiciones-experiencia">
   <h2 class="subtitulo">展览</h2>
 
-  <!-- Exhibiciones Individuales -->
+  <!-- 展览es Individuales -->
   <h3 class="subtitulo2">个人展览</h3>
   <div class="timeline-container">
     <div class="timeline">
@@ -102,7 +102,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
           <div class="fun-button left">饱和油漆</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Pinturas Saturadas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="展览 Pinturas Saturadas">
             </div>
             <p>
               La Florida Joven，智利圣地亚哥拉佛罗里达文化之家。
@@ -116,7 +116,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
           <div class="fun-button right">受感染的油漆</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Pinturas Infectadas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="展览 Pinturas Infectadas">
             </div>
             <p>
               V El Totoral 现场绘画会议一等奖。展览于圣地亚哥纳蒂诺画廊 (APECH)，智利圣地亚哥。
@@ -128,7 +128,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
     </div><!-- .timeline -->
   </div><!-- .timeline-container -->
 
-  <!-- Exhibiciones Bi o Tri Personales -->
+  <!-- 展览es Bi o Tri Personales -->
   <h3 class="subtitulo2">双人或三人个人展览</h3>
   <div class="timeline-container">
     <div class="timeline">
@@ -152,7 +152,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
           <div class="fun-button right">三眼：帕拉卡勒</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Tres Ojos: Pa’ la Calle">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="展览 Tres Ojos: Pa’ la Calle">
             </div>
             <p>
               巴尔马塞达画廊#1215。西梅娜·佐莫萨 (Ximena Zomosa) 担任策展人。与 Viviana Silva 和 Macarena Vio 联合展览，智利圣地亚哥。
@@ -166,7 +166,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
           <div class="fun-button left">相亲：到处走走</div>
           <div class="text-container">
             <div class="imagen">
-              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="Exhibición Cita a Ciegas: Dando Vueltas">
+              <img src="/assets/img/EGGSLOGOindex1.png" loading="lazy" alt="展览 Cita a Ciegas: Dando Vueltas">
             </div>
             <p>
               巴尔马塞达画廊#1215。与瓦莱里娅·哈拉 (Valeria Jara) 联合展览。智利圣地亚哥 Ximena Zomosa 策展人。
