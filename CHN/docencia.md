@@ -62,12 +62,13 @@ carousel: true
         <div class="text-container">
           <div class="imagen">
             <img
-              src="/assets/img/docencia-2025-MTer.jpg"
+              src="/assets/img/docencia-2025-miguitas-ternura.webp"
               alt="Taller de muralismo comunitario en Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida"
               loading="lazy">
           </div>
           <p>
-            <strong>米吉塔斯德温柔儿童花园</strong>，La Florida洛斯奎耶斯别墅。<br>
+                        <strong>Jardín Infantil Miguitas de Ternura 社区壁画工作坊，Villa Los Quillayes，La Florida</strong><br>
+<strong>米吉塔斯德温柔儿童花园</strong>，La Florida洛斯奎耶斯别墅。<br>
             接近壁画、探索当地想象和指导实践的参与过程。
           </p>
         </div>

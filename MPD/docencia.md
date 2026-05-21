@@ -57,12 +57,13 @@ permalink: /MPD/docencia.html
         <div class="text-container">
           <div class="az">
             <img
-              src="/assets/img/docencia-2025-MTer.jpg"
+              src="/assets/img/docencia-2025-miguitas-ternura.webp"
               alt="Taller de muralismo lof mew en Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida"
               loading="lazy">
           </div>
           <p>
-            <strong>Jardín Infantil Miguitas de Ternura</strong>, Villa Los Quillayes, La Florida.<br>
+            <strong>Taller de muralismo lof mew Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida</strong><br>
+            Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida.<br>
             Proceso participativo de acercamiento al muralismo, exploración de imaginarios locales y práctica guiada.
           </p>
         </div>

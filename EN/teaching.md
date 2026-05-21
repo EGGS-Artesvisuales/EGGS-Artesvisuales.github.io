@@ -50,10 +50,11 @@ permalink: /EN/teaching.html
 
         <div class="text-container">
           <div class="imagen">
-            <img src="/assets/img/docencia-2025-MTer.jpg" alt="Community muralism workshop at Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida" loading="lazy">
+            <img src="/assets/img/docencia-2025-miguitas-ternura.webp" alt="Community muralism workshop at Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida" loading="lazy">
           </div>
           <p>
-            <strong>Jardín Infantil Miguitas de Ternura</strong>, Villa Los Quillayes, La Florida.<br>
+            <strong>Community muralism workshop at Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida</strong><br>
+            Jardín Infantil Miguitas de Ternura, Villa Los Quillayes, La Florida.<br>
             Participatory process introducing muralism, exploring local imaginaries, and guided practice.
           </p>
         </div>
