@@ -154,19 +154,21 @@
 
     .language-selection {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(8.75rem, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 1px;
+      width: min(100%, 42rem);
+      justify-self: end;
       margin: 0;
       background: rgba(230, 234, 240, 0.16);
       border: 1px solid rgba(230, 234, 240, 0.16);
     }
 
     .language-selection a {
-      min-height: 6rem;
+      min-height: 4.75rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 1rem;
+      padding: 0.85rem;
       color: #fff;
       background: rgba(32, 36, 43, 0.9);
       text-decoration: none;
@@ -184,13 +186,13 @@
     .language-selection strong {
       max-width: 100%;
       overflow-wrap: anywhere;
-      font-size: clamp(1.25rem, 2vw, 1.9rem);
+      font-size: clamp(1.05rem, 1.45vw, 1.55rem);
       line-height: 1.05;
     }
 
     .language-selection span {
       color: rgba(244,245,246,0.68);
-      font-size: 0.92rem;
+      font-size: 0.82rem;
       font-weight: 700;
     }
 
@@ -234,6 +236,16 @@
 
       .language-selection {
         grid-template-columns: 1fr;
+        width: 100%;
+        justify-self: stretch;
+      }
+    }
+
+    @media (min-width: 761px) and (max-width: 980px) {
+      .language-selection {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+        justify-self: stretch;
       }
     }
 
