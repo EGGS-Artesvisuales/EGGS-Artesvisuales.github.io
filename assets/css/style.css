@@ -239,7 +239,7 @@ header {
 }
 
 /* Mostrar submenú en escritorio */
-@media (min-width: 1750px) {
+@media (min-width: 769px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
@@ -277,7 +277,7 @@ header {
   min-width: 11.25rem;
 }
 
-@media (min-width: 1750px) {
+@media (min-width: 769px) {
   .dropdown-sub:hover > .dropdown-menu-sub {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
@@ -285,7 +285,7 @@ header {
 }
 
 /* Submenús anidados visibles en móvil */
-@media (max-width: 1749px) {
+@media (max-width: 901px) {
   .dropdown-sub > .dropdown-menu-sub {
     display: none;
     position: static;
@@ -299,7 +299,7 @@ header {
 /* ------------------------------------------------------------------
    MENÚ HAMBURGUESA (SOLO EN MÓVILES)
 ------------------------------------------------------------------ */
-@media (max-width: 1749px) {
+@media (max-width: 901px) {
   .nav-toggle {
     display: flex;
     margin-top: 0.625rem;
@@ -367,7 +367,7 @@ header {
   }
 }
 
-@media (min-width: 1750px) {
+@media (min-width: 902px) {
   .nav-toggle { display: none; }
 }
 
@@ -2131,7 +2131,7 @@ form,
 
 .client-hall {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1px;
   margin: clamp(2rem, 4vw, 3.5rem) 0 0;
   padding: 1px;
@@ -2297,7 +2297,7 @@ footer::before {
   text-align: center;
 }
 
-@media (max-width: 1749px) {
+@media (max-width: 901px) {
   :root {
     --header-h: 3.8rem;
   }

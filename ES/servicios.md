@@ -138,6 +138,30 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
     <li class="client-card">
       <figure>
         <div class="client-card__logo">
+          <img src="/assets/img/clientes/mobv.webp" width="361" height="97" alt="MOBV Creative Studio" loading="lazy" decoding="async">
+        </div>
+        <figcaption>MOBV Creative Studio</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/metroarte.webp" width="444" height="98" alt="Corporación Cultural MetroArte" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Corporación Cultural MetroArte</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/senda.webp" width="199" height="180" alt="Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol, SENDA" loading="lazy" decoding="async">
+        </div>
+        <figcaption>SENDA</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
           <img src="/assets/img/clientes/ministerio-educacion.webp" width="198" height="180" alt="Ministerio de Educación, Gobierno de Chile" loading="lazy" decoding="async">
         </div>
         <figcaption>Ministerio de Educación</figcaption>
@@ -146,17 +170,33 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
     <li class="client-card">
       <figure>
         <div class="client-card__logo">
-          <img src="/assets/img/clientes/municipalidad-santiago.webp" width="248" height="90" alt="Ilustre Municipalidad de Santiago" loading="lazy" decoding="async">
+          <img src="/assets/img/clientes/fibra.webp" width="300" height="105" alt="Productora y Consultora FIBRA" loading="lazy" decoding="async">
         </div>
-        <figcaption>Ilustre Municipalidad de Santiago</figcaption>
+        <figcaption>Productora y Consultora FIBRA</figcaption>
       </figure>
     </li>
     <li class="client-card">
       <figure>
         <div class="client-card__logo">
-          <img src="/assets/img/clientes/fibra.webp" width="300" height="105" alt="Productora y Consultora FIBRA" loading="lazy" decoding="async">
+          <img src="/assets/img/clientes/comudef.webp" width="145" height="180" alt="Corporación Municipal de La Florida, COMUDEF" loading="lazy" decoding="async">
         </div>
-        <figcaption>Productora y Consultora FIBRA</figcaption>
+        <figcaption>COMUDEF</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/spiro-diseno.webp" width="106" height="110" alt="Spiro Diseño" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Spiro Diseño</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/santiago-cultura.webp" width="198" height="80" alt="Santiago Cultura, Ilustre Municipalidad de Santiago" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Santiago Cultura</figcaption>
       </figure>
     </li>
   </ul>

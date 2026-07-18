@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(selector).forEach(link => {
       link.addEventListener('click', (e) => {
         const parent = link.parentElement;
-        if (window.innerWidth <= 1749) {
+        if (window.innerWidth <= 901) {
           const isExpanded = parent.classList.contains('active');
           e.preventDefault();
           closeSiblingDropdowns(parent);
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Cerrar dropdowns activos si se hace clic fuera (solo móviles)
   document.addEventListener('click', (event) => {
-    if (window.innerWidth > 1749) return;
+    if (window.innerWidth > 901) return;
 
     document.querySelectorAll('.dropdown.active, .dropdown-sub.active').forEach(dropdown => {
       if (!dropdown.contains(event.target)) {
