@@ -48,11 +48,11 @@ graph LR
   F --> F3
 
   %% Enlaces (existentes)
-  click Z "/es/mundo-exterior.html" "Ver Representación del Mundo"
-  click Y "/es/tangible.html" "Ver Lo Tangible"
-  click A "/es/saturacion.html" "Ver La Saturación"
-  click B "/es/la-peste.html" "Ver La Peste"
-  click F "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
+  click Z "/ES/mundo-exterior.html" "Ver Representación del Mundo"
+  click Y "/ES/tangible.html" "Ver Lo Tangible"
+  click A "/ES/saturacion.html" "Ver La Saturación"
+  click B "/ES/la-peste.html" "Ver La Peste"
+  click F "/ES/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click F1 "/ES/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/ES/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/ES/espacio-rural.html" "Ir a Espacio Rural / Natural"

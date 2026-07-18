@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let firstFocusableElement, lastFocusableElement;
 
   if (!navToggle || !navMenu) {
-    console.warn("⚠️ Elementos del menú no encontrados.");
+    console.warn("Elementos del menú no encontrados.");
     return;
   }
 
@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navMenu.classList.remove("active");
     navToggle.classList.remove("active");
     navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", navToggle.dataset.labelOpen);
     toggleScrollLock(false);
     enableBackground();
     document.removeEventListener("keydown", trapFocus);
@@ -81,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleMenu = () => {
     const isExpanded = navToggle.getAttribute("aria-expanded") === "true";
     navToggle.setAttribute("aria-expanded", String(!isExpanded));
+    navToggle.setAttribute("aria-label", isExpanded ? navToggle.dataset.labelOpen : navToggle.dataset.labelClose);
     navToggle.classList.toggle("active");
     navMenu.classList.toggle("active");
     toggleScrollLock(!isExpanded);
@@ -108,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(selector).forEach(link => {
       link.addEventListener('click', (e) => {
         const parent = link.parentElement;
-        if (window.innerWidth <= 901) {
+        if (window.innerWidth <= 1749) {
           const isExpanded = parent.classList.contains('active');
           e.preventDefault();
           closeSiblingDropdowns(parent);
@@ -123,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Cerrar dropdowns activos si se hace clic fuera (solo móviles)
   document.addEventListener('click', (event) => {
-    if (window.innerWidth > 901) return;
+    if (window.innerWidth > 1749) return;
 
     document.querySelectorAll('.dropdown.active, .dropdown-sub.active').forEach(dropdown => {
       if (!dropdown.contains(event.target)) {
@@ -134,12 +136,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Toggle desde botón hamburguesa
   navToggle.addEventListener("click", toggleMenu);
-  navToggle.addEventListener("keydown", (event) => {
-    if (["Enter", " "].includes(event.key)) {
-      event.preventDefault();
-      toggleMenu();
-    }
-  });
 
   // Cierre automático al hacer clic en links (solo si no tienen submenú)
   navMenu.querySelectorAll("a").forEach(link => {

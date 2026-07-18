@@ -4,7 +4,7 @@ lang: zh-Hans
 title: "协作壁画"
 description: "EGGS-Studio 中文页面：协作壁画。"
 permalink: /CHN/muralismo-facilitacion.html
-es_url: /es/muralismo-facilitacion.html
+es_url: /ES/muralismo-facilitacion.html
 en_url: /EN/muralism-facilitation.html
 mpd_url: /MPD/muralismo-facilitacion.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"

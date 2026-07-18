@@ -124,11 +124,9 @@
   <!-- Footer -->
   {% include footer-en.html %}
   
-  <!-- General Scripts -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
   <!-- Owl Carousel JS and Initialization (only if the page requires it) -->
   {% if page.carousel %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="/assets/js/carousel-init.js"></script>
   {% endif %}

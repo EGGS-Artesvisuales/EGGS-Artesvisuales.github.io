@@ -4,7 +4,7 @@ lang: arn
 title: "Muralismo - Txawün ñi kellun ka ngülam"
 description: "Esteban Garnica ñi Muralismo trokiñ mew txawün küdaw ñi kellun, ngülam ka küdaw rüpü."
 permalink: /MPD/muralismo-facilitacion.html
-es_url: /es/muralismo-facilitacion.html
+es_url: /ES/muralismo-facilitacion.html
 en_url: /EN/muralism-facilitation.html
 keywords: "muralismo, txawün kellun, lof ñi ngülam, participativo az, muralismo lof mew, Esteban Garnica, EGGS-Studio"
 carousel: true

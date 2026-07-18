@@ -10,19 +10,20 @@
 </div>
 
 <nav class="navbar" role="navigation" aria-label="Menú principal">
-  <div 
+  <button
+    type="button"
     class="nav-toggle" 
     id="nav-toggle"
-    role="button"
-    tabindex="0"
     aria-expanded="false"
     aria-controls="nav-menu"
     aria-label="Abrir menú"
+    data-label-open="Abrir menú"
+    data-label-close="Cerrar menú"
   >
     <span></span>
     <span></span>
     <span></span>
-  </div>
+  </button>
 
    <ul class="nav-menu" id="nav-menu" role="menu">
     <li class="nav-logo" role="none">
@@ -59,7 +60,7 @@
     <li class="dropdown-sub" role="none">
       <a href="/ES/comunitario.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Lo Comunitario</a>
       <ul class="dropdown-menu-sub" role="menu">
-        <li role="none"><a href="/es/muralismo-facilitacion.html" role="menuitem">Muralismo colaborativo</a></li>
+        <li role="none"><a href="/ES/muralismo-facilitacion.html" role="menuitem">Muralismo colaborativo</a></li>
         <li role="none"><a href="/ES/muralismo-festivales.html" role="menuitem">Festivales</a></li>
         <li role="none"><a href="/ES/muralismo-museos-al-aire-libre.html" role="menuitem">Museos al aire libre</a></li>
       </ul>
@@ -119,7 +120,7 @@
 
     <li role="none"><a href="/ES/contacto.html" role="menuitem">Contacto</a></li>
     {% assign alternate_lang_url = page.en_url | default: site.data.language_switch[page.url] | default: '/EN/index.html' %}
-    {% assign mpd_lang_url = page.mpd_url | default: page.url | replace_first: '/ES/', '/MPD/' | replace_first: '/es/', '/MPD/' %}
+    {% assign mpd_lang_url = page.mpd_url | default: page.url | replace_first: '/ES/', '/MPD/' %}
     {% assign zh_lang_url = page.zh_url | default: site.data.language_switch_chn[page.url] | default: '/CHN/index.html' %}
     <li class="nav-lang-switch" role="none" aria-label="Selector de idioma">
       <span class="lang-current" aria-current="true">ES</span>
