@@ -114,3 +114,50 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   </p>
   <a href="/ES/contacto.html" class="enlace">Ir a contacto</a>
 </div>
+
+<section class="client-showcase" aria-labelledby="client-showcase-title">
+  <div class="client-showcase__header">
+    <div>
+      <p class="client-showcase__eyebrow">Hall de clientes</p>
+      <h2 id="client-showcase-title" class="subtitulo2">Clientes y colaboraciones</h2>
+    </div>
+    <p class="client-showcase__intro">
+      Una selección de instituciones y organizaciones con las que he desarrollado proyectos de arte, muralismo, mediación y formación.
+    </p>
+  </div>
+
+  <ul class="client-hall" aria-label="Instituciones y organizaciones colaboradoras">
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/corporacion-cultural-la-florida.webp" width="520" height="121" alt="Corporación Cultural de La Florida" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Corporación Cultural de La Florida</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/ministerio-educacion.webp" width="198" height="180" alt="Ministerio de Educación, Gobierno de Chile" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Ministerio de Educación</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/municipalidad-santiago.webp" width="248" height="90" alt="Ilustre Municipalidad de Santiago" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Ilustre Municipalidad de Santiago</figcaption>
+      </figure>
+    </li>
+    <li class="client-card">
+      <figure>
+        <div class="client-card__logo">
+          <img src="/assets/img/clientes/fibra.webp" width="300" height="105" alt="Productora y Consultora FIBRA" loading="lazy" decoding="async">
+        </div>
+        <figcaption>Productora y Consultora FIBRA</figcaption>
+      </figure>
+    </li>
+  </ul>
+</section>
