@@ -95,3 +95,9 @@ collections:
   productos_en:
     output: true
     permalink: /EN/products/:path/
+  productos_mpd:
+    output: true
+    permalink: /MPD/productos/:path/
+  productos_chn:
+    output: true
+    permalink: /CHN/productos/:path/

@@ -1,0 +1,14 @@
+{% if category_products.size > 0 %}
+<section class="shop-section" id="{{ category_id }}" aria-labelledby="titulo-{{ category_id }}">
+  <div class="shop-section__heading">
+    <p>{{ category_number }}</p>
+    <div>
+      <h2 id="titulo-{{ category_id }}">{{ category_t.label }}</h2>
+      <p>{{ category_t.description }}</p>
+    </div>
+  </div>
+  <div class="shop-grid">
+    {% for product in category_products %}{% include product-card.html product=product t=store_t %}{% endfor %}
+  </div>
+</section>
+{% endif %}

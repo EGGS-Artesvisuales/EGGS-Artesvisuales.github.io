@@ -1,0 +1,40 @@
+{% assign store_t = site.data.store_i18n[page.store_lang] %}
+{% if page.store_lang == "en" %}
+  {% assign productos = site.productos_en | sort: "order" %}
+{% elsif page.store_lang == "mpd" %}
+  {% assign productos = site.productos_mpd | sort: "order" %}
+{% elsif page.store_lang == "chn" %}
+  {% assign productos = site.productos_chn | sort: "order" %}
+{% else %}
+  {% assign productos = site.productos_es | sort: "order" %}
+{% endif %}
+{% assign originales = productos | where: "category", "obras-originales" %}
+{% assign impresiones = productos | where: "category", "impresiones-y-fotografia" %}
+{% assign publicaciones = productos | where: "category", "publicaciones" %}
+{% assign derivados = productos | where: "category", "objetos-y-productos-derivados" %}
+
+<header class="shop-header">
+  <p class="shop-eyebrow">{{ store_t.eyebrow }}</p>
+  <h1 class="titulo">{{ store_t.store_title }}</h1>
+  <p class="shop-intro">{{ store_t.intro }}</p>
+  <p class="shop-note">{{ store_t.note }}</p>
+</header>
+
+<nav class="shop-category-nav" aria-label="{{ store_t.category_nav_label }}">
+  {% if originales.size > 0 %}<a href="#obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales.size }}</span></a>{% endif %}
+  {% if impresiones.size > 0 %}<a href="#impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones.size }}</span></a>{% endif %}
+  {% if publicaciones.size > 0 %}<a href="#publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones.size }}</span></a>{% endif %}
+  {% if derivados.size > 0 %}<a href="#objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados.size }}</span></a>{% endif %}
+</nav>
+
+{% assign category_products = originales %}{% assign category_id = "obras-originales" %}{% assign category_number = "01" %}{% assign category_t = store_t.categories.originals %}{% include store-category.html %}
+{% assign category_products = impresiones %}{% assign category_id = "impresiones-y-fotografia" %}{% assign category_number = "02" %}{% assign category_t = store_t.categories.prints %}{% include store-category.html %}
+{% assign category_products = publicaciones %}{% assign category_id = "publicaciones" %}{% assign category_number = "03" %}{% assign category_t = store_t.categories.publications %}{% include store-category.html %}
+{% assign category_products = derivados %}{% assign category_id = "objetos-y-productos-derivados" %}{% assign category_number = "04" %}{% assign category_t = store_t.categories.derived %}{% include store-category.html %}
+
+<aside class="shop-contact">
+  <p class="shop-eyebrow">{{ store_t.contact_eyebrow }}</p>
+  <h2>{{ store_t.contact_title }}</h2>
+  <p>{{ store_t.contact_text }}</p>
+  <a href="{{ store_t.contact_url }}" class="shop-button">{{ store_t.contact_cta }}</a>
+</aside>

@@ -1,0 +1,48 @@
+{% assign product_t = site.data.store_i18n[page.store_lang] %}
+<article class="producto-layout" itemscope itemtype="https://schema.org/Product">
+  <meta itemprop="name" content="{{ page.title | escape }}">
+  {% if page.image %}<meta itemprop="image" content="{{ site.url }}{{ page.image }}">{% endif %}
+  {% if page.description %}<meta itemprop="description" content="{{ page.description | escape }}">{% endif %}
+  <nav class="product-breadcrumb" aria-label="{{ product_t.breadcrumb_label }}">
+    <a href="{{ product_t.store_url }}">{{ product_t.store_title }}</a>
+    <span aria-hidden="true">/</span>
+    <a href="{{ product_t.store_url }}#{{ page.category }}">{{ page.category_label }}</a>
+  </nav>
+  <div class="product-view">
+    <figure class="product-view__media">
+      <img src="{{ page.image }}" alt="{{ page.title | escape }}" itemprop="image">
+      {% if page.image_note %}<figcaption>{{ page.image_note }}</figcaption>{% endif %}
+    </figure>
+    <div class="product-view__info">
+      <p class="shop-eyebrow">{{ page.category_label }} / {{ page.sku }}</p>
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <p class="product-view__description" itemprop="description">{{ page.description }}</p>
+      <div class="product-view__price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+        <meta itemprop="priceCurrency" content="CLP">
+        <meta itemprop="price" content="{{ page.price_clp }}">
+        {% if page.state contains "produc" or page.state contains "prepar" or page.state contains "encargo" or page.state contains "commission" or page.state contains "制作" or page.state contains "委托" or page.state contains "dewman" or page.state contains "ngillatun" %}
+          <link itemprop="availability" href="https://schema.org/PreOrder">
+        {% else %}
+          <link itemprop="availability" href="https://schema.org/InStock">
+        {% endif %}
+        <span>{{ product_t.price }}</span>
+        <strong>{{ page.price_display }}</strong>
+      </div>
+      <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
+      <dl class="product-specs">
+        {% if page.year %}<div><dt>{{ product_t.year }}</dt><dd>{{ page.year }}</dd></div>{% endif %}
+        <div><dt>{{ product_t.type }}</dt><dd>{{ page.product_type }}</dd></div>
+        <div><dt>{{ product_t.modality }}</dt><dd>{{ page.modality }}</dd></div>
+        <div><dt>{{ product_t.edition }}</dt><dd>{{ page.edition }}</dd></div>
+        <div><dt>{{ product_t.format }}</dt><dd>{{ page.format }}</dd></div>
+        {% unless page.presentation == page.format %}<div><dt>{{ product_t.presentation }}</dt><dd>{{ page.presentation }}</dd></div>{% endunless %}
+        <div><dt>{{ product_t.signed }}</dt><dd>{{ page.signed }}</dd></div>
+        <div><dt>{{ product_t.certificate }}</dt><dd>{{ page.certificate }}</dd></div>
+        <div><dt>{{ product_t.inventory }}</dt><dd>{{ page.fichas }}</dd></div>
+      </dl>
+      <a class="shop-button" href="{{ product_t.contact_url }}?{{ product_t.product_param }}={{ page.sku | url_encode }}">{{ product_t.consult }}</a>
+      <p class="product-view__hint">{{ product_t.hint_prefix }} <strong>{{ page.sku }}</strong>.</p>
+    </div>
+  </div>
+  {{ content }}
+</article>

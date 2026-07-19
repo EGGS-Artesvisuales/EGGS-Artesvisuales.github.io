@@ -1,0 +1,190 @@
+{
+  "es": {
+    "store_title": "Tienda",
+    "store_url": "/ES/tienda.html",
+    "contact_url": "/ES/contacto.html",
+    "product_param": "producto",
+    "eyebrow": "Inventario comercial / Obras publicables",
+    "intro": "Obras originales, impresiones, fotografía, publicaciones, ediciones audiovisuales y reconstrucciones autorizadas. Cada ficha reúne formato, edición, estado y precio a partir del inventario de EGGS-Studio.",
+    "note": "Valores en pesos chilenos. La disponibilidad, entrega y condiciones de despacho se confirman directamente antes de concretar cada compra.",
+    "category_nav_label": "Categorías de la tienda",
+    "categories": {
+      "originals": {
+        "label": "Obras originales",
+        "description": "Piezas únicas disponibles, con certificado y antecedentes de inventario."
+      },
+      "prints": {
+        "label": "Impresiones y fotografía",
+        "description": "Ediciones limitadas, numeradas y certificadas, producidas en materiales de conservación."
+      },
+      "publications": {
+        "label": "Publicaciones",
+        "description": "Ediciones de artista concebidas como obras editoriales numeradas."
+      },
+      "derived": {
+        "label": "Objetos y productos derivados",
+        "description": "Ediciones audiovisuales y reconstrucciones autorizadas, disponibles según sus condiciones de producción."
+      }
+    },
+    "contact_eyebrow": "Consultas",
+    "contact_title": "¿Necesitas confirmar una obra?",
+    "contact_text": "Escribe indicando el SKU del producto para revisar disponibilidad, entrega y condiciones de despacho.",
+    "contact_cta": "Contactar a EGGS-Studio",
+    "card_open": "Ver",
+    "card_view": "Ver ficha",
+    "breadcrumb_label": "Migas de pan",
+    "price": "Precio",
+    "year": "Año",
+    "type": "Tipo",
+    "modality": "Modalidad",
+    "edition": "Edición",
+    "format": "Formato",
+    "presentation": "Soporte / presentación",
+    "signed": "Firma / sello",
+    "certificate": "Certificado",
+    "inventory": "Ficha de inventario",
+    "consult": "Consultar disponibilidad",
+    "hint_prefix": "Al escribir, incluye el SKU"
+  },
+  "en": {
+    "store_title": "Shop",
+    "store_url": "/EN/store.html",
+    "contact_url": "/EN/contact.html",
+    "product_param": "product",
+    "eyebrow": "Commercial inventory / Available works",
+    "intro": "Original works, prints, photography, publications, audiovisual editions and authorized reconstructions. Each record presents format, edition, status and price from the EGGS-Studio inventory.",
+    "note": "Prices are in Chilean pesos. Availability, delivery and shipping conditions are confirmed directly before each purchase.",
+    "category_nav_label": "Shop categories",
+    "categories": {
+      "originals": {
+        "label": "Original works",
+        "description": "Available unique works with certificates and inventory records."
+      },
+      "prints": {
+        "label": "Prints and photography",
+        "description": "Limited, numbered and certified editions produced with conservation-grade materials."
+      },
+      "publications": {
+        "label": "Publications",
+        "description": "Artist editions conceived as numbered editorial works."
+      },
+      "derived": {
+        "label": "Objects and derivative works",
+        "description": "Audiovisual editions and authorized reconstructions, available under their stated production conditions."
+      }
+    },
+    "contact_eyebrow": "Enquiries",
+    "contact_title": "Would you like to confirm a work?",
+    "contact_text": "Include the product SKU to confirm availability, delivery and shipping conditions.",
+    "contact_cta": "Contact EGGS-Studio",
+    "card_open": "View",
+    "card_view": "View details",
+    "breadcrumb_label": "Breadcrumb",
+    "price": "Price",
+    "year": "Year",
+    "type": "Type",
+    "modality": "Sales modality",
+    "edition": "Edition",
+    "format": "Format",
+    "presentation": "Medium / presentation",
+    "signed": "Signature / stamp",
+    "certificate": "Certificate",
+    "inventory": "Inventory record",
+    "consult": "Check availability",
+    "hint_prefix": "When writing, include SKU"
+  },
+  "mpd": {
+    "store_title": "Trafkintu",
+    "store_url": "/MPD/tienda.html",
+    "contact_url": "/MPD/contacto.html",
+    "product_param": "producto",
+    "eyebrow": "Trafkintu inventario / Kümelelchi küdaw",
+    "intro": "Kiñe müten az-küdaw, prints, fotografía, chillka, video edición ka ka dewman az-küdaw. Fill ficha mew müley formato, edición, chumlen ka falintun, EGGS-Studio ñi inventario mew tripalu.",
+    "note": "Falintun chileno peso mew müley. Petu ngillal, disponibilidad, eluwün ka werkün ñi az mütrüm mew feypingeay.",
+    "category_nav_label": "Trafkintu ñi trokiñ",
+    "categories": {
+      "originals": {
+        "label": "Kiñe müten az-küdaw",
+        "description": "Kiñe müten küdaw, certificado ka inventario ficha egu."
+      },
+      "prints": {
+        "label": "Prints ka fotografía",
+        "description": "Pichi edición, rakiduam niechi ka certificado egu, conservación material mew dewman."
+      },
+      "publications": {
+        "label": "Chillka",
+        "description": "Artista ñi rakiduam niechi chillka edición."
+      },
+      "derived": {
+        "label": "Objetos ka küdaw mew tripalu producto",
+        "description": "Video edición ka autorización niechi ka dewman az-küdaw, ñi dewman az mew trafkintuam."
+      }
+    },
+    "contact_eyebrow": "Ramtu",
+    "contact_title": "Kiñe küdaw ñi mülen kimaymi?",
+    "contact_text": "Producto ñi SKU wirintuku, disponibilidad, eluwün ka werkün ñi az kimam.",
+    "contact_cta": "EGGS-Studio mew nütram",
+    "card_open": "Adkintu",
+    "card_view": "Ficha adkintu",
+    "breadcrumb_label": "Rüpü",
+    "price": "Falintun",
+    "year": "Tripantu",
+    "type": "Chumgechi",
+    "modality": "Trafkintu ñi az",
+    "edition": "Edición",
+    "format": "Formato",
+    "presentation": "Soporte / presentación",
+    "signed": "Firma / sello",
+    "certificate": "Certificado",
+    "inventory": "Inventario ficha",
+    "consult": "Disponibilidad ramtu",
+    "hint_prefix": "Wirintukule, SKU koneltu"
+  },
+  "chn": {
+    "store_title": "商店",
+    "store_url": "/CHN/tienda.html",
+    "contact_url": "/CHN/contacto.html",
+    "product_param": "producto",
+    "eyebrow": "商业库存／可购买作品",
+    "intro": "原作、艺术微喷、摄影、出版物、视听版本及授权重制作品。每件商品均依据EGGS-Studio库存资料列明尺寸、版本、状态与价格。",
+    "note": "价格以智利比索计。购买前将直接确认库存、交付方式及运输条件。",
+    "category_nav_label": "商店类别",
+    "categories": {
+      "originals": {
+        "label": "原作",
+        "description": "附证书及库存记录的可购买唯一作品。"
+      },
+      "prints": {
+        "label": "艺术微喷与摄影",
+        "description": "采用档案级材料制作的限量、编号及认证版本。"
+      },
+      "publications": {
+        "label": "出版物",
+        "description": "作为编号编辑作品构思的艺术家出版物。"
+      },
+      "derived": {
+        "label": "物件与衍生作品",
+        "description": "视听版本及授权重制作品，依各自制作条件提供。"
+      }
+    },
+    "contact_eyebrow": "咨询",
+    "contact_title": "需要确认某件作品吗？",
+    "contact_text": "请在来信中注明商品SKU，以确认库存、交付方式及运输条件。",
+    "contact_cta": "联系EGGS-Studio",
+    "card_open": "查看",
+    "card_view": "查看详情",
+    "breadcrumb_label": "面包屑导航",
+    "price": "价格",
+    "year": "年份",
+    "type": "类型",
+    "modality": "销售方式",
+    "edition": "版本",
+    "format": "尺寸",
+    "presentation": "媒材／装帧",
+    "signed": "签名／印记",
+    "certificate": "证书",
+    "inventory": "库存记录",
+    "consult": "查询库存",
+    "hint_prefix": "来信时请注明SKU"
+  }
+}
