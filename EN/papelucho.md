@@ -42,9 +42,9 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-oficial.webp" alt="Official photograph of the Papelucho sculpture" loading="lazy"><figcaption>Official photograph of the work.</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-01.webp" alt="Detail of Papelucho with pencil and notebook" loading="lazy"><figcaption>Detail of the character and attributes.</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-02.webp" alt="Full view of the Papelucho sculpture" loading="lazy"><figcaption>Full view on its base.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-03.webp" alt="Front view of Papelucho" loading="lazy"><figcaption>Front view.</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-04.webp" alt="Side view of Papelucho" loading="lazy"><figcaption>Side view with pencil and notebook.</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-05.webp" alt="Three-quarter view of Papelucho" loading="lazy"><figcaption>Three-quarter view.</figcaption></figure>
 </div>

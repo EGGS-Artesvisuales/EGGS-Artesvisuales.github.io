@@ -43,6 +43,6 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
-  <div class="item"><a href="/CHN/papelucho.html"><div class="img-container"><img class="carousel-img" src="/assets/img/intangible/papelucho-03.webp" alt="Papelucho，着色树脂雕塑" loading="lazy"></div><figcaption>Papelucho · pugliEGGSe</figcaption></a></div>
+  <div class="item"><a href="/CHN/papelucho.html"><div class="img-container"><img class="carousel-img" src="/assets/img/intangible/papelucho-oficial.webp" alt="Papelucho 雕塑官方照片" loading="lazy"></div><figcaption>Papelucho · pugliEGGSe</figcaption></a></div>
   <div class="item"><a href="/CHN/en-construccion.html"><div class="img-container"><img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="模因绘画，发展中的系列" loading="lazy"></div><figcaption>模因绘画 · 发展中</figcaption></a></div>
 </div>

@@ -42,9 +42,9 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-oficial.webp" alt="Papelucho 雕塑官方照片" loading="lazy"><figcaption>作品官方照片。</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-01.webp" alt="Papelucho 与铅笔、笔记本细节" loading="lazy"><figcaption>人物与随身物件细节。</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-02.webp" alt="Papelucho 雕塑全景" loading="lazy"><figcaption>基座上的全景。</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-03.webp" alt="Papelucho 正面" loading="lazy"><figcaption>正面。</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-04.webp" alt="Papelucho 侧面" loading="lazy"><figcaption>手持铅笔与笔记本的侧面。</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-05.webp" alt="Papelucho 四分之三侧面" loading="lazy"><figcaption>四分之三侧面。</figcaption></figure>
 </div>

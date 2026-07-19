@@ -41,6 +41,6 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
-  <div class="item"><a href="/EN/papelucho.html"><div class="img-container"><img class="carousel-img" src="/assets/img/intangible/papelucho-03.webp" alt="Papelucho, pigmented resin sculpture" loading="lazy"></div><figcaption>Papelucho · pugliEGGSe</figcaption></a></div>
+  <div class="item"><a href="/EN/papelucho.html"><div class="img-container"><img class="carousel-img" src="/assets/img/intangible/papelucho-oficial.webp" alt="Papelucho, official photograph of the sculpture" loading="lazy"></div><figcaption>Papelucho · pugliEGGSe</figcaption></a></div>
   <div class="item"><a href="/EN/under-construction.html"><div class="img-container"><img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Meme Painting, series in development" loading="lazy"></div><figcaption>Meme Painting · in development</figcaption></a></div>
 </div>
