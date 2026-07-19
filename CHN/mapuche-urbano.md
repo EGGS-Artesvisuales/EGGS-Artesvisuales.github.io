@@ -22,35 +22,21 @@ mermaid: true
 <!-- Mermaid: Ruta desde Representación del Mundo hacia Mapuche Urbano -->
 <div class="mermaid">
 flowchart LR
-  %% Regla visual:
-  %% - Ruta activa (触及的节点): ((圆形的))
-  %% - Hermanos / ramas fuera de ruta: ([圆角矩形])
-
-  A((世界的代表)) --> T([有形的])
-  A --> I((无形资产))
-
-  I --> C([资本主义])
-  I --> P([热门])
-  I --> AN((祖先的图像))
-
-  AN --> AN_M([壁画/绘画干预])
-  AN --> AN_A((动作/摄影表演+视频))
-
-  AN_A --> MU((城市马普切人：记忆的倒塌))
-
-  %% Links (是/)
-  click A "/CHN/mundo-exterior.html" "前往世界代表"
-  click T "/CHN/tangible.html" "走向有形"
-  click I "/CHN/intangible.html" "走向无形"
-
-  click C "/CHN/en-construccion.html" "建设中"
-  click P "/CHN/en-construccion.html" "建设中"
-
-  click AN "/CHN/imagenes-ancestros.html" "前往祖先画像"
-  click AN_M "/CHN/en-construccion.html" "建设中"
-  click AN_A "/CHN/en-construccion.html" "建设中"
-
-  click MU "/CHN/mapuche-urbano.html" "你在这里"
+  A((世界的再现)) --> T([有形])
+  A --> I((无形))
+  I --> C([资本主义图像])
+  I --> P([民众图像])
+  I --> AN((祖先图像))
+  AN --> TA((城市马普切：记忆的砍伐))
+  AN --> MU([露天 Musoe])
+  click A "/CHN/mundo-exterior.html" "前往世界的再现"
+  click T "/CHN/tangible.html" "前往有形"
+  click I "/CHN/intangible.html" "前往无形"
+  click C "/CHN/imagenes-capitalismo.html" "前往资本主义图像"
+  click P "/CHN/imagenes-popular.html" "前往民众图像"
+  click AN "/CHN/imagenes-ancestros.html" "前往祖先图像"
+  click TA "/CHN/mapuche-urbano.html" "您在这里"
+  click MU "/CHN/musoe-a-cielo-abierto.html" "前往露天 Musoe"
 </div>
 
 <hr class="separador separador--aire" />

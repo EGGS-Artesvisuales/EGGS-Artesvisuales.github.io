@@ -8,21 +8,23 @@ keywords: "Lo Intangible, arte contemporáneo, pintura expandida, simbolismo, es
 mermaid: true
 ---
 
-<h1 class="titulo">Lo intangible</h1>
+<h1 class="titulo">Lo Intangible</h1>
 
-<h2 class="subtitulo">Representación del mundo inmaterial</h2>
+<h2 class="subtitulo">Imágenes, valores y memorias que organizan la experiencia</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  En el vasto campo de la representación del mundo, emergen dos dimensiones claramente definidas: 
-  la representación de lo tangible, aquello que se manifiesta de manera física y se percibe a través 
-  de los sentidos, y la representación de lo intangible, compuesta por ideas y fuerzas simbólicas que 
-  trascienden lo material. Este apartado reúne las obras que exploran esa esfera inmaterial.
+  En la <strong>Representación del Mundo</strong>, lo intangible designa aquello que no se agota en un
+  objeto material: sistemas de valor, memorias, símbolos, identidades y relatos que modelan la vida
+  colectiva. Las obras de esta rama hacen visibles esas fuerzas mediante fotografía, acción,
+  instalación, muralismo, escultura y registro.
 </p>
 
 <p class="parrafo">
-  Siguiendo mi estrategia pictórica —orientada a captar las tensiones y particularidades de nuestra 
-  contingencia histórica— he organizado estas obras en tres líneas de trabajo que dialogan entre sí 
-  a través de conceptos, imaginarios y estructuras de sentido.
+  La investigación se organiza en tres líneas relacionadas. <strong>Imágenes del Capitalismo</strong>
+  examina trabajo, poder, consumo y circulación económica; <strong>Imágenes de lo Popular</strong>
+  trabaja con personajes y códigos de la memoria compartida; e <strong>Imágenes de las Ancestras</strong>
+  aborda identidad, territorio y continuidad cultural. El diagrama muestra esta estructura y destaca
+  con nodos circulares la ruta activa.
 </p>
 
 <br>
@@ -35,14 +37,14 @@ graph LR
 
     Intangible --> Capitalismo(["Imágenes del Capitalismo"])
     Intangible --> Popular(["Imágenes de lo Popular"])
-    Intangible --> Ancestros(["Imágenes de los Ancestros"])
+    Intangible --> Ancestras(["Imágenes de las Ancestras"])
 
     click Representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
     click Tangible "/ES/tangible.html" "Ir a Lo Tangible"
     click Intangible "/ES/intangible.html" "Ir a Lo Intangible"
     click Capitalismo "/ES/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
     click Popular "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
-    click Ancestros "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+    click Ancestras "/ES/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
 </div>
 
 <br>
@@ -67,9 +69,9 @@ graph LR
 
   <a href="/ES/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros" loading="lazy">
-      <p class="title">Imágenes de los Ancestros</p>
-      <p class="subtitle">Homenaje a la memoria, tradición y conexión con las raíces.</p>
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de las Ancestras" loading="lazy">
+      <p class="title">Imágenes de las Ancestras</p>
+      <p class="subtitle">Memoria, territorio y continuidad cultural.</p>
     </div>
   </a>
 

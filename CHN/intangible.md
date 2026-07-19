@@ -1,82 +1,46 @@
 ---
 layout: default-chn
 lang: zh-Hans
-title: "无形"
-description: "EGGS-Studio 中文页面：无形。"
+title: "无形 – Esteban Garnica 作品"
+description: "Esteban Garnica 关于价值、记忆、符号、身份与集体叙事的作品。"
 permalink: /CHN/intangible.html
 es_url: /ES/intangible.html
 en_url: /EN/intangible.html
 mpd_url: /MPD/intangible.html
-keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+keywords: "无形, 资本主义图像, 民众图像, 祖先图像, Esteban Garnica, EGGS-Studio"
 mermaid: true
 ---
 
-
-<h1 class="titulo">无形的</h1>
-
-<h2 class="subtitulo">非物质世界的表征</h2>
+<h1 class="titulo">无形</h1>
+<h2 class="subtitulo">组织经验的图像、价值与记忆</h2>
 
 <p class="parrafo" style="margin-top: 6%;">
-  在世界表征的广阔领域中，出现了两个明确定义的维度：
-  有形的表征，即通过物理方式表现出来并通过感知来感知的东西
-  感官的表征，以及无形的表征，由观念和象征力量组成，
-  它们超越了物质。本节汇集了探索这个非物质领域的作品。
+  在<strong>世界的再现</strong>中，“无形”指的是无法被物质对象完全涵盖的事物：
+  价值体系、记忆、符号、身份与塑造集体生活的叙事。本分支中的作品通过摄影、
+  行为、装置、壁画、雕塑与档案记录，使这些力量变得可见。
 </p>
-
 <p class="parrafo">
-  遵循我的绘画策略——旨在捕捉我们的紧张和特殊性
-  历史的偶然性——我把这些作品分成了相互对话的三条线
-  通过概念、想象和意义结构。
+  研究由三条相互关联的线索构成。<strong>资本主义图像</strong>讨论劳动、权力、
+  消费与经济流通；<strong>民众图像</strong>处理共享记忆中的人物与文化代码；
+  <strong>祖先图像</strong>则关注身份、领土与文化延续。圆形节点表示当前路径。
 </p>
-
-<br>
 
 <div class="mermaid">
-graph LR
-    Representacion(("世界的代表"))
-    Representacion --> Tangible(["有形的"])
-    Representacion --> Intangible(("无形资产"))
-
-    Intangible --> Capitalismo(["资本主义形象"])
-    Intangible --> Popular(["流行图像"])
-    Intangible --> Ancestros(["祖先的图像"])
-
-    click Representacion "/CHN/mundo-exterior.html" "前往世界代表"
-    click Tangible "/CHN/tangible.html" "走向有形"
-    click Intangible "/CHN/intangible.html" "走向无形"
-    click Capitalismo "/CHN/imagenes-capitalismo.html" "前往资本主义形象"
-    click Popular "/CHN/imagenes-popular.html" "前往热门图片"
-    click Ancestros "/CHN/imagenes-ancestros.html" "前往祖先画像"
+flowchart LR
+  A((世界的再现)) --> T([有形])
+  A --> I((无形))
+  I --> C([资本主义图像])
+  I --> P([民众图像])
+  I --> AN([祖先图像])
+  click A "/CHN/mundo-exterior.html" "前往世界的再现"
+  click T "/CHN/tangible.html" "前往有形"
+  click I "/CHN/intangible.html" "您在这里"
+  click C "/CHN/imagenes-capitalismo.html" "前往资本主义图像"
+  click P "/CHN/imagenes-popular.html" "前往民众图像"
+  click AN "/CHN/imagenes-ancestros.html" "前往祖先图像"
 </div>
-
-<br>
-
 <div class="button-container">
-
-  <a href="/CHN/imagenes-capitalismo.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Imágenes del Capitalismo" loading="lazy">
-      <p class="title">资本主义形象</p>
-      <p class="subtitle">对经济结构及其日常影响的视觉反映。</p>
-    </div>
-  </a>
-
-  <a href="/CHN/imagenes-popular.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Imágenes de lo Popular" loading="lazy">
-      <p class="title">流行图像</p>
-      <p class="subtitle">对集体想象力的庆祝和质疑。</p>
-    </div>
-  </a>
-
-  <a href="/CHN/imagenes-ancestros.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros" loading="lazy">
-      <p class="title">祖先的图像</p>
-      <p class="subtitle">向记忆、传统和与根源的联系致敬。</p>
-    </div>
-  </a>
-
+  <a href="/CHN/imagenes-capitalismo.html" class="fancy-button"><div class="button-content"><img src="/assets/img/imagenes-del-capitalismo.webp" alt="资本主义图像" loading="lazy"><p class="title">资本主义图像</p><p class="subtitle">经济结构及其日常影响。</p></div></a>
+  <a href="/CHN/imagenes-popular.html" class="fancy-button"><div class="button-content"><img src="/assets/img/animacion-boton-lo-popular.webp" alt="民众图像" loading="lazy"><p class="title">民众图像</p><p class="subtitle">共享人物、记忆与文化流通。</p></div></a>
+  <a href="/CHN/imagenes-ancestros.html" class="fancy-button"><div class="button-content"><img src="/assets/img/animacion-boton-los-ancestros.webp" alt="祖先图像" loading="lazy"><p class="title">祖先图像</p><p class="subtitle">记忆、领土与文化延续。</p></div></a>
 </div>
-
-<br><br>

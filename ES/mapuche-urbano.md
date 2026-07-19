@@ -18,35 +18,22 @@ mermaid: true
 <!-- Mermaid: Ruta desde Representación del Mundo hacia Mapuche Urbano -->
 <div class="mermaid">
 flowchart LR
-  %% Regla visual:
-  %% - Ruta activa (nodos tocados): ((redondos))
-  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
-
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
+  I --> C([Imágenes del Capitalismo])
+  I --> P([Imágenes de lo Popular])
+  I --> AN((Imágenes de las Ancestras))
+  AN --> TA((Mapuche Urbano: La Tala de la Memoria))
+  AN --> MU([Musoe a Cielo Abierto])
 
-  I --> C([El Capitalismo])
-  I --> P([Lo Popular])
-  I --> AN((Imágenes de los Ancestros))
-
-  AN --> AN_M([Muralismo / Intervención pictórica])
-  AN --> AN_A((Acción / Foto-performance + Video))
-
-  AN_A --> MU((Mapuche Urbano: La Tala de la Memoria))
-
-  %% Links (ES/)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click T "/ES/tangible.html" "Ir a Lo Tangible"
   click I "/ES/intangible.html" "Ir a Lo Intangible"
-
-  click C "/ES/en-construccion.html" "En construcción"
-  click P "/ES/en-construccion.html" "En construcción"
-
-  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
-  click AN_M "/ES/en-construccion.html" "En construcción"
-  click AN_A "/ES/en-construccion.html" "En construcción"
-
-  click MU "/ES/mapuche-urbano.html" "Estás aquí"
+  click C "/ES/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
+  click P "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
+  click TA "/ES/mapuche-urbano.html" "Estás aquí"
+  click MU "/ES/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
 </div>
 
 <hr class="separador separador--aire" />
@@ -200,7 +187,7 @@ flowchart LR
   <p>
     <a href="#ficha">Ir a Ficha</a> ·
     <a href="#tecnica">Ir a Técnica</a> ·
-    <a href="/ES/imagenes-ancestros.html">Ir a Imágenes de los Ancestros</a>
+    <a href="/ES/imagenes-ancestros.html">Ir a Imágenes de las Ancestras</a>
   </p>
 </section>
 
@@ -211,8 +198,8 @@ flowchart LR
 
   <a href="/ES/imagenes-ancestros.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros" loading="lazy">
-      <p class="title">Imágenes de los Ancestros</p>
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de las Ancestras" loading="lazy">
+      <p class="title">Imágenes de las Ancestras</p>
       <p class="subtitle">Volver a la rama conceptual.</p>
     </div>
   </a>

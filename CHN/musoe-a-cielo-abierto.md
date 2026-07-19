@@ -5,7 +5,7 @@ title: "露天 Musoe"
 description: "EGGS-Studio 中文页面：露天 Musoe。"
 permalink: /CHN/musoe-a-cielo-abierto.html
 es_url: /ES/musoe-a-cielo-abierto.html
-en_url: /EN/open-air-museum.html
+en_url: /EN/musoe-open-air.html
 mpd_url: /MPD/musoe-a-cielo-abierto.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
 carousel: true
@@ -27,33 +27,21 @@ mermaid: true
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 <div class="mermaid">
 flowchart LR
-  %% Página: Representación del Mundo
-  %% Regla visual:
-  %% - Ruta activa (触及的节点): ((圆形的))
-  %% - Hermanos / ramas fuera de ruta: ([圆角矩形])
-
-  A((世界的代表)) --> T([有形的])
-  A --> I((无形资产))
-
-  I --> C([资本主义])
-  I --> P([热门])
-  I --> AN((祖先的图像))
-
-  AN --> AN_M((壁画/绘画干预))
-  AN --> AN_A([动作/摄影表演+视频])
-
-  AN_M --> MCA((开放天空博物馆))
-
-  %% Links (是/)
-  click A "/CHN/mundo-exterior.html" "前往世界代表"
-  click T "/CHN/tangible.html" "走向有形"
-  click I "/CHN/intangible.html" "走向无形"
-  click C "/CHN/en-construccion.html" "建设中"
-  click P "/CHN/en-construccion.html" "建设中"
-  click AN "/CHN/imagenes-ancestros.html" "前往祖先画像"
-
-  click AN_A "/CHN/en-construccion.html" "建设中"
-  click MCA "/CHN/musoe-a-cielo-abierto.html" "前往开放天空博物馆"
+  A((世界的再现)) --> T([有形])
+  A --> I((无形))
+  I --> C([资本主义图像])
+  I --> P([民众图像])
+  I --> AN((祖先图像))
+  AN --> TA([城市马普切：记忆的砍伐])
+  AN --> MU((露天 Musoe))
+  click A "/CHN/mundo-exterior.html" "前往世界的再现"
+  click T "/CHN/tangible.html" "前往有形"
+  click I "/CHN/intangible.html" "前往无形"
+  click C "/CHN/imagenes-capitalismo.html" "前往资本主义图像"
+  click P "/CHN/imagenes-popular.html" "前往民众图像"
+  click AN "/CHN/imagenes-ancestros.html" "前往祖先图像"
+  click TA "/CHN/mapuche-urbano.html" "前往记忆的砍伐"
+  click MU "/CHN/musoe-a-cielo-abierto.html" "您在这里"
 </div>
 
 

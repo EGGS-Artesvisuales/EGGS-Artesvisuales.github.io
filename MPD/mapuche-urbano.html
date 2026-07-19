@@ -18,35 +18,21 @@ mermaid: true
 <!-- Mermaid: Ruta desde Wallmapu ñi azentun hacia Mapuche Urbano -->
 <div class="mermaid">
 flowchart LR
-  %% Regla azentun:
-  %% - Ruta activa (nodos tocados): ((redondos))
-  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
-
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
-
-  I --> C([Capitalismo])
-  I --> P([Pu che ñi az])
+  I --> C([Capitalismo ñi pu az])
+  I --> P([Pu che ñi pu az])
   I --> AN((Kuifikeche ñi pu az))
-
-  AN --> AN_M([Muralismo / Pintura koneltun])
-  AN --> AN_A((Mapu mew küdaw / Foto-performance + Video))
-
-  AN_A --> MU((Mapuche Urbano: La Tala de la Memoria))
-
-  %% Links (ES/)
-  click A "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
-  click T "/MPD/tangible.html" "Amun: Kalül mew"
-  click I "/MPD/intangible.html" "Amun: Püllü mew"
-
-  click C "/MPD/en-construccion.html" "Dewmangen mew"
-  click P "/MPD/en-construccion.html" "Dewmangen mew"
-
-  click AN "/MPD/imagenes-ancestros.html" "Amun: Kuifikeche ñi pu az"
-  click AN_M "/MPD/en-construccion.html" "Dewmangen mew"
-  click AN_A "/MPD/en-construccion.html" "Dewmangen mew"
-
-  click MU "/MPD/mapuche-urbano.html" "Faw müley"
+  AN --> TA((Mapuche Urbano: La Tala de la Memoria))
+  AN --> MU([Wente mapu Musoe])
+  click A "/MPD/mundo-exterior.html" "Wallmapu ñi azentun mew amun"
+  click T "/MPD/tangible.html" "Kalül mew amun"
+  click I "/MPD/intangible.html" "Püllü mew amun"
+  click C "/MPD/imagenes-capitalismo.html" "Capitalismo ñi pu az mew amun"
+  click P "/MPD/imagenes-popular.html" "Pu che ñi pu az mew amun"
+  click AN "/MPD/imagenes-ancestros.html" "Kuifikeche ñi pu az mew amun"
+  click TA "/MPD/mapuche-urbano.html" "Faw müleymi"
+  click MU "/MPD/musoe-a-cielo-abierto.html" "Wente mapu Musoe mew amun"
 </div>
 
 <hr class="separador separador--aire" />

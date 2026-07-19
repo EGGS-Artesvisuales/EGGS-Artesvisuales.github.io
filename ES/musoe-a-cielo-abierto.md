@@ -17,39 +17,24 @@ mermaid: true
 
 
 
-<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
-<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
-
-<!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 <div class="mermaid">
 flowchart LR
-  %% Página: Representación del Mundo
-  %% Regla visual:
-  %% - Ruta activa (nodos tocados): ((redondos))
-  %% - Hermanos / ramas fuera de ruta: ([redondeados-rectangulares])
-
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
+  I --> C([Imágenes del Capitalismo])
+  I --> P([Imágenes de lo Popular])
+  I --> AN((Imágenes de las Ancestras))
+  AN --> TA([Mapuche Urbano: La Tala de la Memoria])
+  AN --> MU((Musoe a Cielo Abierto))
 
-  I --> C([El Capitalismo])
-  I --> P([Lo Popular])
-  I --> AN((Imágenes de los Ancestros))
-
-  AN --> AN_M((Muralismo / Intervención pictórica))
-  AN --> AN_A([Acción / Foto-performance + Video])
-
-  AN_M --> MCA((Musoe a Cielo Abierto))
-
-  %% Links (ES/)
   click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click T "/ES/tangible.html" "Ir a Lo Tangible"
   click I "/ES/intangible.html" "Ir a Lo Intangible"
-  click C "/ES/en-construccion.html" "En construcción"
-  click P "/ES/en-construccion.html" "En construcción"
-  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
- 
-  click AN_A "/ES/en-construccion.html" "En construcción"
-  click MCA "/ES/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+  click C "/ES/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
+  click P "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
+  click TA "/ES/mapuche-urbano.html" "Ir a La Tala de la Memoria"
+  click MU "/ES/musoe-a-cielo-abierto.html" "Estás aquí"
 </div>
 
 
@@ -323,7 +308,7 @@ flowchart LR
 <section class="parrafo">
   <p>
     <a href="#dipticos">Volver a Dípticos</a> ·
-    <a href="/ES/imagenes-ancestros.html">Ir a Imágenes de los Ancestros</a>
+    <a href="/ES/imagenes-ancestros.html">Ir a Imágenes de las Ancestras</a>
   </p>
 </section>
 

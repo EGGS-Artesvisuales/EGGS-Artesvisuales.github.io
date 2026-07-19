@@ -14,23 +14,22 @@ mermaid: true
 
 <div class="mermaid">
 flowchart LR
-  A((Representation of the World)) --> T([The Tangible])
+  A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
-  I --> C([Capitalism])
-  I --> P([The Popular])
+  I --> C([Images of Capitalism])
+  I --> P([Images of the Popular])
   I --> AN((Images of the Ancestors))
-  AN --> AN_M([Muralism / Pictorial Intervention])
-  AN --> AN_A((Action / Photo-performance + Video))
-  AN_A --> MU((Urban Mapuche: The Felling of Memory))
+  AN --> TA((Urban Mapuche: The Felling of Memory))
+  AN --> MU([Musoe Open Air])
 
-  click A "/EN/world-representation.html" "Go to Representation of the World"
+  click A "/EN/world-representation.html" "Go to World Representation"
   click T "/EN/tangible.html" "Go to The Tangible"
   click I "/EN/intangible.html" "Go to The Intangible"
   click C "/EN/images-of-capitalism.html" "Go to Images of Capitalism"
   click P "/EN/images-of-the-popular.html" "Go to Images of the Popular"
   click AN "/EN/images-of-the-ancestors.html" "Go to Images of the Ancestors"
-  click AN_M "/EN/open-air-museum.html" "Go to Musoe Open Air"
-  click MU "/EN/urban-mapuche.html" "You are here"
+  click TA "/EN/urban-mapuche.html" "You are here"
+  click MU "/EN/musoe-open-air.html" "Go to Musoe Open Air"
 </div>
 
 <h2 class="subtitulo" id="urban-mapuche">Urban Mapuche</h2>

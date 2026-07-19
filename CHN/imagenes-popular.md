@@ -1,50 +1,48 @@
 ---
 layout: default-chn
 lang: zh-Hans
-title: "民众图像"
-description: "EGGS-Studio 中文页面：民众图像。"
+title: "民众图像 – Esteban Garnica 作品"
+description: "Esteban Garnica 关于共享人物、童年、媒介与集体记忆的作品。"
 permalink: /CHN/imagenes-popular.html
 es_url: /ES/imagenes-popular.html
 en_url: /EN/images-of-the-popular.html
 mpd_url: /MPD/imagenes-popular.html
-keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+keywords: "民众图像, 流行文化, 集体记忆, Papelucho, pugliEGGSe, Esteban Garnica"
 carousel: true
-mermaid: false
+mermaid: true
 ---
 
+<h1 class="titulo">民众图像</h1>
+<h2 class="subtitulo">人物、共享记忆与文化流通</h2>
 
-
-<h1 class="titulo">流行图像</h1>
-<h2 class="subtitulo">图像学、身份和文化批评</h2>
-
+<div class="mermaid">
+flowchart LR
+  A((世界的再现)) --> T([有形])
+  A --> I((无形))
+  I --> C([资本主义图像])
+  I --> P((民众图像))
+  I --> AN([祖先图像])
+  P --> PE([pugliEGGSe · 雕塑线索])
+  PE --> PA([Papelucho])
+  P --> PM([模因绘画 · 发展中])
+  click A "/CHN/mundo-exterior.html" "前往世界的再现"
+  click T "/CHN/tangible.html" "前往有形"
+  click I "/CHN/intangible.html" "前往无形"
+  click C "/CHN/imagenes-capitalismo.html" "前往资本主义图像"
+  click P "/CHN/imagenes-popular.html" "您在这里"
+  click AN "/CHN/imagenes-ancestros.html" "前往祖先图像"
+  click PA "/CHN/papelucho.html" "前往 Papelucho"
+  click PM "/CHN/en-construccion.html" "系列发展中"
+</div>
 <section class="parrafo">
-  <p>
-    本系列研究了在城市空间、媒体和流行文化中广泛传播的符号、人物和视觉叙事。从批判的角度来看，这里收集的作品回顾了集体想象力如何塑造和再现某些形式的身份、归属感和象征力量。
-  </p>
-  <p>
-    通过挪用、干预和改造，这些图像重新配置了流行偶像，质疑它们的功能，消除刻板印象，并围绕流行作为一种文化、政治和审美结构开辟新的意义领域。
-  </p>
+  <p><strong>民众图像</strong>处理穿行于日常生活、童年、媒介与集体记忆中的人物和文化代码。
+  这里的“民众”是一个持续变化的场域：它是一套共享的形象资源，能够唤起情感、认同与讨论。</p>
+  <p><strong>Papelucho</strong> 是计划中的雕塑线索 <strong>pugliEGGSe</strong>
+  第一件已完成作品。<strong>模因绘画</strong>也属于这一分支，但仍处于发展阶段，
+  目前尚无可公开的已完成作品。</p>
 </section>
 
-<!-- Carrusel de obras -->
 <div class="owl-carousel carousel-imagen">
-
-  <div class="item">
-    <a href="/CHN/en-construccion.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Esculturas">
-      </div>
-      <figcaption>雕塑</figcaption>
-    </a>
-  </div>
-
-  <div class="item">
-    <a href="/CHN/en-construccion.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="Papelucho">
-      </div>
-      <figcaption>帕佩鲁乔</figcaption>
-    </a>
-  </div>
-
+  <div class="item"><a href="/CHN/papelucho.html"><div class="img-container"><img class="carousel-img" src="/assets/img/intangible/papelucho-03.webp" alt="Papelucho，着色树脂雕塑" loading="lazy"></div><figcaption>Papelucho · pugliEGGSe</figcaption></a></div>
+  <div class="item"><a href="/CHN/en-construccion.html"><div class="img-container"><img class="carousel-img" src="/assets/img/animacion-boton-lo-popular.webp" alt="模因绘画，发展中的系列" loading="lazy"></div><figcaption>模因绘画 · 发展中</figcaption></a></div>
 </div>

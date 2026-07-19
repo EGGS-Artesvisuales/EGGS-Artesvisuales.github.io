@@ -6,49 +6,82 @@ description: "Serie de obras críticas de Esteban Garnica que examinan los aspec
 permalink: /ES/imagenes-capitalismo.html
 keywords: "Imágenes del Capitalismo, arte crítico, arte político, capitalismo, trabajo precarizado, codicia empresarial, consumo masivo, desigualdad social, arte contemporáneo, arte chileno, Esteban Garnica, EGGS-Studio, Santiago de Chile"
 carousel: true
-mermaid: false
+mermaid: true
 ---
 
 <h1 class="titulo">Imágenes del Capitalismo</h1>
-<h2 class="subtitulo">Representaciones críticas del sistema económico</h2>
+<h2 class="subtitulo">Trabajo, valor y poder en la vida cotidiana</h2>
+
+<div class="mermaid">
+flowchart LR
+  A((Representación del Mundo)) --> T([Lo Tangible])
+  A --> I((Lo Intangible))
+  I --> C((Imágenes del Capitalismo))
+  I --> P([Imágenes de lo Popular])
+  I --> AN([Imágenes de las Ancestras])
+  C --> C1([1. El Colgado])
+  C --> C2([2. Mr. Burns en Chile])
+  C --> C3([3. El Empaquetador])
+  C --> C4([4. Rostro Esperanza])
+  C --> C5([5. Tragedian])
+
+  click A "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
+  click T "/ES/tangible.html" "Ir a Lo Tangible"
+  click I "/ES/intangible.html" "Ir a Lo Intangible"
+  click C "/ES/imagenes-capitalismo.html" "Estás aquí"
+  click P "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+  click AN "/ES/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
+  click C1 "/ES/el-colgado.html" "Ir a El Colgado"
+  click C2 "/ES/mr-burns-en-chile.html" "Ir a Mr. Burns en Chile"
+  click C3 "/ES/el-empaquetador.html" "Ir a El Empaquetador"
+  click C4 "/ES/rostro-esperanza.html" "Ir a Rostro Esperanza"
+  click C5 "/ES/tragedian.html" "Ir a Tragedian"
+</div>
 
 <section class="parrafo">
   <p>
-    Esta serie agrupa obras que examinan el impacto del capitalismo sobre las personas, el medio ambiente y las estructuras sociales. A través de fotografía, dibujo y acción de arte, las piezas proponen una reflexión visual sobre las dinámicas de poder, explotación y consumo que caracterizan al sistema económico actual.
+    <strong>Imágenes del Capitalismo</strong> reúne obras que observan cómo los sistemas económicos se
+    vuelven cuerpo, conducta e imagen. La serie aborda el trabajo y su suspensión, la personificación
+    del poder empresarial, el consumo cotidiano, la memoria social de la pandemia y la violencia
+    administrada como objeto cultural.
   </p>
   <p>
-    Cada obra se articula desde un punto de vista específico: <strong>El Colgado</strong> expone la alienación del trabajador; <strong>Mr. Burns</strong> encarna la avaricia empresarial; y <strong>El Empaquetador</strong> denuncia la saturación ambiental derivada del consumo cotidiano. En conjunto, estas imágenes abren un espacio de crítica y conciencia frente a las estructuras invisibles que nos gobiernan.
+    Las piezas no ilustran una teoría única. Cada una construye una situación concreta desde
+    fotografía, dibujo, acción, ensamblaje o instalación. En conjunto forman una secuencia crítica:
+    del cuerpo trabajador a los símbolos de autoridad y de los residuos de circulación a los
+    dispositivos que condensan un orden político.
   </p>
 </section>
 
-<!-- Carrusel de obras -->
 <div class="owl-carousel carousel-imagen">
-
   <div class="item">
-    <a href="/ES/en-construccion.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Colgado">
-      </div>
-      <figcaption>El Colgado</figcaption>
+    <a href="/ES/el-colgado.html">
+      <div class="img-container"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, trabajador de la construcción" loading="lazy"></div>
+      <figcaption>1. El Colgado</figcaption>
     </a>
   </div>
-
   <div class="item">
-    <a href="/ES/en-construccion.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="Mr. Burns">
-      </div>
-      <figcaption>Mr. Burns</figcaption>
+    <a href="/ES/mr-burns-en-chile.html">
+      <div class="img-container"><img class="carousel-img" src="/assets/img/intangible/mr-burns-01.webp" alt="Mr. Burns en Chile" loading="lazy"></div>
+      <figcaption>2. Mr. Burns en Chile</figcaption>
     </a>
   </div>
-
   <div class="item">
-    <a href="/ES/en-construccion.html">
-      <div class="img-container">
-        <img class="carousel-img" src="/assets/img/imagenes-del-capitalismo.webp" alt="El Empaquetador">
-      </div>
-      <figcaption>El Empaquetador</figcaption>
+    <a href="/ES/el-empaquetador.html">
+      <div class="img-container"><img class="carousel-img" src="/assets/img/intangible/el-empaquetador-02.webp" alt="El Empaquetador, acción de arte" loading="lazy"></div>
+      <figcaption>3. El Empaquetador</figcaption>
     </a>
   </div>
-
+  <div class="item">
+    <a href="/ES/rostro-esperanza.html">
+      <div class="img-container"><img class="carousel-img" src="/assets/img/intangible/rostro-esperanza-02.webp" alt="Rostro Esperanza" loading="lazy"></div>
+      <figcaption>4. Rostro Esperanza</figcaption>
+    </a>
+  </div>
+  <div class="item">
+    <a href="/ES/tragedian.html">
+      <div class="img-container"><img class="carousel-img" src="/assets/img/intangible/tragedian-01.webp" alt="Tragedian, visualización preliminar" loading="lazy"></div>
+      <figcaption>5. Tragedian</figcaption>
+    </a>
+  </div>
 </div>
