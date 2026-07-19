@@ -43,9 +43,6 @@ flowchart LR
 <div class="owl-carousel carousel-imagen">
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-oficial.webp" alt="Papelucho ñi principal azentun" loading="lazy"><figcaption>Obra ñi principal azentun.</figcaption></figure>
   <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-01.webp" alt="Papelucho ñi pülle adkintun" loading="lazy"><figcaption>Personaje ka ñi chemkün.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-02.webp" alt="Papelucho ñi kom adkintun" loading="lazy"><figcaption>Base mew kom adkintun.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-04.webp" alt="Papelucho ñi püle adkintun" loading="lazy"><figcaption>Püle adkintun.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/papelucho-05.webp" alt="Papelucho ñi küla püle adkintun" loading="lazy"><figcaption>Küla püle adkintun.</figcaption></figure>
 </div>
 
 <h3 class="subtitulo2">KÜDAW ÑI KIMELTUN</h3>
