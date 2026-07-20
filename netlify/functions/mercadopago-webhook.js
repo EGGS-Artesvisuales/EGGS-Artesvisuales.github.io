@@ -1,6 +1,6 @@
 const { createHmac, timingSafeEqual } = require("crypto");
 const { PRODUCTS } = require("../lib/products");
-const { recordApprovedPayment } = require("../lib/inventory");
+const { connectInventory, recordApprovedPayment } = require("../lib/inventory");
 
 const MERCADOPAGO_PAYMENTS_URL = "https://api.mercadopago.com/v1/payments";
 
@@ -123,6 +123,7 @@ exports.handler = async (event) => {
 
     let inventory = null;
     if (payment.status === "approved") {
+      await connectInventory(event);
       inventory = await recordApprovedPayment(sku, payment.id || dataId);
       if (!inventory.decremented && !inventory.duplicate && !inventory.available) {
         console.error("Pago aprobado recibido después de agotarse el inventario.", {

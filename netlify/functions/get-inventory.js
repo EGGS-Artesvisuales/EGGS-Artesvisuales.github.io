@@ -1,5 +1,5 @@
 const { PRODUCTS } = require("../lib/products");
-const { getInventory } = require("../lib/inventory");
+const { connectInventory, getInventory } = require("../lib/inventory");
 
 function jsonResponse(statusCode, body) {
   return {
@@ -23,6 +23,7 @@ exports.handler = async (event) => {
   }
 
   try {
+    await connectInventory(event);
     return jsonResponse(200, await getInventory(sku));
   } catch (error) {
     console.error("No se pudo consultar el inventario.", error);

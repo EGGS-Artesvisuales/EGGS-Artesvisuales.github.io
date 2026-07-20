@@ -1,6 +1,6 @@
 const { randomUUID } = require("crypto");
 const { PRODUCTS } = require("../lib/products");
-const { getInventory } = require("../lib/inventory");
+const { connectInventory, getInventory } = require("../lib/inventory");
 
 const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
@@ -48,6 +48,7 @@ exports.handler = async (event) => {
   }
 
   try {
+    await connectInventory(event);
     const inventory = await getInventory(sku);
     if (!inventory.available) {
       return jsonResponse(409, { error: "Este producto está agotado." });

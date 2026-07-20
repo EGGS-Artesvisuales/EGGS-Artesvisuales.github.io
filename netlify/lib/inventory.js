@@ -5,11 +5,15 @@ const MAX_WRITE_ATTEMPTS = 8;
 
 let inventoryStorePromise;
 
+async function connectInventory(event) {
+  const { connectLambda, getStore } = await import("@netlify/blobs");
+  connectLambda(event);
+  inventoryStorePromise = Promise.resolve(getStore(STORE_NAME));
+}
+
 async function getInventoryStore() {
   if (!inventoryStorePromise) {
-    inventoryStorePromise = import("@netlify/blobs").then(({ getStore }) =>
-      getStore({ name: STORE_NAME, consistency: "strong" })
-    );
+    inventoryStorePromise = import("@netlify/blobs").then(({ getStore }) => getStore(STORE_NAME));
   }
   return inventoryStorePromise;
 }
@@ -34,7 +38,6 @@ async function getInventory(sku, options = {}) {
 
   const store = options.store || (await getInventoryStore());
   const entry = await store.getWithMetadata(inventoryKey(sku), {
-    consistency: "strong",
     type: "json",
   });
 
@@ -53,7 +56,6 @@ async function recordApprovedPayment(sku, paymentId, options = {}) {
 
   for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
     const entry = await store.getWithMetadata(key, {
-      consistency: "strong",
       type: "json",
     });
     const current = entry?.data;
@@ -101,6 +103,7 @@ async function recordApprovedPayment(sku, paymentId, options = {}) {
 }
 
 module.exports = {
+  connectInventory,
   getInventory,
   recordApprovedPayment,
 };
