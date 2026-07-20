@@ -22,7 +22,7 @@ price_display: "$120.000 CLP"
 stock: 50
 state: "Disponible por producir"
 delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra."
-mercadopago_checkout: false
+mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "Imagen de referencia del proyecto; la publicación final está por producir."
 es_url: "/ES/productos/intervenciones-publicitarias-2007-2011-publicacion/"
