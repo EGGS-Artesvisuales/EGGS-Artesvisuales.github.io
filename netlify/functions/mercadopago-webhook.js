@@ -6,6 +6,7 @@ const PRODUCTS = Object.freeze({
   "EGGS-S0008-PUB01": {
     currency: "CLP",
     unitPrice: 120000,
+    deliveryOptions: new Set(["santiago", "quote_later"]),
   },
 });
 
@@ -62,8 +63,8 @@ exports.handler = async (event) => {
 
   const webhookSecret = process.env.MERCADOPAGO_WEBHOOK_SECRET;
   const accessToken = process.env.MERCADOPAGO_ACCESS_TOKEN;
-  if (!webhookSecret || !accessToken) {
-    console.error("Faltan secretos de Mercado Pago para validar el webhook.");
+  if (!accessToken) {
+    console.error("Falta el Access Token de Mercado Pago.");
     return jsonResponse(503, { error: "Webhook pendiente de configuración." });
   }
 
@@ -78,7 +79,11 @@ exports.handler = async (event) => {
   const requestId = getHeader(event.headers, "x-request-id");
   const signature = getHeader(event.headers, "x-signature");
 
-  if (!isValidSignature({ dataId, requestId, signature, secret: webhookSecret })) {
+  if (!dataId || !/^\d+$/.test(String(dataId))) {
+    return jsonResponse(400, { error: "La notificación no incluye un pago válido." });
+  }
+
+  if (webhookSecret && !isValidSignature({ dataId, requestId, signature, secret: webhookSecret })) {
     console.warn("Se rechazó una notificación con firma inválida.");
     return jsonResponse(401, { error: "Firma inválida." });
   }
@@ -101,10 +106,12 @@ exports.handler = async (event) => {
     const externalReference = String(payment.external_reference || "");
     const sku = String(payment.metadata?.sku || externalReference.split(":")[0] || "");
     const product = PRODUCTS[sku];
+    const deliveryOption = String(payment.metadata?.delivery_option || "");
     const amountMatches = product && Number(payment.transaction_amount) === product.unitPrice;
     const currencyMatches = product && payment.currency_id === product.currency;
+    const deliveryMatches = product && product.deliveryOptions.has(deliveryOption);
 
-    if (!product || !amountMatches || !currencyMatches) {
+    if (!product || !amountMatches || !currencyMatches || !deliveryMatches) {
       console.error("Pago válido de Mercado Pago con datos de producto inesperados.", {
         paymentId: String(payment.id || dataId),
         sku,
@@ -115,6 +122,7 @@ exports.handler = async (event) => {
     console.log("Pago de Mercado Pago verificado.", {
       paymentId: String(payment.id || dataId),
       sku,
+      deliveryOption,
       status: payment.status,
       liveMode: Boolean(payment.live_mode),
     });

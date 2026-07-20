@@ -2897,6 +2897,65 @@ footer::before {
   overflow-wrap: anywhere;
 }
 
+.product-delivery {
+  margin: 0 0 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--site-line);
+  background: rgba(255, 255, 255, 0.035);
+  font-family: var(--parrafo-font);
+}
+
+.product-delivery strong,
+.product-checkout label {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.product-delivery p {
+  margin: 0.45rem 0 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.product-checkout {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.product-checkout select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--site-line-strong);
+  border-radius: var(--radius-small);
+  color: #fff;
+  background: #0f1115;
+  font: inherit;
+}
+
+.product-checkout .shop-button {
+  width: 100%;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.product-checkout .shop-button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.product-checkout__status {
+  min-height: 1.25rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.68);
+  font-family: var(--parrafo-font);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 901px) {
   .shop-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

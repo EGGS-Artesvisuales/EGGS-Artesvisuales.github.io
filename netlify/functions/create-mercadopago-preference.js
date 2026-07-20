@@ -11,6 +11,10 @@ const PRODUCTS = Object.freeze({
     title: "Intervenciones publicitarias 2007–2011",
     description: "Publicación de artista numerada y firmada",
     unitPrice: 120000,
+    deliveryOptions: {
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    },
   },
 });
 
@@ -49,6 +53,12 @@ exports.handler = async (event) => {
     return jsonResponse(400, { error: "Producto no habilitado para Checkout Pro." });
   }
 
+  const deliveryOption = String(requestBody.delivery_option || "").trim();
+  const deliveryLabel = product.deliveryOptions[deliveryOption];
+  if (!deliveryLabel) {
+    return jsonResponse(400, { error: "Selecciona una opción de entrega válida." });
+  }
+
   const orderId = randomUUID();
   // Los prefijos de credenciales de prueba varían según la integración.
   // Producción debe habilitarse de forma explícita mediante MERCADOPAGO_ENV.
@@ -58,7 +68,7 @@ exports.handler = async (event) => {
       {
         id: sku,
         title: product.title,
-        description: product.description,
+        description: `${product.description}. ${deliveryLabel}.`,
         quantity: 1,
         currency_id: "CLP",
         unit_price: product.unitPrice,
@@ -76,6 +86,7 @@ exports.handler = async (event) => {
     metadata: {
       sku,
       order_id: orderId,
+      delivery_option: deliveryOption,
       source: "eggs-studio.cl",
     },
   };

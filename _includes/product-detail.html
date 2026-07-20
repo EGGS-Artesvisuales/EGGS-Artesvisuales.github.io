@@ -40,8 +40,28 @@
         <div><dt>{{ product_t.certificate }}</dt><dd>{{ page.certificate }}</dd></div>
         <div><dt>{{ product_t.inventory }}</dt><dd>{{ page.fichas }}</dd></div>
       </dl>
-      <a class="shop-button" href="{{ product_t.contact_url }}?{{ product_t.product_param }}={{ page.sku | url_encode }}">{{ product_t.consult }}</a>
-      <p class="product-view__hint">{{ product_t.hint_prefix }} <strong>{{ page.sku }}</strong>.</p>
+      {% if page.delivery_note %}
+        <aside class="product-delivery" aria-label="Condiciones de entrega">
+          <strong>Entrega</strong>
+          <p>{{ page.delivery_note }}</p>
+        </aside>
+      {% endif %}
+      {% if page.mercadopago_checkout %}
+        <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}">
+          <label for="delivery-option-{{ page.sku | slugify }}">¿Dónde recibirás la publicación?</label>
+          <select id="delivery-option-{{ page.sku | slugify }}" name="delivery_option" required>
+            <option value="santiago">Santiago — entrega sin costo</option>
+            <option value="quote_later">Fuera de Santiago — despacho cotizado después</option>
+          </select>
+          <button class="shop-button" type="submit">Comprar ahora con Mercado Pago</button>
+          <p class="product-checkout__status" data-checkout-status role="status" aria-live="polite"></p>
+          <noscript><p>Necesitas activar JavaScript para iniciar el pago.</p></noscript>
+        </form>
+        <script src="/assets/js/mercadopago-checkout.js" defer></script>
+      {% else %}
+        <a class="shop-button" href="{{ product_t.contact_url }}?{{ product_t.product_param }}={{ page.sku | url_encode }}">{{ product_t.consult }}</a>
+        <p class="product-view__hint">{{ product_t.hint_prefix }} <strong>{{ page.sku }}</strong>.</p>
+      {% endif %}
     </div>
   </div>
   {{ content }}
