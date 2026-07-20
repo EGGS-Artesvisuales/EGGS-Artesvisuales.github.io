@@ -5,6 +5,11 @@ const {
   releaseReservation,
   reserveInventory,
 } = require("../lib/inventory");
+const {
+  connectOrders,
+  deleteOrder,
+  savePendingOrder,
+} = require("../lib/orders");
 
 const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
@@ -60,6 +65,34 @@ function jsonResponse(statusCode, body) {
   };
 }
 
+function normalizedText(value, maxLength) {
+  return String(value || "")
+    .replace(/[\r\n\t]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, maxLength);
+}
+
+function validatedBuyer(value) {
+  const buyer = {
+    phone: normalizedText(value?.phone, 25),
+    location: normalizedText(value?.location, 120),
+    address: normalizedText(value?.address, 200),
+  };
+  const validPhone = /^\+?[0-9 ()-]{7,25}$/.test(buyer.phone);
+  const consent = value?.consent === true;
+
+  if (
+    !validPhone ||
+    buyer.location.length < 2 ||
+    buyer.address.length < 5 ||
+    !consent
+  ) {
+    return null;
+  }
+  return buyer;
+}
+
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return jsonResponse(405, { error: "Método no permitido." });
@@ -93,6 +126,10 @@ exports.handler = async (event) => {
   const localeSettings = CHECKOUT_LOCALES[locale];
   const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
   const deliveryLabel = localeSettings.delivery[deliveryOption];
+  const buyer = validatedBuyer(requestBody.buyer);
+  if (!buyer) {
+    return jsonResponse(400, { error: "Completa correctamente los datos para la entrega." });
+  }
 
   const orderId = randomUUID();
   let reservation;
@@ -105,6 +142,20 @@ exports.handler = async (event) => {
   } catch (error) {
     console.error("No se pudo reservar el producto antes del pago.", error);
     return jsonResponse(503, { error: "No se pudo reservar el producto. Intenta nuevamente." });
+  }
+
+  try {
+    await connectOrders(event);
+    await savePendingOrder(orderId, {
+      sku,
+      delivery_option: deliveryOption,
+      locale,
+      buyer,
+    });
+  } catch (error) {
+    await releaseReservation(sku, orderId).catch(() => {});
+    console.error("No se pudieron guardar los datos de entrega.", error);
+    return jsonResponse(503, { error: "No se pudieron guardar los datos de entrega." });
   }
 
   // Los prefijos de credenciales de prueba varían según la integración.
@@ -161,6 +212,9 @@ exports.handler = async (event) => {
       await releaseReservation(sku, orderId).catch((error) => {
         console.error("No se pudo liberar una reserva rechazada por Mercado Pago.", error);
       });
+      await deleteOrder(orderId).catch((error) => {
+        console.error("No se pudo eliminar una orden rechazada por Mercado Pago.", error);
+      });
       console.error("Mercado Pago rechazó la preferencia.", {
         status: response.status,
         cause: responseBody.cause,
@@ -176,6 +230,8 @@ exports.handler = async (event) => {
       : responseBody.init_point;
 
     if (!checkoutUrl) {
+      await releaseReservation(sku, orderId).catch(() => {});
+      await deleteOrder(orderId).catch(() => {});
       console.error("Mercado Pago no devolvió una URL de Checkout Pro.");
       return jsonResponse(502, { error: "No se recibió la URL de pago." });
     }
@@ -187,6 +243,8 @@ exports.handler = async (event) => {
       reservation_expires_at: reservation.reservation_expires_at,
     });
   } catch (error) {
+    await releaseReservation(sku, orderId).catch(() => {});
+    await deleteOrder(orderId).catch(() => {});
     console.error("No se pudo conectar con Mercado Pago.", error);
     return jsonResponse(502, {
       error: "No se pudo conectar con Mercado Pago.",

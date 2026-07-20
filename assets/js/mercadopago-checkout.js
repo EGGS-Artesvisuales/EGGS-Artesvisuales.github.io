@@ -76,6 +76,12 @@
       if (form.dataset.soldOut === "true") return;
 
       const deliveryOption = deliverySelect.value;
+      const buyer = {
+        phone: form.elements.buyer_phone.value.trim(),
+        location: form.elements.buyer_location.value.trim(),
+        address: form.elements.buyer_address.value.trim(),
+        consent: form.elements.privacy_consent.checked,
+      };
 
       button.disabled = true;
       button.setAttribute("aria-busy", "true");
@@ -85,7 +91,7 @@
         const response = await fetch("/.netlify/functions/create-mercadopago-preference", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ sku, delivery_option: deliveryOption, lang: locale }),
+          body: JSON.stringify({ sku, delivery_option: deliveryOption, lang: locale, buyer }),
         });
         const result = await response.json().catch(() => ({}));
 

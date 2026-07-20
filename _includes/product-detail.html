@@ -54,11 +54,25 @@
       {% endif %}
       {% if commerce_enabled %}
         <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}" data-checkout-lang="{{ page.store_lang | escape }}">
+          <fieldset class="product-checkout__buyer">
+            <legend>{{ product_t.checkout.buyer_heading }}</legend>
+            <p>{{ product_t.checkout.buyer_note }}</p>
+            <label for="buyer-phone-{{ page.sku | slugify }}">{{ product_t.checkout.phone_label }}</label>
+            <input id="buyer-phone-{{ page.sku | slugify }}" name="buyer_phone" type="tel" autocomplete="tel" maxlength="25" required placeholder="{{ product_t.checkout.phone_placeholder | escape }}">
+            <label for="buyer-location-{{ page.sku | slugify }}">{{ product_t.checkout.location_label }}</label>
+            <input id="buyer-location-{{ page.sku | slugify }}" name="buyer_location" type="text" autocomplete="address-level1" maxlength="120" required placeholder="{{ product_t.checkout.location_placeholder | escape }}">
+            <label for="buyer-address-{{ page.sku | slugify }}">{{ product_t.checkout.address_label }}</label>
+            <textarea id="buyer-address-{{ page.sku | slugify }}" name="buyer_address" autocomplete="street-address" maxlength="200" rows="3" required placeholder="{{ product_t.checkout.address_placeholder | escape }}"></textarea>
+          </fieldset>
           <label for="delivery-option-{{ page.sku | slugify }}">{{ product_t.checkout.delivery_question }}</label>
           <select id="delivery-option-{{ page.sku | slugify }}" name="delivery_option" required>
             <option value="santiago">{{ product_t.checkout.santiago }}</option>
             <option value="quote_later">{{ product_t.checkout.quote_later }}</option>
           </select>
+          <label class="product-checkout__consent">
+            <input name="privacy_consent" type="checkbox" required>
+            <span>{{ product_t.checkout.privacy_consent }}</span>
+          </label>
           <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
           <button class="shop-button" type="submit" disabled>{{ product_t.checkout.buy_button }}</button>
           <p class="product-checkout__status" data-checkout-status role="status" aria-live="polite"></p>

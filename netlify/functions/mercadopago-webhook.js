@@ -5,8 +5,16 @@ const {
   recordApprovedPayment,
   releaseReservation,
 } = require("../lib/inventory");
+const {
+  claimSaleNotification,
+  completeSaleNotification,
+  connectOrders,
+  deleteOrder,
+  releaseSaleNotification,
+} = require("../lib/orders");
 
 const MERCADOPAGO_PAYMENTS_URL = "https://api.mercadopago.com/v1/payments";
+const SITE_URL = "https://eggs-studio.cl";
 
 function jsonResponse(statusCode, body) {
   return {
@@ -48,6 +56,35 @@ function isValidSignature({ dataId, requestId, signature, secret }) {
     expectedBuffer.length === receivedBuffer.length &&
     timingSafeEqual(expectedBuffer, receivedBuffer)
   );
+}
+
+async function submitApprovedSale(order, payment, product) {
+  const localizedProduct = product.localized?.[order.locale] || product.localized?.es || product;
+  const payerName = [payment.payer?.first_name, payment.payer?.last_name]
+    .filter(Boolean)
+    .join(" ") || "No informado por Mercado Pago";
+  const fields = new URLSearchParams({
+    "form-name": "ventas-aprobadas",
+    estado: "PAGO APROBADO",
+    pago_mercado_pago: String(payment.id),
+    sku: order.sku,
+    producto: localizedProduct.title,
+    monto: `${Number(payment.transaction_amount).toLocaleString("es-CL")} CLP`,
+    comprador: payerName,
+    correo: String(payment.payer?.email || "No informado por Mercado Pago"),
+    telefono: order.buyer.phone,
+    modalidad_entrega: order.delivery_option,
+    region_comuna: order.buyer.location,
+    direccion: order.buyer.address,
+    idioma: order.locale,
+    fecha_pago: String(payment.date_approved || new Date().toISOString()),
+  });
+  const response = await fetch(`${SITE_URL}/`, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: fields.toString(),
+  });
+  if (!response.ok) throw new Error(`Netlify Forms respondió ${response.status}`);
 }
 
 exports.handler = async (event) => {
@@ -129,6 +166,7 @@ exports.handler = async (event) => {
     let inventory = null;
     if (payment.status === "approved") {
       await connectInventory(event);
+      await connectOrders(event);
       inventory = await recordApprovedPayment(sku, payment.id || dataId, {
         reservationId: orderId,
       });
@@ -138,9 +176,30 @@ exports.handler = async (event) => {
           sku,
         });
       }
+      if (orderId) {
+        const notification = await claimSaleNotification(orderId, payment.id || dataId);
+        if (notification.claimed) {
+          try {
+            await submitApprovedSale(notification.order, payment, product);
+            await completeSaleNotification(orderId, payment.id || dataId);
+          } catch (error) {
+            await releaseSaleNotification(orderId, payment.id || dataId).catch(() => {});
+            throw error;
+          }
+        } else if (notification.reason === "missing") {
+          console.error("El pago aprobado no tiene datos de entrega guardados.", {
+            paymentId: String(payment.id || dataId),
+            orderId,
+          });
+        }
+      }
     } else if (["rejected", "cancelled"].includes(payment.status) && orderId) {
       await connectInventory(event);
+      await connectOrders(event);
       inventory = await releaseReservation(sku, orderId);
+      await deleteOrder(orderId).catch((error) => {
+        console.error("No se pudo eliminar una orden cancelada.", error);
+      });
     }
 
     return jsonResponse(200, {
