@@ -2,6 +2,7 @@ const { randomUUID } = require("crypto");
 
 const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
+const MERCADOPAGO_ENV = (process.env.MERCADOPAGO_ENV || "test").toLowerCase();
 
 // El precio se define en el servidor para impedir que el navegador lo modifique.
 // En esta primera etapa solo habilitamos un producto piloto y no mostramos botones.
@@ -49,7 +50,9 @@ exports.handler = async (event) => {
   }
 
   const orderId = randomUUID();
-  const testMode = accessToken.startsWith("TEST-");
+  // Los prefijos de credenciales de prueba varían según la integración.
+  // Producción debe habilitarse de forma explícita mediante MERCADOPAGO_ENV.
+  const testMode = MERCADOPAGO_ENV !== "production";
   const preference = {
     items: [
       {
