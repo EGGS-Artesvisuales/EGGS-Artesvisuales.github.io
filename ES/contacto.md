@@ -36,4 +36,6 @@ permalink: /ES/contacto.html
   <input type="hidden" name="_captcha" value="false">
 </form>
 
+<script src="/assets/js/contact-product.js" defer></script>
+
 <br><br><br>
