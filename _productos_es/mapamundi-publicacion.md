@@ -20,6 +20,8 @@ price_clp: 85000
 price_display: "$85.000 CLP"
 stock: 50
 state: "Publicación de artista por producir"
+delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra."
+mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-W0019-PUB01-LEP.webp"
 image_note: "Imagen referencial del proyecto; la publicación final está por producir."
 es_url: "/ES/productos/mapamundi-publicacion/"

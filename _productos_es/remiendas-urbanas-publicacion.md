@@ -20,6 +20,8 @@ price_clp: 95000
 price_display: "$95.000 CLP"
 stock: 50
 state: "Disponible por producir"
+delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra."
+mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-S0009-PUB01-LEP.webp"
 image_note: "Imagen referencial del proyecto; la publicación final está por producir."
 es_url: "/ES/productos/remiendas-urbanas-publicacion/"
