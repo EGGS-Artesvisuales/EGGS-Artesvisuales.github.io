@@ -2818,8 +2818,9 @@ footer::before {
   margin: 0;
   color: #fff;
   font-family: var(--titulo-font);
-  font-size: clamp(2.3rem, 5vw, 5rem);
+  font-size: clamp(2.25rem, 4.2vw, 3.75rem);
   line-height: 0.98;
+  overflow-wrap: anywhere;
 }
 
 .product-view__description {
@@ -2886,6 +2887,7 @@ footer::before {
   color: rgba(255, 255, 255, 0.86);
   font-size: 0.82rem;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 .product-view__hint {
@@ -2919,27 +2921,36 @@ footer::before {
   color: rgba(255, 255, 255, 0.82);
   font-size: 0.82rem;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
 .product-checkout {
   display: grid;
+  min-width: 0;
   gap: 0.75rem;
 }
 
 .product-checkout select {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   padding: 0.8rem;
   border: 1px solid var(--site-line-strong);
   border-radius: var(--radius-small);
   color: #fff;
   background: #0f1115;
   font: inherit;
+  text-overflow: ellipsis;
 }
 
 .product-checkout .shop-button {
   width: 100%;
   border-radius: 0;
   cursor: pointer;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-align: center;
+  white-space: normal;
 }
 
 .product-checkout .shop-button:disabled {
@@ -2954,6 +2965,7 @@ footer::before {
   font-family: var(--parrafo-font);
   font-size: 0.75rem;
   line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .product-checkout__inventory {
@@ -2962,6 +2974,7 @@ footer::before {
   font-family: var(--parrafo-font);
   font-size: 0.78rem;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 901px) {
