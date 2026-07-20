@@ -65,13 +65,14 @@ async function submitApprovedSale(order, payment, product) {
     .join(" ") || "No informado por Mercado Pago";
   const fields = new URLSearchParams({
     "form-name": "ventas-aprobadas",
+    subject: `Venta aprobada EGGS-Studio — ${order.sku}`,
     estado: "PAGO APROBADO",
     pago_mercado_pago: String(payment.id),
     sku: order.sku,
     producto: localizedProduct.title,
     monto: `${Number(payment.transaction_amount).toLocaleString("es-CL")} CLP`,
     comprador: payerName,
-    correo: String(payment.payer?.email || "No informado por Mercado Pago"),
+    email: String(payment.payer?.email || ""),
     telefono: order.buyer.phone,
     modalidad_entrega: order.delivery_option,
     region_comuna: order.buyer.location,
