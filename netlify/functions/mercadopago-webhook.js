@@ -1,6 +1,10 @@
 const { createHmac, timingSafeEqual } = require("crypto");
 const { PRODUCTS } = require("../lib/products");
-const { connectInventory, recordApprovedPayment } = require("../lib/inventory");
+const {
+  connectInventory,
+  recordApprovedPayment,
+  releaseReservation,
+} = require("../lib/inventory");
 
 const MERCADOPAGO_PAYMENTS_URL = "https://api.mercadopago.com/v1/payments";
 
@@ -99,6 +103,7 @@ exports.handler = async (event) => {
 
     const externalReference = String(payment.external_reference || "");
     const sku = String(payment.metadata?.sku || externalReference.split(":")[0] || "");
+    const orderId = String(payment.metadata?.order_id || externalReference.split(":")[1] || "");
     const product = PRODUCTS[sku];
     const deliveryOption = String(payment.metadata?.delivery_option || "");
     const amountMatches = product && Number(payment.transaction_amount) === product.unitPrice;
@@ -124,13 +129,18 @@ exports.handler = async (event) => {
     let inventory = null;
     if (payment.status === "approved") {
       await connectInventory(event);
-      inventory = await recordApprovedPayment(sku, payment.id || dataId);
+      inventory = await recordApprovedPayment(sku, payment.id || dataId, {
+        reservationId: orderId,
+      });
       if (!inventory.decremented && !inventory.duplicate && !inventory.available) {
         console.error("Pago aprobado recibido después de agotarse el inventario.", {
           paymentId: String(payment.id || dataId),
           sku,
         });
       }
+    } else if (["rejected", "cancelled"].includes(payment.status) && orderId) {
+      await connectInventory(event);
+      inventory = await releaseReservation(sku, orderId);
     }
 
     return jsonResponse(200, {

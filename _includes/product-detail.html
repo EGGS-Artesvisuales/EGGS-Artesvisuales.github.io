@@ -1,4 +1,12 @@
 {% assign product_t = site.data.store_i18n[page.store_lang] %}
+{% assign commerce_enabled = false %}
+{% if page.lang == "es" %}
+  {% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
+    {% if page.sku and page.price_clp and page.stock %}
+      {% assign commerce_enabled = true %}
+    {% endif %}
+  {% endif %}
+{% endif %}
 <article class="producto-layout" itemscope itemtype="https://schema.org/Product">
   <meta itemprop="name" content="{{ page.title | escape }}">
   {% if page.image %}<meta itemprop="image" content="{{ site.url }}{{ page.image }}">{% endif %}
@@ -40,15 +48,15 @@
         <div><dt>{{ product_t.certificate }}</dt><dd>{{ page.certificate }}</dd></div>
         <div><dt>{{ product_t.inventory }}</dt><dd>{{ page.fichas }}</dd></div>
       </dl>
-      {% if page.delivery_note %}
+      {% if page.delivery_note or commerce_enabled %}
         <aside class="product-delivery" aria-label="Condiciones de entrega">
           <strong>Entrega</strong>
-          <p>{{ page.delivery_note }}</p>
+          <p>{% if page.delivery_note %}{{ page.delivery_note }}{% else %}Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra.{% endif %}</p>
         </aside>
       {% endif %}
-      {% if page.mercadopago_checkout %}
+      {% if commerce_enabled %}
         <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}">
-          <label for="delivery-option-{{ page.sku | slugify }}">¿Dónde recibirás la publicación?</label>
+          <label for="delivery-option-{{ page.sku | slugify }}">¿Dónde recibirás tu compra?</label>
           <select id="delivery-option-{{ page.sku | slugify }}" name="delivery_option" required>
             <option value="santiago">Santiago — entrega sin costo</option>
             <option value="quote_later">Fuera de Santiago — despacho cotizado después</option>

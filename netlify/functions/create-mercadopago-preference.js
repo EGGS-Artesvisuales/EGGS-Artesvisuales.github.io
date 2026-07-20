@@ -1,10 +1,15 @@
 const { randomUUID } = require("crypto");
 const { PRODUCTS } = require("../lib/products");
-const { connectInventory, getInventory } = require("../lib/inventory");
+const {
+  connectInventory,
+  releaseReservation,
+  reserveInventory,
+} = require("../lib/inventory");
 
 const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
 const MERCADOPAGO_ENV = (process.env.MERCADOPAGO_ENV || "test").toLowerCase();
+const PREFERENCE_VALIDITY_MS = 15 * 60 * 1000;
 
 function jsonResponse(statusCode, body) {
   return {
@@ -47,21 +52,24 @@ exports.handler = async (event) => {
     return jsonResponse(400, { error: "Selecciona una opción de entrega válida." });
   }
 
+  const orderId = randomUUID();
+  let reservation;
   try {
     await connectInventory(event);
-    const inventory = await getInventory(sku);
-    if (!inventory.available) {
+    reservation = await reserveInventory(sku, orderId);
+    if (!reservation.reserved) {
       return jsonResponse(409, { error: "Este producto está agotado." });
     }
   } catch (error) {
-    console.error("No se pudo verificar el inventario antes del pago.", error);
-    return jsonResponse(503, { error: "No se pudo verificar el stock. Intenta nuevamente." });
+    console.error("No se pudo reservar el producto antes del pago.", error);
+    return jsonResponse(503, { error: "No se pudo reservar el producto. Intenta nuevamente." });
   }
 
-  const orderId = randomUUID();
   // Los prefijos de credenciales de prueba varían según la integración.
   // Producción debe habilitarse de forma explícita mediante MERCADOPAGO_ENV.
   const testMode = MERCADOPAGO_ENV !== "production";
+  const preferenceStartsAt = new Date();
+  const preferenceExpiresAt = new Date(preferenceStartsAt.getTime() + PREFERENCE_VALIDITY_MS);
   const preference = {
     items: [
       {
@@ -80,6 +88,10 @@ exports.handler = async (event) => {
     },
     notification_url: `${SITE_URL}/.netlify/functions/mercadopago-webhook`,
     auto_return: "approved",
+    binary_mode: Boolean(product.binaryMode),
+    expires: true,
+    expiration_date_from: preferenceStartsAt.toISOString(),
+    expiration_date_to: preferenceExpiresAt.toISOString(),
     external_reference: `${sku}:${orderId}`,
     statement_descriptor: "EGGS STUDIO",
     metadata: {
@@ -103,6 +115,9 @@ exports.handler = async (event) => {
 
     const responseBody = await response.json().catch(() => ({}));
     if (!response.ok) {
+      await releaseReservation(sku, orderId).catch((error) => {
+        console.error("No se pudo liberar una reserva rechazada por Mercado Pago.", error);
+      });
       console.error("Mercado Pago rechazó la preferencia.", {
         status: response.status,
         cause: responseBody.cause,
@@ -126,6 +141,7 @@ exports.handler = async (event) => {
       preference_id: responseBody.id,
       checkout_url: checkoutUrl,
       mode: testMode ? "test" : "production",
+      reservation_expires_at: reservation.reservation_expires_at,
     });
   } catch (error) {
     console.error("No se pudo conectar con Mercado Pago.", error);
