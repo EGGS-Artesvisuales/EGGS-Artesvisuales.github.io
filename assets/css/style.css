@@ -7,6 +7,16 @@
   padding: 0;
 }
 
+/* Mantener siempre las palabras completas en todos los idiomas. */
+html,
+body,
+body * {
+  -webkit-hyphens: none !important;
+  hyphens: none !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
 /* Reset suave para elementos típicos */
 html, body { width: 100%; }
 figure { margin: 0; } /* importante: algunos estilos/temas agregan margin por defecto */
@@ -2818,9 +2828,9 @@ footer::before {
   margin: 0;
   color: #fff;
   font-family: var(--titulo-font);
-  font-size: clamp(2.25rem, 4.2vw, 3.75rem);
+  font-size: clamp(2.1rem, 4vw, 3.5rem);
   line-height: 0.98;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
 }
 
 .product-view__description {
