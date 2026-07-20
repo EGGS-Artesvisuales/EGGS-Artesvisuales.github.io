@@ -1,22 +1,10 @@
 const { randomUUID } = require("crypto");
+const { PRODUCTS } = require("../lib/products");
+const { getInventory } = require("../lib/inventory");
 
 const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
 const MERCADOPAGO_ENV = (process.env.MERCADOPAGO_ENV || "test").toLowerCase();
-
-// El precio se define en el servidor para impedir que el navegador lo modifique.
-// En esta primera etapa solo habilitamos un producto piloto y no mostramos botones.
-const PRODUCTS = Object.freeze({
-  "EGGS-S0008-PUB01": {
-    title: "Intervenciones publicitarias 2007–2011",
-    description: "Publicación de artista numerada y firmada",
-    unitPrice: 120000,
-    deliveryOptions: {
-      santiago: "Entrega sin costo en Santiago",
-      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
-    },
-  },
-});
 
 function jsonResponse(statusCode, body) {
   return {
@@ -59,6 +47,16 @@ exports.handler = async (event) => {
     return jsonResponse(400, { error: "Selecciona una opción de entrega válida." });
   }
 
+  try {
+    const inventory = await getInventory(sku);
+    if (!inventory.available) {
+      return jsonResponse(409, { error: "Este producto está agotado." });
+    }
+  } catch (error) {
+    console.error("No se pudo verificar el inventario antes del pago.", error);
+    return jsonResponse(503, { error: "No se pudo verificar el stock. Intenta nuevamente." });
+  }
+
   const orderId = randomUUID();
   // Los prefijos de credenciales de prueba varían según la integración.
   // Producción debe habilitarse de forma explícita mediante MERCADOPAGO_ENV.
@@ -70,7 +68,7 @@ exports.handler = async (event) => {
         title: product.title,
         description: `${product.description}. ${deliveryLabel}.`,
         quantity: 1,
-        currency_id: "CLP",
+        currency_id: product.currency,
         unit_price: product.unitPrice,
       },
     ],

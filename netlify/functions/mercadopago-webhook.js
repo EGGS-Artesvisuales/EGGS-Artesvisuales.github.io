@@ -1,14 +1,8 @@
 const { createHmac, timingSafeEqual } = require("crypto");
+const { PRODUCTS } = require("../lib/products");
+const { recordApprovedPayment } = require("../lib/inventory");
 
 const MERCADOPAGO_PAYMENTS_URL = "https://api.mercadopago.com/v1/payments";
-
-const PRODUCTS = Object.freeze({
-  "EGGS-S0008-PUB01": {
-    currency: "CLP",
-    unitPrice: 120000,
-    deliveryOptions: new Set(["santiago", "quote_later"]),
-  },
-});
 
 function jsonResponse(statusCode, body) {
   return {
@@ -109,7 +103,7 @@ exports.handler = async (event) => {
     const deliveryOption = String(payment.metadata?.delivery_option || "");
     const amountMatches = product && Number(payment.transaction_amount) === product.unitPrice;
     const currencyMatches = product && payment.currency_id === product.currency;
-    const deliveryMatches = product && product.deliveryOptions.has(deliveryOption);
+    const deliveryMatches = product && Boolean(product.deliveryOptions[deliveryOption]);
 
     if (!product || !amountMatches || !currencyMatches || !deliveryMatches) {
       console.error("Pago válido de Mercado Pago con datos de producto inesperados.", {
@@ -127,10 +121,22 @@ exports.handler = async (event) => {
       liveMode: Boolean(payment.live_mode),
     });
 
+    let inventory = null;
+    if (payment.status === "approved") {
+      inventory = await recordApprovedPayment(sku, payment.id || dataId);
+      if (!inventory.decremented && !inventory.duplicate && !inventory.available) {
+        console.error("Pago aprobado recibido después de agotarse el inventario.", {
+          paymentId: String(payment.id || dataId),
+          sku,
+        });
+      }
+    }
+
     return jsonResponse(200, {
       received: true,
       verified: true,
       status: payment.status,
+      inventory_stock: inventory?.stock,
     });
   } catch (error) {
     console.error("Error al verificar la notificación de Mercado Pago.", error);

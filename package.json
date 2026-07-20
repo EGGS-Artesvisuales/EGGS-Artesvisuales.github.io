@@ -1,0 +1,7 @@
+{
+  "name": "eggs-studio-site",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "10.7.9"
+  }
+}

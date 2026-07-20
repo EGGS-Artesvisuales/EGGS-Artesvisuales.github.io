@@ -2956,6 +2956,14 @@ footer::before {
   line-height: 1.5;
 }
 
+.product-checkout__inventory {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-family: var(--parrafo-font);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 @media (max-width: 901px) {
   .shop-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
