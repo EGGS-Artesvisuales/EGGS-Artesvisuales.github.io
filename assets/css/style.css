@@ -1517,7 +1517,7 @@ button:focus-visible,
 
 .site-masthead {
   width: 100%;
-  min-height: clamp(92px, 14vw, 176px);
+  min-height: clamp(72px, 7vw, 100px);
   display: flex;
   align-items: center;
   position: relative;
@@ -1571,7 +1571,7 @@ button:focus-visible,
 
 .site-masthead__brand {
   width: min(1180px, calc(100% - 2rem));
-  min-height: clamp(92px, 14vw, 176px);
+  min-height: clamp(72px, 7vw, 100px);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -1582,8 +1582,8 @@ button:focus-visible,
 }
 
 .site-masthead__logo {
-  width: clamp(4rem, 8.5vw, 7.5rem);
-  height: clamp(4rem, 8.5vw, 7.5rem);
+  width: clamp(3.25rem, 4.5vw, 4.5rem);
+  height: clamp(3.25rem, 4.5vw, 4.5rem);
   object-fit: contain;
   flex: 0 0 auto;
   filter:
@@ -1602,7 +1602,7 @@ button:focus-visible,
 
 .site-masthead__title {
   font-family: var(--titulo-font);
-  font-size: clamp(2.25rem, 6.8vw, 6.1rem);
+  font-size: clamp(1.9rem, 4vw, 3.65rem);
   font-weight: 900;
   line-height: 0.88;
   letter-spacing: 0;
@@ -1628,9 +1628,9 @@ button:focus-visible,
 
 .site-masthead__tagline {
   max-width: 42rem;
-  margin-top: 0.75rem;
+  margin-top: 0.35rem;
   color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(0.9rem, 1.3vw, 1.18rem);
+  font-size: clamp(0.75rem, 0.9vw, 0.95rem);
   font-weight: 700;
   line-height: 1.25;
   text-shadow: 0 8px 22px rgba(0, 0, 0, 0.58);
@@ -1676,6 +1676,30 @@ button:focus-visible,
 
   .site-masthead__tagline {
     margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 902px) {
+  .nav-menu {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  .nav-menu a {
+    padding: 0.72rem 0.66rem;
+    font-size: clamp(0.72rem, 0.59rem + 0.2vw, 0.84rem);
+  }
+
+  .nav-lang-switch {
+    margin-left: auto;
+    padding: 0 0.55rem;
+    gap: 0.22rem;
+    font-size: 0.74rem;
+  }
+
+  .nav-lang-switch a,
+  .nav-lang-switch .lang-current {
+    padding: 0.3rem 0.34rem;
   }
 }
 
@@ -2454,7 +2478,7 @@ footer::before {
   z-index: auto;
   width: auto;
   max-width: 68rem;
-  padding: clamp(2rem, 6vw, 5rem) 0 clamp(2rem, 5vw, 4rem);
+  padding: clamp(1.75rem, 3vw, 2.75rem) 0 clamp(1.35rem, 2.5vw, 2rem);
   background: transparent;
   box-shadow: none;
   transition: none;
@@ -2472,7 +2496,7 @@ footer::before {
 }
 
 .shop-header .titulo {
-  margin-bottom: clamp(1.25rem, 3vw, 2.5rem);
+  margin-bottom: clamp(0.8rem, 1.5vw, 1.35rem);
 }
 
 .shop-intro {
@@ -2480,17 +2504,17 @@ footer::before {
   margin: 0;
   color: #fff;
   font-family: var(--parrafo-font);
-  font-size: clamp(1.15rem, 2.35vw, 1.8rem);
+  font-size: clamp(1.02rem, 1.6vw, 1.35rem);
   font-weight: 500;
   line-height: 1.45;
 }
 
 .shop-note {
   max-width: 48rem;
-  margin: 1.25rem 0 0;
+  margin: 0.8rem 0 0;
   color: rgba(255, 255, 255, 0.66);
   font-family: var(--parrafo-font);
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   line-height: 1.65;
 }
 
@@ -2498,7 +2522,7 @@ footer::before {
   display: flex;
   flex-wrap: wrap;
   gap: 1px;
-  margin: 0 0 clamp(4rem, 8vw, 7rem);
+  margin: 0 0 clamp(2rem, 4vw, 3.5rem);
   padding: 1px;
   border: 1px solid var(--site-line);
   background: var(--site-line);
