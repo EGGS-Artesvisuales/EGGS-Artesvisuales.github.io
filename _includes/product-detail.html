@@ -57,6 +57,13 @@
           <fieldset class="product-checkout__buyer">
             <legend>{{ product_t.checkout.buyer_heading }}</legend>
             <p>{{ product_t.checkout.buyer_note }}</p>
+            <div class="product-checkout__quote-contact" data-quote-contact hidden>
+              <p>{{ product_t.checkout.quote_contact_note }}</p>
+              <label for="buyer-name-{{ page.sku | slugify }}">{{ product_t.checkout.quote_name_label }}</label>
+              <input id="buyer-name-{{ page.sku | slugify }}" name="buyer_name" type="text" autocomplete="name" maxlength="120" placeholder="{{ product_t.checkout.quote_name_placeholder | escape }}">
+              <label for="buyer-email-{{ page.sku | slugify }}">{{ product_t.checkout.quote_email_label }}</label>
+              <input id="buyer-email-{{ page.sku | slugify }}" name="buyer_email" type="email" autocomplete="email" maxlength="254" placeholder="{{ product_t.checkout.quote_email_placeholder | escape }}">
+            </div>
             <label for="buyer-phone-{{ page.sku | slugify }}">{{ product_t.checkout.phone_label }}</label>
             <input id="buyer-phone-{{ page.sku | slugify }}" name="buyer_phone" type="tel" autocomplete="tel" maxlength="25" required placeholder="{{ product_t.checkout.phone_placeholder | escape }}">
             <label for="buyer-location-{{ page.sku | slugify }}">{{ product_t.checkout.location_label }}</label>
@@ -73,6 +80,7 @@
             <input name="privacy_consent" type="checkbox" required>
             <span>{{ product_t.checkout.privacy_consent }}</span>
           </label>
+          <p class="product-checkout__terms">{{ product_t.checkout.terms_prefix }} <a href="{{ product_t.checkout.terms_url }}">{{ product_t.checkout.terms_label }}</a>.</p>
           <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
           <button class="shop-button" type="submit" disabled>{{ product_t.checkout.buy_button }}</button>
           <p class="product-checkout__status" data-checkout-status role="status" aria-live="polite"></p>

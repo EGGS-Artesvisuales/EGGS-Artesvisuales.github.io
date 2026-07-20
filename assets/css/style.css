@@ -2963,6 +2963,15 @@ footer::before {
   line-height: 1.5;
 }
 
+.product-checkout__quote-contact {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.product-checkout__quote-contact[hidden] {
+  display: none;
+}
+
 .product-checkout input,
 .product-checkout textarea,
 .product-checkout select {
@@ -3001,6 +3010,19 @@ footer::before {
   width: 1rem;
   height: 1rem;
   margin-top: 0.12rem;
+}
+
+.product-checkout__terms {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.product-checkout__terms a {
+  color: #fff;
+  text-decoration-color: var(--site-red);
+  text-underline-offset: 0.18em;
 }
 
 .product-checkout .shop-button {

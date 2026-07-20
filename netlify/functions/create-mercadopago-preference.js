@@ -2,6 +2,7 @@ const { randomUUID } = require("crypto");
 const { PRODUCTS } = require("../lib/products");
 const {
   connectInventory,
+  getInventory,
   releaseReservation,
   reserveInventory,
 } = require("../lib/inventory");
@@ -73,24 +74,55 @@ function normalizedText(value, maxLength) {
     .slice(0, maxLength);
 }
 
-function validatedBuyer(value) {
+function validatedBuyer(value, options = {}) {
   const buyer = {
+    name: normalizedText(value?.name, 120),
+    email: normalizedText(value?.email, 254).toLowerCase(),
     phone: normalizedText(value?.phone, 25),
     location: normalizedText(value?.location, 120),
     address: normalizedText(value?.address, 200),
   };
   const validPhone = /^\+?[0-9 ()-]{7,25}$/.test(buyer.phone);
+  const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(buyer.email);
   const consent = value?.consent === true;
 
   if (
     !validPhone ||
     buyer.location.length < 2 ||
     buyer.address.length < 5 ||
-    !consent
+    !consent ||
+    (options.requireContact && (buyer.name.length < 2 || !validEmail))
   ) {
     return null;
   }
   return buyer;
+}
+
+async function submitShippingQuote({ buyer, deliveryLabel, locale, product, sku }) {
+  const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
+  const fields = new URLSearchParams({
+    "form-name": "ventas-aprobadas",
+    subject: `Cotización de despacho EGGS-Studio — ${sku}`,
+    estado: "COTIZACIÓN DE DESPACHO SOLICITADA",
+    pago_mercado_pago: "Pendiente de cotización",
+    sku,
+    producto: localizedProduct.title,
+    monto: `${Number(product.unitPrice).toLocaleString("es-CL")} CLP + despacho por cotizar`,
+    comprador: buyer.name,
+    email: buyer.email,
+    telefono: buyer.phone,
+    modalidad_entrega: deliveryLabel,
+    region_comuna: buyer.location,
+    direccion: buyer.address,
+    idioma: locale,
+    fecha_pago: "Aún no se ha realizado ningún cobro",
+  });
+  const response = await fetch(`${SITE_URL}/`, {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: fields.toString(),
+  });
+  if (!response.ok) throw new Error(`Netlify Forms respondió ${response.status}`);
 }
 
 exports.handler = async (event) => {
@@ -126,9 +158,25 @@ exports.handler = async (event) => {
   const localeSettings = CHECKOUT_LOCALES[locale];
   const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
   const deliveryLabel = localeSettings.delivery[deliveryOption];
-  const buyer = validatedBuyer(requestBody.buyer);
+  const quoteMode = deliveryOption === "quote_later";
+  const buyer = validatedBuyer(requestBody.buyer, { requireContact: quoteMode });
   if (!buyer) {
     return jsonResponse(400, { error: "Completa correctamente los datos para la entrega." });
+  }
+
+  if (quoteMode) {
+    try {
+      await connectInventory(event);
+      const inventory = await getInventory(sku);
+      if (!inventory.available) {
+        return jsonResponse(409, { error: "Este producto está agotado." });
+      }
+      await submitShippingQuote({ buyer, deliveryLabel, locale, product, sku });
+      return jsonResponse(200, { quote_requested: true });
+    } catch (error) {
+      console.error("No se pudo enviar la cotización de despacho.", error);
+      return jsonResponse(502, { error: "No se pudo enviar la solicitud de cotización." });
+    }
   }
 
   const orderId = randomUUID();
