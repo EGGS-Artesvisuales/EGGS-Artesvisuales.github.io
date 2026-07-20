@@ -13,6 +13,7 @@
 {% assign publicaciones = productos | where: "category", "publicaciones" %}
 {% assign derivados = productos | where: "category", "objetos-y-productos-derivados" %}
 
+<div class="shop-catalog" data-store-catalog data-page-size="12" data-results-template="{{ store_t.controls.results | escape }}">
 <header class="shop-header">
   <p class="shop-eyebrow">{{ store_t.eyebrow }}</p>
   <h1 class="titulo">{{ store_t.store_title }}</h1>
@@ -20,17 +21,68 @@
   <p class="shop-note">{{ store_t.note }}</p>
 </header>
 
+<section class="shop-controls" aria-labelledby="shop-controls-title">
+  <div class="shop-controls__heading">
+    <p class="shop-eyebrow">{{ store_t.eyebrow }}</p>
+    <h2 id="shop-controls-title">{{ store_t.controls.title }}</h2>
+  </div>
+  <div class="shop-controls__grid">
+    <label class="shop-control shop-control--search">
+      <span>{{ store_t.controls.search_label }}</span>
+      <input type="search" data-store-search placeholder="{{ store_t.controls.search_placeholder | escape }}" autocomplete="off">
+    </label>
+    <label class="shop-control">
+      <span>{{ store_t.controls.category_label }}</span>
+      <select data-store-category>
+        <option value="all">{{ store_t.controls.category_all }}</option>
+        <option value="obras-originales">{{ store_t.categories.originals.label }}</option>
+        <option value="impresiones-y-fotografia">{{ store_t.categories.prints.label }}</option>
+        <option value="publicaciones">{{ store_t.categories.publications.label }}</option>
+        <option value="objetos-y-productos-derivados">{{ store_t.categories.derived.label }}</option>
+      </select>
+    </label>
+    <label class="shop-control">
+      <span>{{ store_t.controls.mode_label }}</span>
+      <select data-store-mode>
+        <option value="all">{{ store_t.controls.mode_all }}</option>
+        <option value="direct">{{ store_t.controls.mode_direct }}</option>
+        <option value="consult">{{ store_t.controls.mode_consult }}</option>
+      </select>
+    </label>
+    <label class="shop-control">
+      <span>{{ store_t.controls.sort_label }}</span>
+      <select data-store-sort>
+        <option value="default">{{ store_t.controls.sort_default }}</option>
+        <option value="price-asc">{{ store_t.controls.sort_price_low }}</option>
+        <option value="price-desc">{{ store_t.controls.sort_price_high }}</option>
+        <option value="year-desc">{{ store_t.controls.sort_year_new }}</option>
+        <option value="title-asc">{{ store_t.controls.sort_title }}</option>
+      </select>
+    </label>
+  </div>
+  <button class="shop-controls__reset" type="button" data-store-reset>{{ store_t.controls.reset }}</button>
+</section>
+
 <nav class="shop-category-nav" aria-label="{{ store_t.category_nav_label }}">
-  {% if originales.size > 0 %}<a href="#obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales.size }}</span></a>{% endif %}
-  {% if impresiones.size > 0 %}<a href="#impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones.size }}</span></a>{% endif %}
-  {% if publicaciones.size > 0 %}<a href="#publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones.size }}</span></a>{% endif %}
-  {% if derivados.size > 0 %}<a href="#objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados.size }}</span></a>{% endif %}
+  {% if originales.size > 0 %}<button id="obras-originales" type="button" data-store-shortcut="obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales.size }}</span></button>{% endif %}
+  {% if impresiones.size > 0 %}<button id="impresiones-y-fotografia" type="button" data-store-shortcut="impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones.size }}</span></button>{% endif %}
+  {% if publicaciones.size > 0 %}<button id="publicaciones" type="button" data-store-shortcut="publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones.size }}</span></button>{% endif %}
+  {% if derivados.size > 0 %}<button id="objetos-y-productos-derivados" type="button" data-store-shortcut="objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados.size }}</span></button>{% endif %}
 </nav>
 
-{% assign category_products = originales %}{% assign category_id = "obras-originales" %}{% assign category_number = "01" %}{% assign category_t = store_t.categories.originals %}{% include store-category.html %}
-{% assign category_products = impresiones %}{% assign category_id = "impresiones-y-fotografia" %}{% assign category_number = "02" %}{% assign category_t = store_t.categories.prints %}{% include store-category.html %}
-{% assign category_products = publicaciones %}{% assign category_id = "publicaciones" %}{% assign category_number = "03" %}{% assign category_t = store_t.categories.publications %}{% include store-category.html %}
-{% assign category_products = derivados %}{% assign category_id = "objetos-y-productos-derivados" %}{% assign category_number = "04" %}{% assign category_t = store_t.categories.derived %}{% include store-category.html %}
+<div class="shop-results__summary">
+  <p data-store-status aria-live="polite"></p>
+</div>
+<div class="shop-grid shop-results__grid" id="catalog-results" data-store-results>
+  {% for product in originales %}{% include product-card.html product=product t=store_t %}{% endfor %}
+  {% for product in impresiones %}{% include product-card.html product=product t=store_t %}{% endfor %}
+  {% for product in publicaciones %}{% include product-card.html product=product t=store_t %}{% endfor %}
+  {% for product in derivados %}{% include product-card.html product=product t=store_t %}{% endfor %}
+</div>
+<p class="shop-results__empty" data-store-empty hidden>{{ store_t.controls.no_results }}</p>
+<div class="shop-results__more">
+  <button class="shop-button" type="button" data-store-more hidden>{{ store_t.controls.show_more }}</button>
+</div>
 
 <aside class="shop-contact">
   <p class="shop-eyebrow">{{ store_t.contact_eyebrow }}</p>
@@ -38,3 +90,5 @@
   <p>{{ store_t.contact_text }}</p>
   <a href="{{ store_t.contact_url }}" class="shop-button">{{ store_t.contact_cta }}</a>
 </aside>
+<script src="/assets/js/store-controls.js" defer></script>
+</div>

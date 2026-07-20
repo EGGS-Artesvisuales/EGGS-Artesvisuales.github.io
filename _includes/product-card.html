@@ -1,8 +1,13 @@
-<article class="shop-card" itemscope itemtype="https://schema.org/Product">
+{% assign purchase_mode = "consult" %}
+{% if include.product.category == "impresiones-y-fotografia" or include.product.category == "publicaciones" %}
+  {% if include.product.sku and include.product.price_clp and include.product.stock %}{% assign purchase_mode = "direct" %}{% endif %}
+{% endif %}
+<article class="shop-card" data-store-card data-category="{{ include.product.category | escape }}" data-mode="{{ purchase_mode }}" data-title="{{ include.product.title | escape }}" data-price="{{ include.product.price_clp | default: 0 }}" data-year="{{ include.product.year | default: 0 }}" data-search="{{ include.product.title | escape }} {{ include.product.sku | escape }} {{ include.product.product_type | escape }} {{ include.product.format | escape }} {{ include.product.state | escape }}" itemscope itemtype="https://schema.org/Product">
   <a class="shop-card__media" href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">
     <img src="{{ include.product.image }}" alt="{{ include.product.title | escape }}" loading="lazy" itemprop="image">
   </a>
   <div class="shop-card__body">
+    <p class="shop-card__category">{{ include.product.category_label }}</p>
     <p class="shop-card__meta">{{ include.product.product_type }} / {{ include.product.sku }}</p>
     <h3 itemprop="name"><a href="{{ include.product.url }}">{{ include.product.title }}</a></h3>
     <p class="shop-card__format">{{ include.product.format }}</p>
