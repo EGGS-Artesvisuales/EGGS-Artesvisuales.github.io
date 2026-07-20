@@ -32,6 +32,50 @@ const PRODUCTS = Object.freeze({
       quote_later: "Despacho fuera de Santiago cotizado y pagado después",
     }),
   }),
+  "EGGS-W0003-L01-P4050-F5070": Object.freeze({
+    title: "Infected Paintings 1",
+    description: "Edición limitada enmarcada, numerada y firmada",
+    currency: "CLP",
+    unitPrice: 220000,
+    initialStock: 20,
+    deliveryOptions: Object.freeze({
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    }),
+  }),
+  "EGGS-W0004-L01-P4050-F5070": Object.freeze({
+    title: "Infected Paintings 2",
+    description: "Edición limitada enmarcada, numerada y firmada",
+    currency: "CLP",
+    unitPrice: 220000,
+    initialStock: 20,
+    deliveryOptions: Object.freeze({
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    }),
+  }),
+  "EGGS-W0005-L01-P4050-F5070": Object.freeze({
+    title: "Infected Paintings 3",
+    description: "Edición limitada enmarcada, numerada y firmada",
+    currency: "CLP",
+    unitPrice: 220000,
+    initialStock: 20,
+    deliveryOptions: Object.freeze({
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    }),
+  }),
+  "EGGS-W0006-L01-P4050-F5070": Object.freeze({
+    title: "Infected Paintings 4",
+    description: "Edición limitada enmarcada, numerada y firmada",
+    currency: "CLP",
+    unitPrice: 220000,
+    initialStock: 20,
+    deliveryOptions: Object.freeze({
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    }),
+  }),
 });
 
 module.exports = { PRODUCTS };

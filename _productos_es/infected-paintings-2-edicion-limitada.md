@@ -21,6 +21,8 @@ price_clp: 220000
 price_display: "$220.000 CLP"
 stock: 20
 state: "Disponible"
+delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra."
+mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-W0004-L01-P4050-F5070.webp"
 es_url: "/ES/productos/infected-paintings-2-edicion-limitada/"
 en_url: "/EN/products/infected-paintings-2-edicion-limitada/"
