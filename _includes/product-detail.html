@@ -1,10 +1,8 @@
 {% assign product_t = site.data.store_i18n[page.store_lang] %}
 {% assign commerce_enabled = false %}
-{% if page.lang == "es" %}
-  {% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
-    {% if page.sku and page.price_clp and page.stock %}
-      {% assign commerce_enabled = true %}
-    {% endif %}
+{% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
+  {% if page.sku and page.price_clp and page.stock %}
+    {% assign commerce_enabled = true %}
   {% endif %}
 {% endif %}
 <article class="producto-layout" itemscope itemtype="https://schema.org/Product">
@@ -49,22 +47,22 @@
         <div><dt>{{ product_t.inventory }}</dt><dd>{{ page.fichas }}</dd></div>
       </dl>
       {% if page.delivery_note or commerce_enabled %}
-        <aside class="product-delivery" aria-label="Condiciones de entrega">
-          <strong>Entrega</strong>
-          <p>{% if page.delivery_note %}{{ page.delivery_note }}{% else %}Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra.{% endif %}</p>
+        <aside class="product-delivery" aria-label="{{ product_t.checkout.delivery_heading | escape }}">
+          <strong>{{ product_t.checkout.delivery_heading }}</strong>
+          <p>{% if page.delivery_note %}{{ page.delivery_note }}{% else %}{{ product_t.checkout.delivery_note }}{% endif %}</p>
         </aside>
       {% endif %}
       {% if commerce_enabled %}
-        <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}">
-          <label for="delivery-option-{{ page.sku | slugify }}">¿Dónde recibirás tu compra?</label>
+        <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}" data-checkout-lang="{{ page.store_lang | escape }}">
+          <label for="delivery-option-{{ page.sku | slugify }}">{{ product_t.checkout.delivery_question }}</label>
           <select id="delivery-option-{{ page.sku | slugify }}" name="delivery_option" required>
-            <option value="santiago">Santiago — entrega sin costo</option>
-            <option value="quote_later">Fuera de Santiago — despacho cotizado después</option>
+            <option value="santiago">{{ product_t.checkout.santiago }}</option>
+            <option value="quote_later">{{ product_t.checkout.quote_later }}</option>
           </select>
-          <p class="product-checkout__inventory" data-inventory-status aria-live="polite">Consultando stock…</p>
-          <button class="shop-button" type="submit" disabled>Comprar ahora con Mercado Pago</button>
+          <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
+          <button class="shop-button" type="submit" disabled>{{ product_t.checkout.buy_button }}</button>
           <p class="product-checkout__status" data-checkout-status role="status" aria-live="polite"></p>
-          <noscript><p>Necesitas activar JavaScript para iniciar el pago.</p></noscript>
+          <noscript><p>{{ product_t.checkout.noscript }}</p></noscript>
         </form>
         <script src="/assets/js/mercadopago-checkout.js" defer></script>
       {% else %}

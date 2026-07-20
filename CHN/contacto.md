@@ -11,7 +11,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 ---
 
 
-<h1 class="titulo">接触</h1>
+<h1 class="titulo">联系</h1>
 
 <h2 class="subtitulo">咨询、合作和项目</h2>
 
@@ -21,17 +21,18 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
 
 <form class="contact-form"
       action="https://formsubmit.co/e.garnicasanchez@gmail.com"
-      method="POST">
+      method="POST"
+      data-contact-lang="chn">
 
   <!-- Campos del formulario -->
   <label for="name">姓名：</label>
-  <input type="text" id="name" name="name" required placeholder="Tu nombre">
+  <input type="text" id="name" name="name" required placeholder="您的姓名">
 
   <label for="email">电子邮件：</label>
-  <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+  <input type="email" id="email" name="email" required placeholder="您的电子邮箱">
 
   <label for="message">信息：</label>
-  <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje aquí"></textarea>
+  <textarea id="message" name="message" rows="5" required placeholder="请在此输入您的信息"></textarea>
 
   <!-- Botón de envío -->
   <button type="submit">发送</button>
@@ -40,5 +41,7 @@ keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智
   <input type="hidden" name="_next" value="https://eggs-artesvisuales.github.io/CHN/gracias.html">
   <input type="hidden" name="_captcha" value="false">
 </form>
+
+<script src="/assets/js/contact-product.js" defer></script>
 
 <br><br><br>

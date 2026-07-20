@@ -10,6 +10,44 @@ const MERCADOPAGO_API_URL = "https://api.mercadopago.com/checkout/preferences";
 const SITE_URL = "https://eggs-studio.cl";
 const MERCADOPAGO_ENV = (process.env.MERCADOPAGO_ENV || "test").toLowerCase();
 const PREFERENCE_VALIDITY_MS = 15 * 60 * 1000;
+const CHECKOUT_LOCALES = Object.freeze({
+  es: Object.freeze({
+    success: "/ES/pago-exitoso.html",
+    pending: "/ES/pago-pendiente.html",
+    failure: "/ES/pago-rechazado.html",
+    delivery: Object.freeze({
+      santiago: "Entrega sin costo en Santiago",
+      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+    }),
+  }),
+  en: Object.freeze({
+    success: "/EN/payment-success.html",
+    pending: "/EN/payment-pending.html",
+    failure: "/EN/payment-failed.html",
+    delivery: Object.freeze({
+      santiago: "Free delivery in Santiago",
+      quote_later: "Shipping outside Santiago quoted and paid afterward",
+    }),
+  }),
+  mpd: Object.freeze({
+    success: "/MPD/pago-exitoso.html",
+    pending: "/MPD/pago-pendiente.html",
+    failure: "/MPD/pago-rechazado.html",
+    delivery: Object.freeze({
+      santiago: "Santiago mew müley müten eluwün",
+      quote_later: "Santiago mülelay; werkün ñi falintun wüla feypingeay ka kullingeay",
+    }),
+  }),
+  chn: Object.freeze({
+    success: "/CHN/pago-exitoso.html",
+    pending: "/CHN/pago-pendiente.html",
+    failure: "/CHN/pago-rechazado.html",
+    delivery: Object.freeze({
+      santiago: "圣地亚哥市内免费交付",
+      quote_later: "圣地亚哥以外地区的运费稍后报价并支付",
+    }),
+  }),
+});
 
 function jsonResponse(statusCode, body) {
   return {
@@ -47,10 +85,14 @@ exports.handler = async (event) => {
   }
 
   const deliveryOption = String(requestBody.delivery_option || "").trim();
-  const deliveryLabel = product.deliveryOptions[deliveryOption];
-  if (!deliveryLabel) {
+  if (!product.deliveryOptions[deliveryOption]) {
     return jsonResponse(400, { error: "Selecciona una opción de entrega válida." });
   }
+  const localeKey = String(requestBody.lang || "es").trim().toLowerCase();
+  const locale = CHECKOUT_LOCALES[localeKey] ? localeKey : "es";
+  const localeSettings = CHECKOUT_LOCALES[locale];
+  const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
+  const deliveryLabel = localeSettings.delivery[deliveryOption];
 
   const orderId = randomUUID();
   let reservation;
@@ -74,17 +116,17 @@ exports.handler = async (event) => {
     items: [
       {
         id: sku,
-        title: product.title,
-        description: `${product.description}. ${deliveryLabel}.`,
+        title: localizedProduct.title,
+        description: `${localizedProduct.description}. ${deliveryLabel}.`,
         quantity: 1,
         currency_id: product.currency,
         unit_price: product.unitPrice,
       },
     ],
     back_urls: {
-      success: `${SITE_URL}/ES/pago-exitoso.html`,
-      pending: `${SITE_URL}/ES/pago-pendiente.html`,
-      failure: `${SITE_URL}/ES/pago-rechazado.html`,
+      success: `${SITE_URL}${localeSettings.success}`,
+      pending: `${SITE_URL}${localeSettings.pending}`,
+      failure: `${SITE_URL}${localeSettings.failure}`,
     },
     notification_url: `${SITE_URL}/.netlify/functions/mercadopago-webhook`,
     auto_return: "approved",
@@ -98,6 +140,7 @@ exports.handler = async (event) => {
       sku,
       order_id: orderId,
       delivery_option: deliveryOption,
+      lang: locale,
       source: "eggs-studio.cl",
     },
   };

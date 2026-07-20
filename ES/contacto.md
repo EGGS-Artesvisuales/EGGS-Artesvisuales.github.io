@@ -16,7 +16,8 @@ permalink: /ES/contacto.html
 
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
-      method="POST">
+      method="POST"
+      data-contact-lang="es">
 
   <!-- Campos del formulario -->
   <label for="name">Nombre:</label>

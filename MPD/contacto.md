@@ -16,7 +16,8 @@ permalink: /MPD/contacto.html
 
 <form class="contact-form"
       action="https://formsubmit.co/e.garnicasanchez@gmail.com"
-      method="POST">
+      method="POST"
+      data-contact-lang="mpd">
 
   <!-- Formulario ñi campos -->
   <label for="name">Üy:</label>
@@ -35,5 +36,7 @@ permalink: /MPD/contacto.html
   <input type="hidden" name="_next" value="https://eggs-studio.cl/MPD/gracias.html">
   <input type="hidden" name="_captcha" value="false">
 </form>
+
+<script src="/assets/js/contact-product.js" defer></script>
 
 <br><br><br>

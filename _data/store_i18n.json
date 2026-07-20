@@ -44,7 +44,17 @@
     "certificate": "Certificado",
     "inventory": "Ficha de inventario",
     "consult": "Consultar disponibilidad",
-    "hint_prefix": "Al escribir, incluye el SKU"
+    "hint_prefix": "Al escribir, incluye el SKU",
+    "checkout": {
+      "delivery_heading": "Entrega",
+      "delivery_note": "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra.",
+      "delivery_question": "¿Dónde recibirás tu compra?",
+      "santiago": "Santiago — entrega sin costo",
+      "quote_later": "Fuera de Santiago — despacho cotizado después",
+      "checking_stock": "Consultando stock…",
+      "buy_button": "Comprar ahora con Mercado Pago",
+      "noscript": "Necesitas activar JavaScript para iniciar el pago."
+    }
   },
   "en": {
     "store_title": "Shop",
@@ -91,7 +101,17 @@
     "certificate": "Certificate",
     "inventory": "Inventory record",
     "consult": "Check availability",
-    "hint_prefix": "When writing, include SKU"
+    "hint_prefix": "When writing, include SKU",
+    "checkout": {
+      "delivery_heading": "Delivery",
+      "delivery_note": "Free delivery in Santiago. For other communes and regions, shipping is quoted and paid after purchase.",
+      "delivery_question": "Where will you receive your purchase?",
+      "santiago": "Santiago — free delivery",
+      "quote_later": "Outside Santiago — shipping quoted afterward",
+      "checking_stock": "Checking stock…",
+      "buy_button": "Buy now with Mercado Pago",
+      "noscript": "JavaScript must be enabled to start payment."
+    }
   },
   "mpd": {
     "store_title": "Trafkintu",
@@ -138,7 +158,17 @@
     "certificate": "Certificado",
     "inventory": "Inventario ficha",
     "consult": "Disponibilidad ramtu",
-    "hint_prefix": "Wirintukule, SKU koneltu"
+    "hint_prefix": "Wirintukule, SKU koneltu",
+    "checkout": {
+      "delivery_heading": "Eluwün ka werkün",
+      "delivery_note": "Santiago mew müley müten eluwün. Kake comuna ka región mew, werkün ñi falintun ngillakan rupalu feypingeay ka kullingeay.",
+      "delivery_question": "Chew elungeay tami ngillakan?",
+      "santiago": "Santiago — müley müten eluwün",
+      "quote_later": "Santiago mülelay — werkün ñi falintun wüla feypingeay",
+      "checking_stock": "Stock kintungey…",
+      "buy_button": "Mercado Pago mew fachantü ngillange",
+      "noscript": "Kullin ñi tüwün mew JavaScript müley ñi konün."
+    }
   },
   "chn": {
     "store_title": "商店",
@@ -185,6 +215,16 @@
     "certificate": "证书",
     "inventory": "库存记录",
     "consult": "查询库存",
-    "hint_prefix": "来信时请注明SKU"
+    "hint_prefix": "来信时请注明SKU",
+    "checkout": {
+      "delivery_heading": "交付",
+      "delivery_note": "圣地亚哥市内免费交付。其他城市及地区的运费将在购买后另行报价和支付。",
+      "delivery_question": "您希望在哪里接收商品？",
+      "santiago": "圣地亚哥 — 免费交付",
+      "quote_later": "圣地亚哥以外 — 稍后报价运费",
+      "checking_stock": "正在查询库存…",
+      "buy_button": "使用 Mercado Pago 立即购买",
+      "noscript": "需要启用 JavaScript 才能开始付款。"
+    }
   }
 }

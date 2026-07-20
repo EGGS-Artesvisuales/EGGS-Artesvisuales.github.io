@@ -7,6 +7,12 @@ const ROOT = path.resolve(__dirname, "..");
 const PRODUCTS_DIR = path.join(ROOT, "_productos_es");
 const OUTPUT_FILE = path.join(ROOT, "netlify", "lib", "products.js");
 const CHECKOUT_CATEGORIES = new Set(["impresiones-y-fotografia", "publicaciones"]);
+const LOCALE_DIRECTORIES = Object.freeze({
+  es: "_productos_es",
+  en: "_productos_en",
+  mpd: "_productos_mpd",
+  chn: "_productos_chn",
+});
 
 function parseScalar(rawValue) {
   const value = rawValue.trim();
@@ -43,6 +49,18 @@ const files = fs
   .filter((file) => file.endsWith(".md"))
   .sort();
 
+const localizedProducts = Object.fromEntries(
+  Object.entries(LOCALE_DIRECTORIES).map(([locale, directory]) => {
+    const collection = new Map();
+    const directoryPath = path.join(ROOT, directory);
+    for (const file of fs.readdirSync(directoryPath).filter((name) => name.endsWith(".md"))) {
+      const data = readFrontMatter(path.join(directoryPath, file));
+      if (data.sku) collection.set(String(data.sku), data);
+    }
+    return [locale, collection];
+  }),
+);
+
 const products = files.map((file) => {
   const data = readFrontMatter(path.join(PRODUCTS_DIR, file));
   if (!CHECKOUT_CATEGORIES.has(data.category)) return null;
@@ -59,6 +77,22 @@ const products = files.map((file) => {
     throw new Error(`${file}: stock debe ser un entero positivo`);
   }
 
+  const localized = Object.fromEntries(
+    Object.entries(localizedProducts).map(([locale, collection]) => {
+      const translation = collection.get(String(data.sku));
+      if (!translation?.title || !translation?.description) {
+        throw new Error(`${file}: falta traducción ${locale} para ${data.sku}`);
+      }
+      return [
+        locale,
+        {
+          title: String(translation.title),
+          description: String(translation.description),
+        },
+      ];
+    }),
+  );
+
   return {
     sku: String(data.sku),
     title: String(data.title),
@@ -66,6 +100,7 @@ const products = files.map((file) => {
     unitPrice: data.price_clp,
     initialStock: data.stock,
     binaryMode: data.stock === 1,
+    localized,
   };
 }).filter(Boolean);
 
@@ -97,6 +132,14 @@ for (const product of products) {
   lines.push(`    initialStock: ${product.initialStock},`);
   lines.push(`    binaryMode: ${product.binaryMode},`);
   lines.push("    deliveryOptions: DELIVERY_OPTIONS,");
+  lines.push("    localized: Object.freeze({");
+  for (const [locale, translation] of Object.entries(product.localized)) {
+    lines.push(`      ${locale}: Object.freeze({`);
+    lines.push(`        title: ${JSON.stringify(translation.title)},`);
+    lines.push(`        description: ${JSON.stringify(translation.description)},`);
+    lines.push("      }),");
+  }
+  lines.push("    }),");
   lines.push("  }),");
 }
 

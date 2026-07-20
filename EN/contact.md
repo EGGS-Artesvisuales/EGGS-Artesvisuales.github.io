@@ -16,7 +16,8 @@ permalink: /EN/contact.html
 <p class="subtitulo2" style="margin-left: 3rem;">Fill out the form below:</p>
 <form class="contact-form" 
       action="https://formsubmit.co/e.garnicasanchez@gmail.com" 
-      method="POST">
+      method="POST"
+      data-contact-lang="en">
   
   <!-- Form fields -->
 
@@ -38,5 +39,5 @@ permalink: /EN/contact.html
   <!-- _captcha: Disable verification -->
   <input type="hidden" name="_captcha" value="false">
 </form>
+<script src="/assets/js/contact-product.js" defer></script>
 <br><br><br>
-
