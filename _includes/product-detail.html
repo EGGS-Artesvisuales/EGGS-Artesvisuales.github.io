@@ -1,6 +1,6 @@
 {% assign product_t = site.data.store_i18n[page.store_lang] %}
 {% assign commerce_enabled = false %}
-{% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
+{% if page.category == "impresiones-y-fotografia" %}
   {% unless page.direct_purchase == false %}
     {% if page.sku and page.price_clp and page.stock %}
       {% assign commerce_enabled = true %}

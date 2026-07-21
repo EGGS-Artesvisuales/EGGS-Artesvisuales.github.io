@@ -16,8 +16,8 @@
 {% for product in originales %}{% unless product.store_listed == false %}{% assign originales_count = originales_count | plus: 1 %}{% endunless %}{% endfor %}
 {% assign impresiones_count = 0 %}
 {% for product in impresiones %}{% unless product.store_listed == false %}{% assign impresiones_count = impresiones_count | plus: 1 %}{% endunless %}{% endfor %}
+{% comment %}Publicaciones ocultas temporalmente hasta definir publicaciones reales.{% endcomment %}
 {% assign publicaciones_count = 0 %}
-{% for product in publicaciones %}{% unless product.store_listed == false %}{% assign publicaciones_count = publicaciones_count | plus: 1 %}{% endunless %}{% endfor %}
 {% assign derivados_count = 0 %}
 {% for product in derivados %}{% unless product.store_listed == false %}{% assign derivados_count = derivados_count | plus: 1 %}{% endunless %}{% endfor %}
 
@@ -45,7 +45,6 @@
         <option value="all">{{ store_t.controls.category_all }}</option>
         <option value="obras-originales">{{ store_t.categories.originals.label }}</option>
         <option value="impresiones-y-fotografia">{{ store_t.categories.prints.label }}</option>
-        <option value="publicaciones">{{ store_t.categories.publications.label }}</option>
         <option value="objetos-y-productos-derivados">{{ store_t.categories.derived.label }}</option>
       </select>
     </label>
@@ -74,7 +73,6 @@
 <nav class="shop-category-nav" aria-label="{{ store_t.category_nav_label }}">
   {% if originales_count > 0 %}<button id="obras-originales" type="button" data-store-shortcut="obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales_count }}</span></button>{% endif %}
   {% if impresiones_count > 0 %}<button id="impresiones-y-fotografia" type="button" data-store-shortcut="impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones_count }}</span></button>{% endif %}
-  {% if publicaciones_count > 0 %}<button id="publicaciones" type="button" data-store-shortcut="publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones_count }}</span></button>{% endif %}
   {% if derivados_count > 0 %}<button id="objetos-y-productos-derivados" type="button" data-store-shortcut="objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados_count }}</span></button>{% endif %}
 </nav>
 
@@ -84,7 +82,6 @@
 <div class="shop-grid shop-results__grid" id="catalog-results" data-store-results>
   {% for product in originales %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
   {% for product in impresiones %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
-  {% for product in publicaciones %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
   {% for product in derivados %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
 </div>
 <p class="shop-results__empty" data-store-empty hidden>{{ store_t.controls.no_results }}</p>

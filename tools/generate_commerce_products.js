@@ -6,7 +6,7 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const PRODUCTS_DIR = path.join(ROOT, "_productos_es");
 const OUTPUT_FILE = path.join(ROOT, "netlify", "lib", "products.js");
-const CHECKOUT_CATEGORIES = new Set(["impresiones-y-fotografia", "publicaciones"]);
+const CHECKOUT_CATEGORIES = new Set(["impresiones-y-fotografia"]);
 const LOCALE_DIRECTORIES = Object.freeze({
   es: "_productos_es",
   en: "_productos_en",
