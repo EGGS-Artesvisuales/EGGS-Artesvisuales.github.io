@@ -1,0 +1,32 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign site_url = site.url | default: 'https://eggs-studio.cl' %}
+  {% for page_item in site.pages %}
+    {% unless page_item.url contains '/assets/' or page_item.url contains '/404' or page_item.url contains '/sitemap.xml' or page_item.url contains '/robots.txt' %}
+      {% if page_item.url %}
+  <url>
+    <loc>{{ site_url }}{{ page_item.url | replace: 'index.html', '' | xml_escape }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>{% if page_item.url == '/' or page_item.url contains '/index' %}1.0{% elsif page_item.url contains '/tienda' or page_item.url contains '/store' %}0.9{% elsif page_item.url contains '/contact' or page_item.url contains '/contacto' %}0.8{% else %}0.6{% endif %}</priority>
+  </url>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+  {% for collection in site.collections %}
+    {% unless collection.label == 'posts' %}
+      {% for doc in collection.docs %}
+        {% if doc.url %}
+  <url>
+    <loc>{{ site_url }}{{ doc.url | xml_escape }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>{% if doc.collection contains 'productos' %}0.8{% else %}0.5{% endif %}</priority>
+  </url>
+        {% endif %}
+      {% endfor %}
+    {% endunless %}
+  {% endfor %}
+</urlset>
