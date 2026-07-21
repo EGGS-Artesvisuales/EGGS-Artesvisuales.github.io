@@ -4,6 +4,10 @@ lang: en
 title: "Work – EGGS-Studio"
 description: "Curatorial index of EGGS-Studio: available prints, main series, conceptual map and work axes by Esteban Garnica."
 permalink: /EN/work.html
+es_url: /ES/obra.html
+en_url: /EN/work.html
+mpd_url: /MPD/obra.html
+zh_url: /CHN/obra.html
 keywords: "Esteban Garnica work, EGGS-Studio, art series, prints, photography, Infected Paintings, Anti-advertising"
 image: /assets/img/pinf-blds-upg-retr-003b.jpg
 mermaid: true
