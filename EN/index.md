@@ -35,7 +35,7 @@ mermaid: true
     </div>
   </a>
 
-  <a href="/EN/world-representation.html" class="fancy-button">
+  <a href="/EN/work.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Explore the body of work" loading="lazy">
       <p class="title">Explore the work</p>

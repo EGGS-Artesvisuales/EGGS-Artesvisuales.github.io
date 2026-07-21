@@ -36,7 +36,7 @@ carousel: true
     </div>
   </a>
 
-  <a href="/ES/mundo-exterior.html" class="fancy-button">
+  <a href="/ES/obra.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Explorar universo de obra" loading="lazy">
       <p class="title">Explorar obra</p>
