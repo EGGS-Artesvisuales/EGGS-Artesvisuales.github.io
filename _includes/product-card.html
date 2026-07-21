@@ -14,6 +14,29 @@
     <h3 itemprop="name"><a href="{{ include.product.url }}">{{ include.product.title }}</a></h3>
     <p class="shop-card__format">{{ include.product.format }}</p>
     <p class="shop-card__state"><span aria-hidden="true"></span>{{ include.product.state }}</p>
+    <p class="shop-card__meta">
+      {% if purchase_mode == "direct" %}
+        {% if include.product.store_lang == "en" %}
+          Limited edition · signed · certified · direct checkout
+        {% elsif include.product.store_lang == "chn" %}
+          限量版 · 签名 · 认证 · 直接购买
+        {% elsif include.product.store_lang == "mpd" %}
+          Pichi edición · firmangechi · certificado · rüf ngillakan
+        {% else %}
+          Edición limitada · firmada · certificada · compra directa
+        {% endif %}
+      {% else %}
+        {% if include.product.store_lang == "en" %}
+          Enquiry first · certificate and delivery conditions confirmed
+        {% elsif include.product.store_lang == "chn" %}
+          先咨询 · 证书与交付条件确认
+        {% elsif include.product.store_lang == "mpd" %}
+          Wüño ramtu · certificado ka eluwün feypingeay
+        {% else %}
+          Consulta previa · certificado y condiciones de entrega
+        {% endif %}
+      {% endif %}
+    </p>
     <div class="shop-card__footer">
       <strong>{{ include.product.price_display }}</strong>
       <a href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">{{ include.t.card_view }}</a>
