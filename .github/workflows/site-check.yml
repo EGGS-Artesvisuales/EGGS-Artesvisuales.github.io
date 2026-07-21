@@ -20,7 +20,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.2'
-          bundler-cache: true
+
+      - name: Install Ruby dependencies
+        run: |
+          bundle config set path vendor/bundle
+          bundle install --jobs=4 --retry=3
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --trace
