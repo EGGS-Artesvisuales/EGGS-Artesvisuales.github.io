@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% assign site_origin = site.url | default: 'https://eggs-studio.cl' %}
+  {% assign social_image = page.og_image | default: page.image | default: '/assets/img/EGGSLOGOindex1.png' %}
+  {% if social_image contains '://' %}
+    {% assign social_image_url = social_image %}
+  {% else %}
+    {% assign social_image_url = site_origin | append: social_image %}
+  {% endif %}
+  {% assign social_image_alt = page.image_alt | default: page.title | default: 'EGGS-Studio' %}
 
   <title>{{ page.title | default: 'EGGS-Studio | Mapuzungun' }}</title>
   <meta name="description" content="{{ page.description | default: 'EGGS-Studio ñi Mapuzungun txoy.' }}">
@@ -13,15 +21,21 @@
 
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
   <meta name="theme-color" content="#000000">
-  <link rel="canonical" href="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
+  <link rel="canonical" href="{{ site_origin }}{{ page.url }}">
 
   <meta property="og:title" content="{{ page.title | default: 'EGGS-Studio | Mapuzungun' }}">
   <meta property="og:description" content="{{ page.description | default: 'EGGS-Studio ñi Mapuzungun txoy.' }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url | default: 'https://eggs-studio.cl' }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url | default: 'https://eggs-studio.cl' }}/assets/img/EGGSLOGOindex1.png">
+  <meta property="og:type" content="{{ page.og_type | default: 'website' }}">
+  <meta property="og:url" content="{{ site_origin }}{{ page.url }}">
+  <meta property="og:image" content="{{ social_image_url }}">
+  <meta property="og:image:alt" content="{{ social_image_alt }}">
   <meta property="og:locale" content="arn_CL">
   <meta property="og:site_name" content="EGGS-Studio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: 'EGGS-Studio' }}">
+  <meta name="twitter:description" content="{{ page.description | default: 'EGGS-Studio ñi Mapuzungun txoy.' }}">
+  <meta name="twitter:image" content="{{ social_image_url }}">
+  <meta name="twitter:image:alt" content="{{ social_image_alt }}">
 
   {% if page.carousel %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
