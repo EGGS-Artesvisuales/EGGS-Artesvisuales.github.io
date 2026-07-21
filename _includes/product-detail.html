@@ -37,6 +37,42 @@
         <strong>{{ page.price_display }}</strong>
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
+      <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Edition, certificate and payment{% elsif page.store_lang == 'chn' %}版本、证书与支付{% elsif page.store_lang == 'mpd' %}Edición, certificado ka kullin{% else %}Edición, certificado y pago{% endif %}">
+        <strong>
+          {% if page.store_lang == "en" %}
+            Edition and certification
+          {% elsif page.store_lang == "chn" %}
+            版本与认证
+          {% elsif page.store_lang == "mpd" %}
+            Edición ka certificado
+          {% else %}
+            Edición y certificación
+          {% endif %}
+        </strong>
+        <p>
+          {% if commerce_enabled %}
+            {% if page.store_lang == "en" %}
+              Direct-purchase editions are signed, numbered and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.
+            {% elsif page.store_lang == "chn" %}
+              可直接购买的版本由 EGGS-Studio 签名、编号并认证。付款通过 Mercado Pago 处理，运费会在付款前计算。
+            {% elsif page.store_lang == "mpd" %}
+              Rüf ngillakan edición firmangeay, rakin nieay ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.
+            {% else %}
+              Las ediciones con compra directa son firmadas, numeradas y certificadas por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.
+            {% endif %}
+          {% else %}
+            {% if page.store_lang == "en" %}
+              This work is handled by enquiry first so availability, certificate, delivery and final conditions can be confirmed before purchase.
+            {% elsif page.store_lang == "chn" %}
+              此作品需先咨询，以便在购买前确认可用性、证书、交付与最终条件。
+            {% elsif page.store_lang == "mpd" %}
+              Fachi küdaw wüño ramtun mew amuley, disponibilidad, certificado, eluwün ka fill az petu ngillal feypingeal.
+            {% else %}
+              Esta obra se gestiona por consulta para confirmar disponibilidad, certificado, entrega y condiciones finales antes de comprar.
+            {% endif %}
+          {% endif %}
+        </p>
+      </aside>
       <dl class="product-specs">
         {% if page.year %}<div><dt>{{ product_t.year }}</dt><dd>{{ page.year }}</dd></div>{% endif %}
         <div><dt>{{ product_t.type }}</dt><dd>{{ page.product_type }}</dd></div>

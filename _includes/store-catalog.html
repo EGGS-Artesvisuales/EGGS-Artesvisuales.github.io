@@ -29,6 +29,31 @@
   <p class="shop-note">{{ store_t.note }}</p>
 </header>
 
+<section class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Shop trust and purchase conditions{% elsif page.store_lang == 'chn' %}商店信任与购买条件{% elsif page.store_lang == 'mpd' %}Trafkintu ñi feyentun{% else %}Confianza y condiciones de compra{% endif %}">
+  <strong>
+    {% if page.store_lang == "en" %}
+      Limited editions, certificate and secure payment
+    {% elsif page.store_lang == "chn" %}
+      限量版、证书与安全支付
+    {% elsif page.store_lang == "mpd" %}
+      Pichi edición, certificado ka küme kullin
+    {% else %}
+      Ediciones limitadas, certificado y pago seguro
+    {% endif %}
+  </strong>
+  <p>
+    {% if page.store_lang == "en" %}
+      Prints and photographs are sold as signed, numbered and certified editions. Shipping is calculated by zone before payment and checkout is processed through Mercado Pago.
+    {% elsif page.store_lang == "chn" %}
+      艺术微喷与摄影作品以签名、编号和认证版本出售。运费会在付款前按区域计算，并通过 Mercado Pago 完成支付。
+    {% elsif page.store_lang == "mpd" %}
+      Prints ka fotografía firmangeay, rakin nieay ka certificado egu. Werkün ñi falintun petu kullin calculagey ka Mercado Pago mew amuley.
+    {% else %}
+      Los prints y fotografías se venden como ediciones firmadas, numeradas y certificadas. El despacho se calcula por zona antes de pagar y el pago se procesa por Mercado Pago.
+    {% endif %}
+  </p>
+</section>
+
 <section class="shop-controls" aria-labelledby="shop-controls-title">
   <div class="shop-controls__heading">
     <p class="shop-eyebrow">{{ store_t.eyebrow }}</p>
