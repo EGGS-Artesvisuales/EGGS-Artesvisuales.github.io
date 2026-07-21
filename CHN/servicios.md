@@ -2,119 +2,68 @@
 layout: default-chn
 lang: zh-Hans
 title: "服务"
-description: "EGGS-Studio 中文页面：服务。"
+description: "EGGS-Studio 中文页面：服务、委托、修复、壁画、布展、工作坊与文化项目。"
 permalink: /CHN/servicios.html
 es_url: /ES/servicios.html
 en_url: /EN/services.html
 mpd_url: /MPD/servicios.html
-keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
+keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 修复, 工作坊, 社区艺术, 智利"
 ---
-
 
 <h1 class="titulo">服务</h1>
 
 <p class="parrafo">
-  我结合公共艺术、修复、设计和文化管理方面的经验，为各种需求提供艺术和技术解决方案。每项服务都适应每个项目的特殊性，融合创造力、工艺和以质量为导向的负责任的方法。
+  EGGS-Studio 为个人、机构、社区与商业项目提供艺术和技术服务，涵盖公共艺术、修复、设计、布展、教学与文化制作。
 </p>
 
 <p class="parrafo">
-  我的工作涵盖社区空间的干预以及机构、公司和独立项目的专门开发，始终优先考虑与环境和相关人员的对话。
+  每项服务都会根据场地、预算和目标调整：特定空间的作品、修复项目、壁画、展陈、教育活动或完整的文化体验。
 </p>
+
+<div class="service-cta">
+  <h2 class="subtitulo2">更快获得报价</h2>
+  <p class="parrafo">
+    请发送项目简述、地点、尺寸、预计日期、空间或作品照片，以及主要目标：修复、委托创作、布展、教学或激活空间。
+  </p>
+  <a href="/CHN/contacto.html" class="enlace">申请报价</a>
+</div>
 
 <br>
 
 <h2 class="subtitulo">类别</h2>
 <br>
 
-<!-- Sección de Categorías con fancy buttons -->
 <div class="button-container">
-
-  <!-- Botón: Restauración -->
-  <a href="#restauracion" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/restauracion-boton.webp" alt="Restauración" loading="lazy">
-      <p class="title">恢复</p>
-      <p class="subtitle">作品的保护和恢复。</p>
-    </div>
-  </a>
-
-  <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
-  <a href="#encargos" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/encargos-boton.webp" alt="Encargos y Encomiendas" loading="lazy">
-      <p class="title">佣金和奖励</p>
-      <p class="subtitle">定制绘画和壁画。</p>
-    </div>
-  </a>
-
-  <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
-  <a href="#ambientacion" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
-      <p class="title">设置和蒙太奇</p>
-      <p class="subtitle">艺术和装饰装置。</p>
-    </div>
-  </a>
-
+  <a href="#restauracion" class="fancy-button"><div class="button-content"><img src="/assets/img/restauracion-boton.webp" alt="修复" loading="lazy"><p class="title">修复</p><p class="subtitle">作品保护与恢复。</p></div></a>
+  <a href="#encargos" class="fancy-button"><div class="button-content"><img src="/assets/img/encargos-boton.webp" alt="委托创作" loading="lazy"><p class="title">委托创作</p><p class="subtitle">绘画、壁画与定制视觉项目。</p></div></a>
+  <a href="#ambientacion" class="fancy-button"><div class="button-content"><img src="/assets/img/instalacion-boton.webp" alt="布展与装置" loading="lazy"><p class="title">布展与装置</p><p class="subtitle">空间、展览与文化体验。</p></div></a>
+  <a href="#talleres" class="fancy-button"><div class="button-content"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="工作坊与艺术教育" loading="lazy"><p class="title">工作坊与教育</p><p class="subtitle">社区、学习与应用艺术。</p></div></a>
 </div>
 
 <hr class="separador separador--aire" />
 
 <section id="restauracion" class="service-section">
-  <div class="service-media">
-    <img src="/assets/img/restauracion-boton.webp" alt="Detalle visual del servicio de restauración" loading="lazy">
-  </div>
-  <div class="service-copy">
-    <h2 class="subtitulo">恢复和保护</h2>
-    <p class="parrafo">
-      作品、物体和表面的材料和视觉恢复，符合保护标准、审美解读和对每件作品历史的尊重。
-    </p>
-    <ul class="service-list">
-      <li>目视诊断、摄影记录和干预建议。</li>
-      <li>适当的清洁、稳定、色彩重新整合和保护性饰面。</li>
-      <li>我为私人作品、家庭收藏、机构和社区空间工作。</li>
-    </ul>
-  </div>
+  <div class="service-media"><img src="/assets/img/restauracion-boton.webp" alt="修复服务视觉参考" loading="lazy"></div>
+  <div class="service-copy"><h2 class="subtitulo">修复与保护</h2><p class="parrafo">按照保护标准、审美判断和作品历史，对作品、物件和表面进行材料与视觉恢复。</p><ul class="service-list"><li>视觉诊断、摄影记录和干预建议。</li><li>清洁、稳定、色彩修复和保护处理。</li><li>面向私人作品、家庭收藏、机构和社区空间。</li></ul></div>
 </section>
 
 <section id="encargos" class="service-section">
-  <div class="service-media">
-    <img src="/assets/img/encargos-boton.webp" alt="Obras por encargo y murales personalizados" loading="lazy">
-  </div>
-  <div class="service-copy">
-    <h2 class="subtitulo">佣金和工作任务</h2>
-    <p class="parrafo">
-      定制绘画、壁画和视觉干预的开发，从最初的想法到最终的执行。
-    </p>
-    <ul class="service-list">
-      <li>绘制草图、定义调色板、比例、支持和生产日历。</li>
-      <li>适用于家庭、办公室、场所、社会组织和文化机构。</li>
-      <li>整合档案、地域特征、家族记忆或品牌叙事的可能性。</li>
-    </ul>
-  </div>
+  <div class="service-media"><img src="/assets/img/encargos-boton.webp" alt="委托作品与壁画" loading="lazy"></div>
+  <div class="service-copy"><h2 class="subtitulo">委托创作</h2><p class="parrafo">从最初想法到最终执行，制作定制绘画、壁画和视觉介入项目。</p><ul class="service-list"><li>草图、色彩、比例、材料和制作时间表。</li><li>适用于住宅、办公室、商业空间、社会组织和文化机构。</li><li>可整合档案、地域身份、家庭记忆或品牌叙事。</li></ul></div>
 </section>
 
 <section id="ambientacion" class="service-section">
-  <div class="service-media">
-    <img src="/assets/img/instalacion-boton.webp" alt="Ambientación artística, montaje e instalación de obra" loading="lazy">
-  </div>
-  <div class="service-copy">
-    <h2 class="subtitulo">设置、安装和剪辑</h2>
-    <p class="parrafo">
-      设计和执行视觉解决方案以激活空间、展览、活动和文化体验。
-    </p>
-    <ul class="service-list">
-      <li>作品、艺术设置和空间构成的组合。</li>
-      <li>路线、视觉支持、简单标牌和展览解决方案的设计。</li>
-      <li>展览、社区活动、博览会、研讨会和特殊项目的制作。</li>
-    </ul>
-  </div>
+  <div class="service-media"><img src="/assets/img/instalacion-boton.webp" alt="艺术布展、装置与空间设计" loading="lazy"></div>
+  <div class="service-copy"><h2 class="subtitulo">布展、装置与空间设计</h2><p class="parrafo">为空间、展览、活动和文化体验设计并执行视觉解决方案。</p><ul class="service-list"><li>作品安装、艺术氛围和空间构成。</li><li>动线、视觉支持、简单标识和展示方案。</li><li>展览、社区活动、博览会、工作坊和特殊项目制作。</li></ul></div>
+</section>
+
+<section id="talleres" class="service-section">
+  <div class="service-media"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="工作坊、教学与艺术调解" loading="lazy"></div>
+  <div class="service-copy"><h2 class="subtitulo">工作坊、教学与艺术调解</h2><p class="parrafo">为社区、机构、学校、创意团队和文化项目设计学习体验。</p><ul class="service-list"><li>绘画、壁画、城市介入、视觉档案和创作过程工作坊。</li><li>面向学校、社区、机构或团队的项目。</li><li>可根据年龄、时长、学习目标、场地和材料调整。</li></ul><a href="/CHN/docencia.html" class="enlace">查看教学方向</a></div>
 </section>
 
 <div class="service-cta">
   <h2 class="subtitulo2">我们来谈谈项目</h2>
-  <p class="parrafo">
-    要引用或评估某个想法，请向我发送简短的描述、位置、大致日期以及适用的空间或作品的照片。
-  </p>
+  <p class="parrafo">我可以帮助你把初步想法转化为清晰的工作计划：范围、材料、时间、预算和交付方式。</p>
   <a href="/CHN/contacto.html" class="enlace">前往联系方式</a>
 </div>
