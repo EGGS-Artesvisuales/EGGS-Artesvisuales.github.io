@@ -12,9 +12,9 @@ author: "Esteban Garnica"
 
 # Plugins de Jekyll
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  # Sitemap manual en /sitemap.xml para evitar doble salida con jekyll-sitemap.
   # - jekyll-multiple-languages (Si decides usar internacionalización avanzada)
 
 # Configuración de Markdown
