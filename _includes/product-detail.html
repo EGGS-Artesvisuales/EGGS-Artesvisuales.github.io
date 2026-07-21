@@ -1,8 +1,14 @@
 {% assign product_t = site.data.store_i18n[page.store_lang] %}
 {% assign commerce_enabled = false %}
-{% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
-  {% if page.sku and page.price_clp and page.stock %}
-    {% assign commerce_enabled = true %}
+{% assign direct_purchase_allowed = true %}
+{% if page.direct_purchase == false %}
+  {% assign direct_purchase_allowed = false %}
+{% endif %}
+{% if direct_purchase_allowed %}
+  {% if page.category == "impresiones-y-fotografia" or page.category == "publicaciones" %}
+    {% if page.sku and page.price_clp and page.stock %}
+      {% assign commerce_enabled = true %}
+    {% endif %}
   {% endif %}
 {% endif %}
 <article class="producto-layout" itemscope itemtype="https://schema.org/Product">
