@@ -10,22 +10,28 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
 <h1 class="titulo">Servicios</h1>
 
 <p class="parrafo">
-  Ofrezco soluciones artísticas y técnicas para una amplia variedad de necesidades, combinando experiencia en arte público, restauración, diseño y gestión cultural. Cada servicio se adapta a las particularidades de cada proyecto, integrando creatividad, oficio y un enfoque responsable orientado a la calidad.
+  Ofrezco soluciones artísticas y técnicas para proyectos particulares, institucionales, comunitarios y comerciales, combinando experiencia en arte público, restauración, diseño, montaje, docencia y gestión cultural.
 </p>
 
 <p class="parrafo">
-  Mi trabajo abarca tanto intervenciones en espacios comunitarios como desarrollos especializados para instituciones, empresas y proyectos independientes, siempre priorizando el diálogo con el entorno y las personas involucradas.
+  Cada servicio se adapta al contexto, al presupuesto y al objetivo del encargo: una obra para un espacio específico, una restauración, una intervención mural, un montaje, una actividad educativa o una experiencia cultural completa.
 </p>
+
+<div class="service-cta">
+  <h2 class="subtitulo2">Para cotizar más rápido</h2>
+  <p class="parrafo">
+    Envía una descripción breve del proyecto, ubicación, medidas aproximadas, fechas tentativas, fotografías del espacio u obra y el objetivo principal: restaurar, encargar, montar, enseñar o activar un lugar.
+  </p>
+  <a href="/ES/contacto.html" class="enlace">Solicitar cotización</a>
+</div>
 
 <br>
 
 <h2 class="subtitulo">Categorías</h2>
 <br>
 
-<!-- Sección de Categorías con fancy buttons -->
 <div class="button-container">
 
-  <!-- Botón: Restauración -->
   <a href="#restauracion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/restauracion-boton.webp" alt="Restauración" loading="lazy">
@@ -34,21 +40,27 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
     </div>
   </a>
 
-  <!-- Botón: Encargos y Encomiendas de Obras de Arte -->
   <a href="#encargos" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/encargos-boton.webp" alt="Encargos y Encomiendas" loading="lazy">
       <p class="title">Encargos y Encomiendas</p>
-      <p class="subtitle">Pinturas y murales a medida.</p>
+      <p class="subtitle">Pinturas, murales e intervenciones a medida.</p>
     </div>
   </a>
 
-  <!-- Botón: Ambientación e Instalación de Arte y Montajes -->
   <a href="#ambientacion" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/instalacion-boton.webp" alt="Ambientación e Instalación" loading="lazy">
       <p class="title">Ambientación &amp; Montajes</p>
-      <p class="subtitle">Instalaciones artísticas y decorativas.</p>
+      <p class="subtitle">Instalación, exhibición y activación de espacios.</p>
+    </div>
+  </a>
+
+  <a href="#talleres" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Talleres, docencia y mediación" loading="lazy">
+      <p class="title">Talleres &amp; Mediación</p>
+      <p class="subtitle">Programas formativos, comunidad y arte aplicado.</p>
     </div>
   </a>
 
@@ -107,10 +119,28 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   </div>
 </section>
 
+<section id="talleres" class="service-section">
+  <div class="service-media">
+    <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Talleres, docencia y mediación artística" loading="lazy">
+  </div>
+  <div class="service-copy">
+    <h2 class="subtitulo">Talleres, docencia y mediación</h2>
+    <p class="parrafo">
+      Diseño e implementación de experiencias formativas para comunidades, instituciones, escuelas, equipos creativos y proyectos culturales.
+    </p>
+    <ul class="service-list">
+      <li>Talleres de pintura, muralismo, intervención urbana, archivo visual y procesos creativos.</li>
+      <li>Programas para públicos escolares, comunitarios, institucionales o equipos de trabajo.</li>
+      <li>Actividades adaptadas por edad, duración, objetivo pedagógico, territorio y materiales disponibles.</li>
+    </ul>
+    <a href="/ES/docencia.html" class="enlace">Ver línea de docencia</a>
+  </div>
+</section>
+
 <div class="service-cta">
   <h2 class="subtitulo2">Conversemos el proyecto</h2>
   <p class="parrafo">
-    Para cotizar o evaluar una idea, envíame una descripción breve, ubicación, fechas aproximadas y fotografías del espacio u obra cuando corresponda.
+    Puedo ayudarte a convertir una idea inicial en un plan de trabajo claro: alcance, materiales, tiempos, presupuesto y forma de entrega.
   </p>
   <a href="/ES/contacto.html" class="enlace">Ir a contacto</a>
 </div>
@@ -127,77 +157,14 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
   </div>
 
   <ul class="client-hall" aria-label="Instituciones y organizaciones colaboradoras">
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/corporacion-cultural-la-florida.webp" width="520" height="121" alt="Corporación Cultural de La Florida" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Corporación Cultural de La Florida</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/mobv.webp" width="361" height="97" alt="MOBV Creative Studio" loading="lazy" decoding="async">
-        </div>
-        <figcaption>MOBV Creative Studio</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/metroarte.webp" width="444" height="98" alt="Corporación Cultural MetroArte" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Corporación Cultural MetroArte</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/senda.webp" width="199" height="180" alt="Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol, SENDA" loading="lazy" decoding="async">
-        </div>
-        <figcaption>SENDA</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/ministerio-educacion.webp" width="198" height="180" alt="Ministerio de Educación, Gobierno de Chile" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Ministerio de Educación</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/fibra.webp" width="300" height="105" alt="Productora y Consultora FIBRA" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Productora y Consultora FIBRA</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/comudef.webp" width="145" height="180" alt="Corporación Municipal de La Florida, COMUDEF" loading="lazy" decoding="async">
-        </div>
-        <figcaption>COMUDEF</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/spiro-diseno.webp" width="106" height="110" alt="Spiro Diseño" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Spiro Diseño</figcaption>
-      </figure>
-    </li>
-    <li class="client-card">
-      <figure>
-        <div class="client-card__logo">
-          <img src="/assets/img/clientes/santiago-cultura.webp" width="198" height="80" alt="Santiago Cultura, Ilustre Municipalidad de Santiago" loading="lazy" decoding="async">
-        </div>
-        <figcaption>Santiago Cultura</figcaption>
-      </figure>
-    </li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/corporacion-cultural-la-florida.webp" width="520" height="121" alt="Corporación Cultural de La Florida" loading="lazy" decoding="async"></div><figcaption>Corporación Cultural de La Florida</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/mobv.webp" width="361" height="97" alt="MOBV Creative Studio" loading="lazy" decoding="async"></div><figcaption>MOBV Creative Studio</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/metroarte.webp" width="444" height="98" alt="Corporación Cultural MetroArte" loading="lazy" decoding="async"></div><figcaption>Corporación Cultural MetroArte</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/senda.webp" width="199" height="180" alt="Servicio Nacional para la Prevención y Rehabilitación del Consumo de Drogas y Alcohol, SENDA" loading="lazy" decoding="async"></div><figcaption>SENDA</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/ministerio-educacion.webp" width="198" height="180" alt="Ministerio de Educación, Gobierno de Chile" loading="lazy" decoding="async"></div><figcaption>Ministerio de Educación</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/fibra.webp" width="300" height="105" alt="Productora y Consultora FIBRA" loading="lazy" decoding="async"></div><figcaption>Productora y Consultora FIBRA</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/comudef.webp" width="145" height="180" alt="Corporación Municipal de La Florida, COMUDEF" loading="lazy" decoding="async"></div><figcaption>COMUDEF</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/spiro-diseno.webp" width="106" height="110" alt="Spiro Diseño" loading="lazy" decoding="async"></div><figcaption>Spiro Diseño</figcaption></figure></li>
+    <li class="client-card"><figure><div class="client-card__logo"><img src="/assets/img/clientes/santiago-cultura.webp" width="198" height="80" alt="Santiago Cultura, Ilustre Municipalidad de Santiago" loading="lazy" decoding="async"></div><figcaption>Santiago Cultura</figcaption></figure></li>
   </ul>
 </section>
