@@ -12,6 +12,14 @@
 {% assign impresiones = productos | where: "category", "impresiones-y-fotografia" %}
 {% assign publicaciones = productos | where: "category", "publicaciones" %}
 {% assign derivados = productos | where: "category", "objetos-y-productos-derivados" %}
+{% assign originales_count = 0 %}
+{% for product in originales %}{% unless product.store_listed == false %}{% assign originales_count = originales_count | plus: 1 %}{% endunless %}{% endfor %}
+{% assign impresiones_count = 0 %}
+{% for product in impresiones %}{% unless product.store_listed == false %}{% assign impresiones_count = impresiones_count | plus: 1 %}{% endunless %}{% endfor %}
+{% assign publicaciones_count = 0 %}
+{% for product in publicaciones %}{% unless product.store_listed == false %}{% assign publicaciones_count = publicaciones_count | plus: 1 %}{% endunless %}{% endfor %}
+{% assign derivados_count = 0 %}
+{% for product in derivados %}{% unless product.store_listed == false %}{% assign derivados_count = derivados_count | plus: 1 %}{% endunless %}{% endfor %}
 
 <div class="shop-catalog" data-store-catalog data-page-size="12" data-results-template="{{ store_t.controls.results | escape }}">
 <header class="shop-header">
@@ -64,20 +72,20 @@
 </section>
 
 <nav class="shop-category-nav" aria-label="{{ store_t.category_nav_label }}">
-  {% if originales.size > 0 %}<button id="obras-originales" type="button" data-store-shortcut="obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales.size }}</span></button>{% endif %}
-  {% if impresiones.size > 0 %}<button id="impresiones-y-fotografia" type="button" data-store-shortcut="impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones.size }}</span></button>{% endif %}
-  {% if publicaciones.size > 0 %}<button id="publicaciones" type="button" data-store-shortcut="publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones.size }}</span></button>{% endif %}
-  {% if derivados.size > 0 %}<button id="objetos-y-productos-derivados" type="button" data-store-shortcut="objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados.size }}</span></button>{% endif %}
+  {% if originales_count > 0 %}<button id="obras-originales" type="button" data-store-shortcut="obras-originales">{{ store_t.categories.originals.label }} <span>{{ originales_count }}</span></button>{% endif %}
+  {% if impresiones_count > 0 %}<button id="impresiones-y-fotografia" type="button" data-store-shortcut="impresiones-y-fotografia">{{ store_t.categories.prints.label }} <span>{{ impresiones_count }}</span></button>{% endif %}
+  {% if publicaciones_count > 0 %}<button id="publicaciones" type="button" data-store-shortcut="publicaciones">{{ store_t.categories.publications.label }} <span>{{ publicaciones_count }}</span></button>{% endif %}
+  {% if derivados_count > 0 %}<button id="objetos-y-productos-derivados" type="button" data-store-shortcut="objetos-y-productos-derivados">{{ store_t.categories.derived.label }} <span>{{ derivados_count }}</span></button>{% endif %}
 </nav>
 
 <div class="shop-results__summary">
   <p data-store-status aria-live="polite"></p>
 </div>
 <div class="shop-grid shop-results__grid" id="catalog-results" data-store-results>
-  {% for product in originales %}{% include product-card.html product=product t=store_t %}{% endfor %}
-  {% for product in impresiones %}{% include product-card.html product=product t=store_t %}{% endfor %}
-  {% for product in publicaciones %}{% include product-card.html product=product t=store_t %}{% endfor %}
-  {% for product in derivados %}{% include product-card.html product=product t=store_t %}{% endfor %}
+  {% for product in originales %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
+  {% for product in impresiones %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
+  {% for product in publicaciones %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
+  {% for product in derivados %}{% unless product.store_listed == false %}{% include product-card.html product=product t=store_t %}{% endunless %}{% endfor %}
 </div>
 <p class="shop-results__empty" data-store-empty hidden>{{ store_t.controls.no_results }}</p>
 <div class="shop-results__more">
