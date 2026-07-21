@@ -1,8 +1,9 @@
 const { PRODUCTS } = require("./products");
+const { COMMERCE_CONFIG } = require("./commerce-config");
 
-const STORE_NAME = "eggs-commerce";
-const MAX_WRITE_ATTEMPTS = 8;
-const DEFAULT_RESERVATION_TTL_MS = 30 * 60 * 1000;
+const STORE_NAME = COMMERCE_CONFIG.storeName;
+const MAX_WRITE_ATTEMPTS = COMMERCE_CONFIG.maxWriteAttempts;
+const DEFAULT_RESERVATION_TTL_MS = COMMERCE_CONFIG.reservationTtlMs;
 
 let inventoryStorePromise;
 
@@ -95,6 +96,7 @@ async function reserveInventory(sku, reservationId, options = {}) {
     ? Number(options.ttlMs)
     : DEFAULT_RESERVATION_TTL_MS;
   const expiresAt = new Date(now + ttlMs).toISOString();
+  const buyerFingerprint = String(options.buyerFingerprint || "").trim();
 
   for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
     const entry = await store.getWithMetadata(key, { type: "json" });
@@ -114,12 +116,15 @@ async function reserveInventory(sku, reservationId, options = {}) {
       return { ...publicInventory(sku, current, now), reserved: false };
     }
 
+    const nextReservation = {
+      id: normalizedReservationId,
+      expires_at: expiresAt,
+    };
+    if (buyerFingerprint) nextReservation.buyer_fingerprint = buyerFingerprint;
+
     const next = {
       ...current,
-      reservations: [
-        ...reservations,
-        { id: normalizedReservationId, expires_at: expiresAt },
-      ],
+      reservations: [...reservations, nextReservation],
       updated_at: new Date(now).toISOString(),
     };
     const writeOptions = entry ? { onlyIfMatch: entry.etag } : { onlyIfNew: true };
@@ -231,6 +236,7 @@ async function recordApprovedPayment(sku, paymentId, options = {}) {
 }
 
 module.exports = {
+  activeReservations,
   connectInventory,
   getInventory,
   releaseReservation,
