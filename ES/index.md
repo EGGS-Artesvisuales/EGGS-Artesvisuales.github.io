@@ -2,9 +2,9 @@
 layout: default-es
 lang: es
 title: "EGGS-Studio – Inicio"
-description: "EGGS-Studio: plataforma creativa de Esteban Garnica, artista visual y muralista chileno. Arte contemporáneo, pintura expandida, muralismo comunitario y proyectos culturales desde Santiago de Chile."
+description: "EGGS-Studio: obra, prints, fotografía, muralismo y proyectos visuales de Esteban Garnica. Ediciones limitadas, encargos y servicios artísticos desde Santiago de Chile."
 permalink: /ES/index.html
-keywords: "EGGS-Studio, Esteban Garnica, artista visual chileno, muralista, arte contemporáneo Chile, pintura expandida, muralismo comunitario, arte público, proyectos culturales, Santiago de Chile"
+keywords: "EGGS-Studio, Esteban Garnica, arte contemporáneo Chile, prints de arte, fotografía, muralismo, obras disponibles, encargos, Santiago de Chile"
 mermaid: true
 carousel: true
 
@@ -12,84 +12,76 @@ carousel: true
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Universo creativo de Esteban Garnica.
+  Obra, prints y proyectos visuales de Esteban Garnica.
 </h2>
 
-<br>
-
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="pinturas infectadas de soportes blandos, serie de paginas unicas, retratos" loading="lazy">
-  <figcaption>La Saturación / La Peste / Pinturas infectadas, soportes blandos, pagina unica, retratos, st003. 2020.</figcaption>
-</figure>
-
-<br>
-
-<p class="parrafo" style="margin-top: 7%;">
-  Este es el espacio donde convergen las distintas dimensiones de mi trabajo como artista visual. 
-  Aquí se articulan proyectos íntimos y obras de gran escala, organizados en tres ejes que estructuran mi práctica: 
-  1) la representación del mundo exterior, 2) la acción en el mundo y 3) la exploración del mundo interior. 
-  Cada eje despliega una forma particular de relacionarme con el arte y de construir sentido a través de lo visual.
+<p class="parrafo" style="margin-top: 5%;">
+  EGGS-Studio reúne pintura, fotografía, muralismo e intervenciones sobre ciudad, publicidad, territorio y vida cotidiana. Aquí puedes explorar el cuerpo de obra, comprar ediciones disponibles y solicitar proyectos o encargos artísticos.
 </p>
 
+<div class="button-container">
+  <a href="/ES/tienda.html#impresiones-y-fotografia" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Prints y fotografía disponibles" loading="lazy">
+      <p class="title">Comprar obra</p>
+      <p class="subtitle">Prints y fotografía de edición limitada, firmados, numerados y certificados.</p>
+    </div>
+  </a>
 
+  <a href="/ES/contacto.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Encargos, murales y proyectos" loading="lazy">
+      <p class="title">Encargar proyecto</p>
+      <p class="subtitle">Murales, cuadros, restauración, talleres, montajes y proyectos culturales.</p>
+    </div>
+  </a>
+
+  <a href="/ES/mundo-exterior.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Explorar universo de obra" loading="lazy">
+      <p class="title">Explorar obra</p>
+      <p class="subtitle">Pintura, fotografía, intervención urbana, comunidad y mundo interior.</p>
+    </div>
+  </a>
+</div>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Pinturas Infectadas, soportes blandos, página única, retratos" loading="lazy">
+  <figcaption>La Saturación / La Peste / Pinturas Infectadas, soportes blandos, página única, retratos, st003. 2020.</figcaption>
+</figure>
+
+<hr class="separador separador--aire" />
+
+<h2 class="subtitulo">Mapa de obra</h2>
+
+<p class="parrafo">
+  El sitio se ordena como un mapa curatorial simple: representación del mundo, acción en el mundo y mundo interior. El diagrama mantiene la profundidad conceptual sin reemplazar la navegación principal.
+</p>
 
 <div class="mermaid">
 flowchart LR
-  principal(("Actividad artística"))
-  representacion(["Representación del mundo"])
-  accion(["Acción en el mundo"])
-  interior(["Exploración del mundo interior"])
+  principal(("EGGS-Studio"))
+  tienda(["Obras disponibles"])
+  servicios(["Encargos y servicios"])
+  mapa(["Mapa de obra"])
 
-  principal --> representacion
-  principal --> accion
-  principal --> interior
+  principal --> tienda
+  principal --> servicios
+  principal --> mapa
 
+  mapa --> representacion(["Representación del mundo"])
+  mapa --> accion(["Acción en el mundo"])
+  mapa --> interior(["Mundo interior"])
+
+  click tienda "/ES/tienda.html#impresiones-y-fotografia" "Ir a obras disponibles"
+  click servicios "/ES/servicios.html" "Ir a servicios"
   click representacion "/ES/mundo-exterior.html" "Ir a Representación del mundo"
   click accion "/ES/accion.html" "Ir a Acción en el mundo"
   click interior "/ES/interior.html" "Ir a Mundo interior"
 </div>
 
-
-
 <p class="parrafo" style="margin-top: 7%;">
-  Te invito a recorrer estos tres ejes para conocer mi universo artístico: explorar obras y series, leer sobre mis procesos, y acceder a distintas formas de vínculo con mi trabajo. 
-  Aquí también puedes adquirir obra y solicitar encargos —cuadros, murales u otras intervenciones— además de consultar servicios asociados a mi práctica, como restauraciones y desarrollo de proyectos culturales.
-  Esta clasificación funciona como un mapa: me permite ordenar y clarificar mi trayectoria, y a la vez facilita que otras personas comprendan cómo pienso, produzco y desarrollo cada proyecto.
+  Si llegas por primera vez, empieza por la tienda o por las series principales. Si quieres entender la estructura completa de la obra, recorre el mapa conceptual y sus ejes.
 </p>
 
-<hr class="separador separador--aire" />
-
-<div class="button-container">
-
-  <a href="/ES/mundo-exterior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp" 
-           alt="Obras de Representación del Mundo" loading="lazy">
-      <p class="title">Representación del Mundo</p>
-      <p class="subtitle">Obras que observan, retratan y reflexionan el mundo actual.</p>
-    </div>
-  </a>
-
-  <a href="/ES/accion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" 
-           alt="Obras de Acción en el Mundo" loading="lazy">
-      <p class="title">Acción en el Mundo</p>
-      <p class="subtitle">Prácticas de acción en el mundo, artes comunitarias, talleres, oficios y servicios culturales.</p>
-    </div>
-  </a>
-
-  <a href="/ES/interior.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.webp" 
-           alt="Exploración del Mundo Interior" loading="lazy">
-      <p class="title">Mundo Interior</p>
-      <p class="subtitle">Obra de exploracion personal y procesos dedicados a la introspección y el bienestar.</p>
-    </div>
-  </a>
-
-</div>
-
-
-
-<a href="/ES/exhibiciones.html" class="enlace">Ver más obras</a>
+<a href="/ES/exhibiciones.html" class="enlace">Ver exhibiciones y trayectoria</a>
