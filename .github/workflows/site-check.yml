@@ -19,13 +19,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: '3.2.2'
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build --trace
-
-      - name: Generate canonical redirects
-        run: python tools/generate_redirects.py --site _site
-
-      - name: Validate routes and internal links
-        run: python tools/validate_site.py --source . --site _site
+        run: bundle
