@@ -1,39 +1,57 @@
 ---
 layout: default-mpd
 title: "Nütram – EGGS-Studio"
-description: "Nütramkawün Esteban Garnica ka EGGS-Studio mew: az-küdaw, muralismo, küme dewün, kimeltun ka kelluwün."
-keywords: "nütram EGGS-Studio, Esteban Garnica, muralismo, küme dewün az-küdaw, az-küdaw küdaw, kelluwün, az-küdaw Chile"
+description: "Nütramkawün Esteban Garnica ka EGGS-Studio mew: küdaw ngillan, mural, küme dewün, kimeltun, montaje ka kelluwün."
+keywords: "nütram EGGS-Studio, Esteban Garnica, muralismo, küme dewün az-küdaw, kimeltun, az-küdaw Chile"
 permalink: /MPD/contacto.html
 ---
 
 <h1 class="titulo">Nütram</h1>
 
-<h2 class="subtitulo">Ramtu, kelluwün ka küdaw</h2>
+<h2 class="subtitulo">Küdaw ngillan, ramtu, kimeltun ka kelluwün</h2>
 
-<p class="subtitulo2" style="margin-left: 3rem; margin-top: 2rem;">
-  Faw wirintuku tami nütram; pichi mew wiñotun ka nütramkayu.
+<p class="parrafo">
+  Fachi formulario mew ramtuam müley küdaw ngillan, disponibilidad, mural, restauración, kimeltun/taller ka colaboración cultural. Rume kimngechi nütram, müna matu wiñotukey.
 </p>
 
-<form class="contact-form"
-      action="https://formsubmit.co/e.garnicasanchez@gmail.com"
-      method="POST"
-      data-contact-lang="mpd">
+<div class="button-container">
+  <a href="/MPD/tienda.html#impresiones-y-fotografia" class="fancy-button"><div class="button-content"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Küdaw ngillan" loading="lazy"><p class="title">Küdaw ngillan</p><p class="subtitle">Prints, fotografía ka edición müley.</p></div></a>
+  <a href="/MPD/servicios.html" class="fancy-button"><div class="button-content"><img src="/assets/img/encargos-boton.webp" alt="Küdaw ramtun" loading="lazy"><p class="title">Küdaw ramtun</p><p class="subtitle">Mural, encargo, küme dewün ka montaje.</p></div></a>
+  <a href="/MPD/docencia.html" class="fancy-button"><div class="button-content"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Kimeltun" loading="lazy"><p class="title">Kimeltun</p><p class="subtitle">Taller, mediación ka lof proceso.</p></div></a>
+</div>
 
-  <!-- Formulario ñi campos -->
+<div class="service-cta">
+  <h2 class="subtitulo2">Chem werkünal</h2>
+  <p class="parrafo">
+    Ngillan mew: küdaw ñi üy o SKU. Cotización mew: püle, medida, foto, fecha, presupuesto ka küdaw ñi objetivo. Taller mew: che, tiempo, püle, participantes ka materiales.
+  </p>
+</div>
+
+<form class="contact-form" action="https://formsubmit.co/e.garnicasanchez@gmail.com" method="POST" data-contact-lang="mpd">
   <label for="name">Üy:</label>
   <input type="text" id="name" name="name" required placeholder="Tami üy">
 
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" required placeholder="Tami email">
 
-  <label for="message">Nütram:</label>
-  <textarea id="message" name="message" rows="5" required placeholder="Faw wirintuku tami nütram"></textarea>
+  <label for="topic">Zugu:</label>
+  <select id="topic" name="topic" required>
+    <option value="">Kiñe zugu dulli</option>
+    <option value="Küdaw ngillan">Küdaw ngillan</option>
+    <option value="Encargo o mural">Encargo o mural</option>
+    <option value="Küme dewün">Küme dewün</option>
+    <option value="Kimeltun ka taller">Kimeltun ka taller</option>
+    <option value="Montaje ka ambientación">Montaje ka ambientación</option>
+    <option value="Prensa o colaboración">Prensa o colaboración</option>
+  </select>
 
-  <!-- Werkün botón -->
+  <label for="message">Nütram:</label>
+  <textarea id="message" name="message" rows="7" required placeholder="Faw wirintuku chem küpaimi, chew, chumül ka chem medida/foto nieymi."></textarea>
+
   <button type="submit">Werkün</button>
 
-  <!-- Kake configuración -->
   <input type="hidden" name="_next" value="https://eggs-studio.cl/MPD/gracias.html">
+  <input type="hidden" name="_subject" value="Nütram we EGGS-Studio mew">
   <input type="hidden" name="_captcha" value="false">
 </form>
 
