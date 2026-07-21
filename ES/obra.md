@@ -4,6 +4,10 @@ lang: es
 title: "Obra – EGGS-Studio"
 description: "Índice curatorial de obra de EGGS-Studio: series, prints disponibles, mapa conceptual, archivo y ejes de trabajo de Esteban Garnica."
 permalink: /ES/obra.html
+es_url: /ES/obra.html
+en_url: /EN/work.html
+mpd_url: /MPD/obra.html
+zh_url: /CHN/obra.html
 keywords: "obra Esteban Garnica, EGGS-Studio, series de arte, prints, fotografía, pintura, antipublicidad, Pinturas Infectadas"
 image: /assets/img/pinf-blds-upg-retr-003b.jpg
 mermaid: true
