@@ -1,4 +1,5 @@
 const { createHmac, timingSafeEqual } = require("crypto");
+const { isProductionCommerce } = require("../lib/commerce-config");
 const { PRODUCTS } = require("../lib/products");
 const {
   connectInventory,
@@ -6,12 +7,19 @@ const {
   releaseReservation,
 } = require("../lib/inventory");
 const {
+  ORDER_STATUSES,
   claimSaleNotification,
   completeSaleNotification,
   connectOrders,
-  deleteOrder,
+  getOrder,
   releaseSaleNotification,
+  updateOrderStatus,
+  validateOrderForPayment,
 } = require("../lib/orders");
+const {
+  clearActiveReservation,
+  logCommerceEvent,
+} = require("../lib/checkout-security");
 
 const MERCADOPAGO_PAYMENTS_URL = "https://api.mercadopago.com/v1/payments";
 const SITE_URL = "https://eggs-studio.cl";
@@ -58,6 +66,25 @@ function isValidSignature({ dataId, requestId, signature, secret }) {
   );
 }
 
+function parseExternalReference(payment) {
+  const metadata = payment.metadata || {};
+  const externalReference = String(payment.external_reference || "");
+  const fromExternalReference = externalReference.match(/^([^:]+):([0-9a-f-]{36})$/i);
+  const sku = String(metadata.sku || fromExternalReference?.[1] || "").trim();
+  const orderId = String(metadata.order_id || fromExternalReference?.[2] || "").trim();
+  if (!sku || !/^[0-9a-f-]{36}$/i.test(orderId)) return null;
+  return { sku, orderId };
+}
+
+function orderStatusFromPayment(payment) {
+  const status = String(payment.status || "");
+  if (status === "approved") return ORDER_STATUSES.approved;
+  if (["rejected", "cancelled"].includes(status)) return ORDER_STATUSES.rejected;
+  if (status === "expired") return ORDER_STATUSES.expired;
+  if (status === "refunded") return ORDER_STATUSES.refunded;
+  return ORDER_STATUSES.pending;
+}
+
 async function submitApprovedSale(order, payment, product) {
   const localizedProduct = product.localized?.[order.locale] || product.localized?.es || product;
   const payerName = [payment.payer?.first_name, payment.payer?.last_name]
@@ -100,8 +127,12 @@ exports.handler = async (event) => {
   const webhookSecret = process.env.MERCADOPAGO_WEBHOOK_SECRET;
   const accessToken = process.env.MERCADOPAGO_ACCESS_TOKEN;
   if (!accessToken) {
-    console.error("Falta el Access Token de Mercado Pago.");
+    logCommerceEvent("error", "webhook_missing_access_token");
     return jsonResponse(503, { error: "Webhook pendiente de configuración." });
+  }
+  if (isProductionCommerce() && !webhookSecret) {
+    logCommerceEvent("error", "webhook_missing_signature_secret_in_production");
+    return jsonResponse(503, { error: "Webhook sin firma configurada." });
   }
 
   let body;
@@ -120,7 +151,7 @@ exports.handler = async (event) => {
   }
 
   if (webhookSecret && !isValidSignature({ dataId, requestId, signature, secret: webhookSecret })) {
-    console.warn("Se rechazó una notificación con firma inválida.");
+    logCommerceEvent("warn", "webhook_invalid_signature", { dataId: String(dataId) });
     return jsonResponse(401, { error: "Firma inválida." });
   }
 
@@ -135,71 +166,76 @@ exports.handler = async (event) => {
     const payment = await response.json().catch(() => ({}));
 
     if (!response.ok) {
-      console.error("No se pudo consultar el pago notificado.", { status: response.status });
+      logCommerceEvent("error", "webhook_payment_lookup_failed", { dataId: String(dataId), status: response.status });
       return jsonResponse(502, { error: "No se pudo verificar el pago." });
     }
 
-    const externalReference = String(payment.external_reference || "");
-    const sku = String(payment.metadata?.sku || externalReference.split(":")[0] || "");
-    const orderId = String(payment.metadata?.order_id || externalReference.split(":")[1] || "");
-    const product = PRODUCTS[sku];
-    const deliveryOption = String(payment.metadata?.delivery_option || "");
-    const amountMatches = product && Number(payment.transaction_amount) === product.unitPrice;
-    const currencyMatches = product && payment.currency_id === product.currency;
-    const deliveryMatches = product && Boolean(product.deliveryOptions[deliveryOption]);
+    const reference = parseExternalReference(payment);
+    if (!reference) {
+      logCommerceEvent("error", "webhook_invalid_external_reference", { paymentId: String(payment.id || dataId) });
+      return jsonResponse(200, { received: true, verified: false });
+    }
 
-    if (!product || !amountMatches || !currencyMatches || !deliveryMatches) {
-      console.error("Pago válido de Mercado Pago con datos de producto inesperados.", {
+    const { sku, orderId } = reference;
+    const product = PRODUCTS[sku];
+    await connectOrders(event);
+    const order = await getOrder(orderId);
+
+    if (!product || !order || !validateOrderForPayment(order, payment, product)) {
+      logCommerceEvent("error", "webhook_order_validation_failed", {
         paymentId: String(payment.id || dataId),
         sku,
+        orderId,
       });
       return jsonResponse(200, { received: true, verified: false });
     }
 
-    console.log("Pago de Mercado Pago verificado.", {
+    logCommerceEvent("info", "webhook_payment_verified", {
       paymentId: String(payment.id || dataId),
       sku,
-      deliveryOption,
+      orderId,
       status: payment.status,
       liveMode: Boolean(payment.live_mode),
     });
 
     let inventory = null;
+    const targetStatus = orderStatusFromPayment(payment);
     if (payment.status === "approved") {
       await connectInventory(event);
-      await connectOrders(event);
       inventory = await recordApprovedPayment(sku, payment.id || dataId, {
         reservationId: orderId,
       });
       if (!inventory.decremented && !inventory.duplicate && !inventory.available) {
-        console.error("Pago aprobado recibido después de agotarse el inventario.", {
+        logCommerceEvent("error", "approved_payment_after_stock_depleted", {
           paymentId: String(payment.id || dataId),
           sku,
+          orderId,
         });
       }
-      if (orderId) {
-        const notification = await claimSaleNotification(orderId, payment.id || dataId);
-        if (notification.claimed) {
-          try {
-            await submitApprovedSale(notification.order, payment, product);
-            await completeSaleNotification(orderId, payment.id || dataId);
-          } catch (error) {
-            await releaseSaleNotification(orderId, payment.id || dataId).catch(() => {});
-            throw error;
-          }
-        } else if (notification.reason === "missing") {
-          console.error("El pago aprobado no tiene datos de entrega guardados.", {
-            paymentId: String(payment.id || dataId),
-            orderId,
-          });
+      const notification = await claimSaleNotification(orderId, payment.id || dataId);
+      if (notification.claimed) {
+        try {
+          await submitApprovedSale(notification.order, payment, product);
+          await completeSaleNotification(orderId, payment.id || dataId);
+          await clearActiveReservation(order.buyer_fingerprint).catch(() => {});
+        } catch (error) {
+          await releaseSaleNotification(orderId, payment.id || dataId).catch(() => {});
+          throw error;
         }
       }
-    } else if (["rejected", "cancelled"].includes(payment.status) && orderId) {
+    } else if (["rejected", "cancelled", "expired", "refunded"].includes(payment.status)) {
       await connectInventory(event);
-      await connectOrders(event);
       inventory = await releaseReservation(sku, orderId);
-      await deleteOrder(orderId).catch((error) => {
-        console.error("No se pudo eliminar una orden cancelada.", error);
+      await updateOrderStatus(orderId, targetStatus, {
+        payment_id: String(payment.id || dataId),
+        payment_status: payment.status,
+        closed_at: new Date().toISOString(),
+      });
+      await clearActiveReservation(order.buyer_fingerprint).catch(() => {});
+    } else {
+      await updateOrderStatus(orderId, ORDER_STATUSES.pending, {
+        payment_id: String(payment.id || dataId),
+        payment_status: payment.status,
       });
     }
 
@@ -207,10 +243,11 @@ exports.handler = async (event) => {
       received: true,
       verified: true,
       status: payment.status,
+      order_status: targetStatus,
       inventory_stock: inventory?.stock,
     });
   } catch (error) {
-    console.error("Error al verificar la notificación de Mercado Pago.", error);
+    logCommerceEvent("error", "webhook_processing_failed", { message: error.message });
     return jsonResponse(502, { error: "No se pudo verificar la notificación." });
   }
 };
