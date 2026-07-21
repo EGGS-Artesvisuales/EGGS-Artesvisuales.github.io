@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlparse
 LANGUAGES = ("ES", "EN", "MPD", "CHN")
 LOWERCASE_ROUTE = re.compile(r"/(?:es|en|mpd|chn)(?:/|(?=[\"'#?\s<]))")
 TEXT_SUFFIXES = {".html", ".md", ".markdown", ".yml", ".yaml", ".js", ".css", ".json"}
-SKIP_PARTS = {".git", "_site", ".jekyll-cache", ".sass-cache", "node_modules", "tools/pillow"}
+SKIP_PARTS = {".git", "_site", ".jekyll-cache", ".sass-cache", "node_modules", "netlify", "tools/pillow"}
 
 
 class PageParser(HTMLParser):
@@ -63,6 +63,8 @@ def source_checks(source: Path) -> list[str]:
 def target_exists(site: Path, page: Path, raw_reference: str) -> bool:
     parsed = urlparse(raw_reference)
     if parsed.scheme or parsed.netloc or raw_reference.startswith(("#", "//")):
+        return True
+    if parsed.path.startswith("/.netlify/functions/"):
         return True
     if parsed.path in ("", "/"):
         candidate = site / "index.html"

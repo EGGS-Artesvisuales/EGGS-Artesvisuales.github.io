@@ -1,6 +1,9 @@
-const STORE_NAME = "eggs-commerce-orders";
-const MAX_WRITE_ATTEMPTS = 8;
-const NOTIFICATION_LOCK_MS = 5 * 60 * 1000;
+const { COMMERCE_CONFIG } = require("./commerce-config");
+
+const STORE_NAME = COMMERCE_CONFIG.ordersStoreName;
+const MAX_WRITE_ATTEMPTS = COMMERCE_CONFIG.maxWriteAttempts;
+const NOTIFICATION_LOCK_MS = COMMERCE_CONFIG.notificationLockMs;
+const ORDER_STATUSES = COMMERCE_CONFIG.orderStatuses;
 
 let ordersStorePromise;
 
@@ -21,29 +24,81 @@ function orderKey(orderId) {
   return `orders/${orderId}`;
 }
 
+function normalizeOrderId(orderId) {
+  const value = String(orderId || "").trim();
+  if (!/^[0-9a-f-]{36}$/i.test(value)) throw new Error("Invalid order ID");
+  return value;
+}
+
 async function savePendingOrder(orderId, order, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
   const store = options.store || (await getOrdersStore());
   const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
+  const expiresAt = options.expiresAt || new Date(now.getTime() + COMMERCE_CONFIG.reservationTtlMs).toISOString();
   const record = {
-    id: orderId,
+    id: normalizedOrderId,
     ...order,
-    status: "payment_pending",
+    status: ORDER_STATUSES.pending,
     created_at: now.toISOString(),
+    expires_at: expiresAt,
     notification: { status: "ready" },
   };
-  const result = await store.setJSON(orderKey(orderId), record, { onlyIfNew: true });
+  const result = await store.setJSON(orderKey(normalizedOrderId), record, { onlyIfNew: true });
   if (!result.modified) throw new Error("Order already exists");
   return record;
 }
 
-async function deleteOrder(orderId, options = {}) {
+async function getOrder(orderId, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
   const store = options.store || (await getOrdersStore());
-  await store.delete(orderKey(orderId));
+  const entry = await store.getWithMetadata(orderKey(normalizedOrderId), { type: "json" });
+  return entry?.data || null;
+}
+
+function validateOrderForPayment(order, payment, product) {
+  if (!order || !payment || !product) return false;
+  const metadata = payment.metadata || {};
+  const amountMatches = Number(payment.transaction_amount) === Number(product.unitPrice);
+  const currencyMatches = payment.currency_id === product.currency;
+  const skuMatches = String(order.sku) === String(metadata.sku || order.sku);
+  const orderMatches = String(order.id) === String(metadata.order_id || order.id);
+  const deliveryMatches = Boolean(product.deliveryOptions[order.delivery_option]);
+  return amountMatches && currencyMatches && skuMatches && orderMatches && deliveryMatches;
+}
+
+async function updateOrderStatus(orderId, status, patch = {}, options = {}) {
+  if (!Object.values(ORDER_STATUSES).includes(status)) throw new Error("Invalid order status");
+  const normalizedOrderId = normalizeOrderId(orderId);
+  const store = options.store || (await getOrdersStore());
+  const key = orderKey(normalizedOrderId);
+  const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
+
+  for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
+    const entry = await store.getWithMetadata(key, { type: "json" });
+    if (!entry?.data) return null;
+    const next = {
+      ...entry.data,
+      ...patch,
+      status,
+      updated_at: now.toISOString(),
+    };
+    const result = await store.setJSON(key, next, { onlyIfMatch: entry.etag });
+    if (result.modified) return next;
+  }
+
+  throw new Error("Order status update conflict");
+}
+
+async function deleteOrder(orderId, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
+  const store = options.store || (await getOrdersStore());
+  await store.delete(orderKey(normalizedOrderId));
 }
 
 async function claimSaleNotification(orderId, paymentId, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
   const store = options.store || (await getOrdersStore());
-  const key = orderKey(orderId);
+  const key = orderKey(normalizedOrderId);
   const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
 
   for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
@@ -79,8 +134,9 @@ async function claimSaleNotification(orderId, paymentId, options = {}) {
 }
 
 async function completeSaleNotification(orderId, paymentId, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
   const store = options.store || (await getOrdersStore());
-  const key = orderKey(orderId);
+  const key = orderKey(normalizedOrderId);
   const now = options.now instanceof Date ? options.now : new Date(options.now || Date.now());
 
   for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
@@ -89,13 +145,10 @@ async function completeSaleNotification(orderId, paymentId, options = {}) {
     if (entry.data.notification?.status === "sent") return true;
 
     const next = {
-      id: entry.data.id,
-      sku: entry.data.sku,
-      delivery_option: entry.data.delivery_option,
-      locale: entry.data.locale,
-      created_at: entry.data.created_at,
-      status: "approved_notified",
+      ...entry.data,
+      status: ORDER_STATUSES.approved,
       payment_id: String(paymentId),
+      approved_at: now.toISOString(),
       notification: { status: "sent", sent_at: now.toISOString() },
     };
     const result = await store.setJSON(key, next, { onlyIfMatch: entry.etag });
@@ -106,8 +159,9 @@ async function completeSaleNotification(orderId, paymentId, options = {}) {
 }
 
 async function releaseSaleNotification(orderId, paymentId, options = {}) {
+  const normalizedOrderId = normalizeOrderId(orderId);
   const store = options.store || (await getOrdersStore());
-  const key = orderKey(orderId);
+  const key = orderKey(normalizedOrderId);
 
   for (let attempt = 0; attempt < MAX_WRITE_ATTEMPTS; attempt += 1) {
     const entry = await store.getWithMetadata(key, { type: "json" });
@@ -128,10 +182,14 @@ async function releaseSaleNotification(orderId, paymentId, options = {}) {
 }
 
 module.exports = {
+  ORDER_STATUSES,
   claimSaleNotification,
   completeSaleNotification,
   connectOrders,
   deleteOrder,
+  getOrder,
   releaseSaleNotification,
   savePendingOrder,
+  updateOrderStatus,
+  validateOrderForPayment,
 };

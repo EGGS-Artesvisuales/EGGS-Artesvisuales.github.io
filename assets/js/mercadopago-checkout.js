@@ -12,6 +12,8 @@
       inventoryError: "No pudimos verificar el stock. Intenta recargar la página.",
       opening: "Abriendo el pago seguro…",
       startError: "No se pudo iniciar el pago. Intenta nuevamente.",
+      rateLimited: "Hay demasiados intentos recientes. Espera unos minutos antes de volver a comprar.",
+      captchaRequired: "Por seguridad necesitamos validar este intento. Recarga la página e intenta nuevamente.",
       invalidUrl: "Mercado Pago devolvió una dirección no válida.",
       buyButton: "Comprar ahora con Mercado Pago",
       quoteButton: "Solicitar cotización de despacho",
@@ -25,6 +27,8 @@
       inventoryError: "We could not verify stock. Please reload the page.",
       opening: "Opening secure payment…",
       startError: "Payment could not be started. Please try again.",
+      rateLimited: "There have been too many recent attempts. Please wait a few minutes before trying again.",
+      captchaRequired: "For security, this attempt needs extra validation. Reload the page and try again.",
       invalidUrl: "Mercado Pago returned an invalid address.",
       buyButton: "Buy now with Mercado Pago",
       quoteButton: "Request a shipping quote",
@@ -38,6 +42,8 @@
       inventoryError: "Stock kimfal-lay. Página wiñokintunge.",
       opening: "Küme kulliñ rüpü nülagey…",
       startError: "Kullin tüwlay. Ka kiñe rupa küdawtunge.",
+      rateLimited: "Fentre rupachi ngillatukan müley. Pichi mew ülkantunge ka wiñotunge.",
+      captchaRequired: "Küme elkawün mew, página wiñokintunge ka wiñotunge.",
       invalidUrl: "Mercado Pago küme dirección elulay.",
       buyButton: "Mercado Pago mew fachantü ngillange",
       quoteButton: "Werkün ñi falintun ramtu",
@@ -51,6 +57,8 @@
       inventoryError: "无法确认库存，请重新加载页面。",
       opening: "正在打开安全付款页面…",
       startError: "无法开始付款，请重试。",
+      rateLimited: "近期尝试次数过多。请等待几分钟后再试。",
+      captchaRequired: "出于安全原因，本次尝试需要额外验证。请重新加载页面后再试。",
       invalidUrl: "Mercado Pago 返回了无效地址。",
       buyButton: "使用 Mercado Pago 立即购买",
       quoteButton: "申请运费报价",
@@ -68,6 +76,7 @@
     const quoteContact = form.querySelector("[data-quote-contact]");
     const quoteName = form.elements.buyer_name;
     const quoteEmail = form.elements.buyer_email;
+    const captchaInput = form.elements.captcha_token;
     const sku = form.dataset.sku;
     const locale = form.dataset.checkoutLang || "es";
     const copy = translations[locale] || translations.es;
@@ -129,7 +138,13 @@
         const response = await fetch("/.netlify/functions/create-mercadopago-preference", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ sku, delivery_option: deliveryOption, lang: locale, buyer }),
+          body: JSON.stringify({
+            sku,
+            delivery_option: deliveryOption,
+            lang: locale,
+            buyer,
+            captcha_token: captchaInput ? captchaInput.value : "",
+          }),
         });
         const result = await response.json().catch(() => ({}));
 
@@ -145,6 +160,9 @@
             form.dataset.soldOut = "true";
             inventoryStatus.textContent = copy.soldOut;
             deliverySelect.disabled = true;
+          }
+          if (response.status === 429) {
+            throw new Error(result.captcha_required ? copy.captchaRequired : copy.rateLimited);
           }
           throw new Error(quoteMode ? copy.quoteError : copy.startError);
         }
