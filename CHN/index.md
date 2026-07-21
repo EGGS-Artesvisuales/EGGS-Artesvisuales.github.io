@@ -39,7 +39,7 @@ mermaid: true
     </div>
   </a>
 
-  <a href="/CHN/mundo-exterior.html" class="fancy-button">
+  <a href="/CHN/obra.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="探索作品体系" loading="lazy">
       <p class="title">探索作品</p>
