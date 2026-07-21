@@ -8,6 +8,14 @@
       .toLocaleLowerCase();
   }
 
+  function currentHashValue() {
+    try {
+      return decodeURIComponent(window.location.hash.replace(/^#/, ""));
+    } catch {
+      return window.location.hash.replace(/^#/, "");
+    }
+  }
+
   document.querySelectorAll("[data-store-catalog]").forEach(function (catalog) {
     var search = catalog.querySelector("[data-store-search]");
     var category = catalog.querySelector("[data-store-category]");
@@ -28,6 +36,12 @@
       card.dataset.normalizedSearch = normalize(card.dataset.search);
       card.dataset.normalizedTitle = normalize(card.dataset.title);
     });
+
+    function categoryExists(value) {
+      return Array.prototype.some.call(category.options, function (option) {
+        return option.value === value;
+      });
+    }
 
     function compareCards(a, b) {
       if (sort.value === "price-asc") {
@@ -80,6 +94,17 @@
       render();
     }
 
+    function applyHashCategory(options) {
+      var hashCategory = currentHashValue();
+      if (!categoryExists(hashCategory)) return false;
+      category.value = hashCategory;
+      resetLimitAndRender();
+      if (options && options.scroll) {
+        results.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      return true;
+    }
+
     search.addEventListener("input", resetLimitAndRender);
     category.addEventListener("change", resetLimitAndRender);
     mode.addEventListener("change", resetLimitAndRender);
@@ -90,16 +115,35 @@
       category.value = "all";
       mode.value = "all";
       sort.value = "default";
+      if (window.location.hash) {
+        window.history.pushState(null, document.title, window.location.pathname + window.location.search);
+      }
       resetLimitAndRender();
       search.focus();
     });
 
     shortcuts.forEach(function (button) {
       button.addEventListener("click", function () {
-        category.value = category.value === button.dataset.storeShortcut ? "all" : button.dataset.storeShortcut;
-        resetLimitAndRender();
-        results.scrollIntoView({ behavior: "smooth", block: "start" });
+        var targetCategory = button.dataset.storeShortcut;
+        if (category.value === targetCategory) {
+          category.value = "all";
+          if (window.location.hash) {
+            window.history.pushState(null, document.title, window.location.pathname + window.location.search);
+          }
+          resetLimitAndRender();
+          results.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+        if (window.location.hash === "#" + targetCategory) {
+          applyHashCategory({ scroll: true });
+          return;
+        }
+        window.location.hash = targetCategory;
       });
+    });
+
+    window.addEventListener("hashchange", function () {
+      applyHashCategory({ scroll: true });
     });
 
     more.addEventListener("click", function () {
@@ -107,6 +151,8 @@
       render();
     });
 
-    render();
+    if (!applyHashCategory({ scroll: false })) {
+      render();
+    }
   });
 })();
