@@ -38,40 +38,8 @@
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
       <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Edition, certificate and payment{% elsif page.store_lang == 'chn' %}版本、证书与支付{% elsif page.store_lang == 'mpd' %}Edición, certificado ka kullin{% else %}Edición, certificado y pago{% endif %}">
-        <strong>
-          {% if page.store_lang == "en" %}
-            Edition and certification
-          {% elsif page.store_lang == "chn" %}
-            版本与认证
-          {% elsif page.store_lang == "mpd" %}
-            Edición ka certificado
-          {% else %}
-            Edición y certificación
-          {% endif %}
-        </strong>
-        <p>
-          {% if commerce_enabled %}
-            {% if page.store_lang == "en" %}
-              Direct-purchase editions are signed, numbered and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.
-            {% elsif page.store_lang == "chn" %}
-              可直接购买的版本由 EGGS-Studio 签名、编号并认证。付款通过 Mercado Pago 处理，运费会在付款前计算。
-            {% elsif page.store_lang == "mpd" %}
-              Rüf ngillakan edición firmangeay, rakin nieay ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.
-            {% else %}
-              Las ediciones con compra directa son firmadas, numeradas y certificadas por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.
-            {% endif %}
-          {% else %}
-            {% if page.store_lang == "en" %}
-              This work is handled by enquiry first so availability, certificate, delivery and final conditions can be confirmed before purchase.
-            {% elsif page.store_lang == "chn" %}
-              此作品需先咨询，以便在购买前确认可用性、证书、交付与最终条件。
-            {% elsif page.store_lang == "mpd" %}
-              Fachi küdaw wüño ramtun mew amuley, disponibilidad, certificado, eluwün ka fill az petu ngillal feypingeal.
-            {% else %}
-              Esta obra se gestiona por consulta para confirmar disponibilidad, certificado, entrega y condiciones finales antes de comprar.
-            {% endif %}
-          {% endif %}
-        </p>
+        <strong>{% if page.store_lang == "en" %}Edition and certification{% elsif page.store_lang == "chn" %}版本与认证{% elsif page.store_lang == "mpd" %}Edición ka certificado{% else %}Edición y certificación{% endif %}</strong>
+        <p>{% if commerce_enabled %}{% if page.store_lang == "en" %}Direct-purchase editions are signed, numbered and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.{% elsif page.store_lang == "chn" %}可直接购买的版本由 EGGS-Studio 签名、编号并认证。付款通过 Mercado Pago 处理，运费会在付款前计算。{% elsif page.store_lang == "mpd" %}Rüf ngillakan edición firmangeay, rakin nieay ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.{% else %}Las ediciones con compra directa son firmadas, numeradas y certificadas por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.{% endif %}{% else %}{% if page.store_lang == "en" %}This work is handled by enquiry first so availability, certificate, delivery and final conditions can be confirmed before purchase.{% elsif page.store_lang == "chn" %}此作品需先咨询，以便在购买前确认可用性、证书、交付与最终条件。{% elsif page.store_lang == "mpd" %}Fachi küdaw wüño ramtun mew amuley, disponibilidad, certificado, eluwün ka fill az petu ngillal feypingeal.{% else %}Esta obra se gestiona por consulta para confirmar disponibilidad, certificado, entrega y condiciones finales antes de comprar.{% endif %}{% endif %}</p>
       </aside>
       <dl class="product-specs">
         {% if page.year %}<div><dt>{{ product_t.year }}</dt><dd>{{ page.year }}</dd></div>{% endif %}
@@ -84,26 +52,33 @@
         <div><dt>{{ product_t.certificate }}</dt><dd>{{ page.certificate }}</dd></div>
         <div><dt>{{ product_t.inventory }}</dt><dd>{{ page.fichas }}</dd></div>
       </dl>
+      {% if page.work_id and page.collection %}
+        {% assign current_collection = site.collections | where: "label", page.collection | first %}
+        {% if current_collection %}
+          {% assign related_products = current_collection.docs | where: "work_id", page.work_id | sort: "order" %}
+          {% assign related_count = 0 %}
+          {% capture related_links %}
+            {% for related in related_products %}
+              {% unless related.url == page.url %}
+                {% assign related_count = related_count | plus: 1 %}
+                {% if related_count <= 6 %}
+                  <li><a href="{{ related.url }}">{{ related.title }}</a>{% if related.price_display %} — {{ related.price_display }}{% endif %}</li>
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          {% if related_count > 0 %}
+            <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Related works{% elsif page.store_lang == 'chn' %}相关作品{% elsif page.store_lang == 'mpd' %}Küdaw epuñpüle{% else %}Obras relacionadas{% endif %}">
+              <strong>{% if page.store_lang == "en" %}More from this series{% elsif page.store_lang == "chn" %}同一系列的更多作品{% elsif page.store_lang == "mpd" %}Fachi serie mew ka küdaw{% else %}Más de esta serie{% endif %}</strong>
+              <ul class="service-list">{{ related_links }}</ul>
+            </aside>
+          {% endif %}
+        {% endif %}
+      {% endif %}
       {% if page.delivery_note or commerce_enabled %}
         <aside class="product-delivery" aria-label="{{ product_t.checkout.delivery_heading | escape }}">
           <strong>{{ product_t.checkout.delivery_heading }}</strong>
-          <p>
-            {% if commerce_enabled %}
-              {% if page.store_lang == "en" %}
-                Santiago delivery is free. For the rest of Chile and international destinations, shipping is calculated by zone and added to Mercado Pago before payment.
-              {% elsif page.store_lang == "chn" %}
-                圣地亚哥市内免费交付。智利其他地区及国际目的地的运费会按区域计算，并在 Mercado Pago 付款前加入总额。
-              {% elsif page.store_lang == "mpd" %}
-                Santiago mew eluwün falintun-ngeay. Ka Chile mapu ka ka mapu mew werkün ñi falintun calculagey ka Mercado Pago mew feypingeay petu kullin.
-              {% else %}
-                Entrega sin costo en Santiago. Para regiones de Chile y destinos internacionales, el despacho se calcula por zona y se suma en Mercado Pago antes de pagar.
-              {% endif %}
-            {% elsif page.delivery_note %}
-              {{ page.delivery_note }}
-            {% else %}
-              {{ product_t.checkout.delivery_note }}
-            {% endif %}
-          </p>
+          <p>{% if commerce_enabled %}{% if page.store_lang == "en" %}Santiago delivery is free. For the rest of Chile and international destinations, shipping is calculated by zone and added to Mercado Pago before payment.{% elsif page.store_lang == "chn" %}圣地亚哥市内免费交付。智利其他地区及国际目的地的运费会按区域计算，并在 Mercado Pago 付款前加入总额。{% elsif page.store_lang == "mpd" %}Santiago mew eluwün falintun-ngeay. Ka Chile mapu ka ka mapu mew werkün ñi falintun calculagey ka Mercado Pago mew feypingeay petu kullin.{% else %}Entrega sin costo en Santiago. Para regiones de Chile y destinos internacionales, el despacho se calcula por zona y se suma en Mercado Pago antes de pagar.{% endif %}{% elsif page.delivery_note %}{{ page.delivery_note }}{% else %}{{ product_t.checkout.delivery_note }}{% endif %}</p>
         </aside>
       {% endif %}
       {% if commerce_enabled %}
@@ -130,21 +105,8 @@
             <option value="international_europe">Internacional — Europa</option>
             <option value="international_rest">Internacional — resto del mundo</option>
           </select>
-          <p class="product-checkout__shipping-note">
-            {% if page.store_lang == "en" %}
-              Shipping is calculated from EGGS-Studio's own zone table and shown separately in Mercado Pago before payment.
-            {% elsif page.store_lang == "chn" %}
-              运费将根据 EGGS-Studio 的区域表计算，并在 Mercado Pago 付款前单独显示。
-            {% elsif page.store_lang == "mpd" %}
-              Werkün ñi falintun EGGS-Studio ñi zona tabla mew calculagey ka Mercado Pago mew müley petu kullin.
-            {% else %}
-              El despacho se calcula con una tabla propia por zona y se muestra separado en Mercado Pago antes de pagar.
-            {% endif %}
-          </p>
-          <label class="product-checkout__consent">
-            <input name="privacy_consent" type="checkbox" required>
-            <span>{{ product_t.checkout.privacy_consent }}</span>
-          </label>
+          <p class="product-checkout__shipping-note">{% if page.store_lang == "en" %}Shipping is calculated from EGGS-Studio's own zone table and shown separately in Mercado Pago before payment.{% elsif page.store_lang == "chn" %}运费将根据 EGGS-Studio 的区域表计算，并在 Mercado Pago 付款前单独显示。{% elsif page.store_lang == "mpd" %}Werkün ñi falintun EGGS-Studio ñi zona tabla mew calculagey ka Mercado Pago mew müley petu kullin.{% else %}El despacho se calcula con una tabla propia por zona y se muestra separado en Mercado Pago antes de pagar.{% endif %}</p>
+          <label class="product-checkout__consent"><input name="privacy_consent" type="checkbox" required><span>{{ product_t.checkout.privacy_consent }}</span></label>
           <p class="product-checkout__terms">{{ product_t.checkout.terms_prefix }} <a href="{{ product_t.checkout.terms_url }}">{{ product_t.checkout.terms_label }}</a>.</p>
           <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
           <button class="shop-button" type="submit" disabled>{{ product_t.checkout.buy_button }}</button>
