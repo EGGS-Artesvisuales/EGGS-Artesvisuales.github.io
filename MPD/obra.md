@@ -4,6 +4,10 @@ lang: arn
 title: "Küdaw – EGGS-Studio"
 description: "EGGS-Studio ñi küdaw mapa: series, prints, fotografía, archivo ka ejes curatoriales."
 permalink: /MPD/obra.html
+es_url: /ES/obra.html
+en_url: /EN/work.html
+mpd_url: /MPD/obra.html
+zh_url: /CHN/obra.html
 keywords: "EGGS-Studio, Esteban Garnica, küdaw, print, fotografía, Pinturas Infectadas, Antipublicidad"
 image: /assets/img/pinf-blds-upg-retr-003b.jpg
 mermaid: true
