@@ -1,0 +1,7 @@
+{% assign site_origin = site.url | default: 'https://eggs-studio.cl' %}
+{% if page.es_url %}<link rel="alternate" hreflang="es-CL" href="{{ site_origin }}{{ page.es_url }}">{% endif %}
+{% if page.en_url %}<link rel="alternate" hreflang="en" href="{{ site_origin }}{{ page.en_url }}">{% endif %}
+{% if page.mpd_url %}<link rel="alternate" hreflang="arn-CL" href="{{ site_origin }}{{ page.mpd_url }}">{% endif %}
+{% assign zh_url = page.zh_url | default: page.chn_url %}
+{% if zh_url %}<link rel="alternate" hreflang="zh-Hans" href="{{ site_origin }}{{ zh_url }}">{% endif %}
+{% if page.es_url %}<link rel="alternate" hreflang="x-default" href="{{ site_origin }}{{ page.es_url }}">{% endif %}
