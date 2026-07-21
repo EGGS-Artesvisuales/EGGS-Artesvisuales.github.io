@@ -36,7 +36,7 @@ carousel: true
     </div>
   </a>
 
-  <a href="/MPD/mundo-exterior.html" class="fancy-button">
+  <a href="/MPD/obra.html" class="fancy-button">
     <div class="button-content">
       <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Az-küdaw adkintun" loading="lazy">
       <p class="title">Küdaw adkintun</p>
