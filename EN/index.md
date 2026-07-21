@@ -1,97 +1,86 @@
 ---
 layout: default-en
 lang: en
-title: "EGGS-Studio – Home (Full Translation)"
-description: "EGGS-Studio: creative platform of Esteban Garnica, Chilean visual artist and muralist. Contemporary art, expanded painting, community muralism, and cultural projects from Santiago de Chile."
+title: "EGGS-Studio – Home"
+description: "EGGS-Studio: artworks, prints, photography, murals and visual projects by Esteban Garnica. Limited editions, commissions and artistic services from Santiago, Chile."
 permalink: /EN/index.html
-keywords: "EGGS-Studio, Esteban Garnica, Chilean visual artist, muralist, contemporary art Chile, expanded painting, community muralism, public art, cultural projects, Santiago de Chile"
+keywords: "EGGS-Studio, Esteban Garnica, contemporary art Chile, art prints, photography, muralism, available artworks, commissions, Santiago Chile"
 mermaid: true
 ---
 
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  The creative universe of Esteban Garnica.
+  Artworks, prints and visual projects by Esteban Garnica.
 </h2>
 
-<br>
-
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="infected paintings on soft supports, unique page series, portraits" loading="lazy">
-  <figcaption>The Saturation / The Plague / Infected paintings, soft supports, unique page, portraits, st003. 2020.</figcaption>
-</figure>
-
-<br>
-
-<p class="parrafo" style="margin-top: 7%;">
-  This is the space where the different dimensions of my work as a visual artist converge.
-  Here, intimate projects and large-scale works come together, organized into three axes that structure my practice:
-  1) representing the external world, 2) acting in the world, and 3) exploring the inner world.
-  Each axis unfolds a particular way of engaging with art and building meaning through the visual.
+<p class="parrafo" style="margin-top: 5%;">
+  EGGS-Studio brings together painting, photography, muralism and interventions around the city, advertising, territory and everyday life. Here you can explore the body of work, acquire available editions and request artistic projects or commissions.
 </p>
-
-
-
-<div class="mermaid">
-flowchart LR
-  principal(("Artistic practice"))
-  representacion(["Representation of the world"])
-  accion(["Action in the world"])
-  interior(["Exploration of the inner world"])
-
-  principal --> representacion
-  principal --> accion
-  principal --> interior
-
-  click representacion "/EN/world-representation.html" "Go to Representation of the World"
-  click accion "/EN/action.html" "Go to Action in the World"
-  click interior "/EN/inner-world.html" "Go to Inner World"
-</div>
-
-
-
-<p class="parrafo" style="margin-top: 7%;">
-  I invite you to explore these three axes to get to know my artistic universe: discover works and series, read about my processes, and
-  access different ways of engaging with my practice.
-  Here you can also acquire artworks and request commissions —paintings, murals, or other interventions— in addition to consulting services
-  related to my work, such as restorations and the development of cultural projects.
-  This classification functions as a map: it helps me organize and clarify my path, while also making it easier for others to understand how I think,
-  produce, and develop each project.
-</p>
-
-<hr class="separador separador--aire" />
 
 <div class="button-container">
+  <a href="/EN/store.html#impresiones-y-fotografia" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Available prints and photography" loading="lazy">
+      <p class="title">Buy artwork</p>
+      <p class="subtitle">Limited-edition prints and photography, signed, numbered and certified.</p>
+    </div>
+  </a>
+
+  <a href="/EN/contact.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Commissions, murals and projects" loading="lazy">
+      <p class="title">Commission a project</p>
+      <p class="subtitle">Murals, paintings, restoration, workshops, installations and cultural projects.</p>
+    </div>
+  </a>
 
   <a href="/EN/world-representation.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp"
-           alt="World Representation works" loading="lazy">
-      <p class="title">World Representation</p>
-      <p class="subtitle">Works that observe, portray, and reflect on the current world.</p>
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Explore the body of work" loading="lazy">
+      <p class="title">Explore the work</p>
+      <p class="subtitle">Painting, photography, urban intervention, community and inner world.</p>
     </div>
   </a>
-
-  <a href="/EN/action.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.webp"
-           alt="Action in the World works" loading="lazy">
-      <p class="title">Action in the World</p>
-      <p class="subtitle">Practices of acting in the world: community arts, workshops, crafts, and cultural services.</p>
-    </div>
-  </a>
-
-  <a href="/EN/inner-world.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio---mundo-interior.webp"
-           alt="Exploration of the Inner World" loading="lazy">
-      <p class="title">Inner World</p>
-      <p class="subtitle">Work focused on personal exploration and processes dedicated to introspection and well-being.</p>
-    </div>
-  </a>
-
 </div>
 
+<figure class="imagen-con-caption">
+  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Infected Paintings, soft supports, unique page, portraits" loading="lazy">
+  <figcaption>The Saturation / The Plague / Infected Paintings, soft supports, unique page, portraits, st003. 2020.</figcaption>
+</figure>
 
+<hr class="separador separador--aire" />
 
-<a href="/EN/exhibitions.html" class="enlace">See more works</a>
+<h2 class="subtitulo">Work map</h2>
+
+<p class="parrafo">
+  The site is organized as a simple curatorial map: representation of the world, action in the world and inner world. The diagram preserves conceptual depth without replacing the main navigation.
+</p>
+
+<div class="mermaid">
+flowchart LR
+  principal(("EGGS-Studio"))
+  tienda(["Available works"])
+  servicios(["Commissions and services"])
+  mapa(["Work map"])
+
+  principal --> tienda
+  principal --> servicios
+  principal --> mapa
+
+  mapa --> representacion(["Representation of the world"])
+  mapa --> accion(["Action in the world"])
+  mapa --> interior(["Inner world"])
+
+  click tienda "/EN/store.html#impresiones-y-fotografia" "Go to available works"
+  click servicios "/EN/services.html" "Go to services"
+  click representacion "/EN/world-representation.html" "Go to Representation of the world"
+  click accion "/EN/action.html" "Go to Action in the world"
+  click interior "/EN/inner-world.html" "Go to Inner world"
+</div>
+
+<p class="parrafo" style="margin-top: 7%;">
+  If this is your first visit, start with the store or the main series. To understand the full structure of the practice, follow the conceptual map and its axes.
+</p>
+
+<a href="/EN/exhibitions.html" class="enlace">See exhibitions and trajectory</a>
