@@ -105,7 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // Manejo de menús desplegables en móviles (nivel 1 y submenús)
   const initDropdownToggle = (selector) => {
     document.querySelectorAll(selector).forEach(link => {
       link.addEventListener('click', (e) => {
@@ -123,10 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
   initDropdownToggle('.dropdown > a');
   initDropdownToggle('.dropdown-sub > a');
 
-  // Cerrar dropdowns activos si se hace clic fuera (solo móviles)
   document.addEventListener('click', (event) => {
     if (window.innerWidth > 901) return;
-
     document.querySelectorAll('.dropdown.active, .dropdown-sub.active').forEach(dropdown => {
       if (!dropdown.contains(event.target)) {
         setDropdownExpanded(dropdown, false);
@@ -134,19 +131,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Toggle desde botón hamburguesa
   navToggle.addEventListener("click", toggleMenu);
 
-  // Cierre automático al hacer clic en links (solo si no tienen submenú)
   navMenu.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", (e) => {
+    link.addEventListener("click", () => {
       const parent = link.parentElement;
       const hasSubmenu = parent.classList.contains("dropdown") || parent.classList.contains("dropdown-sub");
       if (!hasSubmenu) closeMenu();
     });
   });
 
-  // Navegación con flechas dentro del menú
   navMenu.addEventListener("keydown", (event) => {
     const links = Array.from(navMenu.querySelectorAll("a")).filter(link => getComputedStyle(link).display !== "none");
     const currentIndex = links.indexOf(document.activeElement);
@@ -161,10 +155,59 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Escape cierra el menú
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && navMenu.classList.contains("active")) {
       closeMenu();
     }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const emitConversionEvent = (eventName, payload = {}) => {
+    const detail = {
+      event_category: "conversion",
+      page_path: window.location.pathname,
+      ...payload
+    };
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: eventName, ...detail });
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", eventName, detail);
+    }
+
+    if (typeof window.plausible === "function") {
+      window.plausible(eventName, { props: detail });
+    }
+
+    window.dispatchEvent(new CustomEvent("eggs:conversion", { detail: { eventName, ...detail } }));
+  };
+
+  document.querySelectorAll('a[href*="/tienda"], a[href*="/store"]').forEach(link => {
+    link.addEventListener("click", () => emitConversionEvent("store_click", {
+      link_text: link.textContent.trim().slice(0, 120),
+      href: link.href
+    }));
+  });
+
+  document.querySelectorAll('a[href*="/contacto"], a[href*="/contact"]').forEach(link => {
+    link.addEventListener("click", () => emitConversionEvent("contact_click", {
+      link_text: link.textContent.trim().slice(0, 120),
+      href: link.href
+    }));
+  });
+
+  document.querySelectorAll('form.contact-form').forEach(form => {
+    form.addEventListener("submit", () => emitConversionEvent("contact_submit", {
+      topic: form.querySelector('[name="topic"]')?.value || "unspecified"
+    }));
+  });
+
+  document.querySelectorAll('form[data-mercadopago-checkout]').forEach(form => {
+    form.addEventListener("submit", () => emitConversionEvent("checkout_start", {
+      sku: form.dataset.sku || "unknown",
+      lang: form.dataset.checkoutLang || document.documentElement.lang || "unknown"
+    }));
   });
 });
