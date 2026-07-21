@@ -13,6 +13,17 @@ const LOCALE_DIRECTORIES = Object.freeze({
   mpd: "_productos_mpd",
   chn: "_productos_chn",
 });
+const DELIVERY_OPTIONS = Object.freeze({
+  santiago: "Santiago — entrega sin costo",
+  rm_outer: "Región Metropolitana fuera de Santiago",
+  chile_central: "Chile centro",
+  chile_north: "Chile norte",
+  chile_south: "Chile sur",
+  chile_extreme: "Chile extremo o insular",
+  international_americas: "Internacional — América",
+  international_europe: "Internacional — Europa",
+  international_rest: "Internacional — resto del mundo",
+});
 
 function parseScalar(rawValue) {
   const value = rawValue.trim();
@@ -115,16 +126,18 @@ products.sort((a, b) => a.sku.localeCompare(b.sku));
 
 const lines = [
   "// Productos estandarizados generados desde _productos_es. No editar manualmente.",
-  'const DELIVERY_OPTIONS = Object.freeze({',
-  '  santiago: "Entrega sin costo en Santiago",',
-  '  quote_later: "Despacho fuera de Santiago cotizado y pagado después",',
-  "});",
-  "",
-  "const PRODUCTS = Object.freeze({",
+  "const DELIVERY_OPTIONS = Object.freeze({",
 ];
+
+for (const [key, label] of Object.entries(DELIVERY_OPTIONS)) {
+  lines.push(`  ${key}: ${JSON.stringify(label)},`);
+}
+
+lines.push("});", "", "const PRODUCTS = Object.freeze({");
 
 for (const product of products) {
   lines.push(`  ${JSON.stringify(product.sku)}: Object.freeze({`);
+  lines.push(`    sku: ${JSON.stringify(product.sku)},`);
   lines.push(`    title: ${JSON.stringify(product.title)},`);
   lines.push(`    description: ${JSON.stringify(product.description)},`);
   lines.push('    currency: "CLP",');

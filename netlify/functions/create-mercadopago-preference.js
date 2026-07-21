@@ -1,9 +1,9 @@
 const { randomUUID } = require("crypto");
 const { COMMERCE_CONFIG } = require("../lib/commerce-config");
 const { PRODUCTS } = require("../lib/products");
+const { calculateShipping } = require("../lib/shipping");
 const {
   connectInventory,
-  getInventory,
   releaseReservation,
   reserveInventory,
 } = require("../lib/inventory");
@@ -28,37 +28,21 @@ const CHECKOUT_LOCALES = Object.freeze({
     success: "/ES/pago-exitoso.html",
     pending: "/ES/pago-pendiente.html",
     failure: "/ES/pago-rechazado.html",
-    delivery: Object.freeze({
-      santiago: "Entrega sin costo en Santiago",
-      quote_later: "Despacho fuera de Santiago cotizado y pagado después",
-    }),
   }),
   en: Object.freeze({
     success: "/EN/payment-success.html",
     pending: "/EN/payment-pending.html",
     failure: "/EN/payment-failed.html",
-    delivery: Object.freeze({
-      santiago: "Free delivery in Santiago",
-      quote_later: "Shipping outside Santiago quoted and paid afterward",
-    }),
   }),
   mpd: Object.freeze({
     success: "/MPD/pago-exitoso.html",
     pending: "/MPD/pago-pendiente.html",
     failure: "/MPD/pago-rechazado.html",
-    delivery: Object.freeze({
-      santiago: "Santiago mew müley müten eluwün",
-      quote_later: "Santiago mülelay; werkün ñi falintun wüla feypingeay ka kullingeay",
-    }),
   }),
   chn: Object.freeze({
     success: "/CHN/pago-exitoso.html",
     pending: "/CHN/pago-pendiente.html",
     failure: "/CHN/pago-rechazado.html",
-    delivery: Object.freeze({
-      santiago: "圣地亚哥市内免费交付",
-      quote_later: "圣地亚哥以外地区的运费稍后报价并支付",
-    }),
   }),
 });
 
@@ -82,55 +66,19 @@ function normalizedText(value, maxLength) {
     .slice(0, maxLength);
 }
 
-function validatedBuyer(value, options = {}) {
+function validatedBuyer(value) {
   const buyer = {
-    name: normalizedText(value?.name, 120),
-    email: normalizedText(value?.email, 254).toLowerCase(),
     phone: normalizedText(value?.phone, 25),
     location: normalizedText(value?.location, 120),
     address: normalizedText(value?.address, 200),
   };
   const validPhone = /^\+?[0-9 ()-]{7,25}$/.test(buyer.phone);
-  const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(buyer.email);
   const consent = value?.consent === true;
 
-  if (
-    !validPhone ||
-    buyer.location.length < 2 ||
-    buyer.address.length < 5 ||
-    !consent ||
-    (options.requireContact && (buyer.name.length < 2 || !validEmail))
-  ) {
+  if (!validPhone || buyer.location.length < 2 || buyer.address.length < 5 || !consent) {
     return null;
   }
   return buyer;
-}
-
-async function submitShippingQuote({ buyer, deliveryLabel, locale, product, sku }) {
-  const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
-  const fields = new URLSearchParams({
-    "form-name": "ventas-aprobadas",
-    subject: `Cotización de despacho EGGS-Studio — ${sku}`,
-    estado: "COTIZACIÓN DE DESPACHO SOLICITADA",
-    pago_mercado_pago: "Pendiente de cotización",
-    sku,
-    producto: localizedProduct.title,
-    monto: `${Number(product.unitPrice).toLocaleString("es-CL")} CLP + despacho por cotizar`,
-    comprador: buyer.name,
-    email: buyer.email,
-    telefono: buyer.phone,
-    modalidad_entrega: deliveryLabel,
-    region_comuna: buyer.location,
-    direccion: buyer.address,
-    idioma: locale,
-    fecha_pago: "Aún no se ha realizado ningún cobro",
-  });
-  const response = await fetch(`${SITE_URL}/`, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: fields.toString(),
-  });
-  if (!response.ok) throw new Error(`Netlify Forms respondió ${response.status}`);
 }
 
 exports.handler = async (event) => {
@@ -165,9 +113,16 @@ exports.handler = async (event) => {
   const locale = CHECKOUT_LOCALES[localeKey] ? localeKey : "es";
   const localeSettings = CHECKOUT_LOCALES[locale];
   const localizedProduct = product.localized?.[locale] || product.localized?.es || product;
-  const deliveryLabel = localeSettings.delivery[deliveryOption];
-  const quoteMode = deliveryOption === "quote_later";
-  const buyer = validatedBuyer(requestBody.buyer, { requireContact: quoteMode });
+  const shipping = calculateShipping({
+    product: { ...product, sku },
+    destinationKey: deliveryOption,
+    locale,
+  });
+  if (!shipping) {
+    return jsonResponse(400, { error: "No se pudo calcular el despacho para el destino seleccionado." });
+  }
+
+  const buyer = validatedBuyer(requestBody.buyer);
   if (!buyer) {
     return jsonResponse(400, { error: "Completa correctamente los datos para la entrega." });
   }
@@ -199,21 +154,6 @@ exports.handler = async (event) => {
     );
   }
 
-  if (quoteMode) {
-    try {
-      await connectInventory(event);
-      const inventory = await getInventory(sku);
-      if (!inventory.available) {
-        return jsonResponse(409, { error: "Este producto está agotado." });
-      }
-      await submitShippingQuote({ buyer, deliveryLabel, locale, product, sku });
-      return jsonResponse(200, { quote_requested: true });
-    } catch (error) {
-      logCommerceEvent("error", "shipping_quote_failed", { sku, message: error.message });
-      return jsonResponse(502, { error: "No se pudo enviar la solicitud de cotización." });
-    }
-  }
-
   const orderId = randomUUID();
   let reservation;
   try {
@@ -235,6 +175,8 @@ exports.handler = async (event) => {
     await savePendingOrder(orderId, {
       sku,
       delivery_option: deliveryOption,
+      shipping,
+      total_amount: Number(product.unitPrice) + Number(shipping.cost),
       locale,
       buyer,
       buyer_fingerprint: gate.fingerprint,
@@ -259,12 +201,16 @@ exports.handler = async (event) => {
       {
         id: sku,
         title: localizedProduct.title,
-        description: `${localizedProduct.description}. ${deliveryLabel}.`,
+        description: `${localizedProduct.description}. ${shipping.label}.`,
         quantity: 1,
         currency_id: product.currency,
         unit_price: product.unitPrice,
       },
     ],
+    shipments: {
+      cost: shipping.cost,
+      mode: "not_specified",
+    },
     back_urls: {
       success: `${SITE_URL}${localeSettings.success}`,
       pending: `${SITE_URL}${localeSettings.pending}`,
@@ -282,6 +228,8 @@ exports.handler = async (event) => {
       sku,
       order_id: orderId,
       delivery_option: deliveryOption,
+      shipping_cost: shipping.cost,
+      shipping_profile: shipping.profile,
       lang: locale,
       source: "eggs-studio.cl",
     },
@@ -329,11 +277,19 @@ exports.handler = async (event) => {
       return jsonResponse(502, { error: "No se recibió la URL de pago." });
     }
 
-    logCommerceEvent("info", "mercadopago_preference_created", { sku, orderId, mode: testMode ? "test" : "production" });
+    logCommerceEvent("info", "mercadopago_preference_created", {
+      sku,
+      orderId,
+      shippingCost: shipping.cost,
+      shippingProfile: shipping.profile,
+      mode: testMode ? "test" : "production",
+    });
     return jsonResponse(200, {
       preference_id: responseBody.id,
       checkout_url: checkoutUrl,
       mode: testMode ? "test" : "production",
+      shipping,
+      total_amount: Number(product.unitPrice) + Number(shipping.cost),
       reservation_expires_at: reservation.reservation_expires_at,
     });
   } catch (error) {

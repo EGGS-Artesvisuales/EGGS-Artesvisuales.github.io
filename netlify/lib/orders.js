@@ -58,12 +58,15 @@ async function getOrder(orderId, options = {}) {
 function validateOrderForPayment(order, payment, product) {
   if (!order || !payment || !product) return false;
   const metadata = payment.metadata || {};
-  const amountMatches = Number(payment.transaction_amount) === Number(product.unitPrice);
+  const expectedAmount = Number(order.total_amount ?? product.unitPrice);
+  const paidAmount = Number(payment.transaction_amount);
+  const amountMatches = Number.isFinite(expectedAmount) && Number.isFinite(paidAmount) && paidAmount === expectedAmount;
   const currencyMatches = payment.currency_id === product.currency;
   const skuMatches = String(order.sku) === String(metadata.sku || order.sku);
   const orderMatches = String(order.id) === String(metadata.order_id || order.id);
   const deliveryMatches = Boolean(product.deliveryOptions[order.delivery_option]);
-  return amountMatches && currencyMatches && skuMatches && orderMatches && deliveryMatches;
+  const shippingMatches = Number(metadata.shipping_cost ?? order.shipping?.cost ?? 0) === Number(order.shipping?.cost ?? 0);
+  return amountMatches && currencyMatches && skuMatches && orderMatches && deliveryMatches && shippingMatches;
 }
 
 async function updateOrderStatus(orderId, status, patch = {}, options = {}) {
