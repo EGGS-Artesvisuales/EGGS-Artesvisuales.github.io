@@ -48,6 +48,22 @@ mermaid: true
   </a>
 </div>
 
+<hr class="separador separador--aire" />
+
+<h2 class="subtitulo">重点系列</h2>
+
+<p class="parrafo">
+  从一个清晰的系列进入：每个页面概括概念、展示主图，并引导至商店、档案或相关产品。
+</p>
+
+<div class="button-container">
+  <a href="/CHN/serie-pinturas-infectadas.html" class="fancy-button"><div class="button-content"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="感染的绘画" loading="lazy"><p class="title">感染的绘画</p><p class="subtitle">当绘画像一个有机体一样运作。</p></div></a>
+  <a href="/CHN/serie-paisajes-carretera.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="公路风景" loading="lazy"><p class="title">公路风景</p><p class="subtitle">风景、移动、速度与视觉记忆。</p></div></a>
+  <a href="/CHN/serie-banderas-infectadas.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0016-L01-P5070-F70100.webp" alt="感染的旗帜" loading="lazy"><p class="title">感染的旗帜</p><p class="subtitle">被绘画、瘟疫与身份改变的符号。</p></div></a>
+  <a href="/CHN/serie-antipublicidad.html" class="fancy-button"><div class="button-content"><img src="/assets/img/boton-antipub.webp" alt="反广告" loading="lazy"><p class="title">反广告</p><p class="subtitle">PP Series、海报、广告盗版与介入。</p></div></a>
+  <a href="/CHN/serie-el-colgado.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp" alt="El Colgado" loading="lazy"><p class="title">El Colgado</p><p class="subtitle">摄影、仪式、悬置身体与地域。</p></div></a>
+</div>
+
 <figure class="imagen-con-caption">
   <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="感染的绘画，软支撑，单页，肖像" loading="lazy">
   <figcaption>饱和 / 瘟疫 / 感染的绘画，软支撑，单页，肖像，st003。2020.</figcaption>
@@ -66,18 +82,24 @@ flowchart LR
   principal(("EGGS-Studio"))
   tienda(["可购买作品"])
   servicios(["委托与服务"])
+  series(["重点系列"])
   mapa(["作品地图"])
 
   principal --> tienda
   principal --> servicios
+  principal --> series
   principal --> mapa
 
+  series --> pinturas(["感染的绘画"])
+  series --> colgado(["El Colgado"])
   mapa --> representacion(["世界的再现"])
   mapa --> accion(["在世界中的行动"])
   mapa --> interior(["内在世界"])
 
   click tienda "/CHN/tienda.html#impresiones-y-fotografia" "前往可购买作品"
   click servicios "/CHN/servicios.html" "前往服务"
+  click pinturas "/CHN/serie-pinturas-infectadas.html" "查看感染的绘画"
+  click colgado "/CHN/serie-el-colgado.html" "查看 El Colgado"
   click representacion "/CHN/mundo-exterior.html" "前往世界的再现"
   click accion "/CHN/accion.html" "前往在世界中的行动"
   click interior "/CHN/interior.html" "前往内在世界"
