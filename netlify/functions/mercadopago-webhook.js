@@ -90,6 +90,10 @@ async function submitApprovedSale(order, payment, product) {
   const payerName = [payment.payer?.first_name, payment.payer?.last_name]
     .filter(Boolean)
     .join(" ") || "No informado por Mercado Pago";
+  const shippingCost = Number(order.shipping?.cost || 0);
+  const productAmount = Number(product.unitPrice || 0);
+  const totalAmount = Number(order.total_amount || payment.transaction_amount || productAmount + shippingCost);
+  const deliveryLabel = order.shipping?.label || order.delivery_option;
   const fields = new URLSearchParams({
     "form-name": "ventas-aprobadas",
     subject: `Venta aprobada EGGS-Studio — ${order.sku}`,
@@ -97,11 +101,13 @@ async function submitApprovedSale(order, payment, product) {
     pago_mercado_pago: String(payment.id),
     sku: order.sku,
     producto: localizedProduct.title,
-    monto: `${Number(payment.transaction_amount).toLocaleString("es-CL")} CLP`,
+    monto: `${totalAmount.toLocaleString("es-CL")} CLP`,
+    precio_producto: `${productAmount.toLocaleString("es-CL")} CLP`,
+    despacho: `${shippingCost.toLocaleString("es-CL")} CLP`,
     comprador: payerName,
     email: String(payment.payer?.email || ""),
     telefono: order.buyer.phone,
-    modalidad_entrega: order.delivery_option,
+    modalidad_entrega: deliveryLabel,
     region_comuna: order.buyer.location,
     direccion: order.buyer.address,
     idioma: order.locale,
@@ -195,6 +201,8 @@ exports.handler = async (event) => {
       sku,
       orderId,
       status: payment.status,
+      totalAmount: order.total_amount,
+      shippingCost: order.shipping?.cost,
       liveMode: Boolean(payment.live_mode),
     });
 
