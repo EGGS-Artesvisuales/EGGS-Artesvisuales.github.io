@@ -64,6 +64,7 @@ const localizedProducts = Object.fromEntries(
 const products = files.map((file) => {
   const data = readFrontMatter(path.join(PRODUCTS_DIR, file));
   if (!CHECKOUT_CATEGORIES.has(data.category)) return null;
+  if (data.direct_purchase === false) return null;
   const required = ["sku", "title", "description", "price_clp", "stock"];
   for (const field of required) {
     if (data[field] === undefined || data[field] === "") {
