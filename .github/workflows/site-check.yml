@@ -23,4 +23,10 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle
+        run: bundle exec jekyll build --trace
+
+      - name: Generate canonical redirects
+        run: python tools/generate_redirects.py --site _site
+
+      - name: Validate routes and internal links
+        run: python tools/validate_site.py --source . --site _site
