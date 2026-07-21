@@ -49,7 +49,23 @@
       {% if page.delivery_note or commerce_enabled %}
         <aside class="product-delivery" aria-label="{{ product_t.checkout.delivery_heading | escape }}">
           <strong>{{ product_t.checkout.delivery_heading }}</strong>
-          <p>{% if page.delivery_note %}{{ page.delivery_note }}{% else %}{{ product_t.checkout.delivery_note }}{% endif %}</p>
+          <p>
+            {% if commerce_enabled %}
+              {% if page.store_lang == "en" %}
+                Santiago delivery is free. For the rest of Chile and international destinations, shipping is calculated by zone and added to Mercado Pago before payment.
+              {% elsif page.store_lang == "chn" %}
+                圣地亚哥市内免费交付。智利其他地区及国际目的地的运费会按区域计算，并在 Mercado Pago 付款前加入总额。
+              {% elsif page.store_lang == "mpd" %}
+                Santiago mew eluwün falintun-ngeay. Ka Chile mapu ka ka mapu mew werkün ñi falintun calculagey ka Mercado Pago mew feypingeay petu kullin.
+              {% else %}
+                Entrega sin costo en Santiago. Para regiones de Chile y destinos internacionales, el despacho se calcula por zona y se suma en Mercado Pago antes de pagar.
+              {% endif %}
+            {% elsif page.delivery_note %}
+              {{ page.delivery_note }}
+            {% else %}
+              {{ product_t.checkout.delivery_note }}
+            {% endif %}
+          </p>
         </aside>
       {% endif %}
       {% if commerce_enabled %}
@@ -57,13 +73,6 @@
           <fieldset class="product-checkout__buyer">
             <legend>{{ product_t.checkout.buyer_heading }}</legend>
             <p>{{ product_t.checkout.buyer_note }}</p>
-            <div class="product-checkout__quote-contact" data-quote-contact hidden>
-              <p>{{ product_t.checkout.quote_contact_note }}</p>
-              <label for="buyer-name-{{ page.sku | slugify }}">{{ product_t.checkout.quote_name_label }}</label>
-              <input id="buyer-name-{{ page.sku | slugify }}" name="buyer_name" type="text" autocomplete="name" maxlength="120" placeholder="{{ product_t.checkout.quote_name_placeholder | escape }}">
-              <label for="buyer-email-{{ page.sku | slugify }}">{{ product_t.checkout.quote_email_label }}</label>
-              <input id="buyer-email-{{ page.sku | slugify }}" name="buyer_email" type="email" autocomplete="email" maxlength="254" placeholder="{{ product_t.checkout.quote_email_placeholder | escape }}">
-            </div>
             <label for="buyer-phone-{{ page.sku | slugify }}">{{ product_t.checkout.phone_label }}</label>
             <input id="buyer-phone-{{ page.sku | slugify }}" name="buyer_phone" type="tel" autocomplete="tel" maxlength="25" required placeholder="{{ product_t.checkout.phone_placeholder | escape }}">
             <label for="buyer-location-{{ page.sku | slugify }}">{{ product_t.checkout.location_label }}</label>
@@ -73,9 +82,27 @@
           </fieldset>
           <label for="delivery-option-{{ page.sku | slugify }}">{{ product_t.checkout.delivery_question }}</label>
           <select id="delivery-option-{{ page.sku | slugify }}" name="delivery_option" required>
-            <option value="santiago">{{ product_t.checkout.santiago }}</option>
-            <option value="quote_later">{{ product_t.checkout.quote_later }}</option>
+            <option value="santiago">Santiago — entrega sin costo / free delivery</option>
+            <option value="rm_outer">Región Metropolitana fuera de Santiago</option>
+            <option value="chile_central">Chile centro</option>
+            <option value="chile_north">Chile norte</option>
+            <option value="chile_south">Chile sur</option>
+            <option value="chile_extreme">Chile extremo o insular</option>
+            <option value="international_americas">Internacional — América</option>
+            <option value="international_europe">Internacional — Europa</option>
+            <option value="international_rest">Internacional — resto del mundo</option>
           </select>
+          <p class="product-checkout__shipping-note">
+            {% if page.store_lang == "en" %}
+              Shipping is calculated from EGGS-Studio's own zone table and shown separately in Mercado Pago before payment.
+            {% elsif page.store_lang == "chn" %}
+              运费将根据 EGGS-Studio 的区域表计算，并在 Mercado Pago 付款前单独显示。
+            {% elsif page.store_lang == "mpd" %}
+              Werkün ñi falintun EGGS-Studio ñi zona tabla mew calculagey ka Mercado Pago mew müley petu kullin.
+            {% else %}
+              El despacho se calcula con una tabla propia por zona y se muestra separado en Mercado Pago antes de pagar.
+            {% endif %}
+          </p>
           <label class="product-checkout__consent">
             <input name="privacy_consent" type="checkbox" required>
             <span>{{ product_t.checkout.privacy_consent }}</span>
