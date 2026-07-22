@@ -16,7 +16,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 <link rel="stylesheet" href="/assets/css/obra-index-fixes.css">
 
 <div class="obra-index">
-  <section class="obra-hero" aria-labelledby="kudaw-title"><div><p class="obra-kicker">Índice curatorial</p><h1 id="kudaw-title">Küdaw</h1></div><p class="obra-hero__intro">Fachi índice mew pegelgey küdaw ñi autoral az: wünetu rakizuam rüpü, mülelu fütra series ka ñi subseries, ka afpüle archivo kom ka mülechi ediciones mew konal.</p></section>
+  <section class="obra-hero" aria-labelledby="kudaw-title"><div><p class="obra-kicker">Índice curatorial</p><h1 id="kudaw-title">Küdaw</h1></div><p class="obra-hero__intro"><span class="obra-hero__statement">Arte, territorio libre: mapu mew mülen ka fey mew chegen ñi rüpü.</span><span class="obra-hero__orientation">Küdaw azentun, mapu mew küdaw ka püle rakizuam mew txipay.</span></p></section>
 
   <section class="obra-section" aria-labelledby="kudaw-mapa"><header class="obra-section__heading"><div><p class="obra-section__eyebrow">Küdaw ñi mapa</p><h2 id="kudaw-mapa">Küla rakizuam rüpü</h2></div><p>Fachi práctica küla kom püle mew txürküley: mapu ka mogen azentun, tüfachi mogen mew küdaw, ka püle rakizuam ka püllü az kintun. Kiñe kiñe rüpü mew müley categorías, series, proyectos ka procesos.</p></header><div class="obra-axes">
     <a href="/MPD/mundo-exterior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Wallmapu ñi azentun" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">01</span><h3>Wallmapu ñi azentun</h3><p>Mapu, territorio, archivo, visual cultura ka fachantü fenómenos.</p></div></a>
