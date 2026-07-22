@@ -2,20 +2,21 @@
 layout: default-chn
 lang: zh-Hans
 title: "EGGS-Studio"
-description: "EGGS-Studio：Esteban Garnica 的作品、艺术微喷、摄影、壁画与视觉项目。限量版、委托创作与艺术服务。"
+description: "EGGS-STUDIO。Esteban Garnica 的创意宇宙。作品、销售与视觉项目。限量版、委托创作与艺术服务。"
 permalink: /CHN/index.html
 es_url: /ES/index.html
 en_url: /EN/index.html
 mpd_url: /MPD/index.html
-keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 艺术微喷, 摄影, 壁画, 委托创作, 智利"
+keywords: "EGGS-Studio, Esteban Garnica, 创意宇宙, 作品, 销售, 视觉项目, 视觉艺术, 艺术微喷, 摄影, 壁画, 委托创作, 智利"
 carousel: true
 mermaid: true
 ---
 
-<h1 class="titulo">EGGS-Studio</h1>
+<h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Esteban Garnica 的作品、版画与视觉项目。
+  Esteban Garnica 的创意宇宙。<br>
+  作品、销售与视觉项目。
 </h2>
 
 <p class="parrafo" style="margin-top: 5%;">

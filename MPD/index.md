@@ -2,9 +2,9 @@
 layout: default-mpd
 lang: arn
 title: "EGGS-Studio – Wünen"
-description: "EGGS-Studio: Esteban Garnica ñi az-küdaw, prints, fotografía, mural ka kimün küdaw Santiago de Chile mew."
+description: "EGGS-STUDIO. Esteban Garnica ñi universo creativo. Küdaw, ngillan ka visual küdaw Santiago de Chile mew."
 permalink: /MPD/index.html
-keywords: "EGGS-Studio, Esteban Garnica, az-küdaw, prints, fotografía, muralismo, trafkintu, Santiago Chile"
+keywords: "EGGS-Studio, Esteban Garnica, universo creativo, küdaw, ngillan, visual küdaw, az-küdaw, prints, fotografía, muralismo, trafkintu, Santiago Chile"
 mermaid: true
 carousel: true
 
@@ -12,7 +12,8 @@ carousel: true
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Esteban Garnica ñi az-küdaw, prints ka visual küdaw.
+  Esteban Garnica ñi universo creativo.<br>
+  Küdaw, ngillan ka visual küdaw.
 </h2>
 
 <p class="parrafo" style="margin-top: 5%;">
