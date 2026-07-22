@@ -1,4 +1,11 @@
 (() => {
+  const supportedPaths = new Set([
+    "/ES/exhibiciones.html",
+    "/EN/exhibitions.html",
+    "/MPD/exhibiciones.html",
+    "/CHN/exhibiciones.html"
+  ]);
+
   function languageCopy() {
     const path = window.location.pathname;
 
@@ -195,6 +202,8 @@
   }
 
   function initialize() {
+    if (!supportedPaths.has(window.location.pathname)) return;
+
     const firstTimeline = document.querySelector(".timeline-container");
     if (!firstTimeline) return;
 
