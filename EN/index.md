@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Artworks and projects"
 description: "Esteban Garnica's creative universe: painting, photography, intervention, available artworks and cultural projects developed from Santiago, Chile."
 permalink: /EN/index.html
 keywords: "Esteban Garnica, EGGS-Studio, Chilean visual artist, painting, photography, urban intervention, available art, muralism, cultural projects"
-image: /assets/img/ES-inicio - representacion del mundo.webp
+image: /assets/img/pinf-blds-upg-retr-003b.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -23,7 +23,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
       <div class="home-actions" aria-label="Primary actions"><a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">Buy artwork</a><a href="/EN/work.html" class="home-button home-button--secondary">Explore the work</a></div>
       <a href="/EN/services.html" class="home-text-link">Commissions, murals and cultural projects</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
@@ -37,7 +37,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
   </section>
 
   <section class="home-section" aria-labelledby="selected-series"><header class="home-section__header"><div><p class="home-section__eyebrow">Visual research</p><h2 id="selected-series">Selected series</h2></div><p class="home-section__intro">Three ways into the work through expanded painting, observed landscape and critical intervention in visual culture.</p></header><div class="home-series-grid">
-    <a href="/EN/infected-paintings-series.html" class="home-series-card home-series-card--main"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Infected Paintings series" loading="lazy"><div class="home-series-card__copy"><h3>Infected Paintings</h3><p>Painting as organism, vulnerable surface and transforming system.</p></div></a>
+    <a href="/EN/infected-paintings-series.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Infected Paintings series" loading="lazy"><div class="home-series-card__copy"><h3>Infected Paintings</h3><p>Painting as organism, vulnerable surface and transforming system.</p></div></a>
     <a href="/EN/roadside-landscapes-series.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Roadside Landscapes series" loading="lazy"><div class="home-series-card__copy"><h3>Roadside Landscapes</h3><p>Transit, speed and the visual memory of territory.</p></div></a>
     <a href="/EN/anti-advertising-series.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Anti-advertising series" loading="lazy"><div class="home-series-card__copy"><h3>Anti-advertising</h3><p>Appropriation, diversion and intervention of commercial messages.</p></div></a>
   </div><div class="home-section__footer"><a href="/EN/work.html" class="home-text-link">See all series</a></div></section>
