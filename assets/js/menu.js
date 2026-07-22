@@ -227,3 +227,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Carga contexto curatorial solo en las páginas que lo necesitan.
+(() => {
+  const relevantPath = /^\/(?:ES|EN|MPD|CHN)\/(?:musoe-a-cielo-abierto|musoe-open-air|servicios|services|acerca|about)\.html$/.test(window.location.pathname);
+  if (!relevantPath) return;
+
+  const script = document.createElement("script");
+  script.src = "/assets/js/curatorial-context.js?v=20260722-1";
+  script.defer = true;
+  document.head.append(script);
+})();
