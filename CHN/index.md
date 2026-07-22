@@ -13,6 +13,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
 <link rel="stylesheet" href="/assets/css/home-project-images.css">
+<link rel="stylesheet" href="/assets/css/home-impact-refinement.css">
 
 {% assign producto_paisaje = site.productos_chn | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
 {% assign producto_bandera = site.productos_chn | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
@@ -22,12 +23,12 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-hero__copy">
       <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
-      <h1 id="home-title" class="home-hero__title">Esteban Garnica 的创意宇宙。</h1>
-      <p class="home-hero__lead">绘画、摄影、视觉介入与地域项目。</p>
-      <div class="home-actions"><a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">购买作品</a><a href="/CHN/obra.html" class="home-button home-button--secondary">探索作品</a></div>
-      <a href="/CHN/servicios.html" class="home-text-link">委托、壁画与文化项目</a>
+      <h1 id="home-title" class="home-hero__title">绘画、图像与地域。</h1>
+      <p class="home-hero__lead">Esteban Garnica 的艺术实践横跨绘画、摄影、视觉介入与场域项目。</p>
+      <div class="home-actions"><a href="/CHN/obra.html" class="home-button home-button--primary">探索作品</a><a href="/CHN/contacto.html" class="home-button home-button--secondary">提出项目</a></div>
+      <a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-text-link">查看可购作品</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high" decoding="async"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
@@ -61,5 +62,5 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
   <section class="home-section home-about" aria-labelledby="about-artist"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="智利视觉艺术家 Esteban Garnica" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">关于艺术家</p><h2 id="about-artist">Esteban Garnica</h2><p>智利视觉艺术家，1985 年出生于圣地亚哥，毕业于智利大学。他的实践横跨绘画、摄影、城市介入、壁画与社区过程，持续关注地域、记忆、视觉文化与当代生活。</p><div class="home-about__links"><a href="/CHN/garnica.html" class="home-text-link">关于艺术家</a><a href="/CHN/exhibiciones.html" class="home-text-link">经历与展览</a></div></div></section>
 
-  <section class="home-closing" aria-labelledby="commercial-close"><h2 id="commercial-close">正在寻找一件作品，或希望共同发展一个项目？</h2><div class="home-actions"><a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">查看可购作品</a><a href="/CHN/contacto.html" class="home-button home-button--secondary">联系</a></div></section>
+  <section class="home-closing" aria-labelledby="commercial-close"><h2 id="commercial-close">正在寻找一件作品，或希望共同发展一个项目？</h2><div class="home-actions"><a href="/CHN/obra.html" class="home-button home-button--primary">探索作品</a><a href="/CHN/contacto.html" class="home-button home-button--secondary">提出项目</a></div></section>
 </div>
