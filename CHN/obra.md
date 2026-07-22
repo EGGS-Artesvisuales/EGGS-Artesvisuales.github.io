@@ -16,7 +16,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 <link rel="stylesheet" href="/assets/css/obra-index-fixes.css">
 
 <div class="obra-index">
-  <section class="obra-hero" aria-labelledby="obra-title"><div><p class="obra-kicker">策展索引</p><h1 id="obra-title">作品</h1></div><p class="obra-hero__intro">本索引呈现创作的作者性结构：先展示概念轴线，再进入主要系列及其子系列，最后提供完整档案与可购版本的入口。</p></section>
+  <section class="obra-hero" aria-labelledby="obra-title"><div><p class="obra-kicker">策展索引</p><h1 id="obra-title">作品</h1></div><p class="obra-hero__intro"><span class="obra-hero__statement">艺术是一片自由的疆域：一种栖居于世界并在其中存在的方式。</span><span class="obra-hero__orientation">作品在再现、行动与内在经验之间展开。</span></p></section>
 
   <section class="obra-section" aria-labelledby="obra-map"><header class="obra-section__heading"><div><p class="obra-section__eyebrow">作品地图</p><h2 id="obra-map">三个概念轴线</h2></div><p>创作实践由三个互补方向构成：再现世界、在世界中行动，以及探索其内在维度。每个轴线包含相应的类别、系列、项目与过程。</p></header><div class="obra-axes">
     <a href="/CHN/mundo-exterior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="世界的再现" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">01</span><h3>世界的再现</h3><p>风景、地域、档案、视觉文化与当代现象。</p></div></a>
