@@ -1,0 +1,400 @@
+/* Página institucional E.GG.S – Producciones & Art SpA */
+.eggs-company {
+  --eggs-line: rgba(255, 255, 255, 0.16);
+  --eggs-line-strong: rgba(255, 255, 255, 0.3);
+  --eggs-panel: rgba(14, 16, 20, 0.88);
+  --eggs-muted: rgba(255, 255, 255, 0.68);
+  --eggs-accent: var(--site-red, #fc3d21);
+  width: min(1180px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 5.5rem) 0 clamp(4rem, 9vw, 8rem);
+}
+
+.eggs-company * {
+  box-sizing: border-box;
+}
+
+.eggs-company a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+.eggs-company__hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(18rem, 0.95fr);
+  gap: clamp(2rem, 6vw, 5.5rem);
+  align-items: center;
+  padding-bottom: clamp(3.5rem, 7vw, 6.5rem);
+  border-bottom: 1px solid var(--eggs-line-strong);
+}
+
+.eggs-company__eyebrow,
+.eggs-section__eyebrow {
+  margin: 0 0 0.9rem;
+  color: var(--eggs-accent);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.15em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.eggs-company__title {
+  max-width: 12ch;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(3rem, 7vw, 6.6rem);
+  font-weight: 900;
+  letter-spacing: -0.055em;
+  line-height: 0.88;
+}
+
+.eggs-company__lead {
+  max-width: 42rem;
+  margin: clamp(1.4rem, 3vw, 2.2rem) 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  line-height: 1.45;
+}
+
+.eggs-company__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.eggs-company__button {
+  display: inline-flex;
+  min-height: 3.15rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.15rem;
+  border: 1px solid var(--eggs-line-strong);
+  color: #fff;
+  background: rgba(10, 12, 15, 0.76);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.eggs-company__button--primary {
+  border-color: var(--eggs-accent);
+  background: var(--eggs-accent);
+}
+
+.eggs-company__button:hover,
+.eggs-company__button:focus-visible {
+  border-color: #fff;
+  color: #000;
+  background: #fff;
+}
+
+.eggs-company__identity {
+  position: relative;
+  min-height: 25rem;
+  overflow: hidden;
+  border: 1px solid var(--eggs-line);
+  background: #111318;
+}
+
+.eggs-company__identity img {
+  width: 100%;
+  height: 100%;
+  min-height: 25rem;
+  object-fit: cover;
+  opacity: 0.72;
+}
+
+.eggs-company__identity::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.72));
+  pointer-events: none;
+}
+
+.eggs-company__legal {
+  position: absolute;
+  z-index: 1;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.eggs-company__legal div {
+  min-width: 0;
+  padding: 0.9rem;
+  background: rgba(8, 10, 13, 0.88);
+}
+
+.eggs-company__legal dt {
+  margin: 0 0 0.3rem;
+  color: var(--eggs-muted);
+  font-size: 0.63rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.eggs-company__legal dd {
+  margin: 0;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.eggs-section {
+  padding: clamp(3.5rem, 8vw, 7rem) 0 0;
+}
+
+.eggs-section__header {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.75fr) minmax(0, 1.25fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  align-items: start;
+  margin-bottom: clamp(1.75rem, 4vw, 3rem);
+}
+
+.eggs-section__header h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2rem, 4.8vw, 4.6rem);
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.eggs-section__intro {
+  max-width: 50rem;
+  margin: 0;
+  color: var(--eggs-muted);
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.7;
+}
+
+.eggs-capabilities {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  padding: 1px;
+  border: 1px solid var(--eggs-line);
+  background: var(--eggs-line);
+}
+
+.eggs-capability {
+  position: relative;
+  display: flex;
+  min-height: 25rem;
+  min-width: 0;
+  flex-direction: column;
+  color: #fff;
+  background: #111318;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.eggs-capability__media {
+  height: 13rem;
+  overflow: hidden;
+  background: #0c0d10;
+}
+
+.eggs-capability__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.78;
+  transition: opacity 260ms ease, transform 520ms ease;
+}
+
+.eggs-capability__copy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.35rem;
+}
+
+.eggs-capability__number {
+  margin-bottom: 1rem;
+  color: var(--eggs-accent);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+}
+
+.eggs-capability h3 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.08;
+}
+
+.eggs-capability p {
+  margin: 0.85rem 0 0;
+  color: var(--eggs-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.eggs-capability__arrow {
+  margin-top: auto;
+  padding-top: 1.3rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.eggs-capability:hover .eggs-capability__media img,
+.eggs-capability:focus-visible .eggs-capability__media img {
+  opacity: 1;
+  transform: scale(1.035);
+}
+
+.eggs-capability:hover,
+.eggs-capability:focus-visible {
+  background: #1b1e24;
+}
+
+.eggs-process {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  padding: 1px;
+  border: 1px solid var(--eggs-line);
+  background: var(--eggs-line);
+}
+
+.eggs-process__step {
+  min-height: 15rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+  background: var(--eggs-panel);
+}
+
+.eggs-process__step span {
+  display: inline-block;
+  margin-bottom: 2.2rem;
+  color: var(--eggs-accent);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
+.eggs-process__step h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.15;
+}
+
+.eggs-process__step p {
+  margin: 0.75rem 0 0;
+  color: var(--eggs-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.eggs-audiences {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.eggs-audience {
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  border-top: 1px solid var(--eggs-line-strong);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.eggs-audience h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.eggs-audience p {
+  margin: 0.7rem 0 0;
+  color: var(--eggs-muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.eggs-company__closing {
+  margin-top: clamp(4rem, 9vw, 8rem);
+  padding: clamp(2rem, 6vw, 4.5rem);
+  border: 1px solid var(--eggs-line-strong);
+  background:
+    linear-gradient(120deg, rgba(252, 61, 33, 0.14), transparent 48%),
+    #101216;
+}
+
+.eggs-company__closing h2 {
+  max-width: 18ch;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(2rem, 5vw, 4.7rem);
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.eggs-company__closing p {
+  max-width: 48rem;
+  margin: 1.15rem 0 0;
+  color: var(--eggs-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .eggs-company__hero,
+  .eggs-section__header {
+    grid-template-columns: 1fr;
+  }
+
+  .eggs-company__title {
+    max-width: 14ch;
+  }
+
+  .eggs-capabilities {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .eggs-process {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .eggs-company {
+    width: min(100% - 1.25rem, 1180px);
+    padding-top: 2rem;
+  }
+
+  .eggs-company__identity,
+  .eggs-company__identity img {
+    min-height: 21rem;
+  }
+
+  .eggs-company__legal,
+  .eggs-capabilities,
+  .eggs-process,
+  .eggs-audiences {
+    grid-template-columns: 1fr;
+  }
+
+  .eggs-capability {
+    min-height: 0;
+  }
+
+  .eggs-capability__media {
+    height: min(62vw, 18rem);
+  }
+}
