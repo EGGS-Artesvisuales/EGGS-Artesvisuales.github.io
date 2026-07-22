@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Küdaw ka proyecto"
 description: "Esteban Garnica ñi universo creativo: pintura, fotografía, intervención, trafkintuam küdaw ka territorio mew proyecto."
 permalink: /MPD/index.html
 keywords: "Esteban Garnica, EGGS-Studio, pintura, fotografía, intervención, muralismo, küdaw, territorio"
-image: /assets/img/ES-inicio - representacion del mundo.webp
+image: /assets/img/pinf-blds-upg-retr-003b.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -23,7 +23,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
       <div class="home-actions"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">Küdaw ngillan</a><a href="/MPD/obra.html" class="home-button home-button--secondary">Küdaw adkintun</a></div>
       <a href="/MPD/servicios.html" class="home-text-link">Encargo, mural ka cultura proyecto</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="kudaw-muley">
@@ -39,7 +39,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
   <section class="home-section" aria-labelledby="series">
     <header class="home-section__header"><div><p class="home-section__eyebrow">Visual ramtun</p><h2 id="series">Dullin series</h2></div><p class="home-section__intro">Pintura ñi amulnien, paisaje adkintun ka visual cultura mew crítica intervención.</p></header>
     <div class="home-series-grid">
-      <a href="/MPD/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Pinturas Infectadas" loading="lazy"><div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>Pintura organismo, kutxan superficie ka alün antü ñi wiñol az.</p></div></a>
+      <a href="/MPD/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Pinturas Infectadas" loading="lazy"><div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>Pintura organismo, kutxan superficie ka alün antü ñi wiñol az.</p></div></a>
       <a href="/MPD/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Paisajes de Carretera" loading="lazy"><div class="home-series-card__copy"><h3>Paisajes de Carretera</h3><p>Rüpü, lefün ka territorio ñi visual memoria.</p></div></a>
       <a href="/MPD/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"><div class="home-series-card__copy"><h3>Antipublicidad</h3><p>Comercial zugu ñi apropiación, kakülün ka intervención.</p></div></a>
     </div>
