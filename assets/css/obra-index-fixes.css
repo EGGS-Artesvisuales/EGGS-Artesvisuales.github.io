@@ -1,0 +1,33 @@
+/* Correcciones estructurales del índice de obra. */
+
+/* Neutraliza la regla global que fija todos los elementos <header>. */
+.obra-index .obra-section__heading {
+  position: static;
+  z-index: auto;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  box-shadow: none;
+  transition: none;
+}
+
+.obra-index .obra-section__heading > * {
+  min-width: 0;
+}
+
+html[lang="zh-Hans"] .obra-index .obra-hero h1,
+html[lang="zh-Hans"] .obra-index .obra-section__heading h2,
+html[lang="zh-Hans"] .obra-index .obra-series-group h3,
+html[lang="zh-Hans"] .obra-index .obra-series-card h3,
+html[lang="zh-Hans"] .obra-index .obra-available__copy h2,
+html[lang="zh-Hans"] .obra-index .obra-map-card h2,
+html[lang="zh-Hans"] .obra-index .obra-contact h2 {
+  letter-spacing: 0;
+}
+
+html[lang="zh-Hans"] .obra-index .obra-kicker,
+html[lang="zh-Hans"] .obra-index .obra-section__eyebrow,
+html[lang="zh-Hans"] .obra-index .obra-card__level {
+  letter-spacing: 0.08em;
+}
