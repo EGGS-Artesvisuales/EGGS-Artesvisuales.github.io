@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Arte, obra y proyectos"
 description: "Universo creativo de Esteban Garnica: pintura, fotografía, intervención, obra disponible y proyectos culturales desarrollados desde Santiago de Chile."
 permalink: /ES/index.html
 keywords: "Esteban Garnica, EGGS-Studio, artista visual chileno, pintura, fotografía, intervención urbana, obra disponible, muralismo, proyectos culturales"
-image: /assets/img/pinf-blds-upg-retr-003c.jpg
+image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -25,7 +25,7 @@ image: /assets/img/pinf-blds-upg-retr-003c.jpg
     </div>
 
     <figure class="home-hero__media">
-      <img src="/assets/img/pinf-blds-upg-retr-003c.jpg" alt="Obra de Esteban Garnica vinculada a la representación del mundo" fetchpriority="high">
+      <img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Obra de Esteban Garnica vinculada a la representación del mundo" fetchpriority="high">
       <figcaption>Una práctica que cruza pintura, archivo, territorio y cultura visual contemporánea.</figcaption>
     </figure>
   </section>
