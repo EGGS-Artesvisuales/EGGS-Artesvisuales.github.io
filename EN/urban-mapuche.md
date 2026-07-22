@@ -58,3 +58,29 @@ flowchart LR
 <section class="parrafo">
   <p>The work is built from a direct gesture: facing the camera in urban settings where felled trees appear. That wounded ground is not a background but a sign. Mapuche clothing shifts the reading toward identity and territory, body and memory, city and cultural continuity.</p>
 </section>
+
+<div class="button-container">
+  <a href="/EN/images-of-the-ancestors.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Images of the Ancestors" loading="lazy">
+      <p class="title">Images of the Ancestors</p>
+      <p class="subtitle">Return to the conceptual branch.</p>
+    </div>
+  </a>
+
+  <a href="/EN/musoe-open-air.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Musoe Open Air" loading="lazy">
+      <p class="title">Musoe Open Air</p>
+      <p class="subtitle">Mural diptychs (2018–2021).</p>
+    </div>
+  </a>
+
+  <a href="/EN/world-representation.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="World Representation" loading="lazy">
+      <p class="title">World Representation</p>
+      <p class="subtitle">Return to the beginning of the map.</p>
+    </div>
+  </a>
+</div>
