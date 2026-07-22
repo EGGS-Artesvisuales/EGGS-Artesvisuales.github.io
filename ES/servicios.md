@@ -10,11 +10,11 @@ keywords: "servicios artísticos, muralismo, restauración de arte, talleres de 
 <h1 class="titulo">Servicios</h1>
 
 <p class="parrafo">
-  Ofrezco soluciones artísticas y técnicas para proyectos particulares, institucionales, comunitarios y comerciales, combinando experiencia en arte público, restauración, diseño, montaje, docencia y gestión cultural.
+  Esta área reúne prácticas artísticas y técnicas desarrolladas para proyectos particulares, institucionales, comunitarios y comerciales. Integra experiencia en arte público, restauración, diseño, montaje, docencia y gestión cultural.
 </p>
 
 <p class="parrafo">
-  Cada servicio se adapta al contexto, al presupuesto y al objetivo del encargo: una obra para un espacio específico, una restauración, una intervención mural, un montaje, una actividad educativa o una experiencia cultural completa.
+  Cada proyecto se construye a partir de su contexto, escala y propósito: una obra para un espacio específico, una restauración, una intervención mural, un montaje, una actividad educativa o una experiencia cultural integral.
 </p>
 
 <div class="service-cta">
