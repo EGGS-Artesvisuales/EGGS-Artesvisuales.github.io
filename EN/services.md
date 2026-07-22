@@ -10,11 +10,11 @@ keywords: "art services, muralism, art restoration, art workshops, cultural prod
 <h1 class="titulo">Services</h1>
 
 <p class="parrafo">
-  I offer artistic and technical solutions for private, institutional, community and commercial projects, combining experience in public art, restoration, design, installation, teaching and cultural management.
+  This area brings together artistic and technical practices developed for private, institutional, community and commercial projects. It draws on experience in public art, restoration, design, installation, teaching and cultural management.
 </p>
 
 <p class="parrafo">
-  Each service is adapted to context, budget and objective: an artwork for a specific space, a restoration, a mural intervention, an installation, an educational activity or a complete cultural experience.
+  Each project is shaped by its context, scale and purpose: an artwork for a specific space, a restoration, a mural intervention, an installation, an educational activity or an integrated cultural experience.
 </p>
 
 <div class="service-cta">
