@@ -1,0 +1,164 @@
+/* Retícula visual compartida para proyectos y colaboraciones en las portadas. */
+
+.home-editorial .home-projects--visual {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  border: 1px solid var(--home-line);
+  background: var(--home-line);
+}
+
+.home-editorial .home-projects--visual .home-project--visual {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  min-height: 27rem;
+  grid-template-rows: minmax(13rem, 18vw) auto 1fr;
+  align-content: stretch;
+  gap: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: rgba(16, 16, 16, 0.96);
+  text-decoration: none;
+  transition: background-color 180ms ease;
+}
+
+.home-editorial .home-projects--visual .home-project--visual::after {
+  content: "↗";
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 50%;
+  background: rgba(10, 10, 10, 0.54);
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1;
+  backdrop-filter: blur(5px);
+  transition: border-color 180ms ease, background-color 180ms ease, transform 180ms ease;
+}
+
+.home-editorial .home-projects--visual .home-project__image {
+  position: relative;
+  display: block;
+  min-height: 0;
+  overflow: hidden;
+  background: #111;
+}
+
+.home-editorial .home-projects--visual .home-project__image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.04) 45%, rgba(0, 0, 0, 0.42) 100%);
+  pointer-events: none;
+}
+
+.home-editorial .home-projects--visual .home-project__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.88;
+  transition: opacity 260ms ease, transform 520ms ease;
+}
+
+.home-editorial .home-projects--visual .home-project__number {
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  left: 1rem;
+  display: inline-flex;
+  width: auto;
+  margin: 0;
+  padding: 0.48rem 0.62rem;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  background: rgba(10, 10, 10, 0.58);
+  color: var(--home-accent);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  backdrop-filter: blur(5px);
+}
+
+.home-editorial .home-projects--visual .home-project__title {
+  display: block;
+  max-width: 100%;
+  padding: 1.35rem 1.4rem 0;
+  color: var(--home-ink);
+  font-size: clamp(1.35rem, 2.25vw, 2rem);
+  font-weight: 780;
+  line-height: 1.08;
+}
+
+.home-editorial .home-projects--visual .home-project__description {
+  display: block;
+  align-self: end;
+  max-width: 36rem;
+  margin: 0;
+  padding: 0.8rem 1.4rem 1.55rem;
+  color: var(--home-muted);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.home-editorial .home-projects--visual .home-project--visual:hover,
+.home-editorial .home-projects--visual .home-project--visual:focus-visible {
+  z-index: 1;
+  background: rgba(31, 31, 31, 0.99);
+}
+
+.home-editorial .home-projects--visual .home-project--visual:hover .home-project__image img,
+.home-editorial .home-projects--visual .home-project--visual:focus-visible .home-project__image img {
+  opacity: 1;
+  transform: scale(1.035);
+}
+
+.home-editorial .home-projects--visual .home-project--visual:hover::after,
+.home-editorial .home-projects--visual .home-project--visual:focus-visible::after {
+  border-color: var(--home-accent);
+  background: rgba(10, 10, 10, 0.78);
+  transform: translate(0.12rem, -0.12rem);
+}
+
+.home-editorial .home-projects--visual .home-project--visual:hover .home-project__title,
+.home-editorial .home-projects--visual .home-project--visual:focus-visible .home-project__title {
+  color: var(--home-ink);
+}
+
+@media (max-width: 760px) {
+  .home-editorial .home-projects--visual {
+    grid-template-columns: 1fr;
+  }
+
+  .home-editorial .home-projects--visual .home-project--visual {
+    min-height: 0;
+    grid-template-rows: minmax(15rem, 64vw) auto auto;
+  }
+
+  .home-editorial .home-projects--visual .home-project__description {
+    align-self: start;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-editorial .home-projects--visual .home-project--visual {
+    grid-template-rows: minmax(13rem, 68vw) auto auto;
+  }
+
+  .home-editorial .home-projects--visual .home-project__title {
+    padding: 1.2rem 1.2rem 0;
+  }
+
+  .home-editorial .home-projects--visual .home-project__description {
+    padding: 0.7rem 1.2rem 1.35rem;
+  }
+}
