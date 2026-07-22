@@ -1,6 +1,6 @@
 /* Ajuste compartido para la sección Mapa de obra en ES, EN, MPD y CHN. */
 
-.home-editorial .home-section--axes .home-section__header {
+.home-editorial .home-section:has(> .home-axes) .home-section__header {
   position: static;
   z-index: auto;
   display: grid;
@@ -16,57 +16,57 @@
   transition: none;
 }
 
-.home-editorial .home-section--axes .home-section__header > * {
+.home-editorial .home-section:has(> .home-axes) .home-section__header > * {
   min-width: 0;
 }
 
-.home-editorial .home-section--axes .home-section__header h2 {
+.home-editorial .home-section:has(> .home-axes) .home-section__header h2 {
   max-width: 13ch;
   font-size: clamp(2.3rem, 4.15vw, 4rem);
   line-height: 0.98;
   letter-spacing: -0.04em;
 }
 
-.home-editorial .home-section--axes .home-section__intro {
+.home-editorial .home-section:has(> .home-axes) .home-section__intro {
   align-self: end;
   max-width: 44rem;
   padding-bottom: 0.15rem;
 }
 
-.home-editorial .home-section--axes .home-axes {
+.home-editorial .home-section:has(> .home-axes) .home-axes {
   position: relative;
   z-index: 1;
 }
 
 @media (max-width: 900px) {
-  .home-editorial .home-section--axes .home-section__header {
+  .home-editorial .home-section:has(> .home-axes) .home-section__header {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     align-items: start;
     margin-bottom: 2.25rem;
   }
 
-  .home-editorial .home-section--axes .home-section__header h2 {
+  .home-editorial .home-section:has(> .home-axes) .home-section__header h2 {
     max-width: 16ch;
   }
 
-  .home-editorial .home-section--axes .home-section__intro {
+  .home-editorial .home-section:has(> .home-axes) .home-section__intro {
     align-self: auto;
     padding-bottom: 0;
   }
 }
 
 @media (max-width: 560px) {
-  .home-editorial .home-section--axes .home-section__header {
+  .home-editorial .home-section:has(> .home-axes) .home-section__header {
     margin-bottom: 1.9rem;
   }
 
-  .home-editorial .home-section--axes .home-section__header h2 {
+  .home-editorial .home-section:has(> .home-axes) .home-section__header h2 {
     max-width: 100%;
     font-size: clamp(2.15rem, 11vw, 3.4rem);
   }
 }
 
-html[lang="zh-Hans"] .home-editorial .home-section--axes .home-section__header h2 {
+html[lang="zh-Hans"] .home-editorial .home-section:has(> .home-axes) .home-section__header h2 {
   letter-spacing: 0;
 }
