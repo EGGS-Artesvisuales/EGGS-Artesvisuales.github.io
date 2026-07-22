@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Arte, obra y proyectos"
 description: "Universo creativo de Esteban Garnica: pintura, fotografía, intervención, obra disponible y proyectos culturales desarrollados desde Santiago de Chile."
 permalink: /ES/index.html
 keywords: "Esteban Garnica, EGGS-Studio, artista visual chileno, pintura, fotografía, intervención urbana, obra disponible, muralismo, proyectos culturales"
-image: /assets/img/ES-inicio - representacion del mundo.webp
+image: /assets/img/pinf-blds-upg-retr-003b.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -28,7 +28,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
     </div>
 
     <figure class="home-hero__media">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Obra de Esteban Garnica vinculada a la representación del mundo" fetchpriority="high">
+      <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Obra de Esteban Garnica vinculada a la representación del mundo" fetchpriority="high">
       <figcaption>Una práctica que cruza pintura, archivo, territorio y cultura visual contemporánea.</figcaption>
     </figure>
   </section>
@@ -115,7 +115,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
 
     <div class="home-series-grid">
       <a href="/ES/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main">
-        <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Serie Pinturas Infectadas" loading="lazy">
+        <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Serie Pinturas Infectadas" loading="lazy">
         <div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>La pintura como organismo, superficie vulnerable y sistema en transformación.</p></div>
       </a>
       <a href="/ES/serie-paisajes-carretera.html" class="home-series-card">
