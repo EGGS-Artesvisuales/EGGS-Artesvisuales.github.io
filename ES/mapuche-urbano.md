@@ -214,7 +214,7 @@ flowchart LR
 
   <a href="/ES/mundo-exterior.html" class="fancy-button">
     <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Representación del Mundo" loading="lazy">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Representación del Mundo" loading="lazy">
       <p class="title">Representación del Mundo</p>
       <p class="subtitle">Volver al inicio del mapa.</p>
     </div>
