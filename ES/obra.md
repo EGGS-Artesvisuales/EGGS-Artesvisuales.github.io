@@ -17,15 +17,15 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 
 <div class="obra-index">
   <section class="obra-hero" aria-labelledby="obra-title">
-    <div><p class="obra-kicker">Índice curatorial</p><h1 id="obra-title">Obra</h1></div>
-    <p class="obra-hero__intro"><span class="obra-hero__statement">El arte como territorio libre: una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">La obra se despliega entre representación, acción y experiencia interior.</span></p>
+    <div><p class="obra-kicker">Índice curatorial</p><h1 id="obra-title">OBRA</h1></div>
+    <p class="obra-hero__intro"><span class="obra-hero__statement">una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">La obra se despliega en la relacion con el mundo; entre representación, acción y experiencia interior.</span></p>
   </section>
 
   <section class="obra-section" aria-labelledby="mapa-obra">
-    <header class="obra-section__heading"><div><p class="obra-section__eyebrow">Mapa de obra</p><h2 id="mapa-obra">Tres ejes conceptuales</h2></div><p>La práctica se organiza en tres movimientos complementarios: representar el mundo, actuar en él y explorar su dimensión interior. Cada eje contiene categorías, series, proyectos y procesos específicos.</p></header>
+    <header class="obra-section__heading"><div><p class="obra-section__eyebrow">Mapa de obra</p><h2 id="mapa-obra">Tres ejes conceptuales</h2></div><p>La práctica se organiza en tres movimientos complementarios: representar el mundo, actuar en él y la dimensión interior. Cada eje contiene categorías, series, proyectos y procesos específicos.</p></header>
     <div class="obra-axes">
-      <a href="/ES/mundo-exterior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Representación del mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">01</span><h3>Representación del mundo</h3><p>Paisaje, territorio, archivo, cultura visual y fenómenos contemporáneos.</p></div></a>
-      <a href="/ES/accion.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Acción en el mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">02</span><h3>Acción en el mundo</h3><p>Intervención urbana, comunidad, colaboración, docencia y espacio público.</p></div></a>
+      <a href="/ES/mundo-exterior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Representación del mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">01</span><h3>Representación del mundo</h3><p>Paisaje, territorio, cultura visual y fenómenos contemporáneos.</p></div></a>
+      <a href="/ES/accion.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Acción en el mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">02</span><h3>Acción en el mundo</h3><p>Intervención urbana, comunidad, colaboración y espacio público.</p></div></a>
       <a href="/ES/interior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Mundo interior" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">03</span><h3>Mundo interior</h3><p>Cuerpo, memoria, rito, imaginación, psicología y espiritualidad.</p></div></a>
     </div>
     <a href="/ES/diagrama.html" class="obra-section__link">Explorar el mapa completo de la obra</a>
