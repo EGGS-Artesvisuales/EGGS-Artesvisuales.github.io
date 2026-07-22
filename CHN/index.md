@@ -12,6 +12,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
+<link rel="stylesheet" href="/assets/css/home-project-images.css">
 
 {% assign producto_paisaje = site.productos_chn | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
 {% assign producto_bandera = site.productos_chn | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
@@ -39,15 +40,11 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <div class="home-section__footer"><a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-text-link">查看全部可购作品</a></div>
   </section>
 
-  <section class="home-section" aria-labelledby="selected-series">
-    <header class="home-section__header"><div><p class="home-section__eyebrow">视觉研究</p><h2 id="selected-series">精选系列</h2></div><p class="home-section__intro">从扩展绘画、被观察的风景以及对视觉文化的批判性介入进入作品体系。</p></header>
-    <div class="home-series-grid">
-      <a href="/CHN/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="感染的绘画系列" loading="lazy"><div class="home-series-card__copy"><h3>感染的绘画</h3><p>绘画作为有机体、脆弱表面与持续变化的系统。</p></div></a>
-      <a href="/CHN/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="公路风景系列" loading="lazy"><div class="home-series-card__copy"><h3>公路风景</h3><p>移动、速度与地域的视觉记忆。</p></div></a>
-      <a href="/CHN/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="反广告系列" loading="lazy"><div class="home-series-card__copy"><h3>反广告</h3><p>对商业信息的挪用、偏移与介入。</p></div></a>
-    </div>
-    <div class="home-section__footer"><a href="/CHN/obra.html" class="home-text-link">查看全部系列</a></div>
-  </section>
+  <section class="home-section" aria-labelledby="selected-series"><header class="home-section__header"><div><p class="home-section__eyebrow">视觉研究</p><h2 id="selected-series">精选系列</h2></div><p class="home-section__intro">从扩展绘画、被观察的风景以及对视觉文化的批判性介入进入作品体系。</p></header><div class="home-series-grid">
+    <a href="/CHN/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="感染的绘画系列" loading="lazy"><div class="home-series-card__copy"><h3>感染的绘画</h3><p>绘画作为有机体、脆弱表面与持续变化的系统。</p></div></a>
+    <a href="/CHN/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="公路风景系列" loading="lazy"><div class="home-series-card__copy"><h3>公路风景</h3><p>移动、速度与地域的视觉记忆。</p></div></a>
+    <a href="/CHN/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="反广告系列" loading="lazy"><div class="home-series-card__copy"><h3>反广告</h3><p>对商业信息的挪用、偏移与介入。</p></div></a>
+  </div><div class="home-section__footer"><a href="/CHN/obra.html" class="home-text-link">查看全部系列</a></div></section>
 
   <section class="home-section" aria-labelledby="work-axes"><header class="home-section__header"><div><p class="home-section__eyebrow">策展地图</p><h2 id="work-axes">三个作品轴线</h2></div><p class="home-section__intro">艺术实践由三个互补方向构成：观察世界、介入世界，以及探索其内在回响。</p></header><div class="home-axes">
     <a href="/CHN/mundo-exterior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="世界的再现" loading="lazy"></div><div class="home-axis__copy"><h3>世界的再现</h3><p>风景、物件、视觉文化与当代现象。</p></div></a>
@@ -55,11 +52,11 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <a href="/CHN/interior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="内在世界" loading="lazy"></div><div class="home-axis__copy"><h3>内在世界</h3><p>身体、记忆、仪式、想象与内省过程。</p></div></a>
   </div></section>
 
-  <section class="home-section" aria-labelledby="projects-collaboration"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">应用艺术与地域</p><h2 id="projects-collaboration">项目与合作</h2></div><p>面向公共空间、机构、社区、团队与私人收藏的视觉项目。</p></header><div class="home-projects">
-    <a href="/CHN/servicios.html#encargos" class="home-project"><span class="home-project__number">01</span><span class="home-project__title">壁画</span><span class="home-project__description">场域特定作品、身份与空间转化。</span></a>
-    <a href="/CHN/servicios.html#talleres" class="home-project"><span class="home-project__number">02</span><span class="home-project__title">工作坊</span><span class="home-project__description">教学、艺术调解与创作体验。</span></a>
-    <a href="/CHN/servicios.html#restauracion" class="home-project"><span class="home-project__number">03</span><span class="home-project__title">修复</span><span class="home-project__description">材料与视觉层面的保存和恢复。</span></a>
-    <a href="/CHN/comunitario.html" class="home-project"><span class="home-project__number">04</span><span class="home-project__title">社区项目</span><span class="home-project__description">与地域相连的协作过程。</span></a>
+  <section class="home-section" aria-labelledby="projects-collaboration"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">应用艺术与地域</p><h2 id="projects-collaboration">项目与合作</h2></div><p>面向公共空间、机构、社区、团队与私人收藏的视觉项目。</p></header><div class="home-projects home-projects--visual">
+    <a href="/CHN/servicios.html#encargos" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-muralismo-colectivo.webp" alt="协作壁画项目" loading="lazy"></span><span class="home-project__number">01</span><span class="home-project__title">壁画</span><span class="home-project__description">场域特定作品、身份与空间转化。</span></a>
+    <a href="/CHN/servicios.html#talleres" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="艺术工作坊与调解体验" loading="lazy"></span><span class="home-project__number">02</span><span class="home-project__title">工作坊</span><span class="home-project__description">教学、艺术调解与创作体验。</span></a>
+    <a href="/CHN/servicios.html#restauracion" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/restauracion-boton.webp" alt="修复与保护过程" loading="lazy"></span><span class="home-project__number">03</span><span class="home-project__title">修复</span><span class="home-project__description">材料与视觉层面的保存和恢复。</span></a>
+    <a href="/CHN/comunitario.html" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-museos-cielo-abierto.webp" alt="公共空间中的社区艺术项目" loading="lazy"></span><span class="home-project__number">04</span><span class="home-project__title">社区项目</span><span class="home-project__description">与地域相连的协作过程。</span></a>
   </div><a href="/CHN/servicios.html" class="home-text-link">探索服务与合作</a></div></section>
 
   <section class="home-section home-about" aria-labelledby="about-artist"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="智利视觉艺术家 Esteban Garnica" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">关于艺术家</p><h2 id="about-artist">Esteban Garnica</h2><p>智利视觉艺术家，1985 年出生于圣地亚哥，毕业于智利大学。他的实践横跨绘画、摄影、城市介入、壁画与社区过程，持续关注地域、记忆、视觉文化与当代生活。</p><div class="home-about__links"><a href="/CHN/garnica.html" class="home-text-link">关于艺术家</a><a href="/CHN/exhibiciones.html" class="home-text-link">经历与展览</a></div></div></section>
