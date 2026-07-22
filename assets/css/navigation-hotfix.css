@@ -1,0 +1,96 @@
+/* ------------------------------------------------------------------
+   NAVIGATION HOTFIX
+   Restaura la geometria original de la barra y los submenus despues de
+   responsive-fixes.css, sin afectar las correcciones del contenido.
+------------------------------------------------------------------ */
+
+.nav-menu,
+.nav-menu > li,
+.nav-menu > li > a,
+.nav-lang-switch {
+  max-width: none;
+}
+
+.nav-menu > li > a {
+  white-space: nowrap;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
+.dropdown-menu,
+.dropdown-menu-sub {
+  min-width: 15rem;
+  width: max-content;
+  max-width: min(22rem, calc(100vw - 2rem));
+}
+
+.dropdown-menu a,
+.dropdown-menu-sub a {
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  line-height: 1.25;
+}
+
+@media (min-width: 902px) {
+  .nav-menu {
+    flex-wrap: nowrap;
+  }
+
+  .nav-menu > li {
+    flex: 0 1 auto;
+  }
+
+  .nav-lang-switch {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 901px) {
+  :root {
+    --header-h: 3.8rem;
+  }
+
+  .navbar {
+    min-height: var(--header-h);
+    padding: 0 0.85rem;
+  }
+
+  .nav-menu {
+    top: var(--header-h);
+    max-height: calc(100dvh - var(--header-h));
+    padding: 0;
+  }
+
+  .nav-menu > li,
+  .nav-menu > li > a,
+  .dropdown-menu,
+  .dropdown-menu-sub,
+  .dropdown-menu a,
+  .dropdown-menu-sub a,
+  .nav-lang-switch {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .nav-menu > li > a {
+    white-space: normal;
+    overflow-wrap: break-word !important;
+  }
+
+  .dropdown-menu,
+  .dropdown-menu-sub {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .dropdown-sub > .dropdown-menu-sub {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .nav-lang-switch {
+    padding: 1rem;
+  }
+}
