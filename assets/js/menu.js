@@ -211,3 +211,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }));
   });
 });
+
+// Mantiene una imagen canónica para todos los fotobotones del eje
+// Representación del Mundo, independientemente del idioma de la página.
+document.addEventListener("DOMContentLoaded", () => {
+  const worldRepresentationImage = "/assets/img/ES-inicio - representacion del mundo.webp";
+  const selectors = [
+    '.fancy-button[href$="/mundo-exterior.html"] img',
+    '.fancy-button[href$="/world-representation.html"] img'
+  ];
+
+  document.querySelectorAll(selectors.join(", ")).forEach(image => {
+    if (image.getAttribute("src") !== worldRepresentationImage) {
+      image.setAttribute("src", worldRepresentationImage);
+    }
+  });
+});
