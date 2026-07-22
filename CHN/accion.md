@@ -25,8 +25,6 @@ flowchart LR
 
   C --> C1([社区])
   C --> C2([鬼鬼祟祟的])
-  C --> C3([教学和研讨会])
-  C --> C4([服务])
 
   %% Clicks (所有可点击的节点)
   click A "/CHN/index.html" "前往艺术活动"
@@ -36,8 +34,6 @@ flowchart LR
 
   click C1 "/CHN/comunitario.html" "前往社区"
   click C2 "/CHN/subrepticio.html" "前往隐秘之地"
-  click C3 "/CHN/docencia.html" "前往教学和研讨会"
-  click C4 "/CHN/servicios.html" "前往服务"
 </div>
 
 <br>
