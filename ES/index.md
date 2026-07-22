@@ -18,7 +18,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <div class="home-hero__copy">
       <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
       <h1 id="home-title" class="home-hero__title">Pintura, imagen y territorio.</h1>
-      <p class="home-hero__lead">Obra de Esteban Garnica entre pintura, fotografía, intervención y proyectos situados.</p>
+      <p class="home-hero__lead">Universo creativo de Esteban Garnica entre pintura, fotografía, intervención y proyectos situados.</p>
       <div class="home-actions" aria-label="Acciones principales">
         <a href="/ES/obra.html" class="home-button home-button--primary">Explorar obra</a>
         <a href="/ES/contacto.html" class="home-button home-button--secondary">Proponer un proyecto</a>
@@ -36,7 +36,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <header class="home-section__header">
       <div>
         <p class="home-section__eyebrow">Mapa de obra</p>
-        <h2 id="ejes-obra">Tres ejes de obra</h2>
+        <h2 id="ejes-obra">Tres ejes de actividad artística</h2>
       </div>
       <p class="home-section__intro">La práctica se organiza en tres movimientos complementarios: observar el mundo, actuar en él y explorar su resonancia interior.</p>
     </header>
