@@ -115,31 +115,6 @@
   color: rgba(255, 255, 255, 0.86);
 }
 
-/* El penultimo elemento es Contacto/Contact/Nütram/联系; el selector de idioma es el ultimo. */
-@media (min-width: 902px) {
-  .nav-menu > li:nth-last-child(2) > a {
-    margin: 0.24rem 0.35rem 0.24rem 0;
-    padding: 0.34rem 0.78rem;
-    border: 1px solid rgba(248, 153, 0, 0.68);
-    border-radius: 0.3rem;
-    color: #fff;
-    background: rgba(248, 153, 0, 0.1);
-    font-weight: 700;
-  }
-
-  .nav-menu > li:nth-last-child(2) > a:hover,
-  .nav-menu > li:nth-last-child(2) > a:focus-visible {
-    border-color: #f89900;
-    background: #f89900;
-    color: #151515;
-    transform: none;
-  }
-
-  .nav-menu > li:nth-last-child(2) > a::after {
-    display: none;
-  }
-}
-
 @media (max-width: 901px) {
   .home-hero {
     grid-template-columns: 1fr;
