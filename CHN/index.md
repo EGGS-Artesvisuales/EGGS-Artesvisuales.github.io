@@ -8,7 +8,7 @@ es_url: /ES/index.html
 en_url: /EN/index.html
 mpd_url: /MPD/index.html
 keywords: "Esteban Garnica, EGGS-Studio, 智利艺术家, 绘画, 摄影, 城市介入, 可购艺术品, 壁画, 文化项目"
-image: /assets/img/pinf-blds-upg-retr-003c.jpg
+image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -26,7 +26,7 @@ image: /assets/img/pinf-blds-upg-retr-003c.jpg
       <div class="home-actions"><a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">购买作品</a><a href="/CHN/obra.html" class="home-button home-button--secondary">探索作品</a></div>
       <a href="/CHN/servicios.html" class="home-text-link">委托、壁画与文化项目</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003c.jpg" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
