@@ -10,6 +10,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
 <link rel="stylesheet" href="/assets/css/home-es-refinement.css">
+<link rel="stylesheet" href="/assets/css/home-project-images.css">
 
 <div class="home-editorial">
   <section class="home-hero" aria-labelledby="home-title">
@@ -65,11 +66,11 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
         <p>Prácticas aplicadas desarrolladas en relación con espacios, instituciones, comunidades y colecciones, manteniendo continuidad con la investigación artística.</p>
       </header>
 
-      <div class="home-projects home-projects--applied">
-        <a href="/ES/servicios.html#encargos" class="home-project"><span class="home-project__number">01</span><span class="home-project__title">Murales</span><span class="home-project__description">Obra situada, identidad y transformación de espacios.</span></a>
-        <a href="/ES/servicios.html#talleres" class="home-project"><span class="home-project__number">02</span><span class="home-project__title">Talleres</span><span class="home-project__description">Formación, mediación y experiencias creativas.</span></a>
-        <a href="/ES/servicios.html#restauracion" class="home-project"><span class="home-project__number">03</span><span class="home-project__title">Restauración</span><span class="home-project__description">Conservación y recuperación material y visual.</span></a>
-        <a href="/ES/comunitario.html" class="home-project"><span class="home-project__number">04</span><span class="home-project__title">Proyectos comunitarios</span><span class="home-project__description">Procesos colaborativos vinculados al territorio.</span></a>
+      <div class="home-projects home-projects--applied home-projects--visual">
+        <a href="/ES/servicios.html#encargos" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-muralismo-colectivo.webp" alt="Proyecto mural colaborativo" loading="lazy"></span><span class="home-project__number">01</span><span class="home-project__title">Murales</span><span class="home-project__description">Obra situada, identidad y transformación de espacios.</span></a>
+        <a href="/ES/servicios.html#talleres" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Taller artístico y experiencia de mediación" loading="lazy"></span><span class="home-project__number">02</span><span class="home-project__title">Talleres</span><span class="home-project__description">Formación, mediación y experiencias creativas.</span></a>
+        <a href="/ES/servicios.html#restauracion" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/restauracion-boton.webp" alt="Proceso de restauración y conservación" loading="lazy"></span><span class="home-project__number">03</span><span class="home-project__title">Restauración</span><span class="home-project__description">Conservación y recuperación material y visual.</span></a>
+        <a href="/ES/comunitario.html" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-museos-cielo-abierto.webp" alt="Proyecto artístico comunitario en territorio" loading="lazy"></span><span class="home-project__number">04</span><span class="home-project__title">Proyectos comunitarios</span><span class="home-project__description">Procesos colaborativos vinculados al territorio.</span></a>
       </div>
 
       <a href="/ES/servicios.html" class="home-text-link">Explorar servicios y colaboraciones</a>
