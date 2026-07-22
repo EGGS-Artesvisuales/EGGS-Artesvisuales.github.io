@@ -20,8 +20,6 @@ flowchart LR
 
   C --> C1([Lo Comunitario])
   C --> C2([Lo Subrepticio])
-  C --> C3([Docencia y Talleres])
-  C --> C4([Servicios])
 
   %% Clicks (todos los nodos clickeables)
   click A "/ES/index.html" "Ir a Actividad artística"
@@ -31,8 +29,6 @@ flowchart LR
 
   click C1 "/ES/comunitario.html" "Ir a Lo Comunitario"
   click C2 "/ES/subrepticio.html" "Ir a Lo Subrepticio"
-  click C3 "/ES/docencia.html" "Ir a Docencia y Talleres"
-  click C4 "/ES/servicios.html" "Ir a Servicios"
 </div>
 
 <br>
