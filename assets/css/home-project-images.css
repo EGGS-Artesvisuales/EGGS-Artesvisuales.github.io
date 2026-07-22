@@ -1,5 +1,13 @@
-/* Retícula visual compartida para proyectos y colaboraciones en las portadas. */
+/* Ajustes compartidos para las portadas. */
 
+/* El hero no debe quedar centrado dentro de una altura artificial. */
+.home-editorial .home-hero {
+  min-height: auto;
+  padding-top: clamp(2.5rem, 4.5vw, 4.5rem);
+  padding-bottom: clamp(3.5rem, 6vw, 5rem);
+}
+
+/* Retícula visual compartida para proyectos y colaboraciones en las portadas. */
 .home-editorial .home-projects--visual {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -135,6 +143,10 @@
 }
 
 @media (max-width: 760px) {
+  .home-editorial .home-hero {
+    padding: 2rem 0 3.5rem;
+  }
+
   .home-editorial .home-projects--visual {
     grid-template-columns: 1fr;
   }
