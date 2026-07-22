@@ -33,20 +33,36 @@
   line-height: 1.25;
 }
 
-/* Barra horizontal siempre visible durante el scroll. */
+/* Navegacion siempre visible. Al desplazarse adopta transparencia editorial. */
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10020;
   isolation: isolate;
   transform: none !important;
   background: var(--color-fondo-secundario, #333);
+  border-bottom: 1px solid transparent;
   box-shadow: 0 0.15rem 0.6rem rgba(0, 0, 0, 0.24);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    backdrop-filter 180ms ease;
+}
+
+.navbar.navbar--scrolled {
+  background: rgba(34, 34, 34, 0.8);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(14px) saturate(118%);
+  backdrop-filter: blur(14px) saturate(118%);
 }
 
 @media (min-width: 902px) {
   .nav-menu {
     flex-wrap: nowrap;
+    transition: background-color 180ms ease, backdrop-filter 180ms ease;
   }
 
   .nav-menu > li {
@@ -55,6 +71,12 @@
 
   .nav-lang-switch {
     margin-left: auto;
+  }
+
+  .navbar.navbar--scrolled .nav-menu {
+    background: rgba(51, 51, 51, 0.76);
+    -webkit-backdrop-filter: blur(14px) saturate(118%);
+    backdrop-filter: blur(14px) saturate(118%);
   }
 }
 
@@ -68,10 +90,25 @@
     padding: 0 0.85rem;
   }
 
+  .navbar.navbar--scrolled {
+    background: rgba(34, 34, 34, 0.76);
+  }
+
+  .navbar.navbar--scrolled .nav-toggle {
+    border-radius: 0.45rem;
+    background: rgba(0, 0, 0, 0.12);
+  }
+
   .nav-menu {
     top: var(--header-h);
     max-height: calc(100dvh - var(--header-h));
     padding: 0;
+  }
+
+  .navbar.navbar--scrolled .nav-menu.active {
+    background: rgba(52, 52, 52, 0.95);
+    -webkit-backdrop-filter: blur(18px) saturate(115%);
+    backdrop-filter: blur(18px) saturate(115%);
   }
 
   .nav-menu > li,
@@ -164,5 +201,12 @@
     color: #fff;
     background: rgba(248, 153, 0, 0.14);
     box-shadow: inset 0 0 0 1px rgba(248, 153, 0, 0.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar,
+  .nav-menu {
+    transition: none !important;
   }
 }
