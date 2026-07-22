@@ -20,8 +20,6 @@ flowchart LR
 
   C --> C1([Community])
   C --> C2([Subreptitious])
-  C --> C3([Teaching])
-  C --> C4([Services])
 
   click A "/EN/index.html" "Go to Artistic Practice"
   click B "/EN/world-representation.html" "Go to Representation of the World"
@@ -30,8 +28,6 @@ flowchart LR
 
   click C1 "/EN/community.html" "Go to Community"
   click C2 "/EN/subreptitious.html" "Go to Subreptitious"
-  click C3 "/EN/teaching.html" "Go to Teaching"
-  click C4 "/EN/services.html" "Go to Services"
 </div>
 
 <br>
