@@ -1,162 +1,86 @@
 ---
 layout: default-mpd
-title: "Kellun – EGGS-Studio"
-description: "EGGS-Studio ñi profesional kellun: küme dewün, küdaw ngütram, montaje, kimün producción ka azentun solución."
-keywords: "az-küdaw kellun, EGGS-Studio, küme dewün az-küdaw, az-küdaw ngütram, montaje ka ambientación, kimün dewman, Esteban Garnica"
+lang: arn
+title: "E.GG.S – Az-küdaw producción ka kimün gestión"
+description: "E.GG.S – Producciones & Art SpA txawüley az-küdaw, küme dewün, montaje, kimeltun ka kimün producción pu che, institución ka lof küdaw mew."
+keywords: "E.GG.S Producciones Art SpA, az-küdaw producción, kimün gestión, muralismo, restauración, montaje, kimeltun, lof küdaw, Esteban Garnica"
 permalink: /MPD/eggs.html
-carousel: true
+es_url: /ES/eggs.html
+en_url: /EN/eggs.html
+zh_url: /CHN/eggs.html
+image: /assets/img/eggs-empresagif.webp
 ---
 
-<!-- Wünen üy -->
-<h1 class="titulo">E.GG.S – Producciones & Art SpA</h1>
-<h2 class="subtitulo">Profesional kellun az-küdaw, kimün ka mapu mew</h2>
+<link rel="stylesheet" href="/assets/css/eggs-company.css">
 
-<!-- Kimel nütram -->
-<p class="parrafo" style="margin-top:6%;">
-  <strong>E.GG.S – Producciones &amp; Art SpA</strong> müley chileno empresa (RUT: 77.973.201-0) ñi txawün az-küdaw, teknologia ka kimün gestión, kake escala küdaw kellual. Esteban Garnica Sánchez az-küdawfe ñi dewman, ñi zugu müley az-küdaw kimün elun pu lof, institución ka pu che ñi püle zugu niechi akumtun mew.
-</p>
-
-<p class="parrafo">
-  Iñchiñ rakizuam: az-küdaw elugey akumtun newen. Waria püle newentuy, mapu az che yafümtuy ka kimün acceso fütalkey. Fey mew kiñeke küdaw dewmangey inakintun mew, allkütugey pu koneltufe ka yamuwün niey püle ñi contexto.
-</p>
-
-<p class="parrafo">
-  Muralismo, küme dewün, kimün dewman ka kimeltun mew txawüchi kimün elugey fill necesidad mew küdaw: patrimonio wiñol dewman, ngen küdaw dewman, escenografía diseño, multimedia contenido ka digital herramienta az-küdaw mew.
-</p>
-
-<p class="parrafo">
-  Mi ayüle kelluwün, küdaw amulnieal kam kiñe idea kintual, iñchiw dewmayay propuesta tami realidad, tiempo ka recurso mew adattulu.
-</p>
-
-<!-- Nütram mew mütrümün -->
-<p class="parrafo" style="margin-top:4%;">
-  <strong>Nütramkayu chumgechi az-küdaw tami küdaw kellual.</strong><br>
-  Wirintuku: <a href="mailto:hola@eggs-studio.cl">hola@eggs-studio.cl</a>
-</p>
-
-<!-- Carrusel ñi pichi üy -->
-<h2 class="subtitulo" style="margin-top:4%;">Iñchiñ ñi kellun especializado</h2>
-
-<!-- Kellun carrusel -->
-<div class="owl-carousel">
-  <!-- Kellun 1: kimün eventos ñi dewman ka organización -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Kimün eventos ñi dewman ka organización" loading="lazy">
-        <p class="title">Kimün evento producción ka organización</p>
-        <p class="subtitle">Diseño, coordinación ka kimün rüpü acompañamiento.</p>
+<main class="eggs-company">
+  <section class="eggs-company__hero" aria-labelledby="eggs-title">
+    <div>
+      <p class="eggs-company__eyebrow">Producción ka gestión ñi estructura</p>
+      <h1 id="eggs-title" class="eggs-company__title">E.GG.S – Producciones &amp; Art SpA</h1>
+      <p class="eggs-company__lead">Kiñe küdaw plataforma ñi txawün az-küdaw práctica, técnica producción ka kimün gestión, fey mew dewmangey küdaw ñi küme zugu, amulelu ka ñi contexto egu txürülu.</p>
+      <div class="eggs-company__actions" aria-label="Wünen rüpü">
+        <a class="eggs-company__button eggs-company__button--primary" href="/MPD/servicios.html">Kellun adkintun</a>
+        <a class="eggs-company__button" href="/MPD/contacto.html">Proyecto nütramün</a>
       </div>
-    </a>
-  </div>
+    </div>
 
-  <!-- Kellun 2: Küme dewün ka patrimonio inakintun -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/restauracion-boton.webp" alt="Küme dewün ka patrimonio inakintun" loading="lazy">
-        <p class="title">Küme dewün ka patrimonio inakintun</p>
-        <p class="subtitle">Az-küdaw eluwün ka chemkün inakintuyiñ técnica ka yamuwün mew.</p>
-      </div>
-    </a>
-  </div>
+    <div class="eggs-company__identity">
+      <img src="/assets/img/eggs-empresagif.webp" alt="E.GG.S az-küdaw ka kimün producción" loading="eager">
+      <dl class="eggs-company__legal">
+        <div><dt>Legal üy</dt><dd>E.GG.S – Producciones &amp; Art SpA</dd></div>
+        <div><dt>RUT</dt><dd>77.973.201-0</dd></div>
+        <div><dt>Püle</dt><dd>Chile</dd></div>
+        <div><dt>Az-küdaw dirección</dt><dd>Esteban Garnica Sánchez</dd></div>
+      </dl>
+    </div>
+  </section>
 
-  <!-- Kellun 3: Muralismo ka waria az-küdaw -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo ka waria az-küdaw" loading="lazy">
-        <p class="title">Muralismo ka waria az-küdaw</p>
-        <p class="subtitle">Mural koneltun fütra che mew, lof mew ka privado püle mew.</p>
-      </div>
-    </a>
-  </div>
+  <section class="eggs-section" aria-labelledby="eggs-chem">
+    <header class="eggs-section__header">
+      <div><p class="eggs-section__eyebrow">Identidad</p><h2 id="eggs-chem">Chem txawüley E.GG.S mew</h2></div>
+      <p class="eggs-section__intro">E.GG.S müley profesional estructura ñi amulnieal az-küdaw investigación encargos, intervenciones, küme dewün, montaje, kimeltun ka kimün küdaw püle. Fill propuesta ñi propósito, escala, mapu, pu koneltufe, recurso ka producción ñi felen mew adkintugey.</p>
+    </header>
+  </section>
 
-  <!-- Kellun 4: Escenografía ka mobiliario diseño -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Escenografía ka az-küdaw mobiliario diseño" loading="lazy">
-        <p class="title">Escenografía ka az-küdaw mobiliario diseño</p>
-        <p class="subtitle">Püle ka chemkün ñi acompañar escena ka exhibición nütram.</p>
-      </div>
-    </a>
-  </div>
+  <section class="eggs-section" aria-labelledby="kudaw-pule">
+    <header class="eggs-section__header">
+      <div><p class="eggs-section__eyebrow">Kellun</p><h2 id="kudaw-pule">Küdaw ñi püle</h2></div>
+      <p class="eggs-section__intro">Fill kellun kiñeke proyecto mew txawüley. Feychi zugu mütenon producto mülelay, welu az-küdaw ka técnica respuesta küme dewmal ñi herramienta.</p>
+    </header>
 
-  <!-- Kellun 5: Kimeltun ka az-küdaw taller -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/boton-docencia.webp" alt="Kimeltun ka az-küdaw taller" loading="lazy">
-        <p class="title">Kimeltun ka az-küdaw taller</p>
-        <p class="subtitle">Az-küdaw, muralismo ka dewman rüpü kimeltun programas.</p>
-      </div>
-    </a>
-  </div>
+    <div class="eggs-capabilities">
+      <a class="eggs-capability" href="/MPD/servicios.html#encargos"><span class="eggs-capability__media"><img src="/assets/img/boton-muralismo-colectivo.webp" alt="Muralismo ka fütra che mew az-küdaw" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">01</span><h3>Fütra che mew az-küdaw ka muralismo</h3><p>Mapu egu txürüchi küdaw, azentun koneltun ka mural pu che, lof, institución ka privado püle mew.</p><span class="eggs-capability__arrow">↗</span></span></a>
+      <a class="eggs-capability" href="/MPD/servicios.html#restauracion"><span class="eggs-capability__media"><img src="/assets/img/restauracion-boton.webp" alt="Küme dewün ka inakintun" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">02</span><h3>Küme dewün ka inakintun</h3><p>Az-küdaw, chemkün ka superficies ñi diagnóstico, newentun ka material/az wiñol dewman.</p><span class="eggs-capability__arrow">↗</span></span></a>
+      <a class="eggs-capability" href="/MPD/servicios.html#ambientacion"><span class="eggs-capability__media"><img src="/assets/img/instalacion-boton.webp" alt="Montaje ka kimün producción" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">03</span><h3>Montaje ka kimün producción</h3><p>Püle diseño, obra instalación, exhibición ka kimün experiencia ñi acompañamiento.</p><span class="eggs-capability__arrow">↗</span></span></a>
+      <a class="eggs-capability" href="/MPD/servicios.html#talleres"><span class="eggs-capability__media"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Kimeltun ka az-küdaw nütram" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">04</span><h3>Kimeltun ka mediación</h3><p>Escuela, lof, institución, equipo ka kake pu koneltufe ñi kimün experiencias.</p><span class="eggs-capability__arrow">↗</span></span></a>
+      <a class="eggs-capability" href="/MPD/comunitario.html"><span class="eggs-capability__media"><img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Lof ka mapu küdaw" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">05</span><h3>Lof ka mapu</h3><p>Txawün proceso ñi nütramün dewman, mapu memoria, fütra che mew püle ka lof kelluwün.</p><span class="eggs-capability__arrow">↗</span></span></a>
+      <a class="eggs-capability" href="/MPD/tienda.html"><span class="eggs-capability__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Az-küdaw, edición ka producto" loading="lazy"></span><span class="eggs-capability__copy"><span class="eggs-capability__number">06</span><h3>Az-küdaw ka ediciones</h3><p>Az-küdaw, impresión, publicación ka chemkün ñi producción, amulün ka trafkintu.</p><span class="eggs-capability__arrow">↗</span></span></a>
+    </div>
+  </section>
 
-  <!-- Kellun 6: Exhibición ka digital musoe dewman -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Exhibición ka digital musoe dewman" loading="lazy">
-        <p class="title">Exhibición ka digital musoe producción</p>
-        <p class="subtitle">Curaduría, montaje ka presencial/virtual exhibición kimün rüpü.</p>
-      </div>
-    </a>
-  </div>
+  <section class="eggs-section" aria-labelledby="kudaw-rupu">
+    <header class="eggs-section__header"><div><p class="eggs-section__eyebrow">Proceso</p><h2 id="kudaw-rupu">Chumgechi dewmangey kiñe proyecto</h2></div><p class="eggs-section__intro">Producción wünen mew alcance adkintugey. Fey mew expectativas, tiempo, responsabilidad ka presupuesto nor mew müley.</p></header>
+    <div class="eggs-process">
+      <article class="eggs-process__step"><span>01</span><h3>Allkütun ka contexto</h3><p>Propósito, püle, pu koneltufe, antecedentes, límites ka rüpü.</p></article>
+      <article class="eggs-process__step"><span>02</span><h3>Propuesta</h3><p>Rakizuam, alcance, referencias, materiales, calendario ka presupuesto.</p></article>
+      <article class="eggs-process__step"><span>03</span><h3>Producción</h3><p>Técnica coordinación, dewman, registro ka nütram.</p></article>
+      <article class="eggs-process__step"><span>04</span><h3>Entrega ka amulün</h3><p>Cierre, documentación, kuñiwtun kimel ka küpal etapa.</p></article>
+    </div>
+  </section>
 
-  <!-- Kellun 7: Ponwi ka wekun püle az-küdaw dewman -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Ponwi ka wekun püle az-küdaw dewman" loading="lazy">
-        <p class="title">Ponwi ka wekun püle az-küdaw dewman</p>
-        <p class="subtitle">Ruka, institución ka comercio püle mew azentun propuesta.</p>
-      </div>
-    </a>
-  </div>
+  <section class="eggs-section" aria-labelledby="kelluwun-egu">
+    <header class="eggs-section__header"><div><p class="eggs-section__eyebrow">Kelluwün</p><h2 id="kelluwun-egu">Iñchiñ egu küdawkeyiñ</h2></div><p class="eggs-section__intro">Fachi rüpü adattukey pichi encargos ka alü proceso mew, chew kake pu che ñi txawün zuamgey.</p></header>
+    <div class="eggs-audiences">
+      <article class="eggs-audience"><h3>Pu che ka colecciones</h3><p>Encargos, restauraciones, püle mew az-küdaw ka visual decisión ñi kellun.</p></article>
+      <article class="eggs-audience"><h3>Institución ka organización</h3><p>Kimün, educación, exhibición, patrimonio ka püle newentun küdaw.</p></article>
+      <article class="eggs-audience"><h3>Lof ka mapu</h3><p>Txawün proceso, muralismo, mediación, mapu memoria ka fütra che mew acciones.</p></article>
+    </div>
+  </section>
 
-  <!-- Kellun 8: Software ka aplicación az-küdaw püle mew -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Software ka aplicación az-küdaw püle mew" loading="lazy">
-        <p class="title">Software ka aplicación az-küdaw püle mew</p>
-        <p class="subtitle">Digital herramienta kimün ka azentun küdaw mew.</p>
-      </div>
-    </a>
-  </div>
-
-  <!-- Kellun 9: Multimedia contenido ka digital az-küdaw -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Multimedia contenido ka digital az-küdaw" loading="lazy">
-        <p class="title">Multimedia contenido ka digital az-küdaw</p>
-        <p class="subtitle">Video, az ka digital pieza az-küdaw ka comunicación mew.</p>
-      </div>
-    </a>
-  </div>
-
-  <!-- Kellun 10: Az-küdaw producto trafkintu ka diseño -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Az-küdaw producto trafkintu ka diseño" loading="lazy">
-        <p class="title">Az-küdaw producto trafkintu ka diseño</p>
-        <p class="subtitle">Küdaw, edición ka derivado producto az-küdaw rüpü egu.</p>
-      </div>
-    </a>
-  </div>
-
-  <!-- Kellun 11: Lof koneltun ka kom che inclusión -->
-  <div class="item">
-    <a href="/MPD/en-construccion.html" class="fancy-button">
-      <div class="button-content">
-        <img src="/assets/img/eggs-empresagif.webp" alt="Lof koneltun ka kom che inclusión" loading="lazy">
-        <p class="title">Lof koneltun ka kom che inclusión</p>
-        <p class="subtitle">Kelluwün rüpü ñi txawün dewman, mapu ka küme mogen.</p>
-      </div>
-    </a>
-  </div>
-</div>
+  <section class="eggs-company__closing" aria-labelledby="eggs-proyecto">
+    <h2 id="eggs-proyecto">Kiñe rakizuam kiñe realizable proyecto mew wiñol dewmayiñ.</h2>
+    <p>Wünen adkintun mew, wirintunge pichi descripción, püle, medida o escala, fecha, foto ka presupuesto.</p>
+    <div class="eggs-company__actions"><a class="eggs-company__button eggs-company__button--primary" href="/MPD/contacto.html">Nütramün ñepun</a><a class="eggs-company__button" href="mailto:hola@eggs-studio.cl">hola@eggs-studio.cl</a></div>
+  </section>
+</main>
