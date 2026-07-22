@@ -1,15 +1,25 @@
-document.addEventListener("DOMContentLoaded", async () => {
+(() => {
   if (typeof window.mermaid === "undefined") return;
 
   /*
-   * Mermaid 10 puede interpretar barras, paréntesis y otros caracteres
-   * dentro de etiquetas no citadas como parte de la sintaxis del nodo.
-   * Normalizamos las etiquetas tipo stadium: ([Texto]) -> (["Texto"]).
+   * Los scripts se cargan con defer. Esta inicialización debe ejecutarse
+   * inmediatamente, antes de DOMContentLoaded, para impedir que Mermaid
+   * procese los diagramas con su startOnLoad predeterminado.
    */
-  document.querySelectorAll(".mermaid").forEach((diagram) => {
-    const source = diagram.textContent || "";
+  window.mermaid.initialize({
+    startOnLoad: false,
+    theme: "base",
+    securityLevel: "loose",
+    flowchart: { htmlLabels: false }
+  });
 
-    const normalized = source.replace(
+  function normalizeMermaidSource(source) {
+    /*
+     * Mermaid 10 interpreta barras, paréntesis y otros caracteres dentro
+     * de etiquetas no citadas como sintaxis. Normalizamos los nodos tipo
+     * stadium: ([Texto]) -> (["Texto"]).
+     */
+    return source.replace(
       /\(\[([^\]\r\n]+)\]\)/g,
       (match, rawLabel) => {
         const label = rawLabel.trim();
@@ -24,16 +34,28 @@ document.addEventListener("DOMContentLoaded", async () => {
         return `(["${label.replace(/"/g, "#quot;")}"])`;
       }
     );
+  }
 
-    diagram.textContent = normalized;
-  });
+  async function renderMermaidDiagrams() {
+    const diagrams = document.querySelectorAll(".mermaid");
+    if (!diagrams.length) return;
 
-  window.mermaid.initialize({
-    startOnLoad: false,
-    theme: "base",
-    securityLevel: "loose",
-    flowchart: { htmlLabels: false }
-  });
+    diagrams.forEach((diagram) => {
+      const source = diagram.textContent || "";
+      diagram.removeAttribute("data-processed");
+      diagram.textContent = normalizeMermaidSource(source);
+    });
 
-  await window.mermaid.run({ querySelector: ".mermaid" });
-});
+    try {
+      await window.mermaid.run({ querySelector: ".mermaid" });
+    } catch (error) {
+      console.error("No fue posible renderizar el diagrama Mermaid:", error);
+    }
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", renderMermaidDiagrams, { once: true });
+  } else {
+    renderMermaidDiagrams();
+  }
+})();
