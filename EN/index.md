@@ -1,109 +1,78 @@
 ---
 layout: default-en
 lang: en
-title: "EGGS-Studio – Home"
-description: "EGGS-STUDIO. Esteban Garnica's creative universe. Artworks, sales and visual projects. Limited editions, commissions and artistic services from Santiago, Chile."
+title: "Esteban Garnica / EGGS-Studio – Artworks and projects"
+description: "Esteban Garnica's creative universe: painting, photography, intervention, available artworks and cultural projects developed from Santiago, Chile."
 permalink: /EN/index.html
-keywords: "EGGS-Studio, Esteban Garnica, creative universe, artworks, art sales, visual projects, contemporary art Chile, art prints, photography, muralism, available artworks, commissions, Santiago Chile"
-mermaid: true
+keywords: "Esteban Garnica, EGGS-Studio, Chilean visual artist, painting, photography, urban intervention, available art, muralism, cultural projects"
+image: /assets/img/ES-inicio - representacion del mundo.webp
 ---
 
-<h1 class="titulo">EGGS-STUDIO</h1>
+<link rel="stylesheet" href="/assets/css/home-editorial.css">
 
-<h2 class="subtitulo">
-  Esteban Garnica's creative universe.<br>
-  Artworks, sales and visual projects.
-</h2>
+{% assign producto_paisaje = site.productos_en | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
+{% assign producto_bandera = site.productos_en | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
+{% assign producto_colgado = site.productos_en | where: "sku", "EGGS-W0056-L01-P110160-F120170" | first %}
 
-<p class="parrafo" style="margin-top: 5%;">
-  EGGS-Studio brings together painting, photography, muralism and interventions around the city, advertising, territory and everyday life. Here you can explore the body of work, acquire available editions and request artistic projects or commissions.
-</p>
-
-<div class="button-container">
-  <a href="/EN/store.html#impresiones-y-fotografia" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Available prints and photography" loading="lazy">
-      <p class="title">Buy artwork</p>
-      <p class="subtitle">Limited-edition prints and photography, signed, numbered and certified.</p>
+<div class="home-editorial">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__copy">
+      <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
+      <h1 id="home-title" class="home-hero__title">Esteban Garnica's creative universe.</h1>
+      <p class="home-hero__lead">Painting, photography, intervention and territory-based projects.</p>
+      <div class="home-actions" aria-label="Primary actions">
+        <a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">Buy artwork</a>
+        <a href="/EN/work.html" class="home-button home-button--secondary">Explore the work</a>
+      </div>
+      <a href="/EN/services.html" class="home-text-link">Commissions, murals and cultural projects</a>
     </div>
-  </a>
+    <figure class="home-hero__media">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high">
+      <figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption>
+    </figure>
+  </section>
 
-  <a href="/EN/contact.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Commissions, murals and projects" loading="lazy">
-      <p class="title">Commission a project</p>
-      <p class="subtitle">Murals, paintings, restoration, workshops, installations and cultural projects.</p>
+  <section class="home-section" aria-labelledby="available-artworks">
+    <header class="home-section__header">
+      <div><p class="home-section__eyebrow">Available collection</p><h2 id="available-artworks">Available artworks</h2></div>
+      <p class="home-section__intro">Three real editions from the store. Each product page includes technique, dimensions, edition, certificate and purchase conditions.</p>
+    </header>
+    <div class="home-products">
+      {% for producto in producto_paisaje,producto_bandera,producto_colgado %}{% endfor %}
+      <article class="home-product"><a class="home-product__link" href="{{ producto_paisaje.url }}"><div class="home-product__image"><img src="{{ producto_paisaje.image }}" alt="{{ producto_paisaje.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_paisaje.product_type }}</p><h3>{{ producto_paisaje.title }}</h3><dl class="home-product__facts"><dt>Year</dt><dd>{{ producto_paisaje.year }}</dd><dt>Technique</dt><dd class="home-product__technique">{{ producto_paisaje.presentation }}</dd><dt>Edition</dt><dd>{{ producto_paisaje.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_paisaje.price_display }}</span><span class="home-product__state">{{ producto_paisaje.state }}</span></div></div></a></article>
+      <article class="home-product"><a class="home-product__link" href="{{ producto_bandera.url }}"><div class="home-product__image"><img src="{{ producto_bandera.image }}" alt="{{ producto_bandera.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_bandera.product_type }}</p><h3>{{ producto_bandera.title }}</h3><dl class="home-product__facts"><dt>Year</dt><dd>{{ producto_bandera.year }}</dd><dt>Technique</dt><dd class="home-product__technique">{{ producto_bandera.presentation }}</dd><dt>Edition</dt><dd>{{ producto_bandera.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_bandera.price_display }}</span><span class="home-product__state">{{ producto_bandera.state }}</span></div></div></a></article>
+      <article class="home-product"><a class="home-product__link" href="{{ producto_colgado.url }}"><div class="home-product__image"><img src="{{ producto_colgado.image }}" alt="{{ producto_colgado.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_colgado.product_type }}</p><h3>{{ producto_colgado.title }}</h3><dl class="home-product__facts"><dt>Year</dt><dd>{{ producto_colgado.year }}</dd><dt>Technique</dt><dd class="home-product__technique">{{ producto_colgado.presentation }}</dd><dt>Edition</dt><dd>{{ producto_colgado.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_colgado.price_display }}</span><span class="home-product__state">{{ producto_colgado.state }}</span></div></div></a></article>
     </div>
-  </a>
+    <div class="home-section__footer"><a href="/EN/store.html#impresiones-y-fotografia" class="home-text-link">See all available artworks</a></div>
+  </section>
 
-  <a href="/EN/work.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Explore the body of work" loading="lazy">
-      <p class="title">Explore the work</p>
-      <p class="subtitle">Painting, photography, urban intervention, community and inner world.</p>
+  <section class="home-section" aria-labelledby="selected-series">
+    <header class="home-section__header"><div><p class="home-section__eyebrow">Visual research</p><h2 id="selected-series">Selected series</h2></div><p class="home-section__intro">Three ways into the work through expanded painting, observed landscape and critical intervention in visual culture.</p></header>
+    <div class="home-series-grid">
+      <a href="/EN/infected-paintings-series.html" class="home-series-card home-series-card--main"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Infected Paintings series" loading="lazy"><div class="home-series-card__copy"><h3>Infected Paintings</h3><p>Painting as organism, vulnerable surface and transforming system.</p></div></a>
+      <a href="/EN/roadside-landscapes-series.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Roadside Landscapes series" loading="lazy"><div class="home-series-card__copy"><h3>Roadside Landscapes</h3><p>Transit, speed and the visual memory of territory.</p></div></a>
+      <a href="/EN/anti-advertising-series.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Anti-advertising series" loading="lazy"><div class="home-series-card__copy"><h3>Anti-advertising</h3><p>Appropriation, diversion and intervention of commercial messages.</p></div></a>
     </div>
-  </a>
+    <div class="home-section__footer"><a href="/EN/work.html" class="home-text-link">See all series</a></div>
+  </section>
+
+  <section class="home-section" aria-labelledby="work-axes">
+    <header class="home-section__header"><div><p class="home-section__eyebrow">Curatorial map</p><h2 id="work-axes">Three axes of work</h2></div><p class="home-section__intro">The practice is organized through three complementary movements: observing the world, acting within it and exploring its inner resonance.</p></header>
+    <div class="home-axes">
+      <a href="/EN/world-representation.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Representation of the world" loading="lazy"></div><div class="home-axis__copy"><h3>Representation of the world</h3><p>Landscape, objects, visual culture and contemporary phenomena.</p></div></a>
+      <a href="/EN/action.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Action in the world" loading="lazy"></div><div class="home-axis__copy"><h3>Action in the world</h3><p>Urban intervention, community, collaboration and public space.</p></div></a>
+      <a href="/EN/inner-world.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Inner world" loading="lazy"></div><div class="home-axis__copy"><h3>Inner world</h3><p>Body, memory, ritual, imagination and introspective processes.</p></div></a>
+    </div>
+  </section>
+
+  <section class="home-section" aria-labelledby="projects-collaboration"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">Applied art and territory</p><h2 id="projects-collaboration">Projects and collaboration</h2></div><p>Visual projects for public spaces, institutions, communities, teams and private collections.</p></header><div class="home-projects">
+    <a href="/EN/services.html#commissions" class="home-project"><span class="home-project__number">01</span><span class="home-project__title">Murals</span><span class="home-project__description">Site-specific work, identity and spatial transformation.</span></a>
+    <a href="/EN/services.html#workshops" class="home-project"><span class="home-project__number">02</span><span class="home-project__title">Workshops</span><span class="home-project__description">Learning, mediation and creative experiences.</span></a>
+    <a href="/EN/services.html#restoration" class="home-project"><span class="home-project__number">03</span><span class="home-project__title">Restoration</span><span class="home-project__description">Material and visual conservation and recovery.</span></a>
+    <a href="/EN/community.html" class="home-project"><span class="home-project__number">04</span><span class="home-project__title">Community projects</span><span class="home-project__description">Collaborative processes connected to territory.</span></a>
+  </div><a href="/EN/services.html" class="home-text-link">Explore services and collaborations</a></div></section>
+
+  <section class="home-section home-about" aria-labelledby="about-artist"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica, Chilean visual artist" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">About the artist</p><h2 id="about-artist">Esteban Garnica</h2><p>Chilean visual artist, born in Santiago in 1985 and trained at the University of Chile. His practice moves between painting, photography, urban intervention, muralism and community processes, addressing territory, memory, visual culture and contemporary life.</p><div class="home-about__links"><a href="/EN/garnica.html" class="home-text-link">About the artist</a><a href="/EN/exhibitions.html" class="home-text-link">Career and exhibitions</a></div></div></section>
+
+  <section class="home-closing" aria-labelledby="commercial-close"><h2 id="commercial-close">Looking for an artwork or planning a project?</h2><div class="home-actions"><a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">See available artworks</a><a href="/EN/contact.html" class="home-button home-button--secondary">Contact</a></div></section>
 </div>
-
-<hr class="separador separador--aire" />
-
-<h2 class="subtitulo">Featured series</h2>
-
-<p class="parrafo">
-  Start with a clear series: each landing summarizes the concept, shows a guiding image and leads to the shop, archive or related products.
-</p>
-
-<div class="button-container">
-  <a href="/EN/infected-paintings-series.html" class="fancy-button"><div class="button-content"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Infected Paintings" loading="lazy"><p class="title">Infected Paintings</p><p class="subtitle">When painting behaves like an organism.</p></div></a>
-  <a href="/EN/roadside-landscapes-series.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Roadside Landscapes" loading="lazy"><p class="title">Roadside Landscapes</p><p class="subtitle">Landscape, transit, speed and visual memory.</p></div></a>
-  <a href="/EN/infected-flags-series.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0016-L01-P5070-F70100.webp" alt="Infected Flags" loading="lazy"><p class="title">Infected Flags</p><p class="subtitle">Symbols altered by painting, plague and identity.</p></div></a>
-  <a href="/EN/anti-advertising-series.html" class="fancy-button"><div class="button-content"><img src="/assets/img/boton-antipub.webp" alt="Anti-advertising" loading="lazy"><p class="title">Anti-advertising</p><p class="subtitle">PP Series, posters, advertising piracy and intervention.</p></div></a>
-  <a href="/EN/the-hanged-man-series.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp" alt="The Hanged Man" loading="lazy"><p class="title">The Hanged Man</p><p class="subtitle">Photography, ritual, suspended body and territory.</p></div></a>
-</div>
-
-<figure class="imagen-con-caption">
-  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Infected Paintings, soft supports, unique page, portraits" loading="lazy">
-  <figcaption>The Saturation / The Plague / Infected Paintings, soft supports, unique page, portraits, st003. 2020.</figcaption>
-</figure>
-
-<hr class="separador separador--aire" />
-
-<h2 class="subtitulo">Work map</h2>
-
-<p class="parrafo">
-  The site is organized as a simple curatorial map: representation of the world, action in the world and inner world. The diagram preserves conceptual depth without replacing the main navigation.
-</p>
-
-<div class="mermaid">
-flowchart LR
-  principal(("EGGS-Studio"))
-  tienda(["Available works"])
-  servicios(["Commissions and services"])
-  series(["Featured series"])
-  mapa(["Work map"])
-
-  principal --> tienda
-  principal --> servicios
-  principal --> series
-  principal --> mapa
-
-  series --> pinturas(["Infected Paintings"])
-  series --> colgado(["The Hanged Man"])
-  mapa --> representacion(["Representation of the world"])
-  mapa --> accion(["Action in the world"])
-  mapa --> interior(["Inner world"])
-
-  click tienda "/EN/store.html#impresiones-y-fotografia" "Go to available works"
-  click servicios "/EN/services.html" "Go to services"
-  click pinturas "/EN/infected-paintings-series.html" "View Infected Paintings"
-  click colgado "/EN/the-hanged-man-series.html" "View The Hanged Man"
-  click representacion "/EN/world-representation.html" "Go to Representation of the world"
-  click accion "/EN/action.html" "Go to Action in the world"
-  click interior "/EN/inner-world.html" "Go to Inner world"
-</div>
-
-<p class="parrafo" style="margin-top: 7%;">
-  If this is your first visit, start with the store or the main series. To understand the full structure of the practice, follow the conceptual map and its axes.
-</p>
-
-<a href="/EN/exhibitions.html" class="enlace">See exhibitions and trajectory</a>
