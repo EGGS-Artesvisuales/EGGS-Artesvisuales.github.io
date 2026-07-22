@@ -10,11 +10,11 @@ keywords: "az-küdaw kellun, muralismo, küme dewün az-küdaw, az-küdaw taller
 <h1 class="titulo">Kellun</h1>
 
 <p class="parrafo">
-  Elun az-küdaw ka técnica kellun particular, institución, lof ka empresa ñi küdaw mew: mural, küme dewün, diseño, montaje, kimeltun ka cultura gestión.
+  Fachi trokiñ mew txawüley az-küdaw ka técnica práctica, particular, institución, lof ka empresa ñi proyecto mew dewmalelu. Tüfa mew txawüley arte público, küme dewün, diseño, montaje, kimeltun ka cultura gestión ñi kimün.
 </p>
 
 <p class="parrafo">
-  Fill kellun adattukey contexto, presupuesto ka objetivo mew: kiñe küdaw püle mew, restauración, mural, montaje, kimeltun actividad o cultura experiencia.
+  Fill proyecto dewmaley ñi contexto, ñi fütra ka ñi rakizuam mew: kiñe küdaw kiñe püle mew, restauración, mural, montaje, kimeltun actividad kam kiñe kom cultura experiencia.
 </p>
 
 <div class="service-cta">
