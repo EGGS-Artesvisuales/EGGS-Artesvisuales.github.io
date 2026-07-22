@@ -43,6 +43,6 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
-  <div class="item"><a href="/EN/urban-mapuche.html"><div class="img-container"><img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="Urban Mapuche, The Felling of Memory" loading="lazy"></div><figcaption>Urban Mapuche: The Felling of Memory</figcaption></a></div>
+  <div class="item"><a href="/EN/urban-mapuche.html"><div class="img-container"><img class="carousel-img" src="/assets/img/tienda/EGGS-W0073-VID01.webp" alt="Urban Mapuche, The Felling of Memory" loading="lazy"></div><figcaption>Urban Mapuche: The Felling of Memory</figcaption></a></div>
   <div class="item"><a href="/EN/musoe-open-air.html"><div class="img-container"><img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-001.jpg" alt="Musoe Open Air, mural diptychs" loading="lazy"></div><figcaption>Musoe Open Air</figcaption></a></div>
 </div>
