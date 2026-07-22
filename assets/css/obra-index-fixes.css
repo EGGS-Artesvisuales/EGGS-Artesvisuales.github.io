@@ -16,13 +16,39 @@
   min-width: 0;
 }
 
+/* Statement de apertura y línea conceptual secundaria. */
+.obra-index .obra-hero__intro {
+  display: grid;
+  gap: 1rem;
+}
+
+.obra-index .obra-hero__statement {
+  display: block;
+  color: var(--obra-ink);
+  font-size: clamp(1.45rem, 2.6vw, 2.25rem);
+  font-weight: 760;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.obra-index .obra-hero__orientation {
+  display: block;
+  max-width: 39rem;
+  color: var(--obra-muted);
+  font-size: clamp(0.98rem, 1.25vw, 1.12rem);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
 html[lang="zh-Hans"] .obra-index .obra-hero h1,
 html[lang="zh-Hans"] .obra-index .obra-section__heading h2,
 html[lang="zh-Hans"] .obra-index .obra-series-group h3,
 html[lang="zh-Hans"] .obra-index .obra-series-card h3,
 html[lang="zh-Hans"] .obra-index .obra-available__copy h2,
 html[lang="zh-Hans"] .obra-index .obra-map-card h2,
-html[lang="zh-Hans"] .obra-index .obra-contact h2 {
+html[lang="zh-Hans"] .obra-index .obra-contact h2,
+html[lang="zh-Hans"] .obra-index .obra-hero__statement {
   letter-spacing: 0;
 }
 
