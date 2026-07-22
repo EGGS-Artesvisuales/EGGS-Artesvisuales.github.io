@@ -29,6 +29,9 @@ jobs:
       - name: Build Jekyll site
         run: bundle exec jekyll build --trace
 
+      - name: Mirror lowercase language routes
+        run: python tools/mirror_lowercase_languages.py --site _site
+
       - name: Generate canonical redirects
         run: python tools/generate_redirects.py --site _site
 
