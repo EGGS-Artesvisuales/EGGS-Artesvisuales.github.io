@@ -18,7 +18,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 <div class="obra-index">
   <section class="obra-hero" aria-labelledby="obra-title">
     <div><p class="obra-kicker">Índice curatorial</p><h1 id="obra-title">OBRA</h1></div>
-    <p class="obra-hero__intro"><span class="obra-hero__statement">una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">La obra se despliega en la relacion con el mundo; entre representación, acción y experiencia interior.</span></p>
+    <p class="obra-hero__intro"><span class="obra-hero__statement">una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">La obra se despliega en la relación con el mundo; entre representación, acción y experiencia interior.</span></p>
   </section>
 
   <section class="obra-section" aria-labelledby="mapa-obra">
@@ -28,7 +28,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
       <a href="/ES/accion.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Acción en el mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">02</span><h3>Acción en el mundo</h3><p>Intervención urbana, comunidad, colaboración y espacio público.</p></div></a>
       <a href="/ES/interior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Mundo interior" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">03</span><h3>Mundo interior</h3><p>Cuerpo, memoria, rito, imaginación, psicología y espiritualidad.</p></div></a>
     </div>
-    <a href="/ES/diagrama.html" class="obra-section__link">Explorar el mapa completo de la obra</a>
+    <a href="/ES/diagrama.html" class="obra-section__link">Explorar el mapa conceptual de obra</a>
   </section>
 
   <section class="obra-section" aria-labelledby="series-obra">
@@ -42,7 +42,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 
   <section class="obra-section" aria-labelledby="obra-disponible"><div class="obra-available"><div class="obra-available__media"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Edición disponible de Paisajes de Carretera" loading="lazy"></div><div class="obra-available__copy"><p class="obra-section__eyebrow">Ediciones y obra disponible</p><h2 id="obra-disponible">Adquirir una obra</h2><p>La tienda reúne prints, fotografías y publicaciones disponibles. Esta entrada comercial se mantiene separada de la jerarquía curatorial para no confundir obra, serie y producto.</p><div class="obra-actions"><a href="/ES/tienda.html#impresiones-y-fotografia" class="obra-button obra-button--primary">Ver obra disponible</a><a href="/ES/contacto.html" class="obra-button">Consultar disponibilidad</a></div></div></div></section>
 
-  <section class="obra-section" aria-labelledby="archivo-completo"><div class="obra-map-card"><div><p class="obra-section__eyebrow">Archivo conceptual</p><h2 id="archivo-completo">Diagrama completo de obra</h2><p>El mapa detallado despliega categorías, subcategorías, series, subseries, procesos y relaciones internas. Funciona como un sistema abierto y en actualización.</p><a href="/ES/diagrama.html" class="obra-section__link">Abrir diagrama de obra</a></div><div class="obra-map-card__symbol" aria-hidden="true">↳</div></div></section>
+  <section class="obra-section" aria-labelledby="archivo-completo"><div class="obra-map-card"><div><p class="obra-section__eyebrow">Archivo conceptual</p><h2 id="archivo-completo">Mapa conceptual de obra</h2><p>El mapa detallado despliega categorías, subcategorías, series, subseries, procesos y relaciones internas. Distingue entre obra publicada, desarrollos en curso y líneas de investigación abiertas.</p><a href="/ES/diagrama.html" class="obra-section__link">Abrir el mapa conceptual de obra</a></div><div class="obra-map-card__symbol" aria-hidden="true">↳</div></div></section>
 
   <section class="obra-contact" aria-labelledby="consulta-obra"><h2 id="consulta-obra">¿Necesitas información sobre una obra, serie o archivo específico?</h2><a href="/ES/contacto.html" class="obra-button">Contactar</a></section>
 </div>
