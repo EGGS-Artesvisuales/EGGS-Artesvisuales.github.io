@@ -1,0 +1,91 @@
+/* Mapa conceptual de obra: leyenda editorial y estados de desarrollo. */
+
+.work-map-intro {
+  width: min(100%, 72rem);
+  margin: clamp(2rem, 4vw, 3.5rem) auto clamp(3rem, 6vw, 5rem);
+  padding: clamp(1.4rem, 3vw, 2.2rem) 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.work-map-intro__statement {
+  max-width: 62rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+  font-family: var(--parrafo-font, Arial, sans-serif);
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  line-height: 1.75;
+}
+
+.work-map-intro__statement + .work-map-intro__statement {
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: clamp(0.92rem, 1.1vw, 1.02rem);
+}
+
+.work-map-legend {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: clamp(1.5rem, 3vw, 2.25rem);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.work-map-legend__item {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.85rem;
+  align-items: start;
+  min-width: 0;
+  padding: 1rem;
+  background: #111318;
+}
+
+.work-map-legend__mark {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.15rem;
+  border: 1px solid rgba(235, 235, 235, 0.82);
+  border-radius: 50%;
+  background: #1c1f24;
+}
+
+.work-map-legend__item--developing .work-map-legend__mark {
+  border-color: #b9975b;
+  border-style: dashed;
+  background: #17191d;
+}
+
+.work-map-legend__item--research .work-map-legend__mark {
+  border-color: #6f89a6;
+  border-style: dotted;
+  background: #111318;
+}
+
+.work-map-legend__copy strong,
+.work-map-legend__copy span {
+  display: block;
+  font-family: var(--parrafo-font, Arial, sans-serif);
+}
+
+.work-map-legend__copy strong {
+  margin-bottom: 0.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.work-map-legend__copy span {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  .work-map-legend {
+    grid-template-columns: 1fr;
+  }
+}
