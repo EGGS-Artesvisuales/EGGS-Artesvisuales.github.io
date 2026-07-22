@@ -8,7 +8,7 @@ es_url: /ES/index.html
 en_url: /EN/index.html
 mpd_url: /MPD/index.html
 keywords: "Esteban Garnica, EGGS-Studio, 智利艺术家, 绘画, 摄影, 城市介入, 可购艺术品, 壁画, 文化项目"
-image: /assets/img/ES-inicio - representacion del mundo.webp
+image: /assets/img/pinf-blds-upg-retr-003b.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -26,7 +26,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
       <div class="home-actions"><a href="/CHN/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">购买作品</a><a href="/CHN/obra.html" class="home-button home-button--secondary">探索作品</a></div>
       <a href="/CHN/servicios.html" class="home-text-link">委托、壁画与文化项目</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Esteban Garnica 关于世界再现的作品" fetchpriority="high"><figcaption>在绘画、档案、地域与当代视觉文化之间展开的艺术实践。</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
@@ -42,7 +42,7 @@ image: /assets/img/ES-inicio - representacion del mundo.webp
   <section class="home-section" aria-labelledby="selected-series">
     <header class="home-section__header"><div><p class="home-section__eyebrow">视觉研究</p><h2 id="selected-series">精选系列</h2></div><p class="home-section__intro">从扩展绘画、被观察的风景以及对视觉文化的批判性介入进入作品体系。</p></header>
     <div class="home-series-grid">
-      <a href="/CHN/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="感染的绘画系列" loading="lazy"><div class="home-series-card__copy"><h3>感染的绘画</h3><p>绘画作为有机体、脆弱表面与持续变化的系统。</p></div></a>
+      <a href="/CHN/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="感染的绘画系列" loading="lazy"><div class="home-series-card__copy"><h3>感染的绘画</h3><p>绘画作为有机体、脆弱表面与持续变化的系统。</p></div></a>
       <a href="/CHN/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="公路风景系列" loading="lazy"><div class="home-series-card__copy"><h3>公路风景</h3><p>移动、速度与地域的视觉记忆。</p></div></a>
       <a href="/CHN/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="反广告系列" loading="lazy"><div class="home-series-card__copy"><h3>反广告</h3><p>对商业信息的挪用、偏移与介入。</p></div></a>
     </div>
