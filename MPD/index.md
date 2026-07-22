@@ -10,6 +10,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
 <link rel="stylesheet" href="/assets/css/home-project-images.css">
+<link rel="stylesheet" href="/assets/css/home-impact-refinement.css">
 
 {% assign producto_paisaje = site.productos_mpd | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
 {% assign producto_bandera = site.productos_mpd | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
@@ -19,12 +20,12 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-hero__copy">
       <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
-      <h1 id="home-title" class="home-hero__title">Esteban Garnica ñi universo creativo.</h1>
-      <p class="home-hero__lead">Pintura, fotografía, intervención ka territorio mew proyecto.</p>
-      <div class="home-actions"><a href="/MPD/obra.html" class="home-button home-button--primary">Küdaw adkintun</a><a href="/MPD/contacto.html" class="home-button home-button--secondary">Nütramkan</a></div>
-      <a href="/MPD/servicios.html" class="home-text-link">Encargo, mural ka cultura proyecto</a>
+      <h1 id="home-title" class="home-hero__title">Pintura, azentun ka territorio.</h1>
+      <p class="home-hero__lead">Esteban Garnica ñi küdaw: pintura, fotografía, intervención ka territorio mew proyecto.</p>
+      <div class="home-actions"><a href="/MPD/obra.html" class="home-button home-button--primary">Küdaw adkintun</a><a href="/MPD/contacto.html" class="home-button home-button--secondary">Proyecto nütramkan</a></div>
+      <a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-text-link">Mülechi küdaw adkintun</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Esteban Garnica ñi küdaw" fetchpriority="high" decoding="async"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="kula-rupu"><header class="home-section__header"><div><p class="home-section__eyebrow">Curatorial mapa</p><h2 id="kula-rupu">Küla küdaw rüpü</h2></div><p class="home-section__intro">Mapu adkintun, mapu mew küdaw ka ponwi püle ñi dungun kintun.</p></header><div class="home-axes">
@@ -58,5 +59,5 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <div class="home-section__footer"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-text-link">Kom mülechi küdaw adkintun</a></div>
   </section>
 
-  <section class="home-closing" aria-labelledby="afpun"><h2 id="afpun">¿Küdaw kintuleymi kam proyecto dewmalmi?</h2><div class="home-actions"><a href="/MPD/obra.html" class="home-button home-button--primary">Küdaw adkintun</a><a href="/MPD/contacto.html" class="home-button home-button--secondary">Nütramkan</a></div></section>
+  <section class="home-closing" aria-labelledby="afpun"><h2 id="afpun">¿Küdaw kintuleymi kam proyecto dewmalmi?</h2><div class="home-actions"><a href="/MPD/obra.html" class="home-button home-button--primary">Küdaw adkintun</a><a href="/MPD/contacto.html" class="home-button home-button--secondary">Proyecto nütramkan</a></div></section>
 </div>
