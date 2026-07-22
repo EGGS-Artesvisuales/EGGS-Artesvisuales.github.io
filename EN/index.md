@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Artworks and projects"
 description: "Esteban Garnica's creative universe: painting, photography, intervention, available artworks and cultural projects developed from Santiago, Chile."
 permalink: /EN/index.html
 keywords: "Esteban Garnica, EGGS-Studio, Chilean visual artist, painting, photography, urban intervention, available art, muralism, cultural projects"
-image: /assets/img/pinf-blds-upg-retr-003b.jpg
+image: /assets/img/pinf-blds-upg-retr-003c.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -23,7 +23,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
       <div class="home-actions" aria-label="Primary actions"><a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">Buy artwork</a><a href="/EN/work.html" class="home-button home-button--secondary">Explore the work</a></div>
       <a href="/EN/services.html" class="home-text-link">Commissions, murals and cultural projects</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003c.jpg" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
