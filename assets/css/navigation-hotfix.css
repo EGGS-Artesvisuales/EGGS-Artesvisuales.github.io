@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------
    NAVIGATION HOTFIX
-   Restaura la geometria original de la barra y los submenus despues de
+   Mantiene la geometria de la barra y los submenus despues de
    responsive-fixes.css, sin afectar las correcciones del contenido.
 ------------------------------------------------------------------ */
 
@@ -33,19 +33,15 @@
   line-height: 1.25;
 }
 
-/*
- * Navegacion persistente.
- * En escritorio, al avanzar por la pagina la barra se repliega y deja
- * una franja accesible. Hover y focus-within la despliegan sin JavaScript
- * adicional de interaccion, por lo que tambien funciona con teclado.
- */
+/* Barra horizontal siempre visible durante el scroll. */
 .navbar {
   position: sticky;
   top: 0;
   z-index: 10020;
   isolation: isolate;
+  transform: none !important;
   background: var(--color-fondo-secundario, #333);
-  box-shadow: 0 0.15rem 0.6rem rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0.15rem 0.6rem rgba(0, 0, 0, 0.24);
 }
 
 @media (min-width: 902px) {
@@ -60,65 +56,6 @@
   .nav-lang-switch {
     margin-left: auto;
   }
-
-  .navbar {
-    --nav-handle-height: 0.72rem;
-    transform: translateY(0);
-    transition:
-      transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
-      box-shadow 200ms ease,
-      background-color 200ms ease;
-    will-change: transform;
-  }
-
-  .navbar.navbar--condensed {
-    transform: translateY(calc(-100% + var(--nav-handle-height)));
-    box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, 0.28);
-  }
-
-  .navbar.navbar--condensed::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: var(--nav-handle-height);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    background:
-      linear-gradient(
-        90deg,
-        transparent,
-        rgba(248, 153, 0, 0.58) 33%,
-        rgba(88, 166, 255, 0.5) 67%,
-        transparent
-      ),
-      rgba(34, 34, 34, 0.97);
-    background-size: min(18rem, 42vw) 1px, auto;
-    background-position: center bottom, center;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    opacity: 0.94;
-    transition: opacity 180ms ease;
-  }
-
-  .navbar.navbar--condensed:hover,
-  .navbar.navbar--condensed:focus-within,
-  .navbar.navbar--condensed.navbar--expanded {
-    transform: translateY(0);
-  }
-
-  .navbar.navbar--condensed:hover::after,
-  .navbar.navbar--condensed:focus-within::after,
-  .navbar.navbar--condensed.navbar--expanded::after {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .navbar.navbar--condensed:focus-within {
-    box-shadow:
-      0 0.3rem 0.9rem rgba(0, 0, 0, 0.3),
-      0 0 0 2px rgba(88, 166, 255, 0.38);
-  }
 }
 
 @media (max-width: 901px) {
@@ -129,7 +66,6 @@
   .navbar {
     min-height: var(--header-h);
     padding: 0 0.85rem;
-    transform: none !important;
   }
 
   .nav-menu {
@@ -167,12 +103,5 @@
 
   .nav-lang-switch {
     padding: 1rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .navbar,
-  .navbar::after {
-    transition: none !important;
   }
 }
