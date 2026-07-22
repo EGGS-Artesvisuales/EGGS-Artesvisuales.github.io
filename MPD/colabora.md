@@ -60,6 +60,24 @@ keywords: "EGGS-Studio, Esteban Garnica, kelluwün, Musoe, waria remiendas, mura
 
 <hr class="separador separador--aire" />
 
+<section aria-labelledby="direct-support-mpd">
+  <h2 class="subtitulo2" id="direct-support-mpd">Rüf kelluwün</h2>
+  <p class="parrafo">
+    Feychi az-küdaw ka lof küdaw newentual rüf kelluwün müley. Tuchi kelluwün rume materiales, producción, registro ka mapu mew küdaw financiael kellukey.
+  </p>
+
+  <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
+    <input
+      class="boton-donacion"
+      type="submit"
+      value="Kelluwün elun"
+      aria-label="PayPal mew kelluwün elun"
+    >
+  </form>
+</section>
+
+<hr class="separador separador--aire" />
+
 <h2 class="subtitulo2">Chumgechi ñepual</h2>
 
 <p class="parrafo">
