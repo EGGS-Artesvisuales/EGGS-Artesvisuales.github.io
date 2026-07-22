@@ -6,13 +6,16 @@
 }
 
 .exhibitions-unified__header {
+  position: relative;
+  z-index: 2;
   display: grid;
-  grid-template-columns: minmax(0, 0.75fr) minmax(18rem, 1.25fr);
-  gap: clamp(1.5rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
   align-items: end;
-  margin-bottom: clamp(2rem, 4vw, 3.5rem);
-  padding-top: 1.25rem;
+  margin-bottom: clamp(2.75rem, 5vw, 4.5rem);
+  padding: 1.25rem 0 clamp(2rem, 4vw, 3rem);
   border-top: 1px solid var(--site-line-strong, rgba(255, 255, 255, 0.3));
+  border-bottom: 1px solid var(--site-line, rgba(255, 255, 255, 0.16));
 }
 
 .exhibitions-unified__eyebrow {
@@ -26,20 +29,24 @@
 }
 
 .exhibitions-unified__header h2 {
+  max-width: 14ch;
   margin: 0;
   color: #fff;
   font-family: var(--titulo-font, Arial, sans-serif);
-  font-size: clamp(2rem, 5vw, 4.8rem);
-  line-height: 0.95;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 0.94;
+  text-wrap: balance;
 }
 
 .exhibitions-unified__intro {
-  max-width: 48rem;
+  max-width: 38rem;
   margin: 0;
+  padding-bottom: 0.15rem;
   color: rgba(255, 255, 255, 0.72);
   font-family: var(--parrafo-font, Arial, sans-serif);
-  font-size: clamp(0.95rem, 1.3vw, 1.12rem);
-  line-height: 1.7;
+  font-size: clamp(0.95rem, 1.15vw, 1.08rem);
+  line-height: 1.65;
+  text-wrap: pretty;
 }
 
 .exhibitions-line {
@@ -47,14 +54,14 @@
   display: grid;
   gap: 1px;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 0 0;
   list-style: none;
 }
 
 .exhibitions-line::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 0.5rem;
   bottom: 0;
   left: 7.15rem;
   width: 1px;
@@ -141,6 +148,7 @@
   font-family: var(--titulo-font, Arial, sans-serif);
   font-size: clamp(1.25rem, 2.3vw, 2rem);
   line-height: 1.08;
+  text-wrap: balance;
 }
 
 .exhibitions-event__card p {
@@ -165,10 +173,35 @@
   object-fit: cover;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 980px) {
   .exhibitions-unified__header {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
+    align-items: start;
+  }
+
+  .exhibitions-unified__header h2 {
+    max-width: 18ch;
+  }
+
+  .exhibitions-unified__intro {
+    max-width: 46rem;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .exhibitions-unified {
+    margin-top: 3rem;
+  }
+
+  .exhibitions-unified__header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .exhibitions-unified__header h2 {
+    font-size: clamp(2.25rem, 11vw, 3.5rem);
   }
 
   .exhibitions-line::before {
@@ -202,6 +235,10 @@
 }
 
 @media (max-width: 430px) {
+  .exhibitions-unified__header h2 {
+    font-size: clamp(2rem, 13vw, 3rem);
+  }
+
   .exhibitions-line::before {
     left: 0.48rem;
   }
