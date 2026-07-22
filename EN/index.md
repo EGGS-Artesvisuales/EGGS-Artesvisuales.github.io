@@ -10,6 +10,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
 <link rel="stylesheet" href="/assets/css/home-project-images.css">
+<link rel="stylesheet" href="/assets/css/home-impact-refinement.css">
 
 {% assign producto_paisaje = site.productos_en | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
 {% assign producto_bandera = site.productos_en | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
@@ -19,12 +20,12 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-hero__copy">
       <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
-      <h1 id="home-title" class="home-hero__title">Esteban Garnica's creative universe.</h1>
-      <p class="home-hero__lead">Painting, photography, intervention and territory-based projects.</p>
-      <div class="home-actions" aria-label="Primary actions"><a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">Buy artwork</a><a href="/EN/work.html" class="home-button home-button--secondary">Explore the work</a></div>
-      <a href="/EN/services.html" class="home-text-link">Commissions, murals and cultural projects</a>
+      <h1 id="home-title" class="home-hero__title">Painting, image and territory.</h1>
+      <p class="home-hero__lead">Esteban Garnica's work across painting, photography, intervention and site-based projects.</p>
+      <div class="home-actions" aria-label="Primary actions"><a href="/EN/work.html" class="home-button home-button--primary">Explore the work</a><a href="/EN/contact.html" class="home-button home-button--secondary">Propose a project</a></div>
+      <a href="/EN/store.html#impresiones-y-fotografia" class="home-text-link">See available artworks</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pes-pint-produccion-Serie01-004.jpg" alt="Artwork by Esteban Garnica related to the representation of the world" fetchpriority="high" decoding="async"><figcaption>A practice crossing painting, archive, territory and contemporary visual culture.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="available-artworks">
@@ -58,5 +59,5 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 
   <section class="home-section home-about" aria-labelledby="about-artist"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica, Chilean visual artist" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">About the artist</p><h2 id="about-artist">Esteban Garnica</h2><p>Chilean visual artist, born in Santiago in 1985 and trained at the University of Chile. His practice moves between painting, photography, urban intervention, muralism and community processes, addressing territory, memory, visual culture and contemporary life.</p><div class="home-about__links"><a href="/EN/garnica.html" class="home-text-link">About the artist</a><a href="/EN/exhibitions.html" class="home-text-link">Career and exhibitions</a></div></div></section>
 
-  <section class="home-closing" aria-labelledby="commercial-close"><h2 id="commercial-close">Looking for an artwork or planning a project?</h2><div class="home-actions"><a href="/EN/store.html#impresiones-y-fotografia" class="home-button home-button--primary">See available artworks</a><a href="/EN/contact.html" class="home-button home-button--secondary">Contact</a></div></section>
+  <section class="home-closing" aria-labelledby="commercial-close"><h2 id="commercial-close">Looking for an artwork or planning a project?</h2><div class="home-actions"><a href="/EN/work.html" class="home-button home-button--primary">Explore the work</a><a href="/EN/contact.html" class="home-button home-button--secondary">Propose a project</a></div></section>
 </div>
