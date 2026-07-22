@@ -2,16 +2,17 @@
 layout: default-en
 lang: en
 title: "EGGS-Studio – Home"
-description: "EGGS-Studio: artworks, prints, photography, murals and visual projects by Esteban Garnica. Limited editions, commissions and artistic services from Santiago, Chile."
+description: "EGGS-STUDIO. Esteban Garnica's creative universe. Artworks, sales and visual projects. Limited editions, commissions and artistic services from Santiago, Chile."
 permalink: /EN/index.html
-keywords: "EGGS-Studio, Esteban Garnica, contemporary art Chile, art prints, photography, muralism, available artworks, commissions, Santiago Chile"
+keywords: "EGGS-Studio, Esteban Garnica, creative universe, artworks, art sales, visual projects, contemporary art Chile, art prints, photography, muralism, available artworks, commissions, Santiago Chile"
 mermaid: true
 ---
 
 <h1 class="titulo">EGGS-STUDIO</h1>
 
 <h2 class="subtitulo">
-  Artworks, prints and visual projects by Esteban Garnica.
+  Esteban Garnica's creative universe.<br>
+  Artworks, sales and visual projects.
 </h2>
 
 <p class="parrafo" style="margin-top: 5%;">
