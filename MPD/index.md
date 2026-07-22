@@ -5,7 +5,7 @@ title: "Esteban Garnica / EGGS-Studio – Küdaw ka proyecto"
 description: "Esteban Garnica ñi universo creativo: pintura, fotografía, intervención, trafkintuam küdaw ka territorio mew proyecto."
 permalink: /MPD/index.html
 keywords: "Esteban Garnica, EGGS-Studio, pintura, fotografía, intervención, muralismo, küdaw, territorio"
-image: /assets/img/pinf-blds-upg-retr-003b.jpg
+image: /assets/img/pinf-blds-upg-retr-003c.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
@@ -23,7 +23,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
       <div class="home-actions"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">Küdaw ngillan</a><a href="/MPD/obra.html" class="home-button home-button--secondary">Küdaw adkintun</a></div>
       <a href="/MPD/servicios.html" class="home-text-link">Encargo, mural ka cultura proyecto</a>
     </div>
-    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
+    <figure class="home-hero__media"><img src="/assets/img/pinf-blds-upg-retr-003c.jpg" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
   </section>
 
   <section class="home-section" aria-labelledby="kudaw-muley">
