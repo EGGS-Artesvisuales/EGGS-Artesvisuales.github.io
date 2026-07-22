@@ -9,6 +9,7 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---
 
 <link rel="stylesheet" href="/assets/css/home-editorial.css">
+<link rel="stylesheet" href="/assets/css/home-project-images.css">
 
 {% assign producto_paisaje = site.productos_mpd | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
 {% assign producto_bandera = site.productos_mpd | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
@@ -36,15 +37,11 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <div class="home-section__footer"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-text-link">Kom mülechi küdaw adkintun</a></div>
   </section>
 
-  <section class="home-section" aria-labelledby="series">
-    <header class="home-section__header"><div><p class="home-section__eyebrow">Visual ramtun</p><h2 id="series">Dullin series</h2></div><p class="home-section__intro">Pintura ñi amulnien, paisaje adkintun ka visual cultura mew crítica intervención.</p></header>
-    <div class="home-series-grid">
-      <a href="/MPD/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Pinturas Infectadas" loading="lazy"><div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>Pintura organismo, kutxan superficie ka alün antü ñi wiñol az.</p></div></a>
-      <a href="/MPD/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Paisajes de Carretera" loading="lazy"><div class="home-series-card__copy"><h3>Paisajes de Carretera</h3><p>Rüpü, lefün ka territorio ñi visual memoria.</p></div></a>
-      <a href="/MPD/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"><div class="home-series-card__copy"><h3>Antipublicidad</h3><p>Comercial zugu ñi apropiación, kakülün ka intervención.</p></div></a>
-    </div>
-    <div class="home-section__footer"><a href="/MPD/obra.html" class="home-text-link">Kom series adkintun</a></div>
-  </section>
+  <section class="home-section" aria-labelledby="series"><header class="home-section__header"><div><p class="home-section__eyebrow">Visual ramtun</p><h2 id="series">Dullin series</h2></div><p class="home-section__intro">Pintura ñi amulnien, paisaje adkintun ka visual cultura mew crítica intervención.</p></header><div class="home-series-grid">
+    <a href="/MPD/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Pinturas Infectadas" loading="lazy"><div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>Pintura organismo, kutxan superficie ka alün antü ñi wiñol az.</p></div></a>
+    <a href="/MPD/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Paisajes de Carretera" loading="lazy"><div class="home-series-card__copy"><h3>Paisajes de Carretera</h3><p>Rüpü, lefün ka territorio ñi visual memoria.</p></div></a>
+    <a href="/MPD/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"><div class="home-series-card__copy"><h3>Antipublicidad</h3><p>Comercial zugu ñi apropiación, kakülün ka intervención.</p></div></a>
+  </div><div class="home-section__footer"><a href="/MPD/obra.html" class="home-text-link">Kom series adkintun</a></div></section>
 
   <section class="home-section" aria-labelledby="kula-rupu"><header class="home-section__header"><div><p class="home-section__eyebrow">Curatorial mapa</p><h2 id="kula-rupu">Küla küdaw rüpü</h2></div><p class="home-section__intro">Mapu adkintun, mapu mew küdaw ka ponwi püle ñi dungun kintun.</p></header><div class="home-axes">
     <a href="/MPD/mundo-exterior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Wallmapu ñi azentun" loading="lazy"></div><div class="home-axis__copy"><h3>Wallmapu ñi azentun</h3><p>Paisaje, chemkün, visual cultura ka fachi antü ñi zugu.</p></div></a>
@@ -52,11 +49,11 @@ image: /assets/img/pes-pint-produccion-Serie01-004.jpg
     <a href="/MPD/interior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Püle rakizuam" loading="lazy"></div><div class="home-axis__copy"><h3>Püle rakizuam</h3><p>Kalül, memoria, rito, imaginación ka ponwi rüpü.</p></div></a>
   </div></section>
 
-  <section class="home-section" aria-labelledby="proyecto"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">Az-küdaw ka territorio</p><h2 id="proyecto">Proyecto ka kelluwün</h2></div><p>Kom püle, institución, lof, equipo ka private colección mew visual proyecto.</p></header><div class="home-projects">
-    <a href="/MPD/servicios.html#encargos" class="home-project"><span class="home-project__number">01</span><span class="home-project__title">Murales</span><span class="home-project__description">Mapu mew küdaw, identidad ka püle ñi wiñol az.</span></a>
-    <a href="/MPD/servicios.html#talleres" class="home-project"><span class="home-project__number">02</span><span class="home-project__title">Talleres</span><span class="home-project__description">Kimeltun, mediación ka creative experiencia.</span></a>
-    <a href="/MPD/servicios.html#restauracion" class="home-project"><span class="home-project__number">03</span><span class="home-project__title">Restauración</span><span class="home-project__description">Chemkün ka az ñi kuñiwtun ka wiñol dewman.</span></a>
-    <a href="/MPD/comunitario.html" class="home-project"><span class="home-project__number">04</span><span class="home-project__title">Lof proyecto</span><span class="home-project__description">Territorio mew txawün ka kelluwün rüpü.</span></a>
+  <section class="home-section" aria-labelledby="proyecto"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">Az-küdaw ka territorio</p><h2 id="proyecto">Proyecto ka kelluwün</h2></div><p>Kom püle, institución, lof, equipo ka private colección mew visual proyecto.</p></header><div class="home-projects home-projects--visual">
+    <a href="/MPD/servicios.html#encargos" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-muralismo-colectivo.webp" alt="Lof mural küdaw" loading="lazy"></span><span class="home-project__number">01</span><span class="home-project__title">Murales</span><span class="home-project__description">Mapu mew küdaw, identidad ka püle ñi wiñol az.</span></a>
+    <a href="/MPD/servicios.html#talleres" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Az-küdaw taller ka mediación" loading="lazy"></span><span class="home-project__number">02</span><span class="home-project__title">Talleres</span><span class="home-project__description">Kimeltun, mediación ka creative experiencia.</span></a>
+    <a href="/MPD/servicios.html#restauracion" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/restauracion-boton.webp" alt="Küme dewün ka inakintun" loading="lazy"></span><span class="home-project__number">03</span><span class="home-project__title">Restauración</span><span class="home-project__description">Chemkün ka az ñi kuñiwtun ka wiñol dewman.</span></a>
+    <a href="/MPD/comunitario.html" class="home-project home-project--visual"><span class="home-project__image"><img src="/assets/img/boton-museos-cielo-abierto.webp" alt="Lof proyecto territorio mew" loading="lazy"></span><span class="home-project__number">04</span><span class="home-project__title">Lof proyecto</span><span class="home-project__description">Territorio mew txawün ka kelluwün rüpü.</span></a>
   </div><a href="/MPD/servicios.html" class="home-text-link">Servicio ka kelluwün adkintun</a></div></section>
 
   <section class="home-section home-about" aria-labelledby="esteban"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">Artista mew</p><h2 id="esteban">Esteban Garnica</h2><p>Chile ñi visual artista, Santiago mew 1985 txipantu mew llellipun ka Universidad de Chile mew kimün nielu. Ñi küdaw pintura, fotografía, waria intervención, muralismo ka lof proceso mew amuley, territorio, memoria, visual cultura ka fachi antü ñi mogen ramtulelu.</p><div class="home-about__links"><a href="/MPD/garnica.html" class="home-text-link">Artista ñi nütram</a><a href="/MPD/exhibiciones.html" class="home-text-link">Trayectoria ka exhibiciones</a></div></div></section>
