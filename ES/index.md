@@ -2,9 +2,9 @@
 layout: default-es
 lang: es
 title: "EGGS-Studio – Inicio"
-description: "Universo creativo de Esteban Garnica: obra, prints, fotografía, muralismo y proyectos visuales. Ediciones limitadas, encargos y servicios artísticos desde Santiago de Chile."
+description: "EGGS-STUDIO. Universo creativo de Esteban Garnica. Obra, ventas y proyectos visuales. Ediciones limitadas, encargos y servicios artísticos desde Santiago de Chile."
 permalink: /ES/index.html
-keywords: "EGGS-Studio, Esteban Garnica, universo creativo, arte contemporáneo Chile, prints de arte, fotografía, muralismo, obras disponibles, encargos, Santiago de Chile"
+keywords: "EGGS-Studio, Esteban Garnica, universo creativo, obra, ventas de arte, proyectos visuales, arte contemporáneo Chile, prints de arte, fotografía, muralismo, obras disponibles, encargos, Santiago de Chile"
 mermaid: true
 carousel: true
 
@@ -13,7 +13,7 @@ carousel: true
 
 <h2 class="subtitulo">
   Universo creativo de Esteban Garnica.<br>
-  Obra, prints y proyectos visuales.
+  Obra, ventas y proyectos visuales.
 </h2>
 
 <p class="parrafo" style="margin-top: 5%;">
