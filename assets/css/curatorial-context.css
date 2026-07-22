@@ -1,0 +1,91 @@
+/* Contexto curatorial transversal: Musoe, Servicios y Acerca de. */
+
+.curatorial-note,
+.practice-continuum,
+.curatorial-position {
+  width: min(100%, 72rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.curatorial-note {
+  margin-top: clamp(1.5rem, 3vw, 2.5rem);
+  margin-bottom: clamp(2rem, 4vw, 3.5rem);
+  padding: 1.15rem 1.25rem;
+  border-left: 2px solid rgba(217, 74, 58, 0.78);
+  background: linear-gradient(90deg, rgba(217, 74, 58, 0.08), transparent 75%);
+}
+
+.curatorial-note p {
+  max-width: 62rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-family: var(--parrafo-font, Arial, sans-serif);
+  font-size: clamp(0.94rem, 1.1vw, 1.04rem);
+  line-height: 1.7;
+}
+
+.curatorial-note strong {
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.practice-continuum,
+.curatorial-position {
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  padding-top: clamp(1.5rem, 3vw, 2.25rem);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.practice-continuum__intro,
+.curatorial-position__intro {
+  max-width: 62rem;
+  margin: 0 0 clamp(1.5rem, 3vw, 2.5rem);
+  color: rgba(255, 255, 255, 0.78);
+  font-family: var(--parrafo-font, Arial, sans-serif);
+  font-size: clamp(1rem, 1.3vw, 1.14rem);
+  line-height: 1.75;
+}
+
+.practice-continuum__grid,
+.curatorial-position__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.practice-continuum__item,
+.curatorial-position__item {
+  min-width: 0;
+  padding: clamp(1.15rem, 2.5vw, 1.75rem);
+  background: rgba(17, 19, 24, 0.94);
+}
+
+.practice-continuum__item h2,
+.practice-continuum__item h3,
+.curatorial-position__item h2,
+.curatorial-position__item h3 {
+  margin: 0 0 0.65rem;
+  color: rgba(255, 255, 255, 0.96);
+  font-family: var(--titulo-font, Arial, sans-serif);
+  font-size: clamp(1.1rem, 1.8vw, 1.45rem);
+  line-height: 1.18;
+}
+
+.practice-continuum__item p,
+.curatorial-position__item p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.64);
+  font-family: var(--parrafo-font, Arial, sans-serif);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 760px) {
+  .practice-continuum__grid,
+  .curatorial-position__grid {
+    grid-template-columns: 1fr;
+  }
+}
