@@ -1,110 +1,65 @@
 ---
 layout: default-mpd
 lang: arn
-title: "EGGS-Studio – Wünen"
-description: "EGGS-STUDIO. Esteban Garnica ñi universo creativo. Küdaw, ngillan ka visual küdaw Santiago de Chile mew."
+title: "Esteban Garnica / EGGS-Studio – Küdaw ka proyecto"
+description: "Esteban Garnica ñi universo creativo: pintura, fotografía, intervención, trafkintuam küdaw ka territorio mew proyecto."
 permalink: /MPD/index.html
-keywords: "EGGS-Studio, Esteban Garnica, universo creativo, küdaw, ngillan, visual küdaw, az-küdaw, prints, fotografía, muralismo, trafkintu, Santiago Chile"
-mermaid: true
-carousel: true
-
+keywords: "Esteban Garnica, EGGS-Studio, pintura, fotografía, intervención, muralismo, küdaw, territorio"
+image: /assets/img/ES-inicio - representacion del mundo.webp
 ---
-<h1 class="titulo">EGGS-STUDIO</h1>
 
-<h2 class="subtitulo">
-  Esteban Garnica ñi universo creativo.<br>
-  Küdaw, ngillan ka visual küdaw.
-</h2>
+<link rel="stylesheet" href="/assets/css/home-editorial.css">
 
-<p class="parrafo" style="margin-top: 5%;">
-  EGGS-Studio txawüley pintura, fotografía, muralismo ka waria mew intervención. Faw müley küdaw adkintual, ediciones ngillal ka mural, cuadro, taller ka kellun ramtual.
-</p>
+{% assign producto_paisaje = site.productos_mpd | where: "sku", "EGGS-W0008-L01-P5070-F70100" | first %}
+{% assign producto_bandera = site.productos_mpd | where: "sku", "EGGS-W0017-L01-P5070-F70100" | first %}
+{% assign producto_colgado = site.productos_mpd | where: "sku", "EGGS-W0056-L01-P110160-F120170" | first %}
 
-<div class="button-container">
-  <a href="/MPD/tienda.html#impresiones-y-fotografia" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Prints ka fotografía" loading="lazy">
-      <p class="title">Küdaw ngillan</p>
-      <p class="subtitle">Prints ka fotografía: firmado, numerado ka certificado.</p>
+<div class="home-editorial">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__copy">
+      <p class="home-kicker">Esteban Garnica / EGGS-Studio</p>
+      <h1 id="home-title" class="home-hero__title">Esteban Garnica ñi universo creativo.</h1>
+      <p class="home-hero__lead">Pintura, fotografía, intervención ka territorio mew proyecto.</p>
+      <div class="home-actions"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">Küdaw ngillan</a><a href="/MPD/obra.html" class="home-button home-button--secondary">Küdaw adkintun</a></div>
+      <a href="/MPD/servicios.html" class="home-text-link">Encargo, mural ka cultura proyecto</a>
     </div>
-  </a>
+    <figure class="home-hero__media"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Esteban Garnica ñi küdaw" fetchpriority="high"><figcaption>Pintura, archivo, territorio ka fachi antü ñi visual cultura.</figcaption></figure>
+  </section>
 
-  <a href="/MPD/contacto.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Mural ka küdaw ngütram" loading="lazy">
-      <p class="title">Küdaw ramtun</p>
-      <p class="subtitle">Murales, cuadros, restauración, talleres ka montaje.</p>
+  <section class="home-section" aria-labelledby="kudaw-muley">
+    <header class="home-section__header"><div><p class="home-section__eyebrow">Trafkintuam colección</p><h2 id="kudaw-muley">Mülechi küdaw</h2></div><p class="home-section__intro">Küla rüf producto tienda mew. Ficha kom kimelkey técnica, medida, edición, certificado ka ngillan ñi felen.</p></header>
+    <div class="home-products">
+      <article class="home-product"><a class="home-product__link" href="{{ producto_paisaje.url }}"><div class="home-product__image"><img src="{{ producto_paisaje.image }}" alt="{{ producto_paisaje.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_paisaje.product_type }}</p><h3>{{ producto_paisaje.title }}</h3><dl class="home-product__facts"><dt>Tripantu</dt><dd>{{ producto_paisaje.year }}</dd><dt>Técnica</dt><dd class="home-product__technique">{{ producto_paisaje.presentation }}</dd><dt>Edición</dt><dd>{{ producto_paisaje.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_paisaje.price_display }}</span><span class="home-product__state">{{ producto_paisaje.state }}</span></div></div></a></article>
+      <article class="home-product"><a class="home-product__link" href="{{ producto_bandera.url }}"><div class="home-product__image"><img src="{{ producto_bandera.image }}" alt="{{ producto_bandera.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_bandera.product_type }}</p><h3>{{ producto_bandera.title }}</h3><dl class="home-product__facts"><dt>Tripantu</dt><dd>{{ producto_bandera.year }}</dd><dt>Técnica</dt><dd class="home-product__technique">{{ producto_bandera.presentation }}</dd><dt>Edición</dt><dd>{{ producto_bandera.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_bandera.price_display }}</span><span class="home-product__state">{{ producto_bandera.state }}</span></div></div></a></article>
+      <article class="home-product"><a class="home-product__link" href="{{ producto_colgado.url }}"><div class="home-product__image"><img src="{{ producto_colgado.image }}" alt="{{ producto_colgado.title }}" loading="lazy"></div><div class="home-product__body"><p class="home-product__type">{{ producto_colgado.product_type }}</p><h3>{{ producto_colgado.title }}</h3><dl class="home-product__facts"><dt>Tripantu</dt><dd>{{ producto_colgado.year }}</dd><dt>Técnica</dt><dd class="home-product__technique">{{ producto_colgado.presentation }}</dd><dt>Edición</dt><dd>{{ producto_colgado.edition }}</dd></dl><div class="home-product__footer"><span class="home-product__price">{{ producto_colgado.price_display }}</span><span class="home-product__state">{{ producto_colgado.state }}</span></div></div></a></article>
     </div>
-  </a>
+    <div class="home-section__footer"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-text-link">Kom mülechi küdaw adkintun</a></div>
+  </section>
 
-  <a href="/MPD/obra.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Az-küdaw adkintun" loading="lazy">
-      <p class="title">Küdaw adkintun</p>
-      <p class="subtitle">Pintura, fotografía, waria küdaw, lof ka püle rakizuam.</p>
+  <section class="home-section" aria-labelledby="series">
+    <header class="home-section__header"><div><p class="home-section__eyebrow">Visual ramtun</p><h2 id="series">Dullin series</h2></div><p class="home-section__intro">Pintura ñi amulnien, paisaje adkintun ka visual cultura mew crítica intervención.</p></header>
+    <div class="home-series-grid">
+      <a href="/MPD/serie-pinturas-infectadas.html" class="home-series-card home-series-card--main"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Pinturas Infectadas" loading="lazy"><div class="home-series-card__copy"><h3>Pinturas Infectadas</h3><p>Pintura organismo, kutxan superficie ka alün antü ñi wiñol az.</p></div></a>
+      <a href="/MPD/serie-paisajes-carretera.html" class="home-series-card"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Paisajes de Carretera" loading="lazy"><div class="home-series-card__copy"><h3>Paisajes de Carretera</h3><p>Rüpü, lefün ka territorio ñi visual memoria.</p></div></a>
+      <a href="/MPD/serie-antipublicidad.html" class="home-series-card"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"><div class="home-series-card__copy"><h3>Antipublicidad</h3><p>Comercial zugu ñi apropiación, kakülün ka intervención.</p></div></a>
     </div>
-  </a>
+    <div class="home-section__footer"><a href="/MPD/obra.html" class="home-text-link">Kom series adkintun</a></div>
+  </section>
+
+  <section class="home-section" aria-labelledby="kula-rupu"><header class="home-section__header"><div><p class="home-section__eyebrow">Curatorial mapa</p><h2 id="kula-rupu">Küla küdaw rüpü</h2></div><p class="home-section__intro">Mapu adkintun, mapu mew küdaw ka ponwi püle ñi dungun kintun.</p></header><div class="home-axes">
+    <a href="/MPD/mundo-exterior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Wallmapu ñi azentun" loading="lazy"></div><div class="home-axis__copy"><h3>Wallmapu ñi azentun</h3><p>Paisaje, chemkün, visual cultura ka fachi antü ñi zugu.</p></div></a>
+    <a href="/MPD/accion.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Mapu mew küdaw" loading="lazy"></div><div class="home-axis__copy"><h3>Mapu mew küdaw</h3><p>Waria intervención, lof, kelluwün ka kom püle.</p></div></a>
+    <a href="/MPD/interior.html" class="home-axis"><div class="home-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Püle rakizuam" loading="lazy"></div><div class="home-axis__copy"><h3>Püle rakizuam</h3><p>Kalül, memoria, rito, imaginación ka ponwi rüpü.</p></div></a>
+  </div></section>
+
+  <section class="home-section" aria-labelledby="proyecto"><div class="home-project-band"><header class="home-project-band__header"><div><p class="home-section__eyebrow">Az-küdaw ka territorio</p><h2 id="proyecto">Proyecto ka kelluwün</h2></div><p>Kom püle, institución, lof, equipo ka private colección mew visual proyecto.</p></header><div class="home-projects">
+    <a href="/MPD/servicios.html#encargos" class="home-project"><span class="home-project__number">01</span><span class="home-project__title">Murales</span><span class="home-project__description">Mapu mew küdaw, identidad ka püle ñi wiñol az.</span></a>
+    <a href="/MPD/servicios.html#talleres" class="home-project"><span class="home-project__number">02</span><span class="home-project__title">Talleres</span><span class="home-project__description">Kimeltun, mediación ka creative experiencia.</span></a>
+    <a href="/MPD/servicios.html#restauracion" class="home-project"><span class="home-project__number">03</span><span class="home-project__title">Restauración</span><span class="home-project__description">Chemkün ka az ñi kuñiwtun ka wiñol dewman.</span></a>
+    <a href="/MPD/comunitario.html" class="home-project"><span class="home-project__number">04</span><span class="home-project__title">Lof proyecto</span><span class="home-project__description">Territorio mew txawün ka kelluwün rüpü.</span></a>
+  </div><a href="/MPD/servicios.html" class="home-text-link">Servicio ka kelluwün adkintun</a></div></section>
+
+  <section class="home-section home-about" aria-labelledby="esteban"><figure class="home-about__media"><img src="/assets/img/esteban-garnica2.jpg" alt="Esteban Garnica" loading="lazy"></figure><div class="home-about__copy"><p class="home-section__eyebrow">Artista mew</p><h2 id="esteban">Esteban Garnica</h2><p>Chile ñi visual artista, Santiago mew 1985 txipantu mew llellipun ka Universidad de Chile mew kimün nielu. Ñi küdaw pintura, fotografía, waria intervención, muralismo ka lof proceso mew amuley, territorio, memoria, visual cultura ka fachi antü ñi mogen ramtulelu.</p><div class="home-about__links"><a href="/MPD/garnica.html" class="home-text-link">Artista ñi nütram</a><a href="/MPD/exhibiciones.html" class="home-text-link">Trayectoria ka exhibiciones</a></div></div></section>
+
+  <section class="home-closing" aria-labelledby="afpun"><h2 id="afpun">¿Küdaw kintuleymi kam proyecto dewmalmi?</h2><div class="home-actions"><a href="/MPD/tienda.html#impresiones-y-fotografia" class="home-button home-button--primary">Mülechi küdaw adkintun</a><a href="/MPD/contacto.html" class="home-button home-button--secondary">Nütramkan</a></div></section>
 </div>
-
-<hr class="separador separador--aire" />
-
-<h2 class="subtitulo">Fütra series</h2>
-
-<p class="parrafo">
-  Kiñe serie mew konün: landing kimeltukey concepto, imagen ka rüpü tienda, archivo o producto mew.
-</p>
-
-<div class="button-container">
-  <a href="/MPD/serie-pinturas-infectadas.html" class="fancy-button"><div class="button-content"><img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Pinturas Infectadas" loading="lazy"><p class="title">Pinturas Infectadas</p><p class="subtitle">Pintura kutxan organismo reke.</p></div></a>
-  <a href="/MPD/serie-paisajes-carretera.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Paisajes de Carretera" loading="lazy"><p class="title">Paisajes de Carretera</p><p class="subtitle">Paisaje, tránsito ka memoria visual.</p></div></a>
-  <a href="/MPD/serie-banderas-infectadas.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0016-L01-P5070-F70100.webp" alt="Banderas Infectadas" loading="lazy"><p class="title">Banderas Infectadas</p><p class="subtitle">Símbolos pintura, kutxan ka identidad mew.</p></div></a>
-  <a href="/MPD/serie-antipublicidad.html" class="fancy-button"><div class="button-content"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"><p class="title">Antipublicidad</p><p class="subtitle">PP Series, carteles ka intervención.</p></div></a>
-  <a href="/MPD/serie-el-colgado.html" class="fancy-button"><div class="button-content"><img src="/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp" alt="El Colgado" loading="lazy"><p class="title">El Colgado</p><p class="subtitle">Fotografía, rito, kalül pültrün ka mapu.</p></div></a>
-</div>
-
-<figure class="az-con-caption">
-  <img src="/assets/img/pinf-blds-upg-retr-003b.jpg" alt="Kutxan pintura, yafün ngüfke, kiñe txoy, adentu" loading="lazy">
-  <figcaption>Fentepun / Kutxan / kutxan pintura: yafün ngüfke, kiñe txoy, adentu, st003. 2020.</figcaption>
-</figure>
-
-<hr class="separador separador--aire" />
-
-<h2 class="subtitulo">Küdaw ñi mapa</h2>
-
-<p class="parrafo">
-  Fachi sitio küla rüpü mew ordenaley: wallmapu ñi azentun, mapu mew küdaw ka püle rakizuam. Diagrama kellukey fey ñi rakizuam kimelal.
-</p>
-
-<div class="mermaid">
-flowchart LR
-  principal(("EGGS-Studio"))
-  tienda(["Küdaw ngillal"])
-  servicios(["Küdaw ramtun ka kellun"])
-  series(["Fütra series"])
-  mapa(["Küdaw ñi mapa"])
-
-  principal --> tienda
-  principal --> servicios
-  principal --> series
-  principal --> mapa
-
-  series --> pinturas(["Pinturas Infectadas"])
-  series --> colgado(["El Colgado"])
-  mapa --> representacion(["Wallmapu ñi azentun"])
-  mapa --> accion(["Mapu mew küdaw"])
-  mapa --> interior(["Püle rakizuam"])
-
-  click tienda "/MPD/tienda.html#impresiones-y-fotografia" "Amun: küdaw ngillal"
-  click servicios "/MPD/servicios.html" "Amun: kellun"
-  click pinturas "/MPD/serie-pinturas-infectadas.html" "Amun: Pinturas Infectadas"
-  click colgado "/MPD/serie-el-colgado.html" "Amun: El Colgado"
-  click representacion "/MPD/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
-  click accion "/MPD/accion.html" "Amun: Mapu mew küdaw"
-  click interior "/MPD/interior.html" "Amun: Püle rakizuam"
-</div>
-
-<p class="parrafo" style="margin-top: 7%;">
-  Wünen tripantu mew müleymi, tienda mew o pu fütra küdaw mew konün. Kom rüpü kimün mew, mapa adkintun.
-</p>
-
-<a href="/MPD/exhibiciones.html" class="enlace">Exhibiciones ka trayectoria adkintun</a>
