@@ -1,8 +1,8 @@
 [build]
-  command = "node tools/generate_commerce_products.js && bundle install && bundle exec jekyll build && python3 tools/generate_redirects.py --site _site"
+  command = "rm -rf _site .jekyll-cache .sass-cache && node tools/generate_commerce_products.js && bundle install && bundle exec jekyll build --trace && python3 tools/generate_redirects.py --site _site"
   publish = "_site"
   functions = "netlify/functions"
-  environment = { RUBY_VERSION = "3.2.2", BUNDLE_FORCE_RUBY_PLATFORM = "1" }
+  environment = { RUBY_VERSION = "3.2.2", BUNDLE_FORCE_RUBY_PLATFORM = "1", JEKYLL_ENV = "production" }
 
 [functions]
   directory = "netlify/functions"
