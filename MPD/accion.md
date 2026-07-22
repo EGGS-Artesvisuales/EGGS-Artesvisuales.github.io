@@ -20,8 +20,6 @@ flowchart LR
 
   C --> C1([Lof mew])
   C --> C2([Ellka küdaw])
-  C --> C3([Kimeltun ka pu taller])
-  C --> C4([Kellun])
 
   %% Clicks (todos los nodos clickeables)
   click A "/MPD/index.html" "Amun: Actividad az-küdaw"
@@ -31,8 +29,6 @@ flowchart LR
 
   click C1 "/MPD/comunitario.html" "Amun: Lof mew"
   click C2 "/MPD/subrepticio.html" "Amun: Ellka küdaw"
-  click C3 "/MPD/docencia.html" "Amun: Kimeltun ka pu taller"
-  click C4 "/MPD/servicios.html" "Amun: Kellun"
 </div>
 
 <br>
