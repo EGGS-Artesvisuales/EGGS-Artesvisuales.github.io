@@ -1,0 +1,181 @@
+/* Refinamiento editorial de portada: claridad, contraste, impacto y rendimiento. */
+
+.home-editorial {
+  --home-ink: #ffffff;
+  --home-muted: #d0d0d0;
+  --home-line: rgba(255, 255, 255, 0.18);
+  --home-panel: rgba(18, 18, 18, 0.28);
+  --home-panel-strong: rgba(14, 14, 14, 0.66);
+}
+
+.home-hero {
+  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, 0.85fr);
+  gap: clamp(2.5rem, 6vw, 6rem);
+  min-height: min(44rem, calc(100svh - 3.5rem));
+  padding-top: clamp(5.5rem, 10vw, 8rem);
+}
+
+.home-hero__copy {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero__title {
+  max-width: 10ch;
+  font-size: clamp(3rem, 6.4vw, 6rem);
+  font-weight: 720;
+  letter-spacing: -0.055em;
+  line-height: 0.94;
+  text-wrap: balance;
+}
+
+.home-hero__lead {
+  max-width: 39rem;
+  margin-top: 1.45rem;
+  color: var(--home-muted);
+  font-size: clamp(1.08rem, 1.55vw, 1.45rem);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.home-kicker,
+.home-section__eyebrow {
+  color: #ffad28;
+}
+
+.home-hero__media {
+  position: relative;
+  overflow: hidden;
+  background: #171717;
+}
+
+.home-hero__media img {
+  aspect-ratio: 4 / 5;
+  min-height: 0;
+  max-height: min(68vh, 44rem);
+  object-fit: cover;
+}
+
+.home-hero__media figcaption,
+.home-section__intro,
+.home-project__description,
+.home-about__copy p,
+.home-product__facts,
+.home-product__state,
+.home-text-link {
+  color: var(--home-muted);
+}
+
+.home-actions {
+  gap: 0.7rem;
+  margin-top: 2rem;
+}
+
+.home-button {
+  min-height: 3rem;
+  padding-inline: 1.15rem;
+  border-radius: 0.35rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+}
+
+.home-button--primary {
+  background: #f89900;
+}
+
+.home-button--secondary {
+  border-color: rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.home-button:focus-visible,
+.home-text-link:focus-visible,
+.home-product__link:focus-visible,
+.home-series-card:focus-visible,
+.home-axis:focus-visible,
+.home-project:focus-visible {
+  outline: 2px solid #ffb53d;
+  outline-offset: 4px;
+}
+
+.home-section:not(:first-of-type),
+.home-closing {
+  content-visibility: auto;
+  contain-intrinsic-size: 48rem;
+}
+
+.home-product,
+.home-axis,
+.home-project-band {
+  border-color: rgba(255, 255, 255, 0.16);
+  background: var(--home-panel);
+}
+
+.home-series-card__copy p {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+/* El penultimo elemento es Contacto/Contact/Nütram/联系; el selector de idioma es el ultimo. */
+@media (min-width: 902px) {
+  .nav-menu > li:nth-last-child(2) > a {
+    margin: 0.24rem 0.35rem 0.24rem 0;
+    padding: 0.34rem 0.78rem;
+    border: 1px solid rgba(248, 153, 0, 0.68);
+    border-radius: 0.3rem;
+    color: #fff;
+    background: rgba(248, 153, 0, 0.1);
+    font-weight: 700;
+  }
+
+  .nav-menu > li:nth-last-child(2) > a:hover,
+  .nav-menu > li:nth-last-child(2) > a:focus-visible {
+    border-color: #f89900;
+    background: #f89900;
+    color: #151515;
+    transform: none;
+  }
+
+  .nav-menu > li:nth-last-child(2) > a::after {
+    display: none;
+  }
+}
+
+@media (max-width: 901px) {
+  .home-hero {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding-top: 4.5rem;
+  }
+
+  .home-hero__title {
+    max-width: 12ch;
+    font-size: clamp(2.7rem, 13vw, 4.6rem);
+  }
+
+  .home-hero__media img {
+    aspect-ratio: 4 / 3;
+    max-height: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .home-button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-editorial *,
+  .home-editorial *::before,
+  .home-editorial *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
