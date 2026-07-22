@@ -12,7 +12,7 @@
     }
   });
 
-  const domesticDiagrams = {
+  const explicitDiagrams = {
     "/ES/espacio-domestico.html": `flowchart LR
       A["Representación del mundo"] --> A1["Lo tangible"]
       A --> A2["Lo intangible"]
@@ -129,7 +129,179 @@
       click A1b "/CHN/en-construccion.html" "前往技术"`
   };
 
-  const domesticPaths = new Set(Object.keys(domesticDiagrams));
+  const explicitPaths = new Set(Object.keys(explicitDiagrams));
+  const nodeIdPattern = "[A-Za-z_][A-Za-z0-9_-]*";
+
+  function normalizePath(pathname) {
+    let path = decodeURIComponent(pathname || "/");
+    path = path.replace(/\/{2,}/g, "/");
+    if (path.length > 1) path = path.replace(/\/$/, "");
+    return path;
+  }
+
+  function cleanLabel(rawLabel) {
+    let label = String(rawLabel || "").trim();
+
+    if (
+      (label.startsWith('"') && label.endsWith('"')) ||
+      (label.startsWith("'") && label.endsWith("'"))
+    ) {
+      label = label.slice(1, -1);
+    }
+
+    return label
+      .replace(/#quot;|&quot;/g, '"')
+      .replace(/<br\s*\/?\s*>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function normalizeText(value) {
+    return cleanLabel(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .trim()
+      .toLowerCase();
+  }
+
+  function collectNodeLabels(source) {
+    const labels = new Map();
+    const patterns = [
+      new RegExp(`\\b(${nodeIdPattern})\\s*\\(\\(([^\\r\\n]*?)\\)\\)`, "g"),
+      new RegExp(`\\b(${nodeIdPattern})\\s*\\(\\[([^\\r\\n]*?)\\]\\)`, "g"),
+      new RegExp(`\\b(${nodeIdPattern})\\s*\\[([^\\r\\n]*?)\\]`, "g"),
+      new RegExp(`\\b(${nodeIdPattern})\\s*\\((?![\\(\\[])([^\\r\\n]*?)\\)`, "g")
+    ];
+
+    patterns.forEach((pattern) => {
+      let match;
+      while ((match = pattern.exec(source)) !== null) {
+        if (!labels.has(match[1])) labels.set(match[1], cleanLabel(match[2]));
+      }
+    });
+
+    return labels;
+  }
+
+  function collectParents(source) {
+    const parents = new Map();
+    const edgePattern = /(?:-->|==>|-\.->|---)/;
+
+    source.split(/\r?\n/).forEach((line) => {
+      const uncommented = line.replace(/%%.*$/, "");
+      if (!edgePattern.test(uncommented)) return;
+
+      const segments = uncommented.split(edgePattern);
+      for (let index = 0; index < segments.length - 1; index += 1) {
+        const parentSegment = segments[index]
+          .replace(/^\s*\|[^|]*\|\s*/, "")
+          .trim();
+        const childSegment = segments[index + 1]
+          .replace(/^\s*\|[^|]*\|\s*/, "")
+          .trim();
+
+        const parentMatch = parentSegment.match(new RegExp(`^(${nodeIdPattern})`));
+        const childMatch = childSegment.match(new RegExp(`^(${nodeIdPattern})`));
+        if (!parentMatch || !childMatch) continue;
+
+        const parentId = parentMatch[1];
+        const childId = childMatch[1];
+        if (!parents.has(childId)) parents.set(childId, new Set());
+        parents.get(childId).add(parentId);
+      }
+    });
+
+    return parents;
+  }
+
+  function collectCurrentNodes(source, labels) {
+    const currentPath = normalizePath(window.location.pathname);
+    const currentNodes = new Set();
+    const clickPattern = new RegExp(
+      `^\\s*click\\s+(${nodeIdPattern})\\s+(?:href\\s+)?["']([^"']+)["']`,
+      "gm"
+    );
+
+    let clickMatch;
+    while ((clickMatch = clickPattern.exec(source)) !== null) {
+      const target = clickMatch[2];
+      if (!target || target.startsWith("#")) continue;
+
+      try {
+        const targetUrl = new URL(target, window.location.href);
+        if (targetUrl.origin !== window.location.origin || targetUrl.hash) continue;
+        if (normalizePath(targetUrl.pathname) === currentPath) {
+          currentNodes.add(clickMatch[1]);
+        }
+      } catch (_error) {
+        /* Un objetivo no URL puede ser una función Mermaid; se ignora. */
+      }
+    }
+
+    if (currentNodes.size > 0) return currentNodes;
+
+    const heading = document.querySelector("main h1, h1.titulo, h1");
+    const normalizedHeading = normalizeText(heading?.textContent || "");
+    if (!normalizedHeading) return currentNodes;
+
+    labels.forEach((label, nodeId) => {
+      const normalizedLabel = normalizeText(label);
+      if (!normalizedLabel) return;
+
+      const exactMatch = normalizedLabel === normalizedHeading;
+      const containedMatch =
+        normalizedLabel.length >= 5 &&
+        (normalizedHeading.includes(normalizedLabel) || normalizedLabel.includes(normalizedHeading));
+
+      if (exactMatch || containedMatch) currentNodes.add(nodeId);
+    });
+
+    return currentNodes;
+  }
+
+  function convertNodeToCircle(source, nodeId, label) {
+    const escapedId = nodeId.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const nodeShapePattern = new RegExp(
+      `\\b${escapedId}(?![A-Za-z0-9_-])\\s*(?:\\(\\([^\\r\\n]*?\\)\\)|\\(\\[[^\\r\\n]*?\\]\\)|\\[[^\\r\\n]*?\\]|\\((?![\\(\\[])[^\\r\\n]*?\\))`,
+      "g"
+    );
+    const safeLabel = cleanLabel(label || nodeId).replace(/"/g, "#quot;");
+    const circleDeclaration = `${nodeId}(("${safeLabel}"))`;
+    let replaced = false;
+
+    const updatedSource = source.replace(nodeShapePattern, () => {
+      replaced = true;
+      return circleDeclaration;
+    });
+
+    return replaced ? updatedSource : `${updatedSource}\n  ${circleDeclaration}`;
+  }
+
+  function highlightActiveBranch(source) {
+    const labels = collectNodeLabels(source);
+    const currentNodes = collectCurrentNodes(source, labels);
+    if (currentNodes.size === 0) return source;
+
+    const parents = collectParents(source);
+    const activeNodes = new Set(currentNodes);
+
+    currentNodes.forEach((nodeId) => {
+      parents.get(nodeId)?.forEach((parentId) => activeNodes.add(parentId));
+    });
+
+    let highlightedSource = source;
+    activeNodes.forEach((nodeId) => {
+      highlightedSource = convertNodeToCircle(
+        highlightedSource,
+        nodeId,
+        labels.get(nodeId) || nodeId
+      );
+    });
+
+    return highlightedSource;
+  }
 
   function normalizeGenericSource(source) {
     return source.replace(
@@ -148,7 +320,7 @@
   }
 
   function cleanDomesticContent() {
-    if (!domesticPaths.has(window.location.pathname)) return;
+    if (!explicitPaths.has(window.location.pathname)) return;
 
     document
       .querySelectorAll('section[aria-label="Estructura de la serie"]')
@@ -173,8 +345,11 @@
 
     diagrams.forEach((diagram) => {
       diagram.removeAttribute("data-processed");
-      const explicitDomesticSource = domesticDiagrams[window.location.pathname];
-      diagram.textContent = explicitDomesticSource || normalizeGenericSource(diagram.textContent || "");
+
+      const explicitSource = explicitDiagrams[window.location.pathname];
+      const source = explicitSource || diagram.textContent || "";
+      const normalizedSource = normalizeGenericSource(source);
+      diagram.textContent = highlightActiveBranch(normalizedSource);
     });
 
     try {
