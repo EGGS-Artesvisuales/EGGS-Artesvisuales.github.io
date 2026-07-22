@@ -18,7 +18,7 @@ image: /assets/img/pinf-blds-upg-retr-003b.jpg
 <div class="obra-index">
   <section class="obra-hero" aria-labelledby="obra-title">
     <div><p class="obra-kicker">Índice curatorial</p><h1 id="obra-title">Obra</h1></div>
-    <p class="obra-hero__intro">Este índice presenta la estructura autoral del trabajo: primero los ejes conceptuales, luego las series principales y sus subseries, y finalmente las vías de acceso al archivo completo y a las ediciones disponibles.</p>
+    <p class="obra-hero__intro"><span class="obra-hero__statement">El arte como territorio libre: una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">La obra se despliega entre representación, acción y experiencia interior.</span></p>
   </section>
 
   <section class="obra-section" aria-labelledby="mapa-obra">
