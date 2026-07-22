@@ -44,6 +44,6 @@ flowchart LR
 </section>
 
 <div class="owl-carousel carousel-imagen">
-  <div class="item"><a href="/CHN/mapuche-urbano.html"><div class="img-container"><img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="城市马普切，记忆的砍伐" loading="lazy"></div><figcaption>城市马普切：记忆的砍伐</figcaption></a></div>
-  <div class="item"><a href="/CHN/musoe-a-cielo-abierto.html"><div class="img-container"><img class="carousel-img" src="/assets/img/img-ances-musoe-a-cielo-abierto-01mpche-001.jpg" alt="露天 Musoe 壁画双联画" loading="lazy"></div><figcaption>露天 Musoe</figcaption></a></div>
+  <div class="item"><a href="/CHN/mapuche-urbano.html"><div class="img-container"><img class="carousel-img" src="/assets/img/tienda/EGGS-W0073-VID01.webp" alt="城市马普切，记忆的砍伐" loading="lazy"></div><figcaption>城市马普切：记忆的砍伐</figcaption></a></div>
+  <div class="item"><a href="/CHN/musoe-a-cielo-abierto.html"><div class="img-container"><img class="carousel-img" src="/assets/img/mapuchenocturno.jpg" alt="露天 Musoe" loading="lazy"></div><figcaption>露天 Musoe</figcaption></a></div>
 </div>
