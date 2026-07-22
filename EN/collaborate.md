@@ -60,6 +60,24 @@ keywords: "collaborate art, EGGS-Studio, Esteban Garnica, open-air Musoe, urban 
 
 <hr class="separador separador--aire" />
 
+<section aria-labelledby="direct-support">
+  <h2 class="subtitulo2" id="direct-support">Direct support</h2>
+  <p class="parrafo">
+    You can also contribute directly to the development of artistic and community projects. Every contribution helps fund materials, production, documentation and work in the territory.
+  </p>
+
+  <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
+    <input
+      class="boton-donacion"
+      type="submit"
+      value="Make a contribution"
+      aria-label="Make a contribution through PayPal"
+    >
+  </form>
+</section>
+
+<hr class="separador separador--aire" />
+
 <h2 class="subtitulo2">How to start</h2>
 
 <p class="parrafo">
