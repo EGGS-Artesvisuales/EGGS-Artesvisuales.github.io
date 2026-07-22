@@ -60,6 +60,24 @@ keywords: "colaborar arte, EGGS-Studio, Esteban Garnica, Musoe a cielo abierto, 
 
 <hr class="separador separador--aire" />
 
+<section aria-labelledby="aporte-directo">
+  <h2 class="subtitulo2" id="aporte-directo">Apoyo directo</h2>
+  <p class="parrafo">
+    También puedes contribuir directamente al desarrollo de proyectos artísticos y comunitarios. Cada aporte ayuda a financiar materiales, producción, documentación y trabajo en territorio.
+  </p>
+
+  <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">
+    <input
+      class="boton-donacion"
+      type="submit"
+      value="Hacer un aporte"
+      aria-label="Hacer un aporte mediante PayPal"
+    >
+  </form>
+</section>
+
+<hr class="separador separador--aire" />
+
 <h2 class="subtitulo2">Cómo iniciar</h2>
 
 <p class="parrafo">
