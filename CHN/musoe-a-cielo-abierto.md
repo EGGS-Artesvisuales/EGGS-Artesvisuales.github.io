@@ -89,7 +89,8 @@ flowchart LR
   </p>
   <p>
     该项目没有马普切、艾马拉、拉帕努伊或塞尔克南组织的正式参与。
-    项目由 <strong>La Florida 文化公司（Corporación Cultural de La Florida）</strong>委托并资助。
+    这些壁画通过公开征集获得
+    <strong>La Florida 文化公司（Corporación Cultural de La Florida）</strong>的竞争性公共资金后得以实施。
   </p>
 </section>
 
