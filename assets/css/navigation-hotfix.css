@@ -101,6 +101,14 @@
     -webkit-backdrop-filter: blur(14px) saturate(118%);
     backdrop-filter: blur(14px) saturate(118%);
   }
+
+  /* Hover para puntero y focus-within para navegación por teclado. */
+  .dropdown:hover > .dropdown-menu,
+  .dropdown:focus-within > .dropdown-menu,
+  .dropdown-sub:hover > .dropdown-menu-sub,
+  .dropdown-sub:focus-within > .dropdown-menu-sub {
+    display: block;
+  }
 }
 
 @media (max-width: 901px) {
