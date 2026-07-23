@@ -12,6 +12,24 @@ mermaid: true
 <h1 class="titulo">El Colgado</h1>
 <h2 class="subtitulo">Küdawfe ñi kalül witrankülechi azentun</h2>
 
+<section class="parrafo">
+  <p><strong>El Colgado</strong> nükey Tarot de Marsella ñi XII carta: kiñe kalül
+  kiñe namun mew witranküley. Artista küdaw mapu mew longko nageltu müley,
+  fill küdaw ñi takun takulelu. Feychi pausa welukey küdaw ñi dependencia,
+  ürkütun ka economía ñi witxankülen mew.</p>
+  <p>Construcción, supermercado, transporte, cocina ka servicio kiñe ramtun
+  dewmakey: chumgechi tiempo ka küdawfe ñi kalül falintugey.</p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, construcción küdawfe" loading="lazy"><figcaption>Construcción küdawfe.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, supermercado küdawfe" loading="lazy"><figcaption>Supermercado küdawfe.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, transporte monitor" loading="lazy"><figcaption>Transporte monitor.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cocinero" loading="lazy"><figcaption>Cocinero.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, garzón" loading="lazy"><figcaption>Garzón.</figcaption></figure>
+</div>
+
+<h3 class="subtitulo2">CURATORIAL MAPA MEW ÑI MÜLEWE</h3>
 <div class="mermaid">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
@@ -35,22 +53,6 @@ flowchart LR
   click C3 "/MPD/el-empaquetador.html" "El Empaquetador mew amun"
   click C4 "/MPD/rostro-esperanza.html" "Rostro Esperanza mew amun"
   click C5 "/MPD/tragedian.html" "Tragedian mew amun"
-</div>
-<section class="parrafo">
-  <p><strong>El Colgado</strong> nükey Tarot de Marsella ñi XII carta: kiñe kalül
-  kiñe namun mew witranküley. Artista küdaw mapu mew longko nageltu müley,
-  fill küdaw ñi takun takulelu. Feychi pausa welukey küdaw ñi dependencia,
-  ürkütun ka economía ñi witxankülen mew.</p>
-  <p>Construcción, supermercado, transporte, cocina ka servicio kiñe ramtun
-  dewmakey: chumgechi tiempo ka küdawfe ñi kalül falintugey.</p>
-</section>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, construcción küdawfe" loading="lazy"><figcaption>Construcción küdawfe.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, supermercado küdawfe" loading="lazy"><figcaption>Supermercado küdawfe.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, transporte monitor" loading="lazy"><figcaption>Transporte monitor.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cocinero" loading="lazy"><figcaption>Cocinero.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, garzón" loading="lazy"><figcaption>Garzón.</figcaption></figure>
 </div>
 
 <h3 class="subtitulo2">KÜDAW ÑI KIMELTUN</h3>

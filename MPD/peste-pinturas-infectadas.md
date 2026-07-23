@@ -25,7 +25,7 @@ carousel: true
 
 <!-- Texto introductorio -->
 <section class="parrafo">
-  <p>La serie <strong>«Kutxan Pinturas»</strong> retrata la saturación y la contaminación del paisaje contemporáneo mediante una técnica híbrida que fusiona pintura con elementos residuales del consumo. Utilizo materiales como envases, tapas plásticas y papel impreso —recuperado de catálogos y revistas— para producir superficies erosionadas, intervenidas y transformadas. Estas texturas evocan síntomas cutáneos e infecciones, operando como metáfora de la degradación ambiental (<em>la idea de Gaia enferma</em>).</p>
+  <p>La serie <strong>«Kutxan Pinturas»</strong> traslada la contaminación del paisaje contemporáneo a la propia superficie pictórica. Utilizo envases, tapas plásticas, papel impreso, lonas publicitarias y otros residuos del consumo para producir superficies erosionadas, intervenidas y transformadas.</p>
 
   <p>La pintura tradicional colisiona con desechos industriales y publicitarios —incrustados, adheridos, hilvanados o cosidos— generando una tensión entre la tradición académica y la huella material del sistema de consumo industrializado.</p>
 
@@ -155,9 +155,7 @@ flowchart LR
   <p>
     <strong>Intervenciones agrupan acciones az-küdaws sobre obras de otros autores</strong>, generando tensión entre el valor original y el daño simbólico y real mediante raspados, perforaciones y collages con desechos publicitarios. Estas piezas reproducen la agresión ambiental, estableciendo un vínculo entre la nobleza de la naturaleza y la tradición az-küdaw.
     <br><br>
-    Este ejercicio de corrupción convierte la pintura en mercancía alterada, desplazando el foco del acto creativo al objeto dañado y representando el entorno contemporáneo. La confrontación de materiales industriales y elementos naturales retoma la fórmula conceptual de la serie, inspirada en enfermedades infecciosas y síntomas cutáneos.
-    <br><br>
-    Al dañar deliberadamente estas obras (2008), anticipo y dialogo con movimientos como <em>Just Stop Oil</em> (fundado en 2022). La intervención de una obra maestra —símbolo de lo sublime, lo valioso y lo real— visibiliza la violencia ambiental y subraya la urgencia de una conciencia ecológica, equiparando el daño al arte con el daño a Gaia.
+    Este ejercicio de corrupción convierte la pintura en mercancía alterada y desplaza el foco del acto creativo hacia el objeto dañado. La confrontación entre materiales industriales, elementos naturales y síntomas cutáneos hace visible una violencia que no solo se representa: queda inscrita en la materia de la obra.
   </p>
 </section>
 
@@ -288,11 +286,9 @@ flowchart LR
   <p>
     Esta serie traslada la violencia ejercida contra el paisaje natural a lienzos académicos rescatados de mi etapa en el taller de pintura de Gonzalo Díaz (DAV). Corrompo deliberadamente óleo y acrílico con fragmentos de afiches, vinilos, plásticos y materiales industriales, creando capas que simulan heridas abiertas e invaden la pintura clásica.
     <br><br>
-    Empleo soportes híbridos —telas, lonas publicitarias y paneles de PVC— para acentuar la antipatía entre materiales y subrayar que la crisis ecológica no distingue jerarquías. El choque entre lo sublime de la tradición pictórica y la agresividad industrial convierte cada obra en un pequeño ecocidio.
+    Empleo soportes híbridos —telas, lonas publicitarias y paneles de PVC— para acentuar la incompatibilidad entre materiales. El choque entre la tradición pictórica y el residuo industrial convierte la superficie en un cuerpo afectado: la contaminación deja de ser solamente un tema y pasa a formar parte de la construcción física de la imagen.
     <br><br>
-    Invirtiendo el gesto de Just Stop Oil, en lugar de atacar obras ajenas, infecto mi propia producción.
-    <br><br>
-    "kutxan pinturas" no son cuadros, sino síntomas de un colapso que funde naturaleza y cultura, arte y mercancía, lo sagrado y lo desechable. Un llamado a reconocer la huella de un sistema que devora toda pureza.
+    Las <em>Kutxan Pinturas</em> pueden leerse como síntomas materiales de una fricción entre naturaleza y cultura, arte y mercancía, permanencia y desecho.
   </p>
 </section>
 
