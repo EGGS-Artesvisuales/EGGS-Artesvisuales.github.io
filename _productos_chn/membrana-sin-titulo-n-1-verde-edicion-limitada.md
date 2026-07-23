@@ -2,8 +2,8 @@
 layout: producto-chn
 lang: zh-Hans
 store_lang: chn
-title: "Membrana sin título n.º 1 / Verde"
-description: "2008年限量版。现可购买，须先进行保存状况检查。"
+title: "Membrana sin título n.º 1 / Verde — 限量版"
+description: "源自2008年原作的限量版。20件 + 2件艺术家自存版，可直接购买。"
 sku: "EGGS-W0018-L01-P6060-F8080"
 work_id: "EGGS-W0018"
 fichas: "018"
@@ -20,7 +20,8 @@ year: "2008"
 price_clp: 290000
 price_display: "$290.000 CLP"
 stock: 20
-state: "现可购买，须先进行保存状况检查"
+state: "可购买"
+shipping_profile: "large"
 image: "/assets/img/tienda/EGGS-W0018-L01-P6060-F8080.webp"
 es_url: "/ES/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
 en_url: "/EN/products/membrana-sin-titulo-n-1-verde-edicion-limitada/"

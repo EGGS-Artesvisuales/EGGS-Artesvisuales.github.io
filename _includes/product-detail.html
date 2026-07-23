@@ -1,7 +1,11 @@
 {% assign product_t = site.data.store_i18n[page.store_lang] %}
 {% assign commerce_enabled = false %}
-{% if page.category == "impresiones-y-fotografia" %}
-  {% unless page.direct_purchase == false %}
+{% assign is_original_set = false %}
+{% if page.category == "obras-originales" and page.sku contains "EGGS-S" %}
+  {% assign is_original_set = true %}
+{% endif %}
+{% if page.category == "impresiones-y-fotografia" or page.category == "obras-originales" %}
+  {% unless page.direct_purchase == false or is_original_set %}
     {% if page.sku and page.price_clp and page.stock %}
       {% assign commerce_enabled = true %}
     {% endif %}
@@ -48,9 +52,23 @@
         {% endif %}
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
-      <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Edition, certificate and payment{% elsif page.store_lang == 'chn' %}版本、证书与支付{% elsif page.store_lang == 'mpd' %}Edición, certificado ka kullin{% else %}Edición, certificado y pago{% endif %}">
-        <strong>{% if page.store_lang == "en" %}Edition and certification{% elsif page.store_lang == "chn" %}版本与认证{% elsif page.store_lang == "mpd" %}Edición ka certificado{% else %}Edición y certificación{% endif %}</strong>
-        <p>{% if commerce_enabled %}{% if page.store_lang == "en" %}Direct-purchase editions are signed, numbered and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.{% elsif page.store_lang == "chn" %}可直接购买的版本由 EGGS-Studio 签名、编号并认证。付款通过 Mercado Pago 处理，运费会在付款前计算。{% elsif page.store_lang == "mpd" %}Rüf ngillakan edición firmangeay, rakin nieay ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.{% else %}Las ediciones con compra directa son firmadas, numeradas y certificadas por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.{% endif %}{% else %}{% if page.store_lang == "en" %}This work is handled by enquiry first so availability, certificate, delivery and final conditions can be confirmed before purchase.{% elsif page.store_lang == "chn" %}此作品需先咨询，以便在购买前确认可用性、证书、交付与最终条件。{% elsif page.store_lang == "mpd" %}Fachi küdaw wüño ramtun mew amuley, disponibilidad, certificado, eluwün ka fill az petu ngillal feypingeal.{% else %}Esta obra se gestiona por consulta para confirmar disponibilidad, certificado, entrega y condiciones finales antes de comprar.{% endif %}{% endif %}</p>
+      <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Work, certificate and payment{% elsif page.store_lang == 'chn' %}作品、证书与支付{% elsif page.store_lang == 'mpd' %}Az-küdaw, certificado ka kullin{% else %}Obra, certificado y pago{% endif %}">
+        <strong>{% if page.store_lang == "en" %}Authenticity and certification{% elsif page.store_lang == "chn" %}真实性与认证{% elsif page.store_lang == "mpd" %}Rüf az ka certificado{% else %}Autenticidad y certificación{% endif %}</strong>
+        <p>
+          {% if commerce_enabled %}
+            {% if page.store_lang == "en" %}{% if page.category == "obras-originales" %}This is a unique original work, signed and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.{% else %}This limited edition is signed, numbered and certified by EGGS-Studio. Payment is processed through Mercado Pago and shipping is calculated before payment.{% endif %}
+            {% elsif page.store_lang == "chn" %}{% if page.category == "obras-originales" %}这是由 EGGS-Studio 签名并认证的唯一原作。付款通过 Mercado Pago 处理，运费会在付款前计算。{% else %}此限量版由 EGGS-Studio 签名、编号并认证。付款通过 Mercado Pago 处理，运费会在付款前计算。{% endif %}
+            {% elsif page.store_lang == "mpd" %}{% if page.category == "obras-originales" %}Fachi kiñe müten original az-küdaw firmangechi ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.{% else %}Fachi pichi edición firmangeay, rakin nieay ka EGGS-Studio certificado egu. Mercado Pago mew kulliñ ka werkün petu kullin calculagey.{% endif %}
+            {% else %}{% if page.category == "obras-originales" %}Esta es una obra original única, firmada y certificada por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.{% else %}Esta edición limitada está firmada, numerada y certificada por EGGS-Studio. El pago se procesa por Mercado Pago y el despacho se calcula antes de pagar.{% endif %}
+            {% endif %}
+          {% else %}
+            {% if page.store_lang == "en" %}This work is handled by enquiry first so availability, certificate, delivery and final conditions can be confirmed before purchase.
+            {% elsif page.store_lang == "chn" %}此作品需先咨询，以便在购买前确认可用性、证书、交付与最终条件。
+            {% elsif page.store_lang == "mpd" %}Fachi küdaw wüño ramtun mew amuley, disponibilidad, certificado, eluwün ka fill az petu ngillal feypingeal.
+            {% else %}Esta obra se gestiona por consulta para confirmar disponibilidad, certificado, entrega y condiciones finales antes de comprar.
+            {% endif %}
+          {% endif %}
+        </p>
       </aside>
       <dl class="product-specs">
         {% if page.year %}<div><dt>{{ product_t.year }}</dt><dd>{{ page.year }}</dd></div>{% endif %}
@@ -72,9 +90,7 @@
             {% for related in related_products %}
               {% unless related.url == page.url %}
                 {% assign related_count = related_count | plus: 1 %}
-                {% if related_count <= 6 %}
-                  <li><a href="{{ related.url }}">{{ related.title }}</a>{% if related.price_display %} — {{ related.price_display }}{% endif %}</li>
-                {% endif %}
+                {% if related_count <= 6 %}<li><a href="{{ related.url }}">{{ related.title }}</a>{% if related.price_display %} — {{ related.price_display }}{% endif %}</li>{% endif %}
               {% endunless %}
             {% endfor %}
           {% endcapture %}

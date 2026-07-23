@@ -1,6 +1,10 @@
 {% assign purchase_mode = "consult" %}
-{% if include.product.category == "impresiones-y-fotografia" or include.product.category == "publicaciones" %}
-  {% unless include.product.direct_purchase == false %}
+{% assign is_original_set = false %}
+{% if include.product.category == "obras-originales" and include.product.sku contains "EGGS-S" %}
+  {% assign is_original_set = true %}
+{% endif %}
+{% if include.product.category == "impresiones-y-fotografia" or include.product.category == "publicaciones" or include.product.category == "obras-originales" %}
+  {% unless include.product.direct_purchase == false or is_original_set %}
     {% if include.product.sku and include.product.price_clp and include.product.stock %}{% assign purchase_mode = "direct" %}{% endif %}
   {% endunless %}
 {% endif %}
@@ -17,13 +21,13 @@
     <p class="shop-card__meta">
       {% if purchase_mode == "direct" %}
         {% if include.product.store_lang == "en" %}
-          Limited edition · signed · certified · direct checkout
+          {% if include.product.category == "obras-originales" %}Unique original · signed · certified · direct checkout{% else %}Limited edition · signed · certified · direct checkout{% endif %}
         {% elsif include.product.store_lang == "chn" %}
-          限量版 · 签名 · 认证 · 直接购买
+          {% if include.product.category == "obras-originales" %}唯一原作 · 签名 · 认证 · 直接购买{% else %}限量版 · 签名 · 认证 · 直接购买{% endif %}
         {% elsif include.product.store_lang == "mpd" %}
-          Pichi edición · firmangechi · certificado · rüf ngillakan
+          {% if include.product.category == "obras-originales" %}Kiñe müten original · firmangechi · certificado · rüf ngillakan{% else %}Pichi edición · firmangechi · certificado · rüf ngillakan{% endif %}
         {% else %}
-          Edición limitada · firmada · certificada · compra directa
+          {% if include.product.category == "obras-originales" %}Original único · firmado · certificado · compra directa{% else %}Edición limitada · firmada · certificada · compra directa{% endif %}
         {% endif %}
       {% else %}
         {% if include.product.store_lang == "en" %}

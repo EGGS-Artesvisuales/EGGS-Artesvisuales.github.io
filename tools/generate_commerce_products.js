@@ -6,7 +6,11 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const PRODUCTS_DIR = path.join(ROOT, "_productos_es");
 const OUTPUT_FILE = path.join(ROOT, "netlify", "lib", "products.js");
-const CHECKOUT_CATEGORIES = new Set(["impresiones-y-fotografia"]);
+const CHECKOUT_CATEGORIES = new Set([
+  "impresiones-y-fotografia",
+  "obras-originales",
+]);
+const VALID_SHIPPING_PROFILES = new Set(["small", "standard", "large", "oversized"]);
 const LOCALE_DIRECTORIES = Object.freeze({
   es: "_productos_es",
   en: "_productos_en",
@@ -22,7 +26,7 @@ const DELIVERY_OPTIONS = Object.freeze({
   chile_extreme: "Chile extremo o insular",
   international_americas: "Internacional — América",
   international_europe: "Internacional — Europa",
-  international_rest: "Internacional — resto del mundo",
+  international_rest: "Internacional — Asia, Oceanía y resto del mundo",
 });
 
 function parseScalar(rawValue) {
@@ -55,6 +59,43 @@ function readFrontMatter(filePath) {
   }, {});
 }
 
+function inferShippingProfile(data) {
+  const explicitProfile = String(data.shipping_profile || "").trim().toLowerCase();
+  if (VALID_SHIPPING_PROFILES.has(explicitProfile)) return explicitProfile;
+
+  const sku = String(data.sku || "").toUpperCase();
+  const title = String(data.title || "").toLowerCase();
+  const productType = String(data.product_type || "").toLowerCase();
+  const format = String(data.format || "");
+
+  if (sku.includes("PUB")) return "small";
+  if (sku.includes("F120170") || title.includes("el colgado")) return "oversized";
+  if (
+    sku.includes("F80130") ||
+    sku.includes("F8080") ||
+    sku.includes("F70120") ||
+    sku.includes("F70100")
+  ) {
+    return "large";
+  }
+
+  let longestSideCm = 0;
+  const dimensionPattern = /(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)\s*(cm|m)\b/gi;
+  for (const match of format.matchAll(dimensionPattern)) {
+    const multiplier = match[3].toLowerCase() === "m" ? 100 : 1;
+    const first = Number.parseFloat(match[1].replace(",", ".")) * multiplier;
+    const second = Number.parseFloat(match[2].replace(",", ".")) * multiplier;
+    if (Number.isFinite(first)) longestSideCm = Math.max(longestSideCm, first);
+    if (Number.isFinite(second)) longestSideCm = Math.max(longestSideCm, second);
+  }
+
+  if (longestSideCm > 160) return "oversized";
+  if (longestSideCm > 100) return "large";
+  if (longestSideCm > 0) return "standard";
+  if (productType.includes("conjunto original")) return "oversized";
+  return "standard";
+}
+
 const files = fs
   .readdirSync(PRODUCTS_DIR)
   .filter((file) => file.endsWith(".md"))
@@ -76,6 +117,13 @@ const products = files.map((file) => {
   const data = readFrontMatter(path.join(PRODUCTS_DIR, file));
   if (!CHECKOUT_CATEGORIES.has(data.category)) return null;
   if (data.direct_purchase === false || data.store_listed === false) return null;
+  if (
+    data.category === "obras-originales" &&
+    /conjunto original/i.test(String(data.product_type || ""))
+  ) {
+    return null;
+  }
+
   const required = ["sku", "title", "description", "price_clp", "stock"];
   for (const field of required) {
     if (data[field] === undefined || data[field] === "") {
@@ -109,9 +157,11 @@ const products = files.map((file) => {
     sku: String(data.sku),
     title: String(data.title),
     description: String(data.description),
+    category: String(data.category),
     unitPrice: data.price_clp,
     initialStock: data.stock,
     binaryMode: data.stock === 1,
+    shippingProfile: inferShippingProfile(data),
     localized,
   };
 }).filter(Boolean);
@@ -141,10 +191,12 @@ for (const product of products) {
   lines.push(`    sku: ${JSON.stringify(product.sku)},`);
   lines.push(`    title: ${JSON.stringify(product.title)},`);
   lines.push(`    description: ${JSON.stringify(product.description)},`);
+  lines.push(`    category: ${JSON.stringify(product.category)},`);
   lines.push('    currency: "CLP",');
   lines.push(`    unitPrice: ${product.unitPrice},`);
   lines.push(`    initialStock: ${product.initialStock},`);
   lines.push(`    binaryMode: ${product.binaryMode},`);
+  lines.push(`    shippingProfile: ${JSON.stringify(product.shippingProfile)},`);
   lines.push("    deliveryOptions: DELIVERY_OPTIONS,");
   lines.push("    localized: Object.freeze({");
   for (const [locale, translation] of Object.entries(product.localized)) {

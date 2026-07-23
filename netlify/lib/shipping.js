@@ -96,8 +96,12 @@ const SHIPPING_TARIFFS_CLP = Object.freeze({
 
 const INTERNATIONAL_PROTECTION_RATE = 0.015;
 const INTERNATIONAL_PROTECTION_MIN_CLP = 15000;
+const VALID_SHIPPING_PROFILES = new Set(["small", "standard", "large", "oversized"]);
 
 function inferShippingProfile(product) {
+  const generatedProfile = String(product?.shippingProfile || "").trim().toLowerCase();
+  if (VALID_SHIPPING_PROFILES.has(generatedProfile)) return generatedProfile;
+
   const sku = String(product?.sku || "").toUpperCase();
   const title = String(product?.title || "").toLowerCase();
 
