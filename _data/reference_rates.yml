@@ -1,0 +1,7 @@
+# Informative display rates only. Payments remain in CLP through Mercado Pago.
+updated_at: "2026-07-23"
+clp_per_usd: 936.39
+cny_per_usd: 6.7906
+sources:
+  usd: "Banco Central de Chile — dólar observado"
+  cny: "China Foreign Exchange Trade System — paridad central USD/CNY"

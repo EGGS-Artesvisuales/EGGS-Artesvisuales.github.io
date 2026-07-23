@@ -74,10 +74,10 @@ const SHIPPING_DESTINATIONS = Object.freeze({
   international_rest: Object.freeze({
     group: "international",
     labels: Object.freeze({
-      es: "Internacional — resto del mundo",
-      en: "International — rest of world",
-      mpd: "Ka mapu — kom mapu",
-      chn: "国际 — 世界其他地区",
+      es: "Internacional — Asia, Oceanía y resto del mundo",
+      en: "International — Asia, Oceania and rest of world",
+      mpd: "Ka mapu — Asia, Oceanía ka kom mapu",
+      chn: "国际 — 亚洲、大洋洲及世界其他地区",
     }),
   }),
 });
@@ -89,10 +89,13 @@ const SHIPPING_TARIFFS_CLP = Object.freeze({
   chile_north: Object.freeze({ small: 12000, standard: 24000, large: 38000, oversized: 70000 }),
   chile_south: Object.freeze({ small: 12000, standard: 26000, large: 42000, oversized: 76000 }),
   chile_extreme: Object.freeze({ small: 18000, standard: 42000, large: 68000, oversized: 120000 }),
-  international_americas: Object.freeze({ small: 45000, standard: 130000, large: 220000, oversized: 380000 }),
-  international_europe: Object.freeze({ small: 55000, standard: 160000, large: 280000, oversized: 460000 }),
-  international_rest: Object.freeze({ small: 70000, standard: 190000, large: 330000, oversized: 540000 }),
+  international_americas: Object.freeze({ small: 90000, standard: 140000, large: 230000, oversized: 390000 }),
+  international_europe: Object.freeze({ small: 125000, standard: 190000, large: 310000, oversized: 500000 }),
+  international_rest: Object.freeze({ small: 145000, standard: 220000, large: 360000, oversized: 580000 }),
 });
+
+const INTERNATIONAL_PROTECTION_RATE = 0.015;
+const INTERNATIONAL_PROTECTION_MIN_CLP = 15000;
 
 function inferShippingProfile(product) {
   const sku = String(product?.sku || "").toUpperCase();
@@ -117,21 +120,37 @@ function getDestinationLabel(destinationKey, locale = "es") {
   return destination.labels[locale] || destination.labels.es;
 }
 
+function calculateProtectionCost(product, destinationGroup) {
+  if (destinationGroup !== "international") return 0;
+  const declaredValue = Number(product?.unitPrice || 0);
+  if (!Number.isFinite(declaredValue) || declaredValue <= 0) return null;
+  return Math.max(
+    INTERNATIONAL_PROTECTION_MIN_CLP,
+    Math.round(declaredValue * INTERNATIONAL_PROTECTION_RATE),
+  );
+}
+
 function calculateShipping({ product, destinationKey, locale = "es" }) {
   const destination = SHIPPING_DESTINATIONS[destinationKey];
   const tariff = SHIPPING_TARIFFS_CLP[destinationKey];
   if (!destination || !tariff) return null;
 
   const profile = inferShippingProfile(product);
-  const cost = Number(tariff[profile]);
-  if (!Number.isInteger(cost) || cost < 0) return null;
+  const baseCost = Number(tariff[profile]);
+  const protectionCost = calculateProtectionCost(product, destination.group);
+  if (!Number.isInteger(baseCost) || baseCost < 0 || !Number.isInteger(protectionCost) || protectionCost < 0) {
+    return null;
+  }
 
   return Object.freeze({
     destinationKey,
     destinationGroup: destination.group,
     label: getDestinationLabel(destinationKey, locale),
     profile,
-    cost,
+    baseCost,
+    protectionCost,
+    protectionRate: destination.group === "international" ? INTERNATIONAL_PROTECTION_RATE : 0,
+    cost: baseCost + protectionCost,
     currency: "CLP",
   });
 }
@@ -139,6 +158,9 @@ function calculateShipping({ product, destinationKey, locale = "es" }) {
 module.exports = {
   SHIPPING_DESTINATIONS,
   SHIPPING_TARIFFS_CLP,
+  INTERNATIONAL_PROTECTION_RATE,
+  INTERNATIONAL_PROTECTION_MIN_CLP,
+  calculateProtectionCost,
   calculateShipping,
   getDestinationLabel,
   inferShippingProfile,
