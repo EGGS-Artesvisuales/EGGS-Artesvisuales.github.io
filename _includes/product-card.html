@@ -1,6 +1,6 @@
 {% assign purchase_mode = "consult" %}
 {% assign is_original_set = false %}
-{% if include.product.category == "obras-originales" and include.product.product_type contains "Conjunto" %}
+{% if include.product.category == "obras-originales" and include.product.sku contains "EGGS-S" %}
   {% assign is_original_set = true %}
 {% endif %}
 {% if include.product.category == "impresiones-y-fotografia" or include.product.category == "publicaciones" or include.product.category == "obras-originales" %}
