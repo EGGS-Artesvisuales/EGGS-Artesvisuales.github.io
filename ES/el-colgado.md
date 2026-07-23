@@ -12,6 +12,34 @@ mermaid: true
 <h1 class="titulo">El Colgado</h1>
 <h2 class="subtitulo">El cuerpo trabajador como imagen de suspensión</h2>
 
+<section class="parrafo">
+  <p>
+    <strong>El Colgado</strong> toma la figura XII del Tarot de Marsella —un cuerpo suspendido por un
+    pie— y la desplaza hacia espacios laborales. El artista aparece invertido, vestido con uniformes
+    de distintos oficios, de modo que la pausa ritual del arcano se transforma en una imagen de
+    dependencia, espera y vulnerabilidad económica.
+  </p>
+  <p>
+    La serie no representa el trabajo desde fuera: sitúa el cuerpo dentro de sus escenarios y
+    vestimentas. Construcción, supermercado, transporte, cocina y servicio se vuelven estaciones de
+    una misma pregunta por el valor asignado al tiempo y al cuerpo trabajador.
+  </p>
+  <p>
+    En el habla cotidiana, «quedar colgado» significa permanecer esperando, sin respuesta o sin
+    resolución. La expresión conecta la suspensión del arcano con la experiencia económica del
+    trabajador: un cuerpo cuyo tiempo queda sujeto a decisiones ajenas.
+  </p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, trabajador de la construcción" loading="lazy"><figcaption>Trabajador de la construcción.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, trabajador de supermercado" loading="lazy"><figcaption>Trabajador de supermercado.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, monitor de Transantiago" loading="lazy"><figcaption>Monitor de transporte público.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cocinero" loading="lazy"><figcaption>Cocinero.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, garzón" loading="lazy"><figcaption>Garzón.</figcaption></figure>
+</div>
+
+<h3 class="subtitulo2">UBICACIÓN EN EL MAPA CURATORIAL</h3>
 <div class="mermaid">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
@@ -35,27 +63,6 @@ flowchart LR
   click C3 "/ES/el-empaquetador.html" "Ir a El Empaquetador"
   click C4 "/ES/rostro-esperanza.html" "Ir a Rostro Esperanza"
   click C5 "/ES/tragedian.html" "Ir a Tragedian"
-</div>
-<section class="parrafo">
-  <p>
-    <strong>El Colgado</strong> toma la figura XII del Tarot de Marsella —un cuerpo suspendido por un
-    pie— y la desplaza hacia espacios laborales. El artista aparece invertido, vestido con uniformes
-    de distintos oficios, de modo que la pausa ritual del arcano se transforma en una imagen de
-    dependencia, espera y vulnerabilidad económica.
-  </p>
-  <p>
-    La serie no representa el trabajo desde fuera: sitúa el cuerpo dentro de sus escenarios y
-    vestimentas. Construcción, supermercado, transporte, cocina y servicio se vuelven estaciones de
-    una misma pregunta por el valor asignado al tiempo y al cuerpo trabajador.
-  </p>
-</section>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, trabajador de la construcción" loading="lazy"><figcaption>Trabajador de la construcción.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, trabajador de supermercado" loading="lazy"><figcaption>Trabajador de supermercado.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, monitor de Transantiago" loading="lazy"><figcaption>Monitor de transporte público.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cocinero" loading="lazy"><figcaption>Cocinero.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, garzón" loading="lazy"><figcaption>Garzón.</figcaption></figure>
 </div>
 
 <hr class="separador separador--aire" />

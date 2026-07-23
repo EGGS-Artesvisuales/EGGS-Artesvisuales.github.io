@@ -15,6 +15,25 @@ mermaid: true
 <h1 class="titulo">El Colgado</h1>
 <h2 class="subtitulo">作为悬置图像的劳动者身体</h2>
 
+<section class="parrafo">
+  <p><strong>El Colgado</strong> 取用马赛塔罗牌第十二张“倒吊者”——一具单脚悬挂的身体——
+  并把它移入工作场所。艺术家倒置身体，穿着不同行业制服，使塔罗中的仪式性停顿转化为
+  依赖、等待与经济脆弱性的图像。</p>
+  <p>建筑工地、超市、公共交通、厨房与服务业成为同一问题的不同场景：时间和劳动者身体
+  如何被赋予价值。</p>
+  <p>在智利日常西班牙语中，<em>quedar colgado</em> 意为被留在等待之中，得不到回应或结果。
+  这个说法把塔罗牌中的悬置与劳动者的经济处境连接起来：他的时间受制于他人的决定。</p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado，建筑工人" loading="lazy"><figcaption>建筑工人。</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado，超市工作人员" loading="lazy"><figcaption>超市工作人员。</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado，公共交通引导员" loading="lazy"><figcaption>公共交通引导员。</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado，厨师" loading="lazy"><figcaption>厨师。</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado，服务员" loading="lazy"><figcaption>服务员。</figcaption></figure>
+</div>
+
+<h3 class="subtitulo2">在策展地图中的位置</h3>
 <div class="mermaid">
 flowchart LR
   A((世界的再现)) --> T([有形])
@@ -38,21 +57,6 @@ flowchart LR
   click C3 "/CHN/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/CHN/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/CHN/tragedian.html" "前往 Tragedian"
-</div>
-<section class="parrafo">
-  <p><strong>El Colgado</strong> 取用马赛塔罗牌第十二张“倒吊者”——一具单脚悬挂的身体——
-  并把它移入工作场所。艺术家倒置身体，穿着不同行业制服，使塔罗中的仪式性停顿转化为
-  依赖、等待与经济脆弱性的图像。</p>
-  <p>建筑工地、超市、公共交通、厨房与服务业成为同一问题的不同场景：时间和劳动者身体
-  如何被赋予价值。</p>
-</section>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado，建筑工人" loading="lazy"><figcaption>建筑工人。</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado，超市工作人员" loading="lazy"><figcaption>超市工作人员。</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado，公共交通引导员" loading="lazy"><figcaption>公共交通引导员。</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado，厨师" loading="lazy"><figcaption>厨师。</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado，服务员" loading="lazy"><figcaption>服务员。</figcaption></figure>
 </div>
 
 <h3 class="subtitulo2">技术资料</h3>

@@ -12,6 +12,28 @@ mermaid: true
 <h1 class="titulo">El Colgado</h1>
 <h2 class="subtitulo">The working body as an image of suspension</h2>
 
+<section class="parrafo">
+  <p><strong>El Colgado</strong> takes card XII from the Tarot of Marseille —a body suspended by one
+  foot—and relocates it to workplaces. The artist appears upside down in the uniforms of different
+  occupations, turning the arcana's ritual pause into an image of dependence, waiting, and economic
+  vulnerability.</p>
+  <p>The series places the body inside the sites and clothing of labor. Construction, supermarket,
+  transport, kitchen, and service become stages in a shared question about the value assigned to
+  time and to the working body.</p>
+  <p>In everyday Chilean Spanish, <em>quedar colgado</em> means being left waiting, without an answer
+  or resolution. The expression connects the suspension of the tarot card to an economic
+  experience: a worker whose time remains subject to decisions made by others.</p>
+</section>
+
+<div class="owl-carousel carousel-imagen">
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, construction worker" loading="lazy"><figcaption>Construction worker.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, supermarket worker" loading="lazy"><figcaption>Supermarket worker.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, public transport monitor" loading="lazy"><figcaption>Public transport monitor.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cook" loading="lazy"><figcaption>Cook.</figcaption></figure>
+  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, waiter" loading="lazy"><figcaption>Waiter.</figcaption></figure>
+</div>
+
+<h3 class="subtitulo2">POSITION IN THE CURATORIAL MAP</h3>
 <div class="mermaid">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
@@ -35,23 +57,6 @@ flowchart LR
   click C3 "/EN/the-bagger.html" "Go to El Empaquetador"
   click C4 "/EN/face-of-hope.html" "Go to Rostro Esperanza"
   click C5 "/EN/tragedian.html" "Go to Tragedian"
-</div>
-<section class="parrafo">
-  <p><strong>El Colgado</strong> takes card XII from the Tarot of Marseille —a body suspended by one
-  foot—and relocates it to workplaces. The artist appears upside down in the uniforms of different
-  occupations, turning the arcana's ritual pause into an image of dependence, waiting, and economic
-  vulnerability.</p>
-  <p>The series places the body inside the sites and clothing of labor. Construction, supermarket,
-  transport, kitchen, and service become stages in a shared question about the value assigned to
-  time and to the working body.</p>
-</section>
-
-<div class="owl-carousel carousel-imagen">
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-obrero.webp" alt="El Colgado, construction worker" loading="lazy"><figcaption>Construction worker.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-lider.webp" alt="El Colgado, supermarket worker" loading="lazy"><figcaption>Supermarket worker.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-transantiago.webp" alt="El Colgado, public transport monitor" loading="lazy"><figcaption>Public transport monitor.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-cocinero.webp" alt="El Colgado, cook" loading="lazy"><figcaption>Cook.</figcaption></figure>
-  <figure class="imagen-con-caption item--imagen"><img class="carousel-img" src="/assets/img/intangible/el-colgado-garzon.webp" alt="El Colgado, waiter" loading="lazy"><figcaption>Waiter.</figcaption></figure>
 </div>
 
 <h3 class="subtitulo2">TECHNICAL SHEET</h3>

@@ -24,6 +24,12 @@ mermaid: true
   <p>La serie agrupa acciones y registros como <strong>PP Series</strong>, <strong>Serie de los Carteles</strong> y <strong>Piratería Publicitaria</strong>, donde la imagen comercial se reapropia, se altera y vuelve al espacio público como ruido simbólico.</p>
 </section>
 
+<h3 class="subtitulo2">CONTEXTO Y GENEALOGÍA</h3>
+<section class="parrafo">
+  <p>Estas intervenciones dialogan con estrategias de <em>détournement</em> y contrapublicidad: apropiarse del lenguaje dominante para alterar su mensaje desde dentro. En el contexto chileno, se relacionan también con una historia de prácticas que utilizaron la calle, los medios y la señalética como territorios de disputa simbólica, desde las acciones del CADA hasta las intervenciones de Lotty Rosenfeld.</p>
+  <p>Esta relación no propone una equivalencia ni una filiación directa. Sitúa la serie dentro de un campo de problemas compartidos: quién controla la imagen pública, cómo circulan los mensajes y qué ocurre cuando los códigos comerciales son devueltos a la ciudad con otro sentido.</p>
+</section>
+
 <div class="button-container">
   <a class="fancy-button" href="/ES/subrep-antipublicidad.html"><div class="button-content"><p class="title">Ver archivo</p><p class="subtitle">Categoría curatorial completa.</p></div></a>
   <a class="fancy-button" href="/ES/productos/pp-series-publicacion/"><div class="button-content"><p class="title">PP Series</p><p class="subtitle">Publicación relacionada.</p></div></a>

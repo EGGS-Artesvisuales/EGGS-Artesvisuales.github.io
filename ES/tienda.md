@@ -12,3 +12,9 @@ zh_url: /CHN/tienda.html
 keywords: "tienda de arte, obras originales, impresiones artísticas, fotografía, prints de edición limitada, EGGS-Studio"
 ---
 {% include store-catalog.html %}
+
+<section class="product-delivery" aria-labelledby="ediciones-circulacion">
+  <h2 id="ediciones-circulacion">Ediciones y circulación</h2>
+  <p>EGGS-Studio distingue entre la investigación artística, las obras originales y sus formas de circulación. Las ediciones, publicaciones y reproducciones permiten ampliar el acceso a determinadas imágenes y sostener económicamente la continuidad del trabajo.</p>
+  <p>Esta circulación no elimina la tensión entre arte, consumo y mercancía. La reconoce como parte de las condiciones materiales desde las que la obra se produce, se comparte y encuentra nuevos contextos.</p>
+</section>
