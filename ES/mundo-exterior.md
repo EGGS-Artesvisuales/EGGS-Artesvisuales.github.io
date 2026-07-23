@@ -1,182 +1,201 @@
 ---
 layout: default-es
 lang: es
-title: "Representación del Mundo – Serie de obras de Esteban Garnica"
-description: "Serie de obras de Esteban Garnica que interpretan el mundo exterior a través de una mirada crítica, estética y contemporánea."
+title: "Representación del Mundo – Obra de Esteban Garnica"
+description: "Obras y procesos de Esteban Garnica que observan el presente desde dos dimensiones: lo tangible y lo intangible."
 permalink: /ES/mundo-exterior.html
-keywords: "Representación del Mundo, mundo exterior, arte contemporáneo, paisaje simbólico, lectura visual del entorno, Esteban Garnica, EGGS-Studio"
+es_url: /ES/mundo-exterior.html
+en_url: /EN/world-representation.html
+mpd_url: /MPD/mundo-exterior.html
+zh_url: /CHN/mundo-exterior.html
+keywords: "Representación del Mundo, mundo exterior, arte contemporáneo, paisaje simbólico, cultura visual, Esteban Garnica, EGGS-Studio"
+image: /assets/img/pes-pint-produccion-Serie01-000b.jpg
+image_alt: "Cuatro pinturas de Esteban Garnica reunidas en una composición"
 mermaid: true
 ---
 
-<h1 class="titulo">Representación del Mundo</h1>
-<h2 class="subtitulo">Retrato de lo contemporáneo</h2>
-<br>
-<div class="mermaid">
-flowchart LR
-  principal((Actividad Artística))
+<link rel="stylesheet" href="/assets/css/world-representation.css">
+
+<div class="world-page">
+  <section class="world-hero" aria-labelledby="world-title">
+    <div class="world-hero__copy">
+      <p class="world-kicker">Eje 01 · Actividad artística</p>
+      <h1 id="world-title">Representación<br>del mundo</h1>
+      <p class="world-hero__lead">Un retrato crítico de lo contemporáneo a través de sus materias visibles y de las fuerzas que, aun sin verse, organizan nuestra experiencia.</p>
+      <div class="world-actions">
+        <a href="#tangible" class="world-button world-button--primary">Explorar lo tangible</a>
+        <a href="#intangible" class="world-button">Explorar lo intangible</a>
+      </div>
+    </div>
+    <figure class="world-hero__media">
+      <img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Cuatro pinturas de Esteban Garnica que combinan banderas, objetos y superficies intervenidas">
+      <figcaption><span>Pintura como origen</span><span>No como límite</span></figcaption>
+    </figure>
+  </section>
+
+  <section class="world-intro" aria-labelledby="world-intro-title">
+    <p class="world-section__eyebrow">Punto de partida</p>
+    <div class="world-intro__grid">
+      <h2 id="world-intro-title">Observar lo que tenemos enfrente. Dar forma a lo que no se ve.</h2>
+      <div class="world-intro__copy">
+        <p>La pintura es el lenguaje de base de esta investigación, pero no su frontera. Las obras se desplazan hacia la fotografía, los objetos, la instalación y los medios digitales cuando la pregunta lo exige.</p>
+        <p>El recorrido se organiza en dos dimensiones complementarias. <strong>Lo tangible</strong> atiende al mundo físico y material; <strong>lo intangible</strong> explora ideas, memorias y estructuras que influyen sobre la vida sin manifestarse de manera directa.</p>
+      </div>
+    </div>
+  </section>
+
+  <nav class="world-dimensions" aria-label="Dimensiones de Representación del Mundo">
+    <a href="#tangible" class="world-dimension">
+      <span class="world-dimension__number">01</span>
+      <span class="world-dimension__copy">
+        <strong>Lo Tangible</strong>
+        <span>Paisaje, objetos y condiciones materiales del presente.</span>
+      </span>
+      <span class="world-dimension__arrow" aria-hidden="true">↓</span>
+    </a>
+    <a href="#intangible" class="world-dimension">
+      <span class="world-dimension__number">02</span>
+      <span class="world-dimension__copy">
+        <strong>Lo Intangible</strong>
+        <span>Imaginarios, memoria y fuerzas culturales.</span>
+      </span>
+      <span class="world-dimension__arrow" aria-hidden="true">↓</span>
+    </a>
+  </nav>
+
+  <section id="tangible" class="world-section" aria-labelledby="tangible-title">
+    <header class="world-section__heading">
+      <div>
+        <p class="world-section__eyebrow">Dimensión 01</p>
+        <h2 id="tangible-title">Lo Tangible</h2>
+      </div>
+      <div class="world-section__intro">
+        <p>Obras enfocadas en los aspectos físicos del entorno: el paisaje local, los objetos cotidianos y las escenas que configuran la experiencia inmediata.</p>
+        <a href="/ES/tangible.html" class="world-text-link">Profundizar en esta dimensión</a>
+      </div>
+    </header>
+
+    <div class="world-series world-series--two">
+      <a href="/ES/saturacion.html" class="world-card world-card--featured">
+        <div class="world-card__image">
+          <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Obras de la serie La Saturación" loading="lazy">
+        </div>
+        <div class="world-card__body">
+          <p class="world-card__meta"><span>Serie abierta</span><span>01.1</span></p>
+          <h3>La Saturación</h3>
+          <p>Contaminación, sobrecarga visual, exceso informativo y presión sensorial como condiciones de época.</p>
+          <span class="world-card__link">Entrar a la serie</span>
+        </div>
+      </a>
+
+      <a href="/ES/en-construccion.html" class="world-card">
+        <div class="world-card__image">
+          <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="Investigación visual sobre tecnología y entorno contemporáneo" loading="lazy">
+          <span class="world-status">En desarrollo</span>
+        </div>
+        <div class="world-card__body">
+          <p class="world-card__meta"><span>Línea de investigación</span><span>01.2</span></p>
+          <h3>La Tecnología</h3>
+          <p>Mediaciones técnicas que transforman nuestra percepción, nuestros vínculos y la manera de habitar el entorno.</p>
+          <span class="world-card__link">Ver estado de investigación</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="intangible" class="world-section" aria-labelledby="intangible-title">
+    <header class="world-section__heading">
+      <div>
+        <p class="world-section__eyebrow">Dimensión 02</p>
+        <h2 id="intangible-title">Lo Intangible</h2>
+      </div>
+      <div class="world-section__intro">
+        <p>Obras que buscan hacer visibles ideas, memorias y estructuras sociales que influyen sobre la experiencia, aunque no adopten una forma física inmediata.</p>
+        <a href="/ES/intangible.html" class="world-text-link">Profundizar en esta dimensión</a>
+      </div>
+    </header>
+
+    <div class="world-series world-series--three">
+      <a href="/ES/imagenes-capitalismo.html" class="world-card">
+        <div class="world-card__image">
+          <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Obras de la serie Imágenes del Capitalismo" loading="lazy">
+        </div>
+        <div class="world-card__body">
+          <p class="world-card__meta"><span>Serie</span><span>02.1</span></p>
+          <h3>Imágenes del Capitalismo</h3>
+          <p>Signos, deseos y tensiones producidos por las estructuras económicas.</p>
+          <span class="world-card__link">Entrar a la serie</span>
+        </div>
+      </a>
+
+      <a href="/ES/imagenes-popular.html" class="world-card">
+        <div class="world-card__image">
+          <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Obras de la serie Imágenes de lo Popular" loading="lazy">
+        </div>
+        <div class="world-card__body">
+          <p class="world-card__meta"><span>Serie</span><span>02.2</span></p>
+          <h3>Imágenes de lo Popular</h3>
+          <p>Códigos compartidos, tradiciones y expresiones de la cultura colectiva.</p>
+          <span class="world-card__link">Entrar a la serie</span>
+        </div>
+      </a>
+
+      <a href="/ES/imagenes-ancestros.html" class="world-card">
+        <div class="world-card__image">
+          <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Obras de la serie Imágenes de los Ancestros" loading="lazy">
+        </div>
+        <div class="world-card__body">
+          <p class="world-card__meta"><span>Serie</span><span>02.3</span></p>
+          <h3>Imágenes de los Ancestros</h3>
+          <p>Memoria, legado y vínculos simbólicos con quienes nos precedieron.</p>
+          <span class="world-card__link">Entrar a la serie</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="world-map" aria-labelledby="world-map-title">
+    <header class="world-map__heading">
+      <div>
+        <p class="world-section__eyebrow">Segunda capa</p>
+        <h2 id="world-map-title">Mapa conceptual</h2>
+      </div>
+      <p>Una lectura sintética de las relaciones entre ambas dimensiones y las líneas de trabajo que contienen.</p>
+    </header>
+    <div class="world-map__diagram mermaid">
+flowchart TB
   representacion(("Representación del Mundo"))
-  accion(["Acción en el Mundo"])
-  interior(["Mundo Interior"])
-
-  principal --> representacion
-  principal --> accion
-  principal --> interior
-
-  representacion --> tangible(["Lo Tangible"])
-  representacion --> intangible(["Lo Intangible"])
-
-  click principal "/ES/index.html" "Ir al Inicio"
-  click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/ES/tangible.html" "Ir a Lo Tangible"
-  click intangible "/ES/intangible.html" "Ir a Lo Intangible"
-  click accion "/ES/accion.html" "Ir a Acción en el Mundo"
-  click interior "/ES/interior.html" "Ir a Mundo Interior"
-</div>
-
-<br>
-
-<p class="parrafo" style="margin-top: 6%;">
-  Desde los inicios de la humanidad, la pintura y las artes visuales han sido una vía para comprender el mundo y dar forma a aquello que nos rodea. Desde las primeras marcas en las cuevas hasta las prácticas actuales, el arte ha intentado no solo reproducir lo visible, sino interpretar sus significados profundos. Esta búsqueda ha impulsado una evolución constante en técnicas, lenguajes y formas de pensar la imagen.
-</p>
-
-<p class="parrafo">
-  En la actualidad, el diálogo con la realidad se expande más allá de los soportes clásicos. Las prácticas contemporáneas combinan la tradición pictórica con instalaciones, fotografía, objetos y medios digitales, abriendo nuevas posibilidades para observar, cuestionar y reinterpretar nuestra experiencia. La pintura sigue siendo un origen fértil, pero no un límite.
-</p>
-
-<p class="parrafo">
-  Esta sección reúne obras y procesos que buscan capturar la esencia de lo contemporáneo desde dos dimensiones complementarias: lo tangible —el mundo físico y material— y lo intangible —las ideas, fuerzas y fenómenos que influyen en nuestra experiencia sin estar directamente a la vista. Cada obra nace desde la pintura y se despliega hacia formas híbridas y actuales.
-</p>
-
-<p class="parrafo">
-  El recorrido se organiza de la siguiente manera:
-</p>
-
-
-<br><br>
-
-
-<h2 class="subtitulo">Lo Tangible</h2>
-
-<div class="mermaid">
-flowchart LR
-  representacion((Representación del Mundo))
-  tangible(("Lo Tangible"))
+  tangible(["Lo Tangible"])
   intangible(["Lo Intangible"])
 
   representacion --> tangible
   representacion --> intangible
 
   tangible --> saturacion(["La Saturación"])
-  tangible --> tecnologia(["La Tecnología"])
-
-  click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
-  click tangible "/ES/tangible.html" "Ir a Lo Tangible"
-  click saturacion "/ES/saturacion.html" "Ir a La Saturación"
-  click tecnologia "/ES/en-construccion.html" "Ir a La Tecnología"
-  click intangible "/ES/intangible.html" "Ir a Lo Intangible"
-</div>
-<br>
-
-<p class="parrafo">
-  Esta categoría reúne obras enfocadas en los aspectos físicos y materiales del entorno: paisaje local, objetos cotidianos y escenas que configuran la experiencia inmediata. El propósito es observar lo que tenemos enfrente con atención sostenida, reconociendo su densidad simbólica y su incidencia en la vida diaria.
-</p>
-
-<p class="parrafo">
-  Cada serie recibe un nombre asociado a un rasgo significativo del presente. Así, la colección permanece abierta y en permanente actualización, capaz de incorporar nuevas series a medida que emergen fenómenos, hábitos y sensibilidades que reconfiguran lo contemporáneo.
-</p>
-
-<p class="parrafo">
-  Dentro de “Lo Tangible” se organizan, por ahora, dos series nacidas de una misma pregunta: ¿qué fuerzas dominantes del presente quedan inscritas en el mundo material? La primera es <strong>La Saturación</strong>, que aborda distintas formas de contaminación y sobrecarga —ambiental, visual, informativa y sensorial— como condición de época. La segunda es <strong>La Tecnología</strong>, entendida como un conjunto de mediaciones que altera nuestra percepción, nuestros vínculos y la forma en que el entorno se produce y se habita.
-</p>
-
-<p class="parrafo">
-  En ambos casos parto desde la pintura como lenguaje de base, pero el trabajo se despliega en dos líneas complementarias: un cuerpo de <strong>pinturas</strong> y otro de <strong>desplazamientos de la pintura</strong>, donde el gesto pictórico se expande hacia formatos híbridos, medios mixtos e intervenciones contemporáneas. Esta estructura permite sostener una investigación coherente y, a la vez, flexible: la pintura como origen, no como límite.
-</p>
-
-<br><br>
-
-
-<div class="button-container">
-  <a href="/ES/saturacion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="La Saturación">
-      <p class="title">La Saturación</p>
-      <p class="subtitle">Fenómenos ecológicos y producción capitalista</p>
-    </div>
-  </a>
-
-  <a href="/ES/en-construccion.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="La Tecnología">
-      <p class="title">La Tecnología</p>
-      <p class="subtitle">Influencias en el entorno contemporáneo</p>
-    </div>
-  </a>
-</div>
-
-<hr class="separador separador--medio" />
-
-<h2 class="subtitulo">Lo Intangible</h2>
-
-<div class="mermaid">
-flowchart LR
-  representacion((Representación del Mundo))
-  tangible(["Lo Tangible"])
-  intangible(("Lo Intangible"))
-
-  representacion --> tangible
-  representacion --> intangible
-
+  tangible --> tecnologia(["La Tecnología · en desarrollo"])
   intangible --> capitalismo(["Imágenes del Capitalismo"])
-  intangible --> ancestros(["Imágenes de los Ancestros"])
   intangible --> popular(["Imágenes de lo Popular"])
+  intangible --> ancestros(["Imágenes de los Ancestros"])
 
-  click representacion "/ES/mundo-exterior.html" "Ir a Representación del Mundo"
   click tangible "/ES/tangible.html" "Ir a Lo Tangible"
   click intangible "/ES/intangible.html" "Ir a Lo Intangible"
+  click saturacion "/ES/saturacion.html" "Ir a La Saturación"
+  click tecnologia "/ES/en-construccion.html" "Ver línea en desarrollo"
   click capitalismo "/ES/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
-  click ancestros "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
   click popular "/ES/imagenes-popular.html" "Ir a Imágenes de lo Popular"
+  click ancestros "/ES/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+    </div>
+    <a href="/ES/diagrama.html" class="world-text-link">Abrir el mapa completo de la obra</a>
+  </section>
+
+  <section class="world-next" aria-labelledby="world-next-title">
+    <div>
+      <p class="world-section__eyebrow">Continuar el recorrido</p>
+      <h2 id="world-next-title">Ver la obra desde sus imágenes, series y relaciones.</h2>
+    </div>
+    <div class="world-actions">
+      <a href="/ES/obra.html#series-obra" class="world-button world-button--primary">Explorar las series</a>
+      <a href="/ES/obra.html" class="world-button">Volver al índice de obra</a>
+    </div>
+  </section>
 </div>
-
-
-<p class="parrafo">
-  Esta categoría reúne obras que exploran fenómenos sociales, culturales y abstractos, dirigiéndose hacia ideas, emociones y fuerzas que influyen en la vida sin manifestarse directamente en lo físico. La creación busca dar forma a aquello que se intuye o se imagina, abriendo espacio a lecturas simbólicas y reflexiones profundas sobre el presente.
-</p>
-
-<p class="parrafo">
-  Al igual que en la dimensión de lo tangible, esta colección permanece abierta: nuevas series pueden incorporarse a medida que surjan conceptos o problemáticas que dialoguen con la realidad contemporánea.
-</p>
-
-<br>
-
-<div class="button-container">
-
-  <a href="/ES/imagenes-capitalismo.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/imagenes-del-capitalismo.webp" alt="Imágenes del Capitalismo">
-      <p class="title">Imágenes del Capitalismo</p>
-      <p class="subtitle">Reflexiones sobre estructuras económicas</p>
-    </div>
-  </a>
-
-  <a href="/ES/imagenes-popular.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-lo-popular.webp" alt="Imágenes de lo Popular">
-      <p class="title">Imágenes de lo Popular</p>
-      <p class="subtitle">Cultura, tradiciones y expresiones colectivas</p>
-    </div>
-  </a>
-
-  <a href="/ES/imagenes-ancestros.html" class="fancy-button">
-    <div class="button-content">
-      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Imágenes de los Ancestros">
-      <p class="title">Imágenes de los Ancestros</p>
-      <p class="subtitle">Conexiones con memoria y legado</p>
-    </div>
-  </a>
-
-</div>
-
-
-<br>
