@@ -35,6 +35,9 @@
         {% endif %}
         <span>{{ product_t.price }}</span>
         <strong>{{ page.price_display }}</strong>
+        {% if commerce_enabled and page.store_lang != "es" %}
+          <small class="product-view__reference-price" data-reference-price data-clp="{{ page.price_clp }}" data-reference-currency="{% if page.store_lang == 'en' %}USD{% elsif page.store_lang == 'chn' %}CNY{% else %}USDC{% endif %}" aria-live="polite"></small>
+        {% endif %}
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
       <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Edition, certificate and payment{% elsif page.store_lang == 'chn' %}版本、证书与支付{% elsif page.store_lang == 'mpd' %}Edición, certificado ka kullin{% else %}Edición, certificado y pago{% endif %}">
@@ -78,7 +81,7 @@
       {% if page.delivery_note or commerce_enabled %}
         <aside class="product-delivery" aria-label="{{ product_t.checkout.delivery_heading | escape }}">
           <strong>{{ product_t.checkout.delivery_heading }}</strong>
-          <p>{% if commerce_enabled %}{% if page.store_lang == "en" %}Santiago delivery is free. For the rest of Chile and international destinations, shipping is calculated by zone and added to Mercado Pago before payment.{% elsif page.store_lang == "chn" %}圣地亚哥市内免费交付。智利其他地区及国际目的地的运费会按区域计算，并在 Mercado Pago 付款前加入总额。{% elsif page.store_lang == "mpd" %}Santiago mew eluwün falintun-ngeay. Ka Chile mapu ka ka mapu mew werkün ñi falintun calculagey ka Mercado Pago mew feypingeay petu kullin.{% else %}Entrega sin costo en Santiago. Para regiones de Chile y destinos internacionales, el despacho se calcula por zona y se suma en Mercado Pago antes de pagar.{% endif %}{% elsif page.delivery_note %}{{ page.delivery_note }}{% else %}{{ product_t.checkout.delivery_note }}{% endif %}</p>
+          <p>{% if commerce_enabled %}{% if page.store_lang == "en" %}Santiago delivery is free. Shipping elsewhere is calculated by destination and package profile. International shipping also includes protection and specialized packing equal to 1.5% of the work value, with a CLP 15,000 minimum. The complete amount is shown in Mercado Pago before payment. Import duties and destination taxes are not included.{% elsif page.store_lang == "chn" %}圣地亚哥市内免费交付。其他地区的运费按目的地和包装规格计算。国际配送另收作品价值1.5%的保护与专业包装费用，最低为15,000智利比索。完整金额会在付款前显示于 Mercado Pago。目的地关税和进口税不包含在内。{% elsif page.store_lang == "mpd" %}Santiago mew eluwün falintun-ngeay. Ka püle werkün mapu ka embalaje perfil mew calculagey. Ka mapu werkün mew az-küdaw falintun ñi 1,5% protección ka küme embalaje konkey, 15.000 CLP müten minimu. Kom falintun Mercado Pago mew pefingeay petu kullin. Aduana ka destino impuesto konkelay.{% else %}Entrega sin costo en Santiago. Para otros destinos, el despacho se calcula por zona y perfil de embalaje. Los envíos internacionales incorporan protección y embalaje especializado equivalentes al 1,5 % del valor de la obra, con un mínimo de $15.000 CLP. El monto completo se muestra en Mercado Pago antes de pagar. Los aranceles e impuestos del país de destino no están incluidos.{% endif %}{% elsif page.delivery_note %}{{ page.delivery_note }}{% else %}{{ product_t.checkout.delivery_note }}{% endif %}</p>
         </aside>
       {% endif %}
       {% if commerce_enabled %}
@@ -103,9 +106,9 @@
             <option value="chile_extreme">Chile extremo o insular</option>
             <option value="international_americas">Internacional — América</option>
             <option value="international_europe">Internacional — Europa</option>
-            <option value="international_rest">Internacional — resto del mundo</option>
+            <option value="international_rest">Internacional — Asia, Oceanía y resto del mundo</option>
           </select>
-          <p class="product-checkout__shipping-note">{% if page.store_lang == "en" %}Shipping is calculated from EGGS-Studio's own zone table and shown separately in Mercado Pago before payment.{% elsif page.store_lang == "chn" %}运费将根据 EGGS-Studio 的区域表计算，并在 Mercado Pago 付款前单独显示。{% elsif page.store_lang == "mpd" %}Werkün ñi falintun EGGS-Studio ñi zona tabla mew calculagey ka Mercado Pago mew müley petu kullin.{% else %}El despacho se calcula con una tabla propia por zona y se muestra separado en Mercado Pago antes de pagar.{% endif %}</p>
+          <p class="product-checkout__shipping-note">{% if page.store_lang == "en" %}Shipping and, where applicable, protection and specialized packing are shown separately in Mercado Pago before payment.{% elsif page.store_lang == "chn" %}运费以及适用的保护与专业包装费用会在付款前于 Mercado Pago 中单独显示。{% elsif page.store_lang == "mpd" %}Werkün, protección ka küme embalaje falintun Mercado Pago mew müley petu kullin.{% else %}El despacho y, cuando corresponde, la protección y el embalaje especializado se muestran separados en Mercado Pago antes de pagar.{% endif %}</p>
           <label class="product-checkout__consent"><input name="privacy_consent" type="checkbox" required><span>{{ product_t.checkout.privacy_consent }}</span></label>
           <p class="product-checkout__terms">{{ product_t.checkout.terms_prefix }} <a href="{{ product_t.checkout.terms_url }}">{{ product_t.checkout.terms_label }}</a>.</p>
           <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
