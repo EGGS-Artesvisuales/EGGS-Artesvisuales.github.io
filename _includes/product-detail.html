@@ -109,7 +109,7 @@
         </aside>
       {% endif %}
       {% if commerce_enabled %}
-        <form class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}" data-checkout-lang="{{ page.store_lang | escape }}">
+        <form id="comprar" class="product-checkout" data-mercadopago-checkout data-sku="{{ page.sku | escape }}" data-checkout-lang="{{ page.store_lang | escape }}">
           <fieldset class="product-checkout__buyer">
             <legend>{{ product_t.checkout.buyer_heading }}</legend>
             <p>{{ product_t.checkout.buyer_note }}</p>
