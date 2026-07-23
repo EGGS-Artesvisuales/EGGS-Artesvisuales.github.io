@@ -59,31 +59,6 @@ function readFrontMatter(filePath) {
   }, {});
 }
 
-function splitCommaSeparated(value) {
-  return String(value || "")
-    .split(",")
-    .map((item) => item.trim())
-    .filter(Boolean);
-}
-
-function inventoryUnitsFor(data) {
-  const explicitUnits = splitCommaSeparated(data.inventory_skus);
-  if (explicitUnits.length) return [...new Set(explicitUnits)];
-
-  const isOriginalSet =
-    data.category === "obras-originales" &&
-    /conjunto original/i.test(String(data.product_type || ""));
-  if (isOriginalSet) {
-    const componentUnits = splitCommaSeparated(data.fichas)
-      .map((value) => Number.parseInt(value, 10))
-      .filter((value) => Number.isInteger(value) && value > 0)
-      .map((value) => `EGGS-W${String(value).padStart(4, "0")}-ORI`);
-    if (componentUnits.length) return [...new Set(componentUnits)];
-  }
-
-  return [String(data.sku)];
-}
-
 function inferShippingProfile(data) {
   const explicitProfile = String(data.shipping_profile || "").trim().toLowerCase();
   if (VALID_SHIPPING_PROFILES.has(explicitProfile)) return explicitProfile;
@@ -142,6 +117,13 @@ const products = files.map((file) => {
   const data = readFrontMatter(path.join(PRODUCTS_DIR, file));
   if (!CHECKOUT_CATEGORIES.has(data.category)) return null;
   if (data.direct_purchase === false || data.store_listed === false) return null;
+  if (
+    data.category === "obras-originales" &&
+    /conjunto original/i.test(String(data.product_type || ""))
+  ) {
+    return null;
+  }
+
   const required = ["sku", "title", "description", "price_clp", "stock"];
   for (const field of required) {
     if (data[field] === undefined || data[field] === "") {
@@ -180,7 +162,6 @@ const products = files.map((file) => {
     initialStock: data.stock,
     binaryMode: data.stock === 1,
     shippingProfile: inferShippingProfile(data),
-    inventoryUnits: inventoryUnitsFor(data),
     localized,
   };
 }).filter(Boolean);
@@ -216,7 +197,6 @@ for (const product of products) {
   lines.push(`    initialStock: ${product.initialStock},`);
   lines.push(`    binaryMode: ${product.binaryMode},`);
   lines.push(`    shippingProfile: ${JSON.stringify(product.shippingProfile)},`);
-  lines.push(`    inventoryUnits: Object.freeze(${JSON.stringify(product.inventoryUnits)}),`);
   lines.push("    deliveryOptions: DELIVERY_OPTIONS,");
   lines.push("    localized: Object.freeze({");
   for (const [locale, translation] of Object.entries(product.localized)) {
