@@ -1,8 +1,6 @@
-<!-- header-en.html -->
-
-<!-- Header Image -->
+<!-- Main header in English -->
 <div class="site-masthead" aria-label="EGGS-Studio">
-  <a href="/EN/index.html" class="site-masthead__brand" aria-label="Go to EGGS-Studio home">
+  <a href="/EN/index.html" class="site-masthead__brand" aria-label="Go to the EGGS-Studio home page">
     <img src="/assets/img/EGGSLOGOindex1.png" alt="" class="site-masthead__logo" aria-hidden="true">
     <span class="site-masthead__copy">
       <span class="site-masthead__title">EGGS-Studio</span>
@@ -29,63 +27,15 @@
 
   <ul class="nav-menu" id="nav-menu" role="menu">
     <li class="nav-logo" role="none">
-      <a href="/" aria-label="EGGS-Studio landing">
-        <img src="/assets/img/EGGSLOGOindex1.png" alt="Logo" class="logo-menu">
+      <a href="/" aria-label="EGGS-Studio entrance">
+        <img src="/assets/img/EGGSLOGOindex1.png" alt="EGGS-Studio" class="logo-menu">
       </a>
     </li>
 
     <li role="none"><a href="/EN/index.html" role="menuitem">Home</a></li>
-
-    <li class="dropdown" role="none">
-      <a href="/EN/work.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Work</a>
-      <ul class="dropdown-menu" role="menu">
-        <li class="dropdown-sub" role="none">
-          <a href="/EN/world-representation.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Representation of the world</a>
-          <ul class="dropdown-menu-sub" role="menu">
-            <li role="none"><a href="/EN/saturation.html" role="menuitem">Saturation</a></li>
-            <li role="none"><a href="/EN/images-of-capitalism.html" role="menuitem">Capitalism</a></li>
-            <li role="none"><a href="/EN/images-of-the-popular.html" role="menuitem">The popular</a></li>
-            <li role="none"><a href="/EN/images-of-the-ancestors.html" role="menuitem">The ancestral</a></li>
-          </ul>
-        </li>
-        <li class="dropdown-sub" role="none">
-          <a href="/EN/action.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Action in the world</a>
-          <ul class="dropdown-menu-sub" role="menu">
-            <li role="none"><a href="/EN/subreptitious.html" role="menuitem">The subreptitious</a></li>
-            <li class="dropdown-sub" role="none">
-              <a href="/EN/community.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Community</a>
-              <ul class="dropdown-menu-sub" role="menu">
-                <li role="none"><a href="/EN/muralism-facilitation.html" role="menuitem">Collaborative muralism</a></li>
-                <li role="none"><a href="/EN/muralism-open-air-museums.html" role="menuitem">Territorial muralism and open-air museums</a></li>
-                <li role="none"><a href="/EN/muralism-festivals.html" role="menuitem">Festivals</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li role="none"><a href="/EN/inner-world.html" role="menuitem">Inner world</a></li>
-        <li role="none"><a href="/EN/work-diagram.html" role="menuitem">Conceptual work map</a></li>
-      </ul>
-    </li>
-
-    <li class="dropdown" role="none">
-      <a href="/EN/services.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Services</a>
-      <ul class="dropdown-menu" role="menu">
-        <li role="none"><a href="/EN/services.html#restoration" role="menuitem">Restoration</a></li>
-        <li role="none"><a href="/EN/services.html#commissions" role="menuitem">Commissions</a></li>
-        <li role="none"><a href="/EN/services.html#installs" role="menuitem">Ambience and installs</a></li>
-        <li role="none"><a href="/EN/services.html#workshops" role="menuitem">Workshops and teaching</a></li>
-      </ul>
-    </li>
-
-    <li class="dropdown" role="none">
-      <a href="/EN/store.html" role="menuitem" aria-haspopup="true" aria-expanded="false">Shop</a>
-      <ul class="dropdown-menu" role="menu">
-        <li role="none"><a href="/EN/store.html#obras-originales" role="menuitem">Original works</a></li>
-        <li role="none"><a href="/EN/store.html#impresiones-y-fotografia" role="menuitem">Prints and photography</a></li>
-        <li role="none"><a href="/EN/store.html#objetos-y-productos-derivados" role="menuitem">Objects and derivative works</a></li>
-      </ul>
-    </li>
-
+    <li role="none"><a href="/EN/work.html" role="menuitem">Work</a></li>
+    <li role="none"><a href="/EN/services.html" role="menuitem">Services</a></li>
+    <li role="none"><a href="/EN/store.html" role="menuitem">Shop</a></li>
     <li role="none"><a href="/EN/collaborate.html" role="menuitem">Collaborate</a></li>
     <li role="none"><a href="/EN/about.html" role="menuitem">About</a></li>
     <li role="none"><a href="/EN/contact.html" role="menuitem">Contact</a></li>
@@ -93,7 +43,7 @@
     {% assign alternate_lang_url = page.es_url | default: site.data.language_switch[page.url] | default: '/ES/index.html' %}
     {% assign mpd_lang_url = page.mpd_url | default: alternate_lang_url | replace_first: '/ES/', '/MPD/' %}
     {% assign zh_lang_url = page.zh_url | default: site.data.language_switch_chn[page.url] | default: '/CHN/index.html' %}
-    <li class="nav-lang-switch" role="none" aria-label="Language switcher">
+    <li class="nav-lang-switch" role="none" aria-label="Language selector">
       <a href="{{ alternate_lang_url }}" role="menuitem" hreflang="es" lang="es" aria-label="Switch language to Spanish">ES</a>
       <span class="lang-separator" aria-hidden="true">/</span>
       <span class="lang-current" aria-current="true">EN</span>
