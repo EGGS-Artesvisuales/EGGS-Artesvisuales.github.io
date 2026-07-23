@@ -2,8 +2,8 @@
 layout: producto-en
 lang: en
 store_lang: en
-title: "Membrana sin título n.º 1 / Verde"
-description: "Limited edition from 2008. Available, subject to a conservation review."
+title: "Membrana sin título n.º 1 / Verde — limited edition"
+description: "Limited edition derived from the 2008 original work. 20 copies + 2 artist's proofs, available for direct purchase."
 sku: "EGGS-W0018-L01-P6060-F8080"
 work_id: "EGGS-W0018"
 fichas: "018"
@@ -20,7 +20,8 @@ year: "2008"
 price_clp: 290000
 price_display: "$290.000 CLP"
 stock: 20
-state: "Available, subject to a conservation review"
+state: "Available"
+shipping_profile: "large"
 image: "/assets/img/tienda/EGGS-W0018-L01-P6060-F8080.webp"
 es_url: "/ES/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
 en_url: "/EN/products/membrana-sin-titulo-n-1-verde-edicion-limitada/"
