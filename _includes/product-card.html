@@ -8,33 +8,14 @@
     {% if include.product.sku and include.product.price_clp and include.product.stock %}{% assign purchase_mode = "direct" %}{% endif %}
   {% endunless %}
 {% endif %}
-{% assign product_href = include.product.url %}
-{% assign card_action = include.t.card_view %}
-{% assign card_action_label = include.t.card_open %}
-{% if purchase_mode == "direct" %}
-  {% assign product_href = include.product.url | append: "#comprar" %}
-  {% if include.product.store_lang == "en" %}
-    {% assign card_action = "Buy" %}
-    {% assign card_action_label = "Buy" %}
-  {% elsif include.product.store_lang == "chn" %}
-    {% assign card_action = "购买" %}
-    {% assign card_action_label = "购买" %}
-  {% elsif include.product.store_lang == "mpd" %}
-    {% assign card_action = "Ngillange" %}
-    {% assign card_action_label = "Ngillange" %}
-  {% else %}
-    {% assign card_action = "Comprar" %}
-    {% assign card_action_label = "Comprar" %}
-  {% endif %}
-{% endif %}
 <article class="shop-card" data-store-card data-category="{{ include.product.category | escape }}" data-mode="{{ purchase_mode }}" data-title="{{ include.product.title | escape }}" data-price="{{ include.product.price_clp | default: 0 }}" data-year="{{ include.product.year | default: 0 }}" data-search="{{ include.product.title | escape }} {{ include.product.sku | escape }} {{ include.product.product_type | escape }} {{ include.product.format | escape }} {{ include.product.state | escape }}" itemscope itemtype="https://schema.org/Product">
-  <a class="shop-card__media" href="{{ product_href }}" aria-label="{{ card_action_label }} {{ include.product.title | escape }}">
+  <a class="shop-card__media" href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">
     <img src="{{ include.product.image }}" alt="{{ include.product.title | escape }}" loading="lazy" itemprop="image">
   </a>
   <div class="shop-card__body">
     <p class="shop-card__category">{{ include.product.category_label }}</p>
     <p class="shop-card__meta">{{ include.product.product_type }} / {{ include.product.sku }}</p>
-    <h3 itemprop="name"><a href="{{ product_href }}">{{ include.product.title }}</a></h3>
+    <h3 itemprop="name"><a href="{{ include.product.url }}">{{ include.product.title }}</a></h3>
     <p class="shop-card__format">{{ include.product.format }}</p>
     <p class="shop-card__state"><span aria-hidden="true"></span>{{ include.product.state }}</p>
     <p class="shop-card__meta">
@@ -62,7 +43,7 @@
     </p>
     <div class="shop-card__footer">
       <strong>{{ include.product.price_display }}</strong>
-      <a href="{{ product_href }}" aria-label="{{ card_action_label }} {{ include.product.title | escape }}">{{ card_action }}</a>
+      <a href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">{{ include.t.card_view }}</a>
     </div>
   </div>
 </article>
