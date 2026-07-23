@@ -59,7 +59,6 @@ def variants_for(relative: Path, canonical: str) -> set[str]:
         )
         variants.update(
             {
-                canonical.rstrip("/"),
                 uppercase_canonical,
                 uppercase_canonical.rstrip("/"),
             }
@@ -82,6 +81,11 @@ def main() -> int:
             continue
         canonical = canonical_for(relative)
         for source in variants_for(relative, canonical):
+            if source.rstrip("/") == canonical.rstrip("/"):
+                raise RuntimeError(
+                    "Redirección circular equivalente detectada: "
+                    f"{source} -> {canonical}"
+                )
             redirects[source] = canonical
 
     destination = site / "_redirects"

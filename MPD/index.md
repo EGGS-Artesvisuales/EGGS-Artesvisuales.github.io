@@ -4,6 +4,10 @@ lang: arn
 title: "Esteban Garnica / EGGS-Studio – Küdaw ka proyecto"
 description: "Esteban Garnica ñi universo creativo: pintura, fotografía, intervención, trafkintuam küdaw ka territorio mew proyecto."
 permalink: /MPD/index.html
+es_url: /ES/index.html
+en_url: /EN/index.html
+mpd_url: /MPD/index.html
+zh_url: /CHN/index.html
 keywords: "Esteban Garnica, EGGS-Studio, pintura, fotografía, intervención, muralismo, küdaw, territorio"
 image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---

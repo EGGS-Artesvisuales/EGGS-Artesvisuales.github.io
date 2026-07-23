@@ -135,6 +135,11 @@ def redirect_checks(site: Path) -> list[str]:
             continue
         source, target, _status = parts
         redirects[source] = target
+        if source.rstrip("/") == target.rstrip("/"):
+            errors.append(
+                f"_redirects:{line_number}: redirección circular equivalente: "
+                f"{source} -> {target}"
+            )
         if not target.startswith(tuple(f"/{language}/" for language in LANGUAGES)):
             errors.append(f"_redirects:{line_number}: destino sin prefijo minúsculo: {target}")
         if not target_exists(site, site / "index.html", target):

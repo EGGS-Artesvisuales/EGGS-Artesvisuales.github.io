@@ -2961,8 +2961,9 @@ footer::before {
 .product-view__media {
   display: flex;
   min-width: 0;
+  align-self: start;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
   background: #090a0c;
 }
