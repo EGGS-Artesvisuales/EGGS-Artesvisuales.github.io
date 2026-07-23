@@ -36,7 +36,15 @@
         <span>{{ product_t.price }}</span>
         <strong>{{ page.price_display }}</strong>
         {% if commerce_enabled and page.store_lang != "es" %}
-          <small class="product-view__reference-price" data-reference-price data-clp="{{ page.price_clp }}" data-reference-currency="{% if page.store_lang == 'en' %}USD{% elsif page.store_lang == 'chn' %}CNY{% else %}USDC{% endif %}" aria-live="polite"></small>
+          {% assign reference_usd = page.price_clp | divided_by: site.data.reference_rates.clp_per_usd %}
+          {% if page.store_lang == "chn" %}
+            {% assign reference_cny = reference_usd | times: site.data.reference_rates.cny_per_usd %}
+            <small class="product-view__reference-price">约 ¥{{ reference_cny | round }} CNY · 参考汇率 {{ site.data.reference_rates.updated_at }}</small>
+          {% elsif page.store_lang == "mpd" %}
+            <small class="product-view__reference-price">Aprox. {{ reference_usd | round: 2 }} USDC · referencia {{ site.data.reference_rates.updated_at }}</small>
+          {% else %}
+            <small class="product-view__reference-price">Approx. US${{ reference_usd | round }} · reference rate {{ site.data.reference_rates.updated_at }}</small>
+          {% endif %}
         {% endif %}
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
