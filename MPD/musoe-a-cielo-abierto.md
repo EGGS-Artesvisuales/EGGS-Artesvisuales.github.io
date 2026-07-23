@@ -71,6 +71,27 @@ flowchart LR
   </p>
 </section>
 
+<h3 class="subtitulo2" id="proceso-participacion">PROCESO KA PARTICIPACIÓN</h3>
+
+<section class="parrafo">
+  <p>
+    La selección de los referentes visuales fue realizada por Esteban Garnica junto con la
+    <strong>Junta de Vecinos N.º 24-A</strong> y residentes de los edificios de la
+    <strong>Villa Alberto Larraguibel</strong>. La comunidad vecinal participó en el diseño,
+    la selección de las imágenes y la ejecución de los murales.
+  </p>
+  <p>
+    Los referentes procedieron de la consulta de archivos históricos y de una investigación
+    visual en fuentes disponibles en internet. En el caso del díptico Rapa Nui, la persona
+    retratada aprobó directamente el uso de su imagen mediante mensajería.
+  </p>
+  <p>
+    El proyecto no contó con participación formal de organizaciones mapuche, aimara, rapa nui
+    o selk'nam. Fue encargado y financiado por la
+    <strong>Corporación Cultural de La Florida</strong>.
+  </p>
+</section>
+
 <hr class="separador separador--aire" />
 
 <!-- ===================== -->
@@ -337,4 +358,3 @@ flowchart LR
   </a>
 
 </div>
-

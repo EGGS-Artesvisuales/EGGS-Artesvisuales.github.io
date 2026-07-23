@@ -47,6 +47,20 @@ flowchart LR
 here as a strategy of recognition. The images give public scale and visibility to Indigenous
 presence, treating the image itself as territory and memory.</p></section>
 
+<h3 class="subtitulo2" id="process-participation">PROCESS AND PARTICIPATION</h3>
+<section class="parrafo">
+  <p>The visual references were selected by Esteban Garnica together with
+  <strong>Neighborhood Association No. 24-A</strong> and residents of the buildings in
+  <strong>Villa Alberto Larraguibel</strong>. The neighborhood community participated in the
+  design, image selection, and execution of the murals.</p>
+  <p>The references came from historical archives and visual research using sources available
+  online. For the Rapa Nui diptych, the person portrayed directly approved the use of their image
+  through a messaging exchange.</p>
+  <p>The project did not involve formal participation by Mapuche, Aymara, Rapa Nui, or Selk'nam
+  organizations. It was commissioned and funded by the
+  <strong>Corporación Cultural de La Florida</strong>.</p>
+</section>
+
 <hr class="separador separador--aire" />
 <h4 class="subtitulo2">1. TO THE MAPUCHE PEOPLE (2018)</h4>
 <section class="parrafo"><p><strong>Location:</strong> Av. A. Vespucio 6566, La Florida.<br><strong>Format:</strong> Mural diptych, 8.0 × 6.0 m each panel.<br><strong>Technique:</strong> Acrylic enamel and varnish on brick.</p></section>
