@@ -75,6 +75,24 @@ flowchart LR
   </p>
 </section>
 
+<h3 class="subtitulo2" id="process-participation">创作过程与社区参与</h3>
+
+<section class="parrafo">
+  <p>
+    视觉参考由 Esteban Garnica 与 <strong>第 24-A 号居民委员会</strong>及
+    <strong>Villa Alberto Larraguibel</strong> 各栋住宅的居民共同选择。社区居民参与了壁画的设计、
+    图像选择与现场绘制。
+  </p>
+  <p>
+    参考图像来自历史档案的查阅以及对网络公开资料的视觉研究。对于拉帕努伊双联画，
+    画中人物本人通过即时通讯明确同意使用其肖像。
+  </p>
+  <p>
+    该项目没有马普切、艾马拉、拉帕努伊或塞尔克南组织的正式参与。
+    项目由 <strong>La Florida 文化公司（Corporación Cultural de La Florida）</strong>委托并资助。
+  </p>
+</section>
+
 <hr class="separador separador--aire" />
 
 <!-- ===================== -->
