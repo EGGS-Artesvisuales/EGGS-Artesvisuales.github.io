@@ -12,7 +12,7 @@ zh_url: /CHN/goumai-tiaokuan.html
 
 # Purchase and privacy terms
 
-Last updated: July 20, 2026.
+Last updated: July 23, 2026.
 
 ## Business and contact
 
@@ -20,7 +20,7 @@ The shop is operated by **E.G.G.S â€“ Producciones & Art SpA**, Chilean tax ID 7
 
 ## Price, stock and payment
 
-Prices are stated in Chilean pesos. Visible stock is checked again when payment starts. One unit is temporarily reserved while the customer completes Checkout Pro, and a purchase is confirmed only after Mercado Pago reports the payment as approved.
+Prices and the final charge are stated in Chilean pesos. USD, CNY and USDC equivalents are indicative only. Visible stock is checked again when payment starts. One unit is temporarily reserved while the customer completes Checkout Pro, and a purchase is confirmed only after Mercado Pago reports the payment as approved.
 
 ## Delivery in Santiago
 
@@ -28,7 +28,11 @@ Delivery of available products is free within Santiago and is estimated at **3â€
 
 ## Shipping outside Santiago
 
-No immediate charge is made. The customer sends the address from the product page, and EGGS-Studio replies with the carrier, shipping cost, estimated time and final total. Payment is requested only after the customer accepts the quote.
+The purchase can be completed directly. Before Mercado Pago opens, the customer selects a destination zone and the system calculates shipping according to destination and packing profile. The shipping amount is added to the payment and displayed separately before confirmation.
+
+International shipping includes a protection and specialized packing charge equal to **1.5% of the artwork value**, with a minimum of **CLP 15,000**. This charge is not a standalone insurance policy and does not by itself guarantee carrier coverage. EGGS-Studio will select the available service and declared-value option for the specific shipment.
+
+Import duties, customs charges, destination taxes and similar fees are not included and, where applicable, are the buyer's responsibility.
 
 ## Confirmation
 
