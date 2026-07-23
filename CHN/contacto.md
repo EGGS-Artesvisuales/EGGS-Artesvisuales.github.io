@@ -31,12 +31,15 @@ keywords: "EGGS-Studio, Esteban Garnica, 联系, 购买作品, 壁画委托, 艺
   </p>
 </div>
 
-<form class="contact-form" action="https://formsubmit.co/e.garnicasanchez@gmail.com" method="POST" data-contact-lang="chn">
+<form class="contact-form" name="contact-chn" action="/CHN/gracias.html" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-contact-lang="chn">
+  <input type="hidden" name="form-name" value="contact-chn">
+  <p hidden><label>请勿填写：<input name="bot-field"></label></p>
+
   <label for="name">姓名：</label>
-  <input type="text" id="name" name="name" required placeholder="您的姓名">
+  <input type="text" id="name" name="name" autocomplete="name" required placeholder="您的姓名">
 
   <label for="email">电子邮件：</label>
-  <input type="email" id="email" name="email" required placeholder="您的电子邮箱">
+  <input type="email" id="email" name="email" autocomplete="email" required placeholder="您的电子邮箱">
 
   <label for="topic">主题：</label>
   <select id="topic" name="topic" required>
@@ -53,10 +56,6 @@ keywords: "EGGS-Studio, Esteban Garnica, 联系, 购买作品, 壁画委托, 艺
   <textarea id="message" name="message" rows="7" required placeholder="请说明你的需求、地点、时间，以及已有的参考、尺寸或照片。"></textarea>
 
   <button type="submit">发送咨询</button>
-
-  <input type="hidden" name="_next" value="https://eggs-studio.cl/CHN/gracias.html">
-  <input type="hidden" name="_subject" value="EGGS-Studio 新咨询">
-  <input type="hidden" name="_captcha" value="false">
 </form>
 
 <script src="/assets/js/contact-product.js" defer></script>

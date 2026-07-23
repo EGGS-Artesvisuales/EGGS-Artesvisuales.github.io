@@ -27,12 +27,15 @@ permalink: /EN/contact.html
   </p>
 </div>
 
-<form class="contact-form" action="https://formsubmit.co/e.garnicasanchez@gmail.com" method="POST" data-contact-lang="en">
+<form class="contact-form" name="contact-en" action="/EN/thankyou.html" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-contact-lang="en">
+  <input type="hidden" name="form-name" value="contact-en">
+  <p hidden><label>Leave empty: <input name="bot-field"></label></p>
+
   <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required placeholder="Your name">
+  <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your name">
 
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required placeholder="Your email">
+  <input type="email" id="email" name="email" autocomplete="email" required placeholder="Your email">
 
   <label for="topic">Topic:</label>
   <select id="topic" name="topic" required>
@@ -49,10 +52,6 @@ permalink: /EN/contact.html
   <textarea id="message" name="message" rows="7" required placeholder="Tell me what you need, where, when, and which references or measurements you already have."></textarea>
 
   <button type="submit">Send inquiry</button>
-
-  <input type="hidden" name="_next" value="https://eggs-studio.cl/EN/thankyou.html">
-  <input type="hidden" name="_subject" value="New inquiry from EGGS-Studio">
-  <input type="hidden" name="_captcha" value="false">
 </form>
 
 <script src="/assets/js/contact-product.js" defer></script>

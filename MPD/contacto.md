@@ -27,12 +27,15 @@ permalink: /MPD/contacto.html
   </p>
 </div>
 
-<form class="contact-form" action="https://formsubmit.co/e.garnicasanchez@gmail.com" method="POST" data-contact-lang="mpd">
+<form class="contact-form" name="contact-mpd" action="/MPD/gracias.html" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-contact-lang="mpd">
+  <input type="hidden" name="form-name" value="contact-mpd">
+  <p hidden><label>Faw wirikilnge: <input name="bot-field"></label></p>
+
   <label for="name">Üy:</label>
-  <input type="text" id="name" name="name" required placeholder="Tami üy">
+  <input type="text" id="name" name="name" autocomplete="name" required placeholder="Tami üy">
 
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required placeholder="Tami email">
+  <input type="email" id="email" name="email" autocomplete="email" required placeholder="Tami email">
 
   <label for="topic">Zugu:</label>
   <select id="topic" name="topic" required>
@@ -49,10 +52,6 @@ permalink: /MPD/contacto.html
   <textarea id="message" name="message" rows="7" required placeholder="Faw wirintuku chem küpaimi, chew, chumül ka chem medida/foto nieymi."></textarea>
 
   <button type="submit">Werkün</button>
-
-  <input type="hidden" name="_next" value="https://eggs-studio.cl/MPD/gracias.html">
-  <input type="hidden" name="_subject" value="Nütram we EGGS-Studio mew">
-  <input type="hidden" name="_captcha" value="false">
 </form>
 
 <script src="/assets/js/contact-product.js" defer></script>

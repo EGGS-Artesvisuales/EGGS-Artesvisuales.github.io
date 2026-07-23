@@ -7,6 +7,7 @@ permalink: /CHN/index.html
 es_url: /ES/index.html
 en_url: /EN/index.html
 mpd_url: /MPD/index.html
+zh_url: /CHN/index.html
 keywords: "Esteban Garnica, EGGS-Studio, 智利艺术家, 绘画, 摄影, 城市介入, 可购艺术品, 壁画, 文化项目"
 image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---

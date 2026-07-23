@@ -59,7 +59,6 @@ def variants_for(relative: Path, canonical: str) -> set[str]:
         )
         variants.update(
             {
-                canonical.rstrip("/"),
                 uppercase_canonical,
                 uppercase_canonical.rstrip("/"),
             }

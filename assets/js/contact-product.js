@@ -15,6 +15,7 @@
   const locale = form?.dataset.contactLang || "es";
   const translations = {
     es: {
+      topic: "Compra de obra",
       intro: (label) => `Hola, quisiera consultar por ${label}.`,
       label: (name) => (name ? `la obra “${name}”` : "este producto"),
       sku: (value) => `SKU: ${value}`,
@@ -22,6 +23,7 @@
       additional: "Consulta adicional:",
     },
     en: {
+      topic: "Artwork purchase",
       intro: (label) => `Hello, I would like to enquire about ${label}.`,
       label: (name) => (name ? `the work “${name}”` : "this product"),
       sku: (value) => `SKU: ${value}`,
@@ -29,6 +31,7 @@
       additional: "Additional question:",
     },
     mpd: {
+      topic: "Küdaw ngillan",
       intro: (label) => `Mari mari, ${label} mew ramtuafun.`,
       label: (name) => (name ? `“${name}” az-küdaw` : "fachi producto"),
       sku: (value) => `SKU: ${value}`,
@@ -36,6 +39,7 @@
       additional: "Kake ramtu:",
     },
     chn: {
+      topic: "Artwork purchase",
       intro: (label) => `您好，我想咨询${label}。`,
       label: (name) => (name ? `作品“${name}”` : "此商品"),
       sku: (value) => `SKU：${value}`,
@@ -44,6 +48,13 @@
     },
   };
   const copy = translations[locale] || translations.es;
+  const topic = form?.querySelector("#topic");
+  if (topic && !topic.value) {
+    const purchaseOption = Array.from(topic.options).find(
+      (option) => option.value === copy.topic
+    );
+    if (purchaseOption) topic.value = purchaseOption.value;
+  }
   const safeTitle = title.replace(/[\r\n\t]+/g, " ").slice(0, 160);
   const productLabel = copy.label(safeTitle);
   message.value = [

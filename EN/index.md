@@ -4,6 +4,10 @@ lang: en
 title: "Esteban Garnica / EGGS-Studio – Artworks and projects"
 description: "Esteban Garnica's creative universe: painting, photography, intervention, available artworks and cultural projects developed from Santiago, Chile."
 permalink: /EN/index.html
+es_url: /ES/index.html
+en_url: /EN/index.html
+mpd_url: /MPD/index.html
+zh_url: /CHN/index.html
 keywords: "Esteban Garnica, EGGS-Studio, Chilean visual artist, painting, photography, urban intervention, available art, muralism, cultural projects"
 image: /assets/img/pes-pint-produccion-Serie01-004.jpg
 ---
