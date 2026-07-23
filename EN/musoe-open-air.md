@@ -57,8 +57,8 @@ presence, treating the image itself as territory and memory.</p></section>
   online. For the Rapa Nui diptych, the person portrayed directly approved the use of their image
   through a messaging exchange.</p>
   <p>The project did not involve formal participation by Mapuche, Aymara, Rapa Nui, or Selk'nam
-  organizations. It was commissioned and funded by the
-  <strong>Corporación Cultural de La Florida</strong>.</p>
+  organizations. The murals were produced with competitive public funding from the
+  <strong>Corporación Cultural de La Florida</strong>, awarded through an open call.</p>
 </section>
 
 <hr class="separador separador--aire" />

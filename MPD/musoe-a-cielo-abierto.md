@@ -87,8 +87,8 @@ flowchart LR
   </p>
   <p>
     El proyecto no contó con participación formal de organizaciones mapuche, aimara, rapa nui
-    o selk'nam. Fue encargado y financiado por la
-    <strong>Corporación Cultural de La Florida</strong>.
+    o selk'nam. Los murales fueron realizados gracias a la adjudicación de fondos concursables de la
+    <strong>Corporación Cultural de La Florida</strong>, obtenidos mediante concurso público.
   </p>
 </section>
 
