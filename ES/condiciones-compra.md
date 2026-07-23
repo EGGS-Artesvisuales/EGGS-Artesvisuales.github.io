@@ -12,7 +12,7 @@ zh_url: /CHN/goumai-tiaokuan.html
 
 # Condiciones de compra y privacidad
 
-Última actualización: 20 de julio de 2026.
+Última actualización: 23 de julio de 2026.
 
 ## Identificación y contacto
 
@@ -20,7 +20,7 @@ La tienda es operada por **E.G.G.S – Producciones & Art SpA**, RUT 77.973.201-
 
 ## Precio, stock y pago
 
-Los precios se expresan en pesos chilenos. El stock visible se verifica nuevamente al iniciar el pago. Una unidad se reserva temporalmente mientras el cliente completa Checkout Pro y la compra se confirma únicamente cuando Mercado Pago informa el pago como aprobado.
+Los precios y el cobro final se expresan en pesos chilenos. Las equivalencias en USD, CNY o USDC son únicamente referenciales. El stock visible se verifica nuevamente al iniciar el pago. Una unidad se reserva temporalmente mientras el cliente completa Checkout Pro y la compra se confirma únicamente cuando Mercado Pago informa el pago como aprobado.
 
 ## Entrega en Santiago
 
@@ -28,7 +28,11 @@ La entrega de productos disponibles no tiene costo dentro de Santiago y se estim
 
 ## Despacho fuera de Santiago
 
-No se realiza ningún cobro inmediato. El cliente envía su dirección mediante la ficha del producto y EGGS-Studio responde con transportista, costo de despacho, plazo estimado y total final. El pago se solicita solamente después de que el cliente acepta la cotización.
+La compra puede completarse directamente. Antes de abrir Mercado Pago, el cliente selecciona la zona de destino y el sistema calcula el despacho según destino y perfil de embalaje. El costo se incorpora al pago y se muestra separado antes de confirmar la compra.
+
+Para envíos internacionales se agrega un cargo de protección y embalaje especializado equivalente al **1,5 % del valor de la obra**, con un mínimo de **$15.000 CLP**. Este cargo no constituye una póliza de seguro independiente ni garantiza por sí solo la aceptación de cobertura por parte del transportista. EGGS-Studio seleccionará el servicio y la modalidad de valor declarado disponibles para el envío concreto.
+
+Los aranceles, impuestos de importación, tasas aduaneras y gastos exigidos en el país de destino no están incluidos y, cuando correspondan, son responsabilidad del comprador.
 
 ## Confirmación
 
