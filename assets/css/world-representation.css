@@ -43,10 +43,10 @@
 }
 
 .world-hero h1 {
-  max-width: 10ch;
+  max-width: 12ch;
   margin: 0;
   color: var(--world-ink);
-  font-size: clamp(3.4rem, 7.7vw, 7.4rem);
+  font-size: clamp(3.4rem, 5.2vw, 5.5rem);
   font-weight: 900;
   letter-spacing: -0.065em;
   line-height: 0.87;

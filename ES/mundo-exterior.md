@@ -20,7 +20,7 @@ mermaid: true
   <section class="world-hero" aria-labelledby="world-title">
     <div class="world-hero__copy">
       <p class="world-kicker">Eje 01 · Actividad artística</p>
-      <h1 id="world-title">Representación<br>del mundo</h1>
+      <h1 id="world-title">Representación del mundo</h1>
       <p class="world-hero__lead">Un retrato crítico de lo contemporáneo a través de sus materias visibles y de las fuerzas que, aun sin verse, organizan nuestra experiencia.</p>
       <div class="world-actions">
         <a href="#tangible" class="world-button world-button--primary">Explorar lo tangible</a>
