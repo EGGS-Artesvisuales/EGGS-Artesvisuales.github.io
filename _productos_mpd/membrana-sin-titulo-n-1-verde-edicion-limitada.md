@@ -2,8 +2,8 @@
 layout: producto-mpd
 lang: arn
 store_lang: mpd
-title: "Membrana sin título n.º 1 / Verde"
-description: "2008 tripantu mew Pichi edición. Müley trafkintuam, sujeto a revisión de conservación."
+title: "Membrana sin título n.º 1 / Verde — pichi edición"
+description: "2008 tripantu mew original az-küdaw ñi pichi edición. 20 ejemplar + 2 artista ñi prueba, rüf ngillakan mew müley."
 sku: "EGGS-W0018-L01-P6060-F8080"
 work_id: "EGGS-W0018"
 fichas: "018"
@@ -20,7 +20,8 @@ year: "2008"
 price_clp: 290000
 price_display: "$290.000 CLP"
 stock: 20
-state: "Müley trafkintuam, sujeto a revisión de conservación"
+state: "Müley trafkintuam"
+shipping_profile: "large"
 image: "/assets/img/tienda/EGGS-W0018-L01-P6060-F8080.webp"
 es_url: "/ES/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
 en_url: "/EN/products/membrana-sin-titulo-n-1-verde-edicion-limitada/"
