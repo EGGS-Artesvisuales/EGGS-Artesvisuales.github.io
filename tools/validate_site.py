@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate route casing, canonicals, internal links, and web media policy."""
+"""Validate lowercase canonical routes, redirects, links, and web media policy."""
 
 from __future__ import annotations
 
@@ -11,8 +11,9 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 
-LANGUAGES = ("ES", "EN", "MPD", "CHN")
-LOWERCASE_ROUTE = re.compile(r"/(?:es|en|mpd|chn)(?:/|(?=[\"'#?\s<]))")
+LANGUAGES = ("es", "en", "mpd", "chn")
+UPPERCASE_LANGUAGES = tuple(language.upper() for language in LANGUAGES)
+UPPERCASE_ROUTE = re.compile(r"^/(?:ES|EN|MPD|CHN)(?:/|$)")
 TEXT_SUFFIXES = {".html", ".md", ".markdown", ".yml", ".yaml", ".js", ".css", ".json"}
 SKIP_PARTS = {".git", "_site", ".jekyll-cache", ".sass-cache", "node_modules", "netlify", "tools/pillow"}
 
@@ -44,6 +45,12 @@ def skipped(path: Path) -> bool:
 
 
 def source_checks(source: Path) -> list[str]:
+    """Validate source assets without enforcing authoring-directory casing.
+
+    Source content intentionally remains in ES, EN, MPD, and CHN. Public URL
+    casing is validated only after the post-build normalization step.
+    """
+
     errors: list[str] = []
     for path in source.rglob("*"):
         if not path.is_file() or skipped(path):
@@ -51,12 +58,6 @@ def source_checks(source: Path) -> list[str]:
         relative = path.relative_to(source).as_posix()
         if path.suffix.lower() == ".gif":
             errors.append(f"{relative}: GIF fuente no permitido; usar un derivado WebP optimizado")
-        if path.suffix.lower() not in TEXT_SUFFIXES or relative == "netlify.toml":
-            continue
-        text = path.read_text(encoding="utf-8", errors="replace")
-        for line_number, line in enumerate(text.splitlines(), 1):
-            if LOWERCASE_ROUTE.search(line):
-                errors.append(f"{relative}:{line_number}: prefijo de idioma en minúsculas")
     return errors
 
 
@@ -86,6 +87,10 @@ def built_checks(site: Path) -> list[str]:
     if not html_files:
         return [f"{site}: no contiene un build HTML"]
 
+    for language in UPPERCASE_LANGUAGES:
+        if (site / language).exists():
+            errors.append(f"{language}/: salida pública duplicada en mayúsculas")
+
     for page in html_files:
         relative = page.relative_to(site).as_posix()
         parser = PageParser()
@@ -98,11 +103,16 @@ def built_checks(site: Path) -> list[str]:
         elif language in LANGUAGES:
             expected_prefix = f"https://eggs-studio.cl/{language}/"
             if not parser.canonical or not parser.canonical.startswith(expected_prefix):
-                errors.append(f"{relative}: canonical no usa /{language}/ en mayúsculas")
+                errors.append(f"{relative}: canonical no usa /{language}/ en minúsculas")
             if (parser.has_nav_button or parser.has_nav_div) and (not parser.has_nav_button or parser.has_nav_div):
                 errors.append(f"{relative}: el control nav-toggle debe ser un button nativo")
+        elif language in UPPERCASE_LANGUAGES:
+            errors.append(f"{relative}: página publicada bajo prefijo mayúsculo")
 
         for attribute, reference in parser.references:
+            parsed_reference = urlparse(reference)
+            if not parsed_reference.scheme and not parsed_reference.netloc and UPPERCASE_ROUTE.match(parsed_reference.path):
+                errors.append(f"{relative}: {attribute} usa ruta de idioma en mayúsculas: {reference}")
             if not target_exists(site, page, reference):
                 errors.append(f"{relative}: {attribute} interno sin destino: {reference}")
 
@@ -126,15 +136,21 @@ def redirect_checks(site: Path) -> list[str]:
         source, target, _status = parts
         redirects[source] = target
         if not target.startswith(tuple(f"/{language}/" for language in LANGUAGES)):
-            errors.append(f"_redirects:{line_number}: destino sin prefijo mayúsculo: {target}")
+            errors.append(f"_redirects:{line_number}: destino sin prefijo minúsculo: {target}")
         if not target_exists(site, site / "index.html", target):
             errors.append(f"_redirects:{line_number}: destino inexistente: {target}")
 
     for language in LANGUAGES:
-        source = f"/{language.lower()}"
+        uppercase = language.upper()
         expected = f"/{language}/index.html"
-        if redirects.get(source) != expected:
-            errors.append(f"_redirects: falta {source} -> {expected}")
+        required_sources = (
+            f"/{uppercase}",
+            f"/{uppercase}/",
+            f"/{uppercase}/index.html",
+        )
+        for source in required_sources:
+            if redirects.get(source) != expected:
+                errors.append(f"_redirects: falta {source} -> {expected}")
     return errors
 
 
@@ -154,7 +170,7 @@ def main() -> int:
         return 1
 
     pages = sum(1 for _ in args.site.rglob("*.html"))
-    print(f"Validación correcta: {pages} páginas HTML, rutas en mayúsculas y enlaces internos resueltos.")
+    print(f"Validación correcta: {pages} páginas HTML, rutas minúsculas y enlaces internos resueltos.")
     return 0
 
 
