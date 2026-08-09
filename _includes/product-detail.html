@@ -37,19 +37,8 @@
         {% else %}
           <link itemprop="availability" href="https://schema.org/InStock">
         {% endif %}
-        <span>{{ product_t.price }}</span>
-        <strong>{{ page.price_display }}</strong>
-        {% if commerce_enabled and page.store_lang != "es" %}
-          {% assign reference_usd = page.price_clp | divided_by: site.data.reference_rates.clp_per_usd %}
-          {% if page.store_lang == "chn" %}
-            {% assign reference_cny = reference_usd | times: site.data.reference_rates.cny_per_usd %}
-            <small class="product-view__reference-price">约 ¥{{ reference_cny | round }} CNY · 参考汇率 {{ site.data.reference_rates.updated_at }}</small>
-          {% elsif page.store_lang == "mpd" %}
-            <small class="product-view__reference-price">Aprox. {{ reference_usd | round: 2 }} USDC · referencia {{ site.data.reference_rates.updated_at }}</small>
-          {% else %}
-            <small class="product-view__reference-price">Approx. US${{ reference_usd | round }} · reference rate {{ site.data.reference_rates.updated_at }}</small>
-          {% endif %}
-        {% endif %}
+        <span class="product-view__price-label">{{ product_t.price }}</span>
+        {% include product-price.html product=page context="detail" %}
       </div>
       <p class="product-view__status"><span aria-hidden="true"></span>{{ page.state }}</p>
       <aside class="product-delivery" aria-label="{% if page.store_lang == 'en' %}Work, certificate and payment{% elsif page.store_lang == 'chn' %}作品、证书与支付{% elsif page.store_lang == 'mpd' %}Az-küdaw, certificado ka kullin{% else %}Obra, certificado y pago{% endif %}">
@@ -90,7 +79,7 @@
             {% for related in related_products %}
               {% unless related.url == page.url %}
                 {% assign related_count = related_count | plus: 1 %}
-                {% if related_count <= 6 %}<li><a href="{{ related.url }}">{{ related.title }}</a>{% if related.price_display %} — {{ related.price_display }}{% endif %}</li>{% endif %}
+                {% if related_count <= 6 %}<li><a href="{{ related.url }}">{{ related.title }}</a>{% if related.price_clp %} — {% include product-price.html product=related context="inline" %}{% endif %}</li>{% endif %}
               {% endunless %}
             {% endfor %}
           {% endcapture %}
@@ -145,6 +134,11 @@
           <p class="product-checkout__status" data-checkout-status role="status" aria-live="polite"></p>
           <noscript><p>{{ product_t.checkout.noscript }}</p></noscript>
         </form>
+        <aside class="product-delivery product-delivery--international" aria-label="{{ product_t.international_payment | escape }}">
+          <strong>{{ product_t.international_payment }}</strong>
+          <p>{{ product_t.international_payment_note }}</p>
+          <a class="shop-button" href="{{ product_t.contact_url }}?{{ product_t.product_param }}={{ page.sku | url_encode }}&amp;obra={{ page.title | url_encode }}&amp;moneda=USD">{{ product_t.international_payment_cta }}</a>
+        </aside>
         <script src="/assets/js/mercadopago-checkout.js" defer></script>
       {% else %}
         <a class="shop-button" href="{{ product_t.contact_url }}?{{ product_t.product_param }}={{ page.sku | url_encode }}&amp;obra={{ page.title | url_encode }}">{{ product_t.consult }}</a>

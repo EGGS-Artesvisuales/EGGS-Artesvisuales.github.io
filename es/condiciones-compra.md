@@ -12,7 +12,7 @@ zh_url: /chn/goumai-tiaokuan.html
 
 # Condiciones de compra y privacidad
 
-Última actualización: 23 de julio de 2026.
+Última actualización: 9 de agosto de 2026.
 
 ## Identificación y contacto
 
@@ -20,7 +20,7 @@ La tienda es operada por **E.G.G.S – Producciones & Art SpA**, RUT 77.973.201-
 
 ## Precio, stock y pago
 
-Los precios y el cobro final se expresan en pesos chilenos. Las equivalencias en USD, CNY o USDC son únicamente referenciales. El stock visible se verifica nuevamente al iniciar el pago. Una unidad se reserva temporalmente mientras el cliente completa Checkout Pro y la compra se confirma únicamente cuando Mercado Pago informa el pago como aprobado.
+Todas las fichas muestran un precio internacional aproximado en dólares estadounidenses (USD) y, junto a él, el monto exacto en pesos chilenos (CLP). Mercado Pago procesa y cobra el monto exacto en CLP. La referencia USD se calcula con la tasa y fecha informadas en la ficha y no constituye un cobro en dólares. Quienes necesiten una alternativa de pago internacional pueden solicitarla indicando el SKU y el país de destino; sus condiciones se confirman antes de cualquier transacción. El stock visible se verifica nuevamente al iniciar el pago. Una unidad se reserva temporalmente mientras el cliente completa Checkout Pro y la compra se confirma únicamente cuando Mercado Pago informa el pago como aprobado.
 
 ## Entrega en Santiago
 

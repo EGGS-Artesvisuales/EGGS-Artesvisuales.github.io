@@ -42,7 +42,7 @@
       {% endif %}
     </p>
     <div class="shop-card__footer">
-      <strong>{{ include.product.price_display }}</strong>
+      {% include product-price.html product=include.product context="card" %}
       <a href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">{{ include.t.card_view }}</a>
     </div>
   </div>

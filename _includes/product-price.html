@@ -1,0 +1,18 @@
+{% assign price_rate = site.data.reference_rates.clp_per_usd | plus: 0 %}
+{% assign price_clp = include.product.price_clp | plus: 0 %}
+{% assign price_usd = price_clp | divided_by: price_rate | round %}
+{% assign price_t = site.data.store_i18n[include.product.store_lang] %}
+{% assign price_context = include.context | default: "detail" %}
+
+<span class="store-price store-price--{{ price_context }}">
+  <strong class="store-price__usd">US${{ price_usd }}</strong>
+  {% if price_context == "detail" %}
+    <small class="store-price__label">{{ price_t.usd_reference }}</small>
+    <small class="store-price__clp">{{ price_t.clp_charge }}: {{ include.product.price_display }}</small>
+    <small class="store-price__rate">{{ price_t.rate_label }}: {{ site.data.reference_rates.updated_at }}</small>
+  {% elsif price_context == "inline" %}
+    <small class="store-price__clp">{{ include.product.price_display }}</small>
+  {% else %}
+    <small class="store-price__clp">{{ include.product.price_display }} · Mercado Pago</small>
+  {% endif %}
+</span>

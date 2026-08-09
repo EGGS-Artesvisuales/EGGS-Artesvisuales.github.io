@@ -299,6 +299,16 @@
   font-weight: 800;
 }
 
+.home-product__price .store-price__usd {
+  color: var(--home-ink);
+  font-size: 1.18rem;
+}
+
+.home-product__price .store-price__clp {
+  color: var(--home-muted);
+  font-size: 0.68rem;
+}
+
 .home-product__state {
   max-width: 12rem;
   color: var(--home-muted);

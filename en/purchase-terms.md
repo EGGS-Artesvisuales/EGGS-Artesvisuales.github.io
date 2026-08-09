@@ -12,7 +12,7 @@ zh_url: /chn/goumai-tiaokuan.html
 
 # Purchase and privacy terms
 
-Last updated: July 23, 2026.
+Last updated: August 9, 2026.
 
 ## Business and contact
 
@@ -20,7 +20,7 @@ The shop is operated by **E.G.G.S – Producciones & Art SpA**, Chilean tax ID 7
 
 ## Price, stock and payment
 
-Prices and the final charge are stated in Chilean pesos. USD, CNY and USDC equivalents are indicative only. Visible stock is checked again when payment starts. One unit is temporarily reserved while the customer completes Checkout Pro, and a purchase is confirmed only after Mercado Pago reports the payment as approved.
+All product pages show an approximate international price in US dollars (USD) together with the exact amount in Chilean pesos (CLP). Mercado Pago processes and charges the exact CLP amount. The USD reference is calculated with the rate and date shown on the product page and is not a charge in dollars. Buyers who need an international payment option may request one by providing the SKU and destination country; its terms are confirmed before any transaction. Visible stock is checked again when payment starts. One unit is temporarily reserved while the customer completes Checkout Pro, and a purchase is confirmed only after Mercado Pago reports the payment as approved.
 
 ## Delivery in Santiago
 

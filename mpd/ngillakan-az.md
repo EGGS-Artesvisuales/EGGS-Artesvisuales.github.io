@@ -12,7 +12,7 @@ zh_url: /chn/goumai-tiaokuan.html
 
 # Ngillakan ka privacidad ñi az
 
-Rüf günel: 23 julio 2026.
+Rüf günel: 9 agosto 2026.
 
 ## Iney tañi trafkintu ka nütram
 
@@ -20,7 +20,7 @@ Fachi trafkintu **E.G.G.S – Producciones & Art SpA**, RUT 77.973.201-0, Santia
 
 ## Falintun, stock ka kullin
 
-Falintun ka rüf kullin chileno peso mew müley. USDC mew pegelchi falintun referencia müten. Kullin ñi tüwün mew stock ka kiñe rupa kintungey. Checkout Pro petu küdawle, kiñe producto pichi antü elkünungey; Mercado Pago “aprobado” feypile müten ngillakan dewma feypingeay.
+Fill ficha mew USD internacional falintun referencia ka inaw rüf chileno peso (CLP) falintun pegelgey. Mercado Pago rüf CLP falintun mew kulliñ amulkey. USD referencia ficha mew pegelchi tasa ka antü mew calculagey; dólar mew kullin no rume. Internacional kullin ñi ka az duamle, SKU ka destino mapu kimeltuafimi; ñi az petu transacción feypingeay. Kullin ñi tüwün mew stock ka kiñe rupa kintungey. Checkout Pro petu küdawle, kiñe producto pichi antü elkünungey; Mercado Pago “aprobado” feypile müten ngillakan dewma feypingeay.
 
 ## Santiago mew eluwün
 
