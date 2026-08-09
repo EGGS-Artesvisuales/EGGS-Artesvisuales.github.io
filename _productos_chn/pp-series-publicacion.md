@@ -23,9 +23,9 @@ stock: 50
 state: "可按订单制作"
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "反广告档案参考图；最终出版物待制作。"
-es_url: "/ES/productos/pp-series-publicacion/"
-en_url: "/EN/products/pp-series-publication/"
-mpd_url: "/MPD/productos/pp-series-publicacion/"
-zh_url: "/CHN/productos/pp-series-publicacion/"
+es_url: "/es/productos/pp-series-publicacion/"
+en_url: "/en/products/pp-series-publication/"
+mpd_url: "/mpd/productos/pp-series-publicacion/"
+zh_url: "/chn/productos/pp-series-publicacion/"
 order: 1183
 ---

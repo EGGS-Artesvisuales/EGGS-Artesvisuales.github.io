@@ -22,9 +22,9 @@ price_display: "$220.000 CLP"
 stock: 20
 state: "Müley trafkintuam"
 image: "/assets/img/tienda/EGGS-W0005-L01-P4050-F5070.webp"
-es_url: "/ES/productos/infected-paintings-3-edicion-limitada/"
-en_url: "/EN/products/infected-paintings-3-edicion-limitada/"
-mpd_url: "/MPD/productos/infected-paintings-3-edicion-limitada/"
-zh_url: "/CHN/productos/infected-paintings-3-edicion-limitada/"
+es_url: "/es/productos/infected-paintings-3-edicion-limitada/"
+en_url: "/en/products/infected-paintings-3-edicion-limitada/"
+mpd_url: "/mpd/productos/infected-paintings-3-edicion-limitada/"
+zh_url: "/chn/productos/infected-paintings-3-edicion-limitada/"
 order: 1024
 ---

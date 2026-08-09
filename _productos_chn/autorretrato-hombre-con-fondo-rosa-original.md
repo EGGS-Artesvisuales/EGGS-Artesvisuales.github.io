@@ -22,9 +22,9 @@ price_display: "$650.000 CLP"
 stock: 1
 state: "现可购买；已签名并妥善保存"
 image: "/assets/img/tienda/EGGS-W0030-ORI.webp"
-es_url: "/ES/productos/autorretrato-hombre-con-fondo-rosa-original/"
-en_url: "/EN/products/autorretrato-hombre-con-fondo-rosa-original/"
-mpd_url: "/MPD/productos/autorretrato-hombre-con-fondo-rosa-original/"
-zh_url: "/CHN/productos/autorretrato-hombre-con-fondo-rosa-original/"
+es_url: "/es/productos/autorretrato-hombre-con-fondo-rosa-original/"
+en_url: "/en/products/autorretrato-hombre-con-fondo-rosa-original/"
+mpd_url: "/mpd/productos/autorretrato-hombre-con-fondo-rosa-original/"
+zh_url: "/chn/productos/autorretrato-hombre-con-fondo-rosa-original/"
 order: 1052
 ---

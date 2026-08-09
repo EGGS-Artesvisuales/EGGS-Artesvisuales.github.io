@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke dewman müley"
 image: "/assets/img/tienda/EGGS-W0130-L01-P70100-F80110.webp"
-es_url: "/ES/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
-en_url: "/EN/products/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
-mpd_url: "/MPD/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
-zh_url: "/CHN/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
+es_url: "/es/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
+en_url: "/en/products/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
+mpd_url: "/mpd/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
+zh_url: "/chn/productos/fuerza-y-templanza-de-las-mascotas-edicion-limitada/"
 order: 1090
 ---

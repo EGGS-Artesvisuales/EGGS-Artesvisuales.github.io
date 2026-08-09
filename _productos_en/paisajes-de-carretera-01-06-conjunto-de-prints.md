@@ -24,9 +24,9 @@ price_display: "$1.350.000 CLP"
 stock: 20
 state: "Sold by individual work"
 image: "/assets/img/tienda/EGGS-S0003-L01-P5070-F70100.webp"
-es_url: "/ES/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
-en_url: "/EN/products/paisajes-de-carretera-01-06-conjunto-de-prints/"
-mpd_url: "/MPD/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
-zh_url: "/CHN/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
+es_url: "/es/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
+en_url: "/en/products/paisajes-de-carretera-01-06-conjunto-de-prints/"
+mpd_url: "/mpd/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
+zh_url: "/chn/productos/paisajes-de-carretera-01-06-conjunto-de-prints/"
 order: 1008
 ---

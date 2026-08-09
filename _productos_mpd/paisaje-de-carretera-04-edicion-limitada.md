@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "Müley trafkintuam print reke; original perdido"
 image: "/assets/img/tienda/EGGS-W0011-L01-P5070-F70100.webp"
-es_url: "/ES/productos/paisaje-de-carretera-04-edicion-limitada/"
-en_url: "/EN/products/paisaje-de-carretera-04-edicion-limitada/"
-mpd_url: "/MPD/productos/paisaje-de-carretera-04-edicion-limitada/"
-zh_url: "/CHN/productos/paisaje-de-carretera-04-edicion-limitada/"
+es_url: "/es/productos/paisaje-de-carretera-04-edicion-limitada/"
+en_url: "/en/products/paisaje-de-carretera-04-edicion-limitada/"
+mpd_url: "/mpd/productos/paisaje-de-carretera-04-edicion-limitada/"
+zh_url: "/chn/productos/paisaje-de-carretera-04-edicion-limitada/"
 order: 1032
 ---

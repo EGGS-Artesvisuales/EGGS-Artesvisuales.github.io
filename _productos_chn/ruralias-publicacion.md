@@ -23,9 +23,9 @@ stock: 50
 state: "可按订单制作"
 image: "/assets/img/tienda/EGGS-W0045-L01-P70100-F80110.webp"
 image_note: "项目参考图；最终出版物待制作。"
-es_url: "/ES/productos/ruralias-publicacion/"
-en_url: "/EN/products/ruralias-publication/"
-mpd_url: "/MPD/productos/ruralias-publicacion/"
-zh_url: "/CHN/productos/ruralias-publicacion/"
+es_url: "/es/productos/ruralias-publicacion/"
+en_url: "/en/products/ruralias-publication/"
+mpd_url: "/mpd/productos/ruralias-publicacion/"
+zh_url: "/chn/productos/ruralias-publicacion/"
 order: 1181
 ---

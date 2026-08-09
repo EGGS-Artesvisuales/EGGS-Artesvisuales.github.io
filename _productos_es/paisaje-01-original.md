@@ -22,9 +22,9 @@ price_display: "$650.000 CLP"
 stock: 1
 state: "Disponible; conservada en taller"
 image: "/assets/img/tienda/EGGS-W0026-ORI.webp"
-es_url: "/ES/productos/paisaje-01-original/"
-en_url: "/EN/products/paisaje-01-original/"
-mpd_url: "/MPD/productos/paisaje-01-original/"
-zh_url: "/CHN/productos/paisaje-01-original/"
+es_url: "/es/productos/paisaje-01-original/"
+en_url: "/en/products/paisaje-01-original/"
+mpd_url: "/mpd/productos/paisaje-01-original/"
+zh_url: "/chn/productos/paisaje-01-original/"
 order: 1049
 ---

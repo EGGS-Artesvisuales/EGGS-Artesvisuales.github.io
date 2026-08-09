@@ -1,71 +1,27 @@
 // Productos estandarizados generados desde _productos_es. No editar manualmente.
 const DELIVERY_OPTIONS = Object.freeze({
-  santiago: "Entrega sin costo en Santiago",
-  quote_later: "Despacho fuera de Santiago cotizado y pagado después",
+  santiago: "Santiago — entrega sin costo",
+  rm_outer: "Región Metropolitana fuera de Santiago",
+  chile_central: "Chile centro",
+  chile_north: "Chile norte",
+  chile_south: "Chile sur",
+  chile_extreme: "Chile extremo o insular",
+  international_americas: "Internacional — América",
+  international_europe: "Internacional — Europa",
+  international_rest: "Internacional — Asia, Oceanía y resto del mundo",
 });
 
 const PRODUCTS = Object.freeze({
-  "EGGS-S0002-L01-P4050-F5070": Object.freeze({
-    title: "Infected Paintings 1–4",
-    description: "Conjunto de impresiones de 2008. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-    currency: "CLP",
-    unitPrice: 800000,
-    initialStock: 20,
-    binaryMode: false,
-    deliveryOptions: DELIVERY_OPTIONS,
-    localized: Object.freeze({
-      es: Object.freeze({
-        title: "Infected Paintings 1–4",
-        description: "Conjunto de impresiones de 2008. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-      }),
-      en: Object.freeze({
-        title: "Infected Paintings 1–4",
-        description: "Print set from 2008. Available to be produced.",
-      }),
-      mpd: Object.freeze({
-        title: "Infected Paintings 1–4",
-        description: "2008 tripantu mew Prints trokiñ. Müley trafkintuam dewman müley.",
-      }),
-      chn: Object.freeze({
-        title: "Infected Paintings 1–4",
-        description: "2008年版画组套。可按订单制作。",
-      }),
-    }),
-  }),
-  "EGGS-S0003-L01-P5070-F70100": Object.freeze({
-    title: "Paisajes de Carretera 01–06",
-    description: "Conjunto de impresiones de 2008. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-    currency: "CLP",
-    unitPrice: 1350000,
-    initialStock: 20,
-    binaryMode: false,
-    deliveryOptions: DELIVERY_OPTIONS,
-    localized: Object.freeze({
-      es: Object.freeze({
-        title: "Paisajes de Carretera 01–06",
-        description: "Conjunto de impresiones de 2008. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-      }),
-      en: Object.freeze({
-        title: "Paisajes de Carretera 01–06",
-        description: "Print set from 2008. Available to be produced.",
-      }),
-      mpd: Object.freeze({
-        title: "Paisajes de Carretera 01–06",
-        description: "2008 tripantu mew Prints trokiñ. Müley trafkintuam dewman müley.",
-      }),
-      chn: Object.freeze({
-        title: "Paisajes de Carretera 01–06",
-        description: "2008年版画组套。可按订单制作。",
-      }),
-    }),
-  }),
   "EGGS-S0004-L01-P6060-F8080": Object.freeze({
+    sku: "EGGS-S0004-L01-P6060-F8080",
     title: "Díptico Autofusión",
     description: "Conjunto de impresiones de 2008. 20 dípticos + 2 pruebas de artista. Disponible por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 520000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -86,40 +42,16 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
-  "EGGS-S0005-L01-P5070-F70100": Object.freeze({
-    title: "Banderas infectadas n.º 1–2",
-    description: "Conjunto de impresiones de 2010. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-    currency: "CLP",
-    unitPrice: 470000,
-    initialStock: 20,
-    binaryMode: false,
-    deliveryOptions: DELIVERY_OPTIONS,
-    localized: Object.freeze({
-      es: Object.freeze({
-        title: "Banderas infectadas n.º 1–2",
-        description: "Conjunto de impresiones de 2010. 20 conjuntos + 2 pruebas de artista. Disponible por producir.",
-      }),
-      en: Object.freeze({
-        title: "Banderas infectadas n.º 1–2",
-        description: "Print set from 2010. Available to be produced.",
-      }),
-      mpd: Object.freeze({
-        title: "Banderas infectadas n.º 1–2",
-        description: "2010 tripantu mew Prints trokiñ. Müley trafkintuam dewman müley.",
-      }),
-      chn: Object.freeze({
-        title: "Banderas infectadas n.º 1–2",
-        description: "2010年版画组套。可按订单制作。",
-      }),
-    }),
-  }),
   "EGGS-S0006-L01-P70120-F80130": Object.freeze({
+    sku: "EGGS-S0006-L01-P70120-F80130",
     title: "Díptico conceptual Gran Paisaje 01–02",
     description: "Conjunto de impresiones de 2010. 10 dípticos + 2 pruebas de artista. Disponible por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 900000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -140,67 +72,16 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
-  "EGGS-S0008-PUB01": Object.freeze({
-    title: "Intervenciones publicitarias 2007–2011",
-    description: "Publicación de artista de 2007. 50 ejemplares + 5 pruebas de artista. Disponible por producir.",
-    currency: "CLP",
-    unitPrice: 120000,
-    initialStock: 50,
-    binaryMode: false,
-    deliveryOptions: DELIVERY_OPTIONS,
-    localized: Object.freeze({
-      es: Object.freeze({
-        title: "Intervenciones publicitarias 2007–2011",
-        description: "Publicación de artista de 2007. 50 ejemplares + 5 pruebas de artista. Disponible por producir.",
-      }),
-      en: Object.freeze({
-        title: "Intervenciones publicitarias 2007–2011",
-        description: "Publication from 2007. Available to be produced.",
-      }),
-      mpd: Object.freeze({
-        title: "Intervenciones publicitarias 2007–2011",
-        description: "2007 tripantu mew Chillka. Müley trafkintuam dewman müley.",
-      }),
-      chn: Object.freeze({
-        title: "Intervenciones publicitarias 2007–2011",
-        description: "2007年出版物。可按订单制作。",
-      }),
-    }),
-  }),
-  "EGGS-S0009-PUB01-LEP": Object.freeze({
-    title: "Remiendas Urbanas",
-    description: "Publicación de artista en leporello y edición numerada, actualmente por producir.",
-    currency: "CLP",
-    unitPrice: 95000,
-    initialStock: 50,
-    binaryMode: false,
-    deliveryOptions: DELIVERY_OPTIONS,
-    localized: Object.freeze({
-      es: Object.freeze({
-        title: "Remiendas Urbanas",
-        description: "Publicación de artista en leporello y edición numerada, actualmente por producir.",
-      }),
-      en: Object.freeze({
-        title: "Remiendas Urbanas",
-        description: "Publication. Available to be produced.",
-      }),
-      mpd: Object.freeze({
-        title: "Remiendas Urbanas",
-        description: "Chillka. Müley trafkintuam dewman müley.",
-      }),
-      chn: Object.freeze({
-        title: "Remiendas Urbanas",
-        description: "出版物。可按订单制作。",
-      }),
-    }),
-  }),
   "EGGS-W0001-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0001-L01-P5070-F70100",
     title: "Caleta Infectada",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -218,16 +99,49 @@ const PRODUCTS = Object.freeze({
       chn: Object.freeze({
         title: "Caleta Infectada",
         description: "2008年限量版。现可购买。",
+      }),
+    }),
+  }),
+  "EGGS-W0001-ORI": Object.freeze({
+    sku: "EGGS-W0001-ORI",
+    title: "Caleta Infectada",
+    description: "Pieza única de 2008, disponible con certificado.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 750000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Caleta Infectada",
+        description: "Pieza única de 2008, disponible con certificado.",
+      }),
+      en: Object.freeze({
+        title: "Caleta Infectada",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "Caleta Infectada",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "Caleta Infectada",
+        description: "2008年原作。现可购买。",
       }),
     }),
   }),
   "EGGS-W0002-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0002-L01-P5070-F70100",
     title: "ARTE",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -245,16 +159,49 @@ const PRODUCTS = Object.freeze({
       chn: Object.freeze({
         title: "ARTE",
         description: "2008年限量版。现可购买。",
+      }),
+    }),
+  }),
+  "EGGS-W0002-ORI": Object.freeze({
+    sku: "EGGS-W0002-ORI",
+    title: "ARTE",
+    description: "Obra original de 2008. Disponible.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 750000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "ARTE",
+        description: "Obra original de 2008. Disponible.",
+      }),
+      en: Object.freeze({
+        title: "ARTE",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "ARTE",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "ARTE",
+        description: "2008年原作。现可购买。",
       }),
     }),
   }),
   "EGGS-W0003-L01-P4050-F5070": Object.freeze({
+    sku: "EGGS-W0003-L01-P4050-F5070",
     title: "Infected Paintings 1",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 220000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "standard",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -272,16 +219,49 @@ const PRODUCTS = Object.freeze({
       chn: Object.freeze({
         title: "Infected Paintings 1",
         description: "2008年限量版。现可购买。",
+      }),
+    }),
+  }),
+  "EGGS-W0003-ORI": Object.freeze({
+    sku: "EGGS-W0003-ORI",
+    title: "Infected Paintings 1",
+    description: "Pieza única de 2008, disponible con certificado.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 480000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Infected Paintings 1",
+        description: "Pieza única de 2008, disponible con certificado.",
+      }),
+      en: Object.freeze({
+        title: "Infected Paintings 1",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "Infected Paintings 1",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "Infected Paintings 1",
+        description: "2008年原作。现可购买。",
       }),
     }),
   }),
   "EGGS-W0004-L01-P4050-F5070": Object.freeze({
+    sku: "EGGS-W0004-L01-P4050-F5070",
     title: "Infected Paintings 2",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 220000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "standard",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -299,16 +279,49 @@ const PRODUCTS = Object.freeze({
       chn: Object.freeze({
         title: "Infected Paintings 2",
         description: "2008年限量版。现可购买。",
+      }),
+    }),
+  }),
+  "EGGS-W0004-ORI": Object.freeze({
+    sku: "EGGS-W0004-ORI",
+    title: "Infected Paintings 2",
+    description: "Obra original de 2008. Disponible.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 480000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Infected Paintings 2",
+        description: "Obra original de 2008. Disponible.",
+      }),
+      en: Object.freeze({
+        title: "Infected Paintings 2",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "Infected Paintings 2",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "Infected Paintings 2",
+        description: "2008年原作。现可购买。",
       }),
     }),
   }),
   "EGGS-W0005-L01-P4050-F5070": Object.freeze({
+    sku: "EGGS-W0005-L01-P4050-F5070",
     title: "Infected Paintings 3",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 220000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "standard",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -326,16 +339,49 @@ const PRODUCTS = Object.freeze({
       chn: Object.freeze({
         title: "Infected Paintings 3",
         description: "2008年限量版。现可购买。",
+      }),
+    }),
+  }),
+  "EGGS-W0005-ORI": Object.freeze({
+    sku: "EGGS-W0005-ORI",
+    title: "Infected Paintings 3",
+    description: "Obra original de 2008. Disponible.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 480000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Infected Paintings 3",
+        description: "Obra original de 2008. Disponible.",
+      }),
+      en: Object.freeze({
+        title: "Infected Paintings 3",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "Infected Paintings 3",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "Infected Paintings 3",
+        description: "2008年原作。现可购买。",
       }),
     }),
   }),
   "EGGS-W0006-L01-P4050-F5070": Object.freeze({
+    sku: "EGGS-W0006-L01-P4050-F5070",
     title: "Infected Paintings 4",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 220000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "standard",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -356,13 +402,46 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
+  "EGGS-W0006-ORI": Object.freeze({
+    sku: "EGGS-W0006-ORI",
+    title: "Infected Paintings 4",
+    description: "Obra original de 2008. Disponible.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 480000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Infected Paintings 4",
+        description: "Obra original de 2008. Disponible.",
+      }),
+      en: Object.freeze({
+        title: "Infected Paintings 4",
+        description: "Original from 2008. Available.",
+      }),
+      mpd: Object.freeze({
+        title: "Infected Paintings 4",
+        description: "2008 tripantu mew Original az-küdaw. Müley trafkintuam.",
+      }),
+      chn: Object.freeze({
+        title: "Infected Paintings 4",
+        description: "2008年原作。现可购买。",
+      }),
+    }),
+  }),
   "EGGS-W0007-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0007-L01-P5070-F70100",
     title: "Pintura infectada Mujer en Bici",
     description: "Edición limitada de 2010. 20 ejemplares + 2 pruebas de artista. Disponible como print; original no disponible.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -384,12 +463,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0008-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0008-L01-P5070-F70100",
     title: "Paisaje de Carretera 01",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -411,12 +493,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0009-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0009-L01-P5070-F70100",
     title: "Paisaje de Carretera 02",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -438,12 +523,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0010-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0010-L01-P5070-F70100",
     title: "Paisaje de Carretera 03",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -465,12 +553,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0011-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0011-L01-P5070-F70100",
     title: "Paisaje de Carretera 04",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -492,12 +583,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0012-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0012-L01-P5070-F70100",
     title: "Paisaje de Carretera 05",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -519,12 +613,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0013-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0013-L01-P5070-F70100",
     title: "Paisaje de Carretera 06",
     description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -546,12 +643,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0016-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0016-L01-P5070-F70100",
     title: "Bandera infectada n.º 1",
     description: "Edición limitada de 2010. 20 ejemplares + 2 pruebas de artista. Disponible como print; original de paradero desconocido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -573,12 +673,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0017-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0017-L01-P5070-F70100",
     title: "Bandera infectada n.º 2",
     description: "Edición limitada de 2011. 20 ejemplares + 2 pruebas de artista. Disponible como print; original perdido / paradero desconocido.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 260000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -600,66 +703,75 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0018-L01-P6060-F8080": Object.freeze({
-    title: "Membrana sin título n.º 1 / Verde",
-    description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible, sujeto a revisión de conservación.",
+    sku: "EGGS-W0018-L01-P6060-F8080",
+    title: "Membrana sin título n.º 1 / Verde — edición limitada",
+    description: "Edición limitada derivada de la obra original de 2008. 20 ejemplares + 2 pruebas de artista, disponible para compra directa.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 290000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
-        title: "Membrana sin título n.º 1 / Verde",
-        description: "Edición limitada de 2008. 20 ejemplares + 2 pruebas de artista. Disponible, sujeto a revisión de conservación.",
+        title: "Membrana sin título n.º 1 / Verde — edición limitada",
+        description: "Edición limitada derivada de la obra original de 2008. 20 ejemplares + 2 pruebas de artista, disponible para compra directa.",
       }),
       en: Object.freeze({
-        title: "Membrana sin título n.º 1 / Verde",
-        description: "Limited edition from 2008. Available, subject to a conservation review.",
+        title: "Membrana sin título n.º 1 / Verde — limited edition",
+        description: "Limited edition derived from the 2008 original work. 20 copies + 2 artist's proofs, available for direct purchase.",
       }),
       mpd: Object.freeze({
-        title: "Membrana sin título n.º 1 / Verde",
-        description: "2008 tripantu mew Pichi edición. Müley trafkintuam, sujeto a revisión de conservación.",
+        title: "Membrana sin título n.º 1 / Verde — pichi edición",
+        description: "2008 tripantu mew original az-küdaw ñi pichi edición. 20 ejemplar + 2 artista ñi prueba, rüf ngillakan mew müley.",
       }),
       chn: Object.freeze({
-        title: "Membrana sin título n.º 1 / Verde",
-        description: "2008年限量版。现可购买，须先进行保存状况检查。",
+        title: "Membrana sin título n.º 1 / Verde — 限量版",
+        description: "源自2008年原作的限量版。20件 + 2件艺术家自存版，可直接购买。",
       }),
     }),
   }),
-  "EGGS-W0019-PUB01-LEP": Object.freeze({
-    title: "Mapamundi",
-    description: "Publicación de artista en edición numerada, actualmente por producir.",
+  "EGGS-W0018-ORI": Object.freeze({
+    sku: "EGGS-W0018-ORI",
+    title: "Membrana sin título n.º 1 / Verde — obra original",
+    description: "Obra original única de 2008, disponible para compra directa con certificado de autenticidad.",
+    category: "obras-originales",
     currency: "CLP",
-    unitPrice: 85000,
-    initialStock: 50,
-    binaryMode: false,
+    unitPrice: 1300000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
-        title: "Mapamundi",
-        description: "Publicación de artista en edición numerada, actualmente por producir.",
+        title: "Membrana sin título n.º 1 / Verde — obra original",
+        description: "Obra original única de 2008, disponible para compra directa con certificado de autenticidad.",
       }),
       en: Object.freeze({
-        title: "Mapamundi",
-        description: "Publication. Artist publication to be produced.",
+        title: "Membrana sin título n.º 1 / Verde — original work",
+        description: "Unique original work from 2008, available for direct purchase with a certificate of authenticity.",
       }),
       mpd: Object.freeze({
-        title: "Mapamundi",
-        description: "Chillka. Artista ñi chillka dewman müley.",
+        title: "Membrana sin título n.º 1 / Verde — original az-küdaw",
+        description: "2008 tripantu mew kiñe müten original az-küdaw, rüf ngillakan mew müley ka certificado egu.",
       }),
       chn: Object.freeze({
-        title: "Mapamundi",
-        description: "出版物。艺术家出版物，可按订单制作。",
+        title: "Membrana sin título n.º 1 / Verde — 原作",
+        description: "2008年唯一原作，可直接购买，并附真实性证书。",
       }),
     }),
   }),
   "EGGS-W0020-L01-P6060-F8080": Object.freeze({
+    sku: "EGGS-W0020-L01-P6060-F8080",
     title: "Dos Hombres Selknam",
     description: "Edición limitada de 2013. 20 ejemplares + 2 pruebas de artista. Disponible únicamente como print; original existente pero inaccesible para el artista.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 290000,
     initialStock: 20,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -681,12 +793,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0021-L01-P90120-F110140": Object.freeze({
+    sku: "EGGS-W0021-L01-P90120-F110140",
     title: "Paisaje Urbano",
     description: "Edición limitada de 2010. 15 ejemplares + 2 pruebas de artista. Disponible; obra en buen estado para vender.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 520000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -707,13 +822,46 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
+  "EGGS-W0021-ORI": Object.freeze({
+    sku: "EGGS-W0021-ORI",
+    title: "Paisaje Urbano",
+    description: "Obra original de 2010. Disponible; obra en buen estado para vender.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 3800000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "oversized",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Paisaje Urbano",
+        description: "Obra original de 2010. Disponible; obra en buen estado para vender.",
+      }),
+      en: Object.freeze({
+        title: "Paisaje Urbano",
+        description: "Original from 2010. Available; work in good condition for sale.",
+      }),
+      mpd: Object.freeze({
+        title: "Paisaje Urbano",
+        description: "2010 tripantu mew Original az-küdaw. Müley trafkintuam; obra en buen estado para vender.",
+      }),
+      chn: Object.freeze({
+        title: "Paisaje Urbano",
+        description: "2010年原作。现可购买；作品状况良好。",
+      }),
+    }),
+  }),
   "EGGS-W0022-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0022-L01-P70100-F80110",
     title: "Cordillera",
     description: "Edición fotográfica documental de 2009, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -735,12 +883,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0023-L01-P70120-F80130": Object.freeze({
+    sku: "EGGS-W0023-L01-P70120-F80130",
     title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
     description: "Edición limitada de 2010. 10 ejemplares + 2 pruebas de artista. Disponible; obra firmada y en buen estado.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 480000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -761,13 +912,46 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
+  "EGGS-W0023-ORI": Object.freeze({
+    sku: "EGGS-W0023-ORI",
+    title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
+    description: "Obra original de 2010. Disponible; obra firmada y en buen estado.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 8500000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "oversized",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
+        description: "Obra original de 2010. Disponible; obra firmada y en buen estado.",
+      }),
+      en: Object.freeze({
+        title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
+        description: "Original from 2010. Available; signed work in good condition.",
+      }),
+      mpd: Object.freeze({
+        title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
+        description: "2010 tripantu mew Original az-küdaw. Müley trafkintuam; obra firmada y en buen estado.",
+      }),
+      chn: Object.freeze({
+        title: "Pintura infectada: Gran Paisaje 01 / Gran Paisaje Saturado n.º 1",
+        description: "2010年原作。现可购买；作品已签名且状况良好。",
+      }),
+    }),
+  }),
   "EGGS-W0024-L01-P70120-F80130": Object.freeze({
+    sku: "EGGS-W0024-L01-P70120-F80130",
     title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
     description: "Edición limitada de 2012. 10 ejemplares + 2 pruebas de artista. Disponible; obra firmada y en buen estado.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 480000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -788,13 +972,256 @@ const PRODUCTS = Object.freeze({
       }),
     }),
   }),
+  "EGGS-W0024-ORI": Object.freeze({
+    sku: "EGGS-W0024-ORI",
+    title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
+    description: "Obra original de 2012. Disponible; obra firmada y en buen estado.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 8500000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "oversized",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
+        description: "Obra original de 2012. Disponible; obra firmada y en buen estado.",
+      }),
+      en: Object.freeze({
+        title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
+        description: "Original from 2012. Available; signed work in good condition.",
+      }),
+      mpd: Object.freeze({
+        title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
+        description: "2012 tripantu mew Original az-küdaw. Müley trafkintuam; obra firmada y en buen estado.",
+      }),
+      chn: Object.freeze({
+        title: "Gran Paisaje 02 / Gran Paisaje Saturado n.º 2",
+        description: "2012年原作。现可购买；作品已签名且状况良好。",
+      }),
+    }),
+  }),
+  "EGGS-W0025-ORI": Object.freeze({
+    sku: "EGGS-W0025-ORI",
+    title: "Mujeres Selknam",
+    description: "Pieza única de 2018, firmada, conservada y disponible con certificado.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 1650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "large",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Mujeres Selknam",
+        description: "Pieza única de 2018, firmada, conservada y disponible con certificado.",
+      }),
+      en: Object.freeze({
+        title: "Mujeres Selknam",
+        description: "Original from 2018. Available; signed and preserved work.",
+      }),
+      mpd: Object.freeze({
+        title: "Mujeres Selknam",
+        description: "2018 tripantu mew Original az-küdaw. Müley trafkintuam; obra firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Mujeres Selknam",
+        description: "2018年原作。现可购买；作品已签名并妥善保存。",
+      }),
+    }),
+  }),
+  "EGGS-W0026-ORI": Object.freeze({
+    sku: "EGGS-W0026-ORI",
+    title: "Paisaje 01",
+    description: "Obra original de 2019. Disponible; conservada en taller.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Paisaje 01",
+        description: "Obra original de 2019. Disponible; conservada en taller.",
+      }),
+      en: Object.freeze({
+        title: "Paisaje 01",
+        description: "Original from 2019. Available; preserved in the studio.",
+      }),
+      mpd: Object.freeze({
+        title: "Paisaje 01",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; conservada en taller.",
+      }),
+      chn: Object.freeze({
+        title: "Paisaje 01",
+        description: "2019年原作。现可购买；保存于工作室。",
+      }),
+    }),
+  }),
+  "EGGS-W0027-ORI": Object.freeze({
+    sku: "EGGS-W0027-ORI",
+    title: "Mujer con fondo amarillo",
+    description: "Obra original de 2019. Disponible; firmada y conservada.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Mujer con fondo amarillo",
+        description: "Obra original de 2019. Disponible; firmada y conservada.",
+      }),
+      en: Object.freeze({
+        title: "Mujer con fondo amarillo",
+        description: "Original from 2019. Available; signed and preserved.",
+      }),
+      mpd: Object.freeze({
+        title: "Mujer con fondo amarillo",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Mujer con fondo amarillo",
+        description: "2019年原作。现可购买；已签名并妥善保存。",
+      }),
+    }),
+  }),
+  "EGGS-W0028-ORI": Object.freeze({
+    sku: "EGGS-W0028-ORI",
+    title: "Mujer con fondo azul",
+    description: "Obra original de 2019. Disponible; firmada y conservada.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Mujer con fondo azul",
+        description: "Obra original de 2019. Disponible; firmada y conservada.",
+      }),
+      en: Object.freeze({
+        title: "Mujer con fondo azul",
+        description: "Original from 2019. Available; signed and preserved.",
+      }),
+      mpd: Object.freeze({
+        title: "Mujer con fondo azul",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Mujer con fondo azul",
+        description: "2019年原作。现可购买；已签名并妥善保存。",
+      }),
+    }),
+  }),
+  "EGGS-W0030-ORI": Object.freeze({
+    sku: "EGGS-W0030-ORI",
+    title: "Autorretrato / Hombre con fondo rosa",
+    description: "Obra original de 2019. Disponible; firmada y conservada.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Autorretrato / Hombre con fondo rosa",
+        description: "Obra original de 2019. Disponible; firmada y conservada.",
+      }),
+      en: Object.freeze({
+        title: "Autorretrato / Hombre con fondo rosa",
+        description: "Original from 2019. Available; signed and preserved.",
+      }),
+      mpd: Object.freeze({
+        title: "Autorretrato / Hombre con fondo rosa",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Autorretrato / Hombre con fondo rosa",
+        description: "2019年原作。现可购买；已签名并妥善保存。",
+      }),
+    }),
+  }),
+  "EGGS-W0031-ORI": Object.freeze({
+    sku: "EGGS-W0031-ORI",
+    title: "Niño con fondo escalera",
+    description: "Obra original de 2019. Disponible; firmada y conservada.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Niño con fondo escalera",
+        description: "Obra original de 2019. Disponible; firmada y conservada.",
+      }),
+      en: Object.freeze({
+        title: "Niño con fondo escalera",
+        description: "Original from 2019. Available; signed and preserved.",
+      }),
+      mpd: Object.freeze({
+        title: "Niño con fondo escalera",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Niño con fondo escalera",
+        description: "2019年原作。现可购买；已签名并妥善保存。",
+      }),
+    }),
+  }),
+  "EGGS-W0032-ORI": Object.freeze({
+    sku: "EGGS-W0032-ORI",
+    title: "Niño con fondo azul",
+    description: "Obra original de 2019. Disponible; firmada y conservada.",
+    category: "obras-originales",
+    currency: "CLP",
+    unitPrice: 650000,
+    initialStock: 1,
+    binaryMode: true,
+    shippingProfile: "standard",
+    deliveryOptions: DELIVERY_OPTIONS,
+    localized: Object.freeze({
+      es: Object.freeze({
+        title: "Niño con fondo azul",
+        description: "Obra original de 2019. Disponible; firmada y conservada.",
+      }),
+      en: Object.freeze({
+        title: "Niño con fondo azul",
+        description: "Original from 2019. Available; signed and preserved.",
+      }),
+      mpd: Object.freeze({
+        title: "Niño con fondo azul",
+        description: "2019 tripantu mew Original az-küdaw. Müley trafkintuam; firmada y conservada.",
+      }),
+      chn: Object.freeze({
+        title: "Niño con fondo azul",
+        description: "2019年原作。现可购买；已签名并妥善保存。",
+      }),
+    }),
+  }),
   "EGGS-W0033-L01-P60110-F70120": Object.freeze({
+    sku: "EGGS-W0033-L01-P60110-F70120",
     title: "Árbol",
     description: "Edición fotográfica documental de 2009, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -816,12 +1243,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0034-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0034-L01-P70100-F80110",
     title: "Automóvil",
     description: "Edición limitada de 2009. 10 ejemplares + 2 pruebas de artista. Disponible como edición fotográfica por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -843,12 +1273,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0035-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0035-L01-P5070-F70100",
     title: "Baño / objeto de pandemia",
     description: "Edición limitada de 2020. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 360000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -870,12 +1303,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0038-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0038-L01-P70100-F80110",
     title: "Avalancha",
     description: "Edición fotográfica documental de 2009, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -897,12 +1333,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0039-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0039-L01-P70100-F80110",
     title: "Peste Doméstica n1",
     description: "Edición limitada de 2008. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -924,12 +1363,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0040-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0040-L01-P5070-F70100",
     title: "Peste Doméstica n2",
     description: "Edición limitada de 2008. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 360000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -951,12 +1393,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0041-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0041-L01-P70100-F80110",
     title: "Cocina Cubierta",
     description: "Edición limitada de 2008. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -978,12 +1423,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0044-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0044-L01-P5070-F70100",
     title: "Busto de O’Higgins",
     description: "Edición limitada de 2011. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 360000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1005,12 +1453,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0045-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0045-L01-P70100-F80110",
     title: "Ruralias",
     description: "Edición limitada de 2012. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1032,12 +1483,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0046-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0046-L01-P70100-F80110",
     title: "Paisaje Wi-fi n1",
     description: "Edición limitada de una pintura de 2016, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1059,12 +1513,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0047-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0047-L01-P70100-F80110",
     title: "Paisaje Wi-fi n2",
     description: "Edición limitada de 2016. 15 ejemplares + 2 pruebas de artista. Disponible únicamente como edición limitada por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1086,12 +1543,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0048-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0048-L01-P70100-F80110",
     title: "Paisaje Wi-fi n3",
     description: "Edición limitada de 2020. 15 ejemplares + 2 pruebas de artista. Disponible únicamente como edición limitada por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1113,12 +1573,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0049-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0049-L01-P70100-F80110",
     title: "Paisaje Wi-fi n4",
     description: "Edición limitada de 2020. 15 ejemplares + 2 pruebas de artista. Disponible únicamente como edición limitada por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1140,12 +1603,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0050-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0050-L01-P70100-F80110",
     title: "Retrato Wi-fi n1",
     description: "Edición limitada de 2020. 15 ejemplares + 2 pruebas de artista. Disponible únicamente como edición limitada por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1167,12 +1633,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0051-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0051-L01-P70100-F80110",
     title: "Bodegón Wi-fi n1",
     description: "Edición limitada de 2018. 15 ejemplares + 2 pruebas de artista. Disponible únicamente como edición limitada por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 420000,
     initialStock: 15,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1194,12 +1663,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0052-L01-P5070-F70100": Object.freeze({
+    sku: "EGGS-W0052-L01-P5070-F70100",
     title: "Papelucho",
     description: "Edición limitada de 2022. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 360000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1221,12 +1693,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0053-L01-P110160-F120170": Object.freeze({
+    sku: "EGGS-W0053-L01-P110160-F120170",
     title: "El Colgado N.º 01",
     description: "Fotografía de autor de 2010 en edición limitada, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 950000,
     initialStock: 5,
     binaryMode: false,
+    shippingProfile: "oversized",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1248,12 +1723,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0054-L01-P110160-F120170": Object.freeze({
+    sku: "EGGS-W0054-L01-P110160-F120170",
     title: "El Colgado N.º 02",
     description: "Edición fotográfica de 2008. 5 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 950000,
     initialStock: 5,
     binaryMode: false,
+    shippingProfile: "oversized",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1275,12 +1753,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0055-L01-P110160-F120170": Object.freeze({
+    sku: "EGGS-W0055-L01-P110160-F120170",
     title: "El Colgado N.º 03",
     description: "Edición fotográfica de 2009. 5 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 950000,
     initialStock: 5,
     binaryMode: false,
+    shippingProfile: "oversized",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1302,12 +1783,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0056-L01-P110160-F120170": Object.freeze({
+    sku: "EGGS-W0056-L01-P110160-F120170",
     title: "El Colgado N.º 04",
     description: "Edición fotográfica de 2010. 5 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 950000,
     initialStock: 5,
     binaryMode: false,
+    shippingProfile: "oversized",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1329,12 +1813,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0057-L01-P110160-F120170": Object.freeze({
+    sku: "EGGS-W0057-L01-P110160-F120170",
     title: "El Colgado N.º 05",
     description: "Edición fotográfica de 2012. 5 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 950000,
     initialStock: 5,
     binaryMode: false,
+    shippingProfile: "oversized",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1356,12 +1843,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0074-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0074-L01-P70100-F80110",
     title: "Pueblo Mapuche — Hombre",
     description: "Edición limitada de 2018. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1383,12 +1873,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0075-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0075-L01-P70100-F80110",
     title: "Pueblo Mapuche — Mujer",
     description: "Edición limitada de 2018. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1410,12 +1903,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0076-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0076-L01-P70100-F80110",
     title: "Pueblo Aimara — Hombre",
     description: "Edición limitada de 2019. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1437,12 +1933,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0077-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0077-L01-P70100-F80110",
     title: "Pueblo Aimara — Mujer",
     description: "Edición limitada de 2019. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1464,12 +1963,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0078-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0078-L01-P70100-F80110",
     title: "Pueblo Rapa Nui — Mujer",
     description: "Edición limitada de 2021. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1491,12 +1993,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0079-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0079-L01-P70100-F80110",
     title: "Pueblo Rapa Nui — Hombre",
     description: "Edición limitada de 2021. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1518,12 +2023,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0080-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0080-L01-P70100-F80110",
     title: "Pueblo Selknam — Mujer",
     description: "Edición limitada de 2021. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1545,12 +2053,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0081-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0081-L01-P70100-F80110",
     title: "Pueblo Selknam — Hombre",
     description: "Edición limitada de 2021. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1572,12 +2083,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0127-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0127-L01-P70100-F80110",
     title: "A villa A. Larraguibel y su memoria",
     description: "Edición fotográfica documental del mural realizado en 2024, numerada y certificada.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1599,12 +2113,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0128-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0128-L01-P70100-F80110",
     title: "Día de la Madre",
     description: "Edición limitada de 2020. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1626,12 +2143,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0129-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0129-L01-P70100-F80110",
     title: "Día del Padre",
     description: "Edición limitada de 2025. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1653,12 +2173,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0130-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0130-L01-P70100-F80110",
     title: "Fuerza y Templanza de las Mascotas",
     description: "Edición limitada de 2025. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1680,12 +2203,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0132-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0132-L01-P70100-F80110",
     title: "La Bendición de los Quillayes",
     description: "Edición limitada de 2023. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({
@@ -1707,12 +2233,15 @@ const PRODUCTS = Object.freeze({
     }),
   }),
   "EGGS-W0133-L01-P70100-F80110": Object.freeze({
+    sku: "EGGS-W0133-L01-P70100-F80110",
     title: "Salmo 91:4",
     description: "Edición limitada de 2023. 10 ejemplares + 2 pruebas de artista. Disponible como edición por producir.",
+    category: "impresiones-y-fotografia",
     currency: "CLP",
     unitPrice: 450000,
     initialStock: 10,
     binaryMode: false,
+    shippingProfile: "large",
     deliveryOptions: DELIVERY_OPTIONS,
     localized: Object.freeze({
       es: Object.freeze({

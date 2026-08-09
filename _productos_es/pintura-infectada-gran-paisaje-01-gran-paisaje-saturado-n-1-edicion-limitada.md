@@ -22,9 +22,9 @@ price_display: "$480.000 CLP"
 stock: 10
 state: "Disponible; obra firmada y en buen estado"
 image: "/assets/img/tienda/EGGS-W0023-L01-P70120-F80130.webp"
-es_url: "/ES/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
-en_url: "/EN/products/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
-mpd_url: "/MPD/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
-zh_url: "/CHN/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
+es_url: "/es/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
+en_url: "/en/products/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
+mpd_url: "/mpd/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
+zh_url: "/chn/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-edicion-limitada/"
 order: 1044
 ---

@@ -23,9 +23,9 @@ stock: 50
 state: "Available to be produced"
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "Reference archive image; the final publication is to be produced."
-es_url: "/ES/productos/eggs-obras-2010-2020-publicacion/"
-en_url: "/EN/products/eggs-works-2010-2020-publication/"
-mpd_url: "/MPD/productos/eggs-obras-2010-2020-publicacion/"
-zh_url: "/CHN/productos/eggs-obras-2010-2020-publicacion/"
+es_url: "/es/productos/eggs-obras-2010-2020-publicacion/"
+en_url: "/en/products/eggs-works-2010-2020-publication/"
+mpd_url: "/mpd/productos/eggs-obras-2010-2020-publicacion/"
+zh_url: "/chn/productos/eggs-obras-2010-2020-publicacion/"
 order: 1184
 ---

@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "可购买版画；原作遗失／下落不明"
 image: "/assets/img/tienda/EGGS-W0017-L01-P5070-F70100.webp"
-es_url: "/ES/productos/bandera-infectada-n-2-edicion-limitada/"
-en_url: "/EN/products/bandera-infectada-n-2-edicion-limitada/"
-mpd_url: "/MPD/productos/bandera-infectada-n-2-edicion-limitada/"
-zh_url: "/CHN/productos/bandera-infectada-n-2-edicion-limitada/"
+es_url: "/es/productos/bandera-infectada-n-2-edicion-limitada/"
+en_url: "/en/products/bandera-infectada-n-2-edicion-limitada/"
+mpd_url: "/mpd/productos/bandera-infectada-n-2-edicion-limitada/"
+zh_url: "/chn/productos/bandera-infectada-n-2-edicion-limitada/"
 order: 1036
 ---

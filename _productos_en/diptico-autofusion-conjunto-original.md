@@ -22,9 +22,9 @@ price_display: "$2.700.000 CLP"
 stock: 1
 state: "Available"
 image: "/assets/img/tienda/EGGS-S0004-ORI.webp"
-es_url: "/ES/productos/diptico-autofusion-conjunto-original/"
-en_url: "/EN/products/diptico-autofusion-conjunto-original/"
-mpd_url: "/MPD/productos/diptico-autofusion-conjunto-original/"
-zh_url: "/CHN/productos/diptico-autofusion-conjunto-original/"
+es_url: "/es/productos/diptico-autofusion-conjunto-original/"
+en_url: "/en/products/diptico-autofusion-conjunto-original/"
+mpd_url: "/mpd/productos/diptico-autofusion-conjunto-original/"
+zh_url: "/chn/productos/diptico-autofusion-conjunto-original/"
 order: 1010
 ---

@@ -22,9 +22,9 @@ price_display: "$3.800.000 CLP"
 stock: 1
 state: "Disponible; obra en buen estado para vender"
 image: "/assets/img/tienda/EGGS-W0021-ORI.webp"
-es_url: "/ES/productos/paisaje-urbano-original/"
-en_url: "/EN/products/paisaje-urbano-original/"
-mpd_url: "/MPD/productos/paisaje-urbano-original/"
-zh_url: "/CHN/productos/paisaje-urbano-original/"
+es_url: "/es/productos/paisaje-urbano-original/"
+en_url: "/en/products/paisaje-urbano-original/"
+mpd_url: "/mpd/productos/paisaje-urbano-original/"
+zh_url: "/chn/productos/paisaje-urbano-original/"
 order: 1042
 ---

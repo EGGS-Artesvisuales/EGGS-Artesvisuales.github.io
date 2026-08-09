@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Available as an edition to be produced"
 image: "/assets/img/tienda/EGGS-W0075-L01-P70100-F80110.webp"
-es_url: "/ES/productos/pueblo-mapuche-mujer-edicion-limitada/"
-en_url: "/EN/products/pueblo-mapuche-mujer-edicion-limitada/"
-mpd_url: "/MPD/productos/pueblo-mapuche-mujer-edicion-limitada/"
-zh_url: "/CHN/productos/pueblo-mapuche-mujer-edicion-limitada/"
+es_url: "/es/productos/pueblo-mapuche-mujer-edicion-limitada/"
+en_url: "/en/products/pueblo-mapuche-mujer-edicion-limitada/"
+mpd_url: "/mpd/productos/pueblo-mapuche-mujer-edicion-limitada/"
+zh_url: "/chn/productos/pueblo-mapuche-mujer-edicion-limitada/"
 order: 1078
 ---

@@ -22,9 +22,9 @@ price_display: "$900.000 CLP"
 stock: 10
 state: "Available to be produced"
 image: "/assets/img/tienda/EGGS-S0006-L01-P70120-F80130.webp"
-es_url: "/ES/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
-en_url: "/EN/products/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
-mpd_url: "/MPD/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
-zh_url: "/CHN/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
+es_url: "/es/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
+en_url: "/en/products/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
+mpd_url: "/mpd/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
+zh_url: "/chn/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-de-prints/"
 order: 1012
 ---

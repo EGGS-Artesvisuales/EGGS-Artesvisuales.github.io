@@ -22,9 +22,9 @@ price_display: "$750.000 CLP"
 stock: 1
 state: "现可购买"
 image: "/assets/img/tienda/EGGS-W0001-ORI.webp"
-es_url: "/ES/productos/caleta-infectada/"
-en_url: "/EN/products/caleta-infectada/"
-mpd_url: "/MPD/productos/caleta-infectada/"
-zh_url: "/CHN/productos/caleta-infectada/"
+es_url: "/es/productos/caleta-infectada/"
+en_url: "/en/products/caleta-infectada/"
+mpd_url: "/mpd/productos/caleta-infectada/"
+zh_url: "/chn/productos/caleta-infectada/"
 order: 10
 ---

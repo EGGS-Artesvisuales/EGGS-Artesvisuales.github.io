@@ -23,9 +23,9 @@ stock: 50
 state: "Disponible por producir"
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "Imagen referencial del archivo de antipublicidad; la publicación final está por producir."
-es_url: "/ES/productos/pp-series-publicacion/"
-en_url: "/EN/products/pp-series-publication/"
-mpd_url: "/MPD/productos/pp-series-publicacion/"
-zh_url: "/CHN/productos/pp-series-publicacion/"
+es_url: "/es/productos/pp-series-publicacion/"
+en_url: "/en/products/pp-series-publication/"
+mpd_url: "/mpd/productos/pp-series-publicacion/"
+zh_url: "/chn/productos/pp-series-publicacion/"
 order: 233
 ---

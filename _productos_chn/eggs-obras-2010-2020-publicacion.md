@@ -23,9 +23,9 @@ stock: 50
 state: "可按订单制作"
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "档案参考图；最终出版物待制作。"
-es_url: "/ES/productos/eggs-obras-2010-2020-publicacion/"
-en_url: "/EN/products/eggs-works-2010-2020-publication/"
-mpd_url: "/MPD/productos/eggs-obras-2010-2020-publicacion/"
-zh_url: "/CHN/productos/eggs-obras-2010-2020-publicacion/"
+es_url: "/es/productos/eggs-obras-2010-2020-publicacion/"
+en_url: "/en/products/eggs-works-2010-2020-publication/"
+mpd_url: "/mpd/productos/eggs-obras-2010-2020-publicacion/"
+zh_url: "/chn/productos/eggs-obras-2010-2020-publicacion/"
 order: 1184
 ---

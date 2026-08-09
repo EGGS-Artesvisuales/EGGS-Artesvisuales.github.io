@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "可按订单制作版本"
 image: "/assets/img/tienda/EGGS-W0132-L01-P70100-F80110.webp"
-es_url: "/ES/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
-en_url: "/EN/products/la-bendicion-de-los-quillayes-edicion-limitada/"
-mpd_url: "/MPD/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
-zh_url: "/CHN/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
+es_url: "/es/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
+en_url: "/en/products/la-bendicion-de-los-quillayes-edicion-limitada/"
+mpd_url: "/mpd/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
+zh_url: "/chn/productos/la-bendicion-de-los-quillayes-edicion-limitada/"
 order: 1092
 ---

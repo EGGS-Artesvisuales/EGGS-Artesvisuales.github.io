@@ -23,9 +23,9 @@ stock: 5
 state: "Müley trafkintuam ngillatun mew; wüne rüf montaje petu dewmangelu"
 image: "/assets/img/intangible/tragedian-01.webp"
 image_note: "Wüne azentun; trafkintuam principal azentun petu dewmangelu. Réplica escultórica o carcasa completamente inerte ka verificada müten niey."
-es_url: "/ES/productos/tragedian-instalacion-reejecutable/"
-en_url: "/EN/products/tragedian-instalacion-reejecutable/"
-mpd_url: "/MPD/productos/tragedian-instalacion-reejecutable/"
-zh_url: "/CHN/productos/tragedian-instalacion-reejecutable/"
+es_url: "/es/productos/tragedian-instalacion-reejecutable/"
+en_url: "/en/products/tragedian-instalacion-reejecutable/"
+mpd_url: "/mpd/productos/tragedian-instalacion-reejecutable/"
+zh_url: "/chn/productos/tragedian-instalacion-reejecutable/"
 order: 1075.5
 ---

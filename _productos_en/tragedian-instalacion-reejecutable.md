@@ -23,9 +23,9 @@ stock: 5
 state: "Available by commission; first definitive physical installation pending"
 image: "/assets/img/intangible/tragedian-01.webp"
 image_note: "Preliminary visualization; the final sales master image remains pending. The work exclusively uses a sculptural replica or a fully inert, verified casing."
-es_url: "/ES/productos/tragedian-instalacion-reejecutable/"
-en_url: "/EN/products/tragedian-instalacion-reejecutable/"
-mpd_url: "/MPD/productos/tragedian-instalacion-reejecutable/"
-zh_url: "/CHN/productos/tragedian-instalacion-reejecutable/"
+es_url: "/es/productos/tragedian-instalacion-reejecutable/"
+en_url: "/en/products/tragedian-instalacion-reejecutable/"
+mpd_url: "/mpd/productos/tragedian-instalacion-reejecutable/"
+zh_url: "/chn/productos/tragedian-instalacion-reejecutable/"
 order: 1075.5
 ---

@@ -22,9 +22,9 @@ price_display: "$650.000 CLP"
 stock: 1
 state: "Müley trafkintuam; firmada y conservada"
 image: "/assets/img/tienda/EGGS-W0032-ORI.webp"
-es_url: "/ES/productos/nino-con-fondo-azul-original/"
-en_url: "/EN/products/nino-con-fondo-azul-original/"
-mpd_url: "/MPD/productos/nino-con-fondo-azul-original/"
-zh_url: "/CHN/productos/nino-con-fondo-azul-original/"
+es_url: "/es/productos/nino-con-fondo-azul-original/"
+en_url: "/en/products/nino-con-fondo-azul-original/"
+mpd_url: "/mpd/productos/nino-con-fondo-azul-original/"
+zh_url: "/chn/productos/nino-con-fondo-azul-original/"
 order: 1054
 ---

@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke fotográfica dewman müley"
 image: "/assets/img/tienda/EGGS-W0022-L01-P70100-F80110.webp"
-es_url: "/ES/productos/cordillera-edicion-fotografica/"
-en_url: "/EN/products/cordillera-edicion-fotografica/"
-mpd_url: "/MPD/productos/cordillera-edicion-fotografica/"
-zh_url: "/CHN/productos/cordillera-edicion-fotografica/"
+es_url: "/es/productos/cordillera-edicion-fotografica/"
+en_url: "/en/products/cordillera-edicion-fotografica/"
+mpd_url: "/mpd/productos/cordillera-edicion-fotografica/"
+zh_url: "/chn/productos/cordillera-edicion-fotografica/"
 order: 110
 ---

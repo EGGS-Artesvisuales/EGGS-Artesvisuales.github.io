@@ -25,9 +25,9 @@ delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el
 mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-S0008-PUB01.webp"
 image_note: "Imagen de referencia del proyecto; la publicación final está por producir."
-es_url: "/ES/productos/intervenciones-publicitarias-2007-2011-publicacion/"
-en_url: "/EN/products/intervenciones-publicitarias-2007-2011-publicacion/"
-mpd_url: "/MPD/productos/intervenciones-publicitarias-2007-2011-publicacion/"
-zh_url: "/CHN/productos/intervenciones-publicitarias-2007-2011-publicacion/"
+es_url: "/es/productos/intervenciones-publicitarias-2007-2011-publicacion/"
+en_url: "/en/products/intervenciones-publicitarias-2007-2011-publicacion/"
+mpd_url: "/mpd/productos/intervenciones-publicitarias-2007-2011-publicacion/"
+zh_url: "/chn/productos/intervenciones-publicitarias-2007-2011-publicacion/"
 order: 1014
 ---

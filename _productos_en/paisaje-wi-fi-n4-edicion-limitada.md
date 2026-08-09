@@ -22,9 +22,9 @@ price_display: "$420.000 CLP"
 stock: 15
 state: "Available only as a limited edition to be produced"
 image: "/assets/img/tienda/EGGS-W0049-L01-P70100-F80110.webp"
-es_url: "/ES/productos/paisaje-wi-fi-n4-edicion-limitada/"
-en_url: "/EN/products/paisaje-wi-fi-n4-edicion-limitada/"
-mpd_url: "/MPD/productos/paisaje-wi-fi-n4-edicion-limitada/"
-zh_url: "/CHN/productos/paisaje-wi-fi-n4-edicion-limitada/"
+es_url: "/es/productos/paisaje-wi-fi-n4-edicion-limitada/"
+en_url: "/en/products/paisaje-wi-fi-n4-edicion-limitada/"
+mpd_url: "/mpd/productos/paisaje-wi-fi-n4-edicion-limitada/"
+zh_url: "/chn/productos/paisaje-wi-fi-n4-edicion-limitada/"
 order: 1067
 ---

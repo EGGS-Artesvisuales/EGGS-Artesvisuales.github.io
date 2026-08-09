@@ -22,9 +22,9 @@ price_display: "$950.000 CLP"
 stock: 5
 state: "可按订单制作版本"
 image: "/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp"
-es_url: "/ES/productos/el-colgado-01-edicion-fotografica/"
-en_url: "/EN/products/el-colgado-01-edicion-fotografica/"
-mpd_url: "/MPD/productos/el-colgado-01-edicion-fotografica/"
-zh_url: "/CHN/productos/el-colgado-01-edicion-fotografica/"
+es_url: "/es/productos/el-colgado-01-edicion-fotografica/"
+en_url: "/en/products/el-colgado-01-edicion-fotografica/"
+mpd_url: "/mpd/productos/el-colgado-01-edicion-fotografica/"
+zh_url: "/chn/productos/el-colgado-01-edicion-fotografica/"
 order: 150
 ---

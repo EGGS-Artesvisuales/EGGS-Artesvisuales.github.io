@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke dewman müley"
 image: "/assets/img/tienda/EGGS-W0074-L01-P70100-F80110.webp"
-es_url: "/ES/productos/pueblo-mapuche-hombre-edicion-limitada/"
-en_url: "/EN/products/pueblo-mapuche-hombre-edicion-limitada/"
-mpd_url: "/MPD/productos/pueblo-mapuche-hombre-edicion-limitada/"
-zh_url: "/CHN/productos/pueblo-mapuche-hombre-edicion-limitada/"
+es_url: "/es/productos/pueblo-mapuche-hombre-edicion-limitada/"
+en_url: "/en/products/pueblo-mapuche-hombre-edicion-limitada/"
+mpd_url: "/mpd/productos/pueblo-mapuche-hombre-edicion-limitada/"
+zh_url: "/chn/productos/pueblo-mapuche-hombre-edicion-limitada/"
 order: 1077
 ---

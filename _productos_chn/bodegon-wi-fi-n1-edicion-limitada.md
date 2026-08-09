@@ -22,9 +22,9 @@ price_display: "$420.000 CLP"
 stock: 15
 state: "仅可制作限量版"
 image: "/assets/img/tienda/EGGS-W0051-L01-P70100-F80110.webp"
-es_url: "/ES/productos/bodegon-wi-fi-n1-edicion-limitada/"
-en_url: "/EN/products/bodegon-wi-fi-n1-edicion-limitada/"
-mpd_url: "/MPD/productos/bodegon-wi-fi-n1-edicion-limitada/"
-zh_url: "/CHN/productos/bodegon-wi-fi-n1-edicion-limitada/"
+es_url: "/es/productos/bodegon-wi-fi-n1-edicion-limitada/"
+en_url: "/en/products/bodegon-wi-fi-n1-edicion-limitada/"
+mpd_url: "/mpd/productos/bodegon-wi-fi-n1-edicion-limitada/"
+zh_url: "/chn/productos/bodegon-wi-fi-n1-edicion-limitada/"
 order: 1069
 ---

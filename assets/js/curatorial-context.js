@@ -1,7 +1,7 @@
 (() => {
   const path = window.location.pathname;
 
-  const supportedPrefixes = ["/ES/", "/EN/", "/MPD/", "/CHN/"];
+  const supportedPrefixes = ["/es/", "/en/", "/mpd/", "/chn/"];
   if (!supportedPrefixes.some((prefix) => path.startsWith(prefix))) return;
 
   const stylesheet = document.createElement("link");
@@ -73,9 +73,9 @@
   };
 
   function languageKey() {
-    if (path.startsWith("/EN/")) return "EN";
-    if (path.startsWith("/MPD/")) return "MPD";
-    if (path.startsWith("/CHN/")) return "CHN";
+    if (path.startsWith("/en/")) return "EN";
+    if (path.startsWith("/mpd/")) return "MPD";
+    if (path.startsWith("/chn/")) return "CHN";
     return "ES";
   }
 

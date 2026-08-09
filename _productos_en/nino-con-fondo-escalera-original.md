@@ -22,9 +22,9 @@ price_display: "$650.000 CLP"
 stock: 1
 state: "Available; signed and preserved"
 image: "/assets/img/tienda/EGGS-W0031-ORI.webp"
-es_url: "/ES/productos/nino-con-fondo-escalera-original/"
-en_url: "/EN/products/nino-con-fondo-escalera-original/"
-mpd_url: "/MPD/productos/nino-con-fondo-escalera-original/"
-zh_url: "/CHN/productos/nino-con-fondo-escalera-original/"
+es_url: "/es/productos/nino-con-fondo-escalera-original/"
+en_url: "/en/products/nino-con-fondo-escalera-original/"
+mpd_url: "/mpd/productos/nino-con-fondo-escalera-original/"
+zh_url: "/chn/productos/nino-con-fondo-escalera-original/"
 order: 1053
 ---

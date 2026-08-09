@@ -64,22 +64,22 @@ languages:
 # Configuración por defecto para cada idioma
 defaults:
   - scope:
-      path: "ES"
+      path: "es"
     values:
       lang: "es"
       locale: "es-ES"
   - scope:
-      path: "EN"
+      path: "en"
     values:
       lang: "en"
       locale: "en-US"
   - scope:
-      path: "MPD"
+      path: "mpd"
     values:
       lang: "arn"
       locale: "arn-CL"
   - scope:
-      path: "CHN"
+      path: "chn"
     values:
       lang: "zh-Hans"
       locale: "zh-Hans"
@@ -91,13 +91,13 @@ permalink: pretty
 collections:
   productos_es:
     output: true
-    permalink: /ES/productos/:path/
+    permalink: /es/productos/:path/
   productos_en:
     output: true
-    permalink: /EN/products/:path/
+    permalink: /en/products/:path/
   productos_mpd:
     output: true
-    permalink: /MPD/productos/:path/
+    permalink: /mpd/productos/:path/
   productos_chn:
     output: true
-    permalink: /CHN/productos/:path/
+    permalink: /chn/productos/:path/

@@ -23,9 +23,9 @@ stock: 20
 state: "Disponible"
 shipping_profile: "large"
 image: "/assets/img/tienda/EGGS-W0018-L01-P6060-F8080.webp"
-es_url: "/ES/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
-en_url: "/EN/products/membrana-sin-titulo-n-1-verde-edicion-limitada/"
-mpd_url: "/MPD/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
-zh_url: "/CHN/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
+es_url: "/es/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
+en_url: "/en/products/membrana-sin-titulo-n-1-verde-edicion-limitada/"
+mpd_url: "/mpd/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
+zh_url: "/chn/productos/membrana-sin-titulo-n-1-verde-edicion-limitada/"
 order: 1037
 ---

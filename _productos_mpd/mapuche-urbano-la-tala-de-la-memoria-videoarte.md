@@ -23,9 +23,9 @@ stock: 5
 state: "Müley trafkintuam edición reke de video adkünungeay"
 image: "/assets/img/tienda/EGGS-W0073-VID01.webp"
 image_note: "Küdaw ñi ad; digital edición ngillatun fey dewman."
-es_url: "/ES/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-en_url: "/EN/products/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-mpd_url: "/MPD/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-zh_url: "/CHN/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+es_url: "/es/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+en_url: "/en/products/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+mpd_url: "/mpd/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+zh_url: "/chn/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
 order: 1076
 ---

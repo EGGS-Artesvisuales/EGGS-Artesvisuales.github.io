@@ -23,9 +23,9 @@ stock: 50
 state: "Available to be produced"
 image: "/assets/img/tienda/EGGS-W0003-L01-P4050-F5070.webp"
 image_note: "Reference image from the series; the final publication is to be produced."
-es_url: "/ES/productos/pinturas-infectadas-publicacion/"
-en_url: "/EN/products/infected-paintings-publication/"
-mpd_url: "/MPD/productos/pinturas-infectadas-publicacion/"
-zh_url: "/CHN/productos/pinturas-infectadas-publicacion/"
+es_url: "/es/productos/pinturas-infectadas-publicacion/"
+en_url: "/en/products/infected-paintings-publication/"
+mpd_url: "/mpd/productos/pinturas-infectadas-publicacion/"
+zh_url: "/chn/productos/pinturas-infectadas-publicacion/"
 order: 1182
 ---

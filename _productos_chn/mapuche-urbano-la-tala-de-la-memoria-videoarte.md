@@ -23,9 +23,9 @@ stock: 5
 state: "可制作录像艺术版本"
 image: "/assets/img/tienda/EGGS-W0073-VID01.webp"
 image_note: "作品参考图；数字版本将在确认购买后准备。"
-es_url: "/ES/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-en_url: "/EN/products/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-mpd_url: "/MPD/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
-zh_url: "/CHN/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+es_url: "/es/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+en_url: "/en/products/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+mpd_url: "/mpd/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
+zh_url: "/chn/productos/mapuche-urbano-la-tala-de-la-memoria-videoarte/"
 order: 1076
 ---

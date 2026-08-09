@@ -22,9 +22,9 @@ price_display: "$8.500.000 CLP"
 stock: 1
 state: "Müley trafkintuam; obra firmada y en buen estado"
 image: "/assets/img/tienda/EGGS-W0023-ORI.webp"
-es_url: "/ES/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
-en_url: "/EN/products/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
-mpd_url: "/MPD/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
-zh_url: "/CHN/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
+es_url: "/es/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
+en_url: "/en/products/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
+mpd_url: "/mpd/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
+zh_url: "/chn/productos/pintura-infectada-gran-paisaje-01-gran-paisaje-saturado-n-1-original/"
 order: 1045
 ---

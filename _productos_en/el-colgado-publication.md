@@ -23,9 +23,9 @@ stock: 50
 state: "Available to be produced"
 image: "/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp"
 image_note: "Reference image from the project; the final publication is to be produced."
-es_url: "/ES/productos/el-colgado-publicacion/"
-en_url: "/EN/products/el-colgado-publication/"
-mpd_url: "/MPD/productos/el-colgado-publicacion/"
-zh_url: "/CHN/productos/el-colgado-publicacion/"
+es_url: "/es/productos/el-colgado-publicacion/"
+en_url: "/en/products/el-colgado-publication/"
+mpd_url: "/mpd/productos/el-colgado-publicacion/"
+zh_url: "/chn/productos/el-colgado-publicacion/"
 order: 1180
 ---

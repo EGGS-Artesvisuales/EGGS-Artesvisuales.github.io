@@ -22,9 +22,9 @@ price_display: "$1.350.000 CLP"
 stock: 1
 state: "现可购买"
 image: "/assets/img/tienda/EGGS-S0001-ORI.webp"
-es_url: "/ES/productos/diptico-infectado-n-1-conjunto-original/"
-en_url: "/EN/products/diptico-infectado-n-1-conjunto-original/"
-mpd_url: "/MPD/productos/diptico-infectado-n-1-conjunto-original/"
-zh_url: "/CHN/productos/diptico-infectado-n-1-conjunto-original/"
+es_url: "/es/productos/diptico-infectado-n-1-conjunto-original/"
+en_url: "/en/products/diptico-infectado-n-1-conjunto-original/"
+mpd_url: "/mpd/productos/diptico-infectado-n-1-conjunto-original/"
+zh_url: "/chn/productos/diptico-infectado-n-1-conjunto-original/"
 order: 1005
 ---

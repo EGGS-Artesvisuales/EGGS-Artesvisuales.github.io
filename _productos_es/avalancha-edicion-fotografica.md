@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Disponible como edición por producir"
 image: "/assets/img/tienda/EGGS-W0038-L01-P70100-F80110.webp"
-es_url: "/ES/productos/avalancha-edicion-fotografica/"
-en_url: "/EN/products/avalancha-edicion-fotografica/"
-mpd_url: "/MPD/productos/avalancha-edicion-fotografica/"
-zh_url: "/CHN/productos/avalancha-edicion-fotografica/"
+es_url: "/es/productos/avalancha-edicion-fotografica/"
+en_url: "/en/products/avalancha-edicion-fotografica/"
+mpd_url: "/mpd/productos/avalancha-edicion-fotografica/"
+zh_url: "/chn/productos/avalancha-edicion-fotografica/"
 order: 130
 ---

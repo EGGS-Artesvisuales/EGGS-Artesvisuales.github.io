@@ -22,9 +22,9 @@ price_display: "$750.000 CLP"
 stock: 1
 state: "Müley trafkintuam"
 image: "/assets/img/tienda/EGGS-W0002-ORI.webp"
-es_url: "/ES/productos/arte-original/"
-en_url: "/EN/products/arte-original/"
-mpd_url: "/MPD/productos/arte-original/"
-zh_url: "/CHN/productos/arte-original/"
+es_url: "/es/productos/arte-original/"
+en_url: "/en/products/arte-original/"
+mpd_url: "/mpd/productos/arte-original/"
+zh_url: "/chn/productos/arte-original/"
 order: 1019
 ---

@@ -22,9 +22,9 @@ price_display: "$1.650.000 CLP"
 stock: 1
 state: "Available; signed and preserved work"
 image: "/assets/img/tienda/EGGS-W0025-ORI.webp"
-es_url: "/ES/productos/mujeres-selknam/"
-en_url: "/EN/products/mujeres-selknam/"
-mpd_url: "/MPD/productos/mujeres-selknam/"
-zh_url: "/CHN/productos/mujeres-selknam/"
+es_url: "/es/productos/mujeres-selknam/"
+en_url: "/en/products/mujeres-selknam/"
+mpd_url: "/mpd/productos/mujeres-selknam/"
+zh_url: "/chn/productos/mujeres-selknam/"
 order: 40
 ---

@@ -1,0 +1,46 @@
+---
+layout: default-en
+lang: en
+title: "Anti-advertising – EGGS-Studio"
+description: "Landing for Anti-advertising: PP Series, Poster Series and Advertising Piracy."
+permalink: /en/anti-advertising-series.html
+es_url: /es/serie-antipublicidad.html
+mpd_url: /mpd/serie-antipublicidad.html
+zh_url: /chn/serie-antipublicidad.html
+keywords: "Anti-advertising, PP Series, posters, advertising piracy, Esteban Garnica"
+mermaid: true
+---
+
+<h1 class="titulo">Anti-advertising</h1>
+<h2 class="subtitulo">Intervening advertising from inside its own language.</h2>
+
+<figure class="imagen-con-caption">
+  <img src="/assets/img/boton-antipub.webp" alt="EGGS-Studio anti-advertising" loading="lazy">
+  <figcaption>Anti-advertising brings together PP Series, Poster Series and Advertising Piracy.</figcaption>
+</figure>
+
+<section class="parrafo">
+  <p><strong>Anti-advertising</strong> is not a single product. It is a category of urban and visual intervention built from the codes, supports and promises of commercial imagery.</p>
+  <p>It includes <strong>PP Series</strong>, <strong>Poster Series</strong> and <strong>Advertising Piracy</strong>, where the commercial image is appropriated, altered and returned to public space as symbolic noise.</p>
+</section>
+
+<h3 class="subtitulo2">CONTEXT AND GENEALOGY</h3>
+<section class="parrafo">
+  <p>These interventions converse with strategies of <em>détournement</em> and culture jamming: appropriating a dominant language in order to alter its message from within. In Chile, they also relate to a history of practices that used streets, media and signage as territories of symbolic dispute, from CADA's actions to Lotty Rosenfeld's interventions.</p>
+  <p>This context does not claim equivalence or direct affiliation. It locates the series within a shared field of questions: who controls public imagery, how messages circulate, and what happens when commercial codes return to the city carrying another meaning.</p>
+</section>
+
+<div class="button-container">
+  <a class="fancy-button" href="/en/sub-anti-advertising.html"><div class="button-content"><p class="title">View archive</p><p class="subtitle">Full curatorial category.</p></div></a>
+  <a class="fancy-button" href="/en/products/pp-series-publication/"><div class="button-content"><p class="title">PP Series</p><p class="subtitle">Related publication.</p></div></a>
+  <a class="fancy-button" href="/en/store.html"><div class="button-content"><p class="title">Shop</p><p class="subtitle">Available works and editions.</p></div></a>
+</div>
+
+<div class="mermaid">
+flowchart LR
+  A((Anti-advertising)) --> PP[PP Series]
+  A --> C[Poster Series]
+  A --> P[Advertising Piracy]
+  A --> M[Intervention models]
+  A --> T[Shop / publications]
+</div>

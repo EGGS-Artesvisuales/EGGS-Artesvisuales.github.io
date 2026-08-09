@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "可购买版画；原作不出售"
 image: "/assets/img/tienda/EGGS-W0007-L01-P5070-F70100.webp"
-es_url: "/ES/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
-en_url: "/EN/products/pintura-infectada-mujer-en-bici-edicion-limitada/"
-mpd_url: "/MPD/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
-zh_url: "/CHN/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
+es_url: "/es/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
+en_url: "/en/products/pintura-infectada-mujer-en-bici-edicion-limitada/"
+mpd_url: "/mpd/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
+zh_url: "/chn/productos/pintura-infectada-mujer-en-bici-edicion-limitada/"
 order: 1028
 ---

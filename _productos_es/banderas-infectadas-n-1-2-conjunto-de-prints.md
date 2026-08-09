@@ -24,9 +24,9 @@ price_display: "$470.000 CLP"
 stock: 20
 state: "Venta individual por obra"
 image: "/assets/img/tienda/EGGS-S0005-L01-P5070-F70100.webp"
-es_url: "/ES/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
-en_url: "/EN/products/banderas-infectadas-n-1-2-conjunto-de-prints/"
-mpd_url: "/MPD/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
-zh_url: "/CHN/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
+es_url: "/es/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
+en_url: "/en/products/banderas-infectadas-n-1-2-conjunto-de-prints/"
+mpd_url: "/mpd/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
+zh_url: "/chn/productos/banderas-infectadas-n-1-2-conjunto-de-prints/"
 order: 1011
 ---

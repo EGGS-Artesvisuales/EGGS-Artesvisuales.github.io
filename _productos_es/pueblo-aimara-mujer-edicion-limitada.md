@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Disponible como edición por producir"
 image: "/assets/img/tienda/EGGS-W0077-L01-P70100-F80110.webp"
-es_url: "/ES/productos/pueblo-aimara-mujer-edicion-limitada/"
-en_url: "/EN/products/pueblo-aimara-mujer-edicion-limitada/"
-mpd_url: "/MPD/productos/pueblo-aimara-mujer-edicion-limitada/"
-zh_url: "/CHN/productos/pueblo-aimara-mujer-edicion-limitada/"
+es_url: "/es/productos/pueblo-aimara-mujer-edicion-limitada/"
+en_url: "/en/products/pueblo-aimara-mujer-edicion-limitada/"
+mpd_url: "/mpd/productos/pueblo-aimara-mujer-edicion-limitada/"
+zh_url: "/chn/productos/pueblo-aimara-mujer-edicion-limitada/"
 order: 1080
 ---

@@ -22,9 +22,9 @@ stock: 50
 state: "Artist publication to be produced"
 image: "/assets/img/tienda/EGGS-W0019-PUB01-LEP.webp"
 image_note: "Reference image of the project; the final publication is to be produced."
-es_url: "/ES/productos/mapamundi-publicacion/"
-en_url: "/EN/products/mapamundi-publicacion/"
-mpd_url: "/MPD/productos/mapamundi-publicacion/"
-zh_url: "/CHN/productos/mapamundi-publicacion/"
+es_url: "/es/productos/mapamundi-publicacion/"
+en_url: "/en/products/mapamundi-publicacion/"
+mpd_url: "/mpd/productos/mapamundi-publicacion/"
+zh_url: "/chn/productos/mapamundi-publicacion/"
 order: 210
 ---

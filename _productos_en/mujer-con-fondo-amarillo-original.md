@@ -22,9 +22,9 @@ price_display: "$650.000 CLP"
 stock: 1
 state: "Available; signed and preserved"
 image: "/assets/img/tienda/EGGS-W0027-ORI.webp"
-es_url: "/ES/productos/mujer-con-fondo-amarillo-original/"
-en_url: "/EN/products/mujer-con-fondo-amarillo-original/"
-mpd_url: "/MPD/productos/mujer-con-fondo-amarillo-original/"
-zh_url: "/CHN/productos/mujer-con-fondo-amarillo-original/"
+es_url: "/es/productos/mujer-con-fondo-amarillo-original/"
+en_url: "/en/products/mujer-con-fondo-amarillo-original/"
+mpd_url: "/mpd/productos/mujer-con-fondo-amarillo-original/"
+zh_url: "/chn/productos/mujer-con-fondo-amarillo-original/"
 order: 1050
 ---

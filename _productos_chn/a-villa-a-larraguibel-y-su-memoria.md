@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "可按订单制作版本"
 image: "/assets/img/tienda/EGGS-W0127-L01-P70100-F80110.webp"
-es_url: "/ES/productos/a-villa-a-larraguibel-y-su-memoria/"
-en_url: "/EN/products/a-villa-a-larraguibel-y-su-memoria/"
-mpd_url: "/MPD/productos/a-villa-a-larraguibel-y-su-memoria/"
-zh_url: "/CHN/productos/a-villa-a-larraguibel-y-su-memoria/"
+es_url: "/es/productos/a-villa-a-larraguibel-y-su-memoria/"
+en_url: "/en/products/a-villa-a-larraguibel-y-su-memoria/"
+mpd_url: "/mpd/productos/a-villa-a-larraguibel-y-su-memoria/"
+zh_url: "/chn/productos/a-villa-a-larraguibel-y-su-memoria/"
 order: 160
 ---

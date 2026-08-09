@@ -1,0 +1,48 @@
+---
+layout: default-es
+lang: es
+title: "Obra – EGGS-Studio"
+description: "Índice curatorial de la obra de Esteban Garnica: ejes conceptuales, series principales, subseries, archivo de obra y ediciones disponibles."
+permalink: /es/obra.html
+es_url: /es/obra.html
+en_url: /en/work.html
+mpd_url: /mpd/obra.html
+zh_url: /chn/obra.html
+keywords: "obra Esteban Garnica, EGGS-Studio, mapa de obra, series de arte, Pinturas Infectadas, Antipublicidad, El Colgado"
+image: /assets/img/pinf-blds-upg-retr-003b.jpg
+---
+
+<link rel="stylesheet" href="/assets/css/obra-index.css">
+<link rel="stylesheet" href="/assets/css/obra-index-fixes.css">
+
+<div class="obra-index">
+  <section class="obra-hero" aria-labelledby="obra-title">
+    <div><p class="obra-kicker">Índice curatorial</p><h1 id="obra-title">OBRA</h1></div>
+    <div><p class="obra-hero__intro"><span class="obra-hero__statement">una forma de habitar el mundo y de ser en él.</span><span class="obra-hero__orientation">Puedes comenzar por las imágenes y las series, o profundizar después en la estructura conceptual completa.</span></p><div class="obra-actions"><a href="#series-obra" class="obra-button obra-button--primary">Ver las series</a><a href="#mapa-obra" class="obra-button">Explorar los ejes</a></div></div>
+  </section>
+
+  <section class="obra-section" aria-labelledby="series-obra">
+    <header class="obra-section__heading"><div><p class="obra-section__eyebrow">Entrada visual</p><h2 id="series-obra">Series y subseries</h2></div><p>Las series ofrecen un primer acceso directo a las imágenes, los materiales y las preguntas que atraviesan la obra.</p></header>
+    <div class="obra-series">
+      <article class="obra-series-group obra-series-group--primary"><div class="obra-series-group__media"><img src="/assets/img/pes-pint-produccion-Serie01-000b.jpg" alt="Pinturas Infectadas" loading="lazy"></div><div class="obra-series-group__body"><p class="obra-card__level">Serie principal · Representación del mundo</p><h3>Pinturas Infectadas</h3><p>La pintura entendida como organismo vulnerable, superficie contaminada y sistema en transformación.</p><a href="/es/serie-pinturas-infectadas.html" class="obra-series-group__main-link">Entrar a la serie</a><div class="obra-subseries" aria-label="Subseries de Pinturas Infectadas"><a href="/es/serie-banderas-infectadas.html"><span class="obra-subseries__index">01.1</span><span class="obra-subseries__name">Banderas Infectadas</span><span class="obra-subseries__type">Subserie</span></a><a href="/es/serie-paisajes-carretera.html"><span class="obra-subseries__index">01.2</span><span class="obra-subseries__name">Paisajes de Carretera</span><span class="obra-subseries__type">Subserie</span></a></div></div></article>
+      <a href="/es/serie-antipublicidad.html" class="obra-series-card"><div class="obra-series-card__image"><img src="/assets/img/boton-antipub.webp" alt="Antipublicidad" loading="lazy"></div><div class="obra-series-card__copy"><p class="obra-card__level">Serie principal · Acción en el mundo</p><h3>Antipublicidad</h3><p>Categoría de intervención visual que agrupa PP Series, Serie de los Carteles y Piratería Publicitaria.</p></div></a>
+      <a href="/es/serie-el-colgado.html" class="obra-series-card"><div class="obra-series-card__image"><img src="/assets/img/tienda/EGGS-W0053-L01-P110160-F120170.webp" alt="El Colgado" loading="lazy"></div><div class="obra-series-card__copy"><p class="obra-card__level">Serie principal · Representación del mundo</p><h3>El Colgado</h3><p>Fotografía, suspensión corporal, rito y aparición territorial.</p></div></a>
+    </div>
+  </section>
+
+  <section class="obra-section" aria-labelledby="mapa-obra">
+    <header class="obra-section__heading"><div><p class="obra-section__eyebrow">Segunda capa</p><h2 id="mapa-obra">Tres ejes conceptuales</h2></div><p>Después de la entrada visual, la práctica puede recorrerse como tres movimientos complementarios: representar el mundo, actuar en él y explorar la dimensión interior.</p></header>
+    <div class="obra-axes">
+      <a href="/es/mundo-exterior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="Representación del mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">01</span><h3>Representación del mundo</h3><p>Paisaje, territorio, cultura visual y fenómenos contemporáneos.</p></div></a>
+      <a href="/es/accion.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/index---gif--accion-en-el-mundo.webp" alt="Acción en el mundo" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">02</span><h3>Acción en el mundo</h3><p>Intervención urbana, comunidad, colaboración y espacio público.</p></div></a>
+      <a href="/es/interior.html" class="obra-axis"><div class="obra-axis__image"><img src="/assets/img/ES-inicio---mundo-interior.webp" alt="Mundo interior" loading="lazy"></div><div class="obra-axis__copy"><span class="obra-axis__number">03</span><h3>Mundo interior</h3><p>Cuerpo, memoria, rito, imaginación, psicología y espiritualidad.</p></div></a>
+    </div>
+    <a href="/es/diagrama.html" class="obra-section__link">Explorar el mapa conceptual de obra</a>
+  </section>
+
+  <section class="obra-section" aria-labelledby="obra-disponible"><div class="obra-available"><div class="obra-available__media"><img src="/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp" alt="Edición disponible de Paisajes de Carretera" loading="lazy"></div><div class="obra-available__copy"><p class="obra-section__eyebrow">Ediciones y obra disponible</p><h2 id="obra-disponible">Adquirir una obra</h2><p>La tienda reúne prints, fotografías y publicaciones disponibles. Las ediciones amplían la circulación de determinadas imágenes y contribuyen a sostener la continuidad de la investigación artística. Esta entrada comercial se mantiene separada de la jerarquía curatorial: no elimina la tensión entre arte y mercancía, sino que reconoce una de las condiciones materiales desde las que la obra se produce y circula.</p><div class="obra-actions"><a href="/es/tienda.html#impresiones-y-fotografia" class="obra-button obra-button--primary">Ver obra disponible</a><a href="/es/contacto.html" class="obra-button">Consultar disponibilidad</a></div></div></div></section>
+
+  <section class="obra-section" aria-labelledby="archivo-completo"><div class="obra-map-card"><div><p class="obra-section__eyebrow">Archivo conceptual</p><h2 id="archivo-completo">Mapa conceptual de obra</h2><p>El mapa detallado despliega categorías, subcategorías, series, subseries, procesos y relaciones internas. Distingue entre obra publicada, desarrollos en curso y líneas de investigación abiertas.</p><a href="/es/diagrama.html" class="obra-section__link">Abrir el mapa conceptual de obra</a></div><div class="obra-map-card__symbol" aria-hidden="true">↳</div></div></section>
+
+  <section class="obra-contact" aria-labelledby="consulta-obra"><h2 id="consulta-obra">¿Necesitas información sobre una obra, serie o archivo específico?</h2><a href="/es/contacto.html" class="obra-button">Contactar</a></section>
+</div>

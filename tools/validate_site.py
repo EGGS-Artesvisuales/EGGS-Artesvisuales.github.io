@@ -45,11 +45,7 @@ def skipped(path: Path) -> bool:
 
 
 def source_checks(source: Path) -> list[str]:
-    """Validate source assets without enforcing authoring-directory casing.
-
-    Source content intentionally remains in ES, EN, MPD, and CHN. Public URL
-    casing is validated only after the post-build normalization step.
-    """
+    """Validate source assets for the canonical lowercase source tree."""
 
     errors: list[str] = []
     for path in source.rglob("*"):
@@ -87,8 +83,9 @@ def built_checks(site: Path) -> list[str]:
     if not html_files:
         return [f"{site}: no contiene un build HTML"]
 
+    published_directories = {path.name for path in site.iterdir() if path.is_dir()}
     for language in UPPERCASE_LANGUAGES:
-        if (site / language).exists():
+        if language in published_directories:
             errors.append(f"{language}/: salida pública duplicada en mayúsculas")
 
     for page in html_files:

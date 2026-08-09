@@ -1,0 +1,74 @@
+---
+layout: default-mpd
+lang: arn
+title: "Kalül mew – Esteban Garnica ñi küdaw trokiñ"
+description: "Esteban Garnica ñi küdaw trokiñ: chemkün, kalül ka fachi antü ñi püle az-küdaw mew."
+permalink: /mpd/tangible.html
+keywords: "Kalül mew, materialidad, fachi antü az-küdaw, objeto az-küdaw, kalül mew mülen, pintura ñi fentepun, Esteban Garnica, EGGS-Studio"
+mermaid: true
+---
+
+<h1 class="titulo">Kalül mew</h1>
+
+<h2 class="subtitulo">Wallmapu ñi kalül azentun</h2>
+
+<div class="mermaid">
+flowchart LR
+  representacion((Wallmapu ñi azentun))
+  tangible(("Kalül mew"))
+  intangible(["Püllü mew"])
+
+  representacion --> tangible
+  representacion --> intangible
+
+  tangible --> saturacion(["Fentepun"])
+  tangible --> tecnologia(["Teknologia"])
+
+  click representacion "/mpd/mundo-exterior.html" "Amun: Wallmapu ñi azentun"
+  click tangible "/mpd/tangible.html" "Amun: Kalül mew"
+  click saturacion "/mpd/saturacion.html" "Amun: Fentepun"
+  click tecnologia "/mpd/en-construccion.html" "Amun: Teknologia"
+  click intangible "/mpd/intangible.html" "Amun: Püllü mew"
+</div>
+<br>
+
+<p class="parrafo" style="margin-top: 6%;">
+  Fachi trokiñ txawüley pu küdaw ñi adkintun kalül, chemkün ka wall püle. Kiñeke zugu dulligey fachi antü ñi mogen mew ñi newen mew: chumgechi lof, kimün ka teknologia akumtun wallmapu mew. Ñi zugu müley azentun adkintun elun fachi época ñi fill antü ka azmogen dungu mew.
+</p>
+
+<p class="parrafo">
+  Fachi chemkün dullin mew adkintugey:
+</p>
+
+<ul class="parrafo">
+    <li>Waria kam itrofill mogen mew mülelu ñi küme felen.</li>
+    <li>Fill antü kimün rüpü mew ñi newen.</li>
+    <li>We dungu: fachi antü ñi chemkün, kuifi mew mülelafuy chi.</li>
+    <li>Azentun newen ñi kimelal akumtun ka tensión fachi zugu mew.</li>
+</ul>
+
+<br>
+
+<p class="parrafo">
+  Fachi trokiñ nülaley ka amuley. We zugu konkey ñi az-küdaw kintukimün amulen mew. Fachi mew kintun azmogen kiñe epu fütra rüpü mew:
+</p>
+
+
+
+<div class="button-container">
+    <a href="/mpd/saturacion.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/img/animacion-boton-la-saturacion.webp" alt="Fentepun">
+            <p class="title">Fentepun</p>
+            <p class="subtitle">Kutxan, fentepun ka capitalismo ñi dewman.</p>
+        </div>
+    </a>
+
+    <a href="/mpd/en-construccion.html" class="fancy-button">
+        <div class="button-content">
+            <img src="/assets/img/animacion-boton-la-tecnologia.webp" alt="Teknologia">
+            <p class="title">Teknologia</p>
+            <p class="subtitle">Teknologia ñi newen fachi antü wall püle mew.</p>
+        </div>
+    </a>
+</div>

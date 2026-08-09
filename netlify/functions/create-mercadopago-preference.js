@@ -25,24 +25,24 @@ const MERCADOPAGO_ENV = (process.env.MERCADOPAGO_ENV || "test").toLowerCase();
 const PREFERENCE_VALIDITY_MS = COMMERCE_CONFIG.paymentPreferenceTtlMs;
 const CHECKOUT_LOCALES = Object.freeze({
   es: Object.freeze({
-    success: "/ES/pago-exitoso.html",
-    pending: "/ES/pago-pendiente.html",
-    failure: "/ES/pago-rechazado.html",
+    success: "/es/pago-exitoso.html",
+    pending: "/es/pago-pendiente.html",
+    failure: "/es/pago-rechazado.html",
   }),
   en: Object.freeze({
-    success: "/EN/payment-success.html",
-    pending: "/EN/payment-pending.html",
-    failure: "/EN/payment-failed.html",
+    success: "/en/payment-success.html",
+    pending: "/en/payment-pending.html",
+    failure: "/en/payment-failed.html",
   }),
   mpd: Object.freeze({
-    success: "/MPD/pago-exitoso.html",
-    pending: "/MPD/pago-pendiente.html",
-    failure: "/MPD/pago-rechazado.html",
+    success: "/mpd/pago-exitoso.html",
+    pending: "/mpd/pago-pendiente.html",
+    failure: "/mpd/pago-rechazado.html",
   }),
   chn: Object.freeze({
-    success: "/CHN/pago-exitoso.html",
-    pending: "/CHN/pago-pendiente.html",
-    failure: "/CHN/pago-rechazado.html",
+    success: "/chn/pago-exitoso.html",
+    pending: "/chn/pago-pendiente.html",
+    failure: "/chn/pago-rechazado.html",
   }),
 });
 

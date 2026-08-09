@@ -1,0 +1,85 @@
+---
+layout: default-en
+lang: en
+title: "Displacement of Painting – Expansion and Contamination of the Support"
+description: "Esteban Garnica’s visual research on the displacement of painting toward objects and domestic, public, and natural spaces, exploring new materialities and sensory frictions."
+keywords: "displacement of painting, expanded painting, contemporary art Chile, Esteban Garnica, pictorial materiality, painting and domestic space, experimental practices"
+permalink: /en/displacement-of-painting.html
+mermaid: true
+---
+
+<h1 class="titulo">THE PLAGUE: Displacement of Painting</h1>
+<h2 class="subtitulo">Expanding the limits of the pictorial format</h2>
+<br>
+
+<section class="parrafo">
+  <p>
+    The concept of <strong>Displacement of Painting</strong> refers to the expansion of pictorial language beyond the stretcher, the easel, and the traditional exhibition space. This displacement unfolds across three fundamental dimensions: domestic space, public space, and the natural/rural environment.
+  </p>
+
+  <p>
+    Through this approach, painting ceases to be an autonomous object enclosed within itself and becomes a practice in transit—one that contaminates, occupies, dialogues, and adapts to real contexts. It is no longer only about representation, but about installation and affect.
+  </p>
+</section>
+
+<br>
+
+<div class="mermaid">
+graph LR
+  Z((Representation of the World))
+  Y((The Tangible))
+  A((Saturation))
+  B([The Plague])
+  F([Displacement of Painting])
+
+  F1([Domestic Space])
+  F2([Public Space])
+  F3([Rural / Natural Space])
+
+  Z --> Y
+  Y --> A
+  A --> B
+  B --> F
+
+  F --> F1
+  F --> F2
+  F --> F3
+
+  %% Links (EN)
+  click Z "/en/world-representation.html" "View Representation of the World"
+  click Y "/en/tangible.html" "View The Tangible"
+  click A "/en/saturation.html" "View Saturation"
+  click B "/en/the-plague.html" "View The Plague"
+  click F "/en/displacement-of-painting.html" "Go to Displacement of Painting"
+  click F1 "/en/domestic-space.html" "Go to Domestic Space"
+  click F2 "/en/public-space.html" "Go to Public Space"
+  click F3 "/en/rural-natural-space.html" "Go to Rural / Natural Space"
+</div>
+
+<br>
+
+<div class="button-container">
+  <a href="/en/domestic-space.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/la-saturacion-cocina-cubierta-086.jpg" alt="Domestic space" loading="lazy">
+      <p class="title">Domestic space</p>
+      <p class="subtitle">Painting displaced into the immediate space</p>
+    </div>
+  </a>
+
+  <a href="/en/public-space.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/la-peste-desp-espacio-pub-ohiggins001.jpg" alt="Public space" loading="lazy">
+      <p class="title">Public space</p>
+      <p class="subtitle">Painting displaced toward urban interventions</p>
+    </div>
+  </a>
+
+  <a href="/en/rural-natural-space.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/la-peste-desp-espacio-rural-ruralias01.jpg" alt="Rural / natural space" loading="lazy">
+      <p class="title">Rural / natural space</p>
+      <p class="subtitle">Painting displaced into landscape and territory</p>
+    </div>
+  </a>
+</div>

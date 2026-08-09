@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "可购买版画；原作已遗失"
 image: "/assets/img/tienda/EGGS-W0008-L01-P5070-F70100.webp"
-es_url: "/ES/productos/paisaje-de-carretera-01-edicion-limitada/"
-en_url: "/EN/products/paisaje-de-carretera-01-edicion-limitada/"
-mpd_url: "/MPD/productos/paisaje-de-carretera-01-edicion-limitada/"
-zh_url: "/CHN/productos/paisaje-de-carretera-01-edicion-limitada/"
+es_url: "/es/productos/paisaje-de-carretera-01-edicion-limitada/"
+en_url: "/en/products/paisaje-de-carretera-01-edicion-limitada/"
+mpd_url: "/mpd/productos/paisaje-de-carretera-01-edicion-limitada/"
+zh_url: "/chn/productos/paisaje-de-carretera-01-edicion-limitada/"
 order: 1029
 ---

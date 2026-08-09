@@ -22,9 +22,9 @@ stock: 50
 state: "Available to be produced"
 image: "/assets/img/tienda/EGGS-S0009-PUB01-LEP.webp"
 image_note: "Reference image of the project; the final publication is to be produced."
-es_url: "/ES/productos/remiendas-urbanas-publicacion/"
-en_url: "/EN/products/remiendas-urbanas-publicacion/"
-mpd_url: "/MPD/productos/remiendas-urbanas-publicacion/"
-zh_url: "/CHN/productos/remiendas-urbanas-publicacion/"
+es_url: "/es/productos/remiendas-urbanas-publicacion/"
+en_url: "/en/products/remiendas-urbanas-publicacion/"
+mpd_url: "/mpd/productos/remiendas-urbanas-publicacion/"
+zh_url: "/chn/productos/remiendas-urbanas-publicacion/"
 order: 220
 ---

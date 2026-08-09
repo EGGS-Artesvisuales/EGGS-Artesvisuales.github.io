@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke dewman müley"
 image: "/assets/img/tienda/EGGS-W0133-L01-P70100-F80110.webp"
-es_url: "/ES/productos/salmo-91-4-edicion-limitada/"
-en_url: "/EN/products/salmo-91-4-edicion-limitada/"
-mpd_url: "/MPD/productos/salmo-91-4-edicion-limitada/"
-zh_url: "/CHN/productos/salmo-91-4-edicion-limitada/"
+es_url: "/es/productos/salmo-91-4-edicion-limitada/"
+en_url: "/en/products/salmo-91-4-edicion-limitada/"
+mpd_url: "/mpd/productos/salmo-91-4-edicion-limitada/"
+zh_url: "/chn/productos/salmo-91-4-edicion-limitada/"
 order: 1093
 ---

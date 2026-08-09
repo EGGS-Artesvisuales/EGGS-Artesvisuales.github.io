@@ -23,9 +23,9 @@ stock: 5
 state: "Disponible por encargo; pendiente de primer montaje físico definitivo"
 image: "/assets/img/intangible/tragedian-01.webp"
 image_note: "Visualización preliminar; la imagen maestra de venta está pendiente. La obra utiliza exclusivamente una réplica escultórica o carcasa completamente inerte y verificada."
-es_url: "/ES/productos/tragedian-instalacion-reejecutable/"
-en_url: "/EN/products/tragedian-instalacion-reejecutable/"
-mpd_url: "/MPD/productos/tragedian-instalacion-reejecutable/"
-zh_url: "/CHN/productos/tragedian-instalacion-reejecutable/"
+es_url: "/es/productos/tragedian-instalacion-reejecutable/"
+en_url: "/en/products/tragedian-instalacion-reejecutable/"
+mpd_url: "/mpd/productos/tragedian-instalacion-reejecutable/"
+zh_url: "/chn/productos/tragedian-instalacion-reejecutable/"
 order: 1075.5
 ---

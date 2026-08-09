@@ -23,9 +23,9 @@ stock: 5
 state: "可委托制作；首次正式实体安装尚待完成"
 image: "/assets/img/intangible/tragedian-01.webp"
 image_note: "初步示意图；销售主图尚待确定。作品仅使用雕塑复制品或经过验证的完全惰性外壳。"
-es_url: "/ES/productos/tragedian-instalacion-reejecutable/"
-en_url: "/EN/products/tragedian-instalacion-reejecutable/"
-mpd_url: "/MPD/productos/tragedian-instalacion-reejecutable/"
-zh_url: "/CHN/productos/tragedian-instalacion-reejecutable/"
+es_url: "/es/productos/tragedian-instalacion-reejecutable/"
+en_url: "/en/products/tragedian-instalacion-reejecutable/"
+mpd_url: "/mpd/productos/tragedian-instalacion-reejecutable/"
+zh_url: "/chn/productos/tragedian-instalacion-reejecutable/"
 order: 1075.5
 ---

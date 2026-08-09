@@ -22,9 +22,9 @@ price_display: "$480.000 CLP"
 stock: 1
 state: "现可购买"
 image: "/assets/img/tienda/EGGS-W0003-ORI.webp"
-es_url: "/ES/productos/infected-paintings-1/"
-en_url: "/EN/products/infected-paintings-1/"
-mpd_url: "/MPD/productos/infected-paintings-1/"
-zh_url: "/CHN/productos/infected-paintings-1/"
+es_url: "/es/productos/infected-paintings-1/"
+en_url: "/en/products/infected-paintings-1/"
+mpd_url: "/mpd/productos/infected-paintings-1/"
+zh_url: "/chn/productos/infected-paintings-1/"
 order: 20
 ---

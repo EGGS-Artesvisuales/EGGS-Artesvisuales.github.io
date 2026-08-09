@@ -1,0 +1,86 @@
+---
+layout: default-en
+lang: en
+title: "Urban Mapuche – Genealogical Tree: The Felling of Memory | Esteban Garnica"
+description: "Urban Mapuche: stereoscopic video/animation where body, Mapuche clothing, and felled trees connect ancestral memory and environmental degradation."
+permalink: /en/urban-mapuche.html
+keywords: "Urban Mapuche, The Felling of Memory, genealogical tree, stereoscopic video, photo-performance, ancestral memory, Mapuche people, Esteban Garnica"
+carousel: true
+mermaid: true
+---
+
+<h1 class="titulo">Urban Mapuche</h1>
+<h2 class="subtitulo">Genealogical Tree: The Felling of Memory</h2>
+
+<div class="mermaid">
+flowchart LR
+  A((World Representation)) --> T([The Tangible])
+  A --> I((The Intangible))
+  I --> C([Images of Capitalism])
+  I --> P([Images of the Popular])
+  I --> AN((Images of the Ancestors))
+  AN --> TA((Urban Mapuche: The Felling of Memory))
+  AN --> MU([Musoe Open Air])
+
+  click A "/en/world-representation.html" "Go to World Representation"
+  click T "/en/tangible.html" "Go to The Tangible"
+  click I "/en/intangible.html" "Go to The Intangible"
+  click C "/en/images-of-capitalism.html" "Go to Images of Capitalism"
+  click P "/en/images-of-the-popular.html" "Go to Images of the Popular"
+  click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
+  click TA "/en/urban-mapuche.html" "You are here"
+  click MU "/en/musoe-open-air.html" "Go to Musoe Open Air"
+</div>
+
+<h2 class="subtitulo" id="urban-mapuche">Urban Mapuche</h2>
+
+<section class="parrafo">
+  <p><strong>Urban Mapuche / Genealogical Tree: The Felling of Memory</strong> is a video work made from stereoscopic photography. The body appears as support and declaration: a presence located in the city, over the remains of felled trees, activating the tension between ancestral memory and environmental degradation.</p>
+</section>
+
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:14px;">
+  <iframe src="https://www.youtube-nocookie.com/embed/doON1228aDw?rel=0&modestbranding=1" title="Urban Mapuche: The Felling of Memory" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<h3 class="subtitulo2" id="technical-sheet">Technical Sheet</h3>
+<section class="parrafo">
+  <p>
+    <strong>Title:</strong> <em>Urban Mapuche / Genealogical Tree: The Felling of Memory</em><br>
+    <strong>Year:</strong> 2018<br>
+    <strong>Medium:</strong> Animation of stereoscopic photographs / video<br>
+    <strong>Audio:</strong> Trompe sounds, referring to traditional Mapuche music<br>
+    <strong>Action/record:</strong> Poses in public space, over remains of felled trees, wearing Mapuche clothing.<br>
+    <strong>Exhibition:</strong> Galería Artespacio, ArteJoven BBVA Award selection, 2018.
+  </p>
+</section>
+
+<h3 class="subtitulo2" id="description">Description</h3>
+<section class="parrafo">
+  <p>The work is built from a direct gesture: facing the camera in urban settings where felled trees appear. That wounded ground is not a background but a sign. Mapuche clothing shifts the reading toward identity and territory, body and memory, city and cultural continuity.</p>
+</section>
+
+<div class="button-container">
+  <a href="/en/images-of-the-ancestors.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/animacion-boton-los-ancestros.webp" alt="Images of the Ancestors" loading="lazy">
+      <p class="title">Images of the Ancestors</p>
+      <p class="subtitle">Return to the conceptual branch.</p>
+    </div>
+  </a>
+
+  <a href="/en/musoe-open-air.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/boton-musoe-cielo-abierto.webp" alt="Musoe Open Air" loading="lazy">
+      <p class="title">Musoe Open Air</p>
+      <p class="subtitle">Mural diptychs (2018–2021).</p>
+    </div>
+  </a>
+
+  <a href="/en/world-representation.html" class="fancy-button">
+    <div class="button-content">
+      <img src="/assets/img/ES-inicio - representacion del mundo.webp" alt="World Representation" loading="lazy">
+      <p class="title">World Representation</p>
+      <p class="subtitle">Return to the beginning of the map.</p>
+    </div>
+  </a>
+</div>

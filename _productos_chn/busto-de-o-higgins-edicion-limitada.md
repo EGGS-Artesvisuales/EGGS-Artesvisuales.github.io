@@ -22,9 +22,9 @@ price_display: "$360.000 CLP"
 stock: 10
 state: "可按订单制作版本"
 image: "/assets/img/tienda/EGGS-W0044-L01-P5070-F70100.webp"
-es_url: "/ES/productos/busto-de-o-higgins-edicion-limitada/"
-en_url: "/EN/products/busto-de-o-higgins-edicion-limitada/"
-mpd_url: "/MPD/productos/busto-de-o-higgins-edicion-limitada/"
-zh_url: "/CHN/productos/busto-de-o-higgins-edicion-limitada/"
+es_url: "/es/productos/busto-de-o-higgins-edicion-limitada/"
+en_url: "/en/products/busto-de-o-higgins-edicion-limitada/"
+mpd_url: "/mpd/productos/busto-de-o-higgins-edicion-limitada/"
+zh_url: "/chn/productos/busto-de-o-higgins-edicion-limitada/"
 order: 1062
 ---

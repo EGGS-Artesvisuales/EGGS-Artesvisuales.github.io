@@ -22,9 +22,9 @@ price_display: "$290.000 CLP"
 stock: 20
 state: "Available only as a print; the original exists but is inaccessible to the artist"
 image: "/assets/img/tienda/EGGS-W0020-L01-P6060-F8080.webp"
-es_url: "/ES/productos/dos-hombres-selknam-edicion-limitada/"
-en_url: "/EN/products/dos-hombres-selknam-edicion-limitada/"
-mpd_url: "/MPD/productos/dos-hombres-selknam-edicion-limitada/"
-zh_url: "/CHN/productos/dos-hombres-selknam-edicion-limitada/"
+es_url: "/es/productos/dos-hombres-selknam-edicion-limitada/"
+en_url: "/en/products/dos-hombres-selknam-edicion-limitada/"
+mpd_url: "/mpd/productos/dos-hombres-selknam-edicion-limitada/"
+zh_url: "/chn/productos/dos-hombres-selknam-edicion-limitada/"
 order: 1040
 ---

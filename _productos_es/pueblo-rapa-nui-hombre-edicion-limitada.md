@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Disponible como edición por producir"
 image: "/assets/img/tienda/EGGS-W0079-L01-P70100-F80110.webp"
-es_url: "/ES/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
-en_url: "/EN/products/pueblo-rapa-nui-hombre-edicion-limitada/"
-mpd_url: "/MPD/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
-zh_url: "/CHN/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
+es_url: "/es/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
+en_url: "/en/products/pueblo-rapa-nui-hombre-edicion-limitada/"
+mpd_url: "/mpd/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
+zh_url: "/chn/productos/pueblo-rapa-nui-hombre-edicion-limitada/"
 order: 1082
 ---

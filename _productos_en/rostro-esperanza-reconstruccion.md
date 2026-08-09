@@ -23,9 +23,9 @@ stock: 3
 state: "Available by commission, subject to site assessment"
 image: "/assets/img/tienda/EGGS-W0082-RI01.webp"
 image_note: "Reference image of the work; the reconstruction is adapted to the site through the artist protocol."
-es_url: "/ES/productos/rostro-esperanza-reconstruccion/"
-en_url: "/EN/products/rostro-esperanza-reconstruccion/"
-mpd_url: "/MPD/productos/rostro-esperanza-reconstruccion/"
-zh_url: "/CHN/productos/rostro-esperanza-reconstruccion/"
+es_url: "/es/productos/rostro-esperanza-reconstruccion/"
+en_url: "/en/products/rostro-esperanza-reconstruccion/"
+mpd_url: "/mpd/productos/rostro-esperanza-reconstruccion/"
+zh_url: "/chn/productos/rostro-esperanza-reconstruccion/"
 order: 1085
 ---

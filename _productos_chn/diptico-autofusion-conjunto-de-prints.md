@@ -22,9 +22,9 @@ price_display: "$520.000 CLP"
 stock: 20
 state: "可按订单制作"
 image: "/assets/img/tienda/EGGS-S0004-L01-P6060-F8080.webp"
-es_url: "/ES/productos/diptico-autofusion-conjunto-de-prints/"
-en_url: "/EN/products/diptico-autofusion-conjunto-de-prints/"
-mpd_url: "/MPD/productos/diptico-autofusion-conjunto-de-prints/"
-zh_url: "/CHN/productos/diptico-autofusion-conjunto-de-prints/"
+es_url: "/es/productos/diptico-autofusion-conjunto-de-prints/"
+en_url: "/en/products/diptico-autofusion-conjunto-de-prints/"
+mpd_url: "/mpd/productos/diptico-autofusion-conjunto-de-prints/"
+zh_url: "/chn/productos/diptico-autofusion-conjunto-de-prints/"
 order: 1009
 ---

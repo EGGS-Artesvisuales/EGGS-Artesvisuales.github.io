@@ -22,9 +22,9 @@ price_display: "$8.500.000 CLP"
 stock: 1
 state: "Available; signed work in good condition"
 image: "/assets/img/tienda/EGGS-W0024-ORI.webp"
-es_url: "/ES/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
-en_url: "/EN/products/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
-mpd_url: "/MPD/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
-zh_url: "/CHN/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
+es_url: "/es/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
+en_url: "/en/products/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
+mpd_url: "/mpd/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
+zh_url: "/chn/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-original/"
 order: 1047
 ---

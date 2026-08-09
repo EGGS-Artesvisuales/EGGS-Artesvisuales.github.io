@@ -1,9 +1,9 @@
 (() => {
   const mapPaths = new Set([
-    "/ES/diagrama.html",
-    "/EN/work-diagram.html",
-    "/MPD/diagrama.html",
-    "/CHN/diagrama.html"
+    "/es/diagrama.html",
+    "/en/work-diagram.html",
+    "/mpd/diagrama.html",
+    "/chn/diagrama.html"
   ]);
 
   if (!mapPaths.has(window.location.pathname)) return;
@@ -16,7 +16,7 @@
   const researchIds = new Set(["A1b", "A1b1", "A1b2", "A1b3", "C1", "C2"]);
 
   const localizedCopy = {
-    "/EN/work-diagram.html": {
+    "/en/work-diagram.html": {
       title: "Conceptual work map",
       subtitle: "Ideas, relationships, series and research lines",
       statement1: "This classification does not seek to fix the practice permanently. It records movements between research, intervention, craft, territory and institutional circulation.",
@@ -28,7 +28,7 @@
       research: "Research line",
       researchText: "An open question or field guiding future work."
     },
-    "/MPD/diagrama.html": {
+    "/mpd/diagrama.html": {
       title: "Küdaw ñi mapa conceptual",
       subtitle: "Rakizuam, trafün, series ka investigación rüpü",
       statement1: "Fachi clasificación küdaw ñi az müten kütralelafuy. Kimelkey investigación, intervención, oficio, mapu ka institución mew amulechi ñi weichan ka desplazamiento.",
@@ -40,7 +40,7 @@
       research: "Investigación rüpü",
       researchText: "Nülalechi ramtun kam püle, we küdaw amulnieal."
     },
-    "/CHN/diagrama.html": {
+    "/chn/diagrama.html": {
       title: "作品概念地图",
       subtitle: "观念、关系、系列与研究线索",
       statement1: "这套分类并不试图永久固定创作实践，而是记录研究、介入、技艺、地域与制度传播之间的移动关系。",
@@ -67,11 +67,11 @@
       }
     );
 
-    if (window.location.pathname === "/MPD/diagrama.html") {
+    if (window.location.pathname === "/mpd/diagrama.html") {
       transformed = transformed.replace(/Museo a Cielo Abierto/g, "Musoe a Cielo Abierto");
     }
 
-    if (window.location.pathname === "/CHN/diagrama.html") {
+    if (window.location.pathname === "/chn/diagrama.html") {
       transformed = transformed.replace(/开放天空博物馆/g, "Musoe 露天艺术计划");
     }
 

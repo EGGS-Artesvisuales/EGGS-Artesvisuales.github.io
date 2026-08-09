@@ -22,9 +22,9 @@ stock: 50
 state: "Artista ñi chillka dewman müley"
 image: "/assets/img/tienda/EGGS-W0019-PUB01-LEP.webp"
 image_note: "Küdaw ñi ad; af chillka dewman müley."
-es_url: "/ES/productos/mapamundi-publicacion/"
-en_url: "/EN/products/mapamundi-publicacion/"
-mpd_url: "/MPD/productos/mapamundi-publicacion/"
-zh_url: "/CHN/productos/mapamundi-publicacion/"
+es_url: "/es/productos/mapamundi-publicacion/"
+en_url: "/en/products/mapamundi-publicacion/"
+mpd_url: "/mpd/productos/mapamundi-publicacion/"
+zh_url: "/chn/productos/mapamundi-publicacion/"
 order: 210
 ---

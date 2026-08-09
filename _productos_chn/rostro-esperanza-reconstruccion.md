@@ -23,9 +23,9 @@ stock: 3
 state: "可委托制作，须进行场地评估"
 image: "/assets/img/tienda/EGGS-W0082-RI01.webp"
 image_note: "作品参考图；重制作品将依照艺术家规范适配具体场地。"
-es_url: "/ES/productos/rostro-esperanza-reconstruccion/"
-en_url: "/EN/products/rostro-esperanza-reconstruccion/"
-mpd_url: "/MPD/productos/rostro-esperanza-reconstruccion/"
-zh_url: "/CHN/productos/rostro-esperanza-reconstruccion/"
+es_url: "/es/productos/rostro-esperanza-reconstruccion/"
+en_url: "/en/products/rostro-esperanza-reconstruccion/"
+mpd_url: "/mpd/productos/rostro-esperanza-reconstruccion/"
+zh_url: "/chn/productos/rostro-esperanza-reconstruccion/"
 order: 1085
 ---

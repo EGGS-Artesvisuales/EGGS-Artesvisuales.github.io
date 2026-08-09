@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Disponible como edición por producir"
 image: "/assets/img/tienda/EGGS-W0129-L01-P70100-F80110.webp"
-es_url: "/ES/productos/dia-del-padre-edicion-limitada/"
-en_url: "/EN/products/dia-del-padre-edicion-limitada/"
-mpd_url: "/MPD/productos/dia-del-padre-edicion-limitada/"
-zh_url: "/CHN/productos/dia-del-padre-edicion-limitada/"
+es_url: "/es/productos/dia-del-padre-edicion-limitada/"
+en_url: "/en/products/dia-del-padre-edicion-limitada/"
+mpd_url: "/mpd/productos/dia-del-padre-edicion-limitada/"
+zh_url: "/chn/productos/dia-del-padre-edicion-limitada/"
 order: 1089
 ---

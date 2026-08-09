@@ -12,7 +12,7 @@ Checklist para revisar después de mergear los PR acumulados.
 
 ### Navegación
 
-- [ ] Confirmar que `Inicio`, `Tienda`, `Servicios`, `Contacto` y las nuevas rutas de `Obra` renderizan en ES/EN/MPD/CHN.
+- [ ] Confirmar que `Inicio`, `Tienda`, `Servicios`, `Contacto` y las nuevas rutas de `Obra` renderizan en ES/en/mpd/CHN.
 - [ ] Confirmar que el menú móvil abre, cierra y mantiene foco.
 - [ ] Confirmar que las rutas antiguas importantes no quedan sin equivalente claro.
 
@@ -41,7 +41,7 @@ Checklist para revisar después de mergear los PR acumulados.
 - [ ] Abrir landings de Pinturas Infectadas, Paisajes, Banderas, Antipublicidad y El Colgado.
 - [ ] Confirmar que Antipublicidad aparece como categoría paraguas.
 - [ ] Confirmar que El Colgado se comunica como prints por unidad.
-- [ ] Confirmar que `/ES/obra.html`, `/EN/work.html`, `/MPD/obra.html`, `/CHN/obra.html` renderizan.
+- [ ] Confirmar que `/es/obra.html`, `/en/work.html`, `/mpd/obra.html`, `/chn/obra.html` renderizan.
 
 ### Analítica
 

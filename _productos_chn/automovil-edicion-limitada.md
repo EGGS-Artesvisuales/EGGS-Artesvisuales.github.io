@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "可制作摄影限量版"
 image: "/assets/img/tienda/EGGS-W0034-L01-P70100-F80110.webp"
-es_url: "/ES/productos/automovil-edicion-limitada/"
-en_url: "/EN/products/automovil-edicion-limitada/"
-mpd_url: "/MPD/productos/automovil-edicion-limitada/"
-zh_url: "/CHN/productos/automovil-edicion-limitada/"
+es_url: "/es/productos/automovil-edicion-limitada/"
+en_url: "/en/products/automovil-edicion-limitada/"
+mpd_url: "/mpd/productos/automovil-edicion-limitada/"
+zh_url: "/chn/productos/automovil-edicion-limitada/"
 order: 1056
 ---

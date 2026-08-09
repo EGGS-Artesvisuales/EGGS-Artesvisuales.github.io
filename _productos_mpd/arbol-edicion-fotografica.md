@@ -22,9 +22,9 @@ price_display: "$450.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke fotográfica dewman müley"
 image: "/assets/img/tienda/EGGS-W0033-L01-P60110-F70120.webp"
-es_url: "/ES/productos/arbol-edicion-fotografica/"
-en_url: "/EN/products/arbol-edicion-fotografica/"
-mpd_url: "/MPD/productos/arbol-edicion-fotografica/"
-zh_url: "/CHN/productos/arbol-edicion-fotografica/"
+es_url: "/es/productos/arbol-edicion-fotografica/"
+en_url: "/en/products/arbol-edicion-fotografica/"
+mpd_url: "/mpd/productos/arbol-edicion-fotografica/"
+zh_url: "/chn/productos/arbol-edicion-fotografica/"
 order: 120
 ---

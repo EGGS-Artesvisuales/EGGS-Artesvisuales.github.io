@@ -1,15 +1,15 @@
 (() => {
   const supportedPaths = new Set([
-    "/ES/exhibiciones.html",
-    "/EN/exhibitions.html",
-    "/MPD/exhibiciones.html",
-    "/CHN/exhibiciones.html"
+    "/es/exhibiciones.html",
+    "/en/exhibitions.html",
+    "/mpd/exhibiciones.html",
+    "/chn/exhibiciones.html"
   ]);
 
   function languageCopy() {
     const path = window.location.pathname;
 
-    if (path.startsWith("/EN/")) {
+    if (path.startsWith("/en/")) {
       return {
         eyebrow: "Complete record",
         title: "Exhibition timeline",
@@ -18,7 +18,7 @@
       };
     }
 
-    if (path.startsWith("/MPD/")) {
+    if (path.startsWith("/mpd/")) {
       return {
         eyebrow: "Kom txawün wirin",
         title: "Pengelün ñi txipantu rüpü",
@@ -27,7 +27,7 @@
       };
     }
 
-    if (path.startsWith("/CHN/")) {
+    if (path.startsWith("/chn/")) {
       return {
         eyebrow: "完整记录",
         title: "展览时间线",

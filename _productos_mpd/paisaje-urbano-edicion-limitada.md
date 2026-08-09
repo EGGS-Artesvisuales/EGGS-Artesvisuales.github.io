@@ -22,9 +22,9 @@ price_display: "$520.000 CLP"
 stock: 15
 state: "Müley trafkintuam; obra en buen estado para vender"
 image: "/assets/img/tienda/EGGS-W0021-L01-P90120-F110140.webp"
-es_url: "/ES/productos/paisaje-urbano-edicion-limitada/"
-en_url: "/EN/products/paisaje-urbano-edicion-limitada/"
-mpd_url: "/MPD/productos/paisaje-urbano-edicion-limitada/"
-zh_url: "/CHN/productos/paisaje-urbano-edicion-limitada/"
+es_url: "/es/productos/paisaje-urbano-edicion-limitada/"
+en_url: "/en/products/paisaje-urbano-edicion-limitada/"
+mpd_url: "/mpd/productos/paisaje-urbano-edicion-limitada/"
+zh_url: "/chn/productos/paisaje-urbano-edicion-limitada/"
 order: 1041
 ---

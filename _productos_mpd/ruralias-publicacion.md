@@ -23,9 +23,9 @@ stock: 50
 state: "Müley trafkintuam dewman müley"
 image: "/assets/img/tienda/EGGS-W0045-L01-P70100-F80110.webp"
 image_note: "Proyecto ñi referencia ad; final chillka petu dewman müley."
-es_url: "/ES/productos/ruralias-publicacion/"
-en_url: "/EN/products/ruralias-publication/"
-mpd_url: "/MPD/productos/ruralias-publicacion/"
-zh_url: "/CHN/productos/ruralias-publicacion/"
+es_url: "/es/productos/ruralias-publicacion/"
+en_url: "/en/products/ruralias-publication/"
+mpd_url: "/mpd/productos/ruralias-publicacion/"
+zh_url: "/chn/productos/ruralias-publicacion/"
 order: 1181
 ---

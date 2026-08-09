@@ -22,9 +22,9 @@ price_display: "$360.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke dewman müley"
 image: "/assets/img/tienda/EGGS-W0052-L01-P5070-F70100.webp"
-es_url: "/ES/productos/papelucho-edicion-limitada/"
-en_url: "/EN/products/papelucho-edicion-limitada/"
-mpd_url: "/MPD/productos/papelucho-edicion-limitada/"
-zh_url: "/CHN/productos/papelucho-edicion-limitada/"
+es_url: "/es/productos/papelucho-edicion-limitada/"
+en_url: "/en/products/papelucho-edicion-limitada/"
+mpd_url: "/mpd/productos/papelucho-edicion-limitada/"
+zh_url: "/chn/productos/papelucho-edicion-limitada/"
 order: 1070
 ---

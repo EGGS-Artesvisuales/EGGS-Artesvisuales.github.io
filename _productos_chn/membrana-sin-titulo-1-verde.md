@@ -23,9 +23,9 @@ stock: 1
 state: "可购买"
 shipping_profile: "large"
 image: "/assets/img/tienda/EGGS-W0018-ORI.webp"
-es_url: "/ES/productos/membrana-sin-titulo-1-verde/"
-en_url: "/EN/products/membrana-sin-titulo-1-verde/"
-mpd_url: "/MPD/productos/membrana-sin-titulo-1-verde/"
-zh_url: "/CHN/productos/membrana-sin-titulo-1-verde/"
+es_url: "/es/productos/membrana-sin-titulo-1-verde/"
+en_url: "/en/products/membrana-sin-titulo-1-verde/"
+mpd_url: "/mpd/productos/membrana-sin-titulo-1-verde/"
+zh_url: "/chn/productos/membrana-sin-titulo-1-verde/"
 order: 30
 ---

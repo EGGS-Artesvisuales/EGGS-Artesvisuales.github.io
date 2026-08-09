@@ -22,9 +22,9 @@ price_display: "$360.000 CLP"
 stock: 10
 state: "Müley trafkintuam edición reke dewman müley"
 image: "/assets/img/tienda/EGGS-W0040-L01-P5070-F70100.webp"
-es_url: "/ES/productos/peste-domestica-n2-edicion-limitada/"
-en_url: "/EN/products/peste-domestica-n2-edicion-limitada/"
-mpd_url: "/MPD/productos/peste-domestica-n2-edicion-limitada/"
-zh_url: "/CHN/productos/peste-domestica-n2-edicion-limitada/"
+es_url: "/es/productos/peste-domestica-n2-edicion-limitada/"
+en_url: "/en/products/peste-domestica-n2-edicion-limitada/"
+mpd_url: "/mpd/productos/peste-domestica-n2-edicion-limitada/"
+zh_url: "/chn/productos/peste-domestica-n2-edicion-limitada/"
 order: 1060
 ---

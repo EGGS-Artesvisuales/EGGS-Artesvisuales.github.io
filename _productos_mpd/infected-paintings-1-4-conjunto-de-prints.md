@@ -24,9 +24,9 @@ price_display: "$800.000 CLP"
 stock: 20
 state: "Kiñeke küdaw mew trafkintu"
 image: "/assets/img/tienda/EGGS-S0002-L01-P4050-F5070.webp"
-es_url: "/ES/productos/infected-paintings-1-4-conjunto-de-prints/"
-en_url: "/EN/products/infected-paintings-1-4-conjunto-de-prints/"
-mpd_url: "/MPD/productos/infected-paintings-1-4-conjunto-de-prints/"
-zh_url: "/CHN/productos/infected-paintings-1-4-conjunto-de-prints/"
+es_url: "/es/productos/infected-paintings-1-4-conjunto-de-prints/"
+en_url: "/en/products/infected-paintings-1-4-conjunto-de-prints/"
+mpd_url: "/mpd/productos/infected-paintings-1-4-conjunto-de-prints/"
+zh_url: "/chn/productos/infected-paintings-1-4-conjunto-de-prints/"
 order: 1006
 ---

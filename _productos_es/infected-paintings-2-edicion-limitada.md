@@ -24,9 +24,9 @@ state: "Disponible"
 delivery_note: "Entrega sin costo en Santiago. Para otras comunas y regiones, el despacho se cotiza y paga después de la compra."
 mercadopago_checkout: true
 image: "/assets/img/tienda/EGGS-W0004-L01-P4050-F5070.webp"
-es_url: "/ES/productos/infected-paintings-2-edicion-limitada/"
-en_url: "/EN/products/infected-paintings-2-edicion-limitada/"
-mpd_url: "/MPD/productos/infected-paintings-2-edicion-limitada/"
-zh_url: "/CHN/productos/infected-paintings-2-edicion-limitada/"
+es_url: "/es/productos/infected-paintings-2-edicion-limitada/"
+en_url: "/en/products/infected-paintings-2-edicion-limitada/"
+mpd_url: "/mpd/productos/infected-paintings-2-edicion-limitada/"
+zh_url: "/chn/productos/infected-paintings-2-edicion-limitada/"
 order: 1022
 ---

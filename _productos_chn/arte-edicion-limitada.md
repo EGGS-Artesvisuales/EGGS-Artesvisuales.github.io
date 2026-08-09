@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "现可购买"
 image: "/assets/img/tienda/EGGS-W0002-L01-P5070-F70100.webp"
-es_url: "/ES/productos/arte-edicion-limitada/"
-en_url: "/EN/products/arte-edicion-limitada/"
-mpd_url: "/MPD/productos/arte-edicion-limitada/"
-zh_url: "/CHN/productos/arte-edicion-limitada/"
+es_url: "/es/productos/arte-edicion-limitada/"
+en_url: "/en/products/arte-edicion-limitada/"
+mpd_url: "/mpd/productos/arte-edicion-limitada/"
+zh_url: "/chn/productos/arte-edicion-limitada/"
 order: 1018
 ---

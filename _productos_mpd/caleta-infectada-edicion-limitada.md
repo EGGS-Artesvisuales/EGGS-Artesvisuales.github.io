@@ -22,9 +22,9 @@ price_display: "$260.000 CLP"
 stock: 20
 state: "Müley trafkintuam"
 image: "/assets/img/tienda/EGGS-W0001-L01-P5070-F70100.webp"
-es_url: "/ES/productos/caleta-infectada-edicion-limitada/"
-en_url: "/EN/products/caleta-infectada-edicion-limitada/"
-mpd_url: "/MPD/productos/caleta-infectada-edicion-limitada/"
-zh_url: "/CHN/productos/caleta-infectada-edicion-limitada/"
+es_url: "/es/productos/caleta-infectada-edicion-limitada/"
+en_url: "/en/products/caleta-infectada-edicion-limitada/"
+mpd_url: "/mpd/productos/caleta-infectada-edicion-limitada/"
+zh_url: "/chn/productos/caleta-infectada-edicion-limitada/"
 order: 1016
 ---

@@ -22,9 +22,9 @@ price_display: "$480.000 CLP"
 stock: 10
 state: "Disponible; obra firmada y en buen estado"
 image: "/assets/img/tienda/EGGS-W0024-L01-P70120-F80130.webp"
-es_url: "/ES/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
-en_url: "/EN/products/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
-mpd_url: "/MPD/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
-zh_url: "/CHN/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
+es_url: "/es/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
+en_url: "/en/products/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
+mpd_url: "/mpd/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
+zh_url: "/chn/productos/gran-paisaje-02-gran-paisaje-saturado-n-2-edicion-limitada/"
 order: 1046
 ---

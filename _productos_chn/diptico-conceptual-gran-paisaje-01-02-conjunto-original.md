@@ -22,9 +22,9 @@ price_display: "$15.000.000 CLP"
 stock: 1
 state: "现可购买"
 image: "/assets/img/tienda/EGGS-S0006-ORI.webp"
-es_url: "/ES/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
-en_url: "/EN/products/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
-mpd_url: "/MPD/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
-zh_url: "/CHN/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
+es_url: "/es/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
+en_url: "/en/products/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
+mpd_url: "/mpd/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
+zh_url: "/chn/productos/diptico-conceptual-gran-paisaje-01-02-conjunto-original/"
 order: 1013
 ---
