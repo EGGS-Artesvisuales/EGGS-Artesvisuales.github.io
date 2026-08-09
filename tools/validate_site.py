@@ -32,6 +32,16 @@ SELF_HREFLANG = {
     "chn": "zh-Hans",
 }
 REQUIRED_HREFLANGS = frozenset((*SELF_HREFLANG.values(), "x-default"))
+OBSOLETE_PATHS = (
+    "assets/js/progreso.js",
+    "netlify/functions/get-recaudado.js",
+    "netlify/functions/paypal-webhook.js",
+)
+REQUIRED_SECURITY_PATHS = (
+    "assets/js/mercadopago-checkout.js",
+    "netlify/functions/get-checkout-security-config.js",
+    "netlify/lib/checkout-security.js",
+)
 
 
 class PageParser(HTMLParser):
@@ -47,6 +57,14 @@ class PageParser(HTMLParser):
         self.h1_count = 0
         self.has_main_content = False
         self.has_skip_link = False
+        self.has_application_menu_role = False
+        self.has_obsolete_progress = False
+        self.has_checkout_form = False
+        self.has_turnstile_container = False
+        self.form_fields: set[str] = set()
+        self.contact_forms: list[dict[str, str]] = []
+        self.form_names: set[str] = set()
+        self.has_honeypot = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = {key: value or "" for key, value in attrs}
@@ -62,6 +80,23 @@ class PageParser(HTMLParser):
             self.has_main_content = True
         if tag == "a" and "skip-link" in classes and values.get("href") == "#main-content":
             self.has_skip_link = True
+        if values.get("role") in {"menu", "menuitem"}:
+            self.has_application_menu_role = True
+        if "barra-progreso" in classes or "barra-progreso-container" in classes:
+            self.has_obsolete_progress = True
+        if tag == "form" and "product-checkout" in classes and "data-mercadopago-checkout" in values:
+            self.has_checkout_form = True
+        if tag == "form" and "contact-form" in classes:
+            self.contact_forms.append(values)
+        if "data-turnstile-container" in values:
+            self.has_turnstile_container = True
+        field_name = values.get("name")
+        if tag in {"input", "textarea", "select"} and field_name:
+            self.form_fields.add(field_name)
+        if tag == "input" and field_name == "form-name" and values.get("value"):
+            self.form_names.add(values["value"])
+        if tag == "input" and field_name == "bot-field":
+            self.has_honeypot = True
         if "nav-toggle" in classes:
             self.has_nav_button |= tag == "button"
             self.has_nav_div |= tag == "div"
@@ -92,6 +127,14 @@ def source_checks(source: Path) -> list[str]:
         relative = path.relative_to(source).as_posix()
         if path.suffix.lower() == ".gif":
             errors.append(f"{relative}: GIF fuente no permitido; usar un derivado WebP optimizado")
+
+    for relative in OBSOLETE_PATHS:
+        if (source / relative).is_file():
+            errors.append(f"{relative}: componente de recaudacion PayPal obsoleto")
+
+    for relative in REQUIRED_SECURITY_PATHS:
+        if not (source / relative).is_file():
+            errors.append(f"{relative}: falta componente requerido de seguridad del checkout")
     return errors
 
 
@@ -141,6 +184,36 @@ def built_checks(site: Path) -> list[str]:
                 errors.append(f"{relative}: canonical no usa /{language}/ en minúsculas")
             if (parser.has_nav_button or parser.has_nav_div) and (not parser.has_nav_button or parser.has_nav_div):
                 errors.append(f"{relative}: el control nav-toggle debe ser un button nativo")
+            if parser.has_application_menu_role:
+                errors.append(f"{relative}: la navegacion web no debe usar role=menu/menuitem")
+            if parser.has_obsolete_progress:
+                errors.append(f"{relative}: conserva la barra de recaudacion PayPal obsoleta")
+
+            if parser.has_checkout_form:
+                required_fields = {
+                    "buyer_phone",
+                    "buyer_location",
+                    "buyer_address",
+                    "delivery_option",
+                    "privacy_consent",
+                    "captcha_token",
+                }
+                missing_fields = sorted(required_fields - parser.form_fields)
+                if missing_fields:
+                    errors.append(f"{relative}: checkout incompleto; faltan {', '.join(missing_fields)}")
+                if not parser.has_turnstile_container:
+                    errors.append(f"{relative}: checkout sin contenedor Turnstile")
+
+            for contact_form in parser.contact_forms:
+                form_name = contact_form.get("name", "")
+                if contact_form.get("method", "").upper() != "POST":
+                    errors.append(f"{relative}: formulario de contacto debe usar POST")
+                if "data-netlify" not in contact_form:
+                    errors.append(f"{relative}: formulario de contacto sin data-netlify")
+                if contact_form.get("netlify-honeypot") != "bot-field" or not parser.has_honeypot:
+                    errors.append(f"{relative}: formulario de contacto sin honeypot")
+                if not form_name or form_name not in parser.form_names:
+                    errors.append(f"{relative}: form-name no coincide con el formulario de contacto")
             expected_document_lang = EXPECTED_DOCUMENT_LANG[language]
             if parser.document_lang != expected_document_lang:
                 errors.append(

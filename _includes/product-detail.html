@@ -134,6 +134,11 @@
           </select>
           <p class="product-checkout__shipping-note">{% if page.store_lang == "en" %}Shipping and, where applicable, protection and specialized packing are shown separately in Mercado Pago before payment.{% elsif page.store_lang == "chn" %}运费以及适用的保护与专业包装费用会在付款前于 Mercado Pago 中单独显示。{% elsif page.store_lang == "mpd" %}Werkün, protección ka küme embalaje falintun Mercado Pago mew müley petu kullin.{% else %}El despacho y, cuando corresponde, la protección y el embalaje especializado se muestran separados en Mercado Pago antes de pagar.{% endif %}</p>
           <label class="product-checkout__consent"><input name="privacy_consent" type="checkbox" required><span>{{ product_t.checkout.privacy_consent }}</span></label>
+          <div class="product-checkout__captcha" data-turnstile-container hidden>
+            <p data-turnstile-instructions aria-live="polite"></p>
+            <div data-turnstile-widget></div>
+            <input name="captcha_token" type="hidden" value="">
+          </div>
           <p class="product-checkout__terms">{{ product_t.checkout.terms_prefix }} <a href="{{ product_t.checkout.terms_url }}">{{ product_t.checkout.terms_label }}</a>.</p>
           <p class="product-checkout__inventory" data-inventory-status aria-live="polite">{{ product_t.checkout.checking_stock }}</p>
           <button class="shop-button" type="submit" disabled>{{ product_t.checkout.buy_button }}</button>

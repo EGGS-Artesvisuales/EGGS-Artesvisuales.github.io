@@ -8,7 +8,6 @@ es_url: /es/musoe-cielo-abierto-donaciones.html
 en_url: /en/open-air-museum.html
 mpd_url: /mpd/musoe-cielo-abierto-donaciones.html
 zh_url: /chn/musoe-cielo-abierto-donaciones.html
-progreso: true
 ---
 <h1 class="titulo">Open Air "Musoem"</h1>
 
@@ -29,21 +28,6 @@ progreso: true
 </p>
 
 <br>
-
-<!-- Funding progress container -->
-<div class="barra-progreso-container">
-  <label>Funding Progress:</label>
-  <div class="barra-progreso">
-    <div class="barra-progreso-fill" id="progreso-barra">0%</div>
-  </div>
-</div>
-
-<!-- Additional progress information -->
-<div class="progress-info">
-  <p id="recaudado"></p>
-  <p id="porcentaje-global"></p>
-  <p id="porcentaje-unitario"></p>
-</div>
 
 <!-- Donation button -->
 <form action="https://www.paypal.com/ncp/payment/GX4V3R9TEHJ5G" method="post" target="_blank">

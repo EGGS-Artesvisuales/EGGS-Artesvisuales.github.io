@@ -9,7 +9,6 @@ en_url: /en/open-air-museum.html
 mpd_url: /mpd/musoe-cielo-abierto-donaciones.html
 zh_url: /chn/musoe-cielo-abierto-donaciones.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
-progreso: true
 ---
 
 
@@ -66,40 +65,6 @@ progreso: true
 
 <h2 class="subtitulo">活动状态</h2>
 <br>
-
-<!-- Contenedor de la barra de progreso -->
-<div class="barra-progreso-container" aria-label="Estado de financiamiento del proyecto">
-  <p class="parrafo" style="margin-bottom: 0.5rem;">
-    <strong>融资进展：</strong>
-  </p>
-
-  <div class="barra-progreso">
-    <div
-      class="barra-progreso-fill"
-      id="progreso-barra"
-      role="progressbar"
-      aria-valuemin="0"
-      aria-valuemax="100"
-      aria-valuenow="0"
-    >0%</div>
-  </div>
-</div>
-
-<!-- Fallback si no hay JavaScript -->
-<noscript>
-  <p class="parrafo">
-    进度条需要 JavaScript 自动更新。即便如此，您也可以使用该按钮进行捐赠并支持该项目。
-  </p>
-</noscript>
-
-<!-- Información adicional -->
-<p id="ultima-actualizacion"></p>
-
-<div class="progress-info">
-  <p id="recaudado"></p>
-  <p id="porcentaje-global"></p>
-  <p id="porcentaje-unitario"></p>
-</div>
 
 <br>
 

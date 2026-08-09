@@ -82,6 +82,15 @@ async function incrementCounter(store, key, now, windowMs) {
   throw new Error("Rate limit counter conflict");
 }
 
+function getTurnstileConfig() {
+  const siteKey = String(process.env.TURNSTILE_SITE_KEY || "").trim();
+  const secretKey = String(process.env.TURNSTILE_SECRET_KEY || "").trim();
+  return {
+    enabled: Boolean(siteKey && secretKey),
+    siteKey,
+  };
+}
+
 async function verifyTurnstile(token, ip) {
   const secret = process.env.TURNSTILE_SECRET_KEY;
   if (!secret || !token) return false;
@@ -125,7 +134,8 @@ async function checkCheckoutGate({ event, sku, buyer, captchaToken, now = Date.n
 
   const ipCount = await incrementCounter(store, rateKey("ip", ipHash, windowId), currentTime, config.windowMs);
   const skuCount = await incrementCounter(store, rateKey("sku", skuHash, windowId), currentTime, config.windowMs);
-  const captchaRequired = ipCount > config.captchaAfterAttempts || skuCount > config.captchaAfterAttempts;
+  const turnstileEnabled = getTurnstileConfig().enabled;
+  const captchaRequired = turnstileEnabled && (ipCount > config.captchaAfterAttempts || skuCount > config.captchaAfterAttempts);
   const captchaOk = captchaRequired ? await verifyTurnstile(captchaToken, ip) : true;
 
   if (ipCount > config.maxRequestsPerIp || skuCount > config.maxRequestsPerSku || !captchaOk) {
@@ -180,6 +190,7 @@ module.exports = {
   checkCheckoutGate,
   clearActiveReservation,
   connectCheckoutSecurity,
+  getTurnstileConfig,
   logCommerceEvent,
   rememberActiveReservation,
 };
