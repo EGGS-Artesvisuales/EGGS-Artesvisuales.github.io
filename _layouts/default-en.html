@@ -16,7 +16,7 @@
   <meta name="description" content="{{ page.description | default: 'EGGS-Studio: visual art, community murals, and art restoration by Esteban Garnica in Santiago, Chile.' }}">
   <meta name="keywords" content="{{ page.keywords | default: 'visual art, community murals, art restoration, artistic design, Santiago, Chile' }}">
   <meta name="author" content="EGGS-Studio">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="{{ page.robots | default: 'index, follow' | escape }}">
   <meta name="language" content="en">
 
   <link rel="icon" href="/assets/img/EGGSLOGOindex1.png" type="image/png" sizes="32x32">
@@ -91,6 +91,7 @@
   {% endif %}
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   {% include header-en.html %}
 
   <main id="main-content" role="main">

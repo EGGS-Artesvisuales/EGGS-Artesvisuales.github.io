@@ -1,6 +1,6 @@
 ---
 layout: default-mpd
-lang: mpd
+lang: arn
 title: "El Colgado – EGGS-Studio"
 description: "El Colgado ñi landing: fotografía prints unidad mew ngillal, rito ka mapu."
 permalink: /mpd/serie-el-colgado.html

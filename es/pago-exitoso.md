@@ -4,6 +4,7 @@ lang: es
 title: "Pago recibido – EGGS-Studio"
 description: "Confirmación de recepción de un pago en la tienda EGGS-Studio."
 permalink: /es/pago-exitoso.html
+robots: "noindex, follow"
 ---
 
 # Recibimos tu solicitud de pago

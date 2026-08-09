@@ -4,6 +4,7 @@ lang: arn
 title: "Kullin dewmalay – EGGS-Studio"
 description: "EGGS-Studio ñi trafkintu mew dewmanochi kullin ñi kimel."
 permalink: /mpd/pago-rechazado.html
+robots: "noindex, follow"
 ---
 
 # Kullin dewmalay

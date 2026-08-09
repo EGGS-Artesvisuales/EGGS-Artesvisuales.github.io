@@ -4,6 +4,10 @@ lang: es
 title: "Publicaciones – EGGS-Studio"
 description: "Publicaciones, libros de artista, catálogos y material editorial de EGGS-Studio. Catálogo editorial en preparación."
 permalink: /es/publicaciones.html
+es_url: /es/publicaciones.html
+en_url: /en/publications.html
+mpd_url: /mpd/publicaciones.html
+zh_url: /chn/publicaciones.html
 keywords: "EGGS-Studio publicaciones, libros de artista, catálogos, Esteban Garnica, arte contemporáneo Chile"
 image: /assets/img/EGGSLOGOindex1.png
 ---

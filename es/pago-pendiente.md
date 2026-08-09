@@ -4,6 +4,7 @@ lang: es
 title: "Pago pendiente – EGGS-Studio"
 description: "Información sobre un pago pendiente en la tienda EGGS-Studio."
 permalink: /es/pago-pendiente.html
+robots: "noindex, follow"
 ---
 
 # Tu pago está pendiente

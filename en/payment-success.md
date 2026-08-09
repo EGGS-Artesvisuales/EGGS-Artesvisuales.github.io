@@ -4,6 +4,7 @@ lang: en
 title: "Payment received – EGGS-Studio"
 description: "Confirmation of a payment received by the EGGS-Studio shop."
 permalink: /en/payment-success.html
+robots: "noindex, follow"
 ---
 
 # We received your payment request

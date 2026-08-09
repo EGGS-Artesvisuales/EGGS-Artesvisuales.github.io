@@ -4,6 +4,10 @@ lang: arn
 title: "Publicaciones – EGGS-Studio"
 description: "EGGS-Studio ñi publicaciones: libro de artista, catálogo ka editorial küdaw."
 permalink: /mpd/publicaciones.html
+es_url: /es/publicaciones.html
+en_url: /en/publications.html
+mpd_url: /mpd/publicaciones.html
+zh_url: /chn/publicaciones.html
 keywords: "EGGS-Studio, publicaciones, libro de artista, catálogo, Esteban Garnica"
 image: /assets/img/EGGSLOGOindex1.png
 ---

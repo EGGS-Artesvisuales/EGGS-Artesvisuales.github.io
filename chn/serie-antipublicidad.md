@@ -1,6 +1,6 @@
 ---
 layout: default-chn
-lang: chn
+lang: zh-Hans
 title: "反广告 – EGGS-Studio"
 description: "反广告专题页：PP Series、海报系列与广告盗版。"
 permalink: /chn/serie-antipublicidad.html

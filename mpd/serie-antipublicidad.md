@@ -1,6 +1,6 @@
 ---
 layout: default-mpd
-lang: mpd
+lang: arn
 title: "Antipublicidad – EGGS-Studio"
 description: "Antipublicidad ñi landing: PP Series, Carteles ñi serie ka Piratería Publicitaria."
 permalink: /mpd/serie-antipublicidad.html

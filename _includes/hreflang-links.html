@@ -1,7 +1,34 @@
 {% assign site_origin = site.url | default: 'https://eggs-studio.cl' %}
-{% if page.es_url %}<link rel="alternate" hreflang="es-CL" href="{{ site_origin }}{{ page.es_url }}">{% endif %}
-{% if page.en_url %}<link rel="alternate" hreflang="en" href="{{ site_origin }}{{ page.en_url }}">{% endif %}
-{% if page.mpd_url %}<link rel="alternate" hreflang="arn-CL" href="{{ site_origin }}{{ page.mpd_url }}">{% endif %}
-{% assign zh_url = page.zh_url | default: page.chn_url %}
-{% if zh_url %}<link rel="alternate" hreflang="zh-Hans" href="{{ site_origin }}{{ zh_url }}">{% endif %}
-{% if page.es_url %}<link rel="alternate" hreflang="x-default" href="{{ site_origin }}{{ page.es_url }}">{% endif %}
+{% assign current_url = page.url %}
+{% assign es_url = page.es_url %}
+{% assign en_url = page.en_url %}
+{% assign mpd_url = page.mpd_url %}
+{% assign chn_url = page.zh_url | default: page.chn_url %}
+
+{% if current_url contains '/es/' %}
+  {% assign es_url = es_url | default: current_url %}
+  {% assign en_url = en_url | default: site.data.language_switch[current_url] %}
+  {% assign mpd_url = mpd_url | default: current_url | replace_first: '/es/', '/mpd/' %}
+  {% assign chn_url = chn_url | default: site.data.language_switch_chn[current_url] %}
+{% elsif current_url contains '/en/' %}
+  {% assign es_url = es_url | default: site.data.language_switch[current_url] %}
+  {% assign en_url = en_url | default: current_url %}
+  {% if es_url %}
+    {% assign mpd_url = mpd_url | default: es_url | replace_first: '/es/', '/mpd/' %}
+  {% endif %}
+  {% assign chn_url = chn_url | default: site.data.language_switch_chn[current_url] %}
+{% elsif current_url contains '/mpd/' %}
+  {% assign es_url = es_url | default: current_url | replace_first: '/mpd/', '/es/' %}
+  {% assign en_url = en_url | default: site.data.language_switch[es_url] %}
+  {% assign mpd_url = mpd_url | default: current_url %}
+  {% assign chn_url = chn_url | default: site.data.language_switch_chn[current_url] %}
+{% elsif current_url contains '/chn/' %}
+  {% assign chn_url = chn_url | default: current_url %}
+{% endif %}
+
+{% assign default_url = es_url | default: en_url | default: mpd_url | default: chn_url %}
+{% if es_url %}<link rel="alternate" hreflang="es-CL" href="{{ site_origin }}{{ es_url }}">{% endif %}
+{% if en_url %}<link rel="alternate" hreflang="en" href="{{ site_origin }}{{ en_url }}">{% endif %}
+{% if mpd_url %}<link rel="alternate" hreflang="arn-CL" href="{{ site_origin }}{{ mpd_url }}">{% endif %}
+{% if chn_url %}<link rel="alternate" hreflang="zh-Hans" href="{{ site_origin }}{{ chn_url }}">{% endif %}
+{% if default_url %}<link rel="alternate" hreflang="x-default" href="{{ site_origin }}{{ default_url }}">{% endif %}

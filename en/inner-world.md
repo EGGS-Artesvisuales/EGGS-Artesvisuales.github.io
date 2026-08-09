@@ -6,7 +6,7 @@ carousel: true
 ---
 
 <!-- Main Title -->
-<div class="titulo">Inner World</div>
+<h1 class="titulo">Inner World</h1>
 <div class="subtitulo">An Introspective Journey Through Art</div>
 
 <!-- Paragraph 1 -->

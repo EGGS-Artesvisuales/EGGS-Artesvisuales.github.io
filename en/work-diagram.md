@@ -5,7 +5,7 @@ permalink: /en/work-diagram.html
 mermaid: true
 ---
 
-<div class="titulo">Work Diagram</div>
+<h1 class="titulo">Work Diagram</h1>
 <div class="subtitulo">
   A visual map of ideas, concepts, and artistic works.
 </div>

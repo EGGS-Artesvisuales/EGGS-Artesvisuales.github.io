@@ -4,6 +4,7 @@ lang: es
 title: "Pago no completado – EGGS-Studio"
 description: "Información sobre un pago no completado en la tienda EGGS-Studio."
 permalink: /es/pago-rechazado.html
+robots: "noindex, follow"
 ---
 
 # El pago no se completó

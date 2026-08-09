@@ -5,8 +5,9 @@ title: "支持露天 Musoe"
 description: "EGGS-Studio 中文页面：支持露天 Musoe。"
 permalink: /chn/musoe-cielo-abierto-donaciones.html
 es_url: /es/musoe-cielo-abierto-donaciones.html
-en_url: /en/under-construction.html
+en_url: /en/open-air-museum.html
 mpd_url: /mpd/musoe-cielo-abierto-donaciones.html
+zh_url: /chn/musoe-cielo-abierto-donaciones.html
 keywords: "EGGS-Studio, Esteban Garnica, 视觉艺术, 壁画, 社区艺术, 智利"
 progreso: true
 ---

@@ -6,7 +6,7 @@ permalink: /en/saturation.html
 mermaid: true
 ---
 
-<div class="titulo">Saturation</div>
+<h1 class="titulo">Saturation</h1>
 <div class="subtitulo">Symptom of Our Era</div>
 <br>
 

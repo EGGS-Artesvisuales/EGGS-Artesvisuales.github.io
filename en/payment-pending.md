@@ -4,6 +4,7 @@ lang: en
 title: "Payment pending – EGGS-Studio"
 description: "Information about a pending payment in the EGGS-Studio shop."
 permalink: /en/payment-pending.html
+robots: "noindex, follow"
 ---
 
 # Your payment is pending

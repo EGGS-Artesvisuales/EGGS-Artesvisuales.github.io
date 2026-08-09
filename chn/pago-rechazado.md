@@ -4,6 +4,7 @@ lang: zh-Hans
 title: "付款未完成 – EGGS-Studio"
 description: "EGGS-Studio 商店未完成付款的信息。"
 permalink: /chn/pago-rechazado.html
+robots: "noindex, follow"
 ---
 
 # 付款未完成

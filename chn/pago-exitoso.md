@@ -4,6 +4,7 @@ lang: zh-Hans
 title: "已收到付款 – EGGS-Studio"
 description: "EGGS-Studio 商店付款接收确认。"
 permalink: /chn/pago-exitoso.html
+robots: "noindex, follow"
 ---
 
 # 我们已收到您的付款请求

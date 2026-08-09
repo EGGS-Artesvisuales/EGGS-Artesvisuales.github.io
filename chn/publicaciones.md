@@ -7,6 +7,7 @@ permalink: /chn/publicaciones.html
 es_url: /es/publicaciones.html
 en_url: /en/publications.html
 mpd_url: /mpd/publicaciones.html
+zh_url: /chn/publicaciones.html
 keywords: "EGGS-Studio, 出版物, 艺术家书, 目录, Esteban Garnica"
 image: /assets/img/EGGSLOGOindex1.png
 ---

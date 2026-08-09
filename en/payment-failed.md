@@ -4,6 +4,7 @@ lang: en
 title: "Payment not completed – EGGS-Studio"
 description: "Information about a payment that was not completed in the EGGS-Studio shop."
 permalink: /en/payment-failed.html
+robots: "noindex, follow"
 ---
 
 # The payment was not completed

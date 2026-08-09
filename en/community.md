@@ -5,7 +5,7 @@ permalink: /en/community.html
 ---
 
 <!-- Main Title -->
-<div class="titulo">The Community</div>
+<h1 class="titulo">The Community</h1>
 <br>
 <br>
 <br>

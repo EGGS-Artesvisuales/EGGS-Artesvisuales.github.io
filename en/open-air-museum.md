@@ -4,9 +4,13 @@ lang: en
 title: "Open Air Museum"
 description: "Support the funding of the mural project."
 permalink: /en/open-air-museum.html
+es_url: /es/musoe-cielo-abierto-donaciones.html
+en_url: /en/open-air-museum.html
+mpd_url: /mpd/musoe-cielo-abierto-donaciones.html
+zh_url: /chn/musoe-cielo-abierto-donaciones.html
 progreso: true
 ---
-<div class="titulo">Open Air "Musoem"</div>
+<h1 class="titulo">Open Air "Musoem"</h1>
 
 <div class="subtitulo">Contribute to the mural development in Villa Alberto Larraguibel</div>
 <br><br>

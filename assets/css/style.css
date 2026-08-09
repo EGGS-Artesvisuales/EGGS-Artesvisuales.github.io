@@ -1515,6 +1515,26 @@ button:focus-visible,
   outline-offset: 4px;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 10000;
+  transform: translateY(-200%);
+  padding: 0.65rem 0.9rem;
+  border: 2px solid var(--color-destacado, #f89900);
+  border-radius: 0.35rem;
+  background: #111;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
 .site-masthead {
   width: 100%;
   min-height: clamp(72px, 7vw, 100px);

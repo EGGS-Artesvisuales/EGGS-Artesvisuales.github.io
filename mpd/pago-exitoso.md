@@ -4,6 +4,7 @@ lang: arn
 title: "Kullin llowngey – EGGS-Studio"
 description: "EGGS-Studio ñi trafkintu mew kullin llowngen ñi feypin."
 permalink: /mpd/pago-exitoso.html
+robots: "noindex, follow"
 ---
 
 # Tami kullin ñi ramtu llowiyiñ
