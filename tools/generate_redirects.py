@@ -9,6 +9,13 @@ from pathlib import Path
 
 LANGUAGES = ("es", "en", "mpd", "chn")
 
+PERMANENT_REDIRECTS = {
+    "/es/mecenas.html": "/es/colabora.html",
+    "/en/patrons.html": "/en/collaborate.html",
+    "/mpd/mecenas.html": "/mpd/colabora.html",
+    "/chn/mecenas.html": "/chn/colabora.html",
+}
+
 
 def canonical_for(relative: Path) -> str:
     language = relative.parts[0]
@@ -68,13 +75,23 @@ def variants_for(relative: Path, canonical: str) -> set[str]:
     return variants
 
 
+def permanent_redirects() -> dict[str, str]:
+    redirects: dict[str, str] = {}
+    for canonical, target in PERMANENT_REDIRECTS.items():
+        relative = Path(canonical.lstrip("/"))
+        redirects[canonical] = target
+        for source in variants_for(relative, canonical):
+            redirects[source] = target
+    return redirects
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--site", type=Path, default=Path("_site"))
     args = parser.parse_args()
     site = args.site.resolve()
 
-    redirects: dict[str, str] = {}
+    redirects = permanent_redirects()
     for page in sorted(site.rglob("*.html")):
         relative = page.relative_to(site)
         if not relative.parts or relative.parts[0] not in LANGUAGES:
