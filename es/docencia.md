@@ -32,6 +32,15 @@ carousel: true
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          Nuevos desafíos
+        </div>
+        <div class="text-container">
+          <p><strong>Próximamente:</strong> nuevas experiencias y proyectos docentes.</p>
+        </div>
+      </div>
+
+      <div class="entry">
         <div class="fun-button left">
           Talleres de pintura acrílica – Colegio Montessori, San Bernardo
         </div>
@@ -47,15 +56,6 @@ carousel: true
             Grupo A para estudiantes y grupo B para apoderados.<br>
             <strong>Financiado por el Fondo Regional Comunidad Activa, convocatoria 2026.</strong>
           </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
-          Nuevos desafíos
-        </div>
-        <div class="text-container">
-          <p><strong>Próximamente:</strong> nuevas experiencias y proyectos docentes.</p>
         </div>
       </div>
     </div>

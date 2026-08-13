@@ -31,6 +31,15 @@ permalink: /mpd/docencia.html
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          We küdaw
+        </div>
+        <div class="text-container">
+          <p><strong>Próximamente:</strong> we kimeltun zugu ka küdaw.</p>
+        </div>
+      </div>
+
+      <div class="entry">
         <div class="fun-button left">
           Pintura acrílica ñi talleres – Colegio Montessori, San Bernardo
         </div>
@@ -46,15 +55,6 @@ permalink: /mpd/docencia.html
             Trokiñ A pu estudiante püle ka trokiñ B pu apoderado püle.<br>
             <strong>Fondo Regional Comunidad Activa, convocatoria 2026 mew financiado.</strong>
           </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
-          We küdaw
-        </div>
-        <div class="text-container">
-          <p><strong>Próximamente:</strong> we kimeltun zugu ka küdaw.</p>
         </div>
       </div>
     </div>

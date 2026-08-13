@@ -36,6 +36,15 @@ carousel: true
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          新挑战
+        </div>
+        <div class="text-container">
+          <p><strong>即将推出：</strong>新的教学经验和项目。</p>
+        </div>
+      </div>
+
+      <div class="entry">
         <div class="fun-button left">
           丙烯绘画工作坊 – 圣贝尔纳多蒙台梭利学校
         </div>
@@ -51,15 +60,6 @@ carousel: true
             A 组面向学生，B 组面向家长及监护人。<br>
             <strong>由 2026 年 Comunidad Activa 地区基金资助。</strong>
           </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
-          新挑战
-        </div>
-        <div class="text-container">
-          <p><strong>即将推出：</strong>新的教学经验和项目。</p>
         </div>
       </div>
     </div>

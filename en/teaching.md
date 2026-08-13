@@ -27,6 +27,15 @@ permalink: /en/teaching.html
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          New challenges
+        </div>
+        <div class="text-container">
+          <p><strong>Coming soon:</strong> new teaching experiences and projects.</p>
+        </div>
+      </div>
+
+      <div class="entry">
         <div class="fun-button left">
           Acrylic painting workshops – Montessori School, San Bernardo
         </div>
@@ -42,15 +51,6 @@ permalink: /en/teaching.html
             Group A for students and Group B for parents and guardians.<br>
             <strong>Funded by the Regional Comunidad Activa Fund, 2026 call.</strong>
           </p>
-        </div>
-      </div>
-
-      <div class="entry">
-        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
-          New challenges
-        </div>
-        <div class="text-container">
-          <p><strong>Coming soon:</strong> new teaching experiences and projects.</p>
         </div>
       </div>
     </div>
