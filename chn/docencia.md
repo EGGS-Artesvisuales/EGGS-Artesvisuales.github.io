@@ -36,9 +36,21 @@ carousel: true
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
-        <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">建设中</div>
+        <div class="fun-button left">
+          丙烯绘画工作坊 – 圣贝尔纳多蒙台梭利学校
+        </div>
         <div class="text-container">
-          <p><strong>很快：</strong> 发展中的新挑战和教学项目。</p>
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2026-montessori-san-bernardo.webp"
+              alt="圣贝尔纳多蒙台梭利学校的学生参加由 Esteban Garnica 指导的丙烯绘画工作坊"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>面向圣贝尔纳多蒙台梭利学校社区的丙烯绘画课外项目。</strong><br>
+            A 组面向学生，B 组面向家长及监护人。<br>
+            <strong>由 2026 年 Comunidad Activa 地区基金资助。</strong>
+          </p>
         </div>
       </div>
     </div>

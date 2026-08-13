@@ -32,9 +32,21 @@ carousel: true
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
-        <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">En construcción</div>
+        <div class="fun-button left">
+          Talleres de pintura acrílica – Colegio Montessori, San Bernardo
+        </div>
         <div class="text-container">
-          <p><strong>Próximamente:</strong> nuevos retos y proyectos docentes en desarrollo.</p>
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2026-montessori-san-bernardo.webp"
+              alt="Estudiantes del Colegio Montessori de San Bernardo participando en un taller de pintura acrílica dirigido por Esteban Garnica"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>Taller extraprogramático de pintura acrílica para la comunidad educativa del Colegio Montessori, San Bernardo.</strong><br>
+            Grupo A para estudiantes y grupo B para apoderados.<br>
+            <strong>Financiado por el Fondo Regional Comunidad Activa, convocatoria 2026.</strong>
+          </p>
         </div>
       </div>
     </div>

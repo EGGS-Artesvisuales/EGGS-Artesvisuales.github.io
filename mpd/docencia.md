@@ -31,9 +31,21 @@ permalink: /mpd/docencia.html
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
-        <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">Dewmangen mew</div>
+        <div class="fun-button left">
+          Pintura acrílica ñi talleres – Colegio Montessori, San Bernardo
+        </div>
         <div class="text-container">
-          <p><strong>Próximamente:</strong> nuevos retos y küdaw docentes en desarrollo.</p>
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2026-montessori-san-bernardo.webp"
+              alt="Colegio Montessori San Bernardo mew pu estudiante pintura acrílica taller mew koneltulelu, Esteban Garnica ñi kimeltun mew"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>Colegio Montessori, San Bernardo ñi lof kimeltun mew pintura acrílica extraprogramático taller.</strong><br>
+            Trokiñ A pu estudiante püle ka trokiñ B pu apoderado püle.<br>
+            <strong>Fondo Regional Comunidad Activa, convocatoria 2026 mew financiado.</strong>
+          </p>
         </div>
       </div>
     </div>

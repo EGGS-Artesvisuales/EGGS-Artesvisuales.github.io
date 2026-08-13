@@ -6,3 +6,6 @@ _site/
 tools/pillow/
 __pycache__/
 *.py[cod]
+
+# Fuentes fotográficas locales ya convertidas para publicación web
+assets/img/docencia_2026_montessori.jpg

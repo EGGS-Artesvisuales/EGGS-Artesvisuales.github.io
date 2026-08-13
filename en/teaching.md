@@ -27,9 +27,21 @@ permalink: /en/teaching.html
     <!-- 2026 -->
     <div class="year" data-year="2026">
       <div class="entry">
-        <div class="fun-button left" style="opacity: 0.5; cursor: not-allowed;">Under construction</div>
+        <div class="fun-button left">
+          Acrylic painting workshops – Montessori School, San Bernardo
+        </div>
         <div class="text-container">
-          <p><strong>Coming soon:</strong> new teaching challenges and projects currently in development.</p>
+          <div class="imagen">
+            <img
+              src="/assets/img/docencia-2026-montessori-san-bernardo.webp"
+              alt="Students at Montessori School in San Bernardo taking part in an acrylic painting workshop led by Esteban Garnica"
+              loading="lazy">
+          </div>
+          <p>
+            <strong>Extracurricular acrylic painting program for the Montessori School community in San Bernardo.</strong><br>
+            Group A for students and Group B for parents and guardians.<br>
+            <strong>Funded by the Regional Comunidad Activa Fund, 2026 call.</strong>
+          </p>
         </div>
       </div>
     </div>
