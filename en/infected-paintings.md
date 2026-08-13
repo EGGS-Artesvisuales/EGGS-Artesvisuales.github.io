@@ -25,7 +25,8 @@ mermaid: true
   Catalogues, magazines, newspapers, and printed advertising become support, pigment, archive, and symptom. Their use allows waste to become critical image and makes visible the tension between the clean and the toxic, the natural and the contaminated, the pictorial and the residual.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   P((Infected Paintings)) --> ST([Traditional Supports])
   ST --> INT([Interventions])
@@ -43,6 +44,7 @@ graph LR
   click MEM "/en/infected-paintings.html#membranes" "Go to Membranes"
   click MOD "/en/infected-paintings.html#modules" "Go to Modules"
   click UNI "/en/infected-paintings.html#units" "Go to Units"
+</script>
 </div>
 
 <h2 class="subtitulo" id="traditional-supports">Traditional Supports</h2>

@@ -20,7 +20,8 @@ mermaid: true
 <h2 class="subtitulo">家谱：记忆的倒塌</h2>
 
 <!-- Mermaid: Ruta desde Representación del Mundo hacia Mapuche Urbano -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -37,6 +38,7 @@ flowchart LR
   click AN "/chn/imagenes-ancestros.html" "前往祖先图像"
   click TA "/chn/mapuche-urbano.html" "您在这里"
   click MU "/chn/musoe-a-cielo-abierto.html" "前往露天 Musoe"
+</script>
 </div>
 
 <hr class="separador separador--aire" />

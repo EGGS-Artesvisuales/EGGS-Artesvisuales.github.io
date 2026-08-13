@@ -21,7 +21,8 @@ mermaid: true
   </p>
 </section>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B[Action in\n the World]
   B --> B1[The Subreptitious]
@@ -44,6 +45,7 @@ graph LR
   click B1b2 "/en/under-construction.html" "Poster Series"
   click B1b3 "/en/under-construction.html" "Advertising Piracy"
   click B1b4 "/en/under-construction.html" "Intervention Models"
+</script>
 </div>
 
 <br>

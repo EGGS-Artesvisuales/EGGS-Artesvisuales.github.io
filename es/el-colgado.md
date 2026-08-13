@@ -40,7 +40,8 @@ mermaid: true
 </div>
 
 <h3 class="subtitulo2">UBICACIÓN EN EL MAPA CURATORIAL</h3>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -63,6 +64,7 @@ flowchart LR
   click C3 "/es/el-empaquetador.html" "Ir a El Empaquetador"
   click C4 "/es/rostro-esperanza.html" "Ir a Rostro Esperanza"
   click C5 "/es/tragedian.html" "Ir a Tragedian"
+</script>
 </div>
 
 <hr class="separador separador--aire" />

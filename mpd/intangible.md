@@ -24,7 +24,8 @@ mermaid: true
   nütramkey cheyem, mapu ka kimün ñi amulen mew. Redondo nodo pengelkey amulechi rüpü.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
@@ -37,6 +38,7 @@ flowchart LR
   click C "/mpd/imagenes-capitalismo.html" "Capitalismo ñi pu az mew amun"
   click P "/mpd/imagenes-popular.html" "Pu che ñi pu az mew amun"
   click AN "/mpd/imagenes-ancestros.html" "Kuifikeche ñi pu az mew amun"
+</script>
 </div>
 <div class="button-container">
   <a href="/mpd/imagenes-capitalismo.html" class="fancy-button"><div class="button-content"><img src="/assets/img/imagenes-del-capitalismo.webp" alt="Capitalismo ñi pu az" loading="lazy"><p class="title">Capitalismo ñi pu az</p><p class="subtitle">Economía azmogen ka fill antü ñi newen.</p></div></a>

@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">智利的伯恩斯先生</h1>
 <h2 class="subtitulo">在领土中移动的经济权力形象</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/chn/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/chn/tragedian.html" "前往 Tragedian"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>智利的伯恩斯先生</strong>移动一幅与财富、贪婪和企业控制相关的虚构人物绘画。

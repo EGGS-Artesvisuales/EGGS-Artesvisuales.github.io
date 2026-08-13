@@ -32,7 +32,8 @@ mermaid: true
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo2">Series map</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI([Infected Paintings]) --> PC([Roadside Landscapes])
   PC --> V([Speed])
@@ -40,4 +41,5 @@ flowchart LR
   PC --> M([Visual memory])
   PC --> P([Certified prints])
   click P "/en/store.html#impresiones-y-fotografia" "View prints"
+</script>
 </div>

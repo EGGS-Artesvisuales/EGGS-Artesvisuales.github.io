@@ -24,7 +24,8 @@ mermaid: true
   addresses identity, territory, and cultural continuity. Circular nodes highlight the active route.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -37,6 +38,7 @@ flowchart LR
   click C "/en/images-of-capitalism.html" "Go to Images of Capitalism"
   click P "/en/images-of-the-popular.html" "Go to Images of the Popular"
   click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
+</script>
 </div>
 <div class="button-container">
   <a href="/en/images-of-capitalism.html" class="fancy-button"><div class="button-content"><img src="/assets/img/imagenes-del-capitalismo.webp" alt="Images of Capitalism" loading="lazy"><p class="title">Images of Capitalism</p><p class="subtitle">Economic structures and their everyday effects.</p></div></a>

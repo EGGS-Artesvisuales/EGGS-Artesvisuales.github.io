@@ -34,7 +34,8 @@ zh_url: /chn/serie-pinturas-infectadas.html
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo">Serie ñi pichi mapa</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI((Pinturas Infectadas))
   MAT([Residuos ka publicidad])
@@ -51,6 +52,7 @@ flowchart LR
 
   click PRINTS "/mpd/tienda.html#impresiones-y-fotografia" "Prints ngillañ"
   click ARCH "/mpd/peste-pinturas-infectadas.html" "Fütra archivo adkintu"
+</script>
 </div>
 
 <p class="parrafo"><a class="enlace" href="/mpd/contacto.html">Kiñe müten küdaw, encargo kam disponibilidad ramtunge</a></p>

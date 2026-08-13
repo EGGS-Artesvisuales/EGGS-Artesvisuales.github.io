@@ -25,7 +25,8 @@ mermaid: true
   The works use distortion, vibration, and pictorial interference to make invisible technological fields perceptible. Landscapes, portraits, and still lifes remain recognizable, but become unstable, as if affected by a signal passing through them.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   D((The Invisible)) --> W((Wi-Fi Paintings))
   W --> L([Landscapes])
@@ -37,6 +38,7 @@ graph LR
   click L "/en/wifi-paintings.html#landscapes" "Go to Landscapes"
   click P "/en/wifi-paintings.html#portraits" "Go to Portraits"
   click S "/en/wifi-paintings.html#still-lifes" "Go to Still Lifes"
+</script>
 </div>
 
 <h2 class="subtitulo" id="landscapes">Wi-Fi Paintings: Landscapes</h2>

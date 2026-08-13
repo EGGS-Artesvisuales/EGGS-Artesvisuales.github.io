@@ -24,7 +24,8 @@ mermaid: true
   </p> 
 </div>
 <br><br>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph TD
   RM((Representation of the World))
   LT((Tangible))
@@ -50,6 +51,7 @@ graph TD
   click LS "/en/saturation.html" "Go to Saturation"
   click LP "/en/the-plague.html" "Go to The Plague"
   click LI "/en/the-invisible.html" "Go to The Invisible"
+</script>
 </div>
 <br>
 <br>

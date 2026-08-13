@@ -86,7 +86,8 @@ carousel: true
   perceptivo en el que ya vivimos.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Representación del Mundo)) --> B((Lo Tangible))
   A --> B2([Lo Intangible])
@@ -120,6 +121,7 @@ graph LR
   click E1 "#paisajes" "Ver Paisajes (Pinturas Wi-Fi)"
   click E2 "#retratos" "Ver Retratos (Pinturas Wi-Fi)"
   click E3 "#bodegones" "Ver Bodegones (Pinturas Wi-Fi)"
+</script>
 </div>
 
 

@@ -12,7 +12,8 @@ mermaid: true
 <br>
 
 <!-- Mapa / diagrama -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Actividad az-küdaw)) --> B([Wallmapu ñi azentun])
   A --> C((Mapu mew küdaw))
@@ -29,6 +30,7 @@ flowchart LR
 
   click C1 "/mpd/comunitario.html" "Amun: Lof mew"
   click C2 "/mpd/subrepticio.html" "Amun: Ellka küdaw"
+</script>
 </div>
 
 <br>

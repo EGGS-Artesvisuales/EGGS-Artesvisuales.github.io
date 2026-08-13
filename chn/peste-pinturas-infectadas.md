@@ -47,7 +47,8 @@ mermaid: true
 <!-- ========================= -->
 <!-- MERMAID (1) MAPA GENERAL -->
 <!-- ========================= -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((世界的代表))
   LT((有形的))
@@ -115,6 +116,7 @@ flowchart LR
   click MOD "#模块" "转到模块"
   click MODP "#模块打印" "转到打印模块"
   click UNI "#单位" "前往单位"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -122,7 +124,8 @@ flowchart LR
 <!-- =============================================== -->
 <!-- MERMAID (2) SECTORIZADO: SOPORTES TRADICIONALES -->
 <!-- =============================================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   ST([传统支撑])
   INT([到。 干预措施])
@@ -144,6 +147,7 @@ flowchart LR
   click P2 "#生产-景观-道路-2008-2009" "访问 道路景观"
   click P3 "#autofusion-生产-2009-2010" "前往自动融合"
   click P4 "#生产-感染-标志-2008-2025" "转到受感染的标志"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -436,7 +440,8 @@ flowchart LR
 <!-- ================================================= -->
 <!-- MERMAID (3) SECTORIZADO: SOPORTES BLANDOS + OBRAS -->
 <!-- ================================================= -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   SB([软支撑])
   MEM(["1. 膜"])
@@ -484,6 +489,7 @@ flowchart LR
   click URET "#单位肖像-2019" "前往单位：肖像"
   click UPAI "#景观单位-2019" "转到单元：风景"
   click UBOD "#units-stilllifes-2024" "前往单元：静物"
+</script>
 </div>
 
 <section class="parrafo">
@@ -509,7 +515,8 @@ flowchart LR
 <!-- =============================== -->
 <!-- MERMAID (4) MEMBRANAS (OBRAS)  -->
 <!-- =============================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   MEM([膜])
   VER(["1. 绿色 (2009)"])
@@ -524,6 +531,7 @@ flowchart LR
   click VER "#绿色-2009" "走向绿色 (2009)"
   click MAP1 "#世界地图-2009-1" "前往世界地图 n°1"
   click MAP2 "#世界地图-2008-2" "前往世界地图 n°2"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -674,7 +682,8 @@ flowchart LR
 <!-- =========================== -->
 <!-- MERMAID (5) MODULOS (OBRAS) -->
 <!-- =========================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   MOD([模块])
   COR(["1. 山脉 (2009)"])
@@ -692,6 +701,7 @@ flowchart LR
   click GP1 "#伟大的风景-1-2010" "前往 1 号绝美风景"
   click GP2 "#伟大的风景-2-2014" "前往大风景n°2"
   click PU "#城市景观-2010" "前往城市景观"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -1100,7 +1110,8 @@ flowchart LR
 <!-- ============================ -->
 <!-- MERMAID (6) UNIDADES (SERIES) -->
 <!-- ============================ -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   UNI([单位])
   URET(["肖像（2019–）"])
@@ -1115,6 +1126,7 @@ flowchart LR
   click URET "#单位肖像-2019" "前往肖像"
   click UPAI "#景观单位-2019" "前往风景"
   click UBOD "#units-stilllifes-2024" "前往博德戈内斯"
+</script>
 </div>
 
 <hr class="separador separador--aire" />

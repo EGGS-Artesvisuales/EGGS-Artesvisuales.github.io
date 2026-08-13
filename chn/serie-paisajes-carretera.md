@@ -32,7 +32,8 @@ mermaid: true
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo2">系列地图</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI([感染的绘画]) --> PC([公路风景])
   PC --> V([速度])
@@ -40,4 +41,5 @@ flowchart LR
   PC --> M([视觉记忆])
   PC --> P([认证 prints])
   click P "/chn/tienda.html#impresiones-y-fotografia" "查看 prints"
+</script>
 </div>

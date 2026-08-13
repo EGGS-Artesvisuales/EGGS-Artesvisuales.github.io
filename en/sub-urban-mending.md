@@ -24,7 +24,8 @@ mermaid: true
 
 <h3 class="subtitulo2">Conceptual tree of the series</h3>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B[The Subreptitious] --> B1[Urban Mending]
   B1 --> R1[Crosswalk]
@@ -32,6 +33,7 @@ graph LR
   B1 --> R3[Road safety line]
   B1 --> R4[Pavement holes]
   B1 --> R5[Dead-end street]
+</script>
 </div>
 
 <br><br>

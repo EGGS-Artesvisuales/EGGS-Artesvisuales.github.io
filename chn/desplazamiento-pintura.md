@@ -30,7 +30,8 @@ mermaid: true
 <br>
 
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   Z([世界的代表])
   Y([有形的])
@@ -61,6 +62,7 @@ graph LR
   click F2 "/chn/espacio-publico.html" "前往公共空间"
   click F3 "/chn/espacio-rural.html" "前往乡村/自然空间"
 
+</script>
 </div>
 
 <br>

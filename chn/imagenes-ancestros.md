@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">祖先图像</h1>
 <h2 class="subtitulo">记忆、领土与文化延续</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -32,6 +33,7 @@ flowchart LR
   click AN "/chn/imagenes-ancestros.html" "您在这里"
   click TA "/chn/mapuche-urbano.html" "前往记忆的砍伐"
   click MU "/chn/musoe-a-cielo-abierto.html" "前往露天 Musoe"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>祖先图像</strong>汇集了连接记忆、身份与领土的作品。祖先并非被固定为遥远的过去，

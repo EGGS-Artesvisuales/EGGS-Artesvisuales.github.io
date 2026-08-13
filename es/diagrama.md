@@ -49,7 +49,8 @@ mermaid: true
 
 <h2 class="subtitulo">Representación del mundo</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Representación del mundo)) --> A1((Lo tangible))
   A --> A2((Lo intangible))
@@ -140,13 +141,15 @@ graph LR
   click A2c "/es/imagenes-ancestros.html" "Ir a Imágenes de lo ancestral"
   click A2c1 "/es/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
   click A2c2 "/es/mapuche-urbano.html" "Ir a Mapuche Urbano"
+</script>
 </div>
 
 <hr class="separador" />
 
 <h2 class="subtitulo">Acción en el mundo</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B((Acción en el mundo)) --> B1((Lo subrepticio))
   B1 --> B1a([Remiendas urbanas])
@@ -186,13 +189,15 @@ graph LR
   click B4 "/es/servicios.html" "Ir a Servicios"
   click B4a "/es/servicios.html#restauracion" "Ir a Restauración"
   click B4b "/es/servicios.html#encargos" "Ir a Encargos"
+</script>
 </div>
 
 <hr class="separador" />
 
 <h2 class="subtitulo">Mundo interior</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   C((Mundo interior)) --> C1((Arte y psicología))
   C --> C2((Arte y espiritualidad))
@@ -204,4 +209,5 @@ graph LR
   class C1,C2 research;
 
   click C "/es/interior.html" "Ir a Mundo interior"
+</script>
 </div>

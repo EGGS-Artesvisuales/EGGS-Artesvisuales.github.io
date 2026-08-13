@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Urban Mapuche</h1>
 <h2 class="subtitulo">Genealogical Tree: The Felling of Memory</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -30,6 +31,7 @@ flowchart LR
   click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
   click TA "/en/urban-mapuche.html" "You are here"
   click MU "/en/musoe-open-air.html" "Go to Musoe Open Air"
+</script>
 </div>
 
 <h2 class="subtitulo" id="urban-mapuche">Urban Mapuche</h2>

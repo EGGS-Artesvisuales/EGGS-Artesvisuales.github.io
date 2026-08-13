@@ -26,6 +26,8 @@ mermaid: true
   Newspaper, advertising fragments, and printed waste enter the home as signs of visual excess. By adhering to walls, furniture, appliances, and domestic devices, they reveal a persistent contamination that settles inside the house and blurs the boundary between private and public space.
 </p>
 
+<div class="mermaid" data-mermaid-diagram></div>
+
 <h2 class="subtitulo" id="objects">Objects in Domestic Spaces</h2>
 <p class="parrafo">This line addresses the first expansions of painting toward everyday objects and functional supports, where printed waste interrupts use and turns the object into a contaminated pictorial surface.</p>
 

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
   <meta charset="UTF-8">
+  <script>document.documentElement.classList.replace("no-js", "js");</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% assign site_origin = site.url | default: 'https://eggs-studio.cl' %}
   {% assign social_image = page.og_image | default: page.image | default: '/assets/img/EGGSLOGOindex1.png' %}
@@ -95,6 +96,7 @@
   {% include header-en.html %}
 
   <main id="main-content" role="main">
+    {% if page.mermaid %}{% include mermaid-fallback.html %}{% endif %}
     {% if content %}
       {{ content }}
     {% else %}

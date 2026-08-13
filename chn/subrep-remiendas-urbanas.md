@@ -29,7 +29,8 @@ mermaid: true
 
 <h3 class="subtitulo2">该系列的概念树</h3>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B[鬼鬼祟祟的] --> B1[城市斑块]
   B1 --> R1[斑马线]
@@ -37,6 +38,7 @@ graph LR
   B1 --> R3[道路安全线]
   B1 --> R4[路面孔]
   B1 --> R5[死胡同]
+</script>
 </div>
 
 <br><br>

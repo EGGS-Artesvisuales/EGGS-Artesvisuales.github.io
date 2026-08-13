@@ -43,7 +43,8 @@ carousel: true
 <!-- ========================= -->
 <!-- MERMAID (1) MAPA GENERAL -->
 <!-- ========================= -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((Representación del Mundo))
   LT((Lo Tangible))
@@ -111,6 +112,7 @@ flowchart LR
   click MOD "#modulos" "Ir a Módulos"
   click MODP "#modulos-prints" "Ir a Módulos print"
   click UNI "#unidades" "Ir a Unidades"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -118,7 +120,8 @@ flowchart LR
 <!-- =============================================== -->
 <!-- MERMAID (2) SECTORIZADO: SOPORTES TRADICIONALES -->
 <!-- =============================================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   ST([Soportes tradicionales])
   INT([A. Intervenciones])
@@ -140,6 +143,7 @@ flowchart LR
   click P2 "#produccion-paisajes-carretera-2008-2009" "Ir a Paisajes de carretera"
   click P3 "#produccion-autofusion-2009-2010" "Ir a Autofusión"
   click P4 "#produccion-banderas-infectadas-2008-2025" "Ir a Banderas infectadas"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -430,7 +434,8 @@ flowchart LR
 <!-- ================================================= -->
 <!-- MERMAID (3) SECTORIZADO: SOPORTES BLANDOS + OBRAS -->
 <!-- ================================================= -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   SB([Soportes blandos])
   MEM(["1. Membranas"])
@@ -478,6 +483,7 @@ flowchart LR
   click URET "#unidades-retratos-2019" "Ir a Unidades: Retratos"
   click UPAI "#unidades-paisajes-2019" "Ir a Unidades: Paisajes"
   click UBOD "#unidades-bodegones-2024" "Ir a Unidades: Bodegones"
+</script>
 </div>
 
 <section class="parrafo">
@@ -503,7 +509,8 @@ flowchart LR
 <!-- =============================== -->
 <!-- MERMAID (4) MEMBRANAS (OBRAS)  -->
 <!-- =============================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   MEM([Membranas])
   VER(["1. Verde (2009)"])
@@ -518,6 +525,7 @@ flowchart LR
   click VER "#verde-2009" "Ir a Verde (2009)"
   click MAP1 "#mapamundi-2009-1" "Ir a Mapamundi n°1"
   click MAP2 "#mapamundi-2008-2" "Ir a Mapamundi n°2"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -668,7 +676,8 @@ flowchart LR
 <!-- =========================== -->
 <!-- MERMAID (5) MODULOS (OBRAS) -->
 <!-- =========================== -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   MOD([Módulos])
   COR(["1. Cordillera (2009)"])
@@ -686,6 +695,7 @@ flowchart LR
   click GP1 "#gran-paisaje-1-2010" "Ir a Gran paisaje n°1"
   click GP2 "#gran-paisaje-2-2014" "Ir a Gran paisaje n°2"
   click PU "#paisaje-urbano-2010" "Ir a Paisaje urbano"
+</script>
 </div>
 
 <hr class="separador separador--aire" />
@@ -1094,7 +1104,8 @@ flowchart LR
 <!-- ============================ -->
 <!-- MERMAID (6) UNIDADES (SERIES) -->
 <!-- ============================ -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   UNI([Unidades])
   URET(["Retratos (2019–)"])
@@ -1109,6 +1120,7 @@ flowchart LR
   click URET "#unidades-retratos-2019" "Ir a Retratos"
   click UPAI "#unidades-paisajes-2019" "Ir a Paisajes"
   click UBOD "#unidades-bodegones-2024" "Ir a Bodegones"
+</script>
 </div>
 
 <hr class="separador separador--aire" />

@@ -35,7 +35,8 @@ mermaid: true
 
 <br><br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((世界的代表))
   LT((有形的))
@@ -65,6 +66,7 @@ flowchart LR
   click P "/chn/peste-pinturas-infectadas.html" "前往受感染的画作"
   click DP "/chn/desplazamiento-pintura.html" "转到绘画变换"
   click PL "/chn/pinturas-wifi.html" "前往 Wi-Fi 绘画"
+</script>
 </div>
 
 <br><br>

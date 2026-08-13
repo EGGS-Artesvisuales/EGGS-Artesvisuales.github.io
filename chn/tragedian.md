@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">Tragedian</h1>
 <h2 class="subtitulo">物件、指令与被管理的暴力</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/chn/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/chn/tragedian.html" "您在这里"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Tragedian</strong> 是一件指令型作品和可重复执行的装置。一枚完全惰性的

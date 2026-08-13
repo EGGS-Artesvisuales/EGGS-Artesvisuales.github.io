@@ -16,7 +16,8 @@ mermaid: true
 
 <h2 class="subtitulo">物质世界的表征</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((世界的代表))
   tangible(("有形的"))
@@ -33,6 +34,7 @@ flowchart LR
   click saturacion "/chn/saturacion.html" "转到饱和度"
   click tecnologia "/chn/en-construccion.html" "前往技术"
   click intangible "/chn/intangible.html" "走向无形"
+</script>
 </div>
 <br>
 

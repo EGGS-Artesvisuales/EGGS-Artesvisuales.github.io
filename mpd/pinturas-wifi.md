@@ -87,7 +87,8 @@ carousel: true
   gelay, iñchiñ ñi mülechi percepción wall püle ngey.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Wallmapu ñi azentun)) --> B((Kalül mew))
   A --> B2([Püllü mew])
@@ -121,6 +122,7 @@ graph LR
   click E1 "#paisajes" "Adkintun: Mapu az (Wi-Fi Pinturas)"
   click E2 "#retratos" "Adkintun: Adentu (Wi-Fi Pinturas)"
   click E3 "#bodegones" "Adkintun: Chemkün az (Wi-Fi Pinturas)"
+</script>
 </div>
 
 

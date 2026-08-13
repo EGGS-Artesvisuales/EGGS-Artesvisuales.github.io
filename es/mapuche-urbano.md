@@ -16,7 +16,8 @@ mermaid: true
 <h2 class="subtitulo">Árbol genealógico: La Tala de la Memoria</h2>
 
 <!-- Mermaid: Ruta desde Representación del Mundo hacia Mapuche Urbano -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -34,6 +35,7 @@ flowchart LR
   click AN "/es/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
   click TA "/es/mapuche-urbano.html" "Estás aquí"
   click MU "/es/musoe-a-cielo-abierto.html" "Ir a Musoe a Cielo Abierto"
+</script>
 </div>
 
 <hr class="separador separador--aire" />

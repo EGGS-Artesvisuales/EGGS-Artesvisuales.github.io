@@ -23,7 +23,8 @@ mermaid: true
 <!-- 1) Wallmapu ñi azentun -->
 <h2 class="subtitulo">Wallmapu ñi azentun</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Wallmapu ñi azentun)) --> A1((Kalül mew))
   A --> A2((Püllü mew))
@@ -129,6 +130,7 @@ graph LR
   click A2b1a "en-construccion.html" "Dewmangen mew"
   click A2c "en-construccion.html" "Dewmangen mew"
   click A2c2 "en-construccion.html" "Dewmangen mew"
+</script>
 </div>
 
 <hr class="separador" />
@@ -136,7 +138,8 @@ graph LR
 <!-- 2) Mapu mew Küdaw -->
 <h2 class="subtitulo">Mapu mew Küdaw</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B((Wallmapu mew\nküdaw)) --> B1((Ellka küdaw))
   B1 --> B1a([Waria\nremiendas])
@@ -184,6 +187,7 @@ graph LR
   click B1b1 "en-construccion.html" "Dewmangen mew"
   click B1b2 "en-construccion.html" "Dewmangen mew"
   click B1b3 "en-construccion.html" "Dewmangen mew"
+</script>
 </div>
 
 <hr class="separador" />
@@ -191,7 +195,8 @@ graph LR
 <!-- 3) Exploración del Püle rakizuam -->
 <h2 class="subtitulo">Exploración del Püle rakizuam</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   C((Exploración del Püle rakizuam)) --> C1((Az-küdaw y Psicología))
   C --> C2((Az-küdaw y Espiritualidad))
@@ -202,6 +207,7 @@ graph LR
   %% Enlaces (no existentes aún -> en construcción)
   click C1 "en-construccion.html" "Dewmangen mew"
   click C2 "en-construccion.html" "Dewmangen mew"
+</script>
 </div>
 
 

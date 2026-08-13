@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">Papelucho</h1>
 <h2 class="subtitulo">雕塑、童年与智利民众记忆</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -33,6 +34,7 @@ flowchart LR
   click AN "/chn/imagenes-ancestros.html" "前往祖先图像"
   click PA "/chn/papelucho.html" "您在这里"
   click PM "/chn/en-construccion.html" "系列发展中"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Papelucho</strong> 是一件 2022 年雕塑，取材自智利儿童文学人物。

@@ -25,7 +25,8 @@ mermaid: true
   <strong>祖先图像</strong>则关注身份、领土与文化延续。圆形节点表示当前路径。
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C "/chn/imagenes-capitalismo.html" "前往资本主义图像"
   click P "/chn/imagenes-popular.html" "前往民众图像"
   click AN "/chn/imagenes-ancestros.html" "前往祖先图像"
+</script>
 </div>
 <div class="button-container">
   <a href="/chn/imagenes-capitalismo.html" class="fancy-button"><div class="button-content"><img src="/assets/img/imagenes-del-capitalismo.webp" alt="资本主义图像" loading="lazy"><p class="title">资本主义图像</p><p class="subtitle">经济结构及其日常影响。</p></div></a>

@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Papelucho</h1>
 <h2 class="subtitulo">Sculpture, childhood, and Chilean popular memory</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -30,6 +31,7 @@ flowchart LR
   click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
   click PA "/en/papelucho.html" "You are here"
   click PM "/en/under-construction.html" "Series in development"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Papelucho</strong> is a 2022 sculpture based on the character from Chilean children's

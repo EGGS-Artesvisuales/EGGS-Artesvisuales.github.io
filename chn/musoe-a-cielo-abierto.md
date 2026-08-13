@@ -25,7 +25,8 @@ mermaid: true
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
 
 <!-- Mermaid: Representación del Mundo (ruta hacia Musoe a Cielo Abierto) -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -42,6 +43,7 @@ flowchart LR
   click AN "/chn/imagenes-ancestros.html" "前往祖先图像"
   click TA "/chn/mapuche-urbano.html" "前往记忆的砍伐"
   click MU "/chn/musoe-a-cielo-abierto.html" "您在这里"
+</script>
 </div>
 
 

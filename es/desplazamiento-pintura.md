@@ -26,7 +26,8 @@ mermaid: true
 <br>
 
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   Z([Representación del Mundo])
   Y([Lo Tangible])
@@ -57,6 +58,7 @@ graph LR
   click F2 "/es/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/es/espacio-rural.html" "Ir a Espacio Rural / Natural"
 
+</script>
 </div>
 
 <br>

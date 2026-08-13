@@ -32,7 +32,8 @@ mermaid: true
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo2">Series map</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI([Infected Paintings]) --> BI([Infected Flags])
   BI --> S([Symbol])
@@ -40,4 +41,5 @@ flowchart LR
   BI --> P([Pictorial plague])
   BI --> C([Certified prints])
   click C "/en/store.html#impresiones-y-fotografia" "View prints"
+</script>
 </div>

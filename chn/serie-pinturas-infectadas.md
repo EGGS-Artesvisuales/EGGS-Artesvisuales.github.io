@@ -34,7 +34,8 @@ mpd_url: /mpd/serie-pinturas-infectadas.html
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo">系列简图</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI((感染的绘画))
   MAT([废弃物与广告])
@@ -51,6 +52,7 @@ flowchart LR
 
   click PRINTS "/chn/tienda.html#impresiones-y-fotografia" "购买版画"
   click ARCH "/chn/peste-pinturas-infectadas.html" "查看完整档案"
+</script>
 </div>
 
 <p class="parrafo"><a class="enlace" href="/chn/contacto.html">咨询原作、委托或可用性</a></p>

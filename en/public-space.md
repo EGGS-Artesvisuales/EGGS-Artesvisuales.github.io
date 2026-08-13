@@ -6,7 +6,6 @@ description: "Works that displace painting into public space, integrating The Pl
 permalink: /en/public-space.html
 keywords: "public space, urban interventions, expanded painting, The Plague, Esteban Garnica, urban art Chile"
 carousel: true
-mermaid: true
 ---
 
 <h1 class="titulo">Public Spaces</h1>

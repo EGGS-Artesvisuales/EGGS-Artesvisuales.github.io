@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Tragedian</h1>
 <h2 class="subtitulo">Objeto, instrucción ka azümngechi violencia</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
@@ -35,6 +36,7 @@ flowchart LR
   click C3 "/mpd/el-empaquetador.html" "El Empaquetador mew amun"
   click C4 "/mpd/rostro-esperanza.html" "Rostro Esperanza mew amun"
   click C5 "/mpd/tragedian.html" "Faw müleymi"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Tragedian</strong> kiñe instrucción küdaw ka wiño dewmangechi

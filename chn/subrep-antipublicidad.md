@@ -27,7 +27,8 @@ mermaid: true
 </section>
 
 <!-- Diagrama Mermaid -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B[世界各地的行动]
   B --> B1[鬼鬼祟祟的]
@@ -53,6 +54,7 @@ graph LR
   click B1b2 "/chn/en-construccion.html" "前往海报系列"
   click B1b3 "/chn/en-construccion.html" "前往广告盗版"
   click B1b4 "/chn/en-construccion.html" "前往干预模型"
+</script>
 </div>
 
 <br>

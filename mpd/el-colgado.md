@@ -30,7 +30,8 @@ mermaid: true
 </div>
 
 <h3 class="subtitulo2">CURATORIAL MAPA MEW ÑI MÜLEWE</h3>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
@@ -53,6 +54,7 @@ flowchart LR
   click C3 "/mpd/el-empaquetador.html" "El Empaquetador mew amun"
   click C4 "/mpd/rostro-esperanza.html" "Rostro Esperanza mew amun"
   click C5 "/mpd/tragedian.html" "Tragedian mew amun"
+</script>
 </div>
 
 <h3 class="subtitulo2">KÜDAW ÑI KIMELTUN</h3>

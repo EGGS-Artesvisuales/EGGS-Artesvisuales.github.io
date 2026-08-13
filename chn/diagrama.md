@@ -28,7 +28,8 @@ mermaid: true
 <!-- 1) Representación del Mundo -->
 <h2 class="subtitulo">世界的代表</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((世界的代表)) --> A1((有形的))
   A --> A2((无形资产))
@@ -134,6 +135,7 @@ graph LR
   click A2b1a "en-construccion.html" "建设中"
   click A2c "en-construccion.html" "建设中"
   click A2c2 "en-construccion.html" "建设中"
+</script>
 </div>
 
 <hr class="separador" />
@@ -141,7 +143,8 @@ graph LR
 <!-- 2) Acción en el Mundo -->
 <h2 class="subtitulo">世界行动</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B((世界行动)) --> B1((鬼鬼祟祟的))
   B1 --> B1a([城市斑块])
@@ -189,6 +192,7 @@ graph LR
   click B1b1 "en-construccion.html" "建设中"
   click B1b2 "en-construccion.html" "建设中"
   click B1b3 "en-construccion.html" "建设中"
+</script>
 </div>
 
 <hr class="separador" />
@@ -196,7 +200,8 @@ graph LR
 <!-- 3) Exploración del Mundo Interior -->
 <h2 class="subtitulo">内心世界的探索</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   C((内心世界的探索)) --> C1((艺术与心理学))
   C --> C2((艺术与灵性))
@@ -207,4 +212,5 @@ graph LR
   %% Enlaces (no existentes aún -> en construcción)
   click C1 "en-construccion.html" "建设中"
   click C2 "en-construccion.html" "建设中"
+</script>
 </div>

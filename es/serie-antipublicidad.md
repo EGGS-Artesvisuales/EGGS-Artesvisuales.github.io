@@ -36,11 +36,13 @@ mermaid: true
   <a class="fancy-button" href="/es/tienda.html"><div class="button-content"><p class="title">Tienda</p><p class="subtitle">Obras y ediciones disponibles.</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Antipublicidad)) --> PP[PP Series]
   A --> C[Serie Carteles]
   A --> P[Piratería Publicitaria]
   A --> M[Modelos de intervención]
   A --> T[Tienda / publicaciones]
+</script>
 </div>

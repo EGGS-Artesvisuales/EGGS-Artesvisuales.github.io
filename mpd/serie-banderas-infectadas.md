@@ -32,7 +32,8 @@ mermaid: true
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo2">Serie ñi mapa</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI([Pinturas Infectadas]) --> BI([Banderas Infectadas])
   BI --> S([Símbolo])
@@ -40,4 +41,5 @@ flowchart LR
   BI --> P([Kutxan pintura])
   BI --> C([Certificado prints])
   click C "/mpd/tienda.html#impresiones-y-fotografia" "Prints adkintu"
+</script>
 </div>

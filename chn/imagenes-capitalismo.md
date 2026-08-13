@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">资本主义图像</h1>
 <h2 class="subtitulo">日常生活中的劳动、价值与权力</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/chn/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/chn/tragedian.html" "前往 Tragedian"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>资本主义图像</strong>汇集了观察经济体系如何转化为身体、行为与图像的作品。

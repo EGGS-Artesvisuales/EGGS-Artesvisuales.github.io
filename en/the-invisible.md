@@ -24,7 +24,8 @@ mermaid: true
   In this line of work, painting behaves like a slow sensor. The image becomes distorted, compressed, interrupted, or bent, as if the visible surface were affected by signals moving through the air. The work does not illustrate the invisible; it makes its effects perceptible.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Representation of the World)) --> B((The Tangible))
   A --> B2([The Intangible])
@@ -40,6 +41,7 @@ graph LR
   click D "/en/the-invisible.html" "View The Invisible"
   click D2 "/en/the-plague.html" "View The Plague"
   click E "/en/wifi-paintings.html" "View Wi-Fi Paintings"
+</script>
 </div>
 
 <div class="button-container">

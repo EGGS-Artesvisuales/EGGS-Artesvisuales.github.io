@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Tragedian</h1>
 <h2 class="subtitulo">Object, instruction, and administered violence</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -35,6 +36,7 @@ flowchart LR
   click C3 "/en/the-bagger.html" "Go to El Empaquetador"
   click C4 "/en/face-of-hope.html" "Go to Rostro Esperanza"
   click C5 "/en/tragedian.html" "You are here"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Tragedian</strong> is an instruction-based artwork and re-executable installation. A

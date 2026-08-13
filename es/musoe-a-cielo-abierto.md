@@ -17,7 +17,8 @@ mermaid: true
 
 
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -35,6 +36,7 @@ flowchart LR
   click AN "/es/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
   click TA "/es/mapuche-urbano.html" "Ir a La Tala de la Memoria"
   click MU "/es/musoe-a-cielo-abierto.html" "Estás aquí"
+</script>
 </div>
 
 

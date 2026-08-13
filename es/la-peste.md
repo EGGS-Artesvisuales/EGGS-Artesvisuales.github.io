@@ -46,7 +46,8 @@ mermaid: true
 
 <br><br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   %% --- Macroestructura ---
   Z(("Representación del Mundo")) --> Y(("Lo Tangible"))
@@ -96,6 +97,7 @@ flowchart LR
   click F1 "/es/espacio-domestico.html" "Ir a Espacio Doméstico"
   click F2 "/es/espacio-publico.html" "Ir a Espacio Público"
   click F3 "/es/espacio-rural.html" "Ir a Espacio Rural / Natural"
+</script>
 </div>
 
 

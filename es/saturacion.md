@@ -31,7 +31,8 @@ mermaid: true
 
 <br><br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((Representación del Mundo))
   LT((Lo Tangible))
@@ -61,6 +62,7 @@ flowchart LR
   click P "/es/peste-pinturas-infectadas.html" "Ir a Pinturas Infectadas"
   click DP "/es/desplazamiento-pintura.html" "Ir a Desplazamiento de la Pintura"
   click PL "/es/pinturas-wifi.html" "Ir a Pinturas wi fi"
+</script>
 </div>
 
 <br><br>

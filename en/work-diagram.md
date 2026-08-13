@@ -18,7 +18,8 @@ mermaid: true
 
 <!-- 1) Representation of the World -->
 <div class="subtitulo">Representation of the World</div>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((Representation of the World)) --> A1((The Tangible))
   A --> A2((The Intangible))
@@ -110,11 +111,13 @@ graph LR
   click A2b1 "/en/under-construction.html" "Under construction"
   click A2b1a "/en/under-construction.html" "Under construction"
   click A2c2 "/en/urban-mapuche.html" "Go to Urban Mapuche"
+</script>
 </div>
 
 <!-- 2) Action in the World -->
 <div class="subtitulo">Action in the World</div>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   B((Action in the World)) --> B1((The Surreptitious))
   B1 --> B1a([Urban Mending])
@@ -159,11 +162,13 @@ graph LR
   click B4a "/en/under-construction.html" "Under construction"
   click B4b "/en/under-construction.html" "Under construction"
   click B4c "/en/under-construction.html" "Under construction"
+</script>
 </div>
 
 <!-- 3) Exploration of the Inner World -->
 <div class="subtitulo">Exploration of the Inner World</div>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   C((Exploration of the Inner World)) --> C1((Art and Psychology))
   C --> C2((Art and Spirituality))
@@ -174,4 +179,5 @@ graph LR
   %% Not yet existing -> under construction
   click C1 "/en/under-construction.html" "Under construction"
   click C2 "/en/under-construction.html" "Under construction"
+</script>
 </div>

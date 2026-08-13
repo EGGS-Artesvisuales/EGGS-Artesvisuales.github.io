@@ -36,11 +36,13 @@ mermaid: true
   <a class="fancy-button" href="/chn/tienda.html"><div class="button-content"><p class="title">商店</p><p class="subtitle">可购作品与版本。</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((反广告)) --> PP[PP Series]
   A --> C[海报系列]
   A --> P[广告盗版]
   A --> M[干预模型]
   A --> T[商店 / 出版物]
+</script>
 </div>

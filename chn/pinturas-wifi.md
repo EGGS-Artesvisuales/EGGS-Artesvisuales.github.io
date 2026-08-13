@@ -90,7 +90,8 @@ mermaid: true
   我们已经生活在其中的观念。
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A((世界的代表)) --> B((有形的))
   A --> B2([无形资产])
@@ -124,6 +125,7 @@ graph LR
   click E1 "#风景" "看风景（Wi-Fi绘画）"
   click E2 "#肖像" "查看肖像（Wi-Fi 绘画）"
   click E3 "#静物" "查看静物画（Wi-Fi 绘画）"
+</script>
 </div>
 
 

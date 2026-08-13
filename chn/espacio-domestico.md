@@ -88,7 +88,8 @@ mermaid: true
 <br>
 
 <!-- DIAGRAMA MERMAID CON ENLACES A #objetos Y #habitaciones -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A([世界的代表]) --> A1([有形的])
   A --> A2([无形资产])
@@ -128,6 +129,7 @@ graph LR
   click D1b "/chn/espacio-domestico.html#habitaciones" "查看国内房间"
 
   click A1b "/chn/en-construccion.html" "前往技术"
+</script>
 </div>
 
 

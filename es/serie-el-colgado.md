@@ -30,7 +30,8 @@ mermaid: true
   <a class="fancy-button" href="/es/el-colgado.html"><div class="button-content"><p class="title">Ver archivo</p><p class="subtitle">Serie curatorial completa.</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((El Colgado)) --> U[Prints por unidad]
   U --> N1[N.º 01]
@@ -38,4 +39,5 @@ flowchart LR
   U --> N3[N.º 03]
   U --> N4[N.º 04]
   U --> N5[N.º 05]
+</script>
 </div>

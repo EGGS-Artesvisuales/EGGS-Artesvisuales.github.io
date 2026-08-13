@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Musoe Open Air</h1>
 <h2 class="subtitulo">Mural diptychs: portraits of Indigenous peoples in public space</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -29,6 +30,7 @@ flowchart LR
   click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
   click TA "/en/urban-mapuche.html" "Go to The Felling of Memory"
   click MU "/en/musoe-open-air.html" "You are here"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Musoe Open Air</strong> is a series of mural diptychs painted on the facades of

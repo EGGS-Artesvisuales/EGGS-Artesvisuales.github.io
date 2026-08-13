@@ -29,7 +29,8 @@ mermaid: true
 
 <br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
     Representacion(("Representación del Mundo"))
     Representacion --> Tangible(["Lo Tangible"])
@@ -45,6 +46,7 @@ graph LR
     click Capitalismo "/es/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
     click Popular "/es/imagenes-popular.html" "Ir a Imágenes de lo Popular"
     click Ancestras "/es/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
+</script>
 </div>
 
 <br>

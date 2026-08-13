@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">Rostro Esperanza</h1>
 <h2 class="subtitulo">以废弃材料构成的集体图像</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/chn/rostro-esperanza.html" "您在这里"
   click C5 "/chn/tragedian.html" "前往 Tragedian"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Rostro Esperanza</strong> 于 2021 年疫情与疫苗接种期间，由 La Florida

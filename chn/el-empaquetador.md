@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">El Empaquetador</h1>
 <h2 class="subtitulo">非正式劳动、消费与废弃物的流通</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -38,6 +39,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "您在这里"
   click C4 "/chn/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/chn/tragedian.html" "前往 Tragedian"
+</script>
 </div>
 <section class="parrafo">
   <p>在 <strong>El Empaquetador</strong> 中，艺术家在超市中从事约两小时的装袋工作。

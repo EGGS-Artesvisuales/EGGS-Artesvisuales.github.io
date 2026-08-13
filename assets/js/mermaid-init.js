@@ -1,5 +1,41 @@
 (() => {
-  if (typeof window.mermaid === "undefined") return;
+  const documentLanguage = (document.documentElement.lang || "es").toLowerCase();
+  const accessibilityCopy = documentLanguage.startsWith("en")
+    ? {
+        diagramLabel: "Conceptual diagram",
+        textSummary: "Read diagram as text",
+        unavailable: "The conceptual diagram could not be displayed. The page text and navigation links remain available."
+      }
+    : documentLanguage.startsWith("zh")
+      ? {
+          diagramLabel: "概念图",
+          textSummary: "以文字形式阅读图表",
+          unavailable: "概念图无法显示。页面文字和导航链接仍可使用。"
+        }
+      : documentLanguage.startsWith("arn")
+        ? {
+            diagramLabel: "Conceptual diagrama",
+            textSummary: "Diagrama wirin mew adkintu",
+            unavailable: "Conceptual diagrama pengelay. Página ñi wirin ka navegación ñi enlaces müley."
+          }
+        : {
+            diagramLabel: "Diagrama conceptual",
+            textSummary: "Leer diagrama como texto",
+            unavailable: "No fue posible mostrar el diagrama conceptual. El texto y los enlaces de navegación de la página permanecen disponibles."
+          };
+
+  function showMermaidFallback(diagrams = document.querySelectorAll(".mermaid")) {
+    diagrams.forEach((diagram) => {
+      diagram.classList.add("mermaid-render-failed");
+      diagram.setAttribute("role", "note");
+      diagram.textContent = accessibilityCopy.unavailable;
+    });
+  }
+
+  if (typeof window.mermaid === "undefined") {
+    showMermaidFallback();
+    return;
+  }
 
   window.mermaid.initialize({
     startOnLoad: false,
@@ -216,6 +252,61 @@
     return parents;
   }
 
+  function collectNodeLinks(source) {
+    const links = new Map();
+    const clickPattern = new RegExp(
+      `^\\s*click\\s+(${nodeIdPattern})\\s+(?:href\\s+)?["']([^"']+)["']`,
+      "gm"
+    );
+
+    let match;
+    while ((match = clickPattern.exec(source)) !== null) {
+      const href = match[2].trim();
+      if (href.startsWith("/") || href.startsWith("#") || /^https?:\/\//i.test(href)) {
+        links.set(match[1], href);
+      }
+    }
+
+    return links;
+  }
+
+  function createNodeReference(nodeId, labels, links) {
+    const label = labels.get(nodeId) || nodeId;
+    const href = links.get(nodeId);
+    const element = document.createElement(href ? "a" : "span");
+    element.textContent = label;
+    if (href) element.setAttribute("href", href);
+    return element;
+  }
+
+  function buildTextAlternative(source, diagramIndex) {
+    const labels = collectNodeLabels(source);
+    const parents = collectParents(source);
+    if (parents.size === 0) return null;
+
+    const links = collectNodeLinks(source);
+    const details = document.createElement("details");
+    details.className = "mermaid-text-alternative";
+
+    const summary = document.createElement("summary");
+    summary.textContent = `${accessibilityCopy.textSummary} ${diagramIndex + 1}`;
+    details.appendChild(summary);
+
+    const list = document.createElement("ul");
+    parents.forEach((parentIds, childId) => {
+      parentIds.forEach((parentId) => {
+        const item = document.createElement("li");
+        item.appendChild(createNodeReference(parentId, labels, links));
+        item.appendChild(document.createTextNode(" → "));
+        item.appendChild(createNodeReference(childId, labels, links));
+        list.appendChild(item);
+      });
+    });
+
+    details.appendChild(list);
+    return details;
+  }
+
   function collectCurrentNodes(source, labels) {
     const currentPath = normalizePath(window.location.pathname);
     const currentNodes = new Set();
@@ -343,19 +434,40 @@
     const diagrams = document.querySelectorAll(".mermaid");
     if (!diagrams.length) return;
 
+    const diagramSources = new Map();
+
     diagrams.forEach((diagram) => {
       diagram.removeAttribute("data-processed");
 
       const explicitSource = explicitDiagrams[window.location.pathname];
-      const source = explicitSource || diagram.textContent || "";
+      const storedSource = diagram.querySelector(".mermaid-source")?.textContent || "";
+      const source = explicitSource || storedSource || diagram.textContent || "";
       const normalizedSource = normalizeGenericSource(source);
+      diagramSources.set(diagram, normalizedSource);
       diagram.textContent = highlightActiveBranch(normalizedSource);
     });
 
     try {
       await window.mermaid.run({ querySelector: ".mermaid" });
+      diagrams.forEach((diagram, index) => {
+        const svg = diagram.querySelector("svg");
+        const pageHeading = document.querySelector("main h1, h1.titulo, h1")?.textContent?.trim();
+        if (svg) {
+          svg.setAttribute("role", "group");
+          svg.setAttribute(
+            "aria-label",
+            pageHeading
+              ? `${accessibilityCopy.diagramLabel}: ${pageHeading}`
+              : `${accessibilityCopy.diagramLabel} ${index + 1}`
+          );
+        }
+
+        const textAlternative = buildTextAlternative(diagramSources.get(diagram) || "", index);
+        if (textAlternative) diagram.appendChild(textAlternative);
+      });
     } catch (error) {
       console.error("No fue posible renderizar el diagrama Mermaid:", error);
+      showMermaidFallback(diagrams);
     }
   }
 

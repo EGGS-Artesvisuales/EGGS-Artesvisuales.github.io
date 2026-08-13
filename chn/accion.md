@@ -17,7 +17,8 @@ mermaid: true
 <br>
 
 <!-- Mapa / diagrama -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((艺术活动)) --> B([世界的代表])
   A --> C((在世界上的行动))
@@ -34,6 +35,7 @@ flowchart LR
 
   click C1 "/chn/comunitario.html" "前往社区"
   click C2 "/chn/subrepticio.html" "前往隐秘之地"
+</script>
 </div>
 
 <br>

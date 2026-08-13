@@ -53,7 +53,8 @@ mermaid: true
 <br>
 
 <!-- DIAGRAMA MERMAID -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A[世界的代表] --> A1[有形的]
   A --> A2[无形资产]
@@ -86,6 +87,7 @@ graph LR
   click D1 "/chn/espacio-domestico.html" "前往国内空间"
   click D2 "/chn/espacio-publico.html" "前往公共场所"
   click D3 "/chn/espacio-rural.html" "前往乡村/自然空间"
+</script>
 </div>
 
 <br><br>

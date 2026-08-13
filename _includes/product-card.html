@@ -43,7 +43,7 @@
     </p>
     <div class="shop-card__footer">
       {% include product-price.html product=include.product context="card" %}
-      <a href="{{ include.product.url }}" aria-label="{{ include.t.card_open }} {{ include.product.title | escape }}">{{ include.t.card_view }}</a>
+      <a href="{{ include.product.url }}" aria-label="{{ include.t.card_view }}: {{ include.product.title | escape }}">{{ include.t.card_view }}</a>
     </div>
   </div>
 </article>

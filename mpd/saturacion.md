@@ -31,7 +31,8 @@ mermaid: true
 
 <br><br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((Wallmapu ñi azentun))
   LT((Kalül mew))
@@ -61,6 +62,7 @@ flowchart LR
   click P "/mpd/peste-pinturas-infectadas.html" "Amun: Kutxan Pinturas"
   click DP "/mpd/desplazamiento-pintura.html" "Amun: Pintura ñi fentepun"
   click PL "/mpd/pinturas-wifi.html" "Amun: Wi-Fi Pinturas"
+</script>
 </div>
 
 <br><br>

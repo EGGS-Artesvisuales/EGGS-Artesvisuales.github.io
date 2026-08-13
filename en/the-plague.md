@@ -24,7 +24,8 @@ mermaid: true
   This line of work records defining features of the present: plastic waste, toxic emissions, visual noise, advertising overflow, and the saturation of landscapes and bodies. Painting is the starting point, but its conceptual and physical limits expand into installation, intervention, objects, domestic rooms, public spaces, and rural environments.
 </p>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   Z((Representation of the World)) --> Y((The Tangible))
   Y --> A((Saturation))
@@ -52,6 +53,7 @@ flowchart LR
   click F1 "/en/domestic-space.html" "Go to Domestic Space"
   click F2 "/en/public-space.html" "Go to Public Space"
   click F3 "/en/rural-natural-space.html" "Go to Rural / Natural Space"
+</script>
 </div>
 
 <p class="parrafo">

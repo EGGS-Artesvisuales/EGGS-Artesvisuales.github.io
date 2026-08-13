@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Images of the Popular</h1>
 <h2 class="subtitulo">Characters, shared memory, and cultural circulation</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -30,6 +31,7 @@ flowchart LR
   click AN "/en/images-of-the-ancestors.html" "Go to Images of the Ancestors"
   click PA "/en/papelucho.html" "Go to Papelucho"
   click PM "/en/under-construction.html" "Series in development"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Images of the Popular</strong> works with characters and codes that move through daily

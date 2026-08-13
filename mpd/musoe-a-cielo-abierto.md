@@ -21,7 +21,8 @@ mermaid: true
 <!-- Mermaid: Wallmapu ñi azentun (ruta hacia Musoe a Cielo Abierto) -->
 
 <!-- Mermaid: Wallmapu ñi azentun (ruta hacia Musoe a Cielo Abierto) -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
@@ -38,6 +39,7 @@ flowchart LR
   click AN "/mpd/imagenes-ancestros.html" "Kuifikeche ñi pu az mew amun"
   click TA "/mpd/mapuche-urbano.html" "La Tala de la Memoria mew amun"
   click MU "/mpd/musoe-a-cielo-abierto.html" "Faw müleymi"
+</script>
 </div>
 
 

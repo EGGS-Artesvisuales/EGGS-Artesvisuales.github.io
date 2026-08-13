@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Images of Capitalism</h1>
 <h2 class="subtitulo">Labor, value, and power in everyday life</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -35,6 +36,7 @@ flowchart LR
   click C3 "/en/the-bagger.html" "Go to El Empaquetador"
   click C4 "/en/face-of-hope.html" "Go to Rostro Esperanza"
   click C5 "/en/tragedian.html" "Go to Tragedian"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Images of Capitalism</strong> brings together works that examine how economic systems

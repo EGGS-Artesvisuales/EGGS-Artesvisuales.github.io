@@ -30,7 +30,8 @@ mermaid: true
   <a class="fancy-button" href="/en/the-hanged-man.html"><div class="button-content"><p class="title">View archive</p><p class="subtitle">Full curatorial series.</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((The Hanged Man)) --> U[Prints by unit]
   U --> N1[No. 01]
@@ -38,4 +39,5 @@ flowchart LR
   U --> N3[No. 03]
   U --> N4[No. 04]
   U --> N5[No. 05]
+</script>
 </div>

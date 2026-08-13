@@ -711,6 +711,63 @@ hr.separador--aire {
   margin: 2.5rem 0;
 }
 
+.no-js .mermaid {
+  display: none !important;
+}
+
+.mermaid-fallback,
+.mermaid-render-failed {
+  max-width: 58rem;
+  margin: 1.5rem auto;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-left: 3px solid var(--color-destacado, #58a6ff);
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.045);
+  font-family: var(--parrafo-font, system-ui, sans-serif);
+  line-height: 1.6;
+}
+
+.mermaid-fallback strong {
+  color: #fff;
+}
+
+.mermaid-fallback p {
+  margin: 0.35rem 0 0;
+}
+
+.mermaid-text-alternative {
+  max-width: 58rem;
+  margin: 1rem auto 2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.76);
+  background: rgba(255, 255, 255, 0.025);
+  font-family: var(--parrafo-font, system-ui, sans-serif);
+  line-height: 1.5;
+  text-align: left;
+}
+
+.mermaid-text-alternative summary {
+  color: #fff;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.mermaid-text-alternative ul {
+  margin: 0.85rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.mermaid-text-alternative li + li {
+  margin-top: 0.4rem;
+}
+
+.mermaid-text-alternative a {
+  color: #fff;
+  text-decoration-color: var(--color-destacado, #58a6ff);
+}
+
 .mermaid svg {
   display: inline-block;
   background: transparent !important;
@@ -2925,9 +2982,9 @@ footer::before {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1rem;
-  border: 1px solid var(--site-red);
+  border: 1px solid #c92f1b;
   color: #fff;
-  background: var(--site-red);
+  background: #c92f1b;
   font-family: var(--parrafo-font);
   font-size: 0.75rem;
   font-weight: 850;

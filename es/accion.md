@@ -12,7 +12,8 @@ mermaid: true
 <br>
 
 <!-- Mapa / diagrama -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Actividad artística)) --> B([Representación del mundo])
   A --> C((Acción en el mundo))
@@ -29,6 +30,7 @@ flowchart LR
 
   click C1 "/es/comunitario.html" "Ir a Lo Comunitario"
   click C2 "/es/subrepticio.html" "Ir a Lo Subrepticio"
+</script>
 </div>
 
 <br>

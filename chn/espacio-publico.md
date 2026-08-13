@@ -58,7 +58,8 @@ mermaid: true
 </section>
 
 <!-- DIAGRAMA MERMAID -->
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A[世界的代表] --> A1[有形的]
   A --> A2[无形资产]
@@ -102,6 +103,7 @@ graph LR
   click P1 "#理查德-普林斯感染" "看到理查德·普林斯被感染"
   click P2 "" "查看克拉斯·奥尔登堡感染"
   click P3 "#奥希金斯半身像" "参观奥希金斯的半身像"
+</script>
 </div>
 
 <br><br>

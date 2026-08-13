@@ -30,7 +30,8 @@ mermaid: true
   <a class="fancy-button" href="/chn/el-colgado.html"><div class="button-content"><p class="title">查看档案</p><p class="subtitle">完整策展系列。</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((El Colgado)) --> B[身体]
   A --> R[仪式]
@@ -38,4 +39,5 @@ flowchart LR
   A --> P[摄影]
   P --> U[单件销售]
   U --> E[限量版]
+</script>
 </div>

@@ -12,7 +12,8 @@ mermaid: true
 
 <h2 class="subtitulo">Wallmapu ñi kalül azentun</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(("Kalül mew"))
@@ -29,6 +30,7 @@ flowchart LR
   click saturacion "/mpd/saturacion.html" "Amun: Fentepun"
   click tecnologia "/mpd/en-construccion.html" "Amun: Teknologia"
   click intangible "/mpd/intangible.html" "Amun: Püllü mew"
+</script>
 </div>
 <br>
 

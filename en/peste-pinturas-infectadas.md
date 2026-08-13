@@ -38,7 +38,8 @@ zh_url: /chn/peste-pinturas-infectadas.html
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo">Curatorial map</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   RM((Representation of the World))
   TAN((The Tangible))
@@ -60,6 +61,7 @@ flowchart LR
   PI --> PRINTS
 
   click PRINTS "/en/store.html#impresiones-y-fotografia" "Buy prints"
+</script>
 </div>
 
 <p class="parrafo"><a class="enlace" href="/en/contact.html">Enquire about original work, commissions or availability</a></p>

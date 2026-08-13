@@ -30,11 +30,13 @@ mermaid: true
   <a class="fancy-button" href="/mpd/tienda.html"><div class="button-content"><p class="title">Trafkintu</p><p class="subtitle">Küdaw ka edición müley.</p></div></a>
 </div>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Antipublicidad)) --> PP[PP Series]
   A --> C[Serie Carteles]
   A --> P[Pirateria Publicitaria]
   A --> M[Modelos de intervencion]
   A --> T[Trafkintu / chillka]
+</script>
 </div>

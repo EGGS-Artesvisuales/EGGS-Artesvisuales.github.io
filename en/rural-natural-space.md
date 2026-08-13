@@ -6,7 +6,6 @@ description: "Works that displace painting into rural and natural environments, 
 permalink: /en/rural-natural-space.html
 keywords: "rural space, natural space, expanded painting, landscape, The Plague, Esteban Garnica"
 carousel: true
-mermaid: true
 ---
 
 <h1 class="titulo">Rural / Natural Space</h1>

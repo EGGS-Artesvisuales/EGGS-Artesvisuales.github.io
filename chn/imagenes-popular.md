@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">民众图像</h1>
 <h2 class="subtitulo">人物、共享记忆与文化流通</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -33,6 +34,7 @@ flowchart LR
   click AN "/chn/imagenes-ancestros.html" "前往祖先图像"
   click PA "/chn/papelucho.html" "前往 Papelucho"
   click PM "/chn/en-construccion.html" "系列发展中"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>民众图像</strong>处理穿行于日常生活、童年、媒介与集体记忆中的人物和文化代码。

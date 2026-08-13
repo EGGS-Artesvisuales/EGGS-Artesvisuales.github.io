@@ -12,7 +12,8 @@ mermaid: true
 
 <h2 class="subtitulo">Representación del mundo material</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((Representación del Mundo))
   tangible(("Lo Tangible"))
@@ -29,6 +30,7 @@ flowchart LR
   click saturacion "/es/saturacion.html" "Ir a La Saturación"
   click tecnologia "/es/en-construccion.html" "Ir a La Tecnología"
   click intangible "/es/intangible.html" "Ir a Lo Intangible"
+</script>
 </div>
 <br>
 

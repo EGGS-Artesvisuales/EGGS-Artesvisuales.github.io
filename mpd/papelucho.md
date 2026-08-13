@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Papelucho</h1>
 <h2 class="subtitulo">Escultura, pichikeche ñi mogen ka Chile ñi popular memoria</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Wallmapu ñi azentun)) --> T([Kalül mew])
   A --> I((Püllü mew))
@@ -30,6 +31,7 @@ flowchart LR
   click AN "/mpd/imagenes-ancestros.html" "Kuifikeche ñi pu az mew amun"
   click PA "/mpd/papelucho.html" "Faw müleymi"
   click PM "/mpd/en-construccion.html" "Dewmalechi küdaw"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Papelucho</strong> kiñe 2022 escultura Chile ñi pichikeche chillka

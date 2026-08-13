@@ -162,7 +162,8 @@ mermaid: true
       </div>
       <p>Una lectura sintética de las relaciones entre ambas dimensiones y las líneas de trabajo que contienen.</p>
     </header>
-    <div class="world-map__diagram mermaid">
+    <div class="world-map__diagram mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart TB
   representacion(("Representación del Mundo"))
   tangible(["Lo Tangible"])
@@ -184,6 +185,7 @@ flowchart TB
   click capitalismo "/es/imagenes-capitalismo.html" "Ir a Imágenes del Capitalismo"
   click popular "/es/imagenes-popular.html" "Ir a Imágenes de lo Popular"
   click ancestros "/es/imagenes-ancestros.html" "Ir a Imágenes de los Ancestros"
+</script>
     </div>
     <a href="/es/diagrama.html" class="world-text-link">Abrir el mapa completo de la obra</a>
   </section>

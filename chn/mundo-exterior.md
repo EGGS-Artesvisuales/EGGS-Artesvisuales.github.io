@@ -15,7 +15,8 @@ mermaid: true
 <h1 class="titulo">世界的代表</h1>
 <h2 class="subtitulo">当代人的肖像</h2>
 <br>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   principal((艺术活动))
   representacion(("世界的代表"))
@@ -35,6 +36,7 @@ flowchart LR
   click intangible "/chn/intangible.html" "走向无形"
   click accion "/chn/accion.html" "前往世界各地行动"
   click interior "/chn/interior.html" "走进内心世界"
+</script>
 </div>
 
 <br>
@@ -61,7 +63,8 @@ flowchart LR
 
 <h2 class="subtitulo">有形的</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((世界的代表))
   tangible(("有形的"))
@@ -78,6 +81,7 @@ flowchart LR
   click saturacion "/chn/saturacion.html" "转到饱和度"
   click tecnologia "/chn/en-construccion.html" "前往技术"
   click intangible "/chn/intangible.html" "走向无形"
+</script>
 </div>
 <br>
 
@@ -122,7 +126,8 @@ flowchart LR
 
 <h2 class="subtitulo">无形的</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((世界的代表))
   tangible(["有形的"])
@@ -141,6 +146,7 @@ flowchart LR
   click capitalismo "/chn/imagenes-capitalismo.html" "前往资本主义形象"
   click ancestros "/chn/imagenes-ancestros.html" "前往祖先画像"
   click popular "/chn/imagenes-popular.html" "前往热门图片"
+</script>
 </div>
 
 

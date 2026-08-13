@@ -12,7 +12,8 @@ mermaid: true
 <h2 class="subtitulo">Artistic practices with social and territorial impact</h2>
 <br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Artistic Practice)) --> B([Representation of the World])
   A --> C((Action in the World))
@@ -28,6 +29,7 @@ flowchart LR
 
   click C1 "/en/community.html" "Go to Community"
   click C2 "/en/subreptitious.html" "Go to Subreptitious"
+</script>
 </div>
 
 <br>

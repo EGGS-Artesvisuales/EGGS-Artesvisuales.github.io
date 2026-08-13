@@ -11,7 +11,8 @@ mermaid: true
 <h1 class="titulo">Wallmapu ñi azentun</h1>
 <h2 class="subtitulo">Fachi antü ñi adentu</h2>
 <br>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   principal((Az-küdaw küdaw))
   representacion(("Wallmapu ñi azentun"))
@@ -31,6 +32,7 @@ flowchart LR
   click intangible "/mpd/intangible.html" "Amun: Püllü mew"
   click accion "/mpd/accion.html" "Amun: Mapu mew Küdaw"
   click interior "/mpd/interior.html" "Amun: Püle rakizuam"
+</script>
 </div>
 
 <br>
@@ -67,7 +69,8 @@ flowchart LR
 
 <h2 class="subtitulo">Kalül mew</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(("Kalül mew"))
@@ -84,6 +87,7 @@ flowchart LR
   click saturacion "/mpd/saturacion.html" "Amun: Fentepun"
   click tecnologia "/mpd/en-construccion.html" "Amun: Teknologia"
   click intangible "/mpd/intangible.html" "Amun: Püllü mew"
+</script>
 </div>
 <br>
 
@@ -141,7 +145,8 @@ flowchart LR
 
 <h2 class="subtitulo">Püllü mew</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   representacion((Wallmapu ñi azentun))
   tangible(["Kalül mew"])
@@ -160,6 +165,7 @@ flowchart LR
   click capitalismo "/mpd/imagenes-capitalismo.html" "Amun: Capitalismo ñi pu az"
   click ancestros "/mpd/imagenes-ancestros.html" "Amun: Kuifikeche ñi pu az"
   click popular "/mpd/imagenes-popular.html" "Amun: Pu che ñi pu az"
+</script>
 </div>
 
 

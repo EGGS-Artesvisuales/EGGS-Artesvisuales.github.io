@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Papelucho</h1>
 <h2 class="subtitulo">Escultura, infancia y memoria popular chilena</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -30,6 +31,7 @@ flowchart LR
   click AN "/es/imagenes-ancestros.html" "Ir a Imágenes de las Ancestras"
   click PA "/es/papelucho.html" "Estás aquí"
   click PM "/es/en-construccion.html" "Serie en desarrollo"
+</script>
 </div>
 <section class="parrafo">
   <p>

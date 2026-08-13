@@ -85,7 +85,8 @@ mermaid: true
 
 <hr class="separador">
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   A(("世界的代表")) --> B(("有形的"))
   A --> B2(["无形资产"])
@@ -108,6 +109,7 @@ graph LR
   click D2 "/chn/la-peste.html" "参见瘟疫"
   click E "/chn/pinturas-wifi.html" "查看 Wi-Fi 画作"
   click F "/chn/en-construccion.html" "参见绘画动作"
+</script>
 </div>
 
 <br>

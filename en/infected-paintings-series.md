@@ -34,7 +34,8 @@ zh_url: /chn/serie-pinturas-infectadas.html
 <hr class="separador separador--aire" />
 
 <h2 class="subtitulo">Short map of the series</h2>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   PI((Infected Paintings))
   MAT([Waste and advertising])
@@ -51,6 +52,7 @@ flowchart LR
 
   click PRINTS "/en/store.html#impresiones-y-fotografia" "Buy prints"
   click ARCH "/en/peste-pinturas-infectadas.html" "View full archive"
+</script>
 </div>
 
 <p class="parrafo"><a class="enlace" href="/en/contact.html">Enquire about original work, commissions or availability</a></p>

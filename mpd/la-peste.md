@@ -46,7 +46,8 @@ mermaid: true
 
 <br><br>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   %% --- Macroestructura ---
   Z(("Wallmapu ñi azentun")) --> Y(("Kalül mew"))
@@ -96,6 +97,7 @@ flowchart LR
   click F1 "/mpd/espacio-domestico.html" "Amun: Püle Ruka mew"
   click F2 "/mpd/espacio-publico.html" "Amun: Püle Fütra che mew"
   click F3 "/mpd/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
+</script>
 </div>
 
 

@@ -34,7 +34,8 @@ mermaid: true
 </div>
 
 <h3 class="subtitulo2">在策展地图中的位置</h3>
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((世界的再现)) --> T([有形])
   A --> I((无形))
@@ -57,6 +58,7 @@ flowchart LR
   click C3 "/chn/el-empaquetador.html" "前往 El Empaquetador"
   click C4 "/chn/rostro-esperanza.html" "前往 Rostro Esperanza"
   click C5 "/chn/tragedian.html" "前往 Tragedian"
+</script>
 </div>
 
 <h3 class="subtitulo2">技术资料</h3>

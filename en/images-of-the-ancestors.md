@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Images of the Ancestors</h1>
 <h2 class="subtitulo">Memory, territory, and cultural continuity</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((World Representation)) --> T([The Tangible])
   A --> I((The Intangible))
@@ -29,6 +30,7 @@ flowchart LR
   click AN "/en/images-of-the-ancestors.html" "You are here"
   click TA "/en/urban-mapuche.html" "Go to The Felling of Memory"
   click MU "/en/musoe-open-air.html" "Go to Musoe Open Air"
+</script>
 </div>
 <section class="parrafo">
   <p><strong>Images of the Ancestors</strong> brings together works that connect memory, identity,

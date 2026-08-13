@@ -26,7 +26,8 @@ mermaid: true
 <br>
 
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 graph LR
   Z([Wallmapu ñi azentun])
   Y([Kalül mew])
@@ -57,6 +58,7 @@ graph LR
   click F2 "/mpd/espacio-publico.html" "Amun: Püle Fütra che mew"
   click F3 "/mpd/espacio-rural.html" "Amun: Püle Mapu lof mew / Natural"
 
+</script>
 </div>
 
 <br>

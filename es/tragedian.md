@@ -12,7 +12,8 @@ mermaid: true
 <h1 class="titulo">Tragedian</h1>
 <h2 class="subtitulo">Objeto, instrucción y violencia administrada</h2>
 
-<div class="mermaid">
+<div class="mermaid" data-mermaid-diagram>
+<script type="text/plain" class="mermaid-source">
 flowchart LR
   A((Representación del Mundo)) --> T([Lo Tangible])
   A --> I((Lo Intangible))
@@ -35,6 +36,7 @@ flowchart LR
   click C3 "/es/el-empaquetador.html" "Ir a El Empaquetador"
   click C4 "/es/rostro-esperanza.html" "Ir a Rostro Esperanza"
   click C5 "/es/tragedian.html" "Estás aquí"
+</script>
 </div>
 <section class="parrafo">
   <p>
