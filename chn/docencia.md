@@ -53,6 +53,15 @@ carousel: true
           </p>
         </div>
       </div>
+
+      <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          新挑战
+        </div>
+        <div class="text-container">
+          <p><strong>即将推出：</strong>新的教学经验和项目。</p>
+        </div>
+      </div>
     </div>
 
     <!-- 2025 -->

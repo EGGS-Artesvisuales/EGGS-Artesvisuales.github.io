@@ -49,6 +49,15 @@ carousel: true
           </p>
         </div>
       </div>
+
+      <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          Nuevos desafíos
+        </div>
+        <div class="text-container">
+          <p><strong>Próximamente:</strong> nuevas experiencias y proyectos docentes.</p>
+        </div>
+      </div>
     </div>
 
     <!-- 2025 -->

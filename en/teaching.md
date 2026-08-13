@@ -44,6 +44,15 @@ permalink: /en/teaching.html
           </p>
         </div>
       </div>
+
+      <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          New challenges
+        </div>
+        <div class="text-container">
+          <p><strong>Coming soon:</strong> new teaching experiences and projects.</p>
+        </div>
+      </div>
     </div>
 
     <!-- 2025 -->

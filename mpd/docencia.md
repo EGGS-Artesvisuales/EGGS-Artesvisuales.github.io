@@ -48,6 +48,15 @@ permalink: /mpd/docencia.html
           </p>
         </div>
       </div>
+
+      <div class="entry">
+        <div class="fun-button right" style="opacity: 0.5; cursor: not-allowed;">
+          We küdaw
+        </div>
+        <div class="text-container">
+          <p><strong>Próximamente:</strong> we kimeltun zugu ka küdaw.</p>
+        </div>
+      </div>
     </div>
 
     <!-- 2025 -->
